@@ -281,10 +281,11 @@ figure img,
   margin: 0 auto;
 }
 
-/* Knife profile figures must always show the complete product.  Earlier
- * fixed-height styling made some long or tall source crops appear clipped
- * or too small in the PDF.  Preserve the intrinsic aspect ratio, enlarge
- * the useful visual area, and keep the whole figure together on one page. */
+/* Knife profile figures must always show the complete product.  The catalog
+ * crops themselves have an opaque white matte; on a white PDF page the pale
+ * polished edge can visually disappear and look clipped even when the whole
+ * image is present.  A very light neutral field plus multiply blending keeps
+ * the original crop intact while making the entire blade contour visible. */
 .kb-profile-visual,
 .kb-profile-visual figure {
   break-inside: avoid-page;
@@ -297,6 +298,14 @@ figure img,
   margin: 4mm auto 6mm;
 }
 
+.kb-profile-visual figure {
+  padding: 3mm;
+  border: 0.25mm solid var(--kb-rule);
+  border-radius: 2mm;
+  background: #f2f4f5;
+  isolation: isolate;
+}
+
 .kb-profile-visual img,
 .kb-profile-visual--handle img {
   display: block;
@@ -307,10 +316,69 @@ figure img,
   object-fit: contain !important;
   object-position: center !important;
   margin: 0 auto;
+  mix-blend-mode: multiply;
+  filter: contrast(1.04);
 }
 
 .kb-profile-visual--material img {
   max-height: 38mm !important;
+}
+
+/* The original Knife Blade Shapes catalog page is a landscape spread made of
+ * two tall columns.  The live page duplicates the same authorized master
+ * image into two vertical viewports.  Print each half at almost twice the
+ * previous scale so the labels and silhouettes are actually legible. */
+.kb-shape-index-split {
+  width: 100%;
+  margin: 4mm auto 8mm;
+}
+
+.kb-shape-index-split__figure {
+  width: 150mm;
+  max-width: 100%;
+  margin: 0 auto;
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+.kb-shape-index-split__figure + .kb-shape-index-split__figure {
+  break-before: page;
+  page-break-before: always;
+}
+
+.kb-shape-index-split__viewport {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 649.5 / 902;
+  overflow: hidden;
+  border: 0.25mm solid var(--kb-rule);
+  border-radius: 2mm;
+  background: #fff;
+}
+
+.kb-shape-index-split__viewport img {
+  display: block;
+  width: 200% !important;
+  max-width: none !important;
+  height: auto !important;
+  max-height: none !important;
+  margin: 0 !important;
+}
+
+.kb-shape-index-split__viewport--left img {
+  transform: translateX(0);
+}
+
+.kb-shape-index-split__viewport--right img {
+  transform: translateX(-50%);
+}
+
+.kb-shape-index-split__figure figcaption {
+  margin-top: 2mm;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  color: var(--kb-muted);
+  text-align: center;
 }
 
 /*
