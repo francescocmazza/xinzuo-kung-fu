@@ -2,11 +2,12 @@
   const MASTER_INDEX_NAME = "master-knife-shape-index.svg";
 
   /*
-   * Some of the original catalog crops are technically complete but are so
-   * tight to the crop boundary that the profile reads as truncated in the
-   * book. Others were genuinely incomplete. For the rendered guide, replace
-   * those specific examples with complete XINZUO product views that leave
-   * visible breathing room around the whole knife.
+   * Several catalog crops are so tight to the product boundary that, once
+   * reduced for A4, a complete knife can still read as if its blade were
+   * truncated.  For the forms below use complete product photographs with
+   * generous surrounding space, and deliberately render them larger than the
+   * older catalog crops.  These are examples of the form, not definitions of
+   * every model sold under the category name.
    */
   const PROFILE_REPLACEMENTS = [
     {
@@ -29,9 +30,9 @@
     },
     {
       match: "/knife-shapes/carving.jpg",
-      src: "https://xinzuocutlery.com/cdn/shop/files/b8421501ceee8ed8defa49d79fc692df_706e57b0-6338-4148-8af1-22a707e6175b.jpg?v=1760753576",
-      alt: "Complete Xinzuo classic carving knife with a clear long narrow blade profile",
-      caption: "A complete Xinzuo carving-knife example with a clear long, narrow profile for controlled draw slicing."
+      src: "https://images-knifestock-cdn.rshop.sk/default/products/9d9e1bcebeec3ebac17225974a360fca.png",
+      alt: "Complete Xinzuo Jiang B46W ten-inch carving knife with the whole long narrow blade visible",
+      caption: "Xinzuo Jiang B46W 10-inch carving knife, used as a clear example of the classic long, narrow carving profile."
     },
     {
       match: "/knife-shapes/roast-carving.jpg",
@@ -41,15 +42,15 @@
     },
     {
       match: "/knife-shapes/granton-carving.jpg",
-      src: "https://xinzuocutlery.com/cdn/shop/products/1_5_e9fa736b-34a4-4bd5-bec9-3adba062cdb5.jpg?v=1727083777",
-      alt: "Complete Xinzuo Zhi Series Granton carving knife",
-      caption: "A complete Xinzuo Zhi Series Granton carving knife, with the full long blade and blade-face hollows visible."
+      src: "https://www.semiblack.sg/cdn/shop/products/78db7c484e00c3b8d2fca663eedd0563.jpg?v=1704191052",
+      alt: "Complete Xinzuo Granton-edge slicing and carving knife with the whole blade visible",
+      caption: "A complete Xinzuo Granton-edge slicing and carving knife, shown as a single uninterrupted profile so the long blade and hollows are easy to read."
     },
     {
       match: "/knife-shapes/ham.jpg",
-      src: "https://xinzuocutlery.com/cdn/shop/products/1_4.jpg?v=1657936788&width=533",
-      alt: "Complete Xinzuo Zhi Series ham knife with the entire long narrow blade visible",
-      caption: "A complete Xinzuo Zhi Series ham knife, shown with enough surrounding space to make its extra-long, narrow profile clear."
+      src: "https://images-knifestock-cdn.rshop.sk/default/products/746838a2f66ed756ce82db160d2e1422.png",
+      alt: "Complete Xinzuo B35 ten-inch ham knife with the entire long narrow blade visible",
+      caption: "Xinzuo B35 10-inch ham knife, shown complete to make its extra-long, narrow slicing profile clear."
     },
     {
       match: "/knife-shapes/ultimate-utility.jpg",
@@ -64,6 +65,27 @@
     const repo = parts.indexOf("xinzuo-kung-fu");
     if (repo < 0) return "";
     return parts.slice(repo + 2).join("/") || "index";
+  }
+
+  function enlargeReplacement(image) {
+    /* Inline !important declarations survive the PDF export clone and override
+     * the conservative 48 mm cap used by ordinary catalog crops.  Square
+     * product photos therefore remain complete but large enough for the reader
+     * to judge the shape rather than appearing as small decorative thumbnails. */
+    image.style.setProperty("width", "auto", "important");
+    image.style.setProperty("max-width", "94%", "important");
+    image.style.setProperty("height", "auto", "important");
+    image.style.setProperty("max-height", "70mm", "important");
+    image.style.setProperty("object-fit", "contain", "important");
+    image.style.setProperty("mix-blend-mode", "normal", "important");
+    image.style.setProperty("filter", "none", "important");
+
+    const figure = image.closest("figure");
+    if (figure) {
+      figure.style.setProperty("padding", "4mm", "important");
+      figure.style.setProperty("min-height", "78mm", "important");
+      figure.style.setProperty("justify-content", "center", "important");
+    }
   }
 
   function replaceMalformedProfileSources(article) {
@@ -82,6 +104,7 @@
       image.removeAttribute("width");
       image.removeAttribute("height");
       image.dataset.kbProfileReplacement = "done";
+      enlargeReplacement(image);
 
       const caption = image.closest("figure")?.querySelector("figcaption");
       if (caption) caption.textContent = replacement.caption;
