@@ -55,21 +55,25 @@ You do not have to read from beginning to end.
 
 For self-study, choose one question from your own kitchen and follow it through the relevant chapters. For staff training, use each chapter as a short lesson: learn the central idea, demonstrate it safely, invite the learner to try it, then ask them to explain the result without jargon. A good explanation helps a customer choose; it should never pressure them toward the most expensive option.
 
-## Part I - Master the movement
+## Part I - Choose the knife
+
+### Knife shapes and their uses
+
+Shape is the first practical decision because it determines how the knife approaches food. The chapter presents every form with its own complete Xinzuo image immediately below the name, followed by a discursive explanation of why the blade has that profile, which movement it supports, where it is most useful and which work can damage it.
+
+The sequence starts with general-purpose knives, then moves through vegetable and Chinese forms, long slicers, boning and fish knives, small precision tools, serrated knives and heavy choppers. Specialist Japanese and Xinzuo-specific commercial names are explained in relation to the broader work they perform rather than presented as a list to memorize.
+
+## Part II - Master the movement
 
 ### Single and double bevels
 
 The bevel is the sloping part that leads to the cutting edge. Its position changes steering, food separation, handedness and sharpening. The chapter also explains a practical way to use a single-bevel knife made for the opposite hand: arrange the work so that the blade travels away from the guiding hand or away from the body.
 
-### Knife shapes and their uses
-
-Knife names become useful only when connected to movement and food. This chapter begins with the families most cooks actually meet: chef's knives, Chinese chef's knives, carving and slicing knives, boning and fillet knives, bread knives, small utility knives and heavy choppers. Japanese forms such as gyuto, santoku, sujihiki, yanagiba and deba are then explained as particular solutions within those broader families.
-
 ### How to cut
 
 The practical heart of the book covers straight chopping, push cutting, draw slicing, rocking, tip work, cutting across the grain, julienne, dicing, mincing, peeling, boning and filleting. Each essential movement includes a purpose, a safe setup, a simple exercise and a common error to correct.
 
-## Part II - Understand the material
+## Part III - Understand the material
 
 ### The five dimensions of knife steel
 
@@ -87,7 +91,7 @@ Carbon, chromium, molybdenum, vanadium and other alloying elements are explained
 
 These chapters separate historical crucible steel, modern pattern welding, layered cladding and surface decoration. They also explain the limited differential-wear effect sometimes called self-sharpening in full-Damascus blades.
 
-## Part III - Protect and restore the edge
+## Part IV - Protect and restore the edge
 
 ### Safe use and carrying
 

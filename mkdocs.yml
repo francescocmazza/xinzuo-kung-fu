@@ -53,9 +53,9 @@ extra_javascript:
 nav:
   - Preface: preface.md
   - The Kung Fu of Xinzuo: index.md
+  - Knife Shapes and Their Uses: 05-knife-types/overview.md
   - Master the Movement:
       - Single and Double Bevels: 04-geometry-and-bevels/single-and-double-bevels.md
-      - Knife Shapes and Their Uses: 05-knife-types/overview.md
       - How to Cut - Essential Techniques: 06-cutting-techniques/essential-cutting-techniques.md
   - Understand the Material:
       - The Five Dimensions of Knife Steel: 01-foundations/five-dimensions-of-knife-steel.md

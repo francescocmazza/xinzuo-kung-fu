@@ -281,6 +281,38 @@ figure img,
   margin: 0 auto;
 }
 
+/* Knife profile figures must always show the complete product.  Earlier
+ * fixed-height styling made some long or tall source crops appear clipped
+ * or too small in the PDF.  Preserve the intrinsic aspect ratio, enlarge
+ * the useful visual area, and keep the whole figure together on one page. */
+.kb-profile-visual,
+.kb-profile-visual figure {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+.kb-profile-visual {
+  width: 100%;
+  max-width: 165mm;
+  margin: 4mm auto 6mm;
+}
+
+.kb-profile-visual img,
+.kb-profile-visual--handle img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: 48mm !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  margin: 0 auto;
+}
+
+.kb-profile-visual--material img {
+  max-height: 38mm !important;
+}
+
 /*
  * The printable A4 content area is roughly 259mm tall (297mm minus the
  * 20mm/18mm top/bottom margins). A full-width portrait image can render

@@ -3,13 +3,19 @@ title: Single and Double Bevels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-22
+reviewed: 2026-08-23
 translation_priority: highest
 ---
 
 # Single and Double Bevels
 
 Cut a tall potato with two different knives and you may notice something surprising. One blade falls almost straight. Another seems to pull sideways, even though your hand is trying to guide it forward. The difference may come from the bevel - the sloping surface that leads to the cutting edge.
+
+Before comparing single and double bevels, it is useful to separate three parts that are often confused in everyday language.
+
+The **primary bevel** is the broader ground surface that reduces the thickness of the blade as it approaches the edge. Close to the very edge, many kitchen knives then have a much smaller secondary facet: the **edge bevel**, often called a **microbevel** when it is especially narrow. The two edge bevels, or the edge bevel and the opposite face in some asymmetric constructions, finally meet at the **apex** - the microscopic line that actually cuts.
+
+This distinction matters because ordinary resharpening of a double-bevel knife normally works on the narrow edge bevel or microbevel, not by laying the entire broad primary bevel flat on the stone. Grinding the whole primary bevel changes the geometry behind the edge and belongs to operations such as thinning, geometry correction or deliberate reprofiling. Not every knife shows a clearly separate microbevel to the naked eye, so the practical reference is the small facet immediately behind the apex that the stone must actually reach.
 
 Bevel geometry changes four things that a cook can actually feel:
 
@@ -29,11 +35,11 @@ Seven common bevel families, shown without fixed-language labels: 1. symmetrical
 
 ## Double bevel: the familiar all-purpose edge
 
-A double-bevel knife is sharpened from both sides. Seen from the front, the two sloping surfaces meet like a narrow V.
+A double-bevel knife is sharpened from both sides. Seen from the front, the two sides converge toward a narrow V-shaped edge. On many knives the broad blade grind and the tiny edge bevel are visibly different surfaces; on others the transition is subtle.
 
 Because food is displaced on both sides, a reasonably symmetrical double bevel tends to travel straight. This is one reason it works so well for general cooking and for either hand.
 
-Most Western chef's knives, carving and slicing knives (including sujihiki), utility and petty knives, gyuto, santoku, bunka, nakiri and many Chinese chef's knives are double bevel.
+Most Western chef's knives, carving and slicing knives (including sujihiki), utility and petty knives, gyuto, santoku, bunka, nakiri and many Chinese cleavers and slicing knives are double bevel.
 
 ### How it feels during a cut
 
@@ -63,6 +69,16 @@ Common examples include:
 - selected kiritsuke, mukimono and other traditional specialist forms.
 
 The name of a Japanese profile does not prove its grind. Modern manufacturers sometimes make double-bevel versions of traditionally single-bevel forms. Check the specification of the exact Xinzuo model before describing handedness or sharpening.
+
+### The main bevel does not necessarily keep one angle from heel to tip
+
+A single-bevel blade is three-dimensional. As it approaches the tip, the blade becomes lower because its outline narrows. On well-made knives the spine may also become progressively thinner toward the tip, a feature known as **distal taper**. Those two changes alter the relationship between blade thickness, bevel width and edge position.
+
+For that reason, the local angle of the broad single bevel **can vary along the length of the knife**. Heel, middle and tip should not automatically be treated as one perfectly uniform plane with one theoretical angle. The effect is particularly noticeable on blades with strong distal taper or a rapidly narrowing point.
+
+During primary-bevel sharpening, let the actual contact of the bevel with the stone guide the hand. As the stroke moves toward the tip, the position of the knife may need to change gradually so that the local section of the broad bevel remains correctly supported. Forcing the same wrist position and the same nominal angle from heel to tip can grind only one part of the bevel, overwork another part or gradually change the knife's intended geometry.
+
+This is one reason single-bevel sharpening rewards slow inspection. Watch where the stone is removing steel, use marker or reflected light when useful, and preserve the geometry that is already present rather than trying to impose an abstract constant angle on the entire blade.
 
 ## The urasuki is not an unfinished back
 
@@ -132,18 +148,22 @@ Bevel type is only one part of the answer.
 
 For an ordinary symmetrical double bevel:
 
-1. identify the existing bevel;
-2. keep a consistent angle;
+1. identify the narrow edge bevel or microbevel immediately behind the apex;
+2. place that small facet, not the whole broad primary bevel, at a consistent angle on the stone;
 3. work the first side until a light burr reaches the full edge;
 4. repeat on the second side;
 5. reduce pressure;
 6. alternate sides and remove the burr.
 
-Fifteen degrees per side is a useful visual reference for many thin kitchen knives, not a universal prescription. Follow the existing geometry and the manufacturer's guidance.
+Fifteen degrees per side is a useful visual reference for many thin kitchen knives, not a universal prescription. Follow the existing edge geometry and the manufacturer's guidance.
+
+> **Do not confuse sharpening with thinning.** Routine edge sharpening removes a small amount of steel at the edge bevel. Laying a broad primary bevel on the stone changes the blade behind the edge and should be done only when that geometric change is intended.
 
 ## Sharpening a traditional single bevel
 
-The broad main bevel is normally placed against the stone and worked as a surface. The reverse is then laid nearly flat and touched lightly to remove the burr while preserving the urasuki and its surrounding flats.
+Traditional single-bevel primary sharpening is different. Here the broad main bevel itself is normally worked against the stone, while the reverse is laid nearly flat and touched lightly to remove the burr while preserving the urasuki and its surrounding flats.
+
+Do not assume that the broad bevel presents exactly the same local angle from heel to tip. As blade height and spine thickness reduce toward the point, follow the actual bevel contact and adapt the hand gradually to the geometry already present.
 
 Do not convert the reverse into a normal secondary bevel. Do not thin the hollow indiscriminately. A high-value single-bevel knife deserves model-specific instruction or a sharpener familiar with this construction.
 
@@ -167,11 +187,13 @@ Within Xinzuo's range, compare the exact model rather than relying on the profil
 
 ## What to remember
 
+- The broad primary bevel and the narrow edge bevel or microbevel are not the same surface.
+- Routine double-bevel sharpening normally follows the edge bevel or microbevel; working the broad primary bevel is a separate geometry operation.
 - Double bevel describes sharpening from both sides, not necessarily perfect symmetry.
 - Single bevel describes a complete geometry, often including an urasuki.
+- On a single bevel, the local main-bevel angle can change along the blade as height and thickness change toward the tip.
 - A single-bevel knife is optimized for one hand but can often be used with the other.
-- The most practical opposite-hand method is to reorient the food so the blade travels away from the supporting hand or away from the body.
 - Steering should be managed through setup and direction, not forced sideways correction.
 - Neither family is automatically sharper, stronger or more prestigious.
 
-> **Practice principle:** when the bevel cannot change hands, change the setup—place the food so the blade travels away from the guiding hand or away from the body.
+> **Practice principle:** preserve the geometry that is actually on the knife. At the edge, follow the edge bevel; on a traditional single bevel, follow the local main-bevel contact rather than forcing a theoretical constant angle.

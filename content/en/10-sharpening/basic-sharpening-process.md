@@ -3,7 +3,7 @@ title: A Practical Sharpening Process
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-22
+reviewed: 2026-08-23
 translation_priority: high
 ---
 
@@ -13,15 +13,13 @@ Sharpening a knife is often presented as a performance of perfect angles, rapid 
 
 The underlying process is much simpler:
 
-> Sharpening removes steel from the two sides of the edge until they meet again in a clean apex.
+> Sharpening removes steel until the sides of the edge meet again in a clean apex.
 
-Everything else-the stone grit, angle, pressure, burr and finishing method-helps control that process.
+Everything else - stone grit, angle, pressure, burr and finishing method - helps control that process.
 
-This chapter introduces a practical method for ordinary double-bevel kitchen knives. It explains what to observe and why each step exists, without requiring specialist equipment.
+This chapter introduces a practical method for ordinary double-bevel kitchen knives. It explains what to observe and why each step exists, without requiring specialist equipment. Traditional single-bevel knives such as yanagiba, usuba and deba need a different approach because their broad main bevel and hollow reverse side form a specific geometry; that difference is explained separately below.
 
-Traditional single-bevel knives such as yanagiba, usuba and deba need a different approach because their broad bevel and hollow reverse side form a specific geometry.
-
-Sharpening becomes easier to learn when it is divided into observable stages: stabilize the stone, find the bevel, reach the apex, reduce the burr and test the result. A beginner does not need to imitate the speed of an experienced sharpener. Each stage can be practised and improved separately.
+Sharpening becomes easier to learn when it is divided into observable stages: stabilize the stone, find the **edge bevel or microbevel**, reach the apex, reduce the burr and test the result. A beginner does not need to imitate the speed of an experienced sharpener. Each stage can be practised and improved separately.
 
 ## Before beginning: understand the goal
 
@@ -29,7 +27,9 @@ A dull edge is not necessarily completely destroyed. In most cases, the apex has
 
 Sharpening rebuilds that line.
 
-The goal is not to polish the sides of the knife for as long as possible. It is not to create a dramatic burr. It is not to count a fixed number of strokes.
+Before going further, keep three surfaces distinct. The **primary bevel** is the broader grind that reduces blade thickness toward the edge. The **edge bevel**, often called a **microbevel** when it is very narrow, is the small facet immediately behind the apex. The **apex** is the final microscopic line that cuts.
+
+On an ordinary double-bevel knife with a distinct edge bevel or microbevel, routine sharpening is performed by bringing that small edge facet into contact with the stone. It does **not** normally mean laying the whole broad primary bevel flat on the stone. Working the primary bevel changes thickness behind the edge and belongs to thinning, reprofiling or other deliberate geometry work.
 
 The goal is to:
 
@@ -49,7 +49,7 @@ A basic sharpening setup requires:
 - a stable stone holder or non-slip base;
 - a clean cloth;
 - good lighting;
-- enough workspace for the full stroke.
+- enough workspace for a full sweeping stroke from tip to heel.
 
 Useful optional items include:
 
@@ -58,7 +58,7 @@ Useful optional items include:
 - a flattening stone or lapping plate;
 - a magnifying glass;
 - a leather or fabric strop;
-- a marker pen for checking the bevel.
+- a marker pen for checking the edge bevel.
 
 The equipment does not need to be complicated. A single good medium-grit water stone can restore many normally dull kitchen knives.
 
@@ -73,19 +73,13 @@ Check for:
 - chips;
 - dents;
 - rolled sections;
-- uneven bevel width;
+- uneven edge-bevel width;
 - a damaged or rounded tip;
 - excessive thickness behind the edge;
 - corrosion near the apex;
 - a previous asymmetrical sharpening pattern.
 
-Then ask whether the knife needs routine sharpening or repair.
-
-A knife that still cuts but has lost some bite may need only a medium or fine stone.
-
-A knife with a very dull, rounded edge may need a medium-coarse stone.
-
-A chipped or severely damaged edge may need a coarse stone and more advanced work.
+Then ask whether the knife needs routine sharpening or repair. A knife that still cuts but has lost some bite may need only a medium or fine stone. A very dull rounded edge may need a medium-coarse stone. A chipped or severely damaged edge may need a coarse stone and more advanced work.
 
 Choosing too fine a stone for major damage wastes time. Choosing a very coarse stone for light maintenance removes more steel than necessary.
 
@@ -101,159 +95,116 @@ A practical classification is:
 - **4000-6000 grit:** fine finishing and polishing;
 - **8000 grit and above:** specialized polishing and very refined edges.
 
-The ranges overlap because grit standards and stone behaviour vary.
+The ranges overlap because grit standards and stone behaviour vary. For many kitchen knives, a medium stone around 800-1000 grit is a useful starting point. It removes enough material to restore the edge without creating the deep scratches of a repair stone.
 
-For many kitchen knives, a medium stone around 800-1000 grit is a useful starting point. It removes enough material to restore the edge without creating the deep scratches of a repair stone.
-
-Higher grit is not automatically better. A medium-grit finish can retain more microscopic bite and perform extremely well on tomatoes, meat and fibrous foods. A highly polished edge may be desirable for push cutting and presentation work.
-
-Choose the finish according to the job, not according to the largest number available.
+Higher grit is not automatically better. A medium-grit finish can retain more microscopic bite and perform extremely well on tomatoes, meat and fibrous foods. A highly polished edge may be desirable for push cutting and presentation work. Choose the finish according to the job, not according to the largest number available.
 
 ## Step 3: prepare and secure the stone
 
-Prepare the stone according to its construction.
-
-Most traditional absorbent water stones should be immersed until the release of bubbles has substantially stopped. Splash-and-go and special stones may require only surface wetting or no soaking. The manufacturer's instructions always take priority.
+Prepare the stone according to its construction. Most traditional absorbent water stones should be immersed until the release of bubbles has substantially stopped. Splash-and-go and special stones may require only surface wetting or no soaking. The manufacturer's instructions always take priority.
 
 Check that the stone is flat. If it is visibly hollow, flatten it before sharpening.
 
-Place it on a secure holder, rubber base or damp cloth. Test it with the hand. It should not move when pressure is applied.
+Place it on a secure holder, rubber base or damp cloth. Test it with the hand. It should not move when pressure is applied. Wet the surface and keep water nearby.
 
-Wet the surface and keep water nearby.
+## Step 4: identify the existing edge bevel or microbevel
 
-## Step 4: identify the existing bevel
+This is the point at which terminology matters most. On a normal double-bevel kitchen knife, do not automatically use the broad primary grind as the sharpening reference. Look for the much narrower facet immediately behind the cutting edge: the **edge bevel or microbevel**.
 
-The bevel is the sloping area that leads to the edge. In routine sharpening, the easiest and safest approach is usually to follow the existing bevel.
-
-A marker pen can help. Colour the bevel near the edge, then make one or two very light strokes on the stone.
+A marker pen can help. Colour the small edge bevel, not the whole side of the knife, then make one or two very light strokes on the stone.
 
 Inspect where the ink has disappeared.
 
-If the ink is removed mainly near the shoulder of the bevel but remains at the apex, the angle is too low.
+- If ink disappears above the apex while colour remains at the very edge, the angle is too low and the stone is not yet reaching the apex.
+- If only the extreme edge is touched and the rest of the existing edge bevel remains marked, the angle is steeper than the existing edge bevel.
+- If the stone removes the marker across the intended narrow edge facet and reaches the apex, the angle is close to the existing geometry.
 
-If the ink is removed only at the very edge, the angle may be higher than the existing bevel.
+This is a learning tool, not a permanent requirement. With practice, the user learns to feel and see when the **edge bevel**, rather than the broad primary bevel, is lying correctly on the stone.
 
-If the ink is removed evenly across the bevel, the angle is close.
-
-This is a learning tool, not a permanent requirement. With practice, the user learns to feel when the bevel is lying correctly on the stone.
+> **Important:** laying the whole primary bevel on the stone is a different operation. It may be appropriate for thinning, deliberate geometry correction, or for the broad bevel of a traditional single-bevel knife, but it is not the default instruction for routine sharpening of an ordinary double-bevel edge.
 
 ## Step 5: understand the angle
 
-A sharpening angle is the angle between the side of the blade and the stone.
+A sharpening angle is the angle between the blade and the stone that brings the intended edge facet into contact with the abrasive.
 
-Around 15 degrees per side is a useful reference for many thin double-bevel kitchen knives. It is not a universal rule.
+Around 15 degrees per side is a useful reference for many thin double-bevel kitchen knives. It is not a universal rule. A lower angle creates a thinner, more efficient edge but reduces the amount of steel supporting the apex. A higher angle creates a stronger edge but increases cutting resistance.
 
-A lower angle creates a thinner, more efficient edge but reduces the amount of steel supporting the apex.
+Heavy-duty knives, cleavers and softer steels may use stronger angles. Fine Japanese knives may use lower or asymmetrical geometry. The product's existing edge bevel and intended work should guide the choice.
 
-A higher angle creates a stronger edge but increases cutting resistance.
-
-Heavy-duty knives, cleavers and softer steels may use stronger angles. Fine Japanese knives may use lower or asymmetrical geometry. The product's existing bevel and intended work should guide the choice.
-
-For a beginner, consistency matters more than calculating a perfect number. A stable 16-degree angle is better than an angle that moves unpredictably between 10 and 25 degrees.
+For a beginner, consistency matters more than calculating a perfect number. A stable angle that follows the actual microbevel is better than chasing a nominal value while rocking between the shoulder and the apex.
 
 ## Step 6: establish a stable body position
 
 Good angle control begins with the body, not only the hands.
 
-Stand comfortably in front of the stone. Keep the shoulders relaxed. Position the stone so the full blade can move without obstruction.
+Stand comfortably in front of the stone. Keep the shoulders relaxed. Position the stone so the **entire blade can sweep across it without obstruction**.
 
-The hand holding the handle controls the angle and direction. The fingers of the other hand apply pressure close to the area of the edge being sharpened.
+The hand holding the handle controls angle and direction. The fingers of the other hand apply controlled pressure near the portion of edge that is currently crossing the stone. As the blade sweeps from tip toward heel, the support and pressure should travel with the working area instead of remaining fixed far away from it.
 
-Do not press far away from the working area. Pressure should follow the section of blade that is in contact with the stone.
-
-The wrists should remain stable. The movement can come from the arms and upper body rather than repeated bending of the wrist.
+The wrists should remain stable. Let the arms and upper body create most of the motion rather than repeatedly bending the wrist.
 
 ## Step 7: place the knife on the stone
 
-Place the blade diagonally across the stone so that a useful length of edge contacts the surface.
+For the full-length method taught here, begin with the **tip area on the stone**. Set the knife diagonally enough that the blade has room to travel across the stone.
 
-Lift the spine until the bevel meets the stone at the chosen angle.
+Raise the spine until the narrow edge bevel or microbevel reaches the stone at the intended angle. Before adding pressure, make a few very light movements. Listen and feel. A stable edge bevel often produces even resistance. If the knife rocks between the broad blade grind and the apex, the angle is changing.
 
-Before applying pressure, make a few light movements. Listen and feel.
+## Step 8: use a full-length sweeping stroke
 
-A stable bevel often produces an even sound and smooth resistance. If the blade rocks between the shoulder and the apex, the angle is changing.
+For ordinary sharpening, the recommended learning movement is a controlled **transverse or diagonal sweep that works the entire edge in each pass**.
 
-## Step 8: work in sections
+Start with the tip on the abrasive. As the knife moves across the stone, draw it sideways so that the contact travels progressively from **tip, through the curved front and middle, to the heel**. By the end of the stroke, the heel has crossed the working surface. Reset and repeat the same complete path.
 
-Long blades are easier to sharpen in controlled sections.
+The blade is usually much longer than the stone is wide. The sideways component is therefore essential: it allows a narrow stone to sharpen a long edge uniformly. Think of the stone tracing the entire cutting line during one continuous movement rather than polishing one stationary patch.
 
-A common sequence is:
+During each pass:
 
-- heel;
-- middle;
-- curved front section;
-- tip.
+- maintain the edge-bevel or microbevel angle;
+- keep the movement smooth and continuous;
+- allow pressure to follow the part of the edge currently on the stone;
+- cover tip, middle and heel in the same pass;
+- keep the stone appropriately wet or lubricated;
+- avoid stopping and pressing repeatedly on one small area unless a local correction is deliberately required.
 
-Place two or three supporting fingertips near the edge over the section being worked. Keep them safely above the cutting edge.
+Using full-length passes makes it easier to distribute wear evenly and reduces the risk of sharpening the middle much more than the tip or heel.
 
-Move the knife along the stone with a controlled stroke. The motion may be edge-leading, edge-trailing or a combination depending on the method being taught.
+### When section work is useful
 
-The important points are:
-
-- maintain the angle;
-- keep pressure controlled;
-- cover the full section;
-- avoid sudden changes near the tip;
-- keep the stone wet.
-
-A fixed number of strokes can help a beginner maintain rhythm, but it does not determine completion. Ten strokes may be too many in one area and too few in another.
-
-The real completion signal is the burr.
+Working in sections is still a valid technique for an exceptionally long blade, a damaged local area, a tip that has not reached the apex, or advanced corrective work. It is an **alternative or corrective method**, not the default movement taught in this guide. When a local section is corrected, return to light full-length passes so the edge is blended and finished consistently.
 
 ## Step 9: follow the curve toward the tip
 
-The tip is often the most difficult area because the edge curves away from the stone.
+The tip is the most demanding part of a full-length sweep because the cutting edge curves away from the stone.
 
-If the knife is moved without adjustment, the tip may never contact the abrasive correctly.
+At the beginning of the stroke, while the tip and curved front are crossing the abrasive, the handle may need to be **raised slightly and progressively** so the local microbevel remains correctly in contact. As the stroke travels toward the straighter middle and heel, the hand naturally follows the changing profile.
 
-As the sharpening movement reaches the front of the blade, slightly raise the handle and rotate the knife so the curved edge remains in contact with the stone.
+This movement is not an instruction to make the tip angle arbitrarily steeper. The purpose is to follow the curvature of the edge while preserving the intended local edge angle.
 
-The adjustment should be smooth, not a sudden lift.
-
-Too much lifting creates an overly steep and rounded tip. Too little leaves the tip dull.
-
-Check the tip frequently rather than grinding it heavily all at once.
+Too much lifting rounds and over-steepens the tip. Too little leaves part of the tip untouched. Marker, reflected light and frequent inspection help while learning.
 
 ## Step 10: form a light continuous burr
 
-Continue sharpening the first side until a small burr can be felt on the opposite side.
+Continue sharpening the first side until a small burr can be felt on the opposite side **from heel to tip**.
 
-Check from heel to tip.
+A complete sweeping stroke should normally work all of those zones together. If inspection shows that one local area has not yet formed a burr, correct that area briefly rather than unnecessarily grinding the entire edge, then return to full-length strokes.
 
-If the burr is present at the heel and middle but missing at the tip, work only the tip area. Do not continue grinding the entire edge unnecessarily.
-
-The burr should be light. A large wire edge means too much steel is being bent and removed.
-
-Once the burr is continuous, the first side has reached the apex.
+The burr should be light. A large wire edge means more steel than necessary is being bent and removed. Once the burr is continuous, the first side has reached the apex.
 
 ## Step 11: repeat on the second side
 
-Turn the knife over and establish the same or intended corresponding angle.
+Turn the knife over and establish the intended corresponding microbevel angle. Repeat the same full-length sweeping process, again covering tip, middle and heel during each regular pass.
 
-Repeat the process section by section.
+The goal is to move the burr consistently back toward the first side along the entire edge. This may take fewer strokes because the apex has already been reached from one direction.
 
-The goal is to move the burr consistently back toward the first side along the entire edge.
-
-This may take fewer strokes than the first side because the apex has already been reached from one direction.
-
-For a symmetrical edge, try to keep the amount of work reasonably balanced. For an intentionally asymmetrical edge, preserve the product's design rather than forcing equal bevels.
+For a symmetrical edge, keep the amount of work reasonably balanced. For an intentionally asymmetrical edge, preserve the product's design rather than forcing equal bevels.
 
 ## Step 12: reduce pressure
 
 Heavy or medium pressure removes material and forms the burr. The finishing stages require progressively lighter pressure.
 
-Reduce both pressure and number of strokes.
+Reduce both pressure and number of strokes. Alternate sides with increasingly light **full-edge** passes. The exact sequence is flexible. The purpose is to centre the edge, weaken the burr and reduce the deeper scratches created during the main sharpening stage.
 
-Alternate sides:
-
-- a few strokes on one side;
-- a few on the other;
-- two strokes per side;
-- one light stroke per side.
-
-The exact sequence is flexible. The purpose is to centre the edge, weaken the burr and reduce the deep scratches created during the main sharpening stage.
-
-At the end, pressure should be very light-only enough to keep the bevel in contact with the stone.
+At the end, pressure should be very light - only enough to keep the edge bevel in controlled contact with the stone.
 
 ## Step 13: decide whether to move to a finer stone
 
@@ -261,12 +212,12 @@ A finer stone is useful when the edge needs additional refinement.
 
 Move to the next stone when:
 
-- the bevel has reached the apex;
+- the edge bevel has reached the apex along its full length;
 - the main scratches are even;
 - the large burr has been reduced;
 - the knife needs a smoother or more polished finish.
 
-Do not move to a fine stone to avoid finishing the work on the coarse or medium stone. A fine stone polishes the shape that already exists. It cannot efficiently repair an incomplete bevel.
+Do not move to a fine stone to avoid finishing the work on the coarse or medium stone. A fine stone polishes the geometry that already exists. It cannot efficiently repair an incomplete edge.
 
 On the finer stone, use less pressure. The objective is refinement, not major material removal.
 
@@ -274,11 +225,9 @@ On the finer stone, use less pressure. The objective is refinement, not major ma
 
 A burr left on the edge creates false sharpness. It may cut paper, then fold or break during the first use.
 
-Deburring can combine several methods.
-
 ### Light alternating strokes
 
-Use minimal pressure and alternate sides. This is the most important stage.
+Use minimal pressure and alternate sides with controlled full-length passes. This is the most important stage.
 
 ### Edge-leading or edge-trailing finishing
 
@@ -286,9 +235,7 @@ Both techniques can work when controlled. Edge-leading strokes can cut away burr
 
 ### Stropping
 
-A leather or suitable strop can remove fine remaining burr material. Move the knife spine-first so the edge does not cut into the strop.
-
-Use few passes and light pressure. Excessive stropping rounds the apex.
+A leather or suitable strop can remove fine remaining burr material. Move the knife spine-first so the edge does not cut into the strop. Use few passes and light pressure. Excessive stropping rounds the apex.
 
 ### Cork or soft wood
 
@@ -300,11 +247,9 @@ The finished edge should not have a directional hook on either side.
 
 Rinse and dry the knife before testing.
 
-Look at the apex under good light. Bright reflections can indicate remaining flat or rolled areas.
+Look at the apex under good light. Bright reflections can indicate remaining flat or rolled areas. Check gently for remaining burr sections. Never run the finger along the edge.
 
-Check gently for remaining burr sections. Never run the finger along the edge.
-
-The bevels should appear consistent, although perfect visual symmetry is not required for every knife.
+The edge bevels should appear consistent, although perfect visual symmetry is not required for every knife.
 
 ## Step 16: test the result
 
@@ -312,17 +257,11 @@ No single test tells the whole story. Use several simple checks.
 
 ### Paper test
 
-Cut clean, dry paper with a controlled motion.
-
-A sharp edge should enter without excessive pressure and continue without repeated tearing. Try different parts of the edge to identify local dull sections.
-
-Paper rewards both sharpness and smoothness, but a fragile wire edge may also cut paper briefly.
+Cut clean, dry paper with a controlled motion. A sharp edge should enter without excessive pressure and continue without repeated tearing. Try different parts of the edge to identify local dull sections. Paper rewards both sharpness and smoothness, but a fragile wire edge may also cut paper briefly.
 
 ### Food test
 
-Use an ingredient relevant to the knife.
-
-A tomato tests the ability to begin a cut on a resistant skin. An onion shows whether the knife moves cleanly through layers. Herbs reveal crushing. Meat shows slicing bite.
+Use an ingredient relevant to the knife. A tomato tests the ability to begin a cut on a resistant skin. An onion shows whether the knife moves cleanly through layers. Herbs reveal crushing. Meat shows slicing bite.
 
 ### Visual and tactile burr check
 
@@ -330,21 +269,27 @@ Confirm that the burr has been removed.
 
 ### Cutting behaviour
 
-Observe whether the knife starts, follows and completes the cut cleanly. The practical result matters more than an impressive trick.
-
-Shaving arm hair is not required for normal kitchen sharpening and should not be used as the main standard.
+Observe whether the knife starts, follows and completes the cut cleanly. The practical result matters more than an impressive trick. Shaving arm hair is not required for normal kitchen sharpening and should not be used as the main standard.
 
 ## Step 17: clean the knife and stone
 
 Rinse the blade carefully to remove abrasive and steel residue. Dry it immediately.
 
-Rinse the stone. Remove loose swarf and inspect the surface.
+Rinse the stone. Remove loose swarf and inspect the surface. Check flatness. If the centre has begun to hollow, flatten the stone with a suitable plate or flattening stone.
 
-Check flatness. If the centre has begun to hollow, flatten the stone with a suitable plate or flattening stone.
+Allow the stone to air-dry fully in a ventilated place. Avoid heat and direct sun. Clean the work area so no abrasive residue remains on handles, cloths or food-preparation surfaces.
 
-Allow the stone to air-dry fully in a ventilated place. Avoid heat and direct sun.
+## Special case: sharpening a traditional single bevel
 
-Clean the work area so no abrasive residue remains on handles, cloths or food-preparation surfaces.
+A traditional single-bevel knife must not simply be treated as a double-bevel knife with one side omitted. Its broad main bevel, reverse flats and often the hollow **urasuki** form one connected geometry.
+
+During primary-bevel sharpening, the broad bevel is normally worked against the stone. The reverse is then placed almost flat and worked lightly enough to remove the burr while preserving the urasuki and the narrow reference flats around it.
+
+There is another important complication: **the broad single-bevel angle can vary along the length of the knife**. Moving from heel to tip, the blade becomes lower because its outline narrows. On high-quality knives the spine and blade stock also commonly become progressively thinner toward the point through **distal taper**. Because bevel angle depends on the relationship among local blade thickness, bevel width and blade height, heel, middle and tip do not necessarily present one identical plane.
+
+For that reason, do not lock the wrist at one theoretical primary-bevel angle and force that position all the way to the tip. Pay attention to the actual contact patch. As the blade narrows and thins, adapt the position gradually so the local bevel lies correctly on the stone. Marker, reflected light and the wear pattern on the bevel can reveal whether only one strip is being ground.
+
+The reverse side requires equal discipline. Do not raise it into a normal secondary bevel and do not grind indiscriminately into the urasuki. For an expensive single-bevel knife, model-specific instruction or an experienced specialist is preferable to aggressive experimentation.
 
 ## Pressure: how much is enough?
 
@@ -352,7 +297,7 @@ Pressure is difficult to describe with a universal number, but the stages are ea
 
 ### Main sharpening
 
-Use enough pressure for the stone to cut efficiently while the angle remains stable. Do not force the blade.
+Use enough pressure for the stone to cut efficiently while the edge angle remains stable. Do not force the blade.
 
 ### Refinement
 
@@ -370,17 +315,15 @@ For Xinzuo knives, the steel and intended task guide the abrasive and finish. DI
 
 Xinzuo's full-Damascus differential-wear mechanism does not eliminate sharpening. When such a blade eventually needs restoration, sharpen the complete edge normally and avoid polishing choices that unintentionally remove all useful slicing bite.
 
-The ideal finish depends on use.
-
-A medium finish provides bite and is excellent for general kitchen work, tomatoes, meat and fibrous vegetables.
-
-A fine finish produces a smoother edge and can support clean push cuts, delicate fish preparation and refined slicing.
-
-An ultra-polished edge is not automatically better. On some foods it may slide before beginning the cut, especially if the apex is not perfect.
+A medium finish provides bite and is excellent for general kitchen work, tomatoes, meat and fibrous vegetables. A fine finish produces a smoother edge and can support clean push cuts, delicate fish preparation and refined slicing. An ultra-polished edge is not automatically better. On some foods it may slide before beginning the cut, especially if the apex is not perfect.
 
 The edge should match the knife's purpose.
 
 ## Common sharpening mistakes
+
+### Sharpening the primary bevel instead of the microbevel
+
+On an ordinary double-bevel knife, laying the whole broad primary bevel on the stone removes far more steel and changes the geometry behind the edge. Routine resharpening should normally follow the narrow edge bevel or microbevel.
 
 ### Counting strokes instead of reading the edge
 
@@ -388,7 +331,7 @@ Stroke counts help rhythm but do not prove that the apex has been reached.
 
 ### Changing the angle constantly
 
-An unstable angle rounds the bevel and slows progress.
+An unstable angle rounds the edge bevel and slows progress.
 
 ### Starting with a stone that is too fine
 
@@ -398,13 +341,13 @@ A fine stone can spend a long time polishing above a dull edge.
 
 Heavy pressure makes angle control difficult and creates a large burr.
 
-### Ignoring the tip and heel
+### Sharpening only the centre of the blade
 
-These areas often remain dull while the centre is over-sharpened.
+Short repetitive strokes can overwork the middle while the tip and heel remain dull. Use the full tip-to-heel sweep as the normal pass and reserve section work for correction.
 
 ### Moving to the second side before the burr is continuous
 
-The first bevel may remain incomplete.
+The first side may remain incomplete.
 
 ### Leaving the burr attached
 
@@ -426,24 +369,24 @@ Fifteen degrees is a useful reference, not a universal law.
 
 1. Inspect the edge and identify damage.
 2. Choose a stone coarse enough for the work.
-3. Prepare and flatten the stone.
-4. Secure it on a non-slip surface.
-5. Identify the existing bevel with light strokes or a marker.
-6. Sharpen the first side in sections.
-7. Follow the curve toward the tip.
-8. Form the smallest continuous burr possible.
-9. Repeat on the second side until the burr moves back.
-10. Reduce pressure and alternate sides.
-11. Move to a finer stone only if the intended finish requires it.
-12. Remove the burr completely.
-13. Inspect and test on paper and suitable food.
-14. Wash and dry the knife.
-15. Rinse, flatten and air-dry the stone.
+3. Prepare, flatten and secure the stone.
+4. Identify the existing **edge bevel or microbevel** with light strokes or a marker.
+5. Start with the tip on the stone.
+6. Sweep transversely so each normal pass travels from tip through middle to heel.
+7. Follow the belly by adjusting the handle smoothly while preserving the local edge angle.
+8. Form the smallest continuous burr possible along the entire edge.
+9. Repeat the same full-length movement on the second side until the burr moves back.
+10. Use local section work only where a specific area genuinely needs correction, then blend with full-length passes.
+11. Reduce pressure and alternate sides.
+12. Move to a finer stone only if the intended finish requires it.
+13. Remove the burr completely.
+14. Inspect and test on paper and suitable food.
+15. Wash and dry the knife, then rinse, flatten and air-dry the stone.
 
 ## What to remember
 
-> Sharpening is not completed by counting strokes. Follow the existing bevel, work until a light burr appears from heel to tip, repeat on the second side, then reduce pressure and remove the burr. The finished edge should be clean, stable and appropriate for the way the knife will be used.
+> Routine double-bevel sharpening follows the **edge bevel or microbevel**, not the whole primary bevel. Use a controlled full-length sweep so the stone works from tip to heel on every regular pass, form a light continuous burr, repeat on the second side, then reduce pressure and deburr. A traditional single bevel is different: its broad bevel is part of the sharpening geometry, and its local angle may change as the blade narrows and thins toward the tip.
 
 The most valuable skill is not moving the knife quickly. It is learning to observe what the stone is doing to the edge.
 
-> **Practice principle:** watch the edge, not the stroke count.
+> **Practice principle:** watch the contact, preserve the geometry, and let every normal pass include the whole edge.

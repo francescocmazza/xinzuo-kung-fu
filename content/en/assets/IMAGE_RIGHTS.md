@@ -29,6 +29,7 @@ The following approved images in `assets/images/approved/` are cropped or adapte
 - `knife-shape-silhouettes-neutral.png`
 - `damascus-pattern-knives-neutral.png`
 - `stable-whetstone-neutral.png`
+- all individually reviewed product crops in `knife-shapes/*.jpg`
 
 These images, along with any Xinzuo logos and promotional photographs that may appear elsewhere in this project, **remain the property of their respective copyright holder**. They are included in this project with the repository owner's authorization for the specific educational use of this book.
 
