@@ -1,12 +1,56 @@
 (() => {
   const MASTER_INDEX_NAME = "master-knife-shape-index.svg";
 
+  /*
+   * Several catalog crops are so tight to the product boundary that, once
+   * reduced for A4, a complete knife can still read as if its blade were
+   * truncated.  For the forms below use complete product photographs with
+   * generous surrounding space, and deliberately render them larger than the
+   * older catalog crops.  These are examples of the form, not definitions of
+   * every model sold under the category name.
+   */
   const PROFILE_REPLACEMENTS = [
     {
+      match: "/knife-shapes/bunka.jpg",
+      src: "https://xinzuo.com.au/cdn/shop/files/83-bunka-knife-zhen-series-x05z-5419220.jpg?v=1765683912&width=1024",
+      alt: "Complete Xinzuo Zhen X05Z bunka knife with the full K-tip and handle visible",
+      caption: "Xinzuo Zhen X05Z Bunka Knife, shown complete so the low angular K-tip and full blade profile are easy to read."
+    },
+    {
+      match: "/knife-shapes/granton-chef.jpg",
+      src: "https://xinzuo.com.au/cdn/shop/files/X02-RSCS-t.png?v=1777419899&width=800",
+      alt: "Complete Xinzuo Granton-edge chef knife with the whole blade and handle visible",
+      caption: "A complete Xinzuo Granton-edge chef knife, with the hollows and full curved profile clearly visible."
+    },
+    {
+      match: "/knife-shapes/nakiri.jpg",
+      src: "https://xinzuo.com.au/cdn/shop/files/73-nakiri-knife-yu-series-b13r-2977756.jpg?v=1765683923&width=1024",
+      alt: "Complete Xinzuo Yu Series B13R nakiri knife with full blade and handle visible",
+      caption: "Xinzuo Yu Series B13R Nakiri, shown complete so the straight edge and front geometry are easy to distinguish."
+    },
+    {
       match: "/knife-shapes/carving.jpg",
-      src: "https://xinzuocutlery.com/cdn/shop/files/1_84254a19-a07d-4e20-be9f-43da4038d4a9.jpg?v=1700209806&width=720",
-      alt: "Complete Xinzuo Jiang Series carving knife used as a classic carving-profile example",
-      caption: "A complete current Xinzuo carving-knife example, showing the long, narrow profile used for controlled draw slicing."
+      src: "https://images-knifestock-cdn.rshop.sk/default/products/9d9e1bcebeec3ebac17225974a360fca.png",
+      alt: "Complete Xinzuo Jiang B46W ten-inch carving knife with the whole long narrow blade visible",
+      caption: "Xinzuo Jiang B46W 10-inch carving knife, used as a clear example of the classic long, narrow carving profile."
+    },
+    {
+      match: "/knife-shapes/roast-carving.jpg",
+      src: "https://sharpedgenation.ae/cdn/shop/files/B37sCarvingmain.webp?v=1717152749&width=416",
+      alt: "Xinzuo Lan Series B37S-10QR roast carving knife shown complete",
+      caption: "Xinzuo Lan Series B37S-10QR, used here as the roast-carving example; its long blade and pronounced upward sweep are fully visible."
+    },
+    {
+      match: "/knife-shapes/granton-carving.jpg",
+      src: "https://www.semiblack.sg/cdn/shop/products/78db7c484e00c3b8d2fca663eedd0563.jpg?v=1704191052",
+      alt: "Complete Xinzuo Granton-edge slicing and carving knife with the whole blade visible",
+      caption: "A complete Xinzuo Granton-edge slicing and carving knife, shown as a single uninterrupted profile so the long blade and hollows are easy to read."
+    },
+    {
+      match: "/knife-shapes/ham.jpg",
+      src: "https://images-knifestock-cdn.rshop.sk/default/products/746838a2f66ed756ce82db160d2e1422.png",
+      alt: "Complete Xinzuo B35 ten-inch ham knife with the entire long narrow blade visible",
+      caption: "Xinzuo B35 10-inch ham knife, shown complete to make its extra-long, narrow slicing profile clear."
     },
     {
       match: "/knife-shapes/ultimate-utility.jpg",
@@ -23,6 +67,27 @@
     return parts.slice(repo + 2).join("/") || "index";
   }
 
+  function enlargeReplacement(image) {
+    /* Inline !important declarations survive the PDF export clone and override
+     * the conservative 48 mm cap used by ordinary catalog crops.  Square
+     * product photos therefore remain complete but large enough for the reader
+     * to judge the shape rather than appearing as small decorative thumbnails. */
+    image.style.setProperty("width", "auto", "important");
+    image.style.setProperty("max-width", "94%", "important");
+    image.style.setProperty("height", "auto", "important");
+    image.style.setProperty("max-height", "70mm", "important");
+    image.style.setProperty("object-fit", "contain", "important");
+    image.style.setProperty("mix-blend-mode", "normal", "important");
+    image.style.setProperty("filter", "none", "important");
+
+    const figure = image.closest("figure");
+    if (figure) {
+      figure.style.setProperty("padding", "4mm", "important");
+      figure.style.setProperty("min-height", "78mm", "important");
+      figure.style.setProperty("justify-content", "center", "important");
+    }
+  }
+
   function replaceMalformedProfileSources(article) {
     if (pageKey() !== "05-knife-types/overview") return;
 
@@ -36,7 +101,10 @@
       image.alt = replacement.alt;
       image.loading = "eager";
       image.removeAttribute("srcset");
+      image.removeAttribute("width");
+      image.removeAttribute("height");
       image.dataset.kbProfileReplacement = "done";
+      enlargeReplacement(image);
 
       const caption = image.closest("figure")?.querySelector("figcaption");
       if (caption) caption.textContent = replacement.caption;

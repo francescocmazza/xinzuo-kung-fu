@@ -3,7 +3,7 @@ title: The Kung Fu of Xinzuo
 author: Francesco Claudio Mazza
 status: review
 language: en
-reviewed: 2026-08-22
+reviewed: 2026-08-23
 ---
 
 # The Kung Fu of Xinzuo
@@ -28,20 +28,29 @@ Xinzuo knives provide the examples because the range brings together Western, Ja
 
 ## What “kung fu” means here
 
-Outside China, *kung fu* is often understood as a martial art. The Chinese expression *gongfu* (功夫) also carries a broader idea: skill developed through effort, patience and time. That is exactly the kind of mastery a kitchen knife asks from us. It is not a collection of tricks. It is the habit of observing carefully, understanding the reason for a result and repeating a good movement until it becomes natural.
+Outside China, *kung fu* is often understood mainly as a martial art. The Chinese expression *gongfu* (功夫), however, also carries the broader idea of a skill patiently cultivated through effort, attention and time. That broader meaning is the reason for the title of this book.
 
-The title therefore makes a promise. This is not a book to admire from a distance. It is a guide to knowledge that becomes visible in the hand: a straighter slice, a safer grip, a cleaner edge, a more suitable recommendation and a clearer explanation.
+The purpose of *The Kung Fu of Xinzuo* is to guide a **personal growth in knowledge and in the practical use of kitchen knives**. The goal is not to memorize a catalogue of shapes, steels and techniques, nor to collect isolated tricks. It is to become progressively more capable of seeing what a knife is doing, understanding why it behaves that way and choosing a better response with the hand.
 
-## The Xinzuo practice cycle
+That kind of learning follows the same principles that give *gongfu* its deeper meaning. **Observation** teaches us to notice details that were previously invisible: where the edge touches the food, how the blade steers, where resistance appears, how the balance changes with the grip. **Study** gives those observations a structure by connecting them to geometry, steel, heat treatment, sharpening and technique. **Experimentation** allows us to test an explanation safely and deliberately rather than accepting it only because it was written in a book. **Repetition** turns a correct idea into a reliable movement, while patience and self-correction prevent repetition from becoming merely mechanical.
 
-Use the same four-part cycle throughout the book:
+A movement is therefore not mastered because it has been performed once, and a technical concept is not truly learned because its definition has been memorized. Knowledge becomes *kung fu* when it survives contact with practice: when the user can recognize a problem, understand its cause, try a controlled adjustment, observe the result and refine the movement until it becomes natural and repeatable.
 
-1. **Observe.** Look at the food, the blade and the path of the cut before moving.
-2. **Understand.** Connect what you see to shape, steel, bevel or technique.
-3. **Practise.** Work slowly enough to repeat the movement with control.
-4. **Care and explain.** Maintain the tool, then describe the lesson in plain words.
+The title therefore makes a promise. This is not a book to admire from a distance. It is a guide intended to make knowledge increasingly visible in the hand: a straighter slice, a safer grip, a cleaner edge, a more deliberate choice of knife and a clearer explanation of why a result occurs.
 
-The final step matters. If you can explain why a flat-edged nakiri suits straight chopping, why a thin Chinese chef's knife is not a bone cleaver, or why a burr must be removed, you have understood more than a label.
+## From knowledge to skill
+
+The most useful way to work through this book is not as a rigid four-step cycle, but as an **ongoing process of observation, study, experiment and repetition**. These stages continually feed one another.
+
+Begin by observing a real task. Look at the ingredient, the blade, the grip and the path of the cut. Notice where the movement feels easy and where it becomes uncertain. Then use the relevant chapters to study the reason: the answer may lie in blade shape, thickness, bevel geometry, balance, steel, sharpness or technique.
+
+The next step is to test that explanation carefully. Change one thing at a time whenever possible: alter the angle of the blade, the position of the hand, the direction of the stroke, the pressure on the stone or the choice of knife. A useful experiment should make the result easier to read, not introduce several new variables at once.
+
+Finally, repeat what works. Repetition matters because a good movement must become stable enough to survive different ingredients, speeds and working conditions. But useful repetition always contains feedback: observe the result again, notice small errors and correct them. In this sense, practice is not simply doing the same thing many times; it is **repeating with attention until understanding and movement begin to reinforce each other**.
+
+Care for the knife is part of the same discipline. Cleaning, storing and sharpening it correctly preserve the conditions in which good technique can work. Being able to explain the reason for a result is another sign that the knowledge has become solid. If you can explain why a flatter nakiri behaves differently from a curved chef's knife, why a single bevel can steer, or why a burr must be removed, you have moved beyond a label and toward genuine understanding.
+
+This process has no final endpoint. As skill grows, the same knife reveals details that were previously unnoticed. A beginner may first learn to keep the blade stable; later the same person begins to feel changes in resistance, balance, edge condition and geometry. That continuing refinement is the sense in which this book uses the word *kung fu*.
 
 ## How to use this book
 
@@ -53,7 +62,9 @@ You do not have to read from beginning to end.
 - If steel names and hardness numbers are confusing, read **The Five Dimensions of Knife Steel** before the steel chapter.
 - If the knife has become dull, read the three sharpening chapters in sequence.
 
-For self-study, choose one question from your own kitchen and follow it through the relevant chapters. For staff training, use each chapter as a short lesson: learn the central idea, demonstrate it safely, invite the learner to try it, then ask them to explain the result without jargon. A good explanation helps a customer choose; it should never pressure them toward the most expensive option.
+For self-study, choose one question from your own kitchen and follow it through the relevant chapters. Read enough to form an explanation, then test that explanation carefully in practice and return to the text with what you observed. The second reading will often reveal more than the first because you now have a physical experience to connect to the words.
+
+For staff training, use each chapter in the same spirit: learn the central idea, demonstrate it safely, invite the learner to try it and then discuss what changed. A good explanation helps a customer choose; it should never pressure them toward the most expensive option.
 
 ## Part I - Choose the knife
 
@@ -125,4 +136,4 @@ The book does not rank every feature from worst to best. A thin slicer and a rob
 
 Choose one question you genuinely have. Why does your knife stick in a potato? Why does a single bevel pull sideways? Why does one steel feel easy on a stone while another seems to resist it? Read until you can answer that question in your own words, then test the explanation carefully in the kitchen.
 
-That is the kung fu of this book: useful knowledge, made real through practice.
+That is the kung fu of this book: useful knowledge, made real through observation, study, experimentation and repetition.
