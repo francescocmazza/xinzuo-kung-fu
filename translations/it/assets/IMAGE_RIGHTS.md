@@ -1,5 +1,5 @@
 ---
-source_hash: 8b4e55fe1ef3bbbe6d31d2262321a3ed413132ca5133cf05b0b1cb62c9d7ce30
+source_hash: 720ca2706ff0426b0d2e00bb55a88d681f4940433a1597e957af3b22313d608d
 ---
 
 # Diritti di immagine
@@ -33,6 +33,7 @@ Le seguenti immagini approvate in `assets/images/approved/` sono ritagliate o ad
 - `knife-shape-silhouettes-neutral.png`
 - `damascus-pattern-knives-neutral.png`
 - `stable-whetstone-neutral.png`
+- tutte le colture di prodotto oggetto di revisione individuale in `knife-shapes/*.jpg`
 
 Queste immagini, insieme a eventuali loghi Xinzuo e fotografie promozionali che potrebbero apparire altrove in questo progetto, **restano di proprietà del rispettivo titolare del copyright**. Sono incluse in questo progetto con l'autorizzazione del proprietario del repository per l'uso didattico specifico di questo libro.
 

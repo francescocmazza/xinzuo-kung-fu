@@ -1,10 +1,16 @@
 ---
-source_hash: d0bb8d2ffe4fa41f862d9eb907c1ece3fd5ed3c37f30df919543df35de8d9cb2
+source_hash: 5aab459a1b6b799c38a1767086a6debbc1f62fd3d2fc3ed1b5c66595b7f081d0
 ---
 
 # Smussatura singola e doppia
 
 Tagliare una patata alta con due coltelli diversi e si può notare qualcosa di sorprendente. Una lama cade quasi dritta. Un altro sembra tirare lateralmente, anche se la mano sta cercando di guidarlo in avanti. La differenza può venire dal bisello - la superficie inclinata che porta al tagliente.
+
+Prima di confrontare singoli e doppi smussi, è utile separare tre parti che sono spesso confuse nella lingua quotidiana.
+
+Lo smusso **primario** è la superficie del suolo più ampia che riduce lo spessore della lama mentre si avvicina al bordo. Vicino al bordo stesso, molti coltelli da cucina hanno poi una sfaccettatura secondaria molto più piccola: lo smusso **bordo**, spesso chiamato **microbiglio** quando è particolarmente stretto. I due smussi o il bordo smussato e la faccia opposta in alcune costruzioni asimmetriche, infine si incontrano al **apex** - la linea microscopica che taglia effettivamente.
+
+Questa distinzione è importante perché la riaffilatura ordinaria di un coltello a doppia bisellatura normalmente funziona sul bordo stretto bisellatura o microbiglia, non posando l'intera ampia bisellatura primaria piatta sulla pietra. Macinando l'intera bisellatura primaria cambia la geometria dietro il bordo e appartiene a operazioni come assottigliamento, correzione della geometria o riprofilazione deliberata. Non ogni coltello mostra un microbiglia chiaramente separato ad occhio nudo, quindi il riferimento pratico è la piccola sfaccettatura immediatamente dietro l'apice che la pietra deve effettivamente raggiungere.
 
 La geometria smussata cambia quattro cose che un cuoco può sentire:
 
@@ -24,11 +30,11 @@ Sette famiglie comuni smussate, mostrate senza etichette in lingua fissa: 1. sim
 
 ## Doppia smussatura: il bordo tutto-uso familiare
 
-Un coltello a doppia bisellatura è affilato da entrambi i lati. Visto dal davanti, le due superfici inclinate si incontrano come una stretta V.
+Un coltello a doppia bisellatura è affilato da entrambi i lati. Visto dal davanti, i due lati convergono verso uno stretto bordo a V. Su molti coltelli la lama larga macina e il bordo piccolo smussatura sono superfici visibilmente diverse; su altri la transizione è sottile.
 
 Poiché il cibo è spostato su entrambi i lati, un doppio bisello ragionevolmente simmetrico tende a viaggiare dritto. Questo è uno dei motivi per cui funziona così bene per la cottura generale e per entrambe le mani.
 
-La maggior parte dei coltelli da cuoco occidentali, coltelli da intaglio e affettatura (tra cui sujihiki), coltelli utility e piccoli, gyuto, santoku, bunka, nakiri e molti coltelli da cuoco cinesi sono bisellato doppio.
+La maggior parte dei coltelli da cuoco occidentali, coltelli da intaglio e affettatura (tra cui sujihiki), coltelli utility e piccoli, gyuto, santoku, bunka, nakiri e molti tagliatagli cinesi sono doppie bisellature.
 
 ### Come ci si sente durante un taglio
 
@@ -58,6 +64,16 @@ Esempi comuni includono:
 - kiritsuke, mukimono e altre forme specialistiche tradizionali.
 
 Il nome di un profilo giapponese non dimostra la sua macinatura. I produttori moderni a volte fanno versioni a doppio bisello di forme tradizionalmente single-bevel. Controllare le specifiche del modello Xinzuo esatto prima di descrivere la manualità o l'affilatura.
+
+### Il bisello principale non necessariamente mantenere un angolo dal tallone alla punta
+
+Una lama biforcuta è tridimensionale. Avvicinandosi alla punta, la lama diventa più bassa perché il profilo si restringe. Su coltelli ben fatti la colonna vertebrale può anche diventare progressivamente più sottile verso la punta, caratteristica nota come **distal cono**. Questi due cambiamenti alterano il rapporto tra spessore della lama, larghezza smussata e posizione del bordo.
+
+Per questo motivo, l'angolo locale dell'ampio singolo smusso **può variare lungo la lunghezza del coltello**. Tacco, mezzo e punta non devono essere trattati automaticamente come un piano perfettamente uniforme con un angolo teorico. L'effetto è particolarmente evidente sulle lame con forte cono distale o un punto di restringimento rapido.
+
+Durante l'affilatura del bisello primario, lasciare che il contatto effettivo del bisello con la pietra guidi la mano. Mentre il colpo si muove verso la punta, la posizione del coltello può avere bisogno di cambiare gradualmente in modo che la sezione locale del bisello largo rimane correttamente sostenuto. Forzando la stessa posizione del polso e lo stesso angolo nominale dal tallone alla punta può macinare solo una parte del bisello, lavorare un'altra parte o modificare gradualmente la geometria prevista del coltello.
+
+Questo è uno dei motivi per cui l'affilatura a singolo bisello premia l'ispezione lenta. Guarda dove la pietra sta rimuovendo l'acciaio, usa pennarello o luce riflessa quando utile, e conserva la geometria che è già presente piuttosto che cercare di imporre un angolo astratto costante sull'intera lama.
 
 ## L'urasuki non è una schiena incompiuta
 
@@ -127,18 +143,22 @@ Il tipo bisellato è solo una parte della risposta.
 
 Per un normale doppio bisello simmetrico:
 
-1. individuare lo smusso esistente;
-2. mantenere un angolo coerente;
+1. identificare lo smusso o il microsmusso stretto immediatamente dietro l'apice;
+2. posizionare quella piccola sfaccettatura, non tutta l'ampia smussatura primaria, con un angolo costante sulla pietra;
 3. lavorare il primo lato fino a quando una bava leggera raggiunge il bordo completo;
 4. ripetere sul secondo lato;
 5. ridurre la pressione;
 6. alternare i lati e rimuovere la bava.
 
-15 gradi per lato è un utile riferimento visivo per molti coltelli da cucina sottili, non una prescrizione universale. Seguire la geometria esistente e la guida del produttore.
+15 gradi per lato è un utile riferimento visivo per molti coltelli da cucina sottili, non una prescrizione universale. Seguire la geometria del bordo esistente e la guida del produttore.
+
+> **Non confondere l'affilatura con l'assottigliamento.** L'affilatura dei bordi di routine rimuove una piccola quantità di acciaio al bordo smussato. La posa di un ampio smusso primario sulla pietra cambia la lama dietro il bordo e dovrebbe essere fatto solo quando si intende tale cambiamento geometrico.
 
 ## Affilatura di un singolo smusso tradizionale
 
-L'ampio smusso principale è normalmente posto contro la pietra e lavorato come una superficie. Il rovescio viene poi posato quasi piatto e toccato leggermente per rimuovere la bava pur conservando l'urasuki ei suoi appartamenti circostanti.
+L'affilatura primaria tradizionale a singolo smusso è diversa. Qui l'ampio smusso principale stesso è normalmente lavorato contro la pietra, mentre il rovescio è posato quasi piatto e toccato leggermente per rimuovere la bava preservando l'urasuki e i suoi appartamenti circostanti.
+
+Non assumere che l'ampio bisello presenta esattamente lo stesso angolo locale dal tallone alla punta. Poiché l'altezza della lama e lo spessore della colonna vertebrale si riducono verso il punto, seguire il contatto attuale bisello e adattare gradualmente la mano alla geometria già presente.
 
 Non convertire il rovescio in un normale bisello secondario. Non diradare il cavo indiscriminatamente. Un coltello singolo di alto valore merita istruzioni specifiche per il modello o un affilatore familiare con questa costruzione.
 
@@ -162,11 +182,13 @@ All'interno della gamma Xinzuo, confronta il modello esatto piuttosto che affida
 
 ## Cosa ricordare
 
+- L'ampio smusso primario e lo stretto bordo smusso o microsmusso non sono la stessa superficie.
+- L'affilatura ordinaria a doppio bisello segue normalmente il bordo smussato o microsmusso; lavorare l'ampio bisello primario è un'operazione di geometria separata.
 - Doppia smussatura descrive affilatura da entrambi i lati, non necessariamente perfetta simmetria.
 - Un singolo bisello descrive una geometria completa, spesso includendo un urasuki.
+- Su un singolo smusso, l'angolo principale locale può cambiare lungo la lama con l'altezza e lo spessore che cambiano verso la punta.
 - Un coltello single-bevel è ottimizzato per una mano, ma spesso può essere utilizzato con l'altra.
-- Il metodo più pratico è quello di riorientare il cibo in modo che la lama si allontani dalla mano di supporto o dal corpo.
 - Lo sterzo dovrebbe essere gestito attraverso l'impostazione e la direzione, non una correzione laterale forzata.
 - Nessuna famiglia è automaticamente più nitida, più forte o più prestigiosa.
 
-> **Principio di pratica:** quando il bisello non può cambiare le mani, cambiare l'assetto [47] posizionare il cibo in modo che la lama viaggia lontano dalla mano guida o dal corpo.
+> **Principio di pratica:** preservare la geometria che è in realtà sul coltello. Al bordo, seguire il bordo smussato; su un singolo smusso tradizionale, seguire il contatto principale locale piuttosto che forzare un angolo teorico costante.

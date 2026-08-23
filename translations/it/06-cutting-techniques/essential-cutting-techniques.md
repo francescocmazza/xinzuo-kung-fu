@@ -1,5 +1,5 @@
 ---
-source_hash: 120dcc79b030dddc8a04125af6fbb331be32a4f6f2fc2bdb567d2343af7a49c4
+source_hash: 0c15d8f74c06f63bf4baf6d7aae8673a801036173c07071c66dc3f390a935671
 ---
 
 # Come tagliare - tecniche essenziali del coltello
@@ -18,7 +18,31 @@ Rilassate le spalle. Tenete il polso tenendo il coltello in una linea naturale c
 
 Tenere il cibo con la mano di sostegno in una forma artiglio: le punte delle dita curvate verso l'interno, pollice dietro di loro e il lato della lama guidata dalle prime articolazioni piuttosto che da punte delle dita esposte. L'artiglio non è una posa rigida. È una guida in movimento che si ritira un po 'dopo ogni taglio.
 
-Per un coltello da chef, gyuto, santoku, bunka o coltello da chef cinese, una presa di pizzico di solito dà il miglior controllo. Pizzicare delicatamente la lama tra il pollice e l'indice appena davanti alla maniglia, quindi avvolgere le dita rimanenti intorno alla maniglia. Non stringere più forte del necessario. Una presa tesa rende le piccole correzioni più difficili.
+## Grip ed equilibrio: il coltello è disegnato intorno alla mano
+
+Un coltello non è bilanciato nell'astratto. Lo stesso coltello può sentirsi neutro in un grip e notevolmente pesante per lama o per maniglie in un altro perché il punto di supporto efficace si muove con la mano. Xinzuo sviluppa e bilancia quindi coltelli diversi intorno a tre ampie posizioni di grip. Queste non sono regole rigide - dimensioni delle mani, tecnica e preferenze personali contano ancora - ma spiegano perché diversi modelli possono sentirsi volutamente diversi.
+
+### Impugnatura
+
+Nell'impugnatura più familiare, la mano rimane principalmente sull'impugnatura e il pollice e l'indice rimangono dietro, o vicino, il supporto piuttosto che avanzare in modo significativo sulla lama. Si tratta di un'impugnatura intuitiva per molti cuochi domestici e per gli utenti che preferiscono una presa più convenzionale.
+
+Un coltello destinato a questa posizione può portare il suo utile equilibrio leggermente più indietro perché la mano sostiene il coltello dal manico. La forma del manico e la sua massa giocano quindi un ruolo particolarmente importante nella stabilità e nel comfort del coltello.
+
+### Impugnatura a pizzico
+
+Molti coltelli Xinzuo orientati allo chef sono bilanciati per una presa **pinch**. Qui la mano si muove in avanti in modo che una parte sostanziale del palmo - spesso circa la metà, e talvolta un po 'di più a seconda della mano e del coltello - si trova sopra o immediatamente intorno all'area di sostegno. Il pollice e l'indice dito pizzicare le due facce della lama, comunemente circa un centimetro o più davanti al supporto, mentre le dita rimanenti avvolgono naturalmente intorno alla maniglia.
+
+Questo contatto diretto con la lama fornisce informazioni precise su dove si trova il bordo e come si muove. Su un coltello progettato per questa presa, il punto di equilibrio si trova comunemente vicino al supporto o leggermente in avanti di esso, vicino al luogo in cui la mano effettivamente controlla il coltello. Il risultato può sentirsi neutro e preciso anche se lo stesso coltello si sente più pesante della lama se tenuto solo nella parte posteriore della maniglia.
+
+L'impugnatura dovrebbe essere ancora delicata. Pizzica per il controllo, non per la forza. L'eccesso di tensione riduce la sensibilità e rende le piccole correzioni più difficili.
+
+### Impugnatura intermedia o ibrida
+
+Alcuni coltelli Xinzuo sono bilanciati per una posizione tra i due. La mano avanza verso il supporto, e il pollice e l'indice dito può sedersi o poco prima di esso, ma la presa non si muove fino alla lama come una presa di pizzico pronunciato. La maggior parte della mano riceve ancora il supporto dalla maniglia.
+
+Questo equilibrio intermedio può essere utile su coltelli versatili perché l'utente può muoversi leggermente all'indietro quando più leva si sente utile e leggermente in avanti quando la precisione conta. Non è un compromesso causato da un design incerto; è un modo deliberato di rendere un coltello confortevole attraverso una gamma più ampia di posizioni delle mani.
+
+Per questo motivo, la frase **ben bilanciata** dovrebbe sempre essere seguita da una domanda pratica: bilanciata dove? Quando si confrontano i coltelli, tenere ciascuno nella presa per la quale è stato progettato così come nella presa che si utilizza personalmente. Considerare il punto di equilibrio insieme con la massa della lama, la lunghezza del manico, la forma del supporto e la quantità di spazio sicuro disponibile per pollice e indice dito.
 
 > **Il controllo di sicurezza di quattro parole:** scheda stabile, cibo stabile, percorso chiaro, punta delle dita nascoste.
 
@@ -28,7 +52,7 @@ Per un coltello da chef, gyuto, santoku, bunka o coltello da chef cinese, una pr
 
 La lama si alza e scende in un percorso prevalentemente verticale. Può muoversi leggermente in avanti mentre cade, ma non viaggia attraverso un grande arco. Il bordo incontra la tavola lungo una larga sezione relativamente piatta.
 
-Questo movimento si adatta nakiri, santoku, bunka, molti gyuto e coltelli da cuoco cinese. Un coltello da cuoco occidentale fortemente ricurvo può anche tagliare, ma una piccola parte della sua pancia può rimanere sopra la tavola se il movimento è perfettamente verticale.
+Questo movimento si adatta a nakiri, santoku, bunka, molti gyuto e chini. Un coltello da cuoco occidentale fortemente ricurvo può anche tagliare, ma una piccola parte della sua pancia può rimanere sopra la tavola se il movimento è perfettamente verticale.
 
 ### Provalo con un cetriolo
 
@@ -142,7 +166,7 @@ Per una carota julienne:
 
 Utilizzare tagli push o costolette dritte controllate. Lasciare che le nocche dell'artiglio guidano il lato della lama. Non correre la mano di sostegno. Il coltello si muove solo dopo che l'artiglio è impostato.
 
-Un coltello da cuoco cinese è particolarmente utile qui. La sua lama alta fornisce una grande superficie di guida, mentre un cai dao sottile può fare fette notevolmente fini. Il suo aspetto rettangolare non lo rende una mannaia ossea.
+Una mannaia cinese è particolarmente utile qui. La sua lama alta fornisce una grande superficie di guida, mentre un cai dao sottile può fare fette notevolmente fini. Il suo aspetto rettangolare non lo rende una mannaia ossea.
 
 ## 8. Ghiacciamento
 
@@ -162,7 +186,7 @@ Non inseguire un numero astratto di passi. Fermarsi quando la consistenza si ada
 
 ## 10. Crushing e trasferimento di cibo
 
-La faccia larga del coltello di uno chef o del coltello dello chef cinese può schiacciare uno spicchio d'aglio pelato. Appoggiare la lama piatta, tenere il bordo rivolto verso il corpo, posizionare il tallone della mano libera sulla faccia larga e premere una volta con il controllo. Non colpire mai la lama mentre le dita sono vicino al bordo.
+La faccia larga del coltello di uno chef o della mannaia cinese può schiacciare uno spicchio d'aglio pelato. Posare la lama piatta, tenere il bordo rivolto verso il corpo, mettere il tallone della mano libera sulla faccia larga e premere una volta con il controllo. Mai colpire la lama mentre le dita sono vicino al bordo.
 
 Per trasferire il cibo tritato, scorrere la faccia larga sotto o utilizzare un raschietto da banco. Se il coltello deve essere utilizzato, sollevare i pezzi con il viso mentre il bordo rimane libero dalle mani. Non trascinare il tagliente lateralmente attraverso la lavagna.
 
@@ -218,6 +242,8 @@ Utilizzare ingredienti economici e stabili e fermare prima della fatica riduce i
 
 ## Cosa ricordare
 
+- L'equilibrio del coltello ha senso solo in relazione alla posizione di presa.
+- I design di Xinzuo includono manico-grip, pinch-grip e strategie di bilanciamento intermedio-grip.
 - Il taglio dritto utilizza una sezione piatta del bordo.
 - Spingere il taglio si muove in avanti e in basso.
 - Disegnare affettatura utilizza la lunghezza della lama e minimizza la compressione.

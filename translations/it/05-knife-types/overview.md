@@ -1,239 +1,395 @@
 ---
-source_hash: d8335a7f64a8ccb3d55590a846f8d4835dd45b4f49597acdbeb4cbecda4e2df6
+source_hash: fcb4cde510a39379681e6436d6ad69f7e04426bae13609a8fd1b6855e17f97e2
 ---
 
 # Forme di coltello e loro usi
 
-Una parete di coltelli da cucina può sembrare una collezione di nomi sconosciuti. Il modo più semplice per capirlo non è iniziare con la nazionalità o la tradizione, ma con il lavoro: **Che cosa deve essere tagliato, e come dovrebbe muoversi la lama?**
+La forma del coltello è la connessione più immediata tra un cuoco e il lavoro da fare. L'acciaio, il trattamento termico e la costruzione determinano come un bordo si comporta, ma il contorno determina come la mano si avvicina al cibo. La lunghezza imposta la corsa utile; l'altezza crea lo spazio nocche; la curvatura suggerisce il contatto a dondolo o a tavola più dritta; lo spessore decide se la lama passa facilmente attraverso un ingrediente o è costruita per tollerare il lavoro più duro. Il punto può essere uno strumento di precisione, un fine arrotondato sicuro o quasi assente.
 
-La maggior parte dei cuochi più volte hanno bisogno di poche famiglie di utensili. Un coltello per uso generale lavora sulla tavola. Un coltello per intaglio fa fette lunghe e pulite. Un coltello per disossare o filettare segue le ossa. Un coltello per pane attraversa una crosta dura senza schiacciare la briciola. Un coltello per intaglio controlla il lavoro piccolo. Un elicottero pesante tollera l'impatto che danneggerebbe una lama sottile.
+Per questo motivo, questo capitolo si avvicina all'inizio della guida. È più facile capire la metallurgia dopo aver prima deciso cosa il coltello deve effettivamente fare. Un cuoco alla ricerca di uno strumento quotidiano, una lunga affettatrice per arrosti, una lama flessibile per pesce o un elicottero pesante sta risolvendo quattro problemi diversi. Nessun grado di acciaio o motivo decorativo può trasformare la forma sbagliata in uno strumento giusto.
 
-Nomi come gyuto, santoku, sujihiki, yanagiba, deba e honesuki diventano utili solo dopo che queste famiglie sono chiare. Essi descrivono particolari tradizioni e soluzioni, non una gerarchia di qualità.
+Le forme sottostanti sono disposte per lavoro piuttosto che per nazionalità. Ogni nome è seguito immediatamente da un esempio completo di Xinzuo in modo che la spiegazione non si stacca mai dal profilo. La fotografia identifica la forma ampia, non tutte le versioni possibili: i coltelli venduti con lo stesso nome possono ancora differire per lunghezza, curva, spessore, bilanciere e geometria bisellata. Tali dettagli devono essere controllati sul singolo modello.
 
-## Iniziare con il movimento, non con i nomi
+## Come la forma guida il movimento
 
-La forma di un coltello è una suggestione fisica. Il suo bordo, altezza, lunghezza e punto incoraggiano alcuni movimenti e scoraggiano altri.
+Un ventre curvo cambia la direzione in cui il movimento della mano raggiunge il cibo. Durante un tratto o una corsa a dondolo, la porzione di lavoro di un bordo curvo è inclinata rispetto alla direzione di viaggio. Il movimento in avanti fornito dalla mano può quindi essere accompagnato da una componente discendente progressiva nel punto di contatto. La curva non crea energia in più o rende un bordo intrinsecamente più nitido: aiuta la parte diretta del movimento in penetrazione mentre il punto di contatto avanza lungo il ventre.
 
-- Un taglio **rocking** mantiene una parte del bordo vicino al bordo mentre la lama viaggia in un arco. Un ventre curvo aiuta.
-- Un taglio **push** si muove in avanti e in basso. Un bordo di lavoro più piatto facilita il contatto con la pensione completa.
-- A **vertical chop** si muove principalmente verso il basso. Alto, le lame abbastanza piatte danno spazio e controllo.
-- Una fetta **disegna** tira una lunga sezione di bordo attraverso il cibo in un unico movimento liscio. Le lame lunghe e strette riducono la resistenza.
-- Un taglio **dettaglio** usa il punto per tagliare, segnare o lavorare intorno alle piccole articolazioni.
+Un bordo più piatto si comporta in modo diverso. Rende più facile completare un taglio a spinta o un taglio quasi verticale con largo contatto a bordo e dà un rapporto più diretto e lineare tra movimento della mano e movimento del bordo. Una lama lunga e stretta mette più bordo a contatto con il cibo durante una fetta di estrazione e riduce il trascinamento creato da una lama alta faccia. Un punto stretto raggiunge in articolazioni e intorno piccoli dettagli, mentre un tacco largo e sostenuto è più adatto alla forza controllata.
 
-Nome primo del movimento; poi cercare il profilo che lo supporta.
+Queste sono tendenze piuttosto che leggi rigide. Un gyuto può avere abbastanza curva per rock comodamente; un coltello da cuoco occidentale può essere relativamente piatto; un coltello a forma di mannaia può essere un sottile taglierina generale piuttosto che un utensile osseo. L'abitudine utile è leggere la lama reale dal tallone alla punta invece di fidarsi del nome di categoria da solo.
 
-## Le famiglie più cuochi si incontrano prima
+### Rilievo superficiale: cavità e martellature
 
-| Familiari | Forma riconoscibile | Lavori principali | Limite importante |
-|---|---|---|---|
-| Coltello da cuoco | Tacco largo, punta appuntita, bordo curvato o leggermente curvato | Preparazione generale del consiglio di amministrazione | Non un elicottero osseo. |
-| Coltello da cuoco cinese | Lama rettangolare alta | Tagliare, affettare e trasferire cibo | Le versioni sottili non sono ritagliate |
-| Coltello per scolpire o affettare | Lama lunga e stretta | Fette pulite di alimenti cotti o disossati crudi | Non per articolazioni o urti |
-| Coltello disossante o filetto | Stretto, appuntito; a volte flessibile | Lavorare intorno alle ossa e alla pelle | Funziona intorno all'osso, non attraverso di esso |
-| Coltello per pane | Bordo seghettato lungo | Pane, torte e pelli resistenti | Più difficile da affilare su una pietra piatta |
-| Utilità, piccolo coltello o coltello da cucina | Breve e controllabile | Piccoli ingredienti e lavoro di dettaglio | Inefficiente per lavori di grandi dimensioni |
-| Elicottero osseo | Lama spessa, pesante e bordo robusto | Giunti, ossa adatte e lavori d'urto | Troppo spesso per affettare con delicatezza |
+Alcuni coltelli Xinzuo utilizzano cavi, fossette o una superficie martellata sulla faccia della lama. Queste caratteristiche interrompono il largo e continuo contatto tra cibo e acciaio. Come una fetta si piega lontano dalla lama, le aree incassate possono lasciare piccoli spazi in cui l'aria rimane tra il cibo e la faccia della lama. Riducendo il contatto e l'aspirazione della superficie continua, queste piccole tasche d'aria possono rendere più facile il rilascio di alimenti umidi, amidici o molli.
 
-<figure class="kb-learning-figure" data-visual-id="VIS-SHAPES-01">
-  <img src="../../assets/images/approved/knife-shape-silhouettes-neutral.png" alt="Numbered silhouettes of common kitchen-knife shapes and related tools">
-  <figcaption>Venticinque profili della gamma Xinzuo, visualizzati senza linguaggio incorporato nell'immagine. I numeri corrispondono alla leggenda sottostante.</figcaption>
+L'effetto non deve essere presentato come garanzia che il cibo non si appiccicherà mai. Dipende dalla profondità e dalla distribuzione del rilievo, dalla finitura della lama, dall'umidità e dalla consistenza dell'ingrediente e dalla tecnica di taglio. Lo stesso principio si applica se il rilievo è fatto come cavi normali in stile Granton o come una texture martellata.
+
+## Riferimento alla forma del catalogo
+
+Il seguente riferimento è tratto dall'indice master del catalogo Xinzuo. Esso è inteso come uno strumento di orientamento visivo. Le discussioni individuali che seguono utilizzano immagini Xinzuo complete separate in modo che nessuna spiegazione sia staccata dalla sua forma di coltello.
+
+<figure class="kb-learning-figure">
+<img src="../../assets/images/approved/master-knife-shape-index.svg" alt="Xinzuo catalog master index showing the complete knife-shape family">
+<figcaption>Xinzuo catalogo coltello-forma master index.</figcaption>
 </figure>
 
-1. Coltello girevole
-2. Coltello da cucina
-3. Coltello a taglio piatto
-4. Coltello utility
-5. Coltello da bistecca
-6. Coltello disossante
-7. Santoku
-8. Nakiri
-9. Coltello da cuoco
-10. Bunka
-11. Coltello da intaglio classico
-12. Coltello per pane
-13. Deba
-14. Elicottero osseo
-15. Coltello da cuoco cinese
-16. Coltello per formaggio
-17. Coltello da cucina surgelato
-18. Coltello da intaglio Granton
-19. Affettatrice di prosciutto
-20. Coltello arrosto curvato
-21. Yanagiba o sashimi coltello
-22. Affettatrice Sakimaru
-23. Kiritsuke
-24. Asta per levigare
-25. Intaglio forchetta
-
-L'illustrazione è una mappa, non una lista della spesa. Diverse forme si sovrappongono in uso, e molte cucine hanno bisogno solo di un coltello per uso generale, un coltello da pane e un piccolo coltello.
-
-## Coltelli da tavola per uso generale
+## Coltelli per uso generale
 
 ### Coltello da cuoco occidentale
 
-Il coltello dello chef familiare ha un tacco largo, un'utile apertura delle nocche e un fronte appuntito. Molti esempi hanno una curva sufficiente per dondolare confortevole, anche se i profili moderni variano da fortemente curvo a abbastanza piatto.
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZZZ<figcaption>A completa il profilo dello chef occidentale Xinzuo, con la caratteristica pancia curva.</figcaption></figure>
+</div>
 
-Gestisce verdure, erbe, frutta, carne disossata e la maggior parte della preparazione quotidiana. Il suo grande vantaggio non è la perfezione ad un compito ma la competenza a molti. E 'di solito il punto di partenza più sicuro per chi vuole un coltello serio.
+Il coltello da cuoco occidentale è un coltello versatile la cui geometria tradizionale è prevalentemente orientata al lavoro della carne**. Può preparare verdure, frutta, erbe e molti altri ingredienti, ed è per questo che è diventato il noto coltello a tutto tondo delle cucine europee, ma il suo profilo caratteristico ha particolare senso nel taglio della carne.
 
-Non confondere la versatilità con l'invulnerabilità. Il coltello dello chef non deve essere attorcigliato in alimenti surgelati, utilizzato come cacciavite o colpito attraverso ossa dure.
+Guarda il bordo dal tallone alla punta. La sua curva continua può ricordare la sezione trasversale di uno scafo barca. Durante un colpo di traino o di dondolo, la mano fornisce movimento in avanti mentre la parte di lavoro inclinata del ventre curvato dirige naturalmente parte di quel movimento verso il basso nel cibo. Il vantaggio pratico non è che una sezione diversa del bordo è in qualche modo unico ad un coltello curvato qualsiasi taglio di disegno utilizza parti successive di un bordo ma che la **geometria della curva rende progressiva penetrazione una parte naturale del tratto** piuttosto che richiede una spinta puramente verticale.
 
-### Coltello da cuoco cinese
+Questo è particolarmente utile nella carne, dove un taglio può attraversare fibre muscolari, tessuto connettivo, membrane e aree di mutevole resistenza. La combinazione di affettatura movimento e penetrazione progressiva aiuta il bordo continuare attraverso quelle strutture senza contare solo sulla pressione verso il basso. Questo è uno dei motivi per cui il profilo dello chef tradizionale è particolarmente efficace sulla carne, tra cui porzioni sineggianti o ricche di tessuto connettivo, pur rimanendo abbastanza versatile per la preparazione generale.
 
-Il coltello dello chef cinese, spesso chiamato **cai dao**, ha una lama rettangolare alta. La parola inglese "leaver" può essere fuorviante: molti cai dao sono sottili affettatrici multiuso, non choppers ossei.
+La stessa costruzione sostanziale che dà a molti chef occidentali autorità coltelli crea anche una limitazione. Rispetto ad una lama più sottile, taglio più stretto, la lama più ampia e spesso è **less facile da reindirizzare una volta che è già in profondità nel cibo**. Cambiare o finemente correggere l'angolo di taglio durante il taglio richiede più sforzo perché più superficie della lama e più sezione trasversale sono già impegnati. Il coltello dello chef è quindi versatile, ma non è la geometria più agile per ogni fine correzione direzionale.
 
-L'alto viso guida contro le nocche, schiaccia l'aglio e si muove cibo preparato verso la padella o wok. Un utente abituato ad un coltello occidentale può inizialmente sentire più peso verso la lama, ma la forma può eseguire quasi una sequenza di preparazione intera in modo efficiente.
+Rimane un fine utensile da taglio piuttosto che un elicottero osseo. Non colpirlo attraverso ossa dure, torcerlo in cibo congelato o usarlo per levarlo.
 
-#### Una forma spiegata dalla postazione di lavoro
+### Gyuto
 
-Il coltello da cucina cinese rettangolare è facile da ricordare quando immaginiamo il lavoro intorno a un wok. Gli ingredienti sono affettati, triturati e raccolti; la faccia larga poi li porta da tavola a calore. La silhouette è diventata un emblema della cucina cinese perché è versatile, non perché ogni coltello rettangolare è stato fatto per rompere l'osso.
+<div class="kb-profile-visual">
+  <figure>ZZ<img src="ZZZKBTOKEN000ZZZ alt="Xinzuo PM80-CS used as a gyuto-profile example"><figcaption>Xinzuo PM80-CS, utilizzato qui per mostrare il profilo gyuto relativamente più piatto e sottile.</figcaption></figure>
+</div>
 
-Un vero elicottero osseo condivide il contorno ma ha più massa, più spessore e un bordo più forte. Controllare la costruzione e l'uso previsto prima di applicare l'impatto.
+Il gyuto è la controparte giapponese onnipresente del coltello dello chef occidentale. Le due forme si sovrappongono fortemente nell'uso, ma non hanno bisogno di sentirsi uguali. Rispetto al profilo tradizionale dello chef occidentale, un gyuto ha comunemente un tacco più piatto e sezione centrale, un punto più sottile e una curvatura meno continua del ventre.
 
-### Varianti giapponesi per tutti gli usi
+Questo riduce la curvatura cambia il modo in cui il coltello si muove attraverso il cibo. In genere fornisce **meno dell'assistenza naturale di penetrazione prodotta da una pancia fortemente curvata**, perché meno del movimento in avanti viene reindirizzato in una componente verso il basso al punto di contatto. Il gyuto tende quindi a sentirsi più neutro e lineare durante i tagli a spinta e le fette lunghe di estrazione. Spesso è più facile da guidare e fare piccole correzioni direzionali, ma la sua geometria è corrispondente **meno specificamente orientato verso il lavoro della carne** rispetto al coltello tradizionale dello chef occidentale.
 
-I produttori giapponesi hanno adattato il coltello da tavola generale in diversi profili riconoscibili. Queste sono scelte utili, ma sono variazioni all'interno della più grande famiglia di tutti gli usi.
+Questo non rende il gyuto inadatto alla carne. Rimane un coltello estremamente versatile e funziona molto bene su carne disossata, pesce, verdure e preparazione generale. La distinzione è una delle enfasi: il coltello dello chef occidentale usa più curvatura per favorire un'azione penetrante, oscillante o spazzante, mentre il gyuto generalmente commercia alcuni di quel comportamento per il contatto più piatto bordo e controllo più diretto. I modelli reali variano ancora, in modo da confrontare la curva reale, altezza, spessore ed equilibrio piuttosto che affidarsi al solo nome.
 
-- Il **gyuto** è la controparte giapponese più vicina al coltello di uno chef. Spesso è più sottile e può avere un tacco più piatto, ma i profili vanno da push-cut orientato a comodamente curvato.
-- Il **santoku** è di solito più corto e più alto rispetto alla sua lunghezza. Si sente avvicinabile in piccole cucine e abiti tagliere e spingere il taglio.
-- Il **bunka** assomiglia a un santoku compatto ma termina con una punta angolare a K che aiuta a lavorare con precisione il punto. Quel punto sottile non dovrebbe essere attorcigliato o spinto duro nella scheda.
-- Un moderno bivio **kiritsuke o K-tip gyuto** è un lungo coltello multiuso con un bordo di lavoro più dritto e punto angolare. Non è automaticamente lo stesso del tradizionale bivio bivio kiritsuk utilizzato nelle cucine professionali giapponesi.
+### Santoku
 
-#### Collegamento storico: un coltello domestico per un cambio cucina
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZZZ<figcaption>A completa Xinzuo santoku, compatta in lunghezza ma generosa in altezza lama.</figcaption></figure>
+</div>
 
-Il santoku è associato alla cucina casalinga giapponese del XX secolo. La sua storia utile non è un mitico singolo inventore, ma un cambiamento di scopo: caratteristiche dei coltelli vegetali giapponesi e coltelli generali influenzati dall'ovest sono stati riuniti in uno strumento domestico compatto. La storia aiuta a spiegare perché il santoku si sente familiare ma non si inserisce ordinatamente in una vecchia categoria specializzata.
+Il santoku è un coltello compatto multiuso la cui lunghezza corta e la cui lama alta lo rendono accessibile in una cucina casalinga. Il suo bordo è spesso abbastanza dritto attraverso il tallone e mezzo, sollevando delicatamente verso una punta abbassata. Ciò dà contatto rassicurante bordo durante il taglio a spinta e taglio verticale pur conservando abbastanza curva anteriore per affettare controllato.
 
-## Coltelli da taglio e da intaglio
+L'altezza crea lo sgombero delle nocche e un'ampia superficie di guida. È particolarmente confortevole per le verdure, la frutta, le erbe e le porzioni disossate di carne o pesce. Il suo limite principale è la sua compattezza: un bordo corto ha bisogno di più colpi attraverso un grande arrosto o melone, e un Santoku molto piatto non è progettato per un'azione a dondolo esagerata.
 
-Coltello da intaglio e coltello da intaglio sono spesso utilizzati per i prodotti sovrapposti. Entrambi descrivono una lama lunga e stretta fatta per attraversare un arrosto, prosciutto, petto di pollame, carne disossata o pesce con meno colpi del coltello di uno chef. Meno zona della lama tocca il cibo, quindi c'è di solito meno trascinamento.
+### Bunka
 
-La tecnica essenziale è una lunga fetta di estrazione. Fate viaggiare il bordo affilato; seghe corte ripetute di solito lasciano una superficie più ruvida.
+<div class="kb-profile-visual">
+  <figure><img src="../../assets/images/approved/knife-shapes/bunka.jpg" alt="Complete Xinzuo bunka">ZZ<figcaption>A completa Xinzuo bunka con la sua caratteristica punta angolare K. </figcaption></figure>
+</div>
+
+Il bunka condivide gran parte dell'altezza compatta e della versatilità del santoku, ma la sua parte anteriore scende bruscamente in una punta angolare K. La caratteristica importante non è solo che la punta è puntata: **la sua forma e la sua posizione relativamente bassa, in avanti posizionano un punto di lavoro preciso vicino alla linea di taglio**. Ciò consente all'utente di vedere e controllare accuratamente il punto per segnare, rifilare, aprire piccole sezioni e altri lavori di dettaglio.
+
+Questa geometria è particolarmente utile perché il bunka ha ancora una lama relativamente grande e alta. Un coltello largo normalmente si sentirebbe meno adatto al lavoro punto delicato, ma il K-tip dà all'utente un fine e accessibile strumento di precisione senza rinunciare all'altezza della lama necessaria per la normale preparazione del bordo. In questo senso, il bunka combina una lama sostanziale generale con una punta che può eseguire lavori più spesso associati con un coltello più piccolo.
+
+Il bordo è comunemente abbastanza dritto, quindi un bunka premia il taglio e il taglio. La stessa punta fine che lo rende preciso è anche vulnerabile alla torsione, leva e contatto duro con la scheda.
+
+### Coltello da chef Granton-Edge
+
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZ<figcaption>A coltello da cuoco Xinzuo completo con cavità alternate lungo la lama.</figcaption></figure>
+</div>
+
+Il coltello da cuoco Granton-Edge è fondamentalmente un coltello da cuoco la cui faccia a lama ha una fila di cavità. Il profilo determina ancora il movimento, mentre i recessi interrompono il contatto tra cibo e acciaio. Durante una fetta, possono lasciare ** piccole sacche d'aria tra il cibo e la lama**, riducendo l'adesione continua e aiutando alcuni alimenti umidi o amidacei a rilasciare più facilmente.
+
+Il risultato varia con l'ingrediente, la finitura, la profondità e la posizione delle cavità, quindi il coltello non deve essere descritto come universalmente antiaderente. Il tagliente rimane liscio ed è affilato come quello di un altro coltello da cuoco, senza diradamento inutile nelle cavità.
+
+## Coltelli vegetali e cinesi multiuso
+
+### Nakiri
+
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZZZ<figcaption>A completa Xinzuo nakiri: alta, sottile e quasi dritta lungo il tagliente.</figcaption></figure>
+</div>
+
+Il nakiri è un coltello vegetale giapponese costruito intorno al contatto semplice del bordo. La sua lama rettangolare alta è sottile, doppia smussata e quasi dritta lungo il bordo. Quando la mano si muove verso il basso o in avanti e giù, la maggior parte del bordo raggiunge il bordo insieme, riducendo i pezzi lasciati uniti in basso. L'altezza della lama dà la mano guida spazio e rende il lavoro ripetuto su cavoli, cipolle, carote e verdure fogliate efficiente.
+
+Nakiri non finiscono tutti esattamente nello stesso tipo di fronte. Una famiglia importante ha un **fortemente arrotondato, unsharpened angolo anteriore**. In questa forma la parte anteriore arrotondata può essere lasciata riposare sulla scheda come punto di supporto controllato mentre il coltello è ruotato attraverso un corto arco per la fine triturazione. La parte anteriore non è destinata a trapanare; la sua geometria arrotondata favorisce il contatto sicuro del bordo e il movimento ripetuto.
+
+Un'altra famiglia porta un ** tagliente affilato più lontano nella parte anteriore della lama**. Questo disegno è destinato a rendere una maggiore proporzione della lama partecipare al taglio, dando all'utente un'azione di taglio utile quasi alla parte anteriore piuttosto che trattare quella zona principalmente come supporto o transizione.
+
+Queste non sono due categorie rigide. In pratica ci sono innumerevoli gradazioni tra di loro: alcuni nakiri hanno un naso arrotondato molto ampio, altri solo un angolo ammorbidito, e altri si avvicinano ad un fronte quasi quadrato ma ancora affilato. Il profilo attuale dice all'utente se il fronte è principalmente un supporto piroettante, una zona di taglio attiva o un compromesso tra i due. In ogni caso, il nakiri ottiene la sua facilità di taglio dalla geometria sottile orientata agli ortaggi e non è fatto per ossa, alimenti congelati o impatto.
+
+### Mannaia cinese
+
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZ<figcaption>A completa mannaia cinese Xinzuo; la capacità deve essere stabilita in base alle specifiche del modello.</figcaption></figure>
+</div>
+
+La mannaia cinese è una delle forme più particolari della cucina multiuso. La sua lama rettangolare alta può tagliare, tagliare, guidare contro le nocche, schiacciare aromatici e trasferire ingredienti preparati. Diversi chioschi cinesi occupano diverse classi di peso e spessore, quindi il contorno rettangolare di per sé non ci dice se un particolare coltello è una taglierina fine o un utensile più fortemente supportato.
+
+E 'anche uno dei coltelli da cucina più difficili per imparare bene**. L'altezza, la massa in avanti e la mancanza di un profilo a punta familiare chef-coltello cambiare i riferimenti visivi e tattili utilizzati durante il taglio. Un principiante può inizialmente trovare sottili cambiamenti di angolo e dettaglio lavorare meno intuitivo.
+
+Nelle mani esperte, tuttavia, la stessa geometria diventa eccezionalmente efficace e versatile. Un utente esperto può sfruttare il lungo bordo dritto, la grande superficie di guida e la massa della lama per una vasta gamma di preparazione senza cambiare continuamente gli strumenti. La sua curva di apprendimento è quindi una limitazione per il novizio, non prova di capacità limitata.
+
+La corretta lettura inizia con il peso, lo spessore dietro il bordo, l'angolo smussato e l'uso previsto del produttore. Un mannaia cinese generale può essere eccellente per le verdure e carne disossata ancora chip se trattato come un utensile osseo. Il nome non è permesso coperta per l'impatto.
+
+### Elicottero osseo
+
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZ<figcaption>A Chopper Xinzuo completo, costruito intorno al supporto di massa e bordo piuttosto che affettare delicato.</figcaption></figure>
+</div>
+
+L'elicottero osseo è la forma più chiara orientata all'impatto nella guida. La sua lama pesante, il bordo sostenuto e la sezione trasversale sostanziale sono progettati per un lavoro macelleria adatto in cui momento e durata contano più di un taglio sottile e basso.
+
+Si tratta di uno specialista controllato, non un cuneo indistruttibile. Grandi ossa dense, materiale duro congelato, un bordo instabile o un colpo d'occhio può ancora causare danni e lesioni. Il colpo dovrebbe essere quadrato e la lama ritirata senza leve laterali. Un sottile nakiri o generale mannaia cinese può condividere parte della silhouette rettangolare, ma la sua geometria può essere del tutto inappropriato per l'impatto.
+
+## Coltelli da taglio e da intaglio lunghi
 
 ### Coltello da intaglio classico
 
-Il classico coltello da intaglio ha una lama lunga, abbastanza dritta e stretta, spesso con una punta appuntita. E 'il partner familiare ad una forchetta da intaglio al tavolo. Alcuni modelli hanno una modesta flessibilità; altri sono abbastanza rigidi. Un Granton o faccia sommersa può ridurre l'attaccatura, ma la nitidezza e la buona tecnica materia più della decorazione.
+<div class="kb-profile-visual">
+  <figure><img src="../../assets/images/approved/knife-shapes/carving.jpg" alt="Complete Xinzuo classic carving knife">ZZ<figcaption>A coltello Xinzuo classico con profilo lungo e stretto.</figcaption></figure>
+</div>
 
-Questo è il significato più utile di ** coltello da intaglio** in tutto questo libro.
+Un coltello da intaglio è più lungo e più stretto di un coltello da chef in modo che possa attraversare un arrosto, petto di pollame, carne disossata o grande frutto con meno colpi. L'altezza ridotta della lama crea meno resistenza e permette all'utente di vedere il taglio più chiaramente.
 
-### Coltello arrosto curvato
+Il movimento previsto è una lunga estrazione. Lasciate che una lunghezza generosa di bordo affilato viaggi attraverso il cibo invece di segare con molti colpi brevi. La lama dovrebbe essere abbastanza lunga per la porzione e bordo, ma non così a lungo che il controllo è perso.
 
-Alcuni coltelli da intaglio destinati soprattutto agli arrosti e alle grandi carni cotte hanno una curva più pronunciata, simile alla sciabola. Il punto sollevato e il bordo ricurvo aiutano l'utilizzatore ad entrare intorno ad un giunto, seguire la superficie di un arrosto e finire una fetta con un movimento liscio spazzante.
+### Coltello da intaglio arrosto
 
-La curva non trasforma il coltello in un elicottero. E 'ancora uno strumento di affettatura per la carne cotta, non un sostituto di una mannaia o coltello di disossamento.
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZ<figcaption>A completa il profilo Xinzuo arrosto con un fronte più ampio e svezzato.</figcaption></figure>
+</div>
 
-### Sujihiki: la controparte giapponese
+Il coltello intaglio arrosto mantiene il lungo bordo affettatura, ma dà al davanti più larghezza e verso l'alto spazza di un classico intaglio stretto. Questa curva segue la superficie arrotondata di un arrosto e lascia il taglio finale in un movimento di sollevamento liscio.
 
-Il giapponese **sujihiki** è un'affettatrice lunga, stretta, normalmente a doppio bevel. Nei negozi e nei cataloghi dei produttori viene spesso descritto in inglese come un **slicer** o un **coltello da intaglio**. Questa è una terminologia utile: per un lettore generale, appartiene alla famiglia di intaglio prima di appartenere ad un dizionario di nomi giapponesi.
+Il suo scopo rimane porzionatura cotto, cibo disossato. Il punto più ampio non lo rende un interruttore di giunzione. Scegliere quando il colpo curvato si sente naturale intorno a grandi carni cotte; scegliere un intagliatore più dritto quando si preferisce un lungo disegno lineare.
 
-Rispetto a molti coltelli da intaglio europei, un sujihiki spesso ha un profilo più sottile, meno curva e un punto sottile. Rispetto alla forma curva arrosto-intaglio, incoraggia un più dritto tirare attraverso il cibo piuttosto che un arco spazzante. Il suo doppio bordo funziona naturalmente per gli utenti destro e sinistro e maniglie arrosto carne, carne disossata cruda e molte preparazioni di pesce.
+### Granton coltello da intaglio
 
-| Modulo | Movimento che incoraggia | Meglio ricordarsi come | Distinzione principale |
-|---|---|---|---|
-| Coltello da intaglio classico | Disegno lungo e controllato | Affettatrice generale di carne arrosto e disossata | Familiare occidentale tavolo e cucina forma |
-| Coltello arrosto curvato | Disegna con una delicata finitura spazzante | Specialista arrosto | Curva simile a sabre segue il cibo arrotondato |
-| Sujihiki | Disegno lungo, relativamente diritto | Intaglio giapponese / controparte di affettatura | Solitamente sottile, meno curvato e doppio smussato |
-| Yanagiba | Taglio tirante lungo singolo | Specialista giapponese del pesce crudo | Di solito smusso singolo e mano |
+<div class="kb-profile-visual">
+  <figure><img src="../../assets/images/approved/knife-shapes/granton-carving.jpg" alt="Complete Xinzuo Granton carving knife">ZZ<figcaption>A coltello Xinzuo lungo da intaglio con incavi a lama.</figcaption></figure>
+</div>
 
-### Yanagiba e altre affettatrici specializzate
+Il coltello da taglio Granton combina geometria lunga e stretta con cavità lungo la faccia della lama. Questi incavi riducono il contatto continuo tra lama e cibo e possono creare ** piccoli spazi d'aria tra la fetta e l'acciaio**, aiutando il prosciutto, la carne cotta, la grande frutta e alcuni cibi morbidi si separano più facilmente con il taglio.
 
-La **yanagiba** è un tradizionale coltello giapponese a singola bisellatura ottimizzato per sashimi e altre precise fette di pesce crudo. Il suo bordo lungo supporta una tirata liscia, mentre la sua geometria aiuta a separare la fetta in modo pulito. Richiede maggiore abilità, tende a guidare ed è normalmente realizzato in versioni destro e sinistro.
+L'effetto è secondario alla nitidezza e alla tecnica e non è mai una garanzia di una lama antiaderente. Il bordo è liscio, non seghettato, e si comporta al meglio in un lungo disegno controllato.
 
-Le affettatrici di prosciutto e salmone sono varianti specialistiche occidentali, spesso molto lunghe e strette; alcune sono flessibili. Un sakimaru è una affettatrice giapponese specializzata con un punto distintivo simile alla spada. Questi strumenti hanno senso quando il loro compito particolare è frequente. Per uso domestico misto, un coltello da intaglio a doppia bisellatura è solitamente più facile.
+### Coltello per prosciutto
 
-> Ricorda prima la famiglia: coltello da intaglio. Sujihiki è la controparte giapponese a doppio bevel; yanagiba è il coltello da pesce crudo a singolo bevel più specializzato.
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZ<figcaption>A coltello Xinzuo completo, extra lungo e stretto per fette larghe e sottili.</figcaption></figure>
+</div>
+
+Un coltello per prosciutto estende la logica del coltello da intaglio. La sua lama molto lunga e stretta può produrre una fetta larga e sottile senza segare ripetutamente, mentre l'area della lama ridotta limita l'attrito. Alcuni modelli si fletteno leggermente per seguire un prosciutto; altri rimangono più fermi per una linea più dritta.
+
+Il design è altamente efficace quando le fette sottili e continue sono importanti, ma imbarazzanti per il lavoro di triturazione e piccola tavola. Inoltre non è un coltello a filetto: seguendo contorni stretti intorno alle ossa di pesce richiede un diverso tipo di flessibilità controllata.
+
+### Coltello Sashimi
+
+<div class="kb-profile-visual">
+  <figure><img src="../../assets/images/approved/knife-shapes/sashimi.jpg" alt="Complete Xinzuo sashimi knife">ZZ<figcaption>A completa Xinzuo sashimi lungo bevel.</figcaption></figure>
+</div>
+
+Xinzuo utilizza Sashimi Knife come ampia etichetta di catalogo per affettatrici di pesci lunghe e strette, tra cui profili che terminologia più specifica può chiamare yanagiba-tipo coltelli. La loro lunghezza permette una porzione di pesce crudo da tagliare in un colpo tirante, lasciando una superficie più liscia di una breve azione back-and-forth.
+
+Esempi tradizionali sono singoli smussati. Questa geometria aiuta la fetta separata, ma rende anche il coltello manzo; è normalmente mano e affilata in modo diverso da una normale affettatrice a doppia bisella. È un eccezionale esperto di pesce crudo, mentre un coltello a doppia bisellatura o sujihiki è più indulgente per l'uso misto di carne e pesce.
+
+### Sakimaru
+
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZ<figcaption>A completa Xinzuo sakimaru con il suo punto arrotondato, influente nella spada.</figcaption></figure>
+</div>
+
+Il sakimaru appartiene alla stessa famiglia di affettatori a singolo taglio lungo, ma il suo fronte termina in un punto arrotondato, influenzato dalla spada. Questo cambiamento influenza l'equilibrio, la presentazione e l'accesso vicino al fronte; non cambia il compito centrale.
+
+La lama è destinata a disegnare in modo pulito attraverso pesci disossati. Non deve tagliare giunti o essere attorcigliata in un taglio, e la sua costruzione richiede la stessa attenzione alla maniglia e all'affilatura di altre tradizionali affettatrici sashimi.
+
+### Kiritsuke
+
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZZZ<figcaption>A completa Xinzuo kiritsuke single-bevel con un bordo lungo e punto angolare.</figcaption></figure>
+</div>
+
+Nel contesto specialistico Xinzuo F3 e F3S, kiritsuke identifica un lungo coltello singolo con punta angolare per un taglio preciso e una preparazione avanzata. La sezione dritta supporta il lavoro di bordo controllato, mentre il K-tip dà una visione chiara della parte anteriore del taglio.
+
+Questo deve distinguersi da un moderno kiritsuke gyuto biforcuto o K-tip gyuto venduto come un coltello universale accessibile. Un kiritsuke biforcuto tradizionale può guidare, è normalmente consegnato e richiede l'affilatura geometria specifica. La silhouette da sola non è sufficiente; la costruzione bisella deve essere dichiarata.
 
 ## Disossamento, filettatura e macelleria di pesce
 
-### Coltelli da disossamento e filetto occidentali
+### Coltello da disossamento occidentale
 
-Un coltello da disossamento occidentale ha una lama stretta e appuntita. Una versione rigida offre il controllo su articolazioni di manzo o maiale; una versione flessibile segue i contorni più facilmente. Un coltello da filetto è solitamente più stretto e flessibile in modo da poter viaggiare vicino alle ossa di pesce e la pelle.
+<div class="kb-profile-visual">
+  <figure><img src="../../assets/images/approved/knife-shapes/boning.jpg" alt="Complete Xinzuo Western boning knife">ZZ<figcaption>A coltello Xinzuo con punta frontale.</figcaption></figure>
+</div>
 
-Flex non è un segno di debolezza o di qualità da solo. È una decisione di progettazione: utile per seguire una curva, meno utile quando è necessaria una rigidità esatta. Entrambi i coltelli sono destinati a lavorare **around** osso piuttosto che tagliare attraverso di esso.
+Un coltello da disossamento occidentale è stretto in modo che l'utente possa vedere e controllare il bordo mentre rintraccia le articolazioni, rimuovendo il tessuto connettivo e separando la carne dall'osso. La punta appuntita entra in spazi stretti che il coltello di uno chef ampio non può raggiungere. Le versioni stiffer forniscono un controllo deliberato su carne di manzo e maiale; versioni più flessibili seguono superfici arrotondate.
 
-### Casi specializzati giapponesi
+La sua principale limitazione è **la mancanza di versatilità**. La lama stretta e specializzata eccelle nel rintracciare l'osso e il tessuto connettivo, ma offre poca libertà di nocche, poca area di trasferimento di cibo e meno efficienza nel lavoro di ampia tavola eseguita da un coltello da chef, gyuto o mannaia cinese. Dovrebbe quindi essere scelto perché il disossamento è un compito ricorrente, non come sostituto generale.
 
-**honesuki** è un coltello da disossamento giapponese rigido e triangolare associato soprattutto al pollame. Il suo forte tallone e punto trovano articolazioni e tessuto connettivo separato. È generalmente meno flessibile di un coltello da disossamento occidentale.
+Dissanguamento significa lavorare intorno all'osso piuttosto che tagliare attraverso di esso. Twistando il punto o usandolo come una leva può ancora causare danni.
 
-La **deba** è un coltello spesso, pesante, di solito single-bevel sviluppato per la macelleria di pesce. Il tallone può lavorare attraverso appropriate articolazioni di pesce e ossa; la parte anteriore esegue un lavoro più fine. Il suo peso non lo rende una mannaia universale per grandi ossa di mammifero.
+### Honesuki
 
-Si tratta di alternative specialistiche, non richieste aggiornamenti da coltelli western disossamento e filetto.
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZ<figcaption>A completa Xinzuo honesuki con il suo profilo triangolare di disossamento del pollame.</figcaption></figure>
+</div>
 
-## Coltelli da tavola
+L'honesuki è un duro, triangolare coltello giapponese di disossamento associato soprattutto al pollame. Il suo fronte appuntito individua le articolazioni e segue l'osso, mentre il tallone più forte separa il tessuto connettivo con pressione controllata. Rispetto ad un coltello disossamento flessibile occidentale, si sente più rigido e deliberato.
 
-Coltello da cuoco, coltello da cuoco cinese o santoku possono preparare le verdure molto bene. I coltelli da verdura dedicati diventano utili quando un cuoco vuole un contatto più diretto, altezza della lama o tecnica di presentazione specializzata.
+Alcuni honesuki usano la geometria asimmetrica del bordo, così la maniglia e i consigli di affilatura variano a seconda del modello. Il suo aspetto rinforzato non dovrebbe essere scambiato per una piccola mannaia: trova e separa le articolazioni piuttosto che fracassare grandi ossa.
 
-Il giapponese **nakiri** è un sottile, alto, rettangolare coltello doppio bisello. Il suo bordo abbastanza dritto è eccellente per tagli verticali di taglio e spinta. Può assomigliare ad un piccolo manicotto, ma non è fatto per l'osso.
+### Coltello per filetto
 
-Il **usuba** sembra collegato, ma è uno specialista tradizionale single-bevel. Supporta il lavoro vegetale avanzato come peeling foglio continuo e tagli decorativi fini. Sterza di più, è consegnato e ha bisogno di affilatura geometria-specifico.
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZ<figcaption>A coltello Xinzuo completo, lungo e stretto abbastanza da seguire i contorni dei pesci.</figcaption></figure>
+</div>
 
-## Piccoli coltelli
+Il coltello a filetto occidentale è lungo, stretto e comunemente flessibile. Tale flessibilità controllata permette alla lama di seguire una gabbia toracica, stare vicino alla pelle e viaggiare intorno ai contorni di un pesce lasciando meno carne dietro.
 
-Un coltello **utility** è un attrezzo generale compatto per piccole attività di bordo, panini, frutta, formaggio e rifilatura. Il termine giapponese **petty** è spesso utilizzato per un profilo simile piccolo e versatile. Esempi più lunghi lavorano principalmente sulla tavola; quelli più corti possono anche gestire alcune attività in-hand.
+Questo differisce dal disegno rigido di una affettatrice sashimi. Il coltello a filetto lavora durante la macelleria, prima che la porzione finita sia tagliata per la presentazione. Flex non significa che la lama possa essere piegata bruscamente o contorta contro l'osso duro.
 
-Un coltello **paring** è più corto e progettato per il controllo vicino alla mano: peeling, coring, rimozione delle imperfezioni e lavoro decorativo. Un coltello curvato di tornitura aiuta a modellare le verdure piccole, mentre una forma di ritaglio piatta fa brevi tagli rettilinei.
+### Deba
 
-> Un coltello utility o piccolo è un piccolo attrezzo di uso generale. Un coltello da cucina è lo specialista di dettaglio più corto.
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZ<figcaption>A completa Xinzuo deba, forte al tallone e affusolata verso un fronte più preciso.</figcaption></figure>
+</div>
 
-## Coltelli seghettati e per usi speciali
+La deba è un grosso e pesante coltello giapponese sviluppato per abbattere pesci. Il suo forte tallone può lavorare attraverso appropriate articolazioni di pesce e ossa con tecnica controllata, mentre il fronte esegue una separazione e filettatura più fine.
 
-Un coltello **pane** usa i denti per entrare in una crosta resistente mentre mette meno pressione sulla mollica morbida. Funziona bene anche su torte, dolci e alcuni cibi morbidi con pelli solide. Le seghe rimangono utilizzabili per lungo tempo, ma hanno bisogno di un affilatore affusolato o servizio specializzato piuttosto che normali tratti piatti.
+Le deba tradizionali sono morbide e morbide. Il loro peso non le rende universali: un grosso osso di mammifero, un taglio torcente o un impatto incurante possono ancora scheggiare il bordo. La lama combina zone forti e precise per una specifica sequenza di macelleria.
 
-Un coltello **cheese**, un coltello per alimenti surgelati** o un'altra forma specifica per il compito devono essere scelti perché il compito è frequente, non perché la sua silhouette è interessante. Il cibo congelato è particolarmente pericoloso per le lame sottili e dure: utilizzare solo un coltello espressamente progettato per esso.
+## Piccoli coltelli da tavola e da precisione
 
-Un **bone chopper** è spesso, pesante e robusto. Il suo bordo ottuso e commercio di massa delicata capacità di affettatura per la tolleranza agli urti. Anche allora, tecnica e la dimensione e il tipo di osso ancora materia.
+### Coltello utility
 
-## Come il profilo cambia l'esperienza
+<div class="kb-profile-visual">
+  <figure><img src="../../assets/images/approved/knife-shapes/utility.jpg" alt="Complete Xinzuo utility knife"><figcaption>A coltello Xinzuo completo, tra un coltello da cucina e un coltello da chef full-size.</figcaption></figure>
+</div>
 
-Il nome della categoria è solo un punto di partenza. Confronta il coltello reale davanti a te.
+Il coltello occupa lo spazio tra un coltello da cucina e un coltello da cuoco. Ha abbastanza portata per frutta, panini, verdure piccole, formaggio e carne disossata, ma rimane agile quando una lama full-size avrebbe affollato la tavola.
 
-- **Curvatura del bordo:** più pancia sostiene l'arrotolamento; una sezione più piatta supporta il taglio e il taglio a spinta.
-- **Lunghezza:** più lunghezza permette una fetta più lunga, ma ha bisogno di una tavola più grande e più controllo.
-- **L'altezza della lama:** più altezza dà lo sgombero delle nocche e un'ampia superficie di guida; minore altezza riduce il trascinamento in una fetta.
-- **Spessore dietro il bordo:** la geometria sottile taglia facilmente; la geometria più forte tollera lavori più ruvidi ma può incuneare di più.
-- **Punto:** un punto sottile aiuta il lavoro di dettaglio, ma richiede cura. Un punto arrotondato o assente semplifica il taglio diritto.
-- **Balance and weight:** blade-forward tools can feel potential; tools più leggeri o manici-equilibrati possono feel agile.
+Il suo profilo stretto riduce la resistenza e rende facile la rifilatura, ma offre meno spazio per il trasferimento di nocche e cibo rispetto al coltello di uno chef. L'utilità descrive un ruolo piuttosto che una lunghezza fissa, quindi il modello esatto decide se si sente più come un parer lungo o un coltello da tavola compatto.
 
-## Scegliere un primo coltello serio
+### Ultimate Utility Knife - un profilo commerciale Xinzuo
 
-Per la maggior parte degli utenti, il primo coltello serio dovrebbe essere versatile. Iniziare con ingredienti, dimensioni bordo e movimento, poi confrontare l'acciaio, maniglia e costruzione.
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZZZ<figcaption>A coltello Xinzuo Ultimate Utility Knife con tagliente.</figcaption></figure>
+</div>
 
-- Scegli un coltello **chef** se vuoi una forma a tutti gli usi familiare e goditi un po' di dondolo.
-- Scegli un coltello da cuoco **Cinese** se vuoi altezza, taglio efficiente e una faccia larga per il trasferimento di cibo.
-- Considera un **gyuto, santoku o bunka** quando la variazione giapponese corrisponde meglio alla lunghezza, alla curva e al punto preferiti.
-- Aggiungere un ** coltello da intaglio** quando si porziona spesso arrosti, prosciutto, carne disossata o pesce. Un sujihiki è una raffinata espressione giapponese di questa famiglia.
-- Aggiungere forme specialistiche come yanagiba, usuba o deba solo quando si esegue ripetutamente la tecnica per la quale sono stati progettati.
+Ultimate Utility Knife è un nome di prodotto Xinzuo piuttosto che una categoria internazionale. Nelle famiglie X02 e X02M descrive una lama multiuso di media lunghezza con un bordo smeraldo, destinato a ponte piccola preparazione, sandwich, uso da tavolo e alimenti morbidi-crosta.
 
-Xinzuo realizza questi profili in diversi acciai e costruzioni perché la forma e il materiale risolvono diverse parti del problema. Scegli il profilo per il movimento; poi utilizza i capitoli [Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) e [Xinzuo Handle Materials](../02-steels-and-metallurgy/xinzuo-handle-materials.md) per scegliere l'equilibrio tra comportamento dei bordi, manutenzione, peso e sensazione.
+I denti continuano a mordere quando un bordo semplice potrebbe necessitare di manutenzione e possono attraversare pelli resistenti con meno pressione. Essi non sostituiscono la lunghezza di un coltello da pane, e l'affilatura è meno semplice. La spiegazione dovrebbe quindi iniziare con il modello attuale, non con la parola definitiva.
 
-## Incomprensioni comuni
+### Coltello da cucina curvato
 
-### Il coltello da cuoco cinese è una mannaia di ossa
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZZZ<figcaption>A coltello curvato Xinzuo completo per lavori controllati su prodotti arrotondati.</figcaption></figure>
+</div>
 
-Molti sono affettatrici sottili. Utilizzare l'impatto solo con un modello esplicitamente costruito come un elicottero osseo.
+Il coltello curvato è sufficientemente corto da essere diretto principalmente con le dita. La sua curva pronunciata segue frutta e verdura durante la peeling, coring, rimozione del difetto e modellazione decorativa. Quando l'ingrediente è tenuto in sicurezza, il bordo viaggia intorno ad una superficie arrotondata con poco movimento sprecato.
 
-### Coltello da intaglio e sujihiki non sono collegati
+Quella stessa curva offre un contatto meno diretto su una tavola. Non deve essere trattata come un coltello da chef in miniatura o forzata attraverso pozzi, articolazioni e alimenti surgelati. Xinzuo può utilizzare l'etichetta generale Paring Knife per forme curve e dritte, quindi il profilo conta più del solo nome.
 
-Provengono da diverse tradizioni di design, ma risolvere lo stesso problema ampio: lunghe, fette pulite attraverso cibo disossato. Sujihiki è spesso presentato commercialmente come affettatrice o coltello da intaglio.
+### Coltello da stiro diritto
 
-### Ogni forma giapponese è più avanzata
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZ<figcaption>A coltello da stiro Xinzuo completo con maggiore contatto per tagli corti e precisi.</figcaption></figure>
+</div>
 
-La specializzazione non è superiorità automatica. Un singolo bevel yanagiba o usuba può essere straordinario al suo lavoro previsto e meno conveniente per un utente inesperto generale.
+Il profilo dritto mette più del suo bordo corto a contatto con una tavola e traccia un taglio diretto naturalmente. Funziona bene su aglio, scalogno, piccola frutta, guarnitura e rifilatura esatta pur rimanendo sufficientemente compatto per attività controllate in mano.
 
-### Ogni coltello da cuoco è ideale per dondolare
+Rispetto al parer curvato, non avvolge i prodotti arrotondati come facilmente, ma è più versatile quando il lavoro si alterna tra la mano e la tavola. La sua lunghezza limitata e lo sgombero delle nocche lo rendono ancora inefficiente per la preparazione di grandi dimensioni.
 
-La curva del bordo reale, non la categoria stampata, determina come naturalmente il coltello sassi.
+### Coltello a taglio piatto
 
-## Cosa ricordare
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZZZ<figcaption>Il profilo completo del catalogo Xinzuo per la forma di acconciatura dedicata.</figcaption></figure>
+</div>
 
-> Iniziare con il lavoro: preparazione generale, intaglio, disossamento, pane, dettaglio o impatto. Poi scegliere il profilo che rende il corretto movimento più facile.
+Il coltello a taglio piatto prende un contatto più diretto. Il suo bordo quasi livellato è adatto a tagli di cartone piccoli, mescolando piccoli aromi e producendo puliti pezzi squadrati di frutta o verdura. La lama corta rende questi movimenti precisi piuttosto che potenti.
 
-La tradizione aggiunge soluzioni e storie utili, ma il miglior coltello non è quello con il nome straniero più impressionante. È quello la cui forma rende il lavoro normale più pulito, sicuro e controllato.
+C'è poca curva per i tagli spazzatura e poca altezza per le nocche, quindi rimane uno specialista nel lavoro compatto. La fonte di questa forma è un profilo completo catalogo Xinzuo piuttosto che una fotografia di prodotto; viene mantenuto perché identifica la categoria senza inventare un'immagine non supportata.
 
-> **Principio di pratica:** prima famiglia, secondo movimento, terzo nome specialista.
+### Coltello da bistecca
 
-### Fonti storiche e terminologiche
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZZZ<figcaption>A coltello da tavola Xinzuo completo.</figcaption>ZZ</figure>
+</div>
 
-- [Wüsthof, scegliere e utilizzare un coltello da intaglio](https://wusthof.com/blogs/the-chefs-table/right-knife-for-the-job-carving-knife)
-- [Wüsthof, Coltello da intaglio gourmet](https://wusthof.com/products/wusthof-gourmet-8-carving-knife-1025048820)
-- [Coltello Zwilling, affettatura e intaglio](https://www.zwilling.com/us/zwilling-pro-8-inch-slicing%2Fcarving-knife-38400-203/38400-203-0.html)
-- [Tojiro, Slicer (Sujihiki)](https://www.tojiro-japan.com/item/slicer_sujihiki/)
-- [Tojiro, categorie coltello in stile occidentale](https://www.tojiro-japan.com/knife_category/western_style_knives/)
+Un coltello da bistecca è progettato per porzionare la carne cotta sul piatto. La sua lama corta e appuntita dà il controllo all'interno di una piccola zona di lavoro. Xinzuo offre esempi semplici, mentre il mercato più ampio comprende versioni seghettate; il bordo esatto dovrebbe essere controllato perché i due si comportano e affilano in modo diverso.
+
+Un tagliente bordo liscio lascia una superficie pulita, mentre le seghe possono tollerare il contatto con la piastra più a lungo. Né il design è un coltello disossante. La lama non è destinata a infilarsi intorno alle articolazioni dure semplicemente perché è piccola e appuntita.
+
+### Coltello per burro
+
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZZZ<figcaption>A coltello Xinzuo completo con profilo arrotondato orientato al servizio.</figcaption></figure>
+</div>
+
+Il coltello da burro sostituisce un punto piercing e un bordo aggressivo con una superficie di spalmatura arrotondata. Muove burro, formaggio morbido, paté, conserva e condimenti sul pane o su un piatto senza comportarsi come un coltello da preparazione.
+
+La sua forma appartiene al servizio e alla presentazione piuttosto che al lavoro di bordo. Il contorno arrotondato sembra sicuro, ma il prodotto esatto deve ancora essere maneggiato come posate e tenuto lontano dal taglio, disossamento e leva.
+
+### Coltello per formaggio
+
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZZZ<figcaption>A modello completo di coltello Xinzuo; altre texture di formaggio richiedono altri profili.</figcaption></figure>
+</div>
+
+Il coltello da formaggio indica una famiglia piuttosto che una forma universale. Il formaggio morbido e appiccicoso beneficia di una lama sottile con una zona a contatto ridotto; un punto stretto può porzionare e servire pezzi; il formaggio stagionato duro può richiedere uno strumento più breve e sostenuto.
+
+Gli esempi di Xinzuo includono forme appuntite e sollevabili progettate per ridurre la resistenza. Aprimenti, cavità e altri rilievi possono ridurre il contatto continuo e lasciare piccoli spazi vuoti d'aria tra formaggio e acciaio, ma nessuna geometria impedisce ad ogni formaggio di attaccarsi. La scelta corretta inizia con la consistenza e la dimensione delle porzioni.
+
+## Specialisti della segheria e dell'hard food
+
+### Coltello per pane
+
+<div class="kb-profile-visual">
+  <figure><img src="../../assets/images/approved/knife-shapes/bread.jpg" alt="Complete Xinzuo bread knife">ZZ<figcaption>A coltello Xinzuo completo con un lungo bordo seghettato.</figcaption></figure>
+</div>
+
+La caratteristica seghettatura del coltello da pane ha più senso se visto nel contesto in cui si è sviluppato. Storicamente, la panificazione e i pani comunemente serviti erano spesso diversi da molti dei pani oggi disponibili commercialmente. Un problema particolarmente importante era come tagliare una pagnotta con una **crosta morbida e interni molto morbidi senza comprimerla** prima che il bordo fosse passato attraverso.
+
+Serrazioni risolvere quel problema consentendo ai singoli denti di **grip la superficie del cibo**. Invece di fare affidamento su una forte pressione verso il basso, l'utente fa un disegno leggero o movimento di taglio. I denti stabiliscono diversi piccoli punti di acquisto e la lama avanza per trazione, in modo che la briciola o altra struttura morbida è tagliato con meno schiacciamento.
+
+Per molti pane comunemente venduto oggi, un profilo pronunciato della sega non è sempre necessario come una volta: crosta, struttura a briciole e condizioni di porzionatura variano notevolmente, e un bordo liscio molto affilato può gestire perfettamente alcuni pani. Il coltello per pane seghettato rimane tuttavia **essenziale per prodotti lievitati molto morbidi** - torte, brioche, panettone, rotolini e alimenti simili - dove la compressione verso il basso può deformare il prodotto prima che un bordo liscio inizi il taglio.
+
+Utilizzare un leggero movimento di taglio guidato e lasciare che i denti fare il lavoro. Eccessiva pressione sconfigge lo scopo schiacciando la briciola. Serrature rimangono funzionali per lungo tempo, perché i loro recessi ricevono meno contatto di bordo, ma richiedono un affilatore affusolato o servizio specialistico piuttosto che normali colpi di pietra piatta.
+
+### Coltello da cucina surgelato
+
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZZZ<figcaption>A coltello Xinzuo con un bordo grossolano.</figcaption></figure>
+</div>
+
+Il coltello da cucina surgelato utilizza una seghettatura forte e grossolana per segare attraverso ingredienti surgelati adatti. Il profilo esiste perché un coltello da cuoco sottile e duro può scheggiarsi o rompersi quando forzato in un blocco congelato. Una lama dedicata distribuisce il lavoro in modo diverso e fornisce denti che possono entrare nella superficie dura.
+
+Il cibo deve essere stabile, la mano libera tenuta al di fuori del percorso e la lama mossa senza torsione o impatto. Non tutte le confezioni congelate, osso incorporato o blocco grande è adatto anche per un coltello che porta questo nome; seguire l'esatta specifica Xinzuo.
+
+## Un compatto profilo di carne Xinzuo
+
+### Coltello vichingo
+
+<div class="kb-profile-visual">
+  <figure>ZKBTOKEN001ZZZZZ<figcaption>A coltello Xinzuo Viking, un profilo compatto orientato alla carne.</figcaption></figure>
+</div>
+
+Il Coltello Viking è un nome commerciale Xinzuo per un coltello da carne **compatto**. Il suo scopo è più facile da capire confrontandolo con un coltello da intaglio: entrambi sono destinati a compiere movimenti controllati attraverso la carne, ma il profilo Viking mette quel lavoro in una confezione più corta e compatta.
+
+La lunghezza fuori tutto più breve rende più facile il controllo quando la porzione non richiede la lunga estrazione ininterrotta di un classico coltello da intaglio. La sua curva pronunciata sostiene un movimento affettante e penetrante intorno a bistecche, porzioni cotte e altre carni disossate, mentre la lama larga dà più presenza e controllo di una stretta affettatrice. È quindi particolarmente utile quando il cuoco vuole un coltello a base di carne che si sente più compatto e manovrabile di una lunga scultura.
+
+Il trade-off è raggiunto. Un lungo coltello da intaglio rimane più efficiente per i grandi arrosti, prosciutto o qualsiasi attività in cui un disegno continuo dovrebbe attraversare una vasta porzione. Il Coltello Viking non è un chopper osso e il suo profilo distintivo non deve essere interpretato come permesso di impatto o leva.
+
+## Scegliere per lavoro anziché per nome
+
+Per la maggior parte delle cucine, il primo coltello serio dovrebbe essere un coltello da cuoco, gyuto, santoku o mannaia cinese la cui lunghezza e movimento si sentono naturali. Un coltello da pane e una piccola utilità o coltello da pastiglia poi coprire le attività principali maniglie della lama male. Intaglio lungo, filettatura, macelleria di pesce e strumenti di impatto diventano utili quando questi lavori si verificano spesso abbastanza per giustificare la geometria dedicata.
+
+Scegliere il profilo prima dell'acciaio. In primo luogo decidere se il lavoro ha bisogno di contatto scheda, una lunga estrazione, flessibilità controllata, un punto preciso o massa supportata. Poi confrontare acciaio, trattamento termico, maniglia e costruzione all'interno di quella famiglia. Questo ordine impedisce caratteristiche decorative o nomi impressionanti di distrarre dalla domanda importante: la forma rende il movimento previsto più pulito, più sicuro e più facile da controllare?
+
+## Leggere i nomi dei cataloghi in modo responsabile
+
+Il catalogo Xinzuo è autorevole per il nome di un prodotto attuale Xinzuo, ma un'etichetta commerciale non è automaticamente una categoria storica universale. Viking Knife e Ultimate Utility Knife rimangono quindi esplicitamente identificati come nomi Xinzuo. Sashimi Knife è collegato a terminologia giapponese più specifica senza rinominare silenziosamente il prodotto. Chino e chopper osso rimangono separati perché profili rettangolari simili possono nascondere spessore, massa e lavori d'impatto molto diversi.
+
+La cosa più importante è che una fotografia stabilisce un profilo, non durezza, macinatura, manualità o capacità ossea. Tali proprietà appartengono alla specifica esatta del modello e ai capitoli successivi di questa guida.
+
+### Riferimenti tecnici
+
+- [Victorinox: Quale coltello fa cosa](https://www.victorinox.com/en-US/Cutlery/Information/Which-knife-does-what/cms/whichknifedoeswhat/)
+- [KAI Europe: famiglie di lame giapponesi](https://kai-europe.com/en/keyword/japanese-blades/)
+- [Catalogo coltelli da cucina KAI 2025-26](https://kai-europe.com/wp-content/uploads/2025/08/KAI_kitchen_knives_catalogue_2025-26_en.pdf)
+- [Tojiro: categorie coltello in stile occidentale](https://www.tojiro-japan.com/knife_category/western_style_knives/)
+
+*Fonte: i nomi Xinzuo e gli esempi di prodotto provengono dal catalogo Xinzuo 2025 e dalle attuali pagine della serie Xinzuo. Le fotografie di prodotto derivate dal catalogo sono soggette all'avviso dei diritti dell'immagine. Il PM80-CS visual è utilizzato come riferimento attuale per l'identificazione del modello.*

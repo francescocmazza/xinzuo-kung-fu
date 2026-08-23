@@ -1,5 +1,5 @@
 ---
-source_hash: 067f713c59b804035d914d4c16c6adbdb149c2d9babf5f2602ca497dcb7f48e9
+source_hash: 8e2958df08246c2f268dca3ddaac39a61ab80a6d329e3587b9dcb52f43997d3d
 ---
 
 # Il Kung Fu di Xinzuo
@@ -51,21 +51,25 @@ Non devi leggere dall'inizio alla fine.
 
 Per l'auto-studio, scegliere una domanda dalla propria cucina e seguirla attraverso i capitoli pertinenti. Per la formazione del personale, utilizzare ogni capitolo come una breve lezione: imparare l'idea centrale, dimostrarlo in modo sicuro, invitare lo studente a provarlo, poi chiedere loro di spiegare il risultato senza gergo. Una buona spiegazione aiuta un cliente a scegliere; non dovrebbe mai far pressione verso l'opzione più costosa.
 
-## Parte I - Master the movement
+## Parte I - Scegli il coltello
+
+### Forme di coltello e loro utilizzo
+
+La forma è la prima decisione pratica perché determina come il coltello si avvicina al cibo. Il capitolo presenta ogni forma con la propria immagine Xinzuo completa immediatamente sotto il nome, seguita da una spiegazione discorsiva del perché la lama ha quel profilo, quale movimento sostiene, dove è più utile e quale lavoro può danneggiarlo.
+
+La sequenza inizia con coltelli di uso generale, poi si muove attraverso forme vegetali e cinesi, affettatrici lunghe, coltelli da disossamento e pesce, piccoli utensili di precisione, coltelli seghettati e chopper pesanti. Specialisti nomi commerciali giapponesi e Xinzuo-specifici sono spiegati in relazione al lavoro più ampio che svolgono piuttosto che presentato come una lista per memorizzare.
+
+## Parte II - Master the movement
 
 ### Smusso singolo e doppio
 
 Lo smusso è la parte inclinata che porta al tagliente. La sua posizione cambia lo sterzo, la separazione degli alimenti, la manualità e l'affilatura. Il capitolo spiega anche un modo pratico per utilizzare un coltello a smusso realizzato per la mano opposta: organizzare il lavoro in modo che la lama si allontani dalla mano guida o dal corpo.
 
-### Forme di coltello e loro utilizzo
-
-I nomi dei coltelli diventano utili solo quando sono collegati al movimento e al cibo. Questo capitolo inizia con le famiglie più cuochi in realtà si incontrano: coltelli da cuoco, coltelli da cuoco cinesi, coltelli da intaglio e affettatura, coltelli da disossamento e filetto, coltelli da pane, piccoli coltelli utili e pesanti elicotteri. Forme giapponesi come gyuto, santoku, sujihiki, yanagiba e deba sono poi spiegate come soluzioni particolari all'interno di quelle famiglie più ampie.
-
 ### Come tagliare
 
 Il cuore pratico del libro copre taglio dritto, taglio push, disegnare affettatura, dondolo, lavoro punta, taglio attraverso il grano, julienne, dadi, triturazione, sbucciatura, disossamento e filettatura. Ogni movimento essenziale include uno scopo, un setup sicuro, un semplice esercizio ed un errore comune da correggere.
 
-## Parte II - Comprendere il materiale
+## Parte III - Comprendere il materiale
 
 ### Le cinque dimensioni del coltello in acciaio
 
@@ -83,7 +87,7 @@ Carbonio, cromo, molibdeno, vanadio e altri elementi legati sono spiegati attrav
 
 Questi capitoli separano l'acciaio crogiolo storico, la saldatura del modello moderno, il rivestimento stratificato e la decorazione della superficie. Essi spiegano anche il limitato effetto differenziale-usura a volte chiamato auto-affilatura in full-Damascus lame.
 
-## Parte III - Proteggere e ripristinare il bordo
+## Parte IV - Proteggere e ripristinare il bordo
 
 ### Uso sicuro e trasporto
 
