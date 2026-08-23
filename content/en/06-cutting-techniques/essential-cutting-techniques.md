@@ -3,7 +3,7 @@ title: How to Cut - Essential Knife Techniques
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-22
+reviewed: 2026-08-23
 translation_priority: highest
 ---
 
@@ -23,7 +23,31 @@ Stand close enough that you do not have to reach. Relax your shoulders. Keep the
 
 Hold the food with the supporting hand in a claw shape: fingertips curved inward, thumb behind them and the side of the blade guided by the first joints rather than by exposed fingertips. The claw is not a rigid pose. It is a moving guide that retreats a little after each cut.
 
-For a chef's knife, gyuto, santoku, bunka or Chinese chef's knife, a pinch grip usually gives the best control. Pinch the blade gently between thumb and index finger just in front of the handle, then wrap the remaining fingers around the handle. Do not squeeze harder than necessary. A tense grip makes small corrections more difficult.
+## Grip and balance: the knife is designed around the hand
+
+A knife is not balanced in the abstract. The same knife can feel neutral in one grip and noticeably blade-heavy or handle-heavy in another because the effective support point moves with the hand. Xinzuo therefore develops and balances different knives around three broad grip positions. These are not rigid rules - hand size, technique and personal preference still matter - but they explain why different models can feel deliberately different.
+
+### Handle grip
+
+In the most familiar handle grip, the hand stays mainly on the handle and the thumb and index finger remain behind, or close to, the bolster rather than advancing significantly onto the blade. This is an intuitive grip for many home cooks and for users who prefer a more conventional hold.
+
+A knife intended for this position can carry its useful balance slightly farther back because the hand supports the knife from the handle. The handle shape and its mass therefore play a particularly important role in how stable and comfortable the knife feels.
+
+### Pinch grip
+
+Many Xinzuo chef-oriented knives are balanced for a **pinch grip**. Here the hand moves forward so that a substantial part of the palm - often around half of it, and sometimes a little more depending on the hand and knife - lies over or immediately around the bolster area. The thumb and index finger pinch the two faces of the blade, commonly about one centimetre or more in front of the bolster, while the remaining fingers wrap naturally around the handle.
+
+This direct contact with the blade gives fine information about where the edge is and how it is moving. On a knife designed for this grip, the balance point commonly sits near the bolster or slightly forward of it, close to the place where the hand actually controls the knife. The result can feel neutral and precise even if the same knife feels more blade-heavy when held only at the rear of the handle.
+
+The grip should still be gentle. Pinch for control, not for force. Excess tension reduces sensitivity and makes small corrections harder.
+
+### Intermediate or hybrid grip
+
+Some Xinzuo knives are balanced for a position between the two. The hand advances toward the bolster, and the thumb and index finger may sit on or just ahead of it, but the grip does not move as far onto the blade as a pronounced pinch grip. Most of the hand still receives support from the handle.
+
+This intermediate balance can be useful on versatile knives because the user can move slightly backward when more leverage feels helpful and slightly forward when precision matters. It is not a compromise caused by uncertain design; it is a deliberate way of making a knife comfortable across a wider range of hand positions.
+
+For this reason, the phrase **well balanced** should always be followed by a practical question: balanced where? When comparing knives, hold each one in the grip for which it was designed as well as in the grip you personally use. Consider the balance point together with blade mass, handle length, bolster shape and the amount of safe space available for thumb and index finger.
 
 > **The four-word safety check:** stable board, stable food, clear path, hidden fingertips.
 
@@ -33,7 +57,7 @@ For a chef's knife, gyuto, santoku, bunka or Chinese chef's knife, a pinch grip 
 
 The blade rises and descends in a mostly vertical path. It may move slightly forward as it falls, but it does not travel through a large arc. The edge meets the board along a broad, relatively flat section.
 
-This movement suits nakiri, santoku, bunka, many gyuto and Chinese chef's knives. A strongly curved Western chef's knife can also chop, but a small part of its belly may remain above the board if the movement is perfectly vertical.
+This movement suits nakiri, santoku, bunka, many gyuto and Chinese cleavers. A strongly curved Western chef's knife can also chop, but a small part of its belly may remain above the board if the movement is perfectly vertical.
 
 ### Try it with a cucumber
 
@@ -147,7 +171,7 @@ For a carrot julienne:
 
 Use push cuts or controlled straight chops. Let the knuckles of the claw guide the side of the blade. Do not race the supporting hand. The knife moves only after the claw is set.
 
-A Chinese chef's knife is particularly useful here. Its tall blade provides a large guide surface, while a thin cai dao can make remarkably fine slices. Its rectangular appearance does not make it a bone cleaver.
+A Chinese cleaver is particularly useful here. Its tall blade provides a large guide surface, while a thin cai dao can make remarkably fine slices. Its rectangular appearance does not make it a bone cleaver.
 
 ## 8. Dicing
 
@@ -167,7 +191,7 @@ Do not chase an abstract number of passes. Stop when the texture suits the recip
 
 ## 10. Crushing and transferring food
 
-The broad face of a chef's knife or Chinese chef's knife can crush a peeled garlic clove. Lay the blade flat, keep the edge facing away from the body, place the heel of the free hand on the broad face and press once with control. Never strike the blade while fingers are near the edge.
+The broad face of a chef's knife or Chinese cleaver can crush a peeled garlic clove. Lay the blade flat, keep the edge facing away from the body, place the heel of the free hand on the broad face and press once with control. Never strike the blade while fingers are near the edge.
 
 To transfer chopped food, slide the broad face underneath or use a bench scraper. If the knife must be used, lift the pieces with the face while the edge remains clear of hands. Do not drag the cutting edge sideways across the board.
 
@@ -223,6 +247,8 @@ Use inexpensive, stable ingredients and stop before fatigue reduces control.
 
 ## What to remember
 
+- Knife balance only makes sense in relation to the grip position.
+- Xinzuo designs include handle-grip, pinch-grip and intermediate-grip balance strategies.
 - Straight chopping uses a flat section of edge.
 - Push cutting moves forward and down.
 - Draw slicing uses the length of the blade and minimizes compression.
