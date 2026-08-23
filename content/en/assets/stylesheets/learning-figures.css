@@ -30,6 +30,61 @@
   text-align: center;
 }
 
+/* The catalog master page contains two tall columns.  Showing the whole
+ * landscape page at once makes the labels too small to read.  The runtime
+ * correction duplicates the same authorized Xinzuo catalog image into two
+ * viewports, each showing one vertical half at almost twice the scale. */
+.kb-shape-index-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.6rem;
+  max-width: 52rem;
+  margin: 1.25rem auto 2rem;
+}
+
+.kb-shape-index-split__figure {
+  margin: 0;
+}
+
+.kb-shape-index-split__viewport {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 649.5 / 902;
+  overflow: hidden;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.65rem;
+  background: #fff;
+  box-shadow: 0 0.3rem 1.2rem rgba(0, 0, 0, 0.08);
+}
+
+.kb-shape-index-split__viewport img {
+  display: block;
+  width: 200% !important;
+  max-width: none !important;
+  height: auto !important;
+  max-height: none !important;
+  margin: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.kb-shape-index-split__viewport--left img {
+  transform: translateX(0);
+}
+
+.kb-shape-index-split__viewport--right img {
+  transform: translateX(-50%);
+}
+
+.kb-shape-index-split__figure figcaption {
+  margin-top: 0.55rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
 .kb-profile-visual {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -50,12 +105,18 @@
   overflow: visible;
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 0.7rem;
-  background: #fff;
+  background: #f2f4f5;
   box-shadow: 0 0.25rem 0.9rem rgba(0, 0, 0, 0.06);
   break-inside: avoid;
   page-break-inside: avoid;
+  isolation: isolate;
 }
 
+/* Most catalog product crops were supplied on an opaque white matte.  On a
+ * white page the pale polished edge can visually disappear and look as if
+ * the photograph has been cut.  Multiply the white matte into a very light
+ * neutral field: the complete source image remains uncropped, while the
+ * blade outline becomes visible all the way from tip to heel. */
 .kb-profile-visual img {
   display: block;
   width: 100%;
@@ -66,6 +127,8 @@
   object-fit: contain;
   object-position: center;
   background: #fff;
+  mix-blend-mode: multiply;
+  filter: contrast(1.04);
 }
 
 .kb-profile-visual figcaption {
@@ -160,7 +223,8 @@
   }
 
   .kb-profile-visual,
-  .kb-profile-visual--material {
+  .kb-profile-visual--material,
+  .kb-shape-index-split {
     grid-template-columns: 1fr;
   }
 
