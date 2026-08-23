@@ -14,31 +14,30 @@ Knife shape is the most immediate connection between a cook and the work to be d
 
 For that reason, this chapter comes near the beginning of the guide. It is easier to understand metallurgy after first deciding what the knife must actually do. A cook looking for one everyday tool, a long slicer for roasts, a flexible blade for fish or a heavy chopper is solving four different problems. No steel grade or decorative pattern can turn the wrong shape into the right tool.
 
-The forms below are arranged by work rather than nationality. Each name is followed immediately by a complete Xinzuo example so that the explanation never becomes detached from the profile. The photograph identifies the broad form, not every possible version: knives sold under the same name can still differ in length, curve, thickness, balance and bevel geometry. Those details must be checked on the individual model.
+The forms below are arranged by work rather than nationality. Each name is followed immediately by one complete Xinzuo example so that the explanation never becomes detached from the profile. The photograph identifies the broad form, not every possible version: knives sold under the same name can still differ in length, curve, thickness, balance and bevel geometry. Those details must be checked on the individual model.
 
 ## How shape guides movement
 
-A curved belly lets the contact point travel progressively along the edge as the hand moves, while a flatter edge makes it easier to complete a push cut or a nearly vertical chop without leaving pieces joined at the bottom. A long, narrow blade places more edge in contact with food during a draw slice and reduces the drag created by a tall blade face. A narrow point reaches into joints and around small details, while a broad, supported heel is better suited to controlled force.
+A curved belly changes the direction in which the hand's movement reaches the food. During a draw or rocking stroke, the working portion of a curved edge is inclined relative to the direction of travel. The forward movement supplied by the hand can therefore be accompanied by a progressive downward component at the contact point. The curve does not create extra energy or make an edge intrinsically sharper: it helps direct part of the movement into penetration while the contact point advances along the belly.
 
-These are tendencies rather than rigid laws. A gyuto can have enough curve to rock comfortably; a Western chef's knife can be relatively flat; a cleaver-shaped knife may be a thin vegetable slicer rather than a bone tool. The useful habit is to read the actual blade from heel to tip instead of trusting the category name alone.
+A flatter edge behaves differently. It makes it easier to complete a push cut or a nearly vertical chop with broad board contact and gives a more direct, linear relationship between hand movement and edge movement. A long, narrow blade places more edge in contact with food during a draw slice and reduces the drag created by a tall blade face. A narrow point reaches into joints and around small details, while a broad, supported heel is better suited to controlled force.
+
+These are tendencies rather than rigid laws. A gyuto can have enough curve to rock comfortably; a Western chef's knife can be relatively flat; a cleaver-shaped knife may be a thin general-purpose cutter rather than a bone tool. The useful habit is to read the actual blade from heel to tip instead of trusting the category name alone.
+
+### Surface relief: hollows and hammering
+
+Some Xinzuo knives use hollows, dimples or a hammered surface on the blade face. These features interrupt the broad, continuous contact between food and steel. As a slice bends away from the blade, the recessed areas can leave small gaps in which air remains between the food and the blade face. By reducing continuous surface contact and suction, those small air pockets can make moist, starchy or soft foods release more easily.
+
+The effect should not be presented as a guarantee that food will never stick. It depends on the depth and distribution of the relief, the finish of the blade, the moisture and texture of the ingredient and the cutting technique. The same principle applies whether the relief is made as regular Granton-style hollows or as a hammered texture.
 
 ## Catalog shape reference
 
-The following reference is taken from the Xinzuo catalog master index rather than from the incomplete redrawn silhouette sheet previously used in this guide. It is intended as a visual orientation tool. The individual discussions that follow use separate complete Xinzuo images so that no explanation is detached from its knife form.
+The following reference is taken from the Xinzuo catalog master index. It is intended as a visual orientation tool. The individual discussions that follow use separate complete Xinzuo images so that no explanation is detached from its knife form.
 
 <figure class="kb-learning-figure">
 <img src="../../assets/images/approved/master-knife-shape-index.svg" alt="Xinzuo catalog master index showing the complete knife-shape family">
-<figcaption>Xinzuo catalog knife-shape master index. The numbered captions below are arranged compactly for quick reference.</figcaption>
+<figcaption>Xinzuo catalog knife-shape master index.</figcaption>
 </figure>
-
-|  |  |  |  |  |  |
-|---|---|---|---|---|---|
-| **1** Chef | **2** Gyuto | **3** Santoku | **4** Bunka | **5** Viking | **6** Granton Chef |
-| **7** Nakiri | **8** Chinese Slicer | **9** Chinese Cleaver | **10** Chopper | **11** Bone Chopper | **12** Carving |
-| **13** Roast Carving | **14** Granton Carving | **15** Ham | **16** Sashimi | **17** Sakimaru | **18** Kiritsuke |
-| **19** Boning | **20** Honesuki | **21** Fillet | **22** Deba | **23** Utility | **24** Ultimate Utility |
-| **25** Curved Paring | **26** Straight Paring | **27** Flat-cut Paring | **28** Steak | **29** Butter | **30** Cheese |
-| **31** Bread | **32** Frozen-food |  |  |  |  |
 
 ## General-purpose knives
 
@@ -50,9 +49,9 @@ The following reference is taken from the Xinzuo catalog master index rather tha
 
 The Western chef's knife is a **versatile knife whose traditional geometry is predominantly oriented toward meat work**. It can prepare vegetables, fruit, herbs and many other ingredients, which is why it became the familiar all-round knife of European kitchens, but its characteristic profile makes particular sense when cutting meat.
 
-Look at the edge from heel to tip. Its continuous curve can recall the cross-section of a boat hull. This curved line is characteristic of many traditional meat-oriented knives. During a draw or rocking cut, the curve makes the point of contact move progressively along the edge. A horizontal component of hand movement is therefore accompanied by progressive penetration into the food rather than by simple vertical compression. In practical terms, the blade keeps presenting a fresh section of edge while it enters the cut.
+Look at the edge from heel to tip. Its continuous curve can recall the cross-section of a boat hull. During a draw or rocking stroke, the hand supplies forward movement while the inclined working portion of the curved belly naturally directs part of that movement downward into the food. The practical advantage is not that a different section of edge is somehow unique to a curved knife—any draw cut uses successive parts of an edge—but that the **geometry of the curve makes progressive penetration a natural part of the stroke** rather than requiring a purely vertical push.
 
-This is especially useful in meat, where the edge may meet muscle fibres, connective tissue, membranes and small changes in resistance during the same stroke. The curved profile helps the knife continue through those different structures instead of asking one short section of edge to force its way straight down. This is one reason the chef's knife is particularly effective around tougher fibres and sinewy or connective-tissue-rich portions while remaining versatile enough for general preparation.
+This is particularly useful in meat, where one cut may cross muscle fibres, connective tissue, membranes and areas of changing resistance. The combination of slicing movement and progressive penetration helps the edge continue through those structures without relying only on downward pressure. This is one reason the traditional chef's profile is especially effective on meat, including sinewy or connective-tissue-rich portions, while remaining versatile enough for general preparation.
 
 The same substantial construction that gives many Western chef's knives authority also creates a limitation. Compared with a thinner, narrower slicing blade, the broader and commonly thicker blade is **less easy to redirect once it is already deep in the food**. Changing or finely correcting the cutting angle during the cut requires more effort because more blade surface and more cross-section are already engaged. The chef's knife is therefore versatile, but it is not the most agile geometry for every fine directional correction.
 
@@ -61,12 +60,14 @@ It remains a fine cutting tool rather than a bone chopper. Do not strike it thro
 ### Gyuto
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/gyuto.jpg" alt="Complete Xinzuo gyuto"><figcaption>A complete Xinzuo gyuto, showing a slimmer point and a comparatively flatter working edge.</figcaption></figure>
+  <figure><img src="https://kitchenvirtue.com/cdn/shop/files/p_07772aca-d5e8-4c61-bfaf-0b01cfb2ef21.jpg?v=1752611078" alt="Xinzuo PM80-CS used as a gyuto-profile example"><figcaption>Xinzuo PM80-CS, used here to show the comparatively flatter, slimmer gyuto-type profile.</figcaption></figure>
 </div>
 
-The gyuto is the Japanese all-purpose counterpart to the Western chef's knife. The two forms overlap strongly in use, but they need not feel the same. In the Xinzuo range, gyuto profiles generally appear slimmer, with a flatter heel and middle section and less of the broad, continuously curved outline associated with many European chef's knives.
+The gyuto is the Japanese all-purpose counterpart to the Western chef's knife. The two forms overlap strongly in use, but they need not feel the same. Compared with the traditional Western chef's profile, a gyuto commonly has a flatter heel and middle section, a slimmer point and less continuous belly curvature.
 
-That geometry makes push cuts and long draw slices feel natural while preserving enough front curve for moderate rocking. Compared with the more strongly curved Western chef's profile, the flatter line often gives the user a more direct sense of board contact and makes changes in the direction of a cut easier to control. The distinction is not Japanese quality versus Western quality, nor is every gyuto automatically thin and flat. Compare the actual curve, height, thickness and balance.
+That reduced curvature changes the way the knife moves through food. It generally provides **less of the natural penetration assistance produced by a strongly curved belly**, because less of the forward movement is redirected into a downward component at the contact point. The gyuto therefore tends to feel more neutral and linear during push cuts and long draw slices. It is often easier to steer and to make small directional corrections, but its geometry is correspondingly **less specifically oriented toward meat work** than the traditional Western chef's knife.
+
+This does not make the gyuto unsuitable for meat. It remains an exceptionally versatile knife and works very well on boneless meat, fish, vegetables and general preparation. The distinction is one of emphasis: the Western chef's knife uses more curvature to favour a penetrating, rocking or sweeping action, while the gyuto generally trades some of that behaviour for flatter board contact and more direct control. Actual models still vary, so compare the real curve, height, thickness and balance rather than relying on the name alone.
 
 ### Santoku
 
@@ -84,19 +85,11 @@ The height creates knuckle clearance and a broad guiding surface. It is particul
   <figure><img src="../../assets/images/approved/knife-shapes/bunka.jpg" alt="Complete Xinzuo bunka"><figcaption>A complete Xinzuo bunka with its characteristic angular K-tip.</figcaption></figure>
 </div>
 
-The bunka shares much of the santoku's compact height and versatility, but its front descends sharply into an angular K-tip. That point gives a clear view of the cutting line and reaches accurately into scoring, trimming and fine vegetable work.
+The bunka shares much of the santoku's compact height and versatility, but its front descends sharply into an angular K-tip. The important feature is not only that the tip is pointed: **its shape and its relatively low, forward position place a precise working point close to the cutting line**. This allows the user to see and control the point accurately for scoring, trimming, opening small sections and other detail work.
 
-The edge is commonly fairly straight, so a bunka rewards push cutting and chopping. The same fine tip that makes it precise also makes it vulnerable to twisting, levering and hard contact with the board. It should be chosen for that working advantage, not only for its dramatic silhouette.
+That geometry is especially useful because the bunka still has a relatively large, tall blade. A broad knife would normally feel less suited to delicate point work, but the K-tip gives the user a fine and accessible precision tool without giving up the blade height needed for normal board preparation. In this sense, the bunka combines a substantial general-purpose blade with a tip that can perform work more often associated with a smaller knife.
 
-### Viking Knife - a Xinzuo commercial profile
-
-<div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/viking.jpg" alt="Complete Xinzuo Viking Knife"><figcaption>A complete Xinzuo Viking Knife; the name identifies a Xinzuo product profile rather than a historical category.</figcaption></figure>
-</div>
-
-Viking Knife is a Xinzuo commercial name for a tall, compact general-purpose blade with a strongly swept front. It combines some of the height of a santoku, some of the curve of a chef's knife and a distinctive raised point. The tall face gives knuckle clearance and useful food-transfer area, while the belly permits more rocking than a flat nakiri.
-
-Those features explain the practical appeal without inventing a historical Nordic taxonomy around the name. Despite its bold outline, this remains a preparation knife. Its safe uses follow the thickness, edge geometry and specifications of the exact model; the name is not permission to chop bones.
+The edge is commonly fairly straight, so a bunka rewards push cutting and chopping. The same fine tip that makes it precise is also vulnerable to twisting, levering and hard contact with the board.
 
 ### Granton-edge chef's knife
 
@@ -104,9 +97,9 @@ Those features explain the practical appeal without inventing a historical Nordi
   <figure><img src="../../assets/images/approved/knife-shapes/granton-chef.jpg" alt="Complete Xinzuo Granton-edge chef's knife"><figcaption>A complete Xinzuo chef's knife with alternating hollows along the blade face.</figcaption></figure>
 </div>
 
-A Granton-edge chef's knife is fundamentally a chef's knife whose blade face has a row of hollows. The profile still determines the movement. The recesses reduce contact area and can sometimes help moist or starchy slices release more readily, but the effect varies with the food, finish, depth and position of the hollows.
+A Granton-edge chef's knife is fundamentally a chef's knife whose blade face has a row of hollows. The profile still determines the movement, while the recesses interrupt the contact between food and steel. During a slice, they can leave **small air pockets between the food and the blade**, reducing continuous adhesion and helping some moist or starchy foods release more readily.
 
-They do not create an invisible air cushion and do not make the knife universally non-stick. The cutting edge remains plain and is sharpened like that of another chef's knife, without unnecessary thinning into the hollows.
+The result varies with the ingredient, finish, depth and position of the hollows, so the knife should not be described as universally non-stick. The cutting edge remains plain and is sharpened like that of another chef's knife, without unnecessary thinning into the hollows.
 
 ## Vegetable and Chinese all-purpose knives
 
@@ -116,19 +109,13 @@ They do not create an invisible air cushion and do not make the knife universall
   <figure><img src="../../assets/images/approved/knife-shapes/nakiri.jpg" alt="Complete Xinzuo nakiri"><figcaption>A complete Xinzuo nakiri: tall, thin and nearly straight along the cutting edge.</figcaption></figure>
 </div>
 
-The nakiri is a Japanese vegetable knife built around straightforward board contact. Its tall rectangular blade is thin, double bevelled and nearly straight along the edge. When the hand moves down or forward and down, most of the edge reaches the board together, reducing pieces left joined at the bottom.
+The nakiri is a Japanese vegetable knife built around straightforward board contact. Its tall rectangular blade is thin, double bevelled and nearly straight along the edge. When the hand moves down or forward and down, most of the edge reaches the board together, reducing pieces left joined at the bottom. Blade height gives the guiding hand room and makes repeated work on cabbage, onions, carrots and leafy vegetables efficient.
 
-Blade height gives the guiding hand room and makes repeated work on cabbage, onions, carrots and leafy vegetables efficient. Its resemblance to a small cleaver is superficial. A nakiri gains its cutting ease from thin geometry and is not made for bone, frozen food or impact. It also has little useful point, so a gyuto or bunka is better when detail work is frequent.
+Nakiri do not all finish in exactly the same kind of front. One important family has a **strongly rounded, unsharpened front corner**. In this form the rounded front can be allowed to rest on the board as a controlled support point while the knife is pivoted through a short arc for fine mincing. The front is not intended to pierce; its rounded geometry favours safe board contact and repeated movement.
 
-### Chinese slicing knife
+Another family carries a **sharpened cutting edge farther into the front of the blade**. This design is intended to make a greater proportion of the blade participate in the cut, giving the user useful cutting action almost to the front rather than treating that area primarily as a support or transition.
 
-<div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/chinese-slicer.jpg" alt="Complete Xinzuo Chinese slicing knife"><figcaption>A complete Xinzuo Chinese slicing knife; the rectangular outline does not imply bone-chopping geometry.</figcaption></figure>
-</div>
-
-The Chinese slicing knife uses a tall rectangular blade as an all-purpose kitchen tool. Its long, fairly straight edge suits slicing, push cutting and fast chopping, while the large face guides against the knuckles, crushes garlic and carries prepared ingredients from board to heat.
-
-Seen in the context of the workstation, the shape becomes logical: the same blade cuts, gathers and transfers. Many Chinese slicing knives are thin behind the edge and should never strike hard bone. Their outline describes height and working style, not impact strength.
+These are not two rigid categories. In practice there are innumerable gradations between them: some nakiri have a very broad rounded nose, others only a softened corner, and others approach an almost square but still sharpened front. The actual profile tells the user whether the front is primarily a pivoting support, an active cutting area or a compromise between the two. In every case, the nakiri gains its cutting ease from thin vegetable-oriented geometry and is not made for bone, frozen food or impact.
 
 ### Chinese cleaver
 
@@ -136,23 +123,13 @@ Seen in the context of the workstation, the shape becomes logical: the same blad
   <figure><img src="../../assets/images/approved/knife-shapes/cleaver.jpg" alt="Complete Xinzuo Chinese cleaver"><figcaption>A complete Xinzuo Chinese cleaver; capability must be established from the exact model specification.</figcaption></figure>
 </div>
 
-The Chinese cleaver is one of the most distinctive all-purpose kitchen forms. Its tall rectangular blade can slice, chop, guide against the knuckles, crush aromatics and transfer prepared ingredients. Different Chinese cleavers occupy different weight classes, so two knives can share the same outline while one is a fine slicer and another has a thicker spine and more supported edge.
+The Chinese cleaver is one of the most distinctive all-purpose kitchen forms. Its tall rectangular blade can slice, chop, guide against the knuckles, crush aromatics and transfer prepared ingredients. Different Chinese cleavers occupy different weight and thickness classes, so the rectangular outline by itself does not tell us whether a particular knife is a fine general-purpose cutter or a more strongly supported tool.
 
-It is also **one of the more difficult kitchen knives to learn well**. The height, forward mass and lack of a familiar pointed chef-knife profile change the visual and tactile references used during cutting. A beginner may initially find fine changes of angle and tip-like detail work less intuitive.
+It is also **one of the more difficult kitchen knives to learn well**. The height, forward mass and lack of a familiar pointed chef-knife profile change the visual and tactile references used during cutting. A beginner may initially find fine changes of angle and detail work less intuitive.
 
 In experienced hands, however, the same geometry becomes exceptionally effective and versatile. A skilled user can exploit the long straight edge, large guiding face and mass of the blade for a very wide range of preparation without continually changing tools. Its learning curve is therefore a limitation for the novice, not evidence of limited capability.
 
-The correct reading still starts with weight, thickness behind the edge, bevel angle and the manufacturer's intended use. A general Chinese cleaver can be excellent for vegetables and boneless meat yet chip if treated as a bone tool. The name is not blanket permission for impact.
-
-### Chopper
-
-<div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/chopper.jpg" alt="Complete Xinzuo chopper"><figcaption>A complete Xinzuo chopper with a weight-forward rectangular blade.</figcaption></figure>
-</div>
-
-The Xinzuo chopper is a weight-forward form intended for stronger downward work than a thin Chinese slicer. Additional mass helps the blade carry momentum through tough ingredients, and a more supported edge sacrifices some low-resistance slicing in exchange for durability.
-
-That trade-off explains why a chopper feels less effortless in delicate vegetables. It also explains why the user should strike squarely rather than twist the blade after contact. Chopper still does not mean that every bone and frozen block is safe: the exact specification remains the boundary.
+The correct reading starts with weight, thickness behind the edge, bevel angle and the manufacturer's intended use. A general Chinese cleaver can be excellent for vegetables and boneless meat yet chip if treated as a bone tool. The name is not blanket permission for impact.
 
 ### Bone chopper
 
@@ -162,7 +139,7 @@ That trade-off explains why a chopper feels less effortless in delicate vegetabl
 
 The bone chopper is the clearest impact-oriented form in the guide. Its heavy blade, supported edge and substantial cross-section are designed for suitable butchery work in which momentum and durability matter more than a thin, low-drag cut.
 
-It is a controlled specialist, not an indestructible wedge. Large dense bones, hard frozen material, an unstable board or a glancing strike can still cause damage and injury. The stroke should be square and the blade withdrawn without sideways levering. A nakiri or Chinese slicer may resemble a chopper, but its thinner geometry makes it inappropriate for this work.
+It is a controlled specialist, not an indestructible wedge. Large dense bones, hard frozen material, an unstable board or a glancing strike can still cause damage and injury. The stroke should be square and the blade withdrawn without sideways levering. A thin nakiri or general-purpose Chinese cleaver may share part of the rectangular silhouette, but its geometry can be entirely inappropriate for impact.
 
 ## Long carving and slicing knives
 
@@ -192,9 +169,9 @@ Its purpose remains portioning cooked, boneless food. The broader point does not
   <figure><img src="../../assets/images/approved/knife-shapes/granton-carving.jpg" alt="Complete Xinzuo Granton carving knife"><figcaption>A complete Xinzuo long carving knife with blade-face hollows.</figcaption></figure>
 </div>
 
-The Granton carving knife combines long, narrow slicing geometry with hollows along the blade face. On ham, cooked meat, large fruit and some soft foods, those recesses can reduce contact and help a finished slice separate.
+The Granton carving knife combines long, narrow slicing geometry with hollows along the blade face. Those recesses reduce continuous blade-to-food contact and can create **small air gaps between the slice and the steel**, helping ham, cooked meat, large fruit and some soft foods separate more readily as the cut progresses.
 
-The effect is secondary to sharpness and technique. The edge is plain, not serrated, and performs best in a long controlled draw. Short sawing strokes waste the length that the design provides.
+The effect is secondary to sharpness and technique and is never a guarantee of a non-stick blade. The edge is plain, not serrated, and performs best in a long controlled draw. Short sawing strokes waste the length that the design provides.
 
 ### Ham knife
 
@@ -360,7 +337,7 @@ Its form belongs to service and presentation rather than board work. The rounded
 
 Cheese knife names a family rather than one universal shape. Soft, sticky cheese benefits from a thin blade with reduced contact area; a narrow point can portion and serve pieces; hard aged cheese may require a shorter and more strongly supported tool.
 
-Xinzuo examples include pointed and relieved forms designed to reduce drag. Openings and narrow surfaces can help, but no geometry prevents every cheese from sticking. The correct choice begins with texture and portion size.
+Xinzuo examples include pointed and relieved forms designed to reduce drag. Openings, hollows and other relief can reduce continuous contact and leave small air gaps between cheese and steel, but no geometry prevents every cheese from sticking. The correct choice begins with texture and portion size.
 
 ## Serrated and hard-food specialists
 
@@ -388,15 +365,29 @@ The frozen-food knife uses a strong, coarse serration to saw through suitable fr
 
 This remains a hazardous specialist operation. The food must be stable, the free hand kept outside the path and the blade moved without twisting or impact. Not every frozen package, embedded bone or large block is suitable even for a knife carrying this name; follow the exact Xinzuo specification.
 
+## A compact Xinzuo meat profile
+
+### Viking Knife
+
+<div class="kb-profile-visual">
+  <figure><img src="../../assets/images/approved/knife-shapes/viking.jpg" alt="Complete Xinzuo Viking Knife"><figcaption>A complete Xinzuo Viking Knife, a compact meat-oriented profile.</figcaption></figure>
+</div>
+
+Viking Knife is a Xinzuo commercial name for a **compact meat knife**. Its purpose is easier to understand by comparing it with a carving knife: both are intended to make controlled slicing movements through meat, but the Viking profile puts that work into a shorter and more compact package.
+
+The shorter overall length makes it easier to control when the portion does not require the long uninterrupted draw of a classic carving knife. Its pronounced curve supports a slicing and penetrating movement around steaks, cooked portions and other boneless meat, while the broad blade gives more presence and control than a narrow slicer. It is therefore particularly useful when the cook wants a meat-oriented knife that feels more compact and manoeuvrable than a long carver.
+
+The trade-off is reach. A long carving knife remains more efficient for large roasts, ham or any task where one continuous draw should cross a wide portion. The Viking Knife is not a bone chopper and its distinctive outline should not be interpreted as permission for impact or levering.
+
 ## Choosing by work rather than by name
 
-For most kitchens, the first serious knife should be a chef's knife, gyuto, santoku or Chinese slicing knife whose length and movement feel natural. A bread knife and a small utility or paring knife then cover tasks the main blade handles poorly. Long carving, filleting, fish-butchery and impact tools become worthwhile when those jobs occur often enough to justify dedicated geometry.
+For most kitchens, the first serious knife should be a chef's knife, gyuto, santoku or Chinese cleaver whose length and movement feel natural. A bread knife and a small utility or paring knife then cover tasks the main blade handles poorly. Long carving, filleting, fish-butchery and impact tools become worthwhile when those jobs occur often enough to justify dedicated geometry.
 
 Choose the profile before the steel. First decide whether the work needs board contact, a long draw, controlled flexibility, a precise point or supported mass. Then compare steel, heat treatment, handle and construction within that family. This order prevents decorative features or impressive names from distracting from the important question: does the shape make the intended movement cleaner, safer and easier to control?
 
 ## Reading catalog names responsibly
 
-The Xinzuo catalog is authoritative for the name of a current Xinzuo product, but a commercial label is not automatically a universal historical category. Viking Knife and Ultimate Utility Knife therefore remain explicitly identified as Xinzuo names. Sashimi Knife is connected to more specific Japanese terminology without silently renaming the product. Chinese cleaver, Chinese slicing knife, chopper and bone chopper remain separate until thickness and intended impact work are confirmed.
+The Xinzuo catalog is authoritative for the name of a current Xinzuo product, but a commercial label is not automatically a universal historical category. Viking Knife and Ultimate Utility Knife therefore remain explicitly identified as Xinzuo names. Sashimi Knife is connected to more specific Japanese terminology without silently renaming the product. Chinese cleaver and bone chopper remain separate because similar rectangular outlines can conceal very different thickness, mass and intended impact work.
 
 Most importantly, a photograph establishes a profile, not hardness, grind, handedness or bone capability. Those properties belong to the exact model specification and to the later chapters of this guide.
 
@@ -407,4 +398,4 @@ Most importantly, a photograph establishes a profile, not hardness, grind, hande
 - [KAI 2025-26 kitchen-knife catalog](https://kai-europe.com/wp-content/uploads/2025/08/KAI_kitchen_knives_catalogue_2025-26_en.pdf)
 - [Tojiro: Western-style knife categories](https://www.tojiro-japan.com/knife_category/western_style_knives/)
 
-*Source note: Xinzuo names and product examples come from the 2025 Xinzuo catalog and current Xinzuo series pages. Product photographs remain Xinzuo catalog material and are subject to the image-rights notice.*
+*Source note: Xinzuo names and product examples come from the 2025 Xinzuo catalog and current Xinzuo series pages. Catalog-derived product photographs are subject to the image-rights notice. The PM80-CS visual is used as a current model-identification reference.*
