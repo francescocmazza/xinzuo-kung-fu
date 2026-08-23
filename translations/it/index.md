@@ -1,5 +1,5 @@
 ---
-source_hash: 42ba9b77375293e9e40798c04b869c18ae11f2af8b9fa17b9b29884eb5932a86
+source_hash: 97091477245355806f0b81eab4fd46ed6a671d6011afdc9a3811379464b7789c
 ---
 
 # Il Kung Fu di Xinzuo
@@ -84,7 +84,7 @@ Il cuore pratico del libro copre taglio dritto, taglio push, disegnare affettatu
 
 ### Le cinque dimensioni del coltello in acciaio
 
-Invece di chiedere quale acciaio sia il migliore magnesite, impari a confrontare durezza, risposta di affilatura, resistenza alla corrosione, robustezza e finezza microstrutturale.
+Invece di chiedere quale acciaio sia il migliore magnesite, impari a confrontare durezza, risposta di affilatura, resistenza alla corrosione, durezza e finezza microstrutturale.
 
 ### acciai Xinzuo per lama
 

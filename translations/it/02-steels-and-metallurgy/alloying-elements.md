@@ -1,5 +1,5 @@
 ---
-source_hash: ef3756b33b0fe0ccd22d0dd6b09f1d45f0ce3c5f4dfae4ce7606d4678d8eaf33
+source_hash: 02ac0ab4aaea090942333038ceaf45759392092521008579fa76f12c2061ff7f
 ---
 
 # Elementi di lega - Guida pratica
@@ -24,7 +24,7 @@ Il catalogo di Xinzuo rende queste interazioni calcestruzzo. La gamma comprende 
 
 | Elemento | Ruolo principale | Beneficio pratico | Possibile compromesso |
 |---|---|---|---|
-| **Carbon - C** | Consente l'indurimento dell'acciaio e contribuisce alla formazione di carburo | Supporta durezza, resistenza all'usura e ritenzione dei bordi | Alti livelli possono ridurre la robustezza e la resistenza alla corrosione se il design complessivo non è equilibrato |
+| **Carbon - C** | Consente l'indurimento dell'acciaio e contribuisce alla formazione di carburo | Supporta durezza, resistenza all'usura e ritenzione dei bordi | Alti livelli possono ridurre la durezza e la resistenza alla corrosione se il design complessivo non è bilanciato |
 | **Cromio - Cr** | Migliora la resistenza alla corrosione e può formare carburi resistenti all'usura | Migliore resistenza alla ruggine e, in alcuni acciai, migliore resistenza all'usura | Grandi volumi di carburo possono rendere l'affilatura più impegnativa |
 | **Molybdenum - Mo** | Migliora l'induribilità, la stabilità ad alta temperatura e spesso il comportamento alla corrosione e all'usura | Prestazioni più stabili e vita utile | Aggiunge costi e aumenta la complessità del trattamento termico |
 | **Vanadium - V** | Rifinisce il grano e può formare carburi estremamente duri | Struttura fine a livelli modesti; forte resistenza all'usura a livelli più alti | Elevato contenuto di carburo può richiedere migliori abrasivi e più tempo di affilatura |
@@ -51,7 +51,7 @@ Questo è un buon esempio del perché la composizione debba essere letta nel suo
 
 Un modo semplice per ricordarlo è:
 
-> Il carbonio dà all'acciaio la capacità di diventare abbastanza duro da mantenere un filo, ma la quantità deve essere bilanciata con robustezza e resistenza alla corrosione.
+> Il carbonio dà all'acciaio la capacità di diventare abbastanza duro da tenere un bordo, ma la quantità deve essere bilanciata con resistenza alla corrosione e resistenza.
 
 ## Cromo: principalmente resistenza alla corrosione, ma non solo
 

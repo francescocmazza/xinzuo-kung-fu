@@ -1,17 +1,23 @@
 ---
-source_hash: f2297d07ed58c907fddbcc762bf958335233a86f641bdc6a45746fb0d21ada15
+source_hash: 3d1893b7a1bc202538de8f58b387da22efee91c277c09d91af7bb9746a439e76
 ---
 
 # Xinzuo Blade Steels - Guida pratica
 
-Xinzuo non usa un acciaio per ogni coltello perché una affettatrice fine, un coltello da cuoco tuttofare e un elicottero pesante chiedono al bordo di fare lavori diversi. La scelta utile dipende da manutenzione, affilatura, geometria e tecnica tanto quanto dal prezzo o dal nome in lega.
+Xinzuo non utilizza un acciaio per ogni coltello perché non esiste un acciaio perfetto. Non è possibile massimizzare la durezza, la ritenzione dei bordi, la facilità di affilatura, la resistenza alla corrosione e la durezza tutte insieme. Migliorare una dimensione spesso cambia un'altra, e il giusto compromesso dipende dal coltello, il cibo, l'utente e il modo in cui il bordo sarà mantenuto.
 
-Questo capitolo spiega i principali acciai documentati in tutta la gamma Xinzuo. Trattalo come una mappa, non come una classifica. Un nome in acciaio descrive il potenziale; trattamento termico, costruzione, rettifica e geometria dei bordi decidono quanto di tale potenziale raggiunge il tagliere.
+Scegliere un acciaio è quindi scegliere un equilibrio. Un coltello da intaglio fine può favorire un bordo sottile e stabile e una lunga vita di taglio. Il coltello da cuoco generale può avere bisogno di un più ampio equilibrio di nitidezza, cura inox e durezza. Un elicottero pesante beneficia di una maggiore tolleranza all'impatto. Nessuno di questi equilibri è universalmente superiore; ciascuno è più adatto per un lavoro diverso.
+
+Per questo motivo Xinzuo utilizza più di quindici tipi di acciaio nelle sue famiglie di prodotti. Lo scopo non è quello di creare una scala da ordinaria a prestigiosa. È quello di dare diversi coltelli il carattere materiale che il loro lavoro previsto richiede.
+
+Questo capitolo spiega i principali acciai documentati in tutta la gamma Xinzuo. Trattare la tabella come una mappa di bilanci diversi, non come un catalogo o una classifica. Un nome in acciaio descrive potenzialità; trattamento termico, costruzione, rettifica e geometria dei bordi decidere quanto di tale potenziale raggiunge il tagliere.
 
 Nota "Come leggere le valutazioni di confronto di Xinzuo"
     Xinzuo confronta resistenza, ritenzione dei bordi, resistenza alla corrosione e facilità di affilatura su una scala interna a cinque punti. Le valutazioni aiutano a distinguere le opzioni elencate, ma non sono unità di laboratorio standardizzate e non devono essere confrontate direttamente con le stelle di un altro produttore. I valori di durezza pubblicati sono gamme o obiettivi, non una promessa che ogni parte di ogni lama ha una lettura identica.
 
-## A colpo d'occhio
+## Confronto dei diversi saldi
+
+Il tavolo è volutamente compatto. Utilizzarlo per individuare il trade-off principale, quindi leggere la sezione pertinente prima di trarre una conclusione. L'ingresso più costoso, più duro o più resistente all'usura non è automaticamente la scelta più adatta.
 
 | Acciaio o costruzione | Durezza di pubblicazione | Carattere nell'uso pratico | Vantaggio principale | Principale compromesso |
 |---|---:|---|---|---|
@@ -20,7 +26,7 @@ Nota "Come leggere le valutazioni di confronto di Xinzuo"
 | **Böhler M390** | 60-62 HRC | Acciaio inossidabile Premium Austriac powder-metallurgy | Ottima resistenza all'usura e alla corrosione | Difficile da affilare con abrasivi di base |
 | **Blue Steel No. 2** | 62-64 HRC | Acciaio al carbonio reattivo tradizionale giapponese | Bordo molto acuto e risposta gratificante all'affilatura | Richiede pulizia e asciugatura immediate |
 | **14Cr14MoVNb acciaio in polvere** | 60-64 HRC | Acciaio in polvere a base di zirconio sviluppato da Xinzuo | Elevata durezza e ritenzione con un profilo di supporto bilanciato | Requisiti di affilatura e utilizzo premium |
-| **12Cr18MoV** | 59-61 HRC | Acciaio inox Xinzuo utilizzato come core steel | Equilibrata resistenza alla corrosione, ritenzione e robustezza | Ritenzione meno estrema rispetto agli acciai a polvere più duri |
+| **12Cr18MoV** | 59-61 HRC | Acciaio inox Xinzuo utilizzato come core steel | Equilibrata resistenza alla corrosione, ritenzione e resistenza | Ritenzione meno estrema rispetto agli acciai a polvere più duri |
 | **AUS-10** | 58-62 HRC | Versatile acciaio inossidabile giapponese | Equilibrio accessibile di nitidezza, durezza e manutenzione | Non resistente all'usura quanto il livello di acciaio in polvere |
 | **10Cr15CoMoV** | 58-62 HRC | Xinzuo acciaio inossidabile speciale ad alto tenore di carbonio | Carburi fini e un eccellente equilibrio a tutto tondo | Ha ancora bisogno di una corretta affilatura e conservazione a secco |
 | **Sandvik 14C28N** | 57-59 HRC | Acciaio inossidabile svedese a grana fine | Resistenza alla corrosione, stabilità dei bordi e facile manutenzione | Moderata resistenza all'usura rispetto agli acciai premium in polvere |
@@ -69,7 +75,7 @@ M390 è prezioso dove un bordo di lavoro di lunga durata e una facile cura della
 
 ### 14Cr14MoVNb: Acciaio in polvere a base di zirconio di Xinzuo
 
-Xinzuo ha sviluppato 14Cr14MoVNb come acciaio avanzato in polvere. Il catalogo specifica 60-64 HRC e lo accoppia con 72 strati esterni per una lama damascata a 73 strati in serie come X03 e B37. La composizione è progettata per supportare la durezza, la ritenzione dei bordi, la resistenza alla corrosione e la robustezza, mentre il manganello contribuisce al controllo del carburo.
+Xinzuo ha sviluppato 14Cr14MoVNb come acciaio avanzato in polvere. Il catalogo specifica 60-64 HRC e lo accoppia con 72 strati esterni per una lama damascata a 73 strati in serie come X03 e B37. La composizione è progettata per supportare durezza, ritenzione dei bordi, resistenza alla corrosione e resistenza, mentre il carburo contribuisce al controllo del carburo.
 
 Questa è una parte importante dell'identità di Xinzuo: non si tratta solo di un acciaio generico menzionato accanto ad esempi non correlati. Ancora le famiglie premium Xinzuo Damasco ed è abbinato al trattamento termico sottovuoto e all'elaborazione a freddo profondo dove la specifica della serie lo afferma.
 
@@ -83,7 +89,7 @@ Può prendere un bordo molto acuto ed è apprezzato dagli utenti che godono di f
 
 ### 10Cr15CoMoV: l'acciaio Xinzuo centrale a tutto tondo
 
-10Cr15CoMoV è uno degli acciai più caratteristici dell'offerta di Xinzuo. Il catalogo lo descrive come uno speciale acciaio inossidabile ad alto tenore di carbonio con carburi eccezionalmente piccoli e una combinazione equilibrata di ritenzione dei bordi, robustezza e resistenza alla corrosione. La sua gamma di cataloghi è 58-62 HRC, con molte serie di correnti specificate intorno 60±2 HRC.
+10Cr15CoMoV è uno degli acciai più caratteristici dell'offerta di Xinzuo. Il catalogo lo descrive come uno speciale acciaio inossidabile ad alto tenore di carbonio con carburi eccezionalmente piccoli e una combinazione equilibrata di ritenzione dei bordi, resistenza e resistenza alla corrosione. La sua gamma di cataloghi è 58-62 HRC, con molte serie di corrente specificata intorno 60±2 HRC.
 
 Esso appare in varie forme:
 
@@ -111,7 +117,7 @@ La sua robustezza è l'accessibilità: può fornire un'esperienza raffinata in a
 
 Si tratta di una scelta sensata in cui il comportamento inox pulito, un bordo sottile e la manutenzione semplice sono più che la massima resistenza all'usura. Gli utenti che affilano i propri coltelli possono preferire questo equilibrio reattivo ad un acciaio ultra resistente all'usura.
 
-## acciai inossidabili robusti e facili da curare
+## acciai inossidabili difficili e di facile manutenzione
 
 ### 440C: un collaudato acciaio inox
 
