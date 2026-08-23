@@ -36,7 +36,7 @@ source_hash: b73333f8ec4d70b27104dd9c61c6424c0e3767b1a5225c7e7dff4deec040a4b2
 
 <figure class="kb-learning-figure" data-visual-id="VIS-SHAPES-01">
   <img src="../../assets/images/approved/knife-shape-silhouettes-neutral.png" alt="Numbered silhouettes of common kitchen-knife shapes and related tools">
-  Xinzuo 范围的 QKBTOK000- T25 剖面图, 显示时没有嵌入图像的语言 。 数字与下面的图例对应 。 @ KBTOKEN001\ Name
+  <figcaption>Xinzuo 产品系列中的二十五种刀型轮廓，图片本身不含文字。编号与下方图例对应。</figcaption>
 </figure>
 
 1. 转动刀子
