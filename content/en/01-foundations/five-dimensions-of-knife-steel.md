@@ -11,17 +11,17 @@ translation_priority: high
 
 When people first begin comparing kitchen knives, they often search for one simple answer. Which steel is the best? Which knife has the highest hardness? Which blade stays sharp the longest?
 
-These are understandable questions, but they usually lead to an incomplete answer. Steel does not behave like a school score in which a higher number automatically means a better result. A steel can be extremely hard and hold a fine edge for a long time, yet require careful use because the edge is less forgiving. Another steel may need more frequent sharpening but be easier to maintain and more resistant to rough treatment.
+These are understandable questions, but they usually lead to an incomplete, or even wrong answer. Steel does not behave like a school score in which a higher number automatically means a better result. A steel can be extremely hard and hold a fine edge for a long time, yet require careful use because the edge is less forgiving. Another steel may need more frequent sharpening but be easier to maintain and more resistant to rough treatment.
 
 The better question is not, “Which steel is best?” It is:
 
-> Which balance of qualities is most useful for this knife, this user and this type of work?
+> Which balance of qualities is most useful for this knife's purpose, this user and his type of work?
 
 This is also how Xinzuo's steel range should be understood. There is no perfect knife steel because no alloy can be exceptional in every dimension at the same time. More hardness and wear resistance may bring longer edge life, but they can also make sharpening slower and the thinnest edges less forgiving. Greater robustness or easier sharpening may be more useful in demanding everyday work, even when the edge needs attention sooner. Strong corrosion resistance adds convenience, but it does not automatically create the finest sharpening response.
 
-Choosing one steel instead of another therefore means choosing one balance instead of another. Xinzuo uses more than fifteen steels across its product families because a fine carving knife, an all-purpose chef's knife, a compact household knife and a heavy chopper do not ask the edge to solve the same problem. The breadth of the range is not a list of status levels. It is a set of different answers to different users, movements, maintenance habits and price positions.
+Choosing one steel instead of another therefore means choosing one balance instead of another. The breadth of the range is not a list of status levels.  A fine carving knife, an all-purpose chef's knife, a compact household knife and a heavy chopper do not ask the edge to solve the same problem. It is a set of different answers to different users, movements, maintenance habits and price positions. This is why Xinzuo uses more than fifteen different steels across more than 400 products to create the perfect knife for each user and purpose. 
 
-A practical way to answer that question is to look at five dimensions: **hardness, ease of sharpening, corrosion resistance, robustness and microstructural fineness**. These five ideas do not describe every detail of metallurgy, but together they give a clear and useful picture of a steel's character.
+A practical way to select the right steel for a knife is to look at five dimensions: **hardness, ease of sharpening, corrosion resistance, robustness and microstructural fineness**. These five ideas do not describe every detail of metallurgy, but together they give a clear and useful picture of a steel's character.
 
 ## 1. Hardness: resistance to deformation
 
@@ -35,7 +35,7 @@ The history helps us remember what HRC is: a standardized measurement of resista
 
 In the kitchen, a harder edge is generally better able to resist folding or rolling over during normal cutting. Imagine the very tip of the edge as an extremely thin ridge. Each time that ridge meets a cutting board, it is placed under pressure. If the steel is too soft for the geometry, the ridge can bend and lose its clean shape. A harder steel tends to resist that bending for longer.
 
-Higher HRC can therefore support longer edge life by improving resistance to rolling and plastic deformation at the apex. Hardness alone, however, does not determine edge retention: wear resistance, carbide type and distribution, heat treatment, edge geometry, cutting medium and technique all influence how long a knife remains effective.
+Higher HRC can therefore support longer edge life by improving resistance to rolling and plastic deformation at the apex. Hardness also generally contributes to wear resistance: all else being equal, a harder steel tends to resist abrasive wear better than the same steel at lower hardness. Hardness alone, however, does not determine wear resistance or edge retention, which are also strongly influenced by carbide type, volume, size and distribution, as well as the steel's overall microstructure and toughness.
 
 However, hardness is not the same thing as sharpness. A knife does not become sharp simply because the steel is hard. Sharpness comes from the shape of the edge: how thin it is, how cleanly the two sides meet and how well it has been finished. A softer knife can be sharpened extremely well, even if the edge does not remain in that condition as long.
 
@@ -43,7 +43,7 @@ Hardness also brings a practical compromise. A very hard edge, especially when i
 
 A useful way to remember this is:
 
-> Greater hardness generally improves resistance to edge rolling. How long the knife remains effective also depends on wear resistance, microstructure, heat treatment, geometry and use; very hard and thin knives require more disciplined technique.
+> Greater hardness generally improves resistance to edge rolling and wear resistance. How long the knife remains effective also depends on microstructure, geometry and use; very hard and thin knives require more disciplined technique.
 
 ## 2. Ease of sharpening: how readily the edge can be restored
 
@@ -81,9 +81,9 @@ The story is often simplified into a lucky accident, but corrosion-resistant iro
 
 It did not abolish corrosion. The modern lesson is the same as the historical one: chromium greatly changes the reaction between steel and its environment, but "stainless" remains a relative description.
 
-Carbon steels sit at the other end of the spectrum. They can take excellent edges and may be very pleasant to sharpen, but they react more quickly with the environment. Their surface may darken and develop a patina. This patina is not necessarily damage; it is a natural reaction layer that can become part of the knife's character. Active orange rust, however, should be removed promptly. If corrosion is allowed to continue, it can deepen into pits and permanently damage the blade.
+Carbon steels sit at the other end of the spectrum. They can take excellent edges and may be very pleasant to sharpen, but they react more quickly with the environment. Their surface may darken and develop a patina. This patina is not necessarily damage; it is a natural reaction layer that can become part of the knife's character. Active orange rust, however, should be removed promptly. If corrosion is allowed to continue, it can deepen into pits and permanently damage the blade. In some very low Chromium steels, like Blue 2 Steel, if left untreated, a corrosion stain may keep growing inside the steel with time, further damaging the blade. 
 
-Corrosion resistance matters differently to different users. A home cook who washes and dries a knife immediately may be comfortable with carbon steel. A professional working quickly around citrus fruit, tomatoes or salty ingredients may prefer the convenience of stainless steel. A person buying a gift may value easy maintenance more than the sharpening character of a reactive steel.
+Corrosion resistance matters differently to different users. A home cook who washes and dries a knife immediately may be comfortable with carbon steel. A professional working quickly around citrus fruit, tomatoes or salty ingredients may prefer the convenience of stainless steel. A person buying a gift may value easy maintenance more than the sharpening character of a reactive steel. 
 
 The practical message is simple:
 
@@ -109,11 +109,11 @@ A useful summary is:
 
 ## 5. Microstructural fineness: what the steel looks like inside
 
-Steel may appear perfectly smooth and uniform to the eye, but its internal structure is made from grains, phases and hard particles called carbides. The size and distribution of these features influence how the edge behaves.
+Steel may appear perfectly smooth and uniform to the eye, but its internal structure is made from grains, phases and hard crystals called carbides. The size and distribution of these features influence how the edge behaves.
 
 Think of this as the difference between a very fine mixture and a coarse one. A fine, well-distributed structure allows the edge to be shaped into a clean and precise apex. It can support smooth sharpening, good stability and refined cutting performance.
 
-Larger or harder carbides can improve resistance to wear. This can help the knife keep an aggressive cutting action for a long time. The compromise is that a very carbide-rich steel may take more effort to sharpen, and an extremely fine edge may be more difficult to produce or maintain.
+Larger or harder carbides can improve resistance to wear, appearing as microscopic dents on the blade edge. The effect is very similar to the fact that a bread knife seems to stay sharper for longer than a chef knife. It's not really a matter of being "sharp", but more of the blade easily "gripping" onto the object to be cut. Very carbide-rich steel may take more effort to sharpen, and an extremely fine edge may be more difficult to produce or maintain.
 
 The phrase **grain size** is sometimes used loosely, but grain size and carbide size are not exactly the same thing. In this guide, **microstructural fineness** is the broader and more useful expression. It includes the idea that the internal structure should be fine, even and well controlled.
 
@@ -127,7 +127,7 @@ The reader does not need to see a microscope image to understand the main point:
 
 The five dimensions are not separate scores that can all be maximized without compromise. They interact.
 
-Increasing hardness may improve resistance to rolling but reduce forgiveness. Increasing the volume of hard carbides may improve wear resistance but make sharpening slower. Increasing corrosion resistance may require alloy choices that change the way the steel feels on a stone. A very thin geometry may improve cutting performance but place greater demands on robustness and user technique.
+Increasing hardness may improve resistance to rolling but often reduces toughness. Increasing the volume of hard carbides may improve wear resistance but make sharpening slower. Increasing corrosion resistance may require alloy choices that change the way the steel feels on a stone. A very thin geometry may improve cutting performance but place greater demands on robustness and user technique.
 
 This is not a defect in knife design. It is the reason different steels and knife styles exist.
 
