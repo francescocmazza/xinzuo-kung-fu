@@ -110,7 +110,7 @@ jobs:
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v6
         with:
-          name: knife-knowledge-base-pdf-${{ github.run_number }}
+          name: xinzuo-kung-fu-pdf-${{ github.run_number }}
           path: pdf-export
           if-no-files-found: error
           retention-days: 3

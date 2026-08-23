@@ -26,7 +26,7 @@ GLOSSARY = ROOT / "glossaries" / "master-terms.yml"
 BASE_CONFIG = ROOT / "mkdocs.yml"
 WORK = ROOT / ".site-work"
 SITE = ROOT / "site"
-BASE_URL = "https://francescocmazza.github.io/knife-knowledge-base"
+BASE_URL = "https://francescocmazza.github.io/xinzuo-kung-fu"
 TRANSLATION_SCHEMA_VERSION = "2026-08-07-v3-committed"
 
 
@@ -205,7 +205,7 @@ def build(
     config["extra"] = {
         **dict(config.get("extra", {})),
         "alternate": [
-            {"name": data["name"], "link": f"/knife-knowledge-base/{locale}/", "lang": locale}
+            {"name": data["name"], "link": f"/xinzuo-kung-fu/{locale}/", "lang": locale}
             for locale, data in locales.items() if data.get("deploy")
         ],
     }
@@ -224,7 +224,7 @@ def root_index(locales: dict[str, dict[str, Any]]) -> None:
     )
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta http-equiv="refresh" content="0; url=en/"><link rel="canonical" href="{BASE_URL}/en/">
-<title>Knife Knowledge Base</title></head><body><ul>{links}</ul><p><a href="en/">Continue in English</a></p></body></html>"""
+<title>The Kung Fu of Xinzuo</title></head><body><ul>{links}</ul><p><a href="en/">Continue in English</a></p></body></html>"""
     (SITE / "index.html").write_text(page, encoding="utf-8")
     (SITE / ".nojekyll").write_text("\n", encoding="utf-8")
 

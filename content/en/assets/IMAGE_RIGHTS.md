@@ -1,10 +1,10 @@
 # Image Rights
 
-This page states the licensing status of visual material published in this knowledge base. It applies to every image under `content/en/assets/`, including the diagrams in `assets/diagrams/` and the catalog- or presentation-derived images in `assets/images/approved/`.
+This page states the licensing status of visual material published in this book and its companion website. It applies to every image under `content/en/assets/`, including the diagrams in `assets/diagrams/` and the catalog- or presentation-derived images in `assets/images/approved/`.
 
 ## Written content
 
-Unless stated otherwise, the original written content of this knowledge base is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**. See [LICENSE.md](../../../LICENSE.md).
+Unless stated otherwise, the original written content of this book is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**. See [LICENSE.md](../../../LICENSE.md).
 
 ## Original diagrams
 
@@ -30,11 +30,11 @@ The following approved images in `assets/images/approved/` are cropped or adapte
 - `damascus-pattern-knives-neutral.png`
 - `stable-whetstone-neutral.png`
 
-These images, along with any Xinzuo logos and promotional photographs that may appear elsewhere in this project, **remain the property of their respective copyright holder**. They are included in this project with the repository owner's authorization for the specific educational use of this knowledge base.
+These images, along with any Xinzuo logos and promotional photographs that may appear elsewhere in this project, **remain the property of their respective copyright holder**. They are included in this project with the repository owner's authorization for the specific educational use of this book.
 
 **They are not automatically sublicensed under CC BY-NC-SA 4.0.** The Creative Commons license stated above covers the original written content and original diagrams; it does not automatically extend to catalog or promotional images.
 
-**Commercial reuse of these images requires separate authorization** from the relevant copyright holder. Do not copy, redistribute, or reuse these specific image files outside this knowledge base without that separate permission.
+**Commercial reuse of these images requires separate authorization** from the relevant copyright holder. Do not copy, redistribute, or reuse these specific image files outside this book without that separate permission.
 
 ## Presentation-derived images
 
@@ -46,7 +46,7 @@ The following approved images in `assets/images/approved/` are cropped from inte
 
 The repository owner's permission to use an internal presentation does **not by itself prove ownership of every photograph, diagram, micrograph, logo or other element embedded in that presentation**. These presentation-derived crops must therefore be treated as restricted project-use material unless the underlying rights provenance is independently confirmed.
 
-They are **not automatically sublicensed under CC BY-NC-SA 4.0**, and commercial reuse outside this knowledge base requires separate rights confirmation from the relevant copyright holder.
+They are **not automatically sublicensed under CC BY-NC-SA 4.0**, and commercial reuse outside this book requires separate rights confirmation from the relevant copyright holder.
 
 For `damascus-structure-comparison.svg`, the rendered guide intentionally displays only the modern full-Damascus panel. The historical comparison panel from the source slide is excluded from the published view because it should not be used as a metallurgical model of historical wootz.
 

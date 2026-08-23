@@ -3,7 +3,7 @@ name: Refresh latest release after Pages deployment
 on:
   workflow_run:
     workflows:
-      - Deploy multilingual knowledge base to GitHub Pages
+      - Deploy The Kung Fu of Xinzuo to GitHub Pages
     types:
       - completed
   push:
@@ -17,7 +17,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: latest-knowledge-base-release
+  group: latest-xinzuo-kung-fu-release
   cancel-in-progress: true
 
 jobs:
@@ -71,8 +71,8 @@ jobs:
           cp -R site/. release-assets/packages/html/
           cp -R .site-work/docs/. release-assets/packages/markdown/
           cp release-assets/pdf/*.pdf release-upload/
-          (cd release-assets/packages/html && zip -qr ../../../release-upload/xinzuo-knowledge-base-latest-html.zip .)
-          (cd release-assets/packages/markdown && zip -qr ../../../release-upload/xinzuo-knowledge-base-latest-markdown.zip .)
+          (cd release-assets/packages/html && zip -qr ../../../release-upload/xinzuo-kung-fu-latest-html.zip .)
+          (cd release-assets/packages/markdown && zip -qr ../../../release-upload/xinzuo-kung-fu-latest-markdown.zip .)
           (cd release-upload && sha256sum * > SHA256SUMS.txt)
 
       - name: Create or refresh the rolling latest release
@@ -82,7 +82,7 @@ jobs:
         run: |
           set -euo pipefail
           tag="latest"
-          title="Xinzuo Knowledge Base — Latest Edition"
+          title="The Kung Fu of Xinzuo — Latest Edition"
           source_sha="$(git rev-parse HEAD)"
           notes="Automatically rebuilt from the current main branch. Source commit: ${source_sha}."
 
@@ -99,7 +99,7 @@ jobs:
             done < <(
               gh api \
                 "repos/${REPOSITORY}/releases/tags/${tag}" \
-                --jq '.assets[] | select(.name | test("^Knife-Knowledge-Base-.*\\.pdf$")) | .id'
+                --jq '.assets[] | select(.name | test("\\.(pdf|zip)$")) | .id'
             )
             gh release upload "$tag" release-upload/* --clobber --repo "$REPOSITORY"
             gh release edit "$tag" \
@@ -124,8 +124,18 @@ jobs:
         run: |
           set -euo pipefail
           asset_count="$(gh release view latest --repo "$REPOSITORY" --json assets --jq '.assets | length')"
-          if [ "$asset_count" -lt 6 ]; then
-            echo "Expected at least 6 downloadable assets, found $asset_count." >&2
+          if [ "$asset_count" -ne 6 ]; then
+            echo "Expected exactly 6 downloadable assets, found $asset_count." >&2
             exit 1
           fi
+          version_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().version_label)')"
+          gh release view latest --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > actual-assets.txt
+          printf '%s\n' \
+            "Il-Kung-Fu-di-Xinzuo-IT-${version_label}.pdf" \
+            "SHA256SUMS.txt" \
+            "The-Kung-Fu-of-Xinzuo-EN-${version_label}.pdf" \
+            "Xinzuo-Kung-Fu-ZH-HANS-${version_label}.pdf" \
+            "xinzuo-kung-fu-latest-html.zip" \
+            "xinzuo-kung-fu-latest-markdown.zip" | sort > expected-assets.txt
+          diff -u expected-assets.txt actual-assets.txt
           gh release view latest --repo "$REPOSITORY" --json url --jq '.url'

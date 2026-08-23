@@ -1,10 +1,10 @@
 # Contributing
 
-Thank you for helping improve the Knife Knowledge Base.
+Thank you for helping improve The Kung Fu of Xinzuo.
 
 ## What this project is
 
-This is a practical, commercial-training, customer-education, and marketing-oriented knowledge base. It aims to explain knife concepts clearly and responsibly. It does not require every statement to be written like an academic paper, but it does require claims to be understandable, useful, and not materially misleading.
+This is an accessible practical book for general readers, customers and staff training. It aims to explain knife concepts clearly and responsibly. It does not require every statement to be written like an academic paper, but it does require claims to be understandable, useful, and not materially misleading.
 
 ## Ways to contribute
 

@@ -18,11 +18,11 @@ if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
 try {
     $repoRoot = (git rev-parse --show-toplevel 2>$null).Trim()
 } catch {
-    Stop-WithMessage "Run this script from inside the knife-knowledge-base repository."
+    Stop-WithMessage "Run this script from inside the xinzuo-kung-fu repository."
 }
 
 if (-not $repoRoot) {
-    Stop-WithMessage "Run this script from inside the knife-knowledge-base repository."
+    Stop-WithMessage "Run this script from inside the xinzuo-kung-fu repository."
 }
 
 Set-Location $repoRoot
@@ -101,7 +101,7 @@ if ($LASTEXITCODE -ne 0) {
 Write-Host ""
 Write-Host "Published source successfully." -ForegroundColor Green
 Write-Host "GitHub Actions will validate the committed translations, rebuild every configured language and deploy GitHub Pages without any translation API call."
-Write-Host "Actions: https://github.com/francescocmazza/knife-knowledge-base/actions"
-Write-Host "Site:    https://francescocmazza.github.io/knife-knowledge-base/"
+Write-Host "Actions: https://github.com/francescocmazza/xinzuo-kung-fu/actions"
+Write-Host "Site:    https://francescocmazza.github.io/xinzuo-kung-fu/"
 Write-Host ""
 Write-Host "For a downloadable multilingual snapshot, run the 'Export multilingual guide' workflow from the Actions tab."

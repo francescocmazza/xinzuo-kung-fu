@@ -40,7 +40,7 @@ Most of all, I hope this book remains open in spirit. Knowledge is never truly f
 
 This book is also available free of charge on GitHub at:
 
-**https://github.com/francescocmazza/knife-knowledge-base**
+**https://github.com/francescocmazza/xinzuo-kung-fu**
 
 GitHub is not an intuitive tool for every reader. It was created for managing collaborative projects, and its language of repositories, issues and proposed changes can feel unfamiliar at first. That same structure, however, makes it particularly useful for keeping a work in progress transparent: every edition can be traced, corrections can be discussed and contributions can be incorporated without losing the history of the book.
 

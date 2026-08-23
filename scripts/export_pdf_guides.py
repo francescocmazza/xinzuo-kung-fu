@@ -44,8 +44,13 @@ MKDOCS_CONFIG = ROOT / "mkdocs.yml"
 LOCALES_CONFIG = ROOT / "localization" / "locales.yml"
 PRINT_CSS = Path(__file__).resolve().parent / "pdf_export" / "print.css"
 SERVE_DIR = ROOT / ".pdf-export-serve"
-REPO_BASENAME = "knife-knowledge-base"
-GITHUB_REPO_URL = "https://github.com/francescocmazza/knife-knowledge-base"
+REPO_BASENAME = "xinzuo-kung-fu"
+GITHUB_REPO_URL = "https://github.com/francescocmazza/xinzuo-kung-fu"
+PDF_NAME_BY_LOCALE = {
+    "en": "The-Kung-Fu-of-Xinzuo-EN",
+    "it": "Il-Kung-Fu-di-Xinzuo-IT",
+    "zh-Hans": "Xinzuo-Kung-Fu-ZH-HANS",
+}
 IMAGE_RIGHTS_URL = f"{GITHUB_REPO_URL}/blob/main/content/en/assets/IMAGE_RIGHTS.md"
 IMAGE_LOAD_TIMEOUT_MS = 20000
 PRINT_COVER_NAME = "__print_cover__.html"
@@ -542,7 +547,8 @@ def main() -> int:
             try:
                 for code in requested:
                     cfg = locale_cfg[code]
-                    pdf_path = output_dir / f"Knife-Knowledge-Base-{code.upper()}-{metadata.version_label}.pdf"
+                    pdf_stem = PDF_NAME_BY_LOCALE.get(code, f"Xinzuo-Kung-Fu-{code.upper()}")
+                    pdf_path = output_dir / f"{pdf_stem}-{metadata.version_label}.pdf"
                     print(f"Rendering {code} -> {pdf_path.name}", flush=True)
                     render_locale_pdf(
                         browser, code, cfg, tree, flat, args.placeholders == "hide",

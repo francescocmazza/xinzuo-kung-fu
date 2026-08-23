@@ -1,28 +1,28 @@
-# Xinzuo Knowledge Base
+# The Kung Fu of Xinzuo
 
-Xinzuo's multilingual guide to kitchen knives, steels, handle materials, blade geometry, construction, sharpening, maintenance, safety, and product education.
+Xinzuo's multilingual practical book on kitchen knives: materials, forms, techniques, sharpening, maintenance and safe use.
 
-## Read the knowledge base
+## Read the book
 
-**[Open the multilingual Xinzuo Knowledge Base](https://francescocmazza.github.io/knife-knowledge-base/)**
+**[Open The Kung Fu of Xinzuo](https://francescocmazza.github.io/xinzuo-kung-fu/)**
 
 Direct language links:
 
-- [English](https://francescocmazza.github.io/knife-knowledge-base/en/)
-- [Italiano](https://francescocmazza.github.io/knife-knowledge-base/it/)
-- [简体中文](https://francescocmazza.github.io/knife-knowledge-base/zh-Hans/)
+- [English](https://francescocmazza.github.io/xinzuo-kung-fu/en/)
+- [Italiano](https://francescocmazza.github.io/xinzuo-kung-fu/it/)
+- [简体中文](https://francescocmazza.github.io/xinzuo-kung-fu/zh-Hans/)
 
-**[Download the latest edition](https://github.com/francescocmazza/knife-knowledge-base/releases/latest)** — PDFs in all active languages plus offline HTML and Markdown, automatically rebuilt after every successful content merge and Pages deployment.
+**[Download the latest edition](https://github.com/francescocmazza/xinzuo-kung-fu/releases/latest)** — PDFs in all active languages plus offline HTML and Markdown, automatically rebuilt after every successful content merge and Pages deployment.
 
 ## Purpose
 
-This is Xinzuo's official educational knowledge base. It is designed for practical learning, Xinzuo commercial training, customer education, distributor support, and technically responsible marketing content.
+This is Xinzuo's official practical book. It is designed both for general readers and customers, and for internal staff training, distributor support and technically responsible product education.
 
 The goal is to explain Xinzuo's materials, constructions and product choices within the wider world of kitchen knives, without turning useful simplifications into misleading claims.
 
 ## Website and active languages
 
-The knowledge base is published as a searchable multilingual website with GitHub Pages.
+The book is published as a searchable multilingual website with GitHub Pages.
 
 The current active languages are:
 
@@ -57,7 +57,7 @@ Automatic translation still requires human review for important technical wordin
 
 ---
 
-# Editing the knowledge base — normal workflow
+# Editing the book — normal workflow
 
 For routine edits, the intended process is now:
 
@@ -101,11 +101,11 @@ For a simple text correction, no local software is required.
 8. Click **Commit changes…**.
 9. Choose **Create a new branch for this commit and start a pull request**.
 
-For normal knowledge-base edits, do not put an unfinished English-only change directly on `main`.
+For normal book edits, do not put an unfinished English-only change directly on `main`.
 
 ## 3. You do not need to translate the edit manually
 
-When the PR changes English content, **Deploy multilingual knowledge base to GitHub Pages** automatically:
+When the PR changes English content, **Deploy The Kung Fu of Xinzuo to GitHub Pages** automatically:
 
 1. detects stale/missing active translations;
 2. loads the local English→Italian and English→Chinese translation models;
@@ -287,7 +287,7 @@ See `PUBLISHING_GUIDE.md` for the detailed publishing behavior and operational n
 
 ## Current content scope
 
-The current knowledge base covers:
+The current book covers:
 
 - the five main dimensions used to explain knife steel;
 - alloying elements;

@@ -10,7 +10,7 @@ on:
       title:
         description: "Release title"
         required: true
-        default: "Xinzuo Knowledge Base"
+        default: "The Kung Fu of Xinzuo"
         type: string
       prerelease:
         description: "Publish as a pre-release"
@@ -102,8 +102,8 @@ jobs:
           cp -R site/. release-assets/packages/html/
           cp -R .site-work/docs/. release-assets/packages/markdown/
           cp release-assets/pdf/*.pdf release-upload/
-          (cd release-assets/packages/html && zip -qr "../../../release-upload/xinzuo-knowledge-base-${VERSION}-html.zip" .)
-          (cd release-assets/packages/markdown && zip -qr "../../../release-upload/xinzuo-knowledge-base-${VERSION}-markdown.zip" .)
+          (cd release-assets/packages/html && zip -qr "../../../release-upload/xinzuo-kung-fu-${VERSION}-html.zip" .)
+          (cd release-assets/packages/markdown && zip -qr "../../../release-upload/xinzuo-kung-fu-${VERSION}-markdown.zip" .)
           (cd release-upload && sha256sum * > SHA256SUMS.txt)
 
       - name: Publish GitHub Release

@@ -1,4 +1,4 @@
-name: Deploy multilingual knowledge base to GitHub Pages
+name: Deploy The Kung Fu of Xinzuo to GitHub Pages
 
 on:
   pull_request:

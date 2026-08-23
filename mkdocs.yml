@@ -1,10 +1,10 @@
 site_name: The Kung Fu of Xinzuo
 site_description: "A practical guide to kitchen knives: materials, shapes and techniques for masterful cutting, with examples from Xinzuo."
 site_author: Francesco Claudio Mazza, EU Brand and Operations Manager at Xinzuo
-site_url: https://francescocmazza.github.io/knife-knowledge-base/
+site_url: https://francescocmazza.github.io/xinzuo-kung-fu/
 
-repo_name: francescocmazza/knife-knowledge-base
-repo_url: https://github.com/francescocmazza/knife-knowledge-base
+repo_name: francescocmazza/xinzuo-kung-fu
+repo_url: https://github.com/francescocmazza/xinzuo-kung-fu
 edit_uri: edit/main/content/en/
 
 copyright: Copyright &copy; 2026 Xinzuo - written content CC BY-NC-SA 4.0 unless otherwise stated

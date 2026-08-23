@@ -99,7 +99,7 @@ jobs:
           cp -R site/. export/html/
           cp -R .site-work/docs/. export/markdown/
           cat > export/README.txt <<'EOF'
-          Knife Knowledge Base multilingual export
+          The Kung Fu of Xinzuo multilingual export
 
           html/      Complete built website for every configured active locale.
           markdown/  Per-locale source trees used to build the site.
@@ -112,7 +112,7 @@ jobs:
       - name: Upload multilingual guide export
         uses: actions/upload-artifact@v6
         with:
-          name: knife-knowledge-base-multilingual-${{ github.run_number }}
+          name: xinzuo-kung-fu-multilingual-${{ github.run_number }}
           path: export
           if-no-files-found: error
           retention-days: 30

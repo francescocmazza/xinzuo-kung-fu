@@ -31,7 +31,7 @@
 
   function pageKey() {
     const parts = location.pathname.split("/").filter(Boolean);
-    const repo = parts.indexOf("knife-knowledge-base");
+    const repo = parts.indexOf("xinzuo-kung-fu");
     if (repo < 0) return "";
     const relative = parts.slice(repo + 2).join("/");
     return relative || "index";
