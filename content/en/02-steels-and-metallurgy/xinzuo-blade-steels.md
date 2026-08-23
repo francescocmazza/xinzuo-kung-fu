@@ -3,16 +3,16 @@ title: Xinzuo Blade Steels - A Practical Guide
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-22
+reviewed: 2026-08-24
 translation_priority: highest
 source_basis: 2025 Xinzuo Catalog V9
 ---
 
 # Xinzuo Blade Steels - A Practical Guide
 
-Xinzuo does not use one steel for every knife because no perfect steel exists. It is not possible to maximize hardness, edge retention, ease of sharpening, corrosion resistance and robustness all at once. Improving one dimension often changes another, and the right compromise depends on the knife, the food, the user and the way the edge will be maintained.
+Xinzuo does not use one steel for every knife because no perfect steel exists. It is not possible to maximize hardness, edge retention, ease of sharpening, corrosion resistance and toughness all at once. Improving one dimension often changes another, and the right compromise depends on the knife, the food, the user and the way the edge will be maintained.
 
-Choosing a steel is therefore choosing an equilibrium. A fine carving knife may favour a thin, stable edge and long cutting life. A general chef's knife may need a broader balance of sharpness, stainless care and robustness. A heavy chopper benefits from greater tolerance of impact. None of these balances is universally superior; each is more suitable for a different job.
+Choosing a steel is therefore choosing an equilibrium. A fine carving knife may favour a thin, stable edge and long cutting life. A general chef's knife may need a broader balance of sharpness, stainless care and toughness. A heavy chopper benefits from greater tolerance of impact. None of these balances is universally superior; each is more suitable for a different job.
 
 This is why Xinzuo uses more than fifteen steel grades across its product families. The purpose is not to create a staircase from ordinary to prestigious. It is to give different knives the material character their intended work requires.
 
@@ -32,11 +32,11 @@ The table is deliberately compact. Use it to locate the main trade-off, then rea
 | **Böhler M390** | 60-62 HRC | Premium Austrian powder-metallurgy stainless steel | Excellent wear and corrosion resistance | Difficult to sharpen with basic abrasives |
 | **Blue Steel No. 2** | 62-64 HRC | Traditional Japanese reactive carbon steel | Very keen edge and rewarding sharpening response | Requires immediate cleaning and drying |
 | **14Cr14MoVNb powder steel** | 60-64 HRC | Xinzuo-developed niobium-bearing powder steel | High hardness and retention with a balanced supporting profile | Premium sharpening and use requirements |
-| **12Cr18MoV** | 59-61 HRC | Xinzuo stainless steel used as a core steel | Balanced corrosion resistance, retention and robustness | Less extreme retention than the hardest powder steels |
+| **12Cr18MoV** | 59-61 HRC | Xinzuo stainless steel used as a core steel | Balanced corrosion resistance, retention and toughness | Less extreme retention than the hardest powder steels |
 | **AUS-10** | 58-62 HRC | Versatile Japanese stainless steel | Accessible balance of sharpness, hardness and maintenance | Not as wear-resistant as the powder-steel tier |
 | **10Cr15CoMoV** | 58-62 HRC | Xinzuo special high-carbon stainless steel | Fine carbides and an excellent all-round balance | Still needs correct sharpening and dry storage |
 | **Sandvik 14C28N** | 57-59 HRC | Fine-grained Swedish stainless steel | Corrosion resistance, edge stability and easy maintenance | Moderate wear resistance compared with premium powder steels |
-| **440C** | 56-58 HRC | Classic high-carbon martensitic stainless steel | Good robustness, wear resistance and corrosion resistance | More modest edge retention at the catalog hardness |
+| **440C** | 56-58 HRC | Classic high-carbon martensitic stainless steel | Good toughness, wear resistance and corrosion resistance | More modest edge retention at the catalog hardness |
 | **DIN 1.4116** | 56-58 HRC | Tough, corrosion-resistant German stainless steel | Forgiving use and easy sharpening | Needs more frequent edge maintenance |
 
 The catalog also describes **37-layer copper Damascus** and **110-layer full Damascus** as complete blade materials. These are constructions as well as metallurgical choices, so they receive separate treatment below.
@@ -81,7 +81,7 @@ M390 is valuable where a long-lasting working edge and easy corrosion care are p
 
 ### 14Cr14MoVNb: Xinzuo's niobium-bearing powder steel
 
-Xinzuo developed 14Cr14MoVNb as an advanced powder steel. The catalog specifies 60-64 HRC and pairs it with 72 outer layers for a 73-layer Damascus blade in series such as X03 and B37. The composition is designed to support hardness, edge retention, corrosion resistance and robustness, while niobium contributes to carbide control.
+Xinzuo developed 14Cr14MoVNb as an advanced powder steel. The catalog specifies 60-64 HRC and pairs it with 72 outer layers for a 73-layer Damascus blade in series such as X03 and B37. The composition is designed to support hardness, edge retention, corrosion resistance and toughness, while niobium contributes to carbide control.
 
 This is an important part of Xinzuo's identity: it is not merely a generic steel mentioned beside unrelated examples. It anchors premium Xinzuo Damascus families and is paired with vacuum heat treatment and deep-freeze processing where the series specification states it.
 
@@ -95,7 +95,7 @@ It can take a very keen edge and is appreciated by users who enjoy direct sharpe
 
 ### 10Cr15CoMoV: the central all-round Xinzuo steel
 
-10Cr15CoMoV is one of the most characteristic steels in Xinzuo's offer. The catalog describes it as a special high-carbon stainless steel with exceptionally small carbides and a balanced combination of edge retention, robustness and corrosion resistance. Its catalog range is 58-62 HRC, with many current series specified around 60±2 HRC.
+10Cr15CoMoV is one of the most characteristic steels in Xinzuo's offer. The catalog describes it as a special high-carbon stainless steel with exceptionally small carbides and a balanced combination of edge retention, toughness and corrosion resistance. Its catalog range is 58-62 HRC, with many current series specified around 60±2 HRC.
 
 It appears in several forms:
 
@@ -123,7 +123,7 @@ Its strength is accessibility: it can provide a refined stainless experience wit
 
 It is a sensible choice where clean stainless behaviour, a fine edge and straightforward maintenance matter more than maximum wear resistance. Users who sharpen their own knives may prefer this responsive balance to an ultra-wear-resistant steel.
 
-## Robust and easy-care stainless steels
+## Tough, easy-care stainless steels
 
 ### 440C: a proven stainless work steel
 

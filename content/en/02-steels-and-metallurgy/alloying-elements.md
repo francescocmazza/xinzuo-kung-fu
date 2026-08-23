@@ -3,7 +3,7 @@ title: Alloying Elements - A Practical Guide
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-22
+reviewed: 2026-08-24
 translation_priority: high
 ---
 
@@ -29,7 +29,7 @@ Xinzuo's catalog makes these interactions concrete. The range includes chromium-
 
 | Element | Main role | Practical benefit | Possible trade-off |
 |---|---|---|---|
-| **Carbon - C** | Allows steel to harden and contributes to carbide formation | Supports hardness, wear resistance and edge retention | High levels can reduce robustness and corrosion resistance if the overall design is not balanced |
+| **Carbon - C** | Allows steel to harden and contributes to carbide formation | Supports hardness, wear resistance and edge retention | High levels can reduce toughness and corrosion resistance if the overall design is not balanced |
 | **Chromium - Cr** | Improves corrosion resistance and may form wear-resistant carbides | Better resistance to rust and, in some steels, better wear resistance | Large carbide volumes can make sharpening more demanding |
 | **Molybdenum - Mo** | Improves hardenability, high-temperature stability and often corrosion and wear behaviour | More stable performance and useful edge life | Adds cost and increases heat-treatment complexity |
 | **Vanadium - V** | Refines grain and can form extremely hard carbides | Fine structure at modest levels; strong wear resistance at higher levels | High carbide content can require better abrasives and more sharpening time |
@@ -56,7 +56,7 @@ This is a good example of why composition must be read as a whole. Carbon can im
 
 A simple way to remember it is:
 
-> Carbon gives steel the ability to become hard enough to hold an edge, but the amount must be balanced with robustness and corrosion resistance.
+> Carbon gives steel the ability to become hard enough to hold an edge, but the amount must be balanced with toughness and corrosion resistance.
 
 ## Chromium: mainly corrosion resistance, but not only that
 

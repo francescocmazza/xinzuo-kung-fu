@@ -88,7 +88,7 @@ The practical heart of the book covers straight chopping, push cutting, draw sli
 
 ### The five dimensions of knife steel
 
-Instead of asking which steel is “best”, learn to compare hardness, sharpening response, corrosion resistance, robustness and microstructural fineness.
+Instead of asking which steel is “best”, learn to compare hardness, sharpening response, corrosion resistance, toughness and microstructural fineness.
 
 ### Xinzuo blade steels
 
