@@ -30,6 +30,55 @@
   text-align: center;
 }
 
+.kb-profile-visual {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  max-width: 46rem;
+  margin: 0.8rem auto 1.25rem;
+}
+
+.kb-profile-visual figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 0;
+  margin: 0;
+  padding: 0.65rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.7rem;
+  background: #fff;
+  box-shadow: 0 0.25rem 0.9rem rgba(0, 0, 0, 0.06);
+}
+
+.kb-profile-visual img {
+  display: block;
+  width: 100%;
+  height: 9rem;
+  object-fit: contain;
+  background: #fff;
+}
+
+.kb-profile-visual figcaption {
+  margin-top: 0.55rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.76rem;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.kb-profile-visual--handle img {
+  height: 11rem;
+}
+
+.kb-profile-visual--material {
+  max-width: 32rem;
+}
+
+.kb-profile-visual--material img {
+  height: 8rem;
+}
+
 .kb-image-placeholder-wrap {
   margin: 2rem auto;
   max-width: 30rem;
@@ -97,5 +146,20 @@
 
   .kb-image-placeholder {
     padding: 1.5rem;
+  }
+
+  .kb-profile-visual,
+  .kb-profile-visual--material {
+    grid-template-columns: 1fr;
+  }
+
+  .kb-profile-visual img,
+  .kb-profile-visual--handle img {
+    height: auto;
+    max-height: 15rem;
+  }
+
+  .kb-profile-visual--material img {
+    height: 8rem;
   }
 }

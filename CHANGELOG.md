@@ -6,6 +6,9 @@ All notable editorial changes to the English source of truth will be recorded he
 
 ### Changed
 
+- promoted Knife Shapes and Their Uses to an early top-level section in the book and website navigation;
+- replaced the detached numbered shape chart with 32 individually associated Xinzuo visuals;
+- rewrote every knife-form entry as a discursive explanation of design logic, movement, uses and limits;
 - reordered the website around a clearer novice learning path: geometry and knife movement before metallurgy, followed by safety and sharpening;
 - rewrote the home page as a concise guided reading path and documented subjects still missing from the first edition;
 - rewrote the current English knowledge base in a more discursive, detailed and book-like style for readers without specialist knowledge;
