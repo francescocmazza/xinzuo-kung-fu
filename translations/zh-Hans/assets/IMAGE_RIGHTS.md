@@ -1,58 +1,65 @@
 ---
-source_hash: bdd5ff0cea90d4720e93e8397dbb95a107571877a188b672a0cd6de520b51b86
+source_hash: 585f155f15d0ca7cbeb3c1b39d53fa1913de169ee42c843c6bf408694cb8c4d0
 ---
 
-# 图片版权
+# 图像权利
 
-本页说明本知识库中发布的视觉素材的授权状态。它适用于 `content/en/assets/` 目录下的每一张图片,包括 `assets/diagrams/` 中的示意图,以及 `assets/images/approved/` 中源自产品目录或宣传资料的图片。
+本页说明本书及其配套网站所出版的视觉材料的许可状况,适用于“KBTOKEN000”下的每张图像,包括“KBTOKEN001”中的图表,以及“KBTOKEN002”中的目录或演示产生的图像。
 
 ## 书面内容
 
-除非另有说明,本知识库的原创书面内容以 **知识共享 署名-非商业性使用-相同方式共享 4.0 国际版(CC BY-NC-SA 4.0)** 协议授权。详见 [LICENSE.md](../../../LICENSE.md)。
+除另有说明外,本书的原始书面内容均按**4.0类国际(CC BY-NC-SA 4.0)**予以许可。
 
-## 原创示意图
+## 原始图表
 
-专为本项目创作的示意图(例如 `assets/diagrams/` 中的文件)属于原创作品,除非单独另行标注,均适用与书面内容相同的 CC BY-NC-SA 4.0 协议。
+为该项目专门创建的图表(例如,ZQKBTOKEN000中的文档)是原始工作,与书面内容一样,由《民法典》BY-NC-SA 4.0许可证覆盖,除非单独标明。
 
-一张示意图只有在通过本项目的技术审核后才会持续发布。若某张生成的插图被发现存在实质性误导,将从已发布的指南中撤下,并恢复为占位状态,直到有经过核实的替代图片可用为止。
+图表只有在通过项目技术审查时才能公布,如果生成的图解被认为具有重大误导性,则从提供的指南中撤回,并恢复到占位符状态,直到有经过核实的替换。
 
-## Xinzuo 产品目录图片
+## Xinzuo 目录图像
 
-`assets/images/approved/` 中以下已获批准的图片,是从 2025 年 Xinzuo 产品目录或经批准的 Xinzuo 宣传资料中裁剪或改编而来:
+根据2025年Xinzuo产品目录或经核准的Xinzuo促销材料,制作或改制了Z-KBTOKEN000中的下列已核准的图像:
 
-- `home-hero-xinzuo-masterpieces.svg`
-- `production-process-overview.svg`
-- `handle-material-gallery.svg`
-- `pattern-gallery.svg`
-- `master-knife-shape-index.svg`
-- `storage-options-gallery.svg`
-- `stable-whetstone-setup.svg`
-- `whetstones-and-sheaths.svg`
-- `strops-and-honing-rods.svg`
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
+- {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000] {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F}KBTOKEN000]
 
-这些图片,连同本项目中可能出现的任何 Xinzuo 标志及宣传照片,**版权仍归各自权利持有者所有**。它们被收录于本项目中,是经资料库所有者授权,专用于本知识库的特定教育用途。
+这些图象,连同任何Xinzuo标志和可能在本项目其他地方出现的促销照片,** 仍属于各自版权持有者的财产** 。
 
-**它们并不自动被纳入 CC BY-NC-SA 4.0 协议之下的再授权范围。** 上述知识共享协议涵盖原创书面内容与原创示意图,并不自动延伸至产品目录或宣传图片。
+** 根据《创用CC BY-NC-SA 4.
 
-**商业性重用这些图片需要从相关版权持有者处另行获得授权。** 未经该项另行许可,不得在本知识库之外复制、再发布或重用这些特定图片文件。
+** 商业再利用这些图像需要相关版权持有者单独授权。未经此单独许可,不得复制、再分发或再使用本书以外的这些特定图像文件。
 
-## 源自演示文稿的图片
+## 演示文稿产生的图像
 
-`assets/images/approved/` 中以下已获批准的图片,是从资料库所有者提供的内部代理商培训演示文稿中裁剪而来:
+从存储器所有人提供的内部代理培训演示中绘制了下列在 KBTOKEN000中核准的图像:
 
-- `bevel-families.svg`(裁剪自《Formazione Agenti A》)
-- `damascus-structure-comparison.svg`(裁剪自《Formazione Agenti D》)
+- KBTOKEN000(从KBTOEN001)
+- KBTOKEN000(从KBTOEN001)
+- BBTOKEN000(从KBTOKEN001种植的无标签适应)
 
-资料库所有者授权使用某份内部演示文稿,**本身并不能证明其对该演示文稿中嵌入的每一张照片、示意图、显微照片、标志或其他元素均拥有所有权**。因此,除非该素材的权利来源已被独立确认,否则这些源自演示文稿的裁剪图片必须被视为受限的项目专用素材。
+存储器所有人使用内部演示的许可本身并不能证明对该演示文稿中所含的每一张照片、图表、显微图、标志或其他要素的所有权,因此,这些演示品衍生的作物必须作为限制性项目使用材料对待,除非相关权利来源得到独立确认。
 
-它们**并未自动被纳入 CC BY-NC-SA 4.0 协议之下的再授权范围**,在本知识库之外进行商业性重用,需要从相关版权持有者处另行获得权利确认。
+它们不是根据《CC BY-NC-SA 4.0**》自动转租的,本书以外的商业再利用需要相关版权持有人分别确认权利。
 
-对于 `damascus-structure-comparison.svg`,已发布的指南刻意只展示现代全大马士革面板。源幻灯片中的历史对比面板已从公开视图中排除,因为它不应被用作历史 wootz 钢的冶金学模型。
+对于 QQKBTOKEN000, 提供的指南有意只显示现代全大马士革面板。 源幻灯片中的历史比较面板被排除在已公布的视图之外, 因为它不应该被用作历史发音的冶金模型 。
 
-## 排除在外的素材
+中性 PNG 修改后删除了嵌入于固定语言的字幕。 它们的编号图例和解释性说明作为普通文档文本发布, 这样每个语言版本都可以翻译, 而不会改变基本图像 。
 
-本资料库未公开发布任何 Musashi 的机密材料。专有的幻灯片资料和源产品目录 PDF 不会作为完整文档发布;仅在获得许可且技术上适当的情况下,使用单独挑选出的视觉节选内容。
+## 排除材料
 
-## 疑问
+Musashi 的机密材料不在本仓库中发布。 专有幻灯片甲板和源目录 PDF 不作为完整文件发布; 仅在允许和技术上合适的地方使用个别选择的视觉摘录。
 
-对于某张具体图片的版权状态或来源的疑问,应在本项目之外进行任何重用之前予以解决。当来源不确定时,安全的默认做法是不再分发该图片。
+## 问 题
+
+有关特定图像的权利状态或来源的问题应在项目外的任何再利用前得到解决。 当源码不确定时, 安全默认是不能重新分配图像 。

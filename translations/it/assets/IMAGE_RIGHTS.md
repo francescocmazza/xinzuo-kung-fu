@@ -1,24 +1,24 @@
 ---
-source_hash: 9db8cb41378d15ee096d295e7e1801ee0a7ae681597243ab048c61d29d8915a3
+source_hash: 8b4e55fe1ef3bbbe6d31d2262321a3ed413132ca5133cf05b0b1cb62c9d7ce30
 ---
 
-# Diritti sulle Immagini
+# Diritti di immagine
 
-Questa pagina indica lo stato di licenza del materiale visivo pubblicato in questa base di conoscenza. Si applica a ogni immagine presente in `content/en/assets/`, inclusi i diagrammi in `assets/diagrams/` e le immagini derivate da catalogo o da presentazioni in `assets/images/approved/`.
+Questa pagina riporta lo stato delle licenze di materiale visivo pubblicato in questo libro e nel suo sito web di accompagnamento. Si applica a tutte le immagini sotto `content/en/assets/`, compresi i diagrammi in `assets/diagrams/` e il catalogo- o le immagini derivate da presentazione in `assets/images/approved/`.
 
 ## Contenuto scritto
 
-Salvo diversa indicazione, il contenuto scritto originale di questa base di conoscenza è concesso in licenza secondo **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**. Vedere [LICENSE.md](../../../LICENSE.md).
+Salvo diversa indicazione, il contenuto scritto originale di questo libro è concesso in licenza sotto **Creative Commons Attribuzione-NonCommerciale-Condividi allo stesso modo 4.0 International (CC BY-NC-SA 4.0)**. Vedi [LICENSE.md](../../../LICENSE.md).
 
 ## Diagrammi originali
 
-I diagrammi creati appositamente per questo progetto (ad esempio i file in `assets/diagrams/`) sono opere originali e sono coperti dalla stessa licenza CC BY-NC-SA 4.0 del contenuto scritto, salvo diversa indicazione individuale.
+I diagrammi creati appositamente per questo progetto (ad esempio i file in `assets/diagrams/`) sono opera originale e sono coperti dalla stessa licenza CC BY-NC-SA 4.0 del contenuto scritto, salvo diversa indicazione individuale.
 
-Un diagramma resta pubblicato solo finché supera la revisione tecnica del progetto. Un'illustrazione generata che risulti materialmente fuorviante viene ritirata dalla guida pubblicata e riportata allo stato di segnaposto fino a quando non è disponibile una sostituzione verificata.
+Un diagramma rimane pubblicato solo mentre passa la revisione tecnica del progetto. Un'illustrazione generata che risulta essere materialmente fuorviante viene ritirata dalla guida resa e restituita allo status di segnaposto fino a quando non è disponibile una sostituzione verificata.
 
-## Immagini di catalogo Xinzuo
+## Immagini del catalogo Xinzuo
 
-Le seguenti immagini approvate in `assets/images/approved/` sono ritagliate o adattate dal catalogo prodotti Xinzuo 2025 o da materiale promozionale Xinzuo approvato:
+Le seguenti immagini approvate in `assets/images/approved/` sono ritagliate o adattate dal catalogo prodotti Xinzuo 2025 o dal materiale promozionale Xinzuo approvato:
 
 - `home-hero-xinzuo-masterpieces.svg`
 - `production-process-overview.svg`
@@ -29,30 +29,37 @@ Le seguenti immagini approvate in `assets/images/approved/` sono ritagliate o ad
 - `stable-whetstone-setup.svg`
 - `whetstones-and-sheaths.svg`
 - `strops-and-honing-rods.svg`
+- `home-hero-xinzuo-neutral.png`
+- `knife-shape-silhouettes-neutral.png`
+- `damascus-pattern-knives-neutral.png`
+- `stable-whetstone-neutral.png`
 
-Queste immagini, insieme a eventuali loghi Xinzuo e fotografie promozionali che possano comparire altrove in questo progetto, **restano di proprietà del rispettivo titolare del copyright**. Sono incluse in questo progetto con l'autorizzazione del titolare del repository per lo specifico uso educativo di questa base di conoscenza.
+Queste immagini, insieme a eventuali loghi Xinzuo e fotografie promozionali che potrebbero apparire altrove in questo progetto, **restano di proprietà del rispettivo titolare del copyright**. Sono incluse in questo progetto con l'autorizzazione del proprietario del repository per l'uso didattico specifico di questo libro.
 
-**Non sono automaticamente sublicenziate secondo CC BY-NC-SA 4.0.** La licenza Creative Commons indicata sopra copre il contenuto scritto originale e i diagrammi originali; non si estende automaticamente alle immagini di catalogo o promozionali.
+**Non sono automaticamente sublicensed sotto CC BY-NC-SA 4.0.** La licenza Creative Commons di cui sopra copre il contenuto scritto originale e diagrammi originali; non si estende automaticamente al catalogo o alle immagini promozionali.
 
-**Il riutilizzo commerciale di queste immagini richiede un'autorizzazione separata** da parte del relativo titolare del copyright. Non copiare, ridistribuire o riutilizzare questi specifici file di immagine al di fuori di questa base di conoscenza senza tale autorizzazione separata.
+**Il riutilizzo commerciale di queste immagini richiede l'autorizzazione separata** dal titolare del copyright interessato. Non copiare, ridistribuire o riutilizzare questi file di immagine specifici al di fuori di questo libro senza tale permesso separato.
 
-## Immagini derivate da presentazioni
+## Immagini derivate dalla presentazione
 
-Le seguenti immagini approvate in `assets/images/approved/` sono ritagliate da presentazioni interne di formazione agenti fornite dal titolare del repository:
+Le seguenti immagini approvate in `assets/images/approved/` sono raccolte dalle presentazioni interne di allenamento degli agenti fornite dal proprietario del repository:
 
-- `bevel-families.svg` (ritagliata da `Formazione Agenti A`)
-- `damascus-structure-comparison.svg` (ritagliata da `Formazione Agenti D`)
+- `bevel-families.svg` (calcolato da `Formazione Agenti A`)
+- `damascus-structure-comparison.svg` (calcolato da `Formazione Agenti D`)
+- `bevel-families-neutral.png` (adattamento senza etichetta ottenuto da `Formazione Agenti A`)
 
-L'autorizzazione del titolare del repository a utilizzare una presentazione interna non dimostra di per sé la proprietà di ogni fotografia, diagramma, micrografia, logo o altro elemento incorporato in quella presentazione. Questi ritagli derivati da presentazioni devono pertanto essere trattati come materiale a uso riservato del progetto, a meno che la provenienza dei diritti sottostanti non sia confermata in modo indipendente.
+Il permesso del proprietario del repository di utilizzare una presentazione interna **non dimostra di per sé la proprietà di ogni fotografia, diagramma, micrografia, logo o altro elemento incorporato in tale presentazione**. Queste colture derivate dalla presentazione devono pertanto essere trattate come materiale limitato per l'uso del progetto a meno che la provenienza dei diritti sottostanti non sia confermata in modo indipendente.
 
-**Non sono automaticamente sublicenziate secondo CC BY-NC-SA 4.0**, e il riutilizzo commerciale al di fuori di questa base di conoscenza richiede una conferma separata dei diritti da parte del relativo titolare del copyright.
+Essi sono **non automaticamente sublicensed sotto CC BY-NC-SA 4.0**, e il riutilizzo commerciale al di fuori di questo libro richiede la conferma dei diritti separati dal titolare del copyright pertinente.
 
-Per `damascus-structure-comparison.svg`, la guida pubblicata mostra intenzionalmente solo il pannello del damasco integrale moderno. Il pannello di confronto storico presente nella diapositiva sorgente è escluso dalla vista pubblicata perché non dovrebbe essere usato come modello metallurgico del wootz storico.
+Per `damascus-structure-comparison.svg`, la guida renderizzata visualizza intenzionalmente solo il moderno pannello full-Damascus. Il pannello di confronto storico dalla guida sorgente è escluso dalla vista pubblicata perché non dovrebbe essere utilizzato come modello metallurgico di wootz storico.
+
+Gli adattamenti PNG neutri rimuovono le didascalie inserite in una lingua fissa. Le loro leggende numerate e le didascalie esplicative sono pubblicate come testo di documento ordinario in modo che ogni edizione linguistica possa tradurle senza alterare l'immagine sottostante.
 
 ## Materiale escluso
 
-Nessun materiale riservato Musashi è pubblicato in questo repository. I mazzi di diapositive proprietari e i PDF di catalogo sorgente non sono pubblicati come documenti completi; vengono utilizzati solo estratti visivi selezionati individualmente, dove permesso e tecnicamente appropriato.
+In questo repository non viene pubblicato alcun materiale riservato Musashi. I PDF proprietari di slide deck e il catalogo sorgente non vengono pubblicati come documenti completi; vengono utilizzati solo estratti visivi selezionati individualmente, ove consentito e tecnicamente appropriato.
 
-## Domande
+## Interrogazioni
 
-Le domande sullo stato dei diritti o sulla provenienza di una specifica immagine dovrebbero essere risolte prima di qualsiasi riutilizzo al di fuori di questo progetto. Quando la provenienza è incerta, l'opzione prudente predefinita è non ridistribuire l'immagine.
+Le domande sullo stato dei diritti o sulla provenienza di un'immagine specifica devono essere risolte prima di qualsiasi riutilizzo al di fuori di questo progetto. Quando la provenienza è incerta, il default sicuro non è quello di ridistribuire l'immagine.

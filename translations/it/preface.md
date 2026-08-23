@@ -1,5 +1,5 @@
 ---
-source_hash: 4c8b77b493e1d159bb628d6825d8071caebf7edc8247b899610fdf0f596babc5
+source_hash: c2bc5a03e0eddf0692c5a14e746ad8414349e17df9de5e8e36f8735aff20d317
 ---
 
 # Prefazione
@@ -10,7 +10,7 @@ L'idea di questo libro è iniziata all'interno di Xinzuo con una necessità molt
 
 Quando un nuovo collega chiede perché un gyuto si sente diverso da un coltello da cuoco occidentale, perché un acciaio è più difficile da affilare di un altro, o se un modello Damasco cambia prestazioni di taglio, la risposta non dovrebbe dipendere da chi è disponibile quel giorno. Il nostro team ha bisogno di un linguaggio comune: abbastanza accurato da essere attendibile, abbastanza semplice da essere ricordato e abbastanza pratico da essere dimostrato con un coltello e un ingrediente.
 
-Il mio nome è #Francesco Claudio Mazza**, e io sono **Brand Manager Europe a Xinzuo**. Il mio lavoro riunisce il mondo tecnico del prodotto, le persone che producono e sviluppano i nostri coltelli, lo staff che li presenta e i cuochi e i clienti che li utilizzano. Questa posizione mi ha dimostrato che anche uno strumento ben fatto non può spiegarsi. Il suo design, i materiali e i movimenti previsti devono essere tradotti in conoscenza che le persone possono capire e utilizzare.
+Il mio nome è **Francesco Claudio Mazza**, e sono **EU Brand and Operations Manager presso Xinzuo**. Il mio lavoro riunisce il mondo tecnico del prodotto, le persone che producono e sviluppano i nostri coltelli, lo staff che li presenta e i cuochi e i clienti che li utilizzano. Questa posizione mi ha dimostrato che anche uno strumento ben fatto non può spiegarsi. Il suo design, i materiali e i movimenti previsti devono essere tradotti in conoscenza che le persone possono capire e utilizzare.
 
 ## Da un manuale interno a un libro per tutti
 
@@ -32,7 +32,21 @@ Per lo staff di Xinzuo, spero che queste pagine diventino un fondamento condivis
 
 Soprattutto, spero che questo libro rimanga aperto nello spirito. La conoscenza non è mai veramente finita. I materiali si evolvono, le tecniche migliorano e ogni utente attento può notare qualcosa che vale la pena condividere. Questa guida registra ciò che abbiamo imparato finora e invita il lettore a continuare il processo.
 
+## Un libro che può continuare a migliorare
+
+Questo libro è disponibile gratuitamente anche su GitHub al seguente indirizzo:
+
+**https://github.com/francescocmazza/xinzuo-kung-fu**
+
+GitHub non è uno strumento intuitivo per ogni lettore. È stato creato per gestire progetti collaborativi, e il suo linguaggio di repository, problemi e modifiche proposte può sentirsi poco familiare all'inizio. Quella stessa struttura, tuttavia, lo rende particolarmente utile per mantenere un lavoro in corso di trasparenza: ogni edizione può essere tracciata, le correzioni possono essere discusse e i contributi possono essere incorporati senza perdere la storia del libro.
+
+Ogni contributo è gradito. Se noti un errore, non sei d'accordo con una spiegazione, conosci un esempio più chiaro o vuoi proporre un miglioramento, puoi aprire una discussione o proporre una correzione tramite il repository GitHub.
+
+Non c'è bisogno di imparare GitHub per partecipare. Commenti, opinioni, consigli e correzioni proposte possono anche essere inviati direttamente a **francescoclaudiomazza@gmail.com**. Un breve messaggio che identifica il capitolo o il passaggio è sufficiente per iniziare la conversazione.
+
+Questo invito fa parte dello scopo del libro. Chiamare la guida un lavoro in corso non significa accettare errori evitabili. Significa riconoscere che le conoscenze utili diventano più forti quando i lettori lo testano, lo mettono in discussione e contribuiscono a rendere la prossima edizione più chiara e precisa di quella precedente.
+
 Per questo l'ho scritto.
 
 **Francesco Claudio Mazza**<br>
-*Brand Manager Europe, Xinzuo*
+* Direttore operativo dell'EU Brand and Operations, Xinzuo*
