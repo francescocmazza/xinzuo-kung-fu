@@ -55,6 +55,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y fonts-noto fonts-noto-cjk fonts-noto-cjk-extra
 
+      - name: Repair translated raw HTML
+        run: python scripts/repair_translated_html.py
+
       - name: Validate the multilingual source
         run: python scripts/multilingual_site.py --require-translations
 

@@ -9,6 +9,7 @@ on:
       - "localization/**"
       - "scripts/multilingual_site.py"
       - "scripts/auto_translate.py"
+      - "scripts/repair_translated_html.py"
       - "scripts/export_pdf_guides.py"
       - "scripts/pdf_export/**"
       - "mkdocs.yml"
@@ -26,6 +27,7 @@ on:
       - "localization/**"
       - "scripts/multilingual_site.py"
       - "scripts/auto_translate.py"
+      - "scripts/repair_translated_html.py"
       - "scripts/export_pdf_guides.py"
       - "scripts/pdf_export/**"
       - "mkdocs.yml"
@@ -83,6 +85,9 @@ jobs:
         env:
           TRANSLATION_BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
         run: python scripts/auto_translate.py
+
+      - name: Repair translated raw HTML
+        run: python scripts/repair_translated_html.py
 
       - name: Commit refreshed translations to main
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
