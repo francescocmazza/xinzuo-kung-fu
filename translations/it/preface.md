@@ -1,5 +1,5 @@
 ---
-source_hash: 9f14c165ee688fcc6b83c8893a3059ce3b9f4568779344fd09f991bd4e8398a4
+source_hash: 7eb8edb80a8d5b6b75d3223b13b42985f55558e9d3c080677c4ce9c32616215f
 ---
 
 # Prefazione
@@ -19,6 +19,10 @@ L'idea centrale è che nessuna specifica è sufficiente per spiegare un coltello
 Questo modo di apprendere è strettamente connesso al significato di *kung fu*. L'abilità non inizia con l'originalità. Comincia imparando ciò che gli altri hanno già scoperto, comprendendo le soluzioni provate e praticandole fino a quando i principi sottostanti non diventano chiari. Solo allora il giudizio personale diventa veramente utile. L'obiettivo non è ripetere la tradizione meccanicamente, ma acquisire sufficiente padronanza di essa per scegliere consapevolmente, adattarsi intelligentemente e alla fine migliorare su ciò che è stato appreso.
 
 Lo stesso principio si applica a Xinzuo. Questo libro nasce dalla necessità di raccogliere e organizzare le conoscenze sviluppate attraverso la progettazione, la produzione, la sperimentazione, la vendita, l'uso professionale e le conversazioni quotidiane con cuochi e clienti. Xinzuo fornisce molta dell'esperienza pratica e molti degli esempi, ma il libro non è destinato ad essere un catalogo travestito da guida tecnica. Il suo oggetto è il coltello da cucina stesso, e i principi qui discussi sono destinati a rimanere utili ben al di là di qualsiasi singolo prodotto o marchio.
+
+I principi presentati in queste pagine sono una sintesi delle conoscenze che ho accumulato nel corso degli anni: studio personale ed esperienza, esperienza acquisita all'interno di Xinzuo, e le conoscenze pratiche condivise dai colleghi coinvolti nello sviluppo del prodotto, nella produzione e nella vendita. Rappresentano il know-how che ho sviluppato e scelto di organizzare in una visione coerente dei coltelli da cucina. Essi non sono presentati come una verità immutabile o definitiva: i singoli punti possono essere raffinati, ampliati o corretti man mano che l'esperienza cresce e diventano disponibili migliori informazioni. Questo libro va letto come un punto di partenza fondato per comprendere il tema, non come un testo che deve essere accettato senza mettere in discussione.
+
+Poiché tale qualificazione è qui indicata una volta, i capitoli che seguono parlano deliberatamente direttamente. Quando il libro raggiunge una conclusione, presenta quella conclusione come la sua posizione. Ulteriori qualifiche sono incluse solo quando cambiano materialmente il significato tecnico, la portata di un reclamo o l'uso sicuro di un coltello; la possibilità generale di perfezionamento futuro non deve essere ripetuta su ogni pagina.
 
 La conoscenza migliora anche quando è condivisa. Per questo motivo questo libro è disponibile gratuitamente su GitHub all'indirizzo:
 
