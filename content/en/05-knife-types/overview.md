@@ -3,7 +3,7 @@ title: Knife Shapes and Their Uses
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-23
+reviewed: 2026-08-24
 translation_priority: highest
 source_basis: 2025 Xinzuo Catalog V9 and current Xinzuo series pages
 ---
@@ -76,6 +76,12 @@ This does not make the gyuto unsuitable for meat. It remains an exceptionally ve
 </div>
 
 The santoku is a compact all-purpose knife whose short length and tall blade make it approachable in a home kitchen. Its edge is often fairly straight through the heel and middle, rising gently toward a lowered tip. This gives reassuring board contact during push cutting and vertical chopping while preserving enough front curve for controlled slicing.
+
+Its characteristic dropped or sheep's-foot-like nose also changes the **amount of steel that remains around the front of the blade**. A pointed Western chef's knife progressively narrows as it approaches the tip, while a bunka deliberately cuts away still more material to create its fine angular K-tip. A santoku normally keeps a broader, fuller front section before the spine meets the edge. That does not mean that every santoku is heavier overall than every chef's knife—many are actually shorter and lighter—but it does mean that the **local tip region is comparatively substantial**.
+
+This fuller front gives the santoku a different kind of authority. There is more material supporting the nose than in a very fine chef's point or bunka K-tip, so the tip region is generally less delicate and better suited to the repeated board-oriented push cuts and short vertical chops for which the form is known. The extra mass retained toward the front can also give the blade more inertia there, helping the front continue through a downward cut once it is moving. It should not, however, be described as automatically producing greater cutting force or easier penetration: sharpness, edge angle, thickness behind the edge and the geometry of the food contact remain decisive. A lighter, thinner and sharper blade can pass through an ingredient more easily than a heavier but thicker one.
+
+This difference becomes especially clear beside the bunka. The bunka trades some of the santoku's material at the front for a fine K-tip that is easier to place precisely, score with and redirect. The santoku trades some of that point precision for a fuller and more supported nose. Neither choice is inherently better; each puts mass and geometry where a different kind of work benefits from them. The broader discussion of this trade-off continues in **Weight and Balance: Why Heavier Is Not Better or Worse**.
 
 The height creates knuckle clearance and a broad guiding surface. It is particularly comfortable for vegetables, fruit, herbs and boneless portions of meat or fish. Its main limit is its compactness: a short edge needs more strokes across a large roast or melon, and a very flat santoku is not designed for an exaggerated rocking action.
 
@@ -397,5 +403,6 @@ Most importantly, a photograph establishes a profile, not hardness, grind, hande
 - [KAI Europe: Japanese blade families](https://kai-europe.com/en/keyword/japanese-blades/)
 - [KAI 2025-26 kitchen-knife catalog](https://kai-europe.com/wp-content/uploads/2025/08/KAI_kitchen_knives_catalogue_2025-26_en.pdf)
 - [Tojiro: Western-style knife categories](https://www.tojiro-japan.com/knife_category/western_style_knives/)
+- [ZWILLING: Knife types and Santoku profile](https://www.zwilling.com/it/magazine/guida-ai-coltelli/knife-types.html)
 
 *Source note: Xinzuo names and product examples come from the 2025 Xinzuo catalog and current Xinzuo series pages. Catalog-derived product photographs are subject to the image-rights notice. The PM80-CS visual is used as a current model-identification reference.*
