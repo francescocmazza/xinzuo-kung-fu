@@ -134,7 +134,10 @@ jobs:
           git push --force origin "refs/tags/$tag"
 
           if gh release view "$tag" --repo "$REPOSITORY" >/dev/null 2>&1; then
-            gh release upload "$tag" release-upload/* --clobber --repo "$REPOSITORY"
+            while IFS= read -r asset_id; do
+              gh api --method DELETE "repos/${REPOSITORY}/releases/assets/${asset_id}"
+            done < <(gh api "repos/${REPOSITORY}/releases/tags/${tag}" --jq '.assets[].id')
+            gh release upload "$tag" release-upload/* --repo "$REPOSITORY"
             gh release edit "$tag" \
               --repo "$REPOSITORY" \
               --target "$source_sha" \
