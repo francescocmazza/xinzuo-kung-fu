@@ -26,18 +26,11 @@ These are tendencies rather than rigid laws. A gyuto can have enough curve to ro
 
 ### Surface relief: hollows and hammering
 
-Some Xinzuo knives use hollows, dimples or a hammered surface on the blade face. These features interrupt the broad, continuous contact between food and steel. As a slice bends away from the blade, the recessed areas can leave small gaps in which air remains between the food and the blade face. By reducing continuous surface contact and suction, those small air pockets can make moist, starchy or soft foods release more easily.
+Some Xinzuo knives use hollows, dimples or a hammered surface on the blade face. These are **surface features, not separate knife shapes**. A chef's knife with Granton-style hollows remains a chef's knife; a carving knife with the same treatment remains a carving knife. The outline and working geometry define the form, while the surface treatment modifies how the blade face interacts with food.
 
-The effect should not be presented as a guarantee that food will never stick. It depends on the depth and distribution of the relief, the finish of the blade, the moisture and texture of the ingredient and the cutting technique. The same principle applies whether the relief is made as regular Granton-style hollows or as a hammered texture.
+Hollows and hammered relief interrupt the broad, continuous contact between food and steel. As a slice bends away from the blade, the recessed areas leave small gaps in which air remains between the food and the blade face. By reducing continuous surface contact and suction, those air pockets can make moist, starchy or soft foods release more easily.
 
-## Catalog shape reference
-
-The following reference is taken from the Xinzuo catalog master index. It is intended as a visual orientation tool. The individual discussions that follow use separate complete Xinzuo images so that no explanation is detached from its knife form.
-
-<figure class="kb-learning-figure">
-<img src="../../assets/images/approved/master-knife-shape-index.svg" alt="Xinzuo catalog master index showing the complete knife-shape family">
-<figcaption>Xinzuo catalog knife-shape master index.</figcaption>
-</figure>
+The size of the effect depends on the depth and distribution of the relief, the finish of the blade, the moisture and texture of the ingredient and the cutting technique. The same principle applies whether the relief is made as regular Granton-style hollows or as a hammered texture.
 
 ## General-purpose knives
 
@@ -96,16 +89,6 @@ The bunka shares much of the santoku's compact height and versatility, but its f
 That geometry is especially useful because the bunka still has a relatively large, tall blade. A broad knife would normally feel less suited to delicate point work, but the K-tip gives the user a fine and accessible precision tool without giving up the blade height needed for normal board preparation. In this sense, the bunka combines a substantial general-purpose blade with a tip that can perform work more often associated with a smaller knife.
 
 The edge is commonly fairly straight, so a bunka rewards push cutting and chopping. The same fine tip that makes it precise is also vulnerable to twisting, levering and hard contact with the board.
-
-### Granton-edge chef's knife
-
-<div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/granton-chef.jpg" alt="Complete Xinzuo Granton-edge chef's knife"><figcaption>A complete Xinzuo chef's knife with alternating hollows along the blade face.</figcaption></figure>
-</div>
-
-A Granton-edge chef's knife is fundamentally a chef's knife whose blade face has a row of hollows. The profile still determines the movement, while the recesses interrupt the contact between food and steel. During a slice, they can leave **small air pockets between the food and the blade**, reducing continuous adhesion and helping some moist or starchy foods release more readily.
-
-The result varies with the ingredient, finish, depth and position of the hollows, so the knife should not be described as universally non-stick. The cutting edge remains plain and is sharpened like that of another chef's knife, without unnecessary thinning into the hollows.
 
 ## Vegetable and Chinese all-purpose knives
 
@@ -168,16 +151,6 @@ The intended movement is a long draw. Let a generous length of sharp edge travel
 The roast carving knife keeps the long slicing edge but gives the front more breadth and upward sweep than a classic narrow carver. That curve follows the rounded surface of a roast and lets the slicing stroke finish in a smooth rising motion.
 
 Its purpose remains portioning cooked, boneless food. The broader point does not make it a joint breaker. Choose it when the curved stroke feels natural around large cooked meats; choose a straighter carver when a long linear draw is preferred.
-
-### Granton carving knife
-
-<div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/granton-carving.jpg" alt="Complete Xinzuo Granton carving knife"><figcaption>A complete Xinzuo long carving knife with blade-face hollows.</figcaption></figure>
-</div>
-
-The Granton carving knife combines long, narrow slicing geometry with hollows along the blade face. Those recesses reduce continuous blade-to-food contact and can create **small air gaps between the slice and the steel**, helping ham, cooked meat, large fruit and some soft foods separate more readily as the cut progresses.
-
-The effect is secondary to sharpness and technique and is never a guarantee of a non-stick blade. The edge is plain, not serrated, and performs best in a long controlled draw. Short sawing strokes waste the length that the design provides.
 
 ### Ham knife
 
@@ -394,6 +367,8 @@ Choose the profile before the steel. First decide whether the work needs board c
 ## Reading catalog names responsibly
 
 The Xinzuo catalog is authoritative for the name of a current Xinzuo product, but a commercial label is not automatically a universal historical category. Viking Knife and Ultimate Utility Knife therefore remain explicitly identified as Xinzuo names. Sashimi Knife is connected to more specific Japanese terminology without silently renaming the product. Chinese cleaver and bone chopper remain separate because similar rectangular outlines can conceal very different thickness, mass and intended impact work.
+
+The same distinction applies to surface treatments. A catalog may identify a model as a Granton chef's knife or Granton carving knife, but **Granton describes the hollows on the blade face, not a separate blade form**. In this guide such knives are classified under their underlying shape and the hollows are discussed as a surface characteristic.
 
 Most importantly, a photograph establishes a profile, not hardness, grind, handedness or bone capability. Those properties belong to the exact model specification and to the later chapters of this guide.
 
