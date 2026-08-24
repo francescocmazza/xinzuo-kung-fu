@@ -185,22 +185,26 @@ The blade is intended to draw cleanly through boneless fish. It should not chop 
 ### Kiritsuke
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/kiritsuke.jpg" alt="Complete Xinzuo traditional kiritsuke"><figcaption>A complete Xinzuo single-bevel kiritsuke with a long edge and angular point.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/kiritsuke.jpg" alt="Complete Xinzuo traditional kiritsuke"><figcaption>A complete Xinzuo single-bevel kiritsuke with a long edge and angular K-tip.</figcaption></figure>
 </div>
 
-In the Xinzuo F3 and F3S specialist context, kiritsuke identifies a long, angular-tipped single-bevel knife for precise slicing and advanced preparation. The straight section supports controlled board work, while the K-tip gives a clear view of the front of the cut.
+In the Xinzuo F3 and F3S specialist context, kiritsuke identifies a long, angular-tipped single-bevel knife for precise slicing and advanced preparation. The straight section supports controlled board work, while the K-tip creates a very precise working point for entering, opening and following delicate cuts in fish.
 
-This must be distinguished from a modern double-bevel kiritsuke gyuto or K-tip gyuto sold as an accessible all-purpose knife. A traditional single-bevel kiritsuke can steer, is normally handed and demands geometry-specific sharpening. The silhouette alone is not enough; the bevel construction must be stated.
+The K-tip becomes particularly useful in demanding fish work, including eel preparation. A distinctive way to exploit it is the **finger-point grip**: the index finger is extended forward along the spine of the blade, with the fingertip resting on the sloping spine immediately behind the K-tip. This brings tactile control very close to the point and makes shallow incisions, fine directional corrections and small separating movements easier to guide. Instead of controlling the tip only through the handle and wrist, the cook effectively adds a guiding reference directly above the front of the blade.
+
+This precise use on eel should not be confused with the **unagisaki**, the family of Japanese knives designed specifically for opening and filleting eel. The kiritsuke is a broader specialist knife, but its long single-bevel geometry, acute K-tip and finger-point control make it particularly effective when similarly delicate fish work is required.
+
+The traditional kiritsuke must also be distinguished from a modern double-bevel kiritsuke gyuto or K-tip gyuto sold as an accessible all-purpose knife. A traditional single-bevel kiritsuke can steer, is normally handed and demands geometry-specific sharpening. The silhouette alone is not enough; the bevel construction must be stated.
 
 ## Boning, filleting and fish butchery
 
 ### Western boning knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/boning.jpg" alt="Complete Xinzuo Western boning knife"><figcaption>A complete Xinzuo narrow boning knife with a pointed front.</figcaption></figure>
+  <figure><img src="https://www.xinzuo-europe.com/wp-content/uploads/2023/08/2-52.jpeg" alt="Xinzuo B1Z-TG 5.7-inch boning knife"><figcaption>Xinzuo B1Z-TG, a 5.7-inch Western boning knife with the narrow, pointed profile used for working around bone and connective tissue.</figcaption></figure>
 </div>
 
-A Western boning knife is narrow so that the user can see and control the edge while tracing joints, removing connective tissue and separating meat from bone. The pointed tip enters tight spaces that a broad chef's knife cannot reach. Stiffer versions provide deliberate control around beef and pork; more flexible versions follow rounded surfaces.
+A Western boning knife is narrow so that the user can see and control the edge while tracing joints, removing connective tissue and separating meat from bone. The **Xinzuo B1Z-TG** shown here is a clear example of the form: its narrow blade and pointed front provide access and control in spaces where a broad chef's knife becomes cumbersome. Stiffer boning knives provide deliberate control around beef and pork; more flexible versions follow rounded surfaces more readily.
 
 Its principal limitation is **lack of versatility**. The narrow, specialized blade excels at tracing bone and connective tissue but offers little knuckle clearance, little food-transfer area and less efficiency in the broad board work performed by a chef's knife, gyuto or Chinese cleaver. It should therefore be chosen because boning is a recurring task, not as a general-purpose substitute.
 
