@@ -3,7 +3,7 @@ title: Preface
 author: Francesco Claudio Mazza
 status: review
 language: en
-reviewed: 2026-08-22
+reviewed: 2026-08-24
 ---
 
 # Preface
@@ -22,11 +22,21 @@ At first, I imagined a training manual for the company. As the project developed
 
 The internal manual therefore became a book for everyone.
 
+It also became something that should not be consumed only from the first page to the last. A kitchen knife is the meeting point of many subjects: material, heat treatment, geometry, blade shape, sharpening, balance, movement, maintenance and the ingredient itself. None of those subjects explains the whole tool in isolation. They are pieces of a large puzzle, and the picture becomes clearer as the reader begins to connect them.
+
+That is why I hope readers will enter the book wherever a real question appears, follow that question across the relevant chapters, try what they have learned with a knife in the hand and then return to the text. A later reading should not feel identical to the first one. Practice changes what the reader is able to notice.
+
 ## Knowledge grows when it is shared
 
 At Xinzuo, we believe that knowledge should be shared with as many people as possible. We do not grow by protecting useful ideas behind technical language or keeping experience inside a small circle. We grow by sharing what we know, listening to what others have learned and remaining willing to correct, refine and improve our understanding. In our view, the only lasting way to progress is to continue learning—and to help other people learn with us.
 
 That belief is also part of the meaning of *kung fu* in this book. Mastery is not a secret possessed by a few people. It is knowledge made real through attention, effort and practice. A precise cut, a stable grip or a cleanly sharpened edge may look effortless, but each is the result of understanding repeated until it becomes skill.
+
+There is another aspect of the title that matters to me. In several Chinese traditions of learning—from calligraphy and painting to craftsmanship and martial practice—the beginner does not start by trying to prove originality. One first studies forms and solutions refined by earlier generations, learns from teachers and exemplary masters, repeats until principles can be felt rather than merely recited, and only then begins to adapt, combine, correct and improve what has been received. In Chinese calligraphy, for example, copying the work of established masters has long been a normal foundation of training; the purpose is not to remain a copyist forever, but to acquire enough command of the tradition for personal judgement and eventually creativity to become meaningful.
+
+This should not be turned into a simplistic opposition between China and the West. Both cultures contain traditions of apprenticeship as well as powerful traditions of invention. The contrast that matters here is with the modern image of progress as a sudden flash of isolated genius. *Kung fu* points instead toward progress that is accumulated: learn what others have already discovered, practise it seriously, understand why it works, and then try to make the next version a little better. Skill is valuable not because it produces one exceptional moment, but because it becomes reliable, transmissible and capable of further refinement.
+
+That is also how I would like this book itself to develop. It does not claim to begin from zero, and it does not aspire to end the discussion. It collects knowledge inherited from metallurgy, knife making, cooks, sharpeners, teachers and users; it tries to make that knowledge clearer and more useful; and it remains open to correction by the next person who sees something we have missed. In this sense, the method of the book and the meaning of its title are the same.
 
 > Knowledge becomes useful when it leaves the page, enters the hand and can be shared with someone else.
 
