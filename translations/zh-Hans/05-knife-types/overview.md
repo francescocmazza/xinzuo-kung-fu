@@ -30,7 +30,7 @@ source_hash: 71b5d2800795c4e56bef0343152c79b7026bf190b4a7b514dfb553e53a059b8a
 
 <figure class="kb-learning-figure">
 <img src="../../assets/images/approved/master-knife-shape-index.svg" alt="Xinzuo catalog master index showing the complete knife-shape family">
-KBTOKEN000Xinzuo 刀形总指数。 KBTOKEN001
+<figcaption>Xinzuo 刀形总指数。</figcaption>
 </figure>
 
 ## 普通用途刀
@@ -38,7 +38,7 @@ KBTOKEN000Xinzuo 刀形总指数。 KBTOKEN001
 ### 西方厨师的刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTO002A 完整的Xinzuo Western主厨的刀形图, 其特征是弯曲的腹部。 KBTOKEN003KBTOKEN004
+  <figure><img src="../../assets/images/approved/knife-shapes/chef.jpg" alt="Complete Xinzuo Western chef's knife"><figcaption>A 完整的Xinzuo Western主厨的刀形图, 其特征是弯曲的腹部。</figcaption></figure>
 </div>
 
 西方厨师的刀是一把可逆刀,其传统几何法主要面向肉类工作**。 它可以制作蔬菜、水果、草药和许多其他成份,这就是为什么它成了欧洲厨房熟悉的全方位刀,但是它的特点在切肉时特别有意义。
@@ -54,7 +54,7 @@ KBTOKEN000Xinzuo 刀形总指数。 KBTOKEN001
 ### 陀乌特
 
 <div class="kb-profile-visual">
-  KBTOEN001KBTOEN002KBTOEN003Xinzuo PM80-CS, 用于显示相对平滑的陀螺型配置。 KBTOKEN004KBTOEN005
+  <figure><img src="https://kitchenvirtue.com/cdn/shop/files/p_07772aca-d5e8-4c61-bfaf-0b01cfb2ef21.jpg?v=1752611078" alt="Xinzuo PM80-CS used as a gyuto-profile example"><figcaption>Xinzuo PM80-CS, 用于显示相对平滑的陀螺型配置。</figcaption></figure>
 </div>
 
 陀螺仪是西方厨师刀的日本全能配方。 两种形式在使用上有很大的重叠,但不需要有相同的感觉。 与传统的西方厨师配置相比,陀螺仪通常有优美的脚跟和中间部分,一个细微的点和不连续的腹部弯曲。
@@ -66,7 +66,7 @@ KBTOKEN000Xinzuo 刀形总指数。 KBTOKEN001
 ### 桑图库
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTO002A 完整的天独木舟,长度紧凑,但刀高丰厚。
+  <figure><img src="../../assets/images/approved/knife-shapes/santoku.jpg" alt="Complete Xinzuo santoku"><figcaption>A 完整的天独木舟,长度紧凑,但刀高丰厚。</figcaption></figure>
 </div>
 
 Santoko是一把紧凑的全用刀,短长和高尖的刀片可以进入家用厨房。它的边缘往往相当直直直地穿过脚跟和中间,轻轻地向下向下移动。 这使得在推切割和垂直切开过程中板的接触令人放心,同时保留足够的前曲线用于控制切片。
@@ -76,7 +76,7 @@ Santoko是一把紧凑的全用刀,短长和高尖的刀片可以进入家用厨
 ### 庞卡
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTO002A 完成XINZUOUO BINGA 其特性为角 K-tip.KBTOKEN003KBTOKEN004
+  <figure><img src="../../assets/images/approved/knife-shapes/bunka.jpg" alt="Complete Xinzuo bunka"><figcaption>A 完成XINZUOUO BINGA 其特性为角 K-tip.</figcaption></figure>
 </div>
 
 双层共享了松图库的紧凑高度和多功能性,但其前端却急剧降为角形K-tip。 重要的特征不仅是尖尖被指向: ** 它的形状及其相对较低的前方位置在切线附近设置了一个精确的工作点。 这使得用户能够准确看到和控制评分、 剪裁、 打开小段和其他细节工作的点 。
@@ -88,7 +88,7 @@ Santoko是一把紧凑的全用刀,短长和高尖的刀片可以进入家用厨
 ### 葛兰登厨师刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTOEN002A 完整的Xinzuo厨师刀 与交替的空洞 沿刀片的脸。
+  <figure><img src="../../assets/images/approved/knife-shapes/granton-chef.jpg" alt="Complete Xinzuo Granton-edge chef's knife"><figcaption>A 完整的Xinzuo厨师刀 与交替的空洞 沿刀片的脸。</figcaption></figure>
 </div>
 
 葛兰顿厨师的刀基本上是一把厨师的刀,其刀面有一排空洞。 轮廓仍然决定着运动,而休息会打断食物和钢铁之间的接触。 在切片期间,他们可以在食物和刀片之间留下小气袋** , 减少连续粘合,帮助一些潮湿或星际食物更容易释放。
@@ -100,7 +100,7 @@ Santoko是一把紧凑的全用刀,短长和高尖的刀片可以进入家用厨
 ### 纳基里
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTOEN002A 完整的Xinzuo nakiri: 高、瘦和几乎直 沿着尖端。
+  <figure><img src="../../assets/images/approved/knife-shapes/nakiri.jpg" alt="Complete Xinzuo nakiri"><figcaption>A 完整的Xinzuo nakiri: 高、瘦和几乎直 沿着尖端。</figcaption></figure>
 </div>
 
 nakiri是一把围绕直截了当的板形接触而建的日本菜刀,长长长的长方形刀薄、双贝贝和几乎直直的边缘。 当手向上或向下移动时,大多数边缘会一起到达板状,左侧会把碎片从底部连接在一起。 刀高能提供引导式手间,使卷心菜、洋葱、胡萝卜和叶质蔬菜的重复工作效率更高。
@@ -114,7 +114,7 @@ Nakiri 并非全部完成完全相同的前方。 一个重要家族有一个 \\
 ### 中国刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTOEN002A 完整的清中国刀; 必须根据确切的模型规格确定能力。 KBTOKEN003/KBTOKEN004
+  <figure><img src="../../assets/images/approved/knife-shapes/cleaver.jpg" alt="Complete Xinzuo Chinese cleaver"><figcaption>A 完整的清中国刀; 必须根据确切的模型规格确定能力。 /</figcaption></figure>
 </div>
 
 中国刀片是最独特的所有用途的厨房形式之一。 高长的长方形刀片可以切片、切片、指向指关节、压碎芳香剂和转移准备的成分。 不同的中国刀片具有不同的重量和厚度等级,因此矩形轮廓本身不能告诉我们特定刀片是很好的通用切割器,还是更强有力的辅助工具。
@@ -128,7 +128,7 @@ Nakiri 并非全部完成完全相同的前方。 一个重要家族有一个 \\
 ### 骨型直升机
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTOEN002A 完整的Xinzuo骨骼直升机, 围绕质量和边缘支持,而不是精细的切片。
+  <figure><img src="../../assets/images/approved/knife-shapes/bone-chopper.jpg" alt="Complete Xinzuo bone chopper"><figcaption>A 完整的Xinzuo骨骼直升机, 围绕质量和边缘支持,而不是精细的切片。</figcaption></figure>
 </div>
 
 骨骼直升机是导线中最清晰的撞击型,其重刀、支撑边缘和大量横截面用于适当的屠宰工作,其动力和耐久性比薄的低压切割还要重要。
@@ -140,7 +140,7 @@ Nakiri 并非全部完成完全相同的前方。 一个重要家族有一个 \\
 ### 古典雕刻刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTO002A 完整的Xinzuo经典雕刻刀 长窄的侧面。
+  <figure><img src="../../assets/images/approved/knife-shapes/carving.jpg" alt="Complete Xinzuo classic carving knife"><figcaption>A 完整的Xinzuo经典雕刻刀 长窄的侧面。</figcaption></figure>
 </div>
 
 雕刻刀比厨师的刀子长、窄,这样它就能通过烤肉、家禽乳房、无骨肉或大水果,减少中风。 降低刀高会减少阻力,让使用者更清楚地看到刀片的切口。
@@ -150,7 +150,7 @@ Nakiri 并非全部完成完全相同的前方。 一个重要家族有一个 \\
 ### 烤肉刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTO002A 完整的Xinzuo烧烤剖面图, 其范围更广, 上升前端。 KBTOKEN003KBTOKEN004
+  <figure><img src="../../assets/images/approved/knife-shapes/roast-carving.jpg" alt="Complete Xinzuo roast carving knife"><figcaption>A 完整的Xinzuo烧烤剖面图, 其范围更广, 上升前端。</figcaption></figure>
 </div>
 
 烤肉刀保持长切片边缘,但比典型的窄切片宽度和向上扫。 该曲线沿着烤肉的圆形表面,让切片在平滑的上升运动中结束。
@@ -160,7 +160,7 @@ Nakiri 并非全部完成完全相同的前方。 一个重要家族有一个 \\
 ### 格兰顿雕刻刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTO002A 完整的Xinzuo长长的雕刻刀 用刀片面孔。
+  <figure><img src="../../assets/images/approved/knife-shapes/granton-carving.jpg" alt="Complete Xinzuo Granton carving knife"><figcaption>A 完整的Xinzuo长长的雕刻刀 用刀片面孔。</figcaption></figure>
 </div>
 
 葛兰顿雕刻刀将长而狭窄的切片几何与刀片面部的空洞结合起来。 这些缝隙会减少连续的刀片对食物的接触,并在切片和钢材** 之间造成小的空气缺口,帮助火腿、煮肉、大水果和一些软食品随着切片的进展而更容易分离。
@@ -170,7 +170,7 @@ Nakiri 并非全部完成完全相同的前方。 一个重要家族有一个 \\
 ### 火腿刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTO002A 完成Xinzuo 火腿刀,为宽薄切片加长和窄。
+  <figure><img src="../../assets/images/approved/knife-shapes/ham.jpg" alt="Complete Xinzuo ham knife"><figcaption>A 完成Xinzuo 火腿刀,为宽薄切片加长和窄。</figcaption></figure>
 </div>
 
 一把火腿刀伸展了雕刻刀的逻辑。 长的、窄的刀片可以产生宽薄的切片,而不用再锯锯,而缩小的刀片面积则会限制摩擦。 一些模型稍有弹性,可以跟随火腿;另一些模型则更坚固,可以直线。
@@ -180,7 +180,7 @@ Nakiri 并非全部完成完全相同的前方。 一个重要家族有一个 \\
 ### 生菜刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTOEN002A 完整的Xinzuu 长长单叶片片 KBTOKEN003KBTOKEN004
+  <figure><img src="../../assets/images/approved/knife-shapes/sashimi.jpg" alt="Complete Xinzuo sashimi knife"><figcaption>A 完整的Xinzuu 长长单叶片片</figcaption></figure>
 </div>
 
 Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体的术语可能称为亚马基巴型刀的剖面。 其长度允许将一部分生鱼切成划线,留下的表面比短短的前后动作更平滑。
@@ -190,7 +190,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 丸
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTO002A 完整的三筒丸, 其四轮,剑影响点。 KBTOEN003KBTOKEN004
+  <figure><img src="../../assets/images/approved/knife-shapes/sakimaru.jpg" alt="Complete Xinzuo sakimaru"><figcaption>A 完整的三筒丸, 其四轮,剑影响点。</figcaption></figure>
 </div>
 
 秋丸属于同一个长长的单瓶切片家族,但其前端是四舍五入的剑法影响点。 这一变化影响到前方的平衡、展示和进入;它不会改变中心任务。
@@ -200,7 +200,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 柯里特助
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTOEN002A 完成 Xinzuo 单贝耳 基里助, 具有长边缘和角点。 KBTOKEN003KBTOKEN004
+  <figure><img src="../../assets/images/approved/knife-shapes/kiritsuke.jpg" alt="Complete Xinzuo traditional kiritsuke"><figcaption>A 完成 Xinzuo 单贝耳 基里助, 具有长边缘和角点。</figcaption></figure>
 </div>
 
 在Xinzuo F3 和 F3S 专家背景下, kiritsuke 辨别了用于精确切片和高级制备的长长、角尖单贝刀。 直截面支持受控板的工作, 而 K- tip 则清晰显示切口的前面 。
@@ -212,7 +212,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 西方连锁刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTO002A 完成Xinzuo窄骨刀 用尖尖的前锋。
+  <figure><img src="../../assets/images/approved/knife-shapes/boning.jpg" alt="Complete Xinzuo Western boning knife"><figcaption>A 完成Xinzuo窄骨刀 用尖尖的前锋。</figcaption></figure>
 </div>
 
 西方骨盆的刀子很窄,这样用户就可以在追踪关节、切除连接组织和将肉与骨头分开时看到并控制边緣。 尖尖尖尖刺进入一个大厨刀子无法到达的紧密空间。 硬刀的版本在牛肉和猪肉周围提供了蓄意的控制;更灵活的版本在圆形表面之后。
@@ -224,7 +224,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 钟木
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTO002A 完成其三角家禽保鲜配置。
+  <figure><img src="../../assets/images/approved/knife-shapes/honesuki.jpg" alt="Complete Xinzuo honesuki"><figcaption>A 完成其三角家禽保鲜配置。</figcaption></figure>
 </div>
 
 白木是一把硬的、三角的日本软刀,特别与家禽有关。它尖尖的前门可以定位接头和尾随骨头,而较强的脚跟可以将连接组织与受控压力分隔开来。 与西方柔软的软骨刀相比,它感觉更加僵硬和刻意。
@@ -234,7 +234,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 脚趾刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTOEN002A 完整的辛佐菲利特刀,长度和窄度足以跟随鱼的轮廓。
+  <figure><img src="../../assets/images/approved/knife-shapes/fillet.jpg" alt="Complete Xinzuo fillet knife"><figcaption>A 完整的辛佐菲利特刀,长度和窄度足以跟随鱼的轮廓。</figcaption></figure>
 </div>
 
 西方方块刀长、狭窄且通常灵活。 这种可控的灵活性允许刀片跟随肋骨笼子,紧跟皮肤,绕鱼的轮廓行走,同时留下较少的肉。
@@ -244,7 +244,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 德巴语Name
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTOEN002A 完成Xinzuo deba, 坚固的脚跟, 并粘贴到更精确的前面。 KBTOKEN003KBTOKEN004
+  <figure><img src="../../assets/images/approved/knife-shapes/deba.jpg" alt="Complete Xinzuo deba"><figcaption>A 完成Xinzuo deba, 坚固的脚跟, 并粘贴到更精确的前面。</figcaption></figure>
 </div>
 
 底巴是日本用来拆解鱼的厚重刀子。 坚固的脚跟可以通过适当的鱼关节和骨骼和受控技术发挥作用,而前面则进行更精细的分离和填充。
@@ -256,7 +256,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 实用刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTO002A 完整的Xinzuo 通用刀, 在刀和大厨刀之间。
+  <figure><img src="../../assets/images/approved/knife-shapes/utility.jpg" alt="Complete Xinzuo utility knife"><figcaption>A 完整的Xinzuo 通用刀, 在刀和大厨刀之间。</figcaption></figure>
 </div>
 
 通用刀占据了割刀和厨师刀之间的空间。 它足以达到水果、三明治、小蔬菜、奶酪和无骨肉,但是当一把全尺寸的刀把板挤满时,它仍然灵活。
@@ -266,7 +266,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 终极功利刀 - 辛佐的商业简介
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTOEN002A 完整的Xinzuo Untimate Upitity刀 和扇贝尖。
+  <figure><img src="../../assets/images/approved/knife-shapes/ultimate-utility.jpg" alt="Complete Xinzuo Ultimate Utility Knife"><figcaption>A 完整的Xinzuo Untimate Upitity刀 和扇贝尖。</figcaption></figure>
 </div>
 
 末端功利刀是一个Xinzuo产品名称,而不是一个国际类别。 在X02和X02M族中,它描述的是带有扇贝边缘的中长多用途刀片,意在连接小型准备、三明治、餐桌使用和软壳食品。
@@ -276,7 +276,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 弯刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTO002A 完整的Xinzuo曲线刀 用于控制四舍五入生产。
+  <figure><img src="../../assets/images/approved/knife-shapes/paring-curved.jpg" alt="Complete Xinzuo curved paring knife"><figcaption>A 完整的Xinzuo曲线刀 用于控制四舍五入生产。</figcaption></figure>
 </div>
 
 弯曲的刀子很短,主要指向手指,在剥皮、烧焦、擦伤和装饰形状期间,弯曲的曲线跟随水果和蔬菜,当成分安全存放时,边缘环绕圆形表面,几乎没有浪费运动。
@@ -286,7 +286,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 直射刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTO002A 完整的Xinzuo直射刀, 有更多的边缘接触 短,精确的切口。
+  <figure><img src="../../assets/images/approved/knife-shapes/paring-straight.jpg" alt="Complete Xinzuo straight paring knife"><figcaption>A 完整的Xinzuo直射刀, 有更多的边缘接触 短,精确的切口。</figcaption></figure>
 </div>
 
 直线对角剖面使它的短边缘更多地与板子接触,并跟踪直切。 它对大蒜、胡萝卜、小水果、装饰和精细剪裁剪效果良好,同时保持足够紧凑,足以控制手头任务。
@@ -296,7 +296,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 平板切割刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTOEN002 完整Xinzuo目录配置 用于专用的平面分割表 KBTOKEN003KBTOKEN004
+  <figure><img src="../../assets/images/approved/knife-shapes/paring-flat-cut.jpg" alt="Complete Xinzuo catalog profile of a flat-cut paring knife"><figcaption>完整Xinzuo目录配置 用于专用的平面分割表</figcaption></figure>
 </div>
 
 平板切削刀更接近直立接触。 几乎平坦的边缘适合小板切割、小芳香和生产干净的平方水果或蔬菜。 短刀使这些运动精确,而不是强大。
@@ -306,7 +306,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 牛排刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTO002A 完整的Xinzuo 桌上大小的牛排刀KBTOKEN003KBTOKEN004
+  <figure><img src="../../assets/images/approved/knife-shapes/steak.jpg" alt="Complete Xinzuo steak knife"><figcaption>A 完整的Xinzuo 桌上大小的牛排刀</figcaption></figure>
 </div>
 
 牛排刀的设计是为了在盘子上分割熟肉。 它的短尖尖刀在小工作区内可以控制。 Xinzuo提供了直截了当的例子,而更大的市场则包括了锯齿化的版本;确切的边缘应该检查,因为两者的行为和锐化不同。
@@ -316,7 +316,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 黄油刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTO002A 完整Xinzuo黄油刀 并配有四舍五入的外观
+  <figure><img src="../../assets/images/approved/knife-shapes/butter.jpg" alt="Complete Xinzuo butter knife"><figcaption>A 完整Xinzuo黄油刀 并配有四舍五入的外观</figcaption></figure>
 </div>
 
 黄油刀用圆形扩张表面取代穿孔点和攻击性边缘,在面包或板块上移动黄油、软起司、派特、保留地和调味品,而没有像准备刀那样的行为。
@@ -326,7 +326,7 @@ Xinzuo将Sashimi Knife作为长窄鱼切片的宽度目录标签,包括更具体
 ### 芝士刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOKEN001KBTO002A 完整Xinzuo奶酪-刀例;其他奶酪质地要求其他剖面。
+  <figure><img src="../../assets/images/approved/knife-shapes/cheese.jpg" alt="Complete Xinzuo cheese knife"><figcaption>A 完整Xinzuo奶酪-刀例;其他奶酪质地要求其他剖面。</figcaption></figure>
 </div>
 
 奶酪刀指一个家庭,而不是一个普遍的形状。 软的粘粘的奶酪得益于薄的刀片,接触面积减少;狭窄的点可以分割和提供残片;坚硬的乳酪可能需要一个更短、更坚固的工具。
@@ -338,7 +338,7 @@ Xinzuo的例子包括为减少拖力而设计的尖锐和松动形式。 开口�
 ### 面包刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTO002A 完整Xinzuo面包刀 长的悬崖。KBTOKEN003KBTOKEN004
+  <figure><img src="../../assets/images/approved/knife-shapes/bread.jpg" alt="Complete Xinzuo bread knife"><figcaption>A 完整Xinzuo面包刀 长的悬崖。</figcaption></figure>
 </div>
 
 面包刀的特质发酵在它发展的背景下更有意义。 从历史上看,面包制作和通常使用的面包往往不同于当今许多商业上可以买到的面包。 一个特别重要的问题是如何在边缘通过之前用软壳和非常软的内脏切面包而不压缩它。
@@ -352,7 +352,7 @@ Xinzuo的例子包括为减少拖力而设计的尖锐和松动形式。 开口�
 ### 冷冻食品刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTOEN002A 完整的辛祖冷冻食品刀 粗糙的扇贝边缘。
+  <figure><img src="../../assets/images/approved/knife-shapes/frozen-food.jpg" alt="Complete Xinzuo frozen-food knife"><figcaption>A 完整的辛祖冷冻食品刀 粗糙的扇贝边缘。</figcaption></figure>
 </div>
 
 冷冻食品刀使用强力粗糙的折叠来通过适当的冷冻成分来查看。 配置是因为薄的硬厨刀在被迫进入冷冻区块时会碎裂或碎裂。 专用刀片将工作分配得不同,并提供可以进入硬表面的牙齿。
@@ -364,7 +364,7 @@ Xinzuo的例子包括为减少拖力而设计的尖锐和松动形式。 开口�
 ### 维京刀
 
 <div class="kb-profile-visual">
-  KBTOKEN000KBTOEN001KBTO002A 完整的Xinzuo Viking Knife, 一个紧凑的肉类图案。KBTOKEN003KBTOKEN004
+  <figure><img src="../../assets/images/approved/knife-shapes/viking.jpg" alt="Complete Xinzuo Viking Knife"><figcaption>A 完整的Xinzuo Viking Knife, 一个紧凑的肉类图案。</figcaption></figure>
 </div>
 
 Viking Knife是用于** 肉刀的Xinzuo商业名称。 其用意是通过雕刻刀比较更容易理解:两者都是为了通过肉类进行受控的切片运动,但Viking 配置文件将这一作品放在一个更短、更紧凑的包件中。
