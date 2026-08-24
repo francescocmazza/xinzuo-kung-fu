@@ -1,5 +1,5 @@
 ---
-source_hash: d7fb9fe27665ad87204a31e5a3270328f84edcad0299f59b8c6ba2109a55cf3d
+source_hash: 0fa49af6be5c051fdbe4cac93de2d98bd7775e606039fe7782c0b3e2bc830186
 ---
 
 # Il Kung Fu di Xinzuo
@@ -28,6 +28,12 @@ Al di fuori della Cina, *kung fu* è spesso inteso principalmente come un'arte m
 
 Lo scopo di *Il Kung Fu di Xinzuo* è quello di guidare una ** crescita personale nella conoscenza e nell'uso pratico dei coltelli da cucina**. L'obiettivo non è quello di memorizzare un catalogo di forme, acciai e tecniche, né di raccogliere trucchi isolati. È quello di diventare progressivamente più in grado di vedere quello che un coltello sta facendo, capire perché si comporta in questo modo e scegliere una risposta migliore con la mano.
 
+Questa idea appartiene anche a una più ampia tradizione di apprendimento. In diverse arti e mestieri cinesi, tra cui la calligrafia, lo studente inizia studiando forme esemplari e il lavoro di maestri affermati. La ripetizione e l'imitazione non sono necessariamente l'opposto della creatività; possono essere la disciplina attraverso la quale lo studente acquisisce abbastanza controllo per capire perché una forma lavora, la riproduce in modo affidabile e alla fine lo sviluppa ulteriormente. In calligrafia, copiare modelli canonici è stata per secoli una parte normale della formazione prima che uno stile individuale è previsto emergere.
+
+Questo è vicino allo spirito inteso qui. Il libro non celebra il progresso come un singolo momento brillante staccato da ciò che è venuto prima. Tratta il progresso come cumulativo. In primo luogo imparare ciò che i precedenti produttori, cuochi, affilatori e insegnanti hanno già scoperto. Poi praticare fino a quando il principio diventa visibile nella mano. Poi interrogarlo, adattarlo e, dove possibile, migliorarlo. Il risultato non è semplicemente quello di inventare qualcosa di nuovo una volta, ma di costruire conoscenze e abilità che possono essere ripetute, spiegate, trasmesse e affinate di nuovo da qualcun altro.
+
+Questo non è inteso come una semplice opposizione tra la cultura cinese e occidentale. Entrambi contengono profonde tradizioni di apprendistato ed entrambi hanno prodotto invenzione radicale. L'utile contrasto è con il mito moderno del genio isolato: l'idea che il progresso deriva principalmente da un improvviso flash di originalità. La prospettiva *gongfu* sottolineato in questo libro dà più peso all'accumulo paziente, il rispetto di ciò che è già stato imparato, la pratica disciplinata e la possibilità di portare un ulteriore passo avanti un'abilità ereditata.
+
 Questo tipo di apprendimento segue gli stessi principi che danno *gongfu* il suo significato più profondo. **Osservazione** ci insegna a notare dettagli che erano precedentemente invisibili: dove il bordo tocca il cibo, come la lama guida, dove la resistenza appare, come l'equilibrio cambia con la presa. **Studio** dà queste osservazioni una struttura collegandole a geometria, acciaio, trattamento termico, affilatura e tecnica. **Esperimentazione** ci permette di testare una spiegazione in modo sicuro e deliberatamente piuttosto che accettarla solo perché è stata scritta in un libro. **Repetition** trasforma un'idea corretta in un movimento affidabile, mentre la pazienza e l'autocorrezione impediscono che la ripetizione diventi meramente meccanica.
 
 Un movimento non è quindi padroneggiato perché è stato eseguito una volta, e un concetto tecnico non è veramente imparato perché la sua definizione è stata memorizzata. La conoscenza diventa *kung fu* quando sopravvive al contatto con la pratica: quando l'utente può riconoscere un problema, capire la sua causa, provare una regolazione controllata, osservare il risultato e affinare il movimento fino a diventare naturale e ripetibile.
@@ -50,12 +56,16 @@ Questo processo non ha un obiettivo finale. Con l'aumentare dell'abilità, lo st
 
 ## Come usare questo libro
 
-Non devi leggere dall'inizio alla fine.
+Non è necessario leggere dall'inizio alla fine. Infatti, per la maggior parte dei lettori che non è il modo più utile per studiarlo.
+
+Il libro è costruito come un insieme di pezzi collegati piuttosto che un lungo argomento. Forma della lama, geometria, acciaio, trattamento termico, affilatura, movimento, manutenzione e cibo sono diverse parti dello stesso grande puzzle. Una domanda che inizia in un capitolo spesso porta naturalmente ad un altro. Un coltello che cunei nel cibo può prima sembrare una questione di nitidezza, poi si rivelano coinvolgere spessore e geometria. Un problema di affilatura può portare alla durezza dell'acciaio o struttura del carburo. Una preferenza per una forma del coltello può avere più senso solo dopo un particolare movimento di taglio è stato praticato.
+
+Nessun singolo capitolo è l'intero libro, e l'intero libro non ha bisogno di essere assorbito in una sola volta. Il suo valore cresce come forma di connessioni. Leggere la parte che risponde alla domanda di fronte a voi, usarlo, poi tornare più tardi da una direzione diversa. Un capitolo letto dopo diverse settimane di pratica può rivelare qualcosa che era quasi invisibile in prima lettura. Quel movimento ripetuto tra pagina e mano non è una soluzione per la struttura del libro; è il metodo di studio previsto.
 
 - Se state scegliendo un primo coltello serio, cominciate con le forme ** del coltello e i loro usi**.
 - Se un coltello tira lateralmente o si comporta in modo diverso in ogni mano, inizia con **Single and Double Bevels**.
 - Se possiedi un coltello ma non ti senti ancora sicuro, vai a **How to Cut** e **Safe Use and Carrying**.
-- Se i nomi e i numeri di durezza dell'acciaio sono confusi, leggere **The Five Dimensions of Knife Steel** prima del capitolo dell'acciaio.
+- Se i nomi e i numeri di durezza dell'acciaio sono confusi, leggi **The Five Dimensions of Knife Steel** prima dei capitoli della metallurgia.
 - Se il coltello è diventato noioso, leggere i tre capitoli di affilatura in sequenza.
 
 Per l'auto-studio, scegliere una domanda dalla propria cucina e seguirla attraverso i capitoli pertinenti. Leggere abbastanza per formare una spiegazione, quindi testare quella spiegazione con attenzione nella pratica e tornare al testo con ciò che avete osservato. La seconda lettura rivelerà spesso più del primo perché ora avete un'esperienza fisica per connettersi alle parole.
@@ -84,15 +94,23 @@ Il cuore pratico del libro copre taglio dritto, taglio push, disegnare affettatu
 
 ### Le cinque dimensioni del coltello in acciaio
 
-Invece di chiedere quale acciaio sia il migliore magnesite, impari a confrontare durezza, risposta di affilatura, resistenza alla corrosione, durezza e finezza microstrutturale.
+Invece di chiedere quale acciaio sia il migliore magnesite, imparate a confrontare durezza, risposta di affilatura, resistenza alla corrosione, durezza e finezza microstrutturale. Il capitolo spiega anche perché la durezza contribuisce direttamente alla resistenza all'usura senza essere l'unico fattore che controlla la ritenzione dei bordi e perché il comportamento inossidabile dipende dal cromo che rimane disponibile nella matrice piuttosto che dalla sola percentuale di cromo.
+
+### Elementi di lega
+
+Carbonio, cromo, molibdeno, vanadio e gli altri principali elementi di lega sono spiegati come parti interagenti di un sistema metallurgico. La discussione comprende la soglia del 10,5% di cromo convenzionalmente utilizzato per definire l'acciaio inossidabile, il film di ossido di cromo passivo che rallenta la corrosione e la ragione maggiore carbonio può richiedere più cromo per preservare resistenza alla corrosione comparabile.
+
+### Acciai convenzionali e a polveri
+
+Questo capitolo passa dalla chimica alla microstruttura. Mostra come un acciaio contenente solo lo 0,5% di carbonio in massa contenga già circa un atomo di carbonio per ogni 43 atomi di ferro, perché il carbonio occupa siti interstiziali nel reticolo di ferro piuttosto che comportarsi come una semplice inclusione, e perché i cambiamenti di pochi decimi dell'uno per cento possono alterare l'acciaio risultante così fortemente. Spiega poi la matrice, i carburi e la scala microscopica di un bordo fine rasoio prima di confrontare la metallurgia tradizionale dell'ingotto con la moderna metallurgia delle polveri e la sua via di solidificazione molto più fine e uniforme.
 
 ### acciai Xinzuo per lama
 
-Le cinque dimensioni sono applicate agli acciai utilizzati da Xinzuo, dalla forgiving DIN 1.4116 fino a 10Cr15CoMoV, 14C28N, AUS-10, Blue Steel n. 2, SRS13, M390, ZDP-189 e acciaio in polvere portante di Xinzuo.
+I principi che precedono sono applicati agli acciai utilizzati da Xinzuo, dal perdono DIN 1.4116 a 10Cr15CoMoV, 14C28N, AUS-10, Blue Steel n. 2, SRS13, M390, ZDP-189 e acciaio in polvere per cuscinetti Xinzuo.
 
-### Elementi di legatura e manici
+### Materiali per maniglie
 
-Carbonio, cromo, molibdeno, vanadio e altri elementi legati sono spiegati attraverso i cambiamenti che aiutano a produrre. Legni naturali, legno di Pakka, Micarta, G10, fibra di carbonio e resina sono confrontati per sensazione, stabilità, peso e cura.
+Legni naturali, legno Pakka, Micarta, G10, fibra di carbonio e resina sono confrontati per tatto, stabilità, peso e cura, pur mantenendo la scelta del materiale distinta dalla geometria del manico e dall'equilibrio.
 
 ### Damasco e costruzione a strati
 
@@ -124,12 +142,16 @@ L'acciaio, la durezza, la costruzione e i dettagli dei materiali si basano sulle
 
 Il libro non classifica tutte le caratteristiche dal peggio al meglio. Una affettatrice sottile e un elicottero robusto risolvere diversi problemi. Un acciaio che affila facilmente può essere più utile di un acciaio altamente resistente all'usura in una cucina e meno utile in un altro. Fonti alle estremità dei capitoli supportano i passaggi storici e le affermazioni tecniche che beneficiano di ulteriori letture.
 
-== Note ==== Bibliografia ==== Collegamenti esterni ==* Sito ufficiale
+*Nota in lingua: il senso più ampio di • • usato nel titolo segue l'ingresso CC-CEDICT per abilità, arte, lavoro e sforzo, non solo l'uso delle arti marziali. La discussione sull'apprendimento attraverso modelli esemplari è anche coerente con il ruolo documentato della copia nella calligrafia tradizionale cinese e l'apprendistato artistico.*
 
 - [CC-CEDICT](https://chinese.yabla.com/chinese-english-pinyin-dictionary.php?define=%E5%8A%9F%E5%A4%AB)
+- [Smithsonian Istituzione su inchiostro, tradizione, e la parola scritta a mano: imparare la calligrafia cinese](https://www.si.edu/object/posts_6a0a4154d2985ea9c0fcb4409c99e414)
+- [Cambridge University Press Copia in Cina imperiale](https://www.cambridge.org/core/journals/diogenes/article/copying-in-imperial-china/62FE4A119B9A21493BDF50823D9A1899)
 
 ## Prima di iniziare
 
 Scegli una domanda che hai veramente. Perché il tuo coltello in una patata? Perché un singolo bisello tira lateralmente? Perché un acciaio si sente facile su una pietra mentre un altro sembra resistere? Leggere fino a quando non si può rispondere a questa domanda con le proprie parole, quindi testare la spiegazione con attenzione in cucina.
 
-Questo è il kung fu di questo libro: conoscenza utile, realizzata attraverso l'osservazione, lo studio, la sperimentazione e la ripetizione.
+Poi tornare indietro. Collegare la risposta a un altro pezzo del puzzle, praticare di nuovo e vedere se l'immagine è cambiata.
+
+Questo è il kung fu di questo libro: conoscenza utile ereditata, studiata, testata, condivisa e continuamente raffinata attraverso l'osservazione, la pratica e il tempo.

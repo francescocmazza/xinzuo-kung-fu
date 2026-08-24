@@ -1,5 +1,5 @@
 ---
-source_hash: c2bc5a03e0eddf0692c5a14e746ad8414349e17df9de5e8e36f8735aff20d317
+source_hash: 75119b8714ab387456d5790c2b72155393a5bceab62d1e7a2e759bb09281668d
 ---
 
 # Prefazione
@@ -18,11 +18,21 @@ In un primo momento, ho immaginato un manuale di formazione per l'azienda. Come 
 
 Il manuale interno divenne quindi un libro per tutti.
 
+Un coltello da cucina è il punto d'incontro di molti soggetti: materiale, trattamento termico, geometria, forma della lama, affilatura, equilibrio, movimento, manutenzione e l'ingrediente stesso. Nessuno di questi soggetti spiega l'intero utensile in isolamento. Sono pezzi di un grande puzzle, e l'immagine diventa più chiara quando il lettore inizia a collegarli.
+
+Per questo mi auguro che i lettori entrino nel libro dove appare una vera domanda, seguano quella domanda attraverso i capitoli pertinenti, provino quello che hanno imparato con un coltello in mano e poi ritornino al testo. Una lettura successiva non dovrebbe sentirsi identica alla prima. La pratica cambia ciò che il lettore è in grado di notare.
+
 ## La conoscenza cresce quando è condivisa
 
 A Xinzuo, crediamo che la conoscenza dovrebbe essere condivisa con il maggior numero possibile di persone. Noi non cresciamo proteggendo idee utili dietro il linguaggio tecnico o mantenendo l'esperienza all'interno di un piccolo cerchio. Cresciamo condividendo ciò che sappiamo, ascoltando ciò che gli altri hanno imparato e rimanendo disposti a correggere, affinare e migliorare la nostra comprensione. Secondo noi, l'unico modo duraturo per progredire è continuare ad imparare e aiutare le altre persone ad imparare con noi.
 
 Questa credenza è anche parte del significato di *kung fu* in questo libro. La padronanza non è un segreto posseduto da poche persone. È conoscenza resa reale attraverso l'attenzione, lo sforzo e la pratica. Un taglio preciso, una presa stabile o un bordo pulito affilato può sembrare senza sforzo, ma ciascuno è il risultato della comprensione ripetuta fino a diventare abilità.
+
+C'è un altro aspetto del titolo che conta per me. In diverse tradizioni cinesi di imparare la calligrafia e la pittura fino all'artigianalità e alla pratica marziale, il principiante non comincia cercando di dimostrare originalità. Un primo studia forme e soluzioni raffinate dalle generazioni precedenti, impara da insegnanti e maestri esemplari, ripete fino a quando i principi possono essere sentiti piuttosto che semplicemente recitati, e solo allora comincia ad adattare, combinare, correggere e migliorare ciò che è stato ricevuto. Nella calligrafia cinese, ad esempio, copiare il lavoro di maestri affermati è stato a lungo un fondamento normale di formazione; lo scopo non è quello di rimanere un copista per sempre, ma di acquisire sufficiente padronanza della tradizione per il giudizio personale e infine la creatività per diventare significativo.
+
+Questo non deve trasformarsi in un'opposizione semplicistica tra Cina e Occidente. Entrambe le culture contengono tradizioni di apprendistato così come potenti tradizioni di invenzione. Il contrasto che conta qui è con l'immagine moderna del progresso come un improvviso lampo di genio isolato. *Kung fu* punta invece verso il progresso che si accumula: imparare ciò che gli altri hanno già scoperto, praticarlo seriamente, capire perché funziona, e poi cercare di rendere la prossima versione un po' migliore. L'abilità è preziosa non perché produce un momento eccezionale, ma perché diventa affidabile, trasmissibile e capace di ulteriore affinamento.
+
+Questo è anche il modo in cui vorrei che questo libro stesso si sviluppasse. Non pretende di iniziare da zero, e non aspira a porre fine alla discussione. Raccoglie conoscenze ereditate dalla metallurgia, dalla lavorazione dei coltelli, dai cuochi, dagli affilatori, dagli insegnanti e dagli utenti; cerca di rendere quella conoscenza più chiara e più utile; e rimane aperta alla correzione da parte della persona successiva che vede qualcosa che ci è sfuggito. In questo senso, il metodo del libro e il significato del suo titolo sono gli stessi.
 
 > La conoscenza diventa utile quando lascia la pagina, entra nella mano e può essere condivisa con qualcun altro.
 
