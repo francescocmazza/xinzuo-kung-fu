@@ -2,7 +2,7 @@
 title: Editorial Principles
 status: approved
 language: en
-reviewed: 2026-08-09
+reviewed: 2026-08-24
 ---
 
 # Editorial Principles
@@ -35,7 +35,8 @@ Articles should be:
 - pleasant to read from beginning to end;
 - divided into short sections with descriptive headings;
 - supported by practical examples and familiar comparisons;
-- technically responsible without sounding academic.
+- technically responsible without sounding academic;
+- confident and direct in their conclusions.
 
 A page should not feel like an enlarged product specification sheet. Tables and bullet points are useful for summaries, but the main explanation should normally be written in connected prose.
 
@@ -75,27 +76,37 @@ For example:
 
 Avoid placing several unexplained specialist terms in the same sentence.
 
-## Two-layer writing model
+## Authorial voice and qualifications
 
-### Main explanation
+The preface contains the book's general epistemic disclaimer: the work is a synthesis of Francesco Claudio Mazza's accumulated study and experience, the experience gained inside Xinzuo, and knowledge shared by colleagues across product development, manufacturing and sales. The book is open to future refinement and correction.
 
-The main text should be clear, memorable, commercially useful and sufficiently detailed for a beginner to follow.
+That general qualification must **not** be repeated throughout the chapters.
 
-### Precision note
+The body of the book should state its conclusions directly and confidently. When the author has reached a considered view, write that view as the book's position rather than surrounding it with defensive language.
 
-A qualification should be added when a simple statement could become materially false, unsafe or misleading.
+Avoid habitual hedging such as **may**, **might**, **could**, **perhaps**, **in some cases**, **not necessarily**, **it is possible that**, **the most defensible claim**, or similar wording when it does not materially change the meaning. Do not add sentences whose only purpose is to remind the reader that an explanation may have exceptions or could be corrected in the future.
 
-The note should be proportionate. It should clarify the practical limit without turning every paragraph into a scientific discussion.
+A qualification belongs in the body only when it is necessary because omitting it would:
+
+- make the explanation technically false in a meaningful way;
+- create a safety risk;
+- incorrectly extend a product-specific claim to products where it does not apply;
+- confuse a tendency with a genuinely different mechanism;
+- turn an estimate or interpretation into a claimed measured fact.
+
+When a qualification is necessary, integrate it into the explanation itself rather than presenting it as a recurring disclaimer. Explain the actual boundary once, clearly, and continue.
+
+The goal is **confident accuracy**, not defensive writing.
 
 ## Commercial and educational balance
 
-This project is not a scientific paper. It does not require every statement to cover every theoretical exception.
+This project is not a scientific paper. It does not require every statement to cover every theoretical exception, and it should not read as though every sentence is being written in anticipation of criticism.
 
-It should nevertheless avoid claims that create the wrong mental model. Strong commercial language is acceptable when the practical meaning and limits are explained on the same page.
+The book should explain the model the author considers most useful and correct. Technical limits should be included when they change that model, not merely because an exception can be imagined.
 
-For example, “self-sharpening” can be used when the chapter explains differential wear and makes clear that the knife still needs normal sharpening.
+Strong commercial language is acceptable when the practical meaning is accurate. For example, “self-sharpening” can be used when the chapter explains differential wear and makes clear that the knife still needs normal sharpening. Once that distinction is established, it does not need to be repeatedly re-qualified.
 
-The purpose of precision is to make the product story more credible, not less interesting.
+The purpose of precision is to make the product story more credible and useful, not to weaken the author's point of view.
 
 ## Product claims and portfolio coverage
 
@@ -193,6 +204,8 @@ Before approving a chapter, ask:
 - Is the explanation detailed enough to answer the obvious next question?
 - Does the page remain pleasant to read?
 - Are technical terms introduced rather than assumed?
+- Does the author state the conclusion clearly rather than hiding it behind unnecessary caveats?
+- Are any remaining qualifications genuinely necessary for accuracy, scope or safety?
 - Is the commercial message strong but credible?
 - Could the text be translated without changing its meaning?
 - Does the reader finish with a clearer mental picture?
