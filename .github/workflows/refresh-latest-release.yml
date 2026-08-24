@@ -6,7 +6,7 @@ on:
       - Deploy The Kung Fu of Xinzuo to GitHub Pages
     types:
       - completed
-  # A direct edit to this workflow on main also provides a safe manual release-refresh trigger.
+  # Pushes that change this workflow on main intentionally trigger a full rolling-release rebuild.
   push:
     branches:
       - main
