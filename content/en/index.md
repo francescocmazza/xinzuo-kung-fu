@@ -32,6 +32,12 @@ Outside China, *kung fu* is often understood mainly as a martial art. The Chines
 
 The purpose of *The Kung Fu of Xinzuo* is to guide a **personal growth in knowledge and in the practical use of kitchen knives**. The goal is not to memorize a catalogue of shapes, steels and techniques, nor to collect isolated tricks. It is to become progressively more capable of seeing what a knife is doing, understanding why it behaves that way and choosing a better response with the hand.
 
+This idea also belongs to a wider tradition of learning. In several Chinese arts and crafts, including calligraphy, the student begins by studying exemplary forms and the work of established masters. Repetition and imitation are not necessarily the opposite of creativity; they can be the discipline through which the learner acquires enough control to understand why a form works, reproduce it reliably and eventually develop it further. In calligraphy, copying canonical models has for centuries been a normal part of training before an individual style is expected to emerge.
+
+That is close to the spirit intended here. The book does not celebrate progress as a single brilliant moment detached from what came before. It treats progress as cumulative. First learn what previous makers, cooks, sharpeners and teachers have already discovered. Then practise it until the principle becomes visible in the hand. Then question it, adapt it and, where possible, improve it. The achievement is not merely to invent something new once, but to build knowledge and skill that can be repeated, explained, transmitted and refined again by someone else.
+
+This is not meant as a simple opposition between “Chinese” and “Western” culture. Both contain deep traditions of apprenticeship and both have produced radical invention. The useful contrast is with the modern myth of isolated genius: the idea that progress mainly comes from a sudden flash of originality. The *gongfu* perspective emphasized in this book gives more weight to patient accumulation, respect for what has already been learned, disciplined practice and the possibility of carrying an inherited skill one step further.
+
 That kind of learning follows the same principles that give *gongfu* its deeper meaning. **Observation** teaches us to notice details that were previously invisible: where the edge touches the food, how the blade steers, where resistance appears, how the balance changes with the grip. **Study** gives those observations a structure by connecting them to geometry, steel, heat treatment, sharpening and technique. **Experimentation** allows us to test an explanation safely and deliberately rather than accepting it only because it was written in a book. **Repetition** turns a correct idea into a reliable movement, while patience and self-correction prevent repetition from becoming merely mechanical.
 
 A movement is therefore not mastered because it has been performed once, and a technical concept is not truly learned because its definition has been memorized. Knowledge becomes *kung fu* when it survives contact with practice: when the user can recognize a problem, understand its cause, try a controlled adjustment, observe the result and refine the movement until it becomes natural and repeatable.
@@ -54,7 +60,11 @@ This process has no final endpoint. As skill grows, the same knife reveals detai
 
 ## How to use this book
 
-You do not have to read from beginning to end.
+You do not have to read from beginning to end. In fact, for most readers that is not the most useful way to study it.
+
+The book is built as a set of connected pieces rather than one long argument. Blade shape, geometry, steel, heat treatment, sharpening, movement, maintenance and food are different parts of the same large puzzle. A question that begins in one chapter often leads naturally to another. A knife that wedges in food may first look like a question of sharpness, then turn out to involve thickness and geometry. A sharpening problem may lead back to steel hardness or carbide structure. A preference for one knife shape may make more sense only after a particular cutting movement has been practised.
+
+No single chapter is the whole book, and the whole book does not need to be absorbed at once. Its value grows as connections form. Read the part that answers the question in front of you, use it, then return later from a different direction. A chapter read after several weeks of practice may reveal something that was almost invisible on the first reading. That repeated movement between page and hand is not a workaround for the structure of the book; it is the intended method of study.
 
 - If you are choosing a first serious knife, begin with **Knife Shapes and Their Uses**.
 - If a knife pulls sideways or behaves differently in each hand, begin with **Single and Double Bevels**.
@@ -136,12 +146,16 @@ Steel, hardness, construction and material details are based on Xinzuo's documen
 
 The book does not rank every feature from worst to best. A thin slicer and a robust chopper solve different problems. A steel that sharpens easily may be more useful than a highly wear-resistant steel in one kitchen and less useful in another. Sources at the ends of chapters support the historical passages and the technical claims that benefit from further reading.
 
-*Language note: the broader sense of 功夫 used in the title follows the CC-CEDICT entry for skill, art, labour and effort, not only the martial-arts usage.*
+*Language note: the broader sense of 功夫 used in the title follows the CC-CEDICT entry for skill, art, labour and effort, not only the martial-arts usage. The discussion of learning through exemplary models is also consistent with the documented role of copying in traditional Chinese calligraphy and artistic apprenticeship.*
 
 - [CC-CEDICT entry for 功夫](https://chinese.yabla.com/chinese-english-pinyin-dictionary.php?define=%E5%8A%9F%E5%A4%AB)
+- [Smithsonian Institution — On Ink, Tradition, and the Handwritten Word: Learning Chinese Calligraphy](https://www.si.edu/object/posts_6a0a4154d2985ea9c0fcb4409c99e414)
+- [Cambridge University Press — Copying in Imperial China](https://www.cambridge.org/core/journals/diogenes/article/copying-in-imperial-china/62FE4A119B9A21493BDF50823D9A1899)
 
 ## Before you begin
 
 Choose one question you genuinely have. Why does your knife stick in a potato? Why does a single bevel pull sideways? Why does one steel feel easy on a stone while another seems to resist it? Read until you can answer that question in your own words, then test the explanation carefully in the kitchen.
 
-That is the kung fu of this book: useful knowledge, made real through observation, study, experimentation and repetition.
+Then come back. Connect that answer to another piece of the puzzle, practise again and see whether the picture has changed.
+
+That is the kung fu of this book: useful knowledge inherited, studied, tested, shared and continuously refined through observation, practice and time.
