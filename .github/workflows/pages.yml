@@ -42,9 +42,11 @@ permissions:
   pages: write
   id-token: write
 
+# A corrected PR supersedes its older validation run, but main publications are
+# never cancelled halfway through. This prevents partial deploys and red noise.
 concurrency:
   group: pages-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   build:
@@ -94,15 +96,47 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- translations; then
-            echo "No translation files changed."
-            exit 0
-          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add translations
-          git commit -m "Auto-refresh translations"
-          git push origin HEAD:main
+
+          push_translations() {
+            if git diff --quiet -- translations; then
+              echo "No translation files changed."
+              return 0
+            fi
+            git add translations
+            git commit -m "Auto-refresh translations [skip ci]"
+            git push origin HEAD:main
+          }
+
+          if push_translations; then
+            exit 0
+          fi
+
+          # If main advanced while translation was running, regenerate from the
+          # newest main instead of failing with a non-fast-forward push.
+          for attempt in 2 3; do
+            echo "Main advanced during translation; regenerating from current main (attempt ${attempt}/3)."
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/auto_translate.py
+            python scripts/repair_translated_html.py
+
+            if git diff --quiet -- translations; then
+              echo "Translations are already current on the latest main."
+              exit 0
+            fi
+
+            git add translations
+            git commit -m "Auto-refresh translations [skip ci]"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+
+          echo "Main changed repeatedly while translations were being committed." >&2
+          exit 1
 
       - name: Configure GitHub Pages
         if: github.event_name != 'pull_request'
