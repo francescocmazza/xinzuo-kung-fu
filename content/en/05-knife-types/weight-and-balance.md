@@ -1,5 +1,5 @@
 ---
-title: Weight and Balance: Why Heavier Is Not Better or Worse
+title: "Weight and Balance: Why Heavier Is Not Better or Worse"
 status: review
 audience: general-reader
 language: en
