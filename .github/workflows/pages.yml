@@ -109,12 +109,13 @@ jobs:
       - name: Package current downloadable editions
         run: |
           set -euo pipefail
+          version_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().version_label)')"
           mkdir -p release-assets/packages/html release-assets/packages/markdown release-upload
           cp -R site/. release-assets/packages/html/
           cp -R .site-work/docs/. release-assets/packages/markdown/
           cp release-assets/pdf/*.pdf release-upload/
-          (cd release-assets/packages/html && zip -qr ../../../release-upload/xinzuo-kung-fu-latest-html.zip .)
-          (cd release-assets/packages/markdown && zip -qr ../../../release-upload/xinzuo-kung-fu-latest-markdown.zip .)
+          (cd release-assets/packages/html && zip -qr "../../../release-upload/xinzuo-kung-fu-${version_label}-html.zip" .)
+          (cd release-assets/packages/markdown && zip -qr "../../../release-upload/xinzuo-kung-fu-${version_label}-markdown.zip" .)
           (cd release-upload && sha256sum * > SHA256SUMS.txt)
 
       - name: Publish immutable versioned release
@@ -128,7 +129,7 @@ jobs:
           tag="edition-${version_label}"
           title="The Kung Fu of Xinzuo — ${version_label} — ${publication_date}"
           source_sha="$(git rev-parse HEAD)"
-          notes="Automatically published from main on ${publication_date}. Source commit: ${source_sha}. This release is an immutable archived edition; newer editions are published as separate releases."
+          notes="Automatically published from main on ${publication_date}. Source commit: ${source_sha}. This release is an archived edition; newer editions are published as separate releases."
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -163,7 +164,7 @@ jobs:
             gh release edit latest \
               --repo "$REPOSITORY" \
               --title "Legacy rolling edition — archived" \
-              --notes "Legacy rolling release retained for continuity. Starting with the versioned publication system, every new edition is stored as its own immutable GitHub Release."
+              --notes "Legacy rolling release retained for continuity. Starting with the versioned publication system, every new edition is stored as its own archived GitHub Release."
           fi
 
       - name: Verify downloadable release
@@ -185,8 +186,8 @@ jobs:
             "SHA256SUMS.txt" \
             "The-Kung-Fu-of-Xinzuo-EN-${version_label}.pdf" \
             "Xinzuo-Kung-Fu-ZH-HANS-${version_label}.pdf" \
-            "xinzuo-kung-fu-latest-html.zip" \
-            "xinzuo-kung-fu-latest-markdown.zip" | sort > expected-assets.txt
+            "xinzuo-kung-fu-${version_label}-html.zip" \
+            "xinzuo-kung-fu-${version_label}-markdown.zip" | sort > expected-assets.txt
           diff -u expected-assets.txt actual-assets.txt
 
           latest_tag="$(gh api "repos/${REPOSITORY}/releases/latest" --jq '.tag_name')"
