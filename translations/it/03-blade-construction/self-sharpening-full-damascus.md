@@ -1,5 +1,5 @@
 ---
-source_hash: 13a32e3a87b85c4922e77530d6252c4b5d17a0dff1a5aca9af2c2687d3ae7ce1
+source_hash: 9526a99fe4ec36bb359da35e873a429af3163ad041a164f7333a7db605e3bf5b
 ---
 
 # L'Effetto Auto-affilante nelle Lame in Damasco Integrale

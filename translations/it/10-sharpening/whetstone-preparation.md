@@ -1,5 +1,5 @@
 ---
-source_hash: 7e28c7c3a73c1ff39e046a4288d977a37fae0c6f9b45d489ceb25271658ce12d
+source_hash: 5ac43297e99fe85433d61deb9b3b2063ba347a0f9153c62a91a8aea7cf6577e6
 ---
 
 # Preparazione delle pietre d'acqua

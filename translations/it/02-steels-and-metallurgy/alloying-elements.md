@@ -1,5 +1,5 @@
 ---
-source_hash: 02ac0ab4aaea090942333038ceaf45759392092521008579fa76f12c2061ff7f
+source_hash: 175788dfce7549a2aa13729b792f9f625e886d7f75f98f511e0ab0206d0d2e3a
 ---
 
 # Elementi di lega - Guida pratica
