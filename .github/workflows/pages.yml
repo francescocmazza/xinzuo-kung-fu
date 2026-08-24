@@ -109,31 +109,38 @@ jobs:
       - name: Package current downloadable editions
         run: |
           set -euo pipefail
+          version_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().version_label)')"
           mkdir -p release-assets/packages/html release-assets/packages/markdown release-upload
           cp -R site/. release-assets/packages/html/
           cp -R .site-work/docs/. release-assets/packages/markdown/
           cp release-assets/pdf/*.pdf release-upload/
-          (cd release-assets/packages/html && zip -qr ../../../release-upload/xinzuo-kung-fu-latest-html.zip .)
-          (cd release-assets/packages/markdown && zip -qr ../../../release-upload/xinzuo-kung-fu-latest-markdown.zip .)
+          (cd release-assets/packages/html && zip -qr "../../../release-upload/xinzuo-kung-fu-${version_label}-html.zip" .)
+          (cd release-assets/packages/markdown && zip -qr "../../../release-upload/xinzuo-kung-fu-${version_label}-markdown.zip" .)
           (cd release-upload && sha256sum * > SHA256SUMS.txt)
 
-      - name: Refresh rolling latest release
+      - name: Publish immutable versioned release
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail
-          tag="latest"
-          title="The Kung Fu of Xinzuo — Latest Edition"
+          version_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().version_label)')"
+          publication_date="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().publication_date)')"
+          tag="edition-${version_label}"
+          title="The Kung Fu of Xinzuo — ${version_label} — ${publication_date}"
           source_sha="$(git rev-parse HEAD)"
-          notes="Automatically rebuilt from the current main branch. Source commit: ${source_sha}."
+          notes="Automatically published from main on ${publication_date}. Source commit: ${source_sha}. This release is an archived edition; newer editions are published as separate releases."
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git tag -f "$tag" "$source_sha"
-          git push --force origin "refs/tags/$tag"
+
+          if ! git ls-remote --exit-code --tags origin "refs/tags/${tag}" >/dev/null 2>&1; then
+            git tag "$tag" "$source_sha"
+            git push origin "refs/tags/${tag}"
+          fi
 
           if gh release view "$tag" --repo "$REPOSITORY" >/dev/null 2>&1; then
+            echo "Release ${tag} already exists; refreshing its assets idempotently."
             while IFS= read -r asset_id; do
               gh api --method DELETE "repos/${REPOSITORY}/releases/assets/${asset_id}"
             done < <(gh api "repos/${REPOSITORY}/releases/tags/${tag}" --jq '.assets[].id')
@@ -153,27 +160,41 @@ jobs:
               --latest
           fi
 
+          if gh release view latest --repo "$REPOSITORY" >/dev/null 2>&1; then
+            gh release edit latest \
+              --repo "$REPOSITORY" \
+              --title "Legacy rolling edition — archived" \
+              --notes "Legacy rolling release retained for continuity. Starting with the versioned publication system, every new edition is stored as its own archived GitHub Release."
+          fi
+
       - name: Verify downloadable release
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail
-          asset_count="$(gh release view latest --repo "$REPOSITORY" --json assets --jq '.assets | length')"
+          version_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().version_label)')"
+          tag="edition-${version_label}"
+          asset_count="$(gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets | length')"
           if [ "$asset_count" -ne 6 ]; then
             echo "Expected exactly 6 downloadable assets, found $asset_count." >&2
             exit 1
           fi
-          version_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().version_label)')"
-          gh release view latest --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > actual-assets.txt
+          gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > actual-assets.txt
           printf '%s\n' \
             "Il-Kung-Fu-di-Xinzuo-IT-${version_label}.pdf" \
             "SHA256SUMS.txt" \
             "The-Kung-Fu-of-Xinzuo-EN-${version_label}.pdf" \
             "Xinzuo-Kung-Fu-ZH-HANS-${version_label}.pdf" \
-            "xinzuo-kung-fu-latest-html.zip" \
-            "xinzuo-kung-fu-latest-markdown.zip" | sort > expected-assets.txt
+            "xinzuo-kung-fu-${version_label}-html.zip" \
+            "xinzuo-kung-fu-${version_label}-markdown.zip" | sort > expected-assets.txt
           diff -u expected-assets.txt actual-assets.txt
+
+          latest_tag="$(gh api "repos/${REPOSITORY}/releases/latest" --jq '.tag_name')"
+          if [ "$latest_tag" != "$tag" ]; then
+            echo "Expected GitHub's Latest release to be ${tag}, found ${latest_tag}." >&2
+            exit 1
+          fi
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
