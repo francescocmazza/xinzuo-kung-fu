@@ -67,6 +67,7 @@ The book is built as a set of connected pieces rather than one long argument. Bl
 No single chapter is the whole book, and the whole book does not need to be absorbed at once. Its value grows as connections form. Read the part that answers the question in front of you, use it, then return later from a different direction. A chapter read after several weeks of practice may reveal something that was almost invisible on the first reading. That repeated movement between page and hand is not a workaround for the structure of the book; it is the intended method of study.
 
 - If you are choosing a first serious knife, begin with **Knife Shapes and Their Uses**.
+- If two knives have similar shapes but feel completely different in the hand, continue with **Weight and Balance: Why Heavier Is Not Better or Worse**.
 - If a knife pulls sideways or behaves differently in each hand, begin with **Single and Double Bevels**.
 - If you own a knife but do not yet feel confident, go to **How to Cut** and **Safe Use and Carrying**.
 - If steel names and hardness numbers are confusing, read **The Five Dimensions of Knife Steel** before the metallurgy chapters.
@@ -83,6 +84,12 @@ For staff training, use each chapter in the same spirit: learn the central idea,
 Shape is the first practical decision because it determines how the knife approaches food. The chapter presents every form with its own complete Xinzuo image immediately below the name, followed by a discursive explanation of why the blade has that profile, which movement it supports, where it is most useful and which work can damage it.
 
 The sequence starts with general-purpose knives, then moves through vegetable and Chinese forms, long slicers, boning and fish knives, small precision tools, serrated knives and heavy choppers. Specialist Japanese and Xinzuo-specific commercial names are explained in relation to the broader work they perform rather than presented as a list to memorize.
+
+### Weight and balance
+
+Once the shape is right, weight changes how that shape feels in motion. The new chapter separates **total mass, balance point and distribution of mass** instead of treating “light” and “heavy” as quality rankings. A heavier or more blade-forward knife can carry more momentum into a downward stroke and feel stable once moving; a lighter knife is easier to accelerate, stop and redirect and can therefore feel more agile during delicate corrections. Neither is inherently superior.
+
+The chapter also explains why two knives with the same weight can feel very different when one carries more mass toward the tip. This is particularly useful for understanding the santoku: its fuller dropped nose leaves more material around the front than the fine point of a classic chef's knife or the K-tip of a bunka. That makes the front more supported and can give it a more planted feeling without implying that every santoku is heavier overall. Sharpness, thickness and edge geometry still determine how easily the blade actually penetrates food.
 
 ## Part II - Master the movement
 
