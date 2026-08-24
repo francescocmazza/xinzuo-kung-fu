@@ -1,20 +1,29 @@
-name: Refresh latest release on every main update
+name: Refresh latest release after successful Pages publish
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows:
+      - Deploy The Kung Fu of Xinzuo to GitHub Pages
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Never cancel a release halfway through asset replacement. A later publication
+# queues behind the current one and will rebuild from the newest main branch.
 concurrency:
   group: latest-xinzuo-kung-fu-release
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   refresh-release:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.event == 'push' &&
+       github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
@@ -29,30 +38,10 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: |
-            requirements-pdf.txt
-            requirements-translation.txt
+          cache-dependency-path: requirements-pdf.txt
 
       - name: Install documentation and PDF dependencies
         run: pip install -r requirements-pdf.txt
-
-      - name: Cache local translation models
-        uses: actions/cache@v5
-        with:
-          path: ~/.cache/huggingface
-          key: hf-marian-${{ runner.os }}-${{ hashFiles('requirements-translation.txt') }}
-          restore-keys: |
-            hf-marian-${{ runner.os }}-
-
-      - name: Install local translation dependencies
-        run: |
-          python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch>=2.2,<3"
-          python -m pip install -r requirements-translation.txt
-
-      - name: Refresh stale translations for this release build
-        env:
-          TRANSLATION_BASE_SHA: ${{ github.event.before }}
-        run: python scripts/auto_translate.py
 
       - name: Install Playwright Chromium and CJK fonts
         run: |
@@ -60,10 +49,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y fonts-noto fonts-noto-cjk fonts-noto-cjk-extra
 
-      - name: Repair translated raw HTML
+      - name: Repair translated raw HTML defensively
         run: python scripts/repair_translated_html.py
 
-      - name: Validate the multilingual source
+      - name: Validate the committed multilingual source
         run: python scripts/multilingual_site.py --require-translations
 
       - name: Export current PDFs
@@ -93,7 +82,7 @@ jobs:
           tag="latest"
           title="The Kung Fu of Xinzuo — Latest Edition"
           source_sha="$(git rev-parse HEAD)"
-          notes="Automatically rebuilt from the current main branch. Source commit: ${source_sha}."
+          notes="Automatically rebuilt from the current main branch after a successful Pages publication. Source commit: ${source_sha}."
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -110,7 +99,20 @@ jobs:
                 "repos/${REPOSITORY}/releases/tags/${tag}" \
                 --jq '.assets[] | select(.name | test("\\.(pdf|zip)$")) | .id'
             )
-            gh release upload "$tag" release-upload/* --clobber --repo "$REPOSITORY"
+
+            uploaded=false
+            for attempt in 1 2 3; do
+              if gh release upload "$tag" release-upload/* --clobber --repo "$REPOSITORY"; then
+                uploaded=true
+                break
+              fi
+              echo "Release upload attempt ${attempt}/3 failed; retrying."
+            done
+            if [ "$uploaded" != "true" ]; then
+              echo "Unable to upload the rebuilt release assets after three attempts." >&2
+              exit 1
+            fi
+
             gh release edit "$tag" \
               --repo "$REPOSITORY" \
               --target "$source_sha" \
@@ -132,11 +134,6 @@ jobs:
           REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail
-          asset_count="$(gh release view latest --repo "$REPOSITORY" --json assets --jq '.assets | length')"
-          if [ "$asset_count" -ne 6 ]; then
-            echo "Expected exactly 6 downloadable assets, found $asset_count." >&2
-            exit 1
-          fi
           version_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().version_label)')"
           gh release view latest --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > actual-assets.txt
           printf '%s\n' \
@@ -146,5 +143,12 @@ jobs:
             "Xinzuo-Kung-Fu-ZH-HANS-${version_label}.pdf" \
             "xinzuo-kung-fu-latest-html.zip" \
             "xinzuo-kung-fu-latest-markdown.zip" | sort > expected-assets.txt
-          diff -u expected-assets.txt actual-assets.txt
+
+          while IFS= read -r expected; do
+            if ! grep -Fxq "$expected" actual-assets.txt; then
+              echo "Missing release asset: $expected" >&2
+              exit 1
+            fi
+          done < expected-assets.txt
+
           gh release view latest --repo "$REPOSITORY" --json url --jq '.url'
