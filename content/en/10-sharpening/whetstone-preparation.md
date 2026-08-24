@@ -3,7 +3,7 @@ title: Preparing Water Stones
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-22
+reviewed: 2026-08-24
 translation_priority: high
 ---
 
@@ -47,17 +47,11 @@ A stone may require:
 
 Dense ceramic and splash-and-go stones are common examples of products that may need only surface wetting. Resin-bonded stones may soften, crack, separate or lose strength if left in water too long. Diamond plates do not absorb water and should not be treated like porous stones.
 
-The correct lesson is therefore not "all stones must soak". It is:
-
-> Soak most absorbent water stones until the bubbles substantially stop, but check the manufacturer's instructions before the first use because special stones may need little or no soaking.
-
-## Historical connection: the stone beneath the blade
+The correct lesson is therefore not "all stones must soak". It is to soak absorbent water stones until they are properly saturated while treating the manufacturer's instructions as the controlling rule for the particular stone.
 
 Long before manufactured abrasives carried a printed grit number, sharpeners learned the character of local stone through touch, sound and the finish left on steel. Japan's natural whetstone tradition remains especially visible around Kyoto. The Natural Whetstone and Hone Museum in Kameoka preserves examples including Tamba Aoto and Awasedo stones and continues to teach sharpening through direct practice.
 
-Modern synthetic stones made sharpening more repeatable: the abrasive, binder and approximate particle size could be designed for a specific job. The old skill did not disappear. Whether the stone is natural or synthetic, the sharpener still reads water, sound, slurry, flatness and the response of the steel.
-
-This history explains why two stones carrying a similar grit description can feel different. A grit number is helpful, but the stone is also a material system with its own binder, porosity and cutting behaviour.
+Modern synthetic stones made sharpening more repeatable: the abrasive, binder and approximate particle size could be designed for a specific job. The old skill did not disappear. Whether the stone is natural or synthetic, the sharpener still reads water, sound, slurry, flatness and the response of the steel. This is why two stones carrying a similar grit description can feel different. A grit number is helpful, but the stone is also a material system with its own binder, porosity and cutting behaviour.
 
 ## Types of sharpening media
 
@@ -243,13 +237,7 @@ Slurry is loose material on the stone. The burr is a thin lip of steel still att
 8. Keep water available throughout sharpening.
 9. Rinse, flatten if needed and air-dry after use.
 
-## What to remember
-
-> Most traditional absorbent water stones should be soaked until the stream of bubbles has substantially stopped. This shows that water has filled the pores. Special, ceramic, resin-bonded, diamond and splash-and-go stones may need only surface wetting or no soaking, so the manufacturer's instructions always come first.
-
-A well-prepared stone gives clearer feedback, more consistent abrasion and a safer, more enjoyable sharpening experience.
-
-> **Practice principle:** prepare the surface before trying to perfect the movement.
+The essential idea is that preparation should follow the **actual construction of the stone**, not a fixed ritual. Porous water stones need enough water in their pores to remain stable in use; dense and special stones may require little or no soaking. In every case the stone should be flat, secure and correctly lubricated before the edge touches it. Good preparation gives clearer feedback, more consistent abrasion and safer sharpening.
 
 ### Historical sources
 
