@@ -3,7 +3,7 @@ title: The Kung Fu of Xinzuo
 author: Francesco Claudio Mazza
 status: review
 language: en
-reviewed: 2026-08-23
+reviewed: 2026-08-24
 ---
 
 # The Kung Fu of Xinzuo
@@ -59,7 +59,7 @@ You do not have to read from beginning to end.
 - If you are choosing a first serious knife, begin with **Knife Shapes and Their Uses**.
 - If a knife pulls sideways or behaves differently in each hand, begin with **Single and Double Bevels**.
 - If you own a knife but do not yet feel confident, go to **How to Cut** and **Safe Use and Carrying**.
-- If steel names and hardness numbers are confusing, read **The Five Dimensions of Knife Steel** before the steel chapter.
+- If steel names and hardness numbers are confusing, read **The Five Dimensions of Knife Steel** before the metallurgy chapters.
 - If the knife has become dull, read the three sharpening chapters in sequence.
 
 For self-study, choose one question from your own kitchen and follow it through the relevant chapters. Read enough to form an explanation, then test that explanation carefully in practice and return to the text with what you observed. The second reading will often reveal more than the first because you now have a physical experience to connect to the words.
@@ -88,15 +88,23 @@ The practical heart of the book covers straight chopping, push cutting, draw sli
 
 ### The five dimensions of knife steel
 
-Instead of asking which steel is “best”, learn to compare hardness, sharpening response, corrosion resistance, toughness and microstructural fineness.
+Instead of asking which steel is “best”, learn to compare hardness, sharpening response, corrosion resistance, toughness and microstructural fineness. The chapter also explains why hardness contributes directly to wear resistance without being the only factor controlling edge retention, and why stainless behaviour depends on the chromium that remains available in the matrix rather than on chromium percentage alone.
+
+### Alloying elements
+
+Carbon, chromium, molybdenum, vanadium and the other principal alloying elements are explained as interacting parts of one metallurgical system. The discussion includes the 10.5% chromium threshold conventionally used to define stainless steel, the passive chromium-rich oxide film that slows corrosion and the reason higher carbon can require more chromium to preserve comparable corrosion resistance.
+
+### Conventional and powder-metallurgy steels
+
+This chapter moves from chemistry to microstructure. It shows how a steel containing only 0.5% carbon by mass already contains roughly one carbon atom for every 43 iron atoms, why carbon occupies interstitial sites in the iron lattice rather than behaving as a simple inclusion, and why changes of only a few tenths of one percent can alter the resulting steel so strongly. It then explains the matrix, carbides and the microscopic scale of a razor-fine edge before comparing conventional ingot metallurgy with modern powder metallurgy and its much finer, more uniform solidification route.
 
 ### Xinzuo blade steels
 
-The five dimensions are applied to steels used by Xinzuo, from forgiving DIN 1.4116 to 10Cr15CoMoV, 14C28N, AUS-10, Blue Steel No. 2, SRS13, M390, ZDP-189 and Xinzuo's niobium-bearing powder steel.
+The preceding principles are applied to steels used by Xinzuo, from forgiving DIN 1.4116 to 10Cr15CoMoV, 14C28N, AUS-10, Blue Steel No. 2, SRS13, M390, ZDP-189 and Xinzuo's niobium-bearing powder steel.
 
-### Alloying elements and handles
+### Handle materials
 
-Carbon, chromium, molybdenum, vanadium and other alloying elements are explained through the changes they help produce. Natural woods, Pakka wood, Micarta, G10, carbon fibre and resin are compared by feel, stability, weight and care.
+Natural woods, Pakka wood, Micarta, G10, carbon fibre and resin are compared by feel, stability, weight and care, while keeping material choice distinct from handle geometry and balance.
 
 ### Damascus and layered construction
 
