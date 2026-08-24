@@ -3,7 +3,7 @@ title: Xinzuo Handle Materials - Feel, Care and Choice
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-22
+reviewed: 2026-08-24
 translation_priority: highest
 source_basis: 2025 Xinzuo Catalog V9
 ---
@@ -99,11 +99,9 @@ Xinzuo uses Pakka wood across several important families, including Damascus and
 
 Micarta is a laminate produced by bonding fabric or paper layers with resin. Linen Micarta, used in selected Xinzuo series, can provide a fine visible weave and a secure, tactile surface.
 
-#### Historical connection: from electricity to the kitchen
-
 Micarta was developed by George Westinghouse in 1910 as an electrical insulating laminate. Layers of paper or fabric were bonded with resin to create a strong, stable industrial material. During the First World War it also found lightweight structural uses in aircraft. Much later, the same combination of dimensional stability, toughness and machinability made it attractive for tool and knife handles.
 
-This origin makes the material easy to remember. Micarta did not begin as an imitation of wood. It began as engineering material asked to remain dependable around electricity, heat and mechanical work.
+That origin is useful because it explains the material better than the idea that Micarta is simply an imitation of wood. It began as an engineering material designed to remain dependable around electricity, heat and mechanical work.
 
 It is stable, durable and less sensitive to humidity than natural wood. Its grip depends on surface finish: polished Micarta feels smoother, while a more exposed texture can provide more traction. It may not appeal to someone specifically seeking natural grain, but it is highly practical for frequent use.
 
@@ -152,11 +150,7 @@ These details require verified product data. Do not turn an attractive material 
 
 ## Choosing a handle by the way it will be used
 
-- Choose **rosewood, olivewood, walnut, oak or figured sycamore** for visible natural grain and a warm tactile character.
-- Choose **ebony or desert ironwood** for a denser, darker and more substantial premium feel.
-- Choose **Pakka wood** for a wood-like appearance with greater consistency and easier everyday care.
-- Choose **Micarta or G10** for stability, durability and confidence in demanding or humid work.
-- Choose **carbon fiber, carbon/resin or resin** for low weight, modern styling or repeatable decorative effects.
+Rosewood, olivewood, walnut, oak and figured sycamore emphasize visible natural grain and a warm tactile character. Ebony and desert ironwood provide a denser, darker and more substantial feel. Pakka wood keeps a wood-like appearance while improving consistency and ease of care. Micarta and G10 prioritize stability and durability in demanding or humid work, while carbon fiber, carbon/resin and resin allow low weight, modern styling and repeatable decorative effects.
 
 Grip shape and size still matter more than a material label. A beautiful material cannot compensate for a handle that does not fit the user's hand or working style.
 
@@ -169,7 +163,7 @@ Grip shape and size still matter more than a material label. A beautiful materia
 5. Do not use abrasive pads on polished resin, carbon fiber or fine wood finishes.
 6. Inspect natural wood periodically and use only a suitable food-contact-safe conditioner when needed.
 
-> **Practice principle:** a handle material sets the possibilities for durability, weight and appearance; shape, finish, assembly and care determine the experience in the hand.
+A handle material sets the possibilities for durability, weight and appearance; the experience in the hand is ultimately determined by the combination of material, shape, finish, assembly and care.
 
 *Source note: the material list and series examples on this page are based on Xinzuo's 2025 product information. Natural materials vary, and the individual model specification takes precedence.*
 
