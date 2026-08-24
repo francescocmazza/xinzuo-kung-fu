@@ -1,5 +1,5 @@
 ---
-source_hash: 0fa49af6be5c051fdbe4cac93de2d98bd7775e606039fe7782c0b3e2bc830186
+source_hash: 4893ded7fa12acf7c22791e4f2fe4c0387394ff5af868dd20f3d5ea343ed802b
 ---
 
 # Il Kung Fu di Xinzuo
@@ -63,6 +63,7 @@ Il libro è costruito come un insieme di pezzi collegati piuttosto che un lungo 
 Nessun singolo capitolo è l'intero libro, e l'intero libro non ha bisogno di essere assorbito in una sola volta. Il suo valore cresce come forma di connessioni. Leggere la parte che risponde alla domanda di fronte a voi, usarlo, poi tornare più tardi da una direzione diversa. Un capitolo letto dopo diverse settimane di pratica può rivelare qualcosa che era quasi invisibile in prima lettura. Quel movimento ripetuto tra pagina e mano non è una soluzione per la struttura del libro; è il metodo di studio previsto.
 
 - Se state scegliendo un primo coltello serio, cominciate con le forme ** del coltello e i loro usi**.
+- Se due coltelli hanno forme simili ma si sentono completamente diversi nella mano, continuare con **Peso ed equilibrio: Perché Heavier non è migliore o peggio**.
 - Se un coltello tira lateralmente o si comporta in modo diverso in ogni mano, inizia con **Single and Double Bevels**.
 - Se possiedi un coltello ma non ti senti ancora sicuro, vai a **How to Cut** e **Safe Use and Carrying**.
 - Se i nomi e i numeri di durezza dell'acciaio sono confusi, leggi **The Five Dimensions of Knife Steel** prima dei capitoli della metallurgia.
@@ -79,6 +80,12 @@ Per la formazione del personale, utilizzare ogni capitolo con lo stesso spirito:
 La forma è la prima decisione pratica perché determina come il coltello si avvicina al cibo. Il capitolo presenta ogni forma con la propria immagine Xinzuo completa immediatamente sotto il nome, seguita da una spiegazione discorsiva del perché la lama ha quel profilo, quale movimento sostiene, dove è più utile e quale lavoro può danneggiarlo.
 
 La sequenza inizia con coltelli di uso generale, poi si muove attraverso forme vegetali e cinesi, affettatrici lunghe, coltelli da disossamento e pesce, piccoli utensili di precisione, coltelli seghettati e chopper pesanti. Specialisti nomi commerciali giapponesi e Xinzuo-specifici sono spiegati in relazione al lavoro più ampio che svolgono piuttosto che presentato come una lista per memorizzare.
+
+### Peso e equilibrio
+
+Una volta che la forma è giusta, il peso cambia come quella forma si sente in movimento. Il nuovo capitolo separa **la massa totale, il punto di equilibrio e la distribuzione della massa** invece di trattare la luce e la luce come classifiche di qualità. Un coltello più pesante o più avanti lama può portare più slancio in un colpo verso il basso e sentirsi stabile una volta in movimento; un coltello più leggero è più facile da accelerare, fermare e reindirizzare e può quindi sentirsi più agile durante correzioni delicate. Né è intrinsecamente superiore.
+
+Il capitolo spiega anche perché due coltelli con lo stesso peso possono sembrare molto diversi quando si porta più massa verso la punta. Questo è particolarmente utile per capire il santoku: il suo naso caduto più pieno lascia più materiale intorno alla parte anteriore che il punto fine di un classico coltello da chef o la punta K di un bunka. Ciò rende la parte anteriore più supportata e può dare una sensazione più piantata senza implicare che ogni santoku è più pesante in generale. Sharpness, spessore e geometria dei bordi ancora determinare quanto facilmente la lama penetra effettivamente il cibo.
 
 ## Parte II - Master the movement
 

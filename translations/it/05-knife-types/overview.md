@@ -1,5 +1,5 @@
 ---
-source_hash: fcb4cde510a39379681e6436d6ad69f7e04426bae13609a8fd1b6855e17f97e2
+source_hash: e96300dab95b867b7f75bde71a756edafaca743e8c69e96db0e715a2db91eb4d
 ---
 
 # Forme di coltello e loro usi
@@ -70,6 +70,12 @@ Questo non rende il gyuto inadatto alla carne. Rimane un coltello estremamente v
 </div>
 
 Il santoku è un coltello compatto multiuso la cui lunghezza corta e la cui lama alta lo rendono accessibile in una cucina casalinga. Il suo bordo è spesso abbastanza dritto attraverso il tallone e mezzo, sollevando delicatamente verso una punta abbassata. Ciò dà contatto rassicurante bordo durante il taglio a spinta e taglio verticale pur conservando abbastanza curva anteriore per affettare controllato.
+
+La sua caratteristica caduta o pecora-piede-come naso cambia anche la quantità ** di acciaio che rimane intorno alla parte anteriore della lama**. Un coltello da cuoco occidentale appuntito si restringe progressivamente mentre si avvicina alla punta, mentre un bunka tagli deliberatamente ancora più materiale per creare il suo fine angolare K-tip. Un santoku normalmente mantiene una sezione anteriore più ampia e più piena prima che la spina dorsale incontra il bordo. Ciò non significa che ogni santoku è più pesante complessivamente di ogni coltello da cuoco sono in realtà più brevi e più leggeri ma significa che la **local regione punta è relativamente sostanziale**.
+
+Questo fronte più pieno dà al santoku un diverso tipo di autorità. C'è più materiale che sostiene il naso che in un punto molto fine dello chef o bunka K-tip, quindi la regione della punta è generalmente meno delicata e più adatta ai ripetuti tagli a spinta orientati al bordo e piccole costole verticali per cui la forma è conosciuta. La massa supplementare mantenuta verso la parte anteriore può anche dare la lama più inerzia lì, aiutando la parte anteriore continuare attraverso un taglio verso il basso una volta che si sta muovendo. Tuttavia, non dovrebbe essere descritto come automaticamente producendo una maggiore forza di taglio o una penetrazione più facile: nitidezza, angolo di bordo, spessore dietro il bordo e la geometria del contatto con gli alimenti rimangono determinanti. Una lama più leggera, più sottile e tagliente può passare attraverso un ingrediente più facilmente di uno più pesante ma più spessa.
+
+Questa differenza diventa particolarmente chiara accanto al bunka. Il bunka scambia un po 'del materiale del santoku sul davanti per un fine K-tip che è più facile da posizionare con precisione, punteggio con e reindirizzare. Il santoku scambia una parte di quella precisione punto per un naso più pieno e più sostenuto. Nessuna scelta è intrinsecamente migliore; ognuno mette massa e geometria dove un diverso tipo di lavoro beneficia di loro. La discussione più ampia di questo trade-off continua in **Peso e equilibrio: Perché Heavier non è migliore o peggio**.
 
 L'altezza crea lo sgombero delle nocche e un'ampia superficie di guida. È particolarmente confortevole per le verdure, la frutta, le erbe e le porzioni disossate di carne o pesce. Il suo limite principale è la sua compattezza: un bordo corto ha bisogno di più colpi attraverso un grande arrosto o melone, e un Santoku molto piatto non è progettato per un'azione a dondolo esagerata.
 
@@ -391,5 +397,6 @@ La cosa più importante è che una fotografia stabilisce un profilo, non durezza
 - [KAI Europe: famiglie di lame giapponesi](https://kai-europe.com/en/keyword/japanese-blades/)
 - [Catalogo coltelli da cucina KAI 2025-26](https://kai-europe.com/wp-content/uploads/2025/08/KAI_kitchen_knives_catalogue_2025-26_en.pdf)
 - [Tojiro: categorie coltello in stile occidentale](https://www.tojiro-japan.com/knife_category/western_style_knives/)
+- [ZWILING: tipi di coltello e profilo Santoku](https://www.zwilling.com/it/magazine/guida-ai-coltelli/knife-types.html)
 
 *Fonte: i nomi Xinzuo e gli esempi di prodotto provengono dal catalogo Xinzuo 2025 e dalle attuali pagine della serie Xinzuo. Le fotografie di prodotto derivate dal catalogo sono soggette all'avviso dei diritti dell'immagine. Il PM80-CS visual è utilizzato come riferimento attuale per l'identificazione del modello.*
