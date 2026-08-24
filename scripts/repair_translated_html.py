@@ -79,10 +79,16 @@ def _repair_line(source_line: str, target_line: str) -> str:
 
 
 def repair_file(source_path: Path, target_path: Path) -> bool:
+    target_text = target_path.read_text(encoding="utf-8")
+
+    # Most translation files contain no leaked placeholders. Return before any
+    # structural assumptions so unrelated, human-edited translations are not
+    # required to have exactly the same physical line count as English.
+    if not TOKEN_HINT_RE.search(target_text):
+        return False
+
     source_text = source_path.read_text(encoding="utf-8")
     _, source_body = split_document(source_text)
-
-    target_text = target_path.read_text(encoding="utf-8")
     header, target_body = _translation_body_with_header(target_text)
 
     source_lines = source_body.splitlines(keepends=True)
