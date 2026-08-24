@@ -1,17 +1,9 @@
-name: Refresh latest release after Pages deployment
+name: Refresh latest release on every main update
 
 on:
-  workflow_run:
-    workflows:
-      - Deploy The Kung Fu of Xinzuo to GitHub Pages
-    types:
-      - completed
-  # Pushes that change this workflow on main intentionally trigger a full rolling-release rebuild.
   push:
     branches:
       - main
-    paths:
-      - ".github/workflows/refresh-latest-release.yml"
   workflow_dispatch:
 
 permissions:
@@ -23,17 +15,10 @@ concurrency:
 
 jobs:
   refresh-release:
-    if: >-
-      github.event_name != 'workflow_run' ||
-      (
-        github.event.workflow_run.conclusion == 'success' &&
-        github.event.workflow_run.event == 'push' &&
-        github.event.workflow_run.head_branch == 'main'
-      )
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - name: Check out the fully refreshed main branch
+      - name: Check out current main branch
         uses: actions/checkout@v5
         with:
           ref: main
@@ -44,10 +29,30 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: requirements-pdf.txt
+          cache-dependency-path: |
+            requirements-pdf.txt
+            requirements-translation.txt
 
       - name: Install documentation and PDF dependencies
         run: pip install -r requirements-pdf.txt
+
+      - name: Cache local translation models
+        uses: actions/cache@v5
+        with:
+          path: ~/.cache/huggingface
+          key: hf-marian-${{ runner.os }}-${{ hashFiles('requirements-translation.txt') }}
+          restore-keys: |
+            hf-marian-${{ runner.os }}-
+
+      - name: Install local translation dependencies
+        run: |
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch>=2.2,<3"
+          python -m pip install -r requirements-translation.txt
+
+      - name: Refresh stale translations for this release build
+        env:
+          TRANSLATION_BASE_SHA: ${{ github.event.before }}
+        run: python scripts/auto_translate.py
 
       - name: Install Playwright Chromium and CJK fonts
         run: |
