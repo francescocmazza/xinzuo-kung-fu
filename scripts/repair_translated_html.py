@@ -56,9 +56,6 @@ def _repair_line(source_line: str, target_line: str) -> str:
     source_core = source_line[:-1] if source_line.endswith("\n") else source_line
     ending = _line_ending(target_line) or _line_ending(source_line)
 
-    # Placeholder leakage is only safe to repair automatically when the source
-    # line itself contains HTML. Any token residue in ordinary prose is treated
-    # as a hard error below rather than guessed at.
     if not HTML_TAG_RE.search(source_core):
         return target_line
 
@@ -93,16 +90,31 @@ def repair_file(source_path: Path, target_path: Path) -> bool:
 
     source_lines = source_body.splitlines(keepends=True)
     target_lines = target_body.splitlines(keepends=True)
-    if len(source_lines) != len(target_lines):
+
+    # Translation may legitimately add or remove a prose line, so do not align
+    # the whole document by physical line number. Raw HTML blocks, however,
+    # retain their order. Treat every source HTML line as a structural slot and
+    # pair it with every translated line that either still contains HTML or has
+    # leaked one of the temporary HTML-protection tokens.
+    source_html_slots = [line for line in source_lines if HTML_TAG_RE.search(line)]
+    target_htmlish_indexes = [
+        index
+        for index, line in enumerate(target_lines)
+        if HTML_TAG_RE.search(line) or TOKEN_HINT_RE.search(line)
+    ]
+
+    if len(source_html_slots) != len(target_htmlish_indexes):
         raise RuntimeError(
-            f"Cannot safely repair {target_path}: source/translation line counts differ "
-            f"({len(source_lines)} vs {len(target_lines)})"
+            f"Cannot safely repair {target_path}: HTML structural slot counts differ "
+            f"({len(source_html_slots)} source vs {len(target_htmlish_indexes)} translation)"
         )
 
-    repaired_lines = [
-        _repair_line(source_line, target_line)
-        for source_line, target_line in zip(source_lines, target_lines)
-    ]
+    repaired_lines = list(target_lines)
+    for source_line, target_index in zip(source_html_slots, target_htmlish_indexes):
+        target_line = repaired_lines[target_index]
+        if TOKEN_HINT_RE.search(target_line):
+            repaired_lines[target_index] = _repair_line(source_line, target_line)
+
     repaired_body = "".join(repaired_lines)
 
     if TOKEN_HINT_RE.search(repaired_body):
