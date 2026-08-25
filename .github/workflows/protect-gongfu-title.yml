@@ -1,0 +1,98 @@
+name: Protect The Gongfu of Xinzuo title
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/protect-gongfu-title.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  protect-title:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Protect proper title and repair Chinese title references
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          translator = Path("scripts/auto_translate.py")
+          text = translator.read_text(encoding="utf-8")
+
+          old_plain = '''    def _translate_plain(self, text: str) -> str:
+        if not text.strip():
+            return text
+        model_input = text
+'''
+          new_plain = '''    def _translate_plain(self, text: str) -> str:
+        if not text.strip():
+            return text
+        if text.strip() == "The Gongfu of Xinzuo":
+            return text.strip()
+        model_input = text
+'''
+          if new_plain not in text:
+              if old_plain not in text:
+                  raise SystemExit("Could not locate _translate_plain insertion point")
+              text = text.replace(old_plain, new_plain, 1)
+
+          old_payload = '''    def _translate_payload(self, payload: str) -> str:
+        linked, restore_links = self._protect_markdown_links(payload)
+        protected, restore_inline = _protect_inline(linked)
+        return restore_links(restore_inline(self._translate_plain(protected)))
+'''
+          new_payload = '''    def _translate_payload(self, payload: str) -> str:
+        linked, restore_links = self._protect_markdown_links(payload)
+        title_pattern = re.compile(r"(\\*{0,2}The Gongfu of Xinzuo\\*{0,2})")
+        parts = title_pattern.split(linked)
+        translated_parts: list[str] = []
+        for part in parts:
+            if not part:
+                continue
+            if title_pattern.fullmatch(part):
+                translated_parts.append(part)
+                continue
+            protected, restore_inline = _protect_inline(part)
+            translated_parts.append(restore_inline(self._translate_plain(protected)))
+        return restore_links("".join(translated_parts))
+'''
+          if new_payload not in text:
+              if old_payload not in text:
+                  raise SystemExit("Could not locate _translate_payload replacement point")
+              text = text.replace(old_payload, new_payload, 1)
+
+          translator.write_text(text, encoding="utf-8")
+
+          zh = Path("translations/zh-Hans/index.md")
+          zh_text = zh.read_text(encoding="utf-8")
+          zh_text = zh_text.replace("# 清藏的功夫", "# The Gongfu of Xinzuo", 1)
+          zh_text = zh_text.replace(
+              "其宗旨是指导个人在知识和厨房刀的实际使用方面的成长。",
+              "*The Gongfu of Xinzuo* 的宗旨是指导个人在知识和厨房刀的实际使用方面的成长。",
+              1,
+          )
+          zh.write_text(zh_text, encoding="utf-8")
+          PY
+
+      - name: Validate and commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m compileall -q scripts
+          git diff --check
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/auto_translate.py translations/zh-Hans/index.md
+          git commit -m "Protect The Gongfu of Xinzuo in translations"
+          git push origin HEAD:main
