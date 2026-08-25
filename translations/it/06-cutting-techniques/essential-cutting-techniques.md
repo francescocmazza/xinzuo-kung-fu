@@ -1,5 +1,5 @@
 ---
-source_hash: 0c15d8f74c06f63bf4baf6d7aae8673a801036173c07071c66dc3f390a935671
+source_hash: e0973ca5047d9f07a3978b79396cceefe394e79c062ab54808a323ad8c5dc91f
 ---
 
 # Come tagliare - tecniche essenziali del coltello
