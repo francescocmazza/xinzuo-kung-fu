@@ -57,18 +57,22 @@
       alt: "Complete Xinzuo B35 ten-inch ham knife with the entire long narrow blade visible",
       caption: "Xinzuo B35 10-inch ham knife, shown complete to make its extra-long, narrow slicing profile clear.",
       squareSource: true
+    },
+    {
+      match: "xinzuo-europe.com/wp-content/uploads/2023/08/2-52.jpeg",
+      src: "../../assets/images/approved/knife-shapes/boning.jpg",
+      alt: "Complete Xinzuo Western boning knife with the whole blade and handle visible",
+      caption: "A complete Xinzuo Western boning-knife profile, shown without an ambient food background so its narrow blade and pointed front are easy to read."
     }
   ];
 
   /*
    * The source photographs come from different catalog generations and were
-   * photographed in several directions.  The book now presents every knife
+   * photographed in several directions.  The book presents every knife
    * profile in one reading direction: handle on the left, blade on the right,
    * with the knife's long axis horizontal.  Rotation is used rather than
    * mirroring so logos, grind handedness and other asymmetric details are not
-   * reversed.  A 180-degree correction can therefore put the edge above the
-   * spine in some source photographs; preserving the real photographed side is
-   * preferable to silently mirroring product markings.
+   * reversed.
    */
   const PROFILE_PRESENTATION = [
     { test: /western chef's knife|western chef knife/i, rotate: 0 },
@@ -84,7 +88,7 @@
     { test: /sashimi/i, rotate: 0 },
     { test: /sakimaru/i, rotate: 0 },
     { test: /kiritsuke/i, rotate: 0 },
-    { test: /western boning|b1z-tg/i, rotate: 0 },
+    { test: /western boning/i, rotate: 180 },
     { test: /honesuki/i, rotate: 180 },
     { test: /fillet knife/i, rotate: 180 },
     { test: /deba/i, rotate: 0 },
@@ -151,13 +155,39 @@
       if (!rule) return;
 
       const stage = ensureProfileStage(image);
-      image.classList.add("kb-profile-visual__image");
-      image.style.setProperty("--kb-profile-rotation", `${rule.rotate || 0}deg`);
-      image.dataset.kbProfileOrientation = "handle-left-blade-right";
-
       const isSquare = rule.squareSource || image.dataset.kbSquareSource === "true";
+      const stageHeight = isSquare ? "78mm" : "54mm";
+      const imageMaxHeight = isSquare ? "54mm" : "44mm";
+
       stage.classList.toggle("kb-profile-visual__stage--square-source", isSquare);
+      stage.style.setProperty("position", "relative", "important");
+      stage.style.setProperty("display", "flex", "important");
+      stage.style.setProperty("align-items", "center", "important");
+      stage.style.setProperty("justify-content", "center", "important");
+      stage.style.setProperty("width", "100%", "important");
+      stage.style.setProperty("height", stageHeight, "important");
+      stage.style.setProperty("min-height", stageHeight, "important");
+      stage.style.setProperty("padding", "2mm 3mm", "important");
+      stage.style.setProperty("overflow", "hidden", "important");
+      stage.style.setProperty("background", "#f2f4f5", "important");
+      stage.style.setProperty("isolation", "isolate", "important");
+
+      image.classList.add("kb-profile-visual__image");
       image.classList.toggle("kb-profile-visual__image--square-source", isSquare);
+      image.dataset.kbProfileOrientation = "handle-left-blade-right";
+      image.style.setProperty("display", "block", "important");
+      image.style.setProperty("width", "auto", "important");
+      image.style.setProperty("max-width", isSquare ? "none" : "94%", "important");
+      image.style.setProperty("height", "auto", "important");
+      image.style.setProperty("max-height", imageMaxHeight, "important");
+      image.style.setProperty("margin", "0 auto", "important");
+      image.style.setProperty("object-fit", "contain", "important");
+      image.style.setProperty("object-position", "center", "important");
+      image.style.setProperty("transform", `rotate(${rule.rotate || 0}deg)`, "important");
+      image.style.setProperty("transform-origin", "center center", "important");
+      image.style.setProperty("background", "transparent", "important");
+      image.style.setProperty("mix-blend-mode", "multiply", "important");
+      image.style.setProperty("filter", "contrast(1.04)", "important");
     });
   }
 
