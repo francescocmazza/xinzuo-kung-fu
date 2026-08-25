@@ -3,7 +3,7 @@ title: Preface
 author: Francesco Claudio Mazza
 status: review
 language: en
-reviewed: 2026-08-24
+reviewed: 2026-08-25
 ---
 
 # Preface
@@ -12,29 +12,23 @@ The title of this book begins with an idea that is much broader than martial art
 
 That is the spirit in which this book was conceived.
 
-A kitchen knife is an apparently simple object, but using one well requires much more than knowing how to hold a handle and move a blade. Real competence begins when the user understands what the knife is, why it behaves as it does and how its different characteristics influence cutting, sharpening, durability, safety and control.
+A kitchen knife is an apparently simple object, but using one well requires more than learning a few movements. Real competence develops when practice is supported by understanding: when the user can recognize why a knife behaves in a certain way, distinguish meaningful differences from superficial ones and connect what is felt in the hand with the choices behind the tool.
 
-The aim of this book is therefore to provide a strong foundation of knowledge from which a reader can develop an advanced level of practical competence. It is not intended to replace years of professional experience, nor to suggest that mastery can be obtained simply by reading. Its purpose is to make practice more intelligent: to give the reader enough understanding to recognize what is happening in the hand, to ask better questions, to identify meaningful differences between knives and to learn more quickly from direct experience.
+The purpose of this book is therefore to provide a strong foundation from which a reader can develop an advanced level of practical competence. It is not meant to replace years of professional experience, nor to suggest that mastery can be obtained by reading alone. Its role is to make practice more intelligent: to give the reader enough understanding to observe more carefully, ask better questions, learn faster from experience and make informed choices with increasing confidence.
 
-This is also why the book goes beyond the level of a conventional consumer guide. Wherever the subject requires it, the intention is to provide a depth of information comparable to introductory university-level study, while keeping the explanations connected to the practical reality of the kitchen. The reader does not need to become a metallurgist, engineer or professional sharpener, but should come away understanding the principal factors that make a kitchen knife what it is: the materials from which it is made, the way those materials are treated, the construction of the blade, its geometry and edge, the shape and proportions of the knife, the handle and balance, the sharpening system, the cutting technique and the way all these elements interact during use.
-
-The central idea is that no single specification is enough to explain a knife. Steel hardness alone does not determine cutting performance. A very acute edge is not automatically a better edge. A Damascus pattern does not by itself tell us how a blade will cut. A traditional form is not necessarily more suitable than a modern one. Every characteristic has to be understood in relation to the others and, above all, in relation to the work the knife is expected to perform.
-
-This way of learning is closely connected to the meaning of *gongfu*. Skill does not begin with originality. It begins by learning what others have already discovered, understanding proven solutions and practising them until the underlying principles become clear. Only then does personal judgement become truly useful. The goal is not to repeat tradition mechanically, but to acquire enough command of it to choose consciously, adapt intelligently and eventually improve upon what has been learned.
+This approach is closely connected to the meaning of *gongfu*. Skill does not begin with originality. It begins by learning what others have already discovered, understanding proven solutions and practising them until the underlying principles become clear. Only then does personal judgement become truly useful. The goal is not to repeat tradition mechanically, but to acquire enough command of it to choose consciously, adapt intelligently and eventually improve upon what has been learned.
 
 The same principle applies to Xinzuo. This book grew from the need to collect and organize knowledge developed through design, manufacturing, testing, sales, professional use and everyday conversations with cooks and customers. Xinzuo provides much of the practical experience and many of the examples, but the book is not intended to be a catalogue disguised as a technical guide. Its subject is the kitchen knife itself, and the principles discussed here are meant to remain useful well beyond any individual product or brand.
 
-The principles presented in these pages are a synthesis of the knowledge I have accumulated over the years: personal study and experience, the experience gained inside Xinzuo, and the practical knowledge shared by colleagues involved in product development, manufacturing and sales. They represent the know-how I have developed and chosen to organize into a coherent view of kitchen knives. They are not presented as an immutable or final truth: individual points can be refined, expanded or corrected as experience grows and better information becomes available. This book should be read as a well-founded starting point for understanding the subject, not as a text that must be accepted unquestioningly.
-
-Because that qualification is stated here once, the chapters that follow deliberately speak directly. When the book reaches a conclusion, it presents that conclusion as its position. Further qualifications are included only when they materially change the technical meaning, the scope of a claim or the safe use of a knife; the general possibility of future refinement does not need to be repeated on every page.
+The ideas presented in these pages are a synthesis of the knowledge I have accumulated over the years: personal study and experience, the experience gained inside Xinzuo, and the practical knowledge shared by colleagues involved in product development, manufacturing and sales. They are offered as a well-founded starting point rather than an immutable or final truth. Individual points can be refined, expanded or corrected as experience grows and better information becomes available.
 
 Knowledge also improves when it is shared. For that reason this book is available free of charge on GitHub at:
 
 **https://github.com/francescocmazza/xinzuo-kung-fu**
 
-The repository allows the text to remain open to correction and improvement over time. Errors can be identified, explanations refined and useful contributions incorporated without losing the history of the work. Comments, opinions, advice and proposed corrections are welcome through GitHub or by email at **francescoclaudiomazza@gmail.com**.
+The repository makes it possible to follow the evolution of the text and to contribute corrections, comments and proposals for improvement. GitHub is not necessarily the most intuitive reading tool for every reader, but it is particularly useful for collaborative revision and for moving between sections of the online edition. Comments, opinions, advice and proposed corrections are welcome through GitHub or by email at **francescoclaudiomazza@gmail.com**.
 
-This book should therefore be understood as a foundation rather than a finishing point. Its purpose is to give the reader the knowledge needed to begin developing genuine *gongfu* with a kitchen knife: understanding first, then practice, then experience, and finally the ability to make informed choices with confidence.
+This book should therefore be understood as a beginning rather than an end: a foundation from which knowledge can become practice, practice can become experience, and experience can gradually become *gongfu*.
 
 **Francesco Claudio Mazza**<br>
 *EU Brand and Operations Manager, Xinzuo*
