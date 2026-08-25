@@ -206,6 +206,8 @@ class MarianTranslator:
     def _translate_plain(self, text: str) -> str:
         if not text.strip():
             return text
+        if text.strip() == "The Gongfu of Xinzuo":
+            return text.strip()
         model_input = text
         target_prefix = TARGET_PREFIX_BY_LOCALE.get(self.locale)
         if target_prefix:
@@ -264,8 +266,18 @@ class MarianTranslator:
 
     def _translate_payload(self, payload: str) -> str:
         linked, restore_links = self._protect_markdown_links(payload)
-        protected, restore_inline = _protect_inline(linked)
-        return restore_links(restore_inline(self._translate_plain(protected)))
+        title_pattern = re.compile(r"(\*{0,2}The Gongfu of Xinzuo\*{0,2})")
+        parts = title_pattern.split(linked)
+        translated_parts: list[str] = []
+        for part in parts:
+            if not part:
+                continue
+            if title_pattern.fullmatch(part):
+                translated_parts.append(part)
+                continue
+            protected, restore_inline = _protect_inline(part)
+            translated_parts.append(restore_inline(self._translate_plain(protected)))
+        return restore_links("".join(translated_parts))
 
     def translate_line(self, line: str) -> str:
         ending = "\n" if line.endswith("\n") else ""
