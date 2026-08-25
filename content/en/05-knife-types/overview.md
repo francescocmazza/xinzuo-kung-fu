@@ -3,7 +3,7 @@ title: Knife Shapes and Their Uses
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-24
+reviewed: 2026-08-25
 translation_priority: highest
 source_basis: 2025 Xinzuo Catalog V9 and current Xinzuo series pages
 ---
@@ -198,6 +198,18 @@ The traditional kiritsuke must also be distinguished from a modern double-bevel 
 
 ## Boning, filleting and fish butchery
 
+### Flexible and rigid blades: geometry, hardness and failure
+
+Western knife traditions make deliberately flexible fillet knives and some flexible boning knives especially familiar. In Japanese and other Asian specialist traditions, by contrast, many of the fish and butchery forms most often encountered in professional kitchens—such as deba, honesuki and long sashimi slicers—are designed to work predominantly as rigid blades. The difference reflects technique and intended movement rather than a simple hierarchy of quality: a flexible Western fillet knife follows a rib cage and skin, while a rigid honesuki or deba gives the hand a stable reference for controlled separation cuts.
+
+It is common to explain this difference by saying that a blade must be soft in order to flex. **That is not mechanically precise.** For two blades made from comparable steel with the same dimensions, changing hardness through heat treatment does not materially change the steel's elastic modulus, so it does not by itself make one blade much easier to bend elastically than the other. The dominant factor is geometry, especially thickness: a thin blade can deflect far more readily than a thick one.
+
+Hardness becomes important when the bending stress approaches the material's limits. A harder heat treatment generally increases strength and resistance to permanent deformation, but it usually leaves less toughness and ductility margin for severe lateral abuse. A very hard, thin precision blade can therefore spring elastically within its safe range yet chip, crack or fracture if forced beyond that range instead of simply taking a permanent bend. A softer or more forgiving heat treatment can tolerate more permanent deformation before fracture, which is one reason deliberately flexible Western fillet and boning knives are often paired with moderate hardness and tough, thin construction.
+
+There is a corresponding edge trade-off. Higher hardness generally helps an apex resist rolling and contributes to wear resistance and edge retention, while a lower-hardness treatment normally gives up some of that advantage in exchange for easier maintenance and a more forgiving failure mode. Hardness is not the whole explanation—carbide type and volume, microstructure, heat treatment quality, edge geometry and use also affect retention—but it is an important part of the balance.
+
+This also explains why many high-end Japanese-style knives combine comparatively hard steels with thin but **deliberately rigid** blade designs. Their hardness is chosen to support fine, stable edges and long working sharpness, not because hardness itself creates rigidity. Such knives should not be tested by flexing them sideways: their intended performance comes from edge stability and controlled geometry, while the Western flexible fillet knife solves a different problem.
+
 ### Western boning knife
 
 <div class="kb-profile-visual">
@@ -218,6 +230,8 @@ Boning means working around bone rather than chopping through it. Twisting the p
 
 The honesuki is a stiff, triangular Japanese boning knife associated especially with poultry. Its pointed front locates joints and follows bone, while the stronger heel separates connective tissue with controlled pressure. Compared with a Western flexible boning knife, it feels more rigid and deliberate.
 
+Although poultry is its traditional reference task, many chefs also appreciate the honesuki for selected **fish-filleting work**. Its compact length keeps the point close to the hand, and the sharply defined tip is especially useful for the first entry into a filleting cut: it can be placed precisely beside a bone, under a membrane or at the beginning of a seam before the rest of the blade follows. This does not make it a substitute for a long flexible fillet knife when the job depends on bending around a rib cage; its advantage is the opposite—short reach, rigidity and an exceptionally controllable point for accurate entry and separation cuts.
+
 Some honesuki use asymmetrical edge geometry, so handedness and sharpening advice vary by model. Its reinforced appearance should not be mistaken for a small cleaver: it finds and separates joints rather than smashing through large bones.
 
 ### Fillet knife
@@ -226,9 +240,11 @@ Some honesuki use asymmetrical edge geometry, so handedness and sharpening advic
   <figure><img src="../../assets/images/approved/knife-shapes/fillet.jpg" alt="Complete Xinzuo fillet knife"><figcaption>A complete Xinzuo fillet knife, long and narrow enough to follow fish contours.</figcaption></figure>
 </div>
 
-The Western fillet knife is long, narrow and commonly flexible. That controlled flexibility allows the blade to follow a rib cage, stay close to skin and travel around the contours of a fish while leaving less flesh behind.
+The Western fillet knife is long, narrow and commonly flexible. That visible flex comes chiefly from its **thin cross-section**, not from low hardness by itself. The geometry allows the blade to follow a rib cage, stay close to skin and travel around the contours of a fish while leaving less flesh behind.
 
-This differs from the rigid draw of a sashimi slicer. The fillet knife works during butchery, before the finished portion is cut for presentation. Flex does not mean that the blade can be bent sharply or twisted against hard bone.
+In practice, intentionally flexible Western fillet knives are also often given a more forgiving hardness-and-toughness balance than very hard Japanese precision specialists. That does not make the softer treatment the source of elastic flexibility; it changes what happens as the blade is pushed closer to its limits. A hard thin blade can flex elastically, but if lateral stress becomes excessive it has less margin before chipping or fracture. A tougher, more moderately hardened blade is more likely to tolerate the working deflection and, if seriously overloaded, to bend rather than fail suddenly. The price is usually some loss of resistance to edge rolling and wear compared with a harder treatment of otherwise similar steel.
+
+This differs from the rigid draw of a sashimi slicer. The fillet knife works during butchery, before the finished portion is cut for presentation. Controlled flex is useful; sharp bending, twisting against hard bone or deliberately testing a hard blade sideways is not.
 
 ### Deba
 
@@ -251,16 +267,6 @@ Traditional deba are single bevelled and handed. Their weight does not make them
 The utility knife occupies the space between a paring knife and a chef's knife. It has enough reach for fruit, sandwiches, small vegetables, cheese and boneless meat, yet remains agile when a full-size blade would crowd the board.
 
 Its narrow profile reduces drag and makes trimming easy, but offers less knuckle clearance and food-transfer area than a chef's knife. Utility describes a role rather than one fixed length, so the exact model decides whether it feels more like a long parer or a compact board knife.
-
-### Ultimate Utility Knife - a Xinzuo commercial profile
-
-<div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/ultimate-utility.jpg" alt="Complete Xinzuo Ultimate Utility Knife"><figcaption>A complete Xinzuo Ultimate Utility Knife with a scalloped cutting edge.</figcaption></figure>
-</div>
-
-Ultimate Utility Knife is a Xinzuo product name rather than an international category. In the X02 and X02M families it describes a medium-length multipurpose blade with a scalloped edge, intended to bridge small preparation, sandwiches, table use and soft-crust foods.
-
-The teeth continue to bite when a plain edge might need maintenance and can cross resistant skins with less pressure. They do not replace the length of a bread knife, and sharpening them is less straightforward. The explanation should therefore begin with the actual model, not with the word ultimate.
 
 ### Curved paring knife
 
@@ -370,7 +376,7 @@ Choose the profile before the steel. First decide whether the work needs board c
 
 ## Reading catalog names responsibly
 
-The Xinzuo catalog is authoritative for the name of a current Xinzuo product, but a commercial label is not automatically a universal historical category. Viking Knife and Ultimate Utility Knife therefore remain explicitly identified as Xinzuo names. Sashimi Knife is connected to more specific Japanese terminology without silently renaming the product. Chinese cleaver and bone chopper remain separate because similar rectangular outlines can conceal very different thickness, mass and intended impact work.
+The Xinzuo catalog is authoritative for the name of a current Xinzuo product, but a commercial label is not automatically a universal historical category. Viking Knife therefore remains explicitly identified as a Xinzuo name. Sashimi Knife is connected to more specific Japanese terminology without silently renaming the product. Chinese cleaver and bone chopper remain separate because similar rectangular outlines can conceal very different thickness, mass and intended impact work.
 
 The same distinction applies to surface treatments. A catalog may identify a model as a Granton chef's knife or Granton carving knife, but **Granton describes the hollows on the blade face, not a separate blade form**. In this guide such knives are classified under their underlying shape and the hollows are discussed as a surface characteristic.
 
@@ -383,5 +389,7 @@ Most importantly, a photograph establishes a profile, not hardness, grind, hande
 - [KAI 2025-26 kitchen-knife catalog](https://kai-europe.com/wp-content/uploads/2025/08/KAI_kitchen_knives_catalogue_2025-26_en.pdf)
 - [Tojiro: Western-style knife categories](https://www.tojiro-japan.com/knife_category/western_style_knives/)
 - [ZWILLING: Knife types and Santoku profile](https://www.zwilling.com/it/magazine/guida-ai-coltelli/knife-types.html)
+- [Knife Steel Nerds: Why Doesn't Heat Treating Affect Steel “Flex?”](https://knifesteelnerds.com/2018/03/13/why-doesnt-heat-treating-affect-steel-flex/)
+- [Knife Steel Nerds: What a Good Heat Treatment Can and Cannot Do](https://knifesteelnerds.com/2019/07/01/what-a-good-heat-treatment-can-and-cannot-do/)
 
 *Source note: Xinzuo names and product examples come from the 2025 Xinzuo catalog and current Xinzuo series pages. Catalog-derived product photographs are subject to the image-rights notice. The PM80-CS visual is used as a current model-identification reference.*
