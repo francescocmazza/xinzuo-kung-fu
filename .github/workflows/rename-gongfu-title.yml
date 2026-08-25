@@ -61,6 +61,23 @@ jobs:
                   path.write_text(updated, encoding="utf-8")
                   changed.append(str(path))
 
+          # Keep the proper book title verbatim when automatic translations are refreshed.
+          translator = Path("scripts/auto_translate.py")
+          translator_text = translator.read_text(encoding="utf-8")
+          protection = '        re.compile(r"The Gongfu of Xinzuo"),\n'
+          if protection not in translator_text:
+              marker = '    patterns = [\n        re.compile(r"`[^`\\n]+`"),\n'
+              if marker not in translator_text:
+                  raise SystemExit("Could not locate translator protection marker")
+              translator_text = translator_text.replace(
+                  marker,
+                  '    patterns = [\n        re.compile(r"The Gongfu of Xinzuo"),\n        re.compile(r"`[^`\\n]+`"),\n',
+                  1,
+              )
+              translator.write_text(translator_text, encoding="utf-8")
+              if "scripts/auto_translate.py" not in changed:
+                  changed.append("scripts/auto_translate.py")
+
           print(f"Updated {len(changed)} tracked text files")
           for path in changed:
               print(path)
@@ -120,7 +137,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git rm .github/workflows/rename-gongfu-title.yml
+          git rm -f .github/workflows/rename-gongfu-title.yml
           git add -A
           git commit -m "Rename book to The Gongfu of Xinzuo"
           git push origin HEAD:main
