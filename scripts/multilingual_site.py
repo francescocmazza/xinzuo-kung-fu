@@ -224,7 +224,7 @@ def root_index(locales: dict[str, dict[str, Any]]) -> None:
     )
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta http-equiv="refresh" content="0; url=en/"><link rel="canonical" href="{BASE_URL}/en/">
-<title>The Kung Fu of Xinzuo</title></head><body><ul>{links}</ul><p><a href="en/">Continue in English</a></p></body></html>"""
+<title>The Gongfu of Xinzuo</title></head><body><ul>{links}</ul><p><a href="en/">Continue in English</a></p></body></html>"""
     (SITE / "index.html").write_text(page, encoding="utf-8")
     (SITE / ".nojekyll").write_text("\n", encoding="utf-8")
 

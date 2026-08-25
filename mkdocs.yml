@@ -1,4 +1,4 @@
-site_name: The Kung Fu of Xinzuo
+site_name: The Gongfu of Xinzuo
 site_description: "A practical guide to kitchen knives: materials, shapes and techniques for masterful cutting, with examples from Xinzuo."
 site_author: Francesco Claudio Mazza, EU Brand and Operations Manager at Xinzuo
 site_url: https://francescocmazza.github.io/xinzuo-kung-fu/
@@ -53,7 +53,7 @@ extra_javascript:
 
 nav:
   - Preface: preface.md
-  - The Kung Fu of Xinzuo: index.md
+  - The Gongfu of Xinzuo: index.md
   - Knife Shapes and Their Uses: 05-knife-types/overview.md
   - Weight and Balance: 05-knife-types/weight-and-balance.md
   - Master the Movement:

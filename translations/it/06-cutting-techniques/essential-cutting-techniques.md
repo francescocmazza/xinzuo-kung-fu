@@ -8,7 +8,7 @@ Possedere il coltello giusto aiuta, ma sapere come muoverlo cambia molto di più
 
 Questo capitolo inizia con i movimenti piuttosto che con le ricette. Impara un movimento alla volta, abbastanza lentamente per vedere cosa sta facendo la lama. La velocità dovrebbe arrivare come risultato della familiarità, mai come il primo obiettivo.
 
-Si tratta di coltello kung fu nella sua forma più pratica: un piccolo numero di movimenti controllati, ripetuti fino a quando la mano può eseguire senza perdere la consapevolezza.
+Si tratta di coltello gongfu nella sua forma più pratica: un piccolo numero di movimenti controllati, ripetuti fino a quando la mano può eseguire senza perdere la consapevolezza.
 
 ## Prima del primo taglio
 

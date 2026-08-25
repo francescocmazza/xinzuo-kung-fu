@@ -2,7 +2,7 @@
 source_hash: 4893ded7fa12acf7c22791e4f2fe4c0387394ff5af868dd20f3d5ea343ed802b
 ---
 
-# Il Kung Fu di Xinzuo
+# The Gongfu of Xinzuo
 
 * Guida pratica ai coltelli da cucina*<br>
 *Materiali, forme e tecniche per il taglio magistrale*
@@ -24,9 +24,9 @@ I coltelli Xinzuo ne sono gli esempi perché la gamma riunisce forme occidentali
 
 ## Che cosa significa "FuFu" qui
 
-Al di fuori della Cina, *kung fu* è spesso inteso principalmente come un'arte marziale. L'espressione cinese *gongfu*, tuttavia, porta anche l'idea più ampia di un'abilità pazientemente coltivata attraverso lo sforzo, l'attenzione e il tempo. Questo significato più ampio è la ragione per il titolo di questo libro.
+Al di fuori della Cina, *gongfu* è spesso inteso principalmente come un'arte marziale. L'espressione cinese *gongfu*, tuttavia, porta anche l'idea più ampia di un'abilità pazientemente coltivata attraverso lo sforzo, l'attenzione e il tempo. Questo significato più ampio è la ragione per il titolo di questo libro.
 
-Lo scopo di *Il Kung Fu di Xinzuo* è quello di guidare una ** crescita personale nella conoscenza e nell'uso pratico dei coltelli da cucina**. L'obiettivo non è quello di memorizzare un catalogo di forme, acciai e tecniche, né di raccogliere trucchi isolati. È quello di diventare progressivamente più in grado di vedere quello che un coltello sta facendo, capire perché si comporta in questo modo e scegliere una risposta migliore con la mano.
+Lo scopo di *The Gongfu of Xinzuo* è quello di guidare una ** crescita personale nella conoscenza e nell'uso pratico dei coltelli da cucina**. L'obiettivo non è quello di memorizzare un catalogo di forme, acciai e tecniche, né di raccogliere trucchi isolati. È quello di diventare progressivamente più in grado di vedere quello che un coltello sta facendo, capire perché si comporta in questo modo e scegliere una risposta migliore con la mano.
 
 Questa idea appartiene anche a una più ampia tradizione di apprendimento. In diverse arti e mestieri cinesi, tra cui la calligrafia, lo studente inizia studiando forme esemplari e il lavoro di maestri affermati. La ripetizione e l'imitazione non sono necessariamente l'opposto della creatività; possono essere la disciplina attraverso la quale lo studente acquisisce abbastanza controllo per capire perché una forma lavora, la riproduce in modo affidabile e alla fine lo sviluppa ulteriormente. In calligrafia, copiare modelli canonici è stata per secoli una parte normale della formazione prima che uno stile individuale è previsto emergere.
 
@@ -36,7 +36,7 @@ Questo non è inteso come una semplice opposizione tra la cultura cinese e occid
 
 Questo tipo di apprendimento segue gli stessi principi che danno *gongfu* il suo significato più profondo. **Osservazione** ci insegna a notare dettagli che erano precedentemente invisibili: dove il bordo tocca il cibo, come la lama guida, dove la resistenza appare, come l'equilibrio cambia con la presa. **Studio** dà queste osservazioni una struttura collegandole a geometria, acciaio, trattamento termico, affilatura e tecnica. **Esperimentazione** ci permette di testare una spiegazione in modo sicuro e deliberatamente piuttosto che accettarla solo perché è stata scritta in un libro. **Repetition** trasforma un'idea corretta in un movimento affidabile, mentre la pazienza e l'autocorrezione impediscono che la ripetizione diventi meramente meccanica.
 
-Un movimento non è quindi padroneggiato perché è stato eseguito una volta, e un concetto tecnico non è veramente imparato perché la sua definizione è stata memorizzata. La conoscenza diventa *kung fu* quando sopravvive al contatto con la pratica: quando l'utente può riconoscere un problema, capire la sua causa, provare una regolazione controllata, osservare il risultato e affinare il movimento fino a diventare naturale e ripetibile.
+Un movimento non è quindi padroneggiato perché è stato eseguito una volta, e un concetto tecnico non è veramente imparato perché la sua definizione è stata memorizzata. La conoscenza diventa *gongfu* quando sopravvive al contatto con la pratica: quando l'utente può riconoscere un problema, capire la sua causa, provare una regolazione controllata, osservare il risultato e affinare il movimento fino a diventare naturale e ripetibile.
 
 Il titolo quindi fa una promessa. Questo non è un libro da ammirare da lontano. Si tratta di una guida destinata a rendere la conoscenza sempre più visibile nella mano: una fetta più dritta, una presa più sicura, un bordo più pulito, una scelta più deliberata di coltello e una spiegazione più chiara del perché si verifica un risultato.
 
@@ -52,7 +52,7 @@ Infine, ripetere ciò che funziona. La ripetizione è importante perché un buon
 
 La cura per il coltello fa parte della stessa disciplina. Pulire, conservare e affilare correttamente preservare le condizioni in cui la buona tecnica può funzionare. Essere in grado di spiegare la ragione di un risultato è un altro segno che la conoscenza è diventata solida. Se si può spiegare perché un nakiri più piatto si comporta in modo diverso da un coltello da cuoco ricurvo, perché un singolo bisello può guidare, o perché una bava deve essere rimosso, si è spostato oltre un'etichetta e verso la comprensione genuina.
 
-Questo processo non ha un obiettivo finale. Con l'aumentare dell'abilità, lo stesso coltello rivela dettagli precedentemente inosservati. Un principiante può prima imparare a mantenere stabile la lama; più tardi la stessa persona comincia a sentire cambiamenti di resistenza, equilibrio, condizione del bordo e geometria. Questa continua raffinatezza è il senso in cui questo libro usa la parola *kung fu*.
+Questo processo non ha un obiettivo finale. Con l'aumentare dell'abilità, lo stesso coltello rivela dettagli precedentemente inosservati. Un principiante può prima imparare a mantenere stabile la lama; più tardi la stessa persona comincia a sentire cambiamenti di resistenza, equilibrio, condizione del bordo e geometria. Questa continua raffinatezza è il senso in cui questo libro usa la parola *gongfu*.
 
 ## Come usare questo libro
 
@@ -161,4 +161,4 @@ Scegli una domanda che hai veramente. Perché il tuo coltello in una patata? Per
 
 Poi tornare indietro. Collegare la risposta a un altro pezzo del puzzle, praticare di nuovo e vedere se l'immagine è cambiata.
 
-Questo è il kung fu di questo libro: conoscenza utile ereditata, studiata, testata, condivisa e continuamente raffinata attraverso l'osservazione, la pratica e il tempo.
+Questo è il gongfu di questo libro: conoscenza utile ereditata, studiata, testata, condivisa e continuamente raffinata attraverso l'osservazione, la pratica e il tempo.

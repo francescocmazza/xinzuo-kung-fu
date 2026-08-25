@@ -1,4 +1,4 @@
-# The Kung Fu of Xinzuo - English Edition
+# The Gongfu of Xinzuo - English Edition
 
 *A Practical Guide to Kitchen Knives: Materials, Shapes and Techniques for Masterful Cutting*
 

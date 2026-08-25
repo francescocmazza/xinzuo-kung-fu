@@ -4,7 +4,7 @@ source_hash: 7eb8edb80a8d5b6b75d3223b13b42985f55558e9d3c080677c4ce9c32616215f
 
 # Prefazione
 
-Il titolo di questo libro inizia con un'idea molto più ampia delle arti marziali. *Kung fu* può descrivere un'abilità acquisita attraverso il tempo, lo studio, la ripetizione e la pratica disciplinata: qualcosa che diventa gradualmente affidabile perché la conoscenza è stata compresa, testata e trasformata in abilità.
+Il titolo di questo libro inizia con un'idea molto più ampia delle arti marziali. *Gongfu* può descrivere un'abilità acquisita attraverso il tempo, lo studio, la ripetizione e la pratica disciplinata: qualcosa che diventa gradualmente affidabile perché la conoscenza è stata compresa, testata e trasformata in abilità.
 
 Questo è lo spirito in cui questo libro è stato concepito.
 
@@ -16,7 +16,7 @@ Anche per questo motivo il libro va oltre il livello di una guida convenzionale 
 
 L'idea centrale è che nessuna specifica è sufficiente per spiegare un coltello. La durezza dell'acciaio da sola non determina le prestazioni di taglio. Un bordo molto acuto non è automaticamente un bordo migliore. Un modello di Damasco non ci dice da solo come una lama taglierà. Una forma tradizionale non è necessariamente più adatta di una moderna. Ogni caratteristica deve essere compresa in relazione agli altri e, soprattutto, in relazione all'opera che il coltello dovrebbe eseguire.
 
-Questo modo di apprendere è strettamente connesso al significato di *kung fu*. L'abilità non inizia con l'originalità. Comincia imparando ciò che gli altri hanno già scoperto, comprendendo le soluzioni provate e praticandole fino a quando i principi sottostanti non diventano chiari. Solo allora il giudizio personale diventa veramente utile. L'obiettivo non è ripetere la tradizione meccanicamente, ma acquisire sufficiente padronanza di essa per scegliere consapevolmente, adattarsi intelligentemente e alla fine migliorare su ciò che è stato appreso.
+Questo modo di apprendere è strettamente connesso al significato di *gongfu*. L'abilità non inizia con l'originalità. Comincia imparando ciò che gli altri hanno già scoperto, comprendendo le soluzioni provate e praticandole fino a quando i principi sottostanti non diventano chiari. Solo allora il giudizio personale diventa veramente utile. L'obiettivo non è ripetere la tradizione meccanicamente, ma acquisire sufficiente padronanza di essa per scegliere consapevolmente, adattarsi intelligentemente e alla fine migliorare su ciò che è stato appreso.
 
 Lo stesso principio si applica a Xinzuo. Questo libro nasce dalla necessità di raccogliere e organizzare le conoscenze sviluppate attraverso la progettazione, la produzione, la sperimentazione, la vendita, l'uso professionale e le conversazioni quotidiane con cuochi e clienti. Xinzuo fornisce molta dell'esperienza pratica e molti degli esempi, ma il libro non è destinato ad essere un catalogo travestito da guida tecnica. Il suo oggetto è il coltello da cucina stesso, e i principi qui discussi sono destinati a rimanere utili ben al di là di qualsiasi singolo prodotto o marchio.
 
@@ -30,7 +30,7 @@ La conoscenza migliora anche quando è condivisa. Per questo motivo questo libro
 
 Il repository consente al testo di rimanere aperto alla correzione e al miglioramento nel tempo. Gli errori possono essere identificati, spiegazioni raffinate e utili contributi incorporati senza perdere la cronologia dell'opera. Commenti, opinioni, consigli e correzioni proposte sono benvenuti tramite GitHub o via e-mail a **francescoclaudiomazza@gmail.com**.
 
-Il suo scopo è quello di dare al lettore la conoscenza necessaria per iniziare a sviluppare il vero *kung fu* con un coltello da cucina: capire prima, poi praticare, poi sperimentare, e infine la capacità di fare scelte informate con fiducia.
+Il suo scopo è quello di dare al lettore la conoscenza necessaria per iniziare a sviluppare il vero *gongfu* con un coltello da cucina: capire prima, poi praticare, poi sperimentare, e infine la capacità di fare scelte informate con fiducia.
 
 **Francesco Claudio Mazza**<br>
 * Direttore operativo dell'EU Brand and Operations, Xinzuo*

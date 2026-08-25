@@ -1,10 +1,10 @@
-# The Kung Fu of Xinzuo
+# The Gongfu of Xinzuo
 
 Xinzuo's multilingual practical book on kitchen knives: materials, forms, techniques, sharpening, maintenance and safe use.
 
 ## Read the book
 
-**[Open The Kung Fu of Xinzuo](https://francescocmazza.github.io/xinzuo-kung-fu/)**
+**[Open The Gongfu of Xinzuo](https://francescocmazza.github.io/xinzuo-kung-fu/)**
 
 Direct language links:
 
@@ -105,7 +105,7 @@ For normal book edits, do not put an unfinished English-only change directly on 
 
 ## 3. You do not need to translate the edit manually
 
-When the PR changes English content, **Deploy The Kung Fu of Xinzuo to GitHub Pages** automatically:
+When the PR changes English content, **Deploy The Gongfu of Xinzuo to GitHub Pages** automatically:
 
 1. detects stale/missing active translations;
 2. loads the local English→Italian and English→Chinese translation models;

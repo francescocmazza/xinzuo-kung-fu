@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve The Kung Fu of Xinzuo.
+Thank you for helping improve The Gongfu of Xinzuo.
 
 ## What this project is
 

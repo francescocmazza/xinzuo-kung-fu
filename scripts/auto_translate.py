@@ -124,6 +124,7 @@ def _protect_inline(text: str) -> tuple[str, Callable[[str], str]]:
     replacements: list[str] = []
 
     patterns = [
+        re.compile(r"The Gongfu of Xinzuo"),
         re.compile(r"`[^`\n]+`"),
         re.compile(r"(?<=\]\()[^)]+(?=\))"),
         re.compile(r"https?://[^\s)>]+"),

@@ -140,7 +140,7 @@ Only original, properly licensed, or explicitly authorized images may be publish
 
 The public site is published by:
 
-**Actions → Deploy The Kung Fu of Xinzuo to GitHub Pages**
+**Actions → Deploy The Gongfu of Xinzuo to GitHub Pages**
 
 On pull requests the workflow refreshes translations in the temporary Actions workspace and validates them, but does not deploy.
 

@@ -13,7 +13,7 @@ Owning the right knife helps, but knowing how to move it changes far more. A goo
 
 This chapter begins with movements rather than recipes. Learn one movement at a time, slowly enough to see what the blade is doing. Speed should arrive as a result of familiarity, never as the first goal.
 
-This is knife kung fu in its most practical form: a small number of controlled movements, repeated until the hand can perform them without losing awareness.
+This is knife gongfu in its most practical form: a small number of controlled movements, repeated until the hand can perform them without losing awareness.
 
 ## Before the first cut
 

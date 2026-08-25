@@ -1,12 +1,12 @@
 ---
-title: The Kung Fu of Xinzuo
+title: The Gongfu of Xinzuo
 author: Francesco Claudio Mazza
 status: review
 language: en
 reviewed: 2026-08-24
 ---
 
-# The Kung Fu of Xinzuo
+# The Gongfu of Xinzuo
 
 *A Practical Guide to Kitchen Knives*<br>
 *Materials, Shapes and Techniques for Masterful Cutting*
@@ -26,11 +26,11 @@ Xinzuo knives provide the examples because the range brings together Western, Ja
 
 > **The central idea:** steel creates possibilities, heat treatment develops them, geometry turns them into cutting behaviour, sharpening restores the edge and technique determines what the cook experiences.
 
-## What “kung fu” means here
+## What “gongfu” means here
 
-Outside China, *kung fu* is often understood mainly as a martial art. The Chinese expression *gongfu* (功夫), however, also carries the broader idea of a skill patiently cultivated through effort, attention and time. That broader meaning is the reason for the title of this book.
+Outside China, *gongfu* is often understood mainly as a martial art. The Chinese expression *gongfu* (功夫), however, also carries the broader idea of a skill patiently cultivated through effort, attention and time. That broader meaning is the reason for the title of this book.
 
-The purpose of *The Kung Fu of Xinzuo* is to guide a **personal growth in knowledge and in the practical use of kitchen knives**. The goal is not to memorize a catalogue of shapes, steels and techniques, nor to collect isolated tricks. It is to become progressively more capable of seeing what a knife is doing, understanding why it behaves that way and choosing a better response with the hand.
+The purpose of *The Gongfu of Xinzuo* is to guide a **personal growth in knowledge and in the practical use of kitchen knives**. The goal is not to memorize a catalogue of shapes, steels and techniques, nor to collect isolated tricks. It is to become progressively more capable of seeing what a knife is doing, understanding why it behaves that way and choosing a better response with the hand.
 
 This idea also belongs to a wider tradition of learning. In several Chinese arts and crafts, including calligraphy, the student begins by studying exemplary forms and the work of established masters. Repetition and imitation are not necessarily the opposite of creativity; they can be the discipline through which the learner acquires enough control to understand why a form works, reproduce it reliably and eventually develop it further. In calligraphy, copying canonical models has for centuries been a normal part of training before an individual style is expected to emerge.
 
@@ -40,7 +40,7 @@ This is not meant as a simple opposition between “Chinese” and “Western”
 
 That kind of learning follows the same principles that give *gongfu* its deeper meaning. **Observation** teaches us to notice details that were previously invisible: where the edge touches the food, how the blade steers, where resistance appears, how the balance changes with the grip. **Study** gives those observations a structure by connecting them to geometry, steel, heat treatment, sharpening and technique. **Experimentation** allows us to test an explanation safely and deliberately rather than accepting it only because it was written in a book. **Repetition** turns a correct idea into a reliable movement, while patience and self-correction prevent repetition from becoming merely mechanical.
 
-A movement is therefore not mastered because it has been performed once, and a technical concept is not truly learned because its definition has been memorized. Knowledge becomes *kung fu* when it survives contact with practice: when the user can recognize a problem, understand its cause, try a controlled adjustment, observe the result and refine the movement until it becomes natural and repeatable.
+A movement is therefore not mastered because it has been performed once, and a technical concept is not truly learned because its definition has been memorized. Knowledge becomes *gongfu* when it survives contact with practice: when the user can recognize a problem, understand its cause, try a controlled adjustment, observe the result and refine the movement until it becomes natural and repeatable.
 
 The title therefore makes a promise. This is not a book to admire from a distance. It is a guide intended to make knowledge increasingly visible in the hand: a straighter slice, a safer grip, a cleaner edge, a more deliberate choice of knife and a clearer explanation of why a result occurs.
 
@@ -56,7 +56,7 @@ Finally, repeat what works. Repetition matters because a good movement must beco
 
 Care for the knife is part of the same discipline. Cleaning, storing and sharpening it correctly preserve the conditions in which good technique can work. Being able to explain the reason for a result is another sign that the knowledge has become solid. If you can explain why a flatter nakiri behaves differently from a curved chef's knife, why a single bevel can steer, or why a burr must be removed, you have moved beyond a label and toward genuine understanding.
 
-This process has no final endpoint. As skill grows, the same knife reveals details that were previously unnoticed. A beginner may first learn to keep the blade stable; later the same person begins to feel changes in resistance, balance, edge condition and geometry. That continuing refinement is the sense in which this book uses the word *kung fu*.
+This process has no final endpoint. As skill grows, the same knife reveals details that were previously unnoticed. A beginner may first learn to keep the blade stable; later the same person begins to feel changes in resistance, balance, edge condition and geometry. That continuing refinement is the sense in which this book uses the word *gongfu*.
 
 ## How to use this book
 
@@ -165,4 +165,4 @@ Choose one question you genuinely have. Why does your knife stick in a potato? W
 
 Then come back. Connect that answer to another piece of the puzzle, practise again and see whether the picture has changed.
 
-That is the kung fu of this book: useful knowledge inherited, studied, tested, shared and continuously refined through observation, practice and time.
+That is the gongfu of this book: useful knowledge inherited, studied, tested, shared and continuously refined through observation, practice and time.

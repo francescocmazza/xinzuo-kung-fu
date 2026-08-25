@@ -47,9 +47,9 @@ SERVE_DIR = ROOT / ".pdf-export-serve"
 REPO_BASENAME = "xinzuo-kung-fu"
 GITHUB_REPO_URL = "https://github.com/francescocmazza/xinzuo-kung-fu"
 PDF_NAME_BY_LOCALE = {
-    "en": "The-Kung-Fu-of-Xinzuo-EN",
-    "it": "Il-Kung-Fu-di-Xinzuo-IT",
-    "zh-Hans": "Xinzuo-Kung-Fu-ZH-HANS",
+    "en": "The-Gongfu-of-Xinzuo-EN",
+    "it": "The-Gongfu-of-Xinzuo-IT",
+    "zh-Hans": "The-Gongfu-of-Xinzuo-ZH-HANS",
 }
 IMAGE_RIGHTS_URL = f"{GITHUB_REPO_URL}/blob/main/content/en/assets/IMAGE_RIGHTS.md"
 IMAGE_LOAD_TIMEOUT_MS = 20000
@@ -59,17 +59,17 @@ HERO_IMAGE_REL = "assets/images/approved/home-hero-xinzuo-neutral.png"
 HERO_IMAGE_ALT = "A craftsman inspecting a Xinzuo Damascus kitchen knife."
 COVER_COPY = {
     "English": {
-        "title": "The Kung Fu of Xinzuo",
+        "title": "The Gongfu of Xinzuo",
         "subtitle": "A Practical Guide to Kitchen Knives",
         "strapline": "Materials, Shapes and Techniques for Masterful Cutting",
     },
     "Italiano": {
-        "title": "Il Kung Fu di Xinzuo",
+        "title": "The Gongfu of Xinzuo",
         "subtitle": "Guida pratica ai coltelli da cucina",
         "strapline": "Materiali, forme e tecniche per padroneggiare il taglio",
     },
     "简体中文": {
-        "title": "Xinzuo 的功夫",
+        "title": "The Gongfu of Xinzuo",
         "subtitle": "厨刀实用指南",
         "strapline": "材料、刀型与技法：掌握精准切割",
     },
@@ -343,7 +343,7 @@ def render_edition_html(language_name: str, metadata: PublicationMetadata) -> st
     return f"""
     <section class="kb-edition">
       <div class="kb-edition__content">
-        <p class="kb-edition__eyebrow">The Kung Fu of Xinzuo</p>
+        <p class="kb-edition__eyebrow">The Gongfu of Xinzuo</p>
         <h2>{html.escape(copy["heading"])}</h2>
         <p>{html.escape(copy["availability"])}</p>
         <p><a href="{GITHUB_REPO_URL}">{GITHUB_REPO_URL}</a></p>
@@ -377,7 +377,7 @@ def assemble_cover_document(cfg: dict, metadata: PublicationMetadata, css_text: 
     direction = cfg.get("direction", "ltr")
     lang = cfg.get("mkdocs_language", "en")
     cover = render_cover_html(cfg["name"], metadata, hero_src)
-    return _wrap_document(lang, direction, "", f"The Kung Fu of Xinzuo - {cfg['name']}", css_text, cover)
+    return _wrap_document(lang, direction, "", f"The Gongfu of Xinzuo - {cfg['name']}", css_text, cover)
 
 
 def assemble_rest_document(
@@ -403,7 +403,7 @@ def assemble_rest_document(
     chapters = "".join(render_chapter_html(node) for node in flat)
     edition = render_edition_html(cfg["name"], metadata)
     return _wrap_document(
-        lang, direction, body_class, f"The Kung Fu of Xinzuo - {cfg['name']}", css_text, toc + chapters + edition
+        lang, direction, body_class, f"The Gongfu of Xinzuo - {cfg['name']}", css_text, toc + chapters + edition
     )
 
 
@@ -411,7 +411,7 @@ def footer_template(direction: str) -> str:
     return f"""
     <div style="font-size:8px; width:100%; text-align:center; color:#666;
                 font-family:'Noto Sans',sans-serif; direction:{direction};">
-      The Kung Fu of Xinzuo &nbsp;&middot;&nbsp; <span class="pageNumber"></span>
+      The Gongfu of Xinzuo &nbsp;&middot;&nbsp; <span class="pageNumber"></span>
     </div>
     """
 
@@ -547,7 +547,7 @@ def main() -> int:
             try:
                 for code in requested:
                     cfg = locale_cfg[code]
-                    pdf_stem = PDF_NAME_BY_LOCALE.get(code, f"Xinzuo-Kung-Fu-{code.upper()}")
+                    pdf_stem = PDF_NAME_BY_LOCALE.get(code, f"The-Gongfu-of-Xinzuo-{code.upper()}")
                     pdf_path = output_dir / f"{pdf_stem}-{metadata.version_label}.pdf"
                     print(f"Rendering {code} -> {pdf_path.name}", flush=True)
                     render_locale_pdf(
