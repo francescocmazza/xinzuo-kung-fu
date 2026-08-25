@@ -1,0 +1,132 @@
+name: One-time rename to The Gongfu of Xinzuo
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/rename-gongfu-title.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  rename-title:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Replace old book-title forms everywhere
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+
+          replacements = [
+              ("The Kung Fu of Xinzuo", "The Gongfu of Xinzuo"),
+              ("Il Kung Fu di Xinzuo", "The Gongfu of Xinzuo"),
+              ("Xinzuo 的功夫", "The Gongfu of Xinzuo"),
+              ("Xinzuo的功夫", "The Gongfu of Xinzuo"),
+              ("The-Kung-Fu-of-Xinzuo", "The-Gongfu-of-Xinzuo"),
+              ("Il-Kung-Fu-di-Xinzuo", "The-Gongfu-of-Xinzuo"),
+              ("Xinzuo-Kung-Fu", "The-Gongfu-of-Xinzuo"),
+              ("Kung Fu", "Gongfu"),
+              ("Kung fu", "Gongfu"),
+              ("kung fu", "gongfu"),
+          ]
+
+          tracked = subprocess.check_output(["git", "ls-files", "-z"]).split(b"\0")
+          changed = []
+          for raw in tracked:
+              if not raw:
+                  continue
+              path = Path(raw.decode("utf-8"))
+              if not path.is_file():
+                  continue
+              try:
+                  original = path.read_text(encoding="utf-8")
+              except UnicodeDecodeError:
+                  continue
+              updated = original
+              for old, new in replacements:
+                  updated = updated.replace(old, new)
+              if updated != original:
+                  path.write_text(updated, encoding="utf-8")
+                  changed.append(str(path))
+
+          print(f"Updated {len(changed)} tracked text files")
+          for path in changed:
+              print(path)
+          PY
+
+      - name: Verify no legacy human-readable title remains
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+          import sys
+
+          needles = [
+              "The Kung Fu of Xinzuo",
+              "Il Kung Fu di Xinzuo",
+              "Xinzuo 的功夫",
+              "Xinzuo的功夫",
+              "The-Kung-Fu-of-Xinzuo",
+              "Il-Kung-Fu-di-Xinzuo",
+              "Xinzuo-Kung-Fu",
+              "Kung Fu",
+              "Kung fu",
+              "kung fu",
+          ]
+          hits = []
+          tracked = subprocess.check_output(["git", "ls-files", "-z"]).split(b"\0")
+          for raw in tracked:
+              if not raw:
+                  continue
+              path = Path(raw.decode("utf-8"))
+              if not path.is_file():
+                  continue
+              try:
+                  text = path.read_text(encoding="utf-8")
+              except UnicodeDecodeError:
+                  continue
+              for needle in needles:
+                  if needle in text:
+                      hits.append(f"{path}: {needle}")
+          if hits:
+              print("Legacy title references remain:")
+              print("\n".join(hits))
+              sys.exit(1)
+          print("No legacy human-readable title references remain.")
+          PY
+
+      - name: Validate Python sources and whitespace
+        shell: bash
+        run: |
+          python -m compileall -q scripts
+          git diff --check
+
+      - name: Commit migration and remove this one-time workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/rename-gongfu-title.yml
+          git add -A
+          git commit -m "Rename book to The Gongfu of Xinzuo"
+          git push origin HEAD:main
+
+      - name: Start normal publication pipeline
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: gh workflow run pages.yml --repo "$GITHUB_REPOSITORY" --ref main
