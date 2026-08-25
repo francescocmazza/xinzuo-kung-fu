@@ -1,0 +1,77 @@
+name: One-time Actions storage cleanup
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/one-time-actions-storage-cleanup.yml"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete obsolete artifacts and rebuildable caches
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const artifacts = await github.paginate(
+              github.rest.actions.listArtifactsForRepo,
+              { owner, repo, per_page: 100 }
+            );
+
+            const keepLatestFor = [
+              /^xinzuo-kung-fu-pdf-/,
+              /^the-gongfu-of-xinzuo-multilingual-/
+            ];
+
+            const keepArtifacts = new Set();
+            for (const pattern of keepLatestFor) {
+              const newest = artifacts
+                .filter(a => !a.expired && pattern.test(a.name))
+                .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))[0];
+              if (newest) keepArtifacts.add(newest.id);
+            }
+
+            let deletedArtifacts = 0;
+            let artifactBytes = 0;
+            for (const artifact of artifacts) {
+              if (artifact.expired || keepArtifacts.has(artifact.id)) continue;
+              await github.rest.actions.deleteArtifact({ owner, repo, artifact_id: artifact.id });
+              deletedArtifacts += 1;
+              artifactBytes += artifact.size_in_bytes;
+            }
+
+            const caches = await github.paginate(
+              github.rest.actions.getActionsCacheList,
+              { owner, repo, per_page: 100 }
+            );
+
+            let deletedCaches = 0;
+            let cacheBytes = 0;
+            for (const cache of caches) {
+              await github.rest.actions.deleteActionsCacheById({
+                owner,
+                repo,
+                cache_id: cache.id
+              });
+              deletedCaches += 1;
+              cacheBytes += cache.size_in_bytes;
+            }
+
+            const freedMiB = (artifactBytes + cacheBytes) / 1024 / 1024;
+            console.log(`Deleted ${deletedArtifacts} artifacts (${(artifactBytes / 1024 / 1024).toFixed(1)} MiB).`);
+            console.log(`Deleted ${deletedCaches} caches (${(cacheBytes / 1024 / 1024).toFixed(1)} MiB).`);
+            console.log(`Total freed: ${freedMiB.toFixed(1)} MiB. Kept ${keepArtifacts.size} latest useful artifacts.`);
+
+            core.summary
+              .addHeading('One-time Actions storage cleanup')
+              .addRaw(`Deleted ${deletedArtifacts} artifacts and ${deletedCaches} caches. Freed ${freedMiB.toFixed(1)} MiB. Kept ${keepArtifacts.size} latest useful artifacts.`)
+              .write();
