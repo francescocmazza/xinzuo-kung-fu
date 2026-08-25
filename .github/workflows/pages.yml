@@ -28,7 +28,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: publish-xinzuo-kung-fu-main
+  group: publish-the-gongfu-of-xinzuo-main
   cancel-in-progress: true
 
 jobs:
@@ -105,9 +105,6 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
 
-            # The previous incremental base is no longer reliable after main moves.
-            # Rebuild every stale page against the newest source so source_hash values
-            # and translated text cannot be published from an obsolete snapshot.
             TRANSLATION_BASE_SHA=0000000000000000000000000000000000000000 python scripts/auto_translate.py
             python scripts/repair_translated_html.py
 
@@ -144,8 +141,8 @@ jobs:
           cp -R site/. release-assets/packages/html/
           cp -R .site-work/docs/. release-assets/packages/markdown/
           cp release-assets/pdf/*.pdf release-upload/
-          (cd release-assets/packages/html && zip -qr "../../../release-upload/xinzuo-kung-fu-${version_label}-html.zip" .)
-          (cd release-assets/packages/markdown && zip -qr "../../../release-upload/xinzuo-kung-fu-${version_label}-markdown.zip" .)
+          (cd release-assets/packages/html && zip -qr "../../../release-upload/the-gongfu-of-xinzuo-${version_label}-html.zip" .)
+          (cd release-assets/packages/markdown && zip -qr "../../../release-upload/the-gongfu-of-xinzuo-${version_label}-markdown.zip" .)
           (cd release-upload && sha256sum * > SHA256SUMS.txt)
 
       - name: Publish immutable versioned release
@@ -157,7 +154,7 @@ jobs:
           version_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().version_label)')"
           publication_date="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().publication_date)')"
           tag="edition-${version_label}"
-          title="The Kung Fu of Xinzuo — ${version_label} — ${publication_date}"
+          title="The Gongfu of Xinzuo — ${version_label} — ${publication_date}"
           source_sha="$(git rev-parse HEAD)"
           notes="Automatically published from main on ${publication_date}. Source commit: ${source_sha}. This release is an archived edition; newer editions are published as separate releases."
 
@@ -212,12 +209,12 @@ jobs:
           fi
           gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > actual-assets.txt
           printf '%s\n' \
-            "Il-Kung-Fu-di-Xinzuo-IT-${version_label}.pdf" \
             "SHA256SUMS.txt" \
-            "The-Kung-Fu-of-Xinzuo-EN-${version_label}.pdf" \
-            "Xinzuo-Kung-Fu-ZH-HANS-${version_label}.pdf" \
-            "xinzuo-kung-fu-${version_label}-html.zip" \
-            "xinzuo-kung-fu-${version_label}-markdown.zip" | sort > expected-assets.txt
+            "The-Gongfu-of-Xinzuo-EN-${version_label}.pdf" \
+            "The-Gongfu-of-Xinzuo-IT-${version_label}.pdf" \
+            "The-Gongfu-of-Xinzuo-ZH-HANS-${version_label}.pdf" \
+            "the-gongfu-of-xinzuo-${version_label}-html.zip" \
+            "the-gongfu-of-xinzuo-${version_label}-markdown.zip" | sort > expected-assets.txt
           diff -u expected-assets.txt actual-assets.txt
 
           latest_tag="$(gh api "repos/${REPOSITORY}/releases/latest" --jq '.tag_name')"
