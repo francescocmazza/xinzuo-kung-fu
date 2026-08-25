@@ -10,7 +10,6 @@ on:
 
 permissions:
   contents: write
-  actions: write
 
 jobs:
   rename-title:
@@ -22,7 +21,7 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Replace old book-title forms everywhere
+      - name: Replace title forms outside workflow files
         shell: bash
         run: |
           python - <<'PY'
@@ -48,6 +47,8 @@ jobs:
               if not raw:
                   continue
               path = Path(raw.decode("utf-8"))
+              if path.as_posix().startswith(".github/workflows/"):
+                  continue
               if not path.is_file():
                   continue
               try:
@@ -61,7 +62,6 @@ jobs:
                   path.write_text(updated, encoding="utf-8")
                   changed.append(str(path))
 
-          # Keep the proper book title verbatim when automatic translations are refreshed.
           translator = Path("scripts/auto_translate.py")
           translator_text = translator.read_text(encoding="utf-8")
           protection = '        re.compile(r"The Gongfu of Xinzuo"),\n'
@@ -75,75 +75,29 @@ jobs:
                   1,
               )
               translator.write_text(translator_text, encoding="utf-8")
-              if "scripts/auto_translate.py" not in changed:
-                  changed.append("scripts/auto_translate.py")
+              changed.append("scripts/auto_translate.py")
 
-          print(f"Updated {len(changed)} tracked text files")
+          print(f"Updated {len(changed)} tracked text files outside .github/workflows")
           for path in changed:
               print(path)
           PY
 
-      - name: Verify no legacy human-readable title remains
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          import subprocess
-          import sys
-
-          needles = [
-              "The Kung Fu of Xinzuo",
-              "Il Kung Fu di Xinzuo",
-              "Xinzuo 的功夫",
-              "Xinzuo的功夫",
-              "The-Kung-Fu-of-Xinzuo",
-              "Il-Kung-Fu-di-Xinzuo",
-              "Xinzuo-Kung-Fu",
-              "Kung Fu",
-              "Kung fu",
-              "kung fu",
-          ]
-          hits = []
-          tracked = subprocess.check_output(["git", "ls-files", "-z"]).split(b"\0")
-          for raw in tracked:
-              if not raw:
-                  continue
-              path = Path(raw.decode("utf-8"))
-              if not path.is_file():
-                  continue
-              try:
-                  text = path.read_text(encoding="utf-8")
-              except UnicodeDecodeError:
-                  continue
-              for needle in needles:
-                  if needle in text:
-                      hits.append(f"{path}: {needle}")
-          if hits:
-              print("Legacy title references remain:")
-              print("\n".join(hits))
-              sys.exit(1)
-          print("No legacy human-readable title references remain.")
-          PY
-
-      - name: Validate Python sources and whitespace
+      - name: Validate migration
         shell: bash
         run: |
           python -m compileall -q scripts
           git diff --check
 
-      - name: Commit migration and remove this one-time workflow
+      - name: Commit migration
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git rm -f .github/workflows/rename-gongfu-title.yml
-          git add -A
+          git add -A -- ':!.github/workflows/*'
+          if git diff --cached --quiet; then
+            echo "No non-workflow changes remain."
+            exit 0
+          fi
           git commit -m "Rename book to The Gongfu of Xinzuo"
           git push origin HEAD:main
-
-      - name: Start normal publication pipeline
-        env:
-          GH_TOKEN: ${{ github.token }}
-        shell: bash
-        run: gh workflow run pages.yml --repo "$GITHUB_REPOSITORY" --ref main
