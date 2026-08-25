@@ -3,7 +3,7 @@ title: "Weight and Balance: Why Heavier Is Not Better or Worse"
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-24
+reviewed: 2026-08-25
 translation_priority: high
 ---
 
@@ -33,6 +33,56 @@ There is also a second mechanical effect that is easy to feel even without knowi
 
 The santoku offers a useful example. Its dropped, sheep's-foot-like nose usually leaves a fuller section of steel near the front than the narrow point of a classic chef's knife or the fine K-tip of a bunka. This does **not** mean that every santoku is heavier overall; many santokus are compact and comparatively light. It means that the front of the blade is locally more substantial. That additional support can make the nose less delicate and can give the front a more planted feeling during short downward cuts. The bunka makes the opposite trade: it removes material toward the K-tip, gaining exceptional visibility and precision at the point but creating a tip that deserves more protection.
 
+## Balance only makes sense in relation to the grip
+
+A balance point printed in a specification is useful, but it does not tell the whole story because the hand is not always placed in the same position. Move the hand forward and the same knife can change from noticeably blade-heavy to almost neutral. Move the hand backward and the opposite happens. For practical purposes, three broad grip positions are especially useful to understand.
+
+### Handle grip
+
+With a **handle grip**, the hand remains mainly on the handle. The thumb and index finger stay behind or close to the bolster instead of advancing substantially onto the blade. This is intuitive for many home cooks and gives the handle shape, length and rearward mass a large influence on comfort and control.
+
+A knife designed around this grip can place its useful balance farther back because the hand supports it from behind the blade. A model that feels neutral here may feel handle-heavy to a cook who habitually moves far forward.
+
+### Intermediate or hybrid grip
+
+With an **intermediate or hybrid grip**, the hand advances toward the bolster. The thumb and index finger may rest on the bolster, at its front, or only slightly onto the blade, while most of the hand still receives support from the handle. This position can combine some of the leverage of a handle grip with more direct control of the blade.
+
+It is particularly useful on versatile knives because the hand can shift a little backward when leverage is useful and a little forward when precision matters. It should not be treated as a defective or incomplete pinch grip: it is a legitimate control position in its own right.
+
+### Pinch grip
+
+With a **pinch grip**, the hand moves farther forward. The thumb and index finger pinch the two faces of the blade just ahead of the bolster while the remaining fingers wrap naturally around the handle. Part of the palm may sit over or around the bolster area, depending on the knife and the size of the hand.
+
+This places the controlling fingers close to the blade's centre of action and gives very direct information about angle and movement. A knife that appears strongly blade-heavy when held at the back of the handle can feel neutral and precise when held in the forward position for which it was designed.
+
+The grip should remain relaxed. Pinch for information and control, not as a way to squeeze more force into the knife.
+
+The important question is therefore not simply **“Is this knife well balanced?”** but **“Where is it balanced relative to the way I actually hold it?”** When comparing knives, use the grip you genuinely cook with and, when possible, also try the position around which that particular design was intended to work.
+
+## Why some handles look too long
+
+Some blade-forward knives, especially designs intended to be controlled from an advanced intermediate or pinch grip, can have a handle that looks surprisingly long when the knife is viewed in a photograph. It is easy to assume that every centimetre behind the bolster is intended to fit inside the closed hand. That is not necessarily the design logic.
+
+The rear part of a handle can also act as a **counterweight**. If a blade carries substantial mass ahead of the hand, adding useful mass behind the effective grip can move the centre of mass rearward and reduce the constant forward torque felt at the wrist. The cook may therefore hold only the forward part of a long handle while the unused rear length is still performing an important mechanical job.
+
+This does not mean that an arbitrarily long or heavy handle always improves a knife. Mass placed far from the hand also increases rotational inertia, so too much rearward mass can make rapid rotation slower. The designer is balancing two effects at once: bringing the centre of mass toward the controlling hand while avoiding unnecessary resistance to changes of direction. When that balance is successful, a knife with a visually long handle can feel more neutral, less tiring and easier to guide than its silhouette suggests.
+
+This is another reason photographs can be deceptive. A handle that seems disproportionate on a screen may make immediate sense when the knife is held in the intended forward grip.
+
+## Ergonomics cannot be read from a specification sheet
+
+Dimensions, weight, balance point, steel, handle material and blade geometry can narrow a choice, but they cannot reproduce the sensation of actually holding and cutting with a knife. Two products can look extremely similar and list nearly identical specifications yet feel significantly different once they are in the hand. Small changes in handle contour, bolster transition, blade height, distal taper, mass distribution and the exact point at which the fingers settle can change the entire impression.
+
+For that reason, **trying a knife in the hand remains the best final test of ergonomics and personal fit whenever it is possible**. Choosing a knife is much like choosing a pair of shoes. Size and construction tell you whether a product is broadly suitable, and design helps you decide what you like, but neither tells you exactly how it will feel after your hand—or foot—is inside it.
+
+This is especially important because there is no single ideal hand. Palm width, finger length, grip strength, preferred cutting movement and years of habit differ from one cook to another. A handle that feels secure and natural to one user can feel crowded or oversized to another without either judgement being wrong.
+
+### Xinzuo as a practical example
+
+Xinzuo's range is useful here as an example rather than as a boundary for the general principle. The company produces more than 400 knife models not because one model should replace all the others in a quality hierarchy, but because changes in blade form, balance, grip position, handle geometry and intended work create genuinely different experiences in the hand.
+
+This same problem is why I promoted internally the creation of Xinzuo's first company-owned flagship store: a catalogue can explain the differences, but it cannot let a customer feel them. A physical space in which the company's knives can be picked up and compared makes it possible to test the final variable that photographs and technical specifications cannot communicate. The broader lesson applies to any brand: when several suitable knives remain after the technical comparison, the hand is often the best place to make the final decision.
+
 ## Strength, momentum and precision are different things
 
 Weight also needs to be separated from strength. A heavy blade is not automatically tougher, and a light blade is not automatically fragile. Strength at a particular part of the knife depends on how much steel is present there, its thickness and shape, the steel and heat treatment, and how the load is applied.
@@ -43,7 +93,7 @@ Momentum is different again. More moving mass can help a stroke carry through re
 
 For this reason, it is more useful to think in terms of **task and preference**. A cook who spends hours making small exact cuts may value low mass and quick direction changes. Someone repeatedly chopping dense vegetables may prefer a more blade-forward knife whose momentum contributes to the stroke. A user with a relaxed pinch grip may enjoy a balance point just ahead of the fingers, while another may prefer a more neutral feel. None of these preferences establishes a hierarchy of quality.
 
-The practical lesson is simple: after choosing the right blade shape, do not ask only whether a knife is light or heavy. Ask **where the weight is, how that weight behaves in the movement you actually use, and whether the geometry lets the edge pass through food efficiently**. Weight can help the cut, but it is one part of a system that also includes sharpness, thickness, balance, technique and the ingredient itself.
+The practical lesson is simple: after choosing the right blade shape, do not ask only whether a knife is light or heavy. Ask **where the weight is, how that weight behaves in the movement you actually use, and whether the geometry lets the edge pass through food efficiently**. Then, if possible, pick the knife up. Weight can help the cut, but it is one part of a system that also includes sharpness, thickness, balance, grip, technique, the ingredient and the user's own hand.
 
 ## References
 
