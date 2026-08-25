@@ -213,10 +213,10 @@ This also explains why many high-end Japanese-style knives combine comparatively
 ### Western boning knife
 
 <div class="kb-profile-visual">
-  <figure><img src="https://www.xinzuo-europe.com/wp-content/uploads/2023/08/2-52.jpeg" alt="Xinzuo B1Z-TG 5.7-inch boning knife"><figcaption>Xinzuo B1Z-TG, a 5.7-inch Western boning knife with the narrow, pointed profile used for working around bone and connective tissue.</figcaption></figure>
+  <figure><img src="https://images-knifestock-cdn.rshop.sk/default/products/15a57139e92ae3f8c43bcac256677434.png" alt="Xinzuo B37-TG 6-inch Western boning knife"><figcaption>Xinzuo B37-TG, a 6-inch Western boning knife with a narrow, pointed profile for working around bone and connective tissue.</figcaption></figure>
 </div>
 
-A Western boning knife is narrow so that the user can see and control the edge while tracing joints, removing connective tissue and separating meat from bone. The **Xinzuo B1Z-TG** shown here is a clear example of the form: its narrow blade and pointed front provide access and control in spaces where a broad chef's knife becomes cumbersome. Stiffer boning knives provide deliberate control around beef and pork; more flexible versions follow rounded surfaces more readily.
+A Western boning knife is narrow so that the user can see and control the edge while tracing joints, removing connective tissue and separating meat from bone. The **Xinzuo B37-TG** shown here is a clear example of the form: its narrow blade and pointed front provide access and control in spaces where a broad chef's knife becomes cumbersome. Stiffer boning knives provide deliberate control around beef and pork; more flexible versions follow rounded surfaces more readily.
 
 Its principal limitation is **lack of versatility**. The narrow, specialized blade excels at tracing bone and connective tissue but offers little knuckle clearance, little food-transfer area and less efficiency in the broad board work performed by a chef's knife, gyuto or Chinese cleaver. It should therefore be chosen because boning is a recurring task, not as a general-purpose substitute.
 
