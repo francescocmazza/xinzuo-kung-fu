@@ -30,48 +30,36 @@ jobs:
           translator = Path("scripts/auto_translate.py")
           text = translator.read_text(encoding="utf-8")
 
-          old_plain = '''    def _translate_plain(self, text: str) -> str:
-        if not text.strip():
-            return text
-        model_input = text
-'''
-          new_plain = '''    def _translate_plain(self, text: str) -> str:
-        if not text.strip():
-            return text
-        if text.strip() == "The Gongfu of Xinzuo":
-            return text.strip()
-        model_input = text
-'''
-          if new_plain not in text:
-              if old_plain not in text:
-                  raise SystemExit("Could not locate _translate_plain insertion point")
-              text = text.replace(old_plain, new_plain, 1)
+          guard = '        if text.strip() == "The Gongfu of Xinzuo":\n            return text.strip()\n'
+          if guard not in text:
+              anchor = '        if not text.strip():\n            return text\n'
+              if anchor not in text:
+                  raise SystemExit("Could not locate _translate_plain guard anchor")
+              text = text.replace(anchor, anchor + guard, 1)
 
-          old_payload = '''    def _translate_payload(self, payload: str) -> str:
-        linked, restore_links = self._protect_markdown_links(payload)
-        protected, restore_inline = _protect_inline(linked)
-        return restore_links(restore_inline(self._translate_plain(protected)))
-'''
-          new_payload = '''    def _translate_payload(self, payload: str) -> str:
-        linked, restore_links = self._protect_markdown_links(payload)
-        title_pattern = re.compile(r"(\\*{0,2}The Gongfu of Xinzuo\\*{0,2})")
-        parts = title_pattern.split(linked)
-        translated_parts: list[str] = []
-        for part in parts:
-            if not part:
-                continue
-            if title_pattern.fullmatch(part):
-                translated_parts.append(part)
-                continue
-            protected, restore_inline = _protect_inline(part)
-            translated_parts.append(restore_inline(self._translate_plain(protected)))
-        return restore_links("".join(translated_parts))
-'''
-          if new_payload not in text:
-              if old_payload not in text:
-                  raise SystemExit("Could not locate _translate_payload replacement point")
-              text = text.replace(old_payload, new_payload, 1)
-
+          start_marker = '    def _translate_payload(self, payload: str) -> str:\n'
+          end_marker = '\n    def translate_line(self, line: str) -> str:\n'
+          start = text.find(start_marker)
+          end = text.find(end_marker, start)
+          if start < 0 or end < 0:
+              raise SystemExit("Could not locate _translate_payload function")
+          new_payload = (
+              '    def _translate_payload(self, payload: str) -> str:\n'
+              '        linked, restore_links = self._protect_markdown_links(payload)\n'
+              '        title_pattern = re.compile(r"(\\*{0,2}The Gongfu of Xinzuo\\*{0,2})")\n'
+              '        parts = title_pattern.split(linked)\n'
+              '        translated_parts: list[str] = []\n'
+              '        for part in parts:\n'
+              '            if not part:\n'
+              '                continue\n'
+              '            if title_pattern.fullmatch(part):\n'
+              '                translated_parts.append(part)\n'
+              '                continue\n'
+              '            protected, restore_inline = _protect_inline(part)\n'
+              '            translated_parts.append(restore_inline(self._translate_plain(protected)))\n'
+              '        return restore_links("".join(translated_parts))\n'
+          )
+          text = text[:start] + new_payload + text[end:]
           translator.write_text(text, encoding="utf-8")
 
           zh = Path("translations/zh-Hans/index.md")
