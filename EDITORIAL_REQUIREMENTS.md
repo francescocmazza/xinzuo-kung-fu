@@ -49,6 +49,13 @@ This file records the current editorial constraints for *The Gongfu of Xinzuo*. 
 - Avoid unnecessary repetition between the Preface, opening, chapter introductions and later technical sections.
 - Prefer discursive, didactic explanation over excessively schematic summaries when the subject requires understanding rather than lookup.
 
+## Bibliography
+
+- Keep all bibliographic, technical and historical source lists together in a single **Bibliography** section at the end of the book.
+- Do not leave “Sources”, “References”, “Technical references”, “Further reading” or equivalent bibliographic lists at the end of individual chapters.
+- Inline citation markers may remain where they are useful to connect a statement with the corresponding entry, but the bibliographic entry itself belongs in the final Bibliography.
+- New chapter-level source lists must be centralized before PDF, Pages, multilingual or Release publication.
+
 ## Publishing and review
 
 - Content corrections merged into `main` must be reflected in the review PDFs; reviewers should not be left checking an older Release/PDF after the source has changed.
