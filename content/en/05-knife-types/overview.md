@@ -3,7 +3,7 @@ title: Knife Shapes and Their Uses
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-25
+reviewed: 2026-08-26
 translation_priority: highest
 source_basis: general knife geometry and technique, illustrated with current Xinzuo examples
 ---
@@ -223,8 +223,6 @@ The same curve offers less straight board contact. It should not be treated as a
 </div>
 
 The straight paring profile places more of its short edge in contact with a board and tracks a direct cut naturally. It works well on garlic, shallots, small fruit, garnish and exact trimming while remaining compact enough for controlled in-hand work. Compared with the curved parer it follows rounded produce less naturally, but it is more versatile when preparation alternates between hand and board.
-
-These two profiles are sufficient for the paring-knife discussion in this guide. A separate flat-cut paring category is therefore not included.
 
 ### Steak knife
 
