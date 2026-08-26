@@ -3,7 +3,7 @@ title: How to Cut - Essential Knife Techniques
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-25
+reviewed: 2026-08-26
 translation_priority: highest
 ---
 
@@ -23,7 +23,7 @@ Stand close enough that you do not have to reach. Relax your shoulders. Keep the
 
 Hold the food with the supporting hand in a claw shape: fingertips curved inward, thumb behind them and the side of the blade guided by the first joints rather than by exposed fingertips. The claw is not a rigid pose. It is a moving guide that retreats a little after each cut.
 
-The three main ways of positioning the knife hand—**handle grip, intermediate or hybrid grip, and pinch grip**—are explained in full in [Weight and Balance](../05-knife-types/weight-and-balance.md). They are not repeated here. Before practising a movement, choose the grip that feels stable on the particular knife, keep it relaxed and remember that moving the hand forward or backward also changes the balance you feel.
+The three main ways of positioning the knife hand - **handle grip, intermediate or hybrid grip, and pinch grip** - are explained in full in [Weight and Balance](../05-knife-types/weight-and-balance.md). They are not repeated here. Before practising a movement, choose the grip that feels stable on the particular knife, keep it relaxed and remember that moving the hand forward or backward also changes the balance you feel.
 
 > **The four-word safety check:** stable board, stable food, clear path, hidden fingertips.
 
@@ -96,7 +96,7 @@ Traditional Japanese sashimi knives became long because the cook wanted to finis
 
 ## 4. Rock chopping
 
-Rock chopping is easier to understand if two related movements are separated: the **wide rolling rock** of a curved chef's knife and the **compact pivot rock** that a round-tip nakiri can perform exceptionally well.
+Rock chopping includes two related but distinct movements: the **wide rolling rock** of a curved chef's knife and the **compact pivot rock** suited to a round-tip nakiri.
 
 ### Wide rolling rock
 
@@ -104,15 +104,9 @@ With a Western chef's knife, the front of the edge stays on or close to the boar
 
 This broad rolling movement depends on curvature. A very flat blade without a suitable front transition should not be forced to imitate it.
 
-### Why the round-tip nakiri is ideal for a compact rock
+### Compact pivot rock with a round-tip nakiri
 
-A **round-tip nakiri** solves the same general problem in a different and, for compact rocking and mincing, particularly elegant way. Instead of relying on a long curved belly, it provides a rounded front whose extreme nose is normally unsharpened or safely transitioned away from a piercing point. That rounded front can remain in controlled contact with the board while the heel is raised and lowered through a short arc.
-
-For this specific kind of rock chopping, the geometry is close to ideal. The rounded nose creates a broad, predictable pivot rather than concentrating the motion on a fragile point. The tall blade gives generous knuckle clearance and an easy place for the guiding hand to control the knife. Behind the pivot, the relatively straight working edge descends decisively onto the board, so herbs and small ingredients are cut cleanly rather than left connected by an overly curved belly.
-
-The result is different from the exaggerated rocking sweep of a classic chef's knife. A round-tip nakiri works best with a **short, controlled pivoting movement**: the front remains planted, the heel rises only as much as necessary, and the knife advances through the pile in small steps. It is especially effective for herbs, fine vegetable mincing and repeated compact board work.
-
-This is also why the rounded front should not be dismissed as merely a tip that has lost piercing ability. In this design the absence of a fine point is functional: the front becomes a stable board-contact feature that can tolerate repeated pivoting much better than a delicate K-tip.
+The geometric reason a round-tip nakiri works particularly well for this movement is explained in [Knife Shapes and Their Uses](../05-knife-types/overview.md#nakiri). In practice, keep the rounded front in stable contact with the board, raise the heel only as much as needed, lower it through a short controlled arc and advance through the ingredients in small steps. The movement is compact rather than a large rolling sweep.
 
 ### Try it with parsley
 
@@ -128,7 +122,7 @@ The tip is used for small incisions, trimming and work in confined spaces. Keep 
 
 To remove the core from a tomato, place the tomato securely on the board, insert only the necessary length of the tip beside the stem and guide a shallow circle. To score skin or pastry, use the weight of the blade and a light drawing motion.
 
-The pointed tip of a gyuto or chef's knife is versatile. A bunka's K-tip gives a clear view of the contact point but is usually thinner and more vulnerable. A round-tip nakiri deliberately gives up piercing work in exchange for a robust, predictable front that can support compact pivot cutting on the board.
+The pointed tip of a gyuto or chef's knife is versatile. A bunka's K-tip gives a clear view of the contact point but is usually thinner and more vulnerable. A round-tip nakiri deliberately gives up piercing work in exchange for a predictable front suited to board contact.
 
 > **Rule:** a tip cuts by moving along its edge. It is not a screwdriver, lever or drill.
 
@@ -136,7 +130,7 @@ The pointed tip of a gyuto or chef's knife is versatile. A bunka's K-tip gives a
 
 Muscle fibers run in visible bundles. A slice made parallel to those bundles leaves long fibers that are harder to chew. Cutting across them shortens the fibers and usually makes the same piece of meat feel more tender.
 
-Before cutting, pause and identify the direction of the grain. Rotate the meat so the knife crosses those lines. Use a draw slice with a carving knife—including a sujihiki—or a long chef's knife. The improvement comes from direction, not from pressing harder.
+Before cutting, pause and identify the direction of the grain. Rotate the meat so the knife crosses those lines. Use a draw slice with a carving knife - including a sujihiki - or a long chef's knife. The improvement comes from direction, not from pressing harder.
 
 This is a good example of why knife skill is more than hand movement: sometimes the most important action happens before the blade touches the food.
 
@@ -197,21 +191,19 @@ The blade should tell you where the skeleton is. Heavy pressure hides that feedb
 
 ## 14. Using a single-bevel knife with the opposite hand
 
-A traditional single-bevel knife naturally pushes food and steers in a direction determined by which face carries the large bevel. A knife made for the other hand may therefore feel as if it wants to leave the intended line.
+The steering mechanism and handed geometry are explained in [Single and Double Bevels](../04-geometry-and-bevels/single-and-double-bevels.md#handedness-and-working-direction). The practical consequence is that a knife made for the other hand is better managed by reorganizing the cut than by fighting the blade sideways.
 
-It can still be used effectively by reorganizing the cut rather than fighting the blade.
+If you hold the knife in your left hand and steady the food with your right, arrange the ingredient so the cutting movement carries the blade away from the right hand instead of toward it. With the food in front of you, the stroke can travel laterally away from the supporting hand. Alternatively, rotate the food and work in a forward direction so that the blade moves away from your body.
 
-If you hold the knife in your left hand and steady the food with your right, arrange the ingredient so that the cutting movement carries the blade away from the right hand instead of toward it. With the food in front of you, the stroke can travel laterally away from the supporting hand. Alternatively, rotate the food and work in a forward direction so that the blade moves away from your body.
+Leave clear space in the direction of travel. Keep the supporting hand behind the cutting line and use the claw where appropriate. Start with a short, slow cut in an ingredient that is easy to stabilize. Observe the line the knife wants to follow, then adjust the position of the food or the starting angle slightly. Do not lock the wrist or force a buried edge sideways.
 
-Leave clear space in the direction of travel. Keep the supporting hand behind the cutting line and use the claw where appropriate. Start with a short, slow cut in an ingredient that is easy to stabilize. Observe the direction in which the knife tends to steer, then alter the position of the food or your starting angle slightly. Do not lock the wrist and force the edge sideways.
-
-The matching handed version remains more intuitive, especially for continuous professional use. The important lesson is that a single-bevel knife is optimized for one arrangement, not magically disabled in every other arrangement.
+The matching handed version remains more intuitive, especially for continuous professional use. Opposite-hand use is a workable adaptation, not a reason to ignore the geometry when choosing a knife for regular work.
 
 ## 15. Cuts that require specialist teaching
 
-Some techniques cannot be responsibly learned from a short written description alone. Katsuramuki with an usuba, fish-head work with a deba and rapid professional chopping all combine blade geometry, body position and practiced feedback. The guide can explain the principles, but a qualified demonstration is the safest next step.
+Some techniques cannot be responsibly learned from a short written description alone. Katsuramuki with an usuba, fish-head work with a deba and rapid professional chopping all combine blade geometry, body position and practiced feedback.
 
-This is not a failure of the book. Cooking is learned through a mixture of words, observation and repetition. The written explanation gives the learner a map; a qualified demonstration supplies the body position, timing and feedback that are difficult to communicate safely on a page.
+Written explanation can establish the principles, but these techniques benefit from qualified demonstration because body position, timing and tactile feedback are difficult to communicate safely on a page.
 
 ## A seven-day practice sequence
 
@@ -226,16 +218,3 @@ Use inexpensive, stable ingredients and stop before fatigue reduces control.
 | 5 | Carrot or celery, julienne | Uniform first slices and claw position |
 | 6 | Onion, dice and mince | Stable sequence rather than speed |
 | 7 | Repeat the least comfortable movement | Relaxed grip and consistent pieces |
-
-## What to remember
-
-- Choose and understand the grip in the weight-and-balance chapter; do not relearn the same grip taxonomy here.
-- Straight chopping uses a flat section of edge.
-- Push cutting moves forward and down.
-- Draw slicing uses the length of the blade and minimizes compression.
-- A curved chef's knife suits a wide rolling rock; a round-tip nakiri is exceptionally well suited to a short, stable pivot rock.
-- Uniform preparation begins by stabilizing and orienting the food.
-- Specialist knives reward the movement they were designed to perform.
-- Speed is the visible result of control, not a substitute for it.
-
-> **Practice principle:** control first, consistency second, speed last.
