@@ -1,5 +1,5 @@
 site_name: The Gongfu of Xinzuo
-site_description: "A practical guide to kitchen knives: materials, shapes and techniques for masterful cutting, with examples from Xinzuo."
+site_description: "Xinzuo's practical guide to kitchen knives: materials, shapes, construction, use, care and cutting technique."
 site_author: Francesco Claudio Mazza, EU Brand and Operations Manager at Xinzuo
 site_url: https://francescocmazza.github.io/xinzuo-kung-fu/
 
@@ -64,7 +64,7 @@ nav:
       - Alloying Elements: 02-steels-and-metallurgy/alloying-elements.md
       - Conventional and Powder-Metallurgy Steels: 02-steels-and-metallurgy/conventional-and-powder-metallurgy-steels.md
       - Heat Treatment and Carbides: 02-steels-and-metallurgy/heat-treatment-and-carbides.md
-      - Xinzuo Blade Steels - Case Study: 02-steels-and-metallurgy/xinzuo-blade-steels.md
+      - Xinzuo Blade Steels: 02-steels-and-metallurgy/xinzuo-blade-steels.md
       - Xinzuo Handle Materials: 02-steels-and-metallurgy/xinzuo-handle-materials.md
       - Damascus Steel: 03-blade-construction/damascus-steel.md
       - Self-Sharpening Full Damascus: 03-blade-construction/self-sharpening-full-damascus.md
