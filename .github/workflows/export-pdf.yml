@@ -28,6 +28,7 @@ on:
       - "localization/**"
       - "scripts/multilingual_site.py"
       - "scripts/auto_translate.py"
+      - "scripts/centralize_bibliography.py"
       - "scripts/publication_metadata.py"
       - "scripts/export_pdf_guides.py"
       - "scripts/pdf_export/**"
@@ -67,6 +68,9 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y fonts-noto fonts-noto-cjk fonts-noto-cjk-extra
+
+      - name: Centralize bibliography in English source
+        run: python scripts/centralize_bibliography.py
 
       - name: Install local translation dependencies
         if: github.event_name == 'workflow_dispatch' && inputs.language != 'en'
