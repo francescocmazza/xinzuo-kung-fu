@@ -3,7 +3,7 @@ title: How to Cut - Essential Knife Techniques
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-23
+reviewed: 2026-08-25
 translation_priority: highest
 ---
 
@@ -23,31 +23,7 @@ Stand close enough that you do not have to reach. Relax your shoulders. Keep the
 
 Hold the food with the supporting hand in a claw shape: fingertips curved inward, thumb behind them and the side of the blade guided by the first joints rather than by exposed fingertips. The claw is not a rigid pose. It is a moving guide that retreats a little after each cut.
 
-## Grip and balance: the knife is designed around the hand
-
-A knife is not balanced in the abstract. The same knife can feel neutral in one grip and noticeably blade-heavy or handle-heavy in another because the effective support point moves with the hand. Xinzuo therefore develops and balances different knives around three broad grip positions. These are not rigid rules - hand size, technique and personal preference still matter - but they explain why different models can feel deliberately different.
-
-### Handle grip
-
-In the most familiar handle grip, the hand stays mainly on the handle and the thumb and index finger remain behind, or close to, the bolster rather than advancing significantly onto the blade. This is an intuitive grip for many home cooks and for users who prefer a more conventional hold.
-
-A knife intended for this position can carry its useful balance slightly farther back because the hand supports the knife from the handle. The handle shape and its mass therefore play a particularly important role in how stable and comfortable the knife feels.
-
-### Pinch grip
-
-Many Xinzuo chef-oriented knives are balanced for a **pinch grip**. Here the hand moves forward so that a substantial part of the palm - often around half of it, and sometimes a little more depending on the hand and knife - lies over or immediately around the bolster area. The thumb and index finger pinch the two faces of the blade, commonly about one centimetre or more in front of the bolster, while the remaining fingers wrap naturally around the handle.
-
-This direct contact with the blade gives fine information about where the edge is and how it is moving. On a knife designed for this grip, the balance point commonly sits near the bolster or slightly forward of it, close to the place where the hand actually controls the knife. The result can feel neutral and precise even if the same knife feels more blade-heavy when held only at the rear of the handle.
-
-The grip should still be gentle. Pinch for control, not for force. Excess tension reduces sensitivity and makes small corrections harder.
-
-### Intermediate or hybrid grip
-
-Some Xinzuo knives are balanced for a position between the two. The hand advances toward the bolster, and the thumb and index finger may sit on or just ahead of it, but the grip does not move as far onto the blade as a pronounced pinch grip. Most of the hand still receives support from the handle.
-
-This intermediate balance can be useful on versatile knives because the user can move slightly backward when more leverage feels helpful and slightly forward when precision matters. It is not a compromise caused by uncertain design; it is a deliberate way of making a knife comfortable across a wider range of hand positions.
-
-For this reason, the phrase **well balanced** should always be followed by a practical question: balanced where? When comparing knives, hold each one in the grip for which it was designed as well as in the grip you personally use. Consider the balance point together with blade mass, handle length, bolster shape and the amount of safe space available for thumb and index finger.
+The three main ways of positioning the knife hand—**handle grip, intermediate or hybrid grip, and pinch grip**—are explained in full in [Weight and Balance](../05-knife-types/weight-and-balance.md). They are not repeated here. Before practising a movement, choose the grip that feels stable on the particular knife, keep it relaxed and remember that moving the hand forward or backward also changes the balance you feel.
 
 > **The four-word safety check:** stable board, stable food, clear path, hidden fingertips.
 
@@ -116,29 +92,35 @@ Place the breast across the board. Set the heel of the knife just beyond the far
 
 A long draw spreads the work across more of the edge. It reduces downward compression and leaves a smoother cut surface. This matters with delicate fish because a ragged surface changes both appearance and texture.
 
-### Historical connection: a cut designed for presentation
-
-Traditional Japanese sashimi knives became long because the cook wanted to finish a slice with as few interruptions as possible. The single-bevel yanagiba adds controlled food separation to that long draw. Its history is not a story of sharpness alone; it is a story of making the cut surface part of the finished dish.
+Traditional Japanese sashimi knives became long because the cook wanted to finish a slice with as few interruptions as possible. The single-bevel yanagiba adds controlled food separation to that long draw. The important connection here is practical: the surface left by the cut is part of the finished dish.
 
 ## 4. Rock chopping
 
-### What the movement looks like
+Rock chopping is easier to understand if two related movements are separated: the **wide rolling rock** of a curved chef's knife and the **compact pivot rock** that a round-tip nakiri can perform exceptionally well.
 
-The front of the edge stays on or close to the board while the heel rises and falls. The blade follows its curved belly like a wheel moving through a short arc.
+### Wide rolling rock
 
-This movement suits Western chef's knives with a continuous curve. Some gyuto also rock comfortably, but the actual profile matters more than the category name. Very flat nakiri and some bunka feel awkward when forced into a wide rock.
+With a Western chef's knife, the front of the edge stays on or close to the board while the heel rises and falls. The contact point travels along the curved belly, almost as if the edge were a section of a wheel. Some gyuto also rock comfortably, but the actual profile matters more than the category name.
+
+This broad rolling movement depends on curvature. A very flat blade without a suitable front transition should not be forced to imitate it.
+
+### Why the round-tip nakiri is ideal for a compact rock
+
+A **round-tip nakiri** solves the same general problem in a different and, for compact rocking and mincing, particularly elegant way. Instead of relying on a long curved belly, it provides a rounded front whose extreme nose is normally unsharpened or safely transitioned away from a piercing point. That rounded front can remain in controlled contact with the board while the heel is raised and lowered through a short arc.
+
+For this specific kind of rock chopping, the geometry is close to ideal. The rounded nose creates a broad, predictable pivot rather than concentrating the motion on a fragile point. The tall blade gives generous knuckle clearance and an easy place for the guiding hand to control the knife. Behind the pivot, the relatively straight working edge descends decisively onto the board, so herbs and small ingredients are cut cleanly rather than left connected by an overly curved belly.
+
+The result is different from the exaggerated rocking sweep of a classic chef's knife. A round-tip nakiri works best with a **short, controlled pivoting movement**: the front remains planted, the heel rises only as much as necessary, and the knife advances through the pile in small steps. It is especially effective for herbs, fine vegetable mincing and repeated compact board work.
+
+This is also why the rounded front should not be dismissed as merely a tip that has lost piercing ability. In this design the absence of a fine point is functional: the front becomes a stable board-contact feature that can tolerate repeated pivoting much better than a delicate K-tip.
 
 ### Try it with parsley
 
-Gather the leaves into a compact pile. Place the front portion of the edge on the board. Keep the guiding hand safely on the spine near the tip, never near the cutting edge. Raise and lower the heel while the blade rolls across its curve. Re-gather the herbs with the broad side of the blade, not the cutting edge.
-
-### Why it works
-
-The curved edge maintains contact as the knife pivots. The cook can repeat the movement without lifting the whole blade high above the board.
+Gather the leaves into a compact pile. With a curved chef's knife, place the forward working section on the board and roll across the belly. With a round-tip nakiri, place the rounded front on the board as the pivot and raise and lower the heel in a short arc. Keep the guiding hand safely on the spine or upper blade area, never near the cutting edge. Re-gather the herbs with the broad side of the blade, not the edge.
 
 ### Common mistake
 
-Do not rock on the fragile K-tip of a bunka or kiritsuke-style knife. The tip is for precision, not for acting as a pivot under sideways stress.
+Do not rock on the fragile K-tip of a bunka or kiritsuke-style knife. A K-tip is a precision point, not a bearing surface for repeated board contact or lateral stress. Likewise, do not force a square-front or very flat nakiri into a wide rolling arc for which its geometry was not designed.
 
 ## 5. Tip work
 
@@ -146,7 +128,7 @@ The tip is used for small incisions, trimming and work in confined spaces. Keep 
 
 To remove the core from a tomato, place the tomato securely on the board, insert only the necessary length of the tip beside the stem and guide a shallow circle. To score skin or pastry, use the weight of the blade and a light drawing motion.
 
-The pointed tip of a gyuto or chef's knife is versatile. A bunka's K-tip gives a clear view of the contact point but is usually thinner and more vulnerable. A rounded nakiri sacrifices piercing ability in exchange for a straightforward chopping profile.
+The pointed tip of a gyuto or chef's knife is versatile. A bunka's K-tip gives a clear view of the contact point but is usually thinner and more vulnerable. A round-tip nakiri deliberately gives up piercing work in exchange for a robust, predictable front that can support compact pivot cutting on the board.
 
 > **Rule:** a tip cuts by moving along its edge. It is not a screwdriver, lever or drill.
 
@@ -185,7 +167,7 @@ If the pieces vary greatly, slow down and improve the first set of slices. Irreg
 
 Mincing reduces food to very small pieces. Begin with slices, then strips, then cross-cuts. Only after the pieces are already small should you gather them and make additional passes.
 
-For garlic or herbs, use straight chopping with a compact blade or a gentle rocking action with a curved chef's knife. Re-gather the food with the spine or broad face. Repeatedly scraping the edge sideways against the board weakens the apex.
+For garlic or herbs, use straight chopping with a compact blade, a gentle rolling action with a curved chef's knife, or the short pivot rock of a round-tip nakiri. Re-gather the food with the spine or broad face. Repeatedly scraping the edge sideways against the board weakens the apex.
 
 Do not chase an abstract number of passes. Stop when the texture suits the recipe. Bruised herbs and garlic paste are sometimes desirable, but they are different results from a clean mince.
 
@@ -240,19 +222,18 @@ Use inexpensive, stable ingredients and stop before fatigue reduces control.
 | 1 | Cucumber, straight chopping | Stable board and complete edge contact |
 | 2 | Carrot, push cutting | Forward movement before extra force |
 | 3 | Cooked boneless food, draw slicing | Long stroke and smooth cut surface |
-| 4 | Parsley, gentle rocking | Natural use of the blade's curve |
+| 4 | Parsley, round-tip nakiri pivot or chef-knife rock | Stable pivot and natural use of the actual profile |
 | 5 | Carrot or celery, julienne | Uniform first slices and claw position |
 | 6 | Onion, dice and mince | Stable sequence rather than speed |
 | 7 | Repeat the least comfortable movement | Relaxed grip and consistent pieces |
 
 ## What to remember
 
-- Knife balance only makes sense in relation to the grip position.
-- Xinzuo designs include handle-grip, pinch-grip and intermediate-grip balance strategies.
+- Choose and understand the grip in the weight-and-balance chapter; do not relearn the same grip taxonomy here.
 - Straight chopping uses a flat section of edge.
 - Push cutting moves forward and down.
 - Draw slicing uses the length of the blade and minimizes compression.
-- Rocking depends on curvature; it is not the correct movement for every knife.
+- A curved chef's knife suits a wide rolling rock; a round-tip nakiri is exceptionally well suited to a short, stable pivot rock.
 - Uniform preparation begins by stabilizing and orienting the food.
 - Specialist knives reward the movement they were designed to perform.
 - Speed is the visible result of control, not a substitute for it.

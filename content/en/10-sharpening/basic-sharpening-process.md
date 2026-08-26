@@ -3,7 +3,7 @@ title: A Practical Sharpening Process
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-23
+reviewed: 2026-08-25
 translation_priority: high
 ---
 
@@ -17,7 +17,7 @@ The underlying process is much simpler:
 
 Everything else - stone grit, angle, pressure, burr and finishing method - helps control that process.
 
-This chapter introduces a practical method for ordinary double-bevel kitchen knives. It explains what to observe and why each step exists, without requiring specialist equipment. Traditional single-bevel knives such as yanagiba, usuba and deba need a different approach because their broad main bevel and hollow reverse side form a specific geometry; that difference is explained separately below.
+This chapter is the book's complete practical method for ordinary double-bevel kitchen knives. Earlier chapters may mention sharpening when it is necessary to explain steel, geometry or maintenance, but the full technique is deliberately kept here rather than repeated in several places. Traditional single-bevel knives such as yanagiba, usuba and deba need a different approach because their broad main bevel and hollow reverse side form a specific geometry; that difference is explained separately below.
 
 Sharpening becomes easier to learn when it is divided into observable stages: stabilize the stone, find the **edge bevel or microbevel**, reach the apex, reduce the burr and test the result. A beginner does not need to imitate the speed of an experienced sharpener. Each stage can be practised and improved separately.
 
@@ -127,7 +127,15 @@ This is a learning tool, not a permanent requirement. With practice, the user le
 
 A sharpening angle is the angle between the blade and the stone that brings the intended edge facet into contact with the abrasive.
 
-Around 15 degrees per side is a useful reference for many thin double-bevel kitchen knives. It is not a universal rule. A lower angle creates a thinner, more efficient edge but reduces the amount of steel supporting the apex. A higher angle creates a stronger edge but increases cutting resistance.
+Around **15 degrees per side** is a useful mental reference for many thin double-bevel kitchen knives. It is not a universal rule. A lower angle creates a thinner, more efficient edge but reduces the amount of steel supporting the apex. A higher angle creates a stronger edge but increases cutting resistance.
+
+### The two-coin visual reference
+
+A familiar workshop memory aid is to place **two medium-size coins between the stone and the blade of a typical chef's knife** while first visualizing the presentation angle. With a suitable combination of coin thickness and blade height, the resulting elevation is in the neighbourhood of the common **15-degree** reference and can help a beginner remember what that angle looks like after the coins are removed.
+
+Treat this as a **visual approximation, not as an angle gauge**. Two coins do not mathematically create 15 degrees on every knife. The angle is determined by the height of the blade at the point being measured and the combined thickness of the coins, both of which vary. A tall chef's knife, a narrow utility knife and a small paring knife will produce different angles from the same stack. The existing edge bevel, a marker test and the specification of the particular knife remain better final references.
+
+The value of the coin exercise is therefore not numerical precision. It gives the eye and hand a simple starting picture for a common chef-knife angle, after which consistency and actual bevel contact become more important than the coins themselves.
 
 Heavy-duty knives, cleavers and softer steels may use stronger angles. Fine Japanese knives may use lower or asymmetrical geometry. The product's existing edge bevel and intended work should guide the choice.
 
@@ -309,15 +317,27 @@ Use extremely light pressure. The blade should almost feel as if it is being gui
 
 If the sound becomes harsh, the knife sticks or the angle becomes difficult to control, reduce pressure and add water.
 
+## Steel choice changes the sharpening response
+
+Hardness alone does not tell you whether a steel will feel easy or difficult on a stone. The abrasive must cut the **matrix and the carbide population**, and the burr must then be removed cleanly.
+
+This point is worth making explicit because DIN 1.4116 is sometimes described too casually as an “easy-to-sharpen steel” simply because kitchen knives using it are often heat-treated to a moderate 56-58 HRC range. That moderate hardness contributes to forgiving use, but 1.4116 can still form a persistent burr and may feel less crisp on a water stone than a fine high-carbon steel.
+
+**Blue Steel No. 2 is a good counterexample.** It is commonly used at considerably higher hardness, yet a well heat-treated blade can abrade very readily on suitable water stones, form a clear burr and deburr cleanly. Its disadvantage is not necessarily sharpening effort but reactive care: it must be cleaned and dried promptly.
+
+High-volume vanadium- or niobium-carbide powder steels can present the opposite problem. Even if the nominal HRC is not dramatically higher, extremely hard MC carbides resist ordinary abrasives and can make diamond or other very efficient abrasives preferable.
+
+The correct lesson is therefore not “soft steel equals easy sharpening.” Consider **hardness, carbide type and volume, heat treatment, edge geometry, burr behaviour and the abrasive being used**.
+
 ## Choosing the final grit
 
-For Xinzuo knives, the steel and intended task guide the abrasive and finish. DIN 1.4116, 440C, 14C28N, AUS-10, 10Cr15CoMoV and 12Cr18MoV are generally approachable with suitable conventional stones. Highly wear-resistant ZDP-189, SRS13, M390 and 14Cr14MoVNb may benefit from efficient premium ceramic or diamond abrasives and more time. Blue Steel No. 2 can respond readily to water stones but must be dried immediately. These are tendencies, not fixed angle or grit prescriptions: preserve the model's geometry and finish for its actual use.
+The final grit should match the task rather than the price or prestige of the knife.
 
-Xinzuo's full-Damascus differential-wear mechanism does not eliminate sharpening. When such a blade eventually needs restoration, sharpen the complete edge normally and avoid polishing choices that unintentionally remove all useful slicing bite.
+A medium finish preserves useful microscopic bite and is excellent for tomatoes, meat and fibrous vegetables. A finer finish supports smoother push cuts, delicate fish preparation and refined slicing. An ultra-polished edge is not automatically better; on some foods it can lose useful initial bite if the apex and finish are not matched to the task.
 
-A medium finish provides bite and is excellent for general kitchen work, tomatoes, meat and fibrous vegetables. A fine finish produces a smoother edge and can support clean push cuts, delicate fish preparation and refined slicing. An ultra-polished edge is not automatically better. On some foods it may slide before beginning the cut, especially if the apex is not perfect.
+For a real product range such as Xinzuo's, the steel helps determine which abrasive is efficient, but the same general rules still apply. High-wear-resistance steels such as ZDP-189, SRS13, M390 and 14Cr14MoVNb may benefit from premium ceramic or diamond abrasives. More conventional stainless steels can often be maintained effectively with suitable water stones. Blue Steel No. 2 can respond very readily to water stones but requires immediate drying. These are tendencies, not fixed angle or grit prescriptions: preserve the model's geometry and choose the finish for the food and cutting style.
 
-The edge should match the knife's purpose.
+Full-Damascus differential wear does not eliminate sharpening. When such a blade eventually needs restoration, sharpen the complete edge normally and avoid polishing choices that unintentionally remove all useful slicing bite.
 
 ## Common sharpening mistakes
 
@@ -363,7 +383,7 @@ A hollow surface changes the angle during the stroke.
 
 ### Treating every knife as 15 degrees per side
 
-Fifteen degrees is a useful reference, not a universal law.
+Fifteen degrees is a useful reference, not a universal law. The two-coin exercise is only a visual mnemonic; blade height and coin thickness determine the actual angle.
 
 ## A complete beginner routine
 
@@ -371,17 +391,18 @@ Fifteen degrees is a useful reference, not a universal law.
 2. Choose a stone coarse enough for the work.
 3. Prepare, flatten and secure the stone.
 4. Identify the existing **edge bevel or microbevel** with light strokes or a marker.
-5. Start with the tip on the stone.
-6. Sweep transversely so each normal pass travels from tip through middle to heel.
-7. Follow the belly by adjusting the handle smoothly while preserving the local edge angle.
-8. Form the smallest continuous burr possible along the entire edge.
-9. Repeat the same full-length movement on the second side until the burr moves back.
-10. Use local section work only where a specific area genuinely needs correction, then blend with full-length passes.
-11. Reduce pressure and alternate sides.
-12. Move to a finer stone only if the intended finish requires it.
-13. Remove the burr completely.
-14. Inspect and test on paper and suitable food.
-15. Wash and dry the knife, then rinse, flatten and air-dry the stone.
+5. Use the 15-degree/two-coin idea only as an approximate visual reference where appropriate, then follow the actual bevel.
+6. Start with the tip on the stone.
+7. Sweep transversely so each normal pass travels from tip through middle to heel.
+8. Follow the belly by adjusting the handle smoothly while preserving the local edge angle.
+9. Form the smallest continuous burr possible along the entire edge.
+10. Repeat the same full-length movement on the second side until the burr moves back.
+11. Use local section work only where a specific area genuinely needs correction, then blend with full-length passes.
+12. Reduce pressure and alternate sides.
+13. Move to a finer stone only if the intended finish requires it.
+14. Remove the burr completely.
+15. Inspect and test on paper and suitable food.
+16. Wash and dry the knife, then rinse, flatten and air-dry the stone.
 
 ## What to remember
 
