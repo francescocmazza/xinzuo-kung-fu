@@ -94,11 +94,3 @@ Momentum is different again. More moving mass can help a stroke carry through re
 For this reason, it is more useful to think in terms of **task and preference**. A cook who spends hours making small exact cuts may value low mass and quick direction changes. Someone repeatedly chopping dense vegetables may prefer a more blade-forward knife whose momentum contributes to the stroke. A user with a relaxed pinch grip may enjoy a balance point just ahead of the fingers, while another may prefer a more neutral feel. None of these preferences establishes a hierarchy of quality.
 
 The practical lesson is simple: after choosing the right blade shape, do not ask only whether a knife is light or heavy. Ask **where the weight is, how that weight behaves in the movement you actually use, and whether the geometry lets the edge pass through food efficiently**. Then, if possible, pick the knife up. Weight can help the cut, but it is one part of a system that also includes sharpness, thickness, balance, grip, technique, the ingredient and the user's own hand.
-
-## References
-
-1. Marsot J, Claudon L, Jacqmin M. “Assessment of knife sharpness by means of a cutting force measuring system.” *Applied Ergonomics* 38(1), 2007, 83–89. https://doi.org/10.1016/j.apergo.2005.12.007
-2. McGorry RW, Dowd PC, Dempsey PG. “Cutting moments and grip forces in meat cutting operations and the effect of knife sharpness.” *Applied Ergonomics* 34(4), 2003, 375–382. https://doi.org/10.1016/S0003-6870(03)00041-3
-3. Silva PL, et al. “Task difficulty and inertial properties of hand-held tools: An assessment of their concurrent effects on precision aiming.” *Human Movement Science* 48, 2016, 161–170. https://doi.org/10.1016/j.humov.2016.05.003
-
-Additional shape references: ZWILLING's knife guide describes the characteristic high Santoku blade and compact profile; specialist comparisons of Santoku and Bunka consistently identify the Bunka's fine K-tip as the precision-oriented and more delicate front geometry.

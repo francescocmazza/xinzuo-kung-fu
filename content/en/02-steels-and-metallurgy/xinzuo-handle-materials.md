@@ -166,7 +166,3 @@ Grip shape and size still matter more than a material label. A beautiful materia
 A handle material sets the possibilities for durability, weight and appearance; the experience in the hand is ultimately determined by the combination of material, shape, finish, assembly and care.
 
 *Source note: the material list and series examples on this page are based on Xinzuo's 2025 product information. Natural materials vary, and the individual model specification takes precedence.*
-
-### Historical source
-
-- [Museum of Fine Arts Boston CAMEO, Micarta](https://cameo.mfa.org/wiki/Micarta)

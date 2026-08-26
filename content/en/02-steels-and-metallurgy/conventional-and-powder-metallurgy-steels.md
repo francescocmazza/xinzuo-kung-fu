@@ -78,11 +78,3 @@ This is one reason powder metallurgy has been so important for modern high-perfo
 Xinzuo's use of steels such as SRS13, M390, ZDP-189 and 14Cr14MoVNb should be read in this context. Their performance does not come from the word “powder” itself. It comes from the combination of alloy composition, powder-metallurgy processing, heat treatment and blade geometry. The powder route solves one important problem — microstructural uniformity — but the finished knife still depends on all the steps that follow.
 
 The memorable lesson is simple: **a steel recipe tells us what atoms are present; the manufacturing route helps decide how evenly those atoms and the carbides they form are distributed; the heat treatment decides what final structures they become; and the edge geometry determines how that microscopic structure meets the food.**
-
-### Technical sources
-
-- [The Hong Kong Polytechnic University, *Professional Guide on Steel*, section 2.2.2: Iron-carbon phase diagram](https://www.polyu.edu.hk/cnercsteel/-/media/department/cnercsteel/publication/professional-guide/eqsteel_20211115.pdf)
-- [Aalto University, Fe-C phase diagram](https://wiki.aalto.fi/display/SSC/Fe-C%2Bphase%2Bdiagram)
-- [Carpenter Technology, Powder Metal Alloy Bridges the Gap](https://www.carpentertechnology.com/blog/powder-metal-alloy-bridges-the-gap)
-- [Carpenter Technology, Micro-Melt 20-4](https://www.carpentertechnology.com/alloy-finder/Micro-Melt-20-4)
-- [Uddeholm, Vanadis 8 SuperClean - The Powder Metallurgy Process](https://www.uddeholm.com/app/uploads/sites/230/2024/05/Tech-Uddeholm-Vanadis-8-EN.pdf)

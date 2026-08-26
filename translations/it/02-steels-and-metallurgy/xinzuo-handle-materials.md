@@ -1,5 +1,5 @@
 ---
-source_hash: 6c4562a5b0770f5dd88c1bf7db636409ca52bac3cc5dbf5229b5aadac334967c
+source_hash: aa84658b396d1d675b1e599277bcc69789092f68774e6f7fbf1f12c274d92b37
 ---
 
 # Materiali Xinzuo Handle - Sentire, Cura e Scelta
@@ -93,11 +93,9 @@ Xinzuo utilizza il legno Pakka in diverse famiglie importanti, tra cui Damasco e
 
 Micarta è un laminato prodotto mediante incollaggio di strati di tessuto o carta con resina. Il lino Micarta, utilizzato nelle selezionate serie Xinzuo, può fornire un tessuto finemente visibile e una superficie sicura e tattile.
 
-#### Collegamento storico: dall'elettricità alla cucina
-
 Micarta è stato sviluppato da George Westinghouse nel 1910 come un laminato isolante elettrico. Layer di carta o tessuto sono stati legati con resina per creare un forte e stabile materiale industriale. Durante la prima guerra mondiale ha trovato anche leggere applicazioni strutturali in aerei. Molto più tardi, la stessa combinazione di stabilità dimensionale, resistenza e lavorabilità lo ha reso attraente per utensili e coltelli maniglie.
 
-Questa origine rende il materiale facile da ricordare. Micarta non ha iniziato come imitazione del legno. E 'iniziato come materiale ingegneristico chiesto di rimanere affidabile intorno a elettricità, calore e lavori meccanici.
+Questa origine è utile perché spiega meglio il materiale che l'idea che Micarta sia semplicemente un'imitazione del legno. E' nata come materiale ingegneristico progettato per rimanere affidabile intorno all'elettricità, al calore e al lavoro meccanico.
 
 È stabile, resistente e meno sensibile all'umidità rispetto al legno naturale. La sua presa dipende dalla finitura superficiale: Micarta lucido si sente più liscia, mentre una texture più esposta può fornire più trazione. Può non piacere a qualcuno specificamente alla ricerca di grano naturale, ma è altamente pratico per l'uso frequente.
 
@@ -146,11 +144,7 @@ Questi dettagli richiedono dati di prodotto verificati. Non trasformare un'etich
 
 ## Scegliere un manico nel modo in cui verrà utilizzato
 
-- Scegli **legno di rosa, olivo, noce, rovere o sicomoro figurato** per una venatura naturale visibile e un caldo carattere tattile.
-- Scegli **legna da stiro o legno d'acciaio desertico** per una sensazione premium più densa, più scura e sostanziale.
-- Scegliere **Pakka legno** per un aspetto simile al legno con maggiore consistenza e più facile cura quotidiana.
-- Scegliere **Micarta o G10** per la stabilità, la durata e la fiducia in lavori esigenti o umidi.
-- Scegli ** fibra di carbonio, carbonio/resina o resina** per effetti decorativi a basso peso, stile moderno o ripetibili.
+Roseto, legno d'olivo, noce, rovere e sicomoro figurato enfatizzano le venature naturali visibili e un caldo carattere tattile. L'ebano e il legno di ferro desertico offrono una sensazione più densa, scura e sostanziale. Il legno di Pakka mantiene un aspetto simile al legno migliorando la consistenza e la facilità di cura. Micarta e G10 privilegiano stabilità e durata nel lavoro impegnativo o umido, mentre fibra di carbonio, carbonio/resina e resina permettono un basso peso, uno stile moderno ed effetti decorativi ripetibili.
 
 La forma e le dimensioni della presa contano ancora più di un'etichetta materiale. Un materiale bello non può compensare un manico che non si adatta alla mano o allo stile di lavoro dell'utente.
 
@@ -163,10 +157,6 @@ La forma e le dimensioni della presa contano ancora più di un'etichetta materia
 5. Non utilizzare pastiglie abrasive su resina lucida, fibra di carbonio o finiture in legno pregiato.
 6. Ispezionare periodicamente il legno naturale e utilizzare solo un adeguato condizionatore a contatto con gli alimenti, se necessario.
 
-> **Principio di pratica:** un materiale di maniglia imposta le possibilità di durata, peso e aspetto; forma, finitura, assemblaggio e cura determinano l'esperienza nella mano.
+Un materiale di maniglia imposta le possibilità di durata, peso e aspetto; l'esperienza nella mano è determinata in ultima analisi dalla combinazione di materiale, forma, finitura, assemblaggio e cura.
 
 *Fonte: l'elenco dei materiali e gli esempi di serie di questa pagina si basano sulle informazioni sul prodotto 2025 di Xinzuo. I materiali naturali variano e le specifiche dei singoli modelli hanno la precedenza.*
-
-### Sorgente storica
-
-- [Museo di Belle Arti di Boston CAMEO, Micarta](https://cameo.mfa.org/wiki/Micarta)

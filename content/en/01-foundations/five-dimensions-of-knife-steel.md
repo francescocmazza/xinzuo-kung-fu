@@ -111,13 +111,3 @@ None of those priorities is inherently more advanced. They are different answers
 The central lesson is therefore more useful than “higher is better”:
 
 > **A steel grade describes potential. Heat treatment develops the microstructure, geometry determines how the edge meets food, and the user's technique determines which trade-offs matter in practice.**
-
-### Technical and historical sources
-
-- [Rockwell and Rockwell, US Patent 1,294,171, Hardness Tester](https://patents.google.com/patent/US1294171A/en)
-- [worldstainless, Stainless Steel Terminology](https://worldstainless.org/wp-content/uploads/2025/02/terminology.pdf)
-- [British Stainless Steel Association, When is stainless steel passive or active?](https://bssa.org.uk/bssa_articles/when-is-stainless-steel-passive-or-active-formation-of-the-passive-layer/)
-- [British Stainless Steel Association, The Discovery of Stainless Steel](https://bssa.org.uk/bssa_articles/the-discovery-of-stainless-steel/)
-- [Knife Steel Nerds, Carbide Types in Knife Steels](https://knifesteelnerds.com/2019/07/15/carbide-types-in-knife-steels/)
-- [Knife Steel Nerds, Which Steel Has the Best Edge Retention? Part 2](https://knifesteelnerds.com/2018/11/26/steel-edge-retention2/)
-- [Knife Steel Nerds, Which Knife Steels Have the Best Corrosion Resistance?](https://knifesteelnerds.com/2019/01/14/which-knife-steels-have-the-best-corrosion-resistance/)

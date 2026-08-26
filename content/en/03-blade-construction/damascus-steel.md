@@ -261,11 +261,3 @@ Food release depends on the whole blade shape and surface, not only the visible 
 The pattern may be what first attracts the eye. Understanding the construction reveals what the pattern actually means.
 
 > **Practice principle:** read the structure before judging the pattern.
-
-### Historical sources
-
-- [The Metropolitan Museum of Art, Ten Wootz Steel Ingots with Bag](https://www.metmuseum.org/art/collection/search/894714)
-- [The Metropolitan Museum of Art, Persian Saber with a Watered-Steel Blade](https://www.metmuseum.org/art/collection/search/32739)
-- [William Lox, "Bintie: The Wootz Steel in Ancient China," *Indian Journal of History of Science* 44.3 (2009)](https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_3_2_WLox.pdf)
-- Donald B. Wagner, *Iron and Steel in Ancient China* (Brill, 1993), and *Science and Civilisation in China*, Vol. 5, Part 11: *Ferrous Metallurgy* (Cambridge University Press, 2008)
-- [Marianne Reibold et al., "Carbon Nanotubes in an Ancient Damascus Sabre," *Nature* 444 (2006)](https://pubmed.ncbi.nlm.nih.gov/17108950/)

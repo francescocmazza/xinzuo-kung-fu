@@ -1,5 +1,5 @@
 ---
-source_hash: 13daa0567bc63f127fafbc377507c838329019fe7b2ca98acb7579a703277510
+source_hash: cbb1f444e7ba031d97db9ed7fd0de41edaa684caf527cf84dd4b914ec33b05c3
 ---
 
 # Damascus Steel - Pattern, Storia e Costruzione
@@ -256,11 +256,3 @@ Il rilascio di cibo dipende dalla forma e dalla superficie dell'intera lama, non
 Il modello può essere ciò che attrae prima l'occhio. Capire la costruzione rivela ciò che il modello in realtà significa.
 
 > **Principio di pratica:** leggi la struttura prima di giudicare il modello.
-
-### Fonti storiche
-
-- [Il Metropolitan Museum of Art, Dieci Wootz Steel Ingots con Borsa](https://www.metmuseum.org/art/collection/search/894714)
-- [Il Metropolitan Museum of Art, Saber persiano con una lama in acciaio ad acqua](https://www.metmuseum.org/art/collection/search/32739)
-- [William Lox, "Bintie: The Wootz Steel in Ancient China," * Indian Journal of History of Science* 44.3 (2009)](https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_3_2_WLox.pdf)
-- Donald B. Wagner, *Iron and Steel in Ancient China* (Brill, 1993), and *Science and Civilisation in China*, Vol. 5, Part 11: *Ferrous Metallurgy* (Cambridge University Press, 2008)
-- [Marianne Reibold et al., "Carbon Nanotubes in an Ancient Damasco Sabre," *Nature* 444 (2006)](https://pubmed.ncbi.nlm.nih.gov/17108950/)

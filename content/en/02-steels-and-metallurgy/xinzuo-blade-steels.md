@@ -131,11 +131,3 @@ The range brings together several different metallurgical strategies:
 The useful conclusion is not “buy the steel at the top of the table.” It is to choose the Xinzuo knife whose steel, heat treatment, geometry, maintenance requirements and sharpening response match the work and the person who will use it.
 
 *Source note: steel names, published hardness ranges and Xinzuo-specific constructions on this page are based on Xinzuo's 2025 product information. The specification of the individual model takes precedence.*
-
-### Sources and further reading
-
-- Xinzuo 2025 product catalogue and individual current series specifications
-- [Knife Steel Nerds, Carbide Types in Knife Steels](https://knifesteelnerds.com/2019/07/15/carbide-types-in-knife-steels/)
-- [Knife Steel Nerds, Cryogenic Processing of Steel Part 1](https://knifesteelnerds.com/2018/12/03/cryogenic-part1/)
-- [Knife Steel Nerds, M390 vs 20CV vs 204P](https://knifesteelnerds.com/2020/03/30/m390-vs-20cv-vs-204p-3rd-generation-powder-metallurgy-technology/)
-- [William Lox, "Bintie: The Wootz Steel in Ancient China," *Indian Journal of History of Science* 44.3 (2009)](https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_3_2_WLox.pdf)

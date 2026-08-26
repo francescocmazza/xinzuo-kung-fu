@@ -1,5 +1,5 @@
 ---
-source_hash: b40ee6d817f5354f89ef57b132dceadf5f062723d104857da3d78df2906a883d
+source_hash: 98086987321ed4801ec5c8814a8572b00c10a11e268a4ac27b593657696ca106
 ---
 
 # Acciai convenzionali e metallurgici a polvere
@@ -73,11 +73,3 @@ Questo è uno dei motivi per cui la metallurgia delle polveri è stata così imp
 L'impiego di Xinzuo di acciai come SRS13, M390, ZDP-189 e 14Cr14MoVNb deve essere letto in questo contesto. Le loro prestazioni non derivano dalla parola "polverina" stessa. Proviene dalla combinazione di composizione in lega, lavorazione in polvere-metallurgia, trattamento termico e geometria della lama. Il percorso in polvere risolve un problema importante "uniformità microstrutturale" ma il coltello finito dipende ancora da tutti i passaggi che seguono.
 
 La lezione memorabile è semplice: **una ricetta d'acciaio ci dice quali atomi sono presenti; il percorso di produzione aiuta a decidere come gli atomi e i carburi che formano sono distribuiti in modo uniforme; il trattamento termico decide quali strutture finali diventano; e la geometria del bordo determina come quella struttura microscopica incontra il cibo.**
-
-### Fonti tecniche
-
-- [Il Politecnico di Hong Kong, * Guida professionale sull'acciaio*, sezione 2.2.2: Diagramma delle fasi ferro-carbonio](https://www.polyu.edu.hk/cnercsteel/-/media/department/cnercsteel/publication/professional-guide/eqsteel_20211115.pdf)
-- [Università di Aalto, diagramma di fase Fe-C](https://wiki.aalto.fi/display/SSC/Fe-C%2Bphase%2Bdiagram)
-- [Tecnologia Carpenter, lega di metallo in polvere Bridges the Gap](https://www.carpentertechnology.com/blog/powder-metal-alloy-bridges-the-gap)
-- [Carpenter Technology, Micro-Melt 20-4](https://www.carpentertechnology.com/alloy-finder/Micro-Melt-20-4)
-- [Uddeholm, Vanadis 8 SuperClean - Il processo di metallo in polvere](https://www.uddeholm.com/app/uploads/sites/230/2024/05/Tech-Uddeholm-Vanadis-8-EN.pdf)

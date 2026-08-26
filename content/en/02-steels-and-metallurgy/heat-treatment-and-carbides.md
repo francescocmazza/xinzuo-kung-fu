@@ -129,12 +129,3 @@ That redistribution affects several properties at once:
 - grain size and retained austenite further change the final behaviour.
 
 This is why alloy percentages are only the beginning. **Composition establishes the possible phases; processing decides the microstructure; geometry and sharpening decide how that microstructure reaches the cutting edge.**
-
-### Technical sources
-
-- [Knife Steel Nerds, Carbide Types in Knife Steels](https://knifesteelnerds.com/2019/07/15/carbide-types-in-knife-steels/)
-- [Knife Steel Nerds, Cryogenic Processing of Steel Part 1 - Maximizing Hardness](https://knifesteelnerds.com/2018/12/03/cryogenic-part1/)
-- [Knife Steel Nerds, Cryogenic Processing of Steel Part 3 - Wear Resistance and Edge Retention](https://knifesteelnerds.com/2018/12/17/cryogenic-processing-of-steel-part-3/)
-- [Knife Steel Nerds, Dry Ice vs Liquid Nitrogen vs Freezer - How Cold Do You Need for Cryo?](https://knifesteelnerds.com/2022/01/11/how-cold-for-cryo/)
-- [Knife Steel Nerds, M390 vs 20CV vs 204P](https://knifesteelnerds.com/2020/03/30/m390-vs-20cv-vs-204p-3rd-generation-powder-metallurgy-technology/)
-- Xinzuo 2025 product catalogue, individual series specifications for vacuum heat treatment and deep-freeze processing.

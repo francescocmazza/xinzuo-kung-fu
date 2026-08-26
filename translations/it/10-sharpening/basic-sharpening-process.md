@@ -1,5 +1,5 @@
 ---
-source_hash: 3f271540248f08efe0dd02de293f3e84a0da72b5d18a247b83679577b5dc2bcf
+source_hash: 5157bf9b344d49288968281bdf3fb8d87555b81da2b3fbb4dc86acf6029134eb
 ---
 
 # Un Processo di Affilatura Pratico

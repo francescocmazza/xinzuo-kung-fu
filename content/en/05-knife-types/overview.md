@@ -285,15 +285,3 @@ For most kitchens, the first serious knife should be a chef's knife, gyuto, sant
 Choose the profile before the steel. First decide whether the work needs broad board contact, a long draw, controlled flexibility, a precise point or supported mass. Then compare steel, heat treatment, handle and construction within that family. Product names and catalog examples are references; they do not replace the underlying geometry.
 
 The photographs in this chapter show real Xinzuo implementations of the forms discussed. They establish a visible profile, not every property of the knife. Hardness, grind, handedness, heat treatment, balance and bone capability must still be established from the exact model and from the principles explained in the following chapters.
-
-### Technical references
-
-- [Victorinox: Which knife does what](https://www.victorinox.com/en-US/Cutlery/Information/Which-knife-does-what/cms/whichknifedoeswhat/)
-- [KAI Europe: Japanese blade families](https://kai-europe.com/en/keyword/japanese-blades/)
-- [KAI 2025-26 kitchen-knife catalog](https://kai-europe.com/wp-content/uploads/2025/08/KAI_kitchen_knives_catalogue_2025-26_en.pdf)
-- [Tojiro: Western-style knife categories](https://www.tojiro-japan.com/knife_category/western_style_knives/)
-- [ZWILLING: Knife types and Santoku profile](https://www.zwilling.com/it/magazine/guida-ai-coltelli/knife-types.html)
-- [Knife Steel Nerds: Why Doesn't Heat Treating Affect Steel “Flex?”](https://knifesteelnerds.com/2018/03/13/why-doesnt-heat-treating-affect-steel-flex/)
-- [Knife Steel Nerds: What a Good Heat Treatment Can and Cannot Do](https://knifesteelnerds.com/2019/07/01/what-a-good-heat-treatment-can-and-cannot-do/)
-
-*Source note: Xinzuo product names and examples are used as concrete case studies inside a general technical explanation. Catalog-derived product photographs remain subject to the image-rights notice.*

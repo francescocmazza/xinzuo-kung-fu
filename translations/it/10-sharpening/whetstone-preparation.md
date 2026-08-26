@@ -1,5 +1,5 @@
 ---
-source_hash: 5ac43297e99fe85433d61deb9b3b2063ba347a0f9153c62a91a8aea7cf6577e6
+source_hash: 797176baa6a5e422a80451827c89fe25cb49c4d72fde83b91a84216f8d288238
 ---
 
 # Preparazione delle pietre d'acqua
@@ -42,17 +42,11 @@ Una pietra può richiedere:
 
 La ceramica densa e le pietre splash-and-go sono esempi comuni di prodotti che possono aver bisogno solo di bagnare la superficie. Le pietre in resina possono ammorbidire, rompere, separare o perdere forza se lasciate in acqua troppo a lungo. Le piastre di diamante non assorbono l'acqua e non devono essere trattate come pietre porose.
 
-La lezione corretta non è quindi "tutte le pietre devono impregnarsi." È:
-
-> Ammorbidire la maggior parte delle pietre assorbenti dell'acqua fino a quando le bolle si fermano sostanzialmente, ma controllare le istruzioni del produttore prima del primo utilizzo, perché pietre speciali possono avere bisogno di poco o nessun ammollo.
-
-## Collegamento storico: la pietra sotto la lama
+La lezione corretta non è quindi "tutte le pietre devono ammollo." È quello di ammollare le pietre assorbenti dell'acqua fino a quando non sono adeguatamente saturate mentre trattano le istruzioni del produttore come la regola di controllo per la pietra particolare.
 
 Molto prima che gli abrasivi fabbricati portassero un numero di grana stampato, gli affilatori hanno imparato il carattere della pietra locale attraverso il tatto, il suono e la finitura lasciata sull'acciaio. La tradizione naturale giapponese whetstone rimane particolarmente visibile intorno a Kyoto. Il Natural Whetstone e Hone Museum di Kameoka conserva esempi tra cui Tamba Aoto e Awasedo pietre e continua a insegnare l'affilatura attraverso la pratica diretta.
 
-Le pietre sintetiche moderne resero l'affilatura più ripetibile: l'abrasivo, il legante e la dimensione approssimativa delle particelle potevano essere progettati per un lavoro specifico. La vecchia abilità non scomparve. Sia che la pietra sia naturale o sintetica, l'affilatrice legge ancora acqua, suono, liquame, planarità e la risposta dell'acciaio.
-
-Questa storia spiega perché due pietre con una descrizione simile della grana possono sembrare diverse. Un numero di grana è utile, ma la pietra è anche un sistema materiale con il proprio raccoglitore, porosità e comportamento di taglio.
+Le pietre sintetiche moderne resero l'affilatura più ripetibile: l'abrasivo, il legante e la dimensione approssimativa delle particelle potevano essere progettati per un lavoro specifico. La vecchia abilità non scomparve. Sia che la pietra sia naturale o sintetica, l'affilatrice legge ancora acqua, suono, liquame, planarità e risposta dell'acciaio. Ecco perché due pietre con una descrizione simile della grana possono sembrare diverse. Un numero di grinta è utile, ma la pietra è anche un sistema di materiali con il proprio legante, porosità e comportamento di taglio.
 
 ## Tipi di mezzi di affilatura
 
@@ -238,15 +232,4 @@ Slurry è materiale sciolto sulla pietra. La bava è un sottile labbro di acciai
 8. Tenere l'acqua disponibile durante l'affilatura.
 9. Sciacquare, appiattire se necessario e asciugare all'aria dopo l'uso.
 
-## Cosa ricordare
-
-> La maggior parte delle pietre assorbenti tradizionali dell'acqua dovrebbe essere bagnato fino a quando il flusso di bolle si è sostanzialmente fermato. Ciò dimostra che l'acqua ha riempito i pori. Speciale, ceramica, resina-legato, diamante e spruzzi-e-go pietre può essere necessario solo bagnare la superficie o non ammollo, così le istruzioni del produttore vengono sempre prima.
-
-Una pietra ben preparata fornisce un feedback più chiaro, un'abrasione più coerente e un'esperienza di affilatura più sicura e piacevole.
-
-> **Principio di pratica:**preparare la superficie prima di cercare di perfezionare il movimento.
-
-### Fonti storiche
-
-- [Natural Whetstone and Hone Museum, Kameoka](https://www.tennentoishikan.com/en/)
-- [Prefettura di Kyoto Turismo, Natural Whetstone e Hone Museum](https://www.kyototourism.org/en/sightseeing/32542/)
+L'idea essenziale è che la preparazione dovrebbe seguire la costruzione ** effettiva della pietra**, non un rituale fisso. Le pietre d'acqua porose hanno bisogno di acqua sufficiente nei loro pori per rimanere stabili nell'uso; pietre dense e speciali possono richiedere poco o nessun ammollo. In ogni caso la pietra dovrebbe essere piatta, sicura e correttamente lubrificata prima che il bordo lo tocchi. Buona preparazione dà feedback più chiaro, abrasione più coerente e affilatura più sicura.

@@ -238,8 +238,3 @@ Slurry is loose material on the stone. The burr is a thin lip of steel still att
 9. Rinse, flatten if needed and air-dry after use.
 
 The essential idea is that preparation should follow the **actual construction of the stone**, not a fixed ritual. Porous water stones need enough water in their pores to remain stable in use; dense and special stones may require little or no soaking. In every case the stone should be flat, secure and correctly lubricated before the edge touches it. Good preparation gives clearer feedback, more consistent abrasion and safer sharpening.
-
-### Historical sources
-
-- [Natural Whetstone and Hone Museum, Kameoka](https://www.tennentoishikan.com/en/)
-- [Kyoto Prefecture Tourism, Natural Whetstone and Hone Museum](https://www.kyototourism.org/en/sightseeing/32542/)

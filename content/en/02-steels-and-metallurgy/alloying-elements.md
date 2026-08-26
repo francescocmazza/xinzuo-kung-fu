@@ -127,11 +127,3 @@ Even the location of an alloying element matters. Chromium dissolved in the matr
 This is also why familiar label claims need interpretation rather than repetition. “High carbon” usually points toward hardenability and potential hardness; “high chromium” usually points toward corrosion resistance only if enough chromium remains in solution; “vanadium carbides” point toward wear resistance; “cobalt-added” points toward heat-treatment stability; and “nickel Damascus” often describes visual contrast rather than an inherently better cutting edge.
 
 The useful conclusion is precise but simple: **an alloy name describes the ingredients and the potential. The finished knife reveals how successfully composition, heat treatment, microstructure and geometry were balanced.**
-
-### Technical and historical sources
-
-- [worldstainless, Stainless Steel Terminology](https://worldstainless.org/wp-content/uploads/2025/02/terminology.pdf)
-- [British Stainless Steel Association, When is stainless steel passive or active?](https://bssa.org.uk/bssa_articles/when-is-stainless-steel-passive-or-active-formation-of-the-passive-layer/)
-- [Knife Steel Nerds, Which Knife Steels Have the Best Corrosion Resistance?](https://knifesteelnerds.com/2019/01/14/which-knife-steels-have-the-best-corrosion-resistance/)
-- [Knife Steel Nerds, Carbon vs Stainless Steel in Knives](https://knifesteelnerds.com/2018/09/10/carbon-vs-stainless-steel-in-knives/)
-- [William Lox, "Bintie: The Wootz Steel in Ancient China," *Indian Journal of History of Science* 44.3 (2009)](https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_3_2_WLox.pdf)
