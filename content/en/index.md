@@ -26,4 +26,4 @@ Xinzuo products are used throughout the book as concrete examples drawn from rea
 
 > **The central idea:** steel creates possibilities, heat treatment develops them, geometry turns them into cutting behaviour, sharpening restores the edge and technique determines what the cook experiences.
 
-The meaning of *gongfu* in the title, the purpose of the book and the background from which it was developed are explained in the Preface. The chapters that follow then develop the practical and technical knowledge itself without repeating an additional guide to how the book should be read.
+The meaning of *gongfu* in the title, the purpose of the book and the background from which it was developed are explained in the Preface.
