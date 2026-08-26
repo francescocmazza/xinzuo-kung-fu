@@ -89,6 +89,9 @@ jobs:
           python scripts/auto_translate.py
           python scripts/multilingual_site.py --require-translations
 
+      - name: Apply A5 publication profile
+        run: python scripts/pdf_export/apply_a5_profile.py
+
       - name: Export PDFs
         run: |
           python scripts/export_pdf_guides.py \
