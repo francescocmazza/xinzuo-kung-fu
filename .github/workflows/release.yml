@@ -81,6 +81,9 @@ jobs:
           python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch>=2.2,<3"
           python -m pip install -r requirements-translation.txt
 
+      - name: Centralize bibliography in English source
+        run: python scripts/centralize_bibliography.py
+
       - name: Refresh and validate active translations
         run: |
           python scripts/auto_translate.py

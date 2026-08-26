@@ -12,6 +12,7 @@ on:
       - "scripts/multilingual_site.py"
       - "scripts/auto_translate.py"
       - "scripts/repair_translated_html.py"
+      - "scripts/centralize_bibliography.py"
       - "scripts/publication_metadata.py"
       - "scripts/export_pdf_guides.py"
       - "scripts/pdf_export/**"
@@ -55,6 +56,9 @@ jobs:
           python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch>=2.2,<3"
           python -m pip install -r requirements-translation.txt
 
+      - name: Centralize bibliography in English source
+        run: python scripts/centralize_bibliography.py
+
       - name: Refresh stale active translations
         env:
           TRANSLATION_BASE_SHA: ${{ github.event.before }}
@@ -63,46 +67,47 @@ jobs:
       - name: Repair translated raw HTML
         run: python scripts/repair_translated_html.py
 
-      - name: Commit refreshed translations without retriggering CI
+      - name: Commit refreshed source and translations without retriggering CI
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- translations; then
-            echo "No translation files changed."
+          if git diff --quiet -- content/en translations; then
+            echo "No source or translation files changed."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add translations
-          git commit -m "Auto-refresh translations [skip ci]"
+          git add content/en translations
+          git commit -m "Auto-centralize bibliography and refresh translations [skip ci]"
 
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
-              echo "Translations pushed successfully."
+              echo "Source and translations pushed successfully."
               exit 0
             fi
 
             if [ "$attempt" -eq 3 ]; then
-              echo "Unable to publish translations after 3 attempts because main kept changing." >&2
+              echo "Unable to publish generated source/translations after 3 attempts because main kept changing." >&2
               exit 1
             fi
 
-            echo "main advanced while translations were being generated; resynchronizing with the latest main (attempt $((attempt + 1))/3)."
+            echo "main advanced while publication files were being generated; resynchronizing with the latest main (attempt $((attempt + 1))/3)."
             git fetch origin main
             git reset --hard origin/main
 
+            python scripts/centralize_bibliography.py
             TRANSLATION_BASE_SHA=0000000000000000000000000000000000000000 python scripts/auto_translate.py
             python scripts/repair_translated_html.py
 
-            if git diff --quiet -- translations; then
-              echo "Latest main already contains current translations; no push is required."
+            if git diff --quiet -- content/en translations; then
+              echo "Latest main already contains current source and translations; no push is required."
               exit 0
             fi
 
-            git add translations
-            git commit -m "Auto-refresh translations [skip ci]"
+            git add content/en translations
+            git commit -m "Auto-centralize bibliography and refresh translations [skip ci]"
           done
 
       - name: Validate and build every configured language

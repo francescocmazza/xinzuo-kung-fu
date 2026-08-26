@@ -5,8 +5,11 @@ on:
   pull_request:
     paths:
       - ".github/workflows/export-multilingual.yml"
+      - "content/en/**"
       - "translations/**"
+      - "mkdocs.yml"
       - "scripts/auto_translate.py"
+      - "scripts/centralize_bibliography.py"
       - "requirements-translation.txt"
       - "scripts/publish_multilingual.ps1"
       - "publish-guide.cmd"
@@ -48,6 +51,7 @@ jobs:
           test -f publish-guide.cmd
           test -f PUBLISHING_GUIDE.md
           test -f scripts/auto_translate.py
+          test -f scripts/centralize_bibliography.py
           test -f requirements-translation.txt
 
   export:
@@ -85,6 +89,9 @@ jobs:
           python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch>=2.2,<3"
           python -m pip install -r requirements-translation.txt
 
+      - name: Centralize bibliography in English source
+        run: python scripts/centralize_bibliography.py
+
       - name: Refresh stale active translations locally
         run: python scripts/auto_translate.py
 
@@ -105,6 +112,7 @@ jobs:
           markdown/  Per-locale source trees used to build the site.
 
           English remains the source of truth. Stale active translations are refreshed locally before export and may require human review.
+          Bibliographic lists are centralized into the final Bibliography chapter before export.
           No translation API key or paid translation API is used.
           Image rights may differ from the written-content license; see the repository IMAGE_RIGHTS.md.
           EOF
