@@ -3,7 +3,7 @@ title: Alloying Elements
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-24
+reviewed: 2026-08-26
 translation_priority: high
 ---
 
@@ -35,6 +35,10 @@ The table is a map. The sections below explain why the same element can help one
 ## Carbon: the element that makes hard knife steel possible
 
 Carbon is the central alloying element in most knife steels. Without enough carbon, iron cannot develop the hardness required for a durable cutting edge.
+
+A percentage by mass can make the amount of carbon sound almost negligible. A steel containing **0.5% carbon by mass contains only 0.5 grams of carbon in every 100 grams of material**. At the atomic level, however, carbon is much lighter than iron. The same composition corresponds approximately to **one carbon atom for every 43 iron atoms**. A quantity that appears tiny when measured by mass is therefore large enough, atomically, to change the crystal structure and mechanical behaviour of iron profoundly.
+
+It is also misleading to describe carbon simply as an “inclusion” inside iron. In the relevant solid solutions, carbon atoms are small enough to occupy **interstitial sites** between the iron atoms in the crystal lattice. Their solubility and preferred interstitial positions depend on the phase and temperature. During heat treatment carbon can move into solution in austenite, become trapped in the distorted martensitic structure after quenching, or combine with iron and alloying elements to form carbides. Distinguishing interstitial carbon in solid solution from carbides and non-metallic inclusions is essential to understanding what carbon actually does in steel.
 
 Long before anyone could describe carbon with a modern chemical formula, metalworkers learned to control its effect through fire, time and the mixing of different iron materials. Chinese Bintie and South Asian wootz are memorable examples. Their makers were not adding a fashionable ingredient to a label; they were controlling carbon closely enough to produce blade steel with unusual properties.
 
