@@ -82,6 +82,9 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.language != 'en'
         run: python scripts/auto_translate.py
 
+      - name: Apply A5 publication profile
+        run: python scripts/pdf_export/apply_a5_profile.py
+
       - name: Smoke-test the English PDF on pull requests
         if: github.event_name == 'pull_request'
         run: |
