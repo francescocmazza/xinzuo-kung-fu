@@ -3,7 +3,7 @@ title: Single and Double Bevels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-23
+reviewed: 2026-08-26
 translation_priority: highest
 ---
 
@@ -17,12 +17,7 @@ The **primary bevel** is the broader ground surface that reduces the thickness o
 
 This distinction matters because ordinary resharpening of a double-bevel knife normally works on the narrow edge bevel or microbevel, not by laying the entire broad primary bevel flat on the stone. Grinding the whole primary bevel changes the geometry behind the edge and belongs to operations such as thinning, geometry correction or deliberate reprofiling. Not every knife shows a clearly separate microbevel to the naked eye, so the practical reference is the small facet immediately behind the apex that the stone must actually reach.
 
-Bevel geometry changes four things that a cook can actually feel:
-
-- the direction in which the blade tends to travel;
-- the way the cut piece separates from the food;
-- how naturally the knife works in the right or left hand;
-- how the knife must be sharpened.
+Bevel geometry changes four things that a cook can actually feel: the direction in which the blade tends to travel, the way the cut piece separates from the food, how naturally the knife works in the right or left hand, and the geometry that must be preserved when the edge is sharpened.
 
 The two broad families are double bevel and single bevel. Neither is automatically sharper or more advanced. They solve different problems.
 
@@ -53,7 +48,7 @@ The edge may be close to 50/50, with a similar bevel on each side, or it may be 
 
 An asymmetric double bevel moves the cutting edge closer to one side. It can change food separation and make some fine cuts feel more precise. It can also introduce a small amount of steering.
 
-Most mildly asymmetric knives remain usable in either hand. The difference is usually one of feel and maintenance. When sharpening, preserve the existing geometry instead of automatically giving both sides the same number of strokes.
+Most mildly asymmetric knives remain usable in either hand. The difference is usually one of feel and maintenance. When sharpening, preserve the existing geometry instead of automatically giving both sides the same amount of work.
 
 ## Single bevel: one side does most of the shaping
 
@@ -61,12 +56,7 @@ A traditional single-bevel knife has a broad main bevel on one face. The reverse
 
 The edge therefore sits close to one side of the blade instead of near the centre. As the main bevel enters food, it pushes the cut portion away. The flatter face can help leave a clean surface on the piece that remains.
 
-Common examples include:
-
-- yanagiba for finished slices of raw fish;
-- usuba for precise vegetable work;
-- deba for fish butchery;
-- selected kiritsuke, mukimono and other traditional specialist forms.
+Common examples include yanagiba for finished slices of raw fish, usuba for precise vegetable work, deba for fish butchery, and selected kiritsuke, mukimono and other traditional specialist forms.
 
 The name of a Japanese profile does not prove its grind. Modern manufacturers sometimes make double-bevel versions of traditionally single-bevel forms. Check the specification of the exact Xinzuo model before describing handedness or sharpening.
 
@@ -76,50 +66,33 @@ A single-bevel blade is three-dimensional. As it approaches the tip, the blade b
 
 For that reason, the local angle of the broad single bevel **can vary along the length of the knife**. Heel, middle and tip should not automatically be treated as one perfectly uniform plane with one theoretical angle. The effect is particularly noticeable on blades with strong distal taper or a rapidly narrowing point.
 
-During primary-bevel sharpening, let the actual contact of the bevel with the stone guide the hand. As the stroke moves toward the tip, the position of the knife may need to change gradually so that the local section of the broad bevel remains correctly supported. Forcing the same wrist position and the same nominal angle from heel to tip can grind only one part of the bevel, overwork another part or gradually change the knife's intended geometry.
-
-This is one reason single-bevel sharpening rewards slow inspection. Watch where the stone is removing steel, use marker or reflected light when useful, and preserve the geometry that is already present rather than trying to impose an abstract constant angle on the entire blade.
+This has a direct maintenance consequence. When such a blade is sharpened, the actual local contact between bevel and stone must be preserved rather than forcing one abstract wrist angle from heel to tip. The step-by-step method belongs in the dedicated sharpening chapter; the geometric point here is that the blade itself determines the contact that must be followed.
 
 ## The urasuki is not an unfinished back
 
 The shallow hollow on the reverse side reduces contact with food and with the sharpening stone. Around it remain narrow flat areas that form the reference surface.
 
-This geometry has an important consequence: the reverse is not sharpened like the second side of an ordinary V-edge. It is normally placed almost flat on the stone and worked lightly. Raising it to a normal sharpening angle can remove the reference surface, alter the edge and gradually destroy the purpose of the hollow.
+This geometry has an important consequence: the reverse is not treated like the second side of an ordinary V-edge. It is normally kept nearly flat to the stone so the reference surface and the purpose of the hollow are preserved. Raising it to a conventional secondary-bevel angle gradually changes the construction.
 
-For a beginner, the lesson is simple:
-
-> A single bevel is a complete three-dimensional system, not an ordinary edge with one side forgotten.
+A single bevel is therefore a complete three-dimensional system, not an ordinary edge with one side forgotten.
 
 ## Handedness and working direction
 
 The location of the broad bevel determines how the knife separates food and where the flatter side sits. Reverse the knife in the hand and those forces do not reverse themselves.
 
-A right-handed yanagiba is arranged so that, in its intended working position, the cut slice is moved away by the bevel while the flatter face guides the remaining food. A left-handed version mirrors the geometry.
+A right-handed yanagiba is arranged so that, in its intended working position, the cut slice is moved away by the bevel while the flatter face guides the remaining food. A left-handed version mirrors the geometry. The matching version normally feels more natural because the blade, body, supporting hand and direction of the cut work together.
 
-The matching version normally feels more natural because the blade, body, supporting hand and direction of the cut work together. For frequent professional use, that convenience matters.
+A knife made for the opposite hand is not physically unusable, but steering and food separation no longer align as naturally with the usual workstation. Instead of trying to overpower that tendency, the cook must change the orientation of the ingredient and the direction of travel so the edge remains controlled and moves away from the supporting hand. The practical setup and safety considerations for doing this are described in [How to Cut - Essential Knife Techniques](../06-cutting-techniques/essential-cutting-techniques.md#14-using-a-single-bevel-knife-with-the-opposite-hand).
 
-The version made for the opposite hand can still be used, but the ingredient and the cutting direction need to be arranged around the geometry. Imagine a left-handed cook holding the knife while the right hand steadies the food. Instead of allowing the blade to travel from the knife hand toward the supporting hand, the cook turns the ingredient and chooses a path that carries the edge away from the right hand. The food can remain in front of the body while the stroke travels sideways into clear space, or it can be rotated so that the stroke moves forward and away from the body.
-
-This change of setup is more effective than trying to overpower the blade. The supporting hand remains behind the cutting line, the intended path stays clear and the wrist remains relaxed. When the knife begins to drift, the cook stops, turns the ingredient or changes stance slightly, and starts again with a more suitable direction. Forcing a buried edge sideways adds stress to the apex and usually reduces control.
-
-The technique is easiest to learn with a short, stable piece of cucumber or a small boneless portion. A tall potato, hard squash or rolling ingredient magnifies steering and encourages excess force, so it is a poor first exercise. Slow, shallow cuts reveal the knife's tendency before the blade is deep in the food.
-
-This arrangement is practical when the food can be rotated freely. A matching handed knife remains more convenient during long professional sessions or repeated identical cuts, because it fits the usual workstation without requiring the cook to reorganize each piece.
+For frequent professional use, the matching handed knife remains the better solution because it avoids repeatedly reorganizing the work around the geometry.
 
 ## How steering develops
 
 As a blade enters food, the food presses back. With a symmetrical V-edge, pressure is distributed more evenly. With a single bevel, one face acts like a wedge while the other remains much flatter. The imbalance pushes the blade sideways.
 
-Steering becomes more visible when:
+Steering becomes more visible with tall, hard or dense ingredients, a thick blade, a broad bevel, a long cut or excessive downward force. It also becomes harder to correct once the edge is already buried deeply in the food.
 
-- the ingredient is tall, hard or dense;
-- the blade is thick;
-- the bevel is broad;
-- the cut is long;
-- the user applies excessive downward force;
-- the wrist tries to correct after the blade is already deep in the food.
-
-The best correction normally begins before the cut: choose the direction, stabilize the food and set the starting angle. Once the blade is buried deeply, large corrections can twist the edge.
+The most effective control begins before the cut: choose the direction, stabilize the food and set the starting angle. Once the blade is deep in the ingredient, large sideways corrections can twist the edge.
 
 ## Clean surfaces and food separation
 
@@ -133,67 +106,16 @@ The useful distinction is not "single bevel is sharp and double bevel is ordinar
 
 A deba is single bevel and thick because it is built for fish butchery. An usuba is also single bevel but has a much finer working edge. A heavy double-bevel chopper is robust, while a thin double-bevel gyuto can chip if twisted.
 
-To estimate how demanding a knife will be, consider:
+To estimate how demanding a knife will be, consider blade thickness, thickness behind the edge, edge angle, steel and hardness, tip shape and intended task. Bevel type is only one part of the answer.
 
-- blade thickness;
-- thickness behind the edge;
-- edge angle;
-- steel and hardness;
-- tip shape;
-- intended task.
+## Sharpening consequences
 
-Bevel type is only one part of the answer.
+Double- and single-bevel constructions cannot be maintained by blindly applying the same motion to both. Routine sharpening of an ordinary double bevel follows the narrow edge bevel or microbevel on both sides. A traditional single bevel instead depends on the relationship between its broad main bevel, the reverse flats and any urasuki, so preserving the original geometry is more important than imposing a generic angle or equal number of strokes.
 
-## Sharpening a double bevel
-
-For an ordinary symmetrical double bevel:
-
-1. identify the narrow edge bevel or microbevel immediately behind the apex;
-2. place that small facet, not the whole broad primary bevel, at a consistent angle on the stone;
-3. work the first side until a light burr reaches the full edge;
-4. repeat on the second side;
-5. reduce pressure;
-6. alternate sides and remove the burr.
-
-Fifteen degrees per side is a useful visual reference for many thin kitchen knives, not a universal prescription. Follow the existing edge geometry and the manufacturer's guidance.
-
-> **Do not confuse sharpening with thinning.** Routine edge sharpening removes a small amount of steel at the edge bevel. Laying a broad primary bevel on the stone changes the blade behind the edge and should be done only when that geometric change is intended.
-
-## Sharpening a traditional single bevel
-
-Traditional single-bevel primary sharpening is different. Here the broad main bevel itself is normally worked against the stone, while the reverse is laid nearly flat and touched lightly to remove the burr while preserving the urasuki and its surrounding flats.
-
-Do not assume that the broad bevel presents exactly the same local angle from heel to tip. As blade height and spine thickness reduce toward the point, follow the actual bevel contact and adapt the hand gradually to the geometry already present.
-
-Do not convert the reverse into a normal secondary bevel. Do not thin the hollow indiscriminately. A high-value single-bevel knife deserves model-specific instruction or a sharpener familiar with this construction.
+The complete practical sharpening procedure is deliberately kept in [A Practical Sharpening Process](../10-sharpening/basic-sharpening-process.md), where angle control, burr formation, deburring and the special treatment of traditional single bevels can be explained once without duplicating the process here.
 
 ## Choosing between the two
 
-Choose a double bevel when you want:
+A double bevel is normally the more convenient choice when one knife must cover varied work, track predictably and be comfortable in either hand. A single bevel makes sense when its specialized food separation, surface finish and traditional working geometry are valuable enough to justify a handed tool and a more specific maintenance technique.
 
-- one knife for varied work;
-- easy use in either hand;
-- predictable straight tracking;
-- a familiar sharpening process.
-
-Consider a single bevel when you want:
-
-- a specialist result such as sashimi slicing or traditional vegetable work;
-- controlled food separation;
-- the surface finish associated with the intended technique;
-- a knife you are willing to learn and maintain as a specialist tool.
-
-Within Xinzuo's range, compare the exact model rather than relying on the profile name alone. Verify the grind, handed orientation, steel, thickness and intended food.
-
-## What to remember
-
-- The broad primary bevel and the narrow edge bevel or microbevel are not the same surface.
-- Routine double-bevel sharpening normally follows the edge bevel or microbevel; working the broad primary bevel is a separate geometry operation.
-- Double bevel describes sharpening from both sides, not necessarily perfect symmetry.
-- Single bevel describes a complete geometry, often including an urasuki.
-- On a single bevel, the local main-bevel angle can change along the blade as height and thickness change toward the tip.
-- A single-bevel knife is optimized for one hand but can often be used with the other.
-- Steering should be managed through setup and direction, not forced sideways correction.
-- Neither family is automatically sharper, stronger or more prestigious.
-
-> **Practice principle:** preserve the geometry that is actually on the knife. At the edge, follow the edge bevel; on a traditional single bevel, follow the local main-bevel contact rather than forcing a theoretical constant angle.
+Within Xinzuo's range, the exact model matters more than the profile name alone. Verify the grind, handed orientation, steel, thickness and intended food before deciding how the knife should be used or maintained.
