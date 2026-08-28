@@ -3,7 +3,7 @@ title: A Practical Sharpening Process
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-25
+reviewed: 2026-08-28
 translation_priority: high
 ---
 
@@ -17,7 +17,7 @@ The underlying process is much simpler:
 
 Everything else - stone grit, angle, pressure, burr and finishing method - helps control that process.
 
-This chapter is the book's complete practical method for ordinary double-bevel kitchen knives. Earlier chapters may mention sharpening when it is necessary to explain steel, geometry or maintenance, but the full technique is deliberately kept here rather than repeated in several places. Traditional single-bevel knives such as yanagiba, usuba and deba need a different approach because their broad main bevel and hollow reverse side form a specific geometry; that difference is explained separately below.
+This chapter is the book's complete practical method for ordinary double-bevel kitchen knives. Earlier chapters mention sharpening only where it is necessary to explain steel, geometry or maintenance; the actual working sequence is kept here. Traditional single-bevel knives such as yanagiba, usuba and deba need a different approach because their broad main bevel and hollow reverse side form a specific geometry; that difference is treated after the main double-bevel process.
 
 Sharpening becomes easier to learn when it is divided into observable stages: stabilize the stone, find the **edge bevel or microbevel**, reach the apex, reduce the burr and test the result. A beginner does not need to imitate the speed of an experienced sharpener. Each stage can be practised and improved separately.
 
@@ -83,7 +83,7 @@ Then ask whether the knife needs routine sharpening or repair. A knife that stil
 
 Choosing too fine a stone for major damage wastes time. Choosing a very coarse stone for light maintenance removes more steel than necessary.
 
-## Step 2: choose the starting grit
+## Step 2: choose the starting grit and an abrasive that can cut the steel
 
 Grit numbers describe the approximate size of the abrasive particles. Lower numbers are coarser and remove material faster. Higher numbers are finer and create a smoother finish.
 
@@ -97,7 +97,13 @@ A practical classification is:
 
 The ranges overlap because grit standards and stone behaviour vary. For many kitchen knives, a medium stone around 800-1000 grit is a useful starting point. It removes enough material to restore the edge without creating the deep scratches of a repair stone.
 
-Higher grit is not automatically better. A medium-grit finish can retain more microscopic bite and perform extremely well on tomatoes, meat and fibrous foods. A highly polished edge may be desirable for push cutting and presentation work. Choose the finish according to the job, not according to the largest number available.
+Starting grit is only half of the choice. The abrasive must also be efficient on the steel. Hardness alone does not tell you whether a steel will feel easy or difficult on a stone because the abrasive must cut both the **matrix and the carbide population**.
+
+DIN 1.4116, for example, is often used at a moderate 56-58 HRC and is forgiving in use, but it can still form a persistent burr and may feel less crisp on a water stone than a fine high-carbon steel. **Blue Steel No. 2** is commonly used considerably harder yet can abrade very readily on suitable water stones and deburr cleanly. At the other extreme, high-volume vanadium- or niobium-carbide powder steels can resist ordinary abrasives even when their nominal HRC is not dramatically higher. ZDP-189, SRS13, M390 and 14Cr14MoVNb may therefore respond more efficiently to premium ceramic or diamond abrasives.
+
+If a steel is abrading slowly, the answer is not simply to press harder. Choose an abrasive capable of cutting it efficiently while keeping control of the geometry and burr.
+
+Higher grit is not automatically better. A medium-grit finish can retain more microscopic bite and perform extremely well on tomatoes, meat and fibrous foods. A highly polished edge may be desirable for push cutting and presentation work. The finish will be chosen later according to the job; for now, start with a stone coarse enough and hard enough to do the required work efficiently.
 
 ## Step 3: prepare and secure the stone
 
@@ -150,6 +156,12 @@ Stand comfortably in front of the stone. Keep the shoulders relaxed. Position th
 The hand holding the handle controls angle and direction. The fingers of the other hand apply controlled pressure near the portion of edge that is currently crossing the stone. As the blade sweeps from tip toward heel, the support and pressure should travel with the working area instead of remaining fixed far away from it.
 
 The wrists should remain stable. Let the arms and upper body create most of the motion rather than repeatedly bending the wrist.
+
+### How pressure changes through the process
+
+Pressure should decrease as the edge approaches completion. During the main sharpening stage, use enough pressure for the stone to cut efficiently while the angle remains stable; forcing the blade only makes control worse. During refinement, reduce pressure so the stone smooths the previous scratches without creating a new large burr. During the final alternating strokes, pressure should be extremely light—almost enough only to guide the edge bevel across the abrasive.
+
+If the sound becomes harsh, the knife sticks or the angle becomes difficult to control, reduce pressure and check water, stone condition and body position before continuing.
 
 ## Step 7: place the knife on the stone
 
@@ -227,6 +239,12 @@ Move to the next stone when:
 
 Do not move to a fine stone to avoid finishing the work on the coarse or medium stone. A fine stone polishes the geometry that already exists. It cannot efficiently repair an incomplete edge.
 
+The final grit should match the task rather than the price or prestige of the knife. A medium finish preserves useful microscopic bite and is excellent for tomatoes, meat and fibrous vegetables. A finer finish supports smoother push cuts, delicate fish preparation and refined slicing. An ultra-polished edge is not automatically better; on some foods it can lose useful initial bite if the apex and finish are not matched to the task.
+
+Steel still matters because it determines which abrasive can produce that finish efficiently. High-wear-resistance steels such as ZDP-189, SRS13, M390 and 14Cr14MoVNb may benefit from premium ceramic or diamond abrasives, while more conventional stainless steels can often be refined effectively on suitable water stones. Blue Steel No. 2 can respond very readily to water stones but requires immediate drying afterwards. These are abrasive choices, not fixed grit prescriptions: preserve the model's geometry and choose the finish for the food and cutting style.
+
+Full-Damascus differential wear does not eliminate sharpening. When such a blade eventually needs restoration, sharpen the complete edge normally and choose a finish that suits the intended cutting character rather than assuming maximum polish is always desirable.
+
 On the finer stone, use less pressure. The objective is refinement, not major material removal.
 
 ## Step 14: remove the burr
@@ -299,46 +317,6 @@ For that reason, do not lock the wrist at one theoretical primary-bevel angle an
 
 The reverse side requires equal discipline. Do not raise it into a normal secondary bevel and do not grind indiscriminately into the urasuki. For an expensive single-bevel knife, model-specific instruction or an experienced specialist is preferable to aggressive experimentation.
 
-## Pressure: how much is enough?
-
-Pressure is difficult to describe with a universal number, but the stages are easy to understand.
-
-### Main sharpening
-
-Use enough pressure for the stone to cut efficiently while the edge angle remains stable. Do not force the blade.
-
-### Refinement
-
-Reduce pressure so the stone smooths the previous scratches without creating a new large burr.
-
-### Final strokes
-
-Use extremely light pressure. The blade should almost feel as if it is being guided rather than pushed.
-
-If the sound becomes harsh, the knife sticks or the angle becomes difficult to control, reduce pressure and add water.
-
-## Steel choice changes the sharpening response
-
-Hardness alone does not tell you whether a steel will feel easy or difficult on a stone. The abrasive must cut the **matrix and the carbide population**, and the burr must then be removed cleanly.
-
-This point is worth making explicit because DIN 1.4116 is sometimes described too casually as an “easy-to-sharpen steel” simply because kitchen knives using it are often heat-treated to a moderate 56-58 HRC range. That moderate hardness contributes to forgiving use, but 1.4116 can still form a persistent burr and may feel less crisp on a water stone than a fine high-carbon steel.
-
-**Blue Steel No. 2 is a good counterexample.** It is commonly used at considerably higher hardness, yet a well heat-treated blade can abrade very readily on suitable water stones, form a clear burr and deburr cleanly. Its disadvantage is not necessarily sharpening effort but reactive care: it must be cleaned and dried promptly.
-
-High-volume vanadium- or niobium-carbide powder steels can present the opposite problem. Even if the nominal HRC is not dramatically higher, extremely hard MC carbides resist ordinary abrasives and can make diamond or other very efficient abrasives preferable.
-
-The correct lesson is therefore not “soft steel equals easy sharpening.” Consider **hardness, carbide type and volume, heat treatment, edge geometry, burr behaviour and the abrasive being used**.
-
-## Choosing the final grit
-
-The final grit should match the task rather than the price or prestige of the knife.
-
-A medium finish preserves useful microscopic bite and is excellent for tomatoes, meat and fibrous vegetables. A finer finish supports smoother push cuts, delicate fish preparation and refined slicing. An ultra-polished edge is not automatically better; on some foods it can lose useful initial bite if the apex and finish are not matched to the task.
-
-For a real product range such as Xinzuo's, the steel helps determine which abrasive is efficient, but the same general rules still apply. High-wear-resistance steels such as ZDP-189, SRS13, M390 and 14Cr14MoVNb may benefit from premium ceramic or diamond abrasives. More conventional stainless steels can often be maintained effectively with suitable water stones. Blue Steel No. 2 can respond very readily to water stones but requires immediate drying. These are tendencies, not fixed angle or grit prescriptions: preserve the model's geometry and choose the finish for the food and cutting style.
-
-Full-Damascus differential wear does not eliminate sharpening. When such a blade eventually needs restoration, sharpen the complete edge normally and avoid polishing choices that unintentionally remove all useful slicing bite.
-
 ## Common sharpening mistakes
 
 ### Sharpening the primary bevel instead of the microbevel
@@ -388,7 +366,7 @@ Fifteen degrees is a useful reference, not a universal law. The two-coin exercis
 ## A complete beginner routine
 
 1. Inspect the edge and identify damage.
-2. Choose a stone coarse enough for the work.
+2. Choose a stone coarse enough and an abrasive efficient enough for the steel.
 3. Prepare, flatten and secure the stone.
 4. Identify the existing **edge bevel or microbevel** with light strokes or a marker.
 5. Use the 15-degree/two-coin idea only as an approximate visual reference where appropriate, then follow the actual bevel.
@@ -406,7 +384,7 @@ Fifteen degrees is a useful reference, not a universal law. The two-coin exercis
 
 ## What to remember
 
-> Routine double-bevel sharpening follows the **edge bevel or microbevel**, not the whole primary bevel. Use a controlled full-length sweep so the stone works from tip to heel on every regular pass, form a light continuous burr, repeat on the second side, then reduce pressure and deburr. A traditional single bevel is different: its broad bevel is part of the sharpening geometry, and its local angle may change as the blade narrows and thins toward the tip.
+> Routine double-bevel sharpening follows the **edge bevel or microbevel**, not the whole primary bevel. Choose an abrasive that can cut the steel efficiently, use a controlled full-length sweep so the stone works from tip to heel on every regular pass, form a light continuous burr, repeat on the second side, then reduce pressure and deburr. Choose the final grit for the intended cutting behaviour, not for prestige. A traditional single bevel is different: its broad bevel is part of the sharpening geometry, and its local angle may change as the blade narrows and thins toward the tip.
 
 The most valuable skill is not moving the knife quickly. It is learning to observe what the stone is doing to the edge.
 

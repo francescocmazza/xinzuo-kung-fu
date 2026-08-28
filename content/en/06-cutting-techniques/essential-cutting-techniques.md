@@ -3,7 +3,7 @@ title: How to Cut - Essential Knife Techniques
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-25
+reviewed: 2026-08-28
 translation_priority: highest
 ---
 
@@ -195,23 +195,13 @@ Begin with a stable fish and a clear sequence: open the fish, locate the backbon
 
 The blade should tell you where the skeleton is. Heavy pressure hides that feedback and wastes flesh. When learning, work slowly enough to feel contact without forcing the edge into hard bone.
 
-## 14. Using a single-bevel knife with the opposite hand
+When a technique depends on the handed geometry of a traditional single-bevel knife, the problem is no longer a new cutting motion but the way the blade steers and separates food. The practical arrangement for using a single bevel with the opposite hand is therefore kept with the geometry that explains it in [Single and Double Bevels](../04-geometry-and-bevels/single-and-double-bevels.md), rather than repeated here.
 
-A traditional single-bevel knife naturally pushes food and steers in a direction determined by which face carries the large bevel. A knife made for the other hand may therefore feel as if it wants to leave the intended line.
-
-It can still be used effectively by reorganizing the cut rather than fighting the blade.
-
-If you hold the knife in your left hand and steady the food with your right, arrange the ingredient so that the cutting movement carries the blade away from the right hand instead of toward it. With the food in front of you, the stroke can travel laterally away from the supporting hand. Alternatively, rotate the food and work in a forward direction so that the blade moves away from your body.
-
-Leave clear space in the direction of travel. Keep the supporting hand behind the cutting line and use the claw where appropriate. Start with a short, slow cut in an ingredient that is easy to stabilize. Observe the direction in which the knife tends to steer, then alter the position of the food or your starting angle slightly. Do not lock the wrist and force the edge sideways.
-
-The matching handed version remains more intuitive, especially for continuous professional use. The important lesson is that a single-bevel knife is optimized for one arrangement, not magically disabled in every other arrangement.
-
-## 15. Cuts that require specialist teaching
+## Specialist techniques that need demonstration
 
 Some techniques cannot be responsibly learned from a short written description alone. Katsuramuki with an usuba, fish-head work with a deba and rapid professional chopping all combine blade geometry, body position and practiced feedback. The guide can explain the principles, but a qualified demonstration is the safest next step.
 
-This is not a failure of the book. Cooking is learned through a mixture of words, observation and repetition. The written explanation gives the learner a map; a qualified demonstration supplies the body position, timing and feedback that are difficult to communicate safely on a page.
+Cooking is learned through a mixture of words, observation and repetition. The written explanation gives the learner a map; a qualified demonstration supplies the body position, timing and feedback that are difficult to communicate safely on a page.
 
 ## A seven-day practice sequence
 

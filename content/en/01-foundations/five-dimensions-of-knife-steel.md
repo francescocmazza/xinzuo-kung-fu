@@ -3,7 +3,7 @@ title: The Five Dimensions of Knife Steel
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-25
+reviewed: 2026-08-28
 translation_priority: high
 ---
 
@@ -17,9 +17,7 @@ The useful question is therefore:
 
 > Which balance of qualities best suits this knife, this task and this user?
 
-Five dimensions provide a practical first map: **hardness, sharpening response, corrosion resistance, toughness and microstructural fineness**. They do not describe every metallurgical detail, but they prevent many common misunderstandings.
-
-Xinzuo's range will later be used as one worked example of how a manufacturer can choose different balances for different knives. The principles in this chapter are general and do not depend on one company's catalogue.
+Five dimensions provide a practical first map: **hardness, sharpening response, corrosion resistance, toughness and microstructural fineness**. They do not describe every metallurgical detail, but they prevent many common misunderstandings. More importantly, they should be read together: changing one part of the system often changes the compromises available in the others.
 
 ## 1. Hardness: resistance to permanent deformation
 
@@ -63,8 +61,6 @@ Chromium works principally through **passivation**. When enough chromium is avai
 The key word is *available*. Chromium dissolved in the matrix can support passivation; chromium tied up in carbides is not equally available for that purpose. Carbon, austenitizing temperature, carbide chemistry, molybdenum, nitrogen, surface finish and the environment all change the result.
 
 This is why stainless should never be read as *stain-proof*. Salt, chlorides, acidic residue and prolonged wet storage can still stain or pit a stainless blade. Reactive carbon steels need more immediate care and may develop a dark patina, which is different from active orange rust.
-
-The historical development of stainless cutlery is discussed once, in [Alloying Elements](../02-steels-and-metallurgy/alloying-elements.md), where chromium and passivation are treated in detail. It is not repeated here so that the history does not interrupt the same technical point twice.
 
 ## 4. Toughness: resistance to fracture
 

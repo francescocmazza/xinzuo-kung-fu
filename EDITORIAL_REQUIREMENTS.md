@@ -17,8 +17,24 @@ This file records the current editorial constraints for *The Gongfu of Xinzuo*. 
 - Keep the GitHub address current: https://github.com/francescocmazza/xinzuo-kung-fu
 - GitHub may be described as useful for collaboration and navigation, but this must not become a long discussion of how to read the book.
 
+## Narrative flow and transitions
+
+- Every chapter should move forward from concepts the reader already knows to the next necessary concept. Do not make the reader learn a principle, move on, and then return later to information that should have been available earlier.
+- A supporting concept must appear before the practical decision or procedural step that depends on it. For example, abrasive choice belongs with stone selection, pressure guidance belongs before the working strokes, and final-grit logic belongs where the finishing stone is chosen.
+- Do not create a standalone mini-section when its content is better understood as part of the surrounding explanation. If a principle is already demonstrated clearly by the examples that follow, integrate the principle into the transition rather than interrupting the chapter with an abstract restatement.
+- Prefer a clear transition sentence when moving from one conceptual level to another: form to movement, mass to balance, composition to manufacturing route, manufacturing route to heat treatment, or theory to practice.
+- Do not repeat a detailed explanation in multiple chapters. Keep the full treatment where it belongs and use a short cross-reference elsewhere when the reader needs the connection.
+- Numbered sequences must represent a genuine order of operations or a genuine series of comparable items. A background explanation, exception, case study or safety note should not be numbered as though it were another step in a process.
+- Once a chapter has moved from theory into application or conclusion, do not return to an earlier theoretical layer unless the return is explicitly necessary and clearly signposted. Reorder the material instead whenever possible.
+- Recap sections should consolidate rather than reproduce entire passages already explained. Avoid a second question-and-answer checklist when a coherent prose conclusion can carry the same information more fluently.
+
 ## Structure and knife forms
 
+- “Anatomy of a Kitchen Knife” must be the first technical section after the opening material and must appear immediately before “Knife Shapes and Their Uses”.
+- The anatomy section must establish the core vocabulary used later in the book: blade, tip, spine, blade face, cutting edge, bevel, heel, tang, handle, handle scales, rivets/pins, bolster, butt/pommel, surface finish and the principal tang constructions.
+- Keep the Western bolster distinct from both a guard and the ferrule/collar of a traditional Japanese-style handle.
+- In this book, “Asian handle” is a deliberately narrow house term for the traditional Japanese-inspired *wa*-style construction, especially the octagonal or oval hidden-tang handle with a ferrule. Never imply that all Asian-made knives use this construction.
+- The mini-section “Surface relief: hollows and hammering” belongs at the end of the anatomy/surface-finish discussion, immediately before the blade-shape chapter; do not reinsert it inside the knife-shape taxonomy.
 - “Knife Shapes and Their Uses” must remain one of the first major content sections.
 - Each knife form should be explained discursively: why it has that geometry, what work it suits, what movement it encourages, and its limitations.
 - Each knife form should have its own directly associated image rather than relying on a confusing composite plate.
@@ -41,6 +57,7 @@ This file records the current editorial constraints for *The Gongfu of Xinzuo*. 
 - Do not describe carbon simply as an “inclusion” in iron. Explain that carbon atoms are small enough to occupy interstitial sites in the iron crystal lattice and that their location/solubility changes with phase and temperature.
 - Include the intuitive mass-percent/atomic-percent example: 0.5% carbon by mass is only 0.5 g per 100 g of material, but because carbon is much lighter than iron it corresponds approximately to one carbon atom for every 43 iron atoms. Use it to show why a small mass fraction can profoundly change structure and mechanical behaviour.
 - Preserve the distinction between bulk composition, atoms in solid solution/interstitial sites, and carbides/other phases.
+- Keep the 0.5% carbon / approximately 1 carbon atom per 43 iron atoms example in the alloying-elements explanation; later metallurgy chapters may refer back to that principle but should not re-teach the full calculation.
 
 ## Historical and explanatory style
 
@@ -48,6 +65,7 @@ This file records the current editorial constraints for *The Gongfu of Xinzuo*. 
 - Single-bevel material should be written as continuous explanatory prose, not as an artificial question-and-answer sequence.
 - Avoid unnecessary repetition between the Preface, opening, chapter introductions and later technical sections.
 - Prefer discursive, didactic explanation over excessively schematic summaries when the subject requires understanding rather than lookup.
+- Historical material should remain only where it explains the technical idea being taught. Do not interrupt a practical sequence with an interesting but non-essential historical aside.
 
 ## Bibliography
 

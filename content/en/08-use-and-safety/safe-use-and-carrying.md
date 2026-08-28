@@ -3,7 +3,7 @@ title: Safe Use and Carrying
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-22
+reviewed: 2026-08-28
 translation_priority: high
 ---
 
@@ -76,15 +76,13 @@ The steel and geometry were designed for cutting. Sideways force can damage an e
 
 ## Grip and control
 
-The handle should be held firmly but not with unnecessary tension.
+Safety does not depend on one universally correct knife-hand grip. The **handle grip, intermediate or hybrid grip, and pinch grip** described in [Weight and Balance](../05-knife-types/weight-and-balance.md) can all be controlled positions when they suit the knife and the task.
 
-Many users gain control from a pinch grip, in which the thumb and side of the index finger hold the blade near the handle while the remaining fingers wrap around the handle. This brings the hand close to the knife's balance point and helps guide the blade.
+Whichever position is used, the hand should remain secure without unnecessary tension, the fingers should not slide toward the edge and the wrist should remain in a natural line. If changing grip also changes the balance of the knife, slow down until the new position feels predictable.
 
-Other grips can also be safe when they provide control. The essential point is that the hand should not slide forward and the wrist should remain stable.
+The supporting hand should guide the food while keeping fingertips away from the cutting path. The familiar **claw** position bends the fingertips inward and allows the side of the blade to move against the first joints. It is a moving guide, not a pose to imitate at professional speed.
 
-The supporting hand should guide the food while keeping fingertips away from the cutting path. The familiar “claw” position bends the fingertips inward and allows the side of the blade to move against the knuckles. This is easier to learn slowly than at professional speed.
-
-Speed is never the first goal. A controlled rhythm becomes faster naturally with practice. The movement chapter, [How to Cut](../06-cutting-techniques/essential-cutting-techniques.md), explains the claw, pinch grip and principal cutting motions step by step.
+The cutting movements themselves are developed in [How to Cut](../06-cutting-techniques/essential-cutting-techniques.md). Here the safety principle is simpler: choose a stable grip, keep the supporting hand behind the cutting line and never sacrifice control for speed.
 
 ## Let the edge do the work
 
@@ -122,25 +120,13 @@ When the blade is inside dense food, do not twist it to separate the pieces. If 
 
 After chopping, avoid using the sharp edge to scrape food across the board. This movement folds and wears the apex sideways. Use the spine of the knife, a bench scraper or lift the food with the flat of the blade.
 
-This habit has a large effect on edge life and is easy to teach.
+## Wash safely as well as carefully
 
-## Washing the knife
+The material-care reasons for hand washing, prompt drying and avoiding the dishwasher are covered in [Routine Knife Care](../09-maintenance/routine-care.md). During washing, the immediate safety problem is simpler: **the blade must remain visible and its edge path must remain controlled**.
 
-All Xinzuo knives should be hand-washed and dried promptly. This protects the edge, finish, adhesive joints and handle even when the blade steel is stainless. Blue Steel No. 2 needs especially immediate drying because it is reactive; natural wood, horn and composite handles should not be soaked or exposed to dishwasher heat and detergent. See the [Xinzuo Handle Materials guide](../02-steels-and-metallurgy/xinzuo-handle-materials.md) for material-specific care.
+Never leave a knife hidden under soapy water or mixed with other objects in a sink. Wash it individually with mild detergent and a soft sponge, keeping the edge facing away from the hand. Dry it immediately from the spine side without wrapping the fingers around the cutting edge.
 
-Quality kitchen knives should normally be washed by hand.
-
-The dishwasher creates several problems:
-
-- the edge can strike other objects;
-- strong detergents can affect the surface;
-- heat and moisture can damage wooden handles;
-- the knife remains wet for a long period;
-- reaching into the dishwasher around a hidden blade is dangerous.
-
-Wash the knife soon after use with mild detergent and a soft sponge. Keep the edge facing away from the hand. Do not leave the knife hidden under soapy water where another person may reach for it.
-
-Dry the blade and handle immediately. Carbon and semi-stainless steels require particular attention, but stainless knives also benefit from prompt drying.
+A dishwasher is also an unsafe place to reach around a sharp blade whose position may be hidden among other utensils. For a quality kitchen knife, hand washing solves both the safety problem and the material-care problem at the same time.
 
 ## Passing a knife to another person
 
@@ -227,36 +213,6 @@ Signs that an edge needs attention include:
 - moving unpredictably across the ingredient.
 
 A sharp knife improves control, but the user must still maintain safe habits. Sharpness makes correct technique easier; it does not replace technique.
-
-## Common unsafe habits
-
-### Leaving a knife in the sink
-
-The blade becomes hidden and can cut anyone reaching into the water.
-
-### Cutting toward the body
-
-Whenever possible, direct the cut away from hands and body.
-
-### Holding food in the air with a large knife
-
-Use a cutting board unless the task specifically calls for controlled in-hand work with a suitable small knife.
-
-### Testing sharpness with a finger along the edge
-
-Never slide a finger lengthwise along the cutting edge. Tactile checks should move across the edge with extreme care.
-
-### Scraping with the edge
-
-Use the spine or a scraper.
-
-### Using the wrong board
-
-Glass and ceramic destroy fine edges and increase slipping.
-
-### Trying to catch a falling knife
-
-Step back instead.
 
 ## What to remember
 

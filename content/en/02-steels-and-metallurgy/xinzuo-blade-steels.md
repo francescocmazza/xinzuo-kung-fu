@@ -3,7 +3,7 @@ title: Xinzuo Blade Steels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-26
+reviewed: 2026-08-28
 translation_priority: highest
 source_basis: 2025 Xinzuo Catalog V9
 ---
@@ -14,7 +14,7 @@ Xinzuo uses a broad range of blade steels because different knives, users and cu
 
 No perfect steel can maximize every desirable property simultaneously. A fine slicer, a general chef's knife and a heavy chopper therefore have good reasons to favour different balances. The value of the range is not that one steel sits at the top of a hierarchy, but that each material can be matched to the geometry, heat treatment, intended work and maintenance expectations of the knife.
 
-A steel name describes potential. The finished knife still depends on heat treatment, blade geometry, thickness behind the edge, sharpening and intended use. The manufacturing side of that relationship is explained in [Heat Treatment and Carbides](heat-treatment-and-carbides.md).
+A steel name describes potential. The finished knife still depends on heat treatment, blade geometry, thickness behind the edge, sharpening and intended use. The manufacturing side of that relationship is explained in [Heat Treatment and Carbides](heat-treatment-and-carbides.md); here the focus is the practical position each steel occupies in the Xinzuo range.
 
 ## A compact comparison
 
@@ -52,7 +52,7 @@ M390 combines very strong corrosion resistance with high abrasive wear resistanc
 
 Xinzuo's 14Cr14MoVNb is a niobium-bearing powder steel used in premium layered constructions. Niobium is a strong carbide former and can contribute very hard MC-type carbides and microstructural refinement. The exact final carbide population still depends on composition and heat treatment; the presence of niobium should not be treated as a complete property prediction by itself.
 
-Selected series using this steel are documented with **vacuum heat treatment and deep-freeze processing**. These processes are part of the series-specific heat-treatment strategy and must be understood together with the alloy, target hardness and blade geometry.
+Selected series using this steel are documented with **vacuum heat treatment and deep-freeze processing**. Those processes belong to the series-specific treatment strategy described in the preceding metallurgy chapter and must be understood together with the alloy, target hardness and blade geometry.
 
 ## Carbon and high-performance stainless steels
 
@@ -105,19 +105,6 @@ Xinzuo also uses layered constructions including conventional Damascus cladding,
 The number of layers is not a direct measure of sharpness. In a core-and-cladding blade, cutting behaviour is governed principally by the cutting core, heat treatment and edge geometry. Decorative copper or brass layers can create striking contrast without making the apex intrinsically sharper.
 
 Full-Damascus constructions differ because alternating materials can continue through the edge. Their differential-wear behaviour is explained in [The Self-Sharpening Effect in Full Damascus Blades](../03-blade-construction/self-sharpening-full-damascus.md). The term does not mean that ordinary sharpening becomes unnecessary.
-
-## How heat treatment enters Xinzuo production
-
-Xinzuo's documented production information includes **vacuum heat treatment** and **deep-freeze processing** where specified by the series.
-
-The metallurgical role of those stages is important:
-
-- vacuum treatment helps control oxidation and decarburization during high-temperature processing;
-- quenching transforms austenite toward martensite;
-- a suitable deep-freeze or sub-zero stage can reduce retained austenite where the alloy and recipe benefit from it;
-- tempering adjusts the final balance of hardness, toughness and stability.
-
-Those stages must be matched to the individual steel. “Vacuum” and “deep freeze” are not quality badges that can substitute for a correct recipe.
 
 ## Reading the Xinzuo steel range
 

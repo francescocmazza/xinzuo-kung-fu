@@ -3,7 +3,7 @@ title: Knife Shapes and Their Uses
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-25
+reviewed: 2026-08-28
 translation_priority: highest
 source_basis: general knife geometry and technique, illustrated with current Xinzuo examples
 ---
@@ -12,21 +12,11 @@ source_basis: general knife geometry and technique, illustrated with current Xin
 
 Knife shape is the most immediate connection between a cook and the work to be done. Steel, heat treatment and construction determine how an edge behaves, but the outline determines how the hand approaches food. Length sets the useful stroke; height creates knuckle clearance; curvature favours some movements over others; thickness determines how easily the blade passes through food and how much abuse the geometry can tolerate; and the point can be a precision instrument, a safe rounded end or almost absent altogether.
 
-This chapter treats general knife geometry first and Xinzuo products as concrete examples of those principles. A product range is useful because it lets us compare real implementations, but it does not define the limits of knife theory. Conversely, this guide does not add specialist forms that fall outside the range covered here merely to make the list encyclopaedic. The aim is to explain the forms that matter to this guide thoroughly and in a way that remains valid beyond any single catalog.
+Xinzuo's range makes those relationships visible in real knives. Rather than treating category names as rigid templates, the useful approach is to read the actual blade from heel to tip and ask what its geometry is encouraging the hand to do. Two knives sold under the same name can differ substantially in curve, thickness, balance, bevel geometry and intended motion.
 
-The most useful habit is to read the actual blade from heel to tip instead of trusting the category name alone. Two knives sold under the same name can differ substantially in curve, thickness, balance, bevel geometry and intended motion.
+A flatter heel and middle give broad board contact and naturally favour push cutting and nearly vertical chopping. A continuous belly lets the contact point travel progressively along the edge during drawing or rocking movements. A long, narrow blade places more edge in contact with food during a draw slice while reducing drag from the blade face. A narrow point reaches into joints and fine details; a broad, supported heel tolerates controlled force better. These are tendencies, not rigid laws: a gyuto can have enough curve to rock comfortably, a Western chef's knife can be relatively flat, and a rectangular Chinese-style knife may be a thin general-purpose cutter rather than a bone tool.
 
-## How shape guides movement
-
-A curved belly changes how a forward movement reaches the food. During a draw or rocking stroke, the working portion of a curved edge is inclined relative to the direction of travel, so forward movement can be accompanied by progressive penetration as the contact point advances along the belly. The curve does not create extra energy and does not make an edge intrinsically sharper; it changes the path through which the edge meets the food.
-
-A flatter edge makes broad board contact easier and naturally suits push cutting and nearly vertical chopping. A long, narrow blade places more edge in contact with food during a draw slice while reducing drag from the blade face. A narrow point reaches into joints and fine details; a broad, supported heel tolerates controlled force better.
-
-These are tendencies, not rigid laws. A gyuto can have enough curve to rock comfortably, a Western chef's knife can be relatively flat, and a rectangular Chinese-style knife may be a thin general-purpose cutter rather than a bone tool.
-
-### Surface relief: hollows and hammering
-
-Hollows, dimples and hammered surfaces are surface features, not separate knife shapes. They interrupt continuous contact between food and the blade face and can reduce sticking or suction with some moist, starchy or soft ingredients. The effect depends on the depth and distribution of the relief, the blade finish, food texture and cutting technique. A chef's knife with Granton-style hollows remains a chef's knife; a carving knife with the same treatment remains a carving knife.
+With those relationships in mind, the differences between knife families become much easier to understand.
 
 ## General-purpose knives
 
