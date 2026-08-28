@@ -3,7 +3,7 @@ title: Preparing Water Stones
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-24
+reviewed: 2026-08-28
 translation_priority: high
 ---
 
@@ -49,10 +49,6 @@ Dense ceramic and splash-and-go stones are common examples of products that may 
 
 The correct lesson is therefore not "all stones must soak". It is to soak absorbent water stones until they are properly saturated while treating the manufacturer's instructions as the controlling rule for the particular stone.
 
-Long before manufactured abrasives carried a printed grit number, sharpeners learned the character of local stone through touch, sound and the finish left on steel. Japan's natural whetstone tradition remains especially visible around Kyoto. The Natural Whetstone and Hone Museum in Kameoka preserves examples including Tamba Aoto and Awasedo stones and continues to teach sharpening through direct practice.
-
-Modern synthetic stones made sharpening more repeatable: the abrasive, binder and approximate particle size could be designed for a specific job. The old skill did not disappear. Whether the stone is natural or synthetic, the sharpener still reads water, sound, slurry, flatness and the response of the steel. This is why two stones carrying a similar grit description can feel different. A grit number is helpful, but the stone is also a material system with its own binder, porosity and cutting behaviour.
-
 ## Types of sharpening media
 
 Xinzuo's broad steel range is one reason no single stone should be prescribed for every knife. Conventional water stones can be effective for many DIN 1.4116, 440C, 14C28N, AUS-10, 10Cr15CoMoV, 12Cr18MoV and Blue Steel No. 2 edges. The higher wear resistance of ZDP-189, SRS13, M390 and 14Cr14MoVNb may make hard ceramic or diamond abrasives more efficient. Stone preparation still follows the stone maker's instructions, not the Xinzuo steel name.
@@ -82,6 +78,8 @@ Oil stones are designed to use honing oil as a lubricant. They can sharpen kitch
 ### Natural stones
 
 Natural stones vary widely. Some absorb water, some need only surface wetting and some can be damaged by prolonged soaking. They should be treated according to the guidance of the seller or an experienced user familiar with that particular stone.
+
+Their behaviour also shows why a grit description cannot tell the whole story. Porosity, mineral structure, cutting speed and the way a natural stone releases abrasive material can make two stones used at a similar finishing stage feel very different in practice.
 
 ## Preparing the workspace
 
