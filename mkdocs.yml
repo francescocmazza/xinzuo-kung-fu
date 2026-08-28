@@ -54,6 +54,7 @@ extra_javascript:
 nav:
   - Preface: preface.md
   - The Gongfu of Xinzuo: index.md
+  - Anatomy of a Kitchen Knife: 00-knife-basics/anatomy-of-a-kitchen-knife.md
   - Knife Shapes and Their Uses: 05-knife-types/overview.md
   - Weight and Balance: 05-knife-types/weight-and-balance.md
   - Master the Movement:
