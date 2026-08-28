@@ -24,10 +24,6 @@ A flatter edge makes broad board contact easier and naturally suits push cutting
 
 These are tendencies, not rigid laws. A gyuto can have enough curve to rock comfortably, a Western chef's knife can be relatively flat, and a rectangular Chinese-style knife may be a thin general-purpose cutter rather than a bone tool.
 
-### Surface relief: hollows and hammering
-
-Hollows, dimples and hammered surfaces are surface features, not separate knife shapes. They interrupt continuous contact between food and the blade face and can reduce sticking or suction with some moist, starchy or soft ingredients. The effect depends on the depth and distribution of the relief, the blade finish, food texture and cutting technique. A chef's knife with Granton-style hollows remains a chef's knife; a carving knife with the same treatment remains a carving knife.
-
 ## General-purpose knives
 
 ### Western chef's knife
