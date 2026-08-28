@@ -7,6 +7,12 @@ translations can contain damaged remnants of those tokens (for example
 break PDF rendering. This script restores the HTML structure from the English
 source while retaining a translated figcaption when it can be recovered safely.
 
+If a translation model has dropped enough protected tags that line-by-line slot
+repair is no longer safe, the complete figure block is restored from the English
+source. This deliberately prefers an intact figure with source-language SVG labels
+over publishing malformed HTML/SVG. A translated figcaption is still retained when
+it can be recovered without placeholder residue.
+
 It is intentionally deterministic and does not call a translation model. It can
 therefore run before every build/export as a final markup-integrity guard.
 """
@@ -21,6 +27,7 @@ from multilingual_site import LOCALES, SOURCE, TRANSLATIONS, read_yaml, split_do
 TOKEN_HINT_RE = re.compile(r"KBTO", re.IGNORECASE)
 TOKEN_FRAGMENT_RE = re.compile(r"Z*KBT[A-Z]*\d{3}Z*", re.IGNORECASE)
 FIGCAPTION_RE = re.compile(r"<figcaption>(.*?)</figcaption>", re.IGNORECASE | re.DOTALL)
+FIGURE_BLOCK_RE = re.compile(r"<figure\b[^>]*>.*?</figure>", re.IGNORECASE | re.DOTALL)
 HTML_TAG_RE = re.compile(r"<[^>]+>")
 FRONTMATTER_RE = re.compile(r"\A(---\n.*?\n---\n\n?)(.*)\Z", re.DOTALL)
 
@@ -75,6 +82,44 @@ def _repair_line(source_line: str, target_line: str) -> str:
     return repaired_core + ending
 
 
+def _restore_figure_blocks(source_body: str, target_body: str, target_path: Path) -> str:
+    """Restore complete source figure blocks when translated HTML lost structure.
+
+    Figure boundaries are much coarser and safer alignment anchors than individual
+    SVG/HTML tags. The source block is copied byte-for-byte, while a clean translated
+    figcaption is retained where possible. SVG labels may therefore fall back to
+    English in the exceptional recovery case, but the published figure remains valid.
+    """
+
+    source_figures = list(FIGURE_BLOCK_RE.finditer(source_body))
+    target_figures = list(FIGURE_BLOCK_RE.finditer(target_body))
+    if not source_figures or len(source_figures) != len(target_figures):
+        raise RuntimeError(
+            f"Cannot safely repair {target_path}: figure block counts differ "
+            f"({len(source_figures)} source vs {len(target_figures)} translation)"
+        )
+
+    repaired = target_body
+    for source_match, target_match in reversed(list(zip(source_figures, target_figures))):
+        source_block = source_match.group(0)
+        target_block = target_match.group(0)
+
+        source_caption = FIGCAPTION_RE.search(source_block)
+        target_caption = FIGCAPTION_RE.search(target_block)
+        if source_caption and target_caption:
+            recovered = _clean_recovered_caption(target_caption.group(0))
+            if recovered and not TOKEN_HINT_RE.search(recovered):
+                source_block = (
+                    source_block[: source_caption.start(1)]
+                    + recovered
+                    + source_block[source_caption.end(1) :]
+                )
+
+        repaired = repaired[: target_match.start()] + source_block + repaired[target_match.end() :]
+
+    return repaired
+
+
 def repair_file(source_path: Path, target_path: Path) -> bool:
     target_text = target_path.read_text(encoding="utf-8")
 
@@ -104,10 +149,19 @@ def repair_file(source_path: Path, target_path: Path) -> bool:
     ]
 
     if len(source_html_slots) != len(target_htmlish_indexes):
-        raise RuntimeError(
-            f"Cannot safely repair {target_path}: HTML structural slot counts differ "
-            f"({len(source_html_slots)} source vs {len(target_htmlish_indexes)} translation)"
-        )
+        target_body = _restore_figure_blocks(source_body, target_body, target_path)
+        target_lines = target_body.splitlines(keepends=True)
+        target_htmlish_indexes = [
+            index
+            for index, line in enumerate(target_lines)
+            if HTML_TAG_RE.search(line) or TOKEN_HINT_RE.search(line)
+        ]
+        if len(source_html_slots) != len(target_htmlish_indexes):
+            raise RuntimeError(
+                f"Cannot safely repair {target_path}: HTML structural slot counts still differ "
+                f"after figure restoration ({len(source_html_slots)} source vs "
+                f"{len(target_htmlish_indexes)} translation)"
+            )
 
     repaired_lines = list(target_lines)
     for source_line, target_index in zip(source_html_slots, target_htmlish_indexes):
