@@ -19,6 +19,11 @@ This file records the current editorial constraints for *The Gongfu of Xinzuo*. 
 
 ## Structure and knife forms
 
+- “Anatomy of a Kitchen Knife” must be the first technical section after the opening material and must appear immediately before “Knife Shapes and Their Uses”.
+- The anatomy section must establish the core vocabulary used later in the book: blade, tip, spine, blade face, cutting edge, bevel, heel, tang, handle, handle scales, rivets/pins, bolster, butt/pommel, surface finish and the principal tang constructions.
+- Keep the Western bolster distinct from both a guard and the ferrule/collar of a traditional Japanese-style handle.
+- In this book, “Asian handle” is a deliberately narrow house term for the traditional Japanese-inspired *wa*-style construction, especially the octagonal or oval hidden-tang handle with a ferrule. Never imply that all Asian-made knives use this construction.
+- The mini-section “Surface relief: hollows and hammering” belongs at the end of the anatomy/surface-finish discussion, immediately before the blade-shape chapter; do not reinsert it inside the knife-shape taxonomy.
 - “Knife Shapes and Their Uses” must remain one of the first major content sections.
 - Each knife form should be explained discursively: why it has that geometry, what work it suits, what movement it encourages, and its limitations.
 - Each knife form should have its own directly associated image rather than relying on a confusing composite plate.
