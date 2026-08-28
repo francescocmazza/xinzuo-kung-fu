@@ -3,7 +3,7 @@ title: Heat Treatment and Carbides
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-25
+reviewed: 2026-08-28
 translation_priority: high
 ---
 
@@ -31,6 +31,14 @@ The objective is not simply to dissolve as much carbide as possible. Too little 
 
 Austenitizing is therefore one of the most important balancing stages in knife heat treatment. The correct recipe depends on the steel and the desired combination of hardness, toughness, corrosion resistance and carbide structure.
 
+### Vacuum heat treatment: atmosphere control during the high-temperature stages
+
+At austenitizing temperatures, exposed steel can oxidize and lose carbon at the surface. A **vacuum furnace** or another well-controlled protective atmosphere reduces those reactions while the blade is being heated.
+
+For a knife manufacturer, this can offer important process advantages: less scale, reduced surface decarburization, cleaner parts and precise control of the heating cycle. It is especially useful for high-alloy stainless and tool steels that require elevated austenitizing temperatures.
+
+Vacuum treatment does not replace the correct austenitizing, quench and tempering recipe. The word *vacuum* describes the controlled environment in which high-temperature processing occurs; it is not a separate hardening stage that comes after the rest of the sequence, and it is not by itself a measure of final blade quality.
+
 ## 3. Quenching: forming martensite
 
 After austenitizing, the blade is cooled rapidly enough to transform much of the austenite into **martensite**, the hard phase that gives a hardened knife steel much of its strength and edge stability.
@@ -55,9 +63,9 @@ It is not a universal upgrade. A small amount of retained austenite can sometime
 
 ### Xinzuo as an example
 
-Xinzuo's product documentation provides a useful real-world example of this process chain. Selected series specify **vacuum heat treatment and deep freeze**. These should be understood as two related but distinct stages: vacuum processing controls the atmosphere during high-temperature treatment, while the deep-freeze step is used after hardening where the specified steel and process call for additional low-temperature transformation.
+Xinzuo's product documentation provides a useful real-world example of how these parts of the sequence relate. Selected series specify **vacuum heat treatment and deep freeze**. They are related within one process chain but perform different jobs: vacuum processing controls the atmosphere during high-temperature treatment, while the deep-freeze step follows hardening where the specified steel and recipe call for additional low-temperature transformation.
 
-The example illustrates a general principle rather than a rule for all knives: a manufacturer may add sub-zero processing when the alloy and the target microstructure justify it.
+The example illustrates a general principle rather than a rule for all knives: each added process must have a metallurgical purpose within the complete treatment, not merely appear as a quality label.
 
 ## 5. Tempering: making hardened steel usable
 
@@ -69,21 +77,15 @@ Some steels and heat-treatment routes use two or more tempering cycles. One reas
 
 The correct tempering temperature is therefore part of the alloy-specific recipe. Chasing the highest possible HRC without considering toughness, retained austenite, corrosion resistance and intended edge geometry can produce a worse knife rather than a better one.
 
-## 6. Vacuum heat treatment: atmosphere control, not a magic hardness process
-
-At high temperature, exposed steel can oxidize and lose carbon at the surface. A **vacuum furnace** or another well-controlled protective atmosphere reduces those reactions during heat treatment.
-
-For a knife manufacturer, this can offer important process advantages: less scale, reduced surface decarburization, cleaner parts and precise control of the heating cycle. It is especially useful for high-alloy stainless and tool steels that require elevated austenitizing temperatures.
-
-Vacuum treatment does not replace the need for the correct austenitizing, quench and tempering recipe. The word *vacuum* describes the controlled environment in which part of the thermal process occurs; it is not by itself a measure of final blade quality.
-
-## 7. Grinding after heat treatment
+## 6. Grinding after heat treatment
 
 Heat treatment can be correct and still be locally damaged later. Grinding a hardened blade creates heat at the surface. If the edge is overheated during aggressive grinding or sharpening, a very thin region can be unintentionally tempered at a higher temperature than intended, reducing hardness and edge stability.
 
 This is why controlled grinding, adequate cooling and careful final sharpening are part of the performance chain. Metallurgy does not end when the blade leaves the furnace.
 
-# Carbides: hard particles inside the steel
+That thermal sequence determines not only the condition of the steel matrix but also the hard particles distributed through it. To understand why two heat treatments of the same alloy can sharpen and wear differently, the next step is to look directly at those particles.
+
+## Carbides: hard particles inside the steel
 
 Carbides are compounds of carbon with iron or alloying elements. They are not foreign inclusions sprinkled into the steel; they are phases that form because of the steel's chemistry and thermal history.
 
@@ -91,7 +93,7 @@ Carbides can increase wear resistance and influence grain control, but more carb
 
 The notation used by metallurgists can look cryptic. In expressions such as **M7C3**, **M23C6**, **M6C** or **MC**, the letter *M* means one or more metallic elements. A carbide described as M7C3 is therefore not necessarily made from one pure metal species; chromium, iron, molybdenum and other elements can share the metallic positions.
 
-## Common carbide families in blade steels
+### Common carbide families in blade steels
 
 | Carbide family | Principal carbide-forming elements in knife steels | Why it matters |
 |---|---|---|
@@ -104,19 +106,19 @@ The notation used by metallurgists can look cryptic. In expressions such as **M7
 
 The table describes families, not a promise that every steel containing an element will contain a pure carbide of that element. For example, molybdenum can be dissolved in the matrix or enriched inside chromium carbides instead of forming a separate Mo carbide. Vanadium can also enrich chromium carbides when conditions do not favour a distinct MC population. The final microstructure must be measured or reliably calculated; it cannot be inferred from the ingredient list alone.
 
-## Why carbide hardness changes sharpening
+### Why carbide hardness changes sharpening
 
 A sharpening stone must abrade both the steel matrix and the hard particles embedded in it. Common chromium carbides are hard, but high-quality aluminium-oxide abrasives can often cut them effectively. Vanadium and niobium MC carbides are much harder, which is why high-volume V- or Nb-carbide steels may respond more efficiently to diamond or other very hard abrasives.
 
 This helps explain a common paradox: two steels at the same HRC can require very different sharpening effort. The matrix hardness is similar, but the abrasive is confronting a different population of hard particles.
 
-## Why carbide volume changes toughness
+### Why carbide volume changes toughness
 
 Carbides are hard and comparatively brittle. Increasing their volume can raise wear resistance but gives cracks more hard-particle interfaces through which to initiate or propagate. Large carbide size can be especially harmful to toughness.
 
 Powder metallurgy can help by producing a more uniform distribution and often smaller carbides than conventional ingot processing for the same highly alloyed composition. It does not make carbide volume irrelevant. A powder steel with a very high carbide fraction can still be less tough than a lower-carbide steel.
 
-## Why heat treatment and carbides must be read together
+### Why heat treatment and carbides must be read together
 
 The carbide structure present in the finished knife is not identical to the composition printed on a data sheet. During austenitizing, some carbides dissolve. During cooling and tempering, phases can transform and new fine carbides can precipitate. Chromium, molybdenum, vanadium, niobium and tungsten can therefore move between the matrix and different carbide families as the thermal cycle progresses.
 
