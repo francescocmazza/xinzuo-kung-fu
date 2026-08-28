@@ -1,5 +1,5 @@
 ---
-source_hash: 915bfe7afaede6f930b2ee686ad14780782e2478168ea0b3ee9bed204ded0b7d
+source_hash: 6c24d73e9f4d82202c92e7767176f8ae7ccdf28a432dd813d34d6226db0517ed
 ---
 
 # Peso ed equilibrio: perché Heavier non è migliore o peggio
