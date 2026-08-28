@@ -3,7 +3,7 @@ title: Single and Double Bevels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-23
+reviewed: 2026-08-28
 translation_priority: highest
 ---
 
@@ -144,29 +144,6 @@ To estimate how demanding a knife will be, consider:
 
 Bevel type is only one part of the answer.
 
-## Sharpening a double bevel
-
-For an ordinary symmetrical double bevel:
-
-1. identify the narrow edge bevel or microbevel immediately behind the apex;
-2. place that small facet, not the whole broad primary bevel, at a consistent angle on the stone;
-3. work the first side until a light burr reaches the full edge;
-4. repeat on the second side;
-5. reduce pressure;
-6. alternate sides and remove the burr.
-
-Fifteen degrees per side is a useful visual reference for many thin kitchen knives, not a universal prescription. Follow the existing edge geometry and the manufacturer's guidance.
-
-> **Do not confuse sharpening with thinning.** Routine edge sharpening removes a small amount of steel at the edge bevel. Laying a broad primary bevel on the stone changes the blade behind the edge and should be done only when that geometric change is intended.
-
-## Sharpening a traditional single bevel
-
-Traditional single-bevel primary sharpening is different. Here the broad main bevel itself is normally worked against the stone, while the reverse is laid nearly flat and touched lightly to remove the burr while preserving the urasuki and its surrounding flats.
-
-Do not assume that the broad bevel presents exactly the same local angle from heel to tip. As blade height and spine thickness reduce toward the point, follow the actual bevel contact and adapt the hand gradually to the geometry already present.
-
-Do not convert the reverse into a normal secondary bevel. Do not thin the hollow indiscriminately. A high-value single-bevel knife deserves model-specific instruction or a sharpener familiar with this construction.
-
 ## Choosing between the two
 
 Choose a double bevel when you want:
@@ -185,15 +162,22 @@ Consider a single bevel when you want:
 
 Within Xinzuo's range, compare the exact model rather than relying on the profile name alone. Verify the grind, handed orientation, steel, thickness and intended food.
 
+## What the geometry means for sharpening
+
+Sharpening follows the geometry already described rather than a generic rule applied to every knife. On an ordinary double bevel, routine sharpening normally works the narrow edge bevel or microbevel on both sides; if the knife is intentionally asymmetric, that asymmetry should be preserved rather than automatically converted to 50/50.
+
+A traditional single bevel is different because the broad main bevel is part of the sharpening geometry and the reverse face is normally worked almost flat so the urasuki and its surrounding reference flats are preserved. The local contact of the main bevel can also change toward the tip as blade height and thickness change.
+
+The complete practical sharpening sequence appears later in [A Practical Sharpening Process](../10-sharpening/basic-sharpening-process.md). The principle to carry forward from this chapter is simpler: **identify the geometry first, then sharpen the surfaces that actually define that geometry**.
+
 ## What to remember
 
 - The broad primary bevel and the narrow edge bevel or microbevel are not the same surface.
-- Routine double-bevel sharpening normally follows the edge bevel or microbevel; working the broad primary bevel is a separate geometry operation.
 - Double bevel describes sharpening from both sides, not necessarily perfect symmetry.
 - Single bevel describes a complete geometry, often including an urasuki.
 - On a single bevel, the local main-bevel angle can change along the blade as height and thickness change toward the tip.
-- A single-bevel knife is optimized for one hand but can often be used with the other.
+- A single-bevel knife is optimized for one hand but can often be used with the other when the food and cutting direction are arranged around the geometry.
 - Steering should be managed through setup and direction, not forced sideways correction.
 - Neither family is automatically sharper, stronger or more prestigious.
 
-> **Practice principle:** preserve the geometry that is actually on the knife. At the edge, follow the edge bevel; on a traditional single bevel, follow the local main-bevel contact rather than forcing a theoretical constant angle.
+> **Practice principle:** preserve the geometry that is actually on the knife.
