@@ -3,33 +3,17 @@ title: Conventional and Powder-Metallurgy Steels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-24
+reviewed: 2026-08-28
 translation_priority: highest
 ---
 
 # Conventional and Powder-Metallurgy Steels
 
-A knife blade may contain more than ninety-eight percent iron and still behave nothing like pure iron. That is one of the most remarkable facts in metallurgy: very small changes in composition and structure can transform the behaviour of the whole material.
+The previous chapter explains how small amounts of carbon, chromium, vanadium and other elements can change steel profoundly. Composition, however, is only the beginning. Once the recipe has been chosen, the next question is **how that chemistry becomes a solid piece of steel**.
 
-An iron-carbon alloy containing only **0.5% carbon by mass** contains just half a gram of carbon in every 100 grams of material. At the atomic level, however, carbon is much lighter than iron, so that apparently tiny mass fraction corresponds to roughly **one carbon atom for every 43 iron atoms**. A quantity that looks almost negligible on a composition table is therefore sufficient to change the crystal structure and mechanical behaviour of iron profoundly.
+Two materials can have very similar nominal compositions and still develop different carbide sizes, segregation patterns and local uniformity because they were solidified by different routes. That difference becomes especially important in highly alloyed knife steels, where the edge eventually works at a scale small enough for individual carbide populations and local variations to matter.
 
-It would be misleading to describe those carbon atoms simply as “inclusions” in iron. Steel is crystalline: its iron atoms are arranged in an ordered atomic lattice, rather like a three-dimensional framework. Carbon atoms are much smaller and, when dissolved in the iron, they occupy **interstitial sites** — tiny spaces between the iron atoms. Their presence distorts the lattice and changes how easily planes of atoms can move past one another. This is one reason such a small addition can have such a large effect on strength and hardness.
-
-At high temperature, the crystal form called **austenite** can dissolve relatively large amounts of carbon in these interstitial positions. When suitable steel is quenched rapidly, carbon becomes trapped in the newly formed **martensite**, distorting that crystal structure strongly and making it much harder. Carbon can also combine with iron or alloying elements to form hard particles called **carbides**.
-
-This is why a fraction of one percent can matter so much. Carbon is not merely present in the material; it changes which microscopic structures the iron can form and how those structures respond to heat treatment.
-
-## Small percentages, large changes
-
-In plain-carbon steels, the conventional ranges themselves show how sensitive the material can be. A steel around **0.5% carbon** is commonly described as medium-carbon steel, while a steel around **0.8% carbon** lies firmly in the high-carbon range commonly used for springs, tools and cutting applications. There is no single magical switch at exactly one percentage, but moving by only three tenths of one percent can change hardening potential, attainable hardness, carbide formation and the heat treatment required to obtain the desired balance of strength and toughness.
-
-Around **0.76-0.77% carbon** lies the eutectoid composition of the iron-carbon system. Below and above this point, the balance of phases that forms during slow cooling changes. For a knife maker, the deeper lesson is more important than memorizing the phase diagram: differences that appear tiny on a label can reorganize the steel's microscopic structure enough to produce large changes in performance.
-
-There is another useful landmark much higher in carbon content. In the conventional iron-carbon phase diagram, the boundary between steel and cast iron lies at about **2.1-2.14% carbon by mass**, corresponding approximately to the maximum equilibrium solubility of carbon in austenite. Above this range the alloy belongs to the cast-iron family rather than ordinary steel. Cast irons usually contain still more carbon and are designed around very different solidification and microstructural behaviour.
-
-So the correct picture is not that iron remains essentially unchanged until a large amount of carbon is added. It is almost the opposite: **small compositional changes can reorganize the microscopic structure enough to produce very large changes in macroscopic behaviour**.
-
-The same principle applies to chromium, vanadium, molybdenum, tungsten, niobium and the other elements described in the previous chapter. A knife steel is therefore not simply a percentage recipe. It is a microscopic architecture created from those percentages by melting, solidification, hot working and heat treatment.
+The useful progression is therefore simple: composition tells us what is available; steelmaking influences how evenly those ingredients are distributed before heat treatment; heat treatment then develops the final working microstructure.
 
 ## The matrix and the particles it carries
 
