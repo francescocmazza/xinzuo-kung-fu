@@ -214,6 +214,38 @@ Signs that an edge needs attention include:
 
 A sharp knife improves control, but the user must still maintain safe habits. Sharpness makes correct technique easier; it does not replace technique.
 
+## Common unsafe habits
+
+These mistakes are worth naming explicitly because they are easy to recognize and easy to correct during training.
+
+### Leaving a knife in the sink
+
+The blade becomes hidden and can cut anyone reaching into the water. A knife should remain visible until it has been washed, dried and stored.
+
+### Cutting toward the body
+
+Whenever possible, direct the cut away from the hands and body. If a specialist in-hand technique is appropriate, use a small suitable knife and keep the movement controlled and limited.
+
+### Holding food in the air with a large knife
+
+Use a cutting board unless the task specifically calls for controlled in-hand work with a suitable small knife. A large blade and an unsupported ingredient create unnecessary risk.
+
+### Testing sharpness by sliding a finger along the edge
+
+Never slide a finger lengthwise along the cutting edge. That movement follows exactly the direction in which the edge is designed to cut. Use visual inspection or a controlled cutting test instead.
+
+### Scraping the board with the cutting edge
+
+Use the spine, the blade face or a bench scraper. Sideways scraping wears or damages the apex and creates a habit of moving a sharp edge laterally near the guiding hand.
+
+### Using a glass, ceramic, stone or metal board
+
+These surfaces rapidly damage a fine edge and can make controlled cutting less predictable. Use wood or a suitable plastic cutting board.
+
+### Trying to catch a falling knife
+
+Step back and let it fall. A damaged knife can be repaired or replaced; a hand injury is a far more serious consequence.
+
 ## What to remember
 
 > A sharp knife is easier to control because it needs less force, but safety depends on the whole working method. Stabilize the board and food, use the correct knife, keep the supporting hand clear, avoid twisting and carry the knife low and still with the tip down and the edge away.
