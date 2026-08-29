@@ -22,7 +22,7 @@ permissions:
 
 concurrency:
   group: multilingual-export-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   validate-helper:
