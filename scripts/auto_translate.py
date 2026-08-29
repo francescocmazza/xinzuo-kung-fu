@@ -37,6 +37,7 @@ MODEL_MAX_INPUT_TOKENS = 450
 TARGET_PREFIX_BY_LOCALE = {
     "zh-Hans": ">>cmn_Hans<<",
 }
+HTML_TAG_RE = re.compile(r"<[^>]+>")
 
 
 @dataclass
@@ -279,11 +280,44 @@ class MarianTranslator:
             translated_parts.append(restore_inline(self._translate_plain(protected)))
         return restore_links("".join(translated_parts))
 
+    def _translate_html_line(self, raw: str) -> str:
+        """Translate visible HTML text while preserving every tag byte-for-byte.
+
+        Passing raw HTML tags through Marian behind placeholder tokens proved unsafe:
+        the Chinese model can alter or drop those placeholders. Splitting the line
+        into tags and text nodes keeps markup and attributes completely outside the
+        model while still translating captions and other visible text nodes.
+        """
+
+        parts = re.split(r"(<[^>]+>)", raw)
+        translated_parts: list[str] = []
+        for part in parts:
+            if not part:
+                continue
+            if HTML_TAG_RE.fullmatch(part):
+                translated_parts.append(part)
+                continue
+            if not part.strip():
+                translated_parts.append(part)
+                continue
+
+            left = part[: len(part) - len(part.lstrip())]
+            right = part[len(part.rstrip()) :]
+            core = part.strip()
+            translated_parts.append(left + self._translate_payload(core) + right)
+
+        return "".join(translated_parts)
+
     def translate_line(self, line: str) -> str:
         ending = "\n" if line.endswith("\n") else ""
         raw = line[:-1] if ending else line
         if _should_keep_verbatim(raw):
             return line
+
+        # Keep raw HTML markup out of Marian entirely. Only visible text between
+        # tags is translated; attributes and structure stay byte-for-byte stable.
+        if HTML_TAG_RE.search(raw):
+            return self._translate_html_line(raw) + ending
 
         prefix, payload = _split_markdown_prefix(raw)
         if not payload.strip():
