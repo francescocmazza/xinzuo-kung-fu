@@ -66,7 +66,7 @@ Stainless steel is therefore corrosion-resistant rather than stain-proof. Salt, 
 
 **Toughness** is the ability of a material to absorb stress and energy without fracturing. At a knife edge, insufficient toughness may appear as chipping. At a larger scale it can contribute to cracking or breakage when the blade receives impact, twisting or strong lateral loads.
 
-Toughness is not the same as the everyday idea of *robustness*. A finished knife also gains or loses robustness through thickness, edge angle, blade shape and the amount of material supporting the edge.
+Toughness has a narrower meaning here than the everyday idea of *robustness* suggests. A finished knife also gains or loses robustness through thickness, edge angle, blade shape and the amount of material supporting the edge.
 
 The same steel can therefore feel delicate in an extremely thin precision slicer and much more tolerant in a thicker working geometry. Even a very tough steel cannot make an ultrathin edge immune to lateral abuse.
 
@@ -90,7 +90,7 @@ The five dimensions are not independent sliders that can all be maximized withou
 - A greater volume of hard carbides can improve abrasive wear resistance while slowing sharpening and often reducing toughness.
 - Strong corrosion resistance depends on alloy balance and the chromium that remains useful for passivation, not simply on the nominal chromium percentage.
 - A very thin geometry can transform cutting performance while placing greater demands on the steel and on user technique.
-- A steel that feels wonderful on a stone is not automatically poor at edge retention, and a steel with moderate hardness is not automatically easy to sharpen.
+- A steel can feel wonderful on a stone and still hold an edge well, or sit at moderate hardness and still resist sharpening.
 
 These trade-offs are the reason different steels and heat treatments exist.
 

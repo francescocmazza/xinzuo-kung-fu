@@ -28,6 +28,7 @@ This file records the current editorial constraints for *The Gongfu of Xinzuo*. 
 - Numbered sequences must represent a genuine order of operations or a genuine series of comparable items. A background explanation, exception, case study or safety note should not be numbered as though it were another step in a process.
 - Once a chapter has moved from theory into application or conclusion, do not return to an earlier theoretical layer unless the return is explicitly necessary and clearly signposted. Reorder the material instead whenever possible.
 - Recap sections should consolidate rather than reproduce entire passages already explained. Avoid a second question-and-answer checklist when a coherent prose conclusion can carry the same information more fluently.
+- Corrective constructions such as "X is not Y", "does not mean Z" or "should not be confused with" are a legitimate and necessary way to correct real misconceptions, but they must not become the chapter's default sentence shape. Within any single chapter, avoid stacking more than one such construction in the same paragraph or in two consecutive paragraphs; vary the correction with a direct positive statement, a concrete example or a contrastive sentence that does not open with a negation. Section and subsection headings should default to a positive or descriptive form (what something is, or where a property actually comes from) rather than a "not the same as" or "does not mean" pattern, so consecutive headings in a chapter are not built from the same negation.
 
 ## Sentence-level linearity and natural reading order
 
@@ -100,6 +101,12 @@ This file records the current editorial constraints for *The Gongfu of Xinzuo*. 
 - Avoid unnecessary repetition between the Preface, opening, chapter introductions and later technical sections.
 - Prefer discursive, didactic explanation over excessively schematic summaries when the subject requires understanding rather than lookup.
 - Historical material should remain only where it explains the technical idea being taught. Do not interrupt a practical sequence with an interesting but non-essential historical aside.
+
+## Images
+
+- Every image referenced from `content/en/` must resolve to a file inside this repository's `assets/` tree (or the corresponding `translations/<locale>/assets/`). Do not embed an `<img src="https://...">` pointing at a third-party website, retailer, CDN or any other externally hosted file, even temporarily. An externally hosted image is unverified for rights, can disappear or change without notice, and must never be used as a stand-in for a properly sourced asset.
+- When no approved image exists yet for a needed illustration, use the standard editorial placeholder (`kb-image-placeholder-wrap` / `kb-image-placeholder`, matching the markup already used by the learning-figure placeholder system) instead of a temporary external link. The governing rule carried over from the visual audit applies here too: **a placeholder is preferable to an unrights-cleared or misleading illustration.**
+- Before an image is added under `assets/images/approved/`, confirm it is either original project work, a properly authorized Xinzuo catalog/promotional crop recorded in `content/en/assets/IMAGE_RIGHTS.md`, or a third-party image whose license explicitly permits this use and redistribution. A product photograph found on a retailer's or reseller's website does not meet this bar merely because it depicts a Xinzuo product.
 
 ## Bibliography
 
