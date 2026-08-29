@@ -2,7 +2,7 @@
 title: Editorial Principles
 status: approved
 language: en
-reviewed: 2026-08-24
+reviewed: 2026-08-29
 ---
 
 # Editorial Principles
@@ -145,6 +145,22 @@ Across the book, readers must be able to find clear explanations of:
 
 Prefer short and medium-length sentences. Longer sentences are acceptable when their structure remains clear.
 
+Build each sentence in the order in which a reader naturally understands it. As a default, establish the **subject or topic**, state the **action or relationship**, complete the **object or main proposition**, and only then add a **comparison, limitation, condition or exception**. The reader should not have to hold an unfinished grammatical structure in memory while a comparison or caveat is inserted into the middle of it.
+
+For example, prefer:
+
+> Pakka wood generally tolerates contact with detergents and degreasers better than natural-wood handles.
+
+rather than:
+
+> Pakka wood generally tolerates better than natural-wood handles contact with detergents and degreasers.
+
+The same principle applies beyond comparisons. Prefer the natural sequence of thought over literary inversion, front-loaded qualification or nested contrast. Complete the main claim first whenever accuracy allows, then explain how it compares, where it stops or what modifies it.
+
+Keep comparative phrases close to what they compare. If **better than**, **more than**, **less than**, **compared with** or **unlike** refers to the whole action, the comparison will normally read most naturally after the action has been completed.
+
+Avoid repetitive explanatory templates when ordinary prose is clearer. Frequent constructions such as “Its advantage is…”, “Its compromise is…”, “The point is not that…”, “This does not mean…” and “It would nevertheless be misleading…” make long-form reading tiring when they become habitual. State the practical effect directly and introduce the contrast only where it adds real information.
+
 Use headings frequently enough that a reader can pause and return without losing the thread.
 
 Use paragraphs for explanation and bullet points for:
@@ -182,6 +198,8 @@ Avoid unnecessary wordplay, culture-specific jokes and idioms that cannot be tra
 
 Keep important terminology consistent across chapters. The controlled glossary should be consulted before introducing a new translation-sensitive term.
 
+Do not preserve awkward English word order mechanically in translation. The target-language sentence should follow the natural order in which a fluent reader of that language expects the information to arrive, while preserving the same technical meaning.
+
 ## Images and diagrams
 
 Images should teach, not merely decorate.
@@ -203,6 +221,8 @@ Before approving a chapter, ask:
 - Can a complete beginner understand the central idea?
 - Is the explanation detailed enough to answer the obvious next question?
 - Does the page remain pleasant to read?
+- Does each sentence present its main idea in a natural reading order, without making the reader wait for the verb's object or the clause's completion?
+- Are comparisons and qualifications placed after the main proposition when accuracy allows?
 - Are technical terms introduced rather than assumed?
 - Does the author state the conclusion clearly rather than hiding it behind unnecessary caveats?
 - Are any remaining qualifications genuinely necessary for accuracy, scope or safety?
