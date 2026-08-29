@@ -3,16 +3,16 @@ title: Anatomy of a Kitchen Knife
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-28
+reviewed: 2026-08-29
 translation_priority: highest
 source_basis: standard fixed-blade kitchen-knife construction and terminology
 ---
 
 # Anatomy of a Kitchen Knife
 
-Before comparing blade shapes, steels or sharpening angles, it helps to give the knife a precise vocabulary. A kitchen knife may look like two simple pieces — a blade and a handle — but several different parts meet at the point where the hand controls the tool. Knowing their names makes later discussions of geometry, balance, construction and ergonomics much easier to follow.
+Before comparing blade shapes, steels or sharpening angles, it helps to give the knife a precise vocabulary. A kitchen knife may look like two simple pieces—a blade and a handle—but several different parts meet at the point where the hand controls the tool. Knowing their names makes later discussions of geometry, balance, construction and ergonomics much easier to follow.
 
-Not every knife contains every feature shown here. A Western full-tang chef's knife, a molded-handle utility knife and a traditional Asian-handle knife can all be excellent tools while being constructed in very different ways.
+Not every knife contains every feature shown here. A Western full-tang chef's knife, a molded-handle utility knife and a traditional Asian-handle knife can all be excellent tools while using very different constructions.
 
 ## The main parts at a glance
 
@@ -145,25 +145,25 @@ The steel continues behind the blade as the **tang**. In many Western knives the
 
 The **tip** is the forward end of the blade. Its exact form changes how easily the knife enters small spaces, scores a surface or makes fine directional corrections. The **spine** is the upper, normally unsharpened edge of the blade. Spine thickness and the way it tapers toward the tip influence stiffness, balance and how easily the blade passes through food.
 
-The broad side of the blade is the **blade face**. Its geometry is not always perfectly flat: convexity, hollows, cladding transitions and other shaping can change how food moves against it. The **surface finish** is the final texture or appearance placed on that face — for example satin, polished, mirror-polished, brushed, etched or hammered. Finish and geometry should not be confused: two blades can have a similar appearance while having very different thickness and cross-section.
+The broad side of the blade is the **blade face**. Its geometry is not always perfectly flat: convexity, hollows, cladding transitions and other shaping can change how food moves against it. The **surface finish** is the final texture or appearance placed on that face—for example satin, polished, mirror-polished, brushed, etched or hammered. Finish and geometry should not be confused: two blades can have a similar appearance while having very different thickness and cross-section.
 
-The **cutting edge** or **edge** is the sharpened line that actually enters the food. Immediately above it, the **bevel** is the sloping geometry that narrows the blade toward the apex. Some knives have a clearly visible primary bevel; on others the transition is much subtler. At the rear of the cutting edge, the **heel** is the portion closest to the handle. Depending on the design, a short unsharpened area or relief may separate the heel from the bolster or handle.
+The **cutting edge** or **edge** is the sharpened line that actually enters the food. Immediately above it, the **bevel** is the sloping geometry that narrows the blade toward the apex. Some knives have a clearly visible primary bevel; on others the transition is much subtler. At the rear of the cutting edge, the **heel** is the portion closest to the handle. A short unsharpened area or relief may separate the heel from the bolster or handle depending on the design.
 
 ## Handle, bolster and tang
 
-The **handle** is the part designed to be held, but its construction varies considerably. On a Western **full-tang** knife, the tang continues through essentially the full length and outline of the handle. **Scales** are fitted to its two sides and are commonly secured by adhesive together with **rivets or pins**. The exposed steel around the handle can add mass and contributes to the knife's balance.
+The **handle** is the part designed to be held, but its construction varies considerably. On a Western **full-tang** knife, the tang continues through essentially the full length and outline of the handle. **Scales** are fitted to its two sides and are commonly secured by adhesive together with **rivets or pins**. The exposed steel around the handle can add mass and contribute to the knife's balance.
 
 A **bolster** is the reinforced metal transition between blade and handle found on many Western kitchen knives. It can be integral with the blade or attached as a separate component. Its functions can include strengthening the transition, shaping a comfortable contact point for the fingers, protecting the front of the handle and adding mass near the hand. Some bolsters extend down to the heel; others are shortened or open near the edge to make sharpening easier. A bolster is not automatically a **guard**: a guard is specifically a projection intended to stop the hand from sliding toward the edge, and many kitchen knives have no separate guard at all.
 
-Full tang is only one sound way to build a knife. A **hidden tang** is narrower than the outer handle and is enclosed inside it. A **through tang** is a hidden tang that reaches the butt and may be mechanically secured there. A **partial or stub tang** ends before the butt. Molded handles can also encapsulate the tang so that neither scales nor rivets are visible. These constructions should not be arranged into a simple quality hierarchy: durability depends on tang dimensions, material, fit, adhesive or mechanical fastening, intended use and the loads the knife is designed to withstand.
+Full tang is only one sound way to build a knife. A **hidden tang** is narrower than the outer handle and is enclosed inside it. A **through tang** is a hidden tang that reaches the butt and may be mechanically secured there. A **partial or stub tang** ends before the butt. Molded handles can also encapsulate the tang so neither scales nor rivets are visible. These constructions should not be arranged into a simple quality hierarchy. Durability depends on tang dimensions, material, fit, adhesive or mechanical fastening, intended use and the loads the knife is designed to withstand.
 
 ## What this book calls an “Asian handle”
 
 In this book, **Asian handle** is a practical house term for the traditional hidden-tang construction commonly seen with an **octagonal**, and sometimes oval, handle. The blade enters the front of a solid handle on a hidden tang, and a **ferrule** or collar often reinforces the front of the handle and creates the transition toward the blade.
 
-This terminology is deliberately narrow. It does **not** mean that all knives made in Asia use this construction: many use Western full-tang, molded or other handle systems. When this book says **Asian handle**, it means the octagonal-or-oval hidden-tang construction with a front ferrule described here.
+The term has a deliberately narrow meaning. It does **not** mean that all knives made in Asia use this construction: many use Western full-tang, molded or other handle systems. When this book says **Asian handle**, it means the octagonal-or-oval hidden-tang construction with a front ferrule described here.
 
-The ferrule should also not be confused with a Western bolster. Both sit near the junction between blade and handle, but the ferrule is principally a collar around the front of the handle material, while the bolster is a metal component associated with the blade-and-handle transition itself.
+The ferrule is also different from a Western bolster. Both sit near the junction between blade and handle, but the ferrule is principally a collar around the front of the handle material, while the bolster is a metal component associated with the blade-and-handle transition itself.
 
 ## Surface finish and surface relief
 
