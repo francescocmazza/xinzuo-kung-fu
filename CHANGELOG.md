@@ -4,8 +4,15 @@ All notable editorial changes to the English source of truth will be recorded he
 
 ## [Unreleased]
 
+### Fixed
+
+- removed three externally hotlinked product images in Knife Shapes and Their Uses that pointed at third-party retailer CDNs and were not covered by any recorded image right; the original gyuto and Western boning-knife hotlinks plus a straight paring-knife hotlink introduced by the later `main` revision are replaced with the standard editorial image placeholder pending approved assets.
+
 ### Changed
 
+- reduced repeated "X is not Y" / "does not mean Z" corrective phrasing where it remained stacked after the broader manuscript readability pass, preserving the newer `main` wording while applying the still-relevant direct/descriptive formulations from the editorial patch;
+- added an editorial rule limiting how often corrective negation constructions may be stacked, and requiring section/subsection headings to default to a positive or descriptive form;
+- added an editorial rule and a matching README clarification prohibiting externally hotlinked images and requiring the standard placeholder when an approved asset is not yet available;
 - promoted Knife Shapes and Their Uses to an early top-level section in the book and website navigation;
 - replaced the detached numbered shape chart with 32 individually associated Xinzuo visuals;
 - rewrote every knife-form entry as a discursive explanation of design logic, movement, uses and limits;

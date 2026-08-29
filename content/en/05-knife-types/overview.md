@@ -37,7 +37,14 @@ It remains equally capable of general vegetable and fruit preparation, which is 
 ### Gyuto
 
 <div class="kb-profile-visual">
-  <figure><img src="https://kitchenvirtue.com/cdn/shop/files/p_07772aca-d5e8-4c61-bfaf-0b01cfb2ef21.jpg?v=1752611078" alt="Xinzuo PM80-CS used as a gyuto-profile example"><figcaption>Xinzuo PM80-CS, used here to show a comparatively flatter, slimmer gyuto-type profile.</figcaption></figure>
+  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-GYUTO-PM80">
+    <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo PM80-CS gyuto profile">
+      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
+      <div class="kb-image-placeholder__title">Xinzuo PM80-CS gyuto profile</div>
+      <div class="kb-image-placeholder__note">Awaiting an approved, rights-cleared Xinzuo product photograph.</div>
+    </div>
+    <figcaption>VIS-SHAPE-GYUTO-PM80 - planned visual awaiting production or image-rights approval.</figcaption>
+  </figure>
 </div>
 
 The gyuto overlaps strongly with the Western chef's knife but commonly has a flatter heel and middle, a slimmer point and less continuous belly curvature. It therefore tends to feel more linear in push cuts and long draw slices and can be easier to steer through small directional corrections.
@@ -174,7 +181,14 @@ This is a useful training rule rather than a complete metallurgical formula. Bla
 ### Western boning knife
 
 <div class="kb-profile-visual">
-  <figure><img src="https://images-knifestock-cdn.rshop.sk/default/products/15a57139e92ae3f8c43bcac256677434.png" alt="Xinzuo B37-TG 6-inch Western boning knife"><figcaption>Xinzuo B37-TG, a Western boning-knife example with a narrow pointed profile.</figcaption></figure>
+  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-BONING-B37TG">
+    <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo B37-TG Western boning knife">
+      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
+      <div class="kb-image-placeholder__title">Xinzuo B37-TG Western boning knife</div>
+      <div class="kb-image-placeholder__note">Awaiting an approved, rights-cleared Xinzuo product photograph.</div>
+    </div>
+    <figcaption>VIS-SHAPE-BONING-B37TG - planned visual awaiting production or image-rights approval.</figcaption>
+  </figure>
 </div>
 
 A Western boning knife is narrow because boning is a constantly changing three-dimensional cut. The edge has to enter beside a bone, follow a joint, change direction around a curve, lift connective tissue and repeatedly alter the cutting angle as the hand searches for the cleanest path. A broad blade would resist those changes of direction once it was engaged in the food. **The very small blade height is therefore fundamental: it makes the blade agile enough to change angle continuously.**
@@ -236,7 +250,14 @@ The same curve offers less straight board contact. It should not be treated as a
 ### Straight paring knife
 
 <div class="kb-profile-visual">
-  <figure><img src="https://images-knifestock-cdn.rshop.sk/default/products/f5989fb0b5f68b5b790235881ef139a6.png" alt="Xinzuo B13R-SG straight paring knife"><figcaption>Xinzuo B13R-SG, used here as the straight paring-knife example.</figcaption></figure>
+  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-PARING-STRAIGHT-B13R">
+    <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo B13R-SG straight paring knife">
+      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
+      <div class="kb-image-placeholder__title">Xinzuo B13R-SG straight paring knife</div>
+      <div class="kb-image-placeholder__note">Awaiting an approved, rights-cleared Xinzuo product photograph.</div>
+    </div>
+    <figcaption>VIS-SHAPE-PARING-STRAIGHT-B13R - planned visual awaiting production or image-rights approval.</figcaption>
+  </figure>
 </div>
 
 The straight paring profile places more of its short edge in contact with a board and tracks a direct cut naturally. It works well on garlic, shallots, small fruit, garnish and exact trimming while remaining compact enough for controlled in-hand work. It follows rounded produce less naturally than the curved parer but is more versatile when preparation alternates between hand and board.

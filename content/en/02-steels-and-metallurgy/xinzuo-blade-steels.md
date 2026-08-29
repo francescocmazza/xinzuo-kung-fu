@@ -67,7 +67,7 @@ Composition and heat treatment still determine the final carbide population. The
 
 ## Carbon and all-round high-performance stainless steels
 
-### Blue Steel No. 2: hard does not necessarily mean difficult to sharpen
+### Blue Steel No. 2: high hardness, forgiving stone response
 
 Blue Steel No. 2, or Aogami #2, is the main reactive carbon-steel option in the range and is specified at 62-64 HRC. It reaches high performance by a very different route from M390 or ZDP-189. Its comparatively simple high-carbon alloy is designed for a keen, stable cutting edge rather than relying on a large volume of corrosion-resistant alloy carbides.
 
@@ -129,7 +129,7 @@ Its carbide structure is generally coarser and its performance ceiling lower tha
 
 It is best understood as a proven work steel rather than a prestige steel. It gives up some fine-edge retention and high-performance potential in exchange for accessibility and predictable service.
 
-### DIN 1.4116: moderate hardness is not the same as easy sharpening
+### DIN 1.4116: where its forgiveness actually comes from
 
 DIN 1.4116 is specified at 56-58 HRC in Xinzuo series such as B13S and B35. Within the range it emphasizes **corrosion resistance, toughness and forgiving everyday use**. It suits kitchens where the knife may encounter less disciplined technique, frequent washing or users who value robustness more than maximum edge retention.
 
