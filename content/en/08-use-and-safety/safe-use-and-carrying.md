@@ -3,7 +3,7 @@ title: Safe Use and Carrying
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-28
+reviewed: 2026-08-29
 translation_priority: high
 ---
 
@@ -15,7 +15,7 @@ People sometimes say that a sharp knife is safer than a dull one. The idea is us
 
 A sharp knife usually requires less force. It enters food more easily, follows the intended line more predictably and is less likely to slip because the user is pressing too hard. A dull knife often encourages forceful, uncontrolled movement.
 
-However, a sharp knife can cause a serious injury the moment it is handled carelessly. Safety does not come from sharpness alone. It comes from a sharp and suitable knife, a stable working area, controlled technique and clear habits.
+A sharp knife can still cause a serious injury the moment it is handled carelessly. Safety comes from a sharp and suitable knife, a stable working area, controlled technique and clear habits rather than from sharpness alone.
 
 Use one short check before every session:
 
@@ -27,11 +27,11 @@ The four parts belong together. A perfect claw grip cannot rescue a rolling onio
 
 Many accidents begin before the knife touches the food.
 
-The cutting board should be stable. If it moves, place a damp cloth, non-slip mat or suitable support underneath it. The board should be large enough for the ingredient and the knife. Working on a board that is too small encourages the food, blade and user's hands to compete for space.
+The cutting board should be stable. If it moves, place a damp cloth, non-slip mat or suitable support underneath it. The board should be large enough for the ingredient and the knife. Working on a board that is too small forces the food, blade and user's hands to compete for space.
 
-The work surface should be clear. Bowls, packaging, utensils and scraps should not block the cutting movement. A crowded board forces the knife into awkward angles.
+Keep the work surface clear. Bowls, packaging, utensils and scraps should not block the cutting movement. A crowded board forces the knife into awkward angles.
 
-The floor and counter should be dry. Water, oil and food residue increase the risk of slipping.
+Keep the floor and counter dry. Water, oil and food residue increase the risk of slipping.
 
 Good lighting is equally important. The user should be able to see the knife tip, the position of the supporting hand and any hard objects inside the ingredient.
 
@@ -49,11 +49,11 @@ These few seconds reduce risk and improve cutting quality.
 
 Round ingredients are dangerous because they can roll.
 
-An onion, potato, pumpkin or melon should not be attacked while it is moving. Create a flat surface first, then place that flat side on the board. The ingredient becomes stable and the next cuts become more predictable.
+Do not attack an onion, potato, pumpkin or melon while it is moving. Create a flat surface first, then place that flat side on the board. The ingredient becomes stable and the next cuts become more predictable.
 
-Large or irregular food should be divided into manageable sections. Forcing a long knife through a piece that cannot be held securely increases the chance of slipping or twisting the blade.
+Divide large or irregular food into manageable sections. Forcing a long knife through a piece that cannot be held securely increases the chance of slipping or twisting the blade.
 
-Frozen food should generally be avoided unless a tool is specifically designed for it. A hard frozen surface can cause the edge to skid, chip or suddenly break through with uncontrolled force.
+Avoid frozen food unless a tool is specifically designed for it. A hard frozen surface can cause the edge to skid, chip or suddenly break through with uncontrolled force.
 
 ## Use the right knife for the task
 
@@ -78,11 +78,11 @@ The steel and geometry were designed for cutting. Sideways force can damage an e
 
 Safety does not depend on one universally correct knife-hand grip. The **handle grip, intermediate or hybrid grip, and pinch grip** described in [Weight and Balance](../05-knife-types/weight-and-balance.md) can all be controlled positions when they suit the knife and the task.
 
-Whichever position is used, the hand should remain secure without unnecessary tension, the fingers should not slide toward the edge and the wrist should remain in a natural line. If changing grip also changes the balance of the knife, slow down until the new position feels predictable.
+Whichever position is used, keep the hand secure without unnecessary tension, prevent the fingers from sliding toward the edge and keep the wrist in a natural line. If changing grip also changes the balance of the knife, slow down until the new position feels predictable.
 
 The supporting hand should guide the food while keeping fingertips away from the cutting path. The familiar **claw** position bends the fingertips inward and allows the side of the blade to move against the first joints. It is a moving guide, not a pose to imitate at professional speed.
 
-The cutting movements themselves are developed in [How to Cut](../06-cutting-techniques/essential-cutting-techniques.md). Here the safety principle is simpler: choose a stable grip, keep the supporting hand behind the cutting line and never sacrifice control for speed.
+The cutting movements themselves are developed in [How to Cut](../06-cutting-techniques/essential-cutting-techniques.md). The safety principle here is simpler: choose a stable grip, keep the supporting hand behind the cutting line and never sacrifice control for speed.
 
 ## Let the edge do the work
 
@@ -98,7 +98,7 @@ Forcing the blade creates several risks:
 - the user may twist the knife while trying to free it;
 - the supporting hand may move into the path.
 
-The correct technique uses a smooth, deliberate motion. Push cutting, rocking, chopping and slicing all work best when the blade follows its intended path without lateral stress.
+Use a smooth, deliberate motion. Push cutting, rocking, chopping and slicing all work best when the blade follows its intended path without lateral stress.
 
 ## Use a suitable cutting board
 
@@ -108,17 +108,17 @@ Glass, ceramic, stone and metal surfaces are much harder than a cutting board sh
 
 A decorative glass board may be easy to clean, but it is not an appropriate cutting surface for a sharp kitchen knife.
 
-The board should also be maintained. Deep grooves can collect residue and affect stability. Wooden boards should be cleaned and dried properly rather than left soaking in water.
+Maintain the board as well. Deep grooves can collect residue and affect stability. Wooden boards should be cleaned and dried properly rather than left soaking in water.
 
 ## Avoid twisting and sideways scraping
 
-This is especially important across Xinzuo's higher-hardness steels. ZDP-189, SRS13, M390, Blue Steel No. 2 and 14Cr14MoVNb are selected for demanding edge performance, but a thin hard edge is not intended to pry, twist through a cut, strike bone or cut frozen food. More forgiving Xinzuo steels and heavier geometries provide a larger margin for robust work, yet they still do not turn a chef's knife into a cleaver or pry tool. Match the knife to the task before relying on the steel name.
+This is especially important with Xinzuo's higher-hardness steels. ZDP-189, SRS13, M390, Blue Steel No. 2 and 14Cr14MoVNb are selected for demanding edge performance, but a thin hard edge is not intended to pry, twist through a cut, strike bone or cut frozen food. More forgiving Xinzuo steels and heavier geometries provide a larger margin for robust work, yet they still do not turn a chef's knife into a cleaver or pry tool. Match the knife to the task before relying on the steel name.
 
-A thin knife is strong in the direction it was designed to cut. It is much less tolerant of sideways movement.
+A thin knife is strong in the direction it was designed to cut and much less tolerant of sideways movement.
 
 When the blade is inside dense food, do not twist it to separate the pieces. If the knife becomes stuck, withdraw it carefully and adjust the cut.
 
-After chopping, avoid using the sharp edge to scrape food across the board. This movement folds and wears the apex sideways. Use the spine of the knife, a bench scraper or lift the food with the flat of the blade.
+After chopping, avoid using the sharp edge to scrape food across the board. This movement folds and wears the apex sideways. Use the spine of the knife, a bench scraper or the flat of the blade instead.
 
 ## Wash safely as well as carefully
 
@@ -126,7 +126,7 @@ The material-care reasons for hand washing, prompt drying and avoiding the dishw
 
 Never leave a knife hidden under soapy water or mixed with other objects in a sink. Wash it individually with mild detergent and a soft sponge, keeping the edge facing away from the hand. Dry it immediately from the spine side without wrapping the fingers around the cutting edge.
 
-A dishwasher is also an unsafe place to reach around a sharp blade whose position may be hidden among other utensils. For a quality kitchen knife, hand washing solves both the safety problem and the material-care problem at the same time.
+A dishwasher also creates an unsafe situation because a sharp blade can become hidden among other utensils. Hand washing solves both the safety problem and the material-care problem for a quality kitchen knife.
 
 ## Passing a knife to another person
 
@@ -134,7 +134,7 @@ The safest option is usually not to pass a knife directly from hand to hand.
 
 Place it on a clear surface with the handle accessible and allow the other person to pick it up. Say clearly that the knife is being placed down.
 
-If a direct handover is unavoidable, both people should communicate and move slowly. The handle should be offered securely, with the blade controlled and pointed away from both people.
+If a direct handover is unavoidable, both people should communicate and move slowly. Offer the handle securely while keeping the blade controlled and pointed away from both people.
 
 Never throw, slide or casually reach a knife toward another person.
 
@@ -152,17 +152,17 @@ The recommended position is:
 6. Warn nearby people that you are passing with a knife.
 7. Walk slowly and never run.
 
-The point-down position reduces the chance of the blade being directed toward another person's upper body. Keeping the edge away and the arm still reduces accidental contact.
+The point-down position reduces the chance of directing the blade toward another person's upper body. Keeping the edge away and the arm still reduces accidental contact.
 
 Do not cover the tip with the free hand. This places a hand directly next to the blade and makes the carrying position more complicated.
 
 Do not carry the knife upright with the point near the face or chest.
 
-In a busy professional kitchen, a clear verbal warning such as “knife behind” or the workplace's established expression is essential.
+In a busy professional kitchen, use a clear verbal warning such as “knife behind” or the workplace's established expression.
 
 ## Transport beyond the workstation
 
-A knife should not be carried loose through a building, placed unprotected in a bag or left inside a drawer where the edge is exposed.
+Do not carry a knife loose through a building, place it unprotected in a bag or leave it inside a drawer with the edge exposed.
 
 Use:
 
@@ -178,7 +178,7 @@ For travel or transport outside the kitchen, local laws and venue rules must als
 
 ## Safe storage
 
-A knife should be stored so that the edge is protected and the handle can be reached without touching the blade.
+Store a knife so the edge is protected and the handle can be reached without touching the blade.
 
 Suitable options include:
 
@@ -220,11 +220,11 @@ These mistakes are worth naming explicitly because they are easy to recognize an
 
 ### Leaving a knife in the sink
 
-The blade becomes hidden and can cut anyone reaching into the water. A knife should remain visible until it has been washed, dried and stored.
+The blade becomes hidden and can cut anyone reaching into the water. Keep a knife visible until it has been washed, dried and stored.
 
 ### Cutting toward the body
 
-Whenever possible, direct the cut away from the hands and body. If a specialist in-hand technique is appropriate, use a small suitable knife and keep the movement controlled and limited.
+Direct the cut away from the hands and body whenever possible. If a specialist in-hand technique is appropriate, use a small suitable knife and keep the movement controlled and limited.
 
 ### Holding food in the air with a large knife
 
