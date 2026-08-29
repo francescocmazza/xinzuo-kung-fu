@@ -3,7 +3,7 @@ title: Understanding the Burr
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-22
+reviewed: 2026-08-29
 translation_priority: high
 ---
 
@@ -23,7 +23,7 @@ When we look at a knife, the cutting edge appears to be a simple line. Under mag
 
 As the knife is used, this ridge can become rounded, bent or worn. Sharpening removes material from the sides until a new, clean ridge is created.
 
-Imagine sanding one side of a very thin sheet of metal. As the material becomes thinner at the end, the final flexible part begins to move away from the abrasive. It bends toward the opposite side.
+Imagine sanding one side of a very thin sheet of metal. The final flexible part begins to move away from the abrasive as the material becomes thinner at the end. It bends toward the opposite side.
 
 That bent part is the burr.
 
@@ -35,7 +35,7 @@ The burr is:
 
 It is not normally a separate piece of dirt resting on the blade. It is still connected to the edge, although the connection may be extremely thin.
 
-When the burr becomes long, weak and flexible, it is sometimes called a **wire edge**. A wire edge can make the knife feel sharp for a moment, but it is unstable. It may fold from side to side or break away during the first cuts.
+A long, weak and flexible burr is sometimes called a **wire edge**. A wire edge can make the knife feel sharp for a moment, but it is unstable. It may fold from side to side or break away during the first cuts.
 
 The goal is not to create the largest possible burr. Think of it as a receipt, not a trophy: the smallest light, continuous burr confirms that the stone has reached the edge.
 
@@ -45,15 +45,15 @@ Suppose the knife is placed on a stone and the first side is sharpened.
 
 At the beginning, the stone removes steel from the bevel. If the edge is dull, the abrasive may still be working above the true apex.
 
-As sharpening continues, the bevel extends farther toward the cutting edge. The remaining metal at the apex becomes thinner.
+As sharpening continues, the bevel extends farther toward the cutting edge and the remaining metal at the apex becomes thinner.
 
-When the stone finally reaches the very edge, continued abrasion pushes the last thin strip of steel away from the stone. Because it has almost no thickness, it bends toward the opposite side.
+Once the stone reaches the very edge, continued abrasion pushes the last thin strip of steel away from the stone. It bends toward the opposite side because it has almost no thickness.
 
 If the first side is on the stone, the burr appears on the second side.
 
 The knife is then turned over. Sharpening the second side pushes the burr back toward the first side.
 
-This movement is useful. It confirms that both bevels have reached the apex.
+That movement confirms that both bevels have reached the apex.
 
 ## Why “continuous” matters
 
@@ -61,14 +61,14 @@ A burr at one point is not enough.
 
 If it can be felt near the heel but not in the middle, only the heel has been fully apexed. If it appears in the middle but not near the tip, the tip still needs work.
 
-The burr should be checked along the entire edge:
+Check the burr along the entire edge:
 
 - heel;
 - middle;
 - curved front section;
 - tip.
 
-The tip often receives too little sharpening because its angle changes as the blade curves. The heel may also be missed if the handle prevents the blade from lying comfortably on the stone.
+The tip often receives too little sharpening because the edge changes direction as it curves. The heel may also be missed if the handle prevents the blade from lying comfortably on the stone.
 
 A light burr from heel to tip shows that the abrasive has reached the edge along the full length.
 
@@ -94,9 +94,9 @@ The burr is different because it is still part of the edge. It moves with the bl
 
 A burr is often easier to feel than to see.
 
-On the side toward which it has bent, the edge feels slightly rough or hooked. On the opposite side, it may feel smoother.
+The edge feels slightly rough or hooked on the side toward which the burr has bent. The opposite side may feel smoother.
 
-The sensation can be extremely subtle on a fine steel and fine stone. On a coarse stone, the burr may be larger and more obvious.
+The sensation can be extremely subtle on a fine steel and fine stone. A coarse stone usually produces a larger, more obvious burr.
 
 The direction matters. If one side has just been sharpened, check the opposite side.
 
@@ -106,7 +106,7 @@ The safest principle is simple:
 
 > Never slide a finger along the length of the cutting edge.
 
-A lengthwise movement follows the same direction the knife is designed to cut and can cause injury.
+A lengthwise movement follows the direction in which the knife is designed to cut and can cause injury.
 
 To check with a fingertip:
 
@@ -118,7 +118,7 @@ To check with a fingertip:
 
 If there is any uncertainty about touching near the apex, use a cotton pad, soft cloth fibre, thin paper or visual inspection instead.
 
-A cotton pad, soft cloth fibre or thin piece of paper can also help. The material may catch on the burr. This is useful when the burr is difficult to feel or when the user is not confident touching near the edge.
+A cotton pad, soft cloth fibre or thin piece of paper may catch on the burr. This is useful when the burr is difficult to feel or when the user is not confident touching near the edge.
 
 Good lighting and magnification can reveal reflections from an incomplete or folded edge, but tactile feedback remains one of the most direct methods.
 
@@ -136,7 +136,7 @@ A large burr can:
 
 Think of a burr as a confirmation signal, not as the final cutting edge.
 
-Once a light continuous burr has formed, the sharpening process should move to the other side or to the deburring stage. Continuing to grind heavily does not improve the result.
+Once a light continuous burr has formed, move to the other side or to the deburring stage. Continuing to grind heavily does not improve the result.
 
 ## The wire-edge problem
 
@@ -146,17 +146,17 @@ It can cut paper impressively because the flexible metal is very thin. The knife
 
 Then the wire edge folds over or breaks off. The knife suddenly feels dull.
 
-This is why a paper test alone cannot prove that the edge is stable. The burr must be removed cleanly.
+A paper test alone therefore cannot prove that the edge is stable. The burr must be removed cleanly.
 
 A stable edge should cut after the loose, weakened metal has gone, not because that metal is temporarily acting like a foil blade.
 
 ## Moving the burr from side to side
 
-After a burr has formed along the first side, the knife is turned over and the second side is sharpened.
+After a burr has formed along the first side, turn the knife over and sharpen the second side.
 
 The burr should move to the first side. This confirms that the second bevel has also reached the apex.
 
-At this point, the sharpener reduces pressure and uses fewer strokes. Alternating sides prevents the burr from growing too large and gradually weakens its connection.
+At this point, reduce pressure and use fewer strokes. Alternating sides prevents the burr from growing too large and gradually weakens its connection.
 
 The process may look like this:
 
@@ -171,7 +171,7 @@ The exact number is not important. The reduction in pressure and the behaviour o
 
 ## Deburring: removing the weakened metal
 
-Deburring is the process of removing the burr while leaving a clean, centred apex.
+Deburring removes the burr while leaving a clean, centred apex.
 
 Several methods can be effective.
 
@@ -185,19 +185,19 @@ Moving to a finer stone can refine the bevel and reduce the burr. The burr shoul
 
 ### Stropping
 
-A leather, fabric or suitable abrasive strop can remove fine remaining burr material. The blade must move spine-first so the edge does not cut into the strop.
+A leather, fabric or suitable abrasive strop can remove fine remaining burr material. Move the blade spine-first so the edge does not cut into the strop.
 
 Stropping is helpful but not compulsory. Too much pressure or too many passes can round the apex.
 
 ### Cork, soft wood or similar media
 
-Some sharpeners draw the edge lightly through cork or soft wood to remove loose burr fragments. This should be followed by light refining strokes because the process may not remove every attached section cleanly.
+Some sharpeners draw the edge lightly through cork or soft wood to remove loose burr fragments. Follow this with light refining strokes because the process may not remove every attached section cleanly.
 
-No deburring method should be treated as magic. The best results come from forming a small burr in the first place and reducing it progressively.
+No deburring method is magic. The best results begin with a small burr and reduce it progressively.
 
 ## The burr on different steels
 
-The range of Xinzuo steels makes this variation tangible. A burr on DIN 1.4116 may feel different from one on 10Cr15CoMoV, while highly wear-resistant ZDP-189, SRS13, M390 or 14Cr14MoVNb can require more efficient abrasives before the apex is reached. Blue Steel No. 2 may abrade readily but needs immediate cleaning and drying after water-stone work. Do not compensate for a slow-abrasion steel by pressing harder and creating a larger burr; choose an effective abrasive and keep the burr small.
+Xinzuo's steel range makes this variation tangible. A burr on DIN 1.4116 may feel different from one on 10Cr15CoMoV. Highly wear-resistant ZDP-189, SRS13, M390 or 14Cr14MoVNb may need more efficient abrasives before the apex is reached. Blue Steel No. 2 can abrade readily but needs immediate cleaning and drying after water-stone work. If a steel abrades slowly, choose an effective abrasive instead of compensating by pressing harder and creating a larger burr.
 
 Not every steel forms the same kind of burr.
 
@@ -211,7 +211,7 @@ A brittle edge may form tiny broken burr fragments rather than a long wire.
 
 The stone also matters. A coarse stone tends to create a larger rougher burr. A fine stone creates a smaller and more delicate one.
 
-This is why sharpening cannot be reduced to a fixed number of strokes. The sharpener must observe the response of the particular steel and stone.
+Sharpening therefore cannot be reduced to a fixed number of strokes. The sharpener must observe the response of the particular steel and stone.
 
 ## False signals
 

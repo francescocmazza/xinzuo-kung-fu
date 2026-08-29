@@ -3,9 +3,9 @@
 
   /*
    * Some catalog crops are so tight to the product boundary that, once
-   * reduced for A4, a complete knife can still read as if its blade were
-   * truncated.  For the forms below use complete product photographs with
-   * generous surrounding space.  These are examples of the form, not
+   * reduced for print, a complete knife can still read as if its blade were
+   * truncated. For the forms below use complete product photographs with
+   * generous surrounding space. These are examples of the form, not
    * definitions of every model sold under the category name.
    */
   const PROFILE_REPLACEMENTS = [
@@ -67,41 +67,44 @@
   ];
 
   /*
-   * The source photographs come from different catalog generations and were
-   * photographed in several directions.  The book presents every knife
-   * profile in one reading direction: handle on the left, blade on the right,
-   * with the knife's long axis horizontal.  Rotation is used rather than
-   * mirroring so logos, grind handedness and other asymmetric details are not
-   * reversed.
+   * Source photographs come from different catalog generations and were
+   * photographed in several directions. The book's primary visual rule is
+   * now anatomical rather than left/right: the spine must read above the
+   * cutting edge, so the cutting edge is always presented downward. Handle
+   * direction is secondary. Rotation is allowed; mirroring is not, because
+   * it can reverse logos, grind handedness and other asymmetric details.
+   *
+   * Images that previously used 180 degrees only to force the handle left are
+   * therefore returned to 0 degrees. Diagonal square-source photographs that
+   * previously used -135 degrees are rotated to 45 degrees instead: the same
+   * long-axis correction, but with the edge on the lower side.
    */
   const PROFILE_PRESENTATION = [
     { test: /western chef's knife|western chef knife/i, rotate: 0 },
-    { test: /gyuto/i, rotate: -135, squareSource: true },
-    { test: /santoku/i, rotate: 180 },
-    { test: /bunka/i, rotate: -135, squareSource: true },
-    { test: /nakiri/i, rotate: -135, squareSource: true },
-    { test: /chinese cleaver/i, rotate: 180 },
-    { test: /bone chopper/i, rotate: 180 },
-    { test: /classic carving|jiang b46w/i, rotate: -135, squareSource: true },
-    { test: /roast carving|roast-carving|b37s-10qr/i, rotate: -135, squareSource: true },
-    { test: /ham knife|b35 ten-inch ham/i, rotate: -135, squareSource: true },
+    { test: /gyuto/i, rotate: 45, squareSource: true },
+    { test: /santoku/i, rotate: 0 },
+    { test: /bunka/i, rotate: 45, squareSource: true },
+    { test: /nakiri/i, rotate: 45, squareSource: true },
+    { test: /chinese cleaver/i, rotate: 0 },
+    { test: /bone chopper/i, rotate: 0 },
+    { test: /classic carving|jiang b46w/i, rotate: 45, squareSource: true },
+    { test: /roast carving|roast-carving|b37s-10qr/i, rotate: 45, squareSource: true },
+    { test: /ham knife|b35 ten-inch ham/i, rotate: 45, squareSource: true },
     { test: /sashimi/i, rotate: 0 },
     { test: /sakimaru/i, rotate: 0 },
     { test: /kiritsuke/i, rotate: 0 },
-    { test: /western boning/i, rotate: 180 },
-    { test: /honesuki/i, rotate: 180 },
-    { test: /fillet knife/i, rotate: 180 },
+    { test: /western boning/i, rotate: 0 },
+    { test: /honesuki/i, rotate: 0 },
+    { test: /fillet knife/i, rotate: 0 },
     { test: /deba/i, rotate: 0 },
     { test: /utility knife/i, rotate: 0 },
     { test: /curved paring/i, rotate: 0 },
-    { test: /straight paring/i, rotate: 180 },
-    { test: /flat-cut paring|flat cut paring/i, rotate: 180 },
-    { test: /steak knife/i, rotate: 180 },
-    { test: /butter knife/i, rotate: 180 },
-    { test: /cheese knife/i, rotate: 180 },
-    { test: /bread knife/i, rotate: 180 },
+    { test: /straight paring/i, rotate: 0 },
+    { test: /steak knife/i, rotate: 0 },
+    { test: /cheese knife/i, rotate: 0 },
+    { test: /bread knife/i, rotate: 0 },
     { test: /frozen-food|frozen food/i, rotate: 0 },
-    { test: /viking knife/i, rotate: 180 }
+    { test: /viking knife/i, rotate: 0 }
   ];
 
   function pageKey() {
@@ -146,6 +149,39 @@
     return stage;
   }
 
+  function fitRotatedImage(image, stage, rotate) {
+    const fit = () => {
+      const stageWidth = stage.clientWidth;
+      const stageHeight = stage.clientHeight;
+      const naturalWidth = image.naturalWidth;
+      const naturalHeight = image.naturalHeight;
+      if (!stageWidth || !stageHeight || !naturalWidth || !naturalHeight) return;
+
+      const radians = ((rotate % 360) * Math.PI) / 180;
+      const cosine = Math.abs(Math.cos(radians));
+      const sine = Math.abs(Math.sin(radians));
+      const rotatedWidth = naturalWidth * cosine + naturalHeight * sine;
+      const rotatedHeight = naturalWidth * sine + naturalHeight * cosine;
+      const scale = Math.min(
+        (stageWidth * 0.90) / rotatedWidth,
+        (stageHeight * 0.88) / rotatedHeight
+      );
+
+      image.style.setProperty("width", `${naturalWidth * scale}px`, "important");
+      image.style.setProperty("height", `${naturalHeight * scale}px`, "important");
+      image.style.setProperty("max-width", "none", "important");
+      image.style.setProperty("max-height", "none", "important");
+    };
+
+    if (image.complete && image.naturalWidth) fit();
+    else image.addEventListener("load", fit, { once: true });
+
+    if (image.dataset.kbProfileResizeHook !== "done") {
+      window.addEventListener("resize", fit);
+      image.dataset.kbProfileResizeHook = "done";
+    }
+  }
+
   function normalizeProfilePresentation(article) {
     if (pageKey() !== "05-knife-types/overview") return;
 
@@ -156,8 +192,8 @@
 
       const stage = ensureProfileStage(image);
       const isSquare = rule.squareSource || image.dataset.kbSquareSource === "true";
-      const stageHeight = isSquare ? "78mm" : "54mm";
-      const imageMaxHeight = isSquare ? "54mm" : "44mm";
+      const stageHeight = isSquare ? "82mm" : "60mm";
+      const rotation = rule.rotate || 0;
 
       stage.classList.toggle("kb-profile-visual__stage--square-source", isSquare);
       stage.style.setProperty("position", "relative", "important");
@@ -167,27 +203,25 @@
       stage.style.setProperty("width", "100%", "important");
       stage.style.setProperty("height", stageHeight, "important");
       stage.style.setProperty("min-height", stageHeight, "important");
-      stage.style.setProperty("padding", "2mm 3mm", "important");
-      stage.style.setProperty("overflow", "hidden", "important");
+      stage.style.setProperty("padding", "3mm 4mm", "important");
+      stage.style.setProperty("overflow", "visible", "important");
       stage.style.setProperty("background", "#f2f4f5", "important");
       stage.style.setProperty("isolation", "isolate", "important");
 
       image.classList.add("kb-profile-visual__image");
       image.classList.toggle("kb-profile-visual__image--square-source", isSquare);
-      image.dataset.kbProfileOrientation = "handle-left-blade-right";
+      image.dataset.kbProfileOrientation = "cutting-edge-down";
       image.style.setProperty("display", "block", "important");
-      image.style.setProperty("width", "auto", "important");
-      image.style.setProperty("max-width", isSquare ? "none" : "94%", "important");
-      image.style.setProperty("height", "auto", "important");
-      image.style.setProperty("max-height", imageMaxHeight, "important");
       image.style.setProperty("margin", "0 auto", "important");
       image.style.setProperty("object-fit", "contain", "important");
       image.style.setProperty("object-position", "center", "important");
-      image.style.setProperty("transform", `rotate(${rule.rotate || 0}deg)`, "important");
+      image.style.setProperty("transform", `rotate(${rotation}deg)`, "important");
       image.style.setProperty("transform-origin", "center center", "important");
       image.style.setProperty("background", "transparent", "important");
       image.style.setProperty("mix-blend-mode", "multiply", "important");
       image.style.setProperty("filter", "contrast(1.04)", "important");
+
+      fitRotatedImage(image, stage, rotation);
     });
   }
 

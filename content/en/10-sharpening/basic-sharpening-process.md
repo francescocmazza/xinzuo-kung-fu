@@ -3,7 +3,7 @@ title: A Practical Sharpening Process
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-28
+reviewed: 2026-08-29
 translation_priority: high
 ---
 
@@ -15,7 +15,7 @@ The underlying process is much simpler:
 
 > Sharpening removes steel until the sides of the edge meet again in a clean apex.
 
-Everything else - stone grit, angle, pressure, burr and finishing method - helps control that process.
+Everything else—stone grit, angle, pressure, burr and finishing method—helps control that process.
 
 This chapter is the book's complete practical method for ordinary double-bevel kitchen knives. Earlier chapters mention sharpening only where it is necessary to explain steel, geometry or maintenance; the actual working sequence is kept here. Traditional single-bevel knives such as yanagiba, usuba and deba need a different approach because their broad main bevel and hollow reverse side form a specific geometry; that difference is treated after the main double-bevel process.
 
@@ -29,7 +29,7 @@ Sharpening rebuilds that line.
 
 Before going further, keep three surfaces distinct. The **primary bevel** is the broader grind that reduces blade thickness toward the edge. The **edge bevel**, often called a **microbevel** when it is very narrow, is the small facet immediately behind the apex. The **apex** is the final microscopic line that cuts.
 
-On an ordinary double-bevel knife with a distinct edge bevel or microbevel, routine sharpening is performed by bringing that small edge facet into contact with the stone. It does **not** normally mean laying the whole broad primary bevel flat on the stone. Working the primary bevel changes thickness behind the edge and belongs to thinning, reprofiling or other deliberate geometry work.
+On an ordinary double-bevel knife with a distinct edge bevel or microbevel, routine sharpening brings that small edge facet into contact with the stone. It does **not** normally mean laying the whole broad primary bevel flat on the stone. Working the primary bevel changes thickness behind the edge and belongs to thinning, reprofiling or other deliberate geometry work.
 
 The goal is to:
 
@@ -79,7 +79,7 @@ Check for:
 - corrosion near the apex;
 - a previous asymmetrical sharpening pattern.
 
-Then ask whether the knife needs routine sharpening or repair. A knife that still cuts but has lost some bite may need only a medium or fine stone. A very dull rounded edge may need a medium-coarse stone. A chipped or severely damaged edge may need a coarse stone and more advanced work.
+Then decide whether the knife needs routine sharpening or repair. A knife that still cuts but has lost some bite may need only a medium or fine stone. A very dull rounded edge may need a medium-coarse stone. A chipped or severely damaged edge may need a coarse stone and more advanced work.
 
 Choosing too fine a stone for major damage wastes time. Choosing a very coarse stone for light maintenance removes more steel than necessary.
 
@@ -99,9 +99,9 @@ The ranges overlap because grit standards and stone behaviour vary. For many kit
 
 Starting grit is only half of the choice. The abrasive must also be efficient on the steel. Hardness alone does not tell you whether a steel will feel easy or difficult on a stone because the abrasive must cut both the **matrix and the carbide population**.
 
-DIN 1.4116, for example, is often used at a moderate 56-58 HRC and is forgiving in use, but it can still form a persistent burr and may feel less crisp on a water stone than a fine high-carbon steel. **Blue Steel No. 2** is commonly used considerably harder yet can abrade very readily on suitable water stones and deburr cleanly. At the other extreme, high-volume vanadium- or niobium-carbide powder steels can resist ordinary abrasives even when their nominal HRC is not dramatically higher. ZDP-189, SRS13, M390 and 14Cr14MoVNb may therefore respond more efficiently to premium ceramic or diamond abrasives.
+DIN 1.4116, for example, is often used at a moderate 56-58 HRC and is forgiving in use, but it can still form a persistent burr and may feel less crisp on a water stone than a fine high-carbon steel. **Blue Steel No. 2** is commonly used considerably harder yet can abrade very readily on suitable water stones and deburr cleanly. High-volume vanadium- or niobium-carbide powder steels sit at the other extreme and can resist ordinary abrasives even when their nominal HRC is not dramatically higher. ZDP-189, SRS13, M390 and 14Cr14MoVNb may therefore respond more efficiently to premium ceramic or diamond abrasives.
 
-If a steel is abrading slowly, the answer is not simply to press harder. Choose an abrasive capable of cutting it efficiently while keeping control of the geometry and burr.
+If a steel abrades slowly, do not simply press harder. Choose an abrasive capable of cutting it efficiently while keeping control of the geometry and burr.
 
 Higher grit is not automatically better. A medium-grit finish can retain more microscopic bite and perform extremely well on tomatoes, meat and fibrous foods. A highly polished edge may be desirable for push cutting and presentation work. The finish will be chosen later according to the job; for now, start with a stone coarse enough and hard enough to do the required work efficiently.
 
@@ -141,7 +141,7 @@ A familiar workshop memory aid is to place **two medium-size coins between the s
 
 Treat this as a **visual approximation, not as an angle gauge**. Two coins do not mathematically create 15 degrees on every knife. The angle is determined by the height of the blade at the point being measured and the combined thickness of the coins, both of which vary. A tall chef's knife, a narrow utility knife and a small paring knife will produce different angles from the same stack. The existing edge bevel, a marker test and the specification of the particular knife remain better final references.
 
-The value of the coin exercise is therefore not numerical precision. It gives the eye and hand a simple starting picture for a common chef-knife angle, after which consistency and actual bevel contact become more important than the coins themselves.
+The coin exercise gives the eye and hand a simple starting picture for a common chef-knife angle. Its value is visual rather than numerical; after the coins are removed, consistency and actual bevel contact matter more than the approximation itself.
 
 Heavy-duty knives, cleavers and softer steels may use stronger angles. Fine Japanese knives may use lower or asymmetrical geometry. The product's existing edge bevel and intended work should guide the choice.
 
@@ -153,7 +153,7 @@ Good angle control begins with the body, not only the hands.
 
 Stand comfortably in front of the stone. Keep the shoulders relaxed. Position the stone so the **entire blade can sweep across it without obstruction**.
 
-The hand holding the handle controls angle and direction. The fingers of the other hand apply controlled pressure near the portion of edge that is currently crossing the stone. As the blade sweeps from tip toward heel, the support and pressure should travel with the working area instead of remaining fixed far away from it.
+The hand holding the handle controls angle and direction. The fingers of the other hand apply controlled pressure near the portion of edge that is currently crossing the stone. Let the support and pressure travel with the working area as the blade sweeps from tip toward heel instead of keeping them fixed far away from it.
 
 The wrists should remain stable. Let the arms and upper body create most of the motion rather than repeatedly bending the wrist.
 
@@ -173,9 +173,9 @@ Raise the spine until the narrow edge bevel or microbevel reaches the stone at t
 
 For ordinary sharpening, the recommended learning movement is a controlled **transverse or diagonal sweep that works the entire edge in each pass**.
 
-Start with the tip on the abrasive. As the knife moves across the stone, draw it sideways so that the contact travels progressively from **tip, through the curved front and middle, to the heel**. By the end of the stroke, the heel has crossed the working surface. Reset and repeat the same complete path.
+Start with the tip on the abrasive. Move the knife across the stone while drawing it sideways so the contact travels progressively from **tip, through the curved front and middle, to the heel**. The heel should cross the working surface by the end of the stroke. Reset and repeat the same complete path.
 
-The blade is usually much longer than the stone is wide. The sideways component is therefore essential: it allows a narrow stone to sharpen a long edge uniformly. Think of the stone tracing the entire cutting line during one continuous movement rather than polishing one stationary patch.
+The blade is usually much longer than the stone is wide. The sideways component therefore allows a narrow stone to sharpen a long edge uniformly. Think of the stone tracing the entire cutting line during one continuous movement rather than polishing one stationary patch.
 
 During each pass:
 
@@ -186,19 +186,19 @@ During each pass:
 - keep the stone appropriately wet or lubricated;
 - avoid stopping and pressing repeatedly on one small area unless a local correction is deliberately required.
 
-Using full-length passes makes it easier to distribute wear evenly and reduces the risk of sharpening the middle much more than the tip or heel.
+Full-length passes distribute wear evenly and reduce the risk of sharpening the middle much more than the tip or heel.
 
 ### When section work is useful
 
-Working in sections is still a valid technique for an exceptionally long blade, a damaged local area, a tip that has not reached the apex, or advanced corrective work. It is an **alternative or corrective method**, not the default movement taught in this guide. When a local section is corrected, return to light full-length passes so the edge is blended and finished consistently.
+Working in sections is still a valid technique for an exceptionally long blade, a damaged local area, a tip that has not reached the apex, or advanced corrective work. It is an **alternative or corrective method**, not the default movement taught in this guide. After correcting a local section, return to light full-length passes so the edge is blended and finished consistently.
 
 ## Step 9: follow the curve toward the tip
 
 The tip is the most demanding part of a full-length sweep because the cutting edge curves away from the stone.
 
-At the beginning of the stroke, while the tip and curved front are crossing the abrasive, the handle may need to be **raised slightly and progressively** so the local microbevel remains correctly in contact. As the stroke travels toward the straighter middle and heel, the hand naturally follows the changing profile.
+At the beginning of the stroke, the handle may need to be **raised slightly and progressively** while the tip and curved front cross the abrasive so the local microbevel remains correctly in contact. As the stroke travels toward the straighter middle and heel, the hand naturally follows the changing profile.
 
-This movement is not an instruction to make the tip angle arbitrarily steeper. The purpose is to follow the curvature of the edge while preserving the intended local edge angle.
+The purpose is to follow the curvature of the edge while preserving the intended local edge angle, not to make the tip angle arbitrarily steeper.
 
 Too much lifting rounds and over-steepens the tip. Too little leaves part of the tip untouched. Marker, reflected light and frequent inspection help while learning.
 
@@ -206,7 +206,7 @@ Too much lifting rounds and over-steepens the tip. Too little leaves part of the
 
 Continue sharpening the first side until a small burr can be felt on the opposite side **from heel to tip**.
 
-A complete sweeping stroke should normally work all of those zones together. If inspection shows that one local area has not yet formed a burr, correct that area briefly rather than unnecessarily grinding the entire edge, then return to full-length strokes.
+A complete sweeping stroke should normally work all of those zones together. If one local area has not yet formed a burr, correct that area briefly instead of unnecessarily grinding the entire edge, then return to full-length strokes.
 
 The burr should be light. A large wire edge means more steel than necessary is being bent and removed. Once the burr is continuous, the first side has reached the apex.
 
@@ -224,7 +224,7 @@ Heavy or medium pressure removes material and forms the burr. The finishing stag
 
 Reduce both pressure and number of strokes. Alternate sides with increasingly light **full-edge** passes. The exact sequence is flexible. The purpose is to centre the edge, weaken the burr and reduce the deeper scratches created during the main sharpening stage.
 
-At the end, pressure should be very light - only enough to keep the edge bevel in controlled contact with the stone.
+At the end, pressure should be very light—only enough to keep the edge bevel in controlled contact with the stone.
 
 ## Step 13: decide whether to move to a finer stone
 
@@ -239,13 +239,13 @@ Move to the next stone when:
 
 Do not move to a fine stone to avoid finishing the work on the coarse or medium stone. A fine stone polishes the geometry that already exists. It cannot efficiently repair an incomplete edge.
 
-The final grit should match the task rather than the price or prestige of the knife. A medium finish preserves useful microscopic bite and is excellent for tomatoes, meat and fibrous vegetables. A finer finish supports smoother push cuts, delicate fish preparation and refined slicing. An ultra-polished edge is not automatically better; on some foods it can lose useful initial bite if the apex and finish are not matched to the task.
+Match the final grit to the task rather than the price or prestige of the knife. A medium finish preserves useful microscopic bite and is excellent for tomatoes, meat and fibrous vegetables. A finer finish supports smoother push cuts, delicate fish preparation and refined slicing. An ultra-polished edge is not automatically better; on some foods it can lose useful initial bite if the apex and finish are not matched to the task.
 
 Steel still matters because it determines which abrasive can produce that finish efficiently. High-wear-resistance steels such as ZDP-189, SRS13, M390 and 14Cr14MoVNb may benefit from premium ceramic or diamond abrasives, while more conventional stainless steels can often be refined effectively on suitable water stones. Blue Steel No. 2 can respond very readily to water stones but requires immediate drying afterwards. These are abrasive choices, not fixed grit prescriptions: preserve the model's geometry and choose the finish for the food and cutting style.
 
 Full-Damascus differential wear does not eliminate sharpening. When such a blade eventually needs restoration, sharpen the complete edge normally and choose a finish that suits the intended cutting character rather than assuming maximum polish is always desirable.
 
-On the finer stone, use less pressure. The objective is refinement, not major material removal.
+Use less pressure on the finer stone. The objective is refinement, not major material removal.
 
 ## Step 14: remove the burr
 
@@ -311,9 +311,9 @@ A traditional single-bevel knife must not simply be treated as a double-bevel kn
 
 During primary-bevel sharpening, the broad bevel is normally worked against the stone. The reverse is then placed almost flat and worked lightly enough to remove the burr while preserving the urasuki and the narrow reference flats around it.
 
-There is another important complication: **the broad single-bevel angle can vary along the length of the knife**. Moving from heel to tip, the blade becomes lower because its outline narrows. On high-quality knives the spine and blade stock also commonly become progressively thinner toward the point through **distal taper**. Because bevel angle depends on the relationship among local blade thickness, bevel width and blade height, heel, middle and tip do not necessarily present one identical plane.
+The broad single-bevel angle can also **vary along the length of the knife**. The blade becomes lower as its outline narrows from heel to tip. On high-quality knives the spine and blade stock also commonly become progressively thinner toward the point through **distal taper**. Bevel angle depends on the relationship among local blade thickness, bevel width and blade height, so heel, middle and tip do not necessarily present one identical plane.
 
-For that reason, do not lock the wrist at one theoretical primary-bevel angle and force that position all the way to the tip. Pay attention to the actual contact patch. As the blade narrows and thins, adapt the position gradually so the local bevel lies correctly on the stone. Marker, reflected light and the wear pattern on the bevel can reveal whether only one strip is being ground.
+Do not lock the wrist at one theoretical primary-bevel angle and force that position all the way to the tip. Pay attention to the actual contact patch. Adapt the position gradually as the blade narrows and thins so the local bevel lies correctly on the stone. Marker, reflected light and the wear pattern on the bevel can reveal whether only one strip is being ground.
 
 The reverse side requires equal discipline. Do not raise it into a normal secondary bevel and do not grind indiscriminately into the urasuki. For an expensive single-bevel knife, model-specific instruction or an experienced specialist is preferable to aggressive experimentation.
 

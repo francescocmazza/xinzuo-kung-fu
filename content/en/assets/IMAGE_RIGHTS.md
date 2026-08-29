@@ -12,9 +12,9 @@ Diagrams created specifically for this project (for example files in `assets/dia
 
 A diagram remains published only while it passes the project's technical review. A generated illustration that is found to be materially misleading is withdrawn from the rendered guide and returned to placeholder status until a verified replacement is available.
 
-## Xinzuo catalog images
+## Xinzuo catalog and product images
 
-The following approved images in `assets/images/approved/` are cropped or adapted from the 2025 Xinzuo product catalog or approved Xinzuo promotional material:
+The following approved images in `assets/images/approved/` are cropped or adapted from the 2025 Xinzuo product catalog, approved Xinzuo promotional material or product imagery supplied by the repository owner for this book:
 
 - `home-hero-xinzuo-masterpieces.svg`
 - `production-process-overview.svg`
@@ -29,7 +29,7 @@ The following approved images in `assets/images/approved/` are cropped or adapte
 - `knife-shape-silhouettes-neutral.png`
 - `damascus-pattern-knives-neutral.png`
 - `stable-whetstone-neutral.png`
-- all individually reviewed product crops in `knife-shapes/*.jpg`
+- all individually reviewed product images in `knife-shapes/*.jpg`, including the verified B9H-SG curved-paring image supplied for `knife-shapes/paring-curved.jpg`
 
 These images, along with any Xinzuo logos and promotional photographs that may appear elsewhere in this project, **remain the property of their respective copyright holder**. They are included in this project with the repository owner's authorization for the specific educational use of this book.
 
