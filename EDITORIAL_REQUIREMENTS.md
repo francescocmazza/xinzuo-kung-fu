@@ -29,6 +29,17 @@ This file records the current editorial constraints for *The Gongfu of Xinzuo*. 
 - Once a chapter has moved from theory into application or conclusion, do not return to an earlier theoretical layer unless the return is explicitly necessary and clearly signposted. Reorder the material instead whenever possible.
 - Recap sections should consolidate rather than reproduce entire passages already explained. Avoid a second question-and-answer checklist when a coherent prose conclusion can carry the same information more fluently.
 
+## Sentence-level linearity and natural reading order
+
+- Build explanatory sentences in the order in which a reader naturally resolves them: **subject or topic → action or relationship → object or main proposition → comparison, limitation, cause, condition or exception**.
+- Do not interrupt a verb and its object, or a main clause and its completion, with a comparison or qualification that forces the reader to hold an unfinished sentence in memory. Prefer “Pakka wood generally tolerates contact with detergents and degreasers better than natural-wood handles” to “Pakka wood generally tolerates better than natural-wood handles contact with detergents and degreasers.”
+- Put comparative phrases such as **better than**, **more than**, **less than**, **compared with** and **unlike** as close as possible to the element they actually compare. When the comparison applies to the whole action, normally complete the action first and place the comparison afterwards.
+- State the main idea before adding a caveat whenever doing so remains accurate. Necessary qualifications should follow the proposition they qualify unless the reader would be materially misled by seeing the unqualified proposition first.
+- Prefer direct prose to repeated templates such as “Its advantage is…”, “Its compromise is…”, “The point is not that…”, or “This does not mean…”. Use those constructions only when the contrast itself is genuinely the subject of the sentence.
+- During every editorial pass, scan specifically for delayed objects, front-loaded comparisons, long parenthetical insertions, nested contrasts and qualifications placed inside the core subject-verb-object path. Reorder the sentence before merely shortening it.
+- Preserve technical meaning and necessary boundaries. The purpose of this rule is not to remove nuance, but to make the reader understand the main proposition on the first pass.
+- Apply the same sentence-order principle to translations. A translation should sound natural in its target language rather than mechanically preserving an awkward English word order.
+
 ## Preserve useful content during rewrites
 
 - A structural rewrite, shortening pass or chapter merge must not silently delete useful explanatory content simply because it is absent from the new outline.
