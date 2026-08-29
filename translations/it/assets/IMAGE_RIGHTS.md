@@ -1,24 +1,24 @@
 ---
-source_hash: 720ca2706ff0426b0d2e00bb55a88d681f4940433a1597e957af3b22313d608d
+source_hash: a3e10d880743fb8a1b2e561d90e6e610eae6c11e39546c9df4e2ae243e3a5107
 ---
 
 # Diritti di immagine
 
-Questa pagina riporta lo stato delle licenze di materiale visivo pubblicato in questo libro e nel suo sito web di accompagnamento. Si applica a tutte le immagini sotto `content/en/assets/`, compresi i diagrammi in `assets/diagrams/` e il catalogo- o le immagini derivate da presentazione in `assets/images/approved/`.
+In questa pagina è riportato lo status di licenza del materiale visivo pubblicato in questo libro e nel suo sito web di accompagnamento. `content/en/assets/`, compresi i diagrammi in `assets/diagrams/` e il catalogo- o la presentazione di immagini derivate in `assets/images/approved/`.
 
 ## Contenuto scritto
 
-Salvo diversa indicazione, il contenuto scritto originale di questo libro è concesso in licenza sotto **Creative Commons Attribuzione-NonCommerciale-Condividi allo stesso modo 4.0 International (CC BY-NC-SA 4.0)**. Vedi [LICENSE.md](../../../LICENSE.md).
+Salvo diversa indicazione, il contenuto originale scritto di questo libro è concesso in licenza sotto **Creative Commons Attribuzione-NonCommerciale-Condividi allo stesso modo 4.0 International (CC BY-NC-SA 4.0)**. [LICENSE.md](../../../LICENSE.md).
 
 ## Diagrammi originali
 
-I diagrammi creati appositamente per questo progetto (ad esempio i file in `assets/diagrams/`) sono opera originale e sono coperti dalla stessa licenza CC BY-NC-SA 4.0 del contenuto scritto, salvo diversa indicazione individuale.
+Diagrammi creati appositamente per questo progetto (ad esempio file in `assets/diagrams/`) sono opere originali e sono coperte dalla stessa licenza CC BY-NC-SA 4.0 del contenuto scritto, salvo diversa indicazione individuale.
 
 Un diagramma rimane pubblicato solo mentre passa la revisione tecnica del progetto. Un'illustrazione generata che risulta essere materialmente fuorviante viene ritirata dalla guida resa e restituita allo status di segnaposto fino a quando non è disponibile una sostituzione verificata.
 
-## Immagini del catalogo Xinzuo
+## Xinzuo catalogo e immagini dei prodotti
 
-Le seguenti immagini approvate in `assets/images/approved/` sono ritagliate o adattate dal catalogo prodotti Xinzuo 2025 o dal materiale promozionale Xinzuo approvato:
+Le seguenti immagini approvate in `assets/images/approved/` sono ritagliati o adattati dal catalogo prodotti Xinzuo 2025, materiale promozionale Xinzuo approvato o immagini del prodotto fornite dal proprietario del repository per questo libro:
 
 - `home-hero-xinzuo-masterpieces.svg`
 - `production-process-overview.svg`
@@ -33,7 +33,7 @@ Le seguenti immagini approvate in `assets/images/approved/` sono ritagliate o ad
 - `knife-shape-silhouettes-neutral.png`
 - `damascus-pattern-knives-neutral.png`
 - `stable-whetstone-neutral.png`
-- tutte le colture di prodotto oggetto di revisione individuale in `knife-shapes/*.jpg`
+- tutte le immagini del prodotto recensite singolarmente in `knife-shapes/*.jpg`, compresa l'immagine curvata B9H-SG verificata fornita per `knife-shapes/paring-curved.jpg`
 
 Queste immagini, insieme a eventuali loghi Xinzuo e fotografie promozionali che potrebbero apparire altrove in questo progetto, **restano di proprietà del rispettivo titolare del copyright**. Sono incluse in questo progetto con l'autorizzazione del proprietario del repository per l'uso didattico specifico di questo libro.
 
@@ -43,19 +43,23 @@ Queste immagini, insieme a eventuali loghi Xinzuo e fotografie promozionali che 
 
 ## Immagini derivate dalla presentazione
 
-Le seguenti immagini approvate in `assets/images/approved/` sono raccolte dalle presentazioni interne di allenamento degli agenti fornite dal proprietario del repository:
+Le seguenti immagini approvate in `assets/images/approved/` sono raccolti da presentazioni interne di allenamento degli agenti fornite dal proprietario del deposito:
 
-- `bevel-families.svg` (calcolato da `Formazione Agenti A`)
-- `damascus-structure-comparison.svg` (calcolato da `Formazione Agenti D`)
-- `bevel-families-neutral.png` (adattamento senza etichetta ottenuto da `Formazione Agenti A`)
+- `bevel-families.svg` (richiesto da `Formazione Agenti A`)
+- `damascus-structure-comparison.svg` (richiesto da `Formazione Agenti D`)
+- `bevel-families-neutral.png` (adattamenti privi di etichetta ottenuti da `Formazione Agenti A`)
 
 Il permesso del proprietario del repository di utilizzare una presentazione interna **non dimostra di per sé la proprietà di ogni fotografia, diagramma, micrografia, logo o altro elemento incorporato in tale presentazione**. Queste colture derivate dalla presentazione devono pertanto essere trattate come materiale limitato per l'uso del progetto a meno che la provenienza dei diritti sottostanti non sia confermata in modo indipendente.
 
 Essi sono **non automaticamente sublicensed sotto CC BY-NC-SA 4.0**, e il riutilizzo commerciale al di fuori di questo libro richiede la conferma dei diritti separati dal titolare del copyright pertinente.
 
-Per `damascus-structure-comparison.svg`, la guida renderizzata visualizza intenzionalmente solo il moderno pannello full-Damascus. Il pannello di confronto storico dalla guida sorgente è escluso dalla vista pubblicata perché non dovrebbe essere utilizzato come modello metallurgico di wootz storico.
+Per `damascus-structure-comparison.svg`, la guida resa visualizza intenzionalmente solo il moderno full-Damasco pannello. Il pannello di confronto storico dalla diapositiva sorgente è escluso dalla vista pubblicata perché non dovrebbe essere utilizzato come modello metallurgico di wootz storico.
 
 Gli adattamenti PNG neutri rimuovono le didascalie inserite in una lingua fissa. Le loro leggende numerate e le didascalie esplicative sono pubblicate come testo di documento ordinario in modo che ogni edizione linguistica possa tradurle senza alterare l'immagine sottostante.
+
+## Rimosso: hotlink esterni non corretti
+
+Tre figure in "Schede coltello e loro usi" precedentemente incorporato `<img>` tag che puntano direttamente su siti web/CDN di terze parti al posto delle attività sopra elencate: Gyuto (`VIS-SHAPE-GYUTO-PM80`), coltello da disossamento occidentale (`VIS-SHAPE-BONING-B37TG`), e l'esempio di pareggio-coltello dritto ora tracciata come `VIS-SHAPE-PARING-STRAIGHT-B13R`. I primi due erano presenti nella patch editoriale originale; il terzo apparve nel successivo `main` nessuna di queste immagini ospitate esternamente è stata registrata qui o confermata come licenza per questo utilizzo. Sono state quindi rimosse dalla fonte inglese e sostituite con il segnaposto standard dell'immagine editoriale in attesa di approvata, foto dei prodotti Xinzuo bonificate dai diritti. `EDITORIAL_REQUIREMENTS.md` per la regola che impedisce che questo modello si ripeta.
 
 ## Materiale escluso
 

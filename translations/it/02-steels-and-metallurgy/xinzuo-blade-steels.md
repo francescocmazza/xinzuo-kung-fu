@@ -1,5 +1,5 @@
 ---
-source_hash: f15ed83bf04b0c808719a63aa2119bf0bd30cd65df8f5378bdfb1ad4c0527930
+source_hash: c1adba1ec4d042b262a53c4a9eff81856d0e5e5374b0dd1a22a69c4b11b2d679
 ---
 
 # Xinzuo Blade Steels: diversi saldi metallurgici per coltelli diversi
@@ -61,7 +61,7 @@ L'esatta popolazione finale di carburo dipende ancora dalla composizione e dal t
 
 ## acciai inossidabili al carbonio e tutti i tipi ad alte prestazioni
 
-### Acciaio Blu n. 2: duro non significa necessariamente difficile da affilare
+### Acciaio Blu n. 2: elevata durezza, risposta di pietra perdonante
 
 Blue Steel n. 2, o Aogami #2, è la principale opzione in acciaio al carbonio reattivo nella gamma ed è specificata a 62-64 HRC. Rappresenta un percorso molto diverso per le prestazioni da M390 o ZDP-189: invece di affidarsi a un grande volume di carburi in lega resistenti alla corrosione, utilizza una lega ad alto carbonio relativamente semplice progettata per un tagliente acuto e stabile.
 
@@ -123,7 +123,7 @@ Rispetto agli acciai a polvere più recenti, la sua struttura in carburo è gene
 
 Si tratta quindi di un acciaio da lavoro collaudato piuttosto che di un acciaio di prestigio, che sacrifica un certo grado di ritenzione e un elevato potenziale di prestazioni in cambio dell'accessibilità e di un servizio prevedibile.
 
-### DIN 1.4116: durezza moderata non è la stessa di facile affilatura
+### DIN 1.4116: da dove viene il suo perdono
 
 DIN 1.4116 è specificato a 56-58 HRC nella serie Xinzuo come B13S e B35. Il suo ruolo nella gamma enfatizza ** resistenza alla corrosione, resistenza e perdono l'uso quotidiano**. È particolarmente adatto dove il coltello può incontrare tecniche meno disciplinati, lavaggi frequenti o utenti che apprezzano la robustezza più della massima ritenzione di bordo.
 

@@ -1,5 +1,5 @@
 ---
-source_hash: 3bd79ba5a97800a0295d536b05edcc5568cafc2327b7200d230b2173d62e20ed
+source_hash: 58f0b43c55f1b26708dae94ebadbce00d39d09f66b35de6fdb390599e12d0b89
 ---
 
 # Anatomia di un coltello da cucina

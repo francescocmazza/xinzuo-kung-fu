@@ -1,24 +1,24 @@
 ---
-source_hash: c285af7f2daeb45f50ce9c8e765320d0ed9e440c3b4291ef651346c14d442ace
+source_hash: 9b4dd2d8fe6726c7d48f2188d0f6af0685dc828f2d2a9f192cc1182e4df031da
 ---
 
-# 图像版权与使用权
+# 图像权利
 
-本页说明本书及其配套网站中所发布视觉材料的许可状态。以下说明适用于 `content/en/assets/` 下的所有图像，包括 `assets/diagrams/` 中的图表，以及 `assets/images/approved/` 中来自产品目录或演示文稿的图像。
+该页面描述本书及其配套网站所出版的视觉材料的许可状况。 `content/en/assets/`,包括 `assets/diagrams/` 和目录或演示文稿生成的图像 `assets/images/approved/`. . 。
 
-## 文字内容
+## 书面内容
 
-除非另有说明，本书的原创文字内容均采用 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International（CC BY-NC-SA 4.0）** 许可。参见 [LICENSE.md](../../../LICENSE.md)。
+除另有说明外,本书的原始书面内容均按**4.0类国际(CC BY-NC-SA 4.0)** 颁发许可证。 [液态 md](../../../LICENSE.md). . 。
 
-## 原创图表
+## 原始图表
 
-专门为本项目制作的图表（例如 `assets/diagrams/` 中的文件）属于原创作品；除非单独注明，否则与本书文字内容一样采用 CC BY-NC-SA 4.0 许可。
+为此工程专门创建的图表( 例如文件在 `assets/diagrams/`)是原创作品,由与书面内容相同的《民法典》BY-NC-SA 4.0许可证涵盖,除非单独标明。
 
-图表只有在通过项目的技术审查时才会继续发布。如果发现某幅生成的示意图存在实质性误导，该图将从已渲染的指南中撤下，并恢复为占位状态，直至获得经过核实的替代图像。
+图表只有在通过项目技术审查时才能公布,如果生成的图解被认为具有重大误导性,则从提供的指南中撤回,并恢复到占位符状态,直到有经过核实的替换。
 
-## Xinzuo 产品目录图像
+## Xinzuo 目录和产品图像
 
-`assets/images/approved/` 中以下已批准图像，是从 2025 年 Xinzuo 产品目录或经批准的 Xinzuo 宣传材料中裁切或改编而来：
+下列已核准的图像在 `assets/images/approved/` 根据2025年Xinzuo产品目录、经核准的Xinzuo宣传材料或由本书存放者提供的产品图象进行裁剪或改编:
 
 - `home-hero-xinzuo-masterpieces.svg`
 - `production-process-overview.svg`
@@ -33,34 +33,38 @@ source_hash: c285af7f2daeb45f50ce9c8e765320d0ed9e440c3b4291ef651346c14d442ace
 - `knife-shape-silhouettes-neutral.png`
 - `damascus-pattern-knives-neutral.png`
 - `stable-whetstone-neutral.png`
-- `knife-shapes/*.jpg` 中所有经过单独审查的产品裁切图
+- 所有单独审查的产品图像 `knife-shapes/*.jpg`,包括提供经核实的 B9H-SG 曲线图象 `knife-shapes/paring-curved.jpg`
 
-这些图像，以及本项目其他位置可能出现的 Xinzuo 标志和宣传照片，**其版权仍归各自的版权持有人所有**。本项目依据仓库所有者的授权，仅将这些材料用于本书的特定教育用途。
+这些图象,连同任何Xinzuo标志和可能在本项目其他地方出现的促销照片,** 仍属于各自版权持有者的财产** 。
 
-**这些图像不会自动按照 CC BY-NC-SA 4.0 再许可。** 上述 Creative Commons 许可适用于原创文字内容和原创图表，并不会自动延伸至产品目录图像或宣传图像。
+** 根据《创用CC BY-NC-SA 4.
 
-**商业性再利用这些图像需要获得相关版权持有人的单独授权。** 未经该项单独许可，请勿在本书之外复制、重新分发或再次使用这些特定图像文件。
+** 商业再利用这些图像需要相关版权持有者单独授权。未经此单独许可,不得复制、再分发或再使用本书以外的这些特定图像文件。
 
-## 来自演示文稿的图像
+## 演示文稿产生的图像
 
-`assets/images/approved/` 中以下已批准图像，是从仓库所有者提供的内部代理培训演示文稿中裁切而来：
+下列已核准的图像在 `assets/images/approved/` 由仓库所有人提供的内部代理培训演示书制成:
 
-- `bevel-families.svg`（裁切自 `Formazione Agenti A`）
-- `damascus-structure-comparison.svg`（裁切自 `Formazione Agenti D`）
-- `bevel-families-neutral.png`（从 `Formazione Agenti A` 裁切并制作的无文字版本）
+- `bevel-families.svg` (从 `Formazione Agenti A`(单位:千美元)
+- `damascus-structure-comparison.svg` (从 `Formazione Agenti D`(单位:千美元)
+- `bevel-families-neutral.png` (无标签适应作物) `Formazione Agenti A`(单位:千美元)
 
-仓库所有者允许使用内部演示文稿，**并不因此自动证明其拥有该演示文稿内每一张照片、图表、显微照片、标志或其他元素的版权**。因此，在相关底层素材的权利来源得到独立确认之前，这些从演示文稿中提取的图像应视为仅限本项目使用的受限材料。
+存储器所有人使用内部演示的许可本身并不能证明对该演示文稿中所含的每一张照片、图表、显微图、标志或其他要素的所有权,因此,这些演示品衍生的作物必须作为限制性项目使用材料对待,除非相关权利来源得到独立确认。
 
-这些图像**不会自动按照 CC BY-NC-SA 4.0 再许可**；如需在本书之外进行商业性再利用，必须另行确认相关版权持有人的授权。
+它们不是根据《CC BY-NC-SA 4.0**》自动转租的,本书以外的商业再利用需要相关版权持有人分别确认权利。
 
-对于 `damascus-structure-comparison.svg`，已渲染的指南有意只展示现代全大马士革钢面板。源演示文稿中的历史对比面板未纳入公开版本，因为它不应被用作历史乌兹钢（wootz）的冶金模型。
+用于 `damascus-structure-comparison.svg`,提供的指南故意只显示现代的全大马士革面板。源幻灯片中的历史比较面板被排除在已公布的视图之外,因为它不应被用作历史坚固的冶金模型。
 
-无文字的中性 PNG 版本移除了固定语言的内嵌说明文字。其编号图例和解释性说明作为普通文档文字发布，从而使各语言版本可以分别翻译，而无需修改底层图像。
+中性 PNG 修改后删除了嵌入于固定语言的字幕。 它们的编号图例和解释性说明作为普通文档文本发布, 这样每个语言版本都可以翻译, 而不会改变基本图像 。
 
-## 不公开的材料
+## 已删除: 未右清除的外部链接
 
-本仓库不发布任何 Musashi 机密材料。专有演示文稿和源产品目录 PDF 不会以完整文件形式公开；仅在获得许可且技术上适当的情况下，使用经过单独选择的视觉摘录。
+先前嵌入的“刀形及其用途”中的三个数字 `<img>` 直接指向第三方零售商网站/CDN而不是上述资产的标签:`VIS-SHAPE-GYUTO-PM80`),Western连锁刀`VIS-SHAPE-BONING-B37TG`),而直接的刀片例子现在被追踪到 `VIS-SHAPE-PARING-STRAIGHT-B13R`前两个出现在原编辑版;第三个出现在后一个 `main` 正在整合该补丁时进行修改。 这些外部托管的图像都没有在这里被记录或被确认为允许使用。 因此,这些图像已被从英文来源删除, 并被标准编辑图像占位符取代, 等待批准, 权利清除 Xinzuo 产品照片 。 见 `EDITORIAL_REQUIREMENTS.md` 防止这种模式再次发生的规则。
 
-## 疑问
+## 排除材料
 
-在本项目之外再次使用某一特定图像之前，应先确认其版权状态和来源。如果无法确定权利来源，最安全的默认做法是不重新分发该图像。
+Musashi 的机密材料不在本仓库中发布。 专有幻灯片甲板和源目录 PDF 不作为完整文件发布; 仅在允许和技术上合适的地方使用个别选择的视觉摘录。
+
+## 问 题
+
+有关特定图像的权利状态或来源的问题应在项目外的任何再利用前得到解决。 当源码不确定时, 安全默认是不能重新分配图像 。

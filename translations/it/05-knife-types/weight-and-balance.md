@@ -1,5 +1,5 @@
 ---
-source_hash: 6c24d73e9f4d82202c92e7767176f8ae7ccdf28a432dd813d34d6226db0517ed
+source_hash: 15e29aee30555cab8de2d6ad1d32cf460b7b07f3767ad3c199ff2c835f0dd88e
 ---
 
 # Peso ed equilibrio: perché Heavier non è migliore o peggio
@@ -30,7 +30,7 @@ Il santoku offre un esempio utile. Il suo naso caduto, simile al piede di pecora
 
 ## L'equilibrio ha senso solo in relazione alla presa
 
-Un punto di equilibrio stampato in una specifica è utile, ma non racconta tutta la storia perché la mano non è sempre posizionata nella stessa posizione. Spostare la mano in avanti e lo stesso coltello può cambiare da notevole lama-pesante a quasi neutra. Spostare la mano all'indietro e il contrario accade. Per scopi pratici, tre ampie posizioni di presa sono particolarmente utili per capire.
+Il peso deve essere separato dalla resistenza. Il peso della lama e la resistenza della lama sono variabili indipendenti: la resistenza in una particolare parte del coltello dipende da quanto acciaio vi è presente, il suo spessore e forma, l'acciaio e il trattamento termico, e come il carico viene applicato.
 
 ### Impugnatura
 
