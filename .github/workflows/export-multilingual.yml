@@ -9,6 +9,8 @@ on:
       - "translations/**"
       - "mkdocs.yml"
       - "scripts/auto_translate.py"
+      - "scripts/repair_translated_html.py"
+      - "scripts/test_repair_translated_html.py"
       - "scripts/centralize_bibliography.py"
       - "requirements-translation.txt"
       - "scripts/publish_multilingual.ps1"
@@ -21,7 +23,7 @@ permissions:
 
 concurrency:
   group: multilingual-export-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   validate-helper:
@@ -51,6 +53,8 @@ jobs:
           test -f publish-guide.cmd
           test -f PUBLISHING_GUIDE.md
           test -f scripts/auto_translate.py
+          test -f scripts/repair_translated_html.py
+          test -f scripts/test_repair_translated_html.py
           test -f scripts/centralize_bibliography.py
           test -f requirements-translation.txt
 
@@ -76,6 +80,9 @@ jobs:
       - name: Install documentation dependencies
         run: pip install -r requirements-docs.txt
 
+      - name: Validate translation repair regression cases
+        run: python scripts/test_repair_translated_html.py
+
       - name: Cache local translation models
         uses: actions/cache@v5
         with:
@@ -92,8 +99,43 @@ jobs:
       - name: Centralize bibliography in English source
         run: python scripts/centralize_bibliography.py
 
+      - name: Resolve translation base revision
+        id: translation-base
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="$(git rev-parse HEAD^1)"
+
+          # If this commit changes no English source or glossary, it may be a
+          # recovery/CI-only commit following a failed publication. Walk back to
+          # the most recent source-changing commit and use that commit's parent,
+          # so stale translations cannot be rehashed as current without actually
+          # translating the missed source changes.
+          if git diff --quiet "$base" HEAD -- content/en glossaries; then
+            cursor="$base"
+            for _ in $(seq 1 50); do
+              parent="$(git rev-parse "${cursor}^1" 2>/dev/null || true)"
+              if [ -z "$parent" ]; then
+                break
+              fi
+              if ! git diff --quiet "$parent" "$cursor" -- content/en glossaries; then
+                base="$parent"
+                break
+              fi
+              cursor="$parent"
+            done
+          fi
+
+          echo "Resolved translation base: $base"
+          echo "sha=$base" >> "$GITHUB_OUTPUT"
+
       - name: Refresh stale active translations locally
+        env:
+          TRANSLATION_BASE_SHA: ${{ steps.translation-base.outputs.sha }}
         run: python scripts/auto_translate.py
+
+      - name: Repair translated raw HTML
+        run: python scripts/repair_translated_html.py
 
       - name: Build every configured language from refreshed translations
         run: python scripts/multilingual_site.py --require-translations

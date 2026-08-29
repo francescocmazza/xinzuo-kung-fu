@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
-"""Repair translated raw-HTML lines if translation placeholders leaked into output.
+"""Repair translated markup/literals if legacy Marian placeholders leak into output.
 
-The automatic translation layer protects HTML tags with temporary tokens. Older
-translations can contain damaged remnants of those tokens (for example
-``KBTOKEN``/``KBTO``), which may turn an image tag into an invalid relative URL and
-break PDF rendering. This script restores the HTML structure from the English
-source while retaining a translated figcaption when it can be recovered safely.
+Older translations may contain damaged temporary placeholders such as
+``KBTOKEN`` or ``KBLINK``. These placeholders protected raw HTML, inline code,
+URLs, links, formulae and other literals while prose was sent through Marian.
 
-If a translation model has dropped enough protected tags that line-by-line slot
-repair is no longer safe, the complete figure block is restored from the English
-source. This deliberately prefers an intact figure with source-language SVG labels
-over publishing malformed HTML/SVG. A translated figcaption is still retained when
-it can be recovered without placeholder residue.
+The normal repair path is deterministic: when English and translated bodies remain
+line-aligned, damaged protected literals are restored from the English line while
+retaining the translated surrounding prose. Raw HTML structure is also restored
+from the English source where it can be mapped safely.
 
-It is intentionally deterministic and does not call a translation model. It can
-therefore run before every build/export as a final markup-integrity guard.
+Some committed legacy translations predate the current English line structure. If
+one of those files still contains an ambiguous placeholder after deterministic
+repair, the script regenerates only that affected page with the current local
+Marian model, then validates it again. This avoids both publishing corrupted markup
+and retranslating the entire book unnecessarily.
 """
 
 from __future__ import annotations
@@ -22,14 +22,45 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-from multilingual_site import LOCALES, SOURCE, TRANSLATIONS, read_yaml, split_document
+from multilingual_site import (
+    GLOSSARY,
+    LOCALES,
+    SOURCE,
+    TRANSLATIONS,
+    digest,
+    read_yaml,
+    split_document,
+)
 
-TOKEN_HINT_RE = re.compile(r"KBTO", re.IGNORECASE)
-TOKEN_FRAGMENT_RE = re.compile(r"Z*KBT[A-Z]*\d{3}Z*", re.IGNORECASE)
+TOKEN_HINT_RE = re.compile(r"KB(?:TO|LINK)", re.IGNORECASE)
+# Old Marian output exists both as bare KBLINK000/KBTOKEN000 and wrapped in
+# braces such as {KBLINK000}. Consume the wrapper too so restoration cannot
+# leave invalid Markdown like {[label](target)} behind.
+TOKEN_FRAGMENT_RE = re.compile(
+    r"\{?[A-Za-z0-9-]*KB(?:TO|LINK)[A-Za-z0-9-]*\}?", re.IGNORECASE
+)
 FIGCAPTION_RE = re.compile(r"<figcaption>(.*?)</figcaption>", re.IGNORECASE | re.DOTALL)
 FIGURE_BLOCK_RE = re.compile(r"<figure\b[^>]*>.*?</figure>", re.IGNORECASE | re.DOTALL)
-HTML_TAG_RE = re.compile(r"<[^>]+>")
-FRONTMATTER_RE = re.compile(r"\A(---\n.*?\n---\n\n?)(.*)\Z", re.DOTALL)
+HTML_TAG_RE = re.compile(r"</?[A-Za-z][^>]*>")
+# Keep the same body boundary used by multilingual_site.split_document(): the
+# newline after the closing front-matter delimiter belongs to the body. The old
+# pattern swallowed that newline, making every otherwise line-aligned translated
+# document appear one line shorter than its English source and disabling literal
+# recovery outside figure blocks.
+FRONTMATTER_RE = re.compile(r"\A(---\n.*?\n---\n)(.*)\Z", re.DOTALL)
+PROTECTED_LITERAL_RE = re.compile(
+    r"!?\[[^]\n]+\]\([^)\n]+\)"
+    r"|`[^`\n]+`"
+    r"|https?://[^\s)>]+"
+    r"|\$[^$\n]+\$"
+    r"|The Gongfu of Xinzuo"
+    r"|</?[A-Za-z][^>]*>",
+    re.IGNORECASE,
+)
+
+
+class NeedsRetranslation(RuntimeError):
+    """A legacy translation cannot be repaired safely against current line layout."""
 
 
 def _translation_body_with_header(text: str) -> tuple[str, str]:
@@ -41,6 +72,49 @@ def _translation_body_with_header(text: str) -> tuple[str, str]:
 
 def _line_ending(line: str) -> str:
     return "\n" if line.endswith("\n") else ""
+
+
+def _source_literals(line: str) -> list[str]:
+    """Return protected source literals in their physical left-to-right order."""
+
+    return [match.group(0) for match in PROTECTED_LITERAL_RE.finditer(line)]
+
+
+def _repair_literal_line(source_line: str, target_line: str) -> str:
+    """Recover damaged Marian placeholders while preserving translated prose."""
+
+    if not TOKEN_HINT_RE.search(target_line):
+        return target_line
+
+    token_matches = list(TOKEN_FRAGMENT_RE.finditer(target_line))
+    literals = _source_literals(source_line)
+
+    if token_matches and len(token_matches) == len(literals):
+        repaired = target_line
+        for token_match, literal in reversed(list(zip(token_matches, literals))):
+            repaired = repaired[: token_match.start()] + literal + repaired[token_match.end() :]
+        if not TOKEN_HINT_RE.search(repaired):
+            return repaired
+
+    # Ambiguous recovery is deliberately fail-safe: preserve correctness by using
+    # the source line rather than publishing a damaged token or malformed URL/tag.
+    source_core = source_line[:-1] if source_line.endswith("\n") else source_line
+    return source_core + (_line_ending(target_line) or _line_ending(source_line))
+
+
+def _repair_literals_by_alignment(
+    source_lines: list[str], target_lines: list[str]
+) -> list[str] | None:
+    """Repair placeholder residues when source/translation line alignment survives."""
+
+    if len(source_lines) != len(target_lines):
+        return None
+
+    repaired = list(target_lines)
+    for index, target_line in enumerate(target_lines):
+        if TOKEN_HINT_RE.search(target_line):
+            repaired[index] = _repair_literal_line(source_lines[index], target_line)
+    return repaired
 
 
 def _clean_recovered_caption(target_line: str) -> str:
@@ -56,40 +130,27 @@ def _clean_recovered_caption(target_line: str) -> str:
     return candidate
 
 
-def _repair_line(source_line: str, target_line: str) -> str:
-    if not TOKEN_HINT_RE.search(target_line):
-        return target_line
+def _restore_html_lines_by_alignment(
+    source_lines: list[str], target_lines: list[str]
+) -> str | None:
+    """Restore raw-HTML source lines when physical line alignment is intact."""
 
-    source_core = source_line[:-1] if source_line.endswith("\n") else source_line
-    ending = _line_ending(target_line) or _line_ending(source_line)
+    if len(source_lines) != len(target_lines):
+        return None
 
-    if not HTML_TAG_RE.search(source_core):
-        return target_line
-
-    source_caption = FIGCAPTION_RE.search(source_core)
-    if not source_caption:
-        return source_core + ending
-
-    recovered = _clean_recovered_caption(target_line)
-    if not recovered or "src=" in recovered.lower() or "alt=" in recovered.lower():
-        recovered = source_caption.group(1)
-
-    repaired_core = (
-        source_core[: source_caption.start(1)]
-        + recovered
-        + source_core[source_caption.end(1) :]
-    )
-    return repaired_core + ending
+    repaired = list(target_lines)
+    for index, source_line in enumerate(source_lines):
+        if HTML_TAG_RE.search(source_line):
+            target_line = repaired[index]
+            if TOKEN_HINT_RE.search(target_line):
+                repaired[index] = _repair_literal_line(source_line, target_line)
+            elif not HTML_TAG_RE.search(target_line):
+                repaired[index] = source_line
+    return "".join(repaired)
 
 
 def _restore_figure_blocks(source_body: str, target_body: str, target_path: Path) -> str:
-    """Restore complete source figure blocks when translated HTML lost structure.
-
-    Figure boundaries are much coarser and safer alignment anchors than individual
-    SVG/HTML tags. The source block is copied byte-for-byte, while a clean translated
-    figcaption is retained where possible. SVG labels may therefore fall back to
-    English in the exceptional recovery case, but the published figure remains valid.
-    """
+    """Restore complete source figure blocks when translated HTML lost structure."""
 
     source_figures = list(FIGURE_BLOCK_RE.finditer(source_body))
     target_figures = list(FIGURE_BLOCK_RE.finditer(target_body))
@@ -123,9 +184,8 @@ def _restore_figure_blocks(source_body: str, target_body: str, target_path: Path
 def repair_file(source_path: Path, target_path: Path) -> bool:
     target_text = target_path.read_text(encoding="utf-8")
 
-    # Most translation files contain no leaked placeholders. Return before any
-    # structural assumptions so unrelated, human-edited translations are not
-    # required to have exactly the same physical line count as English.
+    # Most translation files contain no leaked placeholders. Return before making
+    # structural assumptions about human-edited translations.
     if not TOKEN_HINT_RE.search(target_text):
         return False
 
@@ -136,49 +196,52 @@ def repair_file(source_path: Path, target_path: Path) -> bool:
     source_lines = source_body.splitlines(keepends=True)
     target_lines = target_body.splitlines(keepends=True)
 
-    # Translation may legitimately add or remove a prose line, so do not align
-    # the whole document by physical line number. Raw HTML blocks, however,
-    # retain their order. Treat every source HTML line as a structural slot and
-    # pair it with every translated line that either still contains HTML or has
-    # leaked one of the temporary HTML-protection tokens.
+    # First recover all damaged inline literals if line alignment survived. This
+    # removes code/link/url placeholder residues before HTML slot accounting, so a
+    # literal such as ``assets/foo.svg`` can never be mistaken for a missing tag.
+    aligned_literals = _repair_literals_by_alignment(source_lines, target_lines)
+    if aligned_literals is not None:
+        target_lines = aligned_literals
+        target_body = "".join(target_lines)
+
     source_html_slots = [line for line in source_lines if HTML_TAG_RE.search(line)]
-    target_htmlish_indexes = [
-        index
-        for index, line in enumerate(target_lines)
-        if HTML_TAG_RE.search(line) or TOKEN_HINT_RE.search(line)
+    target_html_indexes = [
+        index for index, line in enumerate(target_lines) if HTML_TAG_RE.search(line)
     ]
 
-    if len(source_html_slots) != len(target_htmlish_indexes):
-        target_body = _restore_figure_blocks(source_body, target_body, target_path)
+    if len(source_html_slots) != len(target_html_indexes):
+        aligned_body = _restore_html_lines_by_alignment(source_lines, target_lines)
+        if aligned_body is not None:
+            target_body = aligned_body
+        else:
+            target_body = _restore_figure_blocks(source_body, target_body, target_path)
+
         target_lines = target_body.splitlines(keepends=True)
-        target_htmlish_indexes = [
-            index
-            for index, line in enumerate(target_lines)
-            if HTML_TAG_RE.search(line) or TOKEN_HINT_RE.search(line)
+        target_html_indexes = [
+            index for index, line in enumerate(target_lines) if HTML_TAG_RE.search(line)
         ]
-        if len(source_html_slots) != len(target_htmlish_indexes):
+        if len(source_html_slots) != len(target_html_indexes):
             raise RuntimeError(
                 f"Cannot safely repair {target_path}: HTML structural slot counts still differ "
-                f"after figure restoration ({len(source_html_slots)} source vs "
-                f"{len(target_htmlish_indexes)} translation)"
+                f"after structural restoration ({len(source_html_slots)} source vs "
+                f"{len(target_html_indexes)} translation)"
             )
 
-    repaired_lines = list(target_lines)
-    for source_line, target_index in zip(source_html_slots, target_htmlish_indexes):
-        target_line = repaired_lines[target_index]
-        if TOKEN_HINT_RE.search(target_line):
-            repaired_lines[target_index] = _repair_line(source_line, target_line)
+    # A final aligned literal pass also handles any placeholder residue exposed by
+    # structural restoration.
+    final_lines = _repair_literals_by_alignment(source_lines, target_lines)
+    if final_lines is not None:
+        target_lines = final_lines
 
-    repaired_body = "".join(repaired_lines)
-
+    repaired_body = "".join(target_lines)
     if TOKEN_HINT_RE.search(repaired_body):
         residues = [
             line.strip()
             for line in repaired_body.splitlines()
             if TOKEN_HINT_RE.search(line)
         ][:5]
-        raise RuntimeError(
-            f"Unrepaired translation placeholder residue remains in {target_path}: {residues}"
+        raise NeedsRetranslation(
+            f"Legacy placeholder residue cannot be mapped safely in {target_path}: {residues}"
         )
 
     repaired_text = header + repaired_body
@@ -189,6 +252,49 @@ def repair_file(source_path: Path, target_path: Path) -> bool:
     return True
 
 
+def _retranslate_legacy_pages(
+    locale: str,
+    pages: list[tuple[Path, Path, Path]],
+    glossary: str,
+) -> int:
+    """Regenerate only pages whose legacy placeholders cannot be repaired safely."""
+
+    from auto_translate import (  # Imported lazily so normal repair stays lightweight.
+        MODEL_BY_LOCALE,
+        MarianTranslator,
+        join_translation,
+        plan_translation,
+    )
+
+    model_name = MODEL_BY_LOCALE.get(locale)
+    if not model_name:
+        raise RuntimeError(
+            f"Cannot regenerate legacy translation for {locale}: no local Marian model configured"
+        )
+
+    translator = MarianTranslator(locale, model_name)
+    regenerated = 0
+    try:
+        for source_path, target_path, relative in pages:
+            source_text = source_path.read_text(encoding="utf-8")
+            _, source_body = split_document(source_text)
+            plan = plan_translation(source_body, None, None, translator)
+            expected = digest(locale, source_text, glossary)
+            target_path.write_text(join_translation(expected, plan.body), encoding="utf-8")
+
+            # Current auto_translate keeps links, literals and raw HTML outside
+            # Marian. The second check therefore verifies the regenerated page
+            # before publication and still fails closed if anything unexpected
+            # survives.
+            repair_file(source_path, target_path)
+            regenerated += 1
+            print(f"Regenerated legacy placeholder page: {locale}/{relative}")
+    finally:
+        translator.close()
+
+    return regenerated
+
+
 def main() -> int:
     locale_cfg = read_yaml(LOCALES).get("locales", {})
     active = [
@@ -196,9 +302,14 @@ def main() -> int:
         for code, cfg in locale_cfg.items()
         if code != "en" and cfg.get("deploy")
     ]
+    glossary = GLOSSARY.read_text(encoding="utf-8") if GLOSSARY.exists() else ""
 
     changed = 0
     checked = 0
+    needs_retranslation: dict[str, list[tuple[Path, Path, Path]]] = {
+        locale: [] for locale in active
+    }
+
     for locale in active:
         locale_root = TRANSLATIONS / locale
         for target_path in sorted(locale_root.rglob("*.md")):
@@ -207,11 +318,19 @@ def main() -> int:
             if not source_path.exists():
                 continue
             checked += 1
-            if repair_file(source_path, target_path):
-                changed += 1
-                print(f"Repaired translated HTML: {locale}/{relative}")
+            try:
+                if repair_file(source_path, target_path):
+                    changed += 1
+                    print(f"Repaired translated markup/literals: {locale}/{relative}")
+            except NeedsRetranslation as exc:
+                print(str(exc))
+                needs_retranslation[locale].append((source_path, target_path, relative))
 
-    print(f"Translated HTML integrity check complete: {checked} file(s), {changed} repaired")
+    for locale, pages in needs_retranslation.items():
+        if pages:
+            changed += _retranslate_legacy_pages(locale, pages, glossary)
+
+    print(f"Translated markup integrity check complete: {checked} file(s), {changed} repaired/regenerated")
     return 0
 
 
