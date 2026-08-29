@@ -8,10 +8,12 @@ break PDF rendering. This script restores the HTML structure from the English
 source while retaining a translated figcaption when it can be recovered safely.
 
 If a translation model has dropped enough protected tags that line-by-line slot
-repair is no longer safe, the complete figure block is restored from the English
-source. This deliberately prefers an intact figure with source-language SVG labels
-over publishing malformed HTML/SVG. A translated figcaption is still retained when
-it can be recovered without placeholder residue.
+repair is no longer safe, the repair first uses exact physical-line alignment when
+the translated page still has the same line count as the English source. This is
+safe for freshly regenerated Marian output because translation is performed one
+source line at a time. Only source lines containing raw HTML are restored; prose
+translations remain untouched. If physical-line alignment is unavailable, the
+script falls back to complete figure-block restoration.
 
 It is intentionally deterministic and does not call a translation model. It can
 therefore run before every build/export as a final markup-integrity guard.
@@ -82,6 +84,31 @@ def _repair_line(source_line: str, target_line: str) -> str:
     return repaired_core + ending
 
 
+def _restore_html_lines_by_alignment(
+    source_lines: list[str], target_lines: list[str]
+) -> str | None:
+    """Restore raw-HTML source lines when physical line alignment is intact.
+
+    Marian translation is line-oriented: a full-page normalization may change the
+    text on a line but does not intentionally add or remove source lines. When the
+    total line counts still match, each raw-HTML source line therefore has an exact
+    structural counterpart at the same index. Replacing only those lines is safer
+    than trying to infer missing ``<figure>`` boundaries from damaged model output.
+
+    Return ``None`` when the physical line counts differ so callers can use a
+    coarser fallback instead.
+    """
+
+    if len(source_lines) != len(target_lines):
+        return None
+
+    repaired = list(target_lines)
+    for index, source_line in enumerate(source_lines):
+        if HTML_TAG_RE.search(source_line):
+            repaired[index] = source_line
+    return "".join(repaired)
+
+
 def _restore_figure_blocks(source_body: str, target_body: str, target_path: Path) -> str:
     """Restore complete source figure blocks when translated HTML lost structure.
 
@@ -136,8 +163,8 @@ def repair_file(source_path: Path, target_path: Path) -> bool:
     source_lines = source_body.splitlines(keepends=True)
     target_lines = target_body.splitlines(keepends=True)
 
-    # Translation may legitimately add or remove a prose line, so do not align
-    # the whole document by physical line number. Raw HTML blocks, however,
+    # Translation may legitimately add or remove a prose line, so do not normally
+    # align the whole document by physical line number. Raw HTML blocks, however,
     # retain their order. Treat every source HTML line as a structural slot and
     # pair it with every translated line that either still contains HTML or has
     # leaked one of the temporary HTML-protection tokens.
@@ -149,7 +176,17 @@ def repair_file(source_path: Path, target_path: Path) -> bool:
     ]
 
     if len(source_html_slots) != len(target_htmlish_indexes):
-        target_body = _restore_figure_blocks(source_body, target_body, target_path)
+        # Fresh Marian full-page normalization is line-oriented. If physical line
+        # counts still match, restore only source lines containing raw HTML at the
+        # same indexes. This preserves translated prose while recovering all figure,
+        # SVG, placeholder, image and wrapper markup even if the model destroyed
+        # most temporary token strings.
+        aligned_body = _restore_html_lines_by_alignment(source_lines, target_lines)
+        if aligned_body is not None:
+            target_body = aligned_body
+        else:
+            target_body = _restore_figure_blocks(source_body, target_body, target_path)
+
         target_lines = target_body.splitlines(keepends=True)
         target_htmlish_indexes = [
             index
@@ -159,7 +196,7 @@ def repair_file(source_path: Path, target_path: Path) -> bool:
         if len(source_html_slots) != len(target_htmlish_indexes):
             raise RuntimeError(
                 f"Cannot safely repair {target_path}: HTML structural slot counts still differ "
-                f"after figure restoration ({len(source_html_slots)} source vs "
+                f"after structural restoration ({len(source_html_slots)} source vs "
                 f"{len(target_htmlish_indexes)} translation)"
             )
 
