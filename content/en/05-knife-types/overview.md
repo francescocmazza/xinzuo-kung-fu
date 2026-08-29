@@ -16,9 +16,9 @@ The forms described in this chapter are **not an exhaustive catalogue of every k
 
 For sales staff, there is a more important principle than memorising names: **start from the customer's work, not from the customer's preferred silhouette**. A knife may attract someone because of its appearance, but the right recommendation begins by asking what foods the customer cuts most often, what quantities are involved, whether the work is mainly on a board or in the hand, and whether the customer needs broad chopping, long slicing, work around bone, fish preparation or fine detail. The reason so many knife forms exist is precisely that different foods and movements reward different geometry. Our role is therefore to help the customer choose the knife that best fits the intended use, not merely the knife whose shape looks most appealing.
 
-Xinzuo's range makes those relationships visible in real knives. Rather than treating category names as rigid templates, the useful approach is to read the actual blade from heel to tip and ask what its geometry is encouraging the hand to do. Two knives sold under the same name can differ substantially in curve, thickness, balance, bevel geometry and intended motion. No steel grade, decorative finish or impressive specification can turn the wrong shape into the right tool for a particular job.
+Xinzuo's range makes those relationships visible in real knives. The useful approach is to read the actual blade from heel to tip and ask what its geometry encourages the hand to do rather than treating category names as rigid templates. Two knives sold under the same name can differ substantially in curve, thickness, balance, bevel geometry and intended motion. No steel grade, decorative finish or impressive specification can turn the wrong shape into the right tool for a particular job.
 
-A flatter heel and middle give broad board contact and naturally favour push cutting and nearly vertical chopping. A continuous belly lets the contact point travel progressively along the edge during drawing or rocking movements. A long, narrow blade places more edge in contact with food during a draw slice while reducing drag from the blade face. A narrow point reaches into joints and fine details; a broad, supported heel tolerates controlled force better. These are tendencies, not rigid laws: a gyuto can have enough curve to rock comfortably, a Western chef's knife can be relatively flat, and a rectangular Chinese-style knife may be a thin general-purpose cutter rather than a bone tool.
+A flatter heel and middle give broad board contact and naturally favour push cutting and nearly vertical chopping. A continuous belly lets the contact point travel progressively along the edge during drawing or rocking movements. A long, narrow blade places more edge in contact with food during a draw slice and reduces drag from the blade face. A narrow point reaches into joints and fine details; a broad, supported heel tolerates controlled force better. These are tendencies, not rigid laws: a gyuto can have enough curve to rock comfortably, a Western chef's knife can be relatively flat, and a rectangular Chinese-style knife may be a thin general-purpose cutter rather than a bone tool.
 
 With those relationships in mind, the differences between knife families become much easier to understand.
 
@@ -42,7 +42,7 @@ It remains equally capable of general vegetable and fruit preparation, which is 
 
 The gyuto overlaps strongly with the Western chef's knife but commonly has a flatter heel and middle, a slimmer point and less continuous belly curvature. It therefore tends to feel more linear in push cuts and long draw slices and can be easier to steer through small directional corrections.
 
-The reduced curvature gives less progressive rocking behaviour than a strongly bellied Western chef's knife, while the slimmer front often improves precision. The gyuto can still work very well on meat, just as the Western chef's knife can work very well on vegetables. The distinction is one of emphasis. Actual examples vary, so curve, height, thickness and balance matter more than the label alone.
+The reduced curvature usually gives less of the progressive rocking behaviour of a strongly bellied Western chef's knife, while the slimmer front often improves precision. This does not make the gyuto unsuitable for meat or the Western chef's knife unsuitable for vegetables. The distinction is one of emphasis. Actual examples vary, so curve, height, thickness and balance matter more than the label alone.
 
 ### Santoku
 
@@ -52,7 +52,7 @@ The reduced curvature gives less progressive rocking behaviour than a strongly b
 
 The santoku is a compact, **primarily vegetable-oriented but highly versatile** knife. Its tall blade, relatively straight heel and middle section and lowered front give broad board contact for push cutting and nearly vertical chopping, while enough curve remains for controlled slicing. The height provides knuckle clearance and a useful guiding surface, making the form especially comfortable for vegetables, fruit and herbs while still handling boneless meat and fish very well.
 
-The santoku generally keeps more steel around the front than a fine pointed chef's knife or bunka. That fuller nose is comparatively well supported and sacrifices some point precision in exchange for a more substantial working front. **All other conditions being equal, more mass carried toward the front gives the moving blade more inertia and momentum; with the same acceleration from the hand, more moving mass also means more force.** In practical push cutting and short vertical chopping, that extra front mass therefore gives the santoku more authority once the blade is moving. Sharpness, edge angle and thickness behind the edge still determine how much resistance the food presents, but they do not cancel the basic mechanical advantage of greater moving mass when the other conditions are equal.
+The santoku generally keeps more steel around the front than a fine pointed chef's knife or bunka. That fuller nose is comparatively well supported and sacrifices some point precision in exchange for a more substantial working front. **All other conditions being equal, more mass carried toward the front gives the moving blade more inertia and momentum; with the same acceleration from the hand, more moving mass also means more force.** That extra front mass therefore gives the santoku more authority in practical push cutting and short vertical chopping once the blade is moving. Sharpness, edge angle and thickness behind the edge still determine how much resistance the food presents, but they do not cancel the basic mechanical advantage of greater moving mass when the other conditions are equal.
 
 Its main limitation is compactness: a short edge needs more strokes across a very large roast, melon or other wide ingredient, and a particularly flat santoku is not designed for exaggerated rocking.
 
@@ -66,7 +66,7 @@ The bunka shares much of the santoku's compact height and board-friendly versati
 
 This gives the bunka a particularly useful combination: **the working surface and knuckle clearance of a comparatively large blade, together with front-end precision that can approach the detail control of a utility knife**. The tip can score skin, enter a small seam, trim around a delicate area, make shallow incisions and perform fine directional corrections without giving up the broad blade needed for normal board preparation.
 
-The form is especially well suited to **vegetables and fish**, including fine vegetable preparation, trimming, portioning and detail work where a large chef's knife may feel less precise. It remains versatile enough for many boneless-meat tasks. The fine K-tip creates this precision but tolerates twisting, levering and hard impact less readily than the fuller nose of a santoku.
+The form is especially well suited to **vegetables and fish**, including fine vegetable preparation, trimming, portioning and detail work where a large chef's knife may feel less precise. It remains versatile enough for many boneless-meat tasks. The fine K-tip is less tolerant of twisting, levering or hard impact than the fuller nose of a santoku, which is the price of that added precision.
 
 ## Vegetable and Chinese all-purpose knives
 
@@ -90,7 +90,7 @@ The nakiri remains a thin vegetable-oriented cutter and is not intended for bone
 
 The Chinese cleaver is one of the most distinctive all-purpose forms. Its tall rectangular blade can slice, chop, guide against the knuckles, crush aromatics and transfer prepared ingredients. Different examples occupy very different weight and thickness classes, so the silhouette alone never establishes bone capability.
 
-The form can be difficult for a beginner because its height, forward mass and lack of a familiar pointed profile change the visual and tactile references used for fine control. Those same characteristics make it exceptionally versatile in experienced hands. The correct reading starts with weight, thickness behind the edge, bevel geometry and intended use.
+Its height, forward mass and lack of a familiar pointed profile can make the form difficult for a beginner because they change the visual and tactile references used for fine control. Those same characteristics make it exceptionally versatile in experienced hands. The correct reading starts with weight, thickness behind the edge, bevel geometry and intended use.
 
 ### Bone chopper
 
@@ -160,16 +160,16 @@ This traditional single-bevel form should not be confused with the modern double
 
 For practical knife selection, the easiest rule to remember is this: **geometry determines how easily a blade bends; the steel and heat treatment determine how safely it tolerates that bending.**
 
-A thin blade flexes more easily than a thick blade, but a knife intended to flex repeatedly also needs enough toughness to survive the lateral stress. With broadly comparable geometry and steel families, **higher hardness gives better support to a fine edge and usually better edge retention, while reducing tolerance for severe bending, twisting and impact**. A very hard blade forced too far sideways is more likely to chip, crack or break instead of simply taking a permanent bend.
+A thin blade can be made to flex more easily than a thick blade, but a knife intended to flex repeatedly also needs enough toughness to survive the lateral stress. In general, and assuming comparable geometry and a broadly comparable steel family, **higher hardness gives better support to a fine edge and usually better edge retention, but less tolerance for severe bending, twisting and impact**. A very hard blade forced too far sideways is more likely to chip, crack or break than simply take a permanent bend.
 
-Many high-end cutting knives therefore use hard steels and are treated as relatively rigid precision tools. Their hardness helps them keep a fine edge for a long time, but they should not be tested by deliberate bending. Knives expected to strike bone or flex around contours use tougher, more forgiving steels or heat treatments at lower hardness more often. They tolerate impact and deflection better and generally need **more frequent edge maintenance** than a harder precision blade.
+Many high-end cutting knives therefore use hard steels and are deliberately treated as relatively rigid precision tools. Hardness helps them keep a fine edge for a long time, but they should not be tested by bending them. Knives expected to strike bone or flex around contours commonly use tougher, more forgiving steels or heat treatments at lower hardness. They tolerate impact and deflection better, but usually need more frequent edge maintenance than a harder precision blade.
 
 The practical memory aid is:
 
 **harder precision blade = longer edge retention, less tolerance for forced flex**  
 **tougher/softer working blade = more tolerance for flex or impact, less edge retention**
 
-This is a useful training rule rather than a complete metallurgical formula. Blade thickness, distal taper, steel composition, carbide structure, heat treatment quality and edge geometry still matter. The rule explains why a flexible fillet knife, a bone chopper and a very hard fine-edged slicer are intentionally designed around different compromises.
+This is a useful training rule rather than a complete metallurgical formula. Blade thickness, distal taper, steel composition, carbide structure, heat treatment quality and edge geometry still matter, but the rule correctly explains why a flexible fillet knife, a bone chopper and a very hard fine-edged slicer are intentionally designed around different compromises.
 
 ### Western boning knife
 
@@ -181,7 +181,7 @@ A Western boning knife is narrow because boning is a constantly changing three-d
 
 The narrow profile also lets the user see and control the edge while tracing joints, removing connective tissue and separating meat from bone. Stiffer versions provide deliberate control around beef and pork; more flexible versions follow rounded surfaces more readily.
 
-The specialised narrow blade gives up versatility in exchange for this agility. It offers little knuckle clearance, little food-transfer area and less efficiency in broad board work than a chef's knife, gyuto or Chinese cleaver. Recommend it because boning is a recurring task, not as a general-purpose substitute. Boning means working **around** bone, not chopping through it; twisting the point or using it as a lever can still damage the knife.
+Its principal limitation is lack of versatility. The specialised narrow blade offers little knuckle clearance, little food-transfer area and less efficiency in broad board work than a chef's knife, gyuto or Chinese cleaver. Recommend it because boning is a recurring task, not as a general-purpose substitute. Boning means working **around** bone, not chopping through it; twisting the point or using it as a lever can still damage the knife.
 
 ### Honesuki
 
@@ -191,7 +191,7 @@ The specialised narrow blade gives up versatility in exchange for this agility. 
 
 The honesuki is a stiff triangular boning knife associated especially with poultry. Its pointed front locates joints and follows bone, while the stronger heel separates connective tissue with controlled pressure.
 
-Many cooks also value its compact length and defined point for selected fish-filleting work, particularly the first entry into a seam beside bone or under membrane. A long flexible fillet knife remains better when the task depends on bending around a rib cage. The honesuki offers almost the opposite qualities: short reach, rigidity and a highly controllable point.
+Many cooks also value the compact length and defined point for selected fish-filleting work, particularly the first entry into a seam beside bone or under membrane. It does not replace a long flexible fillet knife when the task depends on bending around a rib cage. Its strength is almost the opposite: short reach, rigidity and a highly controllable point.
 
 ### Fillet knife
 
@@ -199,11 +199,11 @@ Many cooks also value its compact length and defined point for selected fish-fil
   <figure><img src="../../assets/images/approved/knife-shapes/fillet.jpg" alt="Complete Xinzuo fillet knife"><figcaption>A Xinzuo Western fillet-knife example, long and narrow enough to follow fish contours.</figcaption></figure>
 </div>
 
-A Western fillet knife is long, narrow and commonly flexible. Its thin cross-section lets the blade follow a rib cage, stay close to skin and travel around fish contours while leaving less flesh behind. This is a butchery tool: it follows the anatomy of the fish before the finished portion is cut for presentation. A long rigid sashimi slicer performs a different job by making the clean final draw cut.
+A Western fillet knife is long, narrow and commonly flexible. Its thin cross-section lets the blade follow a rib cage, stay close to skin and travel around fish contours while leaving less flesh behind. This is a butchery tool: it follows the anatomy of the fish before the finished portion is cut for presentation, unlike a long rigid sashimi slicer whose main job is a clean final draw cut.
 
-Flexible versions are normally designed around a forgiving toughness-and-hardness balance. **A fillet knife made from a particularly hard steel requires much more caution.** A hard thin blade can flex elastically to a degree, but it should never be deliberately forced into a deep bend, twisted against hard bone or used to test “how flexible” it is. Excessive lateral stress can cause chipping, cracking or sudden blade fracture. A sudden break can also send the hand and broken edge in an uncontrolled direction, creating a real injury risk.
+Flexible versions are normally designed around a forgiving toughness-and-hardness balance. **A fillet knife made from a particularly hard steel must be treated with much more caution.** A hard thin blade can flex elastically to a degree, but it should never be deliberately forced into a deep bend, twisted against hard bone or used to test “how flexible” it is. Excessive lateral stress can produce chipping, a crack or even a sudden blade fracture. A sudden break is not only a damaged knife: it can send the hand and the broken edge in an uncontrolled direction and therefore creates a real injury risk.
 
-Use only the amount of flex the model is designed to provide. If the knife feels forced instead of naturally following the contour, change the cutting angle rather than bending the blade harder.
+Use only the amount of flex the model is designed to provide. If the knife feels forced rather than naturally following the contour, change the cutting angle instead of bending the blade harder.
 
 ### Deba
 
@@ -239,7 +239,7 @@ The same curve offers less straight board contact. It should not be treated as a
   <figure><img src="https://images-knifestock-cdn.rshop.sk/default/products/f5989fb0b5f68b5b790235881ef139a6.png" alt="Xinzuo B13R-SG straight paring knife"><figcaption>Xinzuo B13R-SG, used here as the straight paring-knife example.</figcaption></figure>
 </div>
 
-The straight paring profile places more of its short edge in contact with a board and tracks a direct cut naturally. It works well on garlic, shallots, small fruit, garnish and exact trimming while remaining compact enough for controlled in-hand work. It follows rounded produce less naturally than the curved parer, but it is more versatile when preparation alternates between hand and board.
+The straight paring profile places more of its short edge in contact with a board and tracks a direct cut naturally. It works well on garlic, shallots, small fruit, garnish and exact trimming while remaining compact enough for controlled in-hand work. It follows rounded produce less naturally than the curved parer but is more versatile when preparation alternates between hand and board.
 
 ### Steak knife
 
@@ -249,11 +249,11 @@ The straight paring profile places more of its short edge in contact with a boar
 
 A steak knife portions cooked meat directly at the table, and the distinction between a **serrated** and a **plain** edge has a real effect on the eating experience.
 
-A serrated steak knife has one important practical advantage: it can remain **apparently sharp for a long time**. The points of the serrations continue to find purchase even after repeated contact with a plate, and the teeth can grip and tear fibres when a smooth edge would already feel dull. That makes the knife forgiving in everyday table service. The same mechanism also creates the main limitation. Serrations cut partly by tearing, leaving a rougher cut surface, disturbing the texture of the meat more and rupturing more cells at the cut surface, which can allow more juice to escape. This may be an acceptable trade-off for inexpensive or casual service, but it is not ideal for high-quality meat.
+A serrated steak knife can remain **apparently sharp for a long time**. The points of the serrations continue to find purchase after repeated contact with a plate, and the teeth can grip and tear fibres when a smooth edge would already feel dull. That makes the knife forgiving in everyday table service. The same mechanism produces the disadvantage: serrations cut partly by tearing, so they leave a rougher cut surface, disturb the texture of the meat more and can rupture more cells at the cut surface, allowing more juice to escape. For inexpensive or casual service this may be an acceptable trade-off; for high-quality meat it is not ideal.
 
-For premium steak, a **very sharp plain-edge steak knife** is preferable. A smooth sharp edge separates the fibres more cleanly and preserves the texture and appearance of the portion better. Direct contact with a ceramic plate is its main weakness: when every stroke finishes against the hard plate, the apex can lose its fine sharpness surprisingly quickly.
+For premium steak, a **very sharp plain-edge steak knife** is preferable. A smooth sharp edge separates the fibres more cleanly and preserves the texture and appearance of the portion better. The plate is its main weakness: when a plain edge finishes every stroke directly against ceramic, the apex makes full contact with a much harder surface and can lose its fine sharpness surprisingly quickly.
 
-The ideal arrangement for valuable meat is consequently simple: **a sharp plain-edge steak knife, with the actual cutting completed on a wooden plate or a small food-safe wooden board rather than directly against ceramic**. If ceramic tableware must be used, the user should expect the plain edge to need more frequent maintenance.
+The ideal arrangement for valuable meat is therefore simple: **a sharp plain-edge steak knife, with the actual cutting completed on a wooden plate or a small food-safe wooden board rather than directly against ceramic**. If ceramic tableware must be used, the plain edge will need more frequent maintenance.
 
 ### Cheese knife
 
@@ -271,11 +271,11 @@ Cheese knife describes a family rather than one universal shape. Soft sticky che
   <figure><img src="../../assets/images/approved/knife-shapes/bread.jpg" alt="Complete Xinzuo bread knife"><figcaption>A Xinzuo bread-knife example with a long serrated edge.</figcaption></figure>
 </div>
 
-The characteristic serration of the bread knife makes more sense when seen in the context in which it developed. Historically, breadmaking, storage and the kinds of loaves commonly served were often different from many of today's commercially available products. A particularly important practical problem was how to enter a loaf and cut through a soft or delicate interior **without compressing it before the edge had passed through**.
+The characteristic serration of the bread knife makes more sense in the context in which it developed. Historically, breadmaking, storage and the kinds of loaves commonly served were often different from many of today's commercially available products. One important practical problem was entering a loaf and cutting through a soft or delicate interior **without compressing it before the edge had passed through**.
 
-Serrations solve that problem by allowing individual teeth to grip the surface of the food. Instead of relying on strong downward pressure, the user makes a light drawing or sawing movement. The teeth establish several small points of purchase and the blade advances by traction, so the crumb or other soft structure is cut with less crushing.
+Serrations solve that problem by allowing individual teeth to grip the surface of the food. The user makes a light drawing or sawing movement instead of relying on strong downward pressure. The teeth establish several small points of purchase and the blade advances by traction, so the crumb or other soft structure is cut with less crushing.
 
-A pronounced saw profile is **not always necessary** for the breads commonly sold today. Crust, crumb structure and freshness vary greatly, and a very sharp modern plain edge can cut many loaves cleanly. The serrated bread knife remains particularly valuable when the surface resists the first contact while the interior deforms easily. It is also extremely useful for soft leavened products such as brioche, panettone, soft rolls and cake, where downward compression can deform the product before a plain edge establishes the cut.
+A pronounced saw profile is **not always necessary** for many breads commonly sold today. Crust, crumb structure and freshness vary greatly, and a very sharp modern plain edge can cut many loaves cleanly. The serrated bread knife remains particularly valuable when the surface resists the first contact while the interior deforms easily. It is also extremely useful for soft leavened products such as brioche, panettone, soft rolls and cake, where downward compression can deform the product before a plain edge establishes the cut.
 
 Use a light guided sawing motion and let the teeth do the work. Excessive pressure defeats the purpose by crushing the crumb. Serrations often remain functionally effective for a long time because the recesses receive less direct board contact, but they are less straightforward to sharpen than a plain edge and may require a tapered sharpener or specialist service.
 
@@ -295,7 +295,7 @@ A frozen-food knife uses a strong coarse serration to saw through suitable froze
   <figure><img src="../../assets/images/approved/knife-shapes/viking.jpg" alt="Complete Xinzuo Viking Knife"><figcaption>A Xinzuo Viking Knife, a compact meat-oriented commercial profile.</figcaption></figure>
 </div>
 
-Viking Knife is a Xinzuo commercial name rather than a universal historical category. The profile can be understood as a compact meat-oriented slicer: shorter and easier to manoeuvre than a long carving knife, with a pronounced curve that supports slicing around steaks and cooked boneless portions. Its shorter reach makes large roasts and ham less efficient to slice than with a long carving knife. The form is not a bone chopper.
+Viking Knife is a Xinzuo commercial name rather than a universal historical category. The profile can be understood as a compact meat-oriented slicer: shorter and easier to manoeuvre than a long carving knife, with a pronounced curve that supports slicing around steaks and cooked boneless portions. Large roasts and ham remain more efficient with a long carving knife because the Viking Knife sacrifices reach for manoeuvrability. The form is not a bone chopper.
 
 ## Choosing by work rather than by name
 
