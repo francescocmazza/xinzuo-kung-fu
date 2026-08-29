@@ -3,7 +3,7 @@ title: How to Cut - Essential Knife Techniques
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-28
+reviewed: 2026-08-29
 translation_priority: highest
 ---
 
@@ -92,7 +92,7 @@ Place the breast across the board. Set the heel of the knife just beyond the far
 
 A long draw spreads the work across more of the edge. It reduces downward compression and leaves a smoother cut surface. This matters with delicate fish because a ragged surface changes both appearance and texture.
 
-Traditional Japanese sashimi knives became long because the cook wanted to finish a slice with as few interruptions as possible. The single-bevel yanagiba adds controlled food separation to that long draw. The important connection here is practical: the surface left by the cut is part of the finished dish.
+Traditional Japanese sashimi knives became long because the cook wanted to finish a slice with as few interruptions as possible. The single-bevel yanagiba adds controlled food separation to that long draw. The practical connection is that the surface left by the cut becomes part of the finished dish.
 
 ## 4. Rock chopping
 
@@ -106,13 +106,13 @@ This broad rolling movement depends on curvature. A very flat blade without a su
 
 ### Why the round-tip nakiri is ideal for a compact rock
 
-A **round-tip nakiri** solves the same general problem in a different and, for compact rocking and mincing, particularly elegant way. Instead of relying on a long curved belly, it provides a rounded front whose extreme nose is normally unsharpened or safely transitioned away from a piercing point. That rounded front can remain in controlled contact with the board while the heel is raised and lowered through a short arc.
+A **round-tip nakiri** solves the same general problem with a different geometry. It uses a rounded front rather than a long curved belly, and the extreme nose is normally unsharpened or safely transitioned away from a piercing point. The rounded front can remain in controlled contact with the board while the heel rises and falls through a short arc, making the design particularly elegant for compact rocking and mincing.
 
-For this specific kind of rock chopping, the geometry is close to ideal. The rounded nose creates a broad, predictable pivot rather than concentrating the motion on a fragile point. The tall blade gives generous knuckle clearance and an easy place for the guiding hand to control the knife. Behind the pivot, the relatively straight working edge descends decisively onto the board, so herbs and small ingredients are cut cleanly rather than left connected by an overly curved belly.
+For this specific kind of rock chopping, the geometry is close to ideal. The rounded nose creates a broad, predictable pivot instead of concentrating the motion on a fragile point. The tall blade gives generous knuckle clearance and an easy place for the guiding hand to control the knife. Behind the pivot, the relatively straight working edge descends decisively onto the board, so herbs and small ingredients are cut cleanly rather than left connected by an overly curved belly.
 
-The result is different from the exaggerated rocking sweep of a classic chef's knife. A round-tip nakiri works best with a **short, controlled pivoting movement**: the front remains planted, the heel rises only as much as necessary, and the knife advances through the pile in small steps. It is especially effective for herbs, fine vegetable mincing and repeated compact board work.
+A round-tip nakiri therefore works best with a **short, controlled pivoting movement**, not the exaggerated rocking sweep of a classic chef's knife. The front remains planted, the heel rises only as much as necessary, and the knife advances through the pile in small steps. It is especially effective for herbs, fine vegetable mincing and repeated compact board work.
 
-This is also why the rounded front should not be dismissed as merely a tip that has lost piercing ability. In this design the absence of a fine point is functional: the front becomes a stable board-contact feature that can tolerate repeated pivoting much better than a delicate K-tip.
+The rounded front is not merely a tip that has lost piercing ability. Its lack of a fine point is functional: the front becomes a stable board-contact feature that can tolerate repeated pivoting much better than a delicate K-tip.
 
 ### Try it with parsley
 
@@ -165,7 +165,7 @@ If the pieces vary greatly, slow down and improve the first set of slices. Irreg
 
 ## 9. Mincing without crushing
 
-Mincing reduces food to very small pieces. Begin with slices, then strips, then cross-cuts. Only after the pieces are already small should you gather them and make additional passes.
+Mincing reduces food to very small pieces. Begin with slices, then strips, then cross-cuts. Gather the pieces and make additional passes only after they are already small.
 
 For garlic or herbs, use straight chopping with a compact blade, a gentle rolling action with a curved chef's knife, or the short pivot rock of a round-tip nakiri. Re-gather the food with the spine or broad face. Repeatedly scraping the edge sideways against the board weakens the apex.
 
@@ -195,7 +195,7 @@ Begin with a stable fish and a clear sequence: open the fish, locate the backbon
 
 The blade should tell you where the skeleton is. Heavy pressure hides that feedback and wastes flesh. When learning, work slowly enough to feel contact without forcing the edge into hard bone.
 
-When a technique depends on the handed geometry of a traditional single-bevel knife, the problem is no longer a new cutting motion but the way the blade steers and separates food. The practical arrangement for using a single bevel with the opposite hand is therefore kept with the geometry that explains it in [Single and Double Bevels](../04-geometry-and-bevels/single-and-double-bevels.md), rather than repeated here.
+A traditional single-bevel knife can change the problem because its handed geometry affects steering and food separation. The practical arrangement for using a single bevel with the opposite hand is kept with the geometry that explains it in [Single and Double Bevels](../04-geometry-and-bevels/single-and-double-bevels.md) rather than repeated here.
 
 ## Specialist techniques that need demonstration
 
