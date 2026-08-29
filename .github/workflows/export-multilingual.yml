@@ -10,6 +10,7 @@ on:
       - "mkdocs.yml"
       - "scripts/auto_translate.py"
       - "scripts/repair_translated_html.py"
+      - "scripts/test_repair_translated_html.py"
       - "scripts/centralize_bibliography.py"
       - "requirements-translation.txt"
       - "scripts/publish_multilingual.ps1"
@@ -53,6 +54,7 @@ jobs:
           test -f PUBLISHING_GUIDE.md
           test -f scripts/auto_translate.py
           test -f scripts/repair_translated_html.py
+          test -f scripts/test_repair_translated_html.py
           test -f scripts/centralize_bibliography.py
           test -f requirements-translation.txt
 
@@ -77,6 +79,9 @@ jobs:
 
       - name: Install documentation dependencies
         run: pip install -r requirements-docs.txt
+
+      - name: Validate translation repair regression cases
+        run: python scripts/test_repair_translated_html.py
 
       - name: Cache local translation models
         uses: actions/cache@v5
