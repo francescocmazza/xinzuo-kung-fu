@@ -64,7 +64,7 @@ This file records the current editorial constraints for *The Gongfu of Xinzuo*. 
 - Knife-profile photographs must show the **entire knife**, including full handle and tip, without clipping or hiding any part of it.
 - In every knife-profile photograph, the **cutting edge must read downward and the spine upward**. Handle-left versus handle-right is secondary. Rotation is allowed; mirroring should not be used because it can reverse logos, grind handedness and other asymmetric details.
 - Image containers and print styling must use contain/fit logic that accounts for the rotated bounding box; do not use clipping as a way to force a photograph into its frame.
-- Curved paring knife: use the Xinzuo **B9H-SG** image.
+- Curved paring knife: use the Xinzuo **B9H-SG** image stored at `content/en/assets/images/approved/knife-shapes/paring-curved.jpg`.
 - Straight paring knife: use the Xinzuo **B13R-SG** image.
 - Do not include a separate flat-blade/flat-cut paring-knife category; Xinzuo does not have that form in the range covered by the guide.
 - Do not add a disclaimer explaining the absence of the flat-cut paring knife; simply omit the category.
