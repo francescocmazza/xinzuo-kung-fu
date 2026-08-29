@@ -40,6 +40,26 @@ Articles should be:
 
 A page should not feel like an enlarged product specification sheet. Tables and bullet points are useful for summaries, but the main explanation should normally be written in connected prose.
 
+## Linear sentence construction
+
+Explanatory prose should let the reader complete one idea before asking them to process a comparison, limitation or exception.
+
+Prefer the natural information order **subject or topic → action or relationship → object or main proposition → comparison, limitation, cause, condition or exception**. Do not insert a comparison between a verb and its object when the sentence reads more naturally with the comparison afterwards.
+
+For example, write:
+
+> Pakka wood generally tolerates contact with detergents and degreasers better than natural-wood handles.
+
+Do not write:
+
+> Pakka wood generally tolerates better than natural-wood handles contact with detergents and degreasers.
+
+The same principle applies beyond explicit comparisons. State the main proposition first and add the necessary qualification afterwards whenever that order remains accurate. Avoid making the reader hold an unfinished grammatical or logical structure in memory while a caveat, parenthesis or secondary contrast intervenes.
+
+Repeated templates such as **Its advantage is...**, **Its compromise is...**, **The point is not that...** and **This does not mean...** should not become the default rhythm of the book. Prefer a direct statement of what the material, geometry or process does, followed by the limitation where it naturally belongs.
+
+When translating, preserve this principle in the target language rather than preserving English word order mechanically. The goal is the most natural linear explanation in each language.
+
 ## Begin with the reader's question
 
 Each chapter should open by explaining why the subject matters or what confusion it resolves.
@@ -86,7 +106,7 @@ The body of the book should state its conclusions directly and confidently. When
 
 Avoid habitual hedging such as **may**, **might**, **could**, **perhaps**, **in some cases**, **not necessarily**, **it is possible that**, **the most defensible claim**, or similar wording when it does not materially change the meaning. Do not add sentences whose only purpose is to remind the reader that an explanation may have exceptions or could be corrected in the future.
 
-A qualification belongs in the body only when it is necessary because omitting it would:
+A qualification belongs in the body only when omitting it would:
 
 - make the explanation technically false in a meaningful way;
 - create a safety risk;
@@ -94,7 +114,7 @@ A qualification belongs in the body only when it is necessary because omitting i
 - confuse a tendency with a genuinely different mechanism;
 - turn an estimate or interpretation into a claimed measured fact.
 
-When a qualification is necessary, integrate it into the explanation itself rather than presenting it as a recurring disclaimer. Explain the actual boundary once, clearly, and continue.
+When a qualification is necessary, integrate it into the explanation itself instead of presenting it as a recurring disclaimer. Explain the actual boundary once, clearly, and continue.
 
 The goal is **confident accuracy**, not defensive writing.
 
@@ -145,22 +165,6 @@ Across the book, readers must be able to find clear explanations of:
 
 Prefer short and medium-length sentences. Longer sentences are acceptable when their structure remains clear.
 
-Build each sentence in the order in which a reader naturally understands it. As a default, establish the **subject or topic**, state the **action or relationship**, complete the **object or main proposition**, and only then add a **comparison, limitation, condition or exception**. The reader should not have to hold an unfinished grammatical structure in memory while a comparison or caveat is inserted into the middle of it.
-
-For example, prefer:
-
-> Pakka wood generally tolerates contact with detergents and degreasers better than natural-wood handles.
-
-rather than:
-
-> Pakka wood generally tolerates better than natural-wood handles contact with detergents and degreasers.
-
-The same principle applies beyond comparisons. Prefer the natural sequence of thought over literary inversion, front-loaded qualification or nested contrast. Complete the main claim first whenever accuracy allows, then explain how it compares, where it stops or what modifies it.
-
-Keep comparative phrases close to what they compare. If **better than**, **more than**, **less than**, **compared with** or **unlike** refers to the whole action, the comparison will normally read most naturally after the action has been completed.
-
-Avoid repetitive explanatory templates when ordinary prose is clearer. Frequent constructions such as “Its advantage is…”, “Its compromise is…”, “The point is not that…”, “This does not mean…” and “It would nevertheless be misleading…” make long-form reading tiring when they become habitual. State the practical effect directly and introduce the contrast only where it adds real information.
-
 Use headings frequently enough that a reader can pause and return without losing the thread.
 
 Use paragraphs for explanation and bullet points for:
@@ -198,7 +202,7 @@ Avoid unnecessary wordplay, culture-specific jokes and idioms that cannot be tra
 
 Keep important terminology consistent across chapters. The controlled glossary should be consulted before introducing a new translation-sensitive term.
 
-Do not preserve awkward English word order mechanically in translation. The target-language sentence should follow the natural order in which a fluent reader of that language expects the information to arrive, while preserving the same technical meaning.
+Translations must reproduce the meaning and teaching sequence, not awkward English syntax. Apply the linear-sentence rule according to the natural grammar of the target language.
 
 ## Images and diagrams
 
@@ -221,13 +225,12 @@ Before approving a chapter, ask:
 - Can a complete beginner understand the central idea?
 - Is the explanation detailed enough to answer the obvious next question?
 - Does the page remain pleasant to read?
-- Does each sentence present its main idea in a natural reading order, without making the reader wait for the verb's object or the clause's completion?
-- Are comparisons and qualifications placed after the main proposition when accuracy allows?
+- Does each sentence present its main proposition before secondary comparisons or qualifications whenever accuracy permits?
 - Are technical terms introduced rather than assumed?
 - Does the author state the conclusion clearly rather than hiding it behind unnecessary caveats?
 - Are any remaining qualifications genuinely necessary for accuracy, scope or safety?
 - Is the commercial message strong but credible?
-- Could the text be translated without changing its meaning?
+- Could the text be translated without changing its meaning or reproducing awkward syntax?
 - Does the reader finish with a clearer mental picture?
 
 If the answer is yes, the chapter meets the intended standard.
