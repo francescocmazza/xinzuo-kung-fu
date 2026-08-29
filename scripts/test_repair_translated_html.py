@@ -31,12 +31,14 @@ def main() -> int:
     source_line = "See [Target](target.md).\n"
     wrapped = _repair_literal_line(source_line, "Vedi {KBLINK000}.\n")
     bare = _repair_literal_line(source_line, "Vedi KBLINK000.\n")
+    prefixed = _repair_literal_line(source_line, "Vedi Z-KBLINK000.\n")
     expected = "Vedi [Target](target.md).\n"
 
     assert wrapped == expected, wrapped
     assert bare == expected, bare
+    assert prefixed == expected, prefixed
     assert "{" not in wrapped and "}" not in wrapped
-    assert "KBLINK" not in wrapped and "KBLINK" not in bare
+    assert "KBLINK" not in wrapped and "KBLINK" not in bare and "KBLINK" not in prefixed
 
     print("Translation repair regression checks passed")
     return 0
