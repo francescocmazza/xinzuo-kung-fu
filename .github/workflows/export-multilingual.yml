@@ -9,6 +9,7 @@ on:
       - "translations/**"
       - "mkdocs.yml"
       - "scripts/auto_translate.py"
+      - "scripts/repair_translated_html.py"
       - "scripts/centralize_bibliography.py"
       - "requirements-translation.txt"
       - "scripts/publish_multilingual.ps1"
@@ -51,6 +52,7 @@ jobs:
           test -f publish-guide.cmd
           test -f PUBLISHING_GUIDE.md
           test -f scripts/auto_translate.py
+          test -f scripts/repair_translated_html.py
           test -f scripts/centralize_bibliography.py
           test -f requirements-translation.txt
 
@@ -94,6 +96,9 @@ jobs:
 
       - name: Refresh stale active translations locally
         run: python scripts/auto_translate.py
+
+      - name: Repair translated raw HTML
+        run: python scripts/repair_translated_html.py
 
       - name: Build every configured language from refreshed translations
         run: python scripts/multilingual_site.py --require-translations
