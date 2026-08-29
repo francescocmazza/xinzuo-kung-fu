@@ -3,7 +3,7 @@ title: "Weight and Balance: Why Heavier Is Not Better or Worse"
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-28
+reviewed: 2026-08-29
 translation_priority: high
 ---
 
@@ -35,7 +35,7 @@ The santoku offers a useful example. Its dropped, sheep's-foot-like nose usually
 
 ## Strength, momentum and precision are different things
 
-Weight needs to be separated from strength. A heavy blade is not automatically tougher, and a light blade is not automatically fragile. Strength at a particular part of the knife depends on how much steel is present there, its thickness and shape, the steel and heat treatment, and how the load is applied.
+Weight needs to be separated from strength. Blade weight and blade strength are independent variables: strength at a particular part of the knife depends on how much steel is present there, its thickness and shape, the steel and heat treatment, and how the load is applied.
 
 The fuller front of a typical santoku is a good example of **local geometric support**. Because more material remains around the nose than around a very fine pointed tip, that part of the knife is generally better supported against ordinary board contact and modest accidental lateral loads. It is still not a pry bar, and its edge can still chip if twisted or struck into unsuitable material.
 

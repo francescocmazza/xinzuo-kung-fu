@@ -3,7 +3,7 @@ title: Knife Shapes and Their Uses
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-28
+reviewed: 2026-08-29
 translation_priority: highest
 source_basis: general knife geometry and technique, illustrated with current Xinzuo examples
 ---
@@ -33,7 +33,14 @@ Its broader and often more substantial blade also means that, once deeply engage
 ### Gyuto
 
 <div class="kb-profile-visual">
-  <figure><img src="https://kitchenvirtue.com/cdn/shop/files/p_07772aca-d5e8-4c61-bfaf-0b01cfb2ef21.jpg?v=1752611078" alt="Xinzuo PM80-CS used as a gyuto-profile example"><figcaption>Xinzuo PM80-CS, used here to show a comparatively flatter, slimmer gyuto-type profile.</figcaption></figure>
+  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-GYUTO-PM80">
+    <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo PM80-CS gyuto profile">
+      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
+      <div class="kb-image-placeholder__title">Xinzuo PM80-CS gyuto profile</div>
+      <div class="kb-image-placeholder__note">Awaiting an approved, rights-cleared Xinzuo product photograph.</div>
+    </div>
+    <figcaption>VIS-SHAPE-GYUTO-PM80 - planned visual awaiting production or image-rights approval.</figcaption>
+  </figure>
 </div>
 
 The gyuto overlaps strongly with the Western chef's knife but commonly has a flatter heel and middle, a slimmer point and less continuous belly curvature. It therefore tends to feel more linear in push cuts and long draw slices and can be easier to steer through small directional corrections.
@@ -155,7 +162,14 @@ This is why a thin Western fillet knife may deliberately flex around ribs while 
 ### Western boning knife
 
 <div class="kb-profile-visual">
-  <figure><img src="https://images-knifestock-cdn.rshop.sk/default/products/15a57139e92ae3f8c43bcac256677434.png" alt="Xinzuo B37-TG 6-inch Western boning knife"><figcaption>Xinzuo B37-TG, a Western boning-knife example with a narrow pointed profile.</figcaption></figure>
+  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-BONING-B37TG">
+    <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo B37-TG Western boning knife">
+      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
+      <div class="kb-image-placeholder__title">Xinzuo B37-TG Western boning knife</div>
+      <div class="kb-image-placeholder__note">Awaiting an approved, rights-cleared Xinzuo product photograph.</div>
+    </div>
+    <figcaption>VIS-SHAPE-BONING-B37TG - planned visual awaiting production or image-rights approval.</figcaption>
+  </figure>
 </div>
 
 A Western boning knife is narrow so the user can see and control the edge while tracing joints, removing connective tissue and separating meat from bone. Stiffer versions provide deliberate control around beef and pork; more flexible versions follow rounded surfaces more readily. Boning means working around bone, not chopping through it.

@@ -3,7 +3,7 @@ title: Xinzuo Blade Steels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-28
+reviewed: 2026-08-29
 translation_priority: highest
 source_basis: Xinzuo 2025 product information, manufacturer technical data, and current Xinzuo internal product-development notes
 ---
@@ -39,7 +39,7 @@ The table is not a ranking. It is a map of different compromises. Two steels tha
 
 ### ZDP-189: maximum hardness and long edge life
 
-ZDP-189 occupies the extreme-hardness end of the range. At the published 65-67 HRC, it can resist edge deformation very strongly and sustain long cutting life when the edge geometry and cutting task are appropriate. Its attraction is therefore not simply the impressive HRC figure but the combination of hardness and wear resistance that allows a properly sharpened edge to remain effective for a long time.
+ZDP-189 occupies the extreme-hardness end of the range. At the published 65-67 HRC, it can resist edge deformation very strongly and sustain long cutting life when the edge geometry and cutting task are appropriate. What makes it attractive is the combination of hardness and wear resistance that allows a properly sharpened edge to remain effective for a long time, not the HRC figure on its own.
 
 That performance comes with a narrower operating window. High hardness and a large carbide population make material removal slower during sharpening, while a thin edge in such a hard steel is less tolerant of lateral loads. ZDP-189 is excellent for controlled cutting, not for twisting through hard food, levering, striking bone or using the knife as a general-purpose tool.
 
@@ -67,7 +67,7 @@ The exact final carbide population still depends on composition and heat treatme
 
 ## Carbon and all-round high-performance stainless steels
 
-### Blue Steel No. 2: hard does not necessarily mean difficult to sharpen
+### Blue Steel No. 2: high hardness, forgiving stone response
 
 Blue Steel No. 2, or Aogami #2, is the main reactive carbon-steel option in the range and is specified at 62-64 HRC. It represents a very different route to performance from M390 or ZDP-189: instead of relying on a large volume of corrosion-resistant alloy carbides, it uses a comparatively simple high-carbon alloy designed for a keen, stable cutting edge.
 
@@ -91,7 +91,7 @@ This distinction is important: a laboratory can resolve differences that a cook 
 
 Its purpose is deliberately practical. Chromium, molybdenum and vanadium are balanced to provide corrosion resistance, stable cutting performance, useful edge life and adequate toughness without pushing the steel into the very high wear resistance and sharpening difficulty of premium powder metallurgy. Within Xinzuo it is currently regarded as one of the company's **top-rated choices for everyday use** because it places all the important daily-use properties in a strong range at the same time.
 
-That description should not be confused with saying that 12Cr18MoV is universally "better" than M390, ZDP-189 or Blue #2. It is optimized around a different target: a knife that can be used frequently, maintained without specialist abrasives, resist normal kitchen corrosion well and still deliver refined cutting performance.
+12Cr18MoV is built for a different job than M390, ZDP-189 or Blue #2, not a better or worse one: a knife that can be used frequently, maintained without specialist abrasives, resist normal kitchen corrosion well and still deliver refined cutting performance.
 
 ### AUS-10: the Japanese all-rounder close to the VG10 class
 
@@ -129,7 +129,7 @@ Compared with newer powder steels, its carbide structure is generally coarser an
 
 It is therefore best understood as a proven work steel rather than a prestige steel. It sacrifices some fine-edge retention and high-performance potential in exchange for accessibility and predictable service.
 
-### DIN 1.4116: moderate hardness is not the same as easy sharpening
+### DIN 1.4116: where its forgiveness actually comes from
 
 DIN 1.4116 is specified at 56-58 HRC in Xinzuo series such as B13S and B35. Its role in the range emphasizes **corrosion resistance, toughness and forgiving everyday use**. It is especially suitable where the knife may encounter less disciplined technique, frequent washing or users who value robustness more than maximum edge retention.
 

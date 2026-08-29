@@ -200,6 +200,8 @@ content/en/assets/
 
 Only original, properly licensed, or explicitly authorized images may be added. See `content/en/assets/IMAGE_RIGHTS.md`.
 
+Never embed an `<img src="https://...">` pointing at an external website, retailer or CDN, even as a temporary measure — a product photograph found on a reseller's site is not rights-cleared just because it shows a Xinzuo product. When an approved image is not yet available, use the standard editorial image placeholder instead of a temporary external link. See the Images section of `EDITORIAL_REQUIREMENTS.md` for the full rule and the placeholder markup convention.
+
 ## 10. Local validation
 
 Strict multilingual validation remains:

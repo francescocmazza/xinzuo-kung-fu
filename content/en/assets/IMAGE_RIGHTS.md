@@ -53,6 +53,10 @@ For `damascus-structure-comparison.svg`, the rendered guide intentionally displa
 
 The neutral PNG adaptations remove captions embedded in a fixed language. Their numbered legends and explanatory captions are published as ordinary document text so that each language edition can translate them without altering the underlying image.
 
+## Removed: unrights-cleared external hotlinks
+
+Two figures in "Knife Shapes and Their Uses" (Gyuto: `VIS-SHAPE-GYUTO-PM80`; Western boning knife: `VIS-SHAPE-BONING-B37TG`) previously embedded an `<img>` tag pointing directly at a third-party retailer's website (kitchenvirtue.com and images-knifestock-cdn.rshop.sk respectively) instead of an asset listed above. These images were never recorded in this file, were not confirmed as licensed for this use, and did not live under `content/en/assets/`. They have been removed from the English source and from the Italian and Simplified Chinese translations, and replaced with the standard editorial image placeholder pending an approved Xinzuo product photograph. See `EDITORIAL_REQUIREMENTS.md` for the rule that now prevents this pattern from recurring.
+
 ## Excluded material
 
 No confidential Musashi material is published in this repository. Proprietary slide decks and source catalog PDFs are not published as complete documents; only individually selected visual extracts are used where permitted and technically appropriate.

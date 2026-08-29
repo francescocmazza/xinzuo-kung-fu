@@ -37,7 +37,14 @@ source_hash: 648021eac8dc8929d6f9d54ef68e70c958ac84e634a752ffaa29925758867f1f
 ### 陀乌特
 
 <div class="kb-profile-visual">
-  <figure><img src="https://kitchenvirtue.com/cdn/shop/files/p_07772aca-d5e8-4c61-bfaf-0b01cfb2ef21.jpg?v=1752611078" alt="Xinzuo PM80-CS used as a gyuto-profile example"><figcaption>Xinzuo PM80-CS, 这里用来显示一个相对受宠若惊, 瘦薄的陀螺型配置。</figcaption></figure>
+  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-GYUTO-PM80">
+    <div class="kb-image-placeholder" role="img" aria-label="图片占位符：信作 PM80-CS 牛刀刀型">
+      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
+      <div class="kb-image-placeholder__title">信作 PM80-CS 牛刀刀型</div>
+      <div class="kb-image-placeholder__note">等待经过版权核实的信作产品实拍图。</div>
+    </div>
+    <figcaption>VIS-SHAPE-GYUTO-PM80 - 计划中的图片，等待制作或图片版权批准。</figcaption>
+  </figure>
 </div>
 
 陀螺仪与西方厨师的刀子有着强烈的重叠,但通常其脚跟和中间的脚跟比较平滑,腹部的弯曲也比较不连续。 因此,在推力切割和长幅切片中,它会感觉更加线性,并且更容易通过小方向性修正。
@@ -159,7 +166,14 @@ Kiritsuke 以专家的写法, 辨别了用于精确切片和高级预科的长�
 ### 西方连锁刀
 
 <div class="kb-profile-visual">
-  <figure><img src="https://images-knifestock-cdn.rshop.sk/default/products/15a57139e92ae3f8c43bcac256677434.png" alt="Xinzuo B37-TG 6-inch Western boning knife"><figcaption>Xinzuo B37-TG, 西方圆形刀形插曲的缩略图。</figcaption></figure>
+  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-BONING-B37TG">
+    <div class="kb-image-placeholder" role="img" aria-label="图片占位符：信作 B37-TG 西式去骨刀">
+      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
+      <div class="kb-image-placeholder__title">信作 B37-TG 西式去骨刀</div>
+      <div class="kb-image-placeholder__note">等待经过版权核实的信作产品实拍图。</div>
+    </div>
+    <figcaption>VIS-SHAPE-BONING-B37TG - 计划中的图片，等待制作或图片版权批准。</figcaption>
+  </figure>
 </div>
 
 西方骨盆的刀子很窄,所以用户可以在追踪关节、切除连接组织和将肉与骨头分开时看到和控制边缘。 硬质版本在牛肉和猪肉周围提供审慎的控制;更灵活的版本更随圆形表面而来。 博宁意味着在骨头周围工作,而不是切开。

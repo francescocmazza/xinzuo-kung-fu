@@ -4,7 +4,15 @@ All notable editorial changes to the English source of truth will be recorded he
 
 ## [Unreleased]
 
+### Fixed
+
+- removed two externally hotlinked product images (gyuto and Western boning-knife examples in Knife Shapes and Their Uses) that pointed at third-party retailer CDNs and were not covered by any recorded image right; replaced them with the standard editorial image placeholder in the English source and in the Italian and Simplified Chinese translations.
+
 ### Changed
+
+- reduced repeated "X is not Y" / "does not mean Z" corrective phrasing where it was stacked densely within a single chapter (Xinzuo Blade Steels, Damascus Steel, The Five Dimensions of Knife Steel, Weight and Balance), replacing some instances and two subsection headings with direct or descriptive phrasing while keeping the corrections that carry unique technical content;
+- added an editorial rule limiting how often corrective negation constructions may be stacked, and requiring section/subsection headings to default to a positive or descriptive form;
+- added an editorial rule and a matching README clarification prohibiting externally hotlinked images and requiring the standard placeholder when an approved asset is not yet available;
 
 - promoted Knife Shapes and Their Uses to an early top-level section in the book and website navigation;
 - replaced the detached numbered shape chart with 32 individually associated Xinzuo visuals;

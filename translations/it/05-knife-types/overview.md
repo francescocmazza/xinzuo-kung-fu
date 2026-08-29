@@ -37,7 +37,14 @@ La sua lama più ampia e spesso più consistente significa anche che, una volta 
 ### Gyuto
 
 <div class="kb-profile-visual">
-  <figure><img src="https://kitchenvirtue.com/cdn/shop/files/p_07772aca-d5e8-4c61-bfaf-0b01cfb2ef21.jpg?v=1752611078" alt="Xinzuo PM80-CS used as a gyuto-profile example"><figcaption>Xinzuo PM80-CS, utilizzato qui per mostrare un profilo gyuto relativamente più piatto e sottile.</figcaption></figure>
+  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-GYUTO-PM80">
+    <div class="kb-image-placeholder" role="img" aria-label="Immagine segnaposto: profilo gyuto Xinzuo PM80-CS">
+      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
+      <div class="kb-image-placeholder__title">Profilo gyuto Xinzuo PM80-CS</div>
+      <div class="kb-image-placeholder__note">In attesa di una fotografia di prodotto Xinzuo approvata e con diritti verificati.</div>
+    </div>
+    <figcaption>VIS-SHAPE-GYUTO-PM80 - immagine prevista, in attesa di produzione o approvazione dei diritti.</figcaption>
+  </figure>
 </div>
 
 Il ginecologo si sovrappone fortemente al coltello dello chef occidentale, ma comunemente ha un tacco più piatto e medio, un punto più sottile e una curvatura meno continua della pancia. Tende quindi a sentirsi più lineare nei tagli a spinta e nelle lunghe fette di estrazione e può essere più facile guidare attraverso piccole correzioni direzionali.
@@ -159,7 +166,14 @@ Questo è il motivo per cui un sottile coltello Western filetto può deliberatam
 ### Coltello da disossamento occidentale
 
 <div class="kb-profile-visual">
-  <figure><img src="https://images-knifestock-cdn.rshop.sk/default/products/15a57139e92ae3f8c43bcac256677434.png" alt="Xinzuo B37-TG 6-inch Western boning knife"><figcaption>Xinzuo B37-TG, un modello di coltello da disossamento occidentale dal profilo a punta stretta.</figcaption></figure>
+  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-BONING-B37TG">
+    <div class="kb-image-placeholder" role="img" aria-label="Immagine segnaposto: coltello da disossamento occidentale Xinzuo B37-TG">
+      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
+      <div class="kb-image-placeholder__title">Coltello da disossamento occidentale Xinzuo B37-TG</div>
+      <div class="kb-image-placeholder__note">In attesa di una fotografia di prodotto Xinzuo approvata e con diritti verificati.</div>
+    </div>
+    <figcaption>VIS-SHAPE-BONING-B37TG - immagine prevista, in attesa di produzione o approvazione dei diritti.</figcaption>
+  </figure>
 </div>
 
 Un coltello da disossamento occidentale è stretto in modo che l'utente possa vedere e controllare il bordo mentre rintraccia le articolazioni, rimuovendo il tessuto connettivo e separando la carne dall'osso. Le versioni stiffer forniscono un controllo deliberato intorno a carne bovina e maiale; versioni più flessibili seguono le superfici arrotondate più facilmente.

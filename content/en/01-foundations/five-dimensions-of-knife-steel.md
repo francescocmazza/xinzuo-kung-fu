@@ -3,7 +3,7 @@ title: The Five Dimensions of Knife Steel
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-28
+reviewed: 2026-08-29
 translation_priority: high
 ---
 
@@ -66,7 +66,7 @@ This is why stainless should never be read as *stain-proof*. Salt, chlorides, ac
 
 **Toughness** is the ability of a material to absorb stress and energy without fracturing. At a knife edge, insufficient toughness may appear as chipping. At a larger scale it can contribute to cracking or breakage when the blade is subjected to impact, twisting or strong lateral loads.
 
-Toughness is not the same as the everyday word *robustness*. The robustness of a finished knife also depends on thickness, edge angle, blade shape and how much material supports the edge.
+Toughness has a narrower meaning here than the everyday word *robustness* suggests. The robustness of a finished knife also depends on thickness, edge angle, blade shape and how much material supports the edge.
 
 The same steel can therefore feel delicate in an extremely thin precision slicer and much more tolerant in a thicker working geometry. Likewise, a very tough steel cannot make an ultrathin edge immune to lateral abuse.
 
@@ -90,7 +90,7 @@ The five dimensions should never be read as five independent sliders that can al
 - A greater volume of hard carbides can improve abrasive wear resistance while slowing sharpening and often reducing toughness.
 - Strong corrosion resistance depends on alloy balance and the chromium that remains useful for passivation, not simply on the nominal chromium percentage.
 - A very thin geometry can transform cutting performance while placing greater demands on the steel and on user technique.
-- A steel that feels wonderful on a stone is not automatically poor at edge retention, and a steel that is moderate in hardness is not automatically easy to sharpen.
+- A steel can feel wonderful on a stone and still hold an edge well, or sit at moderate hardness and still resist sharpening.
 
 This is not a defect in knife design. It is the reason different steels and heat treatments exist.
 

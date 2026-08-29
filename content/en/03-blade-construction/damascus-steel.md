@@ -3,7 +3,7 @@ title: Damascus Steel - Pattern, History and Construction
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-28
+reviewed: 2026-08-29
 translation_priority: high
 ---
 
@@ -75,7 +75,7 @@ A simple way to remember it is:
 
 A full Damascus blade is different.
 
-In this construction, the multilayer material is not simply placed around a separate core. The layered steel forms the blade body itself and reaches the cutting-edge region.
+In this construction, the layered steel forms the blade body itself and reaches the cutting-edge region directly, rather than surrounding a separate core.
 
 This makes the relationship between the layers and the edge more direct. If the steels have different hardness or wear behaviour, the alternating structure can influence how the edge wears during use. This is the basis of the self-sharpening effect described in the next chapter.
 
@@ -114,7 +114,7 @@ Modern microscopy has added another remarkable chapter. In 2006, Marianne Reibol
 
 Modern pattern-welded Damascus creates its design by physically joining and manipulating different steels. The visual resemblance encouraged the shared name, but the metallurgy is not the same.
 
-The two traditions can both produce beautiful patterned blades, but they should not be described as the same metallurgy.
+The two traditions can both produce beautiful patterned blades even though their metallurgy is fundamentally different.
 
 The distinctions are easy to remember:
 
