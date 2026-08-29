@@ -3,7 +3,7 @@ title: Routine Knife Care
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-25
+reviewed: 2026-08-29
 translation_priority: high
 ---
 
@@ -29,29 +29,29 @@ Dry the blade immediately with a clean cloth, moving from the spine toward the e
 
 A dishwasher combines several conditions that are unhelpful to a fine knife: aggressive detergent, prolonged moisture, elevated temperature and the possibility of the blade striking cutlery or the basket. Natural-wood handles and some composite or adhesive assemblies can also deteriorate more quickly under repeated hot wet cycles.
 
-For these reasons, hand washing is the safest general rule for quality kitchen knives even when the steel itself is highly corrosion resistant.
+Hand washing is therefore the safest general rule for quality kitchen knives, even when the steel itself is highly corrosion resistant.
 
 ## Stainless steel still needs care
 
 Stainless steel tolerates moisture better than reactive carbon steel, but *stainless* does not mean *corrosion-proof*. Salt, chlorides, acidic residue and long wet storage can still produce staining or pitting.
 
-A small stain on a stainless knife should therefore be treated as a maintenance signal, not as proof that the steel is defective. Clean and dry the blade, identify whether the environment was unusually salty or acidic and avoid repeating prolonged wet contact.
+Treat a small stain on a stainless knife as a maintenance signal rather than proof that the steel is defective. Clean and dry the blade, identify whether the environment was unusually salty or acidic and avoid repeating prolonged wet contact.
 
 ## Carbon steel, patina and rust
 
 Reactive carbon steels demand faster cleaning and drying. With normal use they may develop a grey, blue or dark **patina**. A stable patina is a surface reaction and is not the same as destructive orange rust.
 
-Active reddish or orange corrosion should be removed promptly before it develops into deeper pitting. Begin with the least aggressive method appropriate to the finish. A mild non-abrasive metal cleaner or a very fine rust-removal product can be preferable to coarse scouring that scratches a polished or patterned blade.
+Remove active reddish or orange corrosion promptly before it develops into deeper pitting. Begin with the least aggressive method appropriate to the finish. A mild non-abrasive metal cleaner or a very fine rust-removal product can be preferable to coarse scouring that scratches a polished or patterned blade.
 
 When a valuable blade has deep pitting, a damaged finish or uncertainty about the correct treatment, professional service is safer than aggressive home polishing.
 
 ## The cutting board is part of edge maintenance
 
-The board touches the edge hundreds or thousands of times between sharpening sessions. Its surface therefore matters enormously.
+The board touches the edge hundreds or thousands of times between sharpening sessions, so its surface matters enormously.
 
-Suitable wooden boards and knife-friendly plastic or rubber boards allow the apex to enter or deform the surface slightly rather than striking something much harder. Glass, ceramic, stone and metal worktops are poor cutting surfaces for fine edges because they concentrate impact at the apex and accelerate rolling, flattening or chipping.
+Suitable wooden boards and knife-friendly plastic or rubber boards allow the apex to enter or deform the surface slightly instead of striking something much harder. Glass, ceramic, stone and metal worktops are poor cutting surfaces for fine edges because they concentrate impact at the apex and accelerate rolling, flattening or chipping.
 
-Use the knife on a board large enough to keep both food and movement stable. Repeatedly missing the board and striking a plate, pan rim or stone counter can damage an edge much faster than ordinary food ever will.
+Use a board large enough to keep both food and movement stable. Repeatedly missing the board and striking a plate, pan rim or stone counter can damage an edge much faster than ordinary food ever will.
 
 ## Do not scrape the board with the cutting edge
 
@@ -61,7 +61,7 @@ Use the **spine or broad face** of the knife instead, or use a bench scraper. Th
 
 ## Storage: protect the edge from other hard objects
 
-A knife should not lie loose in a drawer where its edge can strike other tools. Safe storage keeps the edge separated and also prevents someone from reaching blindly onto a blade.
+A knife should not lie loose in a drawer where its edge can strike other tools. Safe storage keeps the edge separated and prevents someone from reaching blindly onto a blade.
 
 Useful options include:
 
@@ -73,7 +73,7 @@ Useful options include:
 
 Always dry the knife fully before placing it in a closed guard or sheath. Trapping moisture against the blade can create exactly the corrosion environment that the guard was meant to prevent.
 
-When using a magnetic rack, place and remove the knife under control. Touch the spine or flat to the holder first and rotate the edge away rather than snapping the cutting edge hard against the surface.
+When using a magnetic rack, place and remove the knife under control. Touch the spine or flat to the holder first and rotate the edge away instead of snapping the cutting edge hard against the surface.
 
 ## Natural-wood handles
 
@@ -85,7 +85,7 @@ Ordinary cooking oils are not a good universal substitute because some can oxidi
 
 ## Composite handles
 
-Pakka wood, Micarta, G10, resin composites and carbon-fibre composites are generally more dimensionally stable around moisture than untreated natural wood, but they still benefit from normal hand washing and drying. Stability does not make the whole knife dishwasher-proof, and harsh chemicals can still affect finishes, adhesives or decorative components.
+Pakka wood, Micarta, G10, resin composites and carbon-fibre composites are generally more dimensionally stable around moisture than untreated natural wood. They still benefit from normal hand washing and drying. Stability does not make the whole knife dishwasher-proof, and harsh chemicals can still affect finishes, adhesives or decorative components.
 
 Inspect the handle occasionally for cracks, looseness or gaps where food and moisture could collect.
 
@@ -99,7 +99,7 @@ Reactive carbon steel, long-term storage or a humid environment can justify a ve
 
 Routine care sometimes includes a honing rod, but the word *honing* can hide different mechanisms.
 
-A smooth steel can help straighten or recondition a rolled edge on suitable, relatively ductile knife steels. A grooved steel, ceramic rod or diamond-coated rod can also remove material, sometimes substantially. Those tools should therefore not all be described as if they merely “realign” an edge without abrasion.
+A smooth steel can help straighten or recondition a rolled edge on suitable, relatively ductile knife steels. A grooved steel, ceramic rod or diamond-coated rod can also remove material, sometimes substantially. Those tools should not all be described as if they merely “realign” an edge without abrasion.
 
 Very hard, thin knives that tend to chip rather than roll may gain little from forceful steeling and can be damaged by poor technique. The correct maintenance tool depends on the steel, hardness and edge geometry.
 
@@ -136,4 +136,4 @@ A useful everyday sequence is therefore short:
 7. inspect occasionally;
 8. sharpen only when the edge genuinely needs restoration.
 
-That routine removes very little time from cooking and can remove a great deal of unnecessary work from the next sharpening session.
+That routine takes very little time during cooking and can save a great deal of unnecessary work at the next sharpening session.
