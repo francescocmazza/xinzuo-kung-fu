@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
-"""Repair translated markup/literals if Marian placeholders leak into output.
+"""Repair translated markup/literals if legacy Marian placeholders leak into output.
 
 Older translations may contain damaged temporary placeholders such as
 ``KBTOKEN`` or ``KBLINK``. These placeholders protected raw HTML, inline code,
 URLs, links, formulae and other literals while prose was sent through Marian.
 
-This repair is deterministic and does not call a translation model. When English
-and translated bodies remain line-aligned, damaged protected literals are restored
-from the English line while retaining the translated surrounding prose. If a
-literal cannot be recovered unambiguously, that one line falls back to the English
-source rather than publishing corrupted markup. Raw HTML structure is then checked
-and, when needed, restored from the English source or from complete figure blocks.
+The normal repair path is deterministic: when English and translated bodies remain
+line-aligned, damaged protected literals are restored from the English line while
+retaining the translated surrounding prose. Raw HTML structure is also restored
+from the English source where it can be mapped safely.
+
+Some committed legacy translations predate the current English line structure. If
+one of those files still contains an ambiguous placeholder after deterministic
+repair, the script regenerates only that affected page with the current local
+Marian model, then validates it again. This avoids both publishing corrupted markup
+and retranslating the entire book unnecessarily.
 """
 
 from __future__ import annotations
@@ -18,14 +22,22 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-from multilingual_site import LOCALES, SOURCE, TRANSLATIONS, read_yaml, split_document
+from multilingual_site import (
+    GLOSSARY,
+    LOCALES,
+    SOURCE,
+    TRANSLATIONS,
+    digest,
+    read_yaml,
+    split_document,
+)
 
 TOKEN_HINT_RE = re.compile(r"KB(?:TO|LINK)", re.IGNORECASE)
 # Old Marian output exists both as bare KBLINK000/KBTOKEN000 and wrapped in
 # braces such as {KBLINK000}. Consume the wrapper too so restoration cannot
 # leave invalid Markdown like {[label](target)} behind.
 TOKEN_FRAGMENT_RE = re.compile(
-    r"\{?[A-Za-z0-9]*KB(?:TO|LINK)[A-Za-z0-9]*\}?", re.IGNORECASE
+    r"\{?[A-Za-z0-9-]*KB(?:TO|LINK)[A-Za-z0-9-]*\}?", re.IGNORECASE
 )
 FIGCAPTION_RE = re.compile(r"<figcaption>(.*?)</figcaption>", re.IGNORECASE | re.DOTALL)
 FIGURE_BLOCK_RE = re.compile(r"<figure\b[^>]*>.*?</figure>", re.IGNORECASE | re.DOTALL)
@@ -45,6 +57,10 @@ PROTECTED_LITERAL_RE = re.compile(
     r"|</?[A-Za-z][^>]*>",
     re.IGNORECASE,
 )
+
+
+class NeedsRetranslation(RuntimeError):
+    """A legacy translation cannot be repaired safely against current line layout."""
 
 
 def _translation_body_with_header(text: str) -> tuple[str, str]:
@@ -224,8 +240,8 @@ def repair_file(source_path: Path, target_path: Path) -> bool:
             for line in repaired_body.splitlines()
             if TOKEN_HINT_RE.search(line)
         ][:5]
-        raise RuntimeError(
-            f"Unrepaired translation placeholder residue remains in {target_path}: {residues}"
+        raise NeedsRetranslation(
+            f"Legacy placeholder residue cannot be mapped safely in {target_path}: {residues}"
         )
 
     repaired_text = header + repaired_body
@@ -236,6 +252,49 @@ def repair_file(source_path: Path, target_path: Path) -> bool:
     return True
 
 
+def _retranslate_legacy_pages(
+    locale: str,
+    pages: list[tuple[Path, Path, Path]],
+    glossary: str,
+) -> int:
+    """Regenerate only pages whose legacy placeholders cannot be repaired safely."""
+
+    from auto_translate import (  # Imported lazily so normal repair stays lightweight.
+        MODEL_BY_LOCALE,
+        MarianTranslator,
+        join_translation,
+        plan_translation,
+    )
+
+    model_name = MODEL_BY_LOCALE.get(locale)
+    if not model_name:
+        raise RuntimeError(
+            f"Cannot regenerate legacy translation for {locale}: no local Marian model configured"
+        )
+
+    translator = MarianTranslator(locale, model_name)
+    regenerated = 0
+    try:
+        for source_path, target_path, relative in pages:
+            source_text = source_path.read_text(encoding="utf-8")
+            _, source_body = split_document(source_text)
+            plan = plan_translation(source_body, None, None, translator)
+            expected = digest(locale, source_text, glossary)
+            target_path.write_text(join_translation(expected, plan.body), encoding="utf-8")
+
+            # Current auto_translate keeps links, literals and raw HTML outside
+            # Marian. The second check therefore verifies the regenerated page
+            # before publication and still fails closed if anything unexpected
+            # survives.
+            repair_file(source_path, target_path)
+            regenerated += 1
+            print(f"Regenerated legacy placeholder page: {locale}/{relative}")
+    finally:
+        translator.close()
+
+    return regenerated
+
+
 def main() -> int:
     locale_cfg = read_yaml(LOCALES).get("locales", {})
     active = [
@@ -243,9 +302,14 @@ def main() -> int:
         for code, cfg in locale_cfg.items()
         if code != "en" and cfg.get("deploy")
     ]
+    glossary = GLOSSARY.read_text(encoding="utf-8") if GLOSSARY.exists() else ""
 
     changed = 0
     checked = 0
+    needs_retranslation: dict[str, list[tuple[Path, Path, Path]]] = {
+        locale: [] for locale in active
+    }
+
     for locale in active:
         locale_root = TRANSLATIONS / locale
         for target_path in sorted(locale_root.rglob("*.md")):
@@ -254,11 +318,19 @@ def main() -> int:
             if not source_path.exists():
                 continue
             checked += 1
-            if repair_file(source_path, target_path):
-                changed += 1
-                print(f"Repaired translated markup/literals: {locale}/{relative}")
+            try:
+                if repair_file(source_path, target_path):
+                    changed += 1
+                    print(f"Repaired translated markup/literals: {locale}/{relative}")
+            except NeedsRetranslation as exc:
+                print(str(exc))
+                needs_retranslation[locale].append((source_path, target_path, relative))
 
-    print(f"Translated markup integrity check complete: {checked} file(s), {changed} repaired")
+    for locale, pages in needs_retranslation.items():
+        if pages:
+            changed += _retranslate_legacy_pages(locale, pages, glossary)
+
+    print(f"Translated markup integrity check complete: {checked} file(s), {changed} repaired/regenerated")
     return 0
 
 
