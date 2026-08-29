@@ -15,7 +15,6 @@ import subprocess
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Callable
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from multilingual_site import (  # noqa: E402
@@ -37,7 +36,15 @@ MODEL_MAX_INPUT_TOKENS = 450
 TARGET_PREFIX_BY_LOCALE = {
     "zh-Hans": ">>cmn_Hans<<",
 }
-HTML_TAG_RE = re.compile(r"<[^>]+>")
+HTML_TAG_RE = re.compile(r"</?[A-Za-z][^>]*>")
+INLINE_CODE_RE = re.compile(r"`[^`\n]+`")
+INLINE_LITERAL_RE = re.compile(
+    r"`[^`\n]+`"
+    r"|https?://[^\s)>]+"
+    r"|\$[^$\n]+\$"
+    r"|The Gongfu of Xinzuo"
+)
+MARKDOWN_LINK_RE = re.compile(r"(!?)\[([^]\n]+)\]\(([^)\n]+)\)")
 
 
 @dataclass
@@ -121,39 +128,6 @@ def verbatim_line_indices(lines: list[str]) -> set[int]:
     return protected
 
 
-def _protect_inline(text: str) -> tuple[str, Callable[[str], str]]:
-    replacements: list[str] = []
-
-    patterns = [
-        re.compile(r"The Gongfu of Xinzuo"),
-        re.compile(r"`[^`\n]+`"),
-        re.compile(r"(?<=\]\()[^)]+(?=\))"),
-        re.compile(r"https?://[^\s)>]+"),
-        re.compile(r"<[^>]+>"),
-        re.compile(r"\$[^$\n]+\$"),
-    ]
-
-    def protect_match(match: re.Match[str]) -> str:
-        token = f"ZZZKBTOKEN{len(replacements):03d}ZZZ"
-        replacements.append(match.group(0))
-        return token
-
-    protected = text
-    for pattern in patterns:
-        protected = pattern.sub(protect_match, protected)
-
-    def restore(value: str) -> str:
-        restored = value
-        for index, original in enumerate(replacements):
-            token = f"ZZZKBTOKEN{index:03d}ZZZ"
-            restored = restored.replace(token, original)
-            spaced = r"\s*".join(map(re.escape, token))
-            restored = re.sub(spaced, original, restored, flags=re.IGNORECASE)
-        return restored
-
-    return protected, restore
-
-
 def _split_markdown_prefix(text: str) -> tuple[str, str]:
     patterns = [
         r"^(\s*#{1,6}\s+)(.*)$",
@@ -176,9 +150,16 @@ def _should_keep_verbatim(text: str) -> bool:
         return True
     if re.fullmatch(r"[-*_]{3,}", stripped):
         return True
-    if re.fullmatch(r"<[^>]+>", stripped):
+    if HTML_TAG_RE.fullmatch(stripped):
         return True
     return False
+
+
+def _contains_raw_html(text: str) -> bool:
+    """Return True only for HTML outside Markdown inline-code spans."""
+
+    without_inline_code = INLINE_CODE_RE.sub("", text)
+    return HTML_TAG_RE.search(without_inline_code) is not None
 
 
 class MarianTranslator:
@@ -238,58 +219,46 @@ class MarianTranslator:
             pieces = [text[:split_at], text[split_at + 1 :]]
         return " ".join(self._translate_plain(piece) for piece in pieces if piece)
 
-    def _protect_markdown_links(self, text: str) -> tuple[str, Callable[[str], str]]:
-        """Translate link/image labels separately while preserving Markdown destinations."""
+    def _translate_segment(self, text: str) -> str:
+        """Translate one prose segment while preserving its surrounding whitespace."""
 
-        replacements: list[str] = []
-        pattern = re.compile(r"(!?)\[([^]\n]+)\]\(([^)\n]+)\)")
+        if not text or not text.strip():
+            return text
+        left = text[: len(text) - len(text.lstrip())]
+        right = text[len(text.rstrip()) :]
+        core = text.strip()
+        return left + self._translate_plain(core) + right
 
-        def replace(match: re.Match[str]) -> str:
-            bang, label, destination = match.groups()
-            translated_label = self._translate_plain(label)
-            rendered = f"{bang}[{translated_label}]({destination})"
-            token = f"ZZZKBLINK{len(replacements):03d}ZZZ"
-            replacements.append(rendered)
-            return token
+    def _translate_text_with_literals(self, text: str) -> str:
+        """Translate prose while keeping protected literals completely outside Marian."""
 
-        protected = pattern.sub(replace, text)
-
-        def restore(value: str) -> str:
-            restored = value
-            for index, original in enumerate(replacements):
-                token = f"ZZZKBLINK{index:03d}ZZZ"
-                restored = restored.replace(token, original)
-                spaced = r"\s*".join(map(re.escape, token))
-                restored = re.sub(spaced, original, restored, flags=re.IGNORECASE)
-            return restored
-
-        return protected, restore
+        output: list[str] = []
+        cursor = 0
+        for match in INLINE_LITERAL_RE.finditer(text):
+            output.append(self._translate_segment(text[cursor : match.start()]))
+            output.append(match.group(0))
+            cursor = match.end()
+        output.append(self._translate_segment(text[cursor:]))
+        return "".join(output)
 
     def _translate_payload(self, payload: str) -> str:
-        linked, restore_links = self._protect_markdown_links(payload)
-        title_pattern = re.compile(r"(\*{0,2}The Gongfu of Xinzuo\*{0,2})")
-        parts = title_pattern.split(linked)
-        translated_parts: list[str] = []
-        for part in parts:
-            if not part:
-                continue
-            if title_pattern.fullmatch(part):
-                translated_parts.append(part)
-                continue
-            protected, restore_inline = _protect_inline(part)
-            translated_parts.append(restore_inline(self._translate_plain(protected)))
-        return restore_links("".join(translated_parts))
+        """Translate Markdown prose without ever representing links/literals as tokens."""
+
+        output: list[str] = []
+        cursor = 0
+        for match in MARKDOWN_LINK_RE.finditer(payload):
+            output.append(self._translate_text_with_literals(payload[cursor : match.start()]))
+            bang, label, destination = match.groups()
+            translated_label = self._translate_text_with_literals(label)
+            output.append(f"{bang}[{translated_label}]({destination})")
+            cursor = match.end()
+        output.append(self._translate_text_with_literals(payload[cursor:]))
+        return "".join(output)
 
     def _translate_html_line(self, raw: str) -> str:
-        """Translate visible HTML text while preserving every tag byte-for-byte.
+        """Translate visible HTML text while preserving every tag byte-for-byte."""
 
-        Passing raw HTML tags through Marian behind placeholder tokens proved unsafe:
-        the Chinese model can alter or drop those placeholders. Splitting the line
-        into tags and text nodes keeps markup and attributes completely outside the
-        model while still translating captions and other visible text nodes.
-        """
-
-        parts = re.split(r"(<[^>]+>)", raw)
+        parts = re.split(r"(</?[A-Za-z][^>]*>)", raw)
         translated_parts: list[str] = []
         for part in parts:
             if not part:
@@ -297,15 +266,7 @@ class MarianTranslator:
             if HTML_TAG_RE.fullmatch(part):
                 translated_parts.append(part)
                 continue
-            if not part.strip():
-                translated_parts.append(part)
-                continue
-
-            left = part[: len(part) - len(part.lstrip())]
-            right = part[len(part.rstrip()) :]
-            core = part.strip()
-            translated_parts.append(left + self._translate_payload(core) + right)
-
+            translated_parts.append(self._translate_payload(part))
         return "".join(translated_parts)
 
     def translate_line(self, line: str) -> str:
@@ -314,9 +275,10 @@ class MarianTranslator:
         if _should_keep_verbatim(raw):
             return line
 
-        # Keep raw HTML markup out of Marian entirely. Only visible text between
-        # tags is translated; attributes and structure stay byte-for-byte stable.
-        if HTML_TAG_RE.search(raw):
+        # Keep genuine raw HTML markup out of Marian entirely. HTML-looking text
+        # inside Markdown code spans (for example `<img>`) is treated as a literal
+        # by _translate_payload instead of as document structure.
+        if _contains_raw_html(raw):
             return self._translate_html_line(raw) + ending
 
         prefix, payload = _split_markdown_prefix(raw)
