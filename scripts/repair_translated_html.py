@@ -21,11 +21,21 @@ from pathlib import Path
 from multilingual_site import LOCALES, SOURCE, TRANSLATIONS, read_yaml, split_document
 
 TOKEN_HINT_RE = re.compile(r"KB(?:TO|LINK)", re.IGNORECASE)
-TOKEN_FRAGMENT_RE = re.compile(r"[A-Za-z0-9]*KB(?:TO|LINK)[A-Za-z0-9]*", re.IGNORECASE)
+# Old Marian output exists both as bare KBLINK000/KBTOKEN000 and wrapped in
+# braces such as {KBLINK000}. Consume the wrapper too so restoration cannot
+# leave invalid Markdown like {[label](target)} behind.
+TOKEN_FRAGMENT_RE = re.compile(
+    r"\{?[A-Za-z0-9]*KB(?:TO|LINK)[A-Za-z0-9]*\}?", re.IGNORECASE
+)
 FIGCAPTION_RE = re.compile(r"<figcaption>(.*?)</figcaption>", re.IGNORECASE | re.DOTALL)
 FIGURE_BLOCK_RE = re.compile(r"<figure\b[^>]*>.*?</figure>", re.IGNORECASE | re.DOTALL)
 HTML_TAG_RE = re.compile(r"</?[A-Za-z][^>]*>")
-FRONTMATTER_RE = re.compile(r"\A(---\n.*?\n---\n\n?)(.*)\Z", re.DOTALL)
+# Keep the same body boundary used by multilingual_site.split_document(): the
+# newline after the closing front-matter delimiter belongs to the body. The old
+# pattern swallowed that newline, making every otherwise line-aligned translated
+# document appear one line shorter than its English source and disabling literal
+# recovery outside figure blocks.
+FRONTMATTER_RE = re.compile(r"\A(---\n.*?\n---\n)(.*)\Z", re.DOTALL)
 PROTECTED_LITERAL_RE = re.compile(
     r"!?\[[^]\n]+\]\([^)\n]+\)"
     r"|`[^`\n]+`"
