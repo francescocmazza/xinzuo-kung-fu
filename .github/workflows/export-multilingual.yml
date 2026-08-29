@@ -94,7 +94,39 @@ jobs:
       - name: Centralize bibliography in English source
         run: python scripts/centralize_bibliography.py
 
+      - name: Resolve translation base revision
+        id: translation-base
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="$(git rev-parse HEAD^1)"
+
+          # If this commit changes no English source or glossary, it may be a
+          # recovery/CI-only commit following a failed publication. Walk back to
+          # the most recent source-changing commit and use that commit's parent,
+          # so stale translations cannot be rehashed as current without actually
+          # translating the missed source changes.
+          if git diff --quiet "$base" HEAD -- content/en glossaries; then
+            cursor="$base"
+            for _ in $(seq 1 50); do
+              parent="$(git rev-parse "${cursor}^1" 2>/dev/null || true)"
+              if [ -z "$parent" ]; then
+                break
+              fi
+              if ! git diff --quiet "$parent" "$cursor" -- content/en glossaries; then
+                base="$parent"
+                break
+              fi
+              cursor="$parent"
+            done
+          fi
+
+          echo "Resolved translation base: $base"
+          echo "sha=$base" >> "$GITHUB_OUTPUT"
+
       - name: Refresh stale active translations locally
+        env:
+          TRANSLATION_BASE_SHA: ${{ steps.translation-base.outputs.sha }}
         run: python scripts/auto_translate.py
 
       - name: Repair translated raw HTML
