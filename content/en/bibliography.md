@@ -3,7 +3,7 @@ title: Bibliography
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-26
+reviewed: 2026-08-30
 translation_priority: high
 ---
 
@@ -95,11 +95,12 @@ All bibliographic, technical and historical sources cited throughout the book ar
 <!-- /bibliography-source -->
 
 <!-- bibliography-source: 05-knife-types/weight-and-balance.md -->
-## Weight and Balance: Why Heavier Is Not Better or Worse
+## Weight, Balance and Ergonomics
 
 1. Marsot J, Claudon L, Jacqmin M. “Assessment of knife sharpness by means of a cutting force measuring system.” *Applied Ergonomics* 38(1), 2007, 83–89. https://doi.org/10.1016/j.apergo.2005.12.007
 2. McGorry RW, Dowd PC, Dempsey PG. “Cutting moments and grip forces in meat cutting operations and the effect of knife sharpness.” *Applied Ergonomics* 34(4), 2003, 375–382. https://doi.org/10.1016/S0003-6870(03)00041-3
 3. Silva PL, et al. “Task difficulty and inertial properties of hand-held tools: An assessment of their concurrent effects on precision aiming.” *Human Movement Science* 48, 2016, 161–170. https://doi.org/10.1016/j.humov.2016.05.003
+4. Hermsdörfer J, Li Y, Randerath J, Goldenberg G, Eidenmüller S. “Anticipatory scaling of grip forces when lifting objects of everyday life.” *Experimental Brain Research* 212(1), 2011, 19–31. https://doi.org/10.1007/s00221-011-2695-y
 
 Additional shape references: ZWILLING's knife guide describes the characteristic high Santoku blade and compact profile; specialist comparisons of Santoku and Bunka consistently identify the Bunka's fine K-tip as the precision-oriented and more delicate front geometry.
 <!-- /bibliography-source -->
