@@ -1,5 +1,5 @@
 ---
-source_hash: 495dfe73586aa878f9db38965cd057fdc3010442b6fbc0877a6ae5e561b3250f
+source_hash: 77aec3fa3aa5c7230bfddcf9ee6ac9a53d26b0d6044337f4955238793c55ddef
 ---
 
 # Bibliografia
@@ -90,11 +90,12 @@ Tutte le fonti bibliografiche, tecniche e storiche citate in tutto il libro sono
 <!-- /bibliography-source -->
 
 <!-- bibliography-source: 05-knife-types/weight-and-balance.md -->
-## Peso ed equilibrio: perché Heavier non è migliore o peggio
+## Peso, equilibrio ed ergonomia
 
 1. Marsot J, Claudon L, Jacqmin M. •Valutazione della nitidezza del coltello mediante un sistema di misurazione della forza di taglio.
 2. McGorry RW, Dowd PC, Dempsey PG. Cutting momenti e forze di presa nelle operazioni di taglio della carne e l'effetto della nitidezza del coltello.
 3. Silva PL, et al. Task difficoltà e proprietà inerziali degli strumenti portatili: una valutazione dei loro effetti concomitanti sulla precisione di mira.
+4. Hermsdörfer J, Li Y, Randerath J, Goldenberg G, Eidenmüller S. https://doi.org/10.1007/s00221-011-2695-y
 
 Ulteriori riferimenti di forma: la guida coltello ZWILING descrive la caratteristica lama Santoku alta e profilo compatto; confronti specialistici di Santoku e Bunka identificano costantemente la punta K fine del Bunka come la geometria frontale più delicata e precisa.
 <!-- /bibliography-source -->

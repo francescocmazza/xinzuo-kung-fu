@@ -3,7 +3,7 @@ title: Bibliography
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-30
+reviewed: 2026-08-26
 translation_priority: high
 ---
 
