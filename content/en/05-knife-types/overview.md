@@ -3,7 +3,7 @@ title: Knife Shapes and Their Uses
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-29
+reviewed: 2026-08-30
 translation_priority: highest
 source_basis: general knife geometry and technique, illustrated with current Xinzuo examples
 ---
@@ -162,21 +162,6 @@ In the specialist form illustrated here, kiritsuke identifies a long angular-tip
 This traditional single-bevel form should not be confused with the modern double-bevel kiritsuke-gyuto or K-tip gyuto. The silhouette alone is insufficient; bevel construction and handedness must be stated.
 
 ## Boning, filleting and fish butchery
-
-### Flexible and rigid blades
-
-For practical knife selection, the easiest rule to remember is this: **geometry determines how easily a blade bends; the steel and heat treatment determine how safely it tolerates that bending.**
-
-A thin blade can be made to flex more easily than a thick blade, but a knife intended to flex repeatedly also needs enough toughness to survive the lateral stress. In general, and assuming comparable geometry and a broadly comparable steel family, **higher hardness gives better support to a fine edge and usually better edge retention, but less tolerance for severe bending, twisting and impact**. A very hard blade forced too far sideways is more likely to chip, crack or break than simply take a permanent bend.
-
-Many high-end cutting knives therefore use hard steels and are deliberately treated as relatively rigid precision tools. Hardness helps them keep a fine edge for a long time, but they should not be tested by bending them. Knives expected to strike bone or flex around contours commonly use tougher, more forgiving steels or heat treatments at lower hardness. They tolerate impact and deflection better, but usually need more frequent edge maintenance than a harder precision blade.
-
-The practical memory aid is:
-
-**harder precision blade = longer edge retention, less tolerance for forced flex**  
-**tougher/softer working blade = more tolerance for flex or impact, less edge retention**
-
-This is a useful training rule rather than a complete metallurgical formula. Blade thickness, distal taper, steel composition, carbide structure, heat treatment quality and edge geometry still matter, but the rule correctly explains why a flexible fillet knife, a bone chopper and a very hard fine-edged slicer are intentionally designed around different compromises.
 
 ### Western boning knife
 
