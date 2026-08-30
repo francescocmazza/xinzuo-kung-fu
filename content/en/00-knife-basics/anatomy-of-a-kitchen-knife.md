@@ -3,7 +3,7 @@ title: Anatomy of a Kitchen Knife
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-29
+reviewed: 2026-08-30
 translation_priority: highest
 source_basis: standard fixed-blade kitchen-knife construction and terminology
 ---
@@ -165,12 +165,31 @@ The term has a deliberately narrow meaning. It does **not** mean that all knives
 
 The ferrule is also different from a Western bolster. Both sit near the junction between blade and handle, but the ferrule is principally a collar around the front of the handle material, while the bolster is a metal component associated with the blade-and-handle transition itself.
 
+## Hardness, edge retention and flexibility
+
+For practical knife selection, the easiest rule to remember is this: **geometry determines how easily a blade bends; the steel and heat treatment determine how safely it tolerates that bending.**
+
+A thin blade can be made to flex more easily than a thick blade, but a knife intended to flex repeatedly also needs enough toughness to survive lateral stress. In general, assuming comparable geometry and a broadly comparable steel family, **higher hardness gives better support to a fine edge and usually better edge retention, but less tolerance for severe bending, twisting and impact**. A very hard blade forced too far sideways is more likely to chip, crack or break than simply take a permanent bend.
+
+Many high-end cutting knives therefore use hard steels and are deliberately treated as relatively rigid precision tools. Hardness helps them keep a fine edge for a long time, but they should not be tested by bending them. Knives expected to strike bone or flex around contours commonly use tougher, more forgiving steels or heat treatments at lower hardness. They tolerate impact and deflection better, but usually need more frequent edge maintenance than a harder precision blade.
+
+A useful practical memory aid is:
+
+**harder precision blade = longer edge retention, less tolerance for forced flex**  
+**tougher/softer working blade = more tolerance for flex or impact, less edge retention**
+
+This is a training rule rather than a complete metallurgical formula. Blade thickness, distal taper, steel composition, carbide structure, heat-treatment quality and edge geometry still matter, but the rule explains why a flexible fillet knife, a bone chopper and a very hard fine-edged slicer are intentionally designed around different compromises.
+
 ## Surface finish and surface relief
 
 A blade's **surface finish** is the final treatment of the blade face. A satin finish leaves fine directional abrasive lines; a high polish or mirror finish reduces visible texture; etching can reveal Damascus layers; and other treatments can change appearance, tactile feel, scratch visibility and, to a limited degree, the way food and moisture interact with the face. Surface finish does not determine sharpness, and a visually elaborate finish does not replace good geometry.
 
-### Surface relief: hollows and hammering
+### Surface relief: hollows, hammering and forged texture
 
 Hollows, dimples and hammered surfaces are surface features, not separate knife shapes. They interrupt continuous contact between food and the blade face and can reduce sticking or suction with some moist, starchy or soft ingredients. The effect depends on the depth and distribution of the relief, the blade finish, food texture and cutting technique. A chef's knife with Granton-style hollows remains a chef's knife; a carving knife with the same treatment remains a carving knife.
 
-With the parts and construction now named, blade shapes can be compared without having to redefine the knife each time.
+**Hammering** is a deliberately created relief pattern. Repeated depressions leave a visibly irregular blade face and can break up continuous contact between food and steel. Its practical effect depends on the actual depth, spacing and geometry of the marks rather than on appearance alone.
+
+A different traditional surface character can come directly from **hand forging**. When the blade face is not ground and polished completely smooth after forging, part of the natural irregularity created by the forging process can remain visible. This retained forged texture is different from a deliberately hammered pattern, although both create surface relief. Its effect on food release varies with the depth and geometry of the retained texture; visually, it also preserves a direct trace of the forging process.
+
+With blade behaviour, construction and surface treatments now established, blade shapes can be compared without having to interrupt the individual profiles with these general principles.
