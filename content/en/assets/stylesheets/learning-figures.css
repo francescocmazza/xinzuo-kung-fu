@@ -30,61 +30,6 @@
   text-align: center;
 }
 
-/* The catalog master page contains two tall columns.  Showing the whole
- * landscape page at once makes the labels too small to read.  The runtime
- * correction duplicates the same authorized Xinzuo catalog image into two
- * viewports, each showing one vertical half at almost twice the scale. */
-.kb-shape-index-split {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 1.6rem;
-  max-width: 52rem;
-  margin: 1.25rem auto 2rem;
-}
-
-.kb-shape-index-split__figure {
-  margin: 0;
-}
-
-.kb-shape-index-split__viewport {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 649.5 / 902;
-  overflow: hidden;
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 0.65rem;
-  background: #fff;
-  box-shadow: 0 0.3rem 1.2rem rgba(0, 0, 0, 0.08);
-}
-
-.kb-shape-index-split__viewport img {
-  display: block;
-  width: 200% !important;
-  max-width: none !important;
-  height: auto !important;
-  max-height: none !important;
-  margin: 0 !important;
-  border: 0 !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-}
-
-.kb-shape-index-split__viewport--left img {
-  transform: translateX(0);
-}
-
-.kb-shape-index-split__viewport--right img {
-  transform: translateX(-50%);
-}
-
-.kb-shape-index-split__figure figcaption {
-  margin-top: 0.55rem;
-  color: var(--md-default-fg-color--light);
-  font-size: 0.78rem;
-  line-height: 1.4;
-  text-align: center;
-}
-
 .kb-profile-visual {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -112,17 +57,20 @@
   isolation: isolate;
 }
 
-/* Most catalog product crops were supplied on an opaque white matte.  On a
- * white page the pale polished edge can visually disappear and look as if
- * the photograph has been cut.  Multiply the white matte into a very light
- * neutral field: the complete source image remains uncropped, while the
- * blade outline becomes visible all the way from tip to heel. */
+/* Source photographs in content/en/assets/images/approved/knife-shapes are
+ * normalized by scripts/normalize_profile_images.py to a common 900:260
+ * canvas on a white matte before they ever reach this stylesheet. Declaring
+ * that same ratio here means the figure always renders at full width with
+ * no leftover empty space and no per-image CSS or JS tuning. Multiplying the
+ * white matte into a very light neutral field keeps the whole blade outline
+ * visible even when the source crop's edge is very pale. object-fit: contain
+ * is kept only as a safety net for an image added without going through the
+ * normalizer. */
 .kb-profile-visual img {
   display: block;
   width: 100%;
-  max-width: 100%;
+  aspect-ratio: 900 / 260;
   height: auto;
-  max-height: 16rem;
   margin: 0 auto;
   object-fit: contain;
   object-position: center;
@@ -131,72 +79,12 @@
   filter: contrast(1.04);
 }
 
-/*
- * Knife photographs in the shape chapter come from catalog generations with
- * different crop ratios and orientations.  The runtime layout script wraps
- * those images in this neutral stage and rotates the photographed product so
- * the handle is always on the left and the blade on the right.  The stage is
- * deliberately taller than an ordinary landscape crop and clips only the
- * empty matte outside the product.  This prevents rotated square source
- * canvases from forcing a huge figure while keeping the complete knife safely
- * inside the visible area.
- */
-.kb-profile-visual__stage {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 13.5rem;
-  min-height: 13.5rem;
-  padding: 0.65rem 1rem;
-  overflow: hidden;
-  background: #f2f4f5;
-  isolation: isolate;
-}
-
-.kb-profile-visual__stage .kb-profile-visual__image {
-  display: block;
-  width: auto !important;
-  max-width: 92% !important;
-  height: auto !important;
-  max-height: 10.5rem !important;
-  margin: 0 auto !important;
-  object-fit: contain !important;
-  object-position: center !important;
-  transform: rotate(var(--kb-profile-rotation, 0deg));
-  transform-origin: center center;
-  background: transparent;
-  mix-blend-mode: multiply;
-  filter: contrast(1.04);
-}
-
-.kb-profile-visual__stage--square-source .kb-profile-visual__image--square-source {
-  width: auto !important;
-  max-width: none !important;
-  max-height: 19rem !important;
-}
-
 .kb-profile-visual figcaption {
   margin-top: 0.55rem;
   color: var(--md-default-fg-color--light);
   font-size: 0.76rem;
   line-height: 1.35;
   text-align: center;
-}
-
-.kb-profile-visual--handle img {
-  height: auto;
-  max-height: 16rem;
-}
-
-.kb-profile-visual--material {
-  max-width: 32rem;
-}
-
-.kb-profile-visual--material img {
-  height: auto;
-  max-height: 10rem;
 }
 
 .kb-image-placeholder-wrap {
@@ -268,33 +156,4 @@
     padding: 1.5rem;
   }
 
-  .kb-profile-visual,
-  .kb-profile-visual--material,
-  .kb-shape-index-split {
-    grid-template-columns: 1fr;
-  }
-
-  .kb-profile-visual img,
-  .kb-profile-visual--handle img {
-    height: auto;
-    max-height: 15rem;
-  }
-
-  .kb-profile-visual__stage {
-    height: 11.5rem;
-    min-height: 11.5rem;
-  }
-
-  .kb-profile-visual__stage .kb-profile-visual__image {
-    max-height: 9rem !important;
-  }
-
-  .kb-profile-visual__stage--square-source .kb-profile-visual__image--square-source {
-    max-height: 16rem !important;
-  }
-
-  .kb-profile-visual--material img {
-    height: auto;
-    max-height: 8rem;
-  }
 }

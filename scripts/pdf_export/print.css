@@ -306,79 +306,17 @@ figure img,
   isolation: isolate;
 }
 
-.kb-profile-visual img,
-.kb-profile-visual--handle img {
+.kb-profile-visual img {
   display: block;
   width: 100% !important;
   max-width: 100% !important;
+  aspect-ratio: 900 / 260;
   height: auto !important;
-  max-height: 48mm !important;
   object-fit: contain !important;
   object-position: center !important;
   margin: 0 auto;
   mix-blend-mode: multiply;
   filter: contrast(1.04);
-}
-
-.kb-profile-visual--material img {
-  max-height: 38mm !important;
-}
-
-/* The original Knife Blade Shapes catalog page is a landscape spread made of
- * two tall columns.  The live page duplicates the same authorized master
- * image into two vertical viewports.  Print each half at almost twice the
- * previous scale so the labels and silhouettes are actually legible. */
-.kb-shape-index-split {
-  width: 100%;
-  margin: 4mm auto 8mm;
-}
-
-.kb-shape-index-split__figure {
-  width: 150mm;
-  max-width: 100%;
-  margin: 0 auto;
-  break-inside: avoid-page;
-  page-break-inside: avoid;
-}
-
-.kb-shape-index-split__figure + .kb-shape-index-split__figure {
-  break-before: page;
-  page-break-before: always;
-}
-
-.kb-shape-index-split__viewport {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 649.5 / 902;
-  overflow: hidden;
-  border: 0.25mm solid var(--kb-rule);
-  border-radius: 2mm;
-  background: #fff;
-}
-
-.kb-shape-index-split__viewport img {
-  display: block;
-  width: 200% !important;
-  max-width: none !important;
-  height: auto !important;
-  max-height: none !important;
-  margin: 0 !important;
-}
-
-.kb-shape-index-split__viewport--left img {
-  transform: translateX(0);
-}
-
-.kb-shape-index-split__viewport--right img {
-  transform: translateX(-50%);
-}
-
-.kb-shape-index-split__figure figcaption {
-  margin-top: 2mm;
-  font-size: 0.8rem;
-  line-height: 1.35;
-  color: var(--kb-muted);
-  text-align: center;
 }
 
 /*
@@ -393,31 +331,6 @@ figure img,
  */
 .kb-learning-figure img {
   max-height: 195mm;
-}
-
-/* VIS-SELF-01 uses only the modern full-Damascus panel from a two-panel
- * source-slide crop. The historical comparison panel is intentionally
- * excluded because it must not be presented as a metallurgical model of
- * historical wootz. The DOM wrapper is added by visual-corrections.js
- * before the PDF exporter extracts the rendered chapter. */
-.kb-right-panel-crop {
-  width: 100%;
-  max-width: 100%;
-  aspect-ratio: 800 / 405;
-  overflow: hidden;
-  margin-inline: auto;
-  break-inside: avoid;
-  page-break-inside: avoid;
-}
-
-.kb-right-panel-crop > img {
-  display: block;
-  width: 200% !important;
-  max-width: none !important;
-  height: 100% !important;
-  max-height: none !important;
-  object-fit: fill;
-  transform: translateX(-50%);
 }
 
 figcaption,

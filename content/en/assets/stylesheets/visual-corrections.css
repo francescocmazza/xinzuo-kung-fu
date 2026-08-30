@@ -2,24 +2,6 @@
    Loaded after learning-figures.css so withdrawn or cropped visuals render
    consistently in both the live site and the browser-based PDF export. */
 
-.kb-right-panel-crop {
-  width: 100%;
-  max-width: 100%;
-  aspect-ratio: 800 / 405;
-  overflow: hidden;
-  margin-inline: auto;
-}
-
-.kb-right-panel-crop > img {
-  display: block;
-  width: 200% !important;
-  max-width: none !important;
-  height: 100% !important;
-  max-height: none !important;
-  object-fit: fill;
-  transform: translateX(-50%);
-}
-
 .kb-review-withdrawn-placeholder {
   margin-block: 1.25rem 1.75rem;
 }
@@ -40,15 +22,4 @@ html:lang(zh) .md-content__inner blockquote > p,
 html:lang(zh) .md-content__inner .admonition > p:not(.admonition-title),
 html:lang(zh) .md-content__inner li > p {
   text-justify: inter-character;
-}
-
-@media print {
-  .kb-right-panel-crop {
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-
-  .kb-right-panel-crop > img {
-    max-height: none !important;
-  }
 }

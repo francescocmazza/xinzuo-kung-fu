@@ -122,32 +122,6 @@
     }
   }
 
-  function cropModernFullDamascusPanel(article) {
-    const figure = article.querySelector('[data-visual-id="VIS-SELF-01"]');
-    if (!figure) return;
-
-    const image = figure.querySelector("img");
-    const caption = figure.querySelector("figcaption");
-    const note = figure.querySelector(".kb-learning-figure__note");
-
-    if (image) {
-      image.alt = "Modern full-Damascus cross-section from the training presentation, showing alternating layers extending through the blade to the cutting-edge region.";
-      if (!image.parentElement?.classList.contains("kb-right-panel-crop")) {
-        const crop = document.createElement("div");
-        crop.className = "kb-right-panel-crop";
-        image.parentNode.insertBefore(crop, image);
-        crop.appendChild(image);
-      }
-    }
-
-    if (caption) {
-      caption.textContent = "Modern full-Damascus example: alternating layers continue through the blade to the cutting-edge region, which is the structural condition relevant to the differential-wear mechanism discussed here.";
-    }
-    if (note) {
-      note.textContent = "Cropped from Formazione Agenti D, slide 5. Only the modern full-Damascus panel is displayed here. The historical comparison panel from the source slide is intentionally excluded because historical wootz is not a forge-welded alternating-layer construction. Specific HRC values visible in the crop refer only to the example shown.";
-    }
-  }
-
   function removeBunkaPackageOpening(article) {
     const headings = [...article.querySelectorAll("h2")];
     const bunkaHeading = headings[3];
@@ -173,7 +147,6 @@
 
     if (key === "01-foundations/five-dimensions-of-knife-steel") correctFiveDimensions(article);
     if (key === "04-geometry-and-bevels/single-and-double-bevels") correctBevelFamilies(article);
-    if (key === "03-blade-construction/self-sharpening-full-damascus") cropModernFullDamascusPanel(article);
     if (key === "05-knife-types/overview") removeBunkaPackageOpening(article);
   }
 
