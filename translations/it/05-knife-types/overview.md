@@ -1,5 +1,5 @@
 ---
-source_hash: 4e10493b225c5c5f50d92aa1ec991cd47c1eb81ac1e2ec7d76ab750acbdfb7a9
+source_hash: 71beeeea935b83fb54aeb82f4f4ba0a4e8d793c7545e11054e4158a9817ce70f
 ---
 
 # Forme di coltello e loro usi
@@ -156,21 +156,6 @@ Nella forma specialistica qui illustrata, il kiritsuke identifica un lungo colte
 Questa forma tradizionale single-bevel non deve essere confusa con il moderno kiritsuke-gyuto a doppio bevel o K-tip gyuto. La silhouette da sola è insufficiente; la costruzione e la mano smussata devono essere dichiarate.
 
 ## Disossamento, filettatura e macelleria di pesce
-
-### Lame flessibili e rigide
-
-Per una selezione pratica del coltello, la regola più semplice da ricordare è questa: **geometria determina quanto facilmente si piega una lama; l'acciaio e il trattamento termico determinano la sicurezza che tollera questa flessione.**
-
-Una lama sottile può essere fatta flettere più facilmente di una lama spessa, ma un coltello destinato a flettere ripetutamente richiede anche abbastanza resistenza per sopravvivere allo stress laterale. In generale, e assumendo una geometria comparabile e una famiglia di acciaio ampiamente comparabile, **la durezza più elevata dà un migliore supporto ad un bordo fine e di solito una migliore ritenzione del bordo, ma meno tolleranza per la piegatura, torsione e impatto severi**. Una lama molto dura forzata troppo lateralmente è più probabile di scheggiare, rompere o rompere che semplicemente prendere una piega permanente.
-
-Molti coltelli da taglio di fascia alta usano quindi acciai duri e sono trattati deliberatamente come utensili di precisione relativamente rigidi. La durezza li aiuta a mantenere un bordo fine per lungo tempo, ma non devono essere testati piegandoli. I coltelli dovrebbero colpire l'osso o flex intorno ai contorni comunemente usano acciai più duri, più perdonanti o trattamenti termici a durezza inferiore. Tollerano l'impatto e la deflessione meglio, ma di solito necessitano di manutenzione dei bordi più frequente di una lama di precisione più dura.
-
-L'aiuto pratico alla memoria è:
-
-**lama di precisione più dura = maggiore ritenzione del bordo, meno tolleranza per il flex forzato**  
-**Lama di lavoro più dura/morbida = maggiore tolleranza per flex o impatto, minore ritenzione del bordo**
-
-Questa è una regola di allenamento utile piuttosto che una formula metallurgica completa. Spessore della lama, cono distale, composizione in acciaio, struttura in carburo, qualità del trattamento termico e geometria dei bordi ancora materia, ma la regola spiega correttamente perché un coltello flessibile, un chopper osso e una affettatrice molto dura a taglio fine sono intenzionalmente progettati intorno a compromessi diversi.
 
 ### Coltello da disossamento occidentale
 
