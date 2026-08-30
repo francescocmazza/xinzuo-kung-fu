@@ -59,7 +59,6 @@ def main() -> int:
         ("max-width: 130mm;", "max-width: 106mm;", "cover rights width"),
         ("margin: 2rem auto 0;", "margin: 1rem auto 0;", "cover rights spacing"),
         ("min-height: 240mm;", "min-height: 170mm;", "edition page height"),
-        ("width: 150mm;", "width: 112mm;", "knife-shape spread width"),
         (
             "The printable A4 content area is roughly 259mm tall (297mm minus the\n * 20mm/18mm top/bottom margins). A full-width portrait image can render",
             "The printable A5 content area is roughly 181mm tall (210mm minus the\n * 14mm/15mm top/bottom margins). A full-width portrait image can render",
