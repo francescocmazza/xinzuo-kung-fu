@@ -2,7 +2,7 @@
 title: Editorial Principles
 status: approved
 language: en
-reviewed: 2026-08-29
+reviewed: 2026-08-30
 ---
 
 # Editorial Principles
@@ -128,6 +128,22 @@ Strong commercial language is acceptable when the practical meaning is accurate.
 
 The purpose of precision is to make the product story more credible and useful, not to weaken the author's point of view.
 
+## State the dominant practical effect first
+
+Whenever a feature creates a clear first-order effect that the reader can feel in use, **state that effect before discussing mechanisms, secondary influences or exceptions**. The reader should never have to pass through a paragraph of qualifications before discovering what the feature actually does.
+
+A strong explanation normally needs three things in this order: **the practical effect, the advantage it creates, and the main trade-off**. Add a technical mechanism when it helps the reader understand why. Add a qualification only when it changes the practical conclusion.
+
+Do not stack several caveats around one useful point merely to defend against every theoretical exception. One concise boundary is normally enough unless safety or material accuracy requires more.
+
+For example, prefer:
+
+> A heavier knife encourages a stronger, more committed stroke and feels more authoritative in dense food. The same mass takes more effort to lift, stop and redirect.
+
+Avoid a sequence that first denies an absolute claim, then lists multiple conditions and exceptions, and only at the end reveals the practical effect.
+
+After reading a section, the reader should be able to answer immediately: **What does this feature do? What advantage does it create? What trade-off does it create? When would I choose it?**
+
 ## Product claims and portfolio coverage
 
 A general principle may be published when it is broadly applicable, but the chapter should show how that principle helps explain Xinzuo's current offer.
@@ -226,6 +242,7 @@ Before approving a chapter, ask:
 - Is the explanation detailed enough to answer the obvious next question?
 - Does the page remain pleasant to read?
 - Does each sentence present its main proposition before secondary comparisons or qualifications whenever accuracy permits?
+- Does each feature state its dominant practical effect before mechanisms and exceptions?
 - Are technical terms introduced rather than assumed?
 - Does the author state the conclusion clearly rather than hiding it behind unnecessary caveats?
 - Are any remaining qualifications genuinely necessary for accuracy, scope or safety?
