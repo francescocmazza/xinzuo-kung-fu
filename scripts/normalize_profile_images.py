@@ -92,7 +92,9 @@ def normalize_one(path: Path, ratio: tuple[int, int], check: bool) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("dirs", nargs="*", type=Path, help="knife-shapes directories to process")
+    parser.add_argument(
+        "dirs", nargs="*", type=lambda p: Path(p).resolve(), help="knife-shapes directories to process"
+    )
     parser.add_argument("--check", action="store_true", help="report only, write nothing")
     parser.add_argument("--ratio", default="900:260", help="target W:H ratio, default 900:260")
     args = parser.parse_args()
