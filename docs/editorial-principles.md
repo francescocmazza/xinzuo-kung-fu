@@ -2,7 +2,7 @@
 title: Editorial Principles
 status: approved
 language: en
-reviewed: 2026-08-30
+reviewed: 2026-09-02
 ---
 
 # Editorial Principles
@@ -11,25 +11,25 @@ reviewed: 2026-08-30
 
 This is **Xinzuo's practical book on kitchen knives**. It explains the wider world of kitchen knives from the point of view of a manufacturer that selects steels and handle materials, develops constructions, controls heat treatment, finishes blades and tests completed knives.
 
-Xinzuo must therefore never appear as an occasional, external example added to otherwise brand-neutral copy. Every substantial chapter should connect its subject to the relevant Xinzuo materials, constructions, processes, product families or care guidance. When Xinzuo offers several solutions, the text should explain the choice and trade-off rather than forcing the portfolio into a single hierarchy.
+Xinzuo must never appear as an occasional external example added to otherwise brand-neutral copy. Every substantial chapter should connect its subject to relevant Xinzuo materials, constructions, processes, product families or care guidance. When Xinzuo offers several solutions, explain the choice and trade-off instead of forcing the portfolio into a single hierarchy.
 
-The book is not limited to Xinzuo products. Other steels, traditions, constructions and industry practices may be discussed whenever they help the reader understand the category. That wider context must support, not displace, the minimum Xinzuo product knowledge a reader reasonably expects from a Xinzuo publication.
+The book is not limited to Xinzuo products. Other steels, traditions, constructions and industry practices may be discussed when they help the reader understand the category. That wider context must support, not displace, the minimum Xinzuo product knowledge expected from a Xinzuo publication.
 
 Use **we**, **our** and **Xinzuo** only for verified company facts. Use neutral language for general metallurgy, knife traditions and third-party products. Never imply that a general industry principle is proprietary to Xinzuo.
 
 ## Intended reader
 
-The book is written first for a curious reader who has no specialist knowledge of knives, steel or sharpening.
+The book is written first for a curious reader with no specialist knowledge of knives, steel or sharpening.
 
-It must also remain useful for sales teams, store staff, distributors, chefs, content creators and enthusiasts. A person should be able to read a chapter for pleasure and understanding, not only consult it as a list of technical notes.
+It must also remain useful for sales teams, store staff, distributors, chefs, content creators and enthusiasts. A reader should be able to enjoy and understand a chapter, not only consult it as a list of technical notes.
 
 ## Intended style
 
-The core text should read like an accessible non-fiction book.
+The core text should read like accessible non-fiction.
 
 Articles should be:
 
-- discursive rather than compressed;
+- complete without being wordy;
 - detailed enough to build a clear mental picture;
 - written with common, intuitive vocabulary;
 - pleasant to read from beginning to end;
@@ -38,7 +38,41 @@ Articles should be:
 - technically responsible without sounding academic;
 - confident and direct in their conclusions.
 
-A page should not feel like an enlarged product specification sheet. Tables and bullet points are useful for summaries, but the main explanation should normally be written in connected prose.
+A page should not feel like an enlarged product specification sheet. Tables and bullet points are useful for summaries, but the main explanation should normally use connected prose.
+
+## Plain-language compression
+
+For every sentence, ask:
+
+> **Can the same meaning be expressed more directly, clearly and with fewer words?**
+
+If the answer is yes, rewrite it.
+
+At equal meaning, always prefer the simpler and shorter formulation. The subject is already broad and technically complex; the language should reduce that burden rather than add to it.
+
+Remove words and framing that do not change the proposition. Avoid habitual fillers such as **therefore**, **in fact**, **actually**, **generally speaking**, **it is important to remember that**, **it should be noted that**, **the easiest way to understand this is**, and similar phrases when the sentence remains complete without them.
+
+Prefer:
+
+> Choosing a knife is similar to choosing a pair of shoes.
+
+Over:
+
+> Choosing a knife is therefore similar to choosing a pair of shoes.
+
+Prefer a direct verb over a noun-heavy or indirect construction. Prefer **“water fills the pores”** to **“water performs the function of filling the pores”**. Prefer **“heat treatment changes the structure”** to **“heat treatment is responsible for producing changes in the structure”** when both are equally accurate.
+
+Do not confuse simplicity with oversimplification. Keep a longer formulation when it:
+
+- carries a technical distinction;
+- prevents a meaningful ambiguity;
+- preserves a necessary condition or limitation;
+- prevents a safety error;
+- genuinely helps a beginner understand a difficult mechanism.
+
+Never remove qualifiers such as **can**, **generally**, **with comparable geometry**, **when appropriate** or similar wording when they materially protect technical accuracy. Remove only complexity that belongs to the writing, not complexity that belongs to the subject.
+
+The goal is **maximum clarity per word**, not minimum word count.
 
 ## Linear sentence construction
 
@@ -56,9 +90,9 @@ Do not write:
 
 The same principle applies beyond explicit comparisons. State the main proposition first and add the necessary qualification afterwards whenever that order remains accurate. Avoid making the reader hold an unfinished grammatical or logical structure in memory while a caveat, parenthesis or secondary contrast intervenes.
 
-Repeated templates such as **Its advantage is...**, **Its compromise is...**, **The point is not that...** and **This does not mean...** should not become the default rhythm of the book. Prefer a direct statement of what the material, geometry or process does, followed by the limitation where it naturally belongs.
+Repeated templates such as **Its advantage is...**, **Its compromise is...**, **The point is not that...** and **This does not mean...** should not become the default rhythm of the book. State what the material, geometry or process does directly, then add the limitation where it belongs.
 
-When translating, preserve this principle in the target language rather than preserving English word order mechanically. The goal is the most natural linear explanation in each language.
+When translating, preserve this principle in the target language rather than copying English word order. The goal is the most natural linear explanation in each language.
 
 ## Begin with the reader's question
 
@@ -72,23 +106,23 @@ The reader should understand the purpose of an idea before being asked to rememb
 
 ## Explain one step deeper
 
-The text should not stop at a short claim when one additional paragraph can make the idea intuitive.
+Do not stop at a short claim when one additional explanation makes the idea intuitive.
 
-Instead of writing only “hard steel retains an edge longer,” explain that the apex is a very thin ridge and that greater hardness helps it resist bending during repeated contact with the cutting board.
+Instead of writing only “hard steel retains an edge longer,” explain that the apex is a very thin ridge and greater hardness helps it resist bending during repeated contact with the cutting board.
 
 Instead of writing only “a burr forms,” explain that the last thin strip of steel remains attached and bends away from the side being sharpened.
 
-This additional level of explanation is what turns information into knowledge.
+This extra level turns information into knowledge. Once the mechanism is clear, do not repeat it in different words unless the new wording adds something.
 
 ## Use technical terms carefully
 
-Technical terms are welcome when they help the reader communicate accurately. They must be introduced in plain language.
+Technical terms are welcome when they help the reader communicate accurately. Introduce them in plain language.
 
 Preferred pattern:
 
 1. give the intuitive explanation;
 2. introduce the technical term;
-3. continue using the term consistently.
+3. use the term consistently.
 
 For example:
 
@@ -98,61 +132,61 @@ Avoid placing several unexplained specialist terms in the same sentence.
 
 ## Authorial voice and qualifications
 
-The preface contains the book's general epistemic disclaimer: the work is a synthesis of Francesco Claudio Mazza's accumulated study and experience, the experience gained inside Xinzuo, and knowledge shared by colleagues across product development, manufacturing and sales. The book is open to future refinement and correction.
+The preface contains the book's general epistemic disclaimer: the work is a synthesis of Francesco Claudio Mazza's accumulated study and experience, experience gained inside Xinzuo, and knowledge shared by colleagues across product development, manufacturing and sales. The book is open to future refinement and correction.
 
-That general qualification must **not** be repeated throughout the chapters.
+Do **not** repeat that general qualification throughout the chapters.
 
-The body of the book should state its conclusions directly and confidently. When the author has reached a considered view, write that view as the book's position rather than surrounding it with defensive language.
+State conclusions directly and confidently. When the author has reached a considered view, write it as the book's position instead of surrounding it with defensive language.
 
-Avoid habitual hedging such as **may**, **might**, **could**, **perhaps**, **in some cases**, **not necessarily**, **it is possible that**, **the most defensible claim**, or similar wording when it does not materially change the meaning. Do not add sentences whose only purpose is to remind the reader that an explanation may have exceptions or could be corrected in the future.
+Avoid habitual hedging such as **may**, **might**, **could**, **perhaps**, **in some cases**, **not necessarily**, **it is possible that**, **the most defensible claim**, or similar wording when it does not change the meaning. Do not add sentences whose only purpose is to remind the reader that exceptions may exist or the explanation could be refined later.
 
 A qualification belongs in the body only when omitting it would:
 
 - make the explanation technically false in a meaningful way;
 - create a safety risk;
-- incorrectly extend a product-specific claim to products where it does not apply;
+- incorrectly extend a product-specific claim;
 - confuse a tendency with a genuinely different mechanism;
-- turn an estimate or interpretation into a claimed measured fact.
+- turn an estimate or interpretation into a measured fact.
 
-When a qualification is necessary, integrate it into the explanation itself instead of presenting it as a recurring disclaimer. Explain the actual boundary once, clearly, and continue.
+When a qualification is necessary, integrate it into the explanation instead of presenting it as a recurring disclaimer. Explain the boundary once, clearly, and continue.
 
 The goal is **confident accuracy**, not defensive writing.
 
 ## Commercial and educational balance
 
-This project is not a scientific paper. It does not require every statement to cover every theoretical exception, and it should not read as though every sentence is being written in anticipation of criticism.
+This project is not a scientific paper. It does not need every statement to cover every theoretical exception, and it should not read as though every sentence anticipates criticism.
 
-The book should explain the model the author considers most useful and correct. Technical limits should be included when they change that model, not merely because an exception can be imagined.
+Explain the model the author considers most useful and correct. Include technical limits when they change that model, not merely because an exception can be imagined.
 
-Strong commercial language is acceptable when the practical meaning is accurate. For example, “self-sharpening” can be used when the chapter explains differential wear and makes clear that the knife still needs normal sharpening. Once that distinction is established, it does not need to be repeatedly re-qualified.
+Strong commercial language is acceptable when the practical meaning is accurate. For example, “self-sharpening” can be used when the chapter explains differential wear and makes clear that normal sharpening is still required. Once that distinction is established, it does not need constant re-qualification.
 
-The purpose of precision is to make the product story more credible and useful, not to weaken the author's point of view.
+Precision should make the product story more credible and useful, not weaken the author's point of view.
 
 ## State the dominant practical effect first
 
-Whenever a feature creates a clear first-order effect that the reader can feel in use, **state that effect before discussing mechanisms, secondary influences or exceptions**. The reader should never have to pass through a paragraph of qualifications before discovering what the feature actually does.
+When a feature creates a clear effect the reader can feel, **state that effect before mechanisms, secondary influences or exceptions**. The reader should not pass through a paragraph of qualifications before discovering what the feature does.
 
-A strong explanation normally needs three things in this order: **the practical effect, the advantage it creates, and the main trade-off**. Add a technical mechanism when it helps the reader understand why. Add a qualification only when it changes the practical conclusion.
+A strong explanation normally gives three things in this order: **the practical effect, the advantage, and the main trade-off**. Add mechanism when it helps understanding. Add qualification only when it changes the practical conclusion.
 
-Do not stack several caveats around one useful point merely to defend against every theoretical exception. One concise boundary is normally enough unless safety or material accuracy requires more.
+Do not stack caveats around one useful point merely to cover every theoretical exception. One concise boundary is normally enough unless safety or material accuracy requires more.
 
 For example, prefer:
 
 > A heavier knife encourages a stronger, more committed stroke and feels more authoritative in dense food. The same mass takes more effort to lift, stop and redirect.
 
-Avoid a sequence that first denies an absolute claim, then lists multiple conditions and exceptions, and only at the end reveals the practical effect.
+Avoid a sequence that first denies an absolute claim, then lists conditions and exceptions, and only at the end states the practical effect.
 
-After reading a section, the reader should be able to answer immediately: **What does this feature do? What advantage does it create? What trade-off does it create? When would I choose it?**
+After a section, the reader should be able to answer: **What does this feature do? What advantage does it create? What trade-off does it create? When would I choose it?**
 
 ## Product claims and portfolio coverage
 
-A general principle may be published when it is broadly applicable, but the chapter should show how that principle helps explain Xinzuo's current offer.
+A general principle may be published when broadly applicable, but the chapter should show how it explains Xinzuo's current offer.
 
-A manufacturer- or product-specific claim should be clearly identified as such and based on current product information. Historical sales material should not silently become a current technical specification.
+Clearly identify manufacturer- or product-specific claims and base them on current product information. Historical sales material should not silently become a current technical specification.
 
-When a feature applies only to selected product lines, the wording must say so. Series names, steel, construction, layer count, hardness, handle material and heat treatment must be checked against current authorized product data before publication.
+When a feature applies only to selected lines, say so. Check series names, steel, construction, layer count, hardness, handle material and heat treatment against current authorized product data before publication.
 
-The current catalog is the baseline source for portfolio coverage, not proof that every listed series remains available in every market. Avoid availability promises unless they are separately verified.
+The current catalogue is the baseline source for portfolio coverage, not proof that every listed series remains available in every market. Avoid availability promises unless separately verified.
 
 ### Minimum Xinzuo coverage
 
@@ -179,9 +213,9 @@ Across the book, readers must be able to find clear explanations of:
 
 ## Readability rules
 
-Prefer short and medium-length sentences. Longer sentences are acceptable when their structure remains clear.
+Prefer short and medium-length sentences. Use longer ones only when the structure remains easy to follow.
 
-Use headings frequently enough that a reader can pause and return without losing the thread.
+Use headings often enough that a reader can pause and return without losing the thread.
 
 Use paragraphs for explanation and bullet points for:
 
@@ -193,7 +227,9 @@ Use paragraphs for explanation and bullet points for:
 
 Avoid long pages made almost entirely from bullet points.
 
-Use analogies only when they clarify the mechanism and do not create a false equivalence.
+Use analogies only when they clarify a mechanism without creating a false equivalence.
+
+Do not repeat a conclusion simply to create rhetorical emphasis. If two neighbouring sentences carry the same information, combine or remove one.
 
 ## Structure of a strong chapter
 
@@ -212,13 +248,13 @@ Not every article must follow this sequence rigidly, but it should provide the s
 
 ## Writing for translation
 
-English is the source of truth, but the content must be suitable for translation into languages including Japanese, Simplified Chinese and Traditional Chinese.
+English is the source of truth, but the content must translate naturally into languages including Japanese, Simplified Chinese and Traditional Chinese.
 
 Avoid unnecessary wordplay, culture-specific jokes and idioms that cannot be translated clearly.
 
-Keep important terminology consistent across chapters. The controlled glossary should be consulted before introducing a new translation-sensitive term.
+Keep important terminology consistent. Consult the controlled glossary before introducing a new translation-sensitive term.
 
-Translations must reproduce the meaning and teaching sequence, not awkward English syntax. Apply the linear-sentence rule according to the natural grammar of the target language.
+Translations must reproduce meaning and teaching sequence, not awkward English syntax. Apply the linear-sentence and plain-language rules according to the natural grammar of each target language.
 
 ## Images and diagrams
 
@@ -240,14 +276,16 @@ Before approving a chapter, ask:
 
 - Can a complete beginner understand the central idea?
 - Is the explanation detailed enough to answer the obvious next question?
-- Does the page remain pleasant to read?
-- Does each sentence present its main proposition before secondary comparisons or qualifications whenever accuracy permits?
+- Can any sentence express the same meaning more directly, clearly or with fewer words?
+- Have all words that do not change meaning been removed?
+- Does the page remain pleasant to read rather than becoming telegraphic?
+- Does each sentence state its main proposition before secondary comparisons or qualifications whenever accuracy permits?
 - Does each feature state its dominant practical effect before mechanisms and exceptions?
 - Are technical terms introduced rather than assumed?
-- Does the author state the conclusion clearly rather than hiding it behind unnecessary caveats?
-- Are any remaining qualifications genuinely necessary for accuracy, scope or safety?
+- Does the author state the conclusion clearly instead of hiding it behind unnecessary caveats?
+- Are remaining qualifications genuinely necessary for accuracy, scope or safety?
 - Is the commercial message strong but credible?
-- Could the text be translated without changing its meaning or reproducing awkward syntax?
+- Can the text be translated without changing meaning or reproducing awkward syntax?
 - Does the reader finish with a clearer mental picture?
 
 If the answer is yes, the chapter meets the intended standard.
