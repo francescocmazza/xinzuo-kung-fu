@@ -3,27 +3,27 @@ title: Anatomy of a Kitchen Knife
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-30
+reviewed: 2026-09-02
 translation_priority: highest
 source_basis: standard fixed-blade kitchen-knife construction and terminology
 ---
 
 # Anatomy of a Kitchen Knife
 
-Before comparing blade shapes, steels or sharpening angles, it helps to give the knife a precise vocabulary. A kitchen knife may look like two simple pieces—a blade and a handle—but several different parts meet at the point where the hand controls the tool. Knowing their names makes later discussions of geometry, balance, construction and ergonomics much easier to follow.
+Before comparing blade shapes, steels or sharpening angles, we need a precise vocabulary. A kitchen knife may look like two simple pieces—a blade and a handle—but several parts meet where the hand controls the tool. Knowing their names makes geometry, balance, construction and ergonomics easier to understand.
 
-Not every knife contains every feature shown here. A Western full-tang chef's knife, a molded-handle utility knife and a traditional Asian-handle knife can all be excellent tools while using very different constructions.
+Not every knife has every feature shown here. A Western full-tang chef's knife, a molded-handle utility knife and an Asian-handle knife can all be excellent tools with very different constructions.
 
 ## The main parts at a glance
 
-A fixed kitchen knife begins with the **blade**. The front ends at the **tip**; the upper unsharpened side is the **spine**; the large side surface is the **blade face**; the sharpened lower boundary is the **cutting edge**; and the rear of the cutting portion is the **heel**. The sloping geometry that leads into the edge is the **bevel**. The visible texture or polish of the blade face is its **surface finish**.
+A fixed kitchen knife begins with the **blade**. Its front ends at the **tip**; the upper unsharpened side is the **spine**; the broad side is the **blade face**; the sharpened lower boundary is the **cutting edge**; and the rear of the cutting portion is the **heel**. The sloping geometry leading to the edge is the **bevel**. The visible texture or polish on the blade face is the **surface finish**.
 
-The steel continues behind the blade as the **tang**. In many Western knives the tang is visible around the outline of the handle and is covered on both sides by **handle scales**, usually fixed with **rivets or pins** and adhesive. The metal transition between blade and handle on many Western kitchen knives is the **bolster**. The rear end of the handle is the **butt** or **pommel**.
+Behind the blade, the steel continues as the **tang**. On many Western knives the tang is visible around the handle and covered on both sides by **handle scales**, usually fixed with adhesive and **rivets or pins**. Many Western kitchen knives also have a metal **bolster** between blade and handle. The rear end of the handle is the **butt** or **pommel**.
 
 <figure class="kb-learning-figure">
 <svg viewBox="0 0 1200 760" role="img" aria-labelledby="knife-anatomy-title knife-anatomy-desc" style="width:100%;height:auto">
 <title id="knife-anatomy-title">Kitchen knife anatomy</title>
-<desc id="knife-anatomy-desc">Two clean labelled diagrams. The upper diagram shows a Western full-tang kitchen knife with the cutting edge facing downward. The lower diagram shows the hidden-tang octagonal construction called an Asian handle in this book.</desc>
+<desc id="knife-anatomy-desc">Two labelled diagrams. The upper diagram shows a Western full-tang kitchen knife with the cutting edge facing downward. The lower diagram shows the hidden-tang octagonal construction called an Asian handle in this book.</desc>
 
 <rect x="2" y="2" width="1196" height="756" rx="18" fill="#ffffff" stroke="#c8c8c8" stroke-width="2"/>
 
@@ -138,58 +138,58 @@ The steel continues behind the blade as the **tang**. In many Western knives the
   <text x="810" y="563">Blade</text>
 </g>
 </svg>
-<figcaption>The upper diagram shows a common Western full-tang arrangement with the cutting edge clearly below the spine. The lower diagram shows the construction that this book calls an “Asian handle”: an octagonal handle, a ferrule at the front and a hidden tang inside the handle.</figcaption>
+<figcaption>The upper diagram shows a common Western full-tang construction. The lower diagram shows the “Asian handle” used in this book: an octagonal handle, front ferrule and hidden tang.</figcaption>
 </figure>
 
 ## Blade terminology
 
-The **tip** is the forward end of the blade. Its exact form changes how easily the knife enters small spaces, scores a surface or makes fine directional corrections. The **spine** is the upper, normally unsharpened edge of the blade. Spine thickness and the way it tapers toward the tip influence stiffness, balance and how easily the blade passes through food.
+The **tip** is the front of the blade. Its shape affects how easily the knife enters small spaces, scores a surface or makes fine directional corrections. The **spine** is the upper, normally unsharpened side. Its thickness and taper toward the tip affect stiffness, balance and how easily the blade passes through food.
 
-The broad side of the blade is the **blade face**. Its geometry is not always perfectly flat: convexity, hollows, cladding transitions and other shaping can change how food moves against it. The **surface finish** is the final texture or appearance placed on that face—for example satin, polished, mirror-polished, brushed, etched or hammered. Finish and geometry should not be confused: two blades can have a similar appearance while having very different thickness and cross-section.
+The broad side is the **blade face**. It is not always flat: convexity, hollows, cladding transitions and other shaping can change how food moves against it. The **surface finish** is the final texture or appearance on that face, such as satin, polished, mirror-polished, brushed, etched or hammered. Finish and geometry are different: two blades can look similar while having very different thickness and cross-section.
 
-The **cutting edge** or **edge** is the sharpened line that actually enters the food. Immediately above it, the **bevel** is the sloping geometry that narrows the blade toward the apex. Some knives have a clearly visible primary bevel; on others the transition is much subtler. At the rear of the cutting edge, the **heel** is the portion closest to the handle. A short unsharpened area or relief may separate the heel from the bolster or handle depending on the design.
+The **cutting edge** or **edge** is the sharpened line that enters the food. Above it, the **bevel** narrows the blade toward the apex. Some knives have a clearly visible primary bevel; on others the transition is subtle. The **heel** is the rear of the cutting edge, closest to the handle. Depending on the design, a short unsharpened area or relief may separate it from the bolster or handle.
 
 ## Handle, bolster and tang
 
-The **handle** is the part designed to be held, but its construction varies considerably. On a Western **full-tang** knife, the tang continues through essentially the full length and outline of the handle. **Scales** are fitted to its two sides and are commonly secured by adhesive together with **rivets or pins**. The exposed steel around the handle can add mass and contribute to the knife's balance.
+The **handle** is the part held by the user, but its construction varies. On a Western **full-tang** knife, the tang runs through almost the full length and outline of the handle. **Scales** cover its sides and are usually secured with adhesive and **rivets or pins**. The exposed steel can add mass and affect balance.
 
-A **bolster** is the reinforced metal transition between blade and handle found on many Western kitchen knives. It can be integral with the blade or attached as a separate component. Its functions can include strengthening the transition, shaping a comfortable contact point for the fingers, protecting the front of the handle and adding mass near the hand. Some bolsters extend down to the heel; others are shortened or open near the edge to make sharpening easier. A bolster is not automatically a **guard**: a guard is specifically a projection intended to stop the hand from sliding toward the edge, and many kitchen knives have no separate guard at all.
+A **bolster** is the reinforced metal transition between blade and handle found on many Western kitchen knives. It may be integral with the blade or attached separately. It can strengthen the transition, create a comfortable finger contact point, protect the front of the handle and add mass near the hand. Some bolsters extend to the heel; others leave the edge open for easier sharpening. A bolster is not necessarily a **guard**. A guard is specifically designed to stop the hand sliding toward the edge, and many kitchen knives have no separate guard.
 
-Full tang is only one sound way to build a knife. A **hidden tang** is narrower than the outer handle and is enclosed inside it. A **through tang** is a hidden tang that reaches the butt and may be mechanically secured there. A **partial or stub tang** ends before the butt. Molded handles can also encapsulate the tang so neither scales nor rivets are visible. These constructions should not be arranged into a simple quality hierarchy. Durability depends on tang dimensions, material, fit, adhesive or mechanical fastening, intended use and the loads the knife is designed to withstand.
+Full tang is only one valid construction. A **hidden tang** is narrower than the handle and enclosed inside it. A **through tang** reaches the butt and may be mechanically secured there. A **partial or stub tang** ends before the butt. Molded handles can encapsulate the tang so no scales or rivets are visible. None of these constructions creates a simple quality hierarchy. Durability depends on tang dimensions, materials, fit, fastening, intended use and expected loads.
 
 ## What this book calls an “Asian handle”
 
-In this book, **Asian handle** is a practical house term for the traditional hidden-tang construction commonly seen with an **octagonal**, and sometimes oval, handle. The blade enters the front of a solid handle on a hidden tang, and a **ferrule** or collar often reinforces the front of the handle and creates the transition toward the blade.
+In this book, **Asian handle** means the traditional hidden-tang construction commonly paired with an **octagonal**, and sometimes oval, handle. The blade enters a solid handle on a hidden tang, while a **ferrule** or collar often reinforces the front and forms the transition to the blade.
 
-The term has a deliberately narrow meaning. It does **not** mean that all knives made in Asia use this construction: many use Western full-tang, molded or other handle systems. When this book says **Asian handle**, it means the octagonal-or-oval hidden-tang construction with a front ferrule described here.
+The term is intentionally narrow. It does **not** mean that all knives made in Asia use this construction; many use Western full-tang, molded or other systems. Here, **Asian handle** means the octagonal-or-oval hidden-tang construction with a front ferrule described above.
 
-The ferrule is also different from a Western bolster. Both sit near the junction between blade and handle, but the ferrule is principally a collar around the front of the handle material, while the bolster is a metal component associated with the blade-and-handle transition itself.
+A ferrule is also different from a Western bolster. Both sit near the blade-handle junction, but the ferrule is mainly a collar around the front of the handle material, while the bolster is a metal component at the blade-handle transition.
 
 ## Hardness, edge retention and flexibility
 
-For practical knife selection, the easiest rule to remember is this: **geometry determines how easily a blade bends; the steel and heat treatment determine how safely it tolerates that bending.**
+For knife selection, remember: **geometry determines how easily a blade bends; steel and heat treatment determine how safely it tolerates that bending.**
 
-A thin blade can be made to flex more easily than a thick blade, but a knife intended to flex repeatedly also needs enough toughness to survive lateral stress. In general, assuming comparable geometry and a broadly comparable steel family, **higher hardness gives better support to a fine edge and usually better edge retention, but less tolerance for severe bending, twisting and impact**. A very hard blade forced too far sideways is more likely to chip, crack or break than simply take a permanent bend.
+A thin blade flexes more easily than a thick one, but a knife designed to flex repeatedly also needs enough toughness to survive lateral stress. With comparable geometry and broadly similar steel families, **higher hardness supports a fine edge and usually improves edge retention, but reduces tolerance for severe bending, twisting and impact**. Forced too far sideways, a very hard blade is more likely to chip, crack or break than simply remain permanently bent.
 
-Many high-end cutting knives therefore use hard steels and are deliberately treated as relatively rigid precision tools. Hardness helps them keep a fine edge for a long time, but they should not be tested by bending them. Knives expected to strike bone or flex around contours commonly use tougher, more forgiving steels or heat treatments at lower hardness. They tolerate impact and deflection better, but usually need more frequent edge maintenance than a harder precision blade.
+Many high-end cutting knives use hard steels and relatively rigid precision geometries. They keep a fine edge for a long time but should not be tested by bending them. Knives designed to strike bone or flex around contours usually use tougher, more forgiving steels or lower-hardness heat treatments. They tolerate impact and deflection better but normally need more frequent edge maintenance.
 
-A useful practical memory aid is:
+A useful memory aid is:
 
 **harder precision blade = longer edge retention, less tolerance for forced flex**  
 **tougher/softer working blade = more tolerance for flex or impact, less edge retention**
 
-This is a training rule rather than a complete metallurgical formula. Blade thickness, distal taper, steel composition, carbide structure, heat-treatment quality and edge geometry still matter, but the rule explains why a flexible fillet knife, a bone chopper and a very hard fine-edged slicer are intentionally designed around different compromises.
+This is a training rule, not a complete metallurgical formula. Blade thickness, distal taper, composition, carbide structure, heat treatment and edge geometry still matter. The rule explains why a flexible fillet knife, a bone chopper and a very hard fine-edged slicer use different compromises.
 
 ## Surface finish and surface relief
 
-A blade's **surface finish** is the final treatment of the blade face. A satin finish leaves fine directional abrasive lines; a high polish or mirror finish reduces visible texture; etching can reveal Damascus layers; and other treatments can change appearance, tactile feel, scratch visibility and, to a limited degree, the way food and moisture interact with the face. Surface finish does not determine sharpness, and a visually elaborate finish does not replace good geometry.
+A blade's **surface finish** is the final treatment of its face. Satin leaves fine directional abrasive lines; high polish or mirror polish reduces visible texture; etching can reveal Damascus layers. Other finishes can change appearance, tactile feel, scratch visibility and, to a limited extent, how food and moisture interact with the blade. Finish does not determine sharpness, and elaborate appearance cannot replace good geometry.
 
 ### Surface relief: hollows, hammering and forged texture
 
-Hollows, dimples and hammered surfaces are surface features, not separate knife shapes. They interrupt continuous contact between food and the blade face and can reduce sticking or suction with some moist, starchy or soft ingredients. The effect depends on the depth and distribution of the relief, the blade finish, food texture and cutting technique. A chef's knife with Granton-style hollows remains a chef's knife; a carving knife with the same treatment remains a carving knife.
+Hollows, dimples and hammered surfaces are surface features, not knife shapes. They interrupt continuous contact between food and the blade face and can reduce sticking or suction with some moist, starchy or soft foods. The effect depends on the depth and distribution of the relief, blade finish, food texture and cutting technique. A chef's knife with Granton-style hollows is still a chef's knife; a carving knife with the same treatment is still a carving knife.
 
-**Hammering** is a deliberately created relief pattern. Repeated depressions leave a visibly irregular blade face and can break up continuous contact between food and steel. Its practical effect depends on the actual depth, spacing and geometry of the marks rather than on appearance alone.
+**Hammering** creates deliberate surface relief. Repeated depressions interrupt contact between food and steel. Their practical effect depends on depth, spacing and geometry, not appearance alone.
 
-A different traditional surface character can come directly from **hand forging**. When the blade face is not ground and polished completely smooth after forging, part of the natural irregularity created by the forging process can remain visible. This retained forged texture is different from a deliberately hammered pattern, although both create surface relief. Its effect on food release varies with the depth and geometry of the retained texture; visually, it also preserves a direct trace of the forging process.
+A different texture can come directly from **hand forging**. If the blade face is not ground and polished completely smooth, some irregularity from forging remains visible. This retained forged texture differs from deliberate hammering, although both create relief. Its effect on food release depends on the depth and geometry of the texture, while visually it preserves a trace of the forging process.
 
-With blade behaviour, construction and surface treatments now established, blade shapes can be compared without having to interrupt the individual profiles with these general principles.
+With these general principles established, we can compare blade shapes without repeating them in every profile.
