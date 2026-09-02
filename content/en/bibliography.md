@@ -3,13 +3,13 @@ title: Bibliography
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-26
+reviewed: 2026-09-02
 translation_priority: high
 ---
 
 # Bibliography
 
-All bibliographic, technical and historical sources cited throughout the book are collected here so that the individual chapters remain focused on the explanation itself. Entries are grouped by the chapter in which they are used.
+Sources are collected here by chapter so the main text can stay focused on the explanation.
 
 <!-- bibliography-source: 01-foundations/five-dimensions-of-knife-steel.md -->
 ## The Five Dimensions of Knife Steel
@@ -91,7 +91,7 @@ All bibliographic, technical and historical sources cited throughout the book ar
 - [Knife Steel Nerds: Why Doesn't Heat Treating Affect Steel “Flex?”](https://knifesteelnerds.com/2018/03/13/why-doesnt-heat-treating-affect-steel-flex/)
 - [Knife Steel Nerds: What a Good Heat Treatment Can and Cannot Do](https://knifesteelnerds.com/2019/07/01/what-a-good-heat-treatment-can-and-cannot-do/)
 
-*Source note: Xinzuo product names and examples are used as concrete case studies inside a general technical explanation. Catalog-derived product photographs remain subject to the image-rights notice.*
+*Source note: Xinzuo product names and examples are concrete case studies in a general technical explanation. Catalogue-derived product photographs remain subject to the image-rights notice.*
 <!-- /bibliography-source -->
 
 <!-- bibliography-source: 05-knife-types/weight-and-balance.md -->
@@ -102,7 +102,7 @@ All bibliographic, technical and historical sources cited throughout the book ar
 3. Silva PL, et al. “Task difficulty and inertial properties of hand-held tools: An assessment of their concurrent effects on precision aiming.” *Human Movement Science* 48, 2016, 161–170. https://doi.org/10.1016/j.humov.2016.05.003
 4. Hermsdörfer J, Li Y, Randerath J, Goldenberg G, Eidenmüller S. “Anticipatory scaling of grip forces when lifting objects of everyday life.” *Experimental Brain Research* 212(1), 2011, 19–31. https://doi.org/10.1007/s00221-011-2695-y
 
-Additional shape references: ZWILLING's knife guide describes the characteristic high Santoku blade and compact profile; specialist comparisons of Santoku and Bunka consistently identify the Bunka's fine K-tip as the precision-oriented and more delicate front geometry.
+Additional shape references: ZWILLING describes the Santoku's characteristic high blade and compact profile; specialist comparisons consistently identify the Bunka's fine K-tip as the more precise and delicate front geometry.
 <!-- /bibliography-source -->
 
 <!-- bibliography-source: 10-sharpening/whetstone-preparation.md -->
