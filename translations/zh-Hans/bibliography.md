@@ -1,5 +1,5 @@
 ---
-source_hash: b6dbc916aa7c311c56d8d5ca11a420492233a9908e43953e4b254822a339e578
+source_hash: 4bba0457aab9a50784ae76a1eb7bd15ecfc854a009e414c4a99525d36a4ee32f
 ---
 
 # 参考文献
@@ -86,7 +86,7 @@ source_hash: b6dbc916aa7c311c56d8d5ca11a420492233a9908e43953e4b254822a339e578
 - 
 - 
 
-* 资料来源:Xinzuo产品名称和实例作为一般性技术解释中的具体案例研究使用。
+* 资料来源:Xinzuo产品名称和实例是一般性技术解释中的具体案例研究,来自目录的产品照片仍受图象权利通知的约束。
 <!-- /bibliography-source -->
 
 <!-- bibliography-source: 05-knife-types/weight-and-balance.md -->
@@ -97,7 +97,7 @@ source_hash: b6dbc916aa7c311c56d8d5ca11a420492233a9908e43953e4b254822a339e578
 3. Silva PL等人, " 手持工具的难度和惯性特性:对其对精确目标的并行效应的评估 " 。
 4. Hermsdörfer J、Li Y、Randerath J、Goldenberg G、Aidenmüller S. " 提升日常生活物体时的抑制力。 " * 实验性脑研究* 212(1),2011年,19-31。 https://doi.org/10.1007/s00221-011-2695-y
 
-其他形状参考:ZWILLING的刀子指南描述了桑图库高片和紧凑图谱的特征;Santoku和Bunka的专家比较一致地将Bunka精细的K-tip确定为精确导向和更加微妙的前方几何。
+其他形状参考: ZWILLING 描述桑都库高刀锋和紧凑的特征; 专家比较一致地确认Bunka 精细的K-tip 是更精确和微妙的前方几何。
 <!-- /bibliography-source -->
 
 <!-- bibliography-source: 10-sharpening/whetstone-preparation.md -->

@@ -1,5 +1,5 @@
 ---
-source_hash: 77aec3fa3aa5c7230bfddcf9ee6ac9a53d26b0d6044337f4955238793c55ddef
+source_hash: f3608ccd98a08fec3f60aba0f1859a83408d84c6788ea8ee1b3789c48dad0616
 ---
 
 # Bibliografia
@@ -86,7 +86,7 @@ Tutte le fonti bibliografiche, tecniche e storiche citate in tutto il libro sono
 - [Nerds coltello in acciaio: Perché non trattamento termico Affetti in acciaio](https://knifesteelnerds.com/2018/03/13/why-doesnt-heat-treating-affect-steel-flex/)
 - [Nerds acciaio coltello: Che un buon trattamento termico può e non può fare](https://knifesteelnerds.com/2019/07/01/what-a-good-heat-treatment-can-and-cannot-do/)
 
-*Fonte: i nomi e gli esempi dei prodotti Xinzuo sono utilizzati come casi di studio concreti all'interno di una spiegazione tecnica generale.
+*Fonte: i nomi dei prodotti Xinzuo e gli esempi sono esempi concreti di casi di studio in una spiegazione tecnica generale.
 <!-- /bibliography-source -->
 
 <!-- bibliography-source: 05-knife-types/weight-and-balance.md -->
@@ -97,7 +97,7 @@ Tutte le fonti bibliografiche, tecniche e storiche citate in tutto il libro sono
 3. Silva PL, et al. Task difficoltà e proprietà inerziali degli strumenti portatili: una valutazione dei loro effetti concomitanti sulla precisione di mira.
 4. Hermsdörfer J, Li Y, Randerath J, Goldenberg G, Eidenmüller S. https://doi.org/10.1007/s00221-011-2695-y
 
-Ulteriori riferimenti di forma: la guida coltello ZWILING descrive la caratteristica lama Santoku alta e profilo compatto; confronti specialistici di Santoku e Bunka identificano costantemente la punta K fine del Bunka come la geometria frontale più delicata e precisa.
+Ulteriori riferimenti di forma: ZWILING descrive la caratteristica lama alta e il profilo compatto del Santoku; i confronti specialistici identificano costantemente la sottile punta K del Bunka come la geometria frontale più precisa e delicata.
 <!-- /bibliography-source -->
 
 <!-- bibliography-source: 10-sharpening/whetstone-preparation.md -->

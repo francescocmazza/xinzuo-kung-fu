@@ -1,242 +1,211 @@
 ---
-source_hash: cd9aa866eaf4fd1177ccd24816c6faceea93872fc20c138720e288f68df39407
+source_hash: 6856102c326c5ab9988b453172062164c9fb6df962813e5497cfba38c64a7bc3
 ---
 
 # Comprendere la Bava di Affilatura
 
-La bava è uno dei segni più utili nell'affilatura manuale. Una volta capito, l'affilatura smette di sentirsi come un rituale misterioso e diventa un processo che si può osservare.
+La sbavatura è uno dei segni più chiari nell'affilatura manuale. Ti dice quando la pietra ha raggiunto l'apice invece di lucidarla semplicemente sopra.
 
-Un principiante spesso si chiede: Come faccio a sapere quando ho affilato abbastanza su un lato? Come faccio a sapere che la pietra ha effettivamente raggiunto il filo tagliente invece di lucidare un'area sopra di esso?
+Un principiante chiede spesso: Come faccio a sapere quando un lato è finito? Come faccio a sapere che l'abrasivo ha raggiunto il tagliente?
 
-La bava fornisce la risposta.
-
-È un segno fisico che l'abrasivo ha raggiunto l'apice: la linea finale dove i due lati del filo si incontrano.
+La bava risponde ad entrambe le domande.
 
 ## Il filo è più sottile di quanto sembri
 
-Quando guardiamo un coltello, il filo tagliente appare come una semplice linea. Ingrandito, è una cresta molto stretta.
+Per l'occhio, il tagliente sembra una linea semplice. Sotto ingrandimento, è una cresta molto stretta.
 
-Man mano che il coltello viene usato, questa cresta può diventare arrotondata, piegata o usurata. L'affilatura rimuove materiale dai lati finché non si crea una nuova cresta pulita.
+Utilizzare tondi, curve e indossa questa cresta. Affilatura rimuove l'acciaio dai lati fino a formare una nuova cresta pulita.
 
-Immagina di levigare un lato di una lamiera di metallo molto sottile. Man mano che il materiale diventa più sottile alla fine, la parte flessibile finale inizia ad allontanarsi dall'abrasivo. Si piega verso il lato opposto.
+Come un lato è macinato più sottile, l'ultima striscia flessibile di acciaio al bordo si piega lontano dall'abrasivo verso il lato opposto. Quella striscia è la bava.
 
-Quella parte piegata è la bava.
-
-## Cos'è realmente la bava
+## Cos'e' la bava?
 
 La bava è:
 
-> un labbro microscopico di acciaio che resta attaccato al filo tagliente e si piega verso il lato opposto a quello in affilatura.
+> un labbro microscopico di acciaio ancora attaccato al tagliente e piegato verso il lato opposto a quello che viene affilato.
 
-Non è normalmente un pezzo separato di sporco appoggiato sulla lama. È ancora collegata al filo, sebbene la connessione possa essere estremamente sottile.
+Non è sporco seduto sulla lama. Resta collegato al bordo, anche se a volte da una sezione estremamente sottile.
 
-Quando la bava diventa lunga, debole e flessibile, viene a volte chiamata **filo di ferro (wire edge)**. Un filo di ferro può far sembrare il coltello affilato per un momento, ma è instabile. Può piegarsi da un lato all'altro o staccarsi durante i primi tagli.
+Una lunga e debole sbavatura è spesso chiamata **filo bordo**. Può fare sentire il coltello affilato brevemente, quindi piegare o rompere durante i primi tagli.
 
-L'obiettivo non è quello di creare la bava più grande possibile. Considerarla come una ricevuta, non come un trofeo: la bava più piccola e continua conferma che la pietra ha raggiunto il bordo.
+L'obiettivo non è una grande bava. Trattarla come una ricevuta, non come un trofeo: basta la più piccola bava leggera e continua per confermare che la pietra ha raggiunto il bordo.
 
-## Come si forma la bava passo dopo passo
+## Come si forma la bava
 
-Supponiamo che il coltello sia appoggiato su una pietra e venga affilato il primo lato.
+Affilare il primo lato di un coltello opaco. In un primo momento, la pietra può rimuovere l'acciaio solo dal bisello sopra l'apice.
 
-All'inizio, la pietra rimuove acciaio dalla bisela. Se il filo è smussato, l'abrasivo potrebbe ancora lavorare sopra il vero apice.
+Mentre il lavoro continua, lo smusso raggiunge più lontano verso il bordo e il metallo rimanente diventa più sottile. Una volta che l'abrasivo raggiunge l'apice, la rettifica continua spinge l'ultima striscia sottile lontano dalla pietra verso il lato opposto.
 
-Man mano che l'affilatura continua, la bisela si estende più lontano verso il filo tagliente. Il metallo rimanente all'apice diventa più sottile.
+Girare il coltello e affilare il secondo lato. La bava si sposta verso il primo lato.
 
-Quando la pietra raggiunge finalmente il filo estremo, l'abrasione continua spinge l'ultima sottile striscia di acciaio lontano dalla pietra. Poiché ha quasi nessuno spessore, si piega verso il lato opposto.
-
-Se il primo lato è sulla pietra, la bava appare sul secondo lato.
-
-Il coltello viene quindi girato. Affilare il secondo lato spinge la bava indietro verso il primo lato.
-
-Questo movimento è utile. Conferma che entrambe le bisele hanno raggiunto l'apice.
+Questo movimento conferma che entrambi gli smussi hanno raggiunto l'apice.
 
 ## Perché "continua" è importante
 
 Una bava in un solo punto non è sufficiente.
 
-Se può essere sentita vicino al tallone ma non al centro, solo il tallone ha raggiunto completamente l'apice. Se appare al centro ma non vicino alla punta, la punta necessita ancora di lavoro.
+Se si sente al tallone ma non al centro, solo il tallone è completamente apiced. Se è presente nel mezzo ma mancante vicino alla punta, la punta ha ancora bisogno di lavoro.
 
-La bava dovrebbe essere controllata lungo l'intero filo:
+Controllare l'intero bordo:
 
 - tallone;
 - centro;
-- sezione anteriore curva;
+- fronte curvo;
 - punta.
 
-La punta spesso riceve troppo poca affilatura perché il suo angolo cambia mentre la lama curva. Anche il tallone può essere trascurato se il manico impedisce alla lama di poggiare comodamente sulla pietra.
+La punta è facile da perdere perché il bordo cambia direzione lì. Il tallone può anche essere mancato se la maniglia interferisce con il contatto con la pietra.
 
-Una leggera bava dal tallone alla punta mostra che l'abrasivo ha raggiunto il filo lungo tutta la sua lunghezza.
+Una leggera sbavatura dal tallone alla punta mostra che l'abrasivo ha raggiunto il bordo pieno.
 
 ## Cosa non è la bava
 
-Diversi tipi di residuo appaiono durante l'affilatura, e non dovrebbero essere confusi con la bava.
-
 ### Polvere di acciaio e residui metallici
 
-La pietra rimuove piccole particelle di acciaio. Mescolate con l'acqua, spesso creano un residuo grigio scuro. Questo materiale è sciolto e si deposita sulla pietra o sulla superficie della lama.
+L'affilatura rimuove piccole particelle d'acciaio che si mescolano con acqua in residui di grigio scuro.
 
 ### Sospensione abrasiva
 
-Alcune pietre rilasciano particelle abrasive nell'acqua. Questa miscela bagnata di abrasivo, legante e acciaio è chiamata sospensione abrasiva.
+Alcune pietre rilasciano abrasivi e legante nell'acqua. Questa miscela è chiamata liquame.
 
 ### Frammenti sciolti
 
-Un filo danneggiato o affilato pesantemente può rilasciare piccoli frammenti. Questi non sono più attaccati alla lama.
+Un bordo danneggiato o fortemente affilato può gettare piccoli frammenti che non sono più attaccati.
 
-La bava è diversa perché fa ancora parte del filo. Si muove con la lama e può essere sentita come un labbro direzionale.
+La bava è diversa perché rimane parte del bordo e può essere percepito come un labbro direzionale.
 
 ## Come si sente la bava
 
-Una bava è spesso più facile da sentire che da vedere.
+Una bava è spesso più facile da sentire che vedere.
 
-Sul lato verso cui si è piegata, il filo si sente leggermente ruvido o uncinato. Sul lato opposto, può sentirsi più liscio.
+Il lato verso il quale si piega si sente leggermente ruvido o agganciato. Il lato opposto può sentirsi più liscia. Una pietra grossolana di solito crea una più grande, bava più evidente; una pietra fine crea una più sottile.
 
-La sensazione può essere estremamente sottile su un acciaio fine e una pietra fine. Su una pietra grossolana, la bava può essere più grande e più evidente.
-
-La direzione conta. Se un lato è appena stato affilato, controllare il lato opposto.
+Se hai appena affilato un lato, controlla il lato opposto.
 
 ## Come controllare in sicurezza
 
-Il principio più sicuro è semplice:
-
 > Non far mai scorrere un dito lungo la lunghezza del filo tagliente.
 
-Un movimento longitudinale segue la stessa direzione per cui il coltello è progettato per tagliare e può causare lesioni.
+Questo movimento segue la direzione in cui il coltello è progettato per tagliare.
 
 Per controllare con la punta di un dito:
 
 1. Tenere il coltello stabile.
 2. Usare una pressione molto leggera.
-3. Muoversi dalla faccia piatta della lama verso il filo e fermarsi all'apice piuttosto che attraversare deliberatamente il filo affilato.
-4. Mantenere il movimento perpendicolare al filo; non far mai scorrere lungo la sua lunghezza.
+3. Spostarsi dal lato della lama verso il bordo e fermarsi all'apice piuttosto che attraversarlo deliberatamente.
+4. Mantenere il movimento perpendicolare al bordo; mai scorrere lungo di esso.
 5. Ripetere in diversi punti dal tallone alla punta.
 
-Se c'è incertezza sul toccare vicino all'apice, usare invece un batuffolo di cotone, una fibra di panno morbido, carta sottile o l'ispezione visiva.
+Se siete a disagio controllare vicino all'apice, utilizzare un tampone di cotone, fibra di panno morbido, carta sottile o ispezione visiva. Questi materiali possono catturare sulla bava senza posizionare un dito vicino al bordo.
 
-Un batuffolo di cotone, una fibra di panno morbido o un pezzo sottile di carta possono anche aiutare. Il materiale può impigliarsi sulla bava. Questo è utile quando la bava è difficile da sentire o quando l'utilizzatore non è sicuro di toccare vicino al filo.
-
-Una buona illuminazione e un ingrandimento possono rivelare riflessi da un filo incompleto o piegato, ma il feedback tattile resta uno dei metodi più diretti.
+Una buona luce e ingrandimento possono anche rivelare riflessi da un bordo incompleto o piegato.
 
 ## Perché una grande bava è un problema
 
-I principianti si sentono spesso rassicurati da una grande bava perché è facile da rilevare. Sfortunatamente, una grande bava di solito significa che è stato rimosso più acciaio del necessario.
+Una grande bava è facile da sentire, ma di solito significa che più acciaio è stato rimosso del necessario.
 
-Una grande bava può:
+Può:
 
-- piegarsi da un lato all'altro;
+- piegare da un lato all'altro;
 - creare una falsa impressione di affilatura;
 - staccarsi e lasciare un filo ruvido;
 - richiedere più lavoro per essere rimossa;
-- accorciare la vita del coltello attraverso una rimozione di metallo non necessaria.
+- abbreviare la vita del coltello attraverso la rimozione del metallo inutile.
 
-Pensa alla bava come a un segnale di conferma, non come al filo tagliente finale.
+La bava conferma l'apexing; non è il bordo finito.
 
-Una volta che si è formata una leggera bava continua, il processo di affilatura dovrebbe passare all'altro lato o alla fase di rimozione della bava. Continuare a molare pesantemente non migliora il risultato.
+Una volta che una bava continua leggera si forma, spostarsi verso l'altro lato o iniziare a sbavare. Macinatura pesante dopo che aggiunge poco valore.
 
 ## Il problema del filo di ferro
 
-Un filo di ferro (wire edge) è una bava particolarmente sottile e lunga che resta attaccata dopo l'affilatura.
+Un filo è una lunga e sottile sbavatura lasciata attaccata dopo l'affilatura.
 
-Può tagliare carta in modo impressionante perché il metallo flessibile è molto sottile. Il coltello può sembrare estremamente affilato durante il primo test.
+Può tagliare la carta in modo impressionante perché il metallo è estremamente sottile. Poi si piega o si rompe e il coltello improvvisamente si sente noioso.
 
-Poi il filo di ferro si piega o si stacca. Il coltello improvvisamente sembra smussato.
-
-Ecco perché un test della carta da solo non può dimostrare che il filo sia stabile. La bava deve essere rimossa in modo pulito.
-
-Un filo stabile dovrebbe tagliare dopo che il metallo sciolto e indebolito è andato via, non perché quel metallo agisce temporaneamente come una lama di lamina.
+Un test di carta da solo non può dimostrare che il bordo è stabile. Il coltello finito dovrebbe tagliare bene dopo che il materiale indebolito fucile è stato rimosso, non perché un bordo temporaneo simile a un foglio rimane attaccato.
 
 ## Spostare la bava da un lato all'altro
 
-Dopo che si è formata una bava lungo il primo lato, il coltello viene girato e viene affilato il secondo lato.
+Dopo aver creato una bava lungo il primo lato, girare il coltello sopra e affilare il secondo. La bava dovrebbe muoversi verso il primo lato, confermando che il secondo smusso ha raggiunto l'apice.
 
-La bava dovrebbe spostarsi verso il primo lato. Questo conferma che anche la seconda bisela ha raggiunto l'apice.
+Quindi ridurre la pressione e utilizzare meno colpi. Lati alternativi mantiene la bava piccola e indebolisce gradualmente la sua connessione.
 
-A questo punto, chi affila riduce la pressione e usa meno passate. Alternare i lati impedisce alla bava di crescere troppo e ne indebolisce gradualmente la connessione.
-
-Il processo può apparire così:
+Una progressione può apparire come:
 
 - diverse passate controllate sul primo lato;
 - diverse sul secondo;
-- meno passate sul primo;
+- meno sul primo;
 - meno sul secondo;
 - una leggera passata per lato;
-- movimenti finali di rimozione della bava.
+- Sbavatura finale.
 
-Il numero esatto non è importante. La riduzione della pressione e il comportamento del filo sono le vere guide.
+Il conteggio esatto non importa. La pressione e la risposta del bordo sono guide migliori.
 
-## Rimozione della bava: eliminare il metallo indebolito
+## Deburring: rimozione del metallo indebolito
 
 La rimozione della bava è il processo di eliminazione della bava lasciando un apice pulito e centrato.
 
-Diversi metodi possono essere efficaci.
-
 ### Leggere passate alternate sulla pietra
 
-Usare una pressione molto bassa e alternare i lati. Le passate possono essere a filo avanzante, a filo retrocedente o una combinazione controllata a seconda del metodo di affilatura.
+Utilizzare una pressione molto bassa e lati alternati. A seconda del metodo, tratti possono essere bordo-leading, bordo-trailing o una combinazione controllata.
 
 ### Una pietra più fine
 
-Passare a una pietra più fine può rifinire la bisela e ridurre la bava. La bava dovrebbe già essere piccola prima della transizione.
+Una pietra più fine può raffinare la smussatura e ridurre una piccola bava. Non muovetevi ad essa mentre una grande bava rimane.
 
 ### Stropping
 
-Uno strop in pelle, tessuto o abrasivo adatto può rimuovere il materiale fine residuo della bava. La lama deve muoversi prima con il dorso in modo che il filo non tagli nello strop.
+Pelle, tessuto o uno strop abrasivo adatto può rimuovere materiale fine rimanente bava. Spostare prima spina in modo che il bordo non taglia nella strop.
 
-Lo stropping è utile ma non obbligatorio. Troppa pressione o troppe passate possono arrotondare l'apice.
+Stropping è utile ma opzionale. Troppa pressione o troppi passaggi possono arrotondare l'apice.
 
 ### Sughero, legno morbido o mezzi simili
 
-Alcuni affilatori fanno passare leggermente il filo attraverso sughero o legno morbido per rimuovere frammenti sciolti di bava. Questo dovrebbe essere seguito da leggere passate di rifinitura perché il processo potrebbe non rimuovere in modo pulito ogni sezione attaccata.
+Alcuni affilatori disegnano il bordo leggermente attraverso il sughero o il legno morbido per rimuovere frammenti di bava sciolti. Seguire con tratti di raffinazione leggeri perché questo potrebbe non rimuovere ogni sezione allegata.
 
-Nessun metodo di rimozione della bava dovrebbe essere trattato come magico. I migliori risultati derivano dal formare fin dall'inizio una piccola bava e ridurla progressivamente.
+Nessun metodo di sbavatura è magico. La sbavatura buona inizia con una piccola sbavatura e la riduce progressivamente.
 
 ## La bava su acciai diversi
 
-La gamma degli acciai Xinzuo rende tangibile questa variazione. Una bava su DIN 1.4116 può sembrare diversa da una su 10Cr15CoMoV, mentre ZDP-189, SRS13, M390 o 14Cr14MoVNb altamente resistente all'usura può richiedere abrasivi più efficienti prima che l'apice venga raggiunto. L'acciaio Blu No. 2 può abradere facilmente ma ha bisogno di una pulizia immediata e asciugatura dopo il lavoro della pietra d'acqua. Non compensare un acciaio a lenta abrasione premendo più forte e creando una bava più grande; scegliere un abrasivo efficace e mantenere la bava piccola.
+Il comportamento della combustione varia in acciaio. DIN 1.4116 può sembrare diverso da 10Cr15CoMoV. Altamente resistente all'usura ZDP-189, SRS13, M390 e 14Cr14MoVNb può avere bisogno di abrasivi più efficienti per raggiungere l'apice. L'Acciaio Blu No. 2 può abradere facilmente ma ha bisogno di pulizia immediata e asciugatura dopo il lavoro di pietra d'acqua.
 
-Non ogni acciaio forma lo stesso tipo di bava.
+Se l'acciaio abrade lentamente, utilizzare un abrasivo più efficace piuttosto che premere più forte e creare una bava più grande.
 
-Un acciaio più morbido può creare una bava più grande e flessibile che vuole piegarsi ripetutamente.
+In generale:
 
-Un acciaio duro e a grana fine può formare una bava piccola e netta, difficile da sentire ma facile da rimuovere.
+- l'acciaio più morbido può formare una bava più grande e flessibile che si piega ripetutamente;
+- l'acciaio duro a grana fine può formare una piccola bava croccante che è più difficile da sentire ma più facile da rimuovere;
+- l'acciaio altamente resistente all'usura può richiedere più tempo per raggiungere l'apice;
+- un bordo fragile può spargere piccoli frammenti piuttosto che formare un filo lungo.
 
-Un acciaio molto resistente all'usura può richiedere più tempo per raggiungere l'apice.
+Anche la pietra conta. Le pietre grosse fanno le sbavature più grandi e ruvide; le pietre fini le rendono più piccole, più delicate.
 
-Un filo fragile può formare piccoli frammenti di bava rotti piuttosto che un lungo filo di ferro.
-
-Anche la pietra conta. Una pietra grossolana tende a creare una bava più grande e ruvida. Una pietra fine crea una bava più piccola e delicata.
-
-Ecco perché l'affilatura non può essere ridotta a un numero fisso di passate. Chi affila deve osservare la risposta del particolare acciaio e della pietra.
+Non ridurre l'affilatura a un numero fisso di colpi. Osservare l'acciaio e la pietra davanti a voi.
 
 ## Falsi segnali
 
-Un utilizzatore può credere che si sia formata una bava quando non è così.
-
 ### Graffi ruvidi vicino al filo
 
-I segni di molatura grossolana possono sembrare ruvidi ma potrebbero non essere direzionali come una bava.
+I segni di macinatura puo' sembrare ruvido senza essere direzionale come una bava.
 
 ### Residui attaccati alla lama
 
-La sospensione abrasiva e le particelle metalliche possono seccarsi lungo il filo. Sciacquare la lama prima di controllare.
+Le particelle di liquame e metallo possono asciugarsi lungo il bordo. Sciacquare prima di controllare.
 
 ### Un vecchio filo arrotolato
 
-Un coltello smussato potrebbe già avere una sezione piegata. Ispezionare la direzione e verificare se l'affilatura sposta la bava in modo coerente.
+Un coltello opaco può già avere una sezione piegata. Controllare se l'affilatura muove la bava in modo coerente.
 
 ### Una bava solo in aree isolate
 
 Questo conferma l'apicizzazione solo in quelle aree, non lungo tutto il coltello.
 
-## Un coltello può essere affilato senza sollevare una bava evidente?
+## Può un coltello essere affilato senza una bava evidente?
 
-Sì. Gli affilatori esperti possono usare metodi che minimizzano o evitano una grande bava rilevabile, specialmente durante la manutenzione leggera.
+Sì. Gli affilatori esperti possono ridurre al minimo o evitare una grande bava rilevabile, soprattutto durante la manutenzione della luce. Possono lavorare entrambi i lati progressivamente e ispezionare visivamente l'apice, con ingrandimento o tramite feedback di taglio.
 
-Possono lavorare entrambi i lati progressivamente, ispezionare l'apice visivamente o usare l'ingrandimento e il feedback del taglio.
+Per i principianti, tuttavia, una bava leggera è un segnale di allenamento eccellente perché rende la geometria nascosta bordo più facile da capire.
 
-Per i principianti, tuttavia, una leggera bava è un segnale di formazione estremamente utile. Rende più facile da comprendere la geometria nascosta del filo.
-
-L'obiettivo non è dipendere per sempre da una grande bava. L'obiettivo è imparare cosa si sente una completa apicizzazione.
+L'obiettivo non è quello di dipendere per sempre da una bava. È quello di imparare come si sente l'apexing completo.
 
 ## Errori comuni
 
@@ -246,11 +215,11 @@ Una volta che la bava è continua, ulteriore molatura pesante spreca acciaio.
 
 ### Controllare un solo punto
 
-L'intero filo deve essere controllato dal tallone alla punta.
+Controllare il bordo completo dal tallone alla punta.
 
-### Far scorrere il dito lungo il filo
+### Scorrere un dito lungo il bordo
 
-Questo è pericoloso. Muoversi solo perpendicolarmente al filo e fermarsi all'apice; usare un metodo senza dita se non ci si sente sicuri nel controllare in sicurezza.
+Non farlo mai. Spostare solo perpendicolarmente al bordo e fermarsi all'apice, o utilizzare un metodo non-dita.
 
 ### Passare a una pietra fine prima di raggiungere l'apice
 
@@ -260,29 +229,29 @@ Una pietra fine non può correggere efficacemente una bisela che non ha raggiunt
 
 Un coltello può superare un test rapido pur portando ancora un instabile filo di ferro.
 
-### Usare pressione forte durante le passate finali
+### Utilizzo di una forte pressione durante le corse finali
 
-Una pressione forte continua a piegare e ingrandire la bava invece di rimuoverla.
+La forte pressione continua a piegare e allargare la bava invece di rimuoverla.
 
 ## Una routine pratica per la bava
 
 1. Affilare il primo lato a un angolo costante.
 2. Sciacquare o pulire la lama prima di controllare.
-3. Sentire una leggera bava sul lato opposto.
+3. Controllare una bava leggera sul lato opposto.
 4. Controllare tallone, centro e punta.
-5. Lavorare solo le sezioni dove la bava manca.
+5. Lavora solo dove manca la bava.
 6. Girare il coltello.
 7. Affilare finché la bava non si sposta verso il primo lato lungo l'intero filo.
 8. Ridurre la pressione.
 9. Alternare i lati con meno passate.
-10. Usare il metodo di rimozione della bava scelto.
+10. Deburr.
 11. Controllare che non resti alcun labbro direzionale.
 12. Testare il filo pulito su carta e cibo adatto.
 
 ## Cosa ricordare
 
-> La bava non è sporco o residuo sciolto di affilatura. È la parte finale, estremamente sottile, del filo che si piega verso il lato opposto a quello in affilatura. Una leggera bava dal tallone alla punta conferma che la pietra ha raggiunto l'apice. Deve poi essere ridotta e rimossa affinché il filo finito sia pulito e stabile.
+> La bava è una parte sottile del bordo piegato verso il lato opposto a quello che viene affilato. Una bava leggera dal tallone alla punta conferma che la pietra ha raggiunto l'apice. Deve quindi essere ridotto e rimosso in modo che il bordo finito sia pulito e stabile.
 
-Comprendere la bava trasforma l'affilatura da un tentativo casuale in un processo con checkpoint visibili e tattili.
+Capire la bava trasforma l'affilatura da congettura in un processo con punti di controllo chiari.
 
-> **Pratica principio:** sollevare la più piccola bava che dimostra di aver raggiunto l'apice, quindi rimuoverlo.
+> ** Principio di pratica:** sollevare la più piccola bava che dimostra che si è raggiunto l'apice, quindi rimuoverlo.

@@ -1,344 +1,338 @@
 ---
-source_hash: 9d67902fccdcd57b1dd338e539e764bcec5fd13588dd8d729319276e93b854fc
+source_hash: d654c9fb5d2c4d039103841e4938099f45bafd6b183900b0fa68322e0cee5da0
 ---
 
-# Un Processo di Affilatura Pratico
+# Un processo pratico di affilatura
 
-Affilare un coltello viene spesso presentato come una performance di angoli perfetti, movimenti rapidi ed esperienza misteriosa. Questo può rendere i principianti timorosi di iniziare.
-
-Il processo sottostante è molto più semplice:
+L'affilatura può sembrare una prestazione di angoli perfetti, tratti rapidi ed esperienza misteriosa. Il processo di base è molto più semplice:
 
 > L'affilatura rimuove l'acciaio fino a quando i lati del bordo si incontrano di nuovo in un apice pulito.
 
-Tutto il resto - pietra grinta, angolo, pressione, bava e metodo di finitura - aiuta a controllare quel processo.
+Griglia di pietra, angolo, pressione, bava e metodo di finitura semplicemente controllare quel processo.
 
-Questo capitolo introduce un metodo pratico per i normali coltelli da cucina a doppio letto. Spiega cosa osservare e perché ogni passo esiste, senza richiedere attrezzature specializzate. I coltelli a singolo fascio tradizionali come yanagiba, usuba e deba hanno bisogno di un approccio diverso perché il loro ampio lato principale smussato e inverso cavo formano una geometria specifica; questa differenza è spiegata separatamente di seguito.
+Questo capitolo fornisce un metodo pratico completo per i normali coltelli da cucina a doppio sbirciamento. I coltelli tradizionali a sbirciatura singola come yanagiba, usuba e deba hanno bisogno di un approccio diverso perché il loro ampio smusso principale e inverso cavo formano una geometria specifica; tale metodo appare dopo il processo principale di smussatura doppia.
 
-L'affilatura diventa più facile da imparare quando si divide in fasi osservabili: stabilizzare la pietra, trovare il **bordo smussato o microbevel**, raggiungere l'apice, ridurre la bava e testare il risultato. Un principiante non ha bisogno di imitare la velocità di un affilatore esperto. Ogni fase può essere praticata e migliorata separatamente.
+Imparare l'affilatura come una serie di stadi visibili: stabilizzare la pietra, trovare la smussatura ** o microbevel**, raggiungere l'apice, ridurre la bava e testare il risultato. La velocità è inutile durante l'apprendimento.
 
-## Prima di iniziare: comprendere l'obiettivo
+## Prima di iniziare: capire l'obiettivo
 
-Un filo smussato non è necessariamente completamente distrutto. Nella maggior parte dei casi, l'apice è diventato arrotondato, piegato o usurato. Il coltello non inizia più un taglio facilmente perché i due lati non si incontrano più in una linea fine e pulita.
+Un bordo opaco è di solito arrotondato, piegato o indossato piuttosto che completamente distrutto. Smette di entrare in cibo facilmente perché i due lati non si incontrano più in una linea fine e pulita.
 
 L'affilatura ricostruisce quella linea.
 
-Prima di andare oltre, mantenere tre superfici distinte. La smussatura **primaria** è la macina più ampia che riduce lo spessore della lama verso il bordo. La smussatura **bordo**, spesso chiamata **microbiglia** quando è molto stretta, è la piccola sfaccettatura immediatamente dietro l'apice. L'apex** è la linea microscopica finale che taglia.
+Mantenere tre superfici separate. La smussatura **primaria** è la macinatura larga che riduce lo spessore della lama verso il bordo. La smussatura **bordo**, spesso chiamata una **microbiglia** quando molto stretta, è la sfaccettatura piccola immediatamente dietro l'apice. L'apex** è la linea microscopica che taglia.
 
-Su un normale coltello a doppia bisellatura con un netto bordo bisellato o microsmusso, l'affilatura di routine viene eseguita portando quella sfaccettatura di bordo piccolo a contatto con la pietra. Fa **non** normalmente significa posare l'intera ampia bisellatura primaria piatta sulla pietra. Lavorando la bisellatura primaria cambia spessore dietro il bordo e appartiene a assottigliamento, riprofilatura o altri lavori di geometria deliberata.
+Su un normale coltello a doppia bisellatura, l'affilatura di routine normalmente colloca il piccolo bordo smussato o microsmussato sulla pietra. Fa **not** significa posare l'intero piano primario bisellato. Lavorando il principale bisellatura cambia spessore dietro il bordo e appartiene a diradamento, riprofilazione o deliberata correzione della geometria.
 
 L'obiettivo è:
 
-1. seguire o stabilire intenzionalmente la geometria del filo;
+1. seguire o stabilire intenzionalmente la geometria del bordo;
 2. rimuovere abbastanza materiale da raggiungere l'apice;
 3. ripetere sul secondo lato;
-4. rifinire la superficie;
+4. raffinare la superficie;
 5. rimuovere la bava indebolita;
-6. lasciare un filo stabile adatto al compito previsto.
+6. lasciare un bordo stabile adatto al compito.
 
-## Attrezzatura
+## Attrezzature
 
-Una configurazione di affilatura di base richiede:
+Un'impostazione di base necessita di:
 
-- una pietra per affilare adatta;
+- una pietra di affilatura appropriata;
 - acqua o il lubrificante specificato per la pietra;
-- un supporto stabile per la pietra o una base antiscivolo;
+- un supporto stabile o una base antiscivolo;
 - un panno pulito;
-- una buona illuminazione;
-- abbastanza spazio di lavoro per un colpo di spazzatura completo dalla punta al tallone.
+- buona illuminazione;
+- abbastanza spazio per un colpo di spazzatura completo dalla punta al tallone.
 
-Elementi opzionali utili includono:
+Gli elementi opzionali utili includono:
 
-- una pietra grossolana per le riparazioni;
+- una pietra di riparazione grossolana;
 - una pietra di finitura più fine;
-- una pietra spianatrice o una lastra di lappatura;
-- una lente d'ingrandimento;
+- una lastra di appiattimento o di lappatura;
+- ingrandimento;
 - uno strop in pelle o tessuto;
 - una penna marcatore per controllare il bordo smussato.
 
-L'attrezzatura non deve essere complicata. Una sola buona pietra ad acqua a grana media può ripristinare molti coltelli da cucina normalmente smussati.
+La configurazione non deve essere complessa. Una buona pietra d'acqua media-griglia può ripristinare molti coltelli da cucina normalmente opachi.
 
 ## Fase 1: ispezionare il coltello
 
-Non appoggiare subito il coltello sulla pietra. Comprendere prima cosa deve essere corretto.
+Prima di toccare la pietra, scoprire cosa ha bisogno di correzione.
 
-Osservare lungo il filo sotto una luce forte. Un apice affilato è troppo fine per riflettere molta luce direttamente. Le aree smussate, arrotondate o scheggiate possono apparire come punti luminosi.
+Guarda lungo il bordo sotto la luce forte. Un apice acuto riflette molto poco; zone opache, arrotolate o scheggiate possono apparire come macchie luminose.
 
-Controllare:
+Controllare per:
 
-- scheggiature;
+- chips;
 - ammaccature;
-- sezioni arrotondate;
+- profilati laminati;
 - larghezza non uniforme del bordo-bordo;
 - una punta danneggiata o arrotondata;
-- spessore eccessivo dietro il filo;
+- spessore eccessivo dietro il bordo;
 - corrosione vicino all'apice;
-- uno schema di affilatura asimmetrico precedente.
+- precedente affilatura asimmetrica.
 
-Poi chiedere se il coltello ha bisogno di affilare o riparare routine. Un coltello che taglia ancora ma ha perso qualche morso può avere bisogno solo di una pietra media o fine. Un bordo molto opaco arrotondato può aver bisogno di una pietra medio-rosa. Un bordo scheggiato o gravemente danneggiato può aver bisogno di una pietra grossolana e lavori più avanzati.
+Poi decidere se il coltello ha bisogno di manutenzione o riparazione. Un coltello che ha perso solo qualche morso può avere bisogno di una pietra media o fine. Un bordo molto opaco arrotondato può richiedere abrasivo medio-rozzo. Chips o danni gravi possono richiedere una pietra grossolana e lavori più avanzati.
 
-Scegliere una pietra troppo fine per un danno importante spreca tempo. Scegliere una pietra molto grossolana per una manutenzione leggera rimuove più acciaio del necessario.
+Una pietra troppo fine perde tempo su danni gravi. Una pietra molto grossolana rimuove l'acciaio inutile durante la manutenzione leggera.
 
-## Fase 2: scegliere la grana di partenza
+## Passo 2: scegliere la grinta iniziale e l'abrasivo
 
-I numeri di grana descrivono la dimensione approssimativa delle particelle abrasive. Numeri più bassi sono più grossolani e rimuovono materiale più velocemente. Numeri più alti sono più fini e creano una finitura più liscia.
+I numeri più bassi sono più grossolani e rimuovono l'acciaio più velocemente. I numeri più alti sono più sottili e lasciano una finitura più liscia.
 
-Una classificazione pratica è:
+Una guida pratica è:
 
 - **80-400 grana:** riparazioni principali, chips, rimodellamento e bordi molto opachi;
-- **500-1000 grana:** affilatura generale e restauro di un bordo di lavoro;
-- **1000-3000 grana:** raffinatezza e un bordo più liscio;
+- **500-1000 grana:** affilatura generale e restauro;
+- **1000-3000 grana:** raffinatezza;
 - **4000-6000 grana:** finitura fine e lucidatura;
-- **8000 grana e oltre:** lucidatura specializzata e fili molto raffinati.
+- **8000 grinta e sopra:** lucidatura specializzata e bordi molto raffinati.
 
-Le gamme si sovrappongono perché variano gli standard di grinta e il comportamento della pietra. Per molti coltelli da cucina, una media griglia intorno agli 800-1000 è un utile punto di partenza. Rimuove abbastanza materiale da ripristinare il bordo senza creare i graffi profondi di una pietra riparatrice.
+Le gamme si sovrappongono perché gli standard di grinta e il comportamento della pietra differiscono. Per molti coltelli da cucina, circa 800-1000 griglia è un utile punto di partenza.
 
-Una grattugia superiore non è automaticamente migliore. Una finitura a media gradazione può mantenere un morso più microscopico ed eseguire estremamente bene su pomodori, carne e alimenti fibrosi. Un bordo altamente lucido può essere desiderabile per spingere il lavoro di taglio e presentazione. Scegliere la finitura in base al lavoro, non in base al numero più grande disponibile.
+La grana è solo la metà della scelta. L'abrasivo deve anche tagliare l'acciaio in modo efficiente. La durezza da sola non prevede difficoltà di affilatura perché la pietra deve abradere sia la popolazione ** matrice che carburo**.
+
+La DIN 1.4116, ad esempio, è spesso utilizzata a 56-58 HRC e consente l'uso, ma può formare una bava persistente e sentirsi meno croccante su una pietra d'acqua rispetto ad un acciaio fine ad alto tenore di carbonio. **Blue Steel No. 2** è comunemente più duro ma può abradere rapidamente e sbavare pulito su pietre d'acqua adatte. Gli acciai a polvere ad alto volume a base di vanadio o di carboidrato possono resistere agli abrasivi ordinari anche senza drasticamente più elevati HRC. ZDP-189, SRS13, M390 e 14Cr14MoVNb possono quindi affilare in modo più efficiente su abrasivi ceramici o diamanti premium.
+
+Se un acciaio taglia lentamente, scegliere un abrasivo migliore invece di semplicemente premere più forte.
+
+Una media finitura può mantenere utile il morso microscopico per i pomodori, la carne e gli alimenti fibrosi. Un bordo altamente lucido può soddisfare il lavoro di taglio e presentazione. Scegliere la finitura finale più tardi secondo l'attività.
 
 ## Fase 3: preparare e fissare la pietra
 
-Preparate la pietra in base alla sua costruzione. La maggior parte delle pietre assorbenti tradizionali devono essere immerse fino a quando il rilascio di bolle si è sostanzialmente fermato. Splash-and-go e pietre speciali possono richiedere solo bagnatura superficiale o nessun ammollo. Le istruzioni del produttore hanno sempre la priorità.
+Preparate la pietra secondo la sua costruzione. La maggior parte delle pietre assorbenti tradizionali dell'acqua dovrebbe ammollo fino a quando il rombo si è in gran parte fermato. Splash-and-go e pietre specializzate possono aver bisogno solo di acqua di superficie o non ammollo.
 
-Verificare che la pietra sia piatta. Se è visibilmente concava, spianarla prima di affilare.
+Controllare la planarità e appiattire una pietra visibilmente cava prima di affilare.
 
-Mettere su un supporto sicuro, base in gomma o panno umido. Provarlo con la mano. Non deve muoversi quando viene applicata la pressione. Bagnare la superficie e tenere l'acqua vicino.
+Fissare la pietra su un supporto, base in gomma o panno umido. Non deve muoversi sotto pressione. Bagnare la superficie e mantenere l'acqua nelle vicinanze.
 
-## Passo 4: identificare il bordo smusso o microsmusso esistente
+## Passo 4: identificare il bordo smussato o microsmusso
 
-Questo è il punto in cui la terminologia conta di più. Su un normale coltello da cucina a doppio taglio, non utilizzare automaticamente l'ampia macinatura primaria come riferimento per l'affilatura. Cerca la sfaccettatura molto più stretta immediatamente dietro il tagliente: la smussatura ** o microbiglia**.
+Su un normale coltello a doppia bisellatura, non usare l'ampia macina primaria come riferimento predefinito per l'affilatura. Trova lo stretto **bordo bisellato o microbiglia** immediatamente dietro il tagliente.
 
-Un pennarello può aiutare. Colorare il piccolo bordo smussato, non l'intero lato del coltello, quindi fare uno o due colpi molto leggeri sulla pietra.
+Un pennarello può aiutare. Colorare questo piccolo bisello e fare uno o due tratti molto leggeri.
 
-Ispezionare dove l'inchiostro è scomparso.
+Poi ispezionare l'inchiostro:
 
-- Se l'inchiostro scompare sopra l'apice mentre il colore rimane al bordo stesso, l'angolo è troppo basso e la pietra non sta ancora raggiungendo l'apice.
-- Se solo il bordo estremo viene toccato e il resto del bordo esistente smusso rimane segnato, l'angolo è più ripido rispetto al bordo esistente smusso.
-- Se la pietra rimuove il marcatore attraverso la sfaccettatura del bordo stretto prevista e raggiunge l'apice, l'angolo è vicino alla geometria esistente.
+- inchiostro rimosso sopra l'apice ma ancora presente al bordo significa che l'angolo è troppo basso;
+- solo il bordo estremo toccato mentre il resto rimane marcato significa che l'angolo è più ripido rispetto al bisello esistente;
+- marcatore rimosso attraverso la sfaccettatura del bordo prevista e all'apice significa che l'angolo è vicino alla geometria esistente.
 
-Questo è uno strumento di apprendimento, non un requisito permanente. Con la pratica, l'utente impara a sentire e vedere quando la smussatura **bordo**, piuttosto che l'ampia bisellatura primaria, si trova correttamente sulla pietra.
+Il marcatore è un aiuto per l'apprendimento, non un requisito permanente.
 
-> **Importante:** posare l'intero smusso primario sulla pietra è un'operazione diversa. Può essere appropriato per diradamento, correzione deliberata della geometria, o per l'ampio smusso di un coltello tradizionale a smusso singolo, ma non è l'istruzione predefinita per l'affilatura di routine di un normale bordo a doppia smusso.
+> **Importante:** posare l'intero smusso primario sulla pietra è un'operazione diversa. Può essere corretto per diradamento, correzione deliberata della geometria o un singolo smusso tradizionale, ma non per l'affilatura di routine di un normale bordo a doppia smussa.
 
-## Fase 5: comprendere l'angolo
+## Passo 5: capire l'angolo
 
-Un angolo di affilatura è l'angolo tra la lama e la pietra che porta la sfaccettatura del bordo previsto a contatto con l'abrasivo.
+L'angolo di affilatura è l'angolo tra lama e pietra che posiziona il bordo previsto sfaccettatura sull'abrasivo.
 
-Circa 15 gradi per lato è un riferimento utile per molti sottili coltelli da cucina a doppia scollatura. Non è una regola universale. Un angolo inferiore crea un bordo più sottile, più efficiente, ma riduce la quantità di acciaio che sostiene l'apice. Un angolo più alto crea un bordo più forte, ma aumenta la resistenza al taglio.
+Intorno a **15 gradi per lato** è un utile riferimento per molti coltelli da cucina sottili a doppio sbirciamento, non una regola universale. Angoli inferiori tagliare in modo più efficiente ma lasciare meno acciaio sostenere l'apice. Angoli più alti rafforzare il bordo, ma aumentare la resistenza al taglio.
 
-I coltelli pesanti, gli scarti e gli acciai più morbidi possono utilizzare angoli più forti. I coltelli giapponesi fini possono utilizzare una geometria inferiore o asimmetrica. I bordi esistenti del prodotto e i lavori previsti dovrebbero guidare la scelta.
+### Il riferimento visivo a due monete
 
-Per un principiante, la consistenza conta più del calcolo di un numero perfetto. Un angolo stabile che segue il microsbirro reale è meglio che inseguire un valore nominale mentre oscilla tra la spalla e l'apice.
+Un comune aiuto workshop è quello di posizionare **due monete di medie dimensioni tra la pietra e un coltello tipico dello chef** per visualizzare un angolo vicino al comune 15 gradi di riferimento.
 
-## Fase 6: stabilire una posizione del corpo stabile
+Questa è un'approssimazione, non un calibro di angolo. L'angolo effettivo dipende dall'altezza della lama e dallo spessore della moneta. Le stesse monete producono angoli diversi sul coltello di uno chef alto, coltello stretto e piccolo coltello da parata.
 
-Un buon controllo dell'angolo inizia dal corpo, non solo dalle mani.
+Utilizzare le monete solo per dare l'occhio e la mano un quadro di partenza. Una volta rimosso, contatto coerente con il bordo reale smussatura conta più del numero nominale.
 
-Stare comodamente di fronte alla pietra. Tenere le spalle rilassate. Posizionare la pietra in modo che la lama **intero possa spazzarsi attraverso senza ostruzione**.
+I coltelli pesanti, gli acciai da taglio e gli acciai più morbidi possono utilizzare angoli più forti. I coltelli fini possono utilizzare una geometria inferiore o asimmetrica. Seguire il bordo esistente e i lavori previsti.
 
-La mano che tiene la maniglia controlla l'angolo e la direzione. Le dita dell'altra mano applicano la pressione controllata vicino alla porzione di bordo che attualmente sta attraversando la pietra. Mentre la lama spazza dalla punta verso il tallone, il supporto e la pressione dovrebbero viaggiare con l'area di lavoro invece di rimanere fissi lontano da esso.
+Per i principianti, un angolo stabile è più importante che inseguire un numero perfetto.
 
-I polsi dovrebbero rimanere stabili. Lasciamo che le braccia e la parte superiore del corpo creino la maggior parte del movimento piuttosto che piegare ripetutamente il polso.
+## Fase 6: stabilire una posizione stabile del corpo
 
-## Fase 7: appoggiare il coltello sulla pietra
+L'angolo di controllo inizia con il corpo.
 
-Per il metodo full-length insegnato qui, iniziare con l'area **tip sulla pietra**. Impostare il coltello in diagonale sufficiente che la lama ha spazio per viaggiare attraverso la pietra.
+Stare comodamente, rilassare le spalle e posizionare la pietra in modo che la lama **intero possa spazzarsi attraverso senza ostruzione**.
 
-Sollevare la colonna vertebrale fino a quando il bordo stretto smussato o microsmusso raggiunge la pietra con l'angolo previsto. Prima di aggiungere pressione, effettuare alcuni movimenti molto leggeri. Ascoltare e sentire. Un bordo stabile smussa spesso produce anche resistenza. Se il coltello rocce tra la lama larga macina e l'apice, l'angolo sta cambiando.
+La maniglia controlla l'angolo e la direzione. L'altra mano applica la pressione vicino alla sezione di bordo attualmente attraversando la pietra. Muovi quel supporto con l'area di lavoro piuttosto che lasciarlo fisso lontano.
+
+Mantenere i polsi stabili e lasciare che le braccia e la parte superiore del corpo creano la maggior parte del movimento.
+
+### Come cambia la pressione
+
+Utilizzare una pressione sufficiente durante la fase principale per la pietra da tagliare mentre l'angolo rimane stabile. Ridurre la pressione durante la finitura. Durante le corse alternate finali, utilizzare solo la forza sufficiente per guidare la smussatura sopra l'abrasivo.
+
+Se il suono diventa duro, i bastoncini o il controllo dell'angolo peggiorano, riducono la pressione e controllano l'acqua, lo stato della pietra e la posizione del corpo.
+
+## Passo 7: posizionare il coltello sulla pietra
+
+Per il metodo full-length insegnato qui, iniziare con l'area **tip sulla pietra**. Impostare il coltello in diagonale sufficiente a lasciare spazio per l'intera spazzatura.
+
+Sollevare la colonna vertebrale fino a quando il bordo smussato o microbivella contatti la pietra. Fare alcuni movimenti di luce prima di aggiungere pressione. Anche la resistenza indica di solito contatto stabile. Rocking tra la macina larga e apice significa che l'angolo sta cambiando.
 
 ## Passo 8: utilizzare un tratto di spazzatura a tutta lunghezza
 
-Per l'affilatura ordinaria, il movimento di apprendimento raccomandato è un **trasversale o diagonale controllato che funziona l'intero bordo in ogni passaggio**.
+Il movimento predefinito è un **trasversale o diagonale controllato che funziona l'intero bordo in ogni passaggio**.
 
-Iniziare con la punta sull'abrasivo. Mentre il coltello si muove attraverso la pietra, disegnarlo lateralmente in modo che il contatto viaggia progressivamente da **tip, attraverso la parte anteriore curva e centrale, al tallone**. Alla fine della corsa, il tallone ha attraversato la superficie di lavoro. Reimpostare e ripetere lo stesso percorso completo.
+Iniziare con la punta sull'abrasivo. Spostare attraverso la pietra mentre disegna la lama lateralmente in modo che il contatto viaggi da **tip, attraverso la parte anteriore curva e centrale, al tallone**. Reimpostare e ripetere.
 
-La lama è generalmente molto più lunga di quella della pietra. Il componente laterale è quindi essenziale: permette ad una pietra stretta di affilare uniformemente un bordo lungo. Pensate alla pietra che traccia l'intera linea di taglio durante un movimento continuo piuttosto che lucidare un cerotto fisso.
+Poiché la maggior parte delle lame sono molto più lunghe della pietra è larga, questo movimento laterale permette alla pietra di tracciare l'intera linea di taglio in un unico passaggio continuo.
 
 Durante ogni passaggio:
 
-- mantenere l'angolo di smusso o di microsmusso;
-- mantenere il movimento liscio e continuo;
-- consentire alla pressione di seguire la parte del bordo attualmente presente sulla pietra;
-- la punta di copertura, il centro e il tallone nello stesso passaggio;
-- mantenere la pietra opportunamente bagnata o lubrificata;
-- evitare di fermarsi e premere ripetutamente su una piccola area a meno che non sia volutamente richiesta una correzione locale.
+- mantenere l'angolo di smussatura;
+- mantenere il movimento liscio;
+- pressione di movimento con la sezione di lavoro;
+- punta di copertura, centrale e tallone;
+- mantenere la pietra bagnata o correttamente lubrificata;
+- evitare di premere ripetutamente una piccola area a meno di correggerla deliberatamente.
 
-L'utilizzo di passaggi full-length rende più facile distribuire l'usura in modo uniforme e riduce il rischio di affilare il mezzo molto più della punta o del tallone.
+I passaggi a tutta lunghezza distribuiscono l'usura in modo più uniforme e riducono il rischio di sovralavorare il centro trascurando la punta o il tallone.
 
 ### Quando il lavoro di sezione è utile
 
-La lavorazione in sezioni è ancora una tecnica valida per una lama eccezionalmente lunga, un'area locale danneggiata, una punta che non ha raggiunto l'apice, o un lavoro correttivo avanzato. Si tratta di un metodo **alternativa o correttivo**, non il movimento predefinito insegnato in questa guida. Quando una sezione locale è corretta, tornare ai passi di lunghezza piena luce in modo che il bordo è miscelato e rifinito in modo coerente.
+I lavori di sezione possono aiutare con una lama eccezionalmente lunga, danni locali, una punta incompleta o una correzione avanzata. Trattarla come metodo correttivo, non come impostazione predefinita.
 
-## Fase 9: seguire la curva verso la punta
+## Passo 9: seguire la curva verso la punta
 
-La punta è la parte più impegnativa di una spazzata full-length perché il taglio curva lontano dalla pietra.
+La punta è la parte più dura della spazzatura perché il bordo curva lontano dalla pietra.
 
-All'inizio della corsa, mentre la punta e la parte anteriore curva attraversano l'abrasivo, la maniglia può avere bisogno di essere leggermente alzata e progressivamente** in modo che il microbivello locale rimanga correttamente in contatto. Mentre la corsa viaggia verso il centro e il tallone più dritti, la mano segue naturalmente il profilo cambiante.
+All'inizio della corsa, la maniglia può avere bisogno di salire ** leggermente e progressivamente** in modo che il microbivello locale rimanga in contatto mentre la punta e la parte anteriore curva attraversano l'abrasivo. Mentre la corsa si muove verso il centro e il tallone più dritti, seguire il profilo cambiante naturalmente.
 
-Questo movimento non è un'istruzione per rendere l'angolo di punta arbitrariamente più ripido. Lo scopo è quello di seguire la curvatura del bordo pur conservando l'angolo di bordo locale previsto.
+L'obiettivo è quello di seguire la curva mantenendo l'angolo locale previsto, non di rendere la punta arbitrariamente più ripida.
 
-Troppi giri di sollevamento e sovrasterza la punta. Troppo poco foglie parte della punta intatto. Marcatore, luce riflessa e frequente ispezione aiutare durante l'apprendimento.
+Troppi giri di sollevamento e sovrasterza la punta; troppo poco lascia parte di esso intatto. Marcatore, luce riflessa e frequente ispezione aiutare durante l'apprendimento.
 
-## Fase 10: formare una leggera bava continua
+## Passo 10: formare una bava continua leggera
 
-Continuare ad affilare il primo lato fino a quando una piccola bava può essere sentito sul lato opposto **dal tallone alla punta**.
+Affilare il primo lato fino a quando una piccola bava appare sul lato opposto **dal tacco alla punta**.
 
-Un colpo di spazzatura completo dovrebbe normalmente lavorare tutte queste zone insieme. Se l'ispezione mostra che una zona locale non ha ancora formato una bava, correggere brevemente quella zona piuttosto che inutilmente macinare l'intero bordo, quindi tornare a tratti a tutta lunghezza.
+Se un'area non ha formato una bava, correggere brevemente quella sezione piuttosto che macinare inutilmente l'intero bordo, quindi tornare ai passaggi full-length.
 
-La bava dovrebbe essere leggera. Un grande filo di filo significa più acciaio del necessario viene piegato e rimosso. Una volta che la bava è continua, il primo lato ha raggiunto l'apice.
+Mantenere la bava piccola. Un grande filo di filo significa più acciaio del necessario viene piegato e rimosso. Una volta che la bava è continua, il primo lato ha raggiunto l'apice.
 
-## Fase 11: ripetere sul secondo lato
+## Passo 11: ripetere sul secondo lato
 
-Girare il coltello sopra e stabilire l'angolo corrispondente previsto microbevel. Ripetere lo stesso processo di spazzatura full-lenght, di nuovo coprendo la punta, il centro e il tallone durante ogni passaggio regolare.
+Girare il coltello e ripetere la spazzatura a tutta lunghezza con l'angolo di bordo corrispondente.
 
-L'obiettivo è quello di spostare la bava costantemente verso il primo lato lungo l'intero bordo. Ciò può richiedere meno tratti perché l'apice è già stato raggiunto da una direzione.
+L'obiettivo è quello di spostare la bava indietro verso il primo lato lungo tutto il bordo. Ciò può richiedere meno tratti perché l'apice è già stato raggiunto da una direzione.
 
-Per un bordo simmetrico, mantenere la quantità di lavoro ragionevolmente equilibrato. Per un bordo volutamente asimmetrico, preservare il design del prodotto piuttosto che forzare smussi uguali.
+Mantenere il lavoro ragionevolmente equilibrato su un bordo simmetrico. Preservare l'asimmetria intenzionale piuttosto che forzare entrambi i lati ad abbinare.
 
 ## Fase 12: ridurre la pressione
 
-Una pressione forte o media rimuove materiale e forma la bava. Le fasi di finitura richiedono una pressione progressivamente più leggera.
+L'affilatura principale rimuove l'acciaio e crea la bava. La finitura richiede meno pressione.
 
-Ridurre sia la pressione che il numero di colpi. Lati alternativi con passi sempre più leggeri **full-edge**. La sequenza esatta è flessibile. Lo scopo è di centrare il bordo, indebolire la bava e ridurre i graffi più profondi creati durante lo stadio di affilatura principale.
+Ridurre sia la pressione che il numero di colpi. I lati alternativi con sempre più luce **full-edge** passa al centro del bordo, indebolire la bava e raffinare il modello di graffio.
 
-Alla fine, la pressione dovrebbe essere molto leggera - solo abbastanza per mantenere il bordo smussato a contatto controllato con la pietra.
+Finire con una pressione sufficiente per mantenere il contatto controllato.
 
-## Fase 13: decidere se passare a una pietra più fine
+## Passo 13: decidere se usare una pietra più fine
 
-Una pietra più fine è utile quando il filo necessita di ulteriore rifinitura.
+Spostarsi su una pietra più fine quando:
 
-Passare alla pietra successiva quando:
-
-- il bordo smussato ha raggiunto l'apice lungo tutta la sua lunghezza;
-- i graffi principali sono uniformi;
+- il bordo ha raggiunto l'apice lungo tutta la sua lunghezza;
+- il modello principale di graffio è pari;
 - la grande bava è stata ridotta;
-- il coltello necessita di una finitura più liscia o lucida.
+- Si desidera una finitura più liscia o più levigata.
 
-Non passare ad una pietra fine per evitare di finire il lavoro sulla pietra grossolana o media. Una pietra fine lucida la geometria che esiste già. Non può riparare efficacemente un bordo incompleto.
+Non utilizzare una pietra fine per evitare di completare il lavoro sulla prima pietra. Fini lucidature abrasive geometria esistente; non ripara efficacemente un bordo incompleto.
 
-Sulla pietra più fine, usare meno pressione. L'obiettivo è la rifinitura, non una rimozione importante di materiale.
+Abbinare la grana finale al compito, non il prezzo o il prestigio del coltello. Le finiture medie conservano un morso utile per pomodori, carne e verdure fibrose. Finiture più fini si adattano a tagli più lisci, pesce delicato e affettatura raffinata.
 
-## Fase 14: rimuovere la bava
+ZDP-189, SRS13, M390 e 14Cr14MoVNb possono beneficiare di abrasivi ceramici o diamanti premium. Gli acciai inossidabili convenzionali spesso funzionano bene su pietre d'acqua adatte. Acciaio Blu No. 2 può rispondere rapidamente alle pietre d'acqua, ma deve essere asciugato subito dopo.
 
-Una bava lasciata sul filo crea una falsa affilatura. Può tagliare carta, poi piegarsi o rompersi durante il primo uso.
+L'usura differenziale Full-Damascus non elimina la necessità di affilatura. Ripristinare il bordo completo normalmente e scegliere la finitura per il carattere di taglio previsto.
 
-### Leggere passate alternate
+Utilizzare meno pressione sulla pietra più fine. L'obiettivo è l'affinamento, non la rimozione dell'acciaio maggiore.
 
-Utilizzare la minima pressione e lati alternati con passaggi a tutta lunghezza controllati. Questo è lo stadio più importante.
+## Passo 14: rimuovere la bava
 
-### Finitura a filo avanzante o a filo retrocedente
+Una bava lasciata attaccata crea una falsa nitidezza. Può tagliare la carta e poi piegare o rompere durante il primo utilizzo.
 
-Entrambe le tecniche possono funzionare se controllate. Le passate a filo avanzante possono tagliare via il materiale della bava in modo efficace. Le passate a filo retrocedente sono delicate ma possono continuare a tirare fuori un filo di ferro se viene usata troppa pressione.
+### Corse alternate di luce
+
+Utilizzare pressione minima e passaggi a tutta lunghezza controllati, alternando i lati. Questo è lo stadio di sbavatura più importante.
+
+### Finitura di bordi o di bordi
+
+Entrambi possono funzionare quando sono controllati. I tratti di guida dei bordi possono tagliare il materiale di bava in modo efficiente. I tratti di copertura dei bordi sono più delicati ma possono tirare fuori un bordo del filo se la pressione è troppo alta.
 
 ### Stropping
 
-Un cuoio o strop adatto può rimuovere il materiale di bava rimasto fine. Spostare il coltello spina-prima in modo che il bordo non taglia nella strop. Utilizzare pochi passaggi e la pressione leggera. Eccessiva stropping intorno all'apice.
+Un cuoio o strop adatto può rimuovere fine bava rimanente. Spostare prima spina dorsale in modo che il bordo non taglia nella strop. Utilizzare pochi passaggi e la pressione leggera; eccessiva stripping intorno all'apice.
 
-### Sughero o legno morbido
+### Cork o legno morbido
 
-Una passata molto leggera attraverso sughero pulito o legno morbido può rimuovere frammenti sciolti. Seguire con leggere passate su pietra o strop per assicurarsi che l'apice sia pulito.
+Un passaggio molto leggero attraverso sughero pulito o legno morbido può rimuovere frammenti sciolti. Seguire con pietre leggere o passaggi strop per garantire che l'apice sia pulito.
 
-Il filo finito non dovrebbe avere un uncino direzionale su nessuno dei due lati.
+Il bordo finito non dovrebbe avere gancio direzionale su entrambi i lati.
 
-## Fase 15: ispezionare il filo finito
+## Fase 15: ispezionare il bordo finito
 
-Sciacquare e asciugare il coltello prima di testarlo.
+Sciacquare e asciugare il coltello prima di testare.
 
-Guardate l'apice sotto buona luce. I riflessi luminosi possono indicare le aree piane o arrotolate rimanenti. Controllate delicatamente per le sezioni di bava rimanenti. Non eseguire mai il dito lungo il bordo.
+Ispezionare l'apice sotto buona luce. I riflessi luminosi possono rivelare le aree ancora piane o arrotolate. Controllare delicatamente le sezioni di sbavatura e non eseguire mai un dito lungo il bordo.
 
-Il bordo smussato dovrebbe apparire coerente, anche se perfetta simmetria visiva non è necessario per ogni coltello.
+Il bordo smussato dovrebbe apparire coerente, anche se perfetta simmetria visiva non è necessario su ogni coltello.
 
-## Fase 16: testare il risultato
+## Passo 16: prova il risultato
 
-Nessun singolo test racconta l'intera storia. Usare diversi controlli semplici.
+Nessun test racconta l'intera storia.
 
-### Test della carta
+### Prova su carta
 
-Tagliare la carta pulita e asciutta con un movimento controllato. Un bordo tagliente dovrebbe entrare senza pressione eccessiva e continuare senza strappi ripetuti. Provare diverse parti del bordo per identificare le sezioni opache locali. La carta premia sia la nitidezza che la morbidezza, ma un filo fragile può anche tagliare la carta brevemente.
+Tagliare la carta pulita e asciutta con un movimento controllato. Il bordo deve entrare senza pressione eccessiva e continuare senza strappi ripetuti. Provare diverse sezioni. Ricordate che un filo fragile può anche tagliare la carta brevemente.
 
-### Test del cibo
+### Test alimentare
 
-Utilizzare un ingrediente rilevante per il coltello. Un pomodoro prova la capacità di iniziare un taglio su una pelle resistente. Una cipolla mostra se il coltello si muove in modo pulito attraverso strati. Le erbe rivelano schiacciamento.
+Utilizzare alimenti rilevanti per il coltello. Test di pomodoro morso iniziale sulla pelle. Cipolla mostra il movimento pulito attraverso gli strati. Erbe rivelano schiacciamento. Carne mostra affettare morso.
 
-### Controllo visivo e tattile della bava
+### Controllo masterizzazione
 
-Confermare che la bava sia stata rimossa.
+Confermare che non rimane nessuna bava direzionale.
 
 ### Comportamento di taglio
 
-Osservare se il coltello inizia, segue e completa il taglio in modo pulito. Il risultato pratico conta più di un trucco impressionante. Rasare i peli del braccio non è necessario per l'affilatura normale della cucina e non dovrebbe essere utilizzato come standard principale.
+Giudicare se il coltello inizia, segue e completa il taglio in modo pulito. Comportamento pratico conta più di trucchi come la rasatura dei capelli del braccio.
 
-## Fase 17: pulire il coltello e la pietra
+## Passo 17: pulire coltello e pietra
 
-Sciacquare la lama con attenzione per rimuovere residui abrasivi e di acciaio. Asciugarla immediatamente.
+Sciacquare il residuo abrasivo e di acciaio dalla lama e asciugarlo immediatamente.
 
-Sciacquare la pietra. Togliere il warf sciolto e ispezionare la superficie. Controllare la planarità. Se il centro ha iniziato a scavare, appiattire la pietra con un piastra adatto o pietra appiattimento.
+Risciacquare la pietra, rimuovere lo swarf sciolto e ispezionare la sua superficie. Appiattirlo se il centro ha iniziato a scavare.
 
-Lasciare asciugare la pietra completamente all'aria in un luogo ventilato. Evitare il calore e il sole diretto. Pulire l'area di lavoro in modo che nessun residuo abrasivo resti su manici, panni o superfici di preparazione degli alimenti.
+Lasciare asciugare la pietra completamente in un luogo ventilato. Evitare il calore e il sole diretto. Pulire residui abrasivi dalla zona di lavoro, panni e superfici di preparazione degli alimenti.
 
 ## Custodia speciale: affilare un singolo bisello tradizionale
 
-Un coltello tradizionale a bisturi singolo non deve essere trattato semplicemente come un coltello a doppia bisellatura con un lato omesso. Il suo ampio bisello principale, inverso piatti e spesso il cavo **urasuki** formano una geometria collegata.
+Un singolo smusso tradizionale non è un doppio smusso con un lato omesso. Il suo ampio smusso principale, piani invertiti e spesso il cavo **urasuki** formano una geometria collegata.
 
-Durante l'affilatura con bisellatura primaria, l'ampia bisellatura viene normalmente lavorata contro la pietra. Il rovescio viene poi posto quasi piano e lavorato sufficientemente leggermente per rimuovere la bava conservando l'urasuki e gli stretti piatti di riferimento intorno ad essa.
+L'ampio smusso principale è normalmente lavorato contro la pietra. Il rovescio viene poi posto quasi piano e lavorato abbastanza leggermente per rimuovere la bava pur conservando l'urasuki e i suoi stretti appartamenti di riferimento.
 
-C'è un'altra complicazione importante: **l'ampio angolo singolo può variare lungo la lunghezza del coltello**. Passando dal tallone alla punta, la lama diventa più bassa perché il suo contorno si restringe. Su coltelli di alta qualità lo stock della colonna vertebrale e della lama anche comunemente diventano progressivamente più sottili verso il punto attraverso **distal cono**. Poiché l'angolo smussato dipende dal rapporto tra spessore della lama locale, larghezza smussata e altezza della lama, tallone, medio e punta non presentano necessariamente un piano identico.
+L'ampio angolo di smussatura può anche **vary lungo la lama**. L'altezza della lama diminuisce verso la punta, e coltelli di alta qualità spesso sottile attraverso **distal cono**. Poiché l'angolo di smussatura dipende dallo spessore locale, larghezza smussata e altezza della lama, tallone, medio e punta non può trovarsi su un piano identico.
 
-Per questo motivo, non bloccate il polso con un angolo teorico di curvatura primaria e forzate la posizione fino alla punta. Fate attenzione al punto di contatto reale. Mentre la lama si restringe e si dirada, adattate la posizione gradualmente in modo che la smussatura locale si trovi correttamente sulla pietra. La luce riflessa e il motivo di usura sul bisello possono rivelare se una sola striscia è macinata.
+Non bloccare il polso con un angolo teorico dal tallone alla punta. Guarda il cerotto di contatto e regolare gradualmente come la lama si restringe e si dirada. Marker, luce riflessa e modelli di usura possono mostrare se una sola striscia è in terra.
 
-Il rovescio richiede disciplina uguale. Non elevare in un normale bisello secondario e non macinare indiscriminatamente nel urasuki. Per un costoso coltello singolo bisello, l'istruzione modello-specifico o uno specialista esperto è preferibile alla sperimentazione aggressiva.
-
-## Pressione: quanto è sufficiente?
-
-La pressione è difficile da descrivere con un numero universale, ma le fasi sono facili da comprendere.
-
-### Affilatura principale
-
-Utilizzare abbastanza pressione per la pietra per tagliare in modo efficiente mentre l'angolo di bordo rimane stabile. Non forzare la lama.
-
-### Rifinitura
-
-Ridurre la pressione in modo che la pietra levighi i graffi precedenti senza creare una nuova grande bava.
-
-### Passate finali
-
-Usare una pressione estremamente leggera. La lama dovrebbe sembrare quasi guidata piuttosto che spinta.
-
-Se il suono diventa aspro, il coltello si blocca o l'angolo diventa difficile da controllare, ridurre la pressione e aggiungere acqua.
-
-## Scegliere la grinta finale
-
-Per i coltelli Xinzuo, l'acciaio e il compito previsto guidano l'abrasivo e la finitura. DIN 1.4116, 440C, 14C28N, AUS-10, 10Cr15CoMoV e 12Cr18MoV sono generalmente avvicinabili con pietre convenzionali adatte. Altamente resistente all'usura ZDP-189, SRS13, M390 e 14Cr14MoVNb possono beneficiare di abrasivi pregiati in ceramica o diamante e più tempo. Acciaio Blu No. 2 può rispondere prontamente alle pietre d'acqua ma deve essere asciugato immediatamente. Si tratta di tendenze, non prescrizioni di angolo fisso o griglia: preservare la geometria del modello e la finitura per il suo uso effettivo.
-
-Il meccanismo full-Damascus differenziale-wear di Xinzuo non elimina l'affilatura. Quando una tale lama ha bisogno di essere restaurata, affilare il bordo completo normalmente ed evitare scelte di lucidatura che eliminano involontariamente tutti i morso utile affettatura.
-
-Una finitura media fornisce morso ed è eccellente per il lavoro di cucina generale, pomodori, carne e verdure fibrose. Una finitura fine produce un bordo più liscio e può sostenere tagli puliti, preparazione del pesce delicato e affettatura raffinata. Un bordo ultra-lucidato non è automaticamente migliore. Su alcuni alimenti può scivolare prima di iniziare il taglio, soprattutto se l'apice non è perfetto.
-
-Il filo dovrebbe corrispondere allo scopo del coltello.
+Trattare il rovescio con la stessa cura. Non sollevarlo in un normale bisello secondario o macinare indiscriminatamente nel urasuki. Per un costoso coltello singolo bisello, l'istruzione specifica del modello o servizio esperto è più sicuro di sperimentazione aggressiva.
 
 ## Errori comuni di affilatura
 
 ### Affilatura del bisello primario al posto del microsmusso
 
-Su un normale coltello a doppia bisellatura, posare l'intera smussatura primaria sulla pietra rimuove molto più acciaio e cambia la geometria dietro il bordo. La riaffilatura di routine dovrebbe normalmente seguire il bordo stretto bisellare o microsmussare.
+Su un normale coltello a doppia bisellatura, posare l'intera bisellatura primaria sulla pietra rimuove molto più acciaio e cambia la geometria dietro il bordo. L'affilatura di routine segue normalmente il bordo stretto bisellare o microsmussare.
 
 ### Contare i tratti invece di leggere il bordo
 
-Il conteggio delle passate aiuta il ritmo ma non dimostra che l'apice sia stato raggiunto.
+Il numero di colpi aiuta il ritmo ma non prova che l'apice è stato raggiunto.
 
 ### Cambiare costantemente l'angolo
 
-Un angolo instabile arrotonda il bordo smussato e rallenta il progresso.
+Un angolo instabile arrotonda lo smusso e rallenta il progresso.
 
 ### A partire da una pietra troppo fine
 
-Una pietra fine può passare molto tempo lucidando sopra un filo smussato.
+L'abrasivo fine può trascorrere un lungo periodo di lucidatura sopra un bordo opaco.
 
 ### Usare troppa pressione
 
-Una pressione forte rende difficile il controllo dell'angolo e crea una grande bava.
+La pressione elevata rende più difficile il controllo dell'angolo e crea una bava più grande.
 
-### Affilare solo il centro della lama
+### Affilare solo il centro
 
-I brevi tratti ripetitivi possono sovraccaricare il centro mentre la punta e il tallone rimangono opachi. Utilizzare l'intera spazzatura punta a tacco come il normale passaggio e la sezione di riserva funzionano per la correzione.
+Corti colpi ripetitivi possono sovraccaricare il centro lasciando la punta e il tallone opachi. Usare pieno tip-to-heel spazza come impostazione predefinita.
 
 ### Spostarsi sul secondo lato prima che la bava sia continua
 
@@ -346,42 +340,43 @@ La prima parte può rimanere incompleta.
 
 ### Lasciare la bava attaccata
 
-Il coltello può sembrare affilato brevemente ma perdere rapidamente prestazioni.
+Il coltello può sentirsi affilato brevemente e perdere le prestazioni rapidamente.
 
 ### Sovralucidare ogni coltello
 
-La grana finale dovrebbe adattarsi al cibo e allo stile di taglio previsti.
+Scegli la grana finale per il cibo e lo stile di taglio.
 
 ### Affilatura su una pietra piegata
 
-Una superficie concava cambia l'angolo durante la passata.
+Una superficie cava cambia l'angolo durante la corsa.
 
 ### Trattare ogni coltello come 15 gradi per lato
 
-Quindici gradi è un utile riferimento, non una legge universale.
+15 gradi è un riferimento utile, non una legge universale. L'esercizio a due monete è solo un mnemonico visivo; altezza della lama e spessore della moneta determinano l'angolo effettivo.
 
 ## Una routine per principianti completa
 
-1. Ispezionare il filo e identificare i danni.
-2. Scegliere una pietra abbastanza grossolana per il lavoro.
+1. Ispezionare il bordo e identificare i danni.
+2. Scegliere una pietra abbastanza grossolana e un abrasivo abbastanza efficiente per l'acciaio.
 3. Preparate, appiattite e mettete in sicurezza la pietra.
 4. Identificare l'attuale **edge smusso o microbevel** con tratti di luce o un marcatore.
-5. Inizia con la punta sulla pietra.
-6. Spazzare trasversalmente in modo che ogni passaggio normale viaggia dalla punta attraverso il centro al tallone.
-7. Seguire la pancia regolando l'impugnatura senza intoppi mantenendo l'angolo di bordo locale.
-8. Formare la più piccola bava continua possibile lungo l'intero bordo.
-9. Ripetere lo stesso movimento full-length sul secondo lato fino a quando la bava si muove indietro.
-10. Utilizzare il lavoro sezione locale solo quando un'area specifica ha davvero bisogno di correzione, quindi si mescola con passaggi di lunghezza intera.
-11. Ridurre la pressione e i lati alternati.
-12. Passare a una pietra più fine solo se la finitura prevista lo richiede.
-13. Rimuovi completamente la bava.
-14. Ispezionare e testare su carta e alimenti adatti.
-15. Lavare e asciugare il coltello, quindi risciacquare, appiattire e asciugare all'aria la pietra.
+5. Utilizzare l'idea di 15 gradi/due monete solo come riferimento visivo approssimativo, se del caso, quindi seguire l'attuale smussatura.
+6. Inizia con la punta sulla pietra.
+7. Spazzare trasversalmente in modo che ogni passaggio normale viaggia dalla punta attraverso il centro al tallone.
+8. Seguire la pancia regolando l'impugnatura senza intoppi mantenendo l'angolo di bordo locale.
+9. Formare la più piccola bava continua possibile lungo l'intero bordo.
+10. Ripetere lo stesso movimento full-length sul secondo lato fino a quando la bava si muove indietro.
+11. Utilizzare il lavoro sezione solo dove un'area specifica ha bisogno di correzione, quindi mimetizzarsi con passaggi full-length.
+12. Ridurre la pressione e i lati alternati.
+13. Passare a una pietra più fine solo se la finitura prevista lo richiede.
+14. Rimuovi completamente la bava.
+15. Ispezionare e testare su carta e alimenti adatti.
+16. Lavare e asciugare il coltello, quindi risciacquare, appiattire e asciugare all'aria la pietra.
 
 ## Cosa ricordare
 
-> L'affilatura ordinaria a doppia bisellatura segue la smussatura ** o microbiglia**, non tutta la bisellatura primaria. Utilizzare una spazzatura a tutta lunghezza controllata in modo che la pietra lavori dalla punta al tallone su ogni passaggio regolare, formare una leggera bava continua, ripetere sul secondo lato, quindi ridurre la pressione e la sbavatura. Un singolo bisello tradizionale è diverso: la sua ampia bisellatura fa parte della geometria di affilatura, e il suo angolo locale può cambiare come la lama si restringe e si dirada verso la punta.
+> L'affilatura a doppia bisellatura di routine segue la smussatura ** o microsmussa**, non tutta la bisellatura primaria. Utilizzare un abrasivo che taglia l'acciaio in modo efficiente, lavorare l'intero bordo con spazzatura controllata da punta a tacco, formare una bava continua leggera, ripetere sul secondo lato, quindi ridurre la pressione e la sbavatura. Scegliere la grana finale per il comportamento di taglio, non il prestigio. Un singolo bisello tradizionale è diverso: il suo ampio bisello fa parte della geometria di affilatura, e il suo angolo locale può cambiare verso la punta.
 
-L'abilità più preziosa non è muovere il coltello velocemente. È imparare a osservare cosa sta facendo la pietra al filo.
+L'abilità più preziosa non è muoversi rapidamente. È vedere che cosa la pietra sta facendo al bordo.
 
 > **Principio di pratica:** guardate il contatto, preservate la geometria e lasciate che ogni passaggio normale includa l'intero bordo.

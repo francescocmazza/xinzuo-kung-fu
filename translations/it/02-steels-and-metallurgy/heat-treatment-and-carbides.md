@@ -1,92 +1,94 @@
 ---
-source_hash: 6a474b504b917f140d02ec67ec9d21810b1f7bd7f589c97a7917667c2bc290ce
+source_hash: 75128e69c8870027925364fed86dd9dd0383f20fb04d1a789336b51e5c6c4989
 ---
 
 # Trattamento termico e carboidrati: trasformare la composizione in una lama
 
-Una qualità di acciaio è una ricetta, non una prestazione finita. La composizione chimica determina quali strutture sono possibili; ** trattamento termico decide quale di queste possibilità sono effettivamente sviluppate nella lama**.
+Una qualità di acciaio è una ricetta, non prestazioni finite. La composizione determina quali strutture sono possibili; ** trattamento termico determina quale di essi si sviluppano nella lama**.
 
-Per questo motivo due coltelli in acciaio nominalmente lo stesso possono comportarsi in modo diverso. Temperatura e tempo di austenitazione, metodo di tempra, trattamento sub-zero, tempra, temperatura di rettifica e geometria del bordo finale cambiano il risultato. Un nome in acciaio quindi non può essere valutato indipendentemente dal processo utilizzato per trasformarlo in un coltello.
+Due coltelli realizzati con lo stesso acciaio nominale possono comportarsi in modo diverso a causa della temperatura e del tempo, della tempra, del trattamento sub-zero, della tempra, della temperatura di rettifica e della geometria del bordo finale. Un nome in acciaio deve sempre essere letto insieme al processo utilizzato per trasformarlo in un coltello.
 
 La sequenza seguente è una mappa generale. Le temperature, i tempi e i mezzi di raffreddamento esatti dipendono dalla lega e non dovrebbero mai essere copiati da un acciaio all'altro senza una specifica di trattamento termico verificata.
 
 ## 1. Preparazione dell'acciaio prima dell'indurimento
 
-Prima dell'indurimento finale, l'acciaio può passare attraverso ricottura, normalizzazione, sferoidazione o altri gradini condizionanti a seconda di come è stato prodotto e lavorato.
+Prima dell'indurimento finale, l'acciaio può essere ricotto, normalizzato, sferoidato o altrimenti condizionato a seconda di come è stato prodotto e lavorato.
 
-Per gli acciai a coltello, un obiettivo particolarmente utile è spesso una struttura abbastanza morbida da lavorare o macinare e in cui i carburi sono distribuiti in modo controllato prima della biodegradabilità. Nei semplici acciai ad alto tenore di carbonio ciò può comportare carburi sferoidalizzati in una matrice ferritica. Gli acciai a polveri metalliche arrivano attraverso un percorso produttivo diverso ma richiedono comunque una storia termica attentamente controllata prima che la lama finale sia temprata.
+Per gli acciai al coltello, l'obiettivo è spesso quello di creare una struttura abbastanza morbida da lavorare o macinare mantenendo i carburi ben distribuiti prima della biodegradabilità. In acciai semplici ad alto tenore di carbonio questo può significare carburi sferoidalizzati in una matrice ferritica. Gli acciai a polveri-metallurgia seguono un percorso produttivo diverso ma hanno ancora bisogno di una storia termica controllata prima dell'indurimento finale.
 
-Queste fasi preliminari sono importanti perché il trattamento termico finale non inizia con un foglio bianco. Le dimensioni del carburo, la segregazione, la struttura del grano e i cicli termici precedenti influenzano tutto ciò che accade più tardi.
+Il trattamento termico finale non parte da uno stato di vuoto. Le dimensioni del carburo, la segregazione, la struttura del grano e i cicli termici precedenti influenzano tutto ciò che accade dopo.
 
 ## 2. Austenitizing: mettere la giusta quantità in soluzione
 
-Durante **austenizing**, l'acciaio viene riscaldato nella gamma di temperatura in cui si forma l'anidride carbonica. Alcuni elementi di carbonio e lega si sciolgono in tale anidride carbonica, mentre una parte della popolazione di carburo può rimanere irrisolta.
+Durante **austenizing**, l'acciaio viene riscaldato nella gamma in cui si forma l'anidride carbonica. Alcuni elementi di carbonio e lega si dissolvono in esso, mentre una parte della popolazione di carburo può rimanere indissolubile.
 
-L'obiettivo non è semplicemente quello di sciogliere quanto più carburo possibile. Troppo poco dissoluzione può limitare la durezza o il contenuto di lega prevista della matrice. Troppa temperatura o tempo può sgrossare il grano di carburo, sciogliere una quantità indesiderabile di carburo e posizionare così tanto carbonio e lega in soluzione che ha mantenuto acrilato diventa difficile da controllare.
+L'obiettivo non è dissolvere quanto più carburo possibile. Troppo poca dissoluzione può limitare la durezza o lasciare troppo poca lega nella matrice. Troppa temperatura o tempo può sgrossare il grano di carburo, sciogliere il carburo eccessivo e mettere così tanto carbonio e lega in soluzione che ha mantenuto allumina diventa difficile da controllare.
 
-L'austenitazione è quindi una delle fasi di bilanciamento più importanti nel trattamento termico del coltello. La ricetta corretta dipende dall'acciaio e dalla combinazione desiderata di durezza, durezza, resistenza alla corrosione e struttura in carburo.
+La ricetta corretta dipende dall'acciaio e dalla combinazione desiderata di durezza, durezza, resistenza alla corrosione e struttura in carburo.
+
+### Trattamento termico sotto vuoto: controllo dell'atmosfera
+
+L'acciaio esposto può ossidare e perdere carbonio in superficie a temperature di
+
+Per la produzione di coltelli, questo significa meno scala, meno decarburazione superficiale, parti più pulite e controllo preciso del riscaldamento. È particolarmente utile per acciai inossidabili e utensili ad alta lega che richiedono alte temperature di polimerizzazione.
+
+Il trattamento sottovuoto non sostituisce la corretta ricetta di biodegradabilità, tempra e tempra. *Vacuum* descrive l'ambiente utilizzato durante la lavorazione ad alta temperatura; non è uno stadio di indurimento separato o, di per sé, una misura della qualità della lama.
 
 ## 3. La reclusione: formando martensite
 
-La lama viene raffreddata rapidamente per trasformare gran parte dell'idruro in **martensite**, la fase dura che conferisce ad un coltello acciaio temprato gran parte della sua resistenza e stabilità dei bordi.
+Dopo l'irrorazione, la lama viene raffreddata abbastanza rapidamente da trasformare gran parte dell'idruro in **martensite**, la fase dura responsabile di gran parte della resistenza e della stabilità del bordo di un coltello temprato.
 
-La severità di tempra richiesta dipende dalla lega. Alcuni acciai semplici hanno bisogno di raffreddamento molto veloce; acciai inossidabili e utensili altamente legati possono indurire con mezzi più lenti perché le loro aggiunte di lega aumentano l'induribilità.
+La velocità di raffreddamento richiesta dipende dalla lega. Alcuni acciai semplici hanno bisogno di raffreddamento molto rapido; acciai inossidabili e utensili altamente legati possono indurire con mezzi più lenti perché gli elementi di lega aumentano l'induribilità.
 
-La martensite appena formata è dura ma molto stressata e normalmente non è la condizione finale desiderata in un coltello da cucina. La lama deve successivamente essere temperata.
+Il martensite fresco è duro ma molto stressato. Normalmente non è lo stato finale voluto in un coltello da cucina e deve essere temperato.
 
 ## 4. Sub-zero, trattamento criogenico e congelato
 
-Alcuni acciai al coltello non completano la loro trasformazione martensitica per il tempo in cui raggiungono la temperatura ambiente.
+Alcuni acciai contengono ancora **retained HPLC** dopo il raffreddamento a temperatura ambiente.
 
-Il raffreddamento della lama al di sotto della temperatura ambiente dopo l'allentamento può trasformare l'impregnazione supplementare in martensite. La terminologia non è perfettamente standardizzata nel linguaggio commerciale: *sub-zero*, *deep-freeze* e *cryogenic* sono a volte utilizzati in modo sciolto, e la temperatura effettiva può variare notevolmente. Un congelatore domestico, ghiaccio secco e azoto liquido non sono processi equivalenti.
+Il raffreddamento della lama può ulteriormente trasformare in martensite molte più di queste sostanze conservate. I termini commerciali come *sub-zero*, *deep-freeze* e *cryogenic* non sono perfettamente standardizzati, e la temperatura effettiva può variare notevolmente. Un congelatore domestico, ghiaccio secco e azoto liquido non sono processi equivalenti.
 
-Il punto metallurgico pratico è più importante dell'etichetta. Per una sequenza di trattamento di lega e calore che ne beneficia, una fase di temperatura sufficientemente bassa può:
+Per gli acciai e le sequenze di trattamento termico che ne beneficiano, un trattamento sufficientemente a bassa temperatura può:
 
 - ridurre l'1,0% mantenuto;
 - aumentare la durezza o la stabilità dimensionale in condizioni di assottigliamento;
-- rendere la risposta finale al temperamento più prevedibile.
+- rendere più prevedibile la risposta finale al temperamento.
 
-Non si tratta di un upgrade universale. Una piccola quantità di
+Non si tratta di un upgrade universale. Alcuni conservati di 1,0%e possono contribuire alla resistenza utile, e convertendo più di esso a martensite cambia l'equilibrio durezza-difficoltà. Il risultato dipende dall'acciaio, condizioni di
 
 ### Xinzuo come esempio
 
-La documentazione del prodotto di Xinzuo fornisce un utile esempio reale di questa catena di processo. La serie selezionata specifica **trattamento termico del vuoto e congelamento profondo**. Queste vanno intese come due fasi correlate ma distinte: l'elaborazione sottovuoto controlla l'atmosfera durante il trattamento ad alta temperatura, mentre la fase di congelamento viene utilizzata dopo l'indurimento dove l'acciaio specificato e il processo richiedono ulteriori trasformazioni a bassa temperatura.
+Selezionato serie Xinzuo specificare **vacuum trattamento termico e congelamento profondo**. Questi sono diversi passaggi con scopi diversi. L'elaborazione del vuoto controlla l'atmosfera durante il trattamento ad alta temperatura; congelamento profondo segue indurimento quando l'acciaio e ricetta richiedono una trasformazione ulteriore a bassa temperatura.
 
-L'esempio illustra un principio generale piuttosto che una regola per tutti i coltelli: un produttore può aggiungere un trattamento sub-zero quando la lega e la microstruttura di destinazione lo giustificano.
+Ogni processo ha importanza solo quando serve a scopi metallurgici all'interno del trattamento completo.
 
 ## 5. Tempering: rendendo l'acciaio temprato utilizzabile
 
-Dopo la tempra la lama è temperata**. La tempra riduce le sollecitazioni estreme del martensite fresco e regola il rapporto finale tra durezza, durezza e stabilità.
+Dopo la tempra, la lama è temperata**. La tempra riduce le sollecitazioni di martensite fresco e regola durezza, durezza e stabilità.
 
-La tempra non semplicemente ammorbidisce il coltello. Le trasformazioni sono più complesse. Il carbonio può lasciare martensite supersaturate, i piccoli carburi possono precipitare e trattenere l'idruro può cambiare. Negli acciai altamente legati, temperature di tempra sufficientemente elevate possono anche produrre ** indurimento secondario** come precipitato dei carburi in lega.
+Il carbonio può lasciare martensiti supersaturati, i piccoli carburi possono precipitare e trattenere l'idruro può cambiare. Negli acciai altamente legati, temperature di tempra sufficientemente elevate possono anche causare ** indurimento secondario** come precipitato dei carburi legati.
 
-Alcuni acciai e percorsi di trattamento termico utilizzano due o più cicli di tempra. Una ragione è che l'
+Alcuni acciai utilizzano due o più cicli di tempra. L'idruro trattenuto può diventare instabile durante un temperamento, trasformarsi in martensite fresca durante il raffreddamento e quindi bisogno di un altro temperamento in modo che il nuovo martensite non sia lasciato non temperato.
 
-La giusta temperatura di tempra è quindi parte della ricetta specifica della lega. Inseguire il più alto HRC possibile senza considerare la durezza, mantenuto 1,0%e, resistenza alla corrosione e la geometria del bordo previsto può produrre un coltello peggiore piuttosto che uno migliore.
+La temperatura di tempra è parte della ricetta specifica della lega. Inseguire il più alto HRC possibile senza considerare la durezza, l'idruro mantenuto, la resistenza alla corrosione e la geometria dei bordi può rendere un coltello peggiore.
 
-## 6. Trattamento termico sottovuoto: controllo dell'atmosfera, non un processo di durezza magica
+## 6. Macinazione dopo il trattamento termico
 
-Ad alta temperatura, l'acciaio esposto può ossidare e perdere carbonio in superficie. Un forno **vuoto** o un'altra atmosfera protettiva ben controllata riduce tali reazioni durante il trattamento termico.
+La rettifica successiva può ancora danneggiare una lama correttamente trattata con calore. La rettifica crea calore alla superficie. Se un bordo indurito si surriscalda durante la rettifica o l'affilatura aggressive, la sua regione esterna sottile può essere temprata involontariamente al di sopra della temperatura prevista, riducendo la durezza e la stabilità del bordo.
 
-Per un produttore di coltelli, questo può offrire importanti vantaggi di processo: minore scala, ridotta decarburazione superficiale, parti più pulite e controllo preciso del ciclo di riscaldamento. È particolarmente utile per acciai inossidabili e utensili ad alta lega che richiedono elevate temperature di biodegradabilità.
+La rettifica controllata, il raffreddamento e l'affilatura finale sono parte integrante della catena delle prestazioni. La metallizzazione non termina quando la lama lascia il forno.
 
-Il trattamento sottovuoto non sostituisce la necessità di una corretta ricetta di biodegradabilità, tempra e tempra. La parola *vacuum* descrive l'ambiente controllato in cui si verifica una parte del processo termico; non è di per sé una misura della qualità finale della lama.
+Il trattamento termico forma sia la matrice d'acciaio che le particelle dure al suo interno. Per capire perché due trattamenti della stessa lega possono affilare e indossare in modo diverso, dobbiamo guardare direttamente quelle particelle.
 
-## 7. Macinazione dopo il trattamento termico
+## Carburi: particelle dure in acciaio
 
-Il trattamento termico può essere corretto ed essere danneggiato localmente in seguito. Macinare una lama temprata crea calore sulla superficie. Se il bordo è surriscaldato durante la rettifica aggressiva o l'affilatura, una regione molto sottile può essere involontariamente temperata ad una temperatura superiore a quella prevista, riducendo la durezza e la stabilità del bordo.
+I carbossidi sono composti di carbonio con elementi di ferro o di lega. Non sono inclusioni estranee spruzzate nell'acciaio; sono fasi create dalla chimica e dalla storia termica dell'acciaio.
 
-Questo è il motivo per cui la rettifica controllata, il raffreddamento adeguato e l'affilatura finale attenta fanno parte della catena delle prestazioni. La metallizzazione non termina quando la lama lascia il forno.
+I carbossidi possono aumentare la resistenza all'usura e contribuire a controllare la crescita del grano, ma più carburo non è automaticamente migliore. Grandi quantità di particelle dure possono rallentare l'affilatura e ridurre la durezza. Carbide ** tipo, dimensione, volume e distribuzione** materia tanto quanto l'elemento che li ha formati.
 
-# Carburi: particelle dure all'interno dell'acciaio
+La notazione metallurgica può sembrare criptica. In **M7C3**, **M23C6**, **M6C** o **MC**, *M* significa uno o più elementi metallici. M7C3, per esempio, non è necessariamente un carburo di un metallo puro; cromo, ferro, molibdeno e altri elementi possono condividere le posizioni metalliche.
 
-I carbossidi sono composti di carbonio con elementi di ferro o di lega. Non sono inclusioni estranee spruzzate nell'acciaio; sono fasi che si formano a causa della chimica e della storia termica dell'acciaio.
-
-I carbossidi possono aumentare la resistenza all'usura e influenzare il controllo del grano, ma più carburo non è automaticamente migliore. Grandi quantità di particelle dure possono rallentare l'affilatura e ridurre la durezza. Carbide ** tipo, dimensione, volume e distribuzione** materia almeno tanto quanto il nome dell'elemento che li ha formati.
-
-La notazione utilizzata dai metallurgisti può apparire criptica. In espressioni come **M7C3**, **M23C6**, **M6C** o **MC**, la lettera *M* significa uno o più elementi metallici. Un carburo descritto come M7C3 non è quindi necessariamente costituito da una specie di metallo puro; cromo, ferro, molibdeno e altri elementi possono condividere le posizioni metalliche.
-
-## Famiglie comuni di carburo negli acciai alla lama
+### Famiglie comuni di carburo negli acciai alla lama
 
 | Famiglia di carbossidi | Principali elementi di formatura del carburo negli acciai al coltello | Perché importa? |
 |---|---|---|
@@ -97,23 +99,23 @@ La notazione utilizzata dai metallurgisti può apparire criptica. In espressioni
 | **M6C / relativi carburi Mo-W** | Molibdeno e/o tungsteno con altri metalli + carbonio | Comune nei sistemi ad alta lega e ad alta velocità-utensili-acciaio; contribuire alla resistenza all'usura e può partecipare all'indurimento secondario |
 | **Fine metalli temperanti** | Fe, Cr, Mo, W, V e altri a seconda dell'acciaio e del temperamento | Precipitare durante il temperamento e può rafforzare la matrice martensitica; la chimica dipende fortemente dalla lega e dalla temperatura |
 
-La tabella descrive le famiglie, non una promessa che ogni acciaio contenente un elemento conterrà un carburo puro di quell'elemento. Ad esempio, il molibdeno può essere sciolto nella matrice o arricchito all'interno dei carburi di cromo invece di formare un carburo di Mo separato. Vanadium può anche arricchire i carburi di cromo quando le condizioni non favoriscono una popolazione MC distinta. La microstruttura finale deve essere misurata o calcolata in modo affidabile; non può essere dedotto dalla sola lista degli ingredienti.
+Queste sono famiglie di carburo, non una promessa che ogni acciaio contenente un elemento conterrà un carburo puro di quell'elemento. Molibdeno può rimanere sciolto nella matrice o arricchire carburi di cromo invece di formare un carburo Mo separato. Vanadio può anche arricchire carburi di cromo quando le condizioni non favoriscono una popolazione MC distinta. La microstruttura finale deve essere misurata o calcolata in modo affidabile; non può essere letta direttamente dalla lista degli ingredienti.
 
-## Perché la durezza del carburo cambia l'affilatura
+### Perché la durezza del carburo cambia l'affilatura
 
-Una pietra di affilatura deve abradere sia la matrice d'acciaio che le particelle dure in essa incorporate. I carburi comuni di cromo sono duri, ma gli abrasivi di alluminio-ossido di alta qualità possono spesso tagliarli in modo efficace. I carburi di Vanadium e di MC del galattosio sono molto più duri, motivo per cui gli acciai ad alto volume V- o Nb-carbide possono rispondere in modo più efficiente al diamante o ad altri abrasivi molto duri.
+Una pietra d'affilatura deve abradere sia la matrice che le particelle dure al suo interno. Gli abrasivi di ossido di alluminio possono spesso tagliare in modo efficace i carburi di cromo. I carburi di Vanadium e di MC sono molto più duri, quindi gli acciai con volumi elevati possono affilare in modo più efficiente con diamanti o altri abrasivi molto duri.
 
-Questo aiuta a spiegare un paradosso comune: due acciai allo stesso HRC possono richiedere sforzi di affilatura molto diversi. La durezza della matrice è simile, ma l'abrasivo sta affrontando una diversa popolazione di particelle dure.
+Questo spiega perché due acciai allo stesso HRC possono richiedere sforzi di affilatura molto diversi. La loro durezza matrice può essere simile, ma l'abrasivo sta tagliando diverse popolazioni di carburo.
 
-## Perché il volume del carburo cambia la durezza
+### Perché il volume del carburo cambia la durezza
 
-I carboidrati sono duri e relativamente fragili. Aumentare il loro volume può aumentare la resistenza all'usura, ma dà crepe più interfacce hard-particella attraverso cui avviare o propagare. Grande dimensione del carburo può essere particolarmente dannoso per la durezza.
+I carbossidi sono duri e relativamente fragili. Aumentare il loro volume può migliorare la resistenza all'usura, ma crea più interfacce hard-particella dove le fessure possono iniziare o propagarsi.
 
-La metallurgia delle polveri può contribuire producendo una distribuzione più uniforme e spesso più piccola dei carburi della lavorazione tradizionale del lingotto per la stessa composizione altamente legata. Non rende irrilevante il volume del carburo. Un acciaio in polvere con una frazione di carburo molto alta può ancora essere meno resistente di un acciaio a basso tenore di carboidrati.
+La metallurgia delle polveri può produrre carburi più piccoli e distribuiti in modo più uniforme rispetto alla lavorazione tradizionale del lingotto nella stessa composizione altamente legata. Il volume del carburo è ancora importante: un acciaio in polvere con una frazione di carburo molto elevata può rimanere meno resistente di un acciaio a basso tenore di carboidrati.
 
-## Perché il trattamento termico e i carburi devono essere letti insieme
+### Perché il trattamento termico e i carburi devono essere letti insieme
 
-La struttura in carburo presente nel coltello finito non è identica alla composizione stampata su una scheda tecnica. Durante la dissolvenza di alcuni carburi. Durante il raffreddamento e la tempra, le fasi possono trasformare e nuovi carburi fini possono precipitare. Cromo, molibdeno, vanadio e tungsteno possono quindi muoversi tra la matrice e diverse famiglie di carburo mentre il ciclo termico progredisce.
+La struttura in metallo duro in un coltello finito non è identica alla composizione stampata su una scheda tecnica. Alcuni carburi si dissolvano durante le fasi di trasformazione di rinfrescamento e temperamento e possono precipitare nuovi carburi fini. Cromo, molibdeno, vanadio e tungsteno possono muoversi tra la matrice e diverse famiglie di metallo duro durante il ciclo termico.
 
 Tale ridistribuzione riguarda diverse proprietà in una sola volta:
 
@@ -121,6 +123,6 @@ Tale ridistribuzione riguarda diverse proprietà in una sola volta:
 - cromo e molibdeno in soluzione contribuiscono alla resistenza alla corrosione;
 - i carburi duri contribuiscono alla resistenza all'usura;
 - volume e dimensioni del carburo influiscono sulla durezza e sulla risposta di affilatura;
-- le dimensioni delle granaglie e l'impregnazione dell'idruro modificano ulteriormente il comportamento finale.
+- le dimensioni delle granaglie e l'afta epizootica mantenuta influiscono ulteriormente sul comportamento.
 
-Per questo motivo le percentuali di lega sono solo l'inizio. **La composizione stabilisce le fasi possibili; la lavorazione decide la microstruttura; la geometria e l'affilatura decidono come quella microstruttura raggiunge il taglio.**
+Il principio è semplice: ** la composizione definisce le fasi possibili; la lavorazione crea la microstruttura; la geometria e l'affilatura determinano come quella microstruttura raggiunge il taglio.**

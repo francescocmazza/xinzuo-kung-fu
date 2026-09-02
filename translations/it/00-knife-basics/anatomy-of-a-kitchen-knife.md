@@ -1,23 +1,23 @@
 ---
-source_hash: fe386122dda7c7855167dcef0350b77b105bf71b72ce38e15a1b3d8d9faabfde
+source_hash: 164792de9bd3cb84dadcdfe482182718c7a7d9971c8f813bd1d34e1e452c32f0
 ---
 
 # Anatomia di un coltello da cucina
 
-Prima di confrontare le forme della lama, gli acciai o gli angoli di affilatura, aiuta a dare al coltello un vocabolario preciso. Un coltello da cucina può apparire come due semplici pezzi di lama e un manico si incontrano nel punto in cui la mano controlla l'utensile. Conoscere i loro nomi rende le discussioni successive di geometria, equilibrio, costruzione ed ergonomia molto più facile da seguire.
+Prima di confrontare forme di lama, acciai o angoli di affilatura, abbiamo bisogno di un vocabolario preciso. Un coltello da cucina può assomigliare a due semplici pezzi lama e un manico si incontrano dove la mano controlla l'utensile. Conoscere i loro nomi rende la geometria, l'equilibrio, costruzione ed ergonomia più facile da capire.
 
-Non ogni coltello contiene tutte le caratteristiche mostrate qui. Un coltello da cuoco occidentale full-tang, un coltello modellato e un coltello tradizionale asiatico-maniglia possono essere tutti strumenti eccellenti mentre si utilizzano costruzioni molto diverse.
+Non tutti i coltelli hanno tutte le caratteristiche mostrate qui. Un coltello da cuoco occidentale full-tang, un coltello da utilità modellato e un coltello da manico asiatico possono essere tutti strumenti eccellenti con costruzioni molto diverse.
 
 ## Le parti principali a colpo d'occhio
 
-Un coltello fisso da cucina inizia con la lama **. La parte anteriore termina con **tip**; la parte superiore non affilata è la parete **spina**; la grande superficie laterale è la faccia **lama**; il bordo inferiore affilato è il bordo **taglio**; e la parte posteriore della parte di taglio è la parte posteriore **tacchi**. La geometria inclinata che conduce al bordo è la trama **bevel**. La texture visibile o lucidatura della faccia della lama è la sua finitura **superficie**.
+Un coltello fisso da cucina inizia con la lama **. Il suo frontale termina a **tip**; il lato superiore non affilato è il lato **spino**; il lato largo è il lato **lama**; il bordo inferiore affilato è il bordo **taglio**; e la parte posteriore della porzione di taglio è il **tallone**. La geometria inclinata che conduce al bordo è il **bevel**. La texture visibile o lucido sulla faccia della lama è la finitura **superficie**.
 
-L'acciaio continua dietro la lama come **tang**. In molti coltelli occidentali il tang è visibile intorno al contorno della maniglia ed è coperto su entrambi i lati da **manico scale**, di solito fissato con **piumino o perni** e adesivo. La transizione in metallo tra lama e maniglia su molti coltelli da cucina occidentali è il **bolster**. L'estremità posteriore della maniglia è il **butt** o **pommel**.
+Dietro la lama, l'acciaio continua come il **tang**. Su molti coltelli occidentali il tang è visibile intorno alla maniglia e coperto su entrambi i lati da **manico scale**, di solito fissato con adesivi e **piumino o perni**. Molti coltelli da cucina occidentali hanno anche un metallo **bolster** tra lama e maniglia. L'estremità posteriore della maniglia è il **butt** o **pommel**.
 
 <figure class="kb-learning-figure">
 <svg viewBox="0 0 1200 760" role="img" aria-labelledby="knife-anatomy-title knife-anatomy-desc" style="width:100%;height:auto">
 <title id="knife-anatomy-title">Coltello da cucina anatomico</title>
-<desc id="knife-anatomy-desc">Il diagramma superiore mostra un coltello da cucina occidentale con il tagliente rivolto verso il basso. Il diagramma inferiore mostra la costruzione ottagonale nascosta chiamata maniglia asiatica in questo libro.</desc>
+<desc id="knife-anatomy-desc">Due diagrammi etichettati. Il diagramma superiore mostra un coltello da cucina occidentale full-tang con il tagliente rivolto verso il basso. Il diagramma inferiore mostra la costruzione ottagonale nascosta-tang chiamato un manico asiatico in questo libro.</desc>
 
 <rect x="2" y="2" width="1196" height="756" rx="18" fill="#ffffff" stroke="#c8c8c8" stroke-width="2"/>
 
@@ -132,58 +132,58 @@ L'acciaio continua dietro la lama come **tang**. In molti coltelli occidentali i
   <text x="810" y="563">Lama</text>
 </g>
 </svg>
-<figcaption>Il diagramma superiore mostra una comune disposizione occidentale full-tang con il bordo tagliente chiaramente sotto la colonna vertebrale. Il diagramma inferiore mostra la costruzione che questo libro chiama un manico asiatico [49]: un manico ottagonale, una ferrula nella parte anteriore e un tang nascosto all'interno della maniglia.</figcaption>
+<figcaption>Il diagramma superiore mostra una costruzione occidentale comune full-tang. Il diagramma inferiore mostra l'impugnatura asiatica in questo libro: un manico ottagonale, ferrule anteriore e tang nascosto.</figcaption>
 </figure>
 
 ## Terminologia della lama
 
-Il puntale **** è l'estremità anteriore della lama. La sua forma esatta cambia quanto facilmente il coltello entra in piccoli spazi, segna una superficie o effettua correzioni direzionali sottili. Il bordo superiore della lama è **spino**. Spessore della spina e il modo in cui si assottiglia verso la rigidità influenza punta, equilibrio e quanto facilmente la lama passa attraverso il cibo.
+Il puntale **** è la parte anteriore della lama. La sua forma influisce sulla facilità con cui il coltello entra in piccoli spazi, segna una superficie o effettua correzioni direzionali. Il lato superiore **spino** è il lato normalmente privo di sfaccettature. Lo spessore e la conicità verso la punta influenzano la rigidità, l'equilibrio e la facilità con cui la lama passa attraverso il cibo.
 
-Il lato largo della lama è il lato **blade**. La sua geometria non è sempre perfettamente piatta: convessità, cavità, transizioni di rivestimento e altre forme possono cambiare il modo in cui il cibo si muove contro di esso. La finitura **superfici** è la texture finale o l'aspetto posto su quella faccia per esempio satinato, lucido, lucido a specchio, spazzolato, inciso o martellato. Finitura e geometria non devono essere confusi: due lame possono avere un aspetto simile pur avendo spessore e sezione trasversale molto diversi.
+Il lato largo è il volto **blade**. Non è sempre piatto: convessità, cavità, transizioni di rivestimento e altre forme possono cambiare come il cibo si muove contro di esso. La finitura **superfici** è la texture finale o l'aspetto su quel viso, come satinato, lucido, lucido a specchio, spazzolato, inciso o martellato. Finitura e geometria sono diversi: due lame possono apparire simili pur avendo spessore e sezione molto diversi.
 
-Il bordo **taglio** o **bordo** è la linea affilata che realmente entra nel cibo. Subito sopra esso, il **bevel** è la geometria inclinata che restringe la lama verso l'apice. Alcuni coltelli hanno un smussamento primario chiaramente visibile; su altri la transizione è molto più sottile. Sul retro del bordo tagliente, il **heel** è la porzione più vicina al manico. Una breve area o rilievo non sfaccettato può separare il tallone dal supporto o dal manico a seconda del disegno.
+Il bordo **taglio** o **bordo** è la linea affilata che entra nel cibo. Sopra di esso, il **bevel** restringe la lama verso l'apice. Alcuni coltelli hanno un smussamento primario chiaramente visibile; sugli altri la transizione è sottile. Il **heel** è la parte posteriore del bordo tagliente, più vicino alla maniglia. A seconda del design, una breve area non affilata o rilievo può separarlo dal supporto o dalla maniglia.
 
 ## Maneggevolezza, sostegno e tang
 
-La **handle** è la parte progettata per essere tenuta, ma la sua costruzione varia notevolmente. Su un coltello occidentale **full-tang**, il tang continua attraverso essenzialmente la lunghezza completa e il contorno della maniglia. **Scales** sono montati sui suoi due lati e sono comunemente fissati da adesivo insieme con **piumino o perni**. L'acciaio esposto intorno alla maniglia può aggiungere massa e contribuire all'equilibrio del coltello.
+Il **handle** è la parte tenuta dall'utente, ma la sua costruzione varia. Su un coltello occidentale **full-tang**, il tang attraversa quasi tutta la lunghezza e il contorno dell'impugnatura. **Scales** coprire i suoi lati e sono di solito fissati con adesivi e **rivet o perni**. L'acciaio esposto può aggiungere massa e influenzare l'equilibrio.
 
-Un **bolster** è la transizione in metallo rinforzato tra lama e manico trovata su molti coltelli da cucina occidentali. Può essere integrato con la lama o fissato come componente separato. Le sue funzioni possono includere rafforzare la transizione, modellando un comodo punto di contatto per le dita, proteggendo la parte anteriore della maniglia e aggiungendo massa vicino alla mano. Alcuni supporti si estendono verso il basso al tallone; altri sono accorciati o aperti vicino al bordo per rendere più facile l'affilatura. Un supporto non è automaticamente una guardia ****: una protezione è specificamente una proiezione destinata a impedire alla mano di scivolare verso il bordo, e molti coltelli da cucina non hanno una protezione separata a tutti.
+Un **bolster** è la transizione in metallo rinforzato tra lama e manico trovato su molti coltelli da cucina occidentali. Può essere integrato con la lama o fissato separatamente. Può rafforzare la transizione, creare un comodo punto di contatto con le dita, proteggere la parte anteriore della maniglia e aggiungere la massa vicino alla mano. Alcuni supporti si estendono al tallone; altri lasciano il bordo aperto per facilitare l'affilatura. Un supporto non è necessariamente un **guard**. Una guardia è specificamente progettato per fermare la mano scivolare verso il bordo, e molti coltelli da cucina non hanno guardia separata.
 
-Il tang completo è solo un modo sano per costruire un coltello. Un tang** nascosto è più stretto del manico esterno ed è racchiuso al suo interno. Un tang** attraverso il tang** è un tang nascosto che raggiunge il culo e può essere fissato meccanicamente lì. Un tang** parziale o stub termina prima del culo. Le maniglie modellate possono anche incapsulare il tang in modo che non siano visibili né scale né rivetti. Queste costruzioni non devono essere sistemate in una semplice gerarchia di qualità. La durata dipende dalle dimensioni del tang, materiale, misura, fissaggio adesivo o meccanico, uso previsto e i carichi che il coltello è progettato per sopportare.
+Il tang completo è solo una costruzione valida. Un tang **nascosto** è più stretto del manico e racchiuso al suo interno. Un tang **tang** raggiunge il culo e può essere fissato meccanicamente. Un tang **parziale o stub** termina prima del culo. Le maniglie modellate possono incapsulare il tang in modo che non siano visibili scale o rivetti. Nessuna di queste costruzioni crea una semplice gerarchia di qualità. La durata dipende dalle dimensioni del tang, dai materiali, dalla vestibilità, dal fissaggio, dall'uso previsto e dai carichi previsti.
 
 ## Quello che questo libro chiama un manico asiatico
 
-In questo libro, **manico asiatico** è un termine pratico casa per la tradizionale costruzione nascosta-tang comunemente visto con un **ottagonale**, e talvolta ovale, maniglia. La lama entra nella parte anteriore di un manico solido su un tang nascosto, e un **ferrule** o colletto spesso rafforza la parte anteriore della maniglia e crea la transizione verso la lama.
+In questo libro, **manico asiatico** significa la costruzione tradizionale nascosta-tang comunemente accoppiato con un **ottagonale**, e talvolta ovale, maniglia. La lama entra in un manico solido su un tang nascosto, mentre un **ferrule** o colletto spesso rafforza la parte anteriore e forma il passaggio alla lama.
 
-Il termine ha un significato volutamente stretto. Non significa **** che tutti i coltelli fabbricati in Asia utilizzano questa costruzione: molti usano sistemi occidentali full-tang, stampati o altri sistemi di maniglie. Quando questo libro dice **maniglia asiatica**, significa la costruzione ottagonale-ovale nascosta-tang con una ferrula anteriore descritta qui.
+Il termine è intenzionalmente stretto. Non significa **** che tutti i coltelli fabbricati in Asia utilizzano questa costruzione; molti usano sistemi occidentali full-tang, stampati o altri. Qui, **manico asiatico** significa la costruzione ottagonale-ovale nascosta-tang con una ferrula anteriore descritta sopra.
 
-La ferrula è anche diversa da un supporto occidentale. Entrambi si siedono vicino alla giunzione tra lama e manico, ma la ferrula è principalmente un collare intorno alla parte anteriore del materiale della maniglia, mentre il supporto è un componente metallico associato con la lama-e-manico stessa transizione.
+Una ferrula è anche diversa da un supporto occidentale. Entrambi si siedono vicino alla giunzione lama-manico, ma la ferrula è principalmente un collare intorno alla parte anteriore del materiale maniglia, mentre il supporto è un componente metallico alla transizione lama-manico.
 
 ## Durezza, ritenzione dei bordi e flessibilità
 
-Per una selezione pratica del coltello, la regola più semplice da ricordare è questa: **geometria determina quanto facilmente si piega una lama; l'acciaio e il trattamento termico determinano la sicurezza che tollera questa flessione.**
+Per la selezione del coltello, ricordate: **la geometria determina quanto facilmente una lama curva; l'acciaio e il trattamento termico determinano la sicurezza che tollera la flessione.**
 
-Una lama sottile può essere fatta flettere più facilmente di una lama spessa, ma un coltello destinato a flettere ripetutamente richiede anche abbastanza resistenza per sopravvivere alle sollecitazioni laterali. In generale, assumendo una geometria comparabile e una famiglia di acciaio ampiamente comparabile, **la durezza più elevata dà un migliore supporto ad un bordo fine e di solito una migliore ritenzione del bordo, ma meno tolleranza per la piegatura, torsione e impatto severi**. Una lama molto dura forzata troppo lateralmente è più probabile di scheggiare, rompere o rompere che semplicemente prendere una piega permanente.
+Una lama sottile si flette più facilmente di una spessa, ma un coltello progettato per flettere ripetutamente necessita anche di una resistenza sufficiente a sopravvivere alle sollecitazioni laterali. Con una geometria comparabile e famiglie d'acciaio molto simili, **la durezza più elevata sostiene un bordo fine e di solito migliora la ritenzione dei bordi, ma riduce la tolleranza per la piegatura, torsione e impatto severi**. Forzato troppo lateralmente, una lama molto dura è più probabile di scheggiare, rompere o rompere che semplicemente rimanere piegato in modo permanente.
 
-Molti coltelli da taglio di fascia alta usano quindi acciai duri e sono trattati deliberatamente come utensili di precisione relativamente rigidi. La durezza li aiuta a mantenere un bordo fine per lungo tempo, ma non devono essere testati piegandoli. I coltelli dovrebbero colpire l'osso o flex intorno ai contorni comunemente usano acciai più duri, più perdonanti o trattamenti termici a durezza inferiore. Tollerano l'impatto e la deflessione meglio, ma di solito necessitano di manutenzione dei bordi più frequente di una lama di precisione più dura.
+Molti coltelli da taglio di alta gamma utilizzano acciai duri e geometrie di precisione relativamente rigide. Essi mantengono un bordo fine per lungo tempo, ma non devono essere testati piegandoli. Coltelli progettati per colpire l'osso o flex intorno ai contorni di solito utilizzano acciai più resistenti o trattamenti termici di bassa durezza. Tollerano l'impatto e la deflessione meglio, ma normalmente hanno bisogno di manutenzione bordo più frequente.
 
-Un utile ausilio pratico alla memoria è:
+Un utile aiuto alla memoria è:
 
 **lama di precisione più dura = maggiore ritenzione del bordo, meno tolleranza per il flex forzato**  
 **Lama di lavoro più dura/morbida = maggiore tolleranza per flex o impatto, minore ritenzione del bordo**
 
-Si tratta di una regola di allenamento piuttosto che di una formula metallurgica completa. Spessore della lama, cono distale, composizione in acciaio, struttura in carburo, qualità del trattamento termico e geometria dei bordi, ma la regola spiega perché un coltello flessibile, un chopper osso e una affettatrice estremamente dura sono intenzionalmente progettati intorno a compromessi diversi.
+Questa è una regola di allenamento, non una formula metallurgica completa. Spessore lama, cono distale, composizione, struttura in carburo, trattamento termico e geometria dei bordi ancora materia. La regola spiega perché un coltello flessibile, un chopper osso e una affettatrice molto dura a taglio fine utilizzano compromessi diversi.
 
 ## Finitura superficiale e rilievo superficiale
 
-La finitura **superficie** di una lama è il trattamento finale della faccia della lama. Una finitura satinata lascia sottili linee abrasive direzionali; una finitura ad alto lucido o specchio riduce la texture visibile; l'incisione può rivelare strati di Damasco; e altri trattamenti possono cambiare aspetto, tatto tattile, visibilità dei graffi e, in misura limitata, il modo in cui il cibo e l'umidità interagiscono con il viso. La finitura superficiale non determina nitidezza, e una finitura visivamente elaborata non sostituisce una buona geometria.
+La finitura **superficia** di una lama è il trattamento finale del suo viso. Satinato lascia linee abrasive direzionali sottili; lucidatura elevata o lucidante a specchio riduce la texture visibile; l'incisione può rivelare strati di Damasco. Altre finiture possono cambiare aspetto, tatto tattile, visibilità dei graffi e, in misura limitata, come cibo e umidità interagiscono con la lama. La finitura non determina nitidezza e l'aspetto elaborato non può sostituire una buona geometria.
 
 ### Rilievo superficiale: cavità, martellature e texture forgiata
 
-I cavi, le fossette e le superfici martellate sono elementi superficiali, non forme di coltello separate. Interrompono il contatto continuo tra il cibo e la faccia della lama e possono ridurre l'incollaggio o l'aspirazione con alcuni ingredienti umidi, amidori o morbidi. L'effetto dipende dalla profondità e dalla distribuzione del rilievo, dalla finitura della lama, dalla consistenza del cibo e dalla tecnica di taglio.
+I cavi, le fossette e le superfici martellate sono elementi superficiali, non forme di coltello. Interrompono il contatto continuo tra il cibo e la faccia della lama e possono ridurre l'incollaggio o l'aspirazione con alcuni cibi umidi, amidori o morbidi. L'effetto dipende dalla profondità e dalla distribuzione del rilievo, finitura della lama, consistenza del cibo e tecnica di taglio. Il coltello da cuoco con cavità in stile Granton è ancora un coltello da cuoco; un coltello da intaglio con lo stesso trattamento è ancora un coltello da intaglio.
 
-**Hammering** è un motivo di rilievo volutamente creato. Depressioni ripetute lasciano una faccia della lama visibilmente irregolare e possono rompere il contatto continuo tra il cibo e l'acciaio. Il suo effetto pratico dipende dalla profondità effettiva, spaziatura e geometria dei segni piuttosto che dalla sola apparenza.
+**Hammering** crea sollievo superficiale intenzionale. Depressioni ripetute interrompono il contatto tra il cibo e l'acciaio. Il loro effetto pratico dipende dalla profondità, spaziatura e geometria, non apparendo da soli.
 
-Un diverso carattere di superficie tradizionale può venire direttamente dalla forgiatura a mano**. Quando la faccia della lama non è macinata e levigata completamente liscia dopo la forgiatura, una parte dell'irregolarità naturale creata dal processo di forgiatura può rimanere visibile. Questa texture mantenuta forgiata è diversa da un motivo volutamente martellato, anche se entrambi creano rilievo superficiale. Il suo effetto sul rilascio degli alimenti varia con la profondità e la geometria della texture mantenuta; visivamente, conserva anche una traccia diretta del processo di forgiatura.
+Una texture diversa può venire direttamente dalla forgiatura a mano**. Se la faccia della lama non è levigata e completamente liscia, rimane visibile qualche irregolarità dalla forgiatura. Questa texture forgiata mantenuta differisce dalla martellatura deliberata, anche se entrambi creano sollievo. Il suo effetto sulla liberazione degli alimenti dipende dalla profondità e dalla geometria della texture, mentre conserva visivamente una traccia del processo di forgiatura.
 
-Con il comportamento della lama, la costruzione e i trattamenti superficiali ormai stabiliti, le forme della lama possono essere confrontate senza dover interrompere i singoli profili con questi principi generali.
+Con questi principi generali stabiliti, possiamo confrontare le forme della lama senza ripeterle in ogni profilo.

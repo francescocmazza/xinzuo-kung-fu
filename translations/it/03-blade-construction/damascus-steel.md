@@ -1,12 +1,12 @@
 ---
-source_hash: 6c08eece5013a15b49d845f6ca600011bec1949fa3cbea054a723c74a1150151
+source_hash: 2867958126c705a2e8f8fae2c9b7b792a8499a9521da817615d9697977e07f36
 ---
 
 # Damascus Steel - Pattern, Storia e Costruzione
 
-Poche parole nel mondo dei coltelli creano tanto fascino, o tanta confusione, quanto **Damasco**.
+Pochi termini coltello creano tanto fascino e confusione quanto **Damasco**.
 
-Le linee fluenti fanno sembrare una lama come se la sua storia fosse visibile sulla superficie. Questa è spesso la prima cosa che un lettore nota, ed è un buon punto di partenza.
+Le sue linee fluenti sono visivamente impressionanti, ma il motivo da solo non ci dice come la lama è costruita o come si svolgerà.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-FINISH-01">
 <img src="../../assets/images/approved/damascus-pattern-knives-neutral.png" alt="" width="330" height="700">
@@ -15,103 +15,89 @@ Esempi di lame a fantasia Xinzuo. I nomi dei modelli descrivono un disegno visib
 </figcaption>
 </figure>
 
-Questa attrazione è del tutto comprensibile. Damasco può essere bella. Il problema inizia solo quando ogni lama è trattata come la stessa costruzione, o quando il numero di strati visibili è presentato come una misura completa di qualità.
+La parola *Damasco* copre diverse costruzioni. Alcuni coltelli hanno un nucleo centrale duro circondato da strati esterni fantasia. Altri utilizzano materiale multistrato in tutta la lama in modo che gli strati raggiungono il bordo all'avanguardia. Wootz storico appartiene a una tradizione metallurgica diversa, mentre alcuni trattamenti superficiali moderni imitano un modello forgiato senza creare una struttura multistrato.
 
-La parola Damasco è usata per diverse cose. Alcuni coltelli hanno un nucleo centrale duro circondato da strati esterni fantasia. Altri sono realizzati con un materiale multistrato che forma l'intera lama e raggiunge il bordo all'avanguardia. L'acciaio wootz storico rappresenta di nuovo una tradizione metallurgica diversa. Ci sono anche trattamenti superficiali che imitano un modello forgiato senza creare una vera struttura multistrato.
-
-Per capire cosa contribuisce Damasco, la prima domanda dovrebbe pertanto essere:
+Inizia con una domanda:
 
 > Che razza di costruzione di Damasco è questa?
 
 ## Perché il modello appare
 
-Damascus moderno pattern-saldato è generalmente fatta unendo diversi acciai in un unico billet. Gli strati sono forgiati insieme, poi manipolato attraverso piegatura, torsione, taglio, restocking o altri metodi di formatura del modello.
+Moderno modello saldato Damasco è generalmente fatta di forgiatura-saldatura acciai diversi in un unico billetto, poi manipolare gli strati piegando, torsione, taglio, restacking o altri metodi.
 
-Dopo che la lama è sagomata e levigata, è spesso inciso. I diversi acciai reagiscono al processo di incisione a velocità diverse. Alcuni strati diventano più scuri, mentre altri rimangono più luminosi. Il motivo che era già presente all'interno del materiale diventa visibile sulla superficie.
+Dopo la formatura e la lucidatura, la lama viene spesso impressa. Diversi acciai reagiscono all'ebbrezza a velocità diverse, quindi alcuni strati si scuriscono più di altri. L'incisione rivela un motivo già all'interno del materiale; non dipinge il disegno sulla superficie.
 
-Questo è importante: il motivo non è semplicemente dipinto sulla lama. In una vera e propria costruzione saldata a motivo, le linee riflettono la disposizione di diversi strati metallici all'interno del materiale.
+Nella costruzione a pattern, le linee visibili riflettono la disposizione degli strati metallici all'interno della lama.
 
-L'aspetto finale dipende da molte scelte:
+L'aspetto dipende da:
 
-- che gli acciai sono combinati;
-- quanti livelli vengono utilizzati;
-- come viene piegato o manipolato il billet;
-- la profondità della lama;
-- il modo in cui la superficie è levigata;
-- come viene eseguita l'incisione.
+- gli acciai utilizzati;
+- il numero di strati;
+- come viene manipolato il billet;
+- profondità di rettifica;
+- lucidatura;
+- l'incisione.
 
-Questo è il motivo per cui due coltelli con lo stesso conteggio nominale dello strato possono apparire completamente diversi.
+Due coltelli con lo stesso numero di strati possono quindi apparire completamente diversi.
 
 ## Damasco rivestimento intorno a un nucleo duro
 
-Una costruzione da cucina molto comune utilizza un nucleo duro di acciaio al centro della lama, circondato da strati esterni più morbidi. Se questi strati esterni sono pattern-saldati, il coltello viene spesso commercializzato come un coltello Damasco.
+Una costruzione comune del coltello da cucina colloca al centro un nucleo duro di acciaio e lo circonda con strati esterni più morbidi. Quando questi strati esterni sono saldati a motivi, il coltello è comunemente venduto come Damasco.
 
-In questo disegno, il nucleo forma il tagliente. Gli strati fantasia supportano e proteggono il corpo della lama intorno ad esso.
+Il nucleo forma il bordo tagliente. Gli strati esterni sostengono il corpo della lama e creano il motivo visibile.
 
-Questa costruzione ha diversi vantaggi pratici. Gli acciai al nocciolo molto duri possono essere eccellenti nel tenere un bordo, ma possono essere meno indulgenti e più difficili da produrre come una lama piena. Gli strati esterni più morbidi rendono la lama più facile da macinare, sostengono il centro duro e possono migliorare la praticità generale della costruzione.
+Questo permette al maker di combinare le proprietà che sono difficili da ottenere da un acciaio uniforme. Un nucleo duro può contenere un bordo sottile, mentre strati esterni più morbidi lo sostengono e possono rendere la rettifica e la produzione più facile. Il rivestimento può anche influenzare rigidità, peso e comportamento di corrosione.
 
-Il modello visibile Damasco aggiunge bellezza e identità. Può anche influenzare la rigidità, il peso, il comportamento di corrosione e il modo in cui la lama è prodotta.
-
-Tuttavia, le prestazioni di taglio direttamente all'apice sono determinate principalmente da:
+Le prestazioni all'apice dipendono ancora principalmente da:
 
 - il nocciolo dell'acciaio;
-- il trattamento termico di tale nucleo;
+- il suo trattamento termico;
 - spessore dietro il bordo;
-- l'angolo di affilatura;
-- la qualità della rettifica e dell'affilatura finale.
+- angolo di affilatura;
+- qualità di rettifica e affilatura finale.
 
-Ciò significa che due coltelli rivestiti da Damasco possono funzionare in modo molto diverso anche se hanno un modello simile. Gli strati esterni possono apparire quasi identici mentre la geometria dell'acciaio e del bordo del nucleo sono completamente diversi.
+Due coltelli da Damasco possono sembrare quasi identici ma tagliati in modo molto diverso perché il nucleo, il trattamento termico e la geometria differiscono.
 
-Un modo semplice per ricordarlo è:
-
-> In un coltello rivestito da Damasco, gli strati fantasia circondano e sostengono un nucleo duro separato. Il nucleo forma il bordo all'avanguardia, mentre gli strati esterni forniscono struttura e carattere visivo.
+> In un coltello rivestito da Damasco, gli strati fantasia circondano un nucleo duro separato. Il nucleo forma il bordo; gli strati esterni forniscono supporto e carattere visivo.
 
 ## Lame piene di Damasco o saldate con motivi
 
-Una lama piena di Damasco è diversa.
+Una lama completa Damasco utilizza materiale multistrato per la lama stessa piuttosto che intorno ad un nucleo separato. Gli strati alternati continuano nella regione all'avanguardia.
 
-In questa costruzione, il materiale multistrato non è semplicemente posto intorno ad un nucleo separato. L'acciaio stratificato forma il corpo della lama stessa e raggiunge la regione all'avanguardia.
+Questo rende la struttura stratificata direttamente rilevante per il bordo. Se gli acciai differiscono per durezza o comportamento di usura, queste differenze possono influenzare il cambiamento dell'apice durante l'uso. Il capitolo successivo spiega questo effetto differenziale-usura o auto-affilante.
 
-Questo rende più diretto il rapporto tra gli strati e il bordo. Se gli acciai hanno un comportamento diverso di durezza o usura, la struttura alternata può influenzare l'usura del bordo durante l'uso. Questa è la base dell'effetto autoaffilante descritto nel capitolo successivo.
+Completo pattern-saldato lame richiedono anche scelte accurate in:
 
-Una lama completamente saldata deve essere progettata con cura. Le prestazioni dipendono da:
+- compatibilità dell'acciaio;
+- qualità forgiata;
+- orientamento del livello;
+- spessore dello strato vicino al bordo;
+- trattamento termico su tutto il materiale combinato;
+- geometria della lama e del bordo.
 
-- la compatibilità degli acciai scelti;
-- la qualità delle saldature di forgiatura;
-- l'orientamento degli strati;
-- spessore degli strati vicino al bordo;
-- il trattamento termico che deve funzionare su tutto il materiale combinato;
-- la lama finale e la geometria del bordo.
-
-Un bellissimo modello non garantisce che queste scelte tecniche siano state fatte bene. Ma quando gli acciai e il processo sono volutamente selezionati, la costruzione stratificata può essere più che decorativa.
-
-Il messaggio pratico è:
+Un modello bello non può compensare le scelte sbagliate in questi settori. Quando i materiali e il processo sono ben abbinati, la struttura stratificata può influenzare le prestazioni così come l'aspetto.
 
 > In pieno Damasco, gli strati formano la lama e raggiungono il bordo, in modo che le loro diverse proprietà possano influenzare direttamente il comportamento di usura e taglio.
 
 ## Uno schema che ha viaggiato: wootz, Bintie e il nome di Damasco
 
-L'acciaio storico di Damasco è spesso associato a **wootz**, una tradizione crogiolo-acciaio sviluppato attraverso un processo molto diverso dalla saldatura moderna strato.
+L'acciaio storico di Damasco è spesso associato a **wootz**, una tradizione crogiolo-acciaio fatta da un processo molto diverso dalla saldatura moderna strato.
 
-Il Metropolitan Museum of Art traccia la produzione di wootz nel sud dell'India nel mezzo del primo millennio aC. L'acciaio viaggiato come piccoli lingotti o dolci attraverso reti commerciali in altre parti dell'Asia, Medio Oriente e Europa. Lame di questo materiale divenne famosa per una superficie innaffiata. Damasco era un importante centro associato a quella reputazione, e il suo nome divenne attaccato all'acciaio in uso europeo.
+Il Metropolitan Museum of Art traccia la produzione wootz verso l'India meridionale nel mezzo del primo millennio a.C. Piccoli lingotti o torte hanno viaggiato attraverso le reti commerciali in Asia, Medio Oriente ed Europa. Le lame di questo acciaio sono diventate famose per le loro superfici innaffiate. Damasco era un importante centro legato a quella reputazione, e l'uso europeo alla fine ha attaccato il nome della città all'acciaio.
 
-La Cina era parte di questa storia, non un osservatore distante. I testi cinesi usano il nome **Bintie** per un acciaio particolarmente pregiato associato ad una superficie innaffiata e di notevole qualità della lama. Il nome appare chiaramente nei record del periodo nord Wei, mentre i crogioli cinesi e altri processi di ferro avanzati hanno radici precedenti. Alcuni racconti descrivono Bintie che arrivano dalla Persia o dall'Asia centrale; altre prove e pratiche successive puntano alla produzione anche in Cina.
+La Cina faceva parte di questa più ampia rete metallurgica. I testi cinesi usano **Bintie** per l'acciaio pregiato associato ad una superficie innaffiata e ad una qualità eccezionale della lama. Il termine appare chiaramente nei registri del Nord Wei, mentre la lavorazione del crogiolo cinese e altri processi di ferro avanzati hanno radici precedenti. Alcuni racconti descrivono Bintie che arrivano dalla Persia o dall'Asia centrale; altre prove e pratiche successive indicano anche la produzione in Cina.
 
-La conclusione più responsabile è anche la più interessante. Bintie non era probabilmente una ricetta segreta con un luogo di nascita. Era un nome cinese utilizzato all'interno di una rete di acciai al crogiolo ad alto tenore di carbonio, commercializzato e realizzato lungo le rotte che collegano Sud Asia, Asia Centrale, Persia e Cina. Lo storico William Lox sostiene che sia importato e cinese-fuso acciaio crogiolo probabilmente esisteva allo stesso tempo. Cofusione significa fusione di un materiale ad alto tenore di carbonio ferro insieme con ferro a basso tenore di carbonio in modo che l'acciaio finale raggiunge un utile equilibrio.
+Bintie è meglio inteso come un nome cinese all'interno di una rete di acciai al crogiolo ad alto tenore di carbonio commercializzati e prodotti in tutta l'Asia meridionale, Asia centrale, Persia e Cina, non come una ricetta segreta con un certo luogo di nascita. Lo storico William Lox sostiene che l'acciaio al crogiolo di cofusione importato e cinese probabilmente esisteva allo stesso tempo.
 
-Immaginate una piccola torta d'acciaio che si muove ad est o ad ovest tra i commercianti, raggiungendo poi un fabbro che capiva una fornace diversa e una diversa tradizione di forgiatura. L'oggetto viaggiato, ma anche la conoscenza è cambiata in ogni officina. Ecco perché Bintie appartiene al patrimonio metallurgico cinese, anche se non tutte le domande circa la sua origine è stata risolta.
+Le torte d'acciaio possono viaggiare tra i commercianti e poi raggiungere i fabbri utilizzando forni diversi e forgiando tradizioni. Sia il materiale che la conoscenza sono cambiati da officina a officina. Bintie appartiene quindi al patrimonio metallurgico cinese, anche se ogni dettaglio della sua origine rimane instabile. Mostra la Cina che partecipa, adattando e contribuendo ad una più ampia tradizione eurasiatica di acciai speciali a lama.
 
-Wootz non è prodotto impilando strati visibili. Il suo modello si sviluppa dalla struttura interna di un lingotto in acciaio al crogiolo, soprattutto bande ricche di carburo di ferro formata da un'attenta produzione, raffreddamento e forgiatura.
+Wootz non ottiene il suo modello da fogli impilati. Il suo aspetto annaffiato si sviluppa da strutture all'interno di un lingotto di acciaio crogiolo, soprattutto bande ricche di carburo di ferro creato attraverso produzione controllata, raffreddamento e forgiatura.
 
-Questo è anche il motivo per cui la frase "acciaio a crogiolo a strati" può indurre in errore. Wootz storico e Bintie potrebbero mostrare bande fluenti, ma quelle bande non sono state necessariamente fatte impilando e forgiando fogli alternati come in Damasco moderno pattern-saldato. Il modello potrebbe crescere da strutture ricche di carbonio formate all'interno di una massa crogiolo-acciaio.
+Per questo motivo, * acciaio crogiolo strato* può essere fuorviante. Wootz storico e Bintie può mostrare bande fluenti senza essere fatto impilando e forgiando fogli alternati come moderno pattern-saldato Damasco.
 
-La microscopia moderna ha aggiunto un altro capitolo notevole. Nel 2006, Marianne Reibold e i colleghi hanno riportato nanotubi di carbonio e nanofili di cementite in un campione di una sciabola di Damasco del XVII secolo. Si tratta di un'osservazione affascinante, ma deve essere ricordato alla giusta scala: uno studio microscopico di una lama storica, non prova che ogni lama di wootz o Bintie conteneva nanotubi o che i nanotubi da soli hanno creato le loro prestazioni leggendarie.
+La microscopia moderna aggiunge un dettaglio interessante. Nel 2006, Marianne Reibold e i colleghi hanno riportato nanotubi di carbonio e nanofili di cementite in un campione di sciabola da Damasco del XVII secolo. Questo è un risultato da uno studio microscopico di una lama storica. Non dimostra che ogni lama wootz o Bintie conteneva nanotubi o che i nanotubi da soli hanno creato le loro prestazioni.
 
-Damascus moderno pattern-saldato crea il suo design unendo fisicamente e manipolando acciai diversi. La somiglianza visiva ha incoraggiato il nome condiviso, ma la metallurgia non è la stessa.
-
-Le due tradizioni possono entrambi produrre belle lame fantasia, ma non devono essere descritti come la stessa metallurgia.
-
-Le distinzioni sono facili da ricordare:
+Damascus moderno pattern-saldato crea il suo modello unendo e manipolando acciai diversi. L'acciaio crogiolo storico sviluppa il suo pattern all'interno di una massa d'acciaio. La somiglianza visiva ha incoraggiato un nome condiviso, ma la metallurgia è diversa.
 
 > Storico wootz sviluppa il suo modello dalla struttura interna di acciaio crogiolo. Damasco moderno di solito crea il modello forgiando diversi strati di acciaio insieme.
 
@@ -119,140 +105,81 @@ Le distinzioni sono facili da ricordare:
 
 ## Da Bintie a Xinzuo: continuità senza mitologia
 
-È tentativo di tracciare una linea retta da una spada antica ad un coltello da cucina moderno. La storia è raramente così semplice.
+Un'antica spada e un moderno coltello da cucina non formano una linea di produzione ininterrotta.
 
-Le lame inox di Xinzuo Damasco, le lame composite e gli acciai in polvere utilizzano leghe moderne, forni industriali controllati, trattamento termico e testing. Non sono ricostruzioni di una ricetta Bintie persa. La continuità è culturale e tecnica piuttosto che letterale: i produttori cinesi stanno ancora selezionando, combinando e trasformando l'acciaio per bilanciare le prestazioni di taglio, durata, resistenza alla corrosione e bellezza.
+Damascus inox Xinzuo, lame composite e acciai in polvere utilizzano leghe moderne, forni industriali, trattamento termico controllato e testing. Non sono ricostruzioni di una ricetta Bintie persa. La continuità sta nel problema in via di risoluzione: selezione e lavorazione dell'acciaio per bilanciare le prestazioni di taglio, durata, resistenza alla corrosione e bellezza.
 
-Questo è il filo da ricordare in tutto il libro. I materiali cambiarono da crogiolo a polveri atomizzate e leghe specificate con precisione. La domanda centrale non fece: **come si può controllare l'acciaio in modo che una lama svolga un lavoro difficile bene?**
+I materiali cambiarono da crogioli a polveri atomizzate e leghe specificate con precisione. La domanda centrale rimane: **come si può controllare l'acciaio in modo che una lama svolga un lavoro difficile bene?**
 
-## Che cosa significa realmente il conteggio dei livelli
+## Che cosa significa conteggio dei livelli
 
-Il conteggio dei livelli è uno dei numeri più visibili nelle descrizioni dei coltelli. Una lama può essere descritta come 33 strato, 67 strato, 73 strato o 101 strato Damasco.
+Le descrizioni coltello spesso enfatizzano 33, 67, 73 o 101 strati.
 
-Il numero può dirci qualcosa sulla densità del motivo. Più strati generalmente permettono linee più sottili e più distanziate. Possono rendere la superficie più complessa e raffinata.
+Più strati possono creare linee più sottili, più distanziate e un motivo visivo più denso. Il conteggio dei livelli quindi dice qualcosa sulla costruzione e l'aspetto.
 
-Ma lo strato conta da solo non ci dice:
+Di per sé, non ci dice:
 
 - gli acciai utilizzati;
 - se le saldature sono pulite;
 - se il trattamento termico è corretto;
 - quanto sottile è la lama dietro il bordo;
 - quanto bene il coltello era a terra;
-- se il motivo raggiunge il bordo all'avanguardia;
+- se il motivo raggiunge il bordo;
 - se il motivo è principalmente decorativo o parte della struttura di lavoro.
 
-Una lama a strato inferiore realizzata con materiali ben scelti e rifinita con cura può superare la forma di una lama a strato superiore che presenta una geometria scarsa o un trattamento termico.
+Una lama a strato inferiore ben fatta può sovraperformare una lama a strato superiore con una geometria scarsa o un trattamento termico. Il conteggio degli strati descrive la costruzione stratificata e la densità visiva; non è un punteggio di qualità completo.
 
-Questo non rende il conteggio dei livelli senza senso. Significa semplicemente che il conteggio dei livelli è principalmente una descrizione della costruzione e dell'aspetto, non un punteggio di qualità completo.
-
-Un modo semplice per ricordarlo è:
-
-> Più strati possono creare un motivo più sottile e più complesso, ma non creano automaticamente migliori prestazioni di taglio.
+> Più strati possono creare un motivo più sottile e complesso, ma non migliorano automaticamente le prestazioni di taglio.
 
 ## Damasco migliora le prestazioni?
 
-La risposta dipende dalla costruzione.
+Dipende dalla costruzione.
 
-In un coltello damasco, il motivo è per lo più negli strati esterni. La geometria del nucleo e del bordo rimangono i principali driver di prestazioni di taglio. Il rivestimento può ancora sostenere la lama, influenzare la rigidità e rendere un nucleo duro più facile da usare in una struttura pratica.
+In un coltello rivestito da Damasco, gli strati fantasia si trovano al di fuori del nucleo di lavoro. La geometria del nucleo e del bordo rimangono i principali driver delle prestazioni di taglio, mentre il rivestimento può sostenere la lama, influenzare la rigidità e rendere un nucleo duro più pratico da produrre e utilizzare.
 
-In una lama piena di Damasco, gli strati raggiungono il taglio. La loro diversa durezza e il loro comportamento di usura possono contribuire direttamente al carattere del bordo.
+In pieno Damasco, gli strati raggiungono l'avanguardia. Le differenze di durezza e comportamento dell'usura possono quindi influenzare direttamente l'apice.
 
-In entrambi i casi, la qualità della produzione conta più del solo modello.
-
-È quindi troppo semplice dire:
-
-- Il Damascus taglia sempre meglio, o
-- Damascus è solo decorazione.
-
-Una dichiarazione più accurata e ancora facile da capire è:
-
-> Damasco può essere decorativo, strutturale o entrambi. Il suo effetto reale dipende da dove sono gli strati, da cosa sono fatti e da come la lama è finita.
+La qualità di fabbricazione è importante in entrambi i casi. Damasco può essere decorativo, strutturale o entrambi. Il suo effetto pratico dipende da dove sono gli strati, da cosa sono fatti e da come la lama è finita.
 
 ## Schema, rilascio di cibo e sensazione di superficie
 
-A volte i lettori si aspettano che il modello visibile Damasco impedisca che il cibo si attacchi alla lama.
+Le linee di Damasco visibili non garantiscono il rilascio di cibo.
 
-Una superficie profondamente textured o inciso può leggermente cambiare il contatto tra il cibo e l'acciaio, ma le linee visibili da sole non garantiscono un forte rilascio di cibo. Geometria della lama, convessità, altezza, lucidatura superficiale e il tipo di cibo spesso hanno un effetto più grande.
+La texture profonda o l'incisione possono cambiare leggermente il contatto tra il cibo e l'acciaio, ma la geometria della lama, la convessità, l'altezza, il lucido e il cibo stesso spesso contano di più.
 
-Una lama damasco lucidata può sembrare molto liscia. Un'ech più profonda può sentirsi più textured. Né è automaticamente migliore. La finitura desiderata dipende dall'aspetto, pulizia, comportamento di corrosione e l'esperienza di taglio prevista.
-
-Una dichiarazione più accurata è che la superficie ** può contribuire al rilascio di alimenti in alcune condizioni**, piuttosto che promettere che il cibo non si attaccherà mai.
+Il trattamento di superficie può aiutare il rilascio di cibo in alcune condizioni, ma non può promettere che il cibo non si attacca mai.
 
 ## Imitazione e modelli applicati in superficie
 
-Non tutti i modelli visibili in stile Damasco provengono da una costruzione forgiata multistrato.
+Non tutti i modelli in stile Damasco provengono da costruzioni forgiate multistrato.
 
-Un modello può essere applicato con marcatura laser, stampa, mascheramento e incisione, o altri processi superficiali. Questi metodi possono creare una lama attraente. Non c'è nulla di intrinsecamente sbagliato con l'utilizzo di un trattamento decorativo superficie, a condizione che sia descritto onestamente.
+La marcatura laser, la stampa, il mascheramento e l'incisione, e altri processi superficiali possono creare disegni attraenti. Il trattamento decorativo superficiale è legittimo quando descritto accuratamente.
 
-Il problema non è la decorazione. Il problema è chiamarlo forgiato multistrato Damasco quando non esiste una struttura multistrato.
+La differenza è strutturale. Vero modello saldato Damasco contiene strati all'interno del metallo. Un disegno applicato alla superficie esiste solo all'esterno e può svanire con lucidatura o graffi pesanti. Non descrivere un motivo decorativo superficie come forgiato multistrato Damasco quando non esiste struttura multistrato.
 
-Una vera lama saldata a motivi rivela una struttura che continua nel metallo. Un disegno applicato alla superficie esiste solo sulla superficie esterna e può svanire quando la lama è lucidata o pesantemente graffiata.
-
-Un semplice controllo visivo non è sempre possibile dal solo aspetto. Informazioni affidabili sul prodotto dovrebbe indicare chiaramente se la lama è:
+Le informazioni affidabili sul prodotto devono indicare se la lama è:
 
 - Damasco, avvolto intorno al nucleo;
 - pieno modello di Damasco;
 - acciaio storico o moderno a crogiolo;
 - Segnatura laser o decorata in superficie.
 
-## Come valutare un coltello da Damasco
+## Leggere un coltello da Damasco in pratica
 
-La gamma di Xinzuo dimostra perché la costruzione deve essere identificata prima che venga discusso il conteggio degli strati. Comprende lame stratificate con 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, ZDP-189 o 14Cr14MoVNb anime di taglio; costruzioni in rame-Damascus; e 110 strati completi di Damasco personalizzati. Questi non sono usi intercambiabili della stessa idea decorativa. In un nucleo-e-cladding lama il nucleo chiamato crea il bordo, mentre in pieno Damasco gli acciai alternati continuano al bordo.
+Iniziare al bordo. Determinare se un nucleo separato forma l'apice o se il materiale stratificato stesso raggiunge esso. Questo ti dice se Damasco è principalmente rivestimento intorno ad un altro acciaio funzionante o parte della struttura di taglio.
 
-Per un modello Xinzuo, verificare le specifiche della serie attuale per il core steel, il conteggio totale dello strato, la durezza e il trattamento termico.
+Quindi identificare gli acciai e leggerli insieme al trattamento termico e alla geometria. Una buona combinazione necessita ancora di saldature pulite, un'adeguata tempra, uno spessore adeguato dietro il bordo e una buona affilatura.
 
-Invece di guardare solo al modello, fare una serie di domande pratiche.
+Infine, una finitura visibile separata dalla costruzione interna. Un disegno forgiato, etch profondo e superficie applicata può tutti guardare sorprendente mentre rappresentano strutture diverse. Il rilascio di cibo dipende anche da tutta la faccia della lama e la geometria, non semplicemente le linee visibili.
 
-### Che cosa forma l'avanguardia?
+La gamma Xinzuo comprende lame stratificate con 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, ZDP-189 o 14Cr14MoVNb core; costruzioni rame-Damascus; e personalizzato 110-strato completo Damasco. In core-and-clading lame, il nucleo chiamato forma il bordo. In pieno Damasco, alternando acciai continuano al bordo. [Guida Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) spiega i materiali dietro queste costruzioni.
 
-C'è un nucleo separato di acciaio o il materiale stratificato raggiunge l'apice?
-
-### Quali acciai vengono utilizzati?
-
-Le proprietà degli strati contano più del loro numero.
-
-### Come viene trattata la lama?
-
-Una combinazione ben progettata necessita ancora di un corretto trattamento termico.
-
-### Quanto è sottile la geometria?
-
-Una bella lama con geometria spessa può tagliare meno facilmente di un coltello più semplice ma migliore.
-
-### Il modello è forgiato o applicato in superficie?
-
-Entrambi possono essere attraenti, ma non devono essere confusi.
-
-### Che cosa è il coltello progettato per fare?
-
-Un affettatore delicato e un robusto coltello per uso generale non devono essere giudicati secondo lo stesso standard.
-
-## Incomprensioni comuni
-
-### Più strati significano sempre più alta qualità
-
-Più strati cambiano principalmente densità del motivo. La qualità complessiva dipende dai materiali, dalla saldatura, dal trattamento termico, dalla geometria e dalla finitura.
-
-### Ogni coltello damasco è pieno damasco.
-
-Molti coltelli da cucina utilizzano Damasco solo come rivestimento esterno intorno ad un nucleo separato.
-
-### Damascus è sempre puramente decorativo
-
-In alcune costruzioni è principalmente visivo. In pieno pattern-saldate lame, gli strati possono influenzare direttamente il comportamento bordo.
-
-### Un motivo visibile dimostra che la lama è forgiata in acciaio multistrato
-
-I trattamenti di superficie laser e chimici possono anche creare un modello.
-
-### Il modello da solo impedisce agli alimenti di attaccare
-
-Il rilascio di cibo dipende dalla forma e dalla superficie dell'intera lama, non solo dalle linee visibili.
+Giudicare in questo ordine: **per prima cosa identificare ciò che forma il bordo, poi i materiali e il trattamento termico, poi la geometria, e solo allora interpretare il conteggio dei livelli e il modello**.
 
 ## Cosa ricordare
 
-> Damasco non è un grado di qualità universale. Si tratta di una famiglia di costruzioni e stili visivi. In alcuni coltelli gli strati fantasia circondano un nucleo duro separato. In pieno Damasco lame gli strati formano la lama e raggiungere il taglio. Il valore reale dipende dagli acciai utilizzati, la saldatura fucina, il trattamento termico, la geometria e la qualità della finitura.
+> Damasco non è un grado di qualità universale. Si tratta di una famiglia di costruzioni e stili visivi. In alcuni coltelli, strati fantasia circondano un nucleo duro separato. In Damasco completo, gli strati formano la lama e raggiungere il taglio. Valore dipende dagli acciai, saldatura forgia, trattamento termico, geometria e finitura.
 
-Il modello può essere ciò che attrae prima l'occhio. Capire la costruzione rivela ciò che il modello in realtà significa.
+Il modello può attirare l'occhio prima. Capire la costruzione ti dice cosa significa questo modello.
 
 > **Principio di pratica:** leggi la struttura prima di giudicare il modello.

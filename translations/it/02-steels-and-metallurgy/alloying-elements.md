@@ -1,16 +1,16 @@
 ---
-source_hash: cafa35d84e29ea2a1dc5513a7f9cee531dfe0150f660de4b3ce00213b4074b84
+source_hash: b352fd89e537ed13bcde80bef137e6363991d18eccadeeec72e78891fa31d560
 ---
 
 # Elementi di lega
 
-L'acciaio è spesso descritto come se fosse un elenco di ingredienti. Una pagina del prodotto può menzionare carbonio, cromo, molibdeno, vanadio, tungsteno o cobalto, a volte con il suggerimento che una lista più lunga significa automaticamente un coltello più avanzato.
+L'acciaio è spesso presentato come un elenco di ingredienti. Una pagina del prodotto può menzionare carbonio, cromo, molibdeno, vanadio, tungsteno o cobalto e implica che una lista più lunga significa un coltello migliore.
 
-La realtà è più interessante e più utile. L'acciaio si comporta più come una ricetta che come una lista della spesa. Il risultato dipende da quanto di ogni elemento è presente, come gli elementi interagiscono, come l'acciaio viene prodotto e come viene successivamente trattato termicamente. Due leghe possono contenere ingredienti simili e ancora comportarsi in modo molto diverso.
+L'acciaio è più vicino a una ricetta. Il risultato dipende da quanto di ogni elemento è presente, come gli elementi interagiscono, come l'acciaio è fatto e come è trattato termicamente. Due leghe con ingredienti simili possono comportarsi in modo molto diverso.
 
-Tre principi sono da tenere a mente fin dall'inizio. Nessun elemento di lega funziona da solo; più di un elemento non è automaticamente migliore; e la composizione crea possibilità che il trattamento termico e la geometria della lama devono ancora trasformarsi in prestazioni utili.
+Tenete a mente tre principi: nessun elemento di lega funziona da solo; di più non è automaticamente migliore; e la composizione crea possibilità che il trattamento termico e la geometria della lama devono trasformarsi in prestazioni utili.
 
-Il catalogo di Xinzuo rende queste interazioni calcestruzzo. La gamma comprende acciai inossidabili ricchi di cromo, cobalto-cuscinetto 10Cr15CoMoV, geo-cuscinetto 14Cr14MoVNb, azoto-legato 14C28N, tungsteno-cuscinetto Blue Steel No. 2 e polvere-metallurgia acciai come SRS13, M390 e ZDP-189. I loro nomi non sono un elenco di ingredienti di prestigio. Ogni ricetta è destinata a produrre un equilibrio diverso.
+La gamma di Xinzuo rende queste interazioni calcestruzzo. Esso comprende acciai inossidabili ricchi di cromo, cobalto-cuscinetto 10Cr15CoMoV, geo-cuscinetto 14Cr14MoVNb, azoto-legato 14C28N, tungsteno-cuscinetto Blue Steel No. 2 e polvere-metallurgia acciai come SRS13, M390 e ZDP-189. Ognuno è una ricetta metallurgica diversa costruita intorno a un diverso equilibrio.
 
 ## Una panoramica compatta
 
@@ -25,100 +25,100 @@ Il catalogo di Xinzuo rende queste interazioni calcestruzzo. La gamma comprende 
 | **Nickel - Ni** | Può migliorare la durezza ed è utile nel contrasto strati Damasco | Durezza in leghe adatte e brillante contrasto del motivo | Non determina di per sé la qualità all'avanguardia |
 | **Nitrogeno - N** | Può contribuire alla durezza e resistenza alla corrosione riducendo la dipendenza dal carbonio | Comportamento fine dei bordi e forti prestazioni di corrosione in leghe adatte | Richiede acciaio controllato ed è meno comune negli acciai tradizionali a coltello |
 
-La tabella è una mappa. Le sezioni che seguono spiegano perché lo stesso elemento può aiutare una proprietà mentre ne complica un'altra.
+La tabella è una mappa. Le sezioni seguenti mostrano come lo stesso elemento può migliorare una proprietà mentre ne complica un'altra.
 
-## Carbonio: l'elemento che rende possibile il coltello duro in acciaio
+## Carbonio: ciò che rende possibile il coltello duro in acciaio
 
-Il carbonio è l'elemento di lega centrale nella maggior parte degli acciai a coltello. Senza abbastanza carbonio, il ferro non può sviluppare la durezza necessaria per un taglio durevole.
+Il carbonio è l'elemento di lega centrale nella maggior parte degli acciai a coltello. Senza abbastanza carbonio, il ferro non può raggiungere la durezza necessaria per un taglio durevole.
 
-Una percentuale in massa può rendere la quantità di carbonio quasi trascurabile. Un acciaio contenente **0,5% di carbonio in massa contiene solo 0,5 grammi di carbonio in ogni 100 grammi di materiale**. A livello atomico, tuttavia, il carbonio è molto più leggero del ferro. La stessa composizione corrisponde approssimativamente a **un atomo di carbonio per ogni 43 atomi di ferro**. Una quantità che appare minuscola quando misurata dalla massa è quindi abbastanza grande, atomicamente, per cambiare la struttura cristallina e il comportamento meccanico del ferro profondamente.
+Una percentuale di massa può rendere la quantità suono piccolo. **0,5% carbonio in massa significa solo 0,5 grammi di carbonio in 100 grammi di acciaio.** Ma il carbonio è molto più leggero del ferro, quindi questo è approssimativamente **un atomo di carbonio per ogni 43 atomi di ferro**. Una piccola frazione di massa può cambiare fortemente la struttura cristallina del ferro e il comportamento meccanico.
 
-Nelle relative soluzioni solide, gli atomi di carbonio sono sufficientemente piccoli da occupare **siti interstiziali** tra gli atomi di ferro nel reticolo cristallino. La loro solubilità e le posizioni interstiziali preferite dipendono dalla fase e dalla temperatura. Durante il trattamento termico il carbonio può muoversi in soluzione in galattosio, rimanere intrappolato nella struttura martensitica distorta dopo l'estinzione, o combinarsi con elementi di ferro e lega per formare carburi. Distinguere il carbonio interstiziale in soluzione solida dai carburi e dalle inclusioni non metalliche è essenziale per capire cosa fa effettivamente il carbonio in acciaio.
+Il carbonio non è semplicemente un'inclusione del ferro. Nelle relative soluzioni solide, i suoi piccoli atomi occupano **siti interstiziali** tra atomi di ferro nel reticolo cristallino. La loro solubilità e le posizioni preferite dipendono dalla fase e dalla temperatura. Durante il trattamento termico, il carbonio può dissolversi in anidride carbonica, diventare intrappolato in martensite distorto dopo l'estinzione, o combinarsi con elementi di ferro e lega per formare carburi.
 
-Molto prima che qualcuno potesse descrivere il carbonio con una formula chimica moderna, i metalmeccanici hanno imparato a controllarne l'effetto attraverso il fuoco, il tempo e la miscelazione di diversi materiali di ferro. Bintie cinese e wootz sud asiatico sono esempi memorabili. I loro produttori non stavano aggiungendo un ingrediente alla moda ad un'etichetta; controllavano il carbonio abbastanza da produrre acciaio con lama con proprietà insolite.
+I metalmeccanici controllavano il carbonio attraverso il fuoco, il tempo e le combinazioni di materiali di ferro molto prima che la chimica moderna potesse spiegarlo. Bintie cinese e wootz sud asiatico sono esempi memorabili: i loro produttori controllavano il carbonio abbastanza da creare proprietà di lama insolite.
 
-Durante il trattamento termico, il carbonio entra in soluzione in 1,0%e e quindi aiuta la forma di acciaio martensite duro durante la tempra. Il carbonio può anche combinare con ferro, cromo, vanadio, tungsteno, etossilato e altri elementi per formare carburi. Queste particelle dure possono contribuire fortemente alla resistenza all'usura.
+Durante il trattamento termico, il carbonio disciolto aiuta l'acciaio a formare martensite dura durante l'estinzione. Può anche combinare con ferro, cromo, vanadio, tungsteno, magnesite e altri elementi per formare carburi duri che aggiungono resistenza all'usura.
 
-Più carbonio può quindi sostenere una maggiore durezza e resistenza all'usura, ma solo entro i limiti della lega completa e trattamento termico. Una volta che il carbonio inizia a creare un volume di carburo eccessivo o una matrice sfavorevole, i compromessi diventano più importanti. La durezza può cadere, l'affilatura può diventare più lento e, negli acciai inossidabili, il carbonio può consumare cromo nei carburi ricchi di cromo.
+Più carbonio può sostenere una maggiore durezza e resistenza all'usura, ma solo all'interno del bilancio della lega completa e trattamento termico. Troppo volume di carburo o una matrice sfavorevole può ridurre la durezza, l'affilatura lenta e, negli acciai inossidabili, consumare cromo nei carburi ricchi di cromo.
 
-Quest'ultima interazione è particolarmente importante. Il carbonio non aggiunge semplicemente durezza mentre il cromo aggiunge indipendentemente resistenza alla corrosione. I due gareggiano l'uno per l'altro. L'aumento del carbonio tende ad aumentare la quantità di cromo che può essere legato nei carburi, il che significa che un acciaio inossidabile ad alto tenore di carbonio richiede generalmente più cromo nominale, o un trattamento termico accuratamente progettato e aggiunte di lega di supporto, per preservare una quantità comparabile di cromo in soluzione.
+L'interazione carbonio-cromo è particolarmente importante. Il carbonio sostiene la durezza; il cromo sostiene la resistenza alla corrosione. Più carbonio può legare più cromo nei carburi, lasciando meno disponibili per la passivazione. Un acciaio inossidabile ad alto carbonio richiede generalmente più cromo nominale, un trattamento termico attento, aggiunte di lega di sostegno o una combinazione di queste misure per mantenere una forte resistenza alla corrosione.
 
 ## Cromo: la base del comportamento inossidabile
 
-Il cromo è l'elemento che rende possibile l'acciaio inossidabile. La soglia compositiva ampiamente accettata per l'acciaio inossidabile è ** almeno 10,5% di cromo in massa**, ma il numero deve essere interpretato correttamente. Si tratta di una soglia di classificazione, non una garanzia che ogni acciaio sopra di esso mostrerà la stessa resistenza alla corrosione.
+Il cromo rende possibile l'acciaio inossidabile. La soglia compositiva ampiamente utilizzata è ** almeno 10,5% di cromo in massa**. Ciò classifica l'acciaio; non significa che ogni acciaio sopra la soglia resista ugualmente bene alla corrosione.
 
-Il cromo funziona attraverso **passivation**. Quando abbastanza cromo è disponibile nella matrice d'acciaio e la superficie è esposta all'ossigeno, una pellicola di ossido di cromo molto sottile si forma naturalmente sul metallo. La pellicola è solo pochi nanometri di spessore, ma è densa, fortemente aderente e abbastanza stabile chimicamente per separare il ferro sottostante da gran parte del suo ambiente. Se la pellicola è graffiata, si riforma normalmente quando è disponibile ossigeno sufficiente. La ruggine di ferro ordinario, al contrario, è porosa e poco protettiva, in modo che la corrosione può continuare sotto di esso.
+Il cromo funziona attraverso **passivation**. Quando abbastanza cromo è disponibile nella matrice e la superficie è esposta all'ossigeno, una pellicola di ossido ricca di cromo molto sottile forma naturalmente. Solo pochi nanometri di spessore, è denso, aderente e abbastanza stabile per proteggere il ferro sotto. Se graffiato, si riforma normalmente quando abbastanza ossigeno è disponibile. La ruggine di ferro ordinario è poroso e poco protettivo, in modo da corrosione continua sotto di esso.
 
-Questo spiega sia la forza che la limitazione della parola *inox*. La pellicola protettiva può fare la differenza tra una lama che macchia rapidamente e una che tollera molto bene l'umidità normale della cucina, ma la pellicola può ancora essere danneggiata o scomposta localmente da condizioni quali i cloruro, l'umidità prolungata, gli acidi o la contaminazione.
+Questo spiega sia il valore che il limite della parola *inox*. La pellicola passiva può fare una lama tollerare l'umidità normale cucina molto bene, ma cloruro, umidità prolungata, acidi e contaminazione può ancora danneggiare.
 
-Anche il cromo stampato su un foglio di composizione non è tutto uguale. Il cromo che ha combinato con il carbonio per formare carburi non è più completamente disponibile per costruire il film passivo. Con l'aumento del contenuto di carbonio, più cromo può essere consumato in questo modo. Ecco perché due acciai con lo stesso cromo nominale possono mostrare un comportamento di corrosione molto diverso e perché un acciaio coltello a più alto tenore di carbonio richiede generalmente un più alto contenuto di cromo per ottenere un livello simile di resistenza alla corrosione.
+Il contenuto nominale di cromo inoltre non mostra quanto cromo rimane disponibile per la passivazione. Il cromo legato nei carburi non può contribuire pienamente al film passivo. Con l'aumento del carbonio, più cromo può essere consumato nei carburi. Due acciai con lo stesso cromo nominale possono quindi corrodere in modo diverso, e un acciaio più carbonioso di solito ha bisogno di più cromo per ottenere resistenza alla corrosione simile.
 
-Il trattamento termico cambia di nuovo l'equilibrio. Durante la dissolvenza, alcuni carburi di cromo si sciolgono, restituendo cromo e carbonio alla soluzione. La sequenza di temperatura, tempo e raffreddamento scelta influenzano quindi non solo la durezza ma anche la quantità di cromo disponibile nella struttura finale. Molibdeno e azoto possono rafforzare ulteriormente la resistenza alla corrosione localizzata, in particolare il pitting.
+Il trattamento termico cambia di nuovo l'equilibrio. Durante la biodegradabilità, alcuni carburi di cromo si sciolgono, restituendo cromo e carbonio alla soluzione. Temperatura, tempo e raffreddamento influenzano sia la durezza che il cromo disponibili nella struttura finale. Molibdeno e azoto possono migliorare ulteriormente la resistenza alla corrosione localizzata, in particolare pitting.
 
-La resistenza alla corrosione risultante è quindi il prodotto di un sistema accuratamente bilanciato: cromo, carbonio, cromo in soluzione, formazione di carburo, molibdeno, azoto, trattamento termico, finitura superficiale e l'ambiente contribuiscono tutti.
+La resistenza alla corrosione viene da tutto il sistema: cromo, carbonio, cromo in soluzione, carburi, molibdeno, azoto, trattamento termico, finitura superficiale e ambiente.
 
-Lo sviluppo storico delle posate inox illustra questa chimica. Nel 1913 Harry Brearley produsse un acciaio al cromo a Sheffield contenente circa il 12,8% di cromo e 0,24% di carbonio che divenne strettamente associato alla nascita pratica delle posate inox. Altri ricercatori avevano già studiato leghe di ferro-cromo resistenti alla corrosione, ma il lavoro di Brearley ha contribuito a trasformare il principio in un vantaggio materiale quotidiano. Il risultato non era che il cromo rendeva l'acciaio immune alla corrosione; era che la lega poteva formare una superficie passiva abbastanza stabile per rendere i coltelli ordinari drammaticamente più facile da mantenere.
+La storia delle posate inox illustra la chimica. Nel 1913 Harry Brearley produsse un acciaio al cromo Sheffield contenente circa il 12,8% di cromo e 0,24% di carbonio che divenne strettamente associato alla nascita pratica delle posate inox. Altri ricercatori avevano già studiato leghe di ferro-magnesite resistenti alla corrosione, ma il lavoro di Brearley ha contribuito a trasformare il principio in un vantaggio quotidiano. La lega non era immune alla corrosione; era molto più facile da mantenere perché la sua superficie poteva formare un film passivo stabile.
 
-Il cromo può anche formare carburi duri. In acciai adatti queste particelle aumentano la resistenza all'usura, motivo per cui il cromo può contribuire sia al comportamento di corrosione che alla ritenzione dei bordi. Lo stesso atomo di cromo, tuttavia, non può essere legato contemporaneamente in un carburo e liberamente disponibile nella matrice per la passivazione.
+Il cromo può anche formare carburi duri che aggiungono resistenza all'usura. Ma un atomo di cromo legato in un carburo non può allo stesso tempo rimanere disponibile nella matrice per la passivazione. Questa competizione è un chiaro esempio di progettazione della lega come un equilibrio.
 
-## Molibdeno: stabilità e resistenza alla corrosione localizzata più forte
+## Molibdeno: stabilità e resistenza al pitting
 
-Molibdeno è meno visibile nel linguaggio del prodotto, ma svolge diversi utili ruoli di supporto. Migliora l'induribilità, aiutando un acciaio a sviluppare la struttura prevista in modo più affidabile durante il trattamento termico, e supporta la resistenza e la stabilità a temperature elevate.
+Molibdeno svolge diversi utili ruoli di supporto. Migliora l'induribilità, aiutando l'acciaio a sviluppare la struttura prevista in modo più affidabile durante il trattamento termico e supporta la resistenza e la stabilità a temperature elevate.
 
-Negli acciai inossidabili, molibdeno è particolarmente prezioso perché migliora la resistenza a forme localizzate di corrosione come il pitting in ambienti contenenti cloruro. Non sostituisce il cromo; rafforza la protezione fornita da un acciaio cromato-passivated.
+Negli acciai inossidabili, molibdeno migliora anche la resistenza alla corrosione localizzata come il pitting in ambienti ricchi di cloruro. Rafforza la protezione del cromo piuttosto che sostituirlo.
 
-In termini pratici, molibdeno aiuta a spiegare perché due acciai con contenuto di cromo simile può comportarsi in modo diverso intorno al sale e umidità. La sua presenza contribuisce anche alla finestra di trattamento termico generale e, in alcune leghe, al comportamento di usura. Il costo è maggiore complessità lega e spese materiali.
+Questo aiuta a spiegare perché gli acciai con un tenore di cromo simile possono comportarsi in modo diverso intorno al sale e all'umidità. Il molibdeno può anche influenzare la finestra di trattamento termico e, in alcune leghe, il comportamento di usura.
 
-## Vanadio: struttura fine e carburi estremamente duri
+## Vanadio: struttura fine e carburi molto duri
 
-Vanadium è interessante perché il suo ruolo cambia con la quantità e con il resto della lega.
+Il ruolo di Vanadium dipende dalla sua quantità e dal resto della lega.
 
-A livelli modesti, il vanadio può aiutare a controllare la crescita dei cereali durante il trattamento termico. Un granello fine può sostenere la durezza e la stabilità dei bordi. A un volume più efficace di carburo, il vanadio forma carburi di vanadio molto duri, che sono sostanzialmente più difficili dei comuni carburi di ferro o di cromo e possono aumentare fortemente la resistenza all'usura abrasiva.
+A livelli modesti, può aiutare a controllare la crescita del grano durante il trattamento termico. Grano fine galattosio può sostenere la durezza e la stabilità dei bordi. A un volume di carburo più efficace, il vanadio forma carburi estremamente duri che possono aumentare notevolmente la resistenza all'usura abrasiva.
 
-Questo è il motivo per cui gli acciai ad alta polvere di vanadium possono mantenere un bordo di affettatura per lungo tempo. Gli stessi carburi anche resistere abrasivi ordinari, in modo da ri-profilatura o lucidatura può essere molto più lento con pietre convenzionali. Diamante o altri abrasivi ad alte prestazioni sono spesso più efficienti.
+Gli acciai ad alta polvere di vanadium possono mantenere un bordo di affettatura per lungo tempo. Gli stessi carburi resistere abrasivi ordinari, in modo da riprofilatura o lucidatura può essere lento su pietre convenzionali. Diamante e altri abrasivi ad alte prestazioni sono spesso più efficienti.
 
-Il Vanadium non deve quindi essere descritto principalmente come un ingrediente antiruggine; i suoi ruoli più importanti sono il controllo microstrutturale e la formazione di carburo duro.
+In acciaio coltello, il vanadio si occupa principalmente del controllo microstrutturale e della formazione di carburo duro, non della resistenza alla ruggine.
 
 ## Tungsteno: carburi durevoli e stabilità ad alta temperatura
 
-Tungsteno forma carburi duri e contribuisce alla resistenza contro l'usura. E 'comune negli acciai utensili e negli acciai tradizionali carta blu giapponese, dove aiuta a sostenere una struttura di taglio dura e duratura.
+Tungsteno forma carburi duri e aumenta la resistenza all'usura. E 'comune negli acciai utensili e acciai tradizionali carta blu giapponese, dove supporta una struttura di taglio dura e durevole.
 
-Per un coltello da cucina, tungsteno può contribuire ad un bordo aggressivo che mantiene la capacità di taglio utile per lungo tempo. Il trade-off assomiglia a quello di altri elementi di formazione di carboidrati duri: la stessa resistenza all'usura che ritarda l'usura bordo resiste anche alla pietra affilatura. In una lama spinta a durezza molto alta e geometria molto sottile, il sistema generale richiede anche una tecnica più attenta.
+In un coltello da cucina, tungsteno può aiutare a mantenere un bordo aggressivo per lungo tempo. La stessa resistenza all'usura resiste anche alla pietra di affilatura, quindi l'affilatura può richiedere più tempo o richiedere abrasivi più efficienti.
 
-Tungsteno è quindi parte di una ricetta di prestazioni, non una garanzia di superiorità da solo.
+Tungsteno è una parte della ricetta, non una garanzia di superiorità.
 
 ## Cobalto: supporto al trattamento termico esigente
 
-Il cobalto è talvolta presentato come se la sua mera presenza rendesse una lama più forte o prestigiosa. Il suo ruolo è più specifico.
+Il cobalto è talvolta presentato come se la sua presenza rendesse automaticamente una lama più forte o prestigiosa. Il suo ruolo è più specifico.
 
-Il cobalto può sostenere la durezza e la stabilità durante il trattamento termico ad alta temperatura. In acciai idonei ad alta lega ciò conferisce al trattamento termico una maggiore libertà di perseguire complesse combinazioni di durezza e microstruttura.
+In acciai ad alta lega adatti, il cobalto può sostenere durezza e stabilità durante il trattamento termico ad alta temperatura, dando al trattamento termico più spazio per perseguire complesse combinazioni di durezza e microstruttura.
 
-Non rende automaticamente un coltello più duro, più resistente alla corrosione o più facile da affilare. Queste proprietà dipendono ancora dalla composizione completa e processo. Poiché il cobalto è costoso, la sua presenza può aumentare il costo del materiale, ma il costo da solo non è la prova di prestazioni migliori.
+Il cobalto da solo non rende un coltello più duro, più resistente alla corrosione o più facile da affilare. Queste proprietà dipendono dalla lega completa e processo. È costoso, ma il costo da solo non dimostra prestazioni.
 
 ## Nichel: durezza e contrasto visivo
 
 Il nichel può migliorare la resistenza negli acciai adatti ed è ampiamente utilizzato in Damasco saldato a motivi perché gli strati ricchi di nichel rimangono luminosi dopo l'incisione, creando contrasto con gli strati più scuri.
 
-Quel ruolo visivo conta. Un modello Damasco diventa visibile perché gli strati vicini rispondono in modo diverso durante la finitura e l'incisione. Il nichel può aiutare a produrre linee chiare e luminose, ma uno strato luminoso di nichel non migliora automaticamente il taglio.
+Un modello Damasco appare perché gli strati adiacenti reagiscono in modo diverso durante la finitura e l'incisione. Il nichel può creare linee chiare senza migliorare automaticamente il taglio.
 
-In molti coltelli rivestiti di Damasco, gli strati sagomati si trovano all'esterno di un nucleo separato di acciaio che forma l'apice. Nelle costruzioni completamente saldate, l'effetto dipende dal fatto che il materiale nichelato raggiunga il bordo e dalle proprietà della combinazione completa.
+In molti coltelli rivestiti di Damasco, gli strati sagomati si trovano all'esterno di un nucleo separato di acciaio che forma l'apice. Nelle costruzioni completamente saldate, l'effetto del materiale nichel-portante dipende dal fatto che raggiunga il bordo e dalle proprietà dell'intera combinazione.
 
 ## Azoto: un'altra via per la durezza e la resistenza alla corrosione
 
-L'azoto può svolgere alcuni ruoli normalmente associati al carbonio, permettendo al tempo stesso che più cromo rimanga disponibile per la resistenza alla corrosione. In acciai adatti contribuisce alla durezza e può formare nitruri pur supportando una matrice altamente resistente alla corrosione.
+L'azoto può svolgere alcuni ruoli associati al carbonio lasciando più cromo disponibile per la resistenza alla corrosione. In acciai adatti contribuisce alla durezza, può formare nitruri e supporta una matrice altamente resistente alla corrosione.
 
-Questo è uno dei motivi per cui gli acciai legati all'azoto possono offrire una combinazione particolarmente attraente di comportamento fine-bordo e resistenza alla ruggine. Sandvik 14C28N, utilizzato da Xinzuo, è un esempio accessibile di un acciaio coltello progettato intorno ad un bilanciamento controllato carbonio-azoto piuttosto che semplicemente massimizzare il carbonio.
+Sandvik 14C28N, usato da Xinzuo, è un esempio accessibile di un coltello in acciaio progettato intorno ad un bilanciamento controllato carbonio-azoto piuttosto che semplicemente massimizzare il carbonio.
 
-La produzione di acciai legati all'azoto richiede un'industria siderurgica controllata e le loro prestazioni finali dipendono ancora dal trattamento termico e dalla geometria della lama.
+Gli acciai legati all'azoto richiedono un'industria siderurgica controllata e le loro prestazioni finali dipendono ancora dal trattamento termico e dalla geometria.
 
-## Perché le percentuali da sole non bastano
+## Perché le percentuali non sono sufficienti
 
-Un grafico di composizione è utile, ma non può prevedere l'esecuzione completa di un coltello finito.
+Una tabella di composizione non può prevedere l'esecuzione completa di un coltello finito.
 
-Lo stesso acciaio nominale può essere trattato termicamente a diversi livelli di durezza. Un produttore può favorire la resistenza, mentre un altro spinge l'acciaio più duro per una maggiore stabilità dei bordi e resistenza all'usura. Un coltello può essere macinato sottile dietro il bordo, mentre un altro utilizza una geometria più conservativa. Finitura superficiale, mantenuto carburo di ferro, distribuzione e qualità di fabbricazione può anche cambiare la corrosione, la resistenza e la risposta di affilatura.
+Lo stesso acciaio nominale può essere trattato termicamente a diversi livelli di durezza. Un produttore può favorire la durezza; un altro può spingere la durezza per una maggiore stabilità dei bordi e resistenza all'usura. La geometria varia anche: una lama può essere molto sottile dietro il bordo, mentre un altro utilizza una sezione più conservativa. Finitura superficiale, mantenuto carburo, distribuzione carburo e produzione di qualità cambiare resistenza alla corrosione, resistenza e risposta di affilatura ulteriore.
 
-Anche l'ubicazione di un elemento legante è importante. Il cromo dissolto nella matrice può sostenere la passivazione; il cromo bloccato nei carburi si comporta in modo diverso. Il Vanadio nei carburi duri contribuisce fortemente alla resistenza all'usura; il vanadio che non forma mai la popolazione di carburo prevista non può fornire lo stesso effetto. Una percentuale di massa quindi descrive ciò che è stato messo nell'acciaio, non automaticamente ciò che esiste nella microstruttura finale.
+Dove un elemento finisce anche importa. Il cromo dissolto nella matrice può sostenere la passivazione; il cromo bloccato nei carburi si comporta in modo diverso. Il Vanadio nei carburi duri aggiunge resistenza all'usura; il vanadio che non forma la popolazione di carburo prevista non può fornire lo stesso effetto. Una percentuale di massa ci dice che cosa è entrato nell'acciaio, non esattamente ciò che esiste nella microstruttura finale.
 
-Questo è anche il motivo per cui le affermazioni di etichette familiari hanno bisogno di interpretazione piuttosto che di ripetizione.Il colofonia ad alto tenore di carbonio di solito punta verso l'induribilità e la durezza potenziale; il colofonia ad alto cromo di solito punta verso la resistenza alla corrosione solo se abbastanza cromo rimane in soluzione; il colofonia avanadio punta verso la resistenza all'usura; il colofonico aggiunto a cobalto punta verso la stabilità del trattamento termico; e il colofonico di Damasco spesso descrive il contrasto visivo piuttosto che un taglio intrinsecamente migliore.
+Leggere le indicazioni di marketing familiare con la stessa cura.  molto carbonio punta verso l'induribilità e la durezza potenziale. Alta cromo sostiene la resistenza alla corrosione solo quando abbastanza cromo rimane in soluzione.
 
-La conclusione utile è precisa ma semplice: **un nome in lega descrive gli ingredienti e il potenziale. Il coltello finito rivela come la composizione, il trattamento termico, la microstruttura e la geometria siano stati bilanciati con successo.**
+La conclusione è semplice: **un nome in lega descrive gli ingredienti e il potenziale. Il coltello finito mostra come la composizione, il trattamento termico, la microstruttura e la geometria sono stati bilanciati.**
