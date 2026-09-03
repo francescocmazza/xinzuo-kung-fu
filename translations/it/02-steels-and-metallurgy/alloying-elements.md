@@ -1,5 +1,5 @@
 ---
-source_hash: 37b8781ad6a85b51edd58167b60181dbde6df9645e2101e8f1923b7b637d5a7c
+source_hash: 22c175d3a070b6550ce3b9121d370317e2d93abbe06c0d3b4d8a6aa4cdb39e50
 ---
 
 # Elementi di lega
@@ -35,9 +35,11 @@ Una percentuale di massa può rendere la quantità suono piccolo. **0,5% carboni
 
 L'acciaio è fatto da microscopici cristalli di ferro. Gli atomi di carbonio sono molto più piccoli degli atomi di ferro, in modo da potersi adattare in piccoli spazi tra gli atomi di ferro all'interno di questi cristalli. Non sono semplicemente particelle estranee mescolate nel metallo.
 
-La quantità di carbonio che può rimanere in questi spazi cambia con la temperatura e con la struttura cristallina interna del ferro. Durante l'indurimento, il riscaldamento crea **austenite**, una forma ad alta temperatura dell'acciaio ricco di ferro che può contenere molto più carbonio. Il raffreddamento rapido può quindi produrre **martensite**, la struttura molto dura utilizzata in un coltello temprato. I capitoli successivi spiegano questa trasformazione in dettaglio.
+La quantità di carbonio che può rimanere in questi spazi cambia con la temperatura e con la struttura cristallina interna del ferro. Durante l'indurimento, il riscaldamento crea **austenite**, una forma ad alta temperatura dell'acciaio ricco di ferro che può contenere molto più carbonio. Raffreddamento rapido può quindi produrre **martensite**, la struttura molto dura utilizzata in un coltello indurito. Martensite viene creato così rapidamente che più carbonio rimane intrappolato nella struttura del ferro che in condizioni di equilibrio.
 
-Il carbonio può anche legare con ferro, cromo, vanadio, tungsteno, magnesite e altri elementi per formare **carbidi**, i duri cristalli microscopici introdotti nel capitolo precedente.
+** Austenite e martensite non sono carburi.** In entrambi, il ferro forma la struttura cristallina principale e il carbonio è dissolto all'interno di esso. Un carburo è diverso: è un composto cristallino separato in cui il carbonio è chimicamente combinato con ferro o un altro elemento di formazione del carburo. ** Cementite (Fe3C), per esempio, è un vero carburo di ferro.** Cromo, vanadio, molibdeno, tungsteno e
+
+Questo dà al carbonio due ruoli molto diversi in acciaio. Può rimanere sciolto nella matrice di ferro, come in 1,0%e o martensite, o diventare parte di un cristallo carburo separato. Il trattamento termico aiuta a determinare come il carbonio è distribuito tra questi stati. I capitoli successivi spiegano queste trasformazioni in dettaglio.
 
 Più carbonio può sostenere una maggiore durezza e resistenza all'usura, ma solo all'interno del bilancio della lega completa e trattamento termico. Troppo volume di carburo o una matrice sfavorevole può ridurre la durezza, l'affilatura lenta e, negli acciai inossidabili, consumare cromo nei carburi ricchi di cromo.
 
