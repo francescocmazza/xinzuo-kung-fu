@@ -72,7 +72,7 @@ A traditional profile name does not prove its grind. Modern manufacturers also m
 
 ### The main bevel may change angle from heel to tip
 
-A single-bevel blade is three-dimensional. Blade height decreases as the outline narrows toward the tip, and the spine may also become thinner through **distal taper**. These changes alter the relationship between blade thickness, bevel width and edge position.
+A single-bevel blade is three-dimensional. Blade height decreases as the outline narrows toward the tip, and the spine may also become thinner through **distal taper**, the gradual reduction in blade thickness toward the tip. These changes alter the relationship between blade thickness, bevel width and edge position.
 
 The local angle of the broad single bevel **can change along the blade**. Do not assume the heel, middle and tip form one perfectly uniform plane with one theoretical angle, especially on knives with strong distal taper or a rapidly narrowing point.
 
