@@ -3,7 +3,7 @@ title: Knife Shapes and Their Uses
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-03
 translation_priority: highest
 source_basis: general knife geometry and technique, illustrated with current Xinzuo examples
 ---
@@ -297,24 +297,14 @@ Use a light guided sawing motion and let the teeth work. Excessive pressure crus
 
 A frozen-food knife uses strong coarse serrations to saw through suitable frozen ingredients. It exists because forcing a thin hard chef's knife into a frozen block can chip or break the blade. This is still a hazardous specialist operation: stabilize the food, keep the free hand outside the cutting path and avoid twisting or impact.
 
-## A compact meat-oriented profile
-
-### Viking Knife
-
-<div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/viking.jpg" alt="Complete Xinzuo Viking Knife"><figcaption>A Xinzuo Viking Knife, a compact meat-oriented commercial profile.</figcaption></figure>
-</div>
-
-Viking Knife is a Xinzuo commercial name, not a universal historical category. The profile is best understood as a compact meat-oriented slicer: shorter and easier to manoeuvre than a long carving knife, with a pronounced curve that supports slicing around steaks and cooked boneless portions. A long carving knife remains more efficient for large roasts and ham because the Viking Knife trades reach for manoeuvrability. It is not a bone chopper.
-
 ## Choosing by work rather than by name
 
 For most kitchens, the first serious knife should be a chef's knife, gyuto, santoku or Chinese cleaver whose length and movement feel natural. A bread knife and a small utility or paring knife then cover jobs the main blade handles poorly. Long carving, filleting, fish-butchery and impact tools become worthwhile when those tasks occur often enough to justify dedicated geometry.
 
 For sales staff, return to the same questions: **What foods will the customer cut most often? In what quantities? On a board or in the hand? Does the work need broad contact, a long draw, controlled flexibility, a precise point, constant angle changes around bone, or supported mass for impact?** Once the work is clear, the right family of shapes is usually clear too.
 
-Then move to ergonomics. Ask the customer to use their normal grip and compare handle shapes, total weights and balance points within that blade family. Someone who prefers a strong push cut may enjoy a planted, blade-forward knife; another person may prefer a lighter or more neutral model for quick changes of direction. **Use the breadth of the Xinzuo range to offer a small selection of knives that all suit the task but feel different in the hand.** Let the customer's hand decide the best fit.
+Then compare ergonomic fit in the customer's normal grip. The next chapter explains why handle grip, intermediate grip and pinch grip can make the same knife feel different, and why Xinzuo offers different balance strategies rather than one universal setup.
 
-Choose the profile first and ergonomic fit second. Steel, heat treatment, construction, handle material, appearance and price then complete the choice among models that already suit both task and user. Product names and catalogue examples are references; they do not replace geometry or the experience of holding the knife.
+Choose the profile first and ergonomic fit second. Steel, heat treatment, construction, handle material, appearance and price then complete the choice among models that already suit both task and user.
 
 The photographs in this chapter show real Xinzuo versions of the forms discussed. They establish the visible profile, not every property of the knife. Hardness, grind, handedness, heat treatment, balance and bone capability must still be checked on the exact model and understood through the principles in the following chapters.
