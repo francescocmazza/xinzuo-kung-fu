@@ -3,7 +3,7 @@ title: A Practical Sharpening Process
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-03
 translation_priority: high
 ---
 
@@ -53,9 +53,9 @@ Useful optional items include:
 
 - a coarse repair stone;
 - a finer finishing stone;
-- a flattening stone or lapping plate;
+- a flattening stone or plate;
 - magnification;
-- a leather or fabric strop;
+- a leather or fabric strop for final edge cleaning;
 - a marker pen for checking the edge bevel.
 
 The setup does not need to be complex. One good medium-grit water stone can restore many normally dull kitchen knives.
@@ -253,7 +253,7 @@ Use minimal pressure and controlled full-length passes, alternating sides. This 
 
 ### Edge-leading or edge-trailing finishing
 
-Both can work when controlled. Edge-leading strokes can cut burr material away efficiently. Edge-trailing strokes are gentler but can draw out a wire edge if pressure is too high.
+Both can work when controlled. Edge-leading strokes move the edge into the abrasive and can cut burr material away efficiently. Edge-trailing strokes move the spine first and are gentler, but they can draw out a wire edge if pressure is too high.
 
 ### Stropping
 
@@ -279,7 +279,19 @@ No single test tells the whole story.
 
 ### Paper test
 
-Cut clean, dry paper with a controlled motion. The edge should enter without excessive pressure and continue without repeated tearing. Test several sections. Remember that a fragile wire edge can also cut paper briefly.
+Use a clean, dry sheet of ordinary paper. Hold it so the cutting path is clear and keep the supporting hand well away from the edge.
+
+Start with the **heel**, the rear part of the cutting edge nearest the handle, against the paper. Draw the knife slowly and smoothly so the contact point travels progressively along the edge toward the tip. The movement should be continuous and even rather than a quick slash. Keep the cutting path away from your body.
+
+Pay attention to **resistance**. A very sharp section should enter and travel through the paper with little force. More resistance usually indicates a less keen section. Just as important, notice whether the resistance changes during the stroke. A sudden catch in one position can reveal a dull spot, a small damaged area or an unevenly sharpened section even when the rest of the edge cuts well.
+
+After the cut, inspect the paper itself. A clean edge on the paper suggests that the knife sliced rather than tore it. Fraying, ragged fibres or a visibly torn area can reveal a section that is less sharp or less cleanly finished.
+
+For a **long knife**, do not judge the whole edge from one very long stroke. Control naturally decreases as the working point moves far from the handle, so the tip can feel less sharp simply because the hand has less precise control there. Test a long blade in **two overlapping sections**: heel to middle, then middle to tip. This makes the comparison more reliable while still checking the entire cutting edge.
+
+Repeat the test slowly if necessary. The goal is not to show that the knife can cut paper; it is to feel **how much resistance each section creates and whether that resistance is uniform from heel to tip**.
+
+A fragile wire edge can also cut paper briefly, so the paper test must be read together with the burr check and practical cutting behaviour.
 
 ### Food test
 
@@ -297,7 +309,7 @@ Judge whether the knife starts, follows and completes the cut cleanly. Practical
 
 Rinse abrasive and steel residue from the blade and dry it immediately.
 
-Rinse the stone, remove loose swarf and inspect its surface. Flatten it if the centre has begun to hollow.
+Rinse the stone, remove loose abrasive-and-steel residue and inspect its surface. Flatten it if the centre has begun to hollow.
 
 Let the stone air-dry fully in a ventilated place. Avoid heat and direct sun. Clean abrasive residue from the work area, cloths and food-preparation surfaces.
 
@@ -307,7 +319,7 @@ A traditional single bevel is not a double bevel with one side omitted. Its broa
 
 The broad main bevel is normally worked against the stone. The reverse is then placed almost flat and worked lightly enough to remove the burr while preserving the urasuki and its narrow reference flats.
 
-The broad bevel angle can also **vary along the blade**. Blade height decreases toward the tip, and high-quality knives often thin through **distal taper**. Because bevel angle depends on local thickness, bevel width and blade height, heel, middle and tip may not lie on one identical plane.
+The broad bevel angle can also **vary along the blade**. Blade height decreases toward the tip, and high-quality knives often thin through **distal taper**, the gradual reduction in blade thickness toward the tip. Because bevel angle depends on local thickness, bevel width and blade height, heel, middle and tip may not lie on one identical plane.
 
 Do not lock the wrist at one theoretical angle from heel to tip. Watch the contact patch and adjust gradually as the blade narrows and thins. Marker, reflected light and wear patterns can show whether only one strip is being ground.
 
