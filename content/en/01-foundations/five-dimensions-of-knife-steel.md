@@ -3,7 +3,7 @@ title: The Five Dimensions of Knife Steel
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-03
 translation_priority: high
 ---
 
@@ -17,7 +17,7 @@ The useful question is:
 
 > Which balance of qualities best suits this knife, this task and this user?
 
-Five dimensions provide a practical map: **hardness, sharpening response, corrosion resistance, toughness and microstructural fineness**. They do not cover every metallurgical detail, but they prevent many common misunderstandings. They must be read together because changing one part of the system changes the compromises available elsewhere.
+Five dimensions provide a practical map: **hardness, sharpening response, corrosion resistance, toughness and microstructural fineness**. *Microstructure* means the microscopic internal structure of the steel: its tiny crystals, phases and hard particles. The later metallurgy chapters will explain these parts in more detail.
 
 ## 1. Hardness: resistance to permanent deformation
 
@@ -27,7 +27,9 @@ HRC does not measure sharpness, toughness or overall cutting performance. A knif
 
 A harder apex generally resists rolling and plastic deformation better. Hardness also contributes to abrasive wear resistance. With broadly similar steel composition and microstructure, the harder sample usually resists wear more strongly.
 
-Carbide type, volume and distribution also matter, as does the hardness of the surrounding matrix. A steel rich in very hard vanadium or niobium carbides can resist abrasion differently from another steel at the same or even higher HRC.
+Steel can also contain **carbides: microscopic hard crystals formed when carbon combines with iron or certain alloying elements**. Carbide type, amount, size and distribution can change wear resistance greatly. Vanadium- or niobium-rich carbides, for example, are much harder than the surrounding steel matrix.
+
+The **matrix** is the continuous part of the steel that surrounds these particles. Its own hardness matters too. Two steels at the same HRC can therefore behave differently because their matrices and carbide populations are different.
 
 The practical rule is simple: **do not rank unrelated steels by HRC alone**. Read hardness together with heat treatment, microstructure, edge angle, thickness behind the edge and intended use.
 
@@ -56,9 +58,9 @@ Corrosion resistance is a blade's ability to resist moisture, oxygen, salt, acid
 
 The widely used compositional threshold for stainless steel is **at least 10.5% chromium by mass**. This classifies the steel; it does not mean every steel above the threshold resists corrosion equally well.
 
-Chromium works mainly through **passivation**. When enough chromium is available at the surface, a very thin, adherent chromium-rich oxide layer forms and helps isolate the underlying iron from the environment. If scratched, the film can reform when suitable conditions return.
+Chromium works mainly through **passivation**. This means that enough chromium at the surface forms an extremely thin protective oxide layer that slows further corrosion. If scratched, the film can form again when suitable conditions return.
 
-The key word is *available*. Chromium dissolved in the matrix can support passivation; chromium tied up in carbides is less available for that job. Carbon content, austenitizing temperature, carbide chemistry, molybdenum, nitrogen, surface finish and the working environment all affect the result.
+The key word is *available*. Chromium dissolved in the matrix can support passivation; chromium tied up in carbides is less available for that job. Carbon content, heat treatment, molybdenum, nitrogen, surface finish and the working environment all affect the result.
 
 Stainless steel is corrosion-resistant, not stain-proof. Salt, chlorides, acidic residue and prolonged wet storage can still stain or pit a stainless blade. Reactive carbon steels need faster care and may develop a dark patina, which is different from active orange rust.
 
@@ -74,13 +76,13 @@ The task determines the useful compromise. A sashimi slicer benefits from refine
 
 ## 5. Microstructural fineness: what supports the apex
 
-Steel looks uniform to the eye, but microscopically it contains a matrix, grains, phases and hard particles such as **carbides**. Their size, amount and distribution affect wear resistance, toughness and how finely the edge can be refined.
+Steel looks uniform to the eye, but under a microscope it is made from many tiny crystal **grains** and can contain different phases and carbide crystals. Their size, amount and distribution affect wear resistance, toughness and how finely the edge can be refined.
 
-A finer, more uniform microstructure generally supports a very fine, continuous apex more easily. This does not mean edge radius must equal the diameter of the largest carbide. The mechanism is more complex. But as carbide size approaches the scale of a highly refined apex, large hard particles can protrude, fracture or pull out, making an extremely smooth continuous edge harder to create and stabilize.
+A finer, more uniform microstructure generally supports a very fine, continuous apex more easily. This does not mean the edge radius must match the diameter of the largest carbide. The mechanism is more complex. The useful point is that very large hard particles can make an extremely smooth, continuous edge harder to create and stabilize.
 
 Large or abundant hard carbides can still be useful. They can increase wear resistance and preserve an aggressive, toothy slicing character for a long time. The trade-off is usually slower sharpening, while high carbide size or volume can reduce toughness and the potential for an ultra-refined apex.
 
-The term **grain size** is sometimes used loosely for all of this, but grain size and carbide size are different. This guide uses *microstructural fineness* as the broader teaching term. [Heat Treatment and Carbides](../02-steels-and-metallurgy/heat-treatment-and-carbides.md) explains the main carbide families and the elements that form them.
+The term **grain size** is sometimes used loosely for all of this, but grain size and carbide size are different. This guide uses *microstructural fineness* as the broader teaching term. The later metallurgy chapters explain grains, matrix, phases and the main carbide families in more detail.
 
 ## The five dimensions interact
 

@@ -3,7 +3,7 @@ title: Xinzuo Blade Steels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-03
 translation_priority: highest
 source_basis: Xinzuo 2025 product information, manufacturer technical data, and current Xinzuo internal product-development notes
 ---
@@ -26,10 +26,10 @@ A steel name describes potential. Heat treatment, blade geometry, thickness behi
 | **Blue Steel No. 2** | Japan | 62-64 HRC | Reactive high-carbon steel that can take a very keen edge and respond unusually well to water stones despite high hardness | Requires immediate cleaning and drying and will naturally develop patina |
 | **14Cr14MoVNb powder steel** | Xinzuo | 60-64 HRC | Niobium-bearing premium powder steel intended to combine high hardness and retention with a finer, more controlled carbide structure | Premium sharpening requirements; exact behaviour depends strongly on heat treatment and geometry |
 | **12Cr18MoV** | Xinzuo | 59-61 HRC | Xinzuo's newest all-round conventional stainless formulation, introduced around 2024 and currently regarded internally as one of the strongest everyday-use balances | Less extreme wear resistance than the hardest powder steels, by design |
-| **AUS-10** | Japan, Aichi family | 58-62 HRC | Japanese high-carbon stainless with a practical balance close to the performance class commonly associated with VG10: good sharpness, hardness, corrosion resistance and manageable maintenance | Moderate wear resistance compared with the premium PM tier; not chemically identical to VG10 |
+| **AUS-10** | Japan, Aichi family | 58-62 HRC | Japanese high-carbon stainless with a practical balance close to the performance class commonly associated with VG10: good sharpness, hardness, corrosion resistance and manageable maintenance | Moderate wear resistance compared with the premium powder-steel tier; not chemically identical to VG10 |
 | **10Cr15CoMoV** | China / Xinzuo specification | 58-62 HRC | For years Xinzuo's most widely used high-carbon stainless core because of its unusually complete balance of edge retention, toughness, corrosion resistance and price/performance | Does not maximize one single property; final performance remains highly heat-treatment- and geometry-dependent |
 | **VG10** | Japan, Takefu Special Steel | HRC 60 or higher in Takefu's published specification | Benchmark Japanese cobalt-bearing stainless used by many knife makers; combines good corrosion resistance, durable sharpness, wear resistance and comparatively straightforward sharpening | Current Xinzuo procurement is constrained by the producer's China-supply policy; not currently a normal Xinzuo production steel |
-| **Sandvik 14C28N** | Sweden | 57-59 HRC | Nitrogen-assisted stainless design with fine structure, strong corrosion resistance and very good edge stability; pleasant for users who maintain their own knives | Moderate wear resistance and edge life compared with high-carbide PM steels |
+| **Sandvik 14C28N** | Sweden | 57-59 HRC | Nitrogen-assisted stainless design with fine structure, strong corrosion resistance and very good edge stability; pleasant for users who maintain their own knives | Moderate wear resistance and edge life compared with high-carbide powder steels |
 | **440C** | International standard grade; Xinzuo supply from China | 56-58 HRC | Proven high-carbon martensitic stainless with useful wear resistance, strength and corrosion resistance at an accessible cost | Coarser carbide structure and more modest retention than newer high-performance steels at Xinzuo's published hardness |
 | **DIN 1.4116** | Germany | 56-58 HRC | Tough, corrosion-resistant and forgiving in everyday use, with a large margin against chipping and misuse compared with very hard thin-edge steels | Needs more frequent edge maintenance and can form a persistent burr; moderate hardness does not automatically mean effortless sharpening |
 
@@ -53,9 +53,9 @@ SRS13 remains a premium high-retention steel without reaching ZDP-189's hardness
 
 M390 is a premium Austrian powder-metallurgy martensitic stainless steel from Böhler. Its main strength is **very high wear resistance combined with strong corrosion resistance**. It suits knives that need long working-edge life with stainless convenience.
 
-Its toughness is more modest. Böhler describes its toughness and ductility as *good*, while independent knife-scale impact testing places optimized M390 toward the lower-toughness side of the knife-steel spectrum. Earlier unusually high toughness results were linked to heat treatment with excessive retained austenite. This does not make M390 fragile in normal kitchen use; it means its strongest reasons for selection are wear resistance, corrosion resistance and retention rather than exceptional toughness.
+Its toughness is more modest. Böhler describes both its toughness and **ductility—the ability to deform before breaking—as good**, while independent knife-scale impact testing places optimized M390 toward the lower-toughness side of the knife-steel spectrum. Earlier unusually high toughness results were linked to heat treatment with excessive retained austenite. This does not make M390 fragile in normal kitchen use; it means its strongest reasons for selection are wear resistance, corrosion resistance and retention rather than exceptional toughness.
 
-Its carbide population also resists ordinary abrasives. Hard ceramic, diamond or CBN abrasives can make sharpening much more efficient.
+Its carbide population also resists ordinary abrasives. Hard ceramic, diamond or **cubic boron nitride (CBN)** abrasives can make sharpening much more efficient. CBN is an extremely hard synthetic abrasive used for difficult-to-abrade steels.
 
 ### 14Cr14MoVNb: Xinzuo's niobium-bearing premium powder steel
 
@@ -73,7 +73,7 @@ Blue Steel No. 2, or Aogami #2, is the main reactive carbon-steel option in the 
 
 A well heat-treated Blue #2 blade can respond very quickly to suitable water stones despite its hardness. It can reach the apex and deburr cleanly, which is why many experienced sharpeners find it more pleasant than lower-HRC stainless steels with greater abrasive wear resistance.
 
-Its main demand is corrosion care. Wash and dry it immediately, expect a patina and distinguish that stable dark layer from active orange rust.
+Its main demand is corrosion care. Wash and dry it immediately. Expect a **patina**, the stable grey, blue or dark surface reaction that develops naturally on reactive carbon steel, and distinguish it from active orange rust.
 
 ### 10Cr15CoMoV: the long-standing Xinzuo all-round reference
 
@@ -103,7 +103,7 @@ AUS-10 offers more performance than basic stainless steels while remaining easie
 
 ### VG10: the Japanese benchmark and why it matters to Xinzuo
 
-VG10 is a proprietary Japanese stainless cutlery steel produced by **Takefu Special Steel**. Takefu publishes about 1% carbon, 15% chromium, 1% molybdenum, 0.25% vanadium and roughly 1.55% cobalt, with quenched hardness of HRC 60 or higher. The manufacturer highlights corrosion resistance, durable sharpness, wear resistance, machinability and relatively straightforward sharpening.
+VG10 is a proprietary Japanese stainless cutlery steel produced by **Takefu Special Steel**. Takefu publishes about 1% carbon, 15% chromium, 1% molybdenum, 0.25% vanadium and roughly 1.55% cobalt, with quenched hardness of HRC 60 or higher. The manufacturer highlights corrosion resistance, durable sharpness, wear resistance, ease of manufacturing and relatively straightforward sharpening.
 
 VG10 is a useful benchmark in premium mass-market Japanese kitchen knives. It helps place AUS-10 and Xinzuo's 10Cr15CoMoV in context: AUS-10 follows a similar all-round stainless philosophy, while 10Cr15CoMoV offers a broadly comparable everyday performance range and showed a small corrosion advantage in Xinzuo's internal testing.
 

@@ -3,7 +3,7 @@ title: Preparing Water Stones
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-03
 translation_priority: high
 ---
 
@@ -25,7 +25,7 @@ A dry porous stone contains air. When placed in water, the pores fill and push t
 
 Bubbling is usually strongest at first and slows as the stone becomes saturated. When only occasional bubbles remain, the stone has usually absorbed enough water for sharpening.
 
-Time varies with porosity, thickness, dryness, temperature, size and binder. For absorbent stones, watching the bubbles is often more useful than always soaking for exactly ten minutes.
+Time varies with porosity, thickness, dryness, temperature, size and **binder**, the material that holds the abrasive grains together. For absorbent stones, watching the bubbles is often more useful than always soaking for exactly ten minutes.
 
 ## The important exception: follow the manufacturer
 
@@ -65,7 +65,7 @@ These dense stones work after water is applied to the surface. They need little 
 
 ### Diamond plates
 
-Diamond abrasive is fixed to a rigid plate. The plate does not need soaking. Water may help move swarf and reduce loading, but it is not absorbed.
+Diamond abrasive is fixed to a rigid plate. The plate does not need soaking. Water may help move loose steel residue and reduce clogging, but it is not absorbed.
 
 ### Oil stones
 
@@ -100,7 +100,7 @@ A dished stone changes the angle during the stroke. On a wide single bevel, it c
 
 Check flatness with a straight edge or draw a pencil grid across the surface. During flattening, unevenly disappearing lines show where the surface is high or low.
 
-Use a flattening stone, lapping plate or suitable abrasive surface as recommended by the manufacturer. Work evenly until the pencil marks disappear.
+Use a flattening stone, flattening plate or another suitable abrasive surface recommended by the manufacturer. Work evenly until the pencil marks disappear.
 
 Flattening is regular maintenance, not a rare repair.
 
@@ -110,7 +110,7 @@ Even a soaked stone needs water on its working surface.
 
 Keep the surface wet and free-moving. Add water if it begins to feel sticky or dry.
 
-The right amount depends on the stone. Too little can let swarf build up and glaze the surface; too much may wash away useful slurry too quickly. A dry grinding sound, sudden increase in resistance or dark dry streaks often mean more water is needed.
+The right amount depends on the stone. Too little can let removed steel build up and clog or **glaze** the surface, making it smoother and less effective; too much may wash away useful abrasive mixture too quickly. A dry grinding sound, sudden increase in resistance or dark dry streaks often mean more water is needed.
 
 ## Slurry and swarf
 
@@ -152,7 +152,7 @@ Do not leave a stone permanently submerged unless the manufacturer explicitly al
 
 ## After sharpening
 
-Rinse away loose steel and abrasive residue. Clean the surface gently and treat glazed areas with the appropriate dressing or flattening method.
+Rinse away loose steel and abrasive residue. Clean the surface gently and treat glazed areas with the appropriate cleaning or flattening method.
 
 Check flatness; it is often easiest to flatten the stone while it is already wet.
 

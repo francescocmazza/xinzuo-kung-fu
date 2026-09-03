@@ -3,7 +3,7 @@ title: Single and Double Bevels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-03
 translation_priority: highest
 ---
 
@@ -39,7 +39,7 @@ A double-bevel knife is sharpened from both sides. Seen from the front, the side
 
 A reasonably symmetrical double bevel tends to track straight because food is displaced on both sides. This helps make it suitable for general cooking and either hand.
 
-Most Western chef's knives, carving and slicing knives (including sujihiki), utility and petty knives, gyuto, santoku, bunka, nakiri and many Chinese cleavers and slicers are double bevel.
+Most Western chef's knives, carving and slicing knives, utility and petty knives, gyuto, santoku, bunka, nakiri and many Chinese cleavers and slicers are double bevel.
 
 ### How it feels during a cut
 
@@ -72,7 +72,7 @@ A traditional profile name does not prove its grind. Modern manufacturers also m
 
 ### The main bevel may change angle from heel to tip
 
-A single-bevel blade is three-dimensional. Blade height decreases as the outline narrows toward the tip, and the spine may also become thinner through **distal taper**. These changes alter the relationship between blade thickness, bevel width and edge position.
+A single-bevel blade is three-dimensional. Blade height decreases as the outline narrows toward the tip, and the spine may also become thinner through **distal taper**, the gradual reduction in blade thickness toward the tip. These changes alter the relationship between blade thickness, bevel width and edge position.
 
 The local angle of the broad single bevel **can change along the blade**. Do not assume the heel, middle and tip form one perfectly uniform plane with one theoretical angle, especially on knives with strong distal taper or a rapidly narrowing point.
 
@@ -125,7 +125,7 @@ The best correction begins before the cut: choose the direction, stabilize the f
 
 A single bevel can leave an exceptionally clean surface because the bevel directs the cut piece away while the flatter face guides the remaining food. This matters in sashimi, where surface quality affects appearance and texture, and in katsuramuki, where an usuba turns a vegetable into a continuous thin sheet.
 
-A double-bevel carving knife can also cut extremely cleanly. The sujihiki is one example: it is easier for many cooks, works in either hand and handles boneless meat and fish very well.
+A double-bevel carving knife can also cut extremely cleanly. Long, narrow carving knives are easier for many cooks, work in either hand and handle boneless meat and fish very well.
 
 The useful distinction is not “single bevel is sharp and double bevel is ordinary.” Both can reach a very fine apex. They differ in steering, separation, surface finish and specialization.
 

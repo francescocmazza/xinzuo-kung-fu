@@ -3,7 +3,7 @@ title: "Weight, Balance and Ergonomics"
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-03
 translation_priority: high
 ---
 
@@ -46,15 +46,17 @@ A santoku and bunka show the difference clearly. A typical santoku keeps more st
 
 ## Balance depends on the grip
 
-A knife does not have one meaningful balance point independent of the hand. Moving the hand forward or backward changes how the same mass feels.
+Every knife has a physical centre of mass, but **how balanced it feels depends on where the hand holds it**. Moving the hand forward or backward changes the leverage between the hand and the mass of the blade and handle.
 
 With a **handle grip**, most of the hand stays behind the bolster. Handle shape, length and rearward mass strongly affect comfort, while a blade-forward design feels more pronounced because the hand supports it from farther back.
 
-With an **intermediate or hybrid grip**, the hand moves toward the bolster. The thumb and index finger may rest on the bolster, at its front or slightly onto the blade. This gives useful leverage and direct blade control while allowing small shifts backward for force or forward for precision.
+With an **intermediate or hybrid grip**, the hand moves toward the bolster. The thumb and index finger may rest on the bolster, at its front or slightly onto the blade. This gives direct blade control while still allowing small shifts backward for force or forward for precision.
 
-With a **pinch grip**, the thumb and index finger hold the blade faces just ahead of the bolster. The controlling fingers sit much closer to the blade's centre of action. A knife that feels strongly blade-heavy from the rear handle can feel almost neutral in a forward pinch grip.
+With a **pinch grip**, the thumb and index finger hold the blade faces just ahead of the bolster. The controlling fingers sit much closer to the blade. A knife that feels strongly blade-heavy from the rear handle can feel almost neutral when held in a forward pinch grip.
 
-This also explains why some handles that look unusually long in photographs feel natural in the hand. The rear section can act as a counterweight, moving the effective balance back toward the grip even when the cook holds mainly the front of the handle.
+This also explains why some handles that look unusually long in photographs feel natural in the hand. The rear section can act as a counterweight, moving the balance back toward the working grip even when the cook holds mainly the front of the handle.
+
+People develop different habits, so there is no single correct balance for every user. **Xinzuo deliberately produces knives with different balance strategies for different grip positions.** Some designs are intended to feel natural in a forward pinch grip, some suit an intermediate grip around the bolster, and others are balanced for users who hold mainly the handle. The purpose of this variety is not to create a ranking from better to worse. It lets different users find a knife whose mass distribution matches the way they already control the blade.
 
 Do not ask only, **“Is this knife well balanced?”** Ask, **“How does this knife balance when this customer holds it the way they actually cook?”**
 
@@ -66,16 +68,16 @@ There is no substitute for handling the knife. Palm width, finger length, grip p
 
 This makes a physical store especially valuable. A catalogue can identify technically suitable knives; **the customer's hand can identify which one has the best ergonomics**. Choosing a knife is similar to choosing a pair of shoes: specifications narrow the field, but fit decides which suitable option feels right.
 
-Xinzuo's broad portfolio is a major advantage here. Its range of blade forms, handle geometries, weights and balances is not a hierarchy from “best” to “worst”. It lets staff identify several knives that meet the customer's functional needs and then find the one that best fits the person's hand, grip and cutting style.
+Xinzuo's broad portfolio is a major advantage here. Its range of blade forms, handle geometries, weights and balances lets staff identify several knives that meet the customer's functional needs and then find the one that best fits the person's hand, grip and cutting style.
 
 ## How staff should guide the choice
 
 For an in-store recommendation:
 
 1. **Identify the work.** Ask what the customer cuts most often, in what quantities and with which movements.
-2. **Choose the blade family and shape.** Solve the functional problem first: chef's knife, santoku, bunka, nakiri, slicer, boning knife, cleaver or another specialist form.
-3. **Identify the grip and preferred handle feel.** Let the customer hold the knife naturally instead of imposing one “correct” grip. Compare handle shapes and sizes that fit comfortably.
-4. **Identify the preferred weight and balance.** Find out whether the customer wants a planted, blade-forward feel, neutral balance or a lighter, quicker front.
+2. **Choose the blade family and shape.** Solve the functional problem first: chef's knife, santoku, bunka, nakiri, carving knife, boning knife, cleaver or another specialist form.
+3. **Identify the natural grip.** Let the customer hold the knife as they normally cook. Determine whether they mainly use a handle grip, an intermediate grip or a pinch grip.
+4. **Compare handle feel and balance in that grip.** Test handle shapes and sizes, then compare blade-forward, neutral and more handle-weighted designs while the customer keeps their normal grip.
 5. **Offer a shortlist.** Put several knives that meet both the functional and ergonomic needs into the customer's hand and let them compare directly.
 6. **Use steel, construction, materials, appearance and price to complete the choice.** These factors distinguish between knives that already suit the customer's use.
 

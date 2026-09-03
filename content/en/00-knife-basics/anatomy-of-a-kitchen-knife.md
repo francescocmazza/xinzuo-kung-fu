@@ -3,7 +3,7 @@ title: Anatomy of a Kitchen Knife
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-03
 translation_priority: highest
 source_basis: standard fixed-blade kitchen-knife construction and terminology
 ---
@@ -178,7 +178,7 @@ A useful memory aid is:
 **harder precision blade = longer edge retention, less tolerance for forced flex**  
 **tougher/softer working blade = more tolerance for flex or impact, less edge retention**
 
-This is a training rule, not a complete metallurgical formula. Blade thickness, distal taper, composition, carbide structure, heat treatment and edge geometry still matter. The rule explains why a flexible fillet knife, a bone chopper and a very hard fine-edged slicer use different compromises.
+This is a training rule, not a complete metallurgical formula. Blade thickness, taper, composition, the steel's microscopic internal structure, heat treatment and edge geometry still matter. The rule explains why a flexible fillet knife, a bone chopper and a very hard fine-edged slicer use different compromises.
 
 ## Surface finish and surface relief
 
