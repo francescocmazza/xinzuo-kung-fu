@@ -3,7 +3,7 @@ title: How to Cut - Essential Knife Techniques
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-03
 translation_priority: highest
 ---
 
@@ -21,7 +21,7 @@ Keep the board from sliding with a damp cloth or non-slip mat underneath. It sho
 
 Stand close enough that you do not need to reach. Relax your shoulders and keep the knife wrist in a natural line with the forearm. If the wrist must bend sharply, move the ingredient or your body instead.
 
-Hold the food with the supporting hand in a claw: fingertips curved inward, thumb behind them and the side of the blade guided by the first joints instead of exposed fingertips. The claw is a moving guide, not a rigid pose; it retreats slightly after each cut.
+Hold the food with the supporting hand in a **claw**: fingertips curved inward, thumb behind them and the side of the blade guided by the first joints instead of exposed fingertips. The claw is a moving guide, not a rigid pose; it retreats slightly after each cut.
 
 The three main knife-hand positions—**handle grip, intermediate or hybrid grip, and pinch grip**—are explained in [Weight and Balance](../05-knife-types/weight-and-balance.md). Choose the grip that feels stable on the knife, keep it relaxed and remember that moving the hand forward or backward changes the balance you feel.
 
@@ -80,13 +80,13 @@ Think **forward, down, release**. Forward starts the slice, down completes it, a
 
 ### What the movement looks like
 
-The heel or rear of the knife starts near the ingredient and the blade travels toward the user as it cuts. A long slicer can use most of its edge in one smooth draw.
+The heel or rear of the knife starts near the ingredient and the blade travels toward the user as it cuts. A long carving knife can use most of its edge in one smooth draw.
 
-This is the natural movement of carving knives. The sujihiki is a double-bevel carving and slicing knife; the yanagiba is a specialist single-bevel slicer for raw fish. A chef's knife can use the same movement for boneless meat or a ripe tomato.
+This is the natural movement of carving knives. A long double-bevel carving knife is a versatile slicer for boneless meat and fish; the yanagiba is a specialist single-bevel slicer for raw fish. A chef's knife can use the same movement for boneless meat or a ripe tomato.
 
 ### Try it with a boneless cooked chicken breast
 
-Place the breast across the board. Set the heel just beyond the far side. Use light pressure and draw the blade toward you in one long movement. If the slice is incomplete, reset and make another long pass. Avoid short rapid sawing unless the food or a serrated edge requires it.
+Place the breast across the board. Set the heel just beyond the far side. Use light pressure and draw the blade toward you in one long movement, keeping the path clear of the supporting hand and body. If the slice is incomplete, reset and make another long pass. Avoid short rapid sawing unless the food or a serrated edge requires it.
 
 ### Why it works
 
@@ -136,13 +136,13 @@ The pointed tip of a gyuto or chef's knife is versatile. A bunka's K-tip gives e
 
 Muscle fibres run in visible bundles. Cutting parallel to them leaves long fibres that are harder to chew; cutting across them shortens the fibres and usually makes the same meat feel more tender.
 
-Before cutting, identify the grain and rotate the meat so the knife crosses it. Use a draw slice with a carving knife—including a sujihiki—or a long chef's knife. The improvement comes from direction, not extra pressure.
+Before cutting, identify the grain and rotate the meat so the knife crosses it. Use a draw slice with a carving knife or a long chef's knife. The improvement comes from direction, not extra pressure.
 
 This is a good example of knife skill beginning before the blade touches the food.
 
 ## 7. Fine slicing and julienne
 
-Uniform pieces cook at a similar rate. That is the practical reason to learn regular slicing; appearance is only part of the benefit.
+**Julienne** means cutting food into thin, even strips similar to matchsticks. Uniform pieces cook at a similar rate, which is the practical reason to learn the technique; appearance is only part of the benefit.
 
 For carrot julienne:
 
@@ -153,11 +153,11 @@ For carrot julienne:
 
 Use push cuts or controlled straight chops. Let the claw knuckles guide the blade side. Do not race the supporting hand. Move the knife only after the claw is set.
 
-A Chinese cleaver can work especially well here. Its tall blade provides a large guide surface, while a thin cai dao can make very fine slices. Its rectangular shape does not make it a bone cleaver.
+A Chinese cleaver can work especially well here. Its tall blade provides a large guide surface, while a thin Chinese vegetable cleaver, often called a **cai dao**, can make very fine slices. Its rectangular shape does not make it a bone cleaver.
 
 ## 8. Dicing
 
-Dicing is a sequence of controlled cuts in different directions. Create a stable shape, make parallel slices, rotate or restack the food, then cut across them.
+Dicing means cutting food into roughly cube-shaped pieces. It is a sequence of controlled cuts in different directions. Create a stable shape, make parallel slices, rotate or restack the food, then cut across them.
 
 With an onion, leave the root end intact during the first cuts so the layers stay connected. Keep the guiding hand above and behind the edge. The exact classical method matters less than three rules: keep the onion stable, hide the fingertips and control the final cross-cuts.
 
@@ -165,7 +165,7 @@ If the dice vary greatly, slow down and improve the first slices. Irregular dice
 
 ## 9. Mincing without crushing
 
-Mincing reduces food to very small pieces. Start with slices, then strips, then cross-cuts. Gather the pieces and make extra passes only after they are already small.
+Mincing means reducing food to very small pieces. Start with slices, then strips, then cross-cuts. Gather the pieces and make extra passes only after they are already small.
 
 For garlic or herbs, use straight chopping with a compact blade, a gentle rolling action with a curved chef's knife, or the short pivot rock of a round-tip nakiri. Re-gather food with the spine or broad face. Repeatedly scraping the edge sideways against the board weakens the apex.
 
@@ -181,7 +181,7 @@ To transfer chopped food, slide the broad face underneath or use a bench scraper
 
 A short paring knife can cut food held in the supporting hand, but the movement must be small and deliberate. Hold the ingredient securely and use a shallow path that finishes beside the thumb, not into it. The thumb guides and brakes the food; it must never sit in the path of an uncontrolled stroke.
 
-Beginners should first practise peeling on the board or use a peeler. Large chef's knives, long slicers and heavy Chinese knives are not suitable for casual in-hand cutting.
+Beginners should first practise peeling on the board or use a peeler. Large chef's knives, long carving knives and heavy Chinese knives are not suitable for casual in-hand cutting.
 
 ## 12. Working around bones and joints
 
@@ -199,7 +199,7 @@ Traditional single-bevel geometry also affects steering and food separation. [Si
 
 ## Specialist techniques that need demonstration
 
-Some techniques cannot be learned safely from a short written description. Katsuramuki with an usuba, fish-head work with a deba and rapid professional chopping combine blade geometry, body position and practiced feedback. This guide explains the principles; a qualified demonstration is the safest way to learn the movement itself.
+Some techniques cannot be learned safely from a short written description. **Katsuramuki**, the technique of peeling a vegetable into a long continuous thin sheet with an usuba, fish-head work with a deba and rapid professional chopping combine blade geometry, body position and practiced feedback. This guide explains the principles; a qualified demonstration is the safest way to learn the movement itself.
 
 Cooking is learned through words, observation and repetition. The page provides the map; demonstration provides body position, timing and feedback that are difficult to communicate safely in text.
 
