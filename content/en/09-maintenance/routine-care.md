@@ -3,7 +3,7 @@ title: Routine Knife Care
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-03
 translation_priority: high
 ---
 
@@ -39,7 +39,7 @@ Treat a small stain as a maintenance signal, not proof of defective steel. Clean
 
 ## Carbon steel, patina and rust
 
-Reactive carbon steel needs faster cleaning and drying. Normal use may create a grey, blue or dark **patina**. A stable patina is a surface reaction, not destructive orange rust.
+Reactive carbon steel needs faster cleaning and drying. Normal use may create a grey, blue or dark **patina**, a stable surface reaction that develops on reactive steel. A patina is different from destructive orange rust.
 
 Remove active reddish or orange corrosion before it becomes deeper pitting. Start with the least aggressive method suitable for the finish. A mild non-abrasive metal cleaner or very fine rust-removal product is usually safer than coarse scouring on polished or patterned blades.
 
@@ -68,7 +68,7 @@ Useful storage options include:
 - a well-designed knife block;
 - a magnetic holder that supports the blade securely without scraping the edge;
 - an in-drawer knife tray;
-- a properly fitting edge guard, saya or sheath;
+- a properly fitting edge guard or sheath, including the rigid knife covers often called **saya**;
 - a protected knife roll for transport.
 
 Dry the knife completely before placing it in a closed guard or sheath. Trapped moisture can create the corrosion environment the guard was meant to prevent.
@@ -99,7 +99,7 @@ Reactive carbon steel, long-term storage or humid conditions may justify a very 
 
 The word *honing* can describe several different mechanisms.
 
-A smooth steel can help straighten or recondition a rolled edge on suitable, relatively ductile steels. Grooved steels, ceramic rods and diamond-coated rods can also remove material, sometimes substantially. They should not all be described as tools that simply “realign” the edge.
+A smooth steel can help straighten or recondition a rolled edge on suitable steels whose edge tends to bend rather than chip. Grooved steels, ceramic rods and diamond-coated rods can also remove material, sometimes substantially. They should not all be described as tools that simply “realign” the edge.
 
 Very hard, thin knives that tend to chip rather than roll may gain little from forceful steeling and can be damaged by poor technique. Choose the maintenance tool according to steel, hardness and edge geometry.
 
