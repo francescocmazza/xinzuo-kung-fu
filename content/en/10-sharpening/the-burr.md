@@ -3,7 +3,7 @@ title: Understanding the Burr
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-03
 translation_priority: high
 ---
 
@@ -151,7 +151,7 @@ Deburring removes the burr while leaving a clean, centred apex.
 
 ### Light alternating strokes on the stone
 
-Use very low pressure and alternate sides. Depending on the method, strokes may be edge-leading, edge-trailing or a controlled combination.
+Use very low pressure and alternate sides. The edge can move **into the stone**, called an **edge-leading** stroke, or move with the **spine first**, called an **edge-trailing** stroke. Both can be useful when controlled. The practical sharpening chapter explains how they behave during finishing.
 
 ### A finer stone
 
@@ -159,7 +159,7 @@ A finer stone can refine the bevel and reduce a small burr. Do not move to it wh
 
 ### Stropping
 
-Leather, fabric or a suitable abrasive strop can remove fine remaining burr material. Move spine-first so the edge does not cut into the strop.
+A **strop** is a strip or surface, commonly leather or fabric, used for very light final edge refinement. It can remove fine remaining burr material. Move spine-first so the edge does not cut into the strop.
 
 Stropping is useful but optional. Too much pressure or too many passes can round the apex.
 
