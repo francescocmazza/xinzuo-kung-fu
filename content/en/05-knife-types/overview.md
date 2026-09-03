@@ -31,7 +31,7 @@ With these relationships in mind, the main knife families are easier to understa
 ### Western chef's knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/New/main-Knife series-B46D-B46D 8.3'' chef-1.jpeg" alt="Xinzuo Western chef's knife"><figcaption>A Xinzuo B46W Western chef's-knife example showing the characteristic curved belly.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/chef.jpg" alt="Complete Xinzuo Western chef's knife"><figcaption>A Xinzuo B46D Western chef's-knife example showing the characteristic curved belly.</figcaption></figure>
 </div>
 
 The Western chef's knife is a versatile general-purpose form with a continuous belly curve. The curve makes sweeping, drawing and rocking natural, especially when resistance changes through a cut in meat, connective tissue or mixed ingredients. As the knife moves, the working point travels along the belly, combining forward motion with penetration instead of relying only on vertical pressure.

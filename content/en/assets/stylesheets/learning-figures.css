@@ -58,18 +58,19 @@
 }
 
 /* Source photographs in content/en/assets/images/approved/knife-shapes are
- * normalized by scripts/normalize_profile_images.py to a common 900:260
+ * normalized by scripts/normalize_profile_images.py to a common 900:400
  * canvas on a white matte before they ever reach this stylesheet. Declaring
  * that same ratio here means the figure always renders at full width with
  * no leftover empty space and no per-image CSS or JS tuning. Multiplying the
  * white matte into a very light neutral field keeps the whole blade outline
  * visible even when the source crop's edge is very pale. object-fit: contain
  * is kept only as a safety net for an image added without going through the
- * normalizer. */
+ * normalizer. The additional height lets tall cleavers use nearly the full
+ * text width without cropping their edge or spine. */
 .kb-profile-visual img {
   display: block;
   width: 100%;
-  aspect-ratio: 900 / 260;
+  aspect-ratio: 900 / 400;
   height: auto;
   margin: 0 auto;
   object-fit: contain;
