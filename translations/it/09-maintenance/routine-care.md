@@ -1,5 +1,5 @@
 ---
-source_hash: ce4b4e9201efdff744e64ea74da1679f143f2fb0dda29620e5974d4b4c09e0f9
+source_hash: 62bf39ee9e02b1fe81221c9064591d283d9782b74e2534b28d0ed0595f1a7e81
 ---
 
 # Cura del coltello di routine: cosa fare tra affilature
@@ -34,7 +34,7 @@ Trattare una piccola macchia come un segnale di manutenzione, non la prova di ac
 
 ## Acciaio al carbonio, patina e ruggine
 
-L'acciaio al carbonio reattivo ha bisogno di una pulizia e asciugatura più veloci. L'uso normale può creare un grigio, blu o scuro **patina**. Una patina stabile è una reazione superficiale, non ruggine arancione distruttiva.
+L'acciaio al carbonio reattivo ha bisogno di una pulizia e asciugatura più veloci. L'uso normale può creare un grigio, blu o scuro **patina**, una reazione superficiale stabile che si sviluppa sull'acciaio reattivo.
 
 Rimuovere la corrosione rossastra o arancione attivo prima che diventi più profondo pitting. Iniziare con il metodo meno aggressivo adatto per la finitura. Un delicato non-abrasivo metallo detergente o molto fine prodotto ruggine-removal è di solito più sicuro di pulizia grossolana su lame lucidate o fantasia.
 
@@ -63,7 +63,7 @@ Opzioni di archiviazione utili includono:
 - un blocco coltello ben progettato;
 - un supporto magnetico che supporti la lama in modo sicuro senza raschiare il bordo;
 - un vassoio da coltello da cucina;
-- un dispositivo di protezione del bordo, un dispositivo di protezione o una guaina adeguati;
+- un parabordi o una guaina adeguatamente adatta, compresi i copricoltelli rigidi, spesso chiamati **saya**;
 - un rotolo di coltelli protetto per il trasporto.
 
 Asciugare completamente il coltello prima di metterlo in una protezione chiusa o guaina. L'umidità intrappolata può creare l'ambiente di corrosione che la protezione era destinato a prevenire.
@@ -94,7 +94,7 @@ L'acciaio al carbonio reattivo, la conservazione a lungo termine o le condizioni
 
 La parola *honing* può descrivere diversi meccanismi.
 
-Un acciaio liscio può aiutare a raddrizzare o revisionare un bordo laminato su acciai adatti e relativamente flessibili. Gli acciai scanalati, le barre di ceramica e le barre rivestite di diamanti possono anche rimuovere il materiale, a volte sostanzialmente. Essi non devono essere tutti descritti come strumenti che semplicemente
+Un acciaio liscio può aiutare a raddrizzare o revisionare un bordo laminato sugli acciai adatti il cui bordo tende a piegarsi piuttosto che chip. Gli acciai scanalati, le barre di ceramica e le barre rivestite di diamante possono anche rimuovere il materiale, a volte sostanzialmente. Essi non devono essere tutti descritti come strumenti che semplicemente riaffiorano il bordo.
 
 I coltelli molto duri e sottili che tendono a scheggiare piuttosto che a rotolo possono guadagnare poco dall'acciaio forte e possono essere danneggiati dalla tecnica scadente. Scegli l'utensile di manutenzione in base all'acciaio, alla durezza e alla geometria dei bordi.
 

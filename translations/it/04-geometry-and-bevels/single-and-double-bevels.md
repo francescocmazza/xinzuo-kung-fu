@@ -1,5 +1,5 @@
 ---
-source_hash: 7167cb040c4936a70f6d7e5737bd3865b3e7b2c014c8f01d81d7227c76f57d9e
+source_hash: abf57e56c77792d2bcfdc625bcba2567cb5c27c74dff68c261f53a5f228a3255
 ---
 
 # Smussatura singola e doppia
@@ -34,7 +34,7 @@ Un coltello a doppia bisellatura è affilato da entrambi i lati. Visto dalla par
 
 Un doppio bisello ragionevolmente simmetrico tende a seguire il rettilineo perché il cibo è spostato su entrambi i lati. Ciò lo rende adatto alla cottura generale e a entrambe le mani.
 
-La maggior parte dei coltelli da cuoco occidentali, coltelli da intaglio e affettatura (tra cui sujihiki), coltelli utility e piccoli, gyuto, santoku, bunka, nakiri e molti cleavings cinesi e affettatrici sono doppia bisellatura.
+La maggior parte dei coltelli da chef occidentali, coltelli da intaglio e affettatura, coltelli utility e piccoli, gyuto, santoku, bunka, nakiri e molti sciacquatori cinesi e affettatrici sono doppia smussatura.
 
 ### Come ci si sente durante un taglio
 
@@ -67,7 +67,7 @@ Un nome di profilo tradizionale non dimostra la sua macinatura. I produttori mod
 
 ### Il bisello principale può cambiare l'angolo dal tallone alla punta
 
-Una lama biforcuta è tridimensionale. L'altezza della lama diminuisce man mano che il profilo si restringe verso la punta, e la colonna vertebrale può anche diventare più sottile attraverso **distal cono**. Queste modifiche alterano il rapporto tra spessore della lama, larghezza smussata e posizione del bordo.
+Una lama biforcuta è tridimensionale. L'altezza della lama diminuisce man mano che il contorno si restringe verso la punta, e la colonna vertebrale può anche diventare più sottile attraverso **distal cono**, la graduale riduzione dello spessore della lama verso la punta. Queste modifiche alterano il rapporto tra spessore della lama, larghezza della smussatura e posizione del bordo.
 
 L'angolo locale dell'ampio singolo smusso **può cambiare lungo la lama**. Non assumere che il tallone, il centro e la punta formino un piano perfettamente uniforme con un angolo teorico, specialmente su coltelli con forte cono distale o con un punto di restringimento rapido.
 
@@ -120,7 +120,7 @@ La correzione migliore inizia prima del taglio: scegliere la direzione, stabiliz
 
 Un singolo bisello può lasciare una superficie eccezionalmente pulita perché il bisello dirige il pezzo tagliato via mentre il volto più piatto guida il cibo rimanente. Questo conta in sashimi, dove la qualità della superficie influenza l'aspetto e la consistenza, e in katsuramuki, dove un'usuba trasforma un vegetale in un foglio sottile continuo.
 
-Un coltello intaglio a doppio taglio può anche tagliare estremamente pulito. Il sujihiki è un esempio: è più facile per molti cuochi, lavora in entrambe le mani e maniglie carne disossata e pesce molto bene.
+Un coltello da intaglio a doppio taglio può anche tagliare estremamente pulito. I coltelli da intaglio lunghi e stretti sono più facili per molti cuochi, lavorano in entrambe le mani e maneggiano carne disossata e pesce molto bene.
 
 La distinzione utile non è il bisellatura singola è tagliente e la bisellatura doppia è ordinaria. Entrambi possono raggiungere un apice molto fine. Differiscono in sterzo, separazione, finitura superficiale e specializzazione.
 

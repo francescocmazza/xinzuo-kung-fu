@@ -1,5 +1,5 @@
 ---
-source_hash: 164792de9bd3cb84dadcdfe482182718c7a7d9971c8f813bd1d34e1e452c32f0
+source_hash: 82d4a9a15f721867b03744f9adad228732ff91e1efd1428ad04b7e719ab3ae0f
 ---
 
 # Anatomia di un coltello da cucina
@@ -172,7 +172,7 @@ Un utile aiuto alla memoria è:
 **lama di precisione più dura = maggiore ritenzione del bordo, meno tolleranza per il flex forzato**  
 **Lama di lavoro più dura/morbida = maggiore tolleranza per flex o impatto, minore ritenzione del bordo**
 
-Questa è una regola di allenamento, non una formula metallurgica completa. Spessore lama, cono distale, composizione, struttura in carburo, trattamento termico e geometria dei bordi ancora materia. La regola spiega perché un coltello flessibile, un chopper osso e una affettatrice molto dura a taglio fine utilizzano compromessi diversi.
+Questa è una regola di allenamento, non una formula metallurgica completa. Spessore della lama, cono, composizione, struttura interna microscopica dell'acciaio, trattamento termico e geometria dei bordi ancora materia. La regola spiega perché un coltello flessibile filetto, un chopper osso e una affettatrice molto duro fine-bordo utilizzano compromessi diversi.
 
 ## Finitura superficiale e rilievo superficiale
 

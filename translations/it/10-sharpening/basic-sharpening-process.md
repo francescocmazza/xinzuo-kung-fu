@@ -1,5 +1,5 @@
 ---
-source_hash: d654c9fb5d2c4d039103841e4938099f45bafd6b183900b0fa68322e0cee5da0
+source_hash: 72ea4b2bb96aa73601d240cfd44c5c09fe989aac6c1749c2280119e2e011b65d
 ---
 
 # Un processo pratico di affilatura
@@ -48,9 +48,9 @@ Gli elementi opzionali utili includono:
 
 - una pietra di riparazione grossolana;
 - una pietra di finitura più fine;
-- una lastra di appiattimento o di lappatura;
+- una pietra o una piastra di appiattimento;
 - ingrandimento;
-- uno strop in pelle o tessuto;
+- uno strop in pelle o tessuto per la pulizia finale dei bordi;
 - una penna marcatore per controllare il bordo smussato.
 
 La configurazione non deve essere complessa. Una buona pietra d'acqua media-griglia può ripristinare molti coltelli da cucina normalmente opachi.
@@ -248,7 +248,7 @@ Utilizzare pressione minima e passaggi a tutta lunghezza controllati, alternando
 
 ### Finitura di bordi o di bordi
 
-Entrambi possono funzionare quando sono controllati. I tratti di guida dei bordi possono tagliare il materiale di bava in modo efficiente. I tratti di copertura dei bordi sono più delicati ma possono tirare fuori un bordo del filo se la pressione è troppo alta.
+Entrambi possono funzionare quando sono controllati. I tratti di guida del bordo spostano il bordo nell'abrasivo e possono tagliare il materiale di sbavatura in modo efficiente. I tratti di scorrimento del bordo spostano la colonna vertebrale prima e sono più delicati, ma possono tirare fuori un bordo del filo se la pressione è troppo alta.
 
 ### Stropping
 
@@ -274,7 +274,19 @@ Nessun test racconta l'intera storia.
 
 ### Prova su carta
 
-Tagliare la carta pulita e asciutta con un movimento controllato. Il bordo deve entrare senza pressione eccessiva e continuare senza strappi ripetuti. Provare diverse sezioni. Ricordate che un filo fragile può anche tagliare la carta brevemente.
+Utilizzare un foglio pulito e asciutto di carta normale. Tenere premuto in modo che il percorso di taglio è chiaro e tenere la mano di supporto ben lontano dal bordo.
+
+Iniziare con il **heel**, la parte posteriore del tagliente più vicino alla maniglia, contro la carta. Disegnare il coltello lentamente e senza intoppi in modo che il punto di contatto viaggia progressivamente lungo il bordo verso la punta. Il movimento dovrebbe essere continuo e anche piuttosto che un rapido taglio. Tenere il percorso di taglio lontano dal vostro corpo.
+
+Prestare attenzione alla resistenza ****. Una sezione molto tagliente dovrebbe entrare e viaggiare attraverso la carta con poca forza. Più resistenza di solito indica una sezione meno acuta. Proprio come importante, notare se la resistenza cambia durante il colpo. Un colpo improvviso in una posizione può rivelare una macchia opaca, una piccola area danneggiata o una sezione affilata in modo irregolare anche quando il resto del bordo taglia bene.
+
+Dopo il taglio, ispezionare la carta stessa. Un bordo pulito sulla carta suggerisce che il coltello affettato piuttosto che strapparlo. Le fibre fragianti, rasate o un'area visibilmente strappata possono rivelare una sezione meno affilata o meno pulita.
+
+Per un coltello **lungo**, non giudicare l'intero bordo da un tratto molto lungo. Il controllo diminuisce naturalmente quando il punto di lavoro si muove lontano dalla maniglia, in modo che la punta può sentirsi meno affilata semplicemente perché la mano ha un controllo meno preciso lì. Provare una lama lunga in **due sezioni sovrapposte**: tallone al centro, poi al centro della punta. Ciò rende il confronto più affidabile mentre ancora controlla l'intero bordo tagliente.
+
+Ripetere il test lentamente se necessario. L'obiettivo non è quello di mostrare che il coltello può tagliare la carta; è quello di sentire ** quanta resistenza ogni sezione crea e se questa resistenza è uniforme dal tallone alla punta**.
+
+Un filo fragile può anche tagliare la carta brevemente, quindi il test deve essere letto insieme al controllo delle sbavature e al comportamento pratico di taglio.
 
 ### Test alimentare
 
@@ -292,7 +304,7 @@ Giudicare se il coltello inizia, segue e completa il taglio in modo pulito. Comp
 
 Sciacquare il residuo abrasivo e di acciaio dalla lama e asciugarlo immediatamente.
 
-Risciacquare la pietra, rimuovere lo swarf sciolto e ispezionare la sua superficie. Appiattirlo se il centro ha iniziato a scavare.
+Sciacquare la pietra, rimuovere i residui abrasivi e d'acciaio sciolti e ispezionarne la superficie. Appiattirla se il centro ha iniziato a svuotare.
 
 Lasciare asciugare la pietra completamente in un luogo ventilato. Evitare il calore e il sole diretto. Pulire residui abrasivi dalla zona di lavoro, panni e superfici di preparazione degli alimenti.
 
@@ -302,7 +314,7 @@ Un singolo smusso tradizionale non è un doppio smusso con un lato omesso. Il su
 
 L'ampio smusso principale è normalmente lavorato contro la pietra. Il rovescio viene poi posto quasi piano e lavorato abbastanza leggermente per rimuovere la bava pur conservando l'urasuki e i suoi stretti appartamenti di riferimento.
 
-L'ampio angolo di smussatura può anche **vary lungo la lama**. L'altezza della lama diminuisce verso la punta, e coltelli di alta qualità spesso sottile attraverso **distal cono**. Poiché l'angolo di smussatura dipende dallo spessore locale, larghezza smussata e altezza della lama, tallone, medio e punta non può trovarsi su un piano identico.
+L'ampio angolo di smussatura può anche **vary lungo la lama**. L'altezza della lama diminuisce verso la punta, e coltelli di alta qualità spesso sottile attraverso **distal cono**, la graduale riduzione dello spessore della lama verso la punta. Poiché l'angolo di smussatura dipende dallo spessore locale, larghezza smussata e altezza della lama, tallone, medio e punta non può trovarsi su un piano identico.
 
 Non bloccare il polso con un angolo teorico dal tallone alla punta. Guarda il cerotto di contatto e regolare gradualmente come la lama si restringe e si dirada. Marker, luce riflessa e modelli di usura possono mostrare se una sola striscia è in terra.
 

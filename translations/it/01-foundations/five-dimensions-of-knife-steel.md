@@ -1,5 +1,5 @@
 ---
-source_hash: 4b98dfc753a1312bf6b1c1541f8f629f3f4b51d165de62c0c258451491c5380d
+source_hash: 88e38809e23e24394cadaf95ee6a9e9ea470d52f878d696cd85d770bfd171c4e
 ---
 
 # Le cinque dimensioni dell'acciaio del coltello
@@ -12,7 +12,7 @@ La domanda utile è:
 
 > Quale equilibrio di qualità meglio si adatta a questo coltello, questo compito e questo utente?
 
-Cinque dimensioni forniscono una mappa pratica: ** durezza, risposta all'affilatura, resistenza alla corrosione, durezza e finezza microstrutturale**. Essi non coprono ogni dettaglio metallurgico, ma impediscono molti malintesi comuni. Devono essere letti insieme perché cambiare una parte del sistema cambia i compromessi disponibili altrove.
+Cinque dimensioni forniscono una mappa pratica: ** durezza, risposta all'affilatura, resistenza alla corrosione, durezza e finezza microstrutturale**. *Microstruttura* significa la struttura interna microscopica dell'acciaio: i suoi piccoli cristalli, fasi e particelle dure.
 
 ## 1. Durezza: resistenza alla deformazione permanente
 
@@ -22,7 +22,9 @@ HRC non misura nitidezza, durezza o prestazioni di taglio complessive. Un coltel
 
 Un apice più duro in genere resiste meglio al rotolamento e alla deformazione plastica. La durezza contribuisce anche alla resistenza all'usura abrasiva. Con la composizione e la microstruttura dell'acciaio molto simili, il campione più duro normalmente resiste all'usura più forte.
 
-Anche il tipo, il volume e la distribuzione del carburo contano, così come la durezza della matrice circostante. Un acciaio ricco di carburi di vanadio molto duri o di etossilati può resistere all'abrasione in modo diverso da un altro acciaio allo stesso HRC o addirittura superiore.
+L'acciaio può anche contenere **carbidi: microscopici cristalli duri formati quando il carbonio si combina con il ferro o alcuni elementi legati**. Il tipo, la quantità, le dimensioni e la distribuzione del carburo possono cambiare notevolmente la resistenza all'usura. I carburi ricchi di Vanadium o di benzine, per esempio, sono molto più difficili della matrice d'acciaio circostante.
+
+La **matrice** è la parte continua dell'acciaio che circonda queste particelle. Anche la sua durezza è importante. Due acciai allo stesso HRC possono quindi comportarsi in modo diverso perché le loro matrici e popolazioni di carburo sono diverse.
 
 La regola pratica è semplice: **non classificare acciai non collegati da HRC da solo**. Leggere la durezza insieme al trattamento termico, microstruttura, angolo di bordo, spessore dietro il bordo e l'uso previsto.
 
@@ -51,9 +53,9 @@ La resistenza alla corrosione è la capacità di una lama di resistere all'umidi
 
 La soglia compositiva ampiamente utilizzata per l'acciaio inossidabile è ** almeno 10,5% di cromo in massa**. Ciò classifica l'acciaio; non significa che ogni acciaio sopra la soglia resista ugualmente bene alla corrosione.
 
-Il cromo funziona principalmente attraverso **passivation**. Quando abbastanza cromo è disponibile in superficie, un sottile, aderente strato di ossido di cromo ricco di forme e aiuta a isolare il ferro sottostante dall'ambiente. Se graffiato, la pellicola può riformare quando le condizioni adatte ritornano.
+Il cromo funziona principalmente attraverso **passivation**. Ciò significa che abbastanza cromo in superficie forma uno strato di ossido protettivo estremamente sottile che rallenta ulteriormente la corrosione. Se graffiato, la pellicola può formarsi di nuovo quando le condizioni adatte ritornano.
 
-La parola chiave è *disponibile*. Il cromo dissolto nella matrice può sostenere la passivazione; cromo legato in carburi è meno disponibile per quel lavoro. Il contenuto di carbonio, temperatura di anidride carbonica, chimica del carburo, molibdeno, azoto, finitura superficiale e l'ambiente di lavoro tutti influenzano il risultato.
+La parola chiave è *disponibile*. Cromo dissolto nella matrice può sostenere la passivazione; cromo legato in carburi è meno disponibile per quel lavoro. Contenuto di carbonio, trattamento termico, molibdeno, azoto, finitura superficiale e l'ambiente di lavoro tutti influenzano il risultato.
 
 L'acciaio inossidabile è resistente alla corrosione, non antimacchia. Sale, cloruro, residuo acido e stoccaggio umido prolungato possono ancora macchiare o sventrare una lama inox. Gli acciai al carbonio reattivi necessitano di una cura più rapida e possono sviluppare una patina scura, che è diversa dalla ruggine arancione attiva.
 
@@ -69,13 +71,13 @@ Il compito determina il compromesso utile. Una affettatrice sashimi beneficia di
 
 ## 5. Finezza microstrutturale: ciò che sostiene l'apice
 
-L'acciaio sembra uniforme per l'occhio, ma microscopicamente contiene una matrice, grani, fasi e particelle dure come **carbidi**. Le loro dimensioni, quantità e distribuzione influenzano la resistenza all'usura, la durezza e quanto finemente il bordo può essere raffinato.
+L'acciaio sembra uniforme per l'occhio, ma al microscopio è fatto da molti piccoli **grain** e può contenere diverse fasi e cristalli di carburo. Le loro dimensioni, quantità e distribuzione influenzano la resistenza all'usura, la durezza e quanto finemente il bordo può essere raffinato.
 
-Una microstruttura più fine e uniforme supporta generalmente un apice molto fine e continuo più facilmente. Ciò non significa raggio di bordo deve essere uguale al diametro del carburo più grande. Il meccanismo è più complesso. Ma quando le dimensioni del carburo si avvicinano alla scala di un apice altamente raffinato, grandi particelle dure possono sporgere, fratturare o tirare fuori, rendendo un bordo continuo estremamente liscio più difficile da creare e stabilizzare.
+Una microstruttura più fine e uniforme supporta generalmente un apice molto fine e continuo più facilmente. Ciò non significa che il raggio del bordo deve corrispondere al diametro del carburo più grande. Il meccanismo è più complesso. Il punto utile è che particelle dure molto grandi possono rendere un bordo estremamente liscio e continuo più difficile da creare e stabilizzare.
 
 I carburi duri grandi o abbondanti possono ancora essere utili: possono aumentare la resistenza all'usura e preservare per lungo tempo un carattere aggressivo e dentato. Il trade-off è generalmente più lento, mentre le dimensioni o il volume del carburo possono ridurre la durezza e il potenziale di un apice ultra-raffinato.
 
-Il termine **grain size** è talvolta usato liberamente per tutto questo, ma le dimensioni del grano e del carburo sono diverse. Questa guida utilizza * finezza microstrutturale* come termine di insegnamento più ampio. [Trattamento termico e carboidrati](../02-steels-and-metallurgy/heat-treatment-and-carbides.md) spiega le principali famiglie di carburo e gli elementi che le formano.
+Il termine **grain size** è talvolta usato liberamente per tutto questo, ma le dimensioni del grano e del carburo sono diverse. Questa guida utilizza * finezza microstrutturale* come termine di insegnamento più ampio. I capitoli successivi della metallurgia spiegano i grani, la matrice, le fasi e le principali famiglie di carburo in modo più dettagliato.
 
 ## Le cinque dimensioni interagiscono
 

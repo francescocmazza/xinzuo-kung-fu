@@ -1,5 +1,5 @@
 ---
-source_hash: 6856102c326c5ab9988b453172062164c9fb6df962813e5497cfba38c64a7bc3
+source_hash: 05cc50448cf9e547d41b160838b18321998d0a9e2ae4434bf492c9f09be5eb3e
 ---
 
 # Comprendere la Bava di Affilatura
@@ -146,7 +146,7 @@ La rimozione della bava è il processo di eliminazione della bava lasciando un a
 
 ### Leggere passate alternate sulla pietra
 
-Utilizzare una pressione molto bassa e lati alternati. A seconda del metodo, tratti possono essere bordo-leading, bordo-trailing o una combinazione controllata.
+Usate la pressione molto bassa e lati alternati. Il bordo può muoversi ** nella pietra**, chiamato un tratto **edge-leading**, o muoversi con il **spin first**, chiamato un tratto **edge-trailing**. Entrambi possono essere utili quando controllati. Il pratico capitolo di affilatura spiega come si comportano durante la finitura.
 
 ### Una pietra più fine
 
@@ -154,7 +154,7 @@ Una pietra più fine può raffinare la smussatura e ridurre una piccola bava. No
 
 ### Stropping
 
-Pelle, tessuto o uno strop abrasivo adatto può rimuovere materiale fine rimanente bava. Spostare prima spina in modo che il bordo non taglia nella strop.
+Un **strop** è una striscia o una superficie, comunemente in pelle o tessuto, utilizzata per raffinare il bordo finale molto leggero. Può rimuovere il materiale di bava rimasto fine. Spostare la spina dorsale-prima in modo che il bordo non taglia nella strop.
 
 Stropping è utile ma opzionale. Troppa pressione o troppi passaggi possono arrotondare l'apice.
 

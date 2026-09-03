@@ -1,5 +1,5 @@
 ---
-source_hash: bbe6ef20f29f916f802912a6fc47f4e53360d97f9d397e873feb1e1299097f46
+source_hash: f3cc9e43d511d576151f188a51b381bd5c0052077e0d3334d245a497236d7c4b
 ---
 
 # Forme di coltello e loro usi
@@ -291,24 +291,14 @@ Utilizzare un leggero movimento di taglio guidato e lasciare lavorare i denti. E
 
 Un coltello da cucina surgelato utilizza forti seghe grossolane per segare attraverso ingredienti surgelati adatti. Esiste perché forzare un coltello da cuoco rigido sottile in un blocco congelato può scheggiarsi o rompere la lama. Si tratta ancora di un'operazione speciale pericolosa: stabilizzare il cibo, tenere la mano libera fuori dal percorso di taglio ed evitare di torcere o l'impatto.
 
-## Un profilo compatto orientato alla carne
-
-### Coltello vichingo
-
-<div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/viking.jpg" alt="Complete Xinzuo Viking Knife"><figcaption>Un coltello vichingo Xinzuo, un profilo commerciale compatto orientato alla carne.</figcaption></figure>
-</div>
-
-Il Viking Knife è un nome commerciale Xinzuo, non una categoria storica universale. Il profilo è meglio inteso come affettatrice a base di carne compatta: più corta e facile da manovrare di un lungo coltello da intaglio, con una curva pronunciata che sostiene affettare bistecche e porzioni cotte dissanguate. Un lungo coltello da intaglio rimane più efficiente per i grandi arrosti e prosciutto perché il Viking Knife raggiunge la manovrabilità. Non è un chopper osseo.
-
 ## Scegliere per lavoro anziché per nome
 
 Per la maggior parte delle cucine, il primo coltello serio dovrebbe essere un coltello da cuoco, gyuto, santoku o mannaia cinese la cui lunghezza e movimento si sentono naturali. Un coltello da pane e una piccola utilità o coltello da pastiglia poi coprire lavori le maniglie della lama principale male. Long intaglio, filettatura, macelleria di pesce e strumenti di impatto diventano utili quando tali compiti si verificano spesso abbastanza per giustificare la geometria dedicata.
 
 Per il personale di vendita, tornare alle stesse domande: **Quali alimenti taglierà il cliente più spesso? In quali quantità? Su una tavola o in mano? Il lavoro ha bisogno di un ampio contatto, una lunga estrazione, flessibilità controllata, un punto preciso, costante cambiamento angolo intorno all'osso, o la massa supportata per l'impatto?** Una volta che il lavoro è chiaro, la giusta famiglia di forme è di solito chiaro troppo.
 
-Quindi passare all'ergonomia. Chiedere al cliente di utilizzare la loro impugnatura normale e confrontare forme maniglia, pesi totali e punti di equilibrio all'interno di quella famiglia di lame. Qualcuno che preferisce un forte taglio push può godere di un piantato, lama-forward coltello; un'altra persona può preferire un modello più leggero o più neutro per cambi di direzione rapidi. **Usa la larghezza della gamma Xinzuo per offrire una piccola selezione di coltelli che tutti si adattano al compito ma si sentono diversi nella mano.** Lasciate che la mano del cliente decide la migliore vestibilità.
+Il capitolo successivo spiega perché l'impugnatura, l'impugnatura intermedia e l'impugnatura a pizzico possono far sentire lo stesso coltello diverso e perché Xinzuo offre diverse strategie di bilanciamento piuttosto che una configurazione universale.
 
-Scegliere il profilo prima ed ergonomica vestibilità seconda. Acciaio, trattamento termico, costruzione, manico materiale, aspetto e prezzo poi completare la scelta tra i modelli che già si adattano sia compito e utente. nomi dei prodotti e esempi di catalogo sono riferimenti; non sostituiscono la geometria o l'esperienza di tenere il coltello.
+Scegliere il profilo prima ed ergonomica vestibilità seconda. Acciaio, trattamento termico, costruzione, manico materiale, aspetto e prezzo poi completare la scelta tra i modelli che già si adattano sia compito che utente.
 
 Le fotografie di questo capitolo mostrano le vere versioni Xinzuo delle forme discusse. Stabiliscono il profilo visibile, non tutte le proprietà del coltello. Durezza, macinatura, matita, trattamento termico, equilibrio e capacità ossea devono ancora essere controllati sul modello esatto e compresi attraverso i principi nei capitoli seguenti.

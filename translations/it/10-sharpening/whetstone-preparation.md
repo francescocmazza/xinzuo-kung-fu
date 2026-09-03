@@ -1,5 +1,5 @@
 ---
-source_hash: bb61f76886bea7fa195661f7cafca38e7ae352078532d4e4ccddb54367a1f4eb
+source_hash: ee095ab49816131c52da579a012d48b069481ca0cef3d2135a55c061a38b7f0b
 ---
 
 # Preparazione delle pietre d'acqua
@@ -20,7 +20,7 @@ Una pietra porosa secca contiene aria. Quando viene messa in acqua, i pori riemp
 
 La frizione è solitamente più forte all'inizio e rallenta come la pietra diventa satura. Quando rimangono solo bolle occasionali, la pietra ha di solito assorbito abbastanza acqua per l'affilatura.
 
-Il tempo varia con porosità, spessore, secchezza, temperatura, dimensioni e legante. Per le pietre assorbenti, guardare le bolle è spesso più utile che sempre ammollo per esattamente dieci minuti.
+Il tempo varia con porosità, spessore, secchezza, temperatura, dimensioni e **binder**, il materiale che tiene insieme i grani abrasivi. Per le pietre assorbenti, guardare le bolle è spesso più utile che sempre in ammollo per esattamente dieci minuti.
 
 ## L'importante eccezione: seguire il costruttore
 
@@ -60,7 +60,7 @@ Queste pietre dense lavorano dopo che l'acqua è applicata alla superficie. Hann
 
 ### Lastre diamantate
 
-L'abrasivo diamantato è fissato ad una piastra rigida. La piastra non ha bisogno di ammollo. L'acqua può aiutare a spostare la sciarpa e ridurre il carico, ma non viene assorbita.
+L'abrasivo diamantato è fissato ad una piastra rigida. La piastra non ha bisogno di ammollo. L'acqua può aiutare a spostare residui di acciaio sciolto e ridurre l'intasamento, ma non viene assorbito.
 
 ### Pietre da olio
 
@@ -95,7 +95,7 @@ Una pietra piegata cambia l'angolo durante la corsa. Su un'ampia singola bisella
 
 Controllare la planarità con un bordo dritto o disegnare una griglia a matita attraverso la superficie. Durante l'appiattimento, linee scomparenti disomogenee mostrano dove la superficie è alta o bassa.
 
-Utilizzare una pietra di appiattimento, lastra di lappatura o superficie abrasiva adatta come raccomandato dal produttore. Lavorare in modo uniforme fino alla scomparsa dei segni della matita.
+Utilizzare una pietra di appiattimento, piastra di appiattimento o un'altra superficie abrasiva adatta consigliata dal produttore. Lavorare in modo uniforme fino a quando i segni della matita scompaiono.
 
 L'appiattimento è una manutenzione regolare, non una riparazione rara.
 
@@ -105,7 +105,7 @@ Anche una pietra bagnata ha bisogno di acqua sulla sua superficie di lavoro.
 
 Mantenere la superficie bagnata e libera. Aggiungere acqua se inizia a sentirsi appiccicosa o asciutta.
 
-La giusta quantità dipende dalla pietra. Troppo poco può lasciare che swarf costruire e smalto la superficie; troppo può lavare troppo liquido utile troppo rapidamente. Un suono di macinazione a secco, improvviso aumento di resistenza o scure striature secche spesso significa più acqua è necessario.
+La giusta quantità dipende dalla pietra. Troppo poco può lasciare l'acciaio rimosso costruire e intasare** la superficie, rendendola più liscia e meno efficace; troppo può lavare via miscela abrasiva utile troppo rapidamente. Un suono di macinazione a secco, improvviso aumento di resistenza o scure striature secche spesso significa più acqua è necessario.
 
 ## Liquirizia e swarf
 
@@ -147,7 +147,7 @@ Non lasciare una pietra immersa in modo permanente a meno che il produttore non 
 
 ## Dopo l'affilatura
 
-Sciacquare l'acciaio sciolto e i residui abrasivi. Pulire delicatamente la superficie e trattare le aree vetrate con il metodo appropriato di medicazione o appiattimento.
+Sciacquare l'acciaio sciolto e i residui abrasivi. Pulire delicatamente la superficie e trattare le aree vetrate con il metodo appropriato di pulizia o appiattimento.
 
 Controllare la planarità; è spesso più facile appiattire la pietra mentre è già bagnata.
 

@@ -1,5 +1,5 @@
 ---
-source_hash: f0a9b48b86708b7dcdaf6d6376cea808e64c8e3309af5123989e8c5c7f081421
+source_hash: 4877b5c27787cbc98b4f950879ba4652aba336bbbdacd295ff229995d10a05f0
 ---
 
 # Xinzuo Blade Steels: diversi saldi per coltelli diversi
@@ -20,10 +20,10 @@ Un nome in acciaio descrive il potenziale. Trattamento termico, geometria della 
 | **Blue Steel No. 2** | Giappone | 62-64 HRC | Acciaio reattivo ad alto tenore di carbonio che può prendere un bordo molto acuto e rispondere insolitamente bene alle pietre d'acqua nonostante l'elevata durezza | Richiede pulizia immediata e asciugatura e svilupperà naturalmente patina |
 | **14Cr14MoVNb acciaio in polvere** | Xinzuo | 60-64 HRC | Acciaio pregiato in polvere con cuscinetti a neobio destinato a combinare elevata durezza e ritenzione con una struttura in carburo più fine e controllata | Requisiti di affilatura premium; il comportamento esatto dipende fortemente dal trattamento termico e dalla geometria |
 | **12Cr18MoV** | Xinzuo | 59-61 HRC | La più recente formulazione inox convenzionale a tutto tondo di Xinzuo, introdotta intorno al 2024 e attualmente considerata come uno dei saldi più forti di uso quotidiano | Meno resistenza all'usura degli acciai a polvere più duri, per progettazione |
-| **AUS-10** | Giappone, famiglia Aichi | 58-62 HRC | Inox giapponese ad alto tenore di carbonio con un equilibrio pratico vicino alla classe di prestazioni comunemente associata a VG10: buona nitidezza, durezza, resistenza alla corrosione e manutenzione gestibile | Moderata resistenza all'usura rispetto al livello premium PM; non chimicamente identica al VG10 |
+| **AUS-10** | Giappone, famiglia Aichi | 58-62 HRC | Inox giapponese ad alto tenore di carbonio con un equilibrio pratico vicino alla classe di prestazioni comunemente associata a VG10: buona nitidezza, durezza, resistenza alla corrosione e manutenzione gestibile | Moderata resistenza all'usura rispetto al livello premium di acciaio in polvere; non chimicamente identica a VG10 |
 | **10Cr15CoMoV** | Cina / Xinzuo specifica | 58-62 HRC | Da anni il nucleo inox ad alto tenore di carbonio più utilizzato da Xinzuo è caratterizzato da un equilibrio insolitamente completo di ritenzione dei bordi, resistenza alla corrosione e prezzo/prestazioni | Non massimizza una singola proprietà; le prestazioni finali rimangono altamente dipendenti dal trattamento termico e dalla geometria |
 | **VG10** | Giappone, Takefu acciaio speciale | HRC 60 o superiore nella specifica pubblicata da Takefu | Benchmark Inox cobalto-cuscinetto giapponese utilizzato da molti produttori di coltelli; combina buona resistenza alla corrosione, nitidezza durevole, resistenza all'usura e relativamente semplice affilatura | L'attuale approvvigionamento di Xinzuo è vincolato dalla politica di approvvigionamento cinese del produttore; attualmente non è una normale produzione di acciaio Xinzuo |
-| **Sandvik 14C28N** | Svezia | 57-59 HRC | Design inox assistito dall'azoto con struttura fine, forte resistenza alla corrosione e ottima stabilità dei bordi; piacevole per gli utenti che mantengono i propri coltelli | Moderata resistenza all'usura e durata del bordo rispetto agli acciai PM ad alto tenore di carboidrati |
+| **Sandvik 14C28N** | Svezia | 57-59 HRC | Design inox assistito dall'azoto con struttura fine, forte resistenza alla corrosione e ottima stabilità dei bordi; piacevole per gli utenti che mantengono i propri coltelli | Moderata resistenza all'usura e durata del bordo rispetto agli acciai a polvere ad alto tenore di carboidrati |
 | **440C** | Qualità standard internazionale; fornitura Xinzuo dalla Cina | 56-58 HRC | Inox martensitico al carbonio collaudato con resistenza all'usura utile, resistenza alla corrosione e alla resistenza ad un costo accessibile | Struttura in metallo duro più grosso e ritenzione più modesta rispetto agli acciai più recenti ad alte prestazioni alla durezza pubblicata da Xinzuo |
 | **DIN 1.4116** | Germania | 56-58 HRC | Duro, resistente alla corrosione e perdonante nell'uso quotidiano, con un ampio margine contro la scheggiatura e l'uso improprio rispetto agli acciai molto duri a sezione sottile | Ha bisogno di manutenzione del bordo più frequente e può formare una bava persistente; durezza moderata non significa automaticamente affilatura senza sforzo |
 
@@ -47,9 +47,9 @@ SRS13 rimane un acciaio ad alta ritenzione premium senza raggiungere la durezza 
 
 M390 è un pregiato acciaio inox in polvere metallizzato austriaco di Böhler. La sua resistenza principale è **molto elevata resistenza all'usura combinata con una forte resistenza alla corrosione**. Si adatta ai coltelli che necessitano di una lunga durata di lavorazione con comodità inox.
 
-La sua robustezza è più modesta. Böhler descrive la sua robustezza e duttilità come *buona*, mentre i luoghi di test di impatto indipendenti in scala di coltelli hanno ottimizzato M390 verso il lato inferiore della robustezza dello spettro in acciaio. Precedenti risultati di robustezza insolitamente elevati sono stati legati al trattamento termico con
+La sua durezza è più modesta. Böhler descrive sia la sua durezza che la capacità di deformarsi prima della rottura**, mentre i posti di test di impatto indipendenti in scala di coltelli hanno ottimizzato M390 verso il lato inferiore della durezza dello spettro in acciaio. Precedentemente i risultati di resistenza insolitamente elevati sono stati legati al trattamento termico con un'eccessiva tenuta in galattosio. Ciò non rende M390 fragile nel normale uso in cucina; significa che le sue ragioni più forti per la selezione sono resistenza all'usura, resistenza alla corrosione e ritenzione piuttosto che resistenza eccezionale.
 
-La sua popolazione di carburo resiste anche agli abrasivi ordinari. Gli abrasivi in ceramica dura, diamante o CBN possono rendere l'affilatura molto più efficiente.
+La sua popolazione di carburo resiste anche agli abrasivi ordinari. Gli abrasivi in ceramica dura, diamantata o **cubica in boro (CBN)** possono rendere l'affilatura molto più efficiente. CBN è un abrasivo sintetico estremamente duro utilizzato per acciai difficili da abradere.
 
 ### 14Cr14MoVNb: Acciaio in polvere pregiato a base di di Xinzuo
 
@@ -67,7 +67,7 @@ Blue Steel n. 2, o Aogami #2, è l'opzione principale in acciaio al carbonio rea
 
 Una lama Blu #2 ben trattata può rispondere molto rapidamente alle pietre d'acqua adatte nonostante la sua durezza. Può raggiungere l'apice e la sbavatura in modo pulito, motivo per cui molti affilatori esperti lo trovano più piacevole degli acciai inossidabili a bassa resistenza all'usura abrasiva.
 
-La sua domanda principale è la cura della corrosione. Lavare e asciugare immediatamente, aspettare una patina e distinguere quello strato scuro stabile dalla ruggine arancione attiva.
+La sua domanda principale è la cura della corrosione. Lavarla e asciugarla immediatamente. Aspettatevi una **patina**, la stabile reazione superficiale grigia, blu o scura che si sviluppa naturalmente sull'acciaio al carbonio reattivo, e distinguerla dalla ruggine arancione attiva.
 
 ### 10Cr15CoMoV: il riferimento all-round Xinzuo di lunga data
 
@@ -97,7 +97,7 @@ AUS-10 offre più prestazioni rispetto agli acciai inossidabili di base pur rima
 
 ### VG10: il benchmark giapponese e perché importa a Xinzuo
 
-VG10 è un'acciaio per posate giapponese prodotto da **Takefu Special Steel**. Takefu pubblica circa 1% di carbonio, 15% di cromo, 1% di molibdeno, 0,25% di vanadio e circa 1,55% di cobalto, con durezza temprata di HRC 60 o superiore. Il produttore evidenzia resistenza alla corrosione, taglientezza durevole, resistenza all'usura, lavorabilità e affilatura relativamente semplice.
+VG10 è un'acciaio giapponese per posate inox di proprietà prodotta da **Takefu Special Steel**. Takefu pubblica circa 1% carbonio, 15% cromo, 1% molibdeno, 0,25% vanadio e circa 1,55% cobalto, con durezza temprata di HRC 60 o superiore. Il produttore mette in evidenza resistenza alla corrosione, taglientezza durevole, resistenza all'usura, facilità di produzione e affilatura relativamente semplice.
 
 VG10 è un utile punto di riferimento nel settore dei coltelli da cucina giapponesi di alta qualità. Aiuta a collocare il 10Cr15CoMoV di AUS-10 e Xinzuo nel contesto: AUS-10 segue una simile filosofia inox a tutto tondo, mentre 10Cr15CoMoV offre una gamma di prestazioni di tutti i giorni ampiamente comparabile e ha mostrato un piccolo vantaggio di corrosione nei test interni di Xinzuo.
 

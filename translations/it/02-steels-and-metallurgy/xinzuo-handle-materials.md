@@ -1,5 +1,5 @@
 ---
-source_hash: faebcf1b7691b3cfe9874c3e52235a3b53dbc8641117ffe45bc5929785f65ea2
+source_hash: ab0adb70db11331cd21399345569ddd300d10dc7ce11634ef0d3b914a7da2ca7
 ---
 
 # Materiali Xinzuo Handle - Sentire, Cura e Scelta
@@ -8,7 +8,9 @@ La lama ottiene la maggior parte dell'attenzione, ma la maniglia cambia anche co
 
 Nessun materiale è universalmente migliore. I materiali sintetici possono resistere all'umidità e hanno bisogno di poca cura. Il legno naturale si sente più caldo e dà ad ogni manico un aspetto unico, ma ha bisogno di più attenzione. I materiali ingegnerizzati combinano fibre, legno o tessuto con resina per bilanciare queste qualità.
 
-Per scopi pratici, questo capitolo utilizza tre gruppi: ** materiali compositi sintetici e tecnici**, ** materiali semisintetici o ibridi**, e ** materiali naturali**. Si tratta di una classificazione didattica, non di una rigida tassonomia materiali-scienza. G10, fibra di carbonio e Micarta, per esempio, sono tecnicamente tutti compositi.
+Un **composito** è semplicemente un materiale fatto combinando due o più materiali diversi in modo che lavorino insieme. Un **laminato** è un composito costruito da strati legati. Un **thermoplastic** è una plastica che può essere ammorbidita con calore e forma, poi diventa di nuovo ferma mentre si raffredda. Questi termini appaiono spesso nelle descrizioni delle maniglie.
+
+Per scopi pratici, questo capitolo utilizza tre gruppi: ** materiali compositi sintetici e tecnici**, ** materiali semisintetici o ibridi** e ** materiali naturali**. Si tratta di una classificazione didattica, non di una classificazione scientifica rigorosa. G10, le fibre di carbonio e Micarta, ad esempio, sono tecnicamente tutti compositi.
 
 La gamma documentata di Xinzuo comprende palissandro, ebano, legno di ferro deserto nordamericano, legno di sandalo rosso, resina, legno rosso, sicomo figurato, legno di oliva, quercia, fibra di carbonio, legno di Pakka, Micarta, fibra di carbonio con resina, noce e nero G10. Le serie selezionate utilizzano anche rame, corno di bufalo, imitazione ossa di bue e altri accenti. Il polipropilene e l'ABS appaiono di seguito solo come utili confronti industriali perché sono comuni su coltelli a basso costo e altamente funzionali prodotti in serie; non sono presentati come materiali di manico Xinzuo documentati.
 
@@ -20,21 +22,21 @@ Tenete a mente un principio: **il materiale cambia le possibilità, ma la forma 
 |---|---|---|---|---|
 | **Polipropilene (PP) | Termoplastica | Leggero, economico, resistente all'acqua, facile da modellare e igienizzare | Sensazione di qualità limitata e possibilità di finitura; la superficie può invecchiare o graffiare | Bassa manutenzione; evitare il calore inutile e l'esposizione chimica dura |
 | **ABS** | Termoplastica | Rigido, resistente agli urti, economico, facile da modellare in forme complesse | Può graffiare; calore e resistenza chimica dipendono dalla formulazione | Basso livello di manutenzione; evitare alte temperature e sostanze chimiche dure |
-| **G10** | laminato in fibra di vetro | Ottima stabilità dell'umidità, durata e potenziale di grip | Senso più tecnico; relativamente denso | Manutenzione molto bassa; lavaggio a mano raccomandato |
+| **G10** | laminato di fibra di vetro | Ottima stabilità dell'umidità, durata e potenziale di grip | Senso più tecnico; relativamente denso | Manutenzione molto bassa; lavaggio a mano raccomandato |
 | **Fibra di carbonio** | Rinforzo in carbonio in resina | Leggero, rigido e moderno | Costo Premium; finiture lucide possono mostrare segni | Pulisci; evita il calore e l'abrasione |
 | **Rosewood** | Legno di latifoglie naturale | Colore caldo, grana attraente, sensazione solida | Variazione naturale; può muoversi o asciugare se trascurata | Lavaggio a mano e asciugamento immediato; olio adatto occasionale se necessario |
 | **Ebano** | Legno duro naturale denso | Scuro, elegante, resistente | Pesante; può rompere se ripetutamente imbevuto ed essiccato | Conservare a secco; non lavare mai la lavastoviglie |
 | **Deserto di ferro** | Legname naturale molto denso | Elevata stabilità, densità e figura distintiva | Costo premium, peso aggiunto, variazione unica | Esposizione minima dell'acqua; asciugarsi prontamente |
-| **Legno di sandalo rosso/legno rosso** | Famiglia di legno naturale | Colore ricco e aspetto tradizionale | Specie e colore variano; l'umidità conta ancora | Lavaggio delicato e rapida asciugatura |
+| **Legno di sandalo rosso/legno rosso** | Famiglia di legno naturale | Colore ricco e aspetto tradizionale | Specie e colore variano; l'umidità è ancora importante | Lavaggio delicato e rapida asciugatura |
 | **Sycamore figurato** | Legno naturale lavorato | Grana drammatica e carattere visivo premium | Figura varia; ha bisogno di una normale cura del legno | Evitare l'immersione, il calore e la lavastoviglie |
-| **Olivewood** | Legno di latifoglie naturale | Grana espressiva, tono caldo, carattere tattile | Il colore varia; può asciugare o muoversi | Asciugarsi rapidamente; condizione solo se appropriato |
+| **Olivewood** | Legno di latifoglie naturale | Grana espressiva, tono caldo, carattere tattile | Il colore varia; può seccarsi o muoversi | Asciugarsi rapidamente; condizione solo se appropriato |
 | #Rovere/rovere bruciato** | Legno di latifoglie naturale | Grano riconoscibile, aspetto robusto | Chicchi aperti possono richiedere un'accurata tenuta e cura | Tenere pulito e asciutto; evitare l'umidità prolungata |
 | **Noce** | Legno di latifoglie naturale | Peso bilanciato, caldo tono scuro | Più morbidi dei legni esotici più densi; variazione naturale | Lavare a mano, asciugare ed evitare il calore |
 | **Pakka wood** | compositi di legno e resina lamellati | Aspetto simile al legno con maggiore stabilità e consistenza del colore | Ancora non resistente alla lavastoviglie; la qualità dipende dalla costruzione | Facile cura quotidiana, ma non ammollo |
 | **Legno stabilizzato** | Legno naturale impregnato di resina | Preserva la figura naturale migliorando la stabilità e la resistenza all'umidità | Più pesante e più costoso; la qualità dipende dalla penetrazione e dal processo | Bassa manutenzione, ma non automaticamente impermeabile |
 | **Micarta** | Tessuto o laminato di carta in resina | Impugnatura stabile, durevole e ispirata alla fiducia | Feel meno naturale; consistenza e colore variano in base alla finitura | Lavaggio a mano; generalmente bassa manutenzione |
 | **Fibra di carbonio con resina** | compositi decorativi | Profondità visiva, stabilità e libertà di progettazione | L'aspetto dipende dalla resina; può graffiare | Lavaggio a mano e pulizia non abrasiva |
-| **Resin** | Polimero ingegnerizzato | Stabilità dell'umidità, colore ripetibile e libertà decorativa | Può graffiare; sentire dipende fortemente dalla finitura | Pulizia semplice delle mani; evitare calore elevato |
+| **Resin** | Materiale sintetico ingegnerizzato | Stabilità dell'umidità, colore ripetibile e libertà decorativa | Può graffiare; sentire dipende fortemente dalla finitura | Pulizia semplice delle mani; evitare calore elevato |
 
 ## Materiali compositi sintetici e tecnici
 
@@ -44,11 +46,11 @@ La parola **plastic** dice poco sulla qualità. Un termoplastico stampato ad ini
 
 ### Polipropilene (PP)
 
-Il polipropilene è comune su coltelli economici e coltelli professionali progettati per praticità, igiene e bassa manutenzione. Lo stampaggio a iniezione produce maniglie leggere e resistenti all'acqua in modo rapido ed economico, con texture formata direttamente in superficie.
+Il polipropilene è comune su coltelli economici e coltelli professionali progettati intorno alla praticità, all'igiene e alla bassa manutenzione. **Lo stampaggio a iniezione** significa forzare la plastica ammorbidita in uno stampo in modo da prendere la forma richiesta. Produce maniglie leggere e resistenti all'acqua in modo rapido ed economico, con texture formata direttamente in superficie.
 
-Un buon manico in PP può durare per anni, ma l'uso pesante può graffiare o lucidare la superficie liscia. L'esposizione ultravioletta, il calore elevato, le sostanze chimiche aggressive e il lavaggio ripetuto duro possono anche causare scolorimento, deformazione o embrittlement a seconda della formulazione.
+Una buona maniglia PP può durare per anni, ma l'uso pesante può graffiare o lucidare la superficie liscia. Lunga esposizione alla luce ultravioletta dalla luce solare, calore elevato, sostanze chimiche aggressive e lavaggi ripetuti duri può anche causare scolorimento, deformazione o rendere alcune formulazioni più fragili.
 
-PP non è intrinsecamente povero. La sua limitazione su un coltello di fascia alta è che offre meno rigidità, ricchezza tattile, libertà di lavorazione e distinzione visiva rispetto a G10, fibra di carbonio o legni selezionati. I produttori premium di solito scelgono altri materiali quando l'impugnatura è destinato a comunicare l'artigianato e l'identità del prodotto.
+PP non è intrinsecamente povero. La sua limitazione su un coltello high-end è che offre meno rigidità, ricchezza tattile, modellando libertà e distinzione visiva rispetto a G10, fibra di carbonio o legni selezionati. I produttori premium di solito scelgono altri materiali quando l'impugnatura è destinato a comunicare artigianato e identità del prodotto.
 
 ### ABS
 
@@ -58,25 +60,25 @@ La sua superficie può graffiare, mentre la resistenza termica e chimica dipendo
 
 ### G10
 
-Il G10 è costituito da strati di tessuto di fibra di vetro impregnato di resina epossidica, quindi compresso e curato sotto calore e pressione in un laminato denso.
+Il G10 è costituito da strati di tessuto di fibra di vetro impregnato di resina **epossidica**, una resina resistente utilizzata per legare e proteggere le fibre. Gli strati vengono compressi e curati sotto calore e pressione in un laminato denso.
 
-Assorbe pochissima acqua, resiste al gonfiore e rimane dimensionalmente stabile. Tollera anche oli, grassi, molti detergenti e normali variazioni di temperatura. La lavorazione e la texture possono creare una presa sicura anche con le mani umide, rendendo il G10 adatto ad un uso frequente ed esigente.
+Assorbe pochissima acqua, resiste al gonfiore e rimane dimensionalmente stabile, il che significa che le sue dimensioni e le sue forme cambiano molto poco con l'umidità normale. Tollera anche oli, grassi, molti detergenti e normali cambiamenti di temperatura. La forma e la texture possono creare una presa sicura anche con le mani umide, rendendo il G10 adatto ad un uso frequente ed esigente.
 
 I suoi compromessi sono principalmente tattili ed estetici. G10 si sente più tecnico e meno caldo del legno e può essere relativamente denso. Questo peso può essere utile quando il design ha bisogno di più massa verso il manico. La texture molto aggressiva può anche diventare scomodo durante lunghe sessioni, quindi geometria superficiale e finitura bordo ancora materia.
 
 ### Fibra di carbonio
 
-Un manico in fibra di carbonio utilizza solitamente filamenti di carbonio fini tessuti o stratificati all'interno di una matrice di resina, spesso epossidica. Una volta guarito, il composito ha un rapporto di rigidità-peso molto elevato.
+Un manico in fibra di carbonio utilizza solitamente filamenti di carbonio fini tessuti o stratificati all'interno di resina, spesso epossidica. La resina circonda e tiene insieme le fibre. Una volta guarito, il composito può essere molto rigido senza essere pesante.
 
-Questo permette manici rigidi e robusti a basso peso. Il rinforzo assorbe essenzialmente acqua, il composito rimane dimensionalmente stabile e la superficie intrecciata conferisce un aspetto tecnico distintivo. Un manico leggero in fibra di carbonio può spostare l'equilibrio verso la lama, anche se il coltello completo determina il risultato finale.
+Questo permette manici rigidi e robusti a basso peso. Il rinforzo assorbe essenzialmente nessuna acqua, il composito cambia molto poco con l'umidità normale e la superficie intrecciata conferisce un aspetto tecnico distintivo. Un manico leggero in fibra di carbonio può spostare l'equilibrio verso la lama, anche se il coltello completo determina il risultato finale.
 
-Lo svantaggio principale è il costo. Materia prima e lavorazione sono più costosi di molti materiali comuni maniglia. Superfici altamente lucidate in grado di offrire meno trazione di G10 textured e in grado di mostrare impronte digitali o graffi fini. ** Fibra di carbonio** inoltre non garantisce la qualità identica in ogni prodotto; rinforzo, resina, orientamento della fibra e la produzione di tutta la materia.
+Lo svantaggio principale è il costo. La materia prima e la formatura sono più costosi che per molti materiali comuni maniglia. Superfici altamente lucidate in grado di offrire meno trazione rispetto G10 textured e in grado di mostrare impronte digitali o graffi fini. ** Fibra di carbonio** inoltre non garantisce la qualità identica in ogni prodotto; rinforzo, resina, direzione fibra e produzione di tutta la materia.
 
 ### Fibra di carbonio con resina
 
 La combinazione di rinforzo in carbonio con resina colorata o trasparente conferisce libertà visiva pur mantenendo buona parte della stabilità di un composito ingegnerizzato. Xinzuo utilizza queste costruzioni quando la maniglia stessa è una caratteristica di design forte.
 
-L'aspetto non rivela la quantità o l'orientamento del rinforzo del carbonio. Le descrizioni dei prodotti dovrebbero distinguere il laminato strutturale carbonio-fibra dal composito decorativo carbonio/resina solo quando la specifica lo conferma.
+L'aspetto non rivela la quantità o la direzione di rinforzo del carbonio. Le descrizioni dei prodotti dovrebbero distinguere il laminato strutturale carbonio-fibra dal composito decorativo carbonio/resina solo quando la specifica lo conferma.
 
 ### Resina
 
@@ -86,17 +88,17 @@ Hanno bisogno di poca manutenzione ma possono ancora graffiare, perdere lucentez
 
 ## Materiali semisintetici e ibridi
 
-Questi materiali combinano un componente naturale o a base di fibre con resina. L'obiettivo è quello di mantenere un certo aspetto, struttura o carattere tattile del materiale originale, riducendo l'assorbimento di umidità e il movimento dimensionale.
+Questi materiali combinano un componente naturale o a base di fibre con resina. L'obiettivo è quello di mantenere un certo aspetto, struttura o carattere tattile del materiale originale, riducendo l'assorbimento di umidità e cambiamenti di dimensioni o forma.
 
 ### Micarta
 
-Micarta è realizzata incollando strati di tessuto, tela, carta o altro materiale in fibra con resina termoindurente, quindi comprimendo e curando lo stack. Le versioni lino e tessuto sono comuni nelle maniglie dei coltelli.
+Micarta è realizzata legando strati di tessuto, tela, carta o altro materiale in fibra con ** resina termoindurente**, una resina che si indurisce in modo permanente durante l'indurimento e non si ammorbidisce semplicemente come una termoplastica. La pila viene compressa e curata in un laminato solido. Le versioni lino e tessuto sono comuni nelle maniglie dei coltelli.
 
 Il risultato è duro, stabile e molto meno sensibile all'umidità rispetto al legno naturale. La forma dell'impugnatura taglia gli strati ed espone linee e transizioni cromatiche che possono assomigliare a grana naturale.
 
 La finitura superficiale controlla gran parte dell'impugnatura. Micarta lucidata si sente più liscia; una finitura che espone più struttura in tessuto dà più trazione senza necessariamente sentirsi abrasiva. L'uso può gradualmente creare una leggera patina.
 
-George Westinghouse sviluppato Micarta nel 1910 come un laminato isolante elettrico. strati di carta o tessuto legato con resina creato un forte, stabile materiale industriale, poi utilizzato in strutture di aerei leggeri durante la prima guerra mondiale. utensili e coltellifici adottato molto più tardi perché la stessa stabilità, la resistenza e la lavorabilità tute maniglie. Micarta è quindi un materiale ingegneristico, non semplicemente un'imitazione del legno.
+George Westinghouse ha sviluppato Micarta nel 1910 come un laminato isolante elettrico. Strati di carta o tessuto legato con resina creato un materiale industriale forte e stabile, poi utilizzato in strutture di aerei leggeri durante la prima guerra mondiale. Utensili e coltellifici lo hanno adottato molto più tardi perché la stessa stabilità, la durezza e la facilità di modellare le maniglie della tuta. Micarta è quindi un materiale ingegneristico, non semplicemente un'imitazione del legno.
 
 In genere sembra più caldo e meno industriale del G10 pur mantenendo molti vantaggi tecnici. La qualità dipende ancora dalle fibre, dalla resina e dal processo produttivo.
 
@@ -114,9 +116,9 @@ Il legno Pakka conferisce anche al produttore un forte controllo sull'aspetto. G
 
 ### Legno stabilizzato
 
-Il legno stabilizzato inizia con vero legno naturale, spesso scelto per una figura accattivante. E' comunemente posto sotto vuoto in modo che la resina a bassa viscosità penetri nei pori e cavità interne, poi curata in un composito legno-polimero.
+Il legno stabilizzato inizia con vero legno naturale, spesso scelto per una figura accattivante. È comunemente posto sotto vuoto in modo che una resina molto fluida possa penetrare pori e cavità interne, poi curata in un composito legno-e-resina.
 
-Questo riduce l'assorbimento dell'umidità e migliora la stabilità dimensionale. Può anche rendere i pezzi altamente figurati, porosi o fragili adatti per le maniglie quando il legno non trattato sarebbe troppo instabile.
+Questo riduce l'assorbimento di umidità e rende il legno meno probabile di gonfiarsi o restringersi. Può anche rendere altamente figurati, porosi o fragili pezzi adatti per le maniglie quando il legno non trattato sarebbe troppo instabile.
 
 Il materiale mantiene gran parte dell'aspetto unico del legno originale mentre si comporta più come un composito tecnico. Il processo aggiunge peso, costo e complessità. Il legno stabilizzato non è automaticamente impermeabile; le prestazioni dipende dal legno di partenza e come penetra in profondità e uniformemente la resina.
 
@@ -124,7 +126,7 @@ Il materiale mantiene gran parte dell'aspetto unico del legno originale mentre s
 
 Il legno naturale rimane popolare perché ogni pezzo ha il suo grano, tono e piccole variazioni. Non ci sono due maniglie perfettamente identiche, e il legno ha un carattere tattile caldo che materiali completamente sintetici faticano a riprodurre.
 
-La sua debolezza principale deriva dalla stessa struttura naturale. Il legno è igroscopico e scambia l'umidità con l'ambiente. L'esposizione ripetuta all'acqua, l'umidità elevata o l'asciugatura eccessiva possono farlo espandersi o contrarsi e, in casi gravi, distorcere o crepare. Maniglie di legno asciutte dopo il lavaggio e condizionarle solo quando la superficie ne ha bisogno, utilizzando un adeguato olio minerale o condizionatore alimentare-contatto-sicuro.
+Il legno è **igroscopico**, il che significa che scambia l'umidità con l'aria e l'acqua circostanti. L'esposizione ripetuta all'acqua, l'umidità elevata o l'eccessiva essiccazione possono farlo espandersi o contrarsi e, in casi gravi, distorcere o rompere. Maniglie di legno asciutte dopo il lavaggio e condizionarle solo quando la superficie ne ha bisogno, utilizzando un olio minerale o un condizionatore adatto per il contatto con gli alimenti.
 
 ### Rosewood
 
@@ -148,7 +150,7 @@ Il legno di ferro del deserto, solitamente *Olneya tesota*, proviene dal Deserto
 
 E' estremamente duro, denso e naturalmente ricco di oli. Ciò conferisce una forte resistenza all'usura e una migliore stabilità dimensionale rispetto a molti legni comuni, insieme a una profonda figura a contrasto e un raffinato smalto.
 
-Xinzuo lo utilizza in famiglie di fascia alta tra cui selezionati coltelli ZDP-189, SRS13 e full-Damascus. I suoi principali compromessi sono il costo, il peso e la lavorazione difficile. Nonostante la sua densità e oli naturali, non è impermeabile e deve ancora essere asciugato prontamente.
+Xinzuo lo utilizza in famiglie di fascia alta tra cui selezionati coltelli ZDP-189, SRS13 e full-Damascus. I suoi principali compromessi sono costo, peso e formatura difficile. Nonostante la sua densità e oli naturali, non è impermeabile e deve ancora essere asciugato prontamente.
 
 ### Sandalo rosso e legno rosso
 

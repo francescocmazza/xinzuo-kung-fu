@@ -1,5 +1,5 @@
 ---
-source_hash: 24c3fbce501e25bd81e3ef50f26b24bf47c6153bac1741460fd8c15e58e1583e
+source_hash: 4b15dee132e2b4b5bf4d6c6a29647c8a3f03c83c25ce95c85dfa81094a04bc14
 ---
 
 # Come tagliare - tecniche essenziali del coltello
@@ -16,7 +16,7 @@ Tenere la tavola da scivolare con un panno umido o un tappetino antiscivolo sott
 
 Rilassate le spalle e tenete il polso del coltello in una linea naturale con l'avambraccio. Se il polso deve piegarsi bruscamente, spostate l'ingrediente o il vostro corpo invece.
 
-Tenere il cibo con la mano di sostegno in un artiglio: le punte delle dita ricurve verso l'interno, il pollice dietro di loro e il lato della lama guidato dalle prime articolazioni invece di punta delle dita esposte. L'artiglio è una guida in movimento, non una posa rigida; si ritira leggermente dopo ogni taglio.
+Tenere il cibo con la mano di sostegno in un **artiglio**: punta delle dita curvata verso l'interno, pollice dietro di loro e il lato della lama guidata dalle prime articolazioni invece di punta delle dita esposte. L'artiglio è una guida in movimento, non una posa rigida; si ritira leggermente dopo ogni taglio.
 
 Le tre posizioni principali della mano del coltello sono: impugnatura**, impugnatura intermedia o ibrida, impugnatura** e impugnatura**. [Peso e equilibrio](../05-knife-types/weight-and-balance.md). Scegliere la presa che si sente stabile sul coltello, tenerlo rilassato e ricordare che muovendo la mano in avanti o indietro cambia l'equilibrio che si sente.
 
@@ -75,13 +75,13 @@ Pensa ** avanti, giù, rilascia**. Avanti inizia la fetta, giù lo completa, e r
 
 ### Come si presenta il movimento
 
-Il tallone o la parte posteriore del coltello inizia vicino all'ingrediente e la lama viaggia verso l'utente mentre taglia. Una lunga affettatrice può utilizzare la maggior parte del suo bordo in un disegno liscio.
+Il tallone o la parte posteriore del coltello inizia vicino all'ingrediente e la lama viaggia verso l'utente mentre taglia. Un lungo coltello da intaglio può utilizzare la maggior parte del suo bordo in un disegno liscio.
 
-Questo è il movimento naturale dei coltelli da intaglio. Il sujihiki è un coltello a doppia scultura e affettatura; lo yanagiba è una affettatrice monoscultura specializzata per pesce crudo. Il coltello di uno chef può utilizzare lo stesso movimento per la carne disossata o un pomodoro maturo.
+Questo è il movimento naturale dei coltelli da intaglio. Un lungo coltello da intaglio a doppio taglio è un'affettatrice versatile per carne e pesce disossati; lo yanagiba è un'affettatrice specialistica per pesce crudo. Il coltello da cuoco può utilizzare lo stesso movimento per carne disossata o un pomodoro maturo.
 
 ### Provatelo con un petto di pollo cotto disossato
 
-Posizionare il petto su tutta la tavola. Impostare il tallone appena oltre il lato lontano. Usare una leggera pressione e disegnare la lama verso di voi in un lungo movimento. Se la fetta è incompleta, resettare e fare un altro passo lungo. Evitare breve segatura rapida a meno che il cibo o un bordo seghettato richiede.
+Posizionare il petto su tutta la tavola. Impostare il tallone appena oltre il lato lontano. Utilizzare una leggera pressione e disegnare la lama verso di voi in un lungo movimento, mantenendo il percorso libero della mano e del corpo di sostegno. Se la fetta è incompleta, resettare e fare un altro lungo passaggio. Evitare di segare rapidamente breve a meno che il cibo o un bordo seghettato richiede.
 
 ### Perché funziona
 
@@ -131,13 +131,13 @@ La punta appuntita di un coltello da ginecologo o da cuoco è versatile. La punt
 
 Le fibre muscolari corrono in fasci visibili. Taglio parallelo a loro lascia lunghe fibre che sono più difficili da masticare; taglio attraverso di loro accorcia le fibre e di solito fa sentire la stessa carne più tenera.
 
-Prima di tagliare, identificare il grano e ruotare la carne in modo che il coltello attraversa esso. Utilizzare una fetta di disegno con un coltello da intaglio di cui un coltello da sujihiki o un coltello da cuoco lungo. Il miglioramento viene da direzione, non da pressione supplementare.
+Prima di tagliare, identificare il grano e ruotare la carne in modo che il coltello attraversa. Utilizzare una fetta di disegno con un coltello da intaglio o un coltello da cuoco lungo. Il miglioramento viene da direzione, non da pressione supplementare.
 
 Questo è un buon esempio di abilità coltello che inizia prima che la lama tocchi il cibo.
 
 ## 7. Taglio fine e julienne
 
-Uniformi pezzi cuocere ad una velocità simile. Questo è il motivo pratico per imparare affettare regolare; l'aspetto è solo parte del beneficio.
+**Julienne** significa tagliare il cibo in strisce sottili, anche simili ai fiammiferi. Pezzi uniformi cuocere ad una velocità simile, che è il motivo pratico per imparare la tecnica; l'aspetto è solo una parte del beneficio.
 
 Per la carota julienne:
 
@@ -148,11 +148,11 @@ Per la carota julienne:
 
 Utilizzare tagli push o costolette dritte controllate. Lasciare che le nocche artiglio guidano il lato della lama. Non correre la mano di supporto. Spostare il coltello solo dopo che l'artiglio è impostato.
 
-Una mannaia cinese può lavorare particolarmente bene qui. La sua lama alta fornisce una grande superficie di guida, mentre un cai dao sottile può fare fette molto fini. La sua forma rettangolare non lo rende una mannaia ossea.
+Una mannaia cinese può lavorare particolarmente bene qui. La sua lama alta fornisce una grande superficie di guida, mentre una mannaia vegetale cinese sottile, spesso chiamata **cai dao**, può fare fette molto fini. La sua forma rettangolare non lo rende una mannaia ossea.
 
 ## 8. Ghiacciamento
 
-La glassa è una sequenza di tagli controllati in diverse direzioni. Crea una forma stabile, fai fette parallele, ruota o restacchi il cibo, poi taglialo attraverso di essi.
+Sciacquare significa tagliare il cibo in pezzi a forma di cubo grossolanamente. Si tratta di una sequenza di tagli controllati in diverse direzioni. Creare una forma stabile, fare fette parallele, ruotare o rimontare il cibo, quindi tagliare attraverso di loro.
 
 Con una cipolla, lasciare l'estremità della radice intatta durante i primi tagli in modo che gli strati rimangano collegati. Tenere la mano guida sopra e dietro il bordo. L'esatto metodo classico conta meno di tre regole: mantenere la cipolla stabile, nascondere le punte delle dita e controllare le crociate finali.
 
@@ -160,7 +160,7 @@ Se i dadi variano molto, rallentare e migliorare le prime fette. Dadi irregolari
 
 ## 9. Minciatura senza schiacciamento
 
-La mentatura riduce il cibo a piccolissimi pezzi. Iniziare con le fette, poi le strisce, poi i tagli incrociati. Raccogliere i pezzi e fare passaggi extra solo dopo che sono già piccoli.
+Minciare significa ridurre il cibo a piccolissimi pezzi. Iniziare con fette, poi strisce, poi tagli incrociati. Raccogliere i pezzi e fare passaggi extra solo dopo che sono già piccoli.
 
 Per aglio o erbe, utilizzare triturazione dritta con una lama compatta, un'azione di rotolamento delicato con un coltello da cuoco ricurvo, o la breve roccia pivot di un nakiri punta rotonda. Ri-raccogliere cibo con la colonna vertebrale o faccia larga. Raschiare ripetutamente il bordo lateralmente contro il bordo indebolisce l'apice.
 
@@ -176,7 +176,7 @@ Per trasferire il cibo tritato, scorrere la faccia larga sotto o utilizzare un r
 
 Un coltello corto può tagliare il cibo tenuto nella mano di sostegno, ma il movimento deve essere piccolo e deliberato. Tenere l'ingrediente in modo sicuro e utilizzare un percorso poco profondo che termina accanto al pollice, non in esso. Il pollice guida e frena il cibo; non deve mai sedersi nel percorso di un colpo incontrollato.
 
-I principianti dovrebbero prima praticare peeling sulla tavola o utilizzare un pelapatate. Grandi coltelli da chef, affettatrici lunghe e pesanti coltelli cinesi non sono adatti per il taglio casuale a mano.
+I principianti dovrebbero prima praticare peeling sulla tavola o utilizzare un peeler. Grandi coltelli da chef, coltelli da intaglio lunghi e pesanti coltelli cinesi non sono adatti per il taglio casuale a mano.
 
 ## 12. Lavorare intorno alle ossa e alle articolazioni
 
@@ -194,7 +194,7 @@ La geometria tradizionale a singolo fascio influisce anche sullo sterzo e sulla 
 
 ## Tecniche specialistiche che necessitano di dimostrazione
 
-Alcune tecniche non possono essere imparate in modo sicuro da una breve descrizione scritta. Katsuramuki con un'usuba, testa di pesce lavoro con un deba e rapido taglio professionale combinano geometria della lama, posizione del corpo e feedback praticato. Questa guida spiega i principi; una dimostrazione qualificata è il modo più sicuro per imparare il movimento stesso.
+Alcune tecniche non possono essere imparate in modo sicuro da una breve descrizione scritta. ** Katsuramuki**, la tecnica di sbucciare un vegetale in un lungo foglio sottile continuo con un'usuba, testa di pesce lavoro con una deba e rapido taglio professionale combinano geometria della lama, posizione del corpo e feedback praticato. Questa guida spiega i principi; una dimostrazione qualificata è il modo più sicuro per imparare il movimento stesso.
 
 La cucina viene imparata attraverso le parole, l'osservazione e la ripetizione. La pagina fornisce la mappa; la dimostrazione fornisce la posizione del corpo, tempi e feedback che sono difficili da comunicare in modo sicuro nel testo.
 
