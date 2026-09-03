@@ -3,7 +3,7 @@
 
 The CSS that renders ``.kb-profile-visual`` figures (learning-figures.css,
 and its print counterpart in scripts/pdf_export/print.css) declares a fixed
-``aspect-ratio: 900 / 260`` on the ``<img>`` element instead of a hard-coded
+``aspect-ratio: 900 / 400`` on the ``<img>`` element instead of a hard-coded
 pixel height. That only renders correctly -- full width, no leftover empty
 space, no cropping -- if every source file actually has that ratio.
 
@@ -22,9 +22,8 @@ Usage:
 
 --check     Report what would change without writing any file (also the
             mode used by scripts/check_images.py-style CI validation).
---ratio     Target ratio, default 900:260 (the ratio already shared by
-            every reviewed image in content/en/assets/images/approved/
-            knife-shapes/ at the time this script was written).
+--ratio     Target ratio, default 900:400 (wide enough for tall cleaver
+            profiles to span nearly the full text width without cropping).
 
 With no directory arguments, defaults to every
 content/*/assets/images/approved/knife-shapes/ directory found in the repo
@@ -44,7 +43,7 @@ from PIL import Image, ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = False
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_RATIO = (900, 260)
+DEFAULT_RATIO = (900, 400)
 MATTE = (255, 255, 255)
 TOLERANCE = 0.02  # fractional deviation in width/height ratio before repadding
 
@@ -96,12 +95,12 @@ def main() -> int:
         "dirs", nargs="*", type=lambda p: Path(p).resolve(), help="knife-shapes directories to process"
     )
     parser.add_argument("--check", action="store_true", help="report only, write nothing")
-    parser.add_argument("--ratio", default="900:260", help="target W:H ratio, default 900:260")
+    parser.add_argument("--ratio", default="900:400", help="target W:H ratio, default 900:400")
     args = parser.parse_args()
 
     ratio = tuple(int(part) for part in args.ratio.split(":"))
     if len(ratio) != 2:
-        parser.error("--ratio must be W:H, e.g. 900:260")
+        parser.error("--ratio must be W:H, e.g. 900:400")
 
     dirs = args.dirs or find_default_dirs()
     if not dirs:

@@ -310,7 +310,7 @@ figure img,
   display: block;
   width: 100% !important;
   max-width: 100% !important;
-  aspect-ratio: 900 / 260;
+  aspect-ratio: 900 / 400;
   height: auto !important;
   object-fit: contain !important;
   object-position: center !important;
