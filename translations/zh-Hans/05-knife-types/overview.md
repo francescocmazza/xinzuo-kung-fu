@@ -1,5 +1,5 @@
 ---
-source_hash: c7cf794e5c13ea0c558db7cdff4909056e1ac27b17cdeb653fa7c2fdd394cc51
+source_hash: 67ac5f174f3080b3376a2b749301a4af8f77c7f760337f9eb39f8a12a37e8d18
 ---
 
 # 刀形及其用途
@@ -25,7 +25,7 @@ Xinzuo的宽广范围在现阶段特别有用。 员工可以把几把技术上�
 ### 西方厨师的刀
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/chef.jpg" alt="完整的信作西式主厨刀"><figcaption>一款信作 B46D 西式主厨刀，展示其标志性的弧形刀腹。</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/chef.jpg" alt="Complete Xinzuo Western chef's knife"><figcaption>一个Xinzuo B46D西部厨师的刀片例子 显示了曲线腹部的特征</figcaption></figure>
 </div>
 
 西方厨师的刀是具有连续腹部曲线的多功能通用的刀。 曲线使扫荡、绘画和摇动变得自然,特别是当阻力通过切肉、连接组织或混合成分发生变化时。 随着刀子的移动,工作点沿着腹部行进,将前向运动与插入结合起来,而不是仅仅依靠垂直压力。

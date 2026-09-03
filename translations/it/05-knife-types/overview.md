@@ -1,5 +1,5 @@
 ---
-source_hash: 8f0821f05f4ddafc35c021ad871242c738e6fc709ed5baabe429ad6079ad1c92
+source_hash: 0129760ac4b1fff589e1a995769c11e720de76112c23bbb4d3607ec8e34e1604
 ---
 
 # Forme di coltello e loro usi
@@ -25,7 +25,7 @@ Con queste relazioni in mente, le principali famiglie di coltelli sono più faci
 ### Coltello da cuoco occidentale
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/chef.jpg" alt="Coltello da cuoco occidentale Xinzuo completo"><figcaption>Un esempio di coltello da cuoco occidentale Xinzuo B46D che mostra la caratteristica pancia curva.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/chef.jpg" alt="Complete Xinzuo Western chef's knife"><figcaption>Un esempio di coltello da cuoco occidentale Xinzuo B46D che mostra la caratteristica pancia curva.</figcaption></figure>
 </div>
 
 Il coltello da cuoco occidentale è una forma versatile di uso generale con una curva continua del ventre. La curva rende naturale spazzare, disegnare e dondolare, soprattutto quando la resistenza cambia attraverso un taglio di carne, tessuto connettivo o ingredienti misti. Mentre il coltello si muove, il punto di lavoro viaggia lungo il ventre, combinando movimento in avanti con penetrazione invece di affidarsi solo alla pressione verticale.
