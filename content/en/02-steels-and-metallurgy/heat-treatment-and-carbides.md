@@ -21,18 +21,18 @@ Inside each grain, iron atoms are arranged in a repeating geometric pattern. Tha
 
 The most useful phases to recognize in knife steel are:
 
-- **ferrite**: a relatively soft iron-rich phase common in unhardened or annealed steel;
+- **ferrite**: a relatively soft iron-rich phase often present before the blade is finally hardened;
 - **austenite**: a high-temperature phase that can dissolve much more carbon and alloying elements than ferrite;
 - **martensite**: the very hard structure formed when suitable austenite is cooled quickly enough during hardening;
-- **retained austenite**: austenite that remains after quenching instead of transforming into martensite.
+- **retained austenite**: austenite that remains after **quenching**, the rapid cooling stage used during hardening, instead of transforming into martensite.
 
-A slowly cooled carbon steel can also form structures such as **pearlite**, a fine mixture of ferrite and the iron carbide cementite. These structures matter in steel processing, but a hardened kitchen-knife edge is usually designed around tempered martensite rather than pearlite.
+A slowly cooled carbon steel can also form structures such as **pearlite**, a fine mixture of ferrite and the iron carbide cementite. These structures matter in steel processing, but a hardened kitchen-knife edge is usually designed around martensite that is later tempered.
 
 Austenite and martensite are **not carbides**. They are forms of the iron-rich part of the steel.
 
 ## Matrix, grains and hard particles
 
-Metallurgists often use the word **matrix**. The matrix is the continuous part of the steel that surrounds and supports the other microscopic constituents. In a hardened knife, that matrix is commonly based mainly on tempered martensite, sometimes with some retained austenite.
+Metallurgists often use the word **matrix**. The matrix is the continuous part of the steel that surrounds and supports the other microscopic parts. In a finished hardened knife, that matrix is commonly based mainly on martensite that has been **tempered**, meaning reheated after hardening to reduce internal stress and adjust its properties. Some retained austenite may also remain.
 
 Think of the steel as an extremely fine stone floor. The continuous floor is the matrix. The floor itself is divided into many microscopic crystal grains. Inside it are harder particles such as carbides.
 
@@ -40,9 +40,9 @@ This comparison is simplified, but it explains why the same chemical recipe can 
 
 ## What carbides are
 
-**Carbides are hard crystalline compounds made when carbon bonds with iron or certain alloying elements.** They form naturally from the chemistry of the steel during solidification and later thermal processing. They are not foreign grit added to the metal.
+**Carbides are hard crystalline compounds made when carbon bonds with iron or certain alloying elements.** They form naturally from the chemistry of the steel during solidification and later heating and cooling. They are not foreign grit added to the metal.
 
-Some carbides form while the steel is being produced. Some remain undissolved when the blade is heated for hardening. Others precipitate as new, often much smaller crystals during cooling or tempering. Heat treatment can therefore dissolve, preserve or create different carbide populations.
+Some carbides form while the steel is being produced. Some remain undissolved when the blade is heated for hardening. Others form later as new, often much smaller crystals during cooling or tempering. Heat treatment can therefore dissolve, preserve or create different carbide populations.
 
 Carbides matter because they are usually much harder than the surrounding matrix. They can improve resistance to abrasive wear, but they also affect toughness and sharpening. More carbide is not automatically better. **Type, hardness, size, amount and distribution all matter.**
 
@@ -50,7 +50,7 @@ With that picture in mind, the heat-treatment sequence becomes much easier to fo
 
 ## 1. Preparing the steel before hardening
 
-Before final hardening, steel may be annealed, normalized, spheroidized or otherwise conditioned depending on how it was produced and worked.
+Before final hardening, steel often goes through earlier heating and cooling steps that soften it and prepare its internal structure for the final hardening cycle.
 
 The basic purpose is to put the steel into a controlled starting condition. In many knife steels this means making it soft enough to machine or grind while keeping carbon and carbides distributed in a form suitable for the later hardening cycle.
 
@@ -78,7 +78,7 @@ Vacuum treatment does not itself make the steel hard. It controls the environmen
 
 ## 3. Quenching: transforming austenite into martensite
 
-After austenitizing, the blade is cooled quickly enough to prevent the steel from returning to softer equilibrium structures.
+After austenitizing, the blade is cooled quickly enough to prevent the steel from changing into the softer structures that would form during slower cooling.
 
 When the cooling is fast enough, much of the austenite transforms into **martensite**. The iron atoms change arrangement before the carbon atoms have enough time to move to more comfortable positions. Carbon becomes trapped in a strained crystal structure.
 
@@ -92,7 +92,7 @@ Fresh martensite is very hard but also highly stressed and relatively brittle. I
 
 Not all austenite necessarily becomes martensite when the blade reaches room temperature. The part that remains is called **retained austenite**.
 
-A controlled amount can be acceptable or even useful, but too much can reduce dimensional stability and change how the edge responds in use.
+A controlled amount can be acceptable or even useful, but too much can make the blade's size and properties less stable over time and change how the edge responds in use.
 
 Cooling the blade below room temperature can transform more retained austenite into martensite. Commercial terms such as **sub-zero**, **deep-freeze** and **cryogenic** are used for these low-temperature treatments, although the exact temperature ranges are not perfectly standardized.
 
@@ -101,11 +101,11 @@ A domestic freezer, dry ice and liquid nitrogen are therefore not equivalent pro
 For steels and heat-treatment recipes that benefit from it, sufficiently low-temperature treatment can:
 
 - reduce retained austenite;
-- increase as-quenched hardness;
-- improve dimensional stability;
+- increase hardness immediately after quenching;
+- improve stability of size and shape;
 - make the later tempering response more predictable.
 
-It is not a universal upgrade. Converting more austenite into martensite also changes the hardness-toughness balance, so the treatment must suit the steel and the complete thermal cycle.
+It is not a universal upgrade. Converting more austenite into martensite also changes the hardness-toughness balance, so the treatment must suit the steel and the complete heat-treatment sequence.
 
 ### Xinzuo as an example
 
@@ -148,7 +148,7 @@ Metallurgical names such as **M7C3**, **M23C6**, **M6C** and **MC** are formulas
 | **Vanadium-rich MC** | Vanadium + carbon | Extremely hard; strongly increases abrasive wear resistance and can make ordinary abrasives work slowly |
 | **Niobium-rich MC** | Niobium + carbon | Extremely hard; supports wear resistance and can help keep carbide structures fine in suitable alloys |
 | **M6C and related Mo/W carbides** | Molybdenum and/or tungsten with carbon and other metals | Important in many high-alloy tool-steel systems; contribute to wear resistance and secondary hardening |
-| **Fine tempering carbides** | Composition depends on the steel and tempering temperature | Very small carbides that precipitate during tempering and strengthen or stabilize the martensitic matrix |
+| **Fine tempering carbides** | Composition depends on the steel and tempering temperature | Very small carbides that form during tempering and strengthen or stabilize the martensitic matrix |
 
 These are families, not a promise that every steel containing an element forms a separate pure carbide of that element. An element can remain dissolved in the matrix, join another carbide family or form a different phase depending on composition and heat treatment.
 
@@ -162,7 +162,7 @@ This is why two steels at the same HRC can feel very different on a sharpening s
 
 ## Why carbide size and amount affect toughness
 
-Carbides are hard but relatively brittle. They interrupt the continuous matrix and create interfaces where stress can concentrate.
+Carbides are hard but relatively brittle. They interrupt the continuous matrix and create boundaries where stress can concentrate.
 
 A small, well-distributed carbide population can give useful wear resistance with limited damage to toughness. Very large carbides or a very high carbide volume can make cracking easier, especially in a thin edge.
 
@@ -172,7 +172,7 @@ This is one reason powder metallurgy is valuable for many highly alloyed steels:
 
 The carbide structure of a finished knife is not identical to the one that existed before hardening.
 
-During austenitizing, some carbides dissolve and release carbon and alloying elements into austenite. During cooling and tempering, new carbides can precipitate. The final blade therefore contains a result created by both **composition and thermal history**.
+During austenitizing, some carbides dissolve and release carbon and alloying elements into austenite. During cooling and tempering, new carbides can form. The final blade therefore contains a result created by both **composition and its complete heating and cooling history**.
 
 This redistribution changes several properties at the same time:
 
