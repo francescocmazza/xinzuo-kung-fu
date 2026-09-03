@@ -40,9 +40,11 @@ A mass percentage can make the amount sound tiny. **0.5% carbon by mass means on
 
 Steel is made from microscopic iron crystals. Carbon atoms are much smaller than iron atoms, so they can fit into tiny spaces between iron atoms inside those crystals. They are not simply foreign particles mixed into the metal.
 
-The amount of carbon that can remain in these spaces changes with temperature and with the internal crystal structure of the iron. During hardening, heating creates **austenite**, a high-temperature form of the iron-rich steel that can hold much more carbon. Rapid cooling can then produce **martensite**, the very hard structure used in a hardened knife. The next chapters explain this transformation in detail.
+The amount of carbon that can remain in these spaces changes with temperature and with the internal crystal structure of the iron. During hardening, heating creates **austenite**, a high-temperature form of the iron-rich steel that can hold much more carbon. Rapid cooling can then produce **martensite**, the very hard structure used in a hardened knife. Martensite is created so quickly that more carbon remains trapped in the iron structure than it would under equilibrium conditions.
 
-Carbon can also bond with iron, chromium, vanadium, tungsten, niobium and other elements to form **carbides**, the hard microscopic crystals introduced in the previous chapter.
+**Austenite and martensite are not carbides.** In both, iron forms the main crystal structure and carbon is dissolved within it. A carbide is different: it is a separate crystalline compound in which carbon is chemically combined with iron or another carbide-forming element. **Cementite (Fe3C), for example, is a true iron carbide.** Chromium, vanadium, molybdenum, tungsten and niobium can also take part in carbide formation in knife steels.
+
+This gives carbon two very different roles in steel. It can remain dissolved in the iron matrix, as in austenite or martensite, or become part of a separate carbide crystal. Heat treatment helps determine how carbon is distributed between these states. The next chapters explain these transformations in detail.
 
 More carbon can support greater hardness and wear resistance, but only within the balance of the full alloy and heat treatment. Too much carbide volume or an unfavourable matrix can reduce toughness, slow sharpening and, in stainless steels, consume chromium in chromium-rich carbides.
 
