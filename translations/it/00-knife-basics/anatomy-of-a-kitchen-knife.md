@@ -1,14 +1,14 @@
 ---
-source_hash: 82d4a9a15f721867b03744f9adad228732ff91e1efd1428ad04b7e719ab3ae0f
+source_hash: 3c06a7d4e3450f9fa4703feb7edef5bdcf812dcf2db57eaeb899546fac9092f3
 ---
 
 # Anatomia di un coltello da cucina
 
-Prima di confrontare forme di lama, acciai o angoli di affilatura, abbiamo bisogno di un vocabolario preciso. Un coltello da cucina può assomigliare a due semplici pezzi lama e un manico si incontrano dove la mano controlla l'utensile. Conoscere i loro nomi rende la geometria, l'equilibrio, costruzione ed ergonomia più facile da capire.
+Prima di confrontare forme di lama, acciai o angoli di affilatura, leggere un coltello come tre sistemi collegati: la geometria di taglio, la struttura in acciaio che lo trasporta e l'interfaccia a mano che lo controlla. I nomi qui sotto individuano ogni caratteristica all'interno di tali sistemi.
 
 Non tutti i coltelli hanno tutte le caratteristiche mostrate qui. Un coltello da cuoco occidentale full-tang, un coltello da utilità modellato e un coltello da manico asiatico possono essere tutti strumenti eccellenti con costruzioni molto diverse.
 
-## Le parti principali a colpo d'occhio
+## Leggi lo strumento da bordo a mano
 
 Un coltello fisso da cucina inizia con la lama **. Il suo frontale termina a **tip**; il lato superiore non affilato è il lato **spino**; il lato largo è il lato **lama**; il bordo inferiore affilato è il bordo **taglio**; e la parte posteriore della porzione di taglio è il **tallone**. La geometria inclinata che conduce al bordo è il **bevel**. La texture visibile o lucido sulla faccia della lama è la finitura **superficie**.
 
@@ -174,16 +174,16 @@ Un utile aiuto alla memoria è:
 
 Questa è una regola di allenamento, non una formula metallurgica completa. Spessore della lama, cono, composizione, struttura interna microscopica dell'acciaio, trattamento termico e geometria dei bordi ancora materia. La regola spiega perché un coltello flessibile filetto, un chopper osso e una affettatrice molto duro fine-bordo utilizzano compromessi diversi.
 
-## Finitura superficiale e rilievo superficiale
+## Leggere il volto della lama attraverso tre domande separate
 
-La finitura **superficia** di una lama è il trattamento finale del suo viso. Satinato lascia linee abrasive direzionali sottili; lucidatura elevata o lucidante a specchio riduce la texture visibile; l'incisione può rivelare strati di Damasco. Altre finiture possono cambiare aspetto, tatto tattile, visibilità dei graffi e, in misura limitata, come cibo e umidità interagiscono con la lama. La finitura non determina nitidezza e l'aspetto elaborato non può sostituire una buona geometria.
+Non trattare ogni caratteristica della superficie visibile come lo stesso tipo di trattamento.
 
-### Rilievo superficiale: cavità, martellature e texture forgiata
+**Primo: qual è la topografia?** I cavi, i canali e le depressioni martellate cambiano la forma fisica del volto della lama. Interrompendo un ampio contatto, possono ridurre l'aspirazione o l'incollaggio con alcuni cibi umidi o amidacei. Profondità, posizione e spaziatura contano più del nome decorativo. Il coltello di uno chef con cavi rimane il coltello di uno chef perché il suo profilo di lavoro non ha cambiato categoria.
 
-I cavi, le fossette e le superfici martellate sono elementi superficiali, non forme di coltello. Interrompono il contatto continuo tra il cibo e la faccia della lama e possono ridurre l'incollaggio o l'aspirazione con alcuni cibi umidi, amidori o morbidi. L'effetto dipende dalla profondità e dalla distribuzione del rilievo, finitura della lama, consistenza del cibo e tecnica di taglio. Il coltello da cuoco con cavità in stile Granton è ancora un coltello da cuoco; un coltello da intaglio con lo stesso trattamento è ancora un coltello da intaglio.
+**Secondo: quale texture ha lasciato la finitura?** Macinare le foglie in raso linee direzionali; la lucidatura riduce la rugosità superficiale e una finitura a specchio porta ulteriormente quel processo. Texture colpisce trascinamento, visibilità graffio e pulizia, ma non crea nitidezza all'apice.
 
-**Hammering** crea sollievo superficiale intenzionale. Depressioni ripetute interrompono il contatto tra il cibo e l'acciaio. Il loro effetto pratico dipende dalla profondità, spaziatura e geometria, non apparendo da soli.
+**Terzo: la superficie ha rivelato o mantenere una struttura?** L'incisione può esporre il contrasto tra strati di Damasco. La forgiatura a mano può lasciare la scala irregolare o la texture quando il viso non è macinato completamente liscio. Una superficie forgiata mantenuta e martellatura deliberata può sembrare correlata, ma provengono da processi diversi e devono essere descritti separatamente.
 
-Una texture diversa può venire direttamente dalla forgiatura a mano**. Se la faccia della lama non è levigata e completamente liscia, rimane visibile qualche irregolarità dalla forgiatura. Questa texture forgiata mantenuta differisce dalla martellatura deliberata, anche se entrambi creano sollievo. Il suo effetto sulla liberazione degli alimenti dipende dalla profondità e dalla geometria della texture, mentre conserva visivamente una traccia del processo di forgiatura.
+Il rilascio degli alimenti dipende dalla topografia, dalla geometria della lama, dalla finitura, dal cibo e dal movimento insieme.
 
 Con questi principi generali stabiliti, possiamo confrontare le forme della lama senza ripeterle in ogni profilo.

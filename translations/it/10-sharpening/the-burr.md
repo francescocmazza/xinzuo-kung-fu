@@ -1,5 +1,5 @@
 ---
-source_hash: 05cc50448cf9e547d41b160838b18321998d0a9e2ae4434bf492c9f09be5eb3e
+source_hash: 4da3fd69d9618f0d45bdee79b9dfe1677dcfc354b6e89255e31cb50d0da8df7f
 ---
 
 # Comprendere la Bava di Affilatura
@@ -233,20 +233,15 @@ Un coltello può superare un test rapido pur portando ancora un instabile filo d
 
 La forte pressione continua a piegare e allargare la bava invece di rimuoverla.
 
-## Una routine pratica per la bava
+## Un ciclo diagnostico per la bava
 
-1. Affilare il primo lato a un angolo costante.
-2. Sciacquare o pulire la lama prima di controllare.
-3. Controllare una bava leggera sul lato opposto.
-4. Controllare tallone, centro e punta.
-5. Lavora solo dove manca la bava.
-6. Girare il coltello.
-7. Affilare finché la bava non si sposta verso il primo lato lungo l'intero filo.
-8. Ridurre la pressione.
-9. Alternare i lati con meno passate.
-10. Deburr.
-11. Controllare che non resti alcun labbro direzionale.
-12. Testare il filo pulito su carta e cibo adatto.
+Usare la bava come feedback piuttosto che come obiettivo per ingrandire.
+
+1. ** Individuare il bordo incompiuto.** Lavorare una faccia, pulire la lama e controllare il lato opposto al tallone, al centro e alla punta. Ritornare solo a sezioni dove non è possibile rilevare alcuna bava leggera.
+2. **Conferma la continuità.** Interrompi lo stadio principale di rettifica non appena la più piccola bava rilevabile collega il bordo completo.
+3. **Inverso e centro.** Lavorare la seconda faccia fino a quando il segnale cambia i lati, quindi accorciare la sequenza e ridurre la pressione.
+4. **Rimuovi metallo indebolito.**La luce alternata passa e utilizza il metodo di sbavatura scelto senza creare un altro grande filo bordo.
+5. ** Verificare l'apice.** Nessun labbro direzionale dovrebbe rimanere. Confermare il risultato attraverso ispezione e controlli di carta e alimenti.
 
 ## Cosa ricordare
 

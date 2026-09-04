@@ -1,5 +1,5 @@
 ---
-source_hash: a3e10d880743fb8a1b2e561d90e6e610eae6c11e39546c9df4e2ae243e3a5107
+source_hash: 62fd46759c0b36cca1c70924e4efa8c60764f51dc38a13a18d4203650671da33
 ---
 
 # Diritti di immagine
@@ -63,9 +63,9 @@ Tre figure in "Schede coltello e loro usi" precedentemente incorporato `<img>` t
 
 ## Materiale riservato escluso
 
-In questo repository non vengono pubblicati testi, schermate, diagrammi, fotografie o estratti visivi tratti dal manuale riservato Musashi. Il manuale non può essere utilizzato come fonte di immagini.
+Nessun testo, screenshot, diagramma, fotografia o estratto visivo dal manuale riservato Musashi viene pubblicato in questo repository. Il manuale non può essere utilizzato come sorgente di immagini.
 
-I documenti formativi riservati o proprietari possono aiutare a individuare gli argomenti da spiegare solo quando il collaboratore è autorizzato a consultarli. Testi, organizzazione e illustrazioni pubblicati devono essere creati appositamente per questo libro e verificati su fonti tecniche o storiche indipendenti. Il materiale autorizzato proveniente dal catalogo Xinzuo e dalle presentazioni interne resta disciplinato separatamente dalle sezioni precedenti.
+I documenti di formazione riservati o proprietari possono aiutare a identificare i soggetti che meritano una spiegazione solo quando un collaboratore ha il diritto di consultarli. Per questo libro devono essere pubblicate le parole, l'organizzazione e le illustrazioni e controllate da fonti tecniche o storiche indipendenti. Il catalogo Xinzuo autorizzato e il materiale di presentazione interna sono regolati separatamente dalle sezioni sopra.
 
 ## Interrogazioni
 

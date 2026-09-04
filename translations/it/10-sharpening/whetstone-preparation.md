@@ -1,5 +1,5 @@
 ---
-source_hash: ee095ab49816131c52da579a012d48b069481ca0cef3d2135a55c061a38b7f0b
+source_hash: 9b485fba4a2f88b43f5ef38d3737c5681f399106c34d8c087307e283d05717fe
 ---
 
 # Preparazione delle pietre d'acqua
@@ -87,17 +87,17 @@ Un supporto stabile riduce il movimento della pietra e rende il controllo dell'a
 
 Tenere l'acqua nelle vicinanze e lasciare spazio abbastanza chiaro per il pieno colpo di affilatura. Prima di iniziare, assicurarsi che la pietra sia pulita e ragionevolmente piatta.
 
-## Flatness: perché la forma della pietra conta
+## Piatto: diagnosticare prima di correggere
 
 Una pietra porta dove il coltello lo contatta di più. Il centro può gradualmente diventare vuoto mentre le estremità rimangono alte.
 
 Una pietra piegata cambia l'angolo durante la corsa. Su un'ampia singola bisellatura, può alterare significativamente la geometria.
 
-Controllare la planarità con un bordo dritto o disegnare una griglia a matita attraverso la superficie. Durante l'appiattimento, linee scomparenti disomogenee mostrano dove la superficie è alta o bassa.
+Controllare la pietra in più direzioni. Un bordo dritto affidabile può rivelare una cavità attraverso il centro; luce riflessa sotto il bordo dritto rende più facili da vedere piccoli spazi. Alcune linee di matita leggera attraverso diverse parti della superficie può fornire un secondo controllo: le aree alte perdono i segni prima, mentre le aree basse li mantengono.
 
-Utilizzare una pietra di appiattimento, piastra di appiattimento o un'altra superficie abrasiva adatta consigliata dal produttore. Lavorare in modo uniforme fino a quando i segni della matita scompaiono.
+Correggere la superficie con una piastra di appiattimento, pietra di lapping o altri abrasivi piatti raccomandati per quella pietra. Utilizzare tratti che coprono l'intera faccia e ruotano la pietra durante il lavoro in modo da pressione mano non crea un nuovo bias. Sciacquare via abrasivo sciolto, controllare di nuovo attraverso entrambe le diagonali e la lunghezza, e continuare solo dove rimane un gap o segno di testimonianza.
 
-L'appiattimento è una manutenzione regolare, non una riparazione rara.
+L'obiettivo non è solo una superficie dall'aspetto pulito. Si tratta di un piano che supporta un angolo ripetibile attraverso l'intero tratto di affilatura. Controllare spesso che l'appiattimento rimanga una manutenzione leggera piuttosto che una correzione importante.
 
 ## Inumidire la superficie prima di affilare
 
@@ -192,16 +192,12 @@ L'umidità intrappolata può causare muffa, odori e danni.
 
 Slurry è materiale sciolto sulla pietra. La bava è un sottile labbro di acciaio fissato al bordo.
 
-## Una procedura di preparazione pratica
+## Tre controlli di preparazione
 
-1. Leggi le istruzioni del produttore.
-2. Controllare la pietra per crepe, sporcizia e usura irregolare.
-3. Se è assorbente, immergetelo fino a quando non si ferma in gran parte.
-4. Se è splash-and-go, bagnare solo la superficie come indicato.
-5. Fissatelo su una base stabile antiscivolo.
-6. Controllare e correggere la planarità.
-7. Bagnare la superficie di lavoro.
-8. Tenere l'acqua disponibile durante l'affilatura.
-9. Sciacquare, appiattire se necessario e asciugare all'aria dopo l'uso.
+**Identificare la pietra.** Leggere le sue istruzioni e determinare se ha bisogno di ammollo, acqua di superficie, olio o nessun liquido. Ispezionare per crepe, contaminazione e usura irregolare.
 
-Preparate la pietra secondo la sua costruzione ** effettiva**, non un rituale. Le pietre assorbenti hanno bisogno di acqua nei loro pori; pietre dense e specializzate possono richiedere poco o nessun ammollo. In ogni caso, la pietra dovrebbe essere piatta, sicura e correttamente lubrificata prima che il bordo lo tocchi.
+**Rendere la piattaforma affidabile.** Corretta planarità se necessario, posizionare la pietra su un supporto antiscivolo e lasciare spazio sufficiente per la corsa completa. Bagnare o lubrificare il viso di lavoro come specificato.
+
+**Pianificare la fine della sessione.** Tenere l'acqua pulita o il lubrificante corretto nelle vicinanze. Dopo l'affilatura, rimuovere i residui, ricontrollare la superficie e lasciare asciugare la pietra come la sua costruzione richiede.
+
+La preparazione deve rispondere alla costruzione della pietra ** effettiva**. L'obiettivo è una superficie abrasiva stabile, piatta e correttamente condizionata, non la ripetizione meccanica di un rituale per ogni prodotto.

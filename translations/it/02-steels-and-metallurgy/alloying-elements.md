@@ -1,5 +1,5 @@
 ---
-source_hash: 22c175d3a070b6550ce3b9121d370317e2d93abbe06c0d3b4d8a6aa4cdb39e50
+source_hash: 4637bfbdccc21ab01fe4c44a72b40062639eb2524556398fd91e9b0a8c34d359
 ---
 
 # Elementi di lega
@@ -12,20 +12,22 @@ Tenete a mente tre principi: nessun elemento di lega funziona da solo; di più n
 
 La gamma di Xinzuo rende queste interazioni calcestruzzo. Esso comprende acciai inossidabili ricchi di cromo, cobalto-cuscinetto 10Cr15CoMoV, geo-cuscinetto 14Cr14MoVNb, azoto-legato 14C28N, tungsteno-cuscinetto Blue Steel No. 2 e polvere-metallurgia acciai come SRS13, M390 e ZDP-189. Ognuno è una ricetta metallurgica diversa costruita intorno a un diverso equilibrio.
 
-## Una panoramica compatta
+## Seguire ogni elemento attraverso l'acciaio
 
-| Elemento | Principale ruolo metallurgico | Effetto pratico in un coltello | Principale compromesso o limitazione |
-|---|---|---|---|
-| **Carbon - C** | Consente l'indurimento e contribuisce alla formazione di carburo | Supporta durezza, resistenza all'usura e stabilità dei bordi | Alti livelli possono ridurre la resistenza e legare il cromo nei carburi |
-| **Cromio - Cr** | Crea passivazione inox quando abbastanza cromo rimane disponibile; forma anche carburi | Resistenza alla corrosione e, in alcune leghe, maggiore resistenza all'usura | Il cromo legato nei carburi non può contribuire pienamente alla passivazione |
-| **Molybdenum - Mo** | Migliora l'induribilità e rafforza la resistenza alla corrosione, soprattutto contro gli attacchi localizzati | Più affidabile indurimento e migliore resistenza alle piccole fosse di corrosione | Costo e maggiore complessità della lega/trattamento termico |
-| **Vanadium - V** | Aiuta a controllare la crescita dei cereali e forma carburi molto duri | Struttura fine a livelli modesti; forte resistenza all'usura a volume di carburo più elevato | I carburi duri possono rendere l'affilatura più lenta e richiedono migliori abrasivi |
-| **Tungsten - W** | Forma carburi duri e sostiene la durezza ad alta temperatura | Resistenza all'usura e aggressione al taglio durevole | Può aumentare la difficoltà di affilatura e ridurre il perdono nelle geometrie estreme |
-| **Cobalt - Co** | Supporta la durezza e la stabilità ad alta temperatura durante il trattamento termico esigente | Consente strategie di trattamento termico mirate ad alte prestazioni | Costoso e non, da solo, una garanzia di resistenza alla corrosione |
-| **Nickel - Ni** | Può migliorare la durezza ed è utile nel contrasto strati Damasco | Durezza in leghe adatte e brillante contrasto del motivo | Non determina di per sé la qualità all'avanguardia |
-| **Nitrogeno - N** | Può contribuire alla durezza e resistenza alla corrosione riducendo la dipendenza dal carbonio | Comportamento fine dei bordi e forti prestazioni di corrosione in leghe adatte | Richiede acciaio controllato ed è meno comune negli acciai tradizionali a coltello |
+Una percentuale di lega è solo il punto di partenza. Per capire un elemento, seguire quattro domande: dove rimane dopo il trattamento termico, quale struttura contribuisce a creare, quale proprietà può sostenere tale struttura, e quale nuovo vincolo introduce?
 
-La tabella è una mappa. Le sezioni seguenti mostrano come lo stesso elemento può migliorare una proprietà mentre ne complica un'altra.
+| Elemento | Principale contributo alla ricerca | Domanda che impedisce una semplificazione eccessiva |
+|---|---|---|
+| **Carbon - C** | Durezza e formazione di carburo | Quanto rimane nella matrice ricca di ferro e quanto forma i carburi? |
+| **Cromio - Cr** | Passivazione e, in alcune leghe, carburi | Quanto rimane a disposizione per la resistenza alla corrosione invece di essere legato in carburi? |
+| **Molybdenum - Mo** | Idoneità e resistenza alla corrosione localizzata | In che modo la quantità e il trattamento termico cambiano questi effetti? |
+| **Vanadium - V** | Controllo del grano e carburi molto duri | Il ruolo utile è principalmente la raffinatezza del grano, la resistenza all'usura, o entrambi? |
+| **Tungsten - W** | Carburi resistenti all'usura e stabilità ad alta temperatura | L'aggiunta di resistenza all'usura giustifica un'affilatura più lenta per questo coltello? |
+| **Cobalt - Co** | Supporto per cicli di trattamento termico impegnativi | Quale finestra di processo aiuta, piuttosto che quale proprietà viene dedotto dal suo nome? |
+| **Nickel - Ni** | Durezza in leghe adatte e brillante contrasto in acciaio stratificato | Fa parte dell'acciaio da lavoro o è principalmente uno strato a contrasto? |
+| **Nitrogeno - N** | Durezza e resistenza alla corrosione insieme al carbonio | Come condivide questi ruoli con carbonio e cromo? |
+
+Le sezioni seguenti rispondono a queste domande e collegano la composizione a microstruttura, elaborazione e utilizzo.
 
 ## Carbonio: ciò che rende possibile il coltello duro in acciaio
 

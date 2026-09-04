@@ -1,5 +1,5 @@
 ---
-source_hash: 4b15dee132e2b4b5bf4d6c6a29647c8a3f03c83c25ce95c85dfa81094a04bc14
+source_hash: a328feeb5bd54892b7e5565e05f11a1d4f98d649470e0ece4315bd24e19553b8
 ---
 
 # Come tagliare - tecniche essenziali del coltello
@@ -22,7 +22,20 @@ Le tre posizioni principali della mano del coltello sono: impugnatura**, impugna
 
 > **Il controllo di sicurezza di quattro parole:** scheda stabile, cibo stabile, percorso chiaro, punta delle dita nascoste.
 
-## 1. Tagliare dritto
+## Leggere il percorso prima di nominare la tecnica
+
+I movimenti della cucina non sono quattro categorie sigillate. Un vero e proprio taglio può combinare il viaggio verticale, in avanti o indietro, e un punto di contatto cambiante. Leggere il percorso del bordo:
+
+| Cosa fa il bordo | Ciò che quel movimento risolve | Profili che spesso aiutano |
+|---|---|---|
+| Incontra il consiglio su una vasta sezione piatta | Regolari pezzi di verdure e lavorazione a bordo diretto | Nakiri, flatter santoku, bunka o gyuto |
+| Avanza durante la discesa | Riduce il wedging e utilizza una breve azione di affettatura | Gyuto, santoku, bunka e molti coltelli per uso generale |
+| Viaggia lungo la sua lunghezza attraverso il cibo | Attraversa cibi ampi o delicati con minori interruzioni | Affettatrici intaglianti e sashimi |
+| Mantiene una zona vicino alla tavola mentre un'altra sale | Ripete il lavoro di triturazione attraverso un arco controllato | Coltelli da cuoco curvi o profili arrotondati adatti |
+
+I nomi qui sotto descrivono movimenti dominanti, non regole rigide. Scegli il percorso che permette al bordo di passare attraverso l'ingrediente con controllo e senza forzare la lama ad imitare una geometria che non ha.
+
+## Contatto di bordo: discesa diretta
 
 ### Come si presenta il movimento
 
@@ -49,7 +62,7 @@ Un bordo abbastanza dritto può contattare la tavola per gran parte della sua lu
 
 Non confondere tagliare con colpire. Sollevare il coltello alto e guidarlo verso il basso aggiunge rumore e rischio senza migliorare un taglio vegetale ordinario.
 
-## 2. Taglio di spinta
+## Contatto di bordo: corsa in avanti
 
 ### Come si presenta il movimento
 
@@ -71,7 +84,7 @@ Un bordo taglia più efficacemente quando scivola attraverso il cibo. Il compone
 
 Pensa ** avanti, giù, rilascia**. Avanti inizia la fetta, giù lo completa, e rilascia solleva il bordo invece di raschiarlo su tutta la lavagna.
 
-## 3. Tirare il taglio e la fetta di estrazione
+## Lungo lavoro: disegnare attraverso il cibo
 
 ### Come si presenta il movimento
 
@@ -89,7 +102,7 @@ Un lungo disegno diffonde il lavoro attraverso più del bordo. Riduce la compres
 
 I coltelli sashimi tradizionali sono lunghi in modo che il cuoco possa finire una fetta con poche interruzioni. La yanagiba a singolo bevel aggiunge una separazione controllata del cibo a quella lunga estrazione. La superficie lasciata dal taglio diventa parte del piatto finito.
 
-## 4. Tagliare la roccia
+## Lavori pivotati: mantenere un punto di contatto
 
 Due movimenti correlati dovrebbero essere separati: la rock rolling** di un coltello da cuoco ricurvo e la rock pivot **compact** di un nakiri a punta tonda.
 
@@ -117,7 +130,7 @@ Raccogliere le foglie in una pila compatta. Con un coltello da cuoco ricurvo, po
 
 Non rock sul fragile K-tip di un bunka o kiritsuke-stile coltello. Un K-tip è un punto di precisione, non una superficie cuscinetto per il contatto di bordo ripetuto o stress laterale. Non forzare un quadrato-fronte o molto piatto Nakiri in un ampio arco di rotolamento.
 
-## 5. Lavoro di punta
+## Lavoro su suggerimento
 
 Utilizzare la punta per piccole incisioni, rifilatura e spazi ristretti. Tenere il polso rilassato e spostare il cibo quando possibile invece di torcere il punto all'interno di esso.
 
@@ -127,7 +140,7 @@ La punta appuntita di un coltello da ginecologo o da cuoco è versatile. La punt
 
 > **Regola:** una punta taglia muovendosi lungo il suo bordo. Non è un cacciavite, una leva o un trapano.
 
-## 6. Affettare il grano
+## Affettare il grano
 
 Le fibre muscolari corrono in fasci visibili. Taglio parallelo a loro lascia lunghe fibre che sono più difficili da masticare; taglio attraverso di loro accorcia le fibre e di solito fa sentire la stessa carne più tenera.
 
@@ -135,7 +148,7 @@ Prima di tagliare, identificare il grano e ruotare la carne in modo che il colte
 
 Questo è un buon esempio di abilità coltello che inizia prima che la lama tocchi il cibo.
 
-## 7. Taglio fine e julienne
+## Taglio fine e julienne
 
 **Julienne** significa tagliare il cibo in strisce sottili, anche simili ai fiammiferi. Pezzi uniformi cuocere ad una velocità simile, che è il motivo pratico per imparare la tecnica; l'aspetto è solo una parte del beneficio.
 
@@ -150,7 +163,7 @@ Utilizzare tagli push o costolette dritte controllate. Lasciare che le nocche ar
 
 Una mannaia cinese può lavorare particolarmente bene qui. La sua lama alta fornisce una grande superficie di guida, mentre una mannaia vegetale cinese sottile, spesso chiamata **cai dao**, può fare fette molto fini. La sua forma rettangolare non lo rende una mannaia ossea.
 
-## 8. Ghiacciamento
+## Ghiacciamento
 
 Sciacquare significa tagliare il cibo in pezzi a forma di cubo grossolanamente. Si tratta di una sequenza di tagli controllati in diverse direzioni. Creare una forma stabile, fare fette parallele, ruotare o rimontare il cibo, quindi tagliare attraverso di loro.
 
@@ -158,7 +171,7 @@ Con una cipolla, lasciare l'estremità della radice intatta durante i primi tagl
 
 Se i dadi variano molto, rallentare e migliorare le prime fette. Dadi irregolari di solito iniziano prima del taglio finale.
 
-## 9. Minciatura senza schiacciamento
+## Minciatura senza frantumazione
 
 Minciare significa ridurre il cibo a piccolissimi pezzi. Iniziare con fette, poi strisce, poi tagli incrociati. Raccogliere i pezzi e fare passaggi extra solo dopo che sono già piccoli.
 
@@ -166,25 +179,25 @@ Per aglio o erbe, utilizzare triturazione dritta con una lama compatta, un'azion
 
 Non inseguire un numero arbitrario di passaggi. Fermare quando la texture si adatta alla ricetta. Erbe brusate e pasta di aglio possono essere desiderabili, ma sono risultati diversi da un visone pulito.
 
-## 10. Crushing e trasferimento di cibo
+## Frantumazione e trasferimento di alimenti
 
 La faccia larga del coltello di uno chef o della mannaia cinese può schiacciare uno spicchio d'aglio pelato. Posare la lama piatta con il bordo rivolto lontano dal corpo, mettere il tallone della mano libera sulla faccia larga e premere una volta con il controllo. Non colpire mai la lama mentre le dita sono vicino al bordo.
 
 Per trasferire il cibo tritato, scorrere la faccia larga sotto o utilizzare un raschietto da banco. Se si utilizza il coltello, sollevare con la lama faccia tenendo il bordo libero dalle mani. Non trascinare il tagliente lateralmente su tutta la la lavagna.
 
-## 11. Peeling e lavori manuali
+## Peeling e lavori manuali
 
 Un coltello corto può tagliare il cibo tenuto nella mano di sostegno, ma il movimento deve essere piccolo e deliberato. Tenere l'ingrediente in modo sicuro e utilizzare un percorso poco profondo che termina accanto al pollice, non in esso. Il pollice guida e frena il cibo; non deve mai sedersi nel percorso di un colpo incontrollato.
 
 I principianti dovrebbero prima praticare peeling sulla tavola o utilizzare un peeler. Grandi coltelli da chef, coltelli da intaglio lunghi e pesanti coltelli cinesi non sono adatti per il taglio casuale a mano.
 
-## 12. Lavorare intorno alle ossa e alle articolazioni
+## Lavorare intorno a ossa e articolazioni
 
 L'osso di solito è tracciando, non tagliando. Utilizzare il punto per individuare l'articolazione e il bordo per separare il tessuto connettivo. Un coltello di disossamento occidentale segue i contorni; un honesuki utilizza un rigido profilo triangolare per il pollame; una deba combina un tacco forte con la geometria dei pesci specializzati.
 
 Non torcere un bordo fine contro l'osso. Se l'articolazione non separa, fermarsi e trovare il gap invece di aggiungere forza. Un coltello progettato per lavorare intorno all'osso non è progettato automaticamente per tagliarlo.
 
-## 13. Filetto di pesce
+## Pesce filettato
 
 Stabilizzare il pesce e seguire una sequenza chiara: aprirlo, individuare la spina dorsale, lasciare che la lama seguire le ossa e utilizzare lunghi colpi controllati per separare il filetto. Un coltello flessibile filetto segue contorni; una tradizionale deba e yanagiba dividere il lavoro in modo diverso, con la deba utilizzato per la macelleria e la yanagiba per la affettatura finale.
 

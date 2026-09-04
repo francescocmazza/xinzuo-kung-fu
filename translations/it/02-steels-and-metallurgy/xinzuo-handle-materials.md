@@ -1,5 +1,5 @@
 ---
-source_hash: ab0adb70db11331cd21399345569ddd300d10dc7ce11634ef0d3b914a7da2ca7
+source_hash: ca49d22e726a04b2f3eda42411e7c9f52dcc114a6962d6505e5fca5e6f56b0fc
 ---
 
 # Materiali Xinzuo Handle - Sentire, Cura e Scelta
@@ -16,27 +16,19 @@ La gamma documentata di Xinzuo comprende palissandro, ebano, legno di ferro dese
 
 Tenete a mente un principio: **il materiale cambia le possibilità, ma la forma crea l'impugnatura**. Un materiale semplice a forma di pozzo per l'utente può essere più comodo di un materiale raro a forma di cattivo.
 
-## A colpo d'occhio
+## Leggere il materiale per conseguenza progettuale
 
-| Materiale | Tipo | Punti di forza principali | Principali compromessi | Profilo di cura |
-|---|---|---|---|---|
-| **Polipropilene (PP) | Termoplastica | Leggero, economico, resistente all'acqua, facile da modellare e igienizzare | Sensazione di qualità limitata e possibilità di finitura; la superficie può invecchiare o graffiare | Bassa manutenzione; evitare il calore inutile e l'esposizione chimica dura |
-| **ABS** | Termoplastica | Rigido, resistente agli urti, economico, facile da modellare in forme complesse | Può graffiare; calore e resistenza chimica dipendono dalla formulazione | Basso livello di manutenzione; evitare alte temperature e sostanze chimiche dure |
-| **G10** | laminato di fibra di vetro | Ottima stabilità dell'umidità, durata e potenziale di grip | Senso più tecnico; relativamente denso | Manutenzione molto bassa; lavaggio a mano raccomandato |
-| **Fibra di carbonio** | Rinforzo in carbonio in resina | Leggero, rigido e moderno | Costo Premium; finiture lucide possono mostrare segni | Pulisci; evita il calore e l'abrasione |
-| **Rosewood** | Legno di latifoglie naturale | Colore caldo, grana attraente, sensazione solida | Variazione naturale; può muoversi o asciugare se trascurata | Lavaggio a mano e asciugamento immediato; olio adatto occasionale se necessario |
-| **Ebano** | Legno duro naturale denso | Scuro, elegante, resistente | Pesante; può rompere se ripetutamente imbevuto ed essiccato | Conservare a secco; non lavare mai la lavastoviglie |
-| **Deserto di ferro** | Legname naturale molto denso | Elevata stabilità, densità e figura distintiva | Costo premium, peso aggiunto, variazione unica | Esposizione minima dell'acqua; asciugarsi prontamente |
-| **Legno di sandalo rosso/legno rosso** | Famiglia di legno naturale | Colore ricco e aspetto tradizionale | Specie e colore variano; l'umidità è ancora importante | Lavaggio delicato e rapida asciugatura |
-| **Sycamore figurato** | Legno naturale lavorato | Grana drammatica e carattere visivo premium | Figura varia; ha bisogno di una normale cura del legno | Evitare l'immersione, il calore e la lavastoviglie |
-| **Olivewood** | Legno di latifoglie naturale | Grana espressiva, tono caldo, carattere tattile | Il colore varia; può seccarsi o muoversi | Asciugarsi rapidamente; condizione solo se appropriato |
-| #Rovere/rovere bruciato** | Legno di latifoglie naturale | Grano riconoscibile, aspetto robusto | Chicchi aperti possono richiedere un'accurata tenuta e cura | Tenere pulito e asciutto; evitare l'umidità prolungata |
-| **Noce** | Legno di latifoglie naturale | Peso bilanciato, caldo tono scuro | Più morbidi dei legni esotici più densi; variazione naturale | Lavare a mano, asciugare ed evitare il calore |
-| **Pakka wood** | compositi di legno e resina lamellati | Aspetto simile al legno con maggiore stabilità e consistenza del colore | Ancora non resistente alla lavastoviglie; la qualità dipende dalla costruzione | Facile cura quotidiana, ma non ammollo |
-| **Legno stabilizzato** | Legno naturale impregnato di resina | Preserva la figura naturale migliorando la stabilità e la resistenza all'umidità | Più pesante e più costoso; la qualità dipende dalla penetrazione e dal processo | Bassa manutenzione, ma non automaticamente impermeabile |
-| **Micarta** | Tessuto o laminato di carta in resina | Impugnatura stabile, durevole e ispirata alla fiducia | Feel meno naturale; consistenza e colore variano in base alla finitura | Lavaggio a mano; generalmente bassa manutenzione |
-| **Fibra di carbonio con resina** | compositi decorativi | Profondità visiva, stabilità e libertà di progettazione | L'aspetto dipende dalla resina; può graffiare | Lavaggio a mano e pulizia non abrasiva |
-| **Resin** | Materiale sintetico ingegnerizzato | Stabilità dell'umidità, colore ripetibile e libertà decorativa | Può graffiare; sentire dipende fortemente dalla finitura | Pulizia semplice delle mani; evitare calore elevato |
+Invece di classificare i materiali in una lista di vantaggi e svantaggi, chiedere che cosa ogni famiglia cambia nella maniglia finita.
+
+| Famiglia materiale | Che cosa permette al designer di controllare | Che cosa il cliente dovrebbe verificare in mano |
+|---|---|---|
+| **Termoplastiche a iniezione** come PP e ABS | Peso ridotto, forma ripetibile, igiene e produzione economica | Trazione superficiale, finitura cucitura, esposizione al calore e usura superficiale a lungo termine |
+| ** compositi strutturali** come G10, Micarta e fibra di carbonio | Stabilità dell'umidità, rigidità, consistenza controllata e peso ingegnerizzato | Densità, finitura dei bordi, texture in uso prolungato e bilanciamento con la lama |
+| **Materiali legno-resina** come il legno Pakka e il legno stabilizzato | Carattere visivo naturale con movimento di umidità inferiore rispetto al legno non trattato | Qualità di impregnazione o laminazione, finitura superficiale e montaggio |
+| **Legni naturali** come palissandro, ebano, ferro, oliveto, rovere e noce | Grana individuale, tocco caldo e un'ampia gamma di densità | Peso effettivo, stabilità dimensionale, stato di finitura e disponibilità a fornire la cura del legno |
+| **Resine decorative e costruzioni miste** | Colore ripetibile, profondità visiva, distanziali e accenti contrastanti | Visibilità dei graffi, transizioni tra materiali e cura richieste dal componente più sensibile |
+
+I singoli profili qui sotto spiegano i materiali utilizzati da Xinzuo. Confrontali con il peso, la risposta all'umidità, l'aderenza superficiale, il metodo di produzione e la cura piuttosto che con un ordine universale migliore per il peggio.
 
 ## Materiali compositi sintetici e tecnici
 
@@ -219,14 +211,13 @@ Micarta e G10 enfatizzano stabilità e durata nel lavoro impegnativo o umido. La
 
 Nessuno di questi materiali può compensare un manico che non si adatta alla mano o al movimento dell'utente. La forma e le dimensioni della presa contano più del nome del materiale da solo.
 
-## Regole di cura per ogni maniglia Xinzuo
+## Cura per modalità di guasto
 
-1. Lavare a mano il coltello con acqua e sapone.
-2. Non immergere il manico o lasciarlo bagnato.
-3. Lama asciutta e manico immediatamente con un panno morbido.
-4. Non usare lavastoviglie, detersivo aggressivo o calore elevato.
-5. Non utilizzare pastiglie abrasive su resine lucide, fibre di carbonio o finiture in legno.
-6. Ispezionare periodicamente il legno naturale e utilizzare solo un adeguato condizionatore a contatto con gli alimenti, se necessario.
+- **Acqua:** Lavare a mano brevemente con sapone delicato, quindi asciugare la lama, la maniglia e le articolazioni. Non lasciare la maniglia immersa o bagnata.
+- **Heat e chimica:** tieni il coltello fuori dalla lavastoviglie e lontano da detergenti ad alto calore o aggressivi che possono attaccare resina, adesivo, finitura o materiale naturale.
+- **Abrasione:** utilizzare pulizia non abrasiva su resine lucide, fibre di carbonio e superfici in legno finissimo.
+- **Movimento dell'umidità:** ispezionare il legno naturale e condizionarlo solo quando la superficie diventa realmente asciutta, utilizzando un adeguato prodotto alimentare-contatto-sicuro.
+- **Assembly:** controlla ferrule, scale, perni, distanziatori e transizioni per movimenti o lacune prima che un piccolo problema diventi strutturale.
 
 Un buon coltello da cucina non dovrebbe andare in lavastoviglie indipendentemente dal materiale del manico. Il calore, i detergenti aggressivi, gli impatti contro altri oggetti e l'umidità calda prolungata possono danneggiare il manico, montaggio e tagliente.
 

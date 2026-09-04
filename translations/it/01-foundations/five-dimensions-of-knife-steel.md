@@ -1,10 +1,10 @@
 ---
-source_hash: 88e38809e23e24394cadaf95ee6a9e9ea470d52f878d696cd85d770bfd171c4e
+source_hash: 954f9e60c2ea857141a0cee9e82aa1667ae1685ab034a1bdd2ef33de1e6f0c59
 ---
 
 # Le cinque dimensioni dell'acciaio del coltello
 
-Quando le persone confrontano coltelli da cucina, spesso cercano un numero vincente: l'HRC più alto, la ritenzione del bordo più lunga o l'acciaio più costoso. Ma **una lama utile è un equilibrio di proprietà, non un singolo punteggio**.
+Iniziare con il lavoro il bordo deve eseguire. Una lunga sessione di affettatura, contatto ripetuto con alimenti acidi e lavori occasionali vicino a giunti pongono diverse esigenze sull'acciaio. HRC, ritenzione bordo e prezzo in lega descrivono solo parti di questo problema.
 
 Un acciaio può tenere un bordo per lungo tempo, ma richiede abrasivi esigenti. Un altro può affilare splendidamente, ma ha bisogno di manutenzione più frequente. Un acciaio altamente resistente alla corrosione può soddisfare una cucina occupata, mentre un acciaio al carbonio reattivo può soddisfare qualcuno che valori la risposta di affilatura ed è disposto a pulire e asciugare immediatamente la lama.
 

@@ -1,5 +1,5 @@
 ---
-source_hash: 72ea4b2bb96aa73601d240cfd44c5c09fe989aac6c1749c2280119e2e011b65d
+source_hash: 01e6f672e3a5e39cccf55241f09631c09a04637197233e5049312ba08caf06a5
 ---
 
 # Un processo pratico di affilatura
@@ -76,19 +76,17 @@ Poi decidere se il coltello ha bisogno di manutenzione o riparazione. Un coltell
 
 Una pietra troppo fine perde tempo su danni gravi. Una pietra molto grossolana rimuove l'acciaio inutile durante la manutenzione leggera.
 
-## Passo 2: scegliere la grinta iniziale e l'abrasivo
+## Fase 2: scegliere il primo abrasivo in base al lavoro richiesto
 
-I numeri più bassi sono più grossolani e rimuovono l'acciaio più velocemente. I numeri più alti sono più sottili e lasciano una finitura più liscia.
+Scegliere la pietra dalla condizione del bordo, non da una tabella di grinta memorizzata. I numeri di grinta sono solo approssimativi perché i sistemi di classificazione, abrasivi, leganti e comportamento della pietra differiscono.
 
-Una guida pratica è:
+Utilizzare tre fasi di lavoro:
 
-- **80-400 grana:** riparazioni principali, chips, rimodellamento e bordi molto opachi;
-- **500-1000 grana:** affilatura generale e restauro;
-- **1000-3000 grana:** raffinatezza;
-- **4000-6000 grana:** finitura fine e lucidatura;
-- **8000 grinta e sopra:** lucidatura specializzata e bordi molto raffinati.
+- **Riparazione o variazione della geometria:** iniziare abbastanza grossolana per rimuovere i danni senza perdere tempo. Chips profondi e riprofilazione può richiedere una pietra sotto circa 500 grit.
+- **Costruire il bordo di lavoro:** utilizzare una pietra media che raggiunge l'apice in modo efficiente e lascia un utile finitura cucina. Circa 700-1500 griglia copre questo ruolo per molti coltelli ordinari.
+- **Rifinire solo quando il compito benefici:** spostare al di sopra della gamma di lavoro per un apice più liscio o una superficie più lucido. Il punto di arresto utile dipende dal cibo, acciaio e il movimento di taglio; non è una scala di prestigio fisso.
 
-Le gamme si sovrappongono perché gli standard di grinta e il comportamento della pietra differiscono. Per molti coltelli da cucina, circa 800-1000 griglia è un utile punto di partenza.
+Un coltello normalmente opaco può spesso iniziare e finire su una buona pietra media. Un coltello danneggiato può avere bisogno di una prima fase grossolana. Un affettatore di presentazione può giustificare ulteriore raffinatezza. Leggere il bordo dopo ogni fase e fermarsi quando il comportamento di taglio previsto è stato raggiunto.
 
 La grana è solo la metà della scelta. L'abrasivo deve anche tagliare l'acciaio in modo efficiente. La durezza da sola non prevede difficoltà di affilatura perché la pietra deve abradere sia la popolazione ** matrice che carburo**.
 
@@ -156,9 +154,9 @@ Utilizzare una pressione sufficiente durante la fase principale per la pietra da
 
 Se il suono diventa duro, i bastoncini o il controllo dell'angolo peggiorano, riducono la pressione e controllano l'acqua, lo stato della pietra e la posizione del corpo.
 
-## Passo 7: posizionare il coltello sulla pietra
+## Fase 7: stabilire il primo contatto
 
-Per il metodo full-length insegnato qui, iniziare con l'area **tip sulla pietra**. Impostare il coltello in diagonale sufficiente a lasciare spazio per l'intera spazzatura.
+Per il metodo full-length qui insegnato, iniziare con l'area **tip toccando l'abrasivo**. Impostare il coltello in diagonale sufficiente a lasciare spazio per tutta la spazzatura.
 
 Sollevare la colonna vertebrale fino a quando il bordo smussato o microbivella contatti la pietra. Fare alcuni movimenti di luce prima di aggiungere pressione. Anche la resistenza indica di solito contatto stabile. Rocking tra la macina larga e apice significa che l'angolo sta cambiando.
 
