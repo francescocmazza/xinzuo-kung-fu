@@ -3,18 +3,18 @@ title: Anatomy of a Kitchen Knife
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-04
 translation_priority: highest
 source_basis: standard fixed-blade kitchen-knife construction and terminology
 ---
 
 # Anatomy of a Kitchen Knife
 
-Before comparing blade shapes, steels or sharpening angles, we need a precise vocabulary. A kitchen knife may look like two simple pieces—a blade and a handle—but several parts meet where the hand controls the tool. Knowing their names makes geometry, balance, construction and ergonomics easier to understand.
+Before comparing blade shapes, steels or sharpening angles, read a knife as three connected systems: the cutting geometry, the steel structure that carries it and the hand interface that controls it. The names below locate each feature within those systems.
 
 Not every knife has every feature shown here. A Western full-tang chef's knife, a molded-handle utility knife and an Asian-handle knife can all be excellent tools with very different constructions.
 
-## The main parts at a glance
+## Read the tool from edge to hand
 
 A fixed kitchen knife begins with the **blade**. Its front ends at the **tip**; the upper unsharpened side is the **spine**; the broad side is the **blade face**; the sharpened lower boundary is the **cutting edge**; and the rear of the cutting portion is the **heel**. The sloping geometry leading to the edge is the **bevel**. The visible texture or polish on the blade face is the **surface finish**.
 
@@ -180,16 +180,16 @@ A useful memory aid is:
 
 This is a training rule, not a complete metallurgical formula. Blade thickness, taper, composition, the steel's microscopic internal structure, heat treatment and edge geometry still matter. The rule explains why a flexible fillet knife, a bone chopper and a very hard fine-edged slicer use different compromises.
 
-## Surface finish and surface relief
+## Read the blade face through three separate questions
 
-A blade's **surface finish** is the final treatment of its face. Satin leaves fine directional abrasive lines; high polish or mirror polish reduces visible texture; etching can reveal Damascus layers. Other finishes can change appearance, tactile feel, scratch visibility and, to a limited extent, how food and moisture interact with the blade. Finish does not determine sharpness, and elaborate appearance cannot replace good geometry.
+Do not treat every visible surface feature as the same kind of treatment.
 
-### Surface relief: hollows, hammering and forged texture
+**First: what is the topography?** Hollows, channels and hammered depressions change the physical shape of the blade face. By interrupting broad contact, they may reduce suction or sticking with some moist or starchy foods. Depth, position and spacing matter more than the decorative name. A chef's knife with hollows remains a chef's knife because its working profile has not changed category.
 
-Hollows, dimples and hammered surfaces are surface features, not knife shapes. They interrupt continuous contact between food and the blade face and can reduce sticking or suction with some moist, starchy or soft foods. The effect depends on the depth and distribution of the relief, blade finish, food texture and cutting technique. A chef's knife with Granton-style hollows is still a chef's knife; a carving knife with the same treatment is still a carving knife.
+**Second: what texture did finishing leave?** Satin grinding leaves directional lines; polishing reduces surface roughness and a mirror finish carries that process further. Texture affects drag, scratch visibility and cleaning, but it does not create sharpness at the apex.
 
-**Hammering** creates deliberate surface relief. Repeated depressions interrupt contact between food and steel. Their practical effect depends on depth, spacing and geometry, not appearance alone.
+**Third: did the surface reveal or retain a structure?** Etching can expose contrast between Damascus layers. Hand forging can leave irregular scale or texture when the face is not ground completely smooth. A retained forged surface and deliberate hammering may look related, but they come from different processes and should be described separately.
 
-A different texture can come directly from **hand forging**. If the blade face is not ground and polished completely smooth, some irregularity from forging remains visible. This retained forged texture differs from deliberate hammering, although both create relief. Its effect on food release depends on the depth and geometry of the texture, while visually it preserves a trace of the forging process.
+Food release depends on topography, blade geometry, finish, food and movement together. No pattern or polish can replace suitable thickness and cross-section.
 
 With these general principles established, we can compare blade shapes without repeating them in every profile.

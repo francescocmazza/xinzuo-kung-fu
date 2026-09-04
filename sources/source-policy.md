@@ -8,7 +8,9 @@ Public technical references may be linked when they clarify an important point, 
 
 Confidential manuals, internal slide decks, private transcripts, unpublished specifications, and customer documents must not be uploaded to this public repository unless the copyright holder has explicitly authorized publication.
 
-They may inform an original summary when the contributor has the right to use the information, but the repository must not reproduce confidential pages, screenshots, diagrams, or substantial passages.
+They may help identify questions that deserve explanation when the contributor has the right to consult them. Published material must use original wording and an educational structure designed for this book, and factual claims must be checked against independent technical or historical sources.
+
+The repository must not reproduce confidential pages, screenshots, diagrams, distinctive tables, exercise sequences, or substantial passages. A familiar teaching convention may still be used when it is the clearest way to help the reader learn; common subject matter and useful instructional patterns are not treated as proprietary merely because another manual also uses them.
 
 ## Images
 

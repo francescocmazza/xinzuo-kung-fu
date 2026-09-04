@@ -3,7 +3,7 @@ title: How to Cut - Essential Knife Techniques
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-04
 translation_priority: highest
 ---
 
@@ -27,7 +27,20 @@ The three main knife-hand positions—**handle grip, intermediate or hybrid grip
 
 > **The four-word safety check:** stable board, stable food, clear path, hidden fingertips.
 
-## 1. Straight chopping
+## Read the path before naming the technique
+
+Kitchen movements are not four sealed categories. A real cut can combine vertical travel, forward or backward travel, and a changing contact point. Read the path of the edge:
+
+| What the edge does | What that movement solves | Profiles that often help |
+|---|---|---|
+| Meets the board across a broad, flat section | Regular vegetable pieces and direct board work | Nakiri, flatter santoku, bunka or gyuto |
+| Advances while descending | Reduces wedging and uses a short slicing action | Gyuto, santoku, bunka and many general-purpose knives |
+| Travels along its length through the food | Crosses wide or delicate food with fewer interruptions | Carving and sashimi slicers |
+| Keeps one area near the board while another rises | Repeats mincing work through a controlled arc | Curved chef's knives or suitable round-front profiles |
+
+The names below describe dominant movements, not rigid rules. Choose the path that lets the edge pass through the ingredient with control and without forcing the blade to imitate a geometry it does not have.
+
+## Board contact: direct descent
 
 ### What the movement looks like
 
@@ -54,7 +67,7 @@ A fairly straight edge can contact the board along much of its length at once. T
 
 Do not confuse chopping with striking. Lifting the knife high and driving it down adds noise and risk without improving an ordinary vegetable cut.
 
-## 2. Push cutting
+## Board contact: advancing stroke
 
 ### What the movement looks like
 
@@ -76,7 +89,7 @@ An edge cuts more efficiently when it slides across food. The forward component 
 
 Think **forward, down, release**. Forward starts the slice, down completes it, and release lifts the edge instead of scraping it across the board.
 
-## 3. Pull cutting and the draw slice
+## Long work: draw through the food
 
 ### What the movement looks like
 
@@ -94,7 +107,7 @@ A long draw spreads the work across more of the edge. It reduces downward compre
 
 Traditional sashimi knives are long so the cook can finish a slice with few interruptions. The single-bevel yanagiba adds controlled food separation to that long draw. The surface left by the cut becomes part of the finished dish.
 
-## 4. Rock chopping
+## Pivoted work: keep a point of contact
 
 Two related movements should be separated: the **wide rolling rock** of a curved chef's knife and the **compact pivot rock** of a round-tip nakiri.
 
@@ -122,7 +135,7 @@ Gather the leaves into a compact pile. With a curved chef's knife, place the for
 
 Do not rock on the fragile K-tip of a bunka or kiritsuke-style knife. A K-tip is a precision point, not a bearing surface for repeated board contact or lateral stress. Do not force a square-front or very flat nakiri into a wide rolling arc either.
 
-## 5. Tip work
+## Tip work
 
 Use the tip for small incisions, trimming and confined spaces. Keep the wrist relaxed and move the food when possible instead of twisting the point inside it.
 
@@ -132,7 +145,7 @@ The pointed tip of a gyuto or chef's knife is versatile. A bunka's K-tip gives e
 
 > **Rule:** a tip cuts by moving along its edge. It is not a screwdriver, lever or drill.
 
-## 6. Slicing across the grain
+## Slicing across the grain
 
 Muscle fibres run in visible bundles. Cutting parallel to them leaves long fibres that are harder to chew; cutting across them shortens the fibres and usually makes the same meat feel more tender.
 
@@ -140,7 +153,7 @@ Before cutting, identify the grain and rotate the meat so the knife crosses it. 
 
 This is a good example of knife skill beginning before the blade touches the food.
 
-## 7. Fine slicing and julienne
+## Fine slicing and julienne
 
 **Julienne** means cutting food into thin, even strips similar to matchsticks. Uniform pieces cook at a similar rate, which is the practical reason to learn the technique; appearance is only part of the benefit.
 
@@ -155,7 +168,7 @@ Use push cuts or controlled straight chops. Let the claw knuckles guide the blad
 
 A Chinese cleaver can work especially well here. Its tall blade provides a large guide surface, while a thin Chinese vegetable cleaver, often called a **cai dao**, can make very fine slices. Its rectangular shape does not make it a bone cleaver.
 
-## 8. Dicing
+## Dicing
 
 Dicing means cutting food into roughly cube-shaped pieces. It is a sequence of controlled cuts in different directions. Create a stable shape, make parallel slices, rotate or restack the food, then cut across them.
 
@@ -163,7 +176,7 @@ With an onion, leave the root end intact during the first cuts so the layers sta
 
 If the dice vary greatly, slow down and improve the first slices. Irregular dice usually begin before the final cut.
 
-## 9. Mincing without crushing
+## Mincing without crushing
 
 Mincing means reducing food to very small pieces. Start with slices, then strips, then cross-cuts. Gather the pieces and make extra passes only after they are already small.
 
@@ -171,25 +184,25 @@ For garlic or herbs, use straight chopping with a compact blade, a gentle rollin
 
 Do not chase an arbitrary number of passes. Stop when the texture suits the recipe. Bruised herbs and garlic paste can be desirable, but they are different results from a clean mince.
 
-## 10. Crushing and transferring food
+## Crushing and transferring food
 
 The broad face of a chef's knife or Chinese cleaver can crush a peeled garlic clove. Lay the blade flat with the edge facing away from the body, place the heel of the free hand on the broad face and press once with control. Never strike the blade while fingers are near the edge.
 
 To transfer chopped food, slide the broad face underneath or use a bench scraper. If you use the knife, lift with the blade face while keeping the edge clear of hands. Do not drag the cutting edge sideways across the board.
 
-## 11. Peeling and in-hand work
+## Peeling and in-hand work
 
 A short paring knife can cut food held in the supporting hand, but the movement must be small and deliberate. Hold the ingredient securely and use a shallow path that finishes beside the thumb, not into it. The thumb guides and brakes the food; it must never sit in the path of an uncontrolled stroke.
 
 Beginners should first practise peeling on the board or use a peeler. Large chef's knives, long carving knives and heavy Chinese knives are not suitable for casual in-hand cutting.
 
-## 12. Working around bones and joints
+## Working around bones and joints
 
 Boning is usually tracing, not chopping. Use the point to locate the joint and the edge to separate connective tissue. A Western boning knife follows contours; a honesuki uses a stiff triangular profile for poultry; a deba combines a strong heel with specialist fish geometry.
 
 Do not twist a fine edge against bone. If the joint does not separate, stop and find the gap instead of adding force. A knife designed to work around bone is not automatically designed to cut through it.
 
-## 13. Filleting fish
+## Filleting fish
 
 Stabilize the fish and follow a clear sequence: open it, locate the backbone, let the blade follow the bones and use long controlled strokes to separate the fillet. A flexible fillet knife follows contours; a traditional deba and yanagiba divide the work differently, with the deba used for butchery and the yanagiba for final slicing.
 

@@ -3,7 +3,7 @@ title: Xinzuo Handle Materials - Feel, Care and Choice
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-04
 translation_priority: highest
 source_basis: 2025 Xinzuo Catalog V9
 ---
@@ -22,27 +22,19 @@ Xinzuo's documented range includes rosewood, ebony, North American desert ironwo
 
 Keep one principle in mind: **material changes the possibilities, but shape creates the grip**. A simple material shaped well for the user can be more comfortable than a rare material shaped poorly.
 
-## At a glance
+## Read the material by design consequence
 
-| Material | Type | Main strengths | Main compromises | Care profile |
-|---|---|---|---|---|
-| **Polypropylene (PP)** | Thermoplastic | Light, inexpensive, water-resistant, easy to mold and sanitize | Limited premium feel and finishing possibilities; surface can age or scratch | Low maintenance; avoid unnecessary heat and harsh chemical exposure |
-| **ABS** | Thermoplastic | Rigid, impact-resistant, inexpensive, easy to mold into complex shapes | Can scratch; heat and chemical resistance depend on formulation | Low maintenance; avoid high heat and harsh chemicals |
-| **G10** | Glass-fibre laminate | Excellent moisture stability, durability and grip potential | More technical feel; relatively dense | Very low maintenance; hand-wash recommended |
-| **Carbon fibre** | Carbon reinforcement in resin | Light, rigid and modern | Premium cost; glossy finishes may show marks | Wipe clean; avoid heat and harsh abrasion |
-| **Rosewood** | Natural hardwood | Warm colour, attractive grain, solid feel | Natural variation; can move or dry if neglected | Hand-wash and dry immediately; occasional suitable oil if needed |
-| **Ebony** | Dense natural hardwood | Dark, elegant, hard-wearing | Heavy; can crack if repeatedly soaked and dried | Keep dry; never dishwasher-clean |
-| **Desert ironwood** | Very dense natural hardwood | High stability, density and distinctive figure | Premium cost, added weight, unique variation | Minimal water exposure; dry promptly |
-| **Red sandalwood / red wood** | Natural wood families | Rich colour and traditional appearance | Species and colour vary; moisture still matters | Gentle washing and prompt drying |
-| **Figured sycamore** | Figured natural wood | Dramatic grain and premium visual character | Figure varies; needs normal wood care | Avoid soaking, heat and dishwasher use |
-| **Olivewood** | Natural hardwood | Expressive grain, warm tone, tactile character | Colour varies; may dry or move | Dry promptly; condition only when appropriate |
-| **Oak / burnt oak** | Natural hardwood | Recognizable grain, robust appearance | Open grain can demand careful sealing and care | Keep clean and dry; avoid prolonged moisture |
-| **Walnut** | Natural hardwood | Balanced weight, warm dark tone | Softer than the densest exotic woods; natural variation | Hand-wash, dry and avoid heat |
-| **Pakka wood** | Laminated wood-and-resin composite | Wood-like appearance with improved stability and colour consistency | Still not dishwasher-proof; quality depends on construction | Easy daily care, but do not soak |
-| **Stabilized wood** | Natural wood impregnated with resin | Preserves natural figure while improving stability and moisture resistance | Heavier and more costly; quality depends on penetration and process | Low maintenance, but not automatically waterproof |
-| **Micarta** | Fabric or paper laminate in resin | Stable, durable and confidence-inspiring grip | Less natural feel; texture and colour vary by finish | Hand-wash; generally low maintenance |
-| **Carbon fibre with resin** | Decorative engineered composite | Visual depth, stability and design freedom | Appearance depends on resin; can scratch | Hand-wash and use non-abrasive cleaning |
-| **Resin** | Engineered synthetic material | Moisture stability, repeatable colour and decorative freedom | Can scratch; feel depends strongly on finish | Simple hand cleaning; avoid high heat |
+Instead of ranking materials in a list of advantages and disadvantages, ask what each family changes in the finished handle.
+
+| Material family | What it lets the designer control | What the customer should verify in hand |
+|---|---|---|
+| **Injection-moulded thermoplastics** such as PP and ABS | Low weight, repeatable shape, hygiene and economical production | Surface traction, seam finishing, heat exposure and long-term surface wear |
+| **Structural composites** such as G10, Micarta and carbon fibre | Moisture stability, stiffness, controlled texture and engineered weight | Density, edge finishing, texture under prolonged use and balance with the blade |
+| **Wood-resin materials** such as Pakka wood and stabilized wood | Natural visual character with lower moisture movement than untreated wood | Quality of impregnation or lamination, surface finish and assembly |
+| **Natural woods** such as rosewood, ebony, ironwood, olivewood, oak and walnut | Individual grain, warm touch and a wide range of densities | Actual weight, dimensional stability, finish condition and willingness to provide wood care |
+| **Decorative resins and mixed constructions** | Repeatable colour, visual depth, spacers and contrasting accents | Scratch visibility, transitions between materials and care required by the most sensitive component |
+
+The individual profiles below explain the materials used by Xinzuo. Compare them through weight, moisture response, surface grip, manufacturing method and care rather than through a universal best-to-worst order.
 
 ## Synthetic and technical composite materials
 
@@ -225,14 +217,13 @@ Micarta and G10 emphasize stability and durability in demanding or humid work. C
 
 None of these materials can compensate for a handle that does not fit the user's hand or movement. Grip shape and size matter more than the material name alone.
 
-## Care rules for every Xinzuo handle
+## Care by failure mode
 
-1. Hand-wash the knife with mild soap and water.
-2. Do not soak the handle or leave it wet.
-3. Dry blade and handle immediately with a soft cloth.
-4. Do not use a dishwasher, aggressive detergent or high heat.
-5. Do not use abrasive pads on polished resin, carbon fibre or fine wood finishes.
-6. Inspect natural wood periodically and use only a suitable food-contact-safe conditioner when needed.
+- **Water:** hand-wash briefly with mild soap, then dry the blade, handle and joints. Do not leave the handle immersed or wet.
+- **Heat and chemistry:** keep the knife out of the dishwasher and away from high heat or aggressive cleaners that can attack resin, adhesive, finish or natural material.
+- **Abrasion:** use non-abrasive cleaning on polished resin, carbon fibre and fine wood surfaces.
+- **Moisture movement:** inspect natural wood and condition it only when the surface actually becomes dry, using a suitable food-contact-safe product.
+- **Assembly:** check ferrules, scales, pins, spacers and transitions for movement or gaps before a small problem becomes structural.
 
 A good kitchen knife should not go in a dishwasher regardless of handle material. Heat, aggressive detergents, impacts against other objects and prolonged hot humidity can damage the handle, assembly and cutting edge.
 

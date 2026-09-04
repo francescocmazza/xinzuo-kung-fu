@@ -3,13 +3,13 @@ title: The Five Dimensions of Knife Steel
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-04
 translation_priority: high
 ---
 
 # The Five Dimensions of Knife Steel
 
-When people compare kitchen knives, they often look for one winning number: the highest HRC, the longest edge retention or the most expensive steel. But **a useful blade is a balance of properties, not a single score**.
+Begin with the work the edge must perform. A long slicing session, repeated contact with acidic food and occasional work near joints place different demands on steel. HRC, edge retention and alloy price describe only parts of that problem.
 
 One steel may hold an edge for a long time but require demanding abrasives. Another may sharpen beautifully but need more frequent maintenance. A highly corrosion-resistant steel may suit a busy kitchen, while a reactive carbon steel may suit someone who values sharpening response and is willing to clean and dry the blade immediately.
 
