@@ -10,6 +10,9 @@ All notable editorial changes to the English source of truth will be recorded he
 
 ### Changed
 
+- restructured the most recognizably manual-like passages around task diagnosis, observable feedback and reader decisions: abrasive selection, stone preparation, burr control, cutting paths, handle-material comparison, alloy interpretation and Damascus construction;
+- preserved familiar teaching conventions where they remain the clearest route to learning, while replacing distinctive tables, taxonomies and exercise sequences with book-specific explanations;
+- clarified that the confidential Musashi manual may inspire questions but is not a source for published wording, page structure, images or distinctive instructional sequences;
 - reduced repeated "X is not Y" / "does not mean Z" corrective phrasing where it remained stacked after the broader manuscript readability pass, preserving the newer `main` wording while applying the still-relevant direct/descriptive formulations from the editorial patch;
 - added an editorial rule limiting how often corrective negation constructions may be stacked, and requiring section/subsection headings to default to a positive or descriptive form;
 - added an editorial rule and a matching README clarification prohibiting externally hotlinked images and requiring the standard placeholder when an approved asset is not yet available;

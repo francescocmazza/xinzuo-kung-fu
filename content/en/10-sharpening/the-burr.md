@@ -3,7 +3,7 @@ title: Understanding the Burr
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-04
 translation_priority: high
 ---
 
@@ -238,20 +238,15 @@ A knife can pass a quick test while still carrying an unstable wire edge.
 
 Heavy pressure keeps bending and enlarging the burr instead of removing it.
 
-## A practical burr routine
+## A diagnostic loop for the burr
 
-1. Sharpen the first side at a consistent angle.
-2. Rinse or wipe the blade before checking.
-3. Check for a light burr on the opposite side.
-4. Check heel, middle and tip.
-5. Work only where the burr is missing.
-6. Turn the knife over.
-7. Sharpen until the burr moves to the first side along the full edge.
-8. Reduce pressure.
-9. Alternate sides with fewer strokes.
-10. Deburr.
-11. Check that no directional lip remains.
-12. Test the clean edge on paper and suitable food.
+Use the burr as feedback rather than as a target to enlarge.
+
+1. **Locate the unfinished edge.** Work one face, clean the blade and check the opposite side at heel, middle and tip. Return only to sections where no light burr can be detected.
+2. **Confirm continuity.** Stop the main grinding stage as soon as the smallest detectable burr connects the full edge.
+3. **Reverse and centre.** Work the second face until the signal changes sides, then shorten the sequence and reduce pressure.
+4. **Remove weakened metal.** Alternate light passes and use the chosen deburring method without creating another large wire edge.
+5. **Verify the apex.** No directional lip should remain. Confirm the result through inspection and controlled paper and food tests.
 
 ## What to remember
 

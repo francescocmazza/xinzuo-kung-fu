@@ -57,9 +57,11 @@ The neutral PNG adaptations remove captions embedded in a fixed language. Their 
 
 Three figures in "Knife Shapes and Their Uses" previously embedded `<img>` tags pointing directly at third-party retailer websites/CDNs instead of assets listed above: Gyuto (`VIS-SHAPE-GYUTO-PM80`), Western boning knife (`VIS-SHAPE-BONING-B37TG`), and the straight paring-knife example now tracked as `VIS-SHAPE-PARING-STRAIGHT-B13R`. The first two were present in the original editorial patch; the third appeared in the later `main` revision while that patch was being integrated. None of these externally hosted images was recorded here or confirmed as licensed for this use. They have therefore been removed from the English source and replaced with the standard editorial image placeholder pending approved, rights-cleared Xinzuo product photographs. See `EDITORIAL_REQUIREMENTS.md` for the rule that prevents this pattern from recurring.
 
-## Excluded material
+## Excluded confidential material
 
-No confidential Musashi material is published in this repository. Proprietary slide decks and source catalog PDFs are not published as complete documents; only individually selected visual extracts are used where permitted and technically appropriate.
+No text, screenshot, diagram, photograph, or visual extract from the confidential Musashi manual is published in this repository. The manual may not be used as an image source.
+
+Confidential or proprietary training documents may help identify subjects that deserve explanation only when a contributor is entitled to consult them. Published wording, organization, and illustrations must be created for this book and checked against independent technical or historical sources. Authorized Xinzuo catalog and internal-presentation material is governed separately by the sections above.
 
 ## Questions
 

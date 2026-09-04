@@ -61,9 +61,11 @@ Gli adattamenti PNG neutri rimuovono le didascalie inserite in una lingua fissa.
 
 Tre figure in "Schede coltello e loro usi" precedentemente incorporato `<img>` tag che puntano direttamente su siti web/CDN di terze parti al posto delle attività sopra elencate: Gyuto (`VIS-SHAPE-GYUTO-PM80`), coltello da disossamento occidentale (`VIS-SHAPE-BONING-B37TG`), e l'esempio di pareggio-coltello dritto ora tracciata come `VIS-SHAPE-PARING-STRAIGHT-B13R`. I primi due erano presenti nella patch editoriale originale; il terzo apparve nel successivo `main` nessuna di queste immagini ospitate esternamente è stata registrata qui o confermata come licenza per questo utilizzo. Sono state quindi rimosse dalla fonte inglese e sostituite con il segnaposto standard dell'immagine editoriale in attesa di approvata, foto dei prodotti Xinzuo bonificate dai diritti. `EDITORIAL_REQUIREMENTS.md` per la regola che impedisce che questo modello si ripeta.
 
-## Materiale escluso
+## Materiale riservato escluso
 
-In questo repository non viene pubblicato alcun materiale riservato Musashi. I PDF proprietari di slide deck e il catalogo sorgente non vengono pubblicati come documenti completi; vengono utilizzati solo estratti visivi selezionati individualmente, ove consentito e tecnicamente appropriato.
+In questo repository non vengono pubblicati testi, schermate, diagrammi, fotografie o estratti visivi tratti dal manuale riservato Musashi. Il manuale non può essere utilizzato come fonte di immagini.
+
+I documenti formativi riservati o proprietari possono aiutare a individuare gli argomenti da spiegare solo quando il collaboratore è autorizzato a consultarli. Testi, organizzazione e illustrazioni pubblicati devono essere creati appositamente per questo libro e verificati su fonti tecniche o storiche indipendenti. Il materiale autorizzato proveniente dal catalogo Xinzuo e dalle presentazioni interne resta disciplinato separatamente dalle sezioni precedenti.
 
 ## Interrogazioni
 

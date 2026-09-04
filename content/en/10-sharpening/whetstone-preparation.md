@@ -3,7 +3,7 @@ title: Preparing Water Stones
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-04
 translation_priority: high
 ---
 
@@ -92,17 +92,17 @@ A stable holder reduces stone movement and makes angle control safer and more re
 
 Keep water nearby and leave enough clear space for the full sharpening stroke. Before starting, make sure the stone is clean and reasonably flat.
 
-## Flatness: why stone shape matters
+## Flatness: diagnose before correcting
 
 A stone wears where the knife contacts it most. The centre can gradually become hollow while the ends stay high.
 
 A dished stone changes the angle during the stroke. On a wide single bevel, it can alter the geometry significantly.
 
-Check flatness with a straight edge or draw a pencil grid across the surface. During flattening, unevenly disappearing lines show where the surface is high or low.
+Check the stone in more than one direction. A reliable straight edge can reveal a hollow through the centre; reflected light under the straight edge makes small gaps easier to see. A few light pencil witness lines across different parts of the surface can provide a second check: high areas lose the marks first, while low areas retain them.
 
-Use a flattening stone, flattening plate or another suitable abrasive surface recommended by the manufacturer. Work evenly until the pencil marks disappear.
+Correct the surface with a flattening plate, lapping stone or other flat abrasive recommended for that stone. Use strokes that cover the whole face and rotate the stone during the work so hand pressure does not create a new bias. Rinse away loose abrasive, check again across both diagonals and the length, and continue only where a gap or witness mark remains.
 
-Flattening is regular maintenance, not a rare repair.
+The target is not merely a clean-looking surface. It is one plane that supports a repeatable angle across the full sharpening stroke. Check often enough that flattening remains light maintenance rather than a major correction.
 
 ## Wetting the surface before sharpening
 
@@ -197,16 +197,12 @@ Trapped moisture can cause mould, odour and damage.
 
 Slurry is loose material on the stone. The burr is a thin lip of steel attached to the edge.
 
-## A practical preparation routine
+## Three preparation checks
 
-1. Read the manufacturer's instructions.
-2. Check the stone for cracks, dirt and uneven wear.
-3. If it is absorbent, soak it until bubbling largely stops.
-4. If it is splash-and-go, wet only the surface as directed.
-5. Secure it on a stable non-slip base.
-6. Check and correct flatness.
-7. Wet the working surface.
-8. Keep water available during sharpening.
-9. Rinse, flatten if needed and air-dry after use.
+**Identify the stone.** Read its instructions and determine whether it needs soaking, surface water, oil or no liquid. Inspect it for cracks, contamination and uneven wear.
 
-Prepare the stone according to its **actual construction**, not a ritual. Absorbent stones need water in their pores; dense and specialized stones may need little or no soaking. In every case, the stone should be flat, secure and correctly lubricated before the edge touches it.
+**Make the platform reliable.** Correct flatness where necessary, place the stone on a non-slip support and leave enough room for the complete stroke. Wet or lubricate the working face as specified.
+
+**Plan the end of the session.** Keep clean water or the correct lubricant nearby. After sharpening, remove residue, recheck the surface and let the stone dry as its construction requires.
+
+Preparation should respond to the stone's **actual construction**. The aim is a stable, flat and correctly conditioned abrasive surface, not the mechanical repetition of one ritual for every product.

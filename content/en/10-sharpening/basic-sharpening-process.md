@@ -3,7 +3,7 @@ title: A Practical Sharpening Process
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-04
 translation_priority: high
 ---
 
@@ -81,19 +81,17 @@ Then decide whether the knife needs maintenance or repair. A knife that has only
 
 A stone that is too fine wastes time on major damage. A very coarse stone removes unnecessary steel during light maintenance.
 
-## Step 2: choose the starting grit and abrasive
+## Step 2: choose the first abrasive by the work required
 
-Lower grit numbers are coarser and remove steel faster. Higher numbers are finer and leave a smoother finish.
+Choose the stone from the condition of the edge, not from a memorized grit table. Grit numbers are only approximate because grading systems, abrasives, binders and stone behaviour differ.
 
-A practical guide is:
+Use three working stages:
 
-- **80-400 grit:** major repairs, chips, reshaping and very dull edges;
-- **500-1000 grit:** general sharpening and restoration;
-- **1000-3000 grit:** refinement;
-- **4000-6000 grit:** fine finishing and polishing;
-- **8000 grit and above:** specialized polishing and very refined edges.
+- **Repair or geometry change:** begin coarse enough to remove damage without wasting time. Deep chips and reprofiling may need a stone below roughly 500 grit.
+- **Build the working edge:** use a medium stone that reaches the apex efficiently and leaves a useful kitchen finish. About 700-1500 grit covers this role for many ordinary knives.
+- **Refine only when the task benefits:** move above the working range for a smoother apex or a more polished surface. The useful stopping point depends on the food, steel and cutting movement; it is not a fixed prestige ladder.
 
-The ranges overlap because grit standards and stone behaviour differ. For many kitchen knives, about 800-1000 grit is a useful starting point.
+A normally dull knife can often start and finish on one good medium stone. A damaged knife may need a coarse first stage. A presentation slicer may justify additional refinement. Read the edge after each stage and stop when the intended cutting behaviour has been reached.
 
 Grit is only half the choice. The abrasive must also cut the steel efficiently. Hardness alone does not predict sharpening difficulty because the stone must abrade both the **matrix and carbide population**.
 
@@ -161,9 +159,9 @@ Use enough pressure during the main stage for the stone to cut while the angle r
 
 If the sound becomes harsh, the knife sticks or angle control worsens, reduce pressure and check water, stone condition and body position.
 
-## Step 7: place the knife on the stone
+## Step 7: establish the first contact
 
-For the full-length method taught here, begin with the **tip area on the stone**. Set the knife diagonally enough to leave room for the whole sweep.
+For the full-length method taught here, begin with the **tip area touching the abrasive**. Set the knife diagonally enough to leave room for the whole sweep.
 
 Raise the spine until the edge bevel or microbevel contacts the stone. Make a few light movements before adding pressure. Even resistance usually indicates stable contact. Rocking between the broad grind and apex means the angle is changing.
 
