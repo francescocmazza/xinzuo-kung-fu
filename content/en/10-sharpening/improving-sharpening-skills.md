@@ -9,11 +9,11 @@ translation_priority: high
 
 # Improving Your Sharpening Skills
 
-The first chapter gives one dependable answer to most beginner problems: use the existing bevel, cover the complete edge, form a light burr on both sides, then finish with very light alternating passes.
+The first chapter gives one dependable answer to most beginner problems: follow the existing microbevel, cover the complete edge, form a light burr on both sides, then finish with very light alternating passes.
 
 Keep that method whenever it gives a good result. Improvement does not mean replacing a simple method with a complicated one. It means noticing more, correcting less and understanding when the simple method needs help.
 
-Begin this chapter only after you can sharpen an ordinary double-bevel knife evenly from heel to tip. If marker contact, burr detection or the three-part paper test is still uncertain, more advanced choices will hide the basic problem rather than solve it.
+Begin this chapter only after you can sharpen an ordinary double-bevel knife evenly from heel to tip and repeat the result in two sessions. If microbevel contact, burr detection, the three-part paper test or the stability test is still uncertain, more advanced choices will hide the basic problem rather than solve it.
 
 ## The three skills behind better sharpening
 
@@ -29,7 +29,7 @@ These skills reduce unnecessary grinding. They also explain why a knife can have
 
 The stone leaves visible and tactile evidence:
 
-- marker removal shows contact;
+- marker removal shows contact on the microbevel;
 - fresh scratches show where steel was removed;
 - reflected light reveals remaining flat or damaged areas;
 - the burr confirms that the abrasive reached the apex;
@@ -40,7 +40,7 @@ Do not collect all this information at the end. Stop, rinse and inspect during t
 
 ### Practice drill: predict before looking
 
-Colour the bevel of a practice knife. Make one light pass while deliberately holding the spine slightly too low. Before inspecting it, predict where the ink should remain. Then repeat with the spine slightly too high.
+Colour only the microbevel of a practice knife. Make one light pass while deliberately holding the spine slightly too low. Before inspecting it, predict where the ink should remain. Then repeat with the spine slightly too high.
 
 This safe marker exercise teaches the connection between hand position and contact. Return to the correct angle and erase the intended strip evenly before sharpening further.
 
@@ -78,7 +78,7 @@ The complete-edge pass remains the safest default. Section work becomes useful w
 
 Divide the edge into overlapping zones: heel, middle and front. Work one zone with short controlled strokes while keeping pressure directly above it. Overlap the neighbouring zone so no abrupt step develops. Finish with several light complete-edge passes to blend the whole edge.
 
-Section work saves steel only when the sharpener can preserve the profile. Repeated strokes in one exact spot can create a hollow in the cutting line. Mark the bevel, inspect often and stop local work as soon as the missing contact or burr appears.
+Section work saves steel only when the sharpener can preserve the profile. Repeated strokes in one exact spot can create a hollow in the cutting line. Mark the microbevel, inspect often and stop local work as soon as the missing contact or burr appears.
 
 ### Workshop example: one dull centimetre near the heel
 
@@ -90,9 +90,9 @@ The advanced method is not automatically better. It is better only when the user
 
 ### Section-work test
 
-Colour the full bevel and leave one small area with extra marker. Work that area briefly, blend with full passes and inspect the edge line from the side.
+Colour the full microbevel and leave one small area with extra marker. Work that area briefly, blend with full passes and inspect the edge line from the side.
 
-Pass when the target mark is removed, the neighbouring bevel remains even and the paper test has no catch at either transition.
+Pass when the target mark is removed, the neighbouring microbevel remains even and the paper test has no catch at either transition.
 
 ## Choose stones by the work
 
@@ -106,7 +106,7 @@ Use a simple three-stage decision:
 
 The ranges overlap between brands. Begin with the finest stone that can complete the required work in a reasonable time. A coarse stone saves time on damage but removes steel quickly. A fine stone gives control but cannot efficiently rebuild a badly rounded edge.
 
-The abrasive must also cut the steel. Conventional water stones suit many common Xinzuo steels. Highly wear-resistant steels such as ZDP-189, SRS13, M390 and 14Cr14MoVNb may respond more efficiently to suitable ceramic or diamond abrasive. If the stone barely changes the bevel despite correct contact, improve the abrasive before increasing force.
+The abrasive must also cut the steel. Conventional water stones suit many common Xinzuo steels. Highly wear-resistant steels such as ZDP-189, SRS13, M390 and 14Cr14MoVNb may respond more efficiently to suitable ceramic or diamond abrasive. If the stone barely changes the microbevel despite correct contact, improve the abrasive before increasing force.
 
 ### Hard and soft stones
 
@@ -120,7 +120,7 @@ The grey mixture on a water stone contains removed steel and loose abrasive. It 
 
 Rinse the surface when you need to see exact contact, when the stone feels sticky or when metal begins to clog it. Keep a controlled slurry when the stone cuts and finishes better with it. A beginner may simply keep the surface wet and clean; deliberate slurry management belongs at this second level because the user can now notice the difference.
 
-Clean the knife, hands and holder before moving to a fine stone. One coarse particle can leave a deep scratch across a polished bevel.
+Clean the knife, hands and holder before moving to a fine stone. One coarse particle can leave a deep scratch across a polished microbevel or blade finish.
 
 ## Keep the stone flat
 
@@ -134,9 +134,9 @@ Check the stone with pencil before a session, after sharpening two knives and ag
 
 ## Distinguish apex work from geometry work
 
-Routine sharpening restores the narrow edge bevel. It brings the two sides together at the apex.
+Routine sharpening restores the narrow microbevel. It brings the two sides together at the apex.
 
-As sharpening repeats, that narrow bevel moves upward into thicker steel and becomes wider. The knife may cut paper well but wedge in a carrot or onion. The apex is sharp; the blade behind it is too thick.
+As sharpening repeats, that microbevel moves upward into thicker steel and becomes wider. The knife may cut paper well but wedge in a carrot or onion. The apex is sharp; the blade behind it is too thick.
 
 **Thinning** removes steel behind the edge to restore easier passage through food. It is a separate operation from sharpening and removes much more material.
 
@@ -151,15 +151,15 @@ A kitchen knife behaves in the same way. Paper mostly tests the point of the sys
 Possible signs include:
 
 - the knife passes paper but splits or wedges in firm vegetables;
-- the edge bevel has become much wider after repeated sharpening;
+- the microbevel has become much wider after repeated sharpening;
 - cutting resistance has increased even after a clean deburring;
 - more force is needed once the apex has already entered the food.
 
 Before thinning, inspect the blade finish. Damascus pattern, mirror polish, coatings, hammering and black forge scale can be scratched or removed. Protect valuable finishes and use professional service when the original grind is uncertain.
 
-For a simple practice knife, colour the area immediately behind the edge. Lay the blade at a lower angle than the sharpening angle and abrade that shoulder gradually. Keep the cutting profile unchanged. Then recreate the narrow edge bevel and finish normally.
+For a simple practice knife, colour the area immediately behind the microbevel. Lay the blade at a lower angle than the sharpening angle and abrade that shoulder gradually. Keep the cutting profile unchanged. Then recreate the narrow microbevel and finish normally.
 
-Do not try to make the visible bevel equally wide at heel and tip. Blade thickness usually changes toward the tip. Equal appearance can require unequal geometry.
+Do not try to make the visible microbevel equally wide at heel and tip. Blade thickness usually changes toward the tip. Equal appearance can require unequal geometry.
 
 ### Geometry test
 
@@ -193,9 +193,9 @@ The test is not about long-term edge retention. It checks whether the first resu
 
 Some double-bevel knives have one side sharpened more than the other. Previous owners may also have created accidental asymmetry.
 
-Do not equalise the two sides by counting identical strokes. Use marker, bevel width, steering in food and burr movement. Preserve a deliberate asymmetry when the knife cuts straight and the maker specifies it. Correct an accidental one gradually rather than trying to rebuild it in a single session.
+Do not equalise the two sides by counting identical strokes. Use marker, microbevel width, steering in food and burr movement. Preserve a deliberate asymmetry when the knife cuts straight and the maker specifies it. Correct an accidental one gradually rather than trying to rebuild it in a single session.
 
-If the knife always steers to one side in a tall food such as potato, first confirm that the cut and grip are straight. Then compare bevel angles, thickness and remaining burr. Steering is evidence, not a command to grind one side heavily.
+If the knife always steers to one side in a tall food such as potato, first confirm that the cut and grip are straight. Then compare microbevel angles, thickness and remaining burr. Steering is evidence, not a command to grind one side heavily.
 
 ## Traditional single-bevel knives
 

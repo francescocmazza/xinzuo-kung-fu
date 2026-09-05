@@ -13,9 +13,9 @@ Cut a tall potato with two knives and you may notice something unexpected. One b
 
 Three parts are often confused.
 
-The **primary bevel** is the broad ground surface that reduces blade thickness toward the edge. Near the edge, many kitchen knives have a much smaller secondary facet: the **edge bevel**, often called a **microbevel** when especially narrow. The edge bevels—or the edge bevel and opposite face in some asymmetric constructions—meet at the **apex**, the microscopic line that cuts.
+The **primary bevel** is the broad ground surface that reduces blade thickness toward the edge. Near the edge, many kitchen knives have a much smaller terminal facet. This book calls that narrow sharpening surface the **microbevel**. The microbevels—or the microbevel and opposite face in some asymmetric constructions—meet at the **apex**, the microscopic line that cuts.
 
-This matters because routine resharpening of a double-bevel knife usually works on the narrow edge bevel or microbevel. Laying the entire broad primary bevel on the stone changes the geometry behind the edge and belongs to thinning, geometry correction or deliberate reprofiling. A separate microbevel is not always visible, so the practical reference is the small facet immediately behind the apex that the stone must reach.
+This matters because routine resharpening of a double-bevel knife works on the microbevel. Laying the entire broad primary bevel on the stone changes the geometry behind the edge and belongs to thinning, geometry correction or deliberate reprofiling. The microbevel is not always easy to see, so the practical reference is the small terminal facet immediately behind the apex that the stone must reach.
 
 Bevel geometry changes four things a cook can feel:
 
@@ -35,7 +35,7 @@ Seven common bevel families, shown without fixed-language labels: 1. symmetrical
 
 ## Double bevel: the familiar all-purpose edge
 
-A double-bevel knife is sharpened from both sides. Seen from the front, the sides converge toward a narrow V-shaped edge. On many knives the broad blade grind and tiny edge bevel are visibly separate; on others the transition is subtle.
+A double-bevel knife is sharpened from both sides. Seen from the front, the sides converge toward a narrow V-shaped edge. On many knives the broad blade grind and tiny microbevel are visibly separate; on others the transition is subtle.
 
 A reasonably symmetrical double bevel tends to track straight because food is displaced on both sides. This helps make it suitable for general cooking and either hand.
 
@@ -164,7 +164,7 @@ Within Xinzuo's range, compare the exact model rather than relying on the profil
 
 ## What the geometry means for sharpening
 
-Sharpen the geometry that is actually on the knife instead of applying one rule to every edge. On an ordinary double bevel, routine sharpening usually works the narrow edge bevel or microbevel on both sides. Preserve intentional asymmetry instead of automatically converting the edge to 50/50.
+Sharpen the geometry that is actually on the knife instead of applying one rule to every edge. On an ordinary double bevel, routine sharpening works the narrow microbevel on both sides. Preserve intentional asymmetry instead of automatically converting the edge to 50/50.
 
 A traditional single bevel is different. The broad main bevel forms part of the sharpening geometry, while the reverse is usually worked almost flat to preserve the urasuki and its reference flats. Contact on the main bevel may also change toward the tip as blade height and thickness change.
 
@@ -172,7 +172,7 @@ The beginner sequence appears later in [Your First Successful Hand Sharpening](.
 
 ## What to remember
 
-- The broad primary bevel and narrow edge bevel or microbevel are different surfaces.
+- The broad primary bevel and narrow microbevel are different surfaces.
 - Double bevel means sharpening from both sides, not necessarily perfect symmetry.
 - Single bevel is a complete geometry, often including an urasuki.
 - On a single bevel, the local main-bevel angle can change as blade height and thickness change toward the tip.
