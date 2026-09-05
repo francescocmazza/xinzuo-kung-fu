@@ -168,7 +168,7 @@ Sharpen the geometry that is actually on the knife instead of applying one rule 
 
 A traditional single bevel is different. The broad main bevel forms part of the sharpening geometry, while the reverse is usually worked almost flat to preserve the urasuki and its reference flats. Contact on the main bevel may also change toward the tip as blade height and thickness change.
 
-The complete sequence appears later in [A Practical Sharpening Process](../10-sharpening/basic-sharpening-process.md). For now, remember: **identify the geometry first, then sharpen the surfaces that define it**.
+The beginner sequence appears later in [Your First Successful Hand Sharpening](../10-sharpening/first-hand-sharpening.md). For now, remember: **identify the geometry first, then sharpen the surfaces that define it**.
 
 ## What to remember
 

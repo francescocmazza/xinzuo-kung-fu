@@ -59,9 +59,9 @@ The protection remains in place. The difference is that CI now refreshes the sta
 The active translation tree mirrors `content/en/`, for example:
 
 ```text
-content/en/10-sharpening/the-burr.md
-translations/it/10-sharpening/the-burr.md
-translations/zh-Hans/10-sharpening/the-burr.md
+content/en/10-sharpening/first-hand-sharpening.md
+translations/it/10-sharpening/first-hand-sharpening.md
+translations/zh-Hans/10-sharpening/first-hand-sharpening.md
 ```
 
 Strict validation is still performed with:
