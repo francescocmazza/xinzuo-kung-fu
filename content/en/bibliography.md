@@ -105,9 +105,10 @@ All bibliographic, technical and historical sources cited throughout the book ar
 Additional shape references: ZWILLING describes the Santoku's characteristic high blade and compact profile; specialist comparisons consistently identify the Bunka's fine K-tip as the more precise and delicate front geometry.
 <!-- /bibliography-source -->
 
-<!-- bibliography-source: 10-sharpening/whetstone-preparation.md -->
-## Preparing Water Stones
+<!-- bibliography-source: 10-sharpening/first-hand-sharpening.md -->
+## Learning Hand Sharpening
 
+- *Knife Sharpening Course: Japanese Knives / Western Knives*. Japanese-language workshop reference supplied to the project as a scan with machine-translated OCR; used critically for stone behaviour, contact diagnosis, bevel geometry and single-bevel practice.
 - [Natural Whetstone and Hone Museum, Kameoka](https://www.tennentoishikan.com/en/)
 - [Kyoto Prefecture Tourism, Natural Whetstone and Hone Museum](https://www.kyototourism.org/en/sightseeing/32542/)
 <!-- /bibliography-source -->

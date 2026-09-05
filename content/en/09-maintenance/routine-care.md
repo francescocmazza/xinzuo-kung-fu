@@ -103,7 +103,7 @@ A smooth steel can help straighten or recondition a rolled edge on suitable stee
 
 Very hard, thin knives that tend to chip rather than roll may gain little from forceful steeling and can be damaged by poor technique. Choose the maintenance tool according to steel, hardness and edge geometry.
 
-When the apex is genuinely rounded, worn or chipped, a rod cannot replace proper sharpening. The [sharpening section](../10-sharpening/basic-sharpening-process.md) explains how to rebuild the edge.
+When the apex is genuinely rounded, worn or chipped, a rod cannot replace proper sharpening. [Your First Successful Hand Sharpening](../10-sharpening/first-hand-sharpening.md) explains how to rebuild the edge.
 
 ## Inspect before damage becomes serious
 
