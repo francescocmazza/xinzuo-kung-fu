@@ -38,7 +38,7 @@ A marker is the easiest learning aid. Colour only the narrow microbevel and make
 - contact only on the extreme edge means the angle is steeper than the existing microbevel;
 - ink removed evenly across the narrow facet means the contact is close to correct.
 
-Around 15 degrees per side is a useful visual reference for many thin kitchen knives, but it is not a universal rule. Following the existing microbevel is more useful than forcing every knife to one number.
+As a rough visual reference, raise the spine until the gap between the spine and the stone is about one quarter of the blade's height. This corresponds to roughly 15 degrees per side on a simple flat approximation. It is only a starting reference: following the existing microbevel is more useful than forcing every knife to one number.
 
 ## 3. Position the hands
 
@@ -107,6 +107,8 @@ Move to a finer stone only after the first stone has reached the apex along the 
 ## 10. Test the result
 
 Rinse and dry the knife before testing it.
+
+Do not use your fingers to test whether the knife is sharp. Finger contact at the edge is used only to detect a burr during sharpening, with the controlled perpendicular method described in [Understanding and Removing the Burr](the-burr.md). Test sharpness only by cutting suitable food or paper.
 
 ### Look at the edge
 

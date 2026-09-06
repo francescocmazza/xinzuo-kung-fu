@@ -19,6 +19,8 @@ The goal is a very small burr that can be detected along the whole edge. A large
 
 Never slide a finger along the cutting edge.
 
+This is not a sharpness test. In this guide, the only reason to bring a fingertip to the edge is to detect a burr during sharpening. Test the knife's sharpness only by cutting suitable food or paper.
+
 Hold the knife still and use very light pressure. Move the pad of a finger from the blade face toward the edge, perpendicular to it, and stop at the apex. Check the heel, middle, curved front and tip. The burr feels like a slight rough hook on the side opposite the one just sharpened.
 
 If you prefer not to touch near the edge, use a cotton pad or soft cloth fibre. It may catch on the burr. Good light and magnification can also reveal parts of the edge that still reflect light.
