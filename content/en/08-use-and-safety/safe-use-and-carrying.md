@@ -58,7 +58,7 @@ A thin gyuto, santoku or nakiri is excellent for food preparation but not heavy 
 Do not use a kitchen knife as:
 
 - a pry bar;
-- a screwdriver;
+-- a screwdriver;
 - a can opener;
 - a tool for separating frozen objects;
 - a lever for opening shells or lids;
@@ -124,11 +124,13 @@ A dishwasher can also hide a sharp blade among other utensils. Hand washing solv
 
 ## Passing a knife to another person
 
-The safest method is to avoid passing a knife directly from one hand to another.
+Passing a knife should be a deliberate, almost ritual movement. Do not hand it over as if it were an ordinary object.
 
-Tell the other person clearly that you are putting the knife down. Place it completely on a clear, stable surface with the handle easy to reach, release it and let the other person pick it up by the handle. This separates the two actions: one person puts the knife down, then the other takes it. Neither person reaches for a knife that is still moving or still held by someone else.
+Open both hands with the palms facing upward and lay the knife flat across them instead of gripping it. Support the handle with one palm and the broad, flat side of the blade with the other, keeping the cutting edge clear of the fingers and oriented away from both people. Hold the hands still and present the whole knife visibly to the other person.
 
-If no suitable surface is available and a direct handover is unavoidable, first announce what you are doing and wait until the other person is ready. Move slowly, keep the blade controlled and pointed away from both people, and present the handle securely. Release the knife only after the other person confirms a firm grip.
+The other person takes the knife by the handle and lifts it from the open palms. The person offering the knife does not close the fingers around it, pull it back or make another movement while it is being taken. The transfer is complete only when the other person has full control of the handle.
+
+This small ritual makes the movement clear and predictable: the knife is visible, nobody is competing for the same grip, and the person receiving it decides when to take it.
 
 Never throw, slide or casually reach a knife toward someone.
 
