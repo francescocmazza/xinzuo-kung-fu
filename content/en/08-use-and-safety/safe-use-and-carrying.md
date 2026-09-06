@@ -178,7 +178,7 @@ On a magnetic strip, place the spine against the strip first and rotate the blad
 
 ## What to do if a knife falls
 
-Do not try to catch it.
+Learn the saying: "A falling knife is a knife without handle". Never try to catch it.
 
 Move your feet away and let the knife fall. Once it stops moving, pick it up by the handle and inspect it for damage.
 
