@@ -218,9 +218,9 @@ Direct cuts away from hands and body whenever possible. If specialist in-hand wo
 
 Use a cutting board unless the task specifically calls for controlled in-hand work with a suitable small knife. A large blade and unsupported food create unnecessary risk.
 
-### Testing sharpness by sliding a finger along the edge
+### Testing sharpness with a finger
 
-Never slide a finger lengthwise along the cutting edge. Use visual inspection or a controlled cutting test instead.
+Never use a finger to test whether a knife is sharp, either by sliding along the edge or by pressing against it. Test sharpness only on suitable food or paper. The only tactile edge check taught in this guide is the controlled burr check used during sharpening: the finger moves from the blade face toward the edge, perpendicular to it, and stops at the apex.
 
 ### Scraping the board with the cutting edge
 
@@ -229,10 +229,6 @@ Use the spine, blade face or a bench scraper. Sideways scraping damages the apex
 ### Using a glass, ceramic, stone or metal board
 
 These surfaces rapidly damage fine edges and can make cutting less predictable. Use wood or suitable plastic.
-
-### Trying to catch a falling knife
-
-Step back and let it fall. A damaged knife can be repaired or replaced; a hand injury is more serious.
 
 ## What to remember
 
