@@ -1,5 +1,5 @@
 ---
-source_hash: 8b3eb3928585c9e89808e2b36f320daba1cfb17687426be3d600902b307ec37d
+source_hash: a99ed4ddfb41e1ab3c66f82150d5eb1d3d4f39d45873c1867a7765c1f6e9ed79
 ---
 
 # Uso sicuro e trasporto
@@ -173,7 +173,7 @@ Su una striscia magnetica, posizionare la spina dorsale contro la striscia prima
 
 ## Cosa fare se un coltello cade
 
-Non cercare di prenderlo.
+Impara il detto: "Un coltello cadente è un coltello senza maniglia." Mai cercare di catturarlo.
 
 Spostare i piedi e lasciare cadere il coltello. Una volta che smette di muoversi, prenderlo per la maniglia e ispezionarlo per danni.
 
