@@ -3,7 +3,7 @@ title: Safe Use and Carrying
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-06
 translation_priority: high
 ---
 
@@ -96,6 +96,10 @@ Use smooth, deliberate movement and avoid lateral stress.
 
 Wood and suitable plastic boards are generally gentle enough for quality knife edges.
 
+Among wooden boards, **end-grain cutting boards** are especially gentle on the edge. Their characteristic block or checkerboard appearance comes from arranging the wood so that the ends of the fibres form the cutting surface. When the knife meets the board, the edge tends to enter between those fibres and separate them slightly instead of repeatedly cutting across their length. This gives the surface a little more give under the blade and generally makes it less aggressive on a fine edge. The fibres can also tend to close again after the cut, which is why end-grain boards often show knife marks less readily than other wooden constructions.
+
+This differs from **edge-grain boards**, where the long side of the fibres forms the cutting surface, and **face-grain boards**, which expose the broad face of the board. Both can be suitable for kitchen use, but end-grain construction is generally the most edge-friendly wooden option.
+
 Glass, ceramic, stone and metal are too hard for fine edges. Repeated contact can dull or chip the apex quickly. Decorative glass boards may be easy to clean, but they are poor cutting surfaces.
 
 Maintain the board too. Deep grooves can trap residue and affect stability. Clean and dry wooden boards properly instead of soaking them.
@@ -120,9 +124,13 @@ A dishwasher can also hide a sharp blade among other utensils. Hand washing solv
 
 ## Passing a knife to another person
 
-Whenever possible, do not pass a knife directly hand to hand.
+Passing a knife should be a deliberate, almost ritual movement. Do not hand it over as if it were an ordinary object.
 
-Place it on a clear surface with the handle accessible and tell the other person it is there. If a direct handover is unavoidable, communicate clearly, move slowly and offer the handle while keeping the blade controlled and pointed away from both people.
+Open both hands with the palms facing upward and lay the knife flat across them instead of gripping it. Support the handle with one palm and the broad, flat side of the blade with the other. Keep the cutting edge completely clear of the fingers and palms, with the handle oriented toward the person receiving the knife. Hold the hands still and present the whole knife visibly.
+
+The other person takes the knife by the handle and lifts it from the open palms. The person offering the knife does not close the fingers around it, pull it back or make another movement while it is being taken. The transfer is complete only when the other person has full control of the handle.
+
+This small ritual makes the movement clear and predictable: the knife is visible, nobody is competing for the same grip, and the person receiving it decides when to take it.
 
 Never throw, slide or casually reach a knife toward someone.
 
