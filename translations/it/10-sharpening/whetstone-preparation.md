@@ -1,203 +1,53 @@
 ---
-source_hash: 9b485fba4a2f88b43f5ef38d3737c5681f399106c34d8c087307e283d05717fe
+source_hash: 60e94114f8b7b234d3cdb771330cd8c8420eefa07819ccf8528cc6bda96c85e2
 ---
 
-# Preparazione delle pietre d'acqua
+# Preparazione della pietra e dello spazio di lavoro
 
-Una pietra di affilatura è un semplice strumento, ma la preparazione cambia il modo in cui taglia, si sente e indossa.
+Buona affilatura inizia con una pietra stabile, piatta e correttamente bagnata. Un'attenta preparazione rende il movimento più facile da controllare e impedisce molti errori che i principianti erroneamente incolpano della loro tecnica.
 
-L'acqua riempie i pori di pietre assorbenti, trasporta particelle d'acciaio, aiuta a controllare l'attrito e sostiene l'azione abrasiva.
+## Una semplice prima configurazione
 
-Una regola generale utile è:
+Per un coltello da cucina ordinario che è diventato noioso attraverso l'uso normale, una buona pietra d'acqua di media qualità è di solito sufficiente. Una pietra intorno 800-1500 grinta può ricostruire un bordo pratico della cucina senza aggiungere passaggi inutili.
 
-> La maggior parte delle pietre assorbenti tradizionali dell'acqua dovrebbe essere bagnato fino a quando le bolle d'aria in gran parte si sono fermate, a meno che il produttore dice il contrario.
+Una pietra grossolana è utile per i trucioli, un bordo molto arrotondato o un cambiamento deliberato della geometria. Una pietra più fine può rendere il bordo finito più liscia, ma è opzionale. Una pietra fine non può compensare un bordo che non è mai stato affilato correttamente sulla prima pietra.
 
-Questo segue il comportamento della pietra invece di un numero fisso di minuti.
+Hai anche bisogno di:
 
-## Perché le bolle appaiono
+- un supporto in pietra antiscivolo o un panno umido;
+- acqua o il lubrificante richiesto dal fabbricante della pietra;
+- un panno pulito;
+- buona luce;
+- spazio sufficiente per spostare la lama completa sopra la pietra.
 
-Una pietra porosa secca contiene aria. Quando viene messa in acqua, i pori riempiono e spingono l'aria fuori come bolle.
+## Preparare correttamente la pietra
 
-La frizione è solitamente più forte all'inizio e rallenta come la pietra diventa satura. Quando rimangono solo bolle occasionali, la pietra ha di solito assorbito abbastanza acqua per l'affilatura.
+Le pietre d'acqua non funzionano tutte nello stesso modo. Alcuni assorbono l'acqua e hanno bisogno di ammollo. Altri sono pietre splash-and-go e hanno bisogno solo di acqua sulla superficie. I piatti di diamante non ammollo, e le pietre di olio usano l'olio piuttosto che l'acqua.
 
-Il tempo varia con porosità, spessore, secchezza, temperatura, dimensioni e **binder**, il materiale che tiene insieme i grani abrasivi. Per le pietre assorbenti, guardare le bolle è spesso più utile che sempre in ammollo per esattamente dieci minuti.
+Seguire le istruzioni del produttore ogni volta che sono disponibili. Per una pietra d'acqua assorbente tradizionale, immergerlo fino a quando il flusso di bolle d'aria si è quasi fermato. Non lasciare una pietra sconosciuta sommersa per ore: l'immersione lunga può danneggiare alcuni leganti.
 
-## L'importante eccezione: seguire il costruttore
+Mantenere la superficie di lavoro bagnata durante l'affilatura. Aggiungere acqua quando la lama inizia a trascinare, il suono diventa secco o il residuo scuro smette di muoversi liberamente. La miscela grigia sulla pietra contiene acqua, abrasivo e acciaio rimosso. Non è la bava, che rimane attaccato al bordo tagliente.
 
-Non ogni pietra da affilare dovrebbe essere bagnata.
+## Controlla che la pietra sia piatta
 
-Le pietre moderne utilizzano diversi abrasivi e leganti. Alcuni assorbono l'acqua; altri hanno bisogno solo di una superficie umida. L'immersione lunga può indebolire certe costruzioni.
+Una pietra indossa la maggior parte dove il coltello passa più spesso. Con l'uso, il suo centro può diventare cavo. Una superficie cava cambia l'angolo di contatto durante la corsa e rende un risultato costante molto più difficile.
 
-Le istruzioni del produttore hanno la priorità perché corrispondono alla pietra reale.
+Posizionare un bordo dritto attraverso la pietra in diverse direzioni e cercare lacune. Linee di matita disegnate sulla superficie sono un altro utile controllo: durante l'appiattimento, aree alte perdono i segni prima e aree basse li mantengono.
 
-Una pietra può richiedere:
+Appiattire la pietra con un piatto adatto o pietra lapping quando necessario. Un principiante non ha bisogno di inseguire la perfezione microscopica, ma la superficie dovrebbe formare un piano affidabile.
 
-- l'immersione fino a quando non si fermano le bolle;
-- una breve immersione fissa;
-- uno schizzo d'acqua;
-- nessun ammollo;
-- olio o altro lubrificante al posto dell'acqua.
+## Rendere stabile lo spazio di lavoro
 
-La ceramica densa e le pietre spruzzate-e-go possono necessitare solo di bagnatura superficiale. Alcune pietre in resina-legate possono ammorbidire, rompere, separare o perdere forza se bagnato troppo a lungo.
+Posizionare la pietra su un supporto, base in gomma o panno umido piegato. Spingere delicatamente prima di iniziare. Non deve scivolare o rock.
 
-La regola non è tutte le pietre devono ammollo.Saturare le pietre assorbenti dell'acqua correttamente e seguire le istruzioni per ogni altro tipo.
+Stare o sedersi ad un'altezza che consente di rilassare le spalle e spostare le braccia liberamente. Lasciare spazio per il coltello per viaggiare attraverso la pietra dalla punta al tallone. Tenere l'area libera da oggetti che potrebbero fermare il movimento.
 
-## Tipi di mezzi di affilatura
-
-La vasta gamma di acciaio Xinzuo è uno dei motivi per cui non si adatta a ogni coltello. Le pietre d'acqua convenzionali funzionano bene con molti DIN 1.4116, 440C, 14C28N, AUS-10, 10Cr15CoMoV, 12Cr18MoV e Blue Steel No. 2 bordi. Abrasivi in ceramica dura o diamante possono lavorare in modo più efficiente sulla maggiore resistenza all'usura di ZDP-189, SRS13, M390 e 14Cr14MoVNb. La preparazione segue ancora le istruzioni del produttore di pietra, non il nome dell'acciaio.
-
-### Pietre assorbenti d'acqua
-
-Queste pietre porose prendono in acqua e normalmente beneficiano di immersione prima dell'uso. L'acqua mantiene la superficie attiva e impedisce l'essiccazione durante l'affilatura.
-
-### Splash-and-go pietre acqua
-
-Queste pietre dense lavorano dopo che l'acqua è applicata alla superficie. Hanno bisogno di poco tempo di preparazione, e l'immersione lunga può danneggiare alcuni modelli.
-
-### Pietre ceramiche
-
-*Ceramic* copre diverse costruzioni. Alcuni sono porosi e hanno bisogno di una breve immersione; altri sono densi e schizzi-and-go. Seguire le istruzioni del prodotto.
-
-### Lastre diamantate
-
-L'abrasivo diamantato è fissato ad una piastra rigida. La piastra non ha bisogno di ammollo. L'acqua può aiutare a spostare residui di acciaio sciolto e ridurre l'intasamento, ma non viene assorbito.
-
-### Pietre da olio
-
-Le pietre dell'olio usano l'olio di levigare come lubrificante. Non commutare casualmente le pietre porose tra l'olio e l'acqua. Una volta che l'olio penetra una pietra, il ritorno all'acqua può essere difficile.
-
-### Pietre naturali
-
-Le pietre naturali variano molto. Alcuni assorbono l'acqua, alcuni hanno bisogno solo di bagnarsi in superficie e alcuni possono essere danneggiati da un lungo ammollo. Seguire la guida specifica per la pietra.
-
-Il loro comportamento mostra anche perché la sola grana non descrive una pietra. Porosità, struttura minerale, velocità di taglio e rilascio abrasivo possono rendere le pietre utilizzate in stadi di finitura simili si sentono molto diverse.
-
-## Preparazione dello spazio di lavoro
-
-Utilizzare una superficie stabile ad un'altezza confortevole. I colpi ripetuti di affilatura richiedono una posizione controllata del corpo, non una curva scomoda su un tavolo basso.
-
-Fissare la pietra in un supporto, su una base antiscivolo o su un panno umido. Una pietra in movimento rende difficile il controllo dell'angolo e può essere pericoloso.
-
-<figure class="kb-learning-figure" data-visual-id="VIS-STONE-01">
-<img src="../../assets/images/approved/stable-whetstone-neutral.png" alt="" width="579" height="430">
-<figcaption>
-Un supporto stabile riduce il movimento della pietra e rende il controllo dell'angolo più sicuro e ripetibile. L'angolo esatto della pietra, della guida e dell'affilatura rimangono le scelte per il singolo coltello e utente.
-</figcaption>
-</figure>
-
-Tenere l'acqua nelle vicinanze e lasciare spazio abbastanza chiaro per il pieno colpo di affilatura. Prima di iniziare, assicurarsi che la pietra sia pulita e ragionevolmente piatta.
-
-## Piatto: diagnosticare prima di correggere
-
-Una pietra porta dove il coltello lo contatta di più. Il centro può gradualmente diventare vuoto mentre le estremità rimangono alte.
-
-Una pietra piegata cambia l'angolo durante la corsa. Su un'ampia singola bisellatura, può alterare significativamente la geometria.
-
-Controllare la pietra in più direzioni. Un bordo dritto affidabile può rivelare una cavità attraverso il centro; luce riflessa sotto il bordo dritto rende più facili da vedere piccoli spazi. Alcune linee di matita leggera attraverso diverse parti della superficie può fornire un secondo controllo: le aree alte perdono i segni prima, mentre le aree basse li mantengono.
-
-Correggere la superficie con una piastra di appiattimento, pietra di lapping o altri abrasivi piatti raccomandati per quella pietra. Utilizzare tratti che coprono l'intera faccia e ruotano la pietra durante il lavoro in modo da pressione mano non crea un nuovo bias. Sciacquare via abrasivo sciolto, controllare di nuovo attraverso entrambe le diagonali e la lunghezza, e continuare solo dove rimane un gap o segno di testimonianza.
-
-L'obiettivo non è solo una superficie dall'aspetto pulito. Si tratta di un piano che supporta un angolo ripetibile attraverso l'intero tratto di affilatura. Controllare spesso che l'appiattimento rimanga una manutenzione leggera piuttosto che una correzione importante.
-
-## Inumidire la superficie prima di affilare
-
-Anche una pietra bagnata ha bisogno di acqua sulla sua superficie di lavoro.
-
-Mantenere la superficie bagnata e libera. Aggiungere acqua se inizia a sentirsi appiccicosa o asciutta.
-
-La giusta quantità dipende dalla pietra. Troppo poco può lasciare l'acciaio rimosso costruire e intasare** la superficie, rendendola più liscia e meno efficace; troppo può lavare via miscela abrasiva utile troppo rapidamente. Un suono di macinazione a secco, improvviso aumento di resistenza o scure striature secche spesso significa più acqua è necessario.
-
-## Liquirizia e swarf
-
-L'affilatura crea spesso una miscela grigia o scura contenente:
-
-- acqua;
-- l'acciaio rimosso dalla lama;
-- abrasivo rilasciato dalla pietra;
-- particelle di legante.
-
-La miscela abrasiva-e-acqua è spesso chiamata **slurry**. Il materiale rimosso, in particolare l'acciaio, è spesso chiamato **swarf**.
-
-Questo residuo scuro non è la bava. La bava rimane attaccata al bordo fino alla rimozione.
-
-Sia per mantenere o risciacquare il liquame dipende dalla pietra e fase di affilatura. Su alcune pietre aggiunge utile azione abrasiva e liscia la finitura. Su altre, troppo swarf intasa la superficie e rallenta il taglio. Riparazioni grossolane possono beneficiare di risciacquo; lucidatura fine può beneficiare di liquame controllato.
-
-Non esiste una regola universale che il liquame debba rimanere o essere sempre rimosso.
-
-## Mantenere la pietra bagnata durante l'uso
-
-Le pietre assorbenti possono asciugarsi durante lunghe sedute. Aggiungere l'acqua prima che la superficie diventi completamente asciutta.
-
-Tenere abbastanza acqua per:
-
-- muovere la lama senza intoppi;
-- trasportare l'acciaio sciolto;
-- ridurre il carico;
-- mantenere costante l'azione abrasiva.
-
-Splash-and-go pietre hanno ancora bisogno di acqua di superficie, anche se non sono inzuppati.
-
-## Immergere diverse pietre
-
-Quando si utilizzano più pietre, controllare quali possono tranquillamente condividere un contenitore d'acqua.
-
-Una pietra di finitura fine può raccogliere quelle particelle e produrre graffi. Utilizzare acqua pulita e risciacquare le pietre prima di passare a fasi più fini. Pietre molto fini o delicate possono meritare un contenitore separato.
-
-Non lasciare una pietra immersa in modo permanente a meno che il produttore non lo consenta esplicitamente.
+La mano che tiene la maniglia controlla la direzione e l'angolo. L'altra mano poggia leggermente sulla lama ed applica pressione vicino alla parte del bordo che sta attraversando la pietra. Tenere le dita sopra la faccia della lama e lontano dal bordo tagliente.
 
 ## Dopo l'affilatura
 
-Sciacquare l'acciaio sciolto e i residui abrasivi. Pulire delicatamente la superficie e trattare le aree vetrate con il metodo appropriato di pulizia o appiattimento.
+Sciacquare il coltello e asciugarlo immediatamente. Sciacquare la pietra, rimuovere i residui sciolti e controllare se ha bisogno di appiattimento leggero.
 
-Controllare la planarità; è spesso più facile appiattire la pietra mentre è già bagnata.
+Lasciare asciugare lentamente una pietra d'acqua in un luogo ventilato. Evitare radiatori, forni, luce solare forte e contenitori chiusi mentre la pietra è ancora umida. Conservare solo quando è completamente asciutto.
 
-Lasciare asciugare completamente in un luogo ventilato. Evitare:
-
-- calore diretto;
-- radiatori;
-- forni;
-- luce solare forte;
-- congelamento mentre la pietra contiene acqua;
-- contenitori chiusi mentre è umido.
-
-L'asciugatura rapida può causare fessure. L'immagazzinamento chiuso mentre bagnato può creare muffe e odori. Una pietra spessa può sentirsi asciutta all'esterno mantenendo ancora l'umidità all'interno, in modo da dargli abbastanza tempo prima della conservazione.
-
-## Errori comuni
-
-### Immergere ogni pietra durante la notte
-
-Alcune pietre lo tollerano; altre sono danneggiate. Seguire il produttore.
-
-### Usare un tempo fisso senza osservare la pietra
-
-Un fisso cinque o dieci minuti può essere giusto per una pietra e sbagliato per un altro. Bubbles sono una guida utile per le pietre assorbenti.
-
-### Affilatura su una superficie asciutta
-
-La pietra può caricare, trascinare e tagliare in modo incoerente.
-
-### Ignorare la planarità
-
-Una pietra cava cambia l'angolo di affilatura e rende i risultati più difficili da ripetere.
-
-### Essiccazione con calore
-
-L'asciugatura rapida può rompere la pietra.
-
-### Memorizzazione della pietra bagnata
-
-L'umidità intrappolata può causare muffa, odori e danni.
-
-### Liquame confuso con la bava
-
-Slurry è materiale sciolto sulla pietra. La bava è un sottile labbro di acciaio fissato al bordo.
-
-## Tre controlli di preparazione
-
-**Identificare la pietra.** Leggere le sue istruzioni e determinare se ha bisogno di ammollo, acqua di superficie, olio o nessun liquido. Ispezionare per crepe, contaminazione e usura irregolare.
-
-**Rendere la piattaforma affidabile.** Corretta planarità se necessario, posizionare la pietra su un supporto antiscivolo e lasciare spazio sufficiente per la corsa completa. Bagnare o lubrificare il viso di lavoro come specificato.
-
-**Pianificare la fine della sessione.** Tenere l'acqua pulita o il lubrificante corretto nelle vicinanze. Dopo l'affilatura, rimuovere i residui, ricontrollare la superficie e lasciare asciugare la pietra come la sua costruzione richiede.
-
-La preparazione deve rispondere alla costruzione della pietra ** effettiva**. L'obiettivo è una superficie abrasiva stabile, piatta e correttamente condizionata, non la ripetizione meccanica di un rituale per ogni prodotto.
+L'obiettivo di preparazione è semplice: una pietra adatta al lavoro, correttamente bagnata, ragionevolmente piatta e completamente stabile.
