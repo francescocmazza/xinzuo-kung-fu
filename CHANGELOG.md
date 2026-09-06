@@ -10,6 +10,10 @@ All notable editorial changes to the English source of truth will be recorded he
 
 ### Changed
 
+- condensed the sharpening section into a beginner-focused practical method of approximately ten A5 pages, replacing advanced single-bevel and geometry-correction instruction with short scope warnings;
+- changed the basic sharpening stroke so both the outward and return movements work the microbevel, and explicitly teaches changing the handle hand when the knife changes side;
+- replaced fixed-pass logic with audible and tactile feedback: rough scratching should become a smooth ski-on-snow glide before a small continuous burr confirms apexing;
+- rewrote curved-edge guidance around continuous local microbevel contact rather than a prescribed handle-lifting gesture, and added a basic-level self-test;
 - restructured the most recognizably manual-like passages around task diagnosis, observable feedback and reader decisions: abrasive selection, stone preparation, burr control, cutting paths, handle-material comparison, alloy interpretation and Damascus construction;
 - preserved familiar teaching conventions where they remain the clearest route to learning, while replacing distinctive tables, taxonomies and exercise sequences with book-specific explanations;
 - clarified that the confidential Musashi manual may inspire questions but is not a source for published wording, page structure, images or distinctive instructional sequences;
