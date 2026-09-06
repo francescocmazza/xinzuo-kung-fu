@@ -3,7 +3,7 @@ title: Safe Use and Carrying
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-06
 translation_priority: high
 ---
 
@@ -124,9 +124,11 @@ A dishwasher can also hide a sharp blade among other utensils. Hand washing solv
 
 ## Passing a knife to another person
 
-Whenever possible, do not pass a knife directly hand to hand.
+The safest method is to avoid passing a knife directly from one hand to another.
 
-Place it on a clear surface with the handle accessible and tell the other person it is there. If a direct handover is unavoidable, communicate clearly, move slowly and offer the handle while keeping the blade controlled and pointed away from both people.
+Tell the other person clearly that you are putting the knife down. Place it completely on a clear, stable surface with the handle easy to reach, release it and let the other person pick it up by the handle. This separates the two actions: one person puts the knife down, then the other takes it. Neither person reaches for a knife that is still moving or still held by someone else.
+
+If no suitable surface is available and a direct handover is unavoidable, first announce what you are doing and wait until the other person is ready. Move slowly, keep the blade controlled and pointed away from both people, and present the handle securely. Release the knife only after the other person confirms a firm grip.
 
 Never throw, slide or casually reach a knife toward someone.
 
