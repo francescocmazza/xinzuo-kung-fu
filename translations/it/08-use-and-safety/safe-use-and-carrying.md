@@ -1,5 +1,5 @@
 ---
-source_hash: 233f1798f2abc8e2b3eca285b9c281091eef0f87c50ace96aa6791733f8730d4
+source_hash: d4d9c17cf223f34c9f12a097fc333bcc8d5f3f51c980a23785ad6f5ece30ce96
 ---
 
 # Uso sicuro e trasporto
@@ -213,9 +213,9 @@ Tagli diretti lontano dalle mani e dal corpo quando possibile. Se è opportuno l
 
 Utilizzare un tagliere a meno che l'operazione richiede specificamente un lavoro controllato a mano con un coltello piccolo adatto. Una lama grande e cibo non supportato creano rischi inutili.
 
-### Provare la nitidezza facendo scorrere un dito lungo il bordo
+### Prova di nitidezza con un dito
 
-Non scorrere mai un dito lungo il tagliente. Utilizzare invece un'ispezione visiva o un test di taglio controllato.
+Mai usare un dito per verificare se un coltello è affilato, sia facendo scorrere lungo il bordo o premendo contro di esso. Provare nitidezza solo su cibo adatto o carta. L'unico controllo tattile bordo insegnato in questa guida è il controllo bava controllata utilizzato durante l'affilatura: il dito si muove dalla lama faccia verso il bordo, perpendicolare ad esso, e si ferma all'apice.
 
 ### Scraping la scheda con il tagliente
 
@@ -224,10 +224,6 @@ Utilizzare la colonna vertebrale, la lama faccia o un raschietto da banco. Sidew
 ### con un'asse di vetro, ceramica, pietra o metallo
 
 Queste superfici danneggiano rapidamente i bordi sottili e possono rendere il taglio meno prevedibile. Utilizzare legno o plastica adatta.
-
-### Cercare di catturare un coltello cadente
-
-Fate un passo indietro e lasciatelo cadere. Un coltello danneggiato può essere riparato o sostituito; una ferita alla mano è più grave.
 
 ## Cosa ricordare
 

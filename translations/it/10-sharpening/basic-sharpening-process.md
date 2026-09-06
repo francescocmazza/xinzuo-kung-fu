@@ -1,5 +1,5 @@
 ---
-source_hash: 431998ef1e2c0731b83b81c3b6217c274a5efa1d06115b58280b0d1e4892b131
+source_hash: 491d45e8d9d7a7e3db477c81b33d11bf6124d864231cf5c291959515bb8b1582
 ---
 
 # Un metodo pratico di affilatura per principianti
@@ -33,7 +33,7 @@ Un marcatore è l'aiuto più facile per l'apprendimento. Colorare solo il micros
 - contatto solo sull'estremità del bordo: l'angolo è più ripido del microsmusso esistente;
 - inchiostro rimosso uniformemente attraverso la sfaccettatura stretta significa che il contatto è vicino a corretto.
 
-Circa 15 gradi per lato è un utile riferimento visivo per molti coltelli da cucina sottili, ma non è una regola universale. Seguendo il microbiglia esistente è più utile che forzare ogni coltello a un numero.
+Come riferimento visivo approssimativo, alzare la colonna vertebrale fino a quando lo spazio tra la colonna vertebrale e la pietra è di circa un quarto dell'altezza della lama. Ciò corrisponde a circa 15 gradi per lato su una semplice approssimazione piatta. E 'solo un riferimento iniziale: seguendo il microbiglia esistente è più utile che forzare ogni coltello a un numero.
 
 ## 3. Posizionare le mani
 
@@ -102,6 +102,8 @@ Passare a una pietra più fine solo dopo che la prima pietra ha raggiunto l'apic
 ## 10. Provare il risultato
 
 Sciacquare e asciugare il coltello prima di testarlo.
+
+Non usare le dita per verificare se il coltello è affilato. Il contatto con il dito sul bordo è usato solo per rilevare una bava durante l'affilatura, con il metodo perpendicolare controllato descritto in [Comprendere e rimuovere il Burr](the-burr.md). Provare nitidezza solo tagliando alimenti o carta adatti.
 
 ### Guarda il bordo
 

@@ -1,5 +1,5 @@
 ---
-source_hash: 0713fd5b16efc4750520bdfa7574022232b186ddb5762b67525ce3851bfad911
+source_hash: 77b0ee90faa751e4a52c2a4ee00806a510151569eba8c14071371af7782e3b9d
 ---
 
 # Comprendere e rimuovere il Burr
@@ -13,6 +13,8 @@ L'obiettivo è una bava molto piccola che può essere rilevata lungo tutto il bo
 ## Come controllare in modo sicuro
 
 Mai scivolare un dito lungo il tagliente.
+
+Questo non è un test di nitidezza. In questa guida, l'unico motivo per portare una punta del dito al bordo è quello di rilevare una bava durante l'affilatura. Provare la nitidezza del coltello solo tagliando cibo adatto o carta.
 
 Tenere fermo il coltello e usare una pressione molto leggera. Spostare il cuscinetto di un dito dal lato della lama verso il bordo, perpendicolare ad esso, e fermarsi all'apice. Controllare il tallone, centrale, curvo anteriore e punta. La bava si sente come un leggero gancio ruvido sul lato opposto a quello appena affilato.
 
