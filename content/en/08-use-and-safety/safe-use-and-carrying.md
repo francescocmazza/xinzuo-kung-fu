@@ -96,6 +96,10 @@ Use smooth, deliberate movement and avoid lateral stress.
 
 Wood and suitable plastic boards are generally gentle enough for quality knife edges.
 
+Among wooden boards, **end-grain cutting boards** are especially gentle on the edge. Their characteristic block or checkerboard appearance comes from arranging the wood so that the ends of the fibres form the cutting surface. When the knife meets the board, the edge tends to enter between those fibres and separate them slightly instead of repeatedly cutting across their length. This gives the surface a little more give under the blade and generally makes it less aggressive on a fine edge. The fibres can also tend to close again after the cut, which is why end-grain boards often show knife marks less readily than other wooden constructions.
+
+This differs from **edge-grain boards**, where the long side of the fibres forms the cutting surface, and **face-grain boards**, which expose the broad face of the board. Both can be suitable for kitchen use, but end-grain construction is generally the most edge-friendly wooden option.
+
 Glass, ceramic, stone and metal are too hard for fine edges. Repeated contact can dull or chip the apex quickly. Decorative glass boards may be easy to clean, but they are poor cutting surfaces.
 
 Maintain the board too. Deep grooves can trap residue and affect stability. Clean and dry wooden boards properly instead of soaking them.
