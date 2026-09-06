@@ -58,7 +58,7 @@ A thin gyuto, santoku or nakiri is excellent for food preparation but not heavy 
 Do not use a kitchen knife as:
 
 - a pry bar;
--- a screwdriver;
+- a screwdriver;
 - a can opener;
 - a tool for separating frozen objects;
 - a lever for opening shells or lids;
@@ -126,7 +126,7 @@ A dishwasher can also hide a sharp blade among other utensils. Hand washing solv
 
 Passing a knife should be a deliberate, almost ritual movement. Do not hand it over as if it were an ordinary object.
 
-Open both hands with the palms facing upward and lay the knife flat across them instead of gripping it. Support the handle with one palm and the broad, flat side of the blade with the other, keeping the cutting edge clear of the fingers and oriented away from both people. Hold the hands still and present the whole knife visibly to the other person.
+Open both hands with the palms facing upward and lay the knife flat across them instead of gripping it. Support the handle with one palm and the broad, flat side of the blade with the other. Keep the cutting edge completely clear of the fingers and palms, with the handle oriented toward the person receiving the knife. Hold the hands still and present the whole knife visibly.
 
 The other person takes the knife by the handle and lifts it from the open palms. The person offering the knife does not close the fingers around it, pull it back or make another movement while it is being taken. The transfer is complete only when the other person has full control of the handle.
 
