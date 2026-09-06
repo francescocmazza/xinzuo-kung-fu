@@ -1,5 +1,5 @@
 ---
-source_hash: a99ed4ddfb41e1ab3c66f82150d5eb1d3d4f39d45873c1867a7765c1f6e9ed79
+source_hash: 233f1798f2abc8e2b3eca285b9c281091eef0f87c50ace96aa6791733f8730d4
 ---
 
 # Uso sicuro e trasporto
@@ -91,6 +91,10 @@ Utilizzare movimenti scorrevoli e deliberati ed evitare sollecitazioni laterali.
 
 Legno e pannelli di plastica adatti sono generalmente abbastanza delicato per i bordi del coltello di qualità.
 
+Tra le tavole di legno, i taglieri **end-grain** sono particolarmente delicati sul bordo. Il loro aspetto caratteristico a blocchi o scacchiere deriva dall'organizzazione del legno in modo che le estremità delle fibre formano la superficie di taglio. Quando il coltello incontra la tavola, il bordo tende ad entrare tra quelle fibre e separarle leggermente invece di tagliarle ripetutamente attraverso la loro lunghezza. Ciò dà alla superficie un po 'più dare sotto la lama e rende generalmente meno aggressivo su un bordo fine. Le fibre possono anche tendono a chiudere di nuovo dopo il taglio, motivo per cui le tavole di grana fine spesso mostrano segni di coltello meno prontamente rispetto ad altre costruzioni di legno.
+
+Ciò differisce dalle tavole a grana**, dove il lato lungo delle fibre forma la superficie di taglio, e le tavole a grana**, che espongono la faccia larga della tavola. Entrambe possono essere adatte per l'uso in cucina, ma la costruzione a grana finale è generalmente l'opzione di legno più a misura di bordo.
+
 Vetro, ceramica, pietra e metallo sono troppo duri per i bordi fini. Il contatto ripetuto può opacare o scheggiare rapidamente l'apice. Le tavole decorative di vetro possono essere facili da pulire, ma sono superfici di taglio scadenti.
 
 Mantenere anche la tavola. Le scanalature profonde possono intrappolare residui e influenzare la stabilità. Le tavole di legno pulite e asciutte correttamente invece di ammollarle.
@@ -115,9 +119,13 @@ Una lavastoviglie può anche nascondere una lama affilata tra gli altri utensili
 
 ## Passare un coltello ad un'altra persona
 
-Quando possibile, non passare un coltello direttamente mano a mano.
+Passare un coltello dovrebbe essere un movimento intenzionale, quasi rituale. Non consegnarlo come se fosse un oggetto ordinario.
 
-Posizionarlo su una superficie chiara con la maniglia accessibile e dire all'altra persona che è lì. Se una consegna diretta è inevitabile, comunicare chiaramente, muoversi lentamente e offrire la maniglia mantenendo la lama controllata e puntata lontano da entrambe le persone.
+Aprire entrambe le mani con i palmi rivolti verso l'alto e appoggiare il coltello piatto attraverso di loro invece di afferrarlo. Sostenere la maniglia con un palmo e il lato largo, piatto della lama con l'altro. Tenere il bordo tagliente completamente chiaro delle dita e dei palmi, con la maniglia orientata verso la persona che riceve il coltello. Tenere le mani fermo e presentare l'intero coltello visibilmente.
+
+L'altra persona prende il coltello dalla maniglia e lo solleva dai palmi aperti. La persona che offre il coltello non chiude le dita intorno ad esso, tirarlo indietro o fare un altro movimento mentre viene preso. Il trasferimento è completo solo quando l'altra persona ha il pieno controllo della maniglia.
+
+Questo piccolo rituale rende il movimento chiaro e prevedibile: il coltello è visibile, nessuno è in competizione per la stessa presa, e la persona che lo riceve decide quando prenderlo.
 
 Mai lanciare, scivolare o casualmente raggiungere un coltello verso qualcuno.
 
