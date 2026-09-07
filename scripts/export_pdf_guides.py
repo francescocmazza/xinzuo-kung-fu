@@ -473,7 +473,12 @@ def render_locale_pdf(
             margin=PDF_MARGIN,
         )
 
-        merge_pdfs([cover_pdf, rest_pdf], pdf_path)
+        merge_pdfs(
+            [cover_pdf, rest_pdf],
+            pdf_path,
+            language_name=cfg["name"],
+            metadata=metadata,
+        )
     finally:
         page.close()
         (SITE / code / PRINT_COVER_NAME).unlink(missing_ok=True)
@@ -485,14 +490,40 @@ def render_locale_pdf(
         raise RuntimeError(f"PDF generation for locale '{code}' produced no usable output at {pdf_path}")
 
 
-def merge_pdfs(parts: list[Path], destination: Path) -> None:
-    from pypdf import PdfWriter
+def merge_pdfs(
+    parts: list[Path],
+    destination: Path,
+    *,
+    language_name: str,
+    metadata: PublicationMetadata,
+) -> None:
+    from pypdf import PdfReader, PdfWriter
+
+    title = f"The Gongfu of Xinzuo - {language_name}"
+    copy = COVER_COPY.get(language_name, COVER_COPY["English"])
 
     writer = PdfWriter()
     for part in parts:
         writer.append(str(part))
+    writer.add_metadata(
+        {
+            "/Title": title,
+            "/Author": "Francesco Claudio Mazza",
+            "/Subject": f"{copy['subtitle']} · {metadata.version_label}",
+            "/Creator": "The Gongfu of Xinzuo publication pipeline",
+            "/Keywords": f"Xinzuo, kitchen knives, {language_name}, {metadata.version_label}",
+        }
+    )
     with destination.open("wb") as handle:
         writer.write(handle)
+
+    written_metadata = PdfReader(str(destination)).metadata
+    written_title = written_metadata.title if written_metadata else None
+    if written_title != title:
+        raise RuntimeError(
+            f"PDF metadata verification failed for {destination.name}: "
+            f"expected title {title!r}, got {written_title!r}"
+        )
 
 
 def main() -> int:
