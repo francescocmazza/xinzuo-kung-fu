@@ -3,7 +3,7 @@ title: Anatomy of a Kitchen Knife
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-04
+reviewed: 2026-09-08
 translation_priority: highest
 source_basis: standard fixed-blade kitchen-knife construction and terminology
 ---
@@ -12,7 +12,7 @@ source_basis: standard fixed-blade kitchen-knife construction and terminology
 
 Before comparing blade shapes, steels or sharpening angles, read a knife as three connected systems: the cutting geometry, the steel structure that carries it and the hand interface that controls it. The names below locate each feature within those systems.
 
-Not every knife has every feature shown here. A Western full-tang chef's knife, a molded-handle utility knife and an Asian-handle knife can all be excellent tools with very different constructions.
+Not every knife has every feature named in this chapter. The exploded image below shows a Western full-tang construction. Asian hidden-tang handles use a different construction, described later in this chapter.
 
 ## Read the tool from edge to hand
 
@@ -20,125 +20,50 @@ A fixed kitchen knife begins with the **blade**. Its front ends at the **tip**; 
 
 Behind the blade, the steel continues as the **tang**. On many Western knives the tang is visible around the handle and covered on both sides by **handle scales**, usually fixed with adhesive and **rivets or pins**. Many Western kitchen knives also have a metal **bolster** between blade and handle. The rear end of the handle is the **butt** or **pommel**.
 
-<figure class="kb-learning-figure">
-<svg viewBox="0 0 1200 760" role="img" aria-labelledby="knife-anatomy-title knife-anatomy-desc" style="width:100%;height:auto">
-<title id="knife-anatomy-title">Kitchen knife anatomy</title>
-<desc id="knife-anatomy-desc">Two labelled diagrams. The upper diagram shows a Western full-tang kitchen knife with the cutting edge facing downward. The lower diagram shows the hidden-tang octagonal construction called an Asian handle in this book.</desc>
-
-<rect x="2" y="2" width="1196" height="756" rx="18" fill="#ffffff" stroke="#c8c8c8" stroke-width="2"/>
-
-<!-- PANEL 1 -->
-<text x="48" y="54" font-size="28" font-weight="700" fill="#1f1f1f">Western full-tang construction</text>
-<text x="48" y="82" font-size="17" fill="#666666">Side view — spine above, cutting edge below</text>
-
-<!-- Full tang and handle -->
-<path d="M92 205 L405 205 Q438 205 470 228 L470 326 Q438 350 405 350 L92 350 Q65 348 58 322 L58 233 Q65 207 92 205 Z"
-      fill="#d9c0a1" stroke="#222222" stroke-width="3"/>
-<path d="M80 258 L470 258 L470 296 L80 296 Z"
-      fill="#b9bdc1" stroke="#363636" stroke-width="2"/>
-<path d="M405 194 L470 203 L494 228 L494 327 L470 352 L405 360 Q424 326 424 277 Q424 228 405 194 Z"
-      fill="#c4c8cc" stroke="#222222" stroke-width="3"/>
-
-<!-- Rivets -->
-<circle cx="145" cy="277" r="12" fill="#eef0f2" stroke="#333333" stroke-width="2"/>
-<circle cx="245" cy="277" r="12" fill="#eef0f2" stroke="#333333" stroke-width="2"/>
-<circle cx="345" cy="277" r="12" fill="#eef0f2" stroke="#333333" stroke-width="2"/>
-
-<!-- Blade: realistic chef profile, edge down -->
-<path d="M494 171 L958 171
-         Q1045 174 1118 246
-         Q1135 263 1142 279
-         Q1115 282 1080 289
-         Q925 322 755 337
-         Q610 350 508 349
-         L494 327 Z"
-      fill="#eef1f3" stroke="#222222" stroke-width="3"/>
-
-<!-- Cutting edge -->
-<path d="M508 349 Q610 350 755 337 Q925 322 1080 289 Q1115 282 1142 279"
-      fill="none" stroke="#151515" stroke-width="6" stroke-linecap="round"/>
-
-<!-- Bevel guide -->
-<path d="M520 329 Q650 329 770 318 Q925 305 1078 278"
-      fill="none" stroke="#8b8b8b" stroke-width="2" stroke-dasharray="8 7"/>
-
-<!-- Surface-finish guide lines on blade face -->
-<line x1="650" y1="215" x2="900" y2="205" stroke="#d2d6d8" stroke-width="2"/>
-<line x1="630" y1="235" x2="930" y2="223" stroke="#d2d6d8" stroke-width="2"/>
-<line x1="610" y1="255" x2="955" y2="241" stroke="#d2d6d8" stroke-width="2"/>
-
-<!-- Top labels, arranged to avoid crossings -->
-<g fill="#222222" font-size="19" font-weight="600" stroke="#444444" stroke-width="1.8">
-  <line x1="83" y1="207" x2="83" y2="127"/>
-  <line x1="235" y1="205" x2="235" y2="127"/>
-  <line x1="437" y1="207" x2="437" y2="127"/>
-  <line x1="675" y1="172" x2="675" y2="127"/>
-  <line x1="1118" y1="246" x2="1134" y2="127"/>
+<figure class="kb-learning-figure" data-visual-id="VIS-ANATOMY-WESTERN-01">
+<div style="position:relative;width:100%;overflow:visible;background:#000000;">
+<img src="../../assets/images/approved/b13R schematics horizontalSmall copy.jpg" alt="" style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#000000;box-shadow:none;">
+<svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;">
+<g fill="none" stroke="#f4f6f8" stroke-width="1.2" vector-effect="non-scaling-stroke">
+<line x1="10" y1="52" x2="9" y2="65"/>
+<line x1="22" y1="17" x2="28" y2="33"/>
+<line x1="34" y1="8" x2="33" y2="20"/>
+<line x1="43" y1="30" x2="43" y2="43"/>
+<line x1="38" y1="61" x2="30.5" y2="53.5"/>
+<line x1="50" y1="66" x2="50.5" y2="52.5"/>
+<line x1="60" y1="58" x2="62" y2="44.5"/>
+<line x1="72" y1="56" x2="70" y2="41.5"/>
+<line x1="82" y1="37" x2="72" y2="32.5"/>
+<line x1="75" y1="7" x2="80" y2="19"/>
+<line x1="92" y1="5.5" x2="96" y2="12.5"/>
 </g>
-<g fill="#222222" font-size="19" font-weight="600">
-  <text x="50" y="112">Butt / pommel</text>
-  <text x="184" y="112">Handle scale</text>
-  <text x="398" y="112">Bolster</text>
-  <text x="648" y="112">Spine</text>
-  <text x="1090" y="112">Tip</text>
-</g>
-
-<!-- Bottom labels -->
-<g fill="#222222" font-size="19" font-weight="600" stroke="#444444" stroke-width="1.8">
-  <line x1="145" y1="289" x2="145" y2="401"/>
-  <line x1="270" y1="277" x2="270" y2="401"/>
-  <line x1="500" y1="344" x2="485" y2="401"/>
-  <line x1="690" y1="310" x2="650" y2="401"/>
-  <line x1="850" y1="250" x2="835" y2="401"/>
-  <line x1="955" y1="306" x2="990" y2="401"/>
-</g>
-<g fill="#222222" font-size="19" font-weight="600">
-  <text x="103" y="427">Full tang</text>
-  <text x="225" y="427">Rivet / pin</text>
-  <text x="450" y="427">Heel</text>
-  <text x="606" y="427">Bevel</text>
-  <text x="783" y="427">Blade face</text>
-  <text x="953" y="427">Cutting edge</text>
-</g>
-<text x="782" y="451" font-size="16" fill="#666666">surface finish appears on this face</text>
-
-<!-- PANEL 2 -->
-<line x1="48" y1="478" x2="1152" y2="478" stroke="#d4d4d4" stroke-width="2"/>
-<text x="48" y="520" font-size="28" font-weight="700" fill="#1f1f1f">Asian handle</text>
-<text x="48" y="548" font-size="17" fill="#666666">Octagonal handle with ferrule and hidden tang</text>
-
-<!-- Asian handle: side cutaway -->
-<polygon points="110,596 420,596 446,620 420,644 110,644 84,620"
-         fill="#c79b6d" stroke="#222222" stroke-width="3"/>
-<rect x="420" y="590" width="70" height="60" rx="4" fill="#555b60" stroke="#222222" stroke-width="3"/>
-<path d="M490 603 L1035 603 Q1080 606 1120 630 Q1088 637 1030 642 L490 642 Z"
-      fill="#eef1f3" stroke="#222222" stroke-width="3"/>
-<!-- hidden tang -->
-<path d="M235 615 L690 615 L690 629 L235 629 Z"
-      fill="#b9bdc1" stroke="#4b4b4b" stroke-width="2" stroke-dasharray="7 5"/>
-<!-- edge -->
-<path d="M500 642 L1030 642 Q1088 637 1120 630" fill="none" stroke="#151515" stroke-width="5"/>
-
-<!-- Octagonal cross section -->
-<polygon points="1040,690 1070,676 1105,676 1135,690 1135,720 1105,734 1070,734 1040,720"
-         fill="#c79b6d" stroke="#222222" stroke-width="3"/>
-<text x="1011" y="754" font-size="16" fill="#555555">octagonal cross-section</text>
-
-<!-- Asian labels -->
-<g stroke="#444444" stroke-width="1.8">
-  <line x1="250" y1="596" x2="250" y2="566"/>
-  <line x1="455" y1="590" x2="455" y2="566"/>
-  <line x1="620" y1="615" x2="620" y2="566"/>
-  <line x1="835" y1="603" x2="835" y2="566"/>
-</g>
-<g fill="#222222" font-size="18" font-weight="600">
-  <text x="205" y="563">Handle</text>
-  <text x="425" y="563">Ferrule</text>
-  <text x="575" y="563">Hidden tang</text>
-  <text x="810" y="563">Blade</text>
+<g fill="#ffffff" stroke="#263238" stroke-width=".35" vector-effect="non-scaling-stroke">
+<circle cx="9" cy="65" r=".55"/>
+<circle cx="28" cy="33" r=".55"/>
+<circle cx="33" cy="20" r=".55"/>
+<circle cx="43" cy="43" r=".55"/>
+<circle cx="30.5" cy="53.5" r=".55"/>
+<circle cx="50.5" cy="52.5" r=".55"/>
+<circle cx="62" cy="44.5" r=".55"/>
+<circle cx="70" cy="41.5" r=".55"/>
+<circle cx="72" cy="32.5" r=".55"/>
+<circle cx="80" cy="19" r=".55"/>
+<circle cx="96" cy="12.5" r=".55"/>
 </g>
 </svg>
-<figcaption>The upper diagram shows a common Western full-tang construction. The lower diagram shows the “Asian handle” used in this book: an octagonal handle, front ferrule and hidden tang.</figcaption>
+<span style="position:absolute;left:10%;top:52%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Butt / pommel</span>
+<span style="position:absolute;left:22%;top:17%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:22%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Handle scale</span>
+<span style="position:absolute;left:34%;top:8%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Rivet / pin</span>
+<span style="position:absolute;left:43%;top:30%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Bolster</span>
+<span style="position:absolute;left:38%;top:61%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Full tang</span>
+<span style="position:absolute;left:50%;top:66%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:16%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Heel</span>
+<span style="position:absolute;left:60%;top:58%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:16%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Bevel</span>
+<span style="position:absolute;left:72%;top:56%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Cutting edge</span>
+<span style="position:absolute;left:82%;top:37%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Blade face</span>
+<span style="position:absolute;left:75%;top:7%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:17%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Spine</span>
+<span style="position:absolute;left:92%;top:5.5%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Tip</span>
+</div>
+<figcaption>Exploded Western full-tang construction: blade, tang, handle scales and fastening hardware separated to show how the handle is assembled.</figcaption>
 </figure>
 
 ## Blade terminology
