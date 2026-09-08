@@ -1,12 +1,12 @@
 ---
-source_hash: 3c06a7d4e3450f9fa4703feb7edef5bdcf812dcf2db57eaeb899546fac9092f3
+source_hash: 485ac674ab64330095ee170da835bff45cac682c972e03e5610afc05d392a9c1
 ---
 
 # Anatomia di un coltello da cucina
 
 Prima di confrontare forme di lama, acciai o angoli di affilatura, leggere un coltello come tre sistemi collegati: la geometria di taglio, la struttura in acciaio che lo trasporta e l'interfaccia a mano che lo controlla. I nomi qui sotto individuano ogni caratteristica all'interno di tali sistemi.
 
-Non tutti i coltelli hanno tutte le caratteristiche mostrate qui. Un coltello da cuoco occidentale full-tang, un coltello da utilità modellato e un coltello da manico asiatico possono essere tutti strumenti eccellenti con costruzioni molto diverse.
+Non ogni coltello ha tutte le caratteristiche indicate in questo capitolo. L'immagine esplosa qui sotto mostra una costruzione occidentale full-tang. Le maniglie nascoste asiatiche usano una costruzione diversa, descritta più avanti in questo capitolo.
 
 ## Leggi lo strumento da bordo a mano
 
@@ -14,125 +14,50 @@ Un coltello fisso da cucina inizia con la lama **. Il suo frontale termina a **t
 
 Dietro la lama, l'acciaio continua come il **tang**. Su molti coltelli occidentali il tang è visibile intorno alla maniglia e coperto su entrambi i lati da **manico scale**, di solito fissato con adesivi e **piumino o perni**. Molti coltelli da cucina occidentali hanno anche un metallo **bolster** tra lama e maniglia. L'estremità posteriore della maniglia è il **butt** o **pommel**.
 
-<figure class="kb-learning-figure">
-<svg viewBox="0 0 1200 760" role="img" aria-labelledby="knife-anatomy-title knife-anatomy-desc" style="width:100%;height:auto">
-<title id="knife-anatomy-title">Coltello da cucina anatomico</title>
-<desc id="knife-anatomy-desc">Due diagrammi etichettati. Il diagramma superiore mostra un coltello da cucina occidentale full-tang con il tagliente rivolto verso il basso. Il diagramma inferiore mostra la costruzione ottagonale nascosta-tang chiamato un manico asiatico in questo libro.</desc>
-
-<rect x="2" y="2" width="1196" height="756" rx="18" fill="#ffffff" stroke="#c8c8c8" stroke-width="2"/>
-
-<!-- PANEL 1 -->
-<text x="48" y="54" font-size="28" font-weight="700" fill="#1f1f1f">Costruzione occidentale full-tang</text>
-<text x="48" y="82" font-size="17" fill="#666666">Vista laterale colonna vertebrale sopra, tagliente sotto</text>
-
-<!-- Tang completo e maniglia -->
-<path d="M92 205 L405 205 G438 205 470 228 L470 326 G438 350 350 350 L92 350 G65 348 58 322 L58 233 G65 207 92 205 Z"
-      fill="#d9c0a1" stroke="#222222" stroke-width="3"/>
-<path d="M80 258 L470 258 L470 296 L80 296 Z"
-      fill="#b9bdc1" stroke="#363636" stroke-width="2"/>
-<path d="M405 194 L470 203 L494 228 L494 327 L470 352 L405 360 T424 326 424 277 T424 228 405 194 Z"
-      fill="#c4c8cc" stroke="#222222" stroke-width="3"/>
-
-<!-- Rivets -->
-<circle cx="145" cy="277" r="12" fill="#eef0f2" stroke="#333333" stroke-width="2"/>
-<circle cx="245" cy="277" r="12" fill="#eef0f2" stroke="#333333" stroke-width="2"/>
-<circle cx="345" cy="277" r="12" fill="#eef0f2" stroke="#333333" stroke-width="2"/>
-
-<!-- Lama: profilo realistico dello chef, bordo in basso -->
-<path d="M494 171 L958 171
-         Q1045 174 1118 246
-         Q1135 263 1142 279
-         Q1115 282 1080 289
-         Q925 322 755 337
-         610 350 508 349
-         L494 327 Z"
-      fill="#eef1f3" stroke="#222222" stroke-width="3"/>
-
-<!-- Spigolo di taglio -->
-<path d="M508 349 T610 350 755 337 T925 322 1080 289 T1115 282 1142 279"
-      fill="none" stroke="#151515" stroke-width="6" stroke-linecap="round"/>
-
-<!-- Guida smussata -->
-<path d="M520 329 Q650 329 770 318 Q925 305 1078 278"
-      fill="none" stroke="#8b8b8b" stroke-width="2" stroke-dasharray="8 7"/>
-
-<!-- Linee guida per finiture superficiali sulla faccia della lama -->
-<line x1="650" y1="215" x2="900" y2="205" stroke="#d2d6d8" stroke-width="2"/>
-<line x1="630" y1="235" x2="930" y2="223" stroke="#d2d6d8" stroke-width="2"/>
-<line x1="610" y1="255" x2="955" y2="241" stroke="#d2d6d8" stroke-width="2"/>
-
-<!-- Etichette top, disposte per evitare incroci -->
-<g fill="#222222" font-size="19" font-weight="600" stroke="#444444" stroke-width="1.8">
-  <line x1="83" y1="207" x2="83" y2="127"/>
-  <line x1="235" y1="205" x2="235" y2="127"/>
-  <line x1="437" y1="207" x2="437" y2="127"/>
-  <line x1="675" y1="172" x2="675" y2="127"/>
-  <line x1="1118" y1="246" x2="1134" y2="127"/>
+<figure class="kb-learning-figure" data-visual-id="VIS-ANATOMY-WESTERN-01">
+<div style="position:relative;width:100%;overflow:visible;background:#000000;">
+<img src="../../assets/images/approved/b13R schematics horizontalSmall copy.jpg" alt="" style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#000000;box-shadow:none;">
+<svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;">
+<g fill="none" stroke="#f4f6f8" stroke-width="1.2" vector-effect="non-scaling-stroke">
+<line x1="10" y1="52" x2="9" y2="65"/>
+<line x1="22" y1="17" x2="28" y2="33"/>
+<line x1="34" y1="8" x2="33" y2="20"/>
+<line x1="43" y1="30" x2="43" y2="43"/>
+<line x1="38" y1="61" x2="30.5" y2="53.5"/>
+<line x1="50" y1="66" x2="50.5" y2="52.5"/>
+<line x1="60" y1="58" x2="62" y2="44.5"/>
+<line x1="72" y1="56" x2="70" y2="41.5"/>
+<line x1="82" y1="37" x2="72" y2="32.5"/>
+<line x1="75" y1="7" x2="80" y2="19"/>
+<line x1="92" y1="5.5" x2="96" y2="12.5"/>
 </g>
-<g fill="#222222" font-size="19" font-weight="600">
-  <text x="50" y="112">Butt / pommel</text>
-  <text x="184" y="112">Scala di impugnatura</text>
-  <text x="398" y="112">Bolster</text>
-  <text x="648" y="112">Spina</text>
-  <text x="1090" y="112">Suggerimento</text>
-</g>
-
-<!-- Etichette inferiori -->
-<g fill="#222222" font-size="19" font-weight="600" stroke="#444444" stroke-width="1.8">
-  <line x1="145" y1="289" x2="145" y2="401"/>
-  <line x1="270" y1="277" x2="270" y2="401"/>
-  <line x1="500" y1="344" x2="485" y2="401"/>
-  <line x1="690" y1="310" x2="650" y2="401"/>
-  <line x1="850" y1="250" x2="835" y2="401"/>
-  <line x1="955" y1="306" x2="990" y2="401"/>
-</g>
-<g fill="#222222" font-size="19" font-weight="600">
-  <text x="103" y="427">Full tang</text>
-  <text x="225" y="427">Rivetto / perno</text>
-  <text x="450" y="427">Tacco</text>
-  <text x="606" y="427">Bisellatura</text>
-  <text x="783" y="427">Faccia a lama</text>
-  <text x="953" y="427">Taglio</text>
-</g>
-<text x="782" y="451" font-size="16" fill="#666666">finitura superficiale appare su questa faccia</text>
-
-<!-- PANEL 2 -->
-<line x1="48" y1="478" x2="1152" y2="478" stroke="#d4d4d4" stroke-width="2"/>
-<text x="48" y="520" font-size="28" font-weight="700" fill="#1f1f1f">Impugnatura asiatica</text>
-<text x="48" y="548" font-size="17" fill="#666666">Impugnatura ottagonale con ferrule e tang nascosto</text>
-
-<!-- Impugnatura asiatica: taglio laterale -->
-<poligono punti="110,596 420,596 446,620 420.644 110.644 84,620"
-         fill="#c79b6d" stroke="#222222" stroke-width="3"/>
-<rect x="420" y="590" width="70" height="60" rx="4" fill="#555b60" stroke="#222222" stroke-width="3"/>
-<path d="M490 603 L1035 603 Q1080 606 1120 630 Q1088 637 1030 642 L490 642 Z"
-      fill="#eef1f3" stroke="#222222" stroke-width="3"/>
-<!-- tang nascosto -->
-<path d="M235 615 L690 615 L690 629 L235 629 Z"
-      fill="#b9bdc1" stroke="#4b4b4b" stroke-width="2" stroke-dasharray="7 5"/>
-<!-- edge -->
-<path d="M500 642 L1030 642 Q1088 637 1120 630" fill="none" stroke="#151515" stroke-width="5"/>
-
-<!-- Sezione trasversale ottagonale -->
-<poligono punti="1040,690 1070,676 1105,676 1135,690 1135,720 1105,734 1070,734 1040,720"
-         fill="#c79b6d" stroke="#222222" stroke-width="3"/>
-<text x="1011" y="754" font-size="16" fill="#555555">Sezione ottagonale</text>
-
-<!-- etichette asiatiche -->
-<g stroke="#444444" stroke-width="1.8">
-  <line x1="250" y1="596" x2="250" y2="566"/>
-  <line x1="455" y1="590" x2="455" y2="566"/>
-  <line x1="620" y1="615" x2="620" y2="566"/>
-  <line x1="835" y1="603" x2="835" y2="566"/>
-</g>
-<g fill="#222222" font-size="18" font-weight="600">
-  <text x="205" y="563">Gestisci</text>
-  <text x="425" y="563">Ferrule</text>
-  <text x="575" y="563">Tang nascosta</text>
-  <text x="810" y="563">Lama</text>
+<g fill="#ffffff" stroke="#263238" stroke-width=".35" vector-effect="non-scaling-stroke">
+<circle cx="9" cy="65" r=".55"/>
+<circle cx="28" cy="33" r=".55"/>
+<circle cx="33" cy="20" r=".55"/>
+<circle cx="43" cy="43" r=".55"/>
+<circle cx="30.5" cy="53.5" r=".55"/>
+<circle cx="50.5" cy="52.5" r=".55"/>
+<circle cx="62" cy="44.5" r=".55"/>
+<circle cx="70" cy="41.5" r=".55"/>
+<circle cx="72" cy="32.5" r=".55"/>
+<circle cx="80" cy="19" r=".55"/>
+<circle cx="96" cy="12.5" r=".55"/>
 </g>
 </svg>
-<figcaption>Il diagramma superiore mostra una costruzione occidentale comune full-tang. Il diagramma inferiore mostra l'impugnatura asiatica in questo libro: un manico ottagonale, ferrule anteriore e tang nascosto.</figcaption>
+<span style="position:absolute;left:10%;top:52%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Butt / pommel</span>
+<span style="position:absolute;left:22%;top:17%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:22%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Scala di impugnatura</span>
+<span style="position:absolute;left:34%;top:8%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Rivetto / perno</span>
+<span style="position:absolute;left:43%;top:30%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Bolster</span>
+<span style="position:absolute;left:38%;top:61%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Full tang</span>
+<span style="position:absolute;left:50%;top:66%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:16%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Tacco</span>
+<span style="position:absolute;left:60%;top:58%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:16%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Bisellatura</span>
+<span style="position:absolute;left:72%;top:56%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Taglio</span>
+<span style="position:absolute;left:82%;top:37%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Faccia a lama</span>
+<span style="position:absolute;left:75%;top:7%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:17%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Spina</span>
+<span style="position:absolute;left:92%;top:5.5%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Suggerimento</span>
+</div>
+<figcaption>Costruzione Exploded Western full-tang: lama, tang, bilancia del manico e hardware di fissaggio separati per mostrare come il manico è assemblato.</figcaption>
 </figure>
 
 ## Terminologia della lama

@@ -1,12 +1,12 @@
 ---
-source_hash: 4b8527c3e726da855a34a033e1d08d779cf084442200b80cd16804e0e7737dcc
+source_hash: c4bbc76383dadd1f95e2ad3434da474ffdb3e97302dbd62a0ec2d46d186b111a
 ---
 
 # 厨房刀的解剖
 
 在比较刀形、钢或尖锐角度之前,将刀作为三个连接系统来阅读:切割几何、携带刀形的钢结构以及控制刀形的手界面。以下名称是这些系统中每个特性的位置。
 
-并不是每把刀都在这里展示了每个特征。 西方全塔厨师的刀、模具式的通用刀和亚洲手刀都可以成为非常不同的结构的极佳工具。
+并不是每把刀都有本章所命名的每个特征。 下面爆炸的图像显示的是西方的全塔结构。 亚洲的隐藏塔格手使用不同的构造, 本章后面有描述。
 
 ## 从边缘到手读取工具
 
@@ -14,125 +14,50 @@ source_hash: 4b8527c3e726da855a34a033e1d08d779cf084442200b80cd16804e0e7737dcc
 
 在刀片后面,钢继续作为**tang**。在许多西方刀片上,刀柄在把手旁可见,两侧都有**handle scass**,通常用粘合剂和**rivets或pins**固定。许多西方厨房刀片在刀片和把手之间也有金属**bolster**。把手的后端是**but**或**pommel**。
 
-<figure class="kb-learning-figure">
-<svg viewBox="0 0 1200 760" role="img" aria-labelledby="knife-anatomy-title knife-anatomy-desc" style="width:100%;height:auto">
-<title id="knife-anatomy-title">厨房刀解剖</title>
-<desc id="knife-anatomy-desc">两张标注图。 上图显示西方的全塔厨房刀, 尖尖向下。 下图显示隐藏的八角形结构, 称为本书中的亚洲手柄 。</desc>
-
-<rect x="2" y="2" width="1196" height="756" rx="18" fill="#ffffff" stroke="#c8c8c8" stroke-width="2"/>
-
-<! - - - 第1小组 - >
-<text x="48" y="54" font-size="28" font-weight="700" fill="#1f1f1f">西部全塔建筑</text>
-<text x="48" y="82" font-size="17" fill="#666666">侧面视图—— 脊椎上方, 尖尖下方</text>
-
-<! - - 全部勾当和控件 - >
-<pathd="M92 205 L405 205 Q438 205 470 228 L470 326 Q438 350 405 350 L92 350 Q65 348 58 322 L58 233 Q65 207 92 205 Z"
-      填充="#d9c0a1中风=#222222"中风宽="3"/ >
-<pathd="M80 258 L470 258 L470 296 L80 296 Z"
-      填充= #b9bdc1 中风= # 36366 中风= "2"/ >
-<pathd="M405 194 L470 203 L494 228 L494 327 L470 352 L405 360 Q424 326 277 Q424 228 405 194 Z"
-      填充= "# c4c8cc" 中风= # 2222222" 中风宽="3"/ >
-
-<! - - - Rivets - >
-<circle cx="145" cy="277" r="12" fill="#eef0f2" stroke="#333333" stroke-width="2"/>
-<circle cx="245" cy="277" r="12" fill="#eef0f2" stroke="#333333" stroke-width="2"/>
-<circle cx="345" cy="277" r="12" fill="#eef0f2" stroke="#333333" stroke-width="2"/>
-
-<! - - 刀片: 现实的厨师配置, 向下倾斜 - >
-<pathd="M494 171 L958 171
-         问题1045 174 1118 246
-         问题1135 263 1142 279
-         问题1115 282 1080 289
-         问题925 322 755 337
-         问题610 350 508 349
-         L494 327 Z"(L494 327 Z)" (L494 327 Z)
-      填充= "#eef1f3" 中风=#222222" 中风宽="3"/ >
-
-<! - - 切开边缘 - >
-<path d="M508 349 Q610 350 755 337 Q925 322 1080 289 Q1115 282 1142 279"
-      填充=“ 无” 中风=“ # 151515” 中风宽=“ 6” 中风线盖=“ 圆” / >
-
-<! - - - 贝维尔指南 - >
-<pathd="M520 329 Q650 329 770 318 Q925 305 1078 278"
-      填充=“ 无” 中风=“ # 8b8b8b” 中风- 宽=“ 2” 中风- 雷达=“ 8 7” / >
-
-<! - - 刀片脸上的表面- finish 向导线 - >
-<line x1="650" y1="215" x2="900" y2="205" stroke="#d2d6d8" stroke-width="2"/>
-<line x1="630" y1="235" x2="930" y2="223" stroke="#d2d6d8" stroke-width="2"/>
-<line x1="610" y1="255" x2="955" y2="241" stroke="#d2d6d8" stroke-width="2"/>
-
-<! - - 顶级标签, 安排避免交叉 -- >
-<g fill="#222222" font-size="19" font-weight="600" stroke="#444444" stroke-width="1.8">
-  <line x1="83" y1="207" x2="83" y2="127"/>
-  <line x1="235" y1="205" x2="235" y2="127"/>
-  <line x1="437" y1="207" x2="437" y2="127"/>
-  <line x1="675" y1="172" x2="675" y2="127"/>
-  <line x1="1118" y1="246" x2="1134" y2="127"/>
+<figure class="kb-learning-figure" data-visual-id="VIS-ANATOMY-WESTERN-01">
+<div style="position:relative;width:100%;overflow:visible;background:#000000;">
+<img src="../../assets/images/approved/b13R schematics horizontalSmall copy.jpg" alt="" style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#000000;box-shadow:none;">
+<svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;">
+<g fill="none" stroke="#f4f6f8" stroke-width="1.2" vector-effect="non-scaling-stroke">
+<line x1="10" y1="52" x2="9" y2="65"/>
+<line x1="22" y1="17" x2="28" y2="33"/>
+<line x1="34" y1="8" x2="33" y2="20"/>
+<line x1="43" y1="30" x2="43" y2="43"/>
+<line x1="38" y1="61" x2="30.5" y2="53.5"/>
+<line x1="50" y1="66" x2="50.5" y2="52.5"/>
+<line x1="60" y1="58" x2="62" y2="44.5"/>
+<line x1="72" y1="56" x2="70" y2="41.5"/>
+<line x1="82" y1="37" x2="72" y2="32.5"/>
+<line x1="75" y1="7" x2="80" y2="19"/>
+<line x1="92" y1="5.5" x2="96" y2="12.5"/>
 </g>
-<g fill="#222222" font-size="19" font-weight="600">
-  <text x="50" y="112">屁股/ 粉红色</text>
-  <text x="184" y="112">处理比例</text>
-  <text x="398" y="112">波尔斯特</text>
-  <text x="648" y="112">脊柱</text>
-  <text x="1090" y="112">提示</text>
-</g>
-
-<! - - 底部标签 - >
-<g fill="#222222" font-size="19" font-weight="600" stroke="#444444" stroke-width="1.8">
-  <line x1="145" y1="289" x2="145" y2="401"/>
-  <line x1="270" y1="277" x2="270" y2="401"/>
-  <line x1="500" y1="344" x2="485" y2="401"/>
-  <line x1="690" y1="310" x2="650" y2="401"/>
-  <line x1="850" y1="250" x2="835" y2="401"/>
-  <line x1="955" y1="306" x2="990" y2="401"/>
-</g>
-<g fill="#222222" font-size="19" font-weight="600">
-  <text x="103" y="427">整条纹</text>
-  <text x="225" y="427">Rivet / pin 键</text>
-  <text x="450" y="427">脚跟</text>
-  <text x="606" y="427">贝弗尔</text>
-  <text x="783" y="427">刀片脸</text>
-  <text x="953" y="427">切线边缘</text>
-</g>
-<text x="782" y="451" font-size="16" fill="#666666">表面结束出现在这张脸上</text>
-
-<! - - - 第2小组 - >
-<line x1="48" y1="478" x2="1152" y2="478" stroke="#d4d4d4" stroke-width="2"/>
-<text x="48" y="520" font-size="28" font-weight="700" fill="#1f1f1f">亚洲手柄</text>
-<text x="48" y="548" font-size="17" fill="#666666">奥克塔戈式手柄, 带有ferrule 和隐藏字符串</text>
-
-< ! - - 亚洲手柄: 侧切开 - >
-<polygon点="110,596 420,596 446,620 420,644 110,644 84,620"
-         填充= "#c79b6d" 中风=#222222" 中风宽="3"/ >
-<rect x="420" y="590" width="70" height="60" rx="4" fill="#555b60" stroke="#222222" stroke-width="3"/>
-<pathd="M490 603 L1035 603 Q1080 606 1120 630 Q1088 637 1030 642 L490 642 Z"
-      填充= "#eef1f3" 中风=#222222" 中风宽="3"/ >
-<! - - - 隐藏字符串 - >
-<pathd="M235 615 L690 615 L690 629 L235 629 Z"
-      填充= #b9bdc1 中风= #4b4b4b 中风-宽= "2" 中风-达沙雷="7 5"/ >
-<! - - 边缘 - >
-<path d="M500 642 L1030 642 Q1088 637 1120 630" fill="none" stroke="#151515" stroke-width="5"/>
-
-<! - - Octagonal cross 区域 - >
-<polygon点="1040,690 1070,676 1105,676 1135,690 1135,720 1105,734 1070,734 1040,720"
-         填充= "#c79b6d" 中风=#222222" 中风宽="3"/ >
-<text x="1011" y="754" font-size="16" fill="#555555">八角横截面</text>
-
-<! - - 亚洲标签 - >
-<g stroke="#444444" stroke-width="1.8">
-  <line x1="250" y1="596" x2="250" y2="566"/>
-  <line x1="455" y1="590" x2="455" y2="566"/>
-  <line x1="620" y1="615" x2="620" y2="566"/>
-  <line x1="835" y1="603" x2="835" y2="566"/>
-</g>
-<g fill="#222222" font-size="18" font-weight="600">
-  <text x="205" y="563">处理</text>
-  <text x="425" y="563">费鲁尔</text>
-  <text x="575" y="563">隐藏纹理</text>
-  <text x="810" y="563">刀锋</text>
+<g fill="#ffffff" stroke="#263238" stroke-width=".35" vector-effect="non-scaling-stroke">
+<circle cx="9" cy="65" r=".55"/>
+<circle cx="28" cy="33" r=".55"/>
+<circle cx="33" cy="20" r=".55"/>
+<circle cx="43" cy="43" r=".55"/>
+<circle cx="30.5" cy="53.5" r=".55"/>
+<circle cx="50.5" cy="52.5" r=".55"/>
+<circle cx="62" cy="44.5" r=".55"/>
+<circle cx="70" cy="41.5" r=".55"/>
+<circle cx="72" cy="32.5" r=".55"/>
+<circle cx="80" cy="19" r=".55"/>
+<circle cx="96" cy="12.5" r=".55"/>
 </g>
 </svg>
-<figcaption>上图显示了普通的西方全纹构造。 下图显示了本书中使用的“ 亚洲控点 ” : 八角控点、 前发形和隐藏纹。</figcaption>
+<span style="position:absolute;left:10%;top:52%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">屁股/ 粉红色</span>
+<span style="position:absolute;left:22%;top:17%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:22%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">处理比例</span>
+<span style="position:absolute;left:34%;top:8%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Rivet / pin 键</span>
+<span style="position:absolute;left:43%;top:30%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">波尔斯特</span>
+<span style="position:absolute;left:38%;top:61%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">整条纹</span>
+<span style="position:absolute;left:50%;top:66%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:16%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">脚跟</span>
+<span style="position:absolute;left:60%;top:58%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:16%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">贝弗尔</span>
+<span style="position:absolute;left:72%;top:56%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">切线边缘</span>
+<span style="position:absolute;left:82%;top:37%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">刀片脸</span>
+<span style="position:absolute;left:75%;top:7%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:17%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">脊柱</span>
+<span style="position:absolute;left:92%;top:5.5%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">提示</span>
+</div>
+<figcaption>爆炸式的西部全塔建筑:刀片、刺、手柄秤和紧固硬件分离,以显示柄是如何组装的。</figcaption>
 </figure>
 
 ## 刀片术语
