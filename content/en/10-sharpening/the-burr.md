@@ -27,7 +27,7 @@ If you prefer not to touch near the edge, use a cotton pad or soft cloth fibre. 
 
 Clean the blade before checking. Slurry and loose steel particles can otherwise feel like a burr.
 
-## What the burr tells you
+## What the burr indicates
 
 A burr at only one point proves that the stone reached the apex only there. A light continuous burr from heel to tip confirms that the whole side has reached the edge.
 
@@ -47,11 +47,11 @@ A leather or fabric strop can help remove a very fine remaining burr. Move the k
 
 ## The practical rule
 
-Use the burr as a checkpoint, not as the final goal:
+Use the burr as a check during sharpening, not as the final goal:
 
 1. reach the apex with the smallest continuous burr;
 2. repeat on the other side until the burr changes direction;
 3. reduce pressure and alternate sides;
 4. finish only when the weakened metal has been removed.
 
-A knife that still carries a wire edge may cut paper once and fail in food. A clean, stable apex should keep cutting after the test.
+A knife that still has a wire edge may cut paper once and fail in food. A clean, stable apex should keep cutting after the test.
