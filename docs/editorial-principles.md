@@ -2,7 +2,7 @@
 title: Editorial Principles
 status: approved
 language: en
-reviewed: 2026-09-02
+reviewed: 2026-09-09
 ---
 
 # Editorial Principles
@@ -25,7 +25,7 @@ It must also remain useful for sales teams, store staff, distributors, chefs, co
 
 ## Intended style
 
-The core text should read like accessible non-fiction.
+The core text should be written as accessible non-fiction.
 
 Articles should be:
 
@@ -154,7 +154,7 @@ The goal is **confident accuracy**, not defensive writing.
 
 ## Commercial and educational balance
 
-This project is not a scientific paper. It does not need every statement to cover every theoretical exception, and it should not read as though every sentence anticipates criticism.
+This project is not a scientific paper. It does not need every statement to cover every theoretical exception, and the writing should not make every sentence appear to anticipate criticism.
 
 Explain the model the author considers most useful and correct. Include technical limits when they change that model, not merely because an exception can be imagined.
 
@@ -172,7 +172,7 @@ Do not stack caveats around one useful point merely to cover every theoretical e
 
 For example, prefer:
 
-> A heavier knife encourages a stronger, more committed stroke and feels more authoritative in dense food. The same mass takes more effort to lift, stop and redirect.
+> A heavier knife often leads the user to prepare a firmer stroke and can feel more stable and forceful in dense food. The same mass takes more effort to lift, stop and redirect.
 
 Avoid a sequence that first denies an absolute claim, then lists conditions and exceptions, and only at the end states the practical effect.
 
@@ -244,13 +244,24 @@ A complete article will usually contain:
 7. guidance for choosing, using or explaining the feature;
 8. a concise customer-facing summary.
 
-Not every article must follow this sequence rigidly, but it should provide the same journey from curiosity to understanding.
+Not every article must follow this sequence rigidly, but it should provide the same progression from curiosity to understanding.
 
 ## Writing for translation
 
 English is the source of truth, but the content must translate naturally into languages including Japanese, Simplified Chinese and Traditional Chinese.
 
-Avoid unnecessary wordplay, culture-specific jokes and idioms that cannot be translated clearly.
+Prefer common words that have **one clear meaning in the sentence**. When a common English word is being used figuratively, replace it with a direct verb whenever the direct verb preserves the meaning. In particular, do not use **read** to mean *understand, examine, evaluate, study* or *interpret* when one of those verbs states the intended action directly.
+
+Examples:
+
+- use **understand the construction**, not **read the construction**;
+- use **examine the blade profile**, not **read the blade profile**;
+- use **compare or evaluate the specifications**, not **read the specifications**, unless the literal act of reading text is intended;
+- use **interpret the result**, not **read the result**, when interpretation is the actual action.
+
+Avoid unnecessary wordplay, culture-specific jokes, idioms, phrasal expressions and metaphors that add style without adding understanding. Avoid anthropomorphic wording when a literal description is equally simple. A metaphor or analogy may remain when it genuinely explains a difficult mechanism and its meaning is clear enough to translate reliably.
+
+Technical terms are different. Keep a technical term when it is necessary for accuracy or professional communication, explain it in plain language at first use and then use it consistently. Do not replace an accurate technical term with several approximate everyday synonyms merely to make the prose sound varied.
 
 Keep important terminology consistent. Consult the controlled glossary before introducing a new translation-sensitive term.
 
