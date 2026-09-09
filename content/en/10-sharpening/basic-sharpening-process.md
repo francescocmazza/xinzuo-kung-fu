@@ -122,7 +122,7 @@ Check heel, middle, curved front and tip. Neither side should have a directional
 
 ### Cut paper slowly
 
-Hold a clean dry sheet with the supporting hand far from the cutting path. Start near the heel and draw the edge smoothly through the paper toward the tip. Do not make a fast showy slash.
+Hold a clean dry sheet with the supporting hand far from the cutting path. Start near the heel and draw the edge smoothly through the paper toward the tip. Do not make a fast, uncontrolled slash.
 
 Notice where resistance changes. A catch or tear identifies an area that needs attention. On a long knife, test heel to middle and then middle to tip in two overlapping sections.
 
@@ -134,7 +134,7 @@ Paper can be cut by a fragile wire edge, so combine the paper test with the burr
 
 ## Practical advice that improves the result
 
-### Let the abrasive cut
+### Use the abrasive instead of extra pressure
 
 More pressure is rarely the answer to slow progress. Heavy pressure makes the angle unstable and creates a larger burr. If the stone hardly removes steel, it may be too fine, glazed or unsuitable for that steel.
 
@@ -142,9 +142,9 @@ More pressure is rarely the answer to slow progress. Heavy pressure makes the an
 
 A dry or moving stone changes both sound and control. Add water when the surface drags and stop immediately if the support moves.
 
-### Correct only the missing area
+### Correct only the area that needs more work
 
-If the tip, middle or heel is behind, give that area a short period of focused work. Then return to complete passes so the finished edge remains connected and even.
+If the tip, middle or heel has received less sharpening, give that area a short period of focused work. Then return to complete passes so the finished edge remains connected and even.
 
 ### Keep the burr small
 
@@ -196,4 +196,4 @@ If one answer is no, repeat that specific part on an inexpensive practice knife.
 9. Reduce pressure, alternate sides and remove the burr.
 10. Inspect, test, clean and dry the knife and stone.
 
-The most important skill is learning to read the contact. The marker shows where the stone touches, the sound shows how that contact is changing and the burr confirms that the work has reached the apex.
+The most important skill is learning to interpret the contact between the knife and the stone. The marker shows where the stone touches, the sound shows how that contact is changing and the burr confirms that the work has reached the apex.
