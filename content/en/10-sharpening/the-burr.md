@@ -3,7 +3,7 @@ title: Understanding and Removing the Burr
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-06
+reviewed: 2026-09-09
 translation_priority: high
 ---
 
@@ -31,13 +31,13 @@ Clean the blade before checking. Slurry and loose steel particles can otherwise 
 
 A burr at only one point proves that the stone reached the apex only there. A light continuous burr from heel to tip confirms that the whole side has reached the edge.
 
-Check it occasionally while working, especially while learning. A burr can appear almost immediately when the angle is too steep. In that case, the stone may be touching only the extreme edge and creating a new, wider microbevel. A quick burr therefore proves contact with the apex, but it does not by itself prove that the angle is correct. Check the marker pattern and the width of the microbevel before continuing.
+Check it occasionally while working, especially while learning. A burr can appear almost immediately when the angle is too steep. In that case, the stone may be touching only the extreme edge and creating a new, steeper edge bevel. A quick burr therefore proves contact with the apex, but it does not by itself prove that the angle is correct. Check the marker pattern and the width of the edge bevel before continuing.
 
 When the angle is correct, stop the main work on that side as soon as the smallest detectable burr is continuous. More heavy passes only enlarge it.
 
 ## Moving and removing the burr
 
-After the first side reaches the apex, change both the side and the hand holding the knife. Sharpen the second side with the same path and local contact angle. The burr should move back toward the first side along the whole edge.
+After the first side reaches the apex, sharpen the second side with the same path and local contact angle. If you are following the hand-switching method taught in this book, change the hand holding the knife when you change sides. The burr should move back toward the first side along the whole edge.
 
 Then reduce pressure and alternate sides. The last passes should be much lighter than the working passes. Their purpose is to centre the apex and weaken the burr rather than remove substantial steel.
 
