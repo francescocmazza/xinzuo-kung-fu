@@ -74,3 +74,23 @@ terms:
     zh-Hans: null
     zh-Hant: null
     cjk_status: specialist-review-required
+
+  full_tang:
+    definition_en: Tang construction in which the steel extends through almost the full length and outline of the handle, normally visible between handle scales.
+    technical_note_en: Use “full tang” for this construction. “Through tang” is a separate construction term; “thorough tang” is incorrect.
+    preferred_customer_term_en: full tang
+    it: codolo pieno
+    ja: null
+    zh-Hans: null
+    zh-Hant: null
+    cjk_status: specialist-review-required
+
+  collar:
+    definition_en: Reinforcing sleeve or ring around the front of an Asian hidden-tang handle, close to the blade-handle junction.
+    technical_note_en: Preferred house term. Knife literature may also call this part a ferrule.
+    preferred_customer_term_en: collar
+    it: collare
+    ja: null
+    zh-Hans: null
+    zh-Hant: null
+    cjk_status: specialist-review-required
