@@ -3,46 +3,46 @@ title: "Weight, Balance and Ergonomics"
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-09
 translation_priority: high
 ---
 
 # Weight, Balance and Ergonomics
 
-Two knives can use equally good steel and careful grinding yet feel completely different in the hand. One feels quick and almost weightless; another feels planted and authoritative. The difference comes from **how much mass the knife carries, where that mass sits and how the handle places the hand in relation to it**.
+Two knives can use equally good steel and careful grinding yet feel completely different in the hand. One feels light and easy to redirect; another feels more stable and forceful in motion. The difference comes from **the total mass of the knife, how that mass is distributed and where the handle places the hand in relation to it**.
 
-These are part of the knife's performance. Weight, balance and handle geometry change the movement itself.
+These factors are part of the knife's performance. Weight, balance and handle geometry change the movement itself.
 
-## Weight changes the gesture
+## Weight changes movement
 
-As soon as we pick up an object, the body prepares for its expected weight. Human motor control anticipates that weight and scales grip and load forces so the object can be lifted and controlled smoothly. A heavier object changes muscular preparation before the movement is fully under way. [4]
+As soon as we pick up an object, the body prepares for its expected weight. Human motor control anticipates that weight and adjusts grip and load forces so the object can be lifted and controlled smoothly. A heavier object changes muscular preparation before the movement is fully under way. [4]
 
-The effect is easy to feel with a knife. **A heavier knife encourages a firmer, more committed stroke.** The user prepares to control more mass, while the knife's weight, gravity and inertia contribute to the movement. Once moving, the greater mass also carries more momentum through resistance.
+The effect is easy to feel with a knife. **A heavier knife often leads the user to prepare a firmer stroke.** The user must control more mass, while the knife's weight, gravity and inertia contribute to the movement. Once moving, greater mass also carries more momentum through resistant food.
 
-This is why a substantial chef's knife, santoku, deba or Chinese cleaver can make dense food such as squash feel easier to cut than a very light knife. The hand and arm prepare a stronger movement, and the knife's mass helps carry it through the food. The practical sensation is **authority**: less of the cut feels dependent on forcing a light blade downward.
+This is why a substantial chef's knife, santoku, deba or Chinese cleaver can make dense food such as squash feel easier to cut than a very light knife. The hand and arm prepare a stronger movement, and the knife's mass helps continue the cut through the food. The practical result is a more forceful, stable sensation during the stroke.
 
-More mass also takes more effort to lift, accelerate, stop and redirect. A lighter knife feels quicker, needs less effort for repeated changes of direction and is often more comfortable for delicate tip work, rapid preparation and small corrections.
+More mass also takes more effort to lift, accelerate, stop and redirect. A lighter knife needs less effort for repeated changes of direction and is often more comfortable for delicate tip work, rapid preparation and small corrections.
 
 The distinction is simple:
 
-- **More weight** gives a more planted feel and more authority in resistant food, but the hand must control more mass.
-- **Less weight** gives more agility and easier redirection, but the user supplies more of the force when food strongly resists the cut.
+- **More weight** gives a more stable, forceful feel in resistant food, but the hand must control more mass.
+- **Less weight** gives easier redirection and lower effort during repeated movements, but the user supplies more of the force when food strongly resists the cut.
 
-Geometry still determines how much resistance the food creates. Sharpness, edge angle and thickness behind the edge can change cutting force dramatically, so an efficient light knife can cut more easily than a heavy knife with poor geometry. [1][2] Weight changes how the knife and body attack resistance; geometry changes the resistance itself.
+Geometry still determines how much resistance the food creates. Sharpness, edge angle and thickness behind the edge can change cutting force dramatically, so an efficient light knife can cut more easily than a heavy knife with poor geometry. [1][2] Weight changes how the knife and body overcome resistance; geometry changes the resistance itself.
 
-## Where the weight sits changes the knife
+## Weight distribution changes handling
 
 Total weight tells only part of the story. Two knives can weigh the same but feel very different because their centres of mass are in different places.
 
-A **blade-forward** knife carries more mass ahead of the hand. The front feels planted and naturally favours downward or push cutting. This suits cooks who like the knife to contribute strongly to the stroke, especially with dense vegetables and repetitive board work.
+A **blade-forward** knife carries more mass ahead of the hand. The front feels heavier and more stable during downward or push cutting. This suits cooks who like the knife to contribute strongly to the stroke, especially with dense vegetables and repetitive board work.
 
-A **neutral** knife places the centre of mass close to the working grip. It neither pulls strongly forward nor feels anchored at the rear. The hand can guide it without constantly correcting a strong front- or rearward tendency.
+A **neutral** knife places the centre of mass close to the working grip. It neither pulls strongly forward nor feels strongly weighted toward the rear. The hand can guide it without constantly correcting a strong front- or rearward tendency.
 
-More mass toward the **handle** makes the front easier to lift, place and redirect. This can feel quick during fine work and reduce the forward pull at the wrist when the knife is held farther back.
+More mass toward the **handle** makes the front easier to lift, place and redirect. This can help during fine work and reduce the forward pull at the wrist when the knife is held farther back.
 
 Mass near the tip affects handling more strongly than the same mass close to the hand. The farther mass sits from the grip, the more the knife resists being started, stopped or turned. This is the practical meaning of rotational inertia.
 
-A santoku and bunka show the difference clearly. A typical santoku keeps more steel toward the front, giving the nose a planted feel. A bunka removes more material around its fine K-tip, trading some front-end authority for visibility and precision. Both are useful because they favour different movements.
+A santoku and bunka show the difference clearly. A typical santoku keeps more steel toward the front, giving the nose a heavier and more stable feel. A bunka removes more material around its fine K-tip, reducing front mass in exchange for better visibility and precision. Both are useful because they favour different movements.
 
 ## Balance depends on the grip
 
