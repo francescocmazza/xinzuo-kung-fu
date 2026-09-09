@@ -1,5 +1,5 @@
 ---
-source_hash: d4d9c17cf223f34c9f12a097fc333bcc8d5f3f51c980a23785ad6f5ece30ce96
+source_hash: 51a01a7c83e381236f7dd9d29d7ba518f4036df052d44ad338d966396b72bf92
 ---
 
 # Uso sicuro e trasporto

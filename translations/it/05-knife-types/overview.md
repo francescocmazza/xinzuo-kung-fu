@@ -1,5 +1,5 @@
 ---
-source_hash: 0129760ac4b1fff589e1a995769c11e720de76112c23bbb4d3607ec8e34e1604
+source_hash: aec0ff6d562e1227ecfd29f452793c08dbb2aa3c2dfe7306634acf2b77538c69
 ---
 
 # Forme di coltello e loro usi

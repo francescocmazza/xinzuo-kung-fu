@@ -1,5 +1,5 @@
 ---
-source_hash: ba5d8d9ee189cd69f75be3020a5710cd14844cfa5722716031a26985e36be298
+source_hash: c244c6447213b781286f83f959924186fe9a2f267fdc3e7ea8c66aceef5c306f
 ---
 
 # Xinzuo Blade Steels: diversi saldi per coltelli diversi

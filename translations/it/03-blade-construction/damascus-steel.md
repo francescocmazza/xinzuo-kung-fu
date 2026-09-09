@@ -1,5 +1,5 @@
 ---
-source_hash: 717db69b3736bd1ffda3763c0a98f19f1da4959bb5d38f137a035d0465755970
+source_hash: 8e86df9695fd9c0fbc6e03f89fa34b4a6286b4ddccee1d501005a458d300b3c9
 ---
 
 # Damascus Steel - Pattern, Storia e Costruzione

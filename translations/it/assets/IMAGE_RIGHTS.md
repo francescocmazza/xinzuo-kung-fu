@@ -1,5 +1,5 @@
 ---
-source_hash: 62fd46759c0b36cca1c70924e4efa8c60764f51dc38a13a18d4203650671da33
+source_hash: 06e3f2765c3c2b7b48a918e4211a8165105f527b8a727ebc5bdc3b77e9ef482f
 ---
 
 # Diritti di immagine

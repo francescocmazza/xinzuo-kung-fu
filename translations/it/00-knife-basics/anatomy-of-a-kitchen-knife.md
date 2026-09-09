@@ -1,5 +1,5 @@
 ---
-source_hash: 485ac674ab64330095ee170da835bff45cac682c972e03e5610afc05d392a9c1
+source_hash: 3af3415ee86a2bb4080299e180113f2d12d396bdb70c627050fa84934eddee90
 ---
 
 # Anatomia di un coltello da cucina
@@ -18,46 +18,46 @@ Dietro la lama, l'acciaio continua come il **tang**. Su molti coltelli occidenta
 <div style="position:relative;width:100%;overflow:visible;background:#000000;">
 <img src="../../assets/images/approved/b13R schematics horizontalSmall copy.jpg" alt="" style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#000000;box-shadow:none;">
 <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;">
-<g fill="none" stroke="#f4f6f8" stroke-width="1.2" vector-effect="non-scaling-stroke">
-<line x1="10" y1="52" x2="9" y2="65"/>
-<line x1="22" y1="17" x2="28" y2="33"/>
-<line x1="34" y1="8" x2="33" y2="20"/>
-<line x1="43" y1="30" x2="43" y2="43"/>
-<line x1="38" y1="61" x2="30.5" y2="53.5"/>
-<line x1="50" y1="66" x2="50.5" y2="52.5"/>
-<line x1="60" y1="58" x2="62" y2="44.5"/>
-<line x1="72" y1="56" x2="70" y2="41.5"/>
-<line x1="82" y1="37" x2="72" y2="32.5"/>
-<line x1="75" y1="7" x2="80" y2="19"/>
-<line x1="92" y1="5.5" x2="96" y2="12.5"/>
+<g fill="none" stroke="#263238" stroke-width="1.2" vector-effect="non-scaling-stroke">
+<line x1="9" y1="45" x2="6.5" y2="49.5"/>
+<line x1="18" y1="13" x2="23.5" y2="33"/>
+<line x1="34" y1="12" x2="27.3" y2="22.7"/>
+<line x1="42" y1="31" x2="41.8" y2="45.5"/>
+<line x1="31" y1="67" x2="30" y2="52.8"/>
+<line x1="48" y1="72" x2="49.2" y2="63.4"/>
+<line x1="62" y1="72" x2="64" y2="58.5"/>
+<line x1="78" y1="70" x2="82.5" y2="58.3"/>
+<line x1="80" y1="29" x2="70" y2="49"/>
+<line x1="69" y1="24" x2="73" y2="43.5"/>
+<line x1="92" y1="30" x2="96" y2="47.2"/>
 </g>
-<g fill="#ffffff" stroke="#263238" stroke-width=".35" vector-effect="non-scaling-stroke">
-<circle cx="9" cy="65" r=".55"/>
-<circle cx="28" cy="33" r=".55"/>
-<circle cx="33" cy="20" r=".55"/>
-<circle cx="43" cy="43" r=".55"/>
-<circle cx="30.5" cy="53.5" r=".55"/>
-<circle cx="50.5" cy="52.5" r=".55"/>
-<circle cx="62" cy="44.5" r=".55"/>
-<circle cx="70" cy="41.5" r=".55"/>
-<circle cx="72" cy="32.5" r=".55"/>
-<circle cx="80" cy="19" r=".55"/>
-<circle cx="96" cy="12.5" r=".55"/>
+<g fill="#ffffff" stroke="#263238" stroke-width=".45" vector-effect="non-scaling-stroke">
+<circle cx="6.5" cy="49.5" r=".55"/>
+<circle cx="23.5" cy="33" r=".55"/>
+<circle cx="27.3" cy="22.7" r=".55"/>
+<circle cx="41.8" cy="45.5" r=".55"/>
+<circle cx="30" cy="52.8" r=".55"/>
+<circle cx="49.2" cy="63.4" r=".55"/>
+<circle cx="64" cy="58.5" r=".55"/>
+<circle cx="82.5" cy="58.3" r=".55"/>
+<circle cx="70" cy="49" r=".55"/>
+<circle cx="73" cy="43.5" r=".55"/>
+<circle cx="96" cy="47.2" r=".55"/>
 </g>
 </svg>
-<span style="position:absolute;left:10%;top:52%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Butt / pommel</span>
-<span style="position:absolute;left:22%;top:17%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:22%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Scala di impugnatura</span>
-<span style="position:absolute;left:34%;top:8%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Rivetto / perno</span>
-<span style="position:absolute;left:43%;top:30%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Bolster</span>
-<span style="position:absolute;left:38%;top:61%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Full tang</span>
-<span style="position:absolute;left:50%;top:66%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:16%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Tacco</span>
-<span style="position:absolute;left:60%;top:58%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:16%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Bisellatura</span>
-<span style="position:absolute;left:72%;top:56%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Taglio</span>
-<span style="position:absolute;left:82%;top:37%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Faccia a lama</span>
-<span style="position:absolute;left:75%;top:7%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:17%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Spina</span>
-<span style="position:absolute;left:92%;top:5.5%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Suggerimento</span>
+<span style="position:absolute;left:9%;top:45%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Butt / pommel</span>
+<span style="position:absolute;left:18%;top:13%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:22%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Scala di impugnatura</span>
+<span style="position:absolute;left:34%;top:12%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Rivetto / perno</span>
+<span style="position:absolute;left:42%;top:31%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Bolster</span>
+<span style="position:absolute;left:31%;top:67%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Full tang</span>
+<span style="position:absolute;left:48%;top:72%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:16%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Tacco</span>
+<span style="position:absolute;left:62%;top:72%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:16%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Bisellatura</span>
+<span style="position:absolute;left:78%;top:70%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Taglio</span>
+<span style="position:absolute;left:80%;top:29%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Faccia a lama</span>
+<span style="position:absolute;left:69%;top:24%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:17%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Spina</span>
+<span style="position:absolute;left:92%;top:30%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Suggerimento</span>
 </div>
-<figcaption>Costruzione Exploded Western full-tang: lama, tang, bilancia del manico e hardware di fissaggio separati per mostrare come il manico è assemblato.</figcaption>
+<figcaption>Costruzione Exploded Western full-tang: lama, tang completo, bilancia del manico e hardware di fissaggio separati per mostrare come il manico è assemblato.</figcaption>
 </figure>
 
 ## Terminologia della lama
@@ -74,15 +74,15 @@ Il **handle** è la parte tenuta dall'utente, ma la sua costruzione varia. Su un
 
 Un **bolster** è la transizione in metallo rinforzato tra lama e manico trovato su molti coltelli da cucina occidentali. Può essere integrato con la lama o fissato separatamente. Può rafforzare la transizione, creare un comodo punto di contatto con le dita, proteggere la parte anteriore della maniglia e aggiungere la massa vicino alla mano. Alcuni supporti si estendono al tallone; altri lasciano il bordo aperto per facilitare l'affilatura. Un supporto non è necessariamente un **guard**. Una guardia è specificamente progettato per fermare la mano scivolare verso il bordo, e molti coltelli da cucina non hanno guardia separata.
 
-Il tang completo è solo una costruzione valida. Un tang **nascosto** è più stretto del manico e racchiuso al suo interno. Un tang **tang** raggiunge il culo e può essere fissato meccanicamente. Un tang **parziale o stub** termina prima del culo. Le maniglie modellate possono incapsulare il tang in modo che non siano visibili scale o rivetti. Nessuna di queste costruzioni crea una semplice gerarchia di qualità. La durata dipende dalle dimensioni del tang, dai materiali, dalla vestibilità, dal fissaggio, dall'uso previsto e dai carichi previsti.
+**Full tang** è solo una costruzione valida. Un **hidden tang** è più stretto rispetto alla maniglia e racchiuso al suo interno. Alcune costruzioni nascoste-tang** si estendono fino al culo e sono fissati meccanicamente lì; questo è un **through tang**, un termine di costruzione separato e non un altro nome per un tang completo. Un **parziale o stub tang** termina prima del culo. Le maniglie modellate possono incapsulare il tang in modo che nessuna bilancia o rivetti sono visibili. Nessuna di queste costruzioni crea una semplice gerarchia di qualità. La durata dipende dalle dimensioni del tang, materiali, vestibilità, fissaggio, uso previsto e carichi previsti.
 
 ## Quello che questo libro chiama un manico asiatico
 
-In questo libro, **manico asiatico** significa la costruzione tradizionale nascosta-tang comunemente accoppiato con un **ottagonale**, e talvolta ovale, maniglia. La lama entra in un manico solido su un tang nascosto, mentre un **ferrule** o colletto spesso rafforza la parte anteriore e forma il passaggio alla lama.
+In questo libro, **manico asiatico** significa la costruzione tradizionale nascosta-tang comunemente accoppiato con un **ottagonale**, e talvolta ovale, maniglia. La lama entra in un manico solido su un tang nascosto, mentre un **collare** spesso rafforza la parte anteriore e forma il passaggio alla lama.
 
-Il termine è intenzionalmente stretto. Non significa **** che tutti i coltelli fabbricati in Asia utilizzano questa costruzione; molti usano sistemi occidentali full-tang, stampati o altri. Qui, **manico asiatico** significa la costruzione ottagonale-ovale nascosta-tang con una ferrula anteriore descritta sopra.
+Il termine è intenzionalmente stretto. Non significa **** che tutti i coltelli fabbricati in Asia utilizzano questa costruzione; molti usano sistemi occidentali full-tang, stampati o altri. Qui, **manico asiatico** significa la costruzione ottagonale-ovale nascosta-tang con il collare anteriore descritto sopra.
 
-Una ferrula è anche diversa da un supporto occidentale. Entrambi si siedono vicino alla giunzione lama-manico, ma la ferrula è principalmente un collare intorno alla parte anteriore del materiale maniglia, mentre il supporto è un componente metallico alla transizione lama-manico.
+Un **collare** è anche diverso da un supporto occidentale. Entrambi si siedono vicino alla giunzione lama-manico, ma il colletto è principalmente un manicotto di rinforzo o anello intorno alla parte anteriore del materiale della maniglia, mentre il supporto è un componente metallico alla transizione lama-manico.
 
 ## Durezza, ritenzione dei bordi e flessibilità
 

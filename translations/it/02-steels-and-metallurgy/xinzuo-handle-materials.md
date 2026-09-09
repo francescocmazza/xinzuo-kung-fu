@@ -1,5 +1,5 @@
 ---
-source_hash: ca49d22e726a04b2f3eda42411e7c9f52dcc114a6962d6505e5fca5e6f56b0fc
+source_hash: 93e00b721faa3208bd4d98e039ce942694be51ca38d35ced445b713c0c75b5e3
 ---
 
 # Materiali Xinzuo Handle - Sentire, Cura e Scelta
@@ -217,7 +217,7 @@ Nessuno di questi materiali può compensare un manico che non si adatta alla man
 - **Heat e chimica:** tieni il coltello fuori dalla lavastoviglie e lontano da detergenti ad alto calore o aggressivi che possono attaccare resina, adesivo, finitura o materiale naturale.
 - **Abrasione:** utilizzare pulizia non abrasiva su resine lucide, fibre di carbonio e superfici in legno finissimo.
 - **Movimento dell'umidità:** ispezionare il legno naturale e condizionarlo solo quando la superficie diventa realmente asciutta, utilizzando un adeguato prodotto alimentare-contatto-sicuro.
-- **Assembly:** controlla ferrule, scale, perni, distanziatori e transizioni per movimenti o lacune prima che un piccolo problema diventi strutturale.
+- **Assembly:** collari di controllo, scale, perni, distanziatori e transizioni per movimenti o lacune prima che un piccolo problema diventi strutturale.
 
 Un buon coltello da cucina non dovrebbe andare in lavastoviglie indipendentemente dal materiale del manico. Il calore, i detergenti aggressivi, gli impatti contro altri oggetti e l'umidità calda prolungata possono danneggiare il manico, montaggio e tagliente.
 

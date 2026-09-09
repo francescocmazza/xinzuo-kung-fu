@@ -1,5 +1,5 @@
 ---
-source_hash: 62bf39ee9e02b1fe81221c9064591d283d9782b74e2534b28d0ed0595f1a7e81
+source_hash: 1ae30c6210c358390d878606c25c58b756bb2db7eaffbdf9de87142643b3c39d
 ---
 
 # Cura del coltello di routine: cosa fare tra affilature
@@ -18,7 +18,7 @@ Non lasciare il coltello impregnato in un lavandino. Oltre ad aumentare il risch
 
 Risciacquare rapidamente sale e cibi acidi. Pomodoro, agrumi, aceto, cipolle, salamoia e ingredienti simili possono accelerare la colorazione o la corrosione quando lasciato sulla lama.
 
-Asciugare immediatamente la lama con un panno pulito, muovendosi dalla colonna vertebrale verso il bordo piuttosto che avvolgere le dita intorno ad esso. Asciugare anche l'impugnatura e l'area intorno al supporto o alla ferrula.
+Asciugare immediatamente la lama con un panno pulito, muovendosi dalla colonna vertebrale verso il bordo piuttosto che avvolgere le dita intorno ad esso. Asciugare la maniglia e l'area intorno al supporto o colletto troppo.
 
 ## Perché le lavastoviglie sono scadenti per i coltelli di qualità
 
@@ -111,7 +111,7 @@ Controllare per:
 - una punta piegata o danneggiata;
 - ruggine attiva o pitting;
 - crepe o allentamenti nell'impugnatura;
-- lacune intorno al supporto, alla ghiera o alle squame;
+- lacune intorno al supporto, al colletto o alla bilancia;
 - una guaina o una protezione bagnata o contaminata.
 
 Piccoli problemi sono più facili da correggere rispetto alle riparazioni di grandi dimensioni. Continuando a utilizzare un bordo scheggiato, maniglia sciolta o apice rotto male può peggiorare i danni e creare un rischio di sicurezza.

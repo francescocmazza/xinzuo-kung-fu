@@ -1,5 +1,5 @@
 ---
-source_hash: 76dd485b504d3ae5939702a823f5edd872ab623330100be2b578256742a4d8f2
+source_hash: 053ffb80d6b1d7d11c9566acfc591787ce3eb4bea7e5347d2b04e47c24b7f7b1
 ---
 
 # The Gongfu of Xinzuo
