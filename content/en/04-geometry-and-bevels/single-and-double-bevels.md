@@ -3,13 +3,13 @@ title: Single and Double Bevels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-09
 translation_priority: highest
 ---
 
 # Single and Double Bevels
 
-Cut a tall potato with two knives and you may notice something unexpected. One blade falls almost straight; another pulls sideways even when your hand points forward. The bevel—the sloping surface leading to the cutting edge—may explain the difference.
+Cut a tall potato with two knives and you may notice something unexpected. One blade travels almost straight downward; another pulls sideways even when your hand points forward. The bevel—the sloping surface leading to the cutting edge—may explain the difference.
 
 Three parts are often confused.
 
@@ -37,7 +37,7 @@ Seven common bevel families, shown without fixed-language labels: 1. symmetrical
 
 A double-bevel knife is sharpened from both sides. Seen from the front, the sides converge toward a narrow V-shaped edge. On many knives the broad blade grind and tiny edge bevel are visibly separate; on others the transition is subtle.
 
-A reasonably symmetrical double bevel tends to track straight because food is displaced on both sides. This helps make it suitable for general cooking and either hand.
+A reasonably symmetrical double bevel tends to follow a straight path because food is displaced on both sides. This helps make it suitable for general cooking and either hand.
 
 Most Western chef's knives, carving and slicing knives, utility and petty knives, gyuto, santoku, bunka, nakiri and many Chinese cleavers and slicers are double bevel.
 
@@ -49,7 +49,7 @@ This predictability is useful in a first serious knife. It lets the user learn g
 
 ## Not every double bevel is symmetrical
 
-The edge may be close to 50/50 or biased toward one face. Labels such as 60/40 or 70/30 are useful descriptions but are often approximate rather than exact measurements.
+The edge may be close to 50/50 or more strongly ground toward one face. Labels such as 60/40 or 70/30 are useful descriptions but are often approximate rather than exact measurements.
 
 An asymmetric double bevel moves the cutting edge closer to one side. This can change food separation and make some fine cuts feel more precise, but it can also introduce slight steering.
 
@@ -100,9 +100,9 @@ The matching version usually feels more natural because the knife, body, support
 
 A knife made for the opposite hand can still be used, but the food and cutting direction must be arranged around its geometry. For example, a left-handed cook using a right-handed knife can turn the ingredient and choose a path that carries the edge away from the supporting right hand. The stroke can travel sideways into clear space or forward and away from the body.
 
-Changing the setup works better than overpowering the blade. Keep the supporting hand behind the cutting line, leave the path clear and keep the wrist relaxed. If the knife drifts, stop, rotate the ingredient or adjust your stance, then restart. Forcing a buried edge sideways stresses the apex and reduces control.
+Changing the setup is better than forcing the blade against its natural steering. Keep the supporting hand behind the cutting line, leave the path clear and keep the wrist relaxed. If the knife drifts, stop, rotate the ingredient or adjust your stance, then restart. Forcing an edge sideways after it is already deep in the food stresses the apex and reduces control.
 
-Learn this with a short, stable piece of cucumber or a small boneless portion. A tall potato, hard squash or rolling ingredient magnifies steering and encourages excess force. Slow, shallow cuts reveal the knife's tendency before it is deep in the food.
+Learn this with a short, stable piece of cucumber or a small boneless portion. A tall potato, hard squash or rolling ingredient makes steering more noticeable and encourages excess force. Slow, shallow cuts reveal the knife's tendency before it is deep in the food.
 
 This approach works when the ingredient can be rotated freely. A knife matched to the user's hand remains more convenient during long professional sessions or repeated identical cuts because the workstation does not need to be reorganized for each piece.
 
@@ -119,7 +119,7 @@ Steering becomes more noticeable when:
 - the user applies excessive downward force;
 - the wrist tries to correct after the blade is already deep in the food.
 
-The best correction begins before the cut: choose the direction, stabilize the food and set the starting angle. Large corrections are risky once the blade is deeply buried because they can twist the edge.
+The best correction begins before the cut: choose the direction, stabilize the food and set the starting angle. Large corrections are risky once the blade is deeply inside the food because they can twist the edge.
 
 ## Clean surfaces and food separation
 
