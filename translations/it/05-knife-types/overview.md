@@ -1,5 +1,5 @@
 ---
-source_hash: aec0ff6d562e1227ecfd29f452793c08dbb2aa3c2dfe7306634acf2b77538c69
+source_hash: 9db98acd5e8f14d6b9e7acac081b3a0b7c52c3cd3665155a176f880eb786596a
 ---
 
 # Forme di coltello e loro usi
@@ -83,7 +83,13 @@ La forma è particolarmente adatta a **vegetali e pesci**, tra cui la preparazio
 
 Il nakiri è un coltello vegetale sottile, alto, doppio sbirro costruito per un ampio contatto con la tavola. Il suo bordo relativamente dritto rende il taglio a spinta e la triturazione verticale efficiente, mentre la sua altezza dà spazio alla mano guida e per il trasferimento di verdure preparate.
 
-I frontali Nakiri variano. Alcuni hanno un angolo anteriore fortemente arrotondato e non affilato; altri portano il bordo affilato più in avanti. Un nakiri a punta tonda funziona particolarmente bene per tagli di roccia compatti e triturazione fine. Il frontale arrotondato può ruotare sulla tavola, la lama alta dà apertura alle nocche e una guida chiara contro la mano non tagliente, e il bordo di lavoro dritto mantiene un utile contatto a bordo attraverso un corto arco controllato. Ciò crea un movimento a dondolo compatto senza la pancia profonda di un coltello da cuoco occidentale. Funziona particolarmente bene per le erbe e le verdure tritate finemente, e il fronte arrotondato è meno vulnerabile di un'ottima punta K durante i lavori ripetuti a bordo.
+I frontali Nakiri variano. Alcuni presentano un fronte quadrato o solo leggermente arrotondato, mentre alcuni disegni utilizzano una punta rotonda volutamente pronunciata. Su un nano rotondo**, il fronte arrotondato è una parte funzionale della geometria di taglio: è progettato per creare un punto perno stabile per movimenti a dondolo compatti.
+
+La parte anteriore arrotondata può rimanere a contatto controllato con la tavola mentre il tallone si alza e cade attraverso un corto arco. Questo conferisce al coltello un perno compatto senza richiedere la pancia profonda del coltello di uno chef occidentale. L'alta lama preserva lo sgombero delle nocche e un'ampia guida per la mano di sostegno, mentre il bordo di lavoro relativamente diritto dietro il perno ritorna in modo pulito alla tavola.
+
+Il design unisce quindi due utili comportamenti in un coltello vegetale: **la sezione dritta sostiene un taglio e un taglio a spinta efficienti, mentre il frontale arrotondato sostiene un'arrotondamento compatto controllato**. Ciò è particolarmente efficace per le erbe, la triturazione vegetale fine e il lavoro ripetuto a bordo corto.
+
+Usa la punta rotonda come perno corto e controllato piuttosto che forzare il coltello nell'ampio colpo a dondolo di un coltello da cuoco fortemente ricurvo. Non tutti i nakiri usano questa geometria, quindi leggi il profilo anteriore reale piuttosto che assumere lo stesso movimento dal solo nome della categoria.
 
 Il nakiri è ancora un tagliente vegetale sottile e non è destinato all'osso, al cibo congelato o all'impatto.
 
