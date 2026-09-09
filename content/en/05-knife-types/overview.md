@@ -3,7 +3,7 @@ title: Knife Shapes and Their Uses
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-09
 translation_priority: highest
 source_basis: general knife geometry and technique, illustrated with current Xinzuo examples
 ---
@@ -89,7 +89,13 @@ The form is especially well suited to **vegetables and fish**, including fine ve
 
 The nakiri is a thin, tall, double-bevel vegetable knife built for broad board contact. Its relatively straight edge makes push cutting and vertical chopping efficient, while its height gives room for the guiding hand and for transferring prepared vegetables.
 
-Nakiri fronts vary. Some have a strongly rounded, unsharpened front corner; others carry the sharpened edge farther forward. A round-tip nakiri works especially well for compact rock chopping and fine mincing. The rounded front can pivot on the board, the tall blade gives knuckle clearance and a clear guide against the non-cutting hand, and the straight working edge keeps useful board contact through a short controlled arc. This creates a compact rocking motion without the deep belly of a Western chef's knife. It works particularly well for herbs and finely chopped vegetables, and the rounded front is less vulnerable than a fine K-tip during repeated board work.
+Nakiri fronts vary. Some have a square or only slightly rounded front, while some designs use a deliberately pronounced round tip. On a **round-tip nakiri**, the rounded front is a functional part of the cutting geometry: it is designed to create a stable pivot point for compact rocking movements.
+
+The rounded front can remain in controlled contact with the board while the heel rises and falls through a short arc. This gives the knife a compact pivot without requiring the deep belly of a Western chef's knife. The tall blade preserves knuckle clearance and a broad guide for the supporting hand, while the relatively straight working edge behind the pivot returns cleanly to the board.
+
+The design therefore combines two useful behaviours in one vegetable knife: **the straight section supports efficient push cutting and chopping, while the rounded front supports controlled compact rocking**. This is particularly effective for herbs, fine vegetable mincing and repeated short board work.
+
+Use the round tip as a short, controlled pivot rather than forcing the knife into the wide rocking stroke of a strongly curved chef's knife. Not every nakiri uses this geometry, so read the actual front profile rather than assuming the same movement from the category name alone.
 
 The nakiri is still a thin vegetable cutter and is not intended for bone, frozen food or impact.
 
