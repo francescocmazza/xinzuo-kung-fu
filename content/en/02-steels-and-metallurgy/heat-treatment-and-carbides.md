@@ -3,13 +3,13 @@ title: Heat Treatment and Carbides
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-09
 translation_priority: high
 ---
 
 # Heat Treatment and Carbides: Turning Composition into a Blade
 
-A steel grade is a recipe, not finished performance. Composition tells us which elements are present and which internal structures are possible. **Heat treatment decides which structures develop in the blade and in what proportions.**
+A steel grade is a composition, not finished performance. Composition tells us which elements are present and which internal structures are possible. **Heat treatment decides which structures develop in the blade and in what proportions.**
 
 To understand that process, we first need a simple picture of what steel looks like inside.
 
@@ -17,7 +17,7 @@ To understand that process, we first need a simple picture of what steel looks l
 
 A finished piece of steel looks like one solid material, but it is not normally one single crystal. It is **polycrystalline**: it is made from a very large number of microscopic crystals called **grains**.
 
-Inside each grain, iron atoms are arranged in a repeating geometric pattern. That arrangement can change when the steel is heated or cooled. Different arrangements are called **phases**. A phase is simply a form of the material with a particular internal structure and composition.
+Inside each grain, iron atoms are arranged in a repeating geometric pattern. That arrangement can change when the steel is heated or cooled. Different arrangements are called **phases**. A phase is a form of the material with a particular internal structure and composition.
 
 The most useful phases to recognize in knife steel are:
 
@@ -36,7 +36,7 @@ Metallurgists often use the word **matrix**. The matrix is the continuous part o
 
 Think of the steel as an extremely fine stone floor. The continuous floor is the matrix. The floor itself is divided into many microscopic crystal grains. Inside it are harder particles such as carbides.
 
-This comparison is simplified, but it explains why the same chemical recipe can behave differently after different processing. The hardness and toughness of the matrix, the size of its grains, the amount of retained austenite and the type, size and distribution of carbides all influence the finished blade.
+This comparison is simplified, but it explains why the same chemical composition can behave differently after different processing. The hardness and toughness of the matrix, the size of its grains, the amount of retained austenite and the type, size and distribution of carbides all influence the finished blade.
 
 ## What carbides are
 
@@ -54,7 +54,7 @@ Before final hardening, steel often goes through earlier heating and cooling ste
 
 The basic purpose is to put the steel into a controlled starting condition. In many knife steels this means making it soft enough to machine or grind while keeping carbon and carbides distributed in a form suitable for the later hardening cycle.
 
-Final heat treatment does not start from a blank state. Grain size, carbide size and distribution, chemical segregation and previous heating all affect what happens next.
+Final heat treatment does not begin from an identical starting condition in every piece of steel. Grain size, carbide size and distribution, chemical segregation and previous heating all affect what happens next.
 
 ## 2. Austenitizing: creating the high-temperature phase
 
@@ -80,7 +80,7 @@ Vacuum treatment does not itself make the steel hard. It controls the environmen
 
 After austenitizing, the blade is cooled quickly enough to prevent the steel from changing into the softer structures that would form during slower cooling.
 
-When the cooling is fast enough, much of the austenite transforms into **martensite**. The iron atoms change arrangement before the carbon atoms have enough time to move to more comfortable positions. Carbon becomes trapped in a strained crystal structure.
+When the cooling is fast enough, much of the austenite transforms into **martensite**. The iron atoms change arrangement before the carbon atoms have enough time to move to more stable positions. Carbon becomes trapped in a strained crystal structure.
 
 That distortion is a major reason fresh martensite is so hard. It strongly resists permanent deformation, which is useful at a cutting edge.
 
@@ -113,7 +113,7 @@ Selected Xinzuo series specify **vacuum heat treatment and deep freeze**. These 
 
 Vacuum processing controls the atmosphere during high-temperature treatment. Deep freezing is a later low-temperature step used when the steel and recipe call for further transformation of retained austenite.
 
-Neither term should be read as a stand-alone quality badge. Its value comes from how it fits the complete treatment.
+Neither term should be treated as a stand-alone sign of quality. Its value comes from how it fits the complete treatment.
 
 ## 5. Tempering: making martensite usable
 
@@ -133,7 +133,7 @@ A correct furnace cycle can still be damaged later.
 
 Grinding and sharpening generate heat at the surface. The edge is extremely thin, so it can overheat much faster than the thick body of the blade. If the hardened edge becomes too hot, it can be unintentionally tempered above the intended temperature and lose hardness or stability.
 
-Controlled grinding, cooling and careful sharpening are therefore part of the heat-treatment result. Metallurgy does not stop when the blade leaves the furnace.
+Controlled grinding, cooling and careful sharpening are therefore part of the final heat-treatment result. Metallurgical control continues after the blade leaves the furnace.
 
 ## The main carbide families in knife steels
 
@@ -172,7 +172,7 @@ This is one reason powder metallurgy is valuable for many highly alloyed steels:
 
 The carbide structure of a finished knife is not identical to the one that existed before hardening.
 
-During austenitizing, some carbides dissolve and release carbon and alloying elements into austenite. During cooling and tempering, new carbides can form. The final blade therefore contains a result created by both **composition and its complete heating and cooling history**.
+During austenitizing, some carbides dissolve and release carbon and alloying elements into austenite. During cooling and tempering, new carbides can form. The final blade therefore contains a structure created by both **composition and the complete heating and cooling history**.
 
 This redistribution changes several properties at the same time:
 
