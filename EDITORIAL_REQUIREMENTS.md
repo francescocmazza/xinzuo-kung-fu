@@ -41,6 +41,17 @@ This file records the current editorial constraints for *The Gongfu of Xinzuo*. 
 - Preserve technical meaning and necessary boundaries. The purpose of this rule is not to remove nuance, but to make the reader understand the main proposition on the first pass.
 - Apply the same sentence-order principle to translations. A translation should sound natural in its target language rather than mechanically preserving an awkward English word order.
 
+## Translation-safe wording
+
+- English is the source text for the multilingual pipeline. Write the English so that its meaning is explicit before translation begins.
+- Prefer common words with one clear meaning in context. When a common English word is being used figuratively, replace it with a direct verb when the direct verb preserves the meaning.
+- In particular, use **read** only for the literal act of reading written information. Do not use **read** to mean **understand**, **examine**, **study**, **evaluate**, **compare**, **check** or **interpret** when one of those verbs states the intended action more clearly.
+- Avoid unnecessary idioms, phrasal expressions, culture-specific wordplay and metaphors that add style without adding understanding. Avoid anthropomorphic descriptions when a literal explanation is equally clear.
+- Keep a metaphor or analogy only when it materially improves understanding of a difficult mechanism and its meaning can be translated reliably.
+- Technical terminology is not a problem when it is necessary. Introduce a technical term in plain language at first use, then use the same term consistently rather than varying it with approximate synonyms.
+- Prefer explicit physical descriptions over impressionistic English when both express the same idea. For example, prefer **stable and forceful in motion** to **authoritative**, **mass distributed toward the blade** to **planted**, and **overcome resistance** to **attack resistance**.
+- During every editorial pass, check for common English words carrying an unusual figurative meaning, especially **read, sit, carry, push, drive, live with, attack, chase, tell, reward, badge, window, route, tier, ceiling** and similar words. Keep them when their literal meaning is intended; replace them when a clearer direct expression exists.
+
 ## Preserve useful content during rewrites
 
 - A structural rewrite, shortening pass or chapter merge must not silently delete useful explanatory content simply because it is absent from the new outline.
@@ -63,7 +74,7 @@ This file records the current editorial constraints for *The Gongfu of Xinzuo*. 
 - Each knife form should have its own directly associated image rather than relying on a confusing composite plate.
 - Use Xinzuo product photographs/icons for knife-shape illustrations rather than newly generated knife drawings when an approved Xinzuo image is available.
 - Knife-profile photographs must show the **entire knife**, including full handle and tip, without clipping or hiding any part of it.
-- In every knife-profile photograph, the **cutting edge must read downward and the spine upward**. Handle-left versus handle-right is secondary. Rotation is allowed; mirroring should not be used because it can reverse logos, grind handedness and other asymmetric details.
+- In every knife-profile photograph, the **cutting edge must point downward and the spine upward**. Handle-left versus handle-right is secondary. Rotation is allowed; mirroring should not be used because it can reverse logos, grind handedness and other asymmetric details.
 - Image containers and print styling must use contain/fit logic that accounts for the rotated bounding box; do not use clipping as a way to force a photograph into its frame.
 - Curved paring knife: use the Xinzuo **B9H-SG** image stored at `content/en/assets/images/approved/knife-shapes/paring-curved.jpg`.
 - Straight paring knife: use the Xinzuo **B13R-SG** image.
@@ -71,12 +82,13 @@ This file records the current editorial constraints for *The Gongfu of Xinzuo*. 
 - Do not add a disclaimer explaining the absence of the flat-cut paring knife; simply omit the category.
 - Do not include a butter-knife profile in the knife-shape chapter.
 - Keep the distinction between Western chef's knife and gyuto clear, including the gyuto's typically flatter profile and less meat-oriented Western belly emphasis, without presenting category names as rigid laws.
-- Santoku: describe it as primarily vegetable-oriented but highly versatile. When explaining forward mass, state the mechanical point plainly: all else equal, greater moving mass gives greater momentum, and at the same acceleration greater force; in practical push cutting this can give a front-weighted santoku more authority.
+- Santoku: describe it as primarily vegetable-oriented but highly versatile. When explaining forward mass, state the mechanical point plainly: all else equal, greater moving mass gives greater momentum, and at the same acceleration greater force; in practical push cutting this can give a front-weighted santoku a more stable and forceful feel.
 - Bunka: explain that the K-tip combines a comparatively large board-working blade with utility-like front-end precision; emphasize vegetables, fish, trimming and fine/detail work.
 - Western boning knife: explicitly explain that the narrow blade height is fundamental because the knife must remain agile and continuously change cutting angle while following joints and bone.
 - Fillet knives made from particularly hard steels must carry a clear warning against deliberately forcing deep flex or twisting: excessive lateral stress can chip, crack or fracture the blade and can create an injury hazard.
 - Steak knives: preserve the practical serrated-versus-plain-edge distinction. Serrations keep apparent cutting ability longer but tear fibres more; a sharp plain edge is preferable for premium meat, while direct ceramic-plate contact dulls it quickly. The ideal premium-meat setup is a sharp plain edge used on a suitable wooden cutting surface.
 - Bread knife: preserve the historical/practical explanation of why serrations solve the problem of entering resistant surfaces without crushing soft interiors, and explain that a very sharp modern plain edge can handle many present-day breads even though serrations remain valuable for appropriate products.
+- Roast carving knife: explain that its pronounced upward curve follows the same geometric principle as the belly of a chef's knife. During a mainly horizontal draw, the changing angle of the curved edge creates a progressive downward component at the point of contact, helping the edge penetrate meat fibres while it moves across them. The curve also follows the rounded surface of a roast and supports a smooth finish to the slicing stroke.
 
 ## Weight, balance and ergonomics
 
