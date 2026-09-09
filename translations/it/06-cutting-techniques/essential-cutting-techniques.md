@@ -1,5 +1,5 @@
 ---
-source_hash: a328feeb5bd54892b7e5565e05f11a1d4f98d649470e0ece4315bd24e19553b8
+source_hash: 1cb653349033b86c2ba9e5cae9dbddbebc8d6e8814e4c0b7007d32cfcd6bb087
 ---
 
 # Come tagliare - tecniche essenziali del coltello
@@ -31,7 +31,7 @@ I movimenti della cucina non sono quattro categorie sigillate. Un vero e proprio
 | Incontra il consiglio su una vasta sezione piatta | Regolari pezzi di verdure e lavorazione a bordo diretto | Nakiri, flatter santoku, bunka o gyuto |
 | Avanza durante la discesa | Riduce il wedging e utilizza una breve azione di affettatura | Gyuto, santoku, bunka e molti coltelli per uso generale |
 | Viaggia lungo la sua lunghezza attraverso il cibo | Attraversa cibi ampi o delicati con minori interruzioni | Affettatrici intaglianti e sashimi |
-| Mantiene una zona vicino alla tavola mentre un'altra sale | Ripete il lavoro di triturazione attraverso un arco controllato | Coltelli da cuoco curvi o profili arrotondati adatti |
+| Mantiene una zona vicino alla tavola mentre un'altra sale | Ripete il lavoro di triturazione attraverso un arco controllato | Nakiri, coltelli da cuoco curvi o profili curvi adatti |
 
 I nomi qui sotto descrivono movimenti dominanti, non regole rigide. Scegli il percorso che permette al bordo di passare attraverso l'ingrediente con controllo e senza forzare la lama ad imitare una geometria che non ha.
 
