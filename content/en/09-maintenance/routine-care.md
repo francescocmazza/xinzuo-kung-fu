@@ -23,7 +23,7 @@ Do not leave the knife soaking in a sink. Besides increasing corrosion risk, a s
 
 Rinse salt and acidic foods promptly. Tomato, citrus, vinegar, onions, brine and similar ingredients can accelerate staining or corrosion when left on the blade.
 
-Dry the blade immediately with a clean cloth, moving from the spine toward the edge rather than wrapping fingers around it. Dry the handle and the area around the bolster or ferrule too.
+Dry the blade immediately with a clean cloth, moving from the spine toward the edge rather than wrapping fingers around it. Dry the handle and the area around the bolster or collar too.
 
 ## Why dishwashers are poor for quality knives
 
@@ -116,7 +116,7 @@ Check for:
 - a bent or damaged tip;
 - active rust or pitting;
 - cracks or looseness in the handle;
-- gaps around the bolster, ferrule or scales;
+- gaps around the bolster, collar or scales;
 - a wet or contaminated sheath or guard.
 
 Small problems are easier to correct than large repairs. Continuing to use a chipped edge, loose handle or badly rolled apex can worsen damage and create a safety risk.
