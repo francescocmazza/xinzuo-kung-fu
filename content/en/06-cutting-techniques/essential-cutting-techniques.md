@@ -3,7 +3,7 @@ title: How to Cut - Essential Knife Techniques
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-04
+reviewed: 2026-09-09
 translation_priority: highest
 ---
 
@@ -36,7 +36,7 @@ Kitchen movements are not four sealed categories. A real cut can combine vertica
 | Meets the board across a broad, flat section | Regular vegetable pieces and direct board work | Nakiri, flatter santoku, bunka or gyuto |
 | Advances while descending | Reduces wedging and uses a short slicing action | Gyuto, santoku, bunka and many general-purpose knives |
 | Travels along its length through the food | Crosses wide or delicate food with fewer interruptions | Carving and sashimi slicers |
-| Keeps one area near the board while another rises | Repeats mincing work through a controlled arc | Nakiri, Curved chef's knives or suitable curved profiles |
+| Keeps one area near the board while another rises | Repeats mincing work through a controlled arc | Round-tip nakiri, curved chef's knives or suitable curved profiles |
 
 The names below describe dominant movements, not rigid rules. Choose the path that lets the edge pass through the ingredient with control and without forcing the blade to imitate a geometry it does not have.
 
@@ -93,13 +93,15 @@ Think **forward, down, release**. Forward starts the slice, down completes it, a
 
 ### What the movement looks like
 
-The heel or rear of the knife starts near the ingredient and the blade travels toward the user as it cuts. A long carving knife can use most of its edge in one smooth draw.
+The heel or rear of the knife starts near the far side of the ingredient and the blade travels toward the near edge of the board as it cuts. A long carving knife can use most of its edge in one smooth draw.
 
 This is the natural movement of carving knives. A long double-bevel carving knife is a versatile slicer for boneless meat and fish; the yanagiba is a specialist single-bevel slicer for raw fish. A chef's knife can use the same movement for boneless meat or a ripe tomato.
 
+The direction of the blade does not mean the cutting path should point into the user's body. Arrange the food, board and stance so that the projected path of the edge remains clear of both the supporting hand and the body.
+
 ### Try it with a boneless cooked chicken breast
 
-Place the breast across the board. Set the heel just beyond the far side. Use light pressure and draw the blade toward you in one long movement, keeping the path clear of the supporting hand and body. If the slice is incomplete, reset and make another long pass. Avoid short rapid sawing unless the food or a serrated edge requires it.
+Place the breast across the board. Set the heel just beyond the far side. Use light pressure and draw the blade in one long movement toward the near edge of the board, while keeping the projected cutting path clear of the supporting hand and body. If the slice is incomplete, reset and make another long pass. Avoid short rapid sawing unless the food or a serrated edge requires it.
 
 ### Why it works
 
@@ -117,15 +119,19 @@ With a Western chef's knife, the front of the edge stays on or near the board wh
 
 This movement depends on curvature. Do not force a very flat blade with no suitable front transition to imitate it.
 
-### Why the round-tip nakiri suits a compact rock
+### Why the round tip is designed for compact rocking
 
-A **round-tip nakiri** solves the same problem with different geometry. Its rounded front, rather than a long belly, can stay in controlled contact with the board while the heel rises and falls through a short arc. The extreme nose is normally unsharpened or transitions safely away from a piercing point.
+On a **round-tip nakiri**, the rounded front is not merely a safer or less pointed version of the traditional profile. It is a functional design feature intended to create a stable pivot point for compact rocking movements.
 
-For compact rocking, this geometry is close to ideal. The rounded nose creates a broad, predictable pivot instead of loading a fragile point. The tall blade gives knuckle clearance and a clear guide for the non-cutting hand. Behind the pivot, the relatively straight edge lands decisively on the board, cutting herbs and small ingredients cleanly instead of leaving them connected under an overly curved belly.
+The rounded front can remain in controlled contact with the board while the heel rises and falls through a short arc. This lets the knife pivot smoothly without requiring the deep belly of a Western chef's knife and without concentrating repeated board contact on a delicate point.
 
-Use a **short, controlled pivoting movement**, not the exaggerated sweep of a classic chef's knife. Keep the front planted, raise the heel only as much as needed and advance through the pile in small steps. This works especially well for herbs, fine vegetable mincing and repeated compact board work.
+The rest of the geometry supports the same movement. The tall blade provides knuckle clearance and a broad guide for the supporting hand, while the relatively straight cutting edge behind the rounded front returns cleanly to the board. This combination is particularly effective for herbs, fine vegetable mincing and repeated compact board work.
 
-The rounded front is functional, not simply a tip with less piercing ability. It creates a stable board-contact point that tolerates repeated pivoting better than a delicate K-tip.
+Use a **short, controlled pivot**, not the wide rocking stroke of a strongly curved chef's knife. Keep the rounded front lightly in contact with the board, raise the heel only as much as necessary and advance gradually through the food.
+
+This does not change the nakiri's fundamental strength as a vegetable knife for push cutting and chopping. The round-tip design deliberately adds a second working geometry: **the straight section provides efficient board contact, while the rounded front provides a controlled pivot for compact rocking.**
+
+Not every nakiri uses this design. Square-front and differently shaped nakiri should be read according to their own geometry.
 
 ### Try it with parsley
 
@@ -235,8 +241,8 @@ Use inexpensive, stable ingredients and stop before fatigue reduces control.
 - Choose and understand the grip in the weight-and-balance chapter; do not relearn the same grip taxonomy here.
 - Straight chopping uses a flat section of edge.
 - Push cutting moves forward and down.
-- Draw slicing uses blade length and minimizes compression.
-- A curved chef's knife suits a wide rolling rock; a round-tip nakiri suits a short, stable pivot rock.
+- Draw slicing uses blade length and minimizes compression; arrange the stance so the projected cutting path remains clear of the body.
+- A curved chef's knife suits a wide rolling rock; a round-tip nakiri is deliberately designed to provide a short, stable pivot for compact rocking.
 - Uniform preparation begins by stabilizing and orienting the food.
 - Specialist knives reward the movement they were designed for.
 - Speed is the result of control, not a substitute for it.
