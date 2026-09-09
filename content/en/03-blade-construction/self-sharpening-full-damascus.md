@@ -9,7 +9,7 @@ translation_priority: high
 
 # The Self-Sharpening Effect in Full Damascus Blades
 
-**Self-sharpening** does not mean that a knife sharpens itself or restores a worn edge. In some full-Damascus constructions, alternating steels can wear at slightly different rates at the cutting edge. When this happens, the apex can develop or preserve a microscopic tooth-like character that supports slicing bite.
+**Self-sharpening** does not mean that a knife sharpens itself or restores a worn edge. In some full-Damascus constructions, alternating steels can wear at slightly different rates at the cutting edge. When this happens, the apex can develop or preserve a microscopic tooth-like structure that supports slicing bite.
 
 Imagine a surface made from alternating strips of two materials. If one wears faster than the other, the surface gradually becomes microscopically uneven. At a knife edge, a similar process can occur when different materials reach the apex and retain sufficiently different wear behaviour after forging and heat treatment.
 
@@ -46,7 +46,7 @@ When a meaningful difference remains, the less wear-resistant material can reced
 
 Every cutting edge changes with use. The apex gradually rounds, bends, wears or loses microscopic fragments. Board contact removes material, while food creates friction along the edge.
 
-In a full-Damascus edge that retains a useful difference in wear behaviour between its layers, the less wear-resistant material can recede faster while the more wear-resistant material remains slightly more prominent. This can preserve a fine saw-like character that helps the edge catch food and begin a slicing cut.
+In a full-Damascus edge that retains a useful difference in wear behaviour between its layers, the less wear-resistant material can recede faster while the more wear-resistant material remains slightly more prominent. This can preserve a fine saw-like structure that helps the edge grip food and begin a slicing cut.
 
 The effect is especially relevant during slicing, where the blade moves forward or backward through skins, fibres and other resistant surfaces.
 
@@ -64,13 +64,13 @@ The knife still requires normal sharpening.
 
 Differential wear cannot repair chips, straighten a badly rolled apex or reverse damage from glass, ceramic, frozen food, hard bone or strong lateral stress.
 
-A suitable full-Damascus construction can help preserve useful slicing aggression between sharpening sessions, but it does not make the knife maintenance-free.
+A suitable full-Damascus construction can help preserve useful slicing bite between sharpening sessions, but it does not make the knife maintenance-free.
 
 ## Comparing it with a serrated knife
 
 A bread knife has large, visible teeth that can continue starting a cut even after the points are no longer perfectly sharp. This gives long-lasting slicing aggression.
 
-Full-Damascus differential wear, when present, works on a much smaller scale. There are no visible serrations, and the blade still behaves like a fine kitchen knife. The microscopic tooth-like character develops because the materials at the apex wear differently.
+Full-Damascus differential wear, when present, works on a much smaller scale. There are no visible serrations, and the blade still behaves like a fine kitchen knife. The microscopic tooth-like structure develops because the materials at the apex wear differently.
 
 A bread knife has teeth ground into its geometry. A full-Damascus blade can develop microscopic variation through differential wear.
 
@@ -88,7 +88,7 @@ Normal stone sharpening restores the apex. Because the layers continue through t
 
 Follow the existing edge bevel unless you intend to change the geometry. Use abrasives suited to the steels, remove only enough material to restore the apex, form and remove the burr cleanly, and choose the final grit for the intended cutting style.
 
-A highly polished finish may initially reduce toothy feel. If the finished layered material develops differential wear during use, microscopic bite can develop again as the layers wear at different rates.
+A highly polished finish may initially reduce slicing bite. If the finished layered material develops differential wear during use, microscopic bite can develop again as the layers wear at different rates.
 
 ## What this means for Xinzuo full Damascus
 
