@@ -3,13 +3,13 @@ title: Safe Use and Carrying
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-06
+reviewed: 2026-09-09
 translation_priority: high
 ---
 
 # Safe Use and Carrying
 
-A good kitchen knife cuts with very little effort. That is why safety must come from habits, not hesitation.
+A good kitchen knife cuts with very little effort. Safe use therefore depends on consistent habits and controlled movement.
 
 People often say a sharp knife is safer than a dull one. The idea is useful but incomplete.
 
@@ -21,7 +21,7 @@ Use one short check before every session:
 
 > **Stable board. Stable food. Clear path. Hidden fingertips.**
 
-All four matter. A perfect claw grip cannot rescue a rolling onion, and stable food is not enough if the board slides.
+All four matter. A correct claw grip cannot make a rolling onion safe, and stable food is not enough if the board slides.
 
 ## Create a safe working area before cutting
 
@@ -74,13 +74,13 @@ Whatever grip you use, hold the knife securely without unnecessary tension, keep
 
 The supporting hand should guide the food while keeping fingertips out of the cutting path. In the **claw** grip, fingertips curl inward and the side of the blade moves against the first joints. The claw is a moving guide, not a pose to imitate at professional speed.
 
-[How to Cut](../06-cutting-techniques/essential-cutting-techniques.md) explains the movements themselves. The safety rule is simpler: use a stable grip, keep the supporting hand behind the cutting line and never trade control for speed.
+[How to Cut](../06-cutting-techniques/essential-cutting-techniques.md) explains the movements themselves. The safety rule is simpler: use a stable grip, keep the supporting hand behind the cutting line and do not increase speed at the expense of control.
 
-## Let the edge do the work
+## Use only the force the cut requires
 
 A well-sharpened knife should not need excessive force.
 
-If the blade does not enter easily, stop and find the reason. The edge may be dull, the food unstable, the knife unsuitable or the movement wrong for the profile.
+If the blade does not enter easily, stop and identify the reason. The edge may be dull, the food unstable, the knife unsuitable or the movement wrong for the profile.
 
 Excessive force can make:
 
@@ -120,7 +120,7 @@ Do not scrape food across the board with the cutting edge. Use the spine, blade 
 
 Never leave a knife hidden under soapy water or mixed with other objects in the sink. Wash it individually with mild detergent and a soft sponge, keeping the edge away from the hand. Dry it immediately from the spine side without wrapping fingers around the edge.
 
-A dishwasher can also hide a sharp blade among other utensils. Hand washing solves both the safety and material-care problems.
+A dishwasher can also hide a sharp blade among other utensils. Hand washing avoids both the safety and material-care problems.
 
 ## Passing a knife to another person
 
@@ -130,7 +130,7 @@ Open both hands with the palms facing upward and lay the knife flat across them 
 
 The other person takes the knife by the handle and lifts it from the open palms. The person offering the knife does not close the fingers around it, pull it back or make another movement while it is being taken. The transfer is complete only when the other person has full control of the handle.
 
-This small ritual makes the movement clear and predictable: the knife is visible, nobody is competing for the same grip, and the person receiving it decides when to take it.
+This procedure makes the transfer clear and predictable: the knife is visible, only one person controls the handle at a time, and the person receiving it decides when to take it.
 
 Never throw, slide or casually reach a knife toward someone.
 
@@ -186,7 +186,7 @@ On a magnetic strip, place the spine against the strip first and rotate the blad
 
 ## What to do if a knife falls
 
-Learn the saying: "A falling knife is a knife without handle". Never try to catch it.
+Never try to catch a falling knife.
 
 Move your feet away and let the knife fall. Once it stops moving, pick it up by the handle and inspect it for damage.
 
