@@ -3,7 +3,7 @@ title: Damascus Steel - Pattern, History and Construction
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-04
+reviewed: 2026-09-09
 translation_priority: highest
 ---
 
@@ -20,7 +20,7 @@ That question separates four families:
 | **Crucible-pattern steel** | One high-carbon steel mass with an internally developed structure | Bands and particles formed through solidification and controlled forging |
 | **Surface-decorated blade** | The underlying blade steel | A design applied only to the exterior |
 
-These families may look related, but they answer different technical questions. Pattern is evidence to investigate, not proof of performance.
+These families may look related, but they answer different technical questions. A visible pattern identifies something that should be investigated; it does not prove performance.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-FINISH-01">
 <img src="../../assets/images/approved/damascus-pattern-knives-neutral.png" alt="" width="330" height="700">
@@ -45,7 +45,7 @@ A smith or industrial producer joins compatible steels into a billet. The billet
 
 Polishing first makes the surface geometrically clean. Controlled etching then increases contrast because the steels do not react at the same rate. Nickel-rich layers commonly resist the etchant more strongly and remain brighter, while other layers darken more. The etchant reveals differences already present inside the billet.
 
-The final appearance depends on the entire route:
+The final appearance depends on the entire process:
 
 - steel selection;
 - starting layer arrangement;
@@ -56,7 +56,7 @@ The final appearance depends on the entire route:
 - the chosen etchant and exposure;
 - any later surface treatment.
 
-This is why two blades carrying the same layer count can show different line spacing, contrast and movement.
+This is why two blades with the same layer count can show different line spacing, contrast and movement.
 
 ## What layer count can tell us
 
@@ -74,7 +74,7 @@ They do not reveal:
 - corrosion behaviour;
 - whether the count refers to cladding or to a full pattern-welded blade.
 
-More layers can make the visible structure finer or more crowded. They do not create an automatic performance ladder. A lower-layer knife with better heat treatment and geometry can outperform a higher-layer knife.
+More layers can make the visible structure finer or more crowded. They do not create an automatic performance ranking. A lower-layer knife with better heat treatment and geometry can outperform a higher-layer knife.
 
 ## Performance follows construction
 
@@ -82,7 +82,7 @@ For a clad blade, begin with the core. A ZDP-189, SRS13, M390, 14Cr14MoVNb, AUS-
 
 For a full pattern-welded blade, identify both working steels and how they meet at the edge. Differential wear can preserve microscopic cutting aggression when the layer system and geometry are designed for it. This effect comes from the material that reaches the apex, not from the visible waves higher on the blade.
 
-In either case, the food experiences the complete knife: edge finish, thickness, convexity, blade height, surface texture and movement. A deep etch may change friction slightly. A polished face may move differently through sticky food. Neither guarantees food release.
+Cutting behaviour depends on the complete knife: edge finish, thickness, convexity, blade height, surface texture and movement. A deep etch may change friction slightly. A polished face may move differently through sticky food. Neither guarantees food release.
 
 ## Surface decoration is a separate category
 
@@ -131,16 +131,16 @@ Xinzuo answers that question through several structures:
 
 The [Xinzuo Blade Steels guide](../02-steels-and-metallurgy/xinzuo-blade-steels.md) explains the core materials. [Self-Sharpening Full Damascus](self-sharpening-full-damascus.md) explains differential wear when alternating materials reach the apex.
 
-## A reliable reading sequence
+## A reliable evaluation sequence
 
 When examining a patterned knife:
 
 1. Find what forms the apex: a separate core, alternating layers or one crucible steel.
 2. Identify the steels and verified heat treatment.
-3. Read thickness, grind and edge geometry.
-4. Check whether the visible design runs through the metal or sits only on the surface.
+3. Check thickness, grind and edge geometry.
+4. Check whether the visible design runs through the metal or exists only on the surface.
 5. Interpret layer count and pattern only after the working structure is clear.
 
-This order prevents appearance from standing in for engineering.
+This order prevents appearance from being mistaken for engineering performance.
 
 > **Practice principle:** identify the working steel first; interpret the pattern last.
