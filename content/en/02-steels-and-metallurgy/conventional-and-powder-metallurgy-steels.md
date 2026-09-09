@@ -3,13 +3,13 @@ title: Conventional and Powder-Metallurgy Steels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-09
 translation_priority: highest
 ---
 
 # Conventional and Powder-Metallurgy Steels
 
-Composition is only the beginning. Once the alloy recipe is chosen, the next question is **how that chemistry becomes solid steel**.
+Composition is only the beginning. Once the alloy composition is chosen, the next question is **how that chemistry becomes solid steel**.
 
 Two steels with very similar compositions can develop different internal structures because they solidified in different ways. This matters especially in highly alloyed knife steels, where local carbide size and distribution can affect sharpening, toughness and wear resistance.
 
@@ -25,7 +25,7 @@ Think of the matrix as the continuous body of the material and the carbides as h
 
 A hard matrix helps the cutting edge resist deformation. Hard carbides can improve wear resistance. Their **size, amount and distribution** also matter. Many small, evenly distributed carbides behave differently from a few large clusters even when the total chemical composition is the same.
 
-The next chapter on heat treatment will explain how the matrix can change between structures such as austenite and martensite and how carbides can dissolve or form during heating and cooling. Here we only need to understand how the steelmaking route affects the starting distribution.
+The next chapter on heat treatment explains how the matrix can change between structures such as austenite and martensite and how carbides can dissolve or form during heating and cooling. Here we only need to understand how the steelmaking route affects the starting distribution.
 
 ## Why a large ingot can become uneven
 
@@ -47,7 +47,7 @@ The powder is then sealed and consolidated under very high temperature and press
 
 No loose powder remains inside the finished blade. The final material is dense steel.
 
-A useful image is:
+A useful comparison is:
 
 > Conventional metallurgy solidifies one large body of steel and then works it into shape. Powder metallurgy solidifies millions of tiny pieces first, then joins them into one dense body.
 
@@ -55,12 +55,12 @@ A useful image is:
 
 Powder metallurgy can give highly alloyed steel a **finer and more even distribution of carbides and alloying elements** than conventional ingot processing of the same composition.
 
-This can improve several things at once. Smaller carbides are less disruptive to a very fine cutting edge. More even distribution reduces local areas that are unusually weak or unusually resistant to abrasion. A highly alloyed steel can therefore carry a large population of wear-resistant carbides while retaining better toughness than the same composition would usually achieve with a coarser conventional structure.
+This can improve several things at once. Smaller carbides are less disruptive to a very fine cutting edge. More even distribution reduces local areas that are unusually weak or unusually resistant to abrasion. A highly alloyed steel can therefore contain many wear-resistant carbides while retaining better toughness than the same composition would usually achieve with a coarser conventional structure.
 
 This does not mean every powder steel is better than every conventional steel. A simple, well-designed conventional steel can have a very fine structure, excellent toughness and excellent edge behaviour. Powder metallurgy becomes most useful when the alloy composition itself would otherwise encourage large or uneven carbides.
 
 It also does not make later processing unimportant. Poor heat treatment can still waste the potential of excellent powder steel, and poor geometry can still make an excellent alloy cut badly.
 
-Xinzuo steels such as SRS13, M390, ZDP-189 and 14Cr14MoVNb should be read in this context. Their performance does not come from the word **powder** alone. It comes from composition, powder-metallurgy processing, heat treatment and blade geometry working together.
+Xinzuo steels such as SRS13, M390, ZDP-189 and 14Cr14MoVNb should be understood in this context. Their performance does not come from the word **powder** alone. It comes from composition, powder-metallurgy processing, heat treatment and blade geometry working together.
 
-Remember the sequence: **the steel recipe tells us what elements are present; the manufacturing route affects how evenly the matrix and carbides begin; heat treatment develops the final microstructure; and edge geometry determines how that structure meets the food.**
+Remember the sequence: **the steel composition tells us what elements are present; the manufacturing route affects how evenly the matrix and carbides begin; heat treatment develops the final microstructure; and edge geometry determines how that structure meets the food.**
