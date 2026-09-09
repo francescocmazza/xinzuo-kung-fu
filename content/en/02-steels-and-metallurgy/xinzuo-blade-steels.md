@@ -3,7 +3,7 @@ title: Xinzuo Blade Steels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-09
 translation_priority: highest
 source_basis: Xinzuo 2025 product information, manufacturer technical data, and current Xinzuo internal product-development notes
 ---
@@ -103,17 +103,59 @@ For kitchen use, AUS-10 sits in much the same practical class as **VG10**. They 
 
 AUS-10 offers more performance than basic stainless steels while remaining easier to maintain than the highest-wear powder steels. Its strength is balance rather than dominance in one metric.
 
-### VG10: the Japanese benchmark and why it matters to Xinzuo
+### VG10: a benchmark that pushed steel development forward
 
-VG10 is a proprietary Japanese stainless cutlery steel produced by **Takefu Special Steel**. Takefu publishes about 1% carbon, 15% chromium, 1% molybdenum, 0.25% vanadium and roughly 1.55% cobalt, with quenched hardness of HRC 60 or higher. The manufacturer highlights corrosion resistance, durable sharpness, wear resistance, ease of manufacturing and relatively straightforward sharpening.
+VG10 is a proprietary Japanese stainless cutlery steel produced by **Takefu Special Steel**. With approximately 1% carbon, 15% chromium, molybdenum, vanadium and cobalt, it became one of the best-known steels in modern Japanese kitchen knives.
 
-VG10 became one of the defining reference steels for premium mass-market Japanese kitchen knives. Its importance is therefore partly historical and commercial: it established a familiar expectation of roughly 60 HRC, good stainless behaviour, useful edge life and manageable sharpening in one package.
+Its success came from balance rather than from one extreme property. Properly heat-treated VG10 combines relatively high hardness, good corrosion resistance, useful edge retention and manageable sharpening. For many years, this made it an important reference point for premium stainless kitchen knives.
 
-That makes VG10 a valuable **benchmark**, not an upper limit for the category. Modern or differently optimized all-round stainless formulations can preserve the same broad virtues while moving more performance toward corrosion stability, edge behaviour or another part of the balance. The steel name alone also cannot show the quality of the heat treatment, geometry or finished blade.
+For this reason, VG10 is useful as a benchmark when discussing other all-round knife steels.
 
-At the time of this edition, **VG10 is not a normal Xinzuo production steel because the producer restricts supply for material destined for China**. Current Xinzuo procurement information indicates that Takefu does not normally authorize VG10 supply for Chinese production. Xinzuo is discussing specific authorization to purchase and use genuine VG10. This may change in future editions and is a procurement issue, not a metallurgical property.
+#### The particular situation in China
 
-Verified supply matters because Takefu publicly warns about counterfeit or similar products sold under the VG10 name. If Xinzuo adopts it, genuine Takefu material matters more than the letters printed on the blade.
+At the time of this edition, **genuine VG10 produced by Takefu Special Steel is not available in China for knife production**.
+
+This point deserves some attention because the designation *VG10* can still be found on knives manufactured in China. A steel name in a product description does not by itself establish the origin of the material. When genuine VG10 is being claimed, traceable material origin is therefore particularly important.
+
+The absence of genuine Takefu VG10 from the Chinese market has also had an important technological consequence.
+
+Chinese knife manufacturers could not simply rely on one of the most established Japanese reference steels. They had to work with steelmakers to develop and refine other alloys capable of delivering the same type of balanced performance.
+
+What began as a limitation therefore became an incentive for **research and development**.
+
+Rather than attempting to reproduce VG10 exactly, new steels could be designed around the properties that made it successful while changing the balance where useful:
+
+- corrosion resistance;
+- hardness;
+- edge retention;
+- toughness;
+- sharpening response;
+- carbide structure;
+- compatibility with modern heat-treatment processes.
+
+This is the context in which steels such as **10Cr15CoMoV** and more recent formulations such as **12Cr18MoV** should be understood.
+
+They are not intended to be copies of VG10. They represent independent solutions to the same engineering problem: creating a high-performance stainless kitchen-knife steel with a strong overall balance.
+
+#### Equivalent does not mean identical
+
+Two steels do not need the same chemical composition to occupy the same practical performance category.
+
+An alternative to VG10 may use a different alloy design to achieve comparable overall performance, while improving one characteristic and accepting a different compromise somewhere else.
+
+For example, one formulation may emphasize corrosion resistance, another toughness, another edge stability or easier maintenance. Heat treatment and blade geometry then determine how those differences appear in the finished knife.
+
+This is why VG10 should be treated as a **reference point, not as a formula that every premium stainless knife must reproduce**.
+
+Its importance extends beyond the knives made from VG10 itself. By establishing a successful performance benchmark while remaining unavailable to Chinese knife production, it has also helped stimulate the development of alternative steels designed to reach—and in some areas potentially exceed—the performance associated with that benchmark.
+
+For Xinzuo, the relevant question is therefore not:
+
+**“How closely can we reproduce VG10?”**
+
+but:
+
+**“What combination of steel composition, heat treatment and blade geometry gives the best result for the knife we want to make?”**
 
 ### Sandvik 14C28N: fine structure, nitrogen and edge stability
 
@@ -149,7 +191,7 @@ Xinzuo also uses layered constructions including conventional Damascus cladding,
 
 Layer count does not directly measure sharpness. In a core-and-cladding blade, the core steel, its heat treatment and edge geometry control the apex. Decorative copper or brass layers can create strong contrast without making the edge inherently sharper.
 
-Full-Damascus constructions differ because alternating materials can continue through the edge and affect wear there. [The Self-Sharpening Effect in Full Damascus Blades](../03-blade-construction/self-sharpening-full-damascus.md) explains this differential wear. It does not mean normal sharpening becomes unnecessary.
+Full-Damascus constructions differ because alternating materials can continue through the edge and affect wear there. [The Self-Sharpening Effect in Full Damascus Blades](../03-blade-construction/self-sharpening-full-damascus.md) explains when differential wear can develop and why it must be verified on the finished layered material. It does not mean normal sharpening becomes unnecessary.
 
 ## Reading the Xinzuo steel range
 
@@ -157,4 +199,4 @@ The range uses several metallurgical strategies. ZDP-189, SRS13, M390 and 14Cr14
 
 Do not buy the steel at the top of a table. Choose the Xinzuo knife whose steel, heat treatment, geometry, maintenance needs and sharpening response fit the work and the user.
 
-*Source note: Xinzuo steel names, published hardness ranges, series use and company-specific positioning are based on Xinzuo product information and current internal product-development information. The specification of the individual model takes precedence. M390 property descriptions were cross-checked against Böhler M390 MICROCLEAN technical data and independent knife-steel toughness testing by Larrin Thomas. AUS-10 origin and intended blade use were cross-checked against Aichi Steel's cutlery-steel information. VG10 composition and manufacturer properties were cross-checked against Takefu Special Steel's published VG10 data. Statements about the approximate 2024 introduction and internal positioning of 12Cr18MoV, Xinzuo's 10Cr15CoMoV corrosion testing, and current VG10 procurement discussions are Xinzuo internal information rather than claims published by the steel producers.*
+*Source note: Xinzuo steel names, published hardness ranges, series use and company-specific positioning are based on Xinzuo product information and current internal product-development information. The specification of the individual model takes precedence. M390 property descriptions were cross-checked against Böhler M390 MICROCLEAN technical data and independent knife-steel toughness testing by Larrin Thomas. AUS-10 origin and intended blade use were cross-checked against Aichi Steel's cutlery-steel information. VG10 composition and manufacturer properties were cross-checked against Takefu Special Steel's published VG10 data. The statement about the current unavailability of genuine Takefu VG10 in China for knife production reflects current Xinzuo procurement information. Statements about the approximate 2024 introduction and internal positioning of 12Cr18MoV and Xinzuo's 10Cr15CoMoV corrosion testing are also Xinzuo internal information rather than claims published by the steel producers.*
