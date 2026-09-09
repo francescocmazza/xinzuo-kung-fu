@@ -3,18 +3,18 @@ title: Anatomy of a Kitchen Knife
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-08
+reviewed: 2026-09-09
 translation_priority: highest
 source_basis: standard fixed-blade kitchen-knife construction and terminology
 ---
 
 # Anatomy of a Kitchen Knife
 
-Before comparing blade shapes, steels or sharpening angles, read a knife as three connected systems: the cutting geometry, the steel structure that carries it and the hand interface that controls it. The names below locate each feature within those systems.
+Before comparing blade shapes, steels or sharpening angles, understand a knife as three connected systems: the cutting geometry, the steel structure that supports it and the hand interface that controls it. The names below locate each feature within those systems.
 
 Not every knife has every feature named in this chapter. The exploded image below shows a Western full-tang construction. Asian hidden-tang handles use a different construction, described later in this chapter.
 
-## Read the tool from edge to hand
+## From edge to hand
 
 A fixed kitchen knife begins with the **blade**. Its front ends at the **tip**; the upper unsharpened side is the **spine**; the broad side is the **blade face**; the sharpened lower boundary is the **cutting edge**; and the rear of the cutting portion is the **heel**. The sloping geometry leading to the edge is the **bevel**. The visible texture or polish on the blade face is the **surface finish**.
 
@@ -105,13 +105,13 @@ A useful memory aid is:
 
 This is a training rule, not a complete metallurgical formula. Blade thickness, taper, composition, the steel's microscopic internal structure, heat treatment and edge geometry still matter. The rule explains why a flexible fillet knife, a bone chopper and a very hard fine-edged slicer use different compromises.
 
-## Read the blade face through three separate questions
+## Understanding blade-face features
 
 Do not treat every visible surface feature as the same kind of treatment.
 
 **First: what is the topography?** Hollows, channels and hammered depressions change the physical shape of the blade face. By interrupting broad contact, they may reduce suction or sticking with some moist or starchy foods. Depth, position and spacing matter more than the decorative name. A chef's knife with hollows remains a chef's knife because its working profile has not changed category.
 
-**Second: what texture did finishing leave?** Satin grinding leaves directional lines; polishing reduces surface roughness and a mirror finish carries that process further. Texture affects drag, scratch visibility and cleaning, but it does not create sharpness at the apex.
+**Second: what texture did finishing leave?** Satin grinding leaves directional lines; polishing reduces surface roughness and mirror polishing reduces it further. Texture affects drag, scratch visibility and cleaning, but it does not create sharpness at the apex.
 
 **Third: did the surface reveal or retain a structure?** Etching can expose contrast between Damascus layers. Hand forging can leave irregular scale or texture when the face is not ground completely smooth. A retained forged surface and deliberate hammering may look related, but they come from different processes and should be described separately.
 
