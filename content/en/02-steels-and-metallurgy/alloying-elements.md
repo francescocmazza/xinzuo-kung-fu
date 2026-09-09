@@ -3,7 +3,7 @@ title: Alloying Elements
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-04
+reviewed: 2026-09-09
 translation_priority: high
 ---
 
@@ -11,15 +11,15 @@ translation_priority: high
 
 Steel is often presented as a list of ingredients. A product page may mention carbon, chromium, molybdenum, vanadium, tungsten or cobalt and imply that a longer list means a better knife.
 
-Steel is closer to a recipe. The result depends on how much of each element is present, how the elements interact, how the steel is made and how it is heat-treated. Two alloys with similar ingredients can behave very differently.
+Steel is similar to a recipe. The result depends on how much of each element is present, how the elements interact, how the steel is made and how it is heat-treated. Two alloys with similar ingredients can behave very differently.
 
 Keep three principles in mind: no alloying element works alone; more is not automatically better; and composition creates possibilities that heat treatment and blade geometry must turn into useful performance.
 
-Xinzuo's range makes these interactions concrete. It includes chromium-rich stainless steels, cobalt-bearing 10Cr15CoMoV, niobium-bearing 14Cr14MoVNb, nitrogen-alloyed 14C28N, tungsten-bearing Blue Steel No. 2 and powder-metallurgy steels such as SRS13, M390 and ZDP-189. Each is a different metallurgical recipe built around a different balance.
+Xinzuo's range makes these interactions concrete. It includes chromium-rich stainless steels, cobalt-bearing 10Cr15CoMoV, niobium-bearing 14Cr14MoVNb, nitrogen-alloyed 14C28N, tungsten-bearing Blue Steel No. 2 and powder-metallurgy steels such as SRS13, M390 and ZDP-189. Each is a different metallurgical composition designed for a different balance of properties.
 
-## Follow each element through the steel
+## How each element affects the steel
 
-An alloy percentage is only the starting point. To understand an element, follow four questions: where does it remain after heat treatment, what structure does it help create, which property can that structure support, and what new constraint does it introduce?
+An alloy percentage is only the starting point. To understand an element, ask four questions: where does it remain after heat treatment, what structure does it help create, which property can that structure support, and what limitation can it introduce?
 
 | Element | Main contribution to look for | Question that prevents oversimplification |
 |---|---|---|
@@ -28,7 +28,7 @@ An alloy percentage is only the starting point. To understand an element, follow
 | **Molybdenum - Mo** | Hardenability and resistance to localized corrosion | How does the amount and heat treatment change those effects? |
 | **Vanadium - V** | Grain control and very hard carbides | Is the useful role mainly grain refinement, wear resistance, or both? |
 | **Tungsten - W** | Wear-resistant carbides and high-temperature stability | Does the added wear resistance justify slower sharpening for this knife? |
-| **Cobalt - Co** | Support for demanding heat-treatment cycles | Which process window does it help, rather than which property is being inferred from its name? |
+| **Cobalt - Co** | Support for demanding heat-treatment cycles | Which heat-treatment conditions does it support, rather than which property is being inferred from its name? |
 | **Nickel - Ni** | Toughness in suitable alloys and bright contrast in layered steel | Is it part of the working steel or mainly a contrasting layer? |
 | **Nitrogen - N** | Hardness and corrosion resistance alongside carbon | How does it share those roles with carbon and chromium? |
 
@@ -46,7 +46,7 @@ The amount of carbon that can remain in these spaces changes with temperature an
 
 **Austenite and martensite are not carbides.** In both, iron forms the main crystal structure and carbon is dissolved within it. A carbide is different: it is a separate crystalline compound in which carbon is chemically combined with iron or another carbide-forming element. **Cementite (Fe3C), for example, is a true iron carbide.** Chromium, vanadium, molybdenum, tungsten and niobium can also take part in carbide formation in knife steels.
 
-This gives carbon two very different roles in steel. It can remain dissolved in the iron matrix, as in austenite or martensite, or become part of a separate carbide crystal. Heat treatment helps determine how carbon is distributed between these states. The next chapters explain these transformations in detail.
+Carbon therefore has two very different roles in steel. It can remain dissolved in the iron matrix, as in austenite or martensite, or become part of a separate carbide crystal. Heat treatment helps determine how carbon is distributed between these states. The next chapters explain these transformations in detail.
 
 More carbon can support greater hardness and wear resistance, but only within the balance of the full alloy and heat treatment. Too much carbide volume or an unfavourable matrix can reduce toughness, slow sharpening and, in stainless steels, consume chromium in chromium-rich carbides.
 
@@ -76,7 +76,7 @@ Molybdenum performs several useful supporting roles. It improves **hardenability
 
 In stainless steels, molybdenum improves resistance to localized corrosion such as **pitting**, where corrosion attacks small points and creates tiny pits in the surface. It reinforces chromium's protection rather than replacing it.
 
-This helps explain why steels with similar chromium content can behave differently around salt and moisture. Molybdenum can also affect the heat-treatment window and, in some alloys, wear behaviour. The trade-offs are higher material cost and alloy complexity.
+This helps explain why steels with similar chromium content can behave differently around salt and moisture. Molybdenum can also affect the range of suitable heat-treatment conditions and, in some alloys, wear behaviour. The trade-offs are higher material cost and alloy complexity.
 
 ## Vanadium: fine structure and very hard carbides
 
@@ -94,13 +94,13 @@ Tungsten forms hard carbides and increases wear resistance. It is common in tool
 
 In a kitchen knife, tungsten can help maintain an aggressive edge for a long time. The same wear resistance also resists the sharpening stone, so sharpening may take longer or require more efficient abrasives. Very high hardness combined with thin geometry demands careful technique.
 
-Tungsten is one part of the recipe, not a guarantee of superiority.
+Tungsten is one part of the alloy, not a guarantee of superiority.
 
 ## Cobalt: supporting demanding heat treatment
 
 Cobalt is sometimes presented as if its presence automatically makes a blade stronger or more prestigious. Its role is more specific.
 
-In suitable high-alloy steels, cobalt can support hardness and stability during high-temperature heat treatment, giving the heat treater more room to pursue demanding combinations of hardness and microstructure.
+In suitable high-alloy steels, cobalt can support hardness and stability during high-temperature heat treatment, allowing the heat treater to use demanding combinations of temperature and time while controlling hardness and microstructure.
 
 Cobalt alone does not make a knife tougher, more corrosion-resistant or easier to sharpen. Those properties depend on the complete alloy and process. It is expensive, but cost alone does not prove performance.
 
@@ -124,10 +124,10 @@ Nitrogen-alloyed steels require controlled industrial steelmaking, and their fin
 
 A composition chart cannot predict the complete performance of a finished knife.
 
-The same nominal steel can be heat-treated to different hardness levels. One maker may favour toughness; another may push hardness for greater edge stability and wear resistance. Geometry also varies: one blade may be very thin behind the edge while another uses a more conservative cross-section. Surface finish, retained austenite, carbide distribution and manufacturing quality change corrosion resistance, toughness and sharpening response further.
+The same nominal steel can be heat-treated to different hardness levels. One maker may favour toughness; another may use higher hardness for greater edge stability and wear resistance. Geometry also varies: one blade may be very thin behind the edge while another uses a more conservative cross-section. Surface finish, retained austenite, carbide distribution and manufacturing quality change corrosion resistance, toughness and sharpening response further.
 
 Where an element ends up also matters. Chromium dissolved in the matrix can support passivation; chromium locked in carbides behaves differently. Vanadium in hard carbides adds wear resistance. A bulk percentage tells us what went into the steel, not exactly what exists in the final microstructure.
 
-Read familiar marketing claims with the same care. “High carbon” points toward hardenability and potential hardness. “High chromium” supports corrosion resistance only when enough chromium remains in solution. “Vanadium carbides” point toward wear resistance. “Cobalt-added” points toward heat-treatment stability. “Nickel Damascus” often describes visual contrast rather than an inherently better edge.
+Interpret familiar marketing claims with the same care. “High carbon” points toward hardenability and potential hardness. “High chromium” supports corrosion resistance only when enough chromium remains in solution. “Vanadium carbides” point toward wear resistance. “Cobalt-added” points toward heat-treatment stability. “Nickel Damascus” often describes visual contrast rather than an inherently better edge.
 
 The conclusion is simple: **an alloy name describes ingredients and potential. The finished knife shows how well composition, heat treatment, microstructure and geometry were balanced.**
