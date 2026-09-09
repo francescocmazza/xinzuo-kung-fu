@@ -223,7 +223,7 @@ None of these materials can compensate for a handle that does not fit the user's
 - **Heat and chemistry:** keep the knife out of the dishwasher and away from high heat or aggressive cleaners that can attack resin, adhesive, finish or natural material.
 - **Abrasion:** use non-abrasive cleaning on polished resin, carbon fibre and fine wood surfaces.
 - **Moisture movement:** inspect natural wood and condition it only when the surface actually becomes dry, using a suitable food-contact-safe product.
-- **Assembly:** check ferrules, scales, pins, spacers and transitions for movement or gaps before a small problem becomes structural.
+- **Assembly:** check collars, scales, pins, spacers and transitions for movement or gaps before a small problem becomes structural.
 
 A good kitchen knife should not go in a dishwasher regardless of handle material. Heat, aggressive detergents, impacts against other objects and prolonged hot humidity can damage the handle, assembly and cutting edge.
 
