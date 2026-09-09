@@ -3,7 +3,7 @@ title: The Five Dimensions of Knife Steel
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-04
+reviewed: 2026-09-09
 translation_priority: high
 ---
 
@@ -11,13 +11,13 @@ translation_priority: high
 
 Begin with the work the edge must perform. A long slicing session, repeated contact with acidic food and occasional work near joints place different demands on steel. HRC, edge retention and alloy price describe only parts of that problem.
 
-One steel may hold an edge for a long time but require demanding abrasives. Another may sharpen beautifully but need more frequent maintenance. A highly corrosion-resistant steel may suit a busy kitchen, while a reactive carbon steel may suit someone who values sharpening response and is willing to clean and dry the blade immediately.
+One steel may hold an edge for a long time but require demanding abrasives. Another may sharpen easily but need more frequent maintenance. A highly corrosion-resistant steel may suit a busy kitchen, while a reactive carbon steel may suit someone who values sharpening response and is willing to clean and dry the blade immediately.
 
 The useful question is:
 
 > Which balance of qualities best suits this knife, this task and this user?
 
-Five dimensions provide a practical map: **hardness, sharpening response, corrosion resistance, toughness and microstructural fineness**. *Microstructure* means the microscopic internal structure of the steel: its tiny crystals, phases and hard particles. The later metallurgy chapters will explain these parts in more detail.
+Five dimensions provide a practical framework: **hardness, sharpening response, corrosion resistance, toughness and microstructural fineness**. *Microstructure* means the microscopic internal structure of the steel: its tiny crystals, phases and hard particles. The later metallurgy chapters explain these parts in more detail.
 
 ## 1. Hardness: resistance to permanent deformation
 
@@ -31,7 +31,7 @@ Steel can also contain **carbides: microscopic hard crystals formed when carbon 
 
 The **matrix** is the continuous part of the steel that surrounds these particles. Its own hardness matters too. Two steels at the same HRC can therefore behave differently because their matrices and carbide populations are different.
 
-The practical rule is simple: **do not rank unrelated steels by HRC alone**. Read hardness together with heat treatment, microstructure, edge angle, thickness behind the edge and intended use.
+The practical rule is simple: **do not rank unrelated steels by HRC alone**. Evaluate hardness together with heat treatment, microstructure, edge angle, thickness behind the edge and intended use.
 
 Higher hardness can also reduce tolerance for misuse. A very hard, thin edge may remain extremely stable in correct cutting yet tolerate twisting, levering or impact poorly. Hardness works best when the steel's toughness and blade geometry suit the intended task.
 
@@ -41,7 +41,7 @@ Sharpening response describes how readily and predictably an abrasive can restor
 
 A harder matrix resists abrasion more strongly, but carbides can matter even more. Large volumes of very hard carbides slow material removal and may need efficient ceramic or diamond abrasives. Burr behaviour matters too. One steel may form a small, crisp burr that releases cleanly; another may form a persistent wire edge that takes more work to remove.
 
-The shortcut **“softer steel is easier to sharpen” is unreliable**. A moderately soft stainless steel may be forgiving in use without feeling crisp on a water stone. A well heat-treated high-carbon steel can run at much higher HRC yet abrade quickly, give clear feedback and deburr cleanly.
+The shortcut **“softer steel is easier to sharpen” is unreliable**. A moderately soft stainless steel may be forgiving in use without giving clear feedback on a water stone. A well heat-treated high-carbon steel can have much higher HRC yet abrade quickly, give clear feedback and deburr cleanly.
 
 DIN 1.4116 shows the difference well. Kitchen knives often use it at moderate hardness, which can make them forgiving in everyday use. That does not make the steel inherently easy to sharpen. Depending on heat treatment, geometry and abrasive, it can develop a tenacious burr and feel less clean on the stone than a fine, simple carbon steel. **Blue Steel No. 2 (Aogami #2) can respond very readily to suitable water stones even though it is commonly used at much higher hardness.**
 
@@ -86,19 +86,19 @@ The term **grain size** is sometimes used loosely for all of this, but grain siz
 
 ## The five dimensions interact
 
-The five dimensions are not independent sliders that can all be maximized.
+The five dimensions are not independent properties that can all be maximized at the same time.
 
 - Higher hardness can improve resistance to rolling and wear while reducing tolerance for some forms of misuse.
 - More hard carbides can improve abrasive wear resistance while slowing sharpening and often reducing toughness.
 - Strong corrosion resistance depends on alloy balance and chromium available for passivation, not simply on nominal chromium content.
 - Very thin geometry can transform cutting performance while demanding more from the steel and the user.
-- A steel can sharpen beautifully and still hold an edge well, or sit at moderate hardness and still resist sharpening.
+- A steel can sharpen easily and still hold an edge well, or have moderate hardness and still resist sharpening.
 
 These trade-offs are why different steels and heat treatments exist.
 
-## A worked example: reading the Xinzuo range
+## Applying the five dimensions to the Xinzuo range
 
-The [Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) chapter applies this framework to a real product range. ZDP-189 emphasizes very high hardness and wear resistance; SRS13, M390 and 14Cr14MoVNb pursue different premium balances; 10Cr15CoMoV occupies a broad all-round position; Blue Steel No. 2 exchanges stainless convenience for responsive carbon-steel behaviour; and DIN 1.4116 sits at the more forgiving, moderate-hardness end of the range.
+The [Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) chapter applies this framework to a real product range. ZDP-189 emphasizes very high hardness and wear resistance; SRS13, M390 and 14Cr14MoVNb pursue different premium balances; 10Cr15CoMoV occupies a broad all-round position; Blue Steel No. 2 exchanges stainless convenience for responsive carbon-steel behaviour; and DIN 1.4116 is at the more forgiving, moderate-hardness end of the range.
 
 These are tendencies, not complete predictions of a finished knife. Heat treatment, grinding, edge geometry and sharpening still determine how a model behaves. Xinzuo's documented use of vacuum heat treatment and deep-freeze processing in selected series shows how manufacturing turns an alloy's potential into a working blade; the dedicated heat-treatment chapter explains those processes.
 
