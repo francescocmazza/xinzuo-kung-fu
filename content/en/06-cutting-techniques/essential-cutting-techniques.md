@@ -36,7 +36,7 @@ Kitchen movements are not four sealed categories. A real cut can combine vertica
 | Meets the board across a broad, flat section | Regular vegetable pieces and direct board work | Nakiri, flatter santoku, bunka or gyuto |
 | Advances while descending | Reduces wedging and uses a short slicing action | Gyuto, santoku, bunka and many general-purpose knives |
 | Travels along its length through the food | Crosses wide or delicate food with fewer interruptions | Carving and sashimi slicers |
-| Keeps one area near the board while another rises | Repeats mincing work through a controlled arc | Curved chef's knives or suitable round-front profiles |
+| Keeps one area near the board while another rises | Repeats mincing work through a controlled arc | Nakiri, Curved chef's knives or suitable curved profiles |
 
 The names below describe dominant movements, not rigid rules. Choose the path that lets the edge pass through the ingredient with control and without forcing the blade to imitate a geometry it does not have.
 
