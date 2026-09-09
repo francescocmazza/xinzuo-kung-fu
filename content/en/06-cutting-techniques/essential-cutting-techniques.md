@@ -27,9 +27,9 @@ The three main knife-hand positions—**handle grip, intermediate or hybrid grip
 
 > **The four-word safety check:** stable board, stable food, clear path, hidden fingertips.
 
-## Read the path before naming the technique
+## Identify the movement path before naming the technique
 
-Kitchen movements are not four sealed categories. A real cut can combine vertical travel, forward or backward travel, and a changing contact point. Read the path of the edge:
+Kitchen movements are not four sealed categories. A real cut can combine vertical travel, forward or backward travel, and a changing contact point. Observe the path of the edge:
 
 | What the edge does | What that movement solves | Profiles that often help |
 |---|---|---|
@@ -131,7 +131,7 @@ Use a **short, controlled pivot**, not the wide rocking stroke of a strongly cur
 
 This does not change the nakiri's fundamental strength as a vegetable knife for push cutting and chopping. The round-tip design deliberately adds a second working geometry: **the straight section provides efficient board contact, while the rounded front provides a controlled pivot for compact rocking.**
 
-Not every nakiri uses this design. Square-front and differently shaped nakiri should be read according to their own geometry.
+Not every nakiri uses this design. Evaluate square-front and differently shaped nakiri according to their own geometry.
 
 ### Try it with parsley
 
@@ -170,7 +170,7 @@ For carrot julienne:
 3. Stack only as many slabs as remain completely stable.
 4. Cut the stack into even sticks.
 
-Use push cuts or controlled straight chops. Let the claw knuckles guide the blade side. Do not race the supporting hand. Move the knife only after the claw is set.
+Use push cuts or controlled straight chops. Let the claw knuckles guide the blade side. Do not move the knife faster than the supporting hand can safely reposition. Move the knife only after the claw is set.
 
 A Chinese cleaver can work especially well here. Its tall blade provides a large guide surface, while a thin Chinese vegetable cleaver, often called a **cai dao**, can make very fine slices. Its rectangular shape does not make it a bone cleaver.
 
@@ -188,7 +188,7 @@ Mincing means reducing food to very small pieces. Start with slices, then strips
 
 For garlic or herbs, use straight chopping with a compact blade, a gentle rolling action with a curved chef's knife, or the short pivot rock of a round-tip nakiri. Re-gather food with the spine or broad face. Repeatedly scraping the edge sideways against the board weakens the apex.
 
-Do not chase an arbitrary number of passes. Stop when the texture suits the recipe. Bruised herbs and garlic paste can be desirable, but they are different results from a clean mince.
+Do not use a fixed number of passes. Stop when the texture suits the recipe. Bruised herbs and garlic paste can be desirable, but they are different results from a clean mince.
 
 ## Crushing and transferring food
 
@@ -212,7 +212,7 @@ Do not twist a fine edge against bone. If the joint does not separate, stop and 
 
 Stabilize the fish and follow a clear sequence: open it, locate the backbone, let the blade follow the bones and use long controlled strokes to separate the fillet. A flexible fillet knife follows contours; a traditional deba and yanagiba divide the work differently, with the deba used for butchery and the yanagiba for final slicing.
 
-The blade should tell you where the skeleton is. Heavy pressure hides that feedback and wastes flesh. Learn slowly enough to feel contact without forcing the edge into hard bone.
+Use light contact to feel where the skeleton is. Heavy pressure reduces that feedback and wastes flesh. Learn slowly enough to feel contact without forcing the edge into hard bone.
 
 Traditional single-bevel geometry also affects steering and food separation. [Single and Double Bevels](../04-geometry-and-bevels/single-and-double-bevels.md) explains how to arrange food and cutting direction when using one with the opposite hand.
 
@@ -220,7 +220,7 @@ Traditional single-bevel geometry also affects steering and food separation. [Si
 
 Some techniques cannot be learned safely from a short written description. **Katsuramuki**, the technique of peeling a vegetable into a long continuous thin sheet with an usuba, fish-head work with a deba and rapid professional chopping combine blade geometry, body position and practiced feedback. This guide explains the principles; a qualified demonstration is the safest way to learn the movement itself.
 
-Cooking is learned through words, observation and repetition. The page provides the map; demonstration provides body position, timing and feedback that are difficult to communicate safely in text.
+Cooking is learned through words, observation and repetition. Written instructions explain the sequence; demonstration shows body position, timing and feedback that are difficult to communicate safely in text.
 
 ## A seven-day practice sequence
 
@@ -244,7 +244,7 @@ Use inexpensive, stable ingredients and stop before fatigue reduces control.
 - Draw slicing uses blade length and minimizes compression; arrange the stance so the projected cutting path remains clear of the body.
 - A curved chef's knife suits a wide rolling rock; a round-tip nakiri is deliberately designed to provide a short, stable pivot for compact rocking.
 - Uniform preparation begins by stabilizing and orienting the food.
-- Specialist knives reward the movement they were designed for.
+- Specialist knives work best with the movements they were designed for.
 - Speed is the result of control, not a substitute for it.
 
 > **Practice principle:** control first, consistency second, speed last.
