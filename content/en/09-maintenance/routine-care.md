@@ -3,7 +3,7 @@ title: Routine Knife Care
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-03
+reviewed: 2026-09-09
 translation_priority: high
 ---
 
@@ -35,7 +35,7 @@ Hand washing is the safest general rule for quality kitchen knives, even when th
 
 Stainless steel tolerates moisture better than reactive carbon steel, but *stainless* does not mean *corrosion-proof*. Salt, chlorides, acidic residue and long wet storage can still cause staining or pitting.
 
-Treat a small stain as a maintenance signal, not proof of defective steel. Clean and dry the blade, identify whether salt, acid or prolonged moisture caused it, and avoid repeating the exposure.
+Treat a small stain as a sign that care is needed, not as proof of defective steel. Clean and dry the blade, identify whether salt, acid or prolonged moisture caused it, and avoid repeating the exposure.
 
 ## Carbon steel, patina and rust
 
@@ -49,13 +49,13 @@ Deep pitting, damaged finishes or uncertain treatment on a valuable blade are be
 
 The edge touches the board hundreds or thousands of times between sharpenings, so board material matters greatly.
 
-Suitable wood and knife-friendly plastic or rubber let the apex enter or deform the surface slightly instead of striking something much harder. Glass, ceramic, stone and metal are poor cutting surfaces for fine edges because they accelerate rolling, flattening and chipping.
+Suitable wood and plastic or rubber cutting surfaces designed to be gentle on knife edges let the apex enter or deform the surface slightly instead of striking something much harder. Glass, ceramic, stone and metal are poor cutting surfaces for fine edges because they accelerate rolling, flattening and chipping.
 
 Use a board large enough to keep both food and movement stable. Repeatedly striking a plate, pan rim or stone counter can damage an edge much faster than ordinary food.
 
 ## Do not scrape the board with the cutting edge
 
-Dragging the cutting edge sideways across the board to gather food loads the apex laterally and gradually rolls or abrades it.
+Dragging the cutting edge sideways across the board to gather food applies sideways force to the apex and gradually rolls or abrades it.
 
 Use the **spine or broad face** instead, or use a bench scraper. This simple habit preserves a fine edge surprisingly well.
 
@@ -73,7 +73,7 @@ Useful storage options include:
 
 Dry the knife completely before placing it in a closed guard or sheath. Trapped moisture can create the corrosion environment the guard was meant to prevent.
 
-With a magnetic rack, place and remove the knife under control. Touch the spine or flat to the holder first and rotate the edge away instead of snapping the edge against the surface.
+With a magnetic rack, place and remove the knife under control. Touch the spine or flat to the holder first and rotate the edge away instead of striking the edge against the surface.
 
 ## Natural-wood handles
 
@@ -127,7 +127,7 @@ A working knife will develop fine scratches, patina, handle wear and other signs
 
 The everyday routine is short:
 
-1. use the right knife and a knife-friendly board;
+1. use the right knife and a suitable cutting board;
 2. do not twist, pry or scrape with the cutting edge;
 3. wash by hand soon after use;
 4. rinse away salt and acids;
