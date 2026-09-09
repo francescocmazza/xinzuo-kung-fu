@@ -3,7 +3,7 @@ title: Preparing the Stone and Workspace
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-06
+reviewed: 2026-09-09
 translation_priority: high
 ---
 
@@ -27,7 +27,7 @@ You also need:
 
 ## Prepare the stone correctly
 
-Water stones do not all work in the same way. Some absorb water and need to soak. Others are splash-and-go stones and need only water on the surface. Diamond plates do not soak, and oil stones use oil rather than water.
+Water stones do not all work in the same way. Some absorb water and need to soak. Others need only water on the surface and are often called **splash-and-go** stones. Diamond plates do not soak, and oil stones use oil rather than water.
 
 Follow the manufacturer's instructions whenever they are available. For a traditional absorbent water stone, soak it until the stream of air bubbles has almost stopped. Do not leave an unknown stone submerged for hours: long soaking can damage some binders.
 
@@ -39,7 +39,7 @@ A stone wears most where the knife passes most often. With use, its centre can b
 
 Place a straight edge across the stone in several directions and look for gaps. Pencil lines drawn across the surface are another useful check: during flattening, high areas lose the marks first and low areas keep them.
 
-Flatten the stone with a suitable plate or lapping stone when necessary. A beginner does not need to chase microscopic perfection, but the surface should form one reliable plane.
+Flatten the stone with a suitable plate or lapping stone when necessary. A beginner does not need microscopic perfection, but the surface should form one reliable plane.
 
 ## Make the workspace stable
 
