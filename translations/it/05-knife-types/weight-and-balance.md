@@ -1,5 +1,5 @@
 ---
-source_hash: 34f78bcca77e1a645178eee0635752dba75c45fac5f6498c302d9dd788650234
+source_hash: fd6048871d1a5d0694331efb5a6623fc90c3e0098e370c989bdb31b5d0b1ed9e
 ---
 
 # Peso, equilibrio ed ergonomia

@@ -1,5 +1,5 @@
 ---
-source_hash: 5356fad9ebdc52487e0c46ce23d6a16b53abb8e4a6fdb97c5ef450df8483b0b9
+source_hash: f72be2660d74b64da4c4e540c3cb2198719d39f2b14065d336b35d7ace19739e
 ---
 
 # Trattamento termico e carboidrati: trasformare la composizione in una lama

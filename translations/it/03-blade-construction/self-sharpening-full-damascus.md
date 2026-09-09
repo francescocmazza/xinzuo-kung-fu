@@ -1,5 +1,5 @@
 ---
-source_hash: 7dfce04af45fe117c6f88c47747c7868becaefb516bffb15375829ccafa85ce1
+source_hash: ca55b47596ff867ed7116d3c84fb16df3f69651a3be7fb321e84080e9ca6b137
 ---
 
 # L'effetto auto-dividente nelle lame complete di Damasco

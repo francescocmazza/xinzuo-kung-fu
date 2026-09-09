@@ -1,5 +1,5 @@
 ---
-source_hash: 1deea7931125f36d850599f108b3a7deff38887698dbbbeec30ec129cd188098
+source_hash: ded51c6c45be72af1c355ac7214e5ae19df8350a6aa408e61c054297feeb46f0
 ---
 
 # Preparazione della pietra e dello spazio di lavoro
