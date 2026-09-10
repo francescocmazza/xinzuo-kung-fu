@@ -127,13 +127,33 @@ Some steels use two or more tempering cycles. For example, retained austenite ma
 
 The final target is not the highest possible HRC. It is the hardness that gives the required edge stability without sacrificing too much toughness or creating other problems for that steel and geometry.
 
-## 6. Grinding after heat treatment
+## 6. Grinding and sharpening after heat treatment
 
-A correct furnace cycle can still be damaged later.
+A correct furnace cycle can still be damaged later. The reason is easiest to understand by thinking about a very small piece of metal.
 
-Grinding and sharpening generate heat at the surface. The edge is extremely thin, so it can overheat much faster than the thick body of the blade. If the hardened edge becomes too hot, it can be unintentionally tempered above the intended temperature and lose hardness or stability.
+A sewing needle can be brought to a very high temperature with a surprisingly small heat source. The same source would barely change the temperature of a large steel block. The difference is the amount of material available to absorb and carry away the heat.
 
-Controlled grinding, cooling and careful sharpening are therefore part of the final heat-treatment result. Metallurgical control continues after the blade leaves the furnace.
+A knife edge follows the same principle. As sharpening progresses, the steel at the very apex becomes extraordinarily thin—eventually microscopic. A very sharp edge can end in a region measured in fractions of a micrometre. That tiny volume of steel has almost no thermal mass, so it can heat much faster than the thick body of the blade.
+
+Grinding and powered sharpening convert a large part of their mechanical energy into heat. The spine or handle of the knife may still feel cool while the microscopic edge is experiencing a much higher local temperature. If that edge is heated above the temperature range established by the final tempering treatment, it can be **over-tempered locally**, losing hardness and edge stability. At still higher temperatures, more severe metallurgical changes can occur.
+
+This means the blade does not need to glow red before damage becomes possible. Visible red heat would already represent an extreme temperature for a finished knife edge. The important point is simpler: **the thinner the steel becomes, the less heat is required to change its temperature, and the more carefully that heat must be controlled.**
+
+### Why water cooling matters
+
+This is why cooling remains important even after the furnace work is finished. Xinzuo uses water cooling throughout the abrasive blade-working stages after heat treatment, including water-cooled grinding and whetstone sharpening. The purpose is not cosmetic. The water continuously carries heat away from the steel so that grinding and sharpening can shape the blade without undoing the microstructure created by the heat-treatment cycle.
+
+The same principle helps explain why manual **water-stone sharpening** is particularly appropriate for high-quality kitchen knives. Hand sharpening is slow and generates far less heat than high-speed powered grinding, while the wet stone keeps the working surface lubricated, clean and cool. Water stones are not the only safe manual sharpening method—oil stones and diamond plates used by hand also generate very little heat—but water stones provide a simple and controlled way to sharpen a fine edge without exposing it to the thermal risk of dry high-speed grinding.
+
+### What sparks really tell us
+
+Films and workshop videos often show blades being ground with a spectacular shower of sparks. The sparks themselves are tiny particles of steel removed by the abrasive and heated enough to glow and oxidize in the air. **Seeing sparks does not prove that the whole blade, or even the edge, has already lost its heat treatment.**
+
+But a large shower of sparks from dry, high-speed grinding is still a useful warning sign: the process is putting a great deal of energy into a very small contact area, and much of that energy becomes heat. On a thick unfinished piece of steel this may be manageable. On an already hardened blade approaching its final microscopic edge, the safety margin is much smaller.
+
+For this reason, professional post-heat-treatment grinding depends on controlled pressure, abrasive speed, contact time and, where appropriate, continuous coolant. The closer the blade gets to its final edge, the more important this control becomes.
+
+**Heat treatment therefore does not really end when the blade leaves the furnace. The final grinding and sharpening stages must preserve the structure that the furnace created.**
 
 ## The main carbide families in knife steels
 
