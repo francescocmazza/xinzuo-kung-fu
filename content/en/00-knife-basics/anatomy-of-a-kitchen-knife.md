@@ -3,7 +3,7 @@ title: Anatomy of a Kitchen Knife
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-09
+reviewed: 2026-09-10
 translation_priority: highest
 source_basis: standard fixed-blade kitchen-knife construction and terminology
 ---
@@ -84,11 +84,57 @@ A **bolster** is the reinforced metal transition between blade and handle found 
 
 ## What this book calls an “Asian handle”
 
-In this book, **Asian handle** means the traditional hidden-tang construction commonly paired with an **octagonal**, and sometimes oval, handle. The blade enters a solid handle on a hidden tang, while a **collar** often reinforces the front and forms the transition to the blade.
+In this book, **Asian handle** means the traditional hidden-tang construction commonly paired with an **octagonal**, and sometimes oval, handle. The narrower tang disappears inside the handle instead of remaining visible between side scales. A **collar** reinforces the front of the handle, while some modern constructions also use an internal **dowel insert** to guide and receive the tang.
+
+<figure class="kb-learning-figure" data-visual-id="VIS-ANATOMY-ASIAN-01">
+<div style="position:relative;width:100%;overflow:visible;background:#ffffff;">
+<img src="../../assets/images/approved/asian-handle-exploded.jpg" alt="" style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
+<svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;">
+<g fill="none" stroke="#263238" stroke-width="1.2" vector-effect="non-scaling-stroke">
+<line x1="8" y1="90" x2="3.8" y2="77"/>
+<line x1="19" y1="88" x2="15" y2="71"/>
+<line x1="33" y1="82" x2="32.5" y2="60"/>
+<line x1="42" y1="66" x2="42.5" y2="55"/>
+<line x1="48" y1="72" x2="48.5" y2="52"/>
+<line x1="58" y1="73" x2="58.5" y2="58"/>
+<line x1="69" y1="66" x2="66" y2="52"/>
+<line x1="80" y1="58" x2="80" y2="40.8"/>
+<line x1="74" y1="15" x2="75" y2="39.5"/>
+<line x1="66" y1="24" x2="69" y2="35"/>
+<line x1="92" y1="12" x2="97" y2="26"/>
+</g>
+<g fill="#ffffff" stroke="#263238" stroke-width=".45" vector-effect="non-scaling-stroke">
+<circle cx="3.8" cy="77" r=".55"/>
+<circle cx="15" cy="71" r=".55"/>
+<circle cx="32.5" cy="60" r=".55"/>
+<circle cx="42.5" cy="55" r=".55"/>
+<circle cx="48.5" cy="52" r=".55"/>
+<circle cx="58.5" cy="58" r=".55"/>
+<circle cx="66" cy="52" r=".55"/>
+<circle cx="80" cy="40.8" r=".55"/>
+<circle cx="75" cy="39.5" r=".55"/>
+<circle cx="69" cy="35" r=".55"/>
+<circle cx="97" cy="26" r=".55"/>
+</g>
+</svg>
+<span style="position:absolute;left:8%;top:90%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Butt</span>
+<span style="position:absolute;left:19%;top:88%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Handle body</span>
+<span style="position:absolute;left:33%;top:82%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Dowel insert</span>
+<span style="position:absolute;left:42%;top:66%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Hidden tang</span>
+<span style="position:absolute;left:48%;top:72%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:15%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Collar</span>
+<span style="position:absolute;left:58%;top:73%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Heel</span>
+<span style="position:absolute;left:69%;top:66%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Bevel</span>
+<span style="position:absolute;left:80%;top:58%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Cutting edge</span>
+<span style="position:absolute;left:74%;top:15%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Blade face</span>
+<span style="position:absolute;left:66%;top:24%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Spine</span>
+<span style="position:absolute;left:92%;top:12%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:12%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Tip</span>
+</div>
+<figcaption>Exploded Asian hidden-tang construction: octagonal handle body, internal dowel insert, collar and hidden tang separated to show assembly. The dowel insert is one construction method and is not universal.</figcaption>
+</figure>
 
 The term is intentionally narrow. It does **not** mean that all knives made in Asia use this construction; many use Western full-tang, molded or other systems. Here, **Asian handle** means the octagonal-or-oval hidden-tang construction with the front collar described above.
 
-A **collar** is also different from a Western bolster. Both sit near the blade-handle junction, but the collar is mainly a reinforcing sleeve or ring around the front of the handle material, while the bolster is a metal component at the blade-handle transition.
+A **collar** is different from a Western bolster. Both sit near the blade-handle junction, but the collar reinforces the front of the handle, while the bolster is a metal component at the blade-handle transition. The dowel insert shown in the exploded Xinzuo construction is one assembly method; it is not a defining feature of every Asian handle.
 
 ## Hardness, edge retention and flexibility
 
