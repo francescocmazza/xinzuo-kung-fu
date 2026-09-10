@@ -1,5 +1,5 @@
 ---
-source_hash: f72be2660d74b64da4c4e540c3cb2198719d39f2b14065d336b35d7ace19739e
+source_hash: 35891429d4c6a0aab5dedb3fff3dbdfcdced2d9814b284292e1054795c4b2691
 ---
 
 # Trattamento termico e carboidrati: trasformare la composizione in una lama
@@ -67,9 +67,9 @@ La corretta temperatura e il tempo di neutralizzazione dipendono quindi dall'acc
 
 L'acciaio esposto può reagire fortemente con l'aria a temperature di
 
-Un forno **vuoto** o un'altra atmosfera protettiva controllata riduce queste reazioni. Per la produzione di coltelli ciò significa meno scala, meno perdita di carbonio superficiale, parti più pulite e riscaldamento più controllato. È particolarmente utile per acciai inossidabili e utensili ad alta lega che richiedono temperature di indurimento elevate.
+Un forno **vuoto** o un'altra atmosfera protettiva controllata riduce notevolmente queste reazioni. Per la produzione di coltelli, questo aiuta a preservare la chimica superficiale prevista, limita l'ossidazione e la scala, mantiene il pulitore della lama e conferisce al trattamento termico un ambiente più controllato e ripetibile durante le fasi ad alta temperatura. Questi vantaggi sono particolarmente importanti per acciai inossidabili e utensili ad alta lega che richiedono temperature di indurimento esigenti.
 
-Il trattamento sottovuoto di per sé non rende l'acciaio duro. Controlla l'ambiente mentre le fasi di trattamento termico reali hanno luogo.
+Il trattamento termico sottovuoto è quindi un ulteriore passo di controllo del processo utilizzato per ottenere il maggior numero possibile di prestazioni utili dall'acciaio scelto. Non sostituisce la ricetta di indurimento o crea qualità da sola; permette che la ricetta sia effettuata in condizioni più pulite e più controllate.
 
 ## 3. Quenching: trasformare l'1,0% in martensite
 
@@ -100,15 +100,15 @@ Per gli acciai e le ricette di trattamento termico che ne beneficiano, un tratta
 - migliorare la stabilità delle dimensioni e della forma;
 - rendere più prevedibile la successiva risposta di temperamento.
 
-Non si tratta di un upgrade universale. La conversione di più galattosio in martensite cambia anche l'equilibrio durezza-forza, quindi il trattamento deve soddisfare l'acciaio e la sequenza completa di trattamento termico.
+Per una ricetta di trattamento dell'acciaio e del calore adatta, il trattamento del gelo profondo è un ulteriore passo per spingere ulteriormente la trasformazione e ottenere più prestazioni disponibili dalla lega. Poiché cambia l'equilibrio tra martensite e galattosio mantenuto, deve essere integrato correttamente con le fasi di tempra e tempra piuttosto che applicato come operazione isolata.
 
 ### Xinzuo come esempio
 
-Selezionato serie Xinzuo specificare **vacuum trattamento termico e congelamento profondo**. Questi sono diversi passaggi.
+Selezionato serie Xinzuo specificare **vacuum trattamento termico e congelamento profondo**. Si tratta di fasi aggiuntive, tecnicamente impegnative che richiedono attrezzature dedicate, tempo di processo e controllo, e quindi aggiungere costi di produzione reali.
 
-L'elaborazione sottovuoto controlla l'atmosfera durante il trattamento ad alta temperatura. Il congelamento profondo è una fase successiva a bassa temperatura utilizzata quando l'acciaio e la ricetta richiedono un'ulteriore trasformazione dell'
+Sono utilizzati per un motivo pratico: per estrarre il più possibile le prestazioni utili dall'acciaio selezionato per la lama. Il trattamento termico sottovuoto protegge l'acciaio e migliora il controllo durante le fasi ad alta temperatura. Il congelamento profondo, quando specificato per la lega e la ricetta, aiuta a trasformare l'
 
-Nessun termine dovrebbe essere letto come un distintivo di qualità stand-alone. Il suo valore deriva da come si adatta al trattamento completo.
+Questi processi non fanno miracoli e non possono compensare un acciaio povero, una ricetta di trattamento termico non corretta o una geometria della lama non adatta. Ma non sono nemmeno etichette tecniche vuote. **Se correttamente applicate, sono passi aggiuntivi intenzionali per avvicinare l'acciaio scelto alle sue migliori prestazioni raggiungibili nel coltello finito.**
 
 ## 5. Tempering: rendendo utilizzabile martensite
 
