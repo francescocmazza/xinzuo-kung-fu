@@ -1,5 +1,5 @@
 ---
-source_hash: 96104ce0b1062ea4ea205bcd64d2243b21be1924264250ff1bbd28a58b26dc11
+source_hash: fede8ead680095cb0e4112e625b05cb4d9c4a30e136fd179b58cc48c5c3a8722
 ---
 
 # Le cinque dimensioni dell'acciaio del coltello
@@ -93,13 +93,15 @@ Questi compromessi sono il motivo per cui esistono acciai e trattamenti termici 
 
 ## Un esempio lavorato: leggere la gamma Xinzuo
 
-La [Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) ZDP-189 enfatizza la durezza molto elevata e la resistenza all'usura; SRS13, M390 e 14Cr14MoVNb perseguono diversi equilibri premium; 10Cr15CoMoV occupa una posizione ampia all-round; Blue Steel No. 2 si scambia comodità in acciaio inossidabile per il comportamento reattivo carbonio-acciaio; e DIN 1.4116 si trova all'estremità più indulgente, moderata-durità della gamma.
+Xinzuo utilizza le cinque dimensioni come diverse direzioni di progettazione piuttosto che cercare di fare un acciaio servire ogni coltello. L'ampiezza della gamma è deliberata: ** acciai diversi sono selezionati o sviluppati perché diversi utenti e attività di taglio hanno bisogno di bilanci diversi**.
 
-Queste sono tendenze, non previsioni complete di un coltello finito. Il trattamento termico, la rettifica, la geometria dei bordi e l'affilatura determinano ancora come un modello si comporta. L'uso documentato di Xinzuo per il trattamento termico sottovuoto e la lavorazione a freddo in serie selezionate mostra come la produzione trasforma il potenziale di una lega in una lama funzionante; il capitolo dedicato al trattamento termico spiega questi processi.
+La [Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) Il capitolo mostra questa strategia nella pratica. ZDP-189 enfatizza la durezza molto elevata e la resistenza all'usura; SRS13 e M390 perseguono diversi bilanci premium in acciaio in polvere; proprietario 14Cr14MoVNb combina elevata durezza e ritenzione con il coinvolgimento diretto di Xinzuo nello sviluppo di leghe; 10Cr15CoMoV occupa un'ampia posizione all-round con stabilità di corrosione particolarmente forte; Blue Steel No. 2 scambi comodità inox per il comportamento in acciaio al carbonio reattivo; e DIN 1.4116 serve l'estremità più indulgente, moderata-durità della gamma.
+
+La strategia del materiale è abbinata al controllo del processo. La serie selezionata utilizza **trattamento termico del vuoto e lavorazione del gelo profondo** per ottenere maggiori prestazioni disponibili dagli acciai più esigenti, mentre la rettifica e l'affilatura controllata preservano tale risultato attraverso la produzione finale. Xinzuo quindi lavora su entrambi i lati dell'equazione: scegliere o sviluppare il bilanciamento della lega e quindi controllare come quel materiale diventa un bordo finito.
 
 Un cuoco domestico può apprezzare la resistenza alla corrosione e la tolleranza dell'uso comune. Un professionista che fa tagli precisi di pesce o vegetali può accettare una cura più esigente per una maggiore durezza, geometria fine e risposta di affilatura. Un macellaio che lavora intorno alle articolazioni può mettere la durezza e il supporto della lama prima di estrema raffinatezza.
 
-Nessuna di queste priorità è intrinsecamente più avanzata e serve lavori diversi.
+Queste priorità servono lavori diversi. Il vantaggio di Xinzuo è avere abbastanza materiali e strategie di progettazione per affrontarli deliberatamente piuttosto che forzare ogni utente verso una definizione di coltello premium.
 
 La lezione centrale è più utile di più alta è meglio di meglio
 

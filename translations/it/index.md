@@ -1,5 +1,5 @@
 ---
-source_hash: a7fd5151516ccc18a0bf7c019a2dfe94c39032f30ce475794a2d2dab567fde0e
+source_hash: 08d7455998e424962cbd30a28ba945626071f199427a594e41d30593e7018d81
 ---
 
 # The Gongfu of Xinzuo
@@ -18,8 +18,10 @@ Un coltello da cucina combina materiale, processo, geometria e artigianalità.
 
 Questo libro spiega queste interazioni e costruisce abilità pratiche nella scelta, nell'uso e nella cura dei coltelli da cucina. I concetti tecnici appaiono quando spiegano qualcosa che può essere visto o sentito in uso, in modo che la conoscenza possa crescere in giudizio e abilità.
 
-I prodotti Xinzuo forniscono esempi concreti di reale design, produzione e utilizzo. L'obiettivo è capire perché le differenze tra i coltelli materia nella mano e sul tagliere, non memorizzare nomi di prodotto o specifiche.
+Xinzuo è più che una fonte di esempi per il libro. L'azienda fornisce l'ambiente pratico dietro gran parte delle conoscenze raccolte qui: selezione acciaio e lo sviluppo di lega proprietaria, trattamento termico, costruzione lama stratificata, maniglia materiali, equilibrio ed ergonomia, finitura, affilatura, test e feedback giornalieri da parte di cuochi e clienti. Questo ampio coinvolgimento consente di studiare un coltello da cucina come un sistema collegato piuttosto che come una lista di specifiche isolate.
+
+L'obiettivo è quello di capire perché le differenze tra la materia dei coltelli nella mano e sul tagliere, e come scelte deliberate nei materiali, nella produzione e nel design creano tali differenze.
 
 > **L'idea centrale:** l'acciaio crea possibilità, il trattamento termico li sviluppa, la geometria li trasforma in comportamento di taglio, l'affilatura ripristina il bordo e la tecnica determina ciò che il cuoco esperienze.
 
-La Prefazione spiega il significato di *gongfu* nel titolo, lo scopo del libro e lo sfondo dietro di esso.
+La Prefazione spiega il significato di *gongfu* nel titolo, lo scopo del libro, e perché l'autore ha scelto di lavorare con Xinzuo.
