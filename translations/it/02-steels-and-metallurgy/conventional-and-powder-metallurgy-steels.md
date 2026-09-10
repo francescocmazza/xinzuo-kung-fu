@@ -1,5 +1,5 @@
 ---
-source_hash: 38b429fc6187b0f3ec63c228f4618f960cf8834c039f37320a6a499ea04bbeab
+source_hash: b067b23e6cbf6ca2a55c32c055bd464ad3cfbf2fe2c1aca7fd0b03448cb33401
 ---
 
 # Acciai convenzionali e metallurgici a polvere
@@ -22,13 +22,21 @@ Una matrice dura aiuta il tagliente a resistere alla deformazione. I carburi dur
 
 Il prossimo capitolo sul trattamento termico spiegherà come la matrice può cambiare tra strutture come l'anidride solforosa e il martensite e come i carburi possono dissolversi o formarsi durante il riscaldamento e il raffreddamento.
 
-## Perché un grande lingotto può diventare irregolare
+## Perché la metallurgia convenzionale alla fine raggiunge un limite
 
 Nella metallurgia tradizionale del lingotto, l'acciaio fuso viene versato in uno stampo relativamente grande e permesso di solidificare. Non congela ovunque nello stesso istante. Il raffreddamento progredisce attraverso la massa.
 
 Come questo accade, alcuni elementi di lega possono diventare più concentrati in alcune aree. Questa distribuzione chimica irregolare è chiamata **segregazione**. Carbidi può anche avere più tempo per crescere, mentre la grande massa si raffredda.
 
-Successivamente la forgiatura e la laminazione migliorano notevolmente la struttura, e gli acciai convenzionali moderni possono essere estremamente puliti e coerenti. Molti acciai eccellenti non hanno bisogno di metallurgia delle polveri. La sfida diventa maggiore quando la lega contiene grandi quantità di carbonio e forti elementi di carburo-formatura, perché queste composizioni sono più inclini a strutture grossolane o irregolari di carburo.
+I metodi di forgiatura, laminazione e raffinazione moderna possono migliorare notevolmente la struttura, e la metallurgia convenzionale è pienamente in grado di produrre acciai al coltello eccellenti. La difficoltà appare quando i produttori di acciaio cercano di spingere le prestazioni molto più lontano utilizzando composizioni sempre più ricche.
+
+Maggiore durezza, resistenza all'usura e ritenzione dei bordi può richiedere più carbonio e maggiori quantità di elementi legati come cromo, molibdeno, tungsteno o vanadio. Questi elementi possono formare carburi duri che contribuiscono fortemente alle prestazioni.
+
+Ma più l'acciaio diventa legato, più è difficile mantenere la sua struttura interna fine e uniforme durante la solidificazione convenzionale. La separazione diventa più difficile da controllare, e i carburi possono diventare troppo grandi o troppo disomogenei.
+
+Ad un certo punto, semplicemente aggiungendo più elementi di lega non dà più un migliore equilibrio delle proprietà. La resistenza all'usura supplementare può venire con una microstruttura più grossolana, resistenza inferiore o una maggiore tendenza al chip.
+
+**La metallurgia delle polveri è stata sviluppata per spingere oltre questo limite pratico.**
 
 ## Metallurgia delle polveri: solidificare milioni di piccole goccioline
 
@@ -46,16 +54,26 @@ Un'immagine utile è:
 
 > La metallurgia convenzionale solidifica un grande corpo d'acciaio e poi la lavora in forma. La metallurgia delle polveri solidifica milioni di piccoli pezzi prima, poi li unisce in un corpo denso.
 
-## Perché questo importa a un bordo del coltello
+## Perché la metallurgia delle polveri ha modificato gli acciai ad alte prestazioni
 
-La metallurgia delle polveri può dare all'acciaio altamente legato un **finitore e una distribuzione più uniforme dei carburi e degli elementi di lega** rispetto alla lavorazione tradizionale del lingotto della stessa composizione.
+Il vantaggio principale della metallurgia delle polveri non è che ogni acciaio in polvere è automaticamente migliore di ogni acciaio convenzionale. La sua vera importanza è che dà ai progettisti di acciaio **molto più libertà di creare composizioni altamente legate senza perdere il controllo della microstruttura**.
 
-Ciò può migliorare diverse cose contemporaneamente. I carburi più piccoli sono meno dirompenti ad un tagliente molto fine. Più uniforme la distribuzione riduce le aree locali che sono insolitamente deboli o insolitamente resistenti all'abrasione. Un acciaio altamente legato può quindi portare una grande popolazione di carburi resistenti all'usura pur mantenendo una resistenza migliore rispetto alla stessa composizione generalmente raggiungere con una struttura convenzionale più grossolana.
+Un acciaio a polveri metalliche può contenere grandi quantità di elementi di carbonio e di carburo, mantenendo i carburi risultanti molto più sottili e distribuiti in modo più uniforme rispetto alla stessa composizione estrema che di solito raggiungerebbe attraverso la metallurgia tradizionale del lingotto.
 
-Questo non significa che ogni acciaio in polvere sia migliore di ogni acciaio convenzionale. Un acciaio convenzionale semplice e ben progettato può avere una struttura molto fine, una resistenza eccellente ed un ottimo comportamento dei bordi. La metallurgia delle polveri diventa più utile quando la composizione della lega in sé favorirebbe in altro modo i carburi grandi o irregolari.
+Questo rende possibili combinazioni che sono molto difficili da ottenere per vie tradizionali: durezza molto elevata, forte resistenza all'usura e lunga ritenzione dei bordi pur conservando una struttura sufficientemente fine e una resistenza utile.
 
-Inoltre non rende la lavorazione successiva poco importante. Scarso trattamento termico può ancora sprecare il potenziale di eccellente acciaio in polvere, e scarsa geometria può ancora fare un ottimo taglio lega male.
+In altre parole, la metallurgia delle polveri non offre semplicemente un modo diverso di produrre gli stessi acciai. **Espande la gamma di acciai che possono essere realizzati con successo.** Consente ai metallurgisti di perseguire composizioni più estreme e, con esse, livelli di prestazioni che la metallurgia convenzionale fatica a raggiungere con lo stesso equilibrio.
 
-Gli acciai Xinzuo come SRS13, M390, ZDP-189 e 14Cr14MoVNb vanno letti in questo contesto. Le loro prestazioni non derivano dalla sola parola **polvere**. Proviene dalla composizione, dalla lavorazione della polvere-metallurgia, dal trattamento termico e dalla geometria delle lame che lavorano insieme.
+Questo è il motivo per cui molti acciai moderni straordinari provengono dalla metallurgia delle polveri. ZDP-189 è un chiaro esempio: la sua composizione molto ricca è progettata per raggiungere un'eccezionale durezza e ritenzione dei bordi, mentre la lavorazione della polvere-metallurgia aiuta a mantenere quella chimica esigente sotto un controllo strutturale molto più stretto.
+
+## L'acciaio straordinario ha ancora bisogno di uno straordinario design del coltello
+
+La metallurgia delle polveri crea possibilità; non garantisce il risultato finale.
+
+Scarso trattamento termico può sprecare il potenziale di un eccellente acciaio in polvere. Scarsa lama o la geometria bordo può fare un taglio lega avanzata male. Un acciaio che è ottimizzato per estrema resistenza all'usura può anche essere meno adatto per un coltello che deve dare priorità alla durezza o facile affilatura.
+
+Così un acciaio convenzionale eccellente può ancora essere la scelta migliore per un coltello particolare. Ma questo non dovrebbe nascondere il punto più grande: ** metallurgia della polvere ha alzato il soffitto di ciò che l'acciaio ad alte prestazioni può raggiungere.**
+
+Gli acciai Xinzuo come SRS13, M390, ZDP-189 e 14Cr14MoVNb dovrebbero essere compresi in questo contesto. Le loro prestazioni derivano dall'interazione tra composizione, lavorazione della polvere-metallurgia, trattamento termico e geometria della lama.
 
 Ricordate la sequenza: **la ricetta dell'acciaio ci dice quali elementi sono presenti; il percorso di produzione influenza quanto la matrice e i carburi iniziano in modo uniforme; il trattamento termico sviluppa la microstruttura finale; e la geometria del bordo determina come quella struttura incontra l'alimento.**
