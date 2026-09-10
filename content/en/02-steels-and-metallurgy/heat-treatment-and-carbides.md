@@ -3,7 +3,7 @@ title: Heat Treatment and Carbides
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-09
+reviewed: 2026-09-10
 translation_priority: high
 ---
 
@@ -72,9 +72,9 @@ The correct austenitizing temperature and time therefore depend on the steel and
 
 At austenitizing temperatures, exposed steel can react strongly with air. It can oxidize and can lose carbon at the surface, a process called **decarburization**.
 
-A **vacuum furnace** or another controlled protective atmosphere reduces these reactions. For knife manufacturing this means less scale, less surface carbon loss, cleaner parts and more controlled heating. It is especially useful for high-alloy stainless and tool steels that need high hardening temperatures.
+A **vacuum furnace** or another controlled protective atmosphere greatly reduces these reactions. For knife manufacturing, this helps preserve the intended surface chemistry, limits oxidation and scale, keeps the blade cleaner and gives the heat treater a more controlled and repeatable environment during the high-temperature stages. These advantages are especially valuable for high-alloy stainless and tool steels that require demanding hardening temperatures.
 
-Vacuum treatment does not itself make the steel hard. It controls the environment while the real heat-treatment stages take place.
+Vacuum heat treatment is therefore an additional process-control step used to obtain as much useful performance as possible from the chosen steel. It does not replace the hardening recipe or create quality by itself; it allows that recipe to be carried out under cleaner and more tightly controlled conditions.
 
 ## 3. Quenching: transforming austenite into martensite
 
@@ -105,15 +105,15 @@ For steels and heat-treatment recipes that benefit from it, sufficiently low-tem
 - improve stability of size and shape;
 - make the later tempering response more predictable.
 
-It is not a universal upgrade. Converting more austenite into martensite also changes the hardness-toughness balance, so the treatment must suit the steel and the complete heat-treatment sequence.
+For a suitable steel and heat-treatment recipe, deep-freeze treatment is an additional step used to push the transformation further and obtain more of the performance available from the alloy. Because it changes the balance between martensite and retained austenite, it must be integrated correctly with the quenching and tempering stages rather than applied as an isolated operation.
 
 ### Xinzuo as an example
 
-Selected Xinzuo series specify **vacuum heat treatment and deep freeze**. These are different steps.
+Selected Xinzuo series specify **vacuum heat treatment and deep freeze**. These are additional, technically demanding stages that require dedicated equipment, process time and control, and therefore add real manufacturing cost.
 
-Vacuum processing controls the atmosphere during high-temperature treatment. Deep freezing is a later low-temperature step used when the steel and recipe call for further transformation of retained austenite.
+They are used for a practical reason: to extract as much useful performance as possible from the steel selected for the blade. Vacuum heat treatment protects the steel and improves control during the high-temperature stages. Deep freezing, when specified for the alloy and recipe, helps transform additional retained austenite, support hardness and improve structural stability before tempering.
 
-Neither term should be treated as a stand-alone sign of quality. Its value comes from how it fits the complete treatment.
+These processes do not perform miracles and they cannot compensate for a poor steel, an incorrect heat-treatment recipe or unsuitable blade geometry. But neither are they empty technical labels. **When correctly applied, they are deliberate additional steps intended to bring the chosen steel closer to its best achievable performance in the finished knife.**
 
 ## 5. Tempering: making martensite usable
 
