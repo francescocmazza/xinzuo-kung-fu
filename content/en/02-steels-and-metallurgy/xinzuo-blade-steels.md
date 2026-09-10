@@ -3,7 +3,7 @@ title: Xinzuo Blade Steels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-09
+reviewed: 2026-09-10
 translation_priority: highest
 source_basis: Xinzuo 2025 product information, manufacturer technical data, and current Xinzuo internal product-development notes
 ---
@@ -12,23 +12,23 @@ source_basis: Xinzuo 2025 product information, manufacturer technical data, and 
 
 Xinzuo uses many blade steels because different knives, users and tasks need different balances of hardness, edge retention, sharpening response, corrosion resistance and toughness. This chapter explains the practical role of each material in the current range.
 
-No steel maximizes every desirable property. A fine slicer, general chef's knife and heavy chopper need different balances. The useful question is not which steel ranks highest, but which steel best matches the knife's geometry, heat treatment, work and maintenance needs.
+No steel maximizes every desirable property. A fine slicer, general chef's knife and heavy chopper need different balances. The useful question is not which steel ranks highest, but which balance of properties best fits the intended work and user.
 
-A steel name describes potential. Heat treatment, blade geometry, thickness behind the edge, sharpening and use determine how that potential appears in the finished knife. [Heat Treatment and Carbides](heat-treatment-and-carbides.md) explains the manufacturing side; this chapter focuses on the practical position of each steel.
+To make the comparison meaningful, the descriptions below consider the steels **all else being equal**: with appropriate heat treatment and broadly comparable blade and edge geometry. Heat treatment and geometry matter for every steel, not only for selected grades. Those universal factors are explained elsewhere in this guide and are not repeated here as caveats under individual steels. This chapter focuses on the metallurgical character and practical trade-offs of the steels themselves.
 
 ## A compact comparison
 
 | Steel | Origin / source | Published hardness | What makes it distinctive in practice | Main compromise or limitation |
 |---|---|---:|---|---|
-| **ZDP-189** | Japan | 65-67 HRC | Extreme hardness and very high wear resistance give exceptionally long slicing-edge life when geometry and use are appropriate | Demanding sharpening; thin edges require disciplined use and should not be twisted or impacted |
+| **ZDP-189** | Japan | 65-67 HRC | Extreme hardness and very high wear resistance give exceptionally long slicing-edge life | Demanding sharpening; thin edges require disciplined use and should not be twisted or impacted |
 | **SRS13 powder steel** | Japan | 62-64 HRC | Powder-metallurgy structure gives a strong combination of fine cutting response, stainless care and high retention without reaching the extreme hardness of ZDP-189 | More wear-resistant and less forgiving to sharpen than simpler stainless or carbon steels |
-| **Böhler M390** | Austria, Böhler | 60-62 HRC | Premium powder-metallurgy stainless with very high wear resistance and strong corrosion resistance; excellent when long edge life and stainless care matter together | Independent knife-scale testing shows relatively low toughness compared with tougher knife steels; efficient abrasives are useful for sharpening |
+| **Böhler M390** | Austria, Böhler | 60-62 HRC | Premium powder-metallurgy stainless with very high wear resistance and strong corrosion resistance; excellent when long edge life and stainless care matter together | Relatively modest toughness compared with tougher knife steels; efficient abrasives are useful for sharpening |
 | **Blue Steel No. 2** | Japan | 62-64 HRC | Reactive high-carbon steel that can take a very keen edge and respond unusually well to water stones despite high hardness | Requires immediate cleaning and drying and will naturally develop patina |
-| **14Cr14MoVNb powder steel** | Xinzuo | 60-64 HRC | Niobium-bearing premium powder steel intended to combine high hardness and retention with a finer, more controlled carbide structure | Premium sharpening requirements; exact behaviour depends strongly on heat treatment and geometry |
+| **14Cr14MoVNb powder steel** | Xinzuo | 60-64 HRC | Niobium-bearing premium powder steel combining high hardness and retention with a fine, controlled carbide structure | Higher wear resistance makes sharpening more demanding than on simpler stainless steels |
 | **12Cr18MoV** | Xinzuo | 59-61 HRC | Xinzuo's newer all-round conventional stainless formulation, designed for a particularly strong combination of corrosion stability, useful hardness, toughness and straightforward maintenance | Less extreme wear resistance than the hardest powder steels, by design |
 | **AUS-10** | Japan, Aichi family | 58-62 HRC | Japanese high-carbon stainless with a practical balance close to the performance class commonly associated with VG10: good sharpness, hardness, corrosion resistance and manageable maintenance | Moderate wear resistance compared with premium powder steels; not chemically identical to VG10 |
-| **10Cr15CoMoV** | China / Xinzuo specification | 58-62 HRC | Xinzuo's long-standing high-carbon stainless core, tuned for a mature balance of edge retention, toughness, hardness and sharpening response, with especially strong corrosion stability in Xinzuo's implementation | Does not maximize one single property; final performance remains highly heat-treatment- and geometry-dependent |
-| **VG10** | Japan, Takefu Special Steel | HRC 60 or higher in Takefu's published specification | Established Japanese market benchmark for balanced high-carbon stainless performance: good corrosion resistance, durable sharpness, wear resistance and manageable sharpening | Balanced rather than extreme; finished behaviour still depends strongly on heat treatment, geometry and sharpening |
+| **10Cr15CoMoV** | China / Xinzuo specification | 58-62 HRC | Xinzuo's long-standing high-carbon stainless core, tuned for a mature balance of edge retention, toughness, hardness and sharpening response, with especially strong corrosion stability in Xinzuo's implementation | Balanced rather than extreme; lower wear resistance and edge retention than premium powder steels |
+| **VG10** | Japan, Takefu Special Steel | HRC 60 or higher in Takefu's published specification | Established Japanese market benchmark for balanced high-carbon stainless performance: good corrosion resistance, durable sharpness, wear resistance and manageable sharpening | Balanced rather than extreme; lower wear resistance and edge retention than premium powder steels |
 | **Sandvik 14C28N** | Sweden | 57-59 HRC | Nitrogen-assisted stainless design with fine structure, strong corrosion resistance and very good edge stability; suitable for users who maintain their own knives | Moderate wear resistance and edge life compared with high-carbide powder steels |
 | **440C** | International standard grade; Xinzuo supply from China | 56-58 HRC | Proven high-carbon martensitic stainless with useful wear resistance, strength and corrosion resistance at an accessible cost | Coarser carbide structure and more modest retention than newer high-performance steels at Xinzuo's published hardness |
 | **DIN 1.4116** | Germany | 56-58 HRC | Tough, corrosion-resistant and forgiving in everyday use, with a large margin against chipping and misuse compared with very hard thin-edge steels | Needs more frequent edge maintenance and can form a persistent burr; moderate hardness does not automatically mean effortless sharpening |
@@ -39,9 +39,9 @@ This table shows compromises, not rankings. Two steels can feel almost identical
 
 ### ZDP-189: maximum hardness and long edge life
 
-ZDP-189 is among the hardest steels in the range. At 65-67 HRC, it strongly resists edge deformation and can keep cutting for a long time when geometry and use are appropriate. Its performance comes from hardness and wear resistance together, not HRC alone.
+ZDP-189 is among the hardest steels in the range. At 65-67 HRC, it strongly resists edge deformation and can keep cutting for a very long time. Its performance comes from hardness and wear resistance together, not HRC alone.
 
-The same properties reduce its tolerance for misuse. High hardness and a large carbide population slow sharpening, while a thin edge tolerates lateral loads poorly. ZDP-189 is for controlled cutting, not twisting through hard food, levering, striking bone or general abuse.
+The same properties reduce its tolerance for misuse. High hardness and a large carbide population slow sharpening, while a very thin edge tolerates lateral loads poorly. ZDP-189 is for controlled cutting, not twisting through hard food, levering, striking bone or general abuse.
 
 ### SRS13: premium performance without ZDP-189's extreme hardness
 
@@ -53,17 +53,15 @@ SRS13 remains a premium high-retention steel without reaching ZDP-189's hardness
 
 M390 is a premium Austrian powder-metallurgy martensitic stainless steel from Böhler. Its main strength is **very high wear resistance combined with strong corrosion resistance**. It suits knives that need long working-edge life with stainless convenience.
 
-Its toughness is more modest. Böhler describes both its toughness and **ductility—the ability to deform before breaking—as good**, while independent knife-scale impact testing shows optimized M390 on the lower-toughness side of the knife-steel spectrum. Earlier unusually high toughness results were linked to heat treatment with excessive retained austenite. This does not make M390 fragile in normal kitchen use; it means its strongest reasons for selection are wear resistance, corrosion resistance and retention rather than exceptional toughness.
+Its toughness is more modest. Böhler describes both its toughness and **ductility—the ability to deform before breaking—as good**, while independent knife-scale impact testing places optimized M390 on the lower-toughness side of the knife-steel spectrum. This does not make M390 fragile in normal kitchen use; it means its strongest reasons for selection are wear resistance, corrosion resistance and retention rather than exceptional toughness.
 
 Its carbide population also resists ordinary abrasives. Hard ceramic, diamond or **cubic boron nitride (CBN)** abrasives can make sharpening much more efficient. CBN is an extremely hard synthetic abrasive used for difficult-to-abrade steels.
 
 ### 14Cr14MoVNb: Xinzuo's niobium-bearing premium powder steel
 
-Xinzuo's 14Cr14MoVNb is a niobium-bearing powder steel used in premium layered constructions. Niobium is a strong carbide former and, in a suitable alloy, can create very hard MC-type carbides while supporting microstructural refinement. The goal is to balance hardness, wear resistance, carbide size and edge stability, not simply add a prestigious element.
+Xinzuo's 14Cr14MoVNb is a niobium-bearing powder steel used in premium layered constructions. Niobium is a strong carbide former and contributes to very hard MC-type carbides while supporting a fine, controlled carbide structure. This gives the steel a strong combination of hardness, wear resistance, edge retention and edge stability.
 
-The steel is positioned as a premium high-retention option with a broader balance than a maximum-hardness strategy. Selected series use **vacuum heat treatment and deep-freeze processing**, which help determine how much of the alloy's potential reaches the finished blade.
-
-Niobium alone cannot predict performance. Composition and heat treatment still determine the final carbide population.
+The steel is positioned as a premium high-retention option with a broader balance than a maximum-hardness strategy. Selected series also use **vacuum heat treatment and deep-freeze processing** as part of Xinzuo's process for realizing this high-performance balance in the finished blade.
 
 ## Carbon and all-round high-performance stainless steels
 
@@ -71,17 +69,17 @@ Niobium alone cannot predict performance. Composition and heat treatment still d
 
 Blue Steel No. 2, or Aogami #2, is the main reactive carbon-steel option in the range and is specified at 62-64 HRC. It achieves high performance through a simpler alloy strategy than M390 or ZDP-189. Its high-carbon alloy favours a keen, stable edge without relying on a large volume of corrosion-resistant alloy carbides.
 
-A well heat-treated Blue #2 blade can respond very quickly to suitable water stones despite its hardness. It can reach the apex and deburr cleanly, which is why many experienced sharpeners find it easier to sharpen than lower-HRC stainless steels with greater abrasive wear resistance.
+Blue #2 can respond very quickly to suitable water stones despite its hardness. It can reach the apex and deburr cleanly, which is why many experienced sharpeners find it easier to sharpen than lower-HRC stainless steels with greater abrasive wear resistance.
 
 Its main demand is corrosion care. Wash and dry it immediately. Expect a **patina**, the stable grey, blue or dark surface reaction that develops naturally on reactive carbon steel, and distinguish it from active orange rust.
 
 ### 10Cr15CoMoV: the long-standing Xinzuo all-round reference
 
-10Cr15CoMoV has long been one of Xinzuo's characteristic steels and, for years, its most widely used high-carbon stainless core. Xinzuo selected and heat-treats it for a broad balance of edge retention, toughness, corrosion resistance and sharpening practicality rather than one extreme property.
+10Cr15CoMoV has long been one of Xinzuo's characteristic steels and, for years, its most widely used high-carbon stainless core. Xinzuo uses it for a broad balance of edge retention, toughness, corrosion resistance and sharpening practicality rather than one extreme property.
 
 That balance gives it an exceptional **quality-to-price ratio**. It can support thin, refined kitchen edges and serious professional use without the material cost or sharpening demands of premium powder steel. Hardness, toughness and sharpening response remain in the familiar high-performance all-round stainless range, so the steel is predictable both in use and on the stone.
 
-One of the strongest parts of Xinzuo's implementation is corrosion behaviour. Internal comparative testing shows a particularly stable response to corrosion for this steel and heat-treatment combination. This gives the user a generous practical margin around moisture, food acids and everyday kitchen exposure without giving up the edge stability or maintenance characteristics expected from a high-carbon stainless core.
+One of the strongest characteristics of Xinzuo's 10Cr15CoMoV is corrosion behaviour. Internal comparative testing shows a particularly stable response to corrosion. This gives the user a generous practical margin around moisture, food acids and everyday kitchen exposure without giving up the edge stability or maintenance characteristics expected from a high-carbon stainless core.
 
 Its value comes from the balance of these properties. It is not intended to maximize one isolated laboratory category; it is designed to provide strong performance without major weaknesses in normal kitchen use.
 
@@ -107,7 +105,7 @@ AUS-10 offers more performance than basic stainless steels while remaining easie
 
 VG10 is a proprietary Japanese stainless cutlery steel produced by **Takefu Special Steel**. With approximately 1% carbon, 15% chromium, molybdenum, vanadium and cobalt, it became one of the best-known steels in modern Japanese kitchen knives.
 
-Its success came from balance rather than from one extreme property. Properly heat-treated VG10 combines relatively high hardness, good corrosion resistance, useful edge retention and manageable sharpening. For many years, this made it an important reference point for premium stainless kitchen knives.
+Its success came from balance rather than from one extreme property. VG10 combines relatively high hardness, good corrosion resistance, useful edge retention and manageable sharpening. For many years, this made it an important reference point for premium stainless kitchen knives.
 
 For this reason, VG10 is useful as a benchmark when discussing other all-round knife steels.
 
@@ -143,7 +141,7 @@ Two steels do not need the same chemical composition to occupy the same practica
 
 An alternative to VG10 may use a different alloy design to achieve comparable overall performance, while improving one characteristic and accepting a different compromise somewhere else.
 
-For example, one formulation may emphasize corrosion resistance, another toughness, another edge stability or easier maintenance. Heat treatment and blade geometry then determine how those differences appear in the finished knife.
+For example, one formulation may emphasize corrosion resistance, another toughness, another edge stability or easier maintenance. These differences come from the alloy design itself and define where each steel sits within the same broad performance class.
 
 This is why VG10 should be treated as a **reference point, not as a formula that every premium stainless knife must reproduce**.
 
@@ -155,7 +153,7 @@ For Xinzuo, the relevant question is therefore not:
 
 but:
 
-**“What combination of steel composition, heat treatment and blade geometry gives the best result for the knife we want to make?”**
+**“What alloy balance gives the best result for the knife we want to make?”**
 
 ### Sandvik 14C28N: fine structure, nitrogen and edge stability
 
@@ -179,7 +177,7 @@ Think of it as an established practical steel rather than a steel selected for m
 
 Xinzuo specifies DIN 1.4116 at 56-58 HRC in series such as B13S and B35. It emphasizes **corrosion resistance, toughness and forgiving everyday use**. It suits kitchens with less disciplined technique, frequent washing or users who value robustness more than maximum retention.
 
-Moderate hardness can make material removal easier than on a very wear-resistant powder steel, but it does not guarantee easy sharpening. Carbide structure, heat treatment, geometry and burr behaviour also matter. DIN 1.4116 can form a persistent burr and may feel less clean on a water stone than the harder but comparatively fine Blue Steel No. 2.
+Moderate hardness can make material removal easier than on a very wear-resistant powder steel, but it does not guarantee easy sharpening. Carbide structure and burr behaviour also matter. DIN 1.4116 can form a persistent burr and may feel less clean on a water stone than the harder but comparatively fine Blue Steel No. 2.
 
 A better description is **forgiving in use and generally maintainable with ordinary abrasives, but not automatically the easiest steel to apex and deburr**. It usually needs maintenance sooner than harder high-retention steels but offers more margin against chipping and misuse.
 
@@ -189,7 +187,7 @@ Hardness alone is therefore an unreliable guide to sharpening behaviour.
 
 Xinzuo also uses layered constructions including conventional Damascus cladding, copper-Damascus designs and 110-layer full Damascus.
 
-Layer count does not directly measure sharpness. In a core-and-cladding blade, the core steel, its heat treatment and edge geometry control the apex. Decorative copper or brass layers can create strong contrast without making the edge inherently sharper.
+Layer count does not directly measure sharpness. In a core-and-cladding blade, the core steel controls the metallurgical behaviour at the apex; the blade construction and edge geometry then determine how that material is used. Decorative copper or brass layers can create strong contrast without making the edge inherently sharper.
 
 Full-Damascus constructions differ because alternating materials can continue through the edge and affect wear there. [The Self-Sharpening Effect in Full Damascus Blades](../03-blade-construction/self-sharpening-full-damascus.md) explains when differential wear can develop and why it must be verified on the finished layered material. It does not mean normal sharpening becomes unnecessary.
 
@@ -197,6 +195,6 @@ Full-Damascus constructions differ because alternating materials can continue th
 
 The range uses several metallurgical strategies. ZDP-189, SRS13, M390 and 14Cr14MoVNb pursue premium retention through high hardness, powder metallurgy or high-carbide performance, with different trade-offs. Blue Steel No. 2 reaches high hardness through a simpler reactive-carbon route and remains highly responsive on water stones. VG10 remains a useful external benchmark for the established all-round high-carbon stainless class. Xinzuo's 10Cr15CoMoV represents a mature in-house balance with particularly strong corrosion stability, while 12Cr18MoV further develops the company's conventional everyday-use balance. AUS-10 occupies the same broad all-round stainless category. 14C28N, 440C and DIN 1.4116 emphasize easier care, greater forgiveness and more accessible maintenance.
 
-Do not choose a steel only because it ranks highest in a comparison table. Choose the Xinzuo knife whose steel, heat treatment, geometry, maintenance needs and sharpening response fit the work and the user.
+Do not choose a steel only because it ranks highest in a comparison table. Choose the Xinzuo steel whose balance of edge retention, toughness, corrosion resistance, maintenance needs and sharpening response best fits the work and the user.
 
 *Source note: Xinzuo steel names, published hardness ranges, series use and company-specific positioning are based on Xinzuo product information and current internal product-development information. The specification of the individual model takes precedence. M390 property descriptions were cross-checked against Böhler M390 MICROCLEAN technical data and independent knife-steel toughness testing by Larrin Thomas. AUS-10 origin and intended blade use were cross-checked against Aichi Steel's cutlery-steel information. VG10 composition and manufacturer properties were cross-checked against Takefu Special Steel's published VG10 data. The statement about the current unavailability of genuine Takefu VG10 in China for knife production reflects current Xinzuo procurement information. Statements about the approximate 2024 introduction and internal positioning of 12Cr18MoV and Xinzuo's 10Cr15CoMoV corrosion testing are also Xinzuo internal information rather than claims published by the steel producers.*
