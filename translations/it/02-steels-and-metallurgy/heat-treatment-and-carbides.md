@@ -1,5 +1,5 @@
 ---
-source_hash: 35891429d4c6a0aab5dedb3fff3dbdfcdced2d9814b284292e1054795c4b2691
+source_hash: f9133c4d53f266d3f495e7e99658e7c144b9a629e3e16c28ee66b26e8656735a
 ---
 
 # Trattamento termico e carboidrati: trasformare la composizione in una lama
@@ -122,13 +122,33 @@ Alcuni acciai utilizzano due o più cicli di tempra. Per esempio, l'idruro mante
 
 L'obiettivo finale non è il più alto HRC possibile. È la durezza che dà la stabilità necessaria del bordo senza sacrificare troppa durezza o creare altri problemi per quell'acciaio e la geometria.
 
-## 6. Macinazione dopo il trattamento termico
+## 6. Macinazione e affilatura dopo il trattamento termico
 
-Un corretto ciclo del forno può ancora essere danneggiato in seguito.
+Un corretto ciclo del forno può ancora essere danneggiato in seguito. Il motivo è più facile da capire pensando ad un piccolissimo pezzo di metallo.
 
-La macinatura e l'affilatura generano calore sulla superficie. Il bordo è estremamente sottile, quindi può surriscaldare molto più velocemente del corpo spesso della lama. Se il bordo indurito diventa troppo caldo, può essere temprato involontariamente sopra la temperatura prevista e perdere durezza o stabilità.
+Un ago da cucire può essere portato ad una temperatura molto alta con una fonte di calore sorprendentemente piccola. La stessa fonte cambierebbe appena la temperatura di un grande blocco d'acciaio. La differenza è la quantità di materiale disponibile per assorbire e trasportare il calore.
 
-La rettifica controllata, il raffreddamento e l'affilatura attenta fanno quindi parte del risultato del trattamento termico. La metallizzazione non si ferma quando la lama lascia il forno.
+Il bordo di un coltello segue lo stesso principio. Con l'affilatura, l'acciaio all'apice diventa straordinariamente sottile, anche microscopico. Un bordo molto appuntito può terminare in una regione misurata in frazioni di un micrometro. Quel volume di acciaio minuscolo non ha quasi nessuna massa termica, quindi può riscaldare molto più velocemente del corpo denso della lama.
+
+La macinatura e l'affilatura alimentata convertono gran parte della loro energia meccanica in calore. La colonna vertebrale o la maniglia del coltello possono ancora sentirsi freddi mentre il bordo microscopico sta sperimentando una temperatura locale molto più alta. Se quel bordo è riscaldato al di sopra della gamma di temperatura stabilita dal trattamento di temperatura finale, può essere ** sovra-temperato localmente**, perdendo durezza e stabilità del bordo. A temperature ancora più elevate, possono verificarsi cambiamenti metallurgici più gravi.
+
+Ciò significa che la lama non ha bisogno di brillare rosso prima che il danno diventi possibile. Il calore rosso visibile rappresenterebbe già una temperatura estrema per un bordo coltello finito. Il punto importante è più semplice: **il più sottile diventa l'acciaio, meno calore è necessario per cambiare la sua temperatura, e più attenzione che il calore deve essere controllato.**
+
+### Perché il raffreddamento dell'acqua è importante
+
+Questo è il motivo per cui il raffreddamento rimane importante anche dopo che il forno è finito. Xinzuo utilizza il raffreddamento dell'acqua durante le fasi di lavorazione della lama abrasiva dopo il trattamento termico, compresa la macinazione raffreddata ad acqua e l'affilatura a whetstone. Lo scopo non è cosmetico. L'acqua porta continuamente il calore lontano dall'acciaio in modo che la rettifica e l'affilatura può modellare la lama senza disfare la microstruttura creata dal ciclo di trattamento termico.
+
+Lo stesso principio aiuta a spiegare perché l'affilatura manuale** della pietra d'acqua è particolarmente adatta per coltelli da cucina di alta qualità. L'affilatura a mano è lenta e genera molto meno calore rispetto alla rettifica ad alta velocità, mentre la pietra bagnata mantiene la superficie di lavoro lubrificata, pulita e fredda. Le pietre d'acqua non sono l'unico metodo di affilatura manuale sicuro e le lastre diamantate utilizzate a mano generano anche pochissimo calore ma le pietre d'acqua forniscono un modo semplice e controllato per affilare un bordo sottile senza esporlo al rischio termico della rettifica ad alta velocità a secco.
+
+### Che scintille ci dicono
+
+Film e video di officina mostrano spesso lame macinate con una spettacolare doccia di scintille. Le scintille stesse sono piccole particelle d'acciaio rimosse dall'abrasivo e riscaldate abbastanza da illuminare e ossidare nell'aria. **Le scintille non provano che l'intera lama, o anche il bordo, abbia già perso il suo trattamento termico.**
+
+Ma una grande doccia di scintille dalla macinazione secca e ad alta velocità è ancora un segnale di avvertimento utile: il processo sta mettendo molta energia in una zona di contatto molto piccola, e gran parte di quella energia diventa calore. Su un grosso pezzo di acciaio non finito questo può essere gestibile. Su una lama già indurito avvicinandosi al suo bordo microscopico finale, il margine di sicurezza è molto più piccolo.
+
+Per questo motivo, la rettifica professionale post-trattamento dipende dalla pressione controllata, dalla velocità dell'abrasivo, dal tempo di contatto e, se del caso, dal liquido di raffreddamento continuo.
+
+**Il trattamento termico quindi non termina quando la lama lascia il forno. Le fasi finali di rettifica e affilatura devono preservare la struttura che il forno ha creato.**
 
 ## Le principali famiglie di carburo negli acciai al coltello
 
