@@ -2,14 +2,14 @@
 title: Editorial Principles
 status: approved
 language: en
-reviewed: 2026-09-09
+reviewed: 2026-09-10
 ---
 
 # Editorial Principles
 
 ## Brand ownership and point of view
 
-This is **Xinzuo's practical book on kitchen knives**. It explains the wider world of kitchen knives from the point of view of a manufacturer that selects steels and handle materials, develops constructions, controls heat treatment, finishes blades and tests completed knives.
+This is **Xinzuo's practical book on kitchen knives**. It explains the wider world of kitchen knives from the point of view of a manufacturer that selects and develops steels and handle materials, works with industrial and academic metallurgy partners, develops blade constructions, controls heat treatment and abrasive finishing, tests completed knives, and designs different ergonomic and balance strategies.
 
 Xinzuo must never appear as an occasional external example added to otherwise brand-neutral copy. Every substantial chapter should connect its subject to relevant Xinzuo materials, constructions, processes, product families or care guidance. When Xinzuo offers several solutions, explain the choice and trade-off instead of forcing the portfolio into a single hierarchy.
 
@@ -162,6 +162,25 @@ Strong commercial language is acceptable when the practical meaning is accurate.
 
 Precision should make the product story more credible and useful, not weaken the author's point of view.
 
+## Verified Xinzuo differentiation
+
+A verified Xinzuo capability, process or design choice that is genuinely distinctive is part of the educational content. **State clearly what makes it valuable before adding any necessary boundary.** Do not neutralize a real advantage merely to make the text sound detached or academic.
+
+Generic caveats must not be attached selectively to Xinzuo. If heat treatment, geometry, manufacturing quality or intended use affects every steel or every knife, explain that principle once at the appropriate general level. Do not repeat it only under a Xinzuo steel, process or construction in a way that makes the company-specific feature appear unusually uncertain.
+
+Examples of verified differentiation that should be explained when relevant include:
+
+- proprietary alloy development and collaboration with industrial and academic metallurgy partners;
+- direct involvement in steel-production targets for proprietary materials such as 14Cr14MoVNb;
+- vacuum heat treatment and deep-freeze processing in selected series;
+- water-cooled abrasive processing and whetstone sharpening used to preserve the heat-treated edge;
+- full-Damascus constructions in which alternating materials continue through the working edge;
+- deliberate use of different steels, handle materials, geometries, weights and balance strategies for different users and tasks.
+
+Describe these advantages through the concrete capability and the benefit it creates. Avoid unsupported claims such as **best in the world**, **unique**, **the only company**, or **one of the only companies** unless comparative evidence exists. When a capability is uncommon but an exhaustive market comparison is unavailable, phrases such as **unusual in kitchen-knife manufacturing**, **not common in the category** or a direct description of the capability are preferable.
+
+Do not explain Xinzuo's innovation through stereotypes about countries, cultures or traditions. It is valid to contrast a product-development approach centered on continuity of established techniques with Xinzuo's more explicitly experimental and R&D-driven approach when the comparison is relevant. Keep the comparison about companies, methods and design priorities rather than national character.
+
 ## State the dominant practical effect first
 
 When a feature creates a clear effect the reader can feel, **state that effect before mechanisms, secondary influences or exceptions**. The reader should not pass through a paragraph of qualifications before discovering what the feature does.
@@ -295,6 +314,7 @@ Before approving a chapter, ask:
 - Are technical terms introduced rather than assumed?
 - Does the author state the conclusion clearly instead of hiding it behind unnecessary caveats?
 - Are remaining qualifications genuinely necessary for accuracy, scope or safety?
+- Are verified Xinzuo strengths stated clearly before their limitations, without selective generic caveats?
 - Is the commercial message strong but credible?
 - Can the text be translated without changing meaning or reproducing awkward syntax?
 - Does the reader finish with a clearer mental picture?

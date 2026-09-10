@@ -3,7 +3,7 @@ title: The Five Dimensions of Knife Steel
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-09
+reviewed: 2026-09-10
 translation_priority: high
 ---
 
@@ -98,13 +98,15 @@ These trade-offs are why different steels and heat treatments exist.
 
 ## Applying the five dimensions to the Xinzuo range
 
-The [Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) chapter applies this framework to a real product range. ZDP-189 emphasizes very high hardness and wear resistance; SRS13, M390 and 14Cr14MoVNb pursue different premium balances; 10Cr15CoMoV occupies a broad all-round position; Blue Steel No. 2 exchanges stainless convenience for responsive carbon-steel behaviour; and DIN 1.4116 is at the more forgiving, moderate-hardness end of the range.
+Xinzuo uses the five dimensions as different design directions rather than trying to make one steel serve every knife. The breadth of the range is deliberate: **different steels are selected or developed because different users and cutting tasks need different balances**.
 
-These are tendencies, not complete predictions of a finished knife. Heat treatment, grinding, edge geometry and sharpening still determine how a model behaves. Xinzuo's documented use of vacuum heat treatment and deep-freeze processing in selected series shows how manufacturing turns an alloy's potential into a working blade; the dedicated heat-treatment chapter explains those processes.
+The [Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) chapter shows this strategy in practice. ZDP-189 emphasizes very high hardness and wear resistance; SRS13 and M390 pursue different premium powder-steel balances; proprietary 14Cr14MoVNb combines high hardness and retention with Xinzuo's direct involvement in alloy development; 10Cr15CoMoV occupies a broad all-round position with particularly strong corrosion stability; Blue Steel No. 2 exchanges stainless convenience for responsive carbon-steel behaviour; and DIN 1.4116 serves the more forgiving, moderate-hardness end of the range.
+
+The material strategy is matched by process control. Selected series use **vacuum heat treatment and deep-freeze processing** to obtain more of the performance available from demanding steels, while controlled grinding and sharpening preserve that result through final production. Xinzuo therefore works on both sides of the equation: choosing or developing the alloy balance and then controlling how that material becomes a finished edge.
 
 A home cook may value corrosion resistance and tolerance of ordinary use. A professional making precise fish or vegetable cuts may accept more demanding care for greater hardness, fine geometry and sharpening response. A butcher working around joints may put toughness and blade support ahead of extreme refinement.
 
-None of these priorities is inherently more advanced. They serve different work.
+These priorities serve different work. Xinzuo's advantage is having enough material and design strategies to address them deliberately rather than forcing every user toward one definition of a premium knife.
 
 The central lesson is more useful than “higher is better”:
 

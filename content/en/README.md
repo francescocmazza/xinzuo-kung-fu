@@ -4,9 +4,11 @@
 
 Make editorial changes here first. Translations should preserve the meaning, structure and natural reading order of the English source without copying awkward English syntax.
 
-The manuscript should be written as a continuous practical book, not a collection of product notes. Follow `EDITORIAL_REQUIREMENTS.md` and `docs/editorial-principles.md`, especially the rules on narrative progression, plain-language compression, sentence-level linearity, terminology, content preservation and translation.
+The manuscript should be written as a continuous practical book, not a collection of product notes. Follow `EDITORIAL_REQUIREMENTS.md` and `docs/editorial-principles.md`, especially the rules on narrative progression, plain-language compression, sentence-level linearity, terminology, content preservation, verified Xinzuo differentiation and translation.
 
 At equal meaning, always prefer the clearest, most direct and shortest natural formulation. Keep technical complexity only where accuracy, understanding or safety requires it.
+
+When the manuscript describes a verified Xinzuo capability that is distinctive in the category, explain the concrete capability and its benefit clearly. Do not weaken it with a generic caveat that applies equally to every manufacturer or material; place universal limitations at the general level where they belong. Avoid unsupported superlatives and keep comparisons focused on documented processes, design choices and capabilities.
 
 **Translation-safe wording rule:** when a common English word is being used figuratively, replace it with a direct verb whenever the direct verb preserves the meaning. For example, use **understand**, **examine**, **compare**, **check**, **consider** or **evaluate** instead of figurative uses of **read**. Prefer words with one clear meaning in context, avoid unnecessary idioms and phrasal expressions, and avoid metaphors that add style without adding understanding. Keep technical terms when they are necessary, define them clearly at first use and use them consistently afterwards.
 

@@ -61,24 +61,28 @@ A useful comparison is:
 
 ## Why powder metallurgy changed high-performance steels
 
-The main advantage of powder metallurgy is not that every powder steel is automatically better than every conventional steel. Its real importance is that it gives steel designers **far more freedom to create highly alloyed compositions without losing control of the microstructure**.
+Powder metallurgy gives steel designers **far more freedom to create highly alloyed compositions without losing control of the microstructure**.
 
 A powder-metallurgy steel can contain large quantities of carbon and carbide-forming elements while keeping the resulting carbides much finer and more evenly distributed than the same extreme composition would usually achieve through conventional ingot metallurgy.
 
 This makes possible combinations that are very difficult to obtain by traditional routes: very high hardness, strong wear resistance and long edge retention while still preserving a sufficiently fine structure and useful toughness.
 
-In other words, powder metallurgy does not merely offer a different way to make the same steels. **It expands the range of steels that can be made successfully.** It allows metallurgists to pursue more extreme compositions and, with them, levels of performance that conventional metallurgy would struggle to achieve with the same balance.
+Powder metallurgy therefore does more than offer a different way to make steel. **It expands the range of steels that can be made successfully.** It allows metallurgists to pursue more extreme compositions and, with them, levels of performance that conventional metallurgy would struggle to achieve with the same balance.
 
 This is why many extraordinary modern knife steels come from powder metallurgy. ZDP-189 is a clear example: its very rich composition is designed to reach exceptional hardness and edge retention, while powder-metallurgy processing helps keep that demanding chemistry under much tighter structural control.
 
-## Extraordinary steel still needs an extraordinary knife design
+Conventional metallurgy still produces excellent steels and remains the right route for many designs. Powder metallurgy matters when the desired performance and alloy richness make finer structural control especially valuable. **It raised the ceiling of what high-performance steel can achieve.**
 
-Powder metallurgy creates possibilities; it does not guarantee the final result.
+## How Xinzuo uses powder metallurgy
 
-Poor heat treatment can waste the potential of an excellent powder steel. Poor blade or edge geometry can make an advanced alloy cut badly. A steel that is optimized for extreme wear resistance may also be less suitable for a knife that must prioritize toughness or easy sharpening.
+Xinzuo uses this expanded metallurgical design space in two complementary ways.
 
-So an excellent conventional steel can still be the better choice for a particular knife. But this should not hide the larger point: **powder metallurgy raised the ceiling of what high-performance steel can achieve.**
+The company selects established specialist powder steels such as **SRS13, M390 and ZDP-189** when their particular balance of hardness, wear resistance, corrosion resistance and sharpening behaviour suits the knife being developed. This gives Xinzuo access to proven high-performance alloys created by specialist steel producers.
 
-Xinzuo steels such as SRS13, M390, ZDP-189 and 14Cr14MoVNb should be understood in this context. Their performance comes from the interaction of composition, powder-metallurgy processing, heat treatment and blade geometry.
+Xinzuo also develops proprietary metallurgy. **14Cr14MoVNb** was developed as Xinzuo's own high-performance powder steel in collaboration with industrial and academic metallurgy partners. This allows the company to participate in alloy design and steel-production targets farther upstream instead of beginning its control only after finished commercial steel stock has been purchased.
+
+The combination is important. Xinzuo can choose an established specialist steel when it is the best fit, or develop a proprietary material when greater control over composition, production and future refinement serves the product objective. In both cases, the material is then carried through the rest of the manufacturing chain—heat treatment, grinding, sharpening and blade design—to turn its metallurgical potential into a working knife.
+
+This approach reflects a broader part of Xinzuo's product-development culture: **metallurgy itself is treated as a field of research and design, not only as a purchasing decision.**
 
 Remember the sequence: **the steel composition tells us what elements are present; the manufacturing route affects how evenly the matrix and carbides begin; heat treatment develops the final microstructure; and edge geometry determines how that structure meets the food.**
