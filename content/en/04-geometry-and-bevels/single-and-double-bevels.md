@@ -47,7 +47,9 @@ During routine sharpening, work the small edge bevel or microbevel on both sides
 
 A convex grind curves outward as it approaches the edge instead of forming one perfectly flat plane. The curve leaves progressively more steel behind the apex, giving the edge strong support while avoiding the abrupt shoulder of a thick flat bevel. A well-made convex section can therefore combine a fine cutting edge with good resistance to lateral stress.
 
-The complete convex profile is harder to reproduce exactly on a flat stone than a simple V. In normal maintenance, many convex-ground kitchen knives can be sharpened at their small edge bevel or microbevel without regrinding the whole convex surface. Restoring or deliberately changing the complete convex profile is a geometry operation, not ordinary touch-up sharpening.
+Convex geometry can also reduce both cutting resistance and food adhesion. At the very edge, the local included angle is usually slightly wider than the effective angle immediately farther up the blade. Once the apex has opened the cut, the curved faces recede progressively from the food instead of continuing upward as two straight planes. The area of firm contact between blade and food therefore drops quickly during penetration, so there is less friction and less surface available for wet, starchy or tacky food to cling to. A well-executed convex profile is consequently among the profiles least prone to food sticking.
+
+The trade-off is that a true convex profile is difficult both to manufacture and to maintain. The curve has to change continuously and in a controlled way rather than following one simple flat angle. The complete convex profile is therefore harder to reproduce exactly on a flat stone than a simple V. In normal maintenance, many convex-ground kitchen knives can be sharpened at their small edge bevel or microbevel without regrinding the whole convex surface. Restoring or deliberately changing the complete convex profile is a geometry operation, not ordinary touch-up sharpening.
 
 ### 3. Asymmetric V
 
