@@ -3,7 +3,7 @@ title: Single and Double Bevels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-09
+reviewed: 2026-09-11
 translation_priority: highest
 ---
 
@@ -32,6 +32,54 @@ The two broad families are double bevel and single bevel. Neither is automatical
 Seven common bevel families, shown without fixed-language labels: 1. symmetrical V; 2. convex; 3. asymmetric V; 4. compound double V; 5. concave; 6. single-sided; 7. single-sided with urasuki. The legend is ordinary text so it can be translated with the book.
 </figcaption>
 </figure>
+
+## Reading the seven bevel families
+
+The drawings above are **cross-sections close to the cutting edge**. They do not show seven different knife shapes and they do not prescribe one exact sharpening angle. They show seven common ways in which the two sides of a blade can approach the apex. Real knives can combine these ideas—for example, a convex primary grind can still end in a tiny V-shaped microbevel.
+
+### 1. Symmetrical V
+
+Both sides approach the apex at approximately the same angle. This is the most familiar geometry for general-purpose double-bevel kitchen knives because it normally tracks predictably, works naturally in either hand and is straightforward to maintain.
+
+During routine sharpening, work the small edge bevel or microbevel on both sides and preserve the existing angle as consistently as possible. Equal geometry does not require obsessively counting identical strokes: burr formation, stone contact and the condition of each side are better guides.
+
+### 2. Convex
+
+A convex grind curves outward as it approaches the edge instead of forming one perfectly flat plane. The curve leaves progressively more steel behind the apex, giving the edge strong support while avoiding the abrupt shoulder of a thick flat bevel. A well-made convex section can therefore combine a fine cutting edge with good resistance to lateral stress.
+
+The complete convex profile is harder to reproduce exactly on a flat stone than a simple V. In normal maintenance, many convex-ground kitchen knives can be sharpened at their small edge bevel or microbevel without regrinding the whole convex surface. Restoring or deliberately changing the complete convex profile is a geometry operation, not ordinary touch-up sharpening.
+
+### 3. Asymmetric V
+
+Both sides are sharpened, but the angles, bevel widths or amount of grinding are intentionally different. The apex therefore sits closer to one face instead of exactly in the middle. This can influence steering and food separation and may make the knife feel more natural in one cutting direction than another.
+
+Do not automatically convert an asymmetric edge to 50/50. When sharpening, preserve the geometry that is already there. The goal is not an identical number of strokes on both sides; it is to restore the apex without erasing the intended asymmetry.
+
+### 4. Compound double V
+
+This geometry uses **two stages on each side**: a broad primary bevel reduces blade thickness, then a much smaller secondary edge bevel or microbevel forms the actual apex. This is extremely common on modern kitchen knives even when the tiny second facet is difficult to see.
+
+The distinction is important for beginners. Routine sharpening normally works on the small secondary bevel. Grinding the broad primary bevel removes much more steel and changes thickness behind the edge; that is thinning or reprofiling and should be done only when needed.
+
+### 5. Concave or hollow grind
+
+A concave grind curves inward, leaving a hollow between the thicker part of the blade and the edge. This can make the blade very thin behind the edge and reduce material near the cutting zone, producing low cutting resistance. The trade-off is that there is less steel supporting the edge than in a comparable convex section.
+
+A hollow is usually created with a wheel or other shaped abrasive rather than a flat whetstone. Routine hand sharpening normally restores the edge bevel at the apex; it does not recreate the complete hollow. Re-establishing the hollow belongs to grinding or geometry restoration.
+
+### 6. Single-sided
+
+One face carries the principal bevel while the opposite face remains essentially flat. This is often called a **chisel-type** geometry. Moving most of the wedge to one side places the apex far from the centreline and creates strong directional behaviour, food separation and handedness.
+
+Sharpening is therefore not the same as sharpening one half of a normal V. Work the bevelled face according to its existing geometry and use only the light work needed on the opposite face to remove the burr and preserve the intended flat reference. Adding a normal secondary bevel to the flat side changes the design.
+
+### 7. Single-sided with urasuki
+
+This is the traditional specialist construction used on knives such as yanagiba, usuba and deba. One face has the broad main bevel; the reverse contains a shallow hollow called the **urasuki**, surrounded by narrow flat reference lands.
+
+The hollow reduces the area touching food and, during maintenance, reduces the amount of steel that must contact the stone on the reverse. Sharpen the broad main bevel according to the geometry already present, then work the reverse almost flat and lightly. Do not raise the reverse to a normal double-bevel sharpening angle: doing so progressively removes the reference lands and damages the urasuki system.
+
+The seven drawings are therefore best read as a map of **edge-support and blade-steering strategies**, not as a ranking. A symmetrical V is not a cheaper version of a single bevel, a convex edge is not automatically tougher in every knife, and a hollow grind is not automatically sharper. Steel, heat treatment, blade thickness, thickness behind the edge, sharpening angle and intended task still determine how the complete knife behaves.
 
 ## Double bevel: the familiar all-purpose edge
 
@@ -178,6 +226,3 @@ The complete sequence appears later in [A Practical Sharpening Process](../10-sh
 - On a single bevel, the local main-bevel angle can change as blade height and thickness change toward the tip.
 - A single-bevel knife is optimized for one hand but can often be used with the other when the food and cutting direction are arranged around the geometry.
 - Manage steering through setup and direction, not forced sideways correction.
-- Neither family is automatically sharper, stronger or more prestigious.
-
-> **Practice principle:** preserve the geometry that is actually on the knife.
