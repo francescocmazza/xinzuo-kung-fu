@@ -1,5 +1,5 @@
 ---
-source_hash: 0b1450a72a2dde732a88f12008eac2aaef35e777d520c07d8a0f0b80eef75701
+source_hash: 3023169417e8221824fa830a3a8eb482bc82a1f0d120dfc469991835000320f4
 ---
 
 # Acciai convenzionali e metallurgici a polvere
@@ -44,7 +44,9 @@ La metallurgia delle polveri inizia anche con l'acciaio fuso. La differenza impo
 
 Invece di lasciare l'intero gelo fuso come un grande lingotto, gas inerte ad alta pressione rompe il metallo liquido in ** milioni di piccole goccioline**. Questo processo è chiamato **atomizzazione gas**. Ogni gocciolina è così piccolo che si raffredda e solidifica molto rapidamente.
 
-Poiché le goccioline si bloccano rapidamente, gli elementi legati hanno meno tempo e distanza per separarsi e i carburi hanno meno tempo per crescere. Ogni piccola particella inizia quindi con una struttura molto più fine e più uniforme di una regione comparabile in un grande lingotto lentamente solidificante.
+Poiché le goccioline si bloccano rapidamente, gli elementi di lega hanno molto meno tempo e distanza per separarsi e i carburi hanno molto meno opportunità di crescere. Ogni piccola particella inizia quindi da un volume di solidificazione estremamente piccolo con una struttura interna **molto fine e altamente uniforme**.
+
+Questo è uno dei vantaggi fondamentali della metallurgia delle polveri. Anche prima di chiedere se la lega stessa è più o meno adatta ad un particolare coltello, il processo parte da una scala strutturale straordinariamente fine e controllata rispetto alla solidificazione convenzionale di grandi dimensioni. La segregazione chimica è notevolmente ridotta, le popolazioni di carburo possono essere distribuite molto più uniformemente e grandi variazioni locali sono molto più facili da sopprimere.
 
 La polvere viene quindi sigillata e consolidata ad altissima temperatura e pressione, comunemente mediante pressatura isostatica **calda, o HIP**. *Isostatica* significa pressione viene applicata da tutte le direzioni. Le particelle di polvere si legano in un blocco solido di acciaio completamente denso, che può poi essere forgiato e rotolato in acciaio normale.
 
@@ -52,7 +54,7 @@ Nessuna polvere sciolta rimane all'interno della lama finita. Il materiale final
 
 Un'immagine utile è:
 
-> La metallurgia convenzionale solidifica un grande corpo d'acciaio e poi la lavora in forma. La metallurgia delle polveri solidifica milioni di piccoli pezzi prima, poi li unisce in un corpo denso.
+> La metallurgia convenzionale solidifica un grande corpo d'acciaio e poi la lavora in forma. La metallurgia delle polveri solidifica milioni di piccoli pezzi prima, ciascuno su una scala strutturale molto fine, poi li unisce in un corpo denso e altamente uniforme.
 
 ## Perché la metallurgia delle polveri ha modificato gli acciai ad alte prestazioni
 
@@ -60,13 +62,17 @@ La metallurgia delle polveri dà ai progettisti di acciaio ** molta più libert�
 
 Un acciaio a polveri metalliche può contenere grandi quantità di elementi di carbonio e di carburo, mantenendo i carburi risultanti molto più sottili e distribuiti in modo più uniforme rispetto alla stessa composizione estrema che di solito raggiungerebbe attraverso la metallurgia tradizionale del lingotto.
 
+Ma questo vantaggio non deve essere inteso solo come un modo per rendere possibili le leghe estreme. **Il processo stesso conferisce all'industria siderurgica una struttura di partenza insolitamente fine, omogenea e ripetibile.** La metallurgia convenzionale può produrre acciai eccellenti e molto raffinati, e un coltello in metallo-polvere non è automaticamente migliore di ogni coltello convenzionale. Tuttavia, quando le due vie sono confrontate come metodi di produzione, la metallurgia delle polveri offre un punto di partenza molto più forte per controllare la segregazione, le dimensioni del metallo duro e le variazioni strutturali locali.
+
+Ciò non significa che ogni acciaio in polvere finale abbia la migliore dimensione possibile di grana, la massima durezza o le migliori prestazioni per ogni compito. Progettazione lega, consolidamento, forgiatura, laminazione e soprattutto trattamento termico determinano ancora la microstruttura finale. L'importante distinzione è che la metallurgia delle polveri dà a quelle fasi successive un ** materiale di partenza più uniforme e più strettamente controllato** da cui lavorare.
+
 Questo rende possibili combinazioni che sono molto difficili da ottenere per vie tradizionali: durezza molto elevata, forte resistenza all'usura e lunga ritenzione dei bordi pur conservando una struttura sufficientemente fine e una resistenza utile.
 
-La metallurgia delle polveri quindi non offre un modo diverso di produrre l'acciaio. **Espande la gamma di acciai che possono essere fatti con successo.** Consente ai metallurgisti di perseguire composizioni più estreme e, con esse, livelli di prestazioni che la metallurgia convenzionale fatica a raggiungere con lo stesso equilibrio.
+La metallurgia delle polveri, quindi, non offre un modo diverso di produrre l'acciaio. **Esse migliorano il controllo della microstruttura di partenza e ampliano la gamma di acciai che possono essere realizzati con successo.**Permette ai metallurgisti di perseguire composizioni più estreme partendo da un livello di omogeneità strutturale che la solidificazione convenzionale dei large-ingot non può riprodurre come naturale.
 
 Questo è il motivo per cui molti acciai moderni straordinari provengono dalla metallurgia delle polveri. ZDP-189 è un chiaro esempio: la sua composizione molto ricca è progettata per raggiungere un'eccezionale durezza e ritenzione dei bordi, mentre la lavorazione della polvere-metallurgia aiuta a mantenere quella chimica esigente sotto un controllo strutturale molto più stretto.
 
-La metallurgia convenzionale produce ancora acciai eccellenti e rimane la strada giusta per molti progetti. La metallurgia delle polveri è importante quando le prestazioni desiderate e la ricchezza di lega rendono il controllo strutturale più fine particolarmente prezioso. **Ha alzato il soffitto di ciò che l'acciaio ad alte prestazioni può raggiungere.**
+La metallurgia convenzionale produce ancora acciai eccellenti e rimane la strada giusta per molti progetti. Non ogni composizione ha bisogno di metallurgia delle polveri, e non ogni coltello beneficia del costo aggiuntivo e della complessità. Il vantaggio principale è che **quando si utilizza la metallurgia delle polveri, l'acciaio inizia da una base strutturale eccezionalmente fine, omogenea e affidabile**. Nelle leghe esigenti, questo vantaggio diventa ancora più importante perché solleva anche il soffitto di ciò che l'acciaio ad alte prestazioni può raggiungere.
 
 ## Come Xinzuo utilizza la metallurgia delle polveri
 
@@ -80,4 +86,4 @@ La combinazione è importante. Xinzuo può scegliere un acciaio specializzato st
 
 Questo approccio riflette una parte più ampia della cultura di sviluppo del prodotto di Xinzuo: **la metallolurgia stessa è trattata come un campo di ricerca e progettazione, non solo come una decisione d'acquisto.**
 
-Ricordate la sequenza: **la ricetta dell'acciaio ci dice quali elementi sono presenti; il percorso di produzione influenza quanto la matrice e i carburi iniziano in modo uniforme; il trattamento termico sviluppa la microstruttura finale; e la geometria del bordo determina come quella struttura incontra l'alimento.**
+Ricordate la sequenza: **la composizione in acciaio ci dice quali elementi sono presenti; il percorso produttivo influisce su quanto fine e uniforme può essere la struttura di partenza; il trattamento termico sviluppa la microstruttura finale; e la geometria del bordo determina come quella struttura incontra il cibo.**
