@@ -1,5 +1,5 @@
 ---
-source_hash: 3524c0fdda7128f5bc2c1544267b9957efb7943d5c3535ed72e4f5f6c1b056c2
+source_hash: 4e36513a4c766845e94fd0c49eaeacd3ff0af8c4cc9225f92ae26c188c1937d4
 ---
 
 # Forme di coltello e loro usi
@@ -239,14 +239,7 @@ La stessa curva dà meno contatto diritta bordo. Non trattarlo come un coltello 
 ### Coltello da stiro diritto
 
 <div class="kb-profile-visual">
-  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-PARING-STRAIGHT-B13R">
-    <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo B13R-SG straight paring knife">
-      <div class="kb-image-placeholder__label">POSTI DI LAVORO IMMAGINI</div>
-      <div class="kb-image-placeholder__title">Xinzuo B13R-SG coltello da stiro</div>
-      <div class="kb-image-placeholder__note">In attesa di una fotografia di prodotto Xinzuo approvata e pulita dai diritti.</div>
-    </div>
-    <figcaption>VIS-SHAPE-PARING-STRAIGHT-B13R - progetto visivo in attesa della produzione o dell'approvazione dei diritti d'immagine.</figcaption>
-  </figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/paring-straight.jpg" alt="Complete Xinzuo straight paring knife"><figcaption>Un modello Xinzuo a zigrinatura dritta con contatto più dritto per tagli brevi e precisi.</figcaption></figure>
 </div>
 
 Il coltello dritto mette più del suo bordo corto sulla tavola e traccia un taglio diretto naturalmente. Funziona bene su aglio, scalogno, piccola frutta, guarnitura e rifilatura esatta pur rimanendo abbastanza compatto per un lavoro controllato a mano. Segue arrotondato produrre meno naturalmente di un parer curvato ma è più versatile quando la preparazione si alterna tra mano e tavola.

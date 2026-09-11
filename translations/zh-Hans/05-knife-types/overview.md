@@ -1,5 +1,5 @@
 ---
-source_hash: 9b121766e7c86dfee4d6606c35d9e65236bf11411bb85b87a4c6086aa6848128
+source_hash: 864d8248e1b9ccf0d1d327793b38a04647db9e8c8ec97b06c3ef10ce044dbed5
 ---
 
 # 刀形及其用途
@@ -239,14 +239,7 @@ Nakiri 前方各有不同。 有些前方有一个正方形, 或只是略微四�
 ### 直射刀
 
 <div class="kb-profile-visual">
-  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-PARING-STRAIGHT-B13R">
-    <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo B13R-SG straight paring knife">
-      <div class="kb-image-placeholder__label">图像定位器</div>
-      <div class="kb-image-placeholder__title">B13R-SG直射刀</div>
-      <div class="kb-image-placeholder__note">等待获得许可的, 右撇子产品照片。</div>
-    </div>
-    <figcaption>VIS-SHAPE-PLAKE-B13R -- -- 计划视像等待制作或图像权利批准。</figcaption>
-  </figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/paring-straight.jpg" alt="Complete Xinzuo straight paring knife"><figcaption>清直直刀插刀的例子 更直直的边缘接触 短精细的切口</figcaption></figure>
 </div>
 
 直刀在板上放置了更多短边缘,并顺着直径切割。 它对大蒜、尾葱、小水果、装饰物和精细剪裁剪效果良好,同时保持紧凑,足以控制手头工作。 它沿着四舍五入的四舍五入,其产料不那么自然,而是在手和板之间的交替配时更具多功能性。
