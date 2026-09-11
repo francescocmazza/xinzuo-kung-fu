@@ -3,7 +3,7 @@ title: Knife Shapes and Their Uses
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-09
+reviewed: 2026-09-11
 translation_priority: highest
 source_basis: general knife geometry and technique, illustrated with current Xinzuo examples
 ---
@@ -245,14 +245,7 @@ The same curve gives less straight board contact. Do not treat it as a miniature
 ### Straight paring knife
 
 <div class="kb-profile-visual">
-  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-PARING-STRAIGHT-B13R">
-    <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo B13R-SG straight paring knife">
-      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
-      <div class="kb-image-placeholder__title">Xinzuo B13R-SG straight paring knife</div>
-      <div class="kb-image-placeholder__note">Awaiting an approved, rights-cleared Xinzuo product photograph.</div>
-    </div>
-    <figcaption>VIS-SHAPE-PARING-STRAIGHT-B13R - planned visual awaiting production or image-rights approval.</figcaption>
-  </figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/paring-straight.jpg" alt="Complete Xinzuo straight paring knife"><figcaption>A Xinzuo straight paring-knife example with more straight edge contact for short, precise cuts.</figcaption></figure>
 </div>
 
 The straight paring knife places more of its short edge on the board and tracks a direct cut naturally. It works well on garlic, shallots, small fruit, garnish and exact trimming while remaining compact enough for controlled in-hand work. It follows rounded produce less naturally than a curved parer but is more versatile when preparation alternates between hand and board.
