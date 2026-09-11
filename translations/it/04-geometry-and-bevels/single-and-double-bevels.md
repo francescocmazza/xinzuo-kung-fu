@@ -1,10 +1,10 @@
 ---
-source_hash: bce76c39d8140e3a04c78937de26b5623c2cb08ce4bee7340c7dac81c7c3046e
+source_hash: 8e1e25eec7911cd51f08e0e9de4879abfb90a5f92ebab5406ecb0958a6e1b0c8
 ---
 
 # Smussatura singola e doppia
 
-Tagliare una patata alta con due coltelli e si può notare qualcosa di inaspettato. Una lama cade quasi dritta; un altro tira lateralmente anche quando la mano punta in avanti. La smussata superficie inclinata che porta al tagliente può spiegare la differenza.
+Tagliare una patata alta con due coltelli e si può notare qualcosa di inaspettato. Una lama viaggia quasi dritto verso il basso; un altro tira lateralmente anche quando la mano punta in avanti. La smussata superficie inclinata che porta al tagliente può spiegare la differenza.
 
 Tre parti sono spesso confuse.
 
@@ -28,11 +28,61 @@ Sette famiglie comuni smussate, mostrate senza etichette in lingua fissa: 1. sim
 </figcaption>
 </figure>
 
+## Leggere le sette famiglie smussate
+
+I disegni di cui sopra sono **sezioni incrociate vicino al tagliente**. Non mostrano sette forme di coltello diverse e non prescrivono un angolo di affilatura esatto. Essi mostrano sette modi comuni in cui i due lati di una lama possono avvicinarsi all'apice. I coltelli veri possono combinare queste idee per esempio, una macinatura primaria convessa può ancora finire in un piccolo microbiglio a forma di V.
+
+### 1. Simmetrico V
+
+Entrambi i lati si avvicinano all'apice con circa lo stesso angolo. Questa è la geometria più familiare per i coltelli da cucina a doppio sbirro per uso generale perché normalmente traccia prevedibilmente, funziona naturalmente in entrambe le mani ed è semplice da mantenere.
+
+Durante l'affilatura di routine, lavorare il piccolo bordo smussato o microsmusso su entrambi i lati e preservare l'angolo esistente nel modo più coerente possibile. Geometria uguale non richiede il conteggio ossessivo di tratti identici: formazione di sbavature, contatto con la pietra e le condizioni di ogni lato sono guide migliori.
+
+### 2. Convex
+
+Una macinatura convessa curva verso l'esterno mentre si avvicina al bordo invece di formare un piano perfettamente piatto. La curva lascia progressivamente più acciaio dietro l'apice, dando al bordo un forte sostegno evitando la brusca spalla di uno spesso smusso piatto. Una sezione convessa ben fatta può quindi combinare un tagliente fine con una buona resistenza allo stress laterale.
+
+La geometria del convex può anche ridurre sia la resistenza al taglio che l'adesione agli alimenti. All'estremità stessa, l'angolo locale incluso è solitamente leggermente più ampio dell'angolo efficace immediatamente più lungo la lama. Una volta che l'apice ha aperto il taglio, le facce curve si ritirano progressivamente dal cibo invece di continuare verso l'alto come due piani rettilinei. L'area di contatto fermo tra lama e cibo scende quindi rapidamente durante la penetrazione, quindi c'è meno attrito e meno superficie disponibile per alimenti bagnati, amidacei o appiccicati. Un profilo convesso ben eseguito è quindi tra i profili meno inclini all'incollaggio degli alimenti.
+
+Il trade-off è che un vero profilo convesso è difficile sia da fabbricare che da mantenere. La curva deve cambiare continuamente e in modo controllato piuttosto che seguire un semplice angolo piatto. Il profilo convesso completo è quindi più difficile da riprodurre esattamente su una pietra piana che su una semplice V. In normale manutenzione, molti coltelli da cucina convessi possono essere affilati al loro piccolo bordo smussato o microbiglia senza rigoglio dell'intera superficie convessa. Ripristinare o modificare deliberatamente il profilo convesso completo è un'operazione di geometria, non un'affilatura ordinaria del tocco.
+
+### 3. Asimmetrica V
+
+Entrambi i lati sono affilati, ma gli angoli, le larghezze bisellate o la quantità di rettifica sono intenzionalmente diversi. L'apice siede quindi più vicino ad una faccia invece che esattamente al centro. Ciò può influenzare la separazione dello sterzo e del cibo e può far sentire il coltello più naturale in una direzione di taglio rispetto ad un'altra.
+
+Non convertire automaticamente un bordo asimmetrico a 50/50. Durante l'affilatura, conservare la geometria che è già lì. L'obiettivo non è un numero identico di tratti su entrambi i lati; è quello di ripristinare l'apice senza cancellare l'asimmetria prevista.
+
+### 4. Composto doppio V
+
+Questa geometria utilizza **due stadi su ogni lato**: un ampio bisello primario riduce lo spessore della lama, quindi un bordo secondario molto più piccolo bisella o microbiglia forma l'apice reale. Ciò è estremamente comune sui coltelli da cucina moderni anche quando la seconda sfaccettatura è difficile da vedere.
+
+La distinzione è importante per i principianti. L'affilatura di routine funziona normalmente sul piccolo bisello secondario. L'affilatura dell'ampio bisello primario rimuove molto più acciaio e cambia lo spessore dietro il bordo; che è assottigliamento o riprofilatura e dovrebbe essere fatto solo quando necessario.
+
+### 5. Macinazione concava o cava
+
+Una macinatura concava curva verso l'interno, lasciando una cavità tra la parte più spessa della lama e il bordo. Ciò può rendere la lama molto sottile dietro il bordo e ridurre il materiale vicino alla zona di taglio, producendo una bassa resistenza al taglio. Il trade-off è che vi è meno acciaio sostenere il bordo che in una sezione convessa comparabile.
+
+Un cavo è solitamente creato con una ruota o altro abrasivo sagomato piuttosto che con un whetstone piatto. L'affilatura di routine della mano ripristina normalmente il bordo smussato all'apice; non ricrea il cavo completo. Il ripristino del cavo appartiene alla rettifica o al restauro della geometria.
+
+### 6. One-sided
+
+Una faccia porta lo smusso principale mentre la faccia opposta rimane essenzialmente piatta. Ciò è spesso chiamata una geometria **chisel-type**. Muovendo la maggior parte del cuneo da un lato pone l'apice lontano dall'aragosta e crea un forte comportamento direzionale, separazione del cibo e la mano.
+
+L'affilatura non è quindi la stessa dell'affilatura di una metà di una normale V. Lavorare la faccia smussata secondo la geometria esistente e utilizzare solo il lavoro di luce necessario sulla faccia opposta per rimuovere la bava e conservare il riferimento piatto previsto. L'aggiunta di una normale smussatura secondaria al lato piatto cambia il disegno.
+
+### 7. One-sided con urasuki
+
+Questa è la tradizionale costruzione specializzata utilizzata su coltelli come yanagiba, usuba e deba. Una faccia ha l'ampia bisellatura principale; il rovescio contiene una cavità poco profonda chiamata **urasuki**, circondata da strette terre piane di riferimento.
+
+Il cavo riduce l'area toccando il cibo e, durante la manutenzione, riduce la quantità di acciaio che deve contattare la pietra sul rovescio. Affilare l'ampio smusso principale in base alla geometria già presente, quindi lavorare il rovescio quasi piano e leggermente. Non sollevare il rovescio ad un normale angolo di affilatura a doppio smusso: così facendo rimuove progressivamente le terre di riferimento e danneggia il sistema urasuki.
+
+I sette disegni sono quindi meglio letti come una mappa di strategie **bordo-supporto e steering lama**, non come una classifica. Una V simmetrica non è una versione più economica di un singolo bisello, un bordo convesso non è automaticamente più duro in ogni coltello, e una macinatura cava non è automaticamente più tagliente. Acciaio, trattamento termico, spessore della lama, spessore dietro il bordo, angolo di affilatura e compito previsto ancora determinare come si comporta il coltello completo.
+
 ## Doppia smussatura: il bordo tutto-uso familiare
 
 Un coltello a doppia bisellatura è affilato da entrambi i lati. Visto dalla parte anteriore, i lati convergono verso uno stretto bordo a V. Su molti coltelli la lama larga macinatura e minuscolo smussatura sono visibilmente separati; su altri la transizione è sottile.
 
-Un doppio bisello ragionevolmente simmetrico tende a seguire il rettilineo perché il cibo è spostato su entrambi i lati. Ciò lo rende adatto alla cottura generale e a entrambe le mani.
+Un doppio bisello ragionevolmente simmetrico tende a seguire un percorso rettilineo perché il cibo è spostato su entrambi i lati. Ciò lo rende adatto alla cottura generale e a entrambe le mani.
 
 La maggior parte dei coltelli da chef occidentali, coltelli da intaglio e affettatura, coltelli utility e piccoli, gyuto, santoku, bunka, nakiri e molti sciacquatori cinesi e affettatrici sono doppia smussatura.
 
@@ -44,7 +94,7 @@ Questa prevedibilità è utile in un primo coltello serio. Permette all'utente d
 
 ## Non ogni bisellatura doppia è simmetrica
 
-Il bordo può essere vicino al 50/50 o inclinato verso una faccia. Etichette come 60/40 o 70/30 sono descrizioni utili ma sono spesso approssimative piuttosto che misure esatte.
+Il bordo può essere vicino al 50/50 o più fortemente macinato verso una faccia. Etichette come 60/40 o 70/30 sono descrizioni utili ma sono spesso approssimative piuttosto che misure esatte.
 
 Una doppia smussatura asimmetrica sposta il tagliente più vicino a un lato. Ciò può cambiare la separazione degli alimenti e rendere alcuni tagli più precisi, ma può anche introdurre leggero sterzo.
 
@@ -95,9 +145,9 @@ La versione corrispondente di solito si sente più naturale perché il coltello,
 
 Un coltello fatto per la mano opposta può ancora essere utilizzato, ma il cibo e la direzione di taglio devono essere disposti intorno alla sua geometria. Ad esempio, un cuoco mancino utilizzando un coltello destro può girare l'ingrediente e scegliere un percorso che porta il bordo lontano dalla mano destra di sostegno. Il colpo può viaggiare lateralmente nello spazio libero o in avanti e lontano dal corpo.
 
-Cambiare il setup funziona meglio che sovraccaricare la lama. Tenere la mano di sostegno dietro la linea di taglio, lasciare il percorso chiaro e mantenere il polso rilassato. Se il coltello deriva, fermare, ruotare l'ingrediente o regolare la posizione, quindi riavviare. Forzare un bordo sepolto lateralmente sottolinea l'apice e riduce il controllo.
+Cambiare la configurazione è meglio che forzare la lama contro il suo sterzo naturale. Tenere la mano di sostegno dietro la linea di taglio, lasciare il percorso chiaro e tenere il polso rilassato. Se il coltello deriva, fermare, ruotare l'ingrediente o regolare la posizione, quindi riavviare. Forzare un bordo lateralmente dopo che è già in profondità nel cibo sottolinea l'apice e riduce il controllo.
 
-Imparare questo con un breve pezzo stabile di cetriolo o una piccola porzione disossata. Una patata alta, zucca dura o ingrediente rotolamento ingrandisce lo sterzo e incoraggia l'eccesso di forza. Tagli lenti e poco profondi rivelano la tendenza del coltello prima che sia profondo nel cibo.
+Imparare questo con un breve pezzo stabile di cetriolo o una piccola porzione disossata. Una patata alta, zucca dura o ingrediente rotolamento rende lo sterzo più evidente e incoraggia l'eccesso di forza. Tagli lenti e poco profondi rivelano la tendenza del coltello prima che sia in profondità nel cibo.
 
 Questo approccio funziona quando l'ingrediente può essere ruotato liberamente. Un coltello abbinato alla mano dell'utente rimane più comodo durante lunghe sessioni professionali o ripetuti tagli identici perché la postazione di lavoro non ha bisogno di essere riorganizzato per ogni pezzo.
 
@@ -114,7 +164,7 @@ Lo sterzo diventa più evidente quando:
 - l'utilizzatore applica un'eccessiva forza discendente;
 - il polso cerca di correggere dopo che la lama è già in profondità nel cibo.
 
-La correzione migliore inizia prima del taglio: scegliere la direzione, stabilizzare il cibo e impostare l'angolo di partenza. Le grandi correzioni sono rischiose una volta che la lama è profondamente sepolta perché possono ruotare il bordo.
+La correzione migliore inizia prima del taglio: scegliere la direzione, stabilizzare il cibo e impostare l'angolo di partenza. Le grandi correzioni sono rischiose una volta che la lama è profondamente all'interno del cibo perché possono ruotare il bordo.
 
 ## Superfici pulite e separazione degli alimenti
 
@@ -173,6 +223,3 @@ La sequenza completa appare più tardi in [Un processo pratico di affilatura](..
 - Su un singolo smusso, l'angolo principale locale può cambiare man mano che l'altezza della lama e lo spessore cambiano verso la punta.
 - Un coltello single-bevel è ottimizzato per una mano ma spesso può essere utilizzato con l'altra quando il cibo e la direzione di taglio sono disposti intorno alla geometria.
 - Gestire lo sterzo attraverso l'impostazione e la direzione, non la correzione laterale forzata.
-- Nessuna famiglia è automaticamente più nitida, più forte o più prestigiosa.
-
-> **Principio di pratica:** preservare la geometria che è in realtà sul coltello.
