@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 775">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9a45f"/>
+      <stop offset="0.45" stop-color="#b97735"/>
+      <stop offset="0.78" stop-color="#d7a15c"/>
+      <stop offset="1" stop-color="#8f5529"/>
+    </linearGradient>
+    <linearGradient id="dowel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6e3627"/>
+      <stop offset="0.55" stop-color="#3f1d17"/>
+      <stop offset="1" stop-color="#1f0d0b"/>
+    </linearGradient>
+    <linearGradient id="collar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#303338"/>
+      <stop offset="0.45" stop-color="#111315"/>
+      <stop offset="1" stop-color="#030404"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f8f5"/>
+      <stop offset="0.35" stop-color="#d8d9d7"/>
+      <stop offset="0.7" stop-color="#b8bab8"/>
+      <stop offset="1" stop-color="#ececea"/>
+    </linearGradient>
+    <pattern id="damascus" width="84" height="36" patternUnits="userSpaceOnUse" patternTransform="rotate(-13)">
+      <path d="M-8 7 C10 -2 23 17 42 8 S72 -1 94 9" fill="none" stroke="#777b7b" stroke-width="2.1" opacity=".55"/>
+      <path d="M-8 18 C9 8 28 29 45 18 S74 9 94 19" fill="none" stroke="#8c9090" stroke-width="1.7" opacity=".55"/>
+      <path d="M-8 29 C13 19 28 39 49 28 S77 21 94 30" fill="none" stroke="#676b6b" stroke-width="1.5" opacity=".5"/>
+    </pattern>
+    <clipPath id="bladeClip"><path d="M804 345 L1495 168 L1460 208 L900 454 L892 430 L844 446 L821 404 L792 395 Z"/></clipPath>
+    <clipPath id="handleClip"><path d="M34 571 L300 474 L395 499 L395 570 L75 670 L34 645 Z"/></clipPath>
+  </defs>
+  <rect width="1536" height="775" fill="#fff"/>
+  <path d="M34 571 L300 474 L395 499 L395 570 L75 670 L34 645 Z" fill="url(#wood)" stroke="#6d4125" stroke-width="3"/>
+  <path d="M34 571 L300 474 L395 499 L365 520 L72 614 Z" fill="#f0c47d" opacity=".6"/>
+  <path d="M34 645 L75 670 L395 570 L365 551 L72 642 Z" fill="#78431f" opacity=".48"/>
+  <path d="M300 474 L395 499 L365 520 L287 499 Z" fill="#e5b570" opacity=".72"/>
+  <g clip-path="url(#handleClip)" fill="none" stroke-linecap="round">
+    <path d="M55 604 C110 575 151 594 212 556 S324 504 382 518" stroke="#7e4b28" stroke-width="6" opacity=".52"/>
+    <path d="M64 625 C131 592 168 614 236 574 S327 532 384 538" stroke="#f0c57f" stroke-width="5" opacity=".55"/>
+    <path d="M86 647 C145 614 191 632 248 597 S328 555 380 558" stroke="#6e3e22" stroke-width="4" opacity=".48"/>
+  </g>
+  <path d="M34 571 L55 582 L72 614 L72 642 L34 645 L18 628 L18 592 Z" fill="#a96a34" stroke="#6d4125" stroke-width="3"/>
+  <path d="M420 455 L548 410 L590 420 L591 466 L456 510 L420 493 Z" fill="url(#dowel)" stroke="#2b1612" stroke-width="3"/>
+  <ellipse cx="590" cy="443" rx="10" ry="23" fill="#27120f" stroke="#9a6551" stroke-width="2"/>
+  <path d="M439 463 L548 425" stroke="#9e5b45" stroke-width="4" opacity=".45"/>
+  <path d="M611 381 L672 360 L714 383 L712 446 L649 474 L610 448 Z" fill="url(#collar)" stroke="#08090a" stroke-width="4"/>
+  <path d="M611 381 L672 360 L699 375 L640 397 Z" fill="#4a4e53" opacity=".75"/>
+  <path d="M649 474 L712 446 L712 420 L651 443 Z" fill="#050506" opacity=".85"/>
+  <ellipse cx="711" cy="414" rx="8" ry="27" fill="#242629"/>
+  <path d="M702 401 L817 368 L843 386 L818 407 L716 437 L697 426 Z" fill="url(#steel)" stroke="#777b7c" stroke-width="3"/>
+  <circle cx="739" cy="417" r="8" fill="#fff" stroke="#7b7f7f" stroke-width="4"/>
+  <path d="M710 407 L809 379" stroke="#ffffff" stroke-width="3" opacity=".8"/>
+  <path d="M804 345 L1495 168 L1460 208 L900 454 L892 430 L844 446 L821 404 L792 395 Z" fill="url(#steel)" stroke="#8f9393" stroke-width="3"/>
+  <rect x="775" y="150" width="760" height="330" fill="url(#damascus)" clip-path="url(#bladeClip)"/>
+  <path d="M809 351 L1491 177" fill="none" stroke="#fafafa" stroke-width="5" opacity=".9"/>
+  <path d="M900 450 L1459 207" fill="none" stroke="#7f8383" stroke-width="4" opacity=".75"/>
+  <path d="M893 430 L902 452 L846 446" fill="none" stroke="#696d6d" stroke-width="4"/>
+  <path d="M840 399 Q870 392 883 412 L892 430 L844 446 L821 404 Z" fill="#f4f4f1" stroke="#8a8e8e" stroke-width="3"/>
+  <path d="M397 502 L418 490 M592 421 L609 414 M714 392 L727 389" stroke="#b9b9b5" stroke-width="3" stroke-dasharray="5 7" opacity=".55"/>
+</svg>

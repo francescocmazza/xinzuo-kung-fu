@@ -122,6 +122,18 @@
     }
   }
 
+  function correctAsianHandle(article) {
+    const figure = article.querySelector('[data-visual-id="VIS-ANATOMY-ASIAN-01"]');
+    if (!figure) return;
+    const image = figure.querySelector("img");
+    if (!image) return;
+
+    const corrected = image.src.replace(/asian-handle-exploded\.jpg(?:\?.*)?$/, "asian-handle-exploded-vector.svg");
+    if (corrected !== image.src) {
+      image.src = corrected;
+    }
+  }
+
   function removeBunkaPackageOpening(article) {
     const headings = [...article.querySelectorAll("h2")];
     const bunkaHeading = headings[3];
@@ -144,6 +156,7 @@
 
     const key = pageKey();
     withdrawGeneratedFigures(article, key);
+    correctAsianHandle(article);
 
     if (key === "01-foundations/five-dimensions-of-knife-steel") correctFiveDimensions(article);
     if (key === "04-geometry-and-bevels/single-and-double-bevels") correctBevelFamilies(article);
