@@ -23,3 +23,15 @@ html:lang(zh) .md-content__inner .admonition > p:not(.admonition-title),
 html:lang(zh) .md-content__inner li > p {
   text-justify: inter-character;
 }
+
+/* The original raster Asian-handle exploded view proved unreliable in the
+   Chromium print pipeline. Use the print-safe vector reconstruction while
+   preserving the existing live/translatable label overlay. */
+figure[data-visual-id="VIS-ANATOMY-ASIAN-01"] > div {
+  aspect-ratio: 1536 / 775;
+  background: #ffffff url("../images/approved/asian-handle-exploded-vector.svg") center / 100% 100% no-repeat !important;
+}
+
+figure[data-visual-id="VIS-ANATOMY-ASIAN-01"] > div > img {
+  display: none !important;
+}
