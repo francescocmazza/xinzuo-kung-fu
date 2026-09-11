@@ -1,5 +1,5 @@
 ---
-source_hash: 91374025125b623bfe6c5432c6306b23d1785aae0d287a30b1a1194c33181bd7
+source_hash: 70848b8c728d4853943ce46defaa6a80ebda60f8fb33f470411d1e45f8dad008
 ---
 
 # 厨房刀的解剖
@@ -78,11 +78,57 @@ source_hash: 91374025125b623bfe6c5432c6306b23d1785aae0d287a30b1a1194c33181bd7
 
 ## 这本书所谓的“亚洲手柄”
 
-在这本书中,** 亚洲手柄** 意指传统的隐形结构,通常配有** octagon** , 有时还有 oval 手柄。 刀片在隐藏的手柄上进入一个坚固的手柄,而** collar** 则往往强化前方,形成向刀片的过渡。
+在这本书中, ** 亚洲手柄** 是指通常与 ** occagon** 和 oval 手柄相配的传统隐形图案。 较窄的刺线在手柄内消失, 而不是在侧称之间保持可见。 ** collar** 加强了手柄的前部, 而一些现代手柄也使用内部的** dowel 插入** 来引导和接收刺线 。
+
+<figure class="kb-learning-figure" data-visual-id="VIS-ANATOMY-ASIAN-01">
+<div style="position:relative;width:100%;overflow:visible;background:#ffffff;">
+<img src="../../assets/images/approved/asian-handle-exploded.jpg" alt="" style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
+<svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;">
+<g fill="none" stroke="#263238" stroke-width="1.2" vector-effect="non-scaling-stroke">
+<line x1="8" y1="90" x2="3.8" y2="77"/>
+<line x1="19" y1="88" x2="15" y2="71"/>
+<line x1="33" y1="82" x2="32.5" y2="60"/>
+<line x1="42" y1="66" x2="42.5" y2="55"/>
+<line x1="48" y1="72" x2="48.5" y2="52"/>
+<line x1="58" y1="73" x2="58.5" y2="58"/>
+<line x1="69" y1="66" x2="66" y2="52"/>
+<line x1="80" y1="58" x2="80" y2="40.8"/>
+<line x1="74" y1="15" x2="75" y2="39.5"/>
+<line x1="66" y1="24" x2="69" y2="35"/>
+<line x1="92" y1="12" x2="97" y2="26"/>
+</g>
+<g fill="#ffffff" stroke="#263238" stroke-width=".45" vector-effect="non-scaling-stroke">
+<circle cx="3.8" cy="77" r=".55"/>
+<circle cx="15" cy="71" r=".55"/>
+<circle cx="32.5" cy="60" r=".55"/>
+<circle cx="42.5" cy="55" r=".55"/>
+<circle cx="48.5" cy="52" r=".55"/>
+<circle cx="58.5" cy="58" r=".55"/>
+<circle cx="66" cy="52" r=".55"/>
+<circle cx="80" cy="40.8" r=".55"/>
+<circle cx="75" cy="39.5" r=".55"/>
+<circle cx="69" cy="35" r=".55"/>
+<circle cx="97" cy="26" r=".55"/>
+</g>
+</svg>
+<span style="position:absolute;left:8%;top:90%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">臀部</span>
+<span style="position:absolute;left:19%;top:88%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">处理身体</span>
+<span style="position:absolute;left:33%;top:82%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">插入圆圈</span>
+<span style="position:absolute;left:42%;top:66%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">隐藏纹理</span>
+<span style="position:absolute;left:48%;top:72%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:15%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">领领</span>
+<span style="position:absolute;left:58%;top:73%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">脚跟</span>
+<span style="position:absolute;left:69%;top:66%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">贝弗尔</span>
+<span style="position:absolute;left:80%;top:58%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">切线边缘</span>
+<span style="position:absolute;left:74%;top:15%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">刀片脸</span>
+<span style="position:absolute;left:66%;top:24%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">脊柱</span>
+<span style="position:absolute;left:92%;top:12%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:12%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">提示</span>
+</div>
+<figcaption>爆炸性亚洲隐形图案构造: 八角形控体、 内部面纱插入、 项圈和隐藏相格分离以显示组装。 dowel 插入是一种构建方法, 且不具有普遍性 。</figcaption>
+</figure>
 
 这个术语是有意缩小的。 ** 并不意味着亚洲制造的所有刀子都使用这个结构;许多刀子使用西方的全纹、模具或其他系统。 ** 这里,亚洲手柄** 是指带有上述头领的八角形或卵形隐形图案。
 
-** collar** 也与西方的支撑物不同。 两者都坐在刀杆交叉口附近, 但项圈主要是手柄材料前部的强化袖子或环, 而支撑物则是刀杆交接过程中的金属成分 。
+** collar** 与西方的支撑值不同。 两者都坐在刀杆交叉口附近, 但项圈会加强把手前部, 而支架则是刀杆交接处的金属部件。 辛祖爆炸的构造中显示的插入是一个组装方法; 它不是每个亚洲手柄的决定性特征 。
 
 ## 硬度、边缘保留和灵活性
 

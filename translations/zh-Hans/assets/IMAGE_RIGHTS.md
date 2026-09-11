@@ -1,5 +1,5 @@
 ---
-source_hash: ce71c5f49cc1df79f6ee1e2cb4dd215e0b1e4089f9e8f30ce21e1f8bd1451c34
+source_hash: 6ef6a6dafd967a4526a0c99b5f632d39ba8fe85998cdd3f6b86507bf8aa4d5bf
 ---
 
 # 图像权利
@@ -33,6 +33,7 @@ source_hash: ce71c5f49cc1df79f6ee1e2cb4dd215e0b1e4089f9e8f30ce21e1f8bd1451c34
 - `knife-shape-silhouettes-neutral.png`
 - `damascus-pattern-knives-neutral.png`
 - `stable-whetstone-neutral.png`
+- `asian-handle-exploded.jpg` (存储库所有人提供的Xinzuo亚洲手相产品图像)
 - 所有单独审查的产品图像 `knife-shapes/*.jpg`,包括提供经核实的 B9H-SG 曲线图象 `knife-shapes/paring-curved.jpg`
 
 这些图象,连同任何Xinzuo标志和可能在本项目其他地方出现的促销照片,** 仍属于各自版权持有者的财产** 。

@@ -1,5 +1,5 @@
 ---
-source_hash: f6c4a994d987eb3212eebc5bde3f4c7b38f48befb6b532844a5ea9c480a8d099
+source_hash: 3640dc29417d3bd27673a8bdc08ad857146d1a7466c91dd930b65ae4fc1ff312
 ---
 
 # Anatomia di un coltello da cucina
@@ -78,11 +78,57 @@ Un **bolster** è la transizione in metallo rinforzato tra lama e manico trovato
 
 ## Quello che questo libro chiama un manico asiatico
 
-In questo libro, **manico asiatico** significa la costruzione tradizionale nascosta-tang comunemente accoppiato con un **ottagonale**, e talvolta ovale, maniglia. La lama entra in un manico solido su un tang nascosto, mentre un **collare** spesso rafforza la parte anteriore e forma il passaggio alla lama.
+In questo libro, **manico asiatico** significa la costruzione tradizionale nascosta-tang comunemente accoppiato con un **ottagonale**, e talvolta ovale, maniglia. Il tang più stretto scompare all'interno della maniglia invece di rimanere visibile tra le scale laterali. Un **collare** rafforza la parte anteriore della maniglia, mentre alcune costruzioni moderne utilizzano anche un inserto interno **dowel** per guidare e ricevere il tang.
+
+<figure class="kb-learning-figure" data-visual-id="VIS-ANATOMY-ASIAN-01">
+<div style="position:relative;width:100%;overflow:visible;background:#ffffff;">
+<img src="../../assets/images/approved/asian-handle-exploded.jpg" alt="" style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
+<svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;">
+<g fill="none" stroke="#263238" stroke-width="1.2" vector-effect="non-scaling-stroke">
+<line x1="8" y1="90" x2="3.8" y2="77"/>
+<line x1="19" y1="88" x2="15" y2="71"/>
+<line x1="33" y1="82" x2="32.5" y2="60"/>
+<line x1="42" y1="66" x2="42.5" y2="55"/>
+<line x1="48" y1="72" x2="48.5" y2="52"/>
+<line x1="58" y1="73" x2="58.5" y2="58"/>
+<line x1="69" y1="66" x2="66" y2="52"/>
+<line x1="80" y1="58" x2="80" y2="40.8"/>
+<line x1="74" y1="15" x2="75" y2="39.5"/>
+<line x1="66" y1="24" x2="69" y2="35"/>
+<line x1="92" y1="12" x2="97" y2="26"/>
+</g>
+<g fill="#ffffff" stroke="#263238" stroke-width=".45" vector-effect="non-scaling-stroke">
+<circle cx="3.8" cy="77" r=".55"/>
+<circle cx="15" cy="71" r=".55"/>
+<circle cx="32.5" cy="60" r=".55"/>
+<circle cx="42.5" cy="55" r=".55"/>
+<circle cx="48.5" cy="52" r=".55"/>
+<circle cx="58.5" cy="58" r=".55"/>
+<circle cx="66" cy="52" r=".55"/>
+<circle cx="80" cy="40.8" r=".55"/>
+<circle cx="75" cy="39.5" r=".55"/>
+<circle cx="69" cy="35" r=".55"/>
+<circle cx="97" cy="26" r=".55"/>
+</g>
+</svg>
+<span style="position:absolute;left:8%;top:90%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Culo</span>
+<span style="position:absolute;left:19%;top:88%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Corpo di maniglia</span>
+<span style="position:absolute;left:33%;top:82%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Inserto di tassello</span>
+<span style="position:absolute;left:42%;top:66%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Tang nascosta</span>
+<span style="position:absolute;left:48%;top:72%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:15%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Collare</span>
+<span style="position:absolute;left:58%;top:73%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Tacco</span>
+<span style="position:absolute;left:69%;top:66%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Bisellatura</span>
+<span style="position:absolute;left:80%;top:58%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Taglio</span>
+<span style="position:absolute;left:74%;top:15%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Faccia a lama</span>
+<span style="position:absolute;left:66%;top:24%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Spina</span>
+<span style="position:absolute;left:92%;top:12%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:12%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">Suggerimento</span>
+</div>
+<figcaption>Costruzione esplosa asiatica nascosta: corpo maniglia ottagonale, inserto interno tassello, collare e tang nascosto separati per mostrare il montaggio. L'inserto tassello è un metodo di costruzione e non è universale.</figcaption>
+</figure>
 
 Il termine è intenzionalmente stretto. Non significa **** che tutti i coltelli fabbricati in Asia utilizzano questa costruzione; molti usano sistemi occidentali full-tang, stampati o altri. Qui, **manico asiatico** significa la costruzione ottagonale-ovale nascosta-tang con il collare anteriore descritto sopra.
 
-Un **collare** è anche diverso da un supporto occidentale. Entrambi si siedono vicino alla giunzione lama-manico, ma il colletto è principalmente un manicotto di rinforzo o anello intorno alla parte anteriore del materiale della maniglia, mentre il supporto è un componente metallico alla transizione lama-manico.
+Un **collare** è diverso da un supporto occidentale. Entrambi si siedono vicino alla giunzione lama-manico, ma il colletto rafforza la parte anteriore della maniglia, mentre il supporto è un componente metallico alla transizione lama-manico. L'inserto tassello mostrato nella costruzione Xinzuo esplosa è un metodo di assemblaggio; non è una caratteristica di definizione di ogni maniglia asiatica.
 
 ## Durezza, ritenzione dei bordi e flessibilità
 
