@@ -3,7 +3,7 @@ title: "Weight, Balance and Ergonomics"
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-09
+reviewed: 2026-09-13
 translation_priority: high
 ---
 
@@ -68,7 +68,7 @@ There is no substitute for handling the knife. Palm width, finger length, grip p
 
 This makes a physical store especially valuable. A catalogue can identify technically suitable knives; **the customer's hand can identify which one has the best ergonomics**. Choosing a knife is similar to choosing a pair of shoes: specifications narrow the field, but fit decides which suitable option feels right.
 
-Xinzuo's broad portfolio is a major advantage here. Its range of blade forms, handle geometries, weights and balances lets staff identify several knives that meet the customer's functional needs and then find the one that best fits the person's hand, grip and cutting style.
+The breadth of the Xinzuo range makes this comparison practical. Staff can identify several knives that already meet the customer's functional needs, then compare handle geometry, weight and balance to find the one that best fits the person's hand, grip and cutting style.
 
 ## How staff should guide the choice
 
