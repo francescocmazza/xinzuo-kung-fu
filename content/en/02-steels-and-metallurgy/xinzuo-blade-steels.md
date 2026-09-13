@@ -91,11 +91,7 @@ The design target is balance rather than maximizing one isolated laboratory cate
 
 ### 12Cr18MoV: the newer everyday-use formulation
 
-12Cr18MoV is Xinzuo's newer all-round stainless formulation, used as a core in conventional and copper-Damascus constructions. Current product-development information dates its introduction to around **2024**, making it the newest conventional stainless core steel discussed here.
-
-The formulation emphasizes corrosion stability together with useful hardness, edge stability, practical toughness and straightforward maintenance. The result is an all-round conventional stainless designed for daily kitchen work.
-
-Within Xinzuo's current range, 12Cr18MoV represents a newer development of the all-round stainless approach. Its formulation emphasizes the combined balance of corrosion resistance, cutting stability, toughness and straightforward maintenance rather than maximizing one individual property.
+12Cr18MoV is Xinzuo's newer all-round stainless formulation, used as a core in conventional and copper-Damascus constructions. Current product-development information dates its introduction to around **2024**, making it the newest conventional stainless core steel discussed here. Within Xinzuo's current range, it represents a newer development of the all-round stainless approach: its formulation emphasizes the combined balance of corrosion resistance, cutting stability, toughness and straightforward maintenance rather than maximizing one individual property.
 
 It still targets different priorities from M390, ZDP-189 or Blue #2. Those steels pursue more specialized extremes; 12Cr18MoV is designed to make the all-round stainless formula as complete as possible without the sharpening demands of the hardest powder steels.
 
