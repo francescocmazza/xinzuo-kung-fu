@@ -1,5 +1,5 @@
 ---
-source_hash: cac4a5cd9f0ccbb785b4140636224003024402a4287d453ec3e83a56f7ba8304
+source_hash: 16c8801ffc2160c2b18fab7a273efdc38bb2ea93de7b7accdb7d3f0c04d2f688
 ---
 
 # Materiali Xinzuo Handle - Sentire, Cura e Scelta
@@ -42,13 +42,13 @@ Il polipropilene è comune su coltelli economici e coltelli professionali proget
 
 Una buona maniglia PP può durare per anni, ma l'uso pesante può graffiare o lucidare la superficie liscia. Lunga esposizione alla luce ultravioletta dalla luce solare, calore elevato, sostanze chimiche aggressive e lavaggi ripetuti duri può anche causare scolorimento, deformazione o rendere alcune formulazioni più fragili.
 
-PP non è intrinsecamente povero. La sua limitazione su un coltello high-end è che offre meno rigidità, ricchezza tattile, modellando libertà e distinzione visiva rispetto a G10, fibra di carbonio o legni selezionati. I produttori premium di solito scelgono altri materiali quando l'impugnatura è destinato a comunicare artigianato e identità del prodotto.
+I punti di forza di PP sono bassi costi, igiene e ripetibilità. Rispetto al G10, fibra di carbonio o legni selezionati, di solito offre meno rigidità, libertà di modellazione e variazione tattile o visiva. Si adatta quindi a disegni dove la praticità e la produzione economica contano più di finiture elaborate.
 
 ### ABS
 
 L'ABS, o butadiene-stirene, è un altro termoplastico stampabile ad iniezione. Combina rigidità utile, resistenza agli urti, resistenza all'acqua e basso costo, e può formare forme e texture complesse in modo coerente.
 
-La sua superficie può graffiare, mentre la resistenza termica e chimica dipendono dalla formulazione. ABS funziona bene quando costa, ripetibilità e materia di produzione veloce più. Coltelli di fascia alta di solito scelgono G10, fibra di carbonio, legno Pakka, legni selezionati o altri materiali ingegnerizzati per una maggiore libertà di finitura, raffinatezza tattile e distinzione visiva.
+La sua superficie può graffiare, mentre la resistenza termica e chimica dipendono dalla formulazione. L'ABS funziona bene quando il costo, la ripetibilità e la veloce materia di produzione più. G10, fibra di carbonio, legno Pakka e legni selezionati offrono diversi compromessi in rigidità, libertà di finitura, carattere tattile e variazione visiva.
 
 ### G10
 
@@ -96,15 +96,15 @@ In genere sembra più caldo e meno industriale del G10 pur mantenendo molti vant
 
 ### Legno di pakka
 
-Il legno di Pakka è un caratteristico materiale di maniglia utilizzato dai produttori di coltelli di fascia alta, incluso Xinzuo. Non è una specie di legno. Gli strati sottili di legno o di materiale derivato dal legno sono impregnati di resina, spesso colorata, e compressi in un blocco denso che viene successivamente tagliato e modellato in manici.
+Il legno di Pakka è un materiale di maniglia ingegnerizzato, non una specie di legno. Gli strati sottili di legno o di materiale derivato dal legno sono impregnati di resina, spesso colorata, e compressi in un blocco denso che viene successivamente tagliato e modellato in manici.
 
-Il processo mantiene parte della struttura visiva e del calore del legno migliorando al tempo stesso la resistenza all'umidità, all'abrasione, alla deformazione e al cracking. Xinzuo utilizza il legno Pakka in diverse famiglie composite di Damasco e tre strati perché combina un aspetto simile al legno con una maggiore stabilità quotidiana.
+Il processo preserva una parte della struttura visiva e del calore del legno migliorando al contempo la resistenza all'umidità, all'abrasione, alla deformazione e al cracking. Xinzuo utilizza il legno Pakka in diverse famiglie compositi a tre strati e Damasco dove questa combinazione di aspetto simile al legno e stabilità quotidiana si adatta al design.
 
 Il legno di Pakka ben fatto assorbe molto meno acqua del legno non trattato e ha una superficie più stabile e meno porosa. **In genere tollera detergenti e sgrassanti meglio del legno naturale non trattato**, mentre le istruzioni per il coltello e il prodotto di pulizia hanno ancora la precedenza.
 
 Non è indistruttibile. Le sostanze chimiche forti, l'immersione prolungata, le alte temperature e i cicli di lavastoviglie possono danneggiare la resina, finitura o assemblaggio maniglie.
 
-Il legno Pakka conferisce anche al produttore un forte controllo sull'aspetto. Gli strati possono essere colorati prima dell'incollaggio, e la sagomatura espone linee decorative regolari. Rinuncia ad alcune delle unicità del legno massello in cambio di una manutenzione più bassa e di una migliore stabilità dell'umidità, che può essere un ottimo compromesso per un uso frequente.
+Il legno Pakka conferisce anche al produttore un forte controllo sull'aspetto. Gli strati possono essere colorati prima dell'incollaggio e la sagomatura espone linee decorative regolari. Ha una variazione meno naturale rispetto al legno massello ma offre una manutenzione più bassa e una migliore stabilità dell'umidità, che può essere un utile compromesso per un uso frequente.
 
 ### Legno stabilizzato
 
@@ -138,11 +138,11 @@ La sua densità dà una buona resistenza all'usura e stabilità, ma aggiunge anc
 
 ### Legno di ferro desertico nordamericano
 
-Il legno di ferro del deserto, solitamente *Olneya tesota*, proviene dal Deserto Sonoran degli Stati Uniti sud-occidentali e del Messico nord-occidentale ed è uno dei boschi premium più densi utilizzati per le maniglie dei coltelli.
+Il legno di ferro del deserto, solitamente *Olneya tesota*, proviene dal Deserto Sonoran degli Stati Uniti sud-occidentali e del Messico nord-occidentale ed è uno dei boschi più densi comunemente utilizzati per le maniglie dei coltelli.
 
 E' estremamente duro, denso e naturalmente ricco di oli. Ciò conferisce una forte resistenza all'usura e una migliore stabilità dimensionale rispetto a molti legni comuni, insieme a una profonda figura a contrasto e un raffinato smalto.
 
-Xinzuo lo utilizza in famiglie di fascia alta tra cui selezionati coltelli ZDP-189, SRS13 e full-Damascus. I suoi principali compromessi sono costo, peso e formatura difficile. Nonostante la sua densità e oli naturali, non è impermeabile e deve ancora essere asciugato prontamente.
+Xinzuo lo utilizza nelle famiglie selezionate ZDP-189, SRS13 e full-Damascus. I suoi principali compromessi sono il costo, il peso e la formatura difficile. Nonostante la sua densità e oli naturali, non è impermeabile e deve ancora essere asciugato prontamente.
 
 ### Sandalo rosso e legno rosso
 
@@ -152,7 +152,7 @@ La cura è semplice: tenerli fuori dalla lavastoviglie, non bagnarli, asciugarli
 
 ### Figurato sycamore
 
-Il sicomoro figurato è scelto per il movimento e la profondità del suo grano. La superficie può sembrare cambiare mentre la luce si muove attraverso di esso, rendendo la maniglia una parte visibile di un design premium.
+Il sicomoro figurato è scelto per il suo disegno di grana distintivo e la profondità visiva. La superficie può sembrare cambiare mentre la luce si muove attraverso di esso, rendendo la grana del manico una parte importante del design.
 
 La figura è naturalmente variabile e non può essere perfettamente standardizzata. Il legno ha anche bisogno di una normale protezione da umidità prolungata, cicli di lavastoviglie e forte calore.
 
@@ -207,7 +207,7 @@ Questi dettagli richiedono dati di prodotto verificati. Non trasformare un'etich
 
 Roseto, olivo, noce, rovere e sicomoro figurato enfatizzano il grano naturale e una sensazione calda. Il legno di ebano e di ferro deserto si sentono più densi, più scuri e sostanziali. Il legno di Pakka mantiene un aspetto simile al legno con maggiore consistenza e facilità di cura, mentre il legno stabilizzato preserva l'individualità del vero legno riducendo la sensibilità all'umidità.
 
-Micarta e G10 enfatizzano stabilità e durata nel lavoro impegnativo o umido. La fibra di carbonio riduce il peso e conferisce un aspetto tecnico moderno, mentre i compositi carbonio/resina e resina offrono maggiore libertà di progettazione e effetti decorativi ripetibili. Polipropilene e ABS rappresentano l'altra estremità dello spettro ingegneristico: altamente pratico ed economico, ma solitamente meno distintivo e meno flessibile nelle finiture premium.
+Micarta e G10 enfatizzano la stabilità e la durata nel lavoro impegnativo o umido. La fibra di carbonio riduce il peso e conferisce un aspetto tecnico moderno, mentre i compositi carbonio/resina e resina offrono maggiore libertà di progettazione ed effetti decorativi ripetibili. Polipropilene e ABS rappresentano l'estremità più economica della gamma ingegneristica: altamente pratico, ma solitamente meno distintivo e meno flessibile nella finitura elaborata.
 
 Nessuno di questi materiali può compensare un manico che non si adatta alla mano o al movimento dell'utente. La forma e le dimensioni della presa contano più del nome del materiale da solo.
 

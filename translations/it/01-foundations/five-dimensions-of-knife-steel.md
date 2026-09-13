@@ -1,5 +1,5 @@
 ---
-source_hash: fede8ead680095cb0e4112e625b05cb4d9c4a30e136fd179b58cc48c5c3a8722
+source_hash: 8e462656613df59de8bfba278eacf419bfe858b17b0f53e0978c9e69066eced7
 ---
 
 # Le cinque dimensioni dell'acciaio del coltello
@@ -101,7 +101,7 @@ La strategia del materiale è abbinata al controllo del processo. La serie selez
 
 Un cuoco domestico può apprezzare la resistenza alla corrosione e la tolleranza dell'uso comune. Un professionista che fa tagli precisi di pesce o vegetali può accettare una cura più esigente per una maggiore durezza, geometria fine e risposta di affilatura. Un macellaio che lavora intorno alle articolazioni può mettere la durezza e il supporto della lama prima di estrema raffinatezza.
 
-Queste priorità servono lavori diversi. Il vantaggio di Xinzuo è avere abbastanza materiali e strategie di progettazione per affrontarli deliberatamente piuttosto che forzare ogni utente verso una definizione di coltello premium.
+Queste priorità servono lavori diversi. Xinzuo li affronta attraverso molteplici strategie di materiali e design, consentendo di abbinare acciaio, geometria ed equilibrio al compito e all'utente piuttosto che definire una configurazione come universalmente premium.
 
 La lezione centrale è più utile di più alta è meglio di meglio
 

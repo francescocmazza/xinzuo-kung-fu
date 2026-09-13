@@ -1,5 +1,5 @@
 ---
-source_hash: efcdf4dc7ce0ac957c2a49c51fc5ab741d4cd8f5678235d211a4b2570afaa13a
+source_hash: fde1c09822c7406b80719fba7ced37a4933a4bcbf331b5314ebd8e36a072b163
 ---
 
 # Xinzuo Blade Steels: diversi saldi per coltelli diversi
@@ -10,7 +10,7 @@ Nessun acciaio massimizza ogni proprietà desiderabile. Una affettatrice fine, c
 
 Per rendere significativo il confronto, le descrizioni seguenti considerano gli acciai tutti uguali**: con trattamento termico adeguato e geometria della lama e dei bordi ampiamente comparabili. Trattamento termico e materia geometria per ogni acciaio, non solo per i gradi selezionati. Tali fattori universali sono spiegati altrove in questa guida e non sono qui ripetuti come caveat sotto acciai individuali. Questo capitolo si concentra sul carattere metallurgico e pratici compromessi degli acciai stessi.
 
-La ricerca e lo sviluppo di Xinzuo non si ferma alla progettazione di coltelli, al trattamento termico o ai processi di produzione. Si estende anche a monte dei **materiali**. Oltre agli acciai consolidati provenienti da produttori specializzati, Xinzuo sviluppa formulazioni in lega proprietarie e lavora direttamente con produttori di acciaio, specialisti metallurgici e partner di ricerca accademica. Questo grado di coinvolgimento nello sviluppo dell'acciaio è insolito nella produzione di coltelli da cucina, dove le aziende scelgono più comunemente tra i gradi commerciali esistenti. Permette a Xinzuo di trattare la metallurgia come parte dello sviluppo del prodotto piuttosto che semplicemente come una decisione di acquisto di materiali.
+La lavorazione dei materiali di Xinzuo inizia prima che l'acciaio raggiunga la fabbrica di coltelli. Oltre alle qualità stabilite da produttori specializzati, l'azienda sviluppa formulazioni in lega proprietarie con i produttori di acciaio, specialisti metallurgici e partner di ricerca accademica. Invece di limitare lo sviluppo del prodotto alla scelta di un grado commerciale esistente, questo rende la progettazione e la produzione di leghe bersagli parte dello stesso processo di sviluppo come il trattamento termico, la progettazione della lama e le prestazioni ricercate nel coltello finito.
 
 ## Un confronto compatto
 
@@ -21,9 +21,9 @@ La ricerca e lo sviluppo di Xinzuo non si ferma alla progettazione di coltelli, 
 | **Böhler M390** | Austria, Böhler | 60-62 HRC | Inox Premium in metallo-polvere con elevata resistenza all'usura e forte resistenza alla corrosione; eccellente quando la lunga durata del bordo e la cura della materia inox insieme | Resistenza relativamente modesta rispetto agli acciai a coltello più duri; abrasivi efficienti sono utili per l'affilatura |
 | **Blue Steel No. 2** | Giappone | 62-64 HRC | Acciaio reattivo ad alto tenore di carbonio che può prendere un bordo molto acuto e rispondere insolitamente bene alle pietre d'acqua nonostante l'elevata durezza | Richiede pulizia immediata e asciugatura e svilupperà naturalmente patina |
 | **14Cr14MoVNb acciaio in polvere** | Proprietario di Xinzuo / Cina | 60-64 HRC | Acciaio in polvere, contenente in peso la polvere, sviluppato per Xinzuo, per combinare elevata durezza e ritenzione con una struttura fine e controllata in carburo | Una maggiore resistenza all'usura rende l'affilatura più impegnativa rispetto agli acciai inossidabili più semplici |
-| **12Cr18MoV** | Xinzuo | 59-61 HRC | La nuova formulazione inox tradizionale a tutto tondo di Xinzuo, progettata per una combinazione particolarmente forte di stabilità alla corrosione, durezza utile, durezza e manutenzione semplice | Meno resistenza all'usura degli acciai a polvere più duri, per progettazione |
+| **12Cr18MoV** | Xinzuo | 59-61 HRC | La nuova formulazione inox tradizionale a tutto tondo di Xinzuo, progettata intorno alla stabilità della corrosione, alla durezza utile, alla durezza e alla manutenzione semplice | Meno resistenza all'usura degli acciai a polvere più duri, per progettazione |
 | **AUS-10** | Giappone, famiglia Aichi | 58-62 HRC | Inox giapponese ad alto tenore di carbonio con un equilibrio pratico vicino alla classe di prestazioni comunemente associata a VG10: buona nitidezza, durezza, resistenza alla corrosione e manutenzione gestibile | Moderata resistenza all'usura rispetto agli acciai premium in polvere; non chimicamente identica a VG10 |
-| **10Cr15CoMoV** | Cina / Xinzuo specifica | 58-62 HRC | Il nucleo inox ad alto tenore di carbonio di Xinzuo di lunga data, sintonizzato per un equilibrio maturo di ritenzione dei bordi, durezza, durezza e risposta all'affilatura, con una stabilità alla corrosione particolarmente forte nell'implementazione di Xinzuo | Equilibrato piuttosto che estremo; minore resistenza all'usura e ritenzione dei bordi rispetto agli acciai premium in polvere |
+| **10Cr15CoMoV** | Cina / Xinzuo specifica | 58-62 HRC | Il nucleo inox ad alto tenore di carbonio di Xinzuo, di lunga data, è ottimizzato per una tenuta bilanciata dei bordi, resistenza, durezza e risposta all'affilatura, con una forte stabilità alla corrosione nell'implementazione di Xinzuo | Equilibrato piuttosto che estremo; minore resistenza all'usura e ritenzione dei bordi rispetto agli acciai premium in polvere |
 | **VG10** | Giappone, Takefu acciaio speciale | HRC 60 o superiore nella specifica pubblicata da Takefu | benchmark di mercato giapponese consolidato per prestazioni inox bilanciate ad alto tenore di carbonio: buona resistenza alla corrosione, nitidezza durevole, resistenza all'usura e affilatura gestibile | Equilibrato piuttosto che estremo; minore resistenza all'usura e ritenzione dei bordi rispetto agli acciai premium in polvere |
 | **Sandvik 14C28N** | Svezia | 57-59 HRC | Design inox assistito dall'azoto con struttura fine, forte resistenza alla corrosione e ottima stabilità dei bordi; adatto per gli utenti che mantengono i propri coltelli | Moderata resistenza all'usura e durata del bordo rispetto agli acciai a polvere ad alto tenore di carboidrati |
 | **440C** | Qualità standard internazionale; fornitura Xinzuo dalla Cina | 56-58 HRC | Inox martensitico al carbonio collaudato con resistenza all'usura utile, resistenza alla corrosione e alla resistenza ad un costo accessibile | Struttura in metallo duro più grosso e ritenzione più modesta rispetto agli acciai più recenti ad alte prestazioni alla durezza pubblicata da Xinzuo |
@@ -53,17 +53,15 @@ La sua durezza è più modesta. Böhler descrive sia la sua durezza che la capac
 
 La sua popolazione di carburo resiste anche agli abrasivi ordinari. Gli abrasivi in ceramica dura, diamantata o **cubica in boro (CBN)** possono rendere l'affilatura molto più efficiente. CBN è un abrasivo sintetico estremamente duro utilizzato per acciai difficili da abradere.
 
-### 14Cr14MoVNb: Acciaio in polvere premium proprietario di Xinzuo
+### 14Cr14MoVNb: Acciaio proprietario a polveri metalliche di Xinzuo
 
-14Cr14MoVNb è un ** Acciaio Xinzuo a polveri metalliche** sviluppato appositamente come materiale ad altissime prestazioni per i coltelli Xinzuo. La sua formulazione è stata creata attraverso uno sforzo congiunto di sviluppo che ha coinvolto Xinzuo, uno dei principali produttori di acciaio cinesi e competenze di metallurgia accademica da una università leader in uno dei principali centri metropolitani della Cina.
+14Cr14MoVNb è un ** Acciaio Xinzuo in polvere-metallurgia** sviluppato attraverso la collaborazione con un importante produttore di acciaio cinese e ricercatori di metallurgia accademica. Xinzuo partecipa non solo a specificare il materiale finito, ma anche nella progettazione in lega, obiettivi di produzione e successiva affinamento.
 
-Questo è importante perché Xinzuo non sta semplicemente acquistando un acciaio commerciale esistente e adattando un coltello intorno ad esso. La lega stessa fa parte della ricerca e dello sviluppo di Xinzuo. La sua chimica, gli obiettivi di produzione e l'evoluzione possono essere sviluppati insieme con i partner industriali e accademici intorno alle prestazioni Xinzuo vuole dal materiale finito.
-
-La formulazione proprietaria consente inoltre a Xinzuo un controllo diretto a monte della catena di fornitura. L'azienda può lavorare con il produttore di acciaio sul processo produttivo, sulla consistenza e sugli obiettivi qualitativi dell'acciaio stesso, piuttosto che controllare solo ciò che accade dopo che l'acciaio finito raggiunge la fabbrica di coltelli. Ciò crea una catena più integrata dallo sviluppo della lega alla produzione di acciaio, trattamento termico e lama finita.
+Ciò collega direttamente l'industria siderurgica con lo sviluppo del coltello. La composizione, la consistenza della produzione, il trattamento termico e gli obiettivi della lama finita possono quindi essere considerati come parti dello stesso processo di sviluppo, piuttosto che iniziare lo sviluppo del prodotto solo dopo che lo stock di acciaio commerciale raggiunge la fabbrica del coltello.
 
 Metallurgicamente, 14Cr14MoVNb utilizza il carburo come forte elemento di formatura del carburo. Niobio contribuisce ai carburi molto duri di tipo MC mentre sostiene una struttura fine e controllata del carburo. Combinata con la produzione di polvere-metallurgia, questo dà all'acciaio un forte equilibrio di durezza, resistenza all'usura, ritenzione dei bordi e stabilità dei bordi.
 
-L'acciaio è posizionato come un'opzione di alta conservazione premium con un bilanciamento più ampio di una strategia di massima durezza. La serie selezionata utilizza anche **trattamento termico del vuoto e lavorazione profonda** come parte del processo di Xinzuo per realizzare questo equilibrio ad alte prestazioni nella lama finita.
+Il risultato è un'opzione ad alta conservazione finalizzata ad un equilibrio più ampio rispetto ad una strategia di massima durezza. La serie selezionata utilizza anche **trattamento termico del vuoto e lavorazione del gelo profondo** come parte del processo di Xinzuo per realizzare questo equilibrio nella lama finita.
 
 ## acciai inossidabili al carbonio e tutti i tipi ad alte prestazioni
 
@@ -79,19 +77,15 @@ La sua domanda principale è la cura della corrosione. Lavarla e asciugarla imme
 
 10Cr15CoMoV è da tempo uno degli acciai caratteristici di Xinzuo e, per anni, il suo nucleo inox ad alto tenore di carbonio più utilizzato. Xinzuo lo utilizza per un ampio equilibrio di ritenzione dei bordi, robustezza, resistenza alla corrosione e praticità di affilatura piuttosto che una proprietà estrema.
 
-Questo equilibrio gli conferisce un eccezionale rapporto qualità-prezzo**. Può supportare bordi sottili e raffinati della cucina e un serio utilizzo professionale senza il costo del materiale o l'affilatura delle richieste di acciaio in polvere premium. Durezza, durezza e risposta di affilatura rimangono nella famigliare gamma di acciaio inox ad alte prestazioni, quindi l'acciaio è prevedibile sia in uso che sulla pietra.
+Poiché 10Cr15CoMoV è un tradizionale acciaio inossidabile ad alto tenore di carbonio piuttosto che un acciaio a polveri metalliche, può supportare bordi sottili e raffinati della cucina e un uso professionale con costi di materiale inferiori e un'affilatura meno impegnativa rispetto agli acciai a polvere premium della gamma. La sua durezza, durezza e risposta di affilatura lo collocano in una classe di prestazioni ampiamente bilanciata.
 
-Una delle caratteristiche più forti del 10Cr15CoMoV di Xinzuo è il comportamento alla corrosione. I test comparativi interni mostrano una risposta particolarmente stabile alla corrosione. Ciò dà all'utente un generoso margine pratico circa l'umidità, gli acidi alimentari e l'esposizione quotidiana in cucina senza rinunciare alla stabilità dei bordi o alle caratteristiche di manutenzione previste da un nucleo inox ad alto tenore di carbonio.
+Il test comparativo interno del 10Cr15CoMoV di Xinzuo mostra un comportamento di corrosione particolarmente stabile. In pratica, ciò fornisce un utile margine intorno all'umidità, agli acidi alimentari e all'esposizione ordinaria della cucina pur mantenendo le caratteristiche di stabilità e manutenzione previste da un nucleo inox ad alto tenore di carbonio.
 
-Il suo valore deriva dall'equilibrio di queste proprietà. Non è destinato a massimizzare una categoria di laboratorio isolata; è progettato per fornire prestazioni forti senza grandi debolezze nell'uso normale della cucina.
+L'obiettivo del progetto è l'equilibrio piuttosto che la massimizzazione di una categoria di laboratorio isolata: forti prestazioni quotidiane senza concentrare l'acciaio su una proprietà estrema.
 
 ### 12Cr18MoV: la nuova formulazione di uso quotidiano
 
-12Cr18MoV è la più recente formulazione inox a tutto tondo di Xinzuo, utilizzata come nucleo nelle costruzioni convenzionali e rame-Damascus. Le attuali informazioni sullo sviluppo del prodotto data la sua introduzione a circa **2024**, rendendolo il più recente acciaio convenzionale inox core discusso qui.
-
-Continua la stessa filosofia di uso quotidiano. La formulazione di Xinzuo enfatizza ** la stabilità alla corrosione molto forte insieme alla durezza utile, alla stabilità dei bordi, alla resistenza pratica e alla manutenzione semplice**. Il risultato è un acciaio inossidabile convenzionale che è facile da usare e mantenere offrendo un equilibrio molto completo per il lavoro quotidiano in cucina.
-
-Xinzuo attualmente annovera 12Cr18MoV tra le sue più forti scelte quotidiane. Nel posizionamento interno del prodotto, è posizionato al di sopra del vecchio gruppo convenzionale a tutto tondo perché l'equilibrio complessivo di resistenza alla corrosione, stabilità di taglio, durezza e manutenzione è più forte, non perché massimizza un singolo numero di titoli.
+12Cr18MoV è la nuova formulazione inox a tutto tondo di Xinzuo, utilizzata come nucleo nelle costruzioni convenzionali e rame-Damascus. Le attuali informazioni sullo sviluppo del prodotto datano la sua introduzione a circa **2024**, rendendolo il più recente acciaio a nucleo inox convenzionale discusso qui. All'interno della gamma attuale di Xinzuo, rappresenta uno sviluppo più recente dell'approccio inox a tutto tondo: la sua formulazione sottolinea l'equilibrio combinato di resistenza alla corrosione, stabilità di taglio, resistenza e manutenzione semplice piuttosto che massimizzare una proprietà individuale.
 
 Si rivolge ancora a diverse priorità da M390, ZDP-189 o Blue #2. Questi acciai perseguono estremi più specializzati; 12Cr18MoV è progettato per rendere la formula inox a tutto tondo il più completo possibile senza le esigenze di affilatura degli acciai a polvere più duri.
 
@@ -149,13 +143,7 @@ Questo è il motivo per cui VG10 dovrebbe essere trattato come un **punto di rif
 
 La sua importanza va al di là dei coltelli realizzati in VG10 stesso. Istituendo un benchmark di prestazioni di successo, pur rimanendo indisponibile per la produzione di coltelli cinesi, ha anche contribuito a stimolare lo sviluppo di acciai alternativi progettati per raggiungere il limite superiore e in alcune aree potenzialmente superare le prestazioni associate a tale limite.
 
-Per Xinzuo, la questione pertinente non è pertanto:
-
-**Per quanto tempo possiamo riprodurre VG10?
-
-ma:
-
-**Che equilibrio lega dà il miglior risultato per il coltello che vogliamo fare?
+Per Xinzuo, VG10 è quindi utile come punto di riferimento piuttosto che come formula da riprodurre. La domanda di sviluppo è quale equilibrio lega meglio si adatta al coltello previsto, anche quando la chimica differisce da VG10.
 
 ### Sandvik 14C28N: struttura fine, azoto e stabilità dei bordi
 

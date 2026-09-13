@@ -1,5 +1,5 @@
 ---
-source_hash: f9133c4d53f266d3f495e7e99658e7c144b9a629e3e16c28ee66b26e8656735a
+source_hash: 8d746b47e610b6578bc062c8086b64b1da494b41fefadc213bd0aad8a16d0936
 ---
 
 # Trattamento termico e carboidrati: trasformare la composizione in una lama
@@ -104,11 +104,9 @@ Per una ricetta di trattamento dell'acciaio e del calore adatta, il trattamento 
 
 ### Xinzuo come esempio
 
-Selezionato serie Xinzuo specificare **vacuum trattamento termico e congelamento profondo**. Si tratta di fasi aggiuntive, tecnicamente impegnative che richiedono attrezzature dedicate, tempo di processo e controllo, e quindi aggiungere costi di produzione reali.
+Selezionato serie Xinzuo specificare **vacuum trattamento termico e lavorazione del freddo profondo**. Il trattamento sottovuoto limita l'ossidazione e la decarburazione e migliora il controllo durante le fasi ad alta temperatura; il congelamento profondo, se appropriato alla ricetta dell'acciaio e del trattamento termico, aiuta a trasformare l'
 
-Sono utilizzati per un motivo pratico: per estrarre il più possibile le prestazioni utili dall'acciaio selezionato per la lama. Il trattamento termico sottovuoto protegge l'acciaio e migliora il controllo durante le fasi ad alta temperatura. Il congelamento profondo, quando specificato per la lega e la ricetta, aiuta a trasformare l'
-
-Questi processi non fanno miracoli e non possono compensare un acciaio povero, una ricetta di trattamento termico non corretta o una geometria della lama non adatta. Ma non sono nemmeno etichette tecniche vuote. **Se correttamente applicate, sono passi aggiuntivi intenzionali per avvicinare l'acciaio scelto alle sue migliori prestazioni raggiungibili nel coltello finito.**
+Queste fasi richiedono attrezzature dedicate, tempi di lavorazione e controllo perché affrontano specifiche condizioni metallurgiche nell'acciaio scelto. Il loro valore deriva dal modo in cui sono integrate nel processo di trattamento termico completo, piuttosto che dalle etichette tecniche stesse.
 
 ## 5. Tempering: rendendo utilizzabile martensite
 

@@ -1,12 +1,14 @@
 ---
-source_hash: 43c231f6c0fa8fcd706eae8cd5aea98fd0c119bc2b02e9d6406d4fbd6b2e84ff
+source_hash: 5be9efb7425a323dd87477f86afb8f03a6561bacb9c85c916cd22a33cf04adc8
 ---
 
 # Elementi di lega
 
 L'acciaio è spesso presentato come un elenco di ingredienti. Una pagina del prodotto può menzionare carbonio, cromo, molibdeno, vanadio, tungsteno o cobalto e implica che una lista più lunga significa un coltello migliore.
 
-L'acciaio è più vicino a una ricetta. Il risultato dipende da quanto di ogni elemento è presente, come gli elementi interagiscono, come l'acciaio è fatto e come è trattato termicamente. Due leghe con ingredienti simili possono comportarsi in modo molto diverso.
+Conoscere la composizione chimica di un acciaio è un po' come conoscere gli ingredienti di un piatto. Anche se la lista degli ingredienti include quantità, non vi dice ancora esattamente come il cibo finito assaggerà: temperatura, tempi, tecnica e il modo in cui gli ingredienti interagiscono trasformano il risultato. L'acciaio funziona allo stesso modo. La composizione definisce ciò che è disponibile per il metallurgista, ma la lavorazione e lavorazione, trattamento termico, microstruttura, geometria della lama, finitura superficiale e qualità di fabbricazione determinano come queste possibilità appaiono nel coltello finito.
+
+Due coltelli realizzati con lo stesso acciaio nominale possono quindi comportarsi in modo molto diverso: uno può essere temprato più in alto e macinato sottile per la stabilità dei bordi e l'efficienza di taglio; un altro può essere temperato per una maggiore resistenza e data una geometria più robusta. La composizione chimica è essenziale, ma è il punto di partenza, non una specifica di prestazioni completa.
 
 Tenete a mente tre principi: nessun elemento di lega funziona da solo; di più non è automaticamente migliore; e la composizione crea possibilità che il trattamento termico e la geometria della lama devono trasformarsi in prestazioni utili.
 
@@ -117,7 +119,7 @@ Gli acciai legati all'azoto richiedono un'industria siderurgica controllata e le
 
 ## Perché le percentuali non sono sufficienti
 
-Una tabella di composizione non può prevedere l'esecuzione completa di un coltello finito.
+Come una lista di ingredienti, una tabella di composizione ci dice che cosa è andato nell'acciaio, non esattamente come il coltello finito si comporterà.
 
 Lo stesso acciaio nominale può essere trattato termicamente a diversi livelli di durezza. Un produttore può favorire la durezza; un altro può spingere la durezza per una maggiore stabilità dei bordi e resistenza all'usura. La geometria varia anche: una lama può essere molto sottile dietro il bordo, mentre un altro utilizza una sezione più conservativa. Finitura superficiale, mantenuto carburo, distribuzione carburo e produzione di qualità cambiare resistenza alla corrosione, resistenza e risposta di affilatura ulteriore.
 

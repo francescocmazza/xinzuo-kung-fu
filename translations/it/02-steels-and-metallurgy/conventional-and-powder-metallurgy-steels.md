@@ -1,5 +1,5 @@
 ---
-source_hash: 3023169417e8221824fa830a3a8eb482bc82a1f0d120dfc469991835000320f4
+source_hash: 981f8bcebf33b4d27bc3cd61ba7f99fc0c2bd281f4e644e17925ff9fed6e4e9b
 ---
 
 # Acciai convenzionali e metallurgici a polvere
@@ -82,8 +82,6 @@ L'azienda seleziona acciai specializzati come **SRS13, M390 e ZDP-189** quando i
 
 Xinzuo sviluppa anche la metallurgia proprietaria. **14Cr14MoVNb** è stato sviluppato come acciaio in polvere ad alte prestazioni di Xinzuo in collaborazione con partner industriali e accademici di metallurgia. Ciò consente all'azienda di partecipare alla progettazione di leghe e obiettivi di produzione di acciaio più a monte invece di iniziare il suo controllo solo dopo l'acquisto di acciaio finito.
 
-La combinazione è importante. Xinzuo può scegliere un acciaio specializzato stabilito quando è la migliore calzata, o sviluppare un materiale proprietario quando un maggiore controllo sulla composizione, la produzione e la finitura futura serve l'obiettivo del prodotto. In entrambi i casi, il materiale viene poi trasportato attraverso il resto della catena di produzione trattamento di calore, rettifica, affilatura e progettazione della lama, per trasformare il suo potenziale metallurgico in un coltello da lavoro.
-
-Questo approccio riflette una parte più ampia della cultura di sviluppo del prodotto di Xinzuo: **la metallolurgia stessa è trattata come un campo di ricerca e progettazione, non solo come una decisione d'acquisto.**
+Xinzuo utilizza quindi due vie: acciai specializzati affermati quando il loro equilibrio esistente si adatta alla progettazione, e sviluppo proprietario quando l'obiettivo del prodotto richiede un controllo diretto sulla composizione e sugli obiettivi di produzione. In entrambi i casi, il materiale viene trasportato attraverso trattamento termico, rettifica, affilatura e progettazione della lama. La metalliera entra quindi nel processo di sviluppo del prodotto prima che l'acciaio finito raggiunga la fabbrica di coltelli.
 
 Ricordate la sequenza: **la composizione in acciaio ci dice quali elementi sono presenti; il percorso produttivo influisce su quanto fine e uniforme può essere la struttura di partenza; il trattamento termico sviluppa la microstruttura finale; e la geometria del bordo determina come quella struttura incontra il cibo.**

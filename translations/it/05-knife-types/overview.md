@@ -1,5 +1,5 @@
 ---
-source_hash: 4e36513a4c766845e94fd0c49eaeacd3ff0af8c4cc9225f92ae26c188c1937d4
+source_hash: 74c319e23892311894f4eb3d299331185190534f8c7814c0f804281def26a4f2
 ---
 
 # Forme di coltello e loro usi
@@ -12,7 +12,7 @@ Per il personale di vendita, un principio è più che memorizzare i nomi: **a pa
 
 **Dopo aver scelto la forma giusta, passare a ergonomia.** Chiedere al cliente di tenere il coltello come in realtà cucinare e confrontare la forma della maniglia, la posizione di presa, il peso totale e l'equilibrio. Alcune persone vogliono un piantato, lama-forward coltello che si sente autorevole in un taglio push; altri preferiscono un più leggero o più neutro coltello che è facile da sollevare e reindirizzare. La raccomandazione è completa solo quando la forma funzionale è abbinata al manico e equilibrio che si adatta alla mano e al movimento del cliente.
 
-L'ampia gamma di Xinzuo è particolarmente utile in questa fase. Il personale può mettere nella mano del cliente diversi coltelli tecnicamente adatti e metterli a confronto. Ciò consente di trovare una stretta calzata ergonomica invece di trattare un manico o l'equilibrio come universale. Utilizzare un ordine chiaro: **funzione prima, ergonomica seconda, specifica modello terzo**.
+L'ampiezza della gamma Xinzuo rende questo confronto pratico. Il personale può mettere nella mano del cliente diversi coltelli tecnicamente adatti e confrontare direttamente la geometria della maniglia, il peso e l'equilibrio. Ciò consente di trovare una stretta calzata ergonomica invece di trattare una maniglia o l'equilibrio come universale. Utilizzare un ordine chiaro: **funzione prima, ergonomia secondo, modello specifico terzo**.
 
 Leggere la lama reale dal tallone alla punta e chiedere cosa la sua geometria incoraggia la mano a fare. I nomi di categoria sono solo guide. Due coltelli venduti con lo stesso nome possono differire notevolmente in curva, spessore, equilibrio, geometria bisellata e movimento previsto. Nessun grado di acciaio, finitura o specifiche può rendere la forma corretta per il lavoro.
 

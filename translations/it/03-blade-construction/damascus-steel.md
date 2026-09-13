@@ -1,5 +1,5 @@
 ---
-source_hash: d0d4497f7d316de9d891af1a7aeaf120f67699edae2b721884e64db14531d82e
+source_hash: e9a1077eb50c54398820423a76702d5b6214ac3a4d77dcb7c73a1eecfb370ff9
 ---
 
 # Damascus Steel - Pattern, Storia e Costruzione
@@ -112,11 +112,9 @@ La co-fusione combina materiali di ferro più alti e inferiori al carbonio per o
 
 Bintie appartiene quindi alla storia metallurgica cinese senza richiedere l'affermazione che ogni esempio è venuto da un luogo o utilizzato un processo. Mostra produttori cinesi e gli utenti che partecipano a un più ampio scambio di materiali a lama avanzati.
 
-## Xinzuo: Damasco come piattaforma di design moderno
+## Come Xinzuo utilizza diverse costruzioni di Damasco
 
-Xinzuo tratta Damasco come più di un modello visivo. Utilizza la costruzione stratificata come una piattaforma **design** che può combinare diversi acciai di lavoro, strutture e trattamenti visivi per diversi obiettivi.
-
-L'azienda lavora con leghe moderne specifiche, trattamento termico controllato, saldatura industriale pattern, rettifica, lucidatura, incisione e testing. Questo offre a Xinzuo diversi modi distinti di utilizzare il concetto di Damasco piuttosto che ridurlo ad una ricetta decorativa.
+Xinzuo utilizza la costruzione a strati in diversi modi tecnicamente diversi. L'attuale gamma combina leghe moderne specificate, trattamento termico controllato, saldatura a pattern industriale, rettifica, lucidatura, incisione e test in costruzioni con core rivestito, rame e full-Damascus. Poiché queste strutture collocano diversi materiali all'avanguardia o al di fuori di quest'ultimo, essi risolvono diversi problemi tecnici e visivi piuttosto che rappresentare una ricetta decorativa.
 
 La gamma attuale comprende:
 
@@ -124,9 +122,9 @@ La gamma attuale comprende:
 - costruzioni di Damasco in rame, dove i metalli in contrasto entrano a far parte del progetto visivo e strutturale;
 - Lame customizzate a 110 strati full-Damascus, dove i materiali alternati continuano attraverso il tagliente e possono contribuire direttamente all'usura differenziale all'apice.
 
-Questa larghezza è importante perché il motivo visibile non ha bisogno di dettare una soluzione tecnica. Xinzuo può combinare rivestimento Damasco con acciai a nucleo molto diversi, utilizzare rame o altri contrasti per un linguaggio di design distinto, o fare il materiale stratificato stesso il bordo di lavoro in una costruzione full-Damascus.
+Il motivo visibile non detta quindi una soluzione tecnica. Xinzuo può combinare il rivestimento di Damasco con acciai a nocciolo molto diversi, utilizzare rame o altri contrasti per un linguaggio di design distinto, o rendere il materiale a strati stesso il bordo di lavoro in una costruzione full-Damascus.
 
-Questo approccio riflette un più ampio principio di sviluppo di Xinzuo: ** materiali, struttura, processo e aspetto sono trattati come variabili che possono essere progettate insieme**. Le tradizioni storiche di Damasco e la produzione moderna di Xinzuo sono diverse vie metallurgiche, ma condividono la stessa domanda di fondo: come può essere combinato materiale e processo per creare una lama con prestazioni utili e una forte identità visiva?
+Tra questi esempi, materiali, struttura, processo e aspetto sono variabili che possono essere disegnate insieme. Le tradizioni storiche di Damasco e la produzione moderna di Xinzuo sono diverse vie metallurgiche, ma condividono la stessa domanda di fondo: come può essere combinato materiale e processo per creare una lama con prestazioni utili e una forte identità visiva?
 
 La [Guida Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) spiega i materiali di base. [Self-Sharpening pieno Damasco](self-sharpening-full-damascus.md) spiega l'usura differenziale quando materiali alternati raggiungono l'apice.
 

@@ -1,5 +1,5 @@
 ---
-source_hash: 8a021b374f56245a9b6a915c03aa5933dd9278233bcb80c327c02053315fd5e4
+source_hash: 4fcee1b1c19acf4b064289b3201587465a6488f2ff0a566c5f284a8dd8f983d7
 ---
 
 # L'effetto auto-dividente nelle lame complete di Damasco
@@ -94,7 +94,7 @@ Xinzuo produce lame a tutto strato personalizzate **110** in cui il materiale st
 
 L'obiettivo progettuale è quello di utilizzare il diverso comportamento dell'usura dei materiali alternati per creare un'usura differenziale all'apice. Con l'utilizzo della lama, gli strati meno resistenti all'usura possono recedere leggermente più velocemente mentre gli strati più resistenti all'usura rimangono microscopicamente più prominenti.
 
-Questo è un esempio distintivo di Xinzuo che tratta la costruzione della lama come una variabile ingegneristica piuttosto che solo come un trattamento visivo. Conteggio strato, accoppiamento materiale, saldatura fucina, trattamento termico e geometria bordo sono sviluppati insieme in modo che il motivo non è separato dalla funzione della lama.
+In questa costruzione, il materiale stratificato fa parte del bordo di lavoro piuttosto che solo un trattamento visivo. L'accoppiamento del materiale, il conteggio degli strati, la saldatura della forgia, il trattamento termico e la geometria dei bordi sono quindi sviluppati come un unico sistema perché ciascuno può influenzare l'usura differenziale all'apice.
 
 L'esatta grandezza del beneficio deve essere misurata sulla costruzione Xinzuo finita piuttosto che espressa come percentuale fissa non supportata o intervallo di affilatura. L'osservazione dell'usura microscopica, le misure di microhardness e le prove di taglio controllate come CATRA sono modi appropriati per quantificarlo.
 

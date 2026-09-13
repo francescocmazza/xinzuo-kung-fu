@@ -1,5 +1,5 @@
 ---
-source_hash: fd6048871d1a5d0694331efb5a6623fc90c3e0098e370c989bdb31b5d0b1ed9e
+source_hash: 448b4725b958f0d42c51915219e8bb6e3f373627b34efe29c554687fd6b850e1
 ---
 
 # Peso, equilibrio ed ergonomia
@@ -63,7 +63,7 @@ La larghezza del palmo, la lunghezza del dito, la posizione di presa e l'abitudi
 
 Questo rende un negozio fisico particolarmente prezioso. Un catalogo può identificare coltelli tecnicamente adatti; ** la mano del cliente può identificare quale ha la migliore ergonomia**. La scelta di un coltello è simile alla scelta di un paio di scarpe: le specifiche restringono il campo, ma la vestibilità decide quale opzione adatta ritiene giusta.
 
-L'ampio portfolio di Xinzuo è un grande vantaggio qui. La sua gamma di forme di lama, maneggevole geometrie, pesi e bilanci permette al personale di identificare diversi coltelli che soddisfano le esigenze funzionali del cliente e poi trovare quello che meglio si adatta alla mano della persona, presa e stile di taglio.
+L'ampiezza della gamma Xinzuo rende questo confronto pratico. Il personale può identificare diversi coltelli che già soddisfano le esigenze funzionali del cliente, quindi confrontare la geometria del manico, il peso e l'equilibrio per trovare quello che meglio si adatta alla mano della persona, la presa e lo stile di taglio.
 
 ## Come il personale dovrebbe guidare la scelta
 
