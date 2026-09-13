@@ -3,7 +3,7 @@ title: Xinzuo Blade Steels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-10
+reviewed: 2026-09-13
 translation_priority: highest
 source_basis: Xinzuo 2025 product information, manufacturer technical data, and current Xinzuo internal product-development notes
 ---
@@ -16,7 +16,7 @@ No steel maximizes every desirable property. A fine slicer, general chef's knife
 
 To make the comparison meaningful, the descriptions below consider the steels **all else being equal**: with appropriate heat treatment and broadly comparable blade and edge geometry. Heat treatment and geometry matter for every steel, not only for selected grades. Those universal factors are explained elsewhere in this guide and are not repeated here as caveats under individual steels. This chapter focuses on the metallurgical character and practical trade-offs of the steels themselves.
 
-Xinzuo's research and development does not stop at knife design, heat treatment or manufacturing processes. It also extends upstream to the **materials themselves**. Alongside established steels sourced from specialist producers, Xinzuo develops proprietary alloy formulations and works directly with steelmakers, metallurgical specialists and academic research partners. This degree of involvement in steel development is unusual in kitchen-knife manufacturing, where companies more commonly select from existing commercial grades. It allows Xinzuo to treat metallurgy as part of product development rather than simply as a material-purchasing decision. The proprietary 14Cr14MoVNb powder steel is the clearest example of this approach.
+Xinzuo's materials work begins before steel reaches the knife factory. Alongside established grades from specialist producers, the company develops proprietary alloy formulations with steelmakers, metallurgical specialists and academic research partners. Rather than limiting product development to selecting an existing commercial grade, this makes alloy design and steel-production targets part of the same development process as heat treatment, blade design and the performance sought in the finished knife. The proprietary 14Cr14MoVNb powder steel is the clearest example of this approach.
 
 ## A compact comparison
 
@@ -27,9 +27,9 @@ Xinzuo's research and development does not stop at knife design, heat treatment 
 | **Böhler M390** | Austria, Böhler | 60-62 HRC | Premium powder-metallurgy stainless with very high wear resistance and strong corrosion resistance; excellent when long edge life and stainless care matter together | Relatively modest toughness compared with tougher knife steels; efficient abrasives are useful for sharpening |
 | **Blue Steel No. 2** | Japan | 62-64 HRC | Reactive high-carbon steel that can take a very keen edge and respond unusually well to water stones despite high hardness | Requires immediate cleaning and drying and will naturally develop patina |
 | **14Cr14MoVNb powder steel** | Xinzuo proprietary / China | 60-64 HRC | Proprietary niobium-bearing powder steel developed for Xinzuo to combine high hardness and retention with a fine, controlled carbide structure | Higher wear resistance makes sharpening more demanding than on simpler stainless steels |
-| **12Cr18MoV** | Xinzuo | 59-61 HRC | Xinzuo's newer all-round conventional stainless formulation, designed for a particularly strong combination of corrosion stability, useful hardness, toughness and straightforward maintenance | Less extreme wear resistance than the hardest powder steels, by design |
+| **12Cr18MoV** | Xinzuo | 59-61 HRC | Xinzuo's newer all-round conventional stainless formulation, designed around corrosion stability, useful hardness, toughness and straightforward maintenance | Less extreme wear resistance than the hardest powder steels, by design |
 | **AUS-10** | Japan, Aichi family | 58-62 HRC | Japanese high-carbon stainless with a practical balance close to the performance class commonly associated with VG10: good sharpness, hardness, corrosion resistance and manageable maintenance | Moderate wear resistance compared with premium powder steels; not chemically identical to VG10 |
-| **10Cr15CoMoV** | China / Xinzuo specification | 58-62 HRC | Xinzuo's long-standing high-carbon stainless core, tuned for a mature balance of edge retention, toughness, hardness and sharpening response, with especially strong corrosion stability in Xinzuo's implementation | Balanced rather than extreme; lower wear resistance and edge retention than premium powder steels |
+| **10Cr15CoMoV** | China / Xinzuo specification | 58-62 HRC | Xinzuo's long-standing high-carbon stainless core, tuned for balanced edge retention, toughness, hardness and sharpening response, with strong corrosion stability in Xinzuo's implementation | Balanced rather than extreme; lower wear resistance and edge retention than premium powder steels |
 | **VG10** | Japan, Takefu Special Steel | HRC 60 or higher in Takefu's published specification | Established Japanese market benchmark for balanced high-carbon stainless performance: good corrosion resistance, durable sharpness, wear resistance and manageable sharpening | Balanced rather than extreme; lower wear resistance and edge retention than premium powder steels |
 | **Sandvik 14C28N** | Sweden | 57-59 HRC | Nitrogen-assisted stainless design with fine structure, strong corrosion resistance and very good edge stability; suitable for users who maintain their own knives | Moderate wear resistance and edge life compared with high-carbide powder steels |
 | **440C** | International standard grade; Xinzuo supply from China | 56-58 HRC | Proven high-carbon martensitic stainless with useful wear resistance, strength and corrosion resistance at an accessible cost | Coarser carbide structure and more modest retention than newer high-performance steels at Xinzuo's published hardness |
@@ -59,17 +59,15 @@ Its toughness is more modest. Böhler describes both its toughness and **ductili
 
 Its carbide population also resists ordinary abrasives. Hard ceramic, diamond or **cubic boron nitride (CBN)** abrasives can make sharpening much more efficient. CBN is an extremely hard synthetic abrasive used for difficult-to-abrade steels.
 
-### 14Cr14MoVNb: Xinzuo's proprietary premium powder steel
+### 14Cr14MoVNb: Xinzuo's proprietary powder-metallurgy steel
 
-14Cr14MoVNb is a **proprietary Xinzuo powder-metallurgy steel** developed specifically as a very high-performance material for Xinzuo knives. Its formulation was created through a joint development effort involving Xinzuo, one of China's leading steel producers and academic metallurgy expertise from a leading university in one of China's major metropolitan centres.
+14Cr14MoVNb is a **proprietary Xinzuo powder-metallurgy steel** developed through collaboration with a major Chinese steel producer and academic metallurgy researchers. Xinzuo participates not only in specifying the finished material but also in alloy design, production targets and subsequent refinement.
 
-This is important because Xinzuo is not simply purchasing an existing commercial steel and adapting a knife around it. The alloy itself forms part of Xinzuo's research and development. Its chemistry, production targets and evolution can be developed together with the industrial and academic partners around the performance Xinzuo wants from the finished material.
-
-The proprietary formulation also gives Xinzuo direct oversight further upstream in the supply chain. The company can work with the steel producer on the production process, consistency and quality targets of the steel itself, rather than controlling only what happens after finished steel stock reaches the knife factory. This creates a more integrated chain from alloy development to steel production, heat treatment and finished blade.
+This connects steelmaking directly with knife development. Composition, production consistency, heat treatment and finished-blade objectives can therefore be considered as parts of the same development process, rather than beginning product development only after commercial steel stock reaches the knife factory.
 
 Metallurgically, 14Cr14MoVNb uses niobium as a strong carbide-forming element. Niobium contributes to very hard MC-type carbides while supporting a fine, controlled carbide structure. Combined with powder-metallurgy production, this gives the steel a strong balance of hardness, wear resistance, edge retention and edge stability.
 
-The steel is positioned as a premium high-retention option with a broader balance than a maximum-hardness strategy. Selected series also use **vacuum heat treatment and deep-freeze processing** as part of Xinzuo's process for realizing this high-performance balance in the finished blade.
+The result is a high-retention option aimed at a broader balance than a maximum-hardness strategy. Selected series also use **vacuum heat treatment and deep-freeze processing** as part of Xinzuo's process for realizing this balance in the finished blade.
 
 ## Carbon and all-round high-performance stainless steels
 
@@ -85,19 +83,15 @@ Its main demand is corrosion care. Wash and dry it immediately. Expect a **patin
 
 10Cr15CoMoV has long been one of Xinzuo's characteristic steels and, for years, its most widely used high-carbon stainless core. Xinzuo uses it for a broad balance of edge retention, toughness, corrosion resistance and sharpening practicality rather than one extreme property.
 
-That balance gives it an exceptional **quality-to-price ratio**. It can support thin, refined kitchen edges and serious professional use without the material cost or sharpening demands of premium powder steel. Hardness, toughness and sharpening response remain in the familiar high-performance all-round stainless range, so the steel is predictable both in use and on the stone.
+Because 10Cr15CoMoV is a conventional high-carbon stainless rather than a powder-metallurgy steel, it can support thin, refined kitchen edges and professional use with lower material cost and less demanding sharpening than the premium powder steels in the range. Its hardness, toughness and sharpening response place it in a broadly balanced all-round performance class.
 
-One of the strongest characteristics of Xinzuo's 10Cr15CoMoV is corrosion behaviour. Internal comparative testing shows a particularly stable response to corrosion. This gives the user a generous practical margin around moisture, food acids and everyday kitchen exposure without giving up the edge stability or maintenance characteristics expected from a high-carbon stainless core.
+Internal comparative testing of Xinzuo's 10Cr15CoMoV shows particularly stable corrosion behaviour. In practical use, this provides a useful margin around moisture, food acids and ordinary kitchen exposure while retaining the edge stability and maintenance characteristics expected from a high-carbon stainless core.
 
-Its value comes from the balance of these properties. It is not intended to maximize one isolated laboratory category; it is designed to provide strong performance without major weaknesses in normal kitchen use.
+The design target is balance rather than maximizing one isolated laboratory category: strong everyday performance without concentrating the steel around one extreme property.
 
 ### 12Cr18MoV: the newer everyday-use formulation
 
-12Cr18MoV is Xinzuo's newer all-round stainless formulation, used as a core in conventional and copper-Damascus constructions. Current product-development information dates its introduction to around **2024**, making it the newest conventional stainless core steel discussed here.
-
-It continues the same everyday-use philosophy. Xinzuo's formulation emphasizes **very strong corrosion stability together with useful hardness, edge stability, practical toughness and straightforward maintenance**. The result is a conventional stainless steel that is easy to use and maintain while offering a very complete balance for daily kitchen work.
-
-Xinzuo currently rates 12Cr18MoV among its strongest everyday choices. In the company's internal product positioning, it is placed above the older conventional all-round group because the overall balance of corrosion resistance, cutting stability, toughness and maintenance is stronger, not because it maximizes a single headline number.
+12Cr18MoV is Xinzuo's newer all-round stainless formulation, used as a core in conventional and copper-Damascus constructions. Current product-development information dates its introduction to around **2024**, making it the newest conventional stainless core steel discussed here. Within Xinzuo's current range, it represents a newer development of the all-round stainless approach: its formulation emphasizes the combined balance of corrosion resistance, cutting stability, toughness and straightforward maintenance rather than maximizing one individual property.
 
 It still targets different priorities from M390, ZDP-189 or Blue #2. Those steels pursue more specialized extremes; 12Cr18MoV is designed to make the all-round stainless formula as complete as possible without the sharpening demands of the hardest powder steels.
 
@@ -155,13 +149,7 @@ This is why VG10 should be treated as a **reference point, not as a formula that
 
 Its importance extends beyond the knives made from VG10 itself. By establishing a successful performance benchmark while remaining unavailable to Chinese knife production, it has also helped stimulate the development of alternative steels designed to reach—and in some areas potentially exceed—the performance associated with that benchmark.
 
-For Xinzuo, the relevant question is therefore not:
-
-**“How closely can we reproduce VG10?”**
-
-but:
-
-**“What alloy balance gives the best result for the knife we want to make?”**
+For Xinzuo, VG10 is therefore useful as a benchmark rather than a formula to reproduce. The development question is which alloy balance best fits the intended knife, even when the chemistry differs from VG10.
 
 ### Sandvik 14C28N: fine structure, nitrogen and edge stability
 

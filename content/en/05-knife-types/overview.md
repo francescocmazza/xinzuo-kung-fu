@@ -3,7 +3,7 @@ title: Knife Shapes and Their Uses
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-11
+reviewed: 2026-09-13
 translation_priority: highest
 source_basis: general knife geometry and technique, illustrated with current Xinzuo examples
 ---
@@ -18,7 +18,7 @@ For sales staff, one principle matters more than memorising names: **start from 
 
 **After choosing the right shape, move to ergonomics.** Ask the customer to hold the knife as they actually cook and compare handle shape, grip position, total weight and balance. Some people prefer a stable, blade-forward knife that feels more forceful in a push cut; others prefer a lighter or more neutral knife that is easy to lift and redirect. The recommendation is complete only when the functional shape is matched to the handle and balance that suit the customer's hand and movement.
 
-Xinzuo's broad range is especially useful at this stage. Staff can put several technically suitable knives in the customer's hand and let them compare. This makes it possible to find a close ergonomic fit instead of treating one handle or balance as universal. Use a clear order: **function first, ergonomics second, specific model third**.
+The breadth of the Xinzuo range makes this comparison practical. Staff can put several technically suitable knives in the customer's hand and compare handle geometry, weight and balance directly. This makes it possible to find a close ergonomic fit instead of treating one handle or balance as universal. Use a clear order: **function first, ergonomics second, specific model third**.
 
 Examine the actual blade from heel to tip and consider what its geometry encourages the hand to do. Category names are only guides. Two knives sold under the same name can differ greatly in curve, thickness, balance, bevel geometry and intended motion. No steel grade, finish or specification can make the wrong shape right for the job.
 
