@@ -3,7 +3,7 @@ title: Alloying Elements
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-09
+reviewed: 2026-09-13
 translation_priority: high
 ---
 
@@ -11,7 +11,9 @@ translation_priority: high
 
 Steel is often presented as a list of ingredients. A product page may mention carbon, chromium, molybdenum, vanadium, tungsten or cobalt and imply that a longer list means a better knife.
 
-Steel is similar to a recipe. The result depends on how much of each element is present, how the elements interact, how the steel is made and how it is heat-treated. Two alloys with similar ingredients can behave very differently.
+Knowing a steel's chemical composition is a little like knowing the ingredients of a dish. Even if the ingredient list includes quantities, it still does not tell you exactly how the finished food will taste: temperature, timing, technique and the way the ingredients interact transform the result. Steel works the same way. Composition defines what is available to the metallurgist, but steelmaking and processing, heat treatment, microstructure, blade geometry, surface finish and manufacturing quality determine how those possibilities appear in the finished knife.
+
+Two knives made from the same nominal steel can therefore behave very differently. One may be hardened higher and ground thin for edge stability and cutting efficiency; another may be tempered for greater toughness and given a more robust geometry. Chemical composition is essential, but it is the starting point, not a complete performance specification.
 
 Keep three principles in mind: no alloying element works alone; more is not automatically better; and composition creates possibilities that heat treatment and blade geometry must turn into useful performance.
 
@@ -122,7 +124,7 @@ Nitrogen-alloyed steels require controlled industrial steelmaking, and their fin
 
 ## Why percentages are not enough
 
-A composition chart cannot predict the complete performance of a finished knife.
+Like an ingredient list, a composition chart tells us what went into the steel, not exactly how the finished knife will behave.
 
 The same nominal steel can be heat-treated to different hardness levels. One maker may favour toughness; another may use higher hardness for greater edge stability and wear resistance. Geometry also varies: one blade may be very thin behind the edge while another uses a more conservative cross-section. Surface finish, retained austenite, carbide distribution and manufacturing quality change corrosion resistance, toughness and sharpening response further.
 
