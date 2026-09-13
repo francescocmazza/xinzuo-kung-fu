@@ -16,6 +16,14 @@ This book provides a technical and practical foundation for developing that comp
 
 The book combines personal study and experience with knowledge drawn from Xinzuo's work in product development, manufacturing, testing and direct contact with professional and home users. This practical perspective allows general principles of knife design and use to be examined through real decisions about materials, processes, geometry and construction. The aim is not simply to describe Xinzuo knives, but to use them as concrete examples through which the reader can develop the judgement needed to choose, use and care for a kitchen knife well.
 
+## Why I wrote this book
+
+The project began inside Xinzuo with a very practical need. Knowledge about steels, heat treatment, blade geometry, construction, sharpening and use existed across different people and different parts of the company, but it was not always collected in one place. The answer to a new colleague's question should not depend on who happens to be available that day.
+
+My first idea was therefore an internal training manual: a common technical foundation for the team, accurate enough to be trusted, simple enough to be remembered and practical enough to be demonstrated with a knife in the hand. As the material grew, however, it became clear that the questions asked by a new member of staff were often the same questions asked by cooks, enthusiasts and customers. An explanation that helps a colleague compare two knives can also help a home cook choose more intelligently, work more safely, sharpen with more confidence and understand what they are paying for.
+
+That is how an internal manual became a book for everyone.
+
 ## Why this book is about Xinzuo
 
 There is also a personal reason Xinzuo became the frame of reference for this book. When I first came to know the company, what interested me was not a single model or specification, but the way product development connects materials, manufacturing processes and design.
