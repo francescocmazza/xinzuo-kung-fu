@@ -3,7 +3,7 @@ title: The Self-Sharpening Effect in Full Damascus Blades
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-10
+reviewed: 2026-09-13
 translation_priority: high
 ---
 
@@ -99,7 +99,7 @@ Xinzuo produces selected customized **110-layer full-Damascus blades** in which 
 
 The design objective is to use the different wear behaviour of the alternating materials to create differential wear at the apex. As the blade is used, the less wear-resistant layers can recede slightly faster while the more wear-resistant layers remain microscopically more prominent. This can help the edge preserve useful slicing bite between sharpenings.
 
-This is a distinctive example of Xinzuo treating blade construction as an engineering variable rather than only as a visual treatment. Layer count, material pairing, forge welding, heat treatment and edge geometry are developed together so that the pattern is not separated from the function of the blade.
+In this construction, the layered material is part of the working edge rather than only a visual treatment. Material pairing, layer count, forge welding, heat treatment and edge geometry are therefore developed as one system because each can influence differential wear at the apex.
 
 The exact magnitude of the benefit should be measured on the finished Xinzuo construction rather than expressed as an unsupported fixed percentage or sharpening interval. Microscopic wear observation, microhardness measurements and controlled cutting tests such as CATRA are appropriate ways to quantify it.
 
