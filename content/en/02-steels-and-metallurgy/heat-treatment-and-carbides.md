@@ -3,7 +3,7 @@ title: Heat Treatment and Carbides
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-10
+reviewed: 2026-09-13
 translation_priority: high
 ---
 
@@ -109,11 +109,9 @@ For a suitable steel and heat-treatment recipe, deep-freeze treatment is an addi
 
 ### Xinzuo as an example
 
-Selected Xinzuo series specify **vacuum heat treatment and deep freeze**. These are additional, technically demanding stages that require dedicated equipment, process time and control, and therefore add real manufacturing cost.
+Selected Xinzuo series specify **vacuum heat treatment and deep-freeze processing**. Vacuum treatment limits oxidation and decarburization and improves control during the high-temperature stages; deep freezing, when appropriate to the steel and heat-treatment recipe, helps transform additional retained austenite before tempering.
 
-They are used for a practical reason: to extract as much useful performance as possible from the steel selected for the blade. Vacuum heat treatment protects the steel and improves control during the high-temperature stages. Deep freezing, when specified for the alloy and recipe, helps transform additional retained austenite, support hardness and improve structural stability before tempering.
-
-These processes do not perform miracles and they cannot compensate for a poor steel, an incorrect heat-treatment recipe or unsuitable blade geometry. But neither are they empty technical labels. **When correctly applied, they are deliberate additional steps intended to bring the chosen steel closer to its best achievable performance in the finished knife.**
+These stages require dedicated equipment, process time and control because they address specific metallurgical conditions in the chosen steel. Their value comes from how they are integrated into the complete heat-treatment process, rather than from the technical labels themselves.
 
 ## 5. Tempering: making martensite usable
 
