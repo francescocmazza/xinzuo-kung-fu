@@ -3,7 +3,7 @@ title: Conventional and Powder-Metallurgy Steels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-11
+reviewed: 2026-09-13
 translation_priority: highest
 ---
 
@@ -87,8 +87,6 @@ The company selects established specialist powder steels such as **SRS13, M390 a
 
 Xinzuo also develops proprietary metallurgy. **14Cr14MoVNb** was developed as Xinzuo's own high-performance powder steel in collaboration with industrial and academic metallurgy partners. This allows the company to participate in alloy design and steel-production targets farther upstream instead of beginning its control only after finished commercial steel stock has been purchased.
 
-The combination is important. Xinzuo can choose an established specialist steel when it is the best fit, or develop a proprietary material when greater control over composition, production and future refinement serves the product objective. In both cases, the material is then carried through the rest of the manufacturing chain—heat treatment, grinding, sharpening and blade design—to turn its metallurgical potential into a working knife.
-
-This approach reflects a broader part of Xinzuo's product-development culture: **metallurgy itself is treated as a field of research and design, not only as a purchasing decision.**
+Xinzuo therefore uses two routes: established specialist steels when their existing balance fits the design, and proprietary development when the product objective calls for direct control over composition and production targets. In both cases, the material is carried through heat treatment, grinding, sharpening and blade design. Metallurgy therefore enters the product-development process before finished steel reaches the knife factory.
 
 Remember the sequence: **the steel composition tells us what elements are present; the manufacturing route affects how fine and uniform the starting structure can be; heat treatment develops the final microstructure; and edge geometry determines how that structure meets the food.**
