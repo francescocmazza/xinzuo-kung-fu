@@ -1,5 +1,5 @@
 ---
-title: Xinzuo Handle Materials - Feel, Care and Choice
+title: Xinzuo Handle Materials
 status: review
 audience: general-reader
 language: en
@@ -8,7 +8,7 @@ translation_priority: highest
 source_basis: 2025 Xinzuo Catalog V9
 ---
 
-# Xinzuo Handle Materials - Feel, Care and Choice
+# Xinzuo Handle Materials
 
 The blade gets most of the attention, but the handle also changes how a knife feels and works. Its material affects weight and balance, grip with dry or wet hands, resistance to water and cleaners, durability, maintenance and appearance. Shape and finish still determine much of the actual grip, so always judge the material as part of the complete handle.
 
