@@ -43,6 +43,43 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Resolve sequential publication version
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          highest_version=0
+          highest_asset_count=0
+
+          while IFS=$'\t' read -r tag asset_count; do
+            if [[ "$tag" =~ ^edition-v([0-9]+)$ ]]; then
+              version=$((10#${BASH_REMATCH[1]}))
+              if (( version > highest_version )); then
+                highest_version="$version"
+                highest_asset_count="$asset_count"
+              fi
+            fi
+          done < <(
+            gh api --paginate "repos/${REPOSITORY}/releases?per_page=100" \
+              --jq '.[] | select(.draft == false) | [.tag_name, (.assets | length)] | @tsv'
+          )
+
+          if (( highest_version == 0 )); then
+            publication_version=1
+            echo "No numbered publication exists yet; starting at v1."
+          elif (( highest_asset_count == 6 )); then
+            publication_version=$((highest_version + 1))
+            echo "Latest complete publication is v${highest_version}; next publication is v${publication_version}."
+          else
+            publication_version="$highest_version"
+            echo "Latest publication v${highest_version} is incomplete (${highest_asset_count}/6 assets); reusing v${publication_version}."
+          fi
+
+          echo "PUBLICATION_VERSION=${publication_version}" >> "$GITHUB_ENV"
+          echo "Publication version locked to v${publication_version} for this entire workflow run."
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
