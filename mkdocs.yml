@@ -53,6 +53,7 @@ extra_javascript:
 nav:
   - Preface: preface.md
   - The Gongfu of Xinzuo: index.md
+  - Damascus Steel: 03-blade-construction/damascus-steel.md
   - Anatomy of a Kitchen Knife: 00-knife-basics/anatomy-of-a-kitchen-knife.md
   - Knife Shapes and Their Uses: 05-knife-types/overview.md
   - Weight, Balance and Ergonomics: 05-knife-types/weight-and-balance.md
@@ -60,7 +61,6 @@ nav:
       - Knife Bevels: 04-geometry-and-bevels/single-and-double-bevels.md
       - Cutting Techniques: 06-cutting-techniques/essential-cutting-techniques.md
   - Understand the Material:
-      - Damascus Steel: 03-blade-construction/damascus-steel.md
       - The Five Dimensions of Knife Steel: 01-foundations/five-dimensions-of-knife-steel.md
       - Alloying Elements: 02-steels-and-metallurgy/alloying-elements.md
       - Conventional and Powder-Metallurgy Steels: 02-steels-and-metallurgy/conventional-and-powder-metallurgy-steels.md
