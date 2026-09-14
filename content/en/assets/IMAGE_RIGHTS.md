@@ -30,6 +30,7 @@ The following approved images in `assets/images/approved/` are cropped or adapte
 - `damascus-pattern-knives-neutral.png`
 - `stable-whetstone-neutral.png`
 - `asian-handle-exploded.jpg` (exploded Xinzuo Asian-handle product image supplied by the repository owner)
+- `PM8O Schematics.png` (approved Xinzuo Asian-handle schematic supplied by the repository owner and used as the source image for the labelled Asian-handle anatomy figure)
 - all individually reviewed product images in `knife-shapes/*.jpg`, including the verified B9H-SG curved-paring image supplied for `knife-shapes/paring-curved.jpg`
 
 These images, along with any Xinzuo logos and promotional photographs that may appear elsewhere in this project, **remain the property of their respective copyright holder**. They are included in this project with the repository owner's authorization for the specific educational use of this book.
