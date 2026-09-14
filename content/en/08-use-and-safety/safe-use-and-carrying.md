@@ -68,13 +68,13 @@ The steel and geometry are designed for cutting. Sideways force can damage an ed
 
 ## Grip and control
 
-Safety does not depend on one universal knife-hand grip. The **handle grip, intermediate or hybrid grip, and pinch grip** described in [Weight and Balance](../05-knife-types/weight-and-balance.md) can all be controlled when they suit the knife and task.
+Safety does not depend on one universal knife-hand grip. The **handle grip, intermediate or hybrid grip, and pinch grip** described in [Weight, Balance and Ergonomics](../05-knife-types/weight-and-balance.md) can all be controlled when they suit the knife and task.
 
 Whatever grip you use, hold the knife securely without unnecessary tension, keep fingers from sliding toward the edge and keep the wrist in a natural line. If a new grip changes the balance you feel, slow down until the knife becomes predictable again.
 
 The supporting hand should guide the food while keeping fingertips out of the cutting path. In the **claw** grip, fingertips curl inward and the side of the blade moves against the first joints. The claw is a moving guide, not a pose to imitate at professional speed.
 
-[How to Cut](../06-cutting-techniques/essential-cutting-techniques.md) explains the movements themselves. The safety rule is simpler: use a stable grip, keep the supporting hand behind the cutting line and do not increase speed at the expense of control.
+[Cutting Techniques](../06-cutting-techniques/essential-cutting-techniques.md) explains the movements themselves. The safety rule is simpler: use a stable grip, keep the supporting hand behind the cutting line and do not increase speed at the expense of control.
 
 ## Use only the force the cut requires
 
