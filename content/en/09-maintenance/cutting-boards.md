@@ -1,5 +1,5 @@
 ---
-title: Cutting Boards - The Surface Under the Edge
+title: Cutting Boards
 status: review
 audience: general-reader
 language: en
@@ -8,7 +8,7 @@ translation_priority: high
 source_basis: cutting-surface mechanics, food-contact hygiene literature and microplastic-release studies
 ---
 
-# Cutting Boards - The Surface Under the Edge
+# Cutting Boards
 
 A cutting board is not just a place to put food. It is the surface that the edge meets at the end of almost every cut. For that reason, the board is part of the cutting system: it affects edge life, cutting feel, food hygiene and, over time, the service life of the knife itself.
 
