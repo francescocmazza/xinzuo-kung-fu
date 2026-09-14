@@ -3,11 +3,15 @@ title: Damascus Steel - Pattern, History and Construction
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-13
+reviewed: 2026-09-14
 translation_priority: highest
 ---
 
 # Damascus Steel - Pattern, History and Construction
+
+Xinzuo is an artisanal knife manufacturer specializing in Damascus-steel kitchen knives. Damascus is therefore a natural place to begin the material part of this guide. It is one of the most visible expressions of the craft, but also one of the most misunderstood: the flowing pattern on a blade can come from very different constructions, and the word *Damascus* is too often treated as if it were a single steel grade or an automatic guarantee of quality.
+
+Starting here gives us a useful way into the subjects that follow. A Damascus knife can bring together steel selection, forge welding, cladding, core steels, heat treatment, hardness, grinding, polishing, etching and final edge geometry. Understanding what the pattern means—and what it does not mean—teaches an important principle that applies throughout this book: **a knife must be judged by the complete relationship between material, process, construction and geometry, not by one visible feature or one number.**
 
 The word *Damascus* describes several visibly patterned materials that do not share one construction. The safest way to understand a knife is to ignore the pattern for a moment and ask what metal actually forms the cutting edge.
 
