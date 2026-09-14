@@ -1,5 +1,5 @@
 ---
-title: Preparing the Stone and Workspace
+title: Sharpening Setup
 status: review
 audience: general-reader
 language: en
@@ -7,7 +7,7 @@ reviewed: 2026-09-09
 translation_priority: high
 ---
 
-# Preparing the Stone and Workspace
+# Sharpening Setup
 
 Good sharpening begins with a stable, flat and correctly wetted stone. Careful preparation makes the movement easier to control and prevents many mistakes that beginners wrongly blame on their technique.
 

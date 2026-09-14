@@ -8,7 +8,7 @@ translation_priority: highest
 source_basis: Xinzuo 2025 product information, manufacturer technical data, and current Xinzuo internal product-development notes
 ---
 
-# Xinzuo Blade Steels: Different Balances for Different Knives
+# Xinzuo Blade Steels
 
 Xinzuo uses many blade steels because different knives, users and tasks need different balances of hardness, edge retention, sharpening response, corrosion resistance and toughness. This chapter explains the practical role of each material in the current range.
 
@@ -185,7 +185,7 @@ Xinzuo also uses layered constructions including conventional Damascus cladding,
 
 Layer count does not directly measure sharpness. In a core-and-cladding blade, the core steel controls the metallurgical behaviour at the apex; the blade construction and edge geometry then determine how that material is used. Decorative copper or brass layers can create strong contrast without making the edge inherently sharper.
 
-Full-Damascus constructions differ because alternating materials can continue through the edge and affect wear there. [The Self-Sharpening Effect in Full Damascus Blades](../03-blade-construction/self-sharpening-full-damascus.md) explains when differential wear can develop and why it must be verified on the finished layered material. It does not mean normal sharpening becomes unnecessary.
+Full-Damascus constructions differ because alternating materials can continue through the edge and affect wear there. [Differential Wear in Full-Damascus Blades](../03-blade-construction/self-sharpening-full-damascus.md) explains when differential wear can develop and why it must be verified on the finished layered material. It does not mean normal sharpening becomes unnecessary.
 
 ## Understanding the Xinzuo steel range
 

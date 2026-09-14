@@ -1,5 +1,5 @@
 ---
-title: How to Cut - Essential Knife Techniques
+title: Cutting Techniques
 status: review
 audience: general-reader
 language: en
@@ -7,7 +7,7 @@ reviewed: 2026-09-09
 translation_priority: highest
 ---
 
-# How to Cut - Essential Knife Techniques
+# Cutting Techniques
 
 The right knife helps, but movement matters even more. Good technique makes pieces more even, protects the edge, reduces fatigue and keeps the supporting hand safer. It also explains why two equally sharp knives can feel very different on the same board.
 
@@ -23,7 +23,7 @@ Stand close enough that you do not need to reach. Relax your shoulders and keep 
 
 Hold the food with the supporting hand in a **claw**: fingertips curved inward, thumb behind them and the side of the blade guided by the first joints instead of exposed fingertips. The claw is a moving guide, not a rigid pose; it retreats slightly after each cut.
 
-The three main knife-hand positions—**handle grip, intermediate or hybrid grip, and pinch grip**—are explained in [Weight and Balance](../05-knife-types/weight-and-balance.md). Choose the grip that feels stable on the knife, keep it relaxed and remember that moving the hand forward or backward changes the balance you feel.
+The three main knife-hand positions—**handle grip, intermediate or hybrid grip, and pinch grip**—are explained in [Weight, Balance and Ergonomics](../05-knife-types/weight-and-balance.md). Choose the grip that feels stable on the knife, keep it relaxed and remember that moving the hand forward or backward changes the balance you feel.
 
 > **The four-word safety check:** stable board, stable food, clear path, hidden fingertips.
 
@@ -214,7 +214,7 @@ Stabilize the fish and follow a clear sequence: open it, locate the backbone, le
 
 Use light contact to feel where the skeleton is. Heavy pressure reduces that feedback and wastes flesh. Learn slowly enough to feel contact without forcing the edge into hard bone.
 
-Traditional single-bevel geometry also affects steering and food separation. [Single and Double Bevels](../04-geometry-and-bevels/single-and-double-bevels.md) explains how to arrange food and cutting direction when using one with the opposite hand.
+Traditional single-bevel geometry also affects steering and food separation. [Knife Bevels](../04-geometry-and-bevels/single-and-double-bevels.md) explains how to arrange food and cutting direction when using one with the opposite hand.
 
 ## Specialist techniques that need demonstration
 

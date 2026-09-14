@@ -1,5 +1,5 @@
 ---
-title: The Self-Sharpening Effect in Full Damascus Blades
+title: Differential Wear in Full-Damascus Blades
 status: review
 audience: general-reader
 language: en
@@ -7,7 +7,7 @@ reviewed: 2026-09-13
 translation_priority: high
 ---
 
-# The Self-Sharpening Effect in Full Damascus Blades
+# Differential Wear in Full-Damascus Blades
 
 In a full-Damascus blade, alternating steels continue all the way into the cutting edge. If those materials retain different wear behaviour, they can wear at slightly different rates during use. The apex then develops or preserves a microscopic tooth-like variation that helps it keep **slicing bite** as the edge wears.
 

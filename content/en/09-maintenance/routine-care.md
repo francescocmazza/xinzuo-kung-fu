@@ -7,7 +7,7 @@ reviewed: 2026-09-09
 translation_priority: high
 ---
 
-# Routine Knife Care: What to Do Between Sharpenings
+# Routine Knife Care
 
 Sharpening is only one part of knife maintenance and usually not the most frequent one. Edge life depends more on everyday habits: **what the knife cuts on, how it is washed and dried, how it is stored and whether the edge is used for jobs it was not designed to do**.
 
