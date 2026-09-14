@@ -8,23 +8,26 @@ uses the same revision number.
 From 2026-09-14 onward the public nomenclature is ``Revision N``. A
 revision is a complete published edition, not a commit count. Historical
 numbered releases used tags such as ``edition-v372``; there are 49 such
-published revisions through the last legacy release. The next complete
-publication is therefore ``Revision 50``.
+published revisions through the last legacy release. The current legacy
+edition therefore corresponds to Revision 49, and the next complete
+publication will be Revision 50.
 
-The main publishing workflow resolves one candidate revision at the start
-of a run and exports it through ``PUBLICATION_REVISION``. That value stays
-fixed for the whole run, including automatic translation commits.
+Only the main publishing workflow is allowed to reserve the next revision.
+It resolves one candidate revision at the start of a run and exports it
+through ``PUBLICATION_REVISION``. That value stays fixed for the whole run,
+including automatic translation commits.
 
-For local/manual builds where the environment variable is absent:
+For local, pull-request and manual non-publishing builds where the
+environment variable is absent, metadata reports the latest *completed*
+revision rather than inventing the next one:
 
 - if HEAD is tagged ``revision-N``, report ``Revision N``;
-- otherwise, if revision tags already exist, use the highest revision + 1;
-- before the first new-style revision tag exists, continue from the 49
-  historical complete numbered releases, so the candidate is Revision 50.
+- otherwise, if revision tags exist, report the highest existing revision;
+- before the first new-style revision tag exists, report Revision 49, the
+  number of complete historical numbered publications.
 
-Ordinary commits never consume revision numbers. A failed publication can
-retry the same candidate revision; only a complete publication advances
-the next revision by one.
+Ordinary commits and failed publication attempts never consume revision
+numbers. Only a complete publication advances the next revision by one.
 """
 
 from __future__ import annotations
@@ -102,7 +105,7 @@ def _revisions_from_tag_output(output: str) -> list[int]:
 
 
 def get_revision() -> int:
-    """Return the fixed complete-publication revision for this build/export run."""
+    """Return the complete-publication revision represented by this build."""
     override = os.environ.get(PUBLICATION_REVISION_ENV, "").strip()
     if override:
         if not override.isdigit() or int(override) < 1:
@@ -119,9 +122,9 @@ def get_revision() -> int:
 
     all_tags = _revisions_from_tag_output(_run_git(["tag", "--list", "revision-*"]))
     if all_tags:
-        return max(all_tags) + 1
+        return max(all_tags)
 
-    return LEGACY_COMPLETE_REVISION_COUNT + 1
+    return LEGACY_COMPLETE_REVISION_COUNT
 
 
 def get_commit_sha() -> tuple[str, str]:
