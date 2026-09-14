@@ -1,5 +1,5 @@
 ---
-title: Understanding and Removing the Burr
+title: The Burr
 status: review
 audience: general-reader
 language: en
@@ -7,7 +7,7 @@ reviewed: 2026-09-09
 translation_priority: high
 ---
 
-# Understanding and Removing the Burr
+# The Burr
 
 The burr is the beginner's clearest proof that the stone has reached the cutting edge.
 
