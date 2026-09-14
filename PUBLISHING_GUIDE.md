@@ -146,11 +146,13 @@ On pull requests the workflow refreshes translations in the temporary Actions wo
 
 On `main` it:
 
-1. refreshes stale translations;
-2. commits changed translation files using `github-actions[bot]`;
-3. runs the strict multilingual build from the resulting committed state;
-4. uploads the Pages artifact;
-5. deploys the site.
+1. resolves and locks one sequential publication version for the entire workflow run;
+2. refreshes stale translations;
+3. commits changed translation files using `github-actions[bot]`;
+4. runs the strict multilingual build from the resulting committed state;
+5. exports and verifies the numbered downloadable release;
+6. uploads the Pages artifact;
+7. deploys the site.
 
 The bot commit uses the repository `GITHUB_TOKEN`, preventing a recursive second push workflow while the current deployment continues.
 
@@ -167,9 +169,7 @@ markdown/  per-locale source trees used for that build
 
 ## Official GitHub Releases
 
-GitHub Pages is the current online edition. Numbered downloadable editions are published from **Actions → Publish official release** after approved changes reach `main`.
-
-Enter a semantic version such as `v1.0.0`, a short release title and whether the edition is a pre-release. The workflow refreshes active translations, requires `0 missing / 0 stale`, builds the multilingual website, exports all three PDFs and creates a GitHub Release with HTML and Markdown offline archives plus SHA-256 checksums.
+The normal `main` publishing workflow creates a permanent numbered GitHub Release together with the website publication. Every completed numbered edition contains the three PDFs, HTML archive, Markdown archive and SHA-256 checksums.
 
 The latest downloadable edition is always available from the repository's **Releases** menu and the “Download the latest official release” link in `README.md`.
 
@@ -186,12 +186,18 @@ For Italian, Simplified Chinese, or `all`, stale active translations are refresh
 
 The generated artifact contains the current requested PDF guide(s). CJK exports continue to install Noto fonts for full character coverage.
 
-## Automatic version numbers and publication dates
+## Sequential version numbers and publication dates
 
-Website pages and PDFs use the shared publication metadata implementation in `scripts/publication_metadata.py`.
+Website pages, PDFs and release packages use the shared publication metadata implementation in `scripts/publication_metadata.py`.
 
-- Version: repository commit count at the built commit.
-- Date: actual build/export date in `Europe/Rome`, formatted `YYYY-MM-DD`.
+- **Version:** sequential publication number. Ordinary commits do not increment it.
+- At the start of a `main` publication, the workflow inspects numbered GitHub Releases (`edition-vN`) and locks one candidate version for the entire run.
+- If the latest numbered release is complete with all six expected downloadable assets, the new publication is exactly `N + 1`.
+- If the latest numbered release is incomplete, the workflow reuses the same `N` so a failed publication does not consume or skip a version number.
+- Automatic translation commits created during a publication do not change its locked version.
+- **Date:** actual build/export date in `Europe/Rome`, formatted `YYYY-MM-DD`.
+
+For example, after a complete `v372`, the next successful publication is `v373`, regardless of how many commits were created in between.
 
 ## Important rules
 
