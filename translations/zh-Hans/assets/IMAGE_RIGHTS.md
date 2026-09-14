@@ -1,5 +1,5 @@
 ---
-source_hash: c24b4e0bc4c8aa256ed11ae8b1d5ccd128bc19f81f91850516fe532f1868eef0
+source_hash: 0bae4481a253cfa904f821705cce857ceeb09008c3e7694d78500f7c1fa911cc
 ---
 
 # 图像权利
@@ -35,6 +35,7 @@ source_hash: c24b4e0bc4c8aa256ed11ae8b1d5ccd128bc19f81f91850516fe532f1868eef0
 - `stable-whetstone-neutral.png`
 - `asian-handle-exploded.jpg` (存储库所有人提供的Xinzuo亚洲手相产品图像)
 - `PM8O Schematics.png` (经存储器所有者提供并用作标有亚洲手解剖图的源图像的亚洲手图)
+- `knife-shapes/Gyuto.jpg` (已核准由存储器所有人提供的 Xinzuo Gyuto 产品图像)
 - 所有单独审查的产品图像 `knife-shapes/*.jpg`,包括提供经核实的 B9H-SG 曲线图象 `knife-shapes/paring-curved.jpg`
 
 这些图象,连同任何Xinzuo标志和可能在本项目其他地方出现的促销照片,** 仍属于各自版权持有者的财产** 。
@@ -61,7 +62,7 @@ source_hash: c24b4e0bc4c8aa256ed11ae8b1d5ccd128bc19f81f91850516fe532f1868eef0
 
 ## 已删除: 未右清除的外部链接
 
-先前嵌入的“刀形及其用途”中的三个数字 `<img>` 直接指向第三方零售商网站/CDN而不是上述资产的标签:`VIS-SHAPE-GYUTO-PM80`),Western连锁刀`VIS-SHAPE-BONING-B37TG`),而直接的刀片例子现在被追踪到 `VIS-SHAPE-PARING-STRAIGHT-B13R`前两个出现在原编辑版;第三个出现在后一个 `main` 正在整合该补丁时进行修改。 这些外部托管的图像都没有在这里被记录或被确认为允许使用。 因此,这些图像已被从英文来源删除, 并被标准编辑图像占位符取代, 等待批准, 权利清除 Xinzuo 产品照片 。 见 `EDITORIAL_REQUIREMENTS.md` 防止这种模式再次发生的规则。
+先前嵌入的“刀形及其用途”中的三个数字 `<img>` 直接指向第三方零售商网站/CDN而不是经核准的当地资产的标签:Gyuto(`VIS-SHAPE-GYUTO-PM80`),Western连锁刀`VIS-SHAPE-BONING-B37TG`),以及先前所追踪的直刀式例子: `VIS-SHAPE-PARING-STRAIGHT-B13R`。这些外部链接被删除是因为其图像权利没有被记录或确认。 `knife-shapes/Gyuto.jpg`,直线对角数字使用经核准的本地 `knife-shapes/paring-straight.jpg`。Western boning-knife 数字仍然是编辑版的占位符,等待当地批准的照片。 `EDITORIAL_REQUIREMENTS.md` 防止未经批准的外部热链路重复出现的规则。
 
 ## 不包括的机密材料
 

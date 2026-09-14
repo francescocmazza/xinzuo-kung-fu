@@ -1,5 +1,5 @@
 ---
-source_hash: 74c319e23892311894f4eb3d299331185190534f8c7814c0f804281def26a4f2
+source_hash: b114448446a4c9ac870aa90f4a99de2c5f47a95dd603edd946aaafc5ad0c0737
 ---
 
 # Forme di coltello e loro usi
@@ -35,14 +35,7 @@ Maneggia anche verdure e frutta bene, motivo per cui è diventato un attrezzo da
 ### Gyuto
 
 <div class="kb-profile-visual">
-  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-GYUTO-PM80">
-    <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo PM80-CS gyuto profile">
-      <div class="kb-image-placeholder__label">POSTI DI LAVORO IMMAGINI</div>
-      <div class="kb-image-placeholder__title">Xinzuo PM80-CS profilo gyuto</div>
-      <div class="kb-image-placeholder__note">In attesa di una fotografia di prodotto Xinzuo approvata e pulita dai diritti.</div>
-    </div>
-    <figcaption>VIS-SHAPE-GYUTO-PM80 - progetto visivo in attesa dell'approvazione della produzione o dei diritti di immagine.</figcaption>
-  </figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/Gyuto.jpg" alt="Complete Xinzuo gyuto"><figcaption>Un esempio di Xinzuo gyuto che mostra il tacco relativamente piatto e medio, punto più sottile e pancia trattenuta tipica della forma.</figcaption></figure>
 </div>
 
 Il ginecologo si sovrappone fortemente al coltello dello chef occidentale ma spesso ha un tacco più piatto e mezzo, un punto più sottile e un ventre meno continuo. Tende a sentirsi più lineare nei tagli a spinta e nelle lunghe fette di estrazione e può essere più facile guidare attraverso piccoli cambiamenti direzionali.

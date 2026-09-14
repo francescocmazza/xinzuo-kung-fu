@@ -1,5 +1,5 @@
 ---
-source_hash: ad9293593d432bd239749bc83925761438ee9fcdb134756a68a1067d11d752fc
+source_hash: 16b624b39633f645b990993dd65b28c2a14ae2f46a02c2a5b033ac3bcb916e42
 ---
 
 # 刀形及其用途
@@ -35,14 +35,7 @@ Xinzuo范围的宽度使得这种比较变得切合实际。 员工可以直接�
 ### 陀乌特
 
 <div class="kb-profile-visual">
-  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-GYUTO-PM80">
-    <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo PM80-CS gyuto profile">
-      <div class="kb-image-placeholder__label">图像定位器</div>
-      <div class="kb-image-placeholder__title">Xinzuo PM80-CS 陀螺配置</div>
-      <div class="kb-image-placeholder__note">等待获得许可的, 右撇子产品照片。</div>
-    </div>
-    <figcaption>VIS-SHAPE-GYUTO-PM80 -- -- 计划视像等待制作或图像权利批准。</figcaption>
-  </figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/Gyuto.jpg" alt="Complete Xinzuo gyuto"><figcaption>一个Xinzuo jyuto的例子 显示了相对平坦的脚跟和中间, 细微的点 和固定的腹部 典型的形态。</figcaption></figure>
 </div>
 
 陀螺仪与西方厨师的刀子有着强烈的重叠,但往往有平滑的脚跟和中间的脚跟,一个细微的点和不那么连续的腹部。 它在推力切割和长的画片中往往感觉更加线性,并且更容易通过小的方向变化。

@@ -1,5 +1,5 @@
 ---
-source_hash: 11c92364063747311e2136839742984764418add896a98c708598d3a0ec5c70d
+source_hash: 7a7d755e6c76b76b360590b985c16f3d986c5eb5d484bb16496ae9d20dab105d
 ---
 
 # Diritti di immagine
@@ -35,6 +35,7 @@ Le seguenti immagini approvate in `assets/images/approved/` sono ritagliati o ad
 - `stable-whetstone-neutral.png`
 - `asian-handle-exploded.jpg` (immagine del prodotto con maniglia asiatica Xinzuo esplosa fornita dal proprietario del repository)
 - `PM8O Schematics.png` (schema di maniglia asiatica Xinzuo approvato fornito dal proprietario del repository e utilizzato come immagine sorgente per la figura di anatomia etichettata maniglia asiatica)
+- `knife-shapes/Gyuto.jpg` (immagine approvata del prodotto Xinzuo gyuto fornita dal proprietario del repository)
 - tutte le immagini del prodotto recensite singolarmente in `knife-shapes/*.jpg`, compresa l'immagine curvata B9H-SG verificata fornita per `knife-shapes/paring-curved.jpg`
 
 Queste immagini, insieme a eventuali loghi Xinzuo e fotografie promozionali che potrebbero apparire altrove in questo progetto, **restano di proprietà del rispettivo titolare del copyright**. Sono incluse in questo progetto con l'autorizzazione del proprietario del repository per l'uso didattico specifico di questo libro.
@@ -61,7 +62,7 @@ Gli adattamenti PNG neutri rimuovono le didascalie inserite in una lingua fissa.
 
 ## Rimosso: hotlink esterni non corretti
 
-Tre figure in "Schede coltello e loro usi" precedentemente incorporato `<img>` tag che puntano direttamente su siti web/CDN di terze parti al posto delle attività sopra elencate: Gyuto (`VIS-SHAPE-GYUTO-PM80`), coltello da disossamento occidentale (`VIS-SHAPE-BONING-B37TG`), e l'esempio di pareggio-coltello dritto ora tracciata come `VIS-SHAPE-PARING-STRAIGHT-B13R`. I primi due erano presenti nella patch editoriale originale; il terzo apparve nel successivo `main` nessuna di queste immagini ospitate esternamente è stata registrata qui o confermata come licenza per questo utilizzo. Sono state quindi rimosse dalla fonte inglese e sostituite con il segnaposto standard dell'immagine editoriale in attesa di approvata, foto dei prodotti Xinzuo bonificate dai diritti. `EDITORIAL_REQUIREMENTS.md` per la regola che impedisce che questo modello si ripeta.
+Tre figure in "Schede coltello e loro usi" precedentemente incorporato `<img>` tags che puntano direttamente su siti web/CDN di terzi rivenditori invece di attività locali approvate: Gyuto (`VIS-SHAPE-GYUTO-PM80`), coltello da disossamento occidentale (`VIS-SHAPE-BONING-B37TG`), e l'esempio di pareggio-coltello dritto precedentemente tracciato come `VIS-SHAPE-PARING-STRAIGHT-B13R`. Questi hotlink esterni sono stati rimossi perché i loro diritti di immagine non sono stati registrati o confermati. La figura Gyuto ora utilizza il locale approvato `knife-shapes/Gyuto.jpg`, e la figura dritta di ritaglio utilizza il locale approvato `knife-shapes/paring-straight.jpg`. La figura del coltello disossante occidentale rimane un segnaposto editoriale in attesa di una fotografia locale approvata. `EDITORIAL_REQUIREMENTS.md` per la regola che impedisce che i hotlink esterni non approvati si ripetano.
 
 ## Materiale riservato escluso
 
