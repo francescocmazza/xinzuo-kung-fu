@@ -130,6 +130,12 @@
     const frame = image?.parentElement;
     if (!image || !frame) return;
 
+    // PM8O Schematics is the approved source image for this figure. Keep the
+    // translatable HTML/SVG callouts from the source instead of replacing them
+    // with the legacy numbered diagram.
+    const sourcePath = decodeURIComponent(image.getAttribute("src") || "");
+    if (sourcePath.endsWith("PM8O Schematics.png")) return;
+
     // Preserve the translated terms already present in the source figure before
     // removing the old callout overlay. Their order is stable across translations.
     const oldLabels = [...frame.querySelectorAll(":scope > span")].map((node) => node.textContent.trim());
