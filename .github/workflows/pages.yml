@@ -43,22 +43,29 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Resolve sequential publication version
+      - name: Resolve sequential publication revision
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
         shell: bash
         run: |
           set -euo pipefail
-          highest_version=0
-          highest_asset_count=0
+          legacy_complete_count=0
+          highest_revision=0
+          highest_revision_asset_count=0
 
           while IFS=$'\t' read -r tag asset_count; do
-            if [[ "$tag" =~ ^edition-v([0-9]+)$ ]]; then
-              version=$((10#${BASH_REMATCH[1]}))
-              if (( version > highest_version )); then
-                highest_version="$version"
-                highest_asset_count="$asset_count"
+            if [[ "$tag" =~ ^edition-v[0-9]+$ ]]; then
+              # Legacy commit-count releases count as historical revisions only
+              # when the publication actually completed with all six assets.
+              if (( asset_count == 6 )); then
+                legacy_complete_count=$((legacy_complete_count + 1))
+              fi
+            elif [[ "$tag" =~ ^revision-([0-9]+)$ ]]; then
+              revision=$((10#${BASH_REMATCH[1]}))
+              if (( revision > highest_revision )); then
+                highest_revision="$revision"
+                highest_revision_asset_count="$asset_count"
               fi
             fi
           done < <(
@@ -66,19 +73,21 @@ jobs:
               --jq '.[] | select(.draft == false) | [.tag_name, (.assets | length)] | @tsv'
           )
 
-          if (( highest_version == 0 )); then
-            publication_version=1
-            echo "No numbered publication exists yet; starting at v1."
-          elif (( highest_asset_count == 6 )); then
-            publication_version=$((highest_version + 1))
-            echo "Latest complete publication is v${highest_version}; next publication is v${publication_version}."
+          echo "Complete legacy numbered publications: ${legacy_complete_count}"
+
+          if (( highest_revision == 0 )); then
+            publication_revision=$((legacy_complete_count + 1))
+            echo "No new-style revision exists yet; next complete publication is Revision ${publication_revision}."
+          elif (( highest_revision_asset_count == 6 )); then
+            publication_revision=$((highest_revision + 1))
+            echo "Latest complete publication is Revision ${highest_revision}; next is Revision ${publication_revision}."
           else
-            publication_version="$highest_version"
-            echo "Latest publication v${highest_version} is incomplete (${highest_asset_count}/6 assets); reusing v${publication_version}."
+            publication_revision="$highest_revision"
+            echo "Revision ${highest_revision} is incomplete (${highest_revision_asset_count}/6 assets); reusing Revision ${publication_revision}."
           fi
 
-          echo "PUBLICATION_VERSION=${publication_version}" >> "$GITHUB_ENV"
-          echo "Publication version locked to v${publication_version} for this entire workflow run."
+          echo "PUBLICATION_REVISION=${publication_revision}" >> "$GITHUB_ENV"
+          echo "Publication revision locked to Revision ${publication_revision} for this entire workflow run."
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -196,30 +205,31 @@ jobs:
             --placeholders hide \
             --output-dir release-assets/pdf
 
-      - name: Package current downloadable editions
+      - name: Package current downloadable revision
         run: |
           set -euo pipefail
-          version_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().version_label)')"
+          revision_slug="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().revision_slug)')"
           mkdir -p release-assets/packages/html release-assets/packages/markdown release-upload
           cp -R site/. release-assets/packages/html/
           cp -R .site-work/docs/. release-assets/packages/markdown/
           cp release-assets/pdf/*.pdf release-upload/
-          (cd release-assets/packages/html && zip -qr "../../../release-upload/the-gongfu-of-xinzuo-${version_label}-html.zip" .)
-          (cd release-assets/packages/markdown && zip -qr "../../../release-upload/the-gongfu-of-xinzuo-${version_label}-markdown.zip" .)
+          (cd release-assets/packages/html && zip -qr "../../../release-upload/the-gongfu-of-xinzuo-${revision_slug}-html.zip" .)
+          (cd release-assets/packages/markdown && zip -qr "../../../release-upload/the-gongfu-of-xinzuo-${revision_slug}-markdown.zip" .)
           (cd release-upload && sha256sum * > SHA256SUMS.txt)
 
-      - name: Publish immutable versioned release
+      - name: Publish immutable numbered revision
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail
-          version_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().version_label)')"
+          revision="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().revision)')"
+          revision_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().revision_label)')"
           publication_date="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().publication_date)')"
-          tag="edition-${version_label}"
-          title="The Gongfu of Xinzuo — ${version_label} — ${publication_date}"
+          tag="revision-${revision}"
+          title="The Gongfu of Xinzuo — ${revision_label} — ${publication_date}"
           source_sha="$(git rev-parse HEAD)"
-          notes="Automatically published from main on ${publication_date}. Source commit: ${source_sha}. This release is an archived edition; newer editions are published as separate releases."
+          notes="${revision_label}. Automatically published from main on ${publication_date}. Source commit: ${source_sha}. Revision numbers count complete published editions only; commits and failed publication attempts do not consume a revision number."
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -230,7 +240,7 @@ jobs:
           fi
 
           if gh release view "$tag" --repo "$REPOSITORY" >/dev/null 2>&1; then
-            echo "Release ${tag} already exists; refreshing its assets idempotently."
+            echo "${revision_label} already exists but is incomplete; refreshing its assets idempotently."
             while IFS= read -r asset_id; do
               gh api --method DELETE "repos/${REPOSITORY}/releases/assets/${asset_id}"
             done < <(gh api "repos/${REPOSITORY}/releases/tags/${tag}" --jq '.assets[].id')
@@ -254,30 +264,32 @@ jobs:
             gh release edit latest \
               --repo "$REPOSITORY" \
               --title "Legacy rolling edition — archived" \
-              --notes "Legacy rolling release retained for continuity. Starting with the versioned publication system, every new edition is stored as its own archived GitHub Release."
+              --notes "Legacy rolling release retained for continuity. New publications use sequential Revision numbers based only on complete published editions."
           fi
 
-      - name: Verify downloadable release
+      - name: Verify downloadable revision
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail
-          version_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().version_label)')"
-          tag="edition-${version_label}"
+          revision="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().revision)')"
+          revision_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().revision_label)')"
+          revision_slug="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().revision_slug)')"
+          tag="revision-${revision}"
           asset_count="$(gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets | length')"
           if [ "$asset_count" -ne 6 ]; then
-            echo "Expected exactly 6 downloadable assets, found $asset_count." >&2
+            echo "Expected exactly 6 downloadable assets for ${revision_label}, found $asset_count." >&2
             exit 1
           fi
           gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > actual-assets.txt
           printf '%s\n' \
             "SHA256SUMS.txt" \
-            "The-Gongfu-of-Xinzuo-EN-${version_label}.pdf" \
-            "The-Gongfu-of-Xinzuo-IT-${version_label}.pdf" \
-            "The-Gongfu-of-Xinzuo-ZH-HANS-${version_label}.pdf" \
-            "the-gongfu-of-xinzuo-${version_label}-html.zip" \
-            "the-gongfu-of-xinzuo-${version_label}-markdown.zip" | sort > expected-assets.txt
+            "The-Gongfu-of-Xinzuo-EN-${revision_label}.pdf" \
+            "The-Gongfu-of-Xinzuo-IT-${revision_label}.pdf" \
+            "The-Gongfu-of-Xinzuo-ZH-HANS-${revision_label}.pdf" \
+            "the-gongfu-of-xinzuo-${revision_slug}-html.zip" \
+            "the-gongfu-of-xinzuo-${revision_slug}-markdown.zip" | sort > expected-assets.txt
           diff -u expected-assets.txt actual-assets.txt
 
           latest_tag="$(gh api "repos/${REPOSITORY}/releases/latest" --jq '.tag_name')"
