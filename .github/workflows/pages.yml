@@ -43,6 +43,11 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
       - name: Resolve sequential publication revision
         env:
           GH_TOKEN: ${{ github.token }}
@@ -50,18 +55,15 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          legacy_complete_count=0
+          legacy_complete_count="$(python -c 'from scripts.publication_metadata import LEGACY_COMPLETE_REVISION_COUNT; print(LEGACY_COMPLETE_REVISION_COUNT)')"
           highest_revision=0
           highest_revision_asset_count=0
 
+          # Historical vXYZ releases have already been audited once and are
+          # represented by LEGACY_COMPLETE_REVISION_COUNT. From the new system
+          # onward, revision-N releases are checked live for completeness.
           while IFS=$'\t' read -r tag asset_count; do
-            if [[ "$tag" =~ ^edition-v[0-9]+$ ]]; then
-              # Legacy commit-count releases count as historical revisions only
-              # when the publication actually completed with all six assets.
-              if (( asset_count == 6 )); then
-                legacy_complete_count=$((legacy_complete_count + 1))
-              fi
-            elif [[ "$tag" =~ ^revision-([0-9]+)$ ]]; then
+            if [[ "$tag" =~ ^revision-([0-9]+)$ ]]; then
               revision=$((10#${BASH_REMATCH[1]}))
               if (( revision > highest_revision )); then
                 highest_revision="$revision"
@@ -73,7 +75,7 @@ jobs:
               --jq '.[] | select(.draft == false) | [.tag_name, (.assets | length)] | @tsv'
           )
 
-          echo "Complete legacy numbered publications: ${legacy_complete_count}"
+          echo "Audited complete historical publications: ${legacy_complete_count}"
 
           if (( highest_revision == 0 )); then
             publication_revision=$((legacy_complete_count + 1))
@@ -88,11 +90,6 @@ jobs:
 
           echo "PUBLICATION_REVISION=${publication_revision}" >> "$GITHUB_ENV"
           echo "Publication revision locked to Revision ${publication_revision} for this entire workflow run."
-
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
 
       - name: Install documentation and PDF dependencies
         run: pip install -r requirements-pdf.txt
