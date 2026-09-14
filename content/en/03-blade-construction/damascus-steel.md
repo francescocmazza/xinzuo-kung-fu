@@ -1,5 +1,5 @@
 ---
-title: Damascus Steel - Pattern, History and Construction
+title: Damascus Steel
 status: review
 audience: general-reader
 language: en
@@ -7,7 +7,7 @@ reviewed: 2026-09-14
 translation_priority: highest
 ---
 
-# Damascus Steel - Pattern, History and Construction
+# Damascus Steel
 
 Xinzuo is an artisanal knife manufacturer specializing in Damascus-steel kitchen knives. Damascus is therefore a natural place to begin the material part of this guide. It is one of the most visible expressions of the craft, but also one of the most misunderstood: the flowing pattern on a blade can come from very different constructions, and the word *Damascus* is too often treated as if it were a single steel grade or an automatic guarantee of quality.
 
@@ -135,7 +135,7 @@ The visible pattern therefore does not dictate one technical solution. Xinzuo ca
 
 Across these examples, materials, structure, process and appearance are variables that can be designed together. The historical Damascus traditions and modern Xinzuo production are different metallurgical routes, but they share the same underlying question: how can material and process be combined to create a blade with useful performance and a strong visual identity?
 
-The [Xinzuo Blade Steels guide](../02-steels-and-metallurgy/xinzuo-blade-steels.md) explains the core materials. [Self-Sharpening Full Damascus](self-sharpening-full-damascus.md) explains differential wear when alternating materials reach the apex.
+The [Xinzuo Blade Steels guide](../02-steels-and-metallurgy/xinzuo-blade-steels.md) explains the core materials. [Differential Wear in Full-Damascus Blades](self-sharpening-full-damascus.md) explains differential wear when alternating materials reach the apex.
 
 ## A reliable evaluation sequence
 
