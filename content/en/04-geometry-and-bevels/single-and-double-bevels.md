@@ -1,5 +1,5 @@
 ---
-title: Single and Double Bevels
+title: Knife Bevels
 status: review
 audience: general-reader
 language: en
@@ -7,7 +7,7 @@ reviewed: 2026-09-11
 translation_priority: highest
 ---
 
-# Single and Double Bevels
+# Knife Bevels
 
 Cut a tall potato with two knives and you may notice something unexpected. One blade travels almost straight downward; another pulls sideways even when your hand points forward. The bevel—the sloping surface leading to the cutting edge—may explain the difference.
 
@@ -218,7 +218,7 @@ Sharpen the geometry that is actually on the knife instead of applying one rule 
 
 A traditional single bevel is different. The broad main bevel forms part of the sharpening geometry, while the reverse is usually worked almost flat to preserve the urasuki and its reference flats. Contact on the main bevel may also change toward the tip as blade height and thickness change.
 
-The complete sequence appears later in [A Practical Sharpening Process](../10-sharpening/basic-sharpening-process.md). For now, remember: **identify the geometry first, then sharpen the surfaces that define it**.
+The complete sequence appears later in [Basic Sharpening](../10-sharpening/basic-sharpening-process.md). For now, remember: **identify the geometry first, then sharpen the surfaces that define it**.
 
 ## What to remember
 
