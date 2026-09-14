@@ -1,5 +1,5 @@
 ---
-source_hash: 46a857ecadfe9b9d728e4cce87d118346dfcb85b1a300f785f57e5b7f622ff4d
+source_hash: 00ba62e43ad0674721091c42f90c4d280910f2b8c128c2ffd6977a9bd998cecd
 ---
 
 # Prefazione
@@ -14,11 +14,15 @@ Il libro combina lo studio personale e l'esperienza con le conoscenze tratte dal
 
 ## Perché ho scritto questo libro
 
-Il progetto è iniziato all'interno di Xinzuo con un bisogno molto pratico. La conoscenza di acciai, trattamento termico, geometria della lama, costruzione, affilatura e utilizzo esisteva in diverse persone e diverse parti dell'azienda, ma non è stato sempre raccolto in un unico luogo. La risposta alla domanda di un nuovo collega non dovrebbe dipendere da chi è disponibile quel giorno.
+Questo progetto è iniziato all'interno di Xinzuo da una necessità pratica dell'azienda: **addestrare le persone che lavorano con i nostri coltelli**. Conoscenza degli acciai, trattamento termico, geometria della lama, costruzione, affilatura, utilizzo e manutenzione esisteva in diverse persone e parti dell'azienda, ma non sempre è stato raccolto in un unico luogo. Un collega che impari a spiegare, consigliare o sostenere un prodotto dovrebbe avere accesso alla stessa base tecnica affidabile indipendentemente da chi capita di essere a disposizione per insegnare loro quel giorno.
 
-La mia prima idea è stata quindi un manuale di allenamento interno: una base tecnica comune per il team, abbastanza precisa da essere attendibile, abbastanza semplice da essere ricordata e abbastanza pratica da essere dimostrata con un coltello in mano. Con la crescita del materiale, tuttavia, è emerso chiaramente che le domande poste da un nuovo membro del personale erano spesso le stesse domande poste da cuochi, appassionati e clienti. Una spiegazione che aiuta un collega a confrontare due coltelli può anche aiutare un cuoco domestico a scegliere più intelligentemente, lavorare più sicuro, affinare con più fiducia e capire cosa stanno pagando.
+Il primo scopo del libro è quindi ancora quello che lo ha dato alla luce. **Si intende essere una guida di formazione principale per lo staff di Xinzuo e per le persone che hanno bisogno di capire questi prodotti professionalmente.** Dovrebbe fornire un linguaggio condiviso e un corpus pratico di conoscenze in grado di supportare la formazione dei prodotti, dimostrazioni, consulenza dei clienti e lavoro quotidiano.
 
-È così che un manuale interno è diventato un libro per tutti.
+Con l'aumento del materiale, però, un altro punto è diventato sempre più chiaro: le domande poste da un nuovo membro del personale sono spesso le stesse poste da cuochi, appassionati, studenti, clienti e persone che sono semplicemente curiosi di coltelli. Perché un acciaio si comporta in modo diverso da un altro? Che cosa significa davvero forgiare? Perché l'equilibrio cambia con la presa? Perché due coltelli apparentemente simili sono progettati in modo diverso? Queste non sono domande che appartengono solo alle persone che lavorano nel settore dei coltelli.
+
+Questa realizzazione non ha sostituito l'originale scopo formativo; ne ha aggiunto un secondo. **Questo libro è destinato anche a rendere il mondo dei coltelli da cucina più facile da capire per un pubblico molto più ampio, compresi i lettori senza alcuna connessione professionale con il settore.** Si propone di condividere le conoscenze tecniche in una forma che rimane abbastanza rigorosa per la formazione pur essendo chiaro e utile a chiunque voglia comprendere i materiali, le scelte di fabbricazione, la geometria, l'affilatura, l'uso e la cura dietro un buon coltello da cucina.
+
+Il libro ha quindi due ruoli connessi: **una base di lavoro per la formazione professionale e una guida pubblica per l'apprendimento e la diffusione**. La stessa spiegazione dovrebbe aiutare un collega a consigliare più accuratamente un cliente e aiutare un lettore interessato a fare una scelta più informata, utilizzare un coltello più sicuro o semplicemente capire un argomento che trovano affascinante.
 
 ## Perché questo libro è su Xinzuo
 
