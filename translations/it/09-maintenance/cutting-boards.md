@@ -1,5 +1,5 @@
 ---
-source_hash: 56da62b3844228c4143e81466c6377bb595c88fb9f559b2e7bb832d9bdfeb975
+source_hash: c700444beab0b18da43765de12b951754bea7319947717921e24c0722a57bcf3
 ---
 
 # Tagliere
@@ -25,7 +25,7 @@ Tra le tavole di legno, la costruzione che preferiamo per i coltelli fini è **e
 Immaginate il legno come un fascio di cannucce molto piccole. In una tavola convenzionale **bordo**, le fibre lunghe corrono principalmente parallele alla superficie, quindi il coltello tende ad attraversarle. In una scheda **fine**, la fibra termina verso l'alto. Il coltello può quindi muoversi in parte **tra** le fibre, che si separano e si fletteno leggermente intorno al bordo invece di presentare la stessa resistenza trasversale continua.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-CUTTING-BOARD-END-GRAIN-01">
-<img src="../assets/diagrams/end-grain-cutting-board-numbered.jpg" alt="Numbered diagram showing a knife entering an end-grain cutting board and the wood fibres separating around the edge." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
+<img src="../../assets/diagrams/end-grain-cutting-board-numbered.jpg" alt="Numbered diagram showing a knife entering an end-grain cutting board and the wood fibres separating around the edge." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
 <figcaption>
 <strong>Principio del grano finale.</strong> 1: il bordo raggiunge il bordo alla fine del taglio. 2: il coltello entra tra le estremità della fibra esposta. 3: le fibre deviano e si separano leggermente intorno alla lama. 4: le fibre attraversano il bordo verticalmente invece che principalmente attraverso la direzione di taglio.
 </figcaption>
