@@ -41,14 +41,7 @@ It also handles vegetables and fruit well, which is why it became a familiar all
 ### Gyuto
 
 <div class="kb-profile-visual">
-  <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-GYUTO-PM80">
-    <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo PM80-CS gyuto profile">
-      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
-      <div class="kb-image-placeholder__title">Xinzuo PM80-CS gyuto profile</div>
-      <div class="kb-image-placeholder__note">Awaiting an approved, rights-cleared Xinzuo product photograph.</div>
-    </div>
-    <figcaption>VIS-SHAPE-GYUTO-PM80 - planned visual awaiting production or image-rights approval.</figcaption>
-  </figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/Gyuto.jpg" alt="Complete Xinzuo gyuto"><figcaption>A Xinzuo gyuto example showing the relatively flat heel and middle, slimmer point and restrained belly typical of the form.</figcaption></figure>
 </div>
 
 The gyuto overlaps strongly with the Western chef's knife but often has a flatter heel and middle, a slimmer point and less continuous belly. It tends to feel more linear in push cuts and long draw slices and can be easier to steer through small directional changes.

@@ -31,6 +31,7 @@ The following approved images in `assets/images/approved/` are cropped or adapte
 - `stable-whetstone-neutral.png`
 - `asian-handle-exploded.jpg` (exploded Xinzuo Asian-handle product image supplied by the repository owner)
 - `PM8O Schematics.png` (approved Xinzuo Asian-handle schematic supplied by the repository owner and used as the source image for the labelled Asian-handle anatomy figure)
+- `knife-shapes/Gyuto.jpg` (approved Xinzuo gyuto product image supplied by the repository owner)
 - all individually reviewed product images in `knife-shapes/*.jpg`, including the verified B9H-SG curved-paring image supplied for `knife-shapes/paring-curved.jpg`
 
 These images, along with any Xinzuo logos and promotional photographs that may appear elsewhere in this project, **remain the property of their respective copyright holder**. They are included in this project with the repository owner's authorization for the specific educational use of this book.
@@ -57,7 +58,7 @@ The neutral PNG adaptations remove captions embedded in a fixed language. Their 
 
 ## Removed: unrights-cleared external hotlinks
 
-Three figures in "Knife Shapes and Their Uses" previously embedded `<img>` tags pointing directly at third-party retailer websites/CDNs instead of assets listed above: Gyuto (`VIS-SHAPE-GYUTO-PM80`), Western boning knife (`VIS-SHAPE-BONING-B37TG`), and the straight paring-knife example now tracked as `VIS-SHAPE-PARING-STRAIGHT-B13R`. The first two were present in the original editorial patch; the third appeared in the later `main` revision while that patch was being integrated. None of these externally hosted images was recorded here or confirmed as licensed for this use. They have therefore been removed from the English source and replaced with the standard editorial image placeholder pending approved, rights-cleared Xinzuo product photographs. See `EDITORIAL_REQUIREMENTS.md` for the rule that prevents this pattern from recurring.
+Three figures in "Knife Shapes and Their Uses" previously embedded `<img>` tags pointing directly at third-party retailer websites/CDNs instead of approved local assets: Gyuto (`VIS-SHAPE-GYUTO-PM80`), Western boning knife (`VIS-SHAPE-BONING-B37TG`), and the straight paring-knife example previously tracked as `VIS-SHAPE-PARING-STRAIGHT-B13R`. Those external hotlinks were removed because their image rights were not recorded or confirmed. The Gyuto figure now uses the approved local `knife-shapes/Gyuto.jpg`, and the straight paring figure uses the approved local `knife-shapes/paring-straight.jpg`. The Western boning-knife figure remains an editorial placeholder pending an approved local photograph. See `EDITORIAL_REQUIREMENTS.md` for the rule that prevents unapproved external hotlinks from recurring.
 
 ## Excluded confidential material
 
