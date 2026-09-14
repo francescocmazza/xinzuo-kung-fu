@@ -31,7 +31,7 @@ Among wooden boards, the construction we prefer for fine knives is **end grain**
 Imagine wood as a bundle of very small straws. In a conventional **edge-grain** board, the long fibres run mainly parallel to the surface, so the knife tends to cross them. In an **end-grain** board, the fibre ends point upward. The knife can therefore move partly **between** the fibres, which separate and flex slightly around the edge instead of presenting the same continuous crosswise resistance.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-CUTTING-BOARD-END-GRAIN-01">
-<img src="../../assets/images/approved/end-grain-cutting-board-numbered.jpg" alt="Numbered diagram showing a knife entering an end-grain cutting board and the wood fibres separating around the edge." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
+<img src="../../assets/diagrams/end-grain-cutting-board-numbered.svg" alt="Numbered diagram showing a knife entering an end-grain cutting board and the wood fibres separating around the edge." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
 <figcaption>
 <strong>End-grain principle.</strong> 1: the edge reaches the board at the end of the cut. 2: the knife enters between the exposed fibre ends. 3: the fibres deflect and separate slightly around the blade. 4: the fibres run vertically through the board instead of mainly across the cutting direction.
 </figcaption>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">End-grain cutting-board principle</title>
+  <desc id="desc">Numbered technical diagram showing a knife entering between vertical end-grain wood fibres and the fibres deflecting around the edge.</desc>
+  <rect width="1200" height="720" fill="#ffffff"/>
+
+  <!-- Board body -->
+  <rect x="115" y="330" width="970" height="320" rx="18" fill="#ead6b5" stroke="#3b3b3b" stroke-width="5"/>
+  <line x1="115" y1="365" x2="1085" y2="365" stroke="#9a7249" stroke-width="3" opacity="0.7"/>
+
+  <!-- End-grain fibres: vertical bundles -->
+  <g fill="none" stroke="#9a7249" stroke-width="12" stroke-linecap="round" opacity="0.9">
+    <path d="M165 350 C157 420 174 485 165 625"/>
+    <path d="M215 350 C224 425 204 505 217 625"/>
+    <path d="M265 350 C252 440 279 515 266 625"/>
+    <path d="M315 350 C326 425 303 505 317 625"/>
+    <path d="M365 350 C352 430 381 510 366 625"/>
+    <path d="M415 350 C428 425 403 510 417 625"/>
+    <path d="M465 350 C451 420 480 500 467 625"/>
+    <path d="M515 350 C526 425 503 500 518 625"/>
+    <path d="M685 350 C672 425 697 505 683 625"/>
+    <path d="M735 350 C748 430 720 505 734 625"/>
+    <path d="M785 350 C771 425 798 505 784 625"/>
+    <path d="M835 350 C847 430 822 505 837 625"/>
+    <path d="M885 350 C872 420 900 505 886 625"/>
+    <path d="M935 350 C948 430 921 505 937 625"/>
+    <path d="M985 350 C972 425 1000 510 986 625"/>
+    <path d="M1035 350 C1047 430 1023 510 1035 625"/>
+  </g>
+
+  <!-- Fibres nearest the blade bend away from the cut -->
+  <g fill="none" stroke="#9a7249" stroke-width="12" stroke-linecap="round">
+    <path d="M565 350 C548 385 531 412 520 458 C514 505 528 560 527 625"/>
+    <path d="M605 350 C590 390 574 420 566 460 C560 510 570 560 571 625"/>
+    <path d="M635 350 C650 390 666 420 674 460 C680 510 670 560 669 625"/>
+  </g>
+
+  <!-- Exposed end-grain rings -->
+  <g fill="none" stroke="#b88a5a" stroke-width="3" opacity="0.75">
+    <ellipse cx="165" cy="350" rx="17" ry="8"/><ellipse cx="215" cy="350" rx="17" ry="8"/>
+    <ellipse cx="265" cy="350" rx="17" ry="8"/><ellipse cx="315" cy="350" rx="17" ry="8"/>
+    <ellipse cx="365" cy="350" rx="17" ry="8"/><ellipse cx="415" cy="350" rx="17" ry="8"/>
+    <ellipse cx="465" cy="350" rx="17" ry="8"/><ellipse cx="515" cy="350" rx="17" ry="8"/>
+    <ellipse cx="565" cy="350" rx="17" ry="8"/><ellipse cx="605" cy="350" rx="17" ry="8"/>
+    <ellipse cx="635" cy="350" rx="17" ry="8"/><ellipse cx="685" cy="350" rx="17" ry="8"/>
+    <ellipse cx="735" cy="350" rx="17" ry="8"/><ellipse cx="785" cy="350" rx="17" ry="8"/>
+    <ellipse cx="835" cy="350" rx="17" ry="8"/><ellipse cx="885" cy="350" rx="17" ry="8"/>
+    <ellipse cx="935" cy="350" rx="17" ry="8"/><ellipse cx="985" cy="350" rx="17" ry="8"/>
+    <ellipse cx="1035" cy="350" rx="17" ry="8"/>
+  </g>
+
+  <!-- Knife -->
+  <path d="M520 65 L720 65 L660 335 L620 465 L575 335 Z" fill="#d8dde1" stroke="#2f3438" stroke-width="5"/>
+  <path d="M575 335 L620 465 L660 335" fill="#f7f8f9" stroke="#2f3438" stroke-width="4"/>
+  <line x1="620" y1="465" x2="620" y2="492" stroke="#2f3438" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Contact / separation guides -->
+  <path d="M600 383 C582 405 570 430 566 460" fill="none" stroke="#5e432d" stroke-width="4" stroke-dasharray="8 7"/>
+  <path d="M640 383 C658 405 670 430 674 460" fill="none" stroke="#5e432d" stroke-width="4" stroke-dasharray="8 7"/>
+
+  <!-- Numbered callouts -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" dominant-baseline="central">
+    <g><line x1="278" y1="165" x2="604" y2="445" stroke="#333" stroke-width="3"/><circle cx="250" cy="140" r="32" fill="#fff" stroke="#333" stroke-width="4"/><text x="250" y="140" fill="#111">1</text></g>
+    <g><line x1="335" y1="290" x2="585" y2="373" stroke="#333" stroke-width="3"/><circle cx="305" cy="280" r="32" fill="#fff" stroke="#333" stroke-width="4"/><text x="305" y="280" fill="#111">2</text></g>
+    <g><line x1="900" y1="285" x2="676" y2="445" stroke="#333" stroke-width="3"/><circle cx="930" cy="265" r="32" fill="#fff" stroke="#333" stroke-width="4"/><text x="930" y="265" fill="#111">3</text></g>
+    <g><line x1="945" y1="555" x2="835" y2="520" stroke="#333" stroke-width="3"/><circle cx="980" cy="565" r="32" fill="#fff" stroke="#333" stroke-width="4"/><text x="980" y="565" fill="#111">4</text></g>
+  </g>
+</svg>
