@@ -1,12 +1,12 @@
 ---
-source_hash: de2c0da3c48a2cd6a5f9b24d76d89f6b0d7d016f34bddc9db2a87032410f91c4
+source_hash: ec8da65722409a62306568388bdeb538275e644126ab23dc9b17afcbfce084cc
 ---
 
-# Un metodo pratico di affilatura per principianti
+# Affilatura di base
 
 L'affilatura rimuove l'acciaio fino a quando i due lati del tagliente si incontrano di nuovo in un apice pulito. Un principiante non ha bisogno di velocità, una grande collezione di pietre o una perfetta conoscenza della metallurgia. Le competenze essenziali sono più semplici:
 
-- posizionare il bordo stretto smusso o **microsmusso** sulla pietra;
+- mettere lo stretto **bordo smusso** sulla pietra;
 - mantenere lo stesso angolo di contatto locale lungo il bordo completo;
 - affilare sia il movimento in avanti che quello di ritorno;
 - lavorare i due lati in modo uniforme;
@@ -21,19 +21,19 @@ Guarda lungo il bordo tagliente sotto una luce forte. Le aree tumultuose, arroto
 
 Un coltello normalmente opaco può essere affilato su una pietra media. Un bordo scheggiato, una punta rotta o un coltello che è diventato molto spesso dietro il bordo ha bisogno di riparazione o geometria lavoro. Quelle operazioni rimuovere molto più acciaio e sono al di fuori di questo metodo principiante.
 
-## 2. Trovare il microbivello
+## 2. Trova il bordo smussato
 
-Un coltello da cucina ha diverse superfici in prossimità del bordo. L'ampia smussatura primaria rende la lama più sottile verso il bordo tagliente. Il **microbevel** è la sfaccettatura molto più stretta immediatamente accanto all'apice.
+Un coltello da cucina ha diverse superfici in prossimità del bordo. L'ampia smussatura primaria rende la lama più sottile verso il tagliente. La smussatura **bordo** è la sfaccettatura molto più stretta immediatamente accanto all'apice. Quando questa sfaccettatura è particolarmente stretta e volutamente distinta dalla geometria dietro di essa, è spesso chiamato un **microbello**.
 
-L'affilatura di routine lavora su questo sottile microsbirro. La posa dell'intero smusso primario sulla pietra cambia la geometria della lama e rimuove molto più acciaio del necessario.
+L'affilatura ordinaria di un coltello a doppia bisellatura di solito funziona su questo bordo stretto smusso. Posizionando l'intero smusso primario largo sulla pietra cambia la geometria della lama e rimuove molto più acciaio del necessario.
 
-Un marcatore è l'aiuto più facile per l'apprendimento. Colorare solo il microsbirro stretto e fare alcuni movimenti leggeri sulla pietra. Poi ispezionare l'inchiostro:
+Un marcatore è l'aiuto di apprendimento più facile. Colorare solo il bordo stretto smussare e fare alcuni movimenti di luce sulla pietra. Poi ispezionare l'inchiostro:
 
 - inchiostro lasciato all'apice significa che l'angolo è troppo basso;
-- contatto solo sull'estremità del bordo: l'angolo è più ripido del microsmusso esistente;
+- contatto solo sul bordo estremo: l'angolo è più ripido del bordo esistente smussato;
 - inchiostro rimosso uniformemente attraverso la sfaccettatura stretta significa che il contatto è vicino a corretto.
 
-Come riferimento visivo approssimativo, alzare la colonna vertebrale fino a quando lo spazio tra la colonna vertebrale e la pietra è di circa un quarto dell'altezza della lama. Ciò corrisponde a circa 15 gradi per lato su una semplice approssimazione piatta. E 'solo un riferimento iniziale: seguendo il microbiglia esistente è più utile che forzare ogni coltello a un numero.
+Come riferimento visivo approssimativo, alzare la colonna vertebrale fino a quando lo spazio tra la colonna vertebrale e la pietra è di circa un quarto dell'altezza della lama. Ciò corrisponde a circa 15 gradi per lato su una semplice approssimazione piatta. E 'solo un riferimento iniziale: seguendo il bordo smussato esistente è più utile che forzare ogni coltello a un numero.
 
 ## 3. Posizionare le mani
 
@@ -41,13 +41,15 @@ Tenere saldamente la maniglia ma senza tensione. La maniglia controlla la direzi
 
 Mantenere le spalle rilassate e utilizzare le braccia e la parte superiore del corpo per il movimento. Un polso rigido e una presa eccessiva rendono l'angolo più difficile da controllare.
 
-Quando si gira il coltello per affilare il secondo lato, anche cambiare la mano che tiene la maniglia. Questo dà alla seconda faccia un movimento che riflette il primo e rende più facile preservare lo stesso angolo di contatto. Praticare il movimento lentamente senza quasi pressione fino a quando entrambe le mani possono seguire il bordo completo comodamente.
+Nel metodo insegnato in questo libro, quando si gira il coltello per affilare il secondo lato, anche cambiare la mano che tiene la maniglia. Questo dà alla seconda faccia un movimento che riflette il primo e può rendere più facile per un principiante di preservare lo stesso angolo di contatto. Altri affilatori esperti possono utilizzare diverse disposizioni della mano con successo; il risultato importante è stabile, contatto controllato con il bordo smusso esistente.
+
+Praticare il movimento lentamente con quasi nessuna pressione fino a quando entrambe le mani possono seguire il bordo completo comodamente.
 
 ## 4. Utilizzare la pietra completa e il bordo completo
 
 Impostare il coltello in diagonale sulla pietra. Iniziare con l'area di punta a contatto, quindi spazzare la lama lateralmente in modo che il punto di lavoro viaggia attraverso la parte anteriore curva e centrale al tallone. Invertire il movimento e tornare lungo lo stesso percorso.
 
-Sia il movimento verso l'esterno che il movimento di ritorno affilare il coltello. Mantenere il microsbirro in contatto controllato in entrambe le direzioni e utilizzare pressione simile. Il ritorno non è solo un reset. Questa azione back-and-forth rende il lavoro più veloce e più pratico per un principiante.
+Sia il movimento verso l'esterno che il movimento di ritorno possono affilare il coltello quando l'angolo e la pressione rimangono controllati. In questo metodo, il ritorno viene utilizzato come un tratto attivo di affilatura piuttosto che solo come reset. Questa azione back-and-forth rende il lavoro più veloce e pratico per un principiante.
 
 Spostare le dita di sostegno con la sezione che viene affilata. Non lasciare tutta la pressione al centro della lama. Utilizzare la superficie piena della pietra in modo che la pietra e il coltello indossano entrambi in modo più uniforme.
 
@@ -55,31 +57,31 @@ Spostare le dita di sostegno con la sezione che viene affilata. Non lasciare tut
 
 Il taglio è raramente diritto dal tallone alla punta. La sua curva cambia il modo in cui ogni sezione incontra la pietra piatta.
 
-Adattare continuamente la presa e l'orientamento del coltello in modo che l'angolo di contatto ** tra la pietra e il microsveglia locale rimanga lo stesso lungo tutto il tagliente**, nonostante i cambiamenti nella forma della lama. Guardare e sentire il contatto dalla punta attraverso la sezione curva, centrale e tallone.
+Adattare continuamente la presa e l'orientamento del coltello in modo che l'angolo di contatto ** tra la pietra e il bordo locale smusso rimanga lo stesso lungo tutto il tagliente**, nonostante i cambiamenti nella forma della lama. Guardare e sentire il contatto dalla punta attraverso la sezione curva, il centro e il tallone.
 
 Pensate di preservare il contatto, non eseguendo un gesto separato alla punta. Non ci sono istruzioni per sollevare la maniglia di una quantità predeterminata. Ogni coltello ha un profilo diverso, quindi le mani devono seguire la lama reale di fronte a loro.
 
-Utilizzare nuovamente il pennarello se la punta o il tallone rimangono intatti. Mostra se il movimento segue il microsbirro completo senza rendere inutilmente ripida la parte anteriore del bordo.
+Utilizzare nuovamente il pennarello se la punta o il tallone rimangono intatti. Mostra se il movimento segue il bordo pieno smussato senza rendere inutilmente ripida la parte anteriore del bordo.
 
 ## 6. Ascolta la pietra
 
 Il suono è una delle guide più utili durante l'affilatura.
 
-All'inizio, il contatto produce spesso un forte rumore di graffio. La lama può anche sentirsi ruvida contro la pietra. Continuare con un angolo stabile e pressione controllata. Mentre la pietra livella il microsbirro, il suono normalmente diventa più liscio e la lama inizia a scivolare più liberamente. Un buon, anche il contatto può assomigliare al suono liscio degli sci che si muovono sulla neve.
+All'inizio, il contatto produce spesso un forte rumore di graffio. La lama può anche sentirsi ruvida contro la pietra. Continuare con un angolo stabile e pressione controllata. Mentre la pietra livella il bordo smussa, il suono normalmente diventa più liscio e la lama inizia a scivolare più liberamente. Un buon, anche il contatto può assomigliare al suono liscio degli sci che si muovono sulla neve.
 
 Ascoltare il viaggio completo dalla punta al tallone. Un suono improvviso duro o cambiamento di resistenza ad un certo punto può mostrare che l'angolo cambiato, la pietra sta diventando asciutta o che una sezione ha bisogno di più lavoro.
 
-Non contare un numero fisso di passaggi. Il lavoro richiesto cambia con il coltello, l'acciaio, la pietra e la pressione. Invece, ascoltare per il suono di muoversi da graffiare verso scorrevole scorrevole. Quando non cambia più su diversi movimenti completi, la pietra ha di solito lavorato il microbiglia uniformemente. Confermare questo con il modello di marcatore e ispezione visiva.
+Non contare un numero fisso di passaggi. Il lavoro richiesto cambia con il coltello, l'acciaio, la pietra e la pressione. Invece, ascoltare per il suono di muoversi da graffiare verso scorrevole scorrevole. Quando non cambia più su diversi movimenti completi, la pietra ha di solito lavorato il bordo smussare uniformemente. Confermare questo con il modello di marcatore e ispezione visiva.
 
 Il suono è feedback, non prova da solo. La bava conferma che l'abrasivo ha raggiunto l'apice.
 
 ## 7. Progresso uniforme su entrambi i lati
 
-Durante la prima fase, cambiare i lati di volta in volta e utilizzare l'altra mano sulla maniglia. Dare alle due facce una quantità di lavoro sostanzialmente simile in modo che il bordo si sviluppi uniformemente. L'obiettivo è l'equilibrio, non un conteggio numerico esatto.
+Durante la prima fase, cambiare i lati di volta in volta. Nel metodo insegnato qui, anche cambiare la mano maniglia. Dare alle due facce una quantità di lavoro sostanzialmente simile in modo che il bordo si sviluppi uniformemente. L'obiettivo è l'equilibrio, non un conteggio numerico esatto.
 
 Controllare occasionalmente per una bava. Se si forma quasi immediatamente, ispezionare l'angolo prima di fare più lavoro: un angolo troppo ripido può creare una bava rapidamente al costo di un bordo più ampio e meno efficiente.
 
-Quando il suono è diventato stabile e il marcatore mostra anche il contatto, lavorare da un lato fino a quando la più piccola bava rilevabile funziona continuamente dal tallone alla punta. Poi cambiare lato e mano, e lavorare l'altra faccia fino a quando la bava si muove indietro lungo il bordo completo.
+Quando il suono è diventato stabile e il marcatore mostra anche il contatto, lavorare da un lato fino a quando la più piccola bava rilevabile funziona continuamente dal tallone alla punta. Poi cambiare lato e lavorare l'altra faccia fino a quando la bava si sposta indietro lungo il bordo completo.
 
 Se la bava manca solo in una zona, concentrarsi brevemente su quella zona e poi tornare ai passaggi completi. Evitare di continuare il lavoro pesante su sezioni che hanno già raggiunto l'apice.
 
@@ -87,9 +89,9 @@ Se la bava manca solo in una zona, concentrarsi brevemente su quella zona e poi 
 
 Lo stadio principale di affilatura crea il nuovo apice. Lo stadio di finitura pulisce e stabilizza.
 
-Ridurre la pressione gradualmente. Lati alternativi più frequentemente, cambiando la mano mano ogni volta. Continuare con il pieno movimento verso l'esterno e ritorno, ma lasciare la lama diventare progressivamente più leggero sulla pietra.
+Ridurre la pressione gradualmente. Lati alternativi più frequentemente. Se si sta seguendo il metodo di commutazione a mano insegnato qui, cambiare la mano mano ogni volta. Continuare con il pieno movimento verso l'esterno e ritorno, ma lasciare la lama diventare progressivamente più leggero sulla pietra.
 
-Finire con una pressione sufficiente per mantenere il microsbirro in contatto. Controllare che nessun gancio direzionale ruvido rimane su entrambi i lati. Una bava grande o persistente di solito risponde meglio a passi più leggeri, più controllati che ad ulteriore rettifica pesante.
+Finire con una pressione sufficiente per mantenere il bordo smussato in contatto. Controllare che nessun gancio direzionale ruvido rimane su entrambi i lati. Una bava grande o persistente di solito risponde meglio a passi più leggeri, più controllati che ad ulteriore rettifica pesante.
 
 Uno strop può rimuovere una bava molto fine rimanente, ma è opzionale. La pietra avrebbe già dovuto produrre un bordo pulito e stabile.
 
@@ -103,7 +105,7 @@ Passare a una pietra più fine solo dopo che la prima pietra ha raggiunto l'apic
 
 Sciacquare e asciugare il coltello prima di testarlo.
 
-Non usare le dita per verificare se il coltello è affilato. Il contatto con il dito sul bordo è usato solo per rilevare una bava durante l'affilatura, con il metodo perpendicolare controllato descritto in [Comprendere e rimuovere il Burr](the-burr.md). Provare nitidezza solo tagliando alimenti o carta adatti.
+Non usare le dita per verificare se il coltello è affilato. Il contatto con il dito sul bordo è usato solo per rilevare una bava durante l'affilatura, con il metodo perpendicolare controllato descritto in [The Burr](the-burr.md). Provare nitidezza solo tagliando alimenti o carta adatti.
 
 ### Guarda il bordo
 
@@ -115,7 +117,7 @@ Controllare il tallone, il centro, la parte anteriore curva e la punta.
 
 ### Tagliare lentamente la carta
 
-Tenere un foglio asciutto pulito con la mano di sostegno lontano dal percorso di taglio. Iniziare vicino al tallone e disegnare il bordo senza intoppi attraverso la carta verso la punta. Non fare un rapido slash vistoso.
+Tenere un foglio asciutto pulito con la mano di sostegno lontano dal percorso di taglio. Iniziare vicino al tallone e disegnare il bordo senza intoppi attraverso la carta verso la punta. Non fare un rapido, slash incontrollato.
 
 Notare dove la resistenza cambia. Una cattura o strappo identifica un'area che ha bisogno di attenzione. Su un coltello lungo, testare il tallone al centro e poi mezzo alla punta in due sezioni sovrapposte.
 
@@ -127,7 +129,7 @@ La carta può essere tagliata da un filo fragile, in modo da combinare il test d
 
 ## Consulenza pratica che migliora il risultato
 
-### Fate tagliare l'abrasivo
+### Utilizzare l'abrasivo invece di pressione extra
 
 Più pressione è raramente la risposta al lento progresso. La pressione pesante rende l'angolo instabile e crea una bava più grande. Se la pietra difficilmente rimuove l'acciaio, può essere troppo fine, smaltato o inadatto per quell'acciaio.
 
@@ -135,9 +137,9 @@ Più pressione è raramente la risposta al lento progresso. La pressione pesante
 
 Una pietra asciutta o in movimento cambia sia il suono che il controllo. Aggiungere acqua quando la superficie trascina e fermarsi immediatamente se il supporto si muove.
 
-### Correggi solo l'area mancante
+### Correggi solo l'area che ha bisogno di più lavoro
 
-Se la punta, mezzo o tallone è dietro, dare a quella zona un breve periodo di lavoro focalizzato. Poi tornare a passare completi in modo che il bordo finito rimane collegato e anche.
+Se la punta, il mezzo o il tallone hanno ricevuto meno affilatura, dare a quell'area un breve periodo di lavoro focalizzato. Poi tornare ai passaggi completi in modo che il bordo finito rimanga collegato e anche.
 
 ### Mantieni la bava piccola
 
@@ -145,14 +147,14 @@ La bava è la prova che l'apice è stato raggiunto. Non è qualcosa da ingrandir
 
 ### Accetta movimenti lenti e controllati
 
-La velocità non migliora l'orlo. Un movimento lento che mantiene il contatto microsoffietto insegna più di un movimento rapido con un angolo instabile.
+La velocità non migliora il bordo. Un movimento lento che mantiene il contatto bordo-bevel insegna più di un movimento rapido con un angolo instabile.
 
 ## Errori comuni dei principianti
 
-- l'affilatura dell'ampio bisello primario al posto dello stretto microsmusso;
+- l'affilatura dell'ampio bisello primario anziché dello stretto bordo bisellato;
 - fissare le mani in una posizione mentre il profilo della lama cambia;
-- lavorare solo sul colpo verso l'esterno e sprecare il ritorno;
-- tenere la stessa mano dopo aver cambiato lato;
+- sprecare il colpo di ritorno quando si utilizza il metodo back-and-forth qui insegnato;
+- cambiare il lato senza prima stabilire una comoda posizione a mano controllata;
 - il conteggio passa invece di ascoltare e ispezionare;
 - trattare una bava immediata come prova che l'angolo è corretto;
 - overworking al centro mentre manca la punta o il tallone;
@@ -164,29 +166,29 @@ La velocità non migliora l'orlo. Un movimento lento che mantiene il contatto mi
 
 Siete pronti a praticare in modo più indipendente quando potete rispondere **sì** a tutte queste domande:
 
-1. Puoi identificare il microsbirro e confermare il suo contatto con un marcatore?
+1. Puoi identificare il bordo smussato e confermare il suo contatto con un marcatore?
 2. Puoi usare entrambe le direzioni del movimento senza perdere l'angolo locale?
-3. Puoi seguire l'intero bordo mantenendo il contatto continuo con il microsbirro?
-4. Puoi cambiare lato e maneggiare comodamente la mano?
+3. Puoi seguire l'intero bordo mantenendo un contatto continuo con il bordo?
+4. Puoi cambiare lato e stabilire una posizione della mano stabile comodamente?
 5. Riesci a sentire il cambiamento da ruvido graffio a scorrevole scorrevole?
 6. Puoi mantenere il lavoro ampiamente bilanciato senza contare un pass fisso?
 7. Riesci a rilevare una bava leggera in modo sicuro al tallone, al centro, curva e punta?
 8. Puoi spostare la bava sull'altro lato e poi rimuoverla con passaggi alternati più leggeri?
 9. Può il bordo finito tagliare costantemente lungo tutta la sua lunghezza senza un gancio direzionale rimasto?
 
-Se una risposta è no, ripetere quella parte specifica su un coltello pratica poco costoso. Lo scopo del livello di base non è la velocità o lo smalto. È il contatto completo, controllato e ripetibile con il microsbirro.
+Se una risposta è no, ripetere quella parte specifica su un coltello pratica poco costoso. Lo scopo del livello di base non è la velocità o lo smalto. È il contatto completo, controllato e ripetibile con il bordo smussato.
 
 ## La routine completa in breve
 
 1. Preparare una pietra media piatta, umida e stabile.
-2. Ispezionare il bordo e segnare il microbevel.
+2. Controllare il bordo e segnare il bordo smussato.
 3. Imposta l' angolo di contatto locale.
-4. Affilare in entrambe le direzioni attraverso il bordo completo.
+4. Affilare in entrambe le direzioni attraverso il bordo completo utilizzando il metodo controllato back-and-forth insegnato qui.
 5. Adattare continuamente la presa per preservare lo stesso angolo di contatto attraverso ogni cambiamento nel profilo della lama.
 6. Ascolta come il suono cambia da graffio a scorrevole.
-7. Alternare i lati e le mani periodicamente, mantenendo il lavoro ampiamente uguale.
+7. Alternare periodicamente i lati, mantenendo il lavoro ampiamente uguale; se seguendo il metodo di questo libro, cambiare la mano anche la maniglia.
 8. Confermare una piccola bava continua da un lato, poi spostarla dall'altro.
 9. Ridurre la pressione, alternare i lati e rimuovere la bava.
 10. Controllare, testare, pulire e asciugare il coltello e la pietra.
 
-L'abilità più importante è imparare a leggere il contatto. Il marcatore mostra dove la pietra tocca, il suono mostra come il contatto sta cambiando e la bava conferma che l'opera ha raggiunto l'apice.
+L'abilità più importante è imparare ad interpretare il contatto tra il coltello e la pietra. Il pennarello mostra dove la pietra tocca, il suono mostra come il contatto sta cambiando e la bava conferma che l'opera ha raggiunto l'apice.

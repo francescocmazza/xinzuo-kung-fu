@@ -1,8 +1,8 @@
 ---
-source_hash: 48f81706e389cde0aff9c13757e37e0d97b40ebf4f81c48cdc24dcd0e1c09cf1
+source_hash: efe2b74453d7b89a78d8dd6aece1cf036f624c8c3d6ab992d94aad62a64ee64d
 ---
 
-# 准备“石头和工作空间”
+# 锐化设置
 
 良好的锋利始于稳定、平坦和正确的湿润石块。 谨慎的准备使得运动更容易控制并防止许多错误,而初犯者错误地将错误归咎于自己的技术。
 

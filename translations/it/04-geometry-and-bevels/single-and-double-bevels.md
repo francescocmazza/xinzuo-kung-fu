@@ -1,8 +1,8 @@
 ---
-source_hash: 8e1e25eec7911cd51f08e0e9de4879abfb90a5f92ebab5406ecb0958a6e1b0c8
+source_hash: b9fba252300b30f5c9eeaafff66303548dbf0b45030bb5c618001968837d2da8
 ---
 
-# Smussatura singola e doppia
+# Bisturi coltello
 
 Tagliare una patata alta con due coltelli e si può notare qualcosa di inaspettato. Una lama viaggia quasi dritto verso il basso; un altro tira lateralmente anche quando la mano punta in avanti. La smussata superficie inclinata che porta al tagliente può spiegare la differenza.
 
@@ -22,9 +22,9 @@ La geometria smussata cambia quattro cose che un cuoco può sentire:
 Le due famiglie sono doppie e singole bisellature. Né è automaticamente più nitida o più avanzata. Risolvono problemi diversi.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-BEV-02">
-<img src="../../assets/images/approved/bevel-families-neutral.png" alt="" width="1400" height="380">
+<img src="../../assets/images/approved/bevel-families%202.jpg" alt="" width="1400">
 <figcaption>
-Sette famiglie comuni smussate, mostrate senza etichette in lingua fissa: 1. simmetrico V; 2. convesso; 3. asimmetrico V; 4. composto doppio V; 5. concavo; 6. monofronte; 7. monofronte con urasuki. La leggenda è testo ordinario in modo che possa essere tradotto con il libro.
+Sette famiglie comuni bisellate: 1. simmetrica V; 2. convessa; 3. asimmetrica V; 4. composta doppia V; 5. concava; 6. monofronte; 7. monofrontale con urasuki.
 </figcaption>
 </figure>
 
@@ -213,7 +213,7 @@ Affilare la geometria che è in realtà sul coltello invece di applicare una reg
 
 Un singolo smusso tradizionale è diverso. L'ampio smusso principale fa parte della geometria di affilatura, mentre il rovescio è generalmente lavorato quasi piano per preservare l'urasuki e i suoi piatti di riferimento. Il contatto sul bisello principale può anche cambiare verso la punta come lama altezza e lo spessore cambiano.
 
-La sequenza completa appare più tardi in [Un processo pratico di affilatura](../10-sharpening/basic-sharpening-process.md). Per ora, ricordate: **identificate prima la geometria, poi affilate le superfici che la definiscono**.
+La sequenza completa appare più tardi in [Affilatura di base](../10-sharpening/basic-sharpening-process.md). Per ora, ricordate: **identificate prima la geometria, poi affilate le superfici che la definiscono**.
 
 ## Cosa ricordare
 

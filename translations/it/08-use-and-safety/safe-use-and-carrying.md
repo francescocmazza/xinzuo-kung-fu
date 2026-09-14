@@ -1,5 +1,5 @@
 ---
-source_hash: e0cbca607e70f39b7077baf56b6559cf00d4250be9620db80ef252ec4d135889
+source_hash: 44b85fedcd4aebcf100ebf44f38cf48c731c68e60fd20ee5e32d440c99219cde
 ---
 
 # Uso sicuro e trasporto
@@ -63,13 +63,13 @@ L'acciaio e la geometria sono progettati per il taglio. La forza laterale può d
 
 ## Grip e controllo
 
-La sicurezza non dipende da un'impugnatura universale della mano del coltello. L'impugnatura **, l'impugnatura intermedia o ibrida e l'impugnatura** descritta in [Peso e equilibrio](../05-knife-types/weight-and-balance.md) tutti possono essere controllati quando si adattano al coltello e compito.
+La sicurezza non dipende da un'impugnatura universale della mano del coltello. L'impugnatura **, l'impugnatura intermedia o ibrida e l'impugnatura** descritta in [Peso, equilibrio ed ergonomia](../05-knife-types/weight-and-balance.md) tutti possono essere controllati quando si adattano al coltello e compito.
 
 Qualunque sia la presa che si usa, tenere il coltello saldamente senza tensione inutile, tenere le dita da scivolare verso il bordo e mantenere il polso in una linea naturale. Se una nuova presa cambia l'equilibrio che si sente, rallentare fino a quando il coltello diventa prevedibile di nuovo.
 
 La mano di sostegno dovrebbe guidare il cibo mantenendo la punta delle dita fuori dal percorso di taglio. Nella presa **claw**, la punta delle dita ricurvo verso l'interno e il lato della lama si muove contro le prime articolazioni. L'artiglio è una guida in movimento, non una posa da imitare a velocità professionale.
 
-[Come tagliare](../06-cutting-techniques/essential-cutting-techniques.md) La regola di sicurezza è più semplice: utilizzare una presa stabile, tenere la mano di supporto dietro la linea di taglio e non scambiare mai il controllo per la velocità.
+[Tecniche di taglio](../06-cutting-techniques/essential-cutting-techniques.md) La regola di sicurezza è più semplice: utilizzare una presa stabile, tenere la mano di supporto dietro la linea di taglio e non aumentare la velocità a scapito del controllo.
 
 ## Lasciate che il bordo faccia il lavoro
 

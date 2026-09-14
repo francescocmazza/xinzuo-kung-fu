@@ -1,8 +1,8 @@
 ---
-source_hash: 8316e012e59c9af2cfc3b132e12e3f8796362282b93f8ff4c357f093d1ac83ad
+source_hash: 1c04120b254fe86eec3585add74301ebad1525acef63a864f03107f08ea0aba2
 ---
 
-# 单面和双面
+# 刀贝弗斯
 
 用两把刀砍一头高的土豆,你可能会注意到一些出乎意料的事情。 一把刀几乎直直地向下飞去;另一把刀拉着侧向,即使你的手向前方。 斜坡的表面——通向最前沿的斜坡——可以解释差别。
 
@@ -22,9 +22,9 @@ source_hash: 8316e012e59c9af2cfc3b132e12e3f8796362282b93f8ff4c357f093d1ac83ad
 这两个大家庭是双倍优美和单倍优美的,也不是自动更敏锐或更先进的,它们解决了不同的问题。
 
 <figure class="kb-learning-figure" data-visual-id="VIS-BEV-02">
-<img src="../../assets/images/approved/bevel-families-neutral.png" alt="" width="1400" height="380">
+<img src="../../assets/images/approved/bevel-families%202.jpg" alt="" width="1400">
 <figcaption>
-没有固定语言标签的7个常见贝vel族:1. 对称V;2. 曲线;3. 非对称V;4. 复合V;5. 曲线;6. 单面;7. 单面;7. 乌拉苏基。 传说是普通文本,因此可以与书一起翻译。
+7个常见家庭:1个对称五;2个对称五;3个对称五;4个复合五;5个对称五;6个单方;7个单方与乌拉苏基。
 </figcaption>
 </figure>
 
@@ -213,7 +213,7 @@ source_hash: 8316e012e59c9af2cfc3b132e12e3f8796362282b93f8ff4c357f093d1ac83ad
 
 传统的单贝vel是不同的。 宽大的主贝vel是锐化几何的一部分, 而相反的则通常几乎是平的, 以保存极拉苏基及其参考公寓。 主贝vel上的接触也会随着刀片高度和厚度的变化而改变。
 
-整个序列后来出现于 [一个实际的锐化进程](../10-sharpening/basic-sharpening-process.md)。现在,请记住:** 先标明几何, 然后磨亮用来定义它的表面**。
+整个序列后来出现于 [基本锐化](../10-sharpening/basic-sharpening-process.md)。现在,请记住:** 先标明几何, 然后磨亮用来定义它的表面**。
 
 ## 记得什么?
 

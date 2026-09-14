@@ -1,8 +1,8 @@
 ---
-source_hash: 16c8801ffc2160c2b18fab7a273efdc38bb2ea93de7b7accdb7d3f0c04d2f688
+source_hash: 26d857537f132a15667866262042f968bbab53be06b3b3bcf8059e12727e2303
 ---
 
-# Materiali Xinzuo Handle - Sentire, Cura e Scelta
+# Xinzuo Handle Materials
 
 La lama ottiene la maggior parte dell'attenzione, ma la maniglia cambia anche come un coltello si sente e funziona. Il suo materiale influisce sul peso e l'equilibrio, grip con mani asciutte o bagnate, resistenza all'acqua e detergenti, durata, manutenzione e aspetto. Forma e finitura ancora determinare gran parte della presa reale, quindi sempre giudicare il materiale come parte della maniglia completa.
 

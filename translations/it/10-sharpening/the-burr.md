@@ -1,8 +1,8 @@
 ---
-source_hash: d7d887a5e824738ab0c7f7503d03dc0dfbef03b447dfe4e6dbb2e07175f81139
+source_hash: c854a74cdb2cf98f2b3cad7946ea82a6eebf4b116a228b73107d97e2d2f881d6
 ---
 
-# Comprendere e rimuovere il Burr
+# The Burr
 
 La bava è la prova più chiara del principiante che la pietra ha raggiunto il limite.
 

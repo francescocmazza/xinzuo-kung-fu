@@ -1,8 +1,12 @@
 ---
-source_hash: e9a1077eb50c54398820423a76702d5b6214ac3a4d77dcb7c73a1eecfb370ff9
+source_hash: 667b6dbbe4f3fd529ffa6ff21cf8fce125db91928635754dc213a36dd3e6a66a
 ---
 
-# Damascus Steel - Pattern, Storia e Costruzione
+# Damascus Steel
+
+Xinzuo è un produttore di coltelli artigianale specializzato in coltelli da cucina in acciaio damasco. Damasco è quindi un luogo naturale per iniziare la parte materiale di questa guida. E 'una delle espressioni più visibili del mestiere, ma anche una delle più fraintese: il modello fluente su una lama può venire da costruzioni molto diverse, e la parola *Damascus* è troppo spesso trattato come se fosse un singolo grado di acciaio o una garanzia automatica di qualità.
+
+Un coltello da Damasco può riunire la selezione dell'acciaio, la saldatura della forgia, il rivestimento, gli acciai al nocciolo, il trattamento termico, la durezza, la rettifica, la lucidatura, l'incisione e la geometria del bordo finale. Capire cosa significa il modello e cosa non significa che in questo libro si applica un principio importante: **un coltello deve essere giudicato dal rapporto completo tra materiale, processo, costruzione e geometria, non da una caratteristica visibile o da un numero.**
 
 La parola *Damasco* descrive diversi materiali visibilmente fantasia che non condividono una costruzione. Il modo più sicuro per capire un coltello è quello di ignorare il modello per un momento e chiedere che cosa il metallo in realtà forma il bordo all'avanguardia.
 
@@ -126,7 +130,7 @@ Il motivo visibile non detta quindi una soluzione tecnica. Xinzuo può combinare
 
 Tra questi esempi, materiali, struttura, processo e aspetto sono variabili che possono essere disegnate insieme. Le tradizioni storiche di Damasco e la produzione moderna di Xinzuo sono diverse vie metallurgiche, ma condividono la stessa domanda di fondo: come può essere combinato materiale e processo per creare una lama con prestazioni utili e una forte identità visiva?
 
-La [Guida Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) spiega i materiali di base. [Self-Sharpening pieno Damasco](self-sharpening-full-damascus.md) spiega l'usura differenziale quando materiali alternati raggiungono l'apice.
+La [Guida Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) spiega i materiali di base. [Abbigliamento differenziale in lame full-Damascus](self-sharpening-full-damascus.md) spiega l'usura differenziale quando materiali alternati raggiungono l'apice.
 
 ## Una sequenza di lettura affidabile
 

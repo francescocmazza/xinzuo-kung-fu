@@ -1,8 +1,8 @@
 ---
-source_hash: 8d746b47e610b6578bc062c8086b64b1da494b41fefadc213bd0aad8a16d0936
+source_hash: a31e399dba3966ab0a1af8d5ef8b486df51f2e3d4377720edf8c7dd6172e5aa9
 ---
 
-# Trattamento termico e carboidrati: trasformare la composizione in una lama
+# Trattamento termico e carboidrati
 
 Una qualità d'acciaio è una ricetta, non un'esecuzione finita. La composizione ci dice quali elementi sono presenti e quali strutture interne sono possibili. **Il trattamento del calore decide quali strutture si sviluppano nella lama e in quali proporzioni.**
 

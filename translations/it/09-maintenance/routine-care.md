@@ -1,8 +1,8 @@
 ---
-source_hash: 8459ce9e1bd2c30df0a7ac0ac062eb5ee49ce9aa4874dc8af29bed79bac38e9a
+source_hash: be963478b13dcb52e95f6a27d13c8c1e8686735ddc32677263f725831837cf2a
 ---
 
-# Cura del coltello di routine: cosa fare tra affilature
+# Cura del coltello di routine
 
 L'affilatura è solo una parte della manutenzione del coltello e di solito non la più frequente. La vita di bordo dipende più dalle abitudini quotidiane: **che cosa taglia il coltello su, come viene lavato e asciugato, come viene memorizzato e se il bordo è utilizzato per lavori non è stato progettato per fare**.
 

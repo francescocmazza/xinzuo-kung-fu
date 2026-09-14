@@ -1,8 +1,8 @@
 ---
-source_hash: 1f6541fde03d1d708310b0dc68ac741e0845c44b96be42a3174e4d66ed154e3d
+source_hash: cb614c86eb5cc374095d480fad4cf52b5b8efc21bfc2cb0911321affec645bf6
 ---
 
-# Come tagliare - tecniche essenziali del coltello
+# Tecniche di taglio
 
 Il coltello giusto aiuta, ma il movimento conta ancora di più. La buona tecnica rende i pezzi più uniformi, protegge il bordo, riduce la fatica e mantiene la mano di sostegno più sicura. Spiega anche perché due coltelli altrettanto affilati possono sentirsi molto diversi sulla stessa tavola.
 
@@ -18,20 +18,20 @@ Rilassate le spalle e tenete il polso del coltello in una linea naturale con l'a
 
 Tenere il cibo con la mano di sostegno in un **artiglio**: punta delle dita curvata verso l'interno, pollice dietro di loro e il lato della lama guidata dalle prime articolazioni invece di punta delle dita esposte. L'artiglio è una guida in movimento, non una posa rigida; si ritira leggermente dopo ogni taglio.
 
-Le tre posizioni principali della mano del coltello sono: impugnatura**, impugnatura intermedia o ibrida, impugnatura** e impugnatura**. [Peso e equilibrio](../05-knife-types/weight-and-balance.md). Scegliere la presa che si sente stabile sul coltello, tenerlo rilassato e ricordare che muovendo la mano in avanti o indietro cambia l'equilibrio che si sente.
+Le tre posizioni principali della mano del coltello sono: impugnatura**, impugnatura intermedia o ibrida, impugnatura** e impugnatura**. [Peso, equilibrio ed ergonomia](../05-knife-types/weight-and-balance.md). Scegliere la presa che si sente stabile sul coltello, tenerlo rilassato e ricordare che muovendo la mano in avanti o indietro cambia l'equilibrio che si sente.
 
 > **Il controllo di sicurezza di quattro parole:** scheda stabile, cibo stabile, percorso chiaro, punta delle dita nascoste.
 
-## Leggere il percorso prima di nominare la tecnica
+## Identificare il percorso di movimento prima di nominare la tecnica
 
-I movimenti della cucina non sono quattro categorie sigillate. Un vero e proprio taglio può combinare il viaggio verticale, in avanti o indietro, e un punto di contatto cambiante. Leggere il percorso del bordo:
+I movimenti della cucina non sono quattro categorie sigillate. Un vero e proprio taglio può combinare il viaggio verticale, in avanti o all'indietro, e un punto di contatto cambiante. Osservare il percorso del bordo:
 
 | Cosa fa il bordo | Ciò che quel movimento risolve | Profili che spesso aiutano |
 |---|---|---|
 | Incontra il consiglio su una vasta sezione piatta | Regolari pezzi di verdure e lavorazione a bordo diretto | Nakiri, flatter santoku, bunka o gyuto |
 | Avanza durante la discesa | Riduce il wedging e utilizza una breve azione di affettatura | Gyuto, santoku, bunka e molti coltelli per uso generale |
 | Viaggia lungo la sua lunghezza attraverso il cibo | Attraversa cibi ampi o delicati con minori interruzioni | Affettatrici intaglianti e sashimi |
-| Mantiene una zona vicino alla tavola mentre un'altra sale | Ripete il lavoro di triturazione attraverso un arco controllato | Nakiri, coltelli da cuoco curvi o profili curvi adatti |
+| Mantiene una zona vicino alla tavola mentre un'altra sale | Ripete il lavoro di triturazione attraverso un arco controllato | Nakiri a punta tonda, coltelli da cuoco curvi o profili curvi adatti |
 
 I nomi qui sotto descrivono movimenti dominanti, non regole rigide. Scegli il percorso che permette al bordo di passare attraverso l'ingrediente con controllo e senza forzare la lama ad imitare una geometria che non ha.
 
@@ -88,13 +88,15 @@ Pensa ** avanti, giù, rilascia**. Avanti inizia la fetta, giù lo completa, e r
 
 ### Come si presenta il movimento
 
-Il tallone o la parte posteriore del coltello inizia vicino all'ingrediente e la lama viaggia verso l'utente mentre taglia. Un lungo coltello da intaglio può utilizzare la maggior parte del suo bordo in un disegno liscio.
+Il tallone o la parte posteriore del coltello inizia vicino al lato lontano dell'ingrediente e la lama viaggia verso il bordo vicino della tavola mentre taglia. Un lungo coltello intaglio può utilizzare la maggior parte del suo bordo in un disegno liscio.
 
 Questo è il movimento naturale dei coltelli da intaglio. Un lungo coltello da intaglio a doppio taglio è un'affettatrice versatile per carne e pesce disossati; lo yanagiba è un'affettatrice specialistica per pesce crudo. Il coltello da cuoco può utilizzare lo stesso movimento per carne disossata o un pomodoro maturo.
 
+La direzione della lama non significa che il percorso di taglio dovrebbe puntare nel corpo dell'utente. Disporre il cibo, bordo e posizione in modo che il percorso proiettato del bordo rimane chiaro sia della mano di sostegno che del corpo.
+
 ### Provatelo con un petto di pollo cotto disossato
 
-Posizionare il petto su tutta la tavola. Impostare il tallone appena oltre il lato lontano. Utilizzare una leggera pressione e disegnare la lama verso di voi in un lungo movimento, mantenendo il percorso libero della mano e del corpo di sostegno. Se la fetta è incompleta, resettare e fare un altro lungo passaggio. Evitare di segare rapidamente breve a meno che il cibo o un bordo seghettato richiede.
+Posizionare il petto su tutta la tavola. Impostare il tallone appena oltre il lato lontano. Usare una leggera pressione e disegnare la lama in un lungo movimento verso il bordo vicino della scheda, mantenendo il percorso di taglio progettato chiaro della mano e del corpo di sostegno. Se la fetta è incompleta, resettare e fare un altro passo lungo. Evitare di segare rapidamente breve a meno che il cibo o un bordo seghettato richiede.
 
 ### Perché funziona
 
@@ -112,15 +114,19 @@ Con un coltello da cuoco occidentale, la parte anteriore del bordo rimane sul bo
 
 Questo movimento dipende dalla curvatura. Non forzare una lama molto piatta senza una transizione anteriore adatta per imitarla.
 
-### Perché il nakiri a punta tonda si adatta ad una roccia compatta
+### Perché la punta rotonda è progettata per l'arrotolamento compatto
 
-Un nakiri** a punta tonda risolve lo stesso problema con geometria diversa. Il suo fronte arrotondato, piuttosto che un lungo ventre, può rimanere a contatto controllato con la tavola mentre il tallone si alza e cade attraverso un corto arco. Il naso estremo è normalmente privo di sfaccettature o transizioni in modo sicuro lontano da un punto piercing.
+Su un nakiri **round-tip**, il frontale arrotondato non è solo una versione più sicura o meno appuntita del profilo tradizionale. Si tratta di una caratteristica funzionale intesa a creare un punto perno stabile per movimenti a dondolo compatti.
 
-Per la dondolazione compatta, questa geometria è vicina all'ideale. Il naso arrotondato crea un perno ampio e prevedibile invece di caricare un punto fragile. La lama alta dà spazio alle nocche e una guida chiara per la mano non tagliente. Dietro il perno, il bordo relativamente dritto atterra decisamente sulla tavola, tagliando erbe e piccoli ingredienti in modo pulito invece di lasciarli collegati sotto un ventre eccessivamente ricurvo.
+Il frontale arrotondato può rimanere a contatto controllato con la tavola mentre il tallone si alza e cade attraverso un corto arco. Questo permette al coltello di ruotare senza problemi senza richiedere la pancia profonda del coltello di uno chef occidentale e senza concentrare il contatto ripetuto della tavola su un punto delicato.
 
-Usare un movimento pivottante** corto e controllato**, non l'esagerata spazzata di un coltello da chef classico. Tenere il davanti piantato, sollevare il tallone solo per quanto necessario e avanzare attraverso la pila in piccoli passi. Questo funziona particolarmente bene per le erbe, triturazione vegetale fine e ripetuto lavoro di bordo compatto.
+Il resto della geometria supporta lo stesso movimento. La lama alta fornisce un'ampia guida per la mano di supporto, mentre il tagliente relativamente dritto dietro la parte anteriore arrotondata ritorna in modo pulito alla tavola. Questa combinazione è particolarmente efficace per le erbe, la triturazione vegetale fine e il lavoro di cartone compatto ripetuto.
 
-La parte anteriore arrotondata è funzionale, non semplicemente una punta con meno piercing abilità. Crea un punto di contatto stabile che tollera pivot ripetuti meglio di un delicato K-tip.
+Usare un perno ** corto e controllato**, non l'ampio colpo a dondolo di un coltello da cuoco fortemente ricurvo. Tenere la parte anteriore arrotondata leggermente a contatto con la tavola, sollevare il tallone solo quanto necessario e avanzare gradualmente attraverso il cibo.
+
+Questo non cambia la forza fondamentale del nakiri come coltello vegetale per il taglio a spinta e la triturazione. Il design a punta tonda aggiunge volutamente una seconda geometria di lavoro: **la sezione dritta fornisce un efficace contatto a bordo, mentre la parte anteriore arrotondata fornisce un perno controllato per l'arrotolamento compatto.**
+
+Non tutti i nakiri utilizzano questo design. Valutate il fronte quadrato e il nakiri a forma diversa secondo la loro geometria.
 
 ### Provalo con il prezzemolo
 
@@ -159,7 +165,7 @@ Per la carota julienne:
 3. Stack solo il numero di lastre che rimangono completamente stabili.
 4. Tagliare la pila in bastoncini pari.
 
-Utilizzare tagli push o costolette dritte controllate. Lasciare che le nocche artiglio guidano il lato della lama. Non correre la mano di supporto. Spostare il coltello solo dopo che l'artiglio è impostato.
+Utilizzare tagli push o costolette dritte controllate. Lasciare che le nocche artiglio guidare il lato della lama. Non spostare il coltello più velocemente rispetto alla mano di supporto può riposizionare in modo sicuro. Spostare il coltello solo dopo che l'artiglio è impostato.
 
 Una mannaia cinese può lavorare particolarmente bene qui. La sua lama alta fornisce una grande superficie di guida, mentre una mannaia vegetale cinese sottile, spesso chiamata **cai dao**, può fare fette molto fini. La sua forma rettangolare non lo rende una mannaia ossea.
 
@@ -177,7 +183,7 @@ Minciare significa ridurre il cibo a piccolissimi pezzi. Iniziare con fette, poi
 
 Per aglio o erbe, utilizzare triturazione dritta con una lama compatta, un'azione di rotolamento delicato con un coltello da cuoco ricurvo, o la breve roccia pivot di un nakiri punta rotonda. Ri-raccogliere cibo con la colonna vertebrale o faccia larga. Raschiare ripetutamente il bordo lateralmente contro il bordo indebolisce l'apice.
 
-Non inseguire un numero arbitrario di passaggi. Fermare quando la texture si adatta alla ricetta. Erbe brusate e pasta di aglio possono essere desiderabili, ma sono risultati diversi da un visone pulito.
+Non utilizzare un numero fisso di pass. Fermare quando la consistenza si adatta alla ricetta. Erbe brusate e pasta di aglio possono essere desiderabili, ma sono risultati diversi da un visone pulito.
 
 ## Frantumazione e trasferimento di alimenti
 
@@ -201,15 +207,15 @@ Non torcere un bordo fine contro l'osso. Se l'articolazione non separa, fermarsi
 
 Stabilizzare il pesce e seguire una sequenza chiara: aprirlo, individuare la spina dorsale, lasciare che la lama seguire le ossa e utilizzare lunghi colpi controllati per separare il filetto. Un coltello flessibile filetto segue contorni; una tradizionale deba e yanagiba dividere il lavoro in modo diverso, con la deba utilizzato per la macelleria e la yanagiba per la affettatura finale.
 
-La lama dovrebbe dirvi dove si trova lo scheletro. La pressione pesante nasconde quel feedback e spreca la carne. Impara lentamente a sentire il contatto senza forzare il bordo nell'osso duro.
+Utilizzare contatto leggero per sentire dove si trova lo scheletro. La pressione pesante riduce il feedback e spreca la carne. Impara lentamente a sentire il contatto senza forzare il bordo nell'osso duro.
 
-La geometria tradizionale a singolo fascio influisce anche sullo sterzo e sulla separazione degli alimenti. [Smussatura singola e doppia](../04-geometry-and-bevels/single-and-double-bevels.md) spiega come organizzare il cibo e la direzione di taglio quando si utilizza uno con la mano opposta.
+La geometria tradizionale a singolo fascio influisce anche sullo sterzo e sulla separazione degli alimenti. [Bisturi coltello](../04-geometry-and-bevels/single-and-double-bevels.md) spiega come organizzare il cibo e la direzione di taglio quando si utilizza uno con la mano opposta.
 
 ## Tecniche specialistiche che necessitano di dimostrazione
 
 Alcune tecniche non possono essere imparate in modo sicuro da una breve descrizione scritta. ** Katsuramuki**, la tecnica di sbucciare un vegetale in un lungo foglio sottile continuo con un'usuba, testa di pesce lavoro con una deba e rapido taglio professionale combinano geometria della lama, posizione del corpo e feedback praticato. Questa guida spiega i principi; una dimostrazione qualificata è il modo più sicuro per imparare il movimento stesso.
 
-La cucina viene imparata attraverso le parole, l'osservazione e la ripetizione. La pagina fornisce la mappa; la dimostrazione fornisce la posizione del corpo, tempi e feedback che sono difficili da comunicare in modo sicuro nel testo.
+Le istruzioni scritte spiegano la sequenza; la dimostrazione mostra la posizione del corpo, i tempi e i feedback che sono difficili da comunicare in modo sicuro nel testo.
 
 ## Una sequenza di pratica di sette giorni
 
@@ -230,10 +236,10 @@ Utilizzare ingredienti economici e stabili e fermare prima della fatica riduce i
 - Scegliere e capire la presa nel capitolo peso-e-equilibrio; non riimparare la stessa tassonomia presa qui.
 - Il taglio dritto utilizza una sezione piatta del bordo.
 - Spingere il taglio si muove in avanti e in basso.
-- Disegnare affettatura utilizza la lunghezza della lama e minimizza la compressione.
-- Un coltello da cuoco curvo si adatta ad un'ampia roccia rotante; un nakiri a punta tonda si adatta ad una roccia corta e stabile.
+- Disegnare affettatura utilizza la lunghezza della lama e minimizza la compressione; organizzare la posizione in modo che il percorso di taglio progettato rimane chiaro del corpo.
+- Un coltello da cuoco curvo si adatta ad un'ampia roccia rotante; un nakiri a punta tonda è volutamente progettato per fornire un perno breve e stabile per l'arrotolamento compatto.
 - La preparazione uniforme inizia stabilizzando e orientando il cibo.
-- I coltelli speciali premiano il movimento per cui sono stati progettati.
+- I coltelli speciali lavorano al meglio con i movimenti per cui sono stati progettati.
 - La velocità è il risultato del controllo, non un sostituto.
 
 > **Principio di pratica:** controllo primo, consistenza secondo, velocità ultimo.

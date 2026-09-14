@@ -1,8 +1,8 @@
 ---
-source_hash: ded51c6c45be72af1c355ac7214e5ae19df8350a6aa408e61c054297feeb46f0
+source_hash: 3e65e76e0f785b2a52a9c4ddb3fac713c0767466554d81f55a1e32b0b676e3ef
 ---
 
-# Preparazione della pietra e dello spazio di lavoro
+# Configurazione affilatura
 
 Buona affilatura inizia con una pietra stabile, piatta e correttamente bagnata. Un'attenta preparazione rende il movimento più facile da controllare e impedisce molti errori che i principianti erroneamente incolpano della loro tecnica.
 

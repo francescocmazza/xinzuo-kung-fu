@@ -1,8 +1,8 @@
 ---
-source_hash: c8ef36f771e0f7653a0ec5641d8e4db4ca5722c84d6d16fd5850d007e9262fea
+source_hash: 56da62b3844228c4143e81466c6377bb595c88fb9f559b2e7bb832d9bdfeb975
 ---
 
-# Tagliere - La superficie sotto il bordo
+# Tagliere
 
 Un tagliere non è solo un luogo dove mettere il cibo. È la superficie che il bordo incontra alla fine di quasi ogni taglio. Per questo motivo, il tagliere fa parte del sistema di taglio: influisce sulla vita di bordo, sul tatto di taglio, sull'igiene alimentare e, nel tempo, sulla vita utile del coltello stesso.
 

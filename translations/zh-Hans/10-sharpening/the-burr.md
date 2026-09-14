@@ -1,8 +1,8 @@
 ---
-source_hash: ce02538288b51675f052c398fb903baf8411b921a3e752484e9e2b7b16781523
+source_hash: ae44b5e74dc11fbdd81cfe5ee9ef0abeb9b108a8ed5aa50744b5c48e9ec05073
 ---
 
-# 理解和清除Burr
+# 伯尔人
 
 堡垒是初学者最清楚的证明 石块已经到达最前沿
 

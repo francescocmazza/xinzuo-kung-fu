@@ -1,8 +1,8 @@
 ---
-source_hash: 4fcee1b1c19acf4b064289b3201587465a6488f2ff0a566c5f284a8dd8f983d7
+source_hash: 9f2b5569ea6b38ce5267cc1134774737e394f7015a1d2d85ef71d4114e39369f
 ---
 
-# L'effetto auto-dividente nelle lame complete di Damasco
+# Abbigliamento differenziale in lame full-Damascus
 
 In una lama full-Damascus, gli acciai alternati continuano fino al tagliente. Se questi materiali mantengono un diverso comportamento di usura, possono indossare a ritmi leggermente diversi durante l'uso. L'apice sviluppa o conserva una variazione microscopica simile ai denti che lo aiuta a mantenere ** morso tagliente** come il bordo indossa.
 

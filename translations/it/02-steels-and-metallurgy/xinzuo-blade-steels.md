@@ -1,8 +1,8 @@
 ---
-source_hash: fde1c09822c7406b80719fba7ced37a4933a4bcbf331b5314ebd8e36a072b163
+source_hash: efa79a2dd081ea2462e6b2d44d06cf6656fbbcf35ac8305de455e127a3d05cf6
 ---
 
-# Xinzuo Blade Steels: diversi saldi per coltelli diversi
+# Xinzuo Blade Steels
 
 Xinzuo utilizza molti acciai a lama perché diversi coltelli, utenti e compiti richiedono diversi equilibri di durezza, ritenzione dei bordi, risposta all'affilatura, resistenza alla corrosione e resistenza. Questo capitolo spiega il ruolo pratico di ogni materiale nella gamma attuale.
 
@@ -179,7 +179,7 @@ Xinzuo utilizza anche costruzioni a strati tra cui rivestimenti tradizionali Dam
 
 Il conteggio dei livelli non misura direttamente la nitidezza. In una lama con anima e piastra, l'acciaio con anima controlla il comportamento metallurgico all'apice; la costruzione della lama e la geometria del bordo determinano poi come viene utilizzato quel materiale. Gli strati decorativi in rame o ottone possono creare forti contrasti senza rendere il bordo intrinsecamente più nitido.
 
-Le costruzioni Full-Damascus differiscono perché i materiali alternati possono continuare attraverso il bordo e influenzare l'usura lì. [L'effetto auto-dividente nelle lame complete di Damasco](../03-blade-construction/self-sharpening-full-damascus.md) spiega quando l'usura differenziale può svilupparsi e perché deve essere verificata sul materiale finito a strati. Non significa che l'affilatura normale diventa inutile.
+Le costruzioni Full-Damascus differiscono perché i materiali alternati possono continuare attraverso il bordo e influenzare l'usura lì. [Abbigliamento differenziale in lame full-Damascus](../03-blade-construction/self-sharpening-full-damascus.md) spiega quando l'usura differenziale può svilupparsi e perché deve essere verificata sul materiale finito a strati. Non significa che l'affilatura normale diventa inutile.
 
 ## Comprendere la gamma di acciaio Xinzuo
 
