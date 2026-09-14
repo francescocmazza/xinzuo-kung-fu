@@ -45,6 +45,15 @@ def main() -> int:
         'format="A5"',
         "Chromium paper format",
     )
+    exporter = replace_checked(
+        exporter,
+        "  const h1 = clone.querySelector('h1');\n  return { title: h1 ? h1.textContent.trim() : '', html: clone.innerHTML };",
+        "  if (window.location.pathname.includes('/02-steels-and-metallurgy/xinzuo-blade-steels/')) {\n"
+        "    clone.querySelector('table')?.classList.add('kb-steel-comparison');\n"
+        "  }\n\n"
+        "  const h1 = clone.querySelector('h1');\n  return { title: h1 ? h1.textContent.trim() : '', html: clone.innerHTML };",
+        "Xinzuo steel comparison print marker",
+    )
     EXPORTER.write_text(exporter, encoding="utf-8")
 
     css = PRINT_CSS.read_text(encoding="utf-8")
@@ -69,57 +78,58 @@ def main() -> int:
     for old, new, label in replacements:
         css = replace_checked(css, old, new, label)
 
-    # The Xinzuo Blade Steels chapter is chapter 12 in the current publication
-    # navigation. Its first table is the large five-column steel comparison.
-    # Keep the source table complete and optimize only its A5 print rendering:
-    # narrower technical columns, more width for the two explanatory columns,
-    # tighter cell spacing and a modest font reduction. This saves vertical
-    # space primarily by reducing line wrapping, rather than deleting content.
+    # Preserve every comparison point in the source table and optimize only its
+    # A5 print rendering. The exporter marks the first table in the Xinzuo Blade
+    # Steels chapter with a stable class derived from its URL, so this remains
+    # correct even if chapters are added or reordered later. Narrow technical
+    # columns leave more width for the explanatory columns, while reduced cell
+    # spacing and a modest font reduction save vertical space without deleting
+    # information.
     steel_table_css = """
 
 /* ---------- A5 compact Xinzuo steel comparison ---------- */
-#chapter-12 table:first-of-type {
+.kb-steel-comparison {
   table-layout: fixed;
   margin: 0.65rem 0 0.8rem;
   font-size: 0.78rem;
   line-height: 1.28;
 }
 
-#chapter-12 table:first-of-type th,
-#chapter-12 table:first-of-type td {
+.kb-steel-comparison th,
+.kb-steel-comparison td {
   padding: 0.18rem 0.26rem;
   vertical-align: top;
   hyphens: auto;
   overflow-wrap: anywhere;
 }
 
-#chapter-12 table:first-of-type th {
+.kb-steel-comparison th {
   line-height: 1.18;
 }
 
-#chapter-12 table:first-of-type th:nth-child(1),
-#chapter-12 table:first-of-type td:nth-child(1) {
+.kb-steel-comparison th:nth-child(1),
+.kb-steel-comparison td:nth-child(1) {
   width: 15%;
 }
 
-#chapter-12 table:first-of-type th:nth-child(2),
-#chapter-12 table:first-of-type td:nth-child(2) {
+.kb-steel-comparison th:nth-child(2),
+.kb-steel-comparison td:nth-child(2) {
   width: 15%;
 }
 
-#chapter-12 table:first-of-type th:nth-child(3),
-#chapter-12 table:first-of-type td:nth-child(3) {
+.kb-steel-comparison th:nth-child(3),
+.kb-steel-comparison td:nth-child(3) {
   width: 13%;
   text-align: center;
 }
 
-#chapter-12 table:first-of-type th:nth-child(4),
-#chapter-12 table:first-of-type td:nth-child(4) {
+.kb-steel-comparison th:nth-child(4),
+.kb-steel-comparison td:nth-child(4) {
   width: 30%;
 }
 
-#chapter-12 table:first-of-type th:nth-child(5),
-#chapter-12 table:first-of-type td:nth-child(5) {
+.kb-steel-comparison th:nth-child(5),
+.kb-steel-comparison td:nth-child(5) {
   width: 27%;
 }
 """
