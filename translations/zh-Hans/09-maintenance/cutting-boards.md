@@ -1,5 +1,5 @@
 ---
-source_hash: cd733131de515483e9231673a219dbfdc48d5208c22e6841550d6299c407fb7e
+source_hash: 854d7bbd59e058e285f9f76394abfc88cee919ee0e8e6136ff1d196dd776f5c2
 ---
 
 # 切割板
@@ -25,7 +25,7 @@ source_hash: cd733131de515483e9231673a219dbfdc48d5208c22e6841550d6299c407fb7e
 想象一下木质是一捆非常小的稻草。 在传统的“ 边缘- 草质** ” 板上, 长的纤维主要与表面平行, 所以刀子往往会穿过它们。 在“ 末端- 草质** ” 板上, 纤维的端点会向上移动。 因此, 刀子可以在** 纤维之间部分移动, 纤维在边缘上略为分离和伸缩, 而不是表现出同样的连续的交叉阻力 。
 
 <figure class="kb-learning-figure" data-visual-id="VIS-CUTTING-BOARD-END-GRAIN-01">
-<img src="../../assets/diagrams/end-grain-cutting-board-numbered.jpg" alt="Numbered diagram showing a knife entering an end-grain cutting board and the wood fibres separating around the edge." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
+<img src="../../assets/images/approved/end-grain-cutting-board-numbered.jpg" alt="Numbered diagram showing a knife entering an end-grain cutting board and the wood fibres separating around the edge." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
 <figcaption>
 <strong>收割原则。</strong> 1: 边缘在切口结束时到达板块。 2: 刀插在被暴露纤维的端口之间。 3: 纤维偏转,在刀片周围稍有分离。 4: 纤维垂直穿过板块,而不是主要穿过切口。
 </figcaption>
