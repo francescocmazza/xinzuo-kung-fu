@@ -1,5 +1,5 @@
 ---
-source_hash: b8e48350f0646e09146adb3c1d0b78ca3e34f32fdec3e4ade14203ca78a11ae1
+source_hash: 46a857ecadfe9b9d728e4cce87d118346dfcb85b1a300f785f57e5b7f622ff4d
 ---
 
 # Prefazione
@@ -11,6 +11,14 @@ Questo è lo spirito di questo libro. Un coltello da cucina sembra semplice, ma 
 Questo libro fornisce una base tecnica e pratica per sviluppare tale competenza. Non può sostituire anni di esperienza professionale, e la lettura da sola non può creare padronanza. Il suo scopo è quello di rendere la pratica più efficace: per aiutare il lettore a osservare attentamente, capire le soluzioni stabilite, porre domande migliori e imparare più velocemente dall'esperienza. *Gongfu* inizia imparando ciò che gli altri hanno scoperto, quindi pratica fino a quando tali principi possono essere compresi, giudicati, adattati e alla fine migliorati.
 
 Il libro combina lo studio personale e l'esperienza con le conoscenze tratte dal lavoro di Xinzuo nello sviluppo dei prodotti, nella produzione, nella sperimentazione e nel contatto diretto con gli utenti professionali e domestici. Questa prospettiva pratica consente di esaminare i principi generali della progettazione e dell'uso dei coltelli attraverso decisioni concrete su materiali, processi, geometrie e costruzioni. L'obiettivo non è semplicemente quello di descrivere i coltelli Xinzuo, ma di utilizzarli come esempi concreti attraverso i quali il lettore può sviluppare il giudizio necessario per scegliere, utilizzare e curare bene un coltello da cucina.
+
+## Perché ho scritto questo libro
+
+Il progetto è iniziato all'interno di Xinzuo con un bisogno molto pratico. La conoscenza di acciai, trattamento termico, geometria della lama, costruzione, affilatura e utilizzo esisteva in diverse persone e diverse parti dell'azienda, ma non è stato sempre raccolto in un unico luogo. La risposta alla domanda di un nuovo collega non dovrebbe dipendere da chi è disponibile quel giorno.
+
+La mia prima idea è stata quindi un manuale di allenamento interno: una base tecnica comune per il team, abbastanza precisa da essere attendibile, abbastanza semplice da essere ricordata e abbastanza pratica da essere dimostrata con un coltello in mano. Con la crescita del materiale, tuttavia, è emerso chiaramente che le domande poste da un nuovo membro del personale erano spesso le stesse domande poste da cuochi, appassionati e clienti. Una spiegazione che aiuta un collega a confrontare due coltelli può anche aiutare un cuoco domestico a scegliere più intelligentemente, lavorare più sicuro, affinare con più fiducia e capire cosa stanno pagando.
+
+È così che un manuale interno è diventato un libro per tutti.
 
 ## Perché questo libro è su Xinzuo
 

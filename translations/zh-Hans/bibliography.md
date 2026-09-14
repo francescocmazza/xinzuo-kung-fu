@@ -1,5 +1,5 @@
 ---
-source_hash: 207ccbe3efc7377d4a62211634837a7aa5a5a0af59bfcb9b50d1c53e5e5c3a43
+source_hash: 8cec66de3832ce2fafc77d6c725a7bfc7ce3197f0ca38ed121e740f75e46b020
 ---
 
 # 参考文献
@@ -99,6 +99,18 @@ source_hash: 207ccbe3efc7377d4a62211634837a7aa5a5a0af59bfcb9b50d1c53e5e5c3a43
 
 其他形状参考: ZWILLING 描述桑都库高刀锋和紧凑的特征; 专家比较一致地确认Bunka 精细的K-tip 是更精确和微妙的前方几何。
 <!-- /bibliography-source -->
+
+<!-书目来源:09-维护/切割-板.md- >
+## 切割板 -- -- 边缘下的表面
+
+- [Dean O. Cliver等人,“塑料板和木材受细菌污染的实验”,*《食品保护杂志》,57(1)](https://pubmed.ncbi.nlm.nih.gov/31113021/)
+- [A.J.Miller等人,“具有商业食品服务维护做法的塑料和木材切割板的留置和清洁性”](https://pubmed.ncbi.nlm.nih.gov/31195548/)
+- [Anja Bischoff、Thomas Alter和Antje Schoenknecht,“木板的卫生评估:微生物参数”,*《食品保护杂志》,88(9),2025年。](https://pubmed.ncbi.nlm.nih.gov/40609863/)
+- [Himani Yadav等人,“食谱板:人类食物中微塑料的受忽视来源”* *环境科学与技术* 57(22),2023, doi:10.1021/acs.est.3c00924](https://pubmed.ncbi.nlm.nih.gov/37220346/)
+- [Hai-Jun Gan等人,“切除板的模拟微塑料释放和对老鼠中的不适性炎和粗微生物量的评估”,*《环境健康展望》133,2025年。](https://pubmed.ncbi.nlm.nih.gov/40042913/)
+- [USDA 食品安全和检查服务,切割委员会](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cutting-boards)
+- [Rui Xu等人,“竹子中硅和花粉分布法(Ferrocalamus strictus):不同器官和年龄的差异”,*《Palaeobotany和Palynlogy评论》,311,2023年。](https://www.sciencedirect.com/science/article/pii/S0034666722002159)
+<! -/书目来源 -- >
 
 <!-- bibliography-source: 10-sharpening/whetstone-preparation.md -->
 ## 准备水石

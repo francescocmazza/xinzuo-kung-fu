@@ -1,5 +1,5 @@
 ---
-source_hash: 1d08f67b5a6a36853b1e6571c97618bb7aac36ab5ee6e50481a109322cc40cfd
+source_hash: 89b71832f59539760da75c2d6152a1b1250d81f23763c05c3986874661269c6d
 ---
 
 # Bibliografia
@@ -99,6 +99,18 @@ Tutte le fonti bibliografiche, tecniche e storiche citate in tutto il libro sono
 
 Ulteriori riferimenti di forma: ZWILING descrive la caratteristica lama alta e il profilo compatto del Santoku; i confronti specialistici identificano costantemente la sottile punta K del Bunka come la geometria frontale più precisa e delicata.
 <!-- /bibliography-source -->
+
+<!-- bibliografia-fonte: 09-manutenzione/taglio-lavagne.md -->
+## Tagliere - La superficie sotto il bordo
+
+- [Dean O. Cliver et al., "Cutting Boards of Plastic and Wood Contaminated Experimentally with Batteria," *Journal of Food Protection* 57(1)](https://pubmed.ncbi.nlm.nih.gov/31113021/)
+- [A. J. Miller et al., "Ritenzione e pulizia dei taglieri di plastica e legno con pratiche commerciali di manutenzione del servizio alimentare"](https://pubmed.ncbi.nlm.nih.gov/31195548/)
+- [Anja Bischoff, Thomas Alter e Antje Schoenknecht, "Hygienic Evaluation of Wooden Cutting Boards: Microbiological Parameters," *Journal of Food Protection* 88(9), 2025](https://pubmed.ncbi.nlm.nih.gov/40609863/)
+- [Himani Yadav et al., "Cutting Boards: An Overlooked Source of Microplastics in Human Food?"*Environmental Science & Technology* 57(22), 2023, doi:10.1021/acs.est.3c00924](https://pubmed.ncbi.nlm.nih.gov/37220346/)
+- [Hai-Jun Gan et al., "Simulated Microplastic Release from Cutting Boards and Evaluation of Intestinal Infiammazione and Gut Microbiota in Mice," *Perspectives Environment Health* 133, 2025](https://pubmed.ncbi.nlm.nih.gov/40042913/)
+- [USDA Servizio di sicurezza e ispezione alimentare, Tagliere](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cutting-boards)
+- [Rui Xu et al., "Caratteristiche della distribuzione del silicio e del fitolito in bambù (Ferrocalamus strictus): variazioni tra diversi organi e età," *Recensione di Palaeobotany e Palinologia* 311, 2023](https://www.sciencedirect.com/science/article/pii/S0034666722002159)
+<!-- /bibliografia-fonte -->
 
 <!-- bibliography-source: 10-sharpening/whetstone-preparation.md -->
 ## Preparazione delle pietre d'acqua
