@@ -59,6 +59,17 @@ class PublicationMetadata:
     def revision_slug(self) -> str:
         return f"Revision-{self.revision}"
 
+    # Temporary compatibility aliases for callers that still use the old
+    # internal attribute names. Their rendered value already uses the new
+    # public Revision nomenclature, never the legacy vXYZ format.
+    @property
+    def version(self) -> int:
+        return self.revision
+
+    @property
+    def version_label(self) -> str:
+        return self.revision_label
+
     @property
     def compact_footer(self) -> str:
         """Language-neutral form suitable for every locale without translation."""
