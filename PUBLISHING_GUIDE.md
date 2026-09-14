@@ -24,7 +24,7 @@ For an ordinary content change:
 6. Simplified Chinese is explicitly generated as Simplified Mandarin (`cmn_Hans`).
 7. Strict multilingual validation runs after the refresh. The PR must report `0 missing, 0 stale`.
 8. Merge the PR when the English edit and checks are correct.
-9. On the resulting push to `main`, the same workflow refreshes translations again, commits changed files under `translations/` back to `main`, builds from that committed state, and deploys GitHub Pages.
+9. On the resulting push to `main`, the publication workflow locks the next revision number, refreshes translations, builds every active language, exports the PDFs and downloadable packages, publishes the numbered GitHub Release and deploys GitHub Pages.
 
 You therefore do **not** need to manually ask Claude Code to translate Italian and Chinese after every English edit.
 
@@ -116,7 +116,7 @@ If the English meaning is wrong, change English first and let the automatic refr
 2. Add it to `mkdocs.yml` if it should appear in navigation.
 3. Open a PR.
 4. Automatic translation creates the missing Italian and Simplified Chinese pages in the CI workspace and strict validation checks them.
-5. After merge, the `main` workflow commits the generated active translations to the repository and deploys them.
+5. After merge, the `main` workflow commits the generated active translations to the repository and publishes the next complete revision.
 
 ## Renaming, moving, or deleting an article
 
@@ -136,25 +136,26 @@ content/en/assets/
 
 Only original, properly licensed, or explicitly authorized images may be published. See `content/en/assets/IMAGE_RIGHTS.md`.
 
-## GitHub Pages deployment
+## GitHub Pages deployment and complete revisions
 
-The public site is published by:
+The public site and downloadable edition are published by:
 
-**Actions → Deploy The Gongfu of Xinzuo to GitHub Pages**
+**Actions → Publish book, PDFs and GitHub Pages**
 
-On pull requests the workflow refreshes translations in the temporary Actions workspace and validates them, but does not deploy.
+On pull requests the supporting workflows refresh translations in the temporary Actions workspace and validate/export them, but they do not create a new revision.
 
-On `main` it:
+On `main` the publication workflow:
 
-1. resolves and locks one sequential publication version for the entire workflow run;
-2. refreshes stale translations;
-3. commits changed translation files using `github-actions[bot]`;
-4. runs the strict multilingual build from the resulting committed state;
-5. exports and verifies the numbered downloadable release;
-6. uploads the Pages artifact;
-7. deploys the site.
+1. counts completed historical publications and resolves one sequential **Revision** number;
+2. locks that Revision number for the entire workflow run;
+3. refreshes stale translations;
+4. commits changed translation files using `github-actions[bot]` when necessary;
+5. runs the strict multilingual build from the resulting committed state;
+6. exports the three PDFs and the HTML/Markdown packages;
+7. publishes and verifies the numbered GitHub Release;
+8. uploads the Pages artifact and deploys the site.
 
-The bot commit uses the repository `GITHUB_TOKEN`, preventing a recursive second push workflow while the current deployment continues.
+The bot commit uses the repository `GITHUB_TOKEN`, preventing a recursive second push workflow while the current deployment continues. Because the Revision number is locked before that commit is created, automatic translation commits do not change the Revision number.
 
 ## Downloadable multilingual export
 
@@ -167,11 +168,17 @@ html/      complete built website for every active locale
 markdown/  per-locale source trees used for that build
 ```
 
+This is an export operation, not a publication, so it does not consume a new Revision number.
+
 ## Official GitHub Releases
 
-The normal `main` publishing workflow creates a permanent numbered GitHub Release together with the website publication. Every completed numbered edition contains the three PDFs, HTML archive, Markdown archive and SHA-256 checksums.
+The normal `main` publication workflow creates one permanent GitHub Release for every complete Revision. New-style release tags use the machine-friendly form `revision-N`, while the reader-facing nomenclature is **Revision N**.
 
-The latest downloadable edition is always available from the repository's **Releases** menu and the “Download the latest official release” link in `README.md`.
+A Revision is considered complete only when the release has the full publication package: English PDF, Italian PDF, Simplified Chinese PDF, HTML archive, Markdown archive and SHA-256 checksum file.
+
+The latest downloadable Revision is always available from the repository's **Releases** menu and the “Download the latest official release” link in `README.md`.
+
+The old manual semantic-version release workflow has been removed so it cannot create a parallel `v1.0.0`/`vXYZ` numbering scheme.
 
 ## PDF export
 
@@ -184,20 +191,22 @@ Go to **Actions → Export PDF guides → Run workflow** and choose:
 
 For Italian, Simplified Chinese, or `all`, stale active translations are refreshed automatically before PDF generation. English-only PDF exports skip the translation-model installation.
 
-The generated artifact contains the current requested PDF guide(s). CJK exports continue to install Noto fonts for full character coverage.
+The generated artifact contains the current requested PDF guide(s). CJK exports continue to install Noto fonts for full character coverage. A manual/test PDF export reports the latest completed Revision; it does not reserve the next Revision.
 
-## Sequential version numbers and publication dates
+## Revision numbers and publication dates
 
 Website pages, PDFs and release packages use the shared publication metadata implementation in `scripts/publication_metadata.py`.
 
-- **Version:** sequential publication number. Ordinary commits do not increment it.
-- At the start of a `main` publication, the workflow inspects numbered GitHub Releases (`edition-vN`) and locks one candidate version for the entire run.
-- If the latest numbered release is complete with all six expected downloadable assets, the new publication is exactly `N + 1`.
-- If the latest numbered release is incomplete, the workflow reuses the same `N` so a failed publication does not consume or skip a version number.
-- Automatic translation commits created during a publication do not change its locked version.
+- **Public nomenclature:** `Revision N`.
+- **Meaning:** `N` is the number of complete published revisions, not the number of commits, workflow runs or attempted releases.
+- Historical `edition-vXYZ` releases remain archived unchanged for traceability, but their `vXYZ` number is not carried into the new nomenclature.
+- There are **49 complete historical numbered publications through the legacy `v372` release**. Therefore that current legacy publication corresponds to **Revision 49**.
+- The first new-style publication is therefore **Revision 50**.
+- After that the sequence is strictly `Revision 50`, `Revision 51`, `Revision 52`, and so on.
+- Ordinary commits do not increment the Revision.
+- Failed publication attempts do not increment the Revision. If a new-style release is incomplete, the next publication attempt reuses the same Revision number.
+- Automatic translation commits created during publication do not change the locked Revision number.
 - **Date:** actual build/export date in `Europe/Rome`, formatted `YYYY-MM-DD`.
-
-For example, after a complete `v372`, the next successful publication is `v373`, regardless of how many commits were created in between.
 
 ## Important rules
 
