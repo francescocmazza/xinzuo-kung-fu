@@ -3,7 +3,7 @@ title: Preface
 author: Francesco Claudio Mazza
 status: review
 language: en
-reviewed: 2026-09-13
+reviewed: 2026-09-14
 ---
 
 # Preface
@@ -18,11 +18,15 @@ The book combines personal study and experience with knowledge drawn from Xinzuo
 
 ## Why I wrote this book
 
-The project began inside Xinzuo with a very practical need. Knowledge about steels, heat treatment, blade geometry, construction, sharpening and use existed across different people and different parts of the company, but it was not always collected in one place. The answer to a new colleague's question should not depend on who happens to be available that day.
+This project began inside Xinzuo from a practical company need: **to train the people who work with our knives**. Knowledge about steels, heat treatment, blade geometry, construction, sharpening, use and maintenance existed across different people and different parts of the company, but it was not always collected in one place. A colleague learning how to explain, recommend or support a product should have access to the same dependable technical foundation regardless of who happens to be available to teach them that day.
 
-My first idea was therefore an internal training manual: a common technical foundation for the team, accurate enough to be trusted, simple enough to be remembered and practical enough to be demonstrated with a knife in the hand. As the material grew, however, it became clear that the questions asked by a new member of staff were often the same questions asked by cooks, enthusiasts and customers. An explanation that helps a colleague compare two knives can also help a home cook choose more intelligently, work more safely, sharpen with more confidence and understand what they are paying for.
+The first purpose of the book is therefore still the one that gave birth to it. **It is intended to be a principal training guide for Xinzuo staff and for people who need to understand these products professionally.** It should provide a shared language and a practical body of knowledge that can support product training, demonstrations, customer advice and day-to-day work.
 
-That is how an internal manual became a book for everyone.
+As the material grew, however, another point became increasingly clear: the questions asked by a new member of staff are often the same questions asked by cooks, enthusiasts, students, customers and people who are simply curious about knives. Why does one steel behave differently from another? What does forging really mean? Why does balance change with the grip? Why are two apparently similar knives designed differently? These are not questions that belong only to people who work in the knife industry.
+
+That realization did not replace the original training purpose; it added a second one. **This book is also intended to make the world of kitchen knives easier to understand for a much wider public, including readers with no professional connection to the sector.** It aims to share technical knowledge in a form that remains rigorous enough for training while being clear and useful to anyone who wants to understand the materials, manufacturing choices, geometry, sharpening, use and care behind a good kitchen knife.
+
+The book therefore has two connected roles: **a working foundation for professional training and a public guide for learning and dissemination**. The same explanation should help a colleague advise a customer more accurately and help an interested reader make a more informed choice, use a knife more safely or simply understand a subject they find fascinating.
 
 ## Why this book is about Xinzuo
 
