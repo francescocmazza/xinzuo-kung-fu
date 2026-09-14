@@ -1,28 +1,30 @@
 #!/usr/bin/env python3
-"""Shared publication metadata: version, date and commit SHA.
+"""Shared publication metadata: revision, date and commit SHA.
 
 Both the website build (``multilingual_site.py``) and the PDF export
-(``export_pdf_guides.py``) call this module so the two publication
-channels always agree on the version number and never compute it
-independently.
+(``export_pdf_guides.py``) call this module so every publication channel
+uses the same revision number.
 
-Publication versions are sequential edition numbers, not commit counts.
-The main publishing workflow resolves one candidate version at the start
-of a run from the numbered GitHub Releases and exports it through the
-``PUBLICATION_VERSION`` environment variable. That value remains fixed
-for the whole run, including any automatic translation commit created
-while publishing.
+From 2026-09-14 onward the public nomenclature is ``Revision N``. A
+revision is a complete published edition, not a commit count. Historical
+numbered releases used tags such as ``edition-v372``; there are 49 such
+published revisions through the last legacy release. The next complete
+publication is therefore ``Revision 50``.
+
+The main publishing workflow resolves one candidate revision at the start
+of a run and exports it through ``PUBLICATION_REVISION``. That value stays
+fixed for the whole run, including automatic translation commits.
 
 For local/manual builds where the environment variable is absent:
 
-- if HEAD is already tagged ``edition-vN``, the build reports ``vN``;
-- otherwise the build reports one more than the highest local
-  ``edition-vN`` tag;
-- a repository with no numbered edition tags starts at ``v1``.
+- if HEAD is tagged ``revision-N``, report ``Revision N``;
+- otherwise, if revision tags already exist, use the highest revision + 1;
+- before the first new-style revision tag exists, continue from the 49
+  historical complete numbered releases, so the candidate is Revision 50.
 
-This means ordinary commits never consume edition numbers. A failed
-publication can retry the same candidate version, while a completed
-publication advances the next edition by exactly one.
+Ordinary commits never consume revision numbers. A failed publication can
+retry the same candidate revision; only a complete publication advances
+the next revision by one.
 """
 
 from __future__ import annotations
@@ -37,29 +39,34 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLICATION_TIMEZONE = ZoneInfo("Europe/Rome")
-PUBLICATION_VERSION_ENV = "PUBLICATION_VERSION"
-EDITION_TAG_RE = re.compile(r"^edition-v([1-9][0-9]*)$")
+PUBLICATION_REVISION_ENV = "PUBLICATION_REVISION"
+REVISION_TAG_RE = re.compile(r"^revision-([1-9][0-9]*)$")
+LEGACY_COMPLETE_REVISION_COUNT = 49
 
 
 @dataclass(frozen=True)
 class PublicationMetadata:
-    version: int
+    revision: int
     commit_sha: str
     commit_sha_short: str
     publication_date: str  # ISO YYYY-MM-DD, Europe/Rome calendar date
 
     @property
-    def version_label(self) -> str:
-        return f"v{self.version}"
+    def revision_label(self) -> str:
+        return f"Revision {self.revision}"
+
+    @property
+    def revision_slug(self) -> str:
+        return f"Revision-{self.revision}"
 
     @property
     def compact_footer(self) -> str:
         """Language-neutral form suitable for every locale without translation."""
-        return f"{self.version_label} · {self.publication_date}"
+        return f"{self.revision_label} · {self.publication_date}"
 
     @property
     def full_label(self) -> str:
-        return f"Version {self.version} · commit {self.commit_sha_short}"
+        return f"{self.revision_label} · commit {self.commit_sha_short}"
 
 
 def _run_git(args: list[str]) -> str:
@@ -69,38 +76,41 @@ def _run_git(args: list[str]) -> str:
     return result.stdout.strip()
 
 
-def _tag_version(tag: str) -> int | None:
-    match = EDITION_TAG_RE.fullmatch(tag.strip())
+def _tag_revision(tag: str) -> int | None:
+    match = REVISION_TAG_RE.fullmatch(tag.strip())
     return int(match.group(1)) if match else None
 
 
-def _versions_from_tag_output(output: str) -> list[int]:
-    versions: list[int] = []
+def _revisions_from_tag_output(output: str) -> list[int]:
+    revisions: list[int] = []
     for line in output.splitlines():
-        version = _tag_version(line)
-        if version is not None:
-            versions.append(version)
-    return versions
+        revision = _tag_revision(line)
+        if revision is not None:
+            revisions.append(revision)
+    return revisions
 
 
-def get_version() -> int:
-    """Return the fixed publication version for this build/export run."""
-    override = os.environ.get(PUBLICATION_VERSION_ENV, "").strip()
+def get_revision() -> int:
+    """Return the fixed complete-publication revision for this build/export run."""
+    override = os.environ.get(PUBLICATION_REVISION_ENV, "").strip()
     if override:
         if not override.isdigit() or int(override) < 1:
             raise ValueError(
-                f"{PUBLICATION_VERSION_ENV} must be a positive integer, got {override!r}"
+                f"{PUBLICATION_REVISION_ENV} must be a positive integer, got {override!r}"
             )
         return int(override)
 
-    exact_tags = _versions_from_tag_output(
-        _run_git(["tag", "--points-at", "HEAD", "--list", "edition-v*"])
+    exact_tags = _revisions_from_tag_output(
+        _run_git(["tag", "--points-at", "HEAD", "--list", "revision-*"])
     )
     if exact_tags:
         return max(exact_tags)
 
-    all_tags = _versions_from_tag_output(_run_git(["tag", "--list", "edition-v*"]))
-    return max(all_tags, default=0) + 1
+    all_tags = _revisions_from_tag_output(_run_git(["tag", "--list", "revision-*"]))
+    if all_tags:
+        return max(all_tags) + 1
+
+    return LEGACY_COMPLETE_REVISION_COUNT + 1
 
 
 def get_commit_sha() -> tuple[str, str]:
@@ -116,7 +126,7 @@ def get_publication_date() -> str:
 def get_metadata() -> PublicationMetadata:
     full_sha, short_sha = get_commit_sha()
     return PublicationMetadata(
-        version=get_version(),
+        revision=get_revision(),
         commit_sha=full_sha,
         commit_sha_short=short_sha,
         publication_date=get_publication_date(),
@@ -131,8 +141,9 @@ def main() -> int:
     print(
         json.dumps(
             {
-                "version": meta.version,
-                "version_label": meta.version_label,
+                "revision": meta.revision,
+                "revision_label": meta.revision_label,
+                "revision_slug": meta.revision_slug,
                 "commit_sha": meta.commit_sha,
                 "commit_sha_short": meta.commit_sha_short,
                 "publication_date": meta.publication_date,
