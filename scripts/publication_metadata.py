@@ -6,24 +6,29 @@ Both the website build (``multilingual_site.py``) and the PDF export
 channels always agree on the version number and never compute it
 independently.
 
-The version is the number of commits reachable from the checked-out
-commit (``git rev-list --count HEAD``). It is purely derived from
-existing repository history:
+Publication versions are sequential edition numbers, not commit counts.
+The main publishing workflow resolves one candidate version at the start
+of a run from the numbered GitHub Releases and exports it through the
+``PUBLICATION_VERSION`` environment variable. That value remains fixed
+for the whole run, including any automatic translation commit created
+while publishing.
 
-- it never requires a manual edit or a dedicated "bump version" commit;
-- the same commit always produces the same version number, on the
-  website and in a PDF export alike;
-- re-running an export against an unchanged commit keeps the same
-  version number and only the export date changes.
+For local/manual builds where the environment variable is absent:
 
-Getting an accurate count in CI requires a full checkout (GitHub's
-``actions/checkout`` defaults to a shallow, single-commit clone, which
-would make every build report version 1); the workflows that use this
-module set ``fetch-depth: 0`` accordingly.
+- if HEAD is already tagged ``edition-vN``, the build reports ``vN``;
+- otherwise the build reports one more than the highest local
+  ``edition-vN`` tag;
+- a repository with no numbered edition tags starts at ``v1``.
+
+This means ordinary commits never consume edition numbers. A failed
+publication can retry the same candidate version, while a completed
+publication advances the next edition by exactly one.
 """
 
 from __future__ import annotations
 
+import os
+import re
 import subprocess
 from dataclasses import dataclass
 from datetime import datetime
@@ -32,6 +37,8 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLICATION_TIMEZONE = ZoneInfo("Europe/Rome")
+PUBLICATION_VERSION_ENV = "PUBLICATION_VERSION"
+EDITION_TAG_RE = re.compile(r"^edition-v([1-9][0-9]*)$")
 
 
 @dataclass(frozen=True)
@@ -62,8 +69,38 @@ def _run_git(args: list[str]) -> str:
     return result.stdout.strip()
 
 
+def _tag_version(tag: str) -> int | None:
+    match = EDITION_TAG_RE.fullmatch(tag.strip())
+    return int(match.group(1)) if match else None
+
+
+def _versions_from_tag_output(output: str) -> list[int]:
+    versions: list[int] = []
+    for line in output.splitlines():
+        version = _tag_version(line)
+        if version is not None:
+            versions.append(version)
+    return versions
+
+
 def get_version() -> int:
-    return int(_run_git(["rev-list", "--count", "HEAD"]))
+    """Return the fixed publication version for this build/export run."""
+    override = os.environ.get(PUBLICATION_VERSION_ENV, "").strip()
+    if override:
+        if not override.isdigit() or int(override) < 1:
+            raise ValueError(
+                f"{PUBLICATION_VERSION_ENV} must be a positive integer, got {override!r}"
+            )
+        return int(override)
+
+    exact_tags = _versions_from_tag_output(
+        _run_git(["tag", "--points-at", "HEAD", "--list", "edition-v*"])
+    )
+    if exact_tags:
+        return max(exact_tags)
+
+    all_tags = _versions_from_tag_output(_run_git(["tag", "--list", "edition-v*"]))
+    return max(all_tags, default=0) + 1
 
 
 def get_commit_sha() -> tuple[str, str]:
