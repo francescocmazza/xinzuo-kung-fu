@@ -7,7 +7,7 @@ reviewed: 2026-09-13
 translation_priority: high
 ---
 
-# Heat Treatment and Carbides: Turning Composition into a Blade
+# Heat Treatment and Carbides
 
 A steel grade is a composition, not finished performance. Composition tells us which elements are present and which internal structures are possible. **Heat treatment decides which structures develop in the blade and in what proportions.**
 
