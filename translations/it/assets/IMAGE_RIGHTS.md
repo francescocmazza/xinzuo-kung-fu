@@ -1,5 +1,5 @@
 ---
-source_hash: fa8c2ada4c372588a89f33d4bcbc54b3c4ee1b28faa075afefa366e1c23fa518
+source_hash: 11c92364063747311e2136839742984764418add896a98c708598d3a0ec5c70d
 ---
 
 # Diritti di immagine
@@ -34,6 +34,7 @@ Le seguenti immagini approvate in `assets/images/approved/` sono ritagliati o ad
 - `damascus-pattern-knives-neutral.png`
 - `stable-whetstone-neutral.png`
 - `asian-handle-exploded.jpg` (immagine del prodotto con maniglia asiatica Xinzuo esplosa fornita dal proprietario del repository)
+- `PM8O Schematics.png` (schema di maniglia asiatica Xinzuo approvato fornito dal proprietario del repository e utilizzato come immagine sorgente per la figura di anatomia etichettata maniglia asiatica)
 - tutte le immagini del prodotto recensite singolarmente in `knife-shapes/*.jpg`, compresa l'immagine curvata B9H-SG verificata fornita per `knife-shapes/paring-curved.jpg`
 
 Queste immagini, insieme a eventuali loghi Xinzuo e fotografie promozionali che potrebbero apparire altrove in questo progetto, **restano di proprietà del rispettivo titolare del copyright**. Sono incluse in questo progetto con l'autorizzazione del proprietario del repository per l'uso didattico specifico di questo libro.

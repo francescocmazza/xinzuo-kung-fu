@@ -1,5 +1,5 @@
 ---
-source_hash: 256301b0116ef77f92b72dae5e73c5ba4f583ff150d4975f4e94dc8b5ac0ce13
+source_hash: 9138b71d417b26b70a8804ccbd8b9b4738d0d61e2f682999204afeee14500c40
 ---
 
 # 厨房刀的解剖
@@ -100,7 +100,7 @@ source_hash: 256301b0116ef77f92b72dae5e73c5ba4f583ff150d4975f4e94dc8b5ac0ce13
 
 <figure class="kb-learning-figure" data-visual-id="VIS-ANATOMY-ASIAN-01">
 <div style="position:relative;width:100%;overflow:visible;background:#ffffff;">
-<img src="../../assets/images/approved/asian-handle-exploded.jpg" alt="" style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
+<img src="../../assets/images/approved/PM8O Schematics.png" alt="" style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
 <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;">
 <g fill="none" stroke="#263238" stroke-width="1.2" vector-effect="non-scaling-stroke">
 <line x1="8" y1="90" x2="3.8" y2="77"/>
