@@ -55,10 +55,10 @@ nav:
   - The Gongfu of Xinzuo: index.md
   - Anatomy of a Kitchen Knife: 00-knife-basics/anatomy-of-a-kitchen-knife.md
   - Knife Shapes and Their Uses: 05-knife-types/overview.md
-  - Weight and Balance: 05-knife-types/weight-and-balance.md
+  - Weight, Balance and Ergonomics: 05-knife-types/weight-and-balance.md
   - Master the Movement:
-      - Single and Double Bevels: 04-geometry-and-bevels/single-and-double-bevels.md
-      - How to Cut - Essential Techniques: 06-cutting-techniques/essential-cutting-techniques.md
+      - Knife Bevels: 04-geometry-and-bevels/single-and-double-bevels.md
+      - Cutting Techniques: 06-cutting-techniques/essential-cutting-techniques.md
   - Understand the Material:
       - Damascus Steel: 03-blade-construction/damascus-steel.md
       - The Five Dimensions of Knife Steel: 01-foundations/five-dimensions-of-knife-steel.md
@@ -67,13 +67,13 @@ nav:
       - Heat Treatment and Carbides: 02-steels-and-metallurgy/heat-treatment-and-carbides.md
       - Xinzuo Blade Steels: 02-steels-and-metallurgy/xinzuo-blade-steels.md
       - Xinzuo Handle Materials: 02-steels-and-metallurgy/xinzuo-handle-materials.md
-      - Self-Sharpening Full Damascus: 03-blade-construction/self-sharpening-full-damascus.md
+      - Differential Wear in Full-Damascus Blades: 03-blade-construction/self-sharpening-full-damascus.md
   - Protect the Knife:
-      - Cutting Boards - The Surface Under the Edge: 09-maintenance/cutting-boards.md
+      - Cutting Boards: 09-maintenance/cutting-boards.md
       - Routine Knife Care: 09-maintenance/routine-care.md
       - Safe Use and Carrying: 08-use-and-safety/safe-use-and-carrying.md
   - Restore the Edge:
-      - Preparing Water Stones: 10-sharpening/whetstone-preparation.md
-      - A Practical Sharpening Process: 10-sharpening/basic-sharpening-process.md
-      - Understanding the Burr: 10-sharpening/the-burr.md
+      - Sharpening Setup: 10-sharpening/whetstone-preparation.md
+      - Basic Sharpening: 10-sharpening/basic-sharpening-process.md
+      - The Burr: 10-sharpening/the-burr.md
   - Bibliography: bibliography.md
