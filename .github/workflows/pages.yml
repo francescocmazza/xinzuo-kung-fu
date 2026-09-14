@@ -57,22 +57,21 @@ jobs:
           set -euo pipefail
           legacy_complete_count="$(python -c 'from scripts.publication_metadata import LEGACY_COMPLETE_REVISION_COUNT; print(LEGACY_COMPLETE_REVISION_COUNT)')"
           highest_revision=0
-          highest_revision_asset_count=0
 
           # Historical vXYZ releases have already been audited once and are
           # represented by LEGACY_COMPLETE_REVISION_COUNT. From the new system
-          # onward, revision-N releases are checked live for completeness.
-          while IFS=$'\t' read -r tag asset_count; do
+          # onward, a revision is complete only when all six expected assets
+          # exist with their canonical Revision-N filenames.
+          while IFS= read -r tag; do
             if [[ "$tag" =~ ^revision-([0-9]+)$ ]]; then
               revision=$((10#${BASH_REMATCH[1]}))
               if (( revision > highest_revision )); then
                 highest_revision="$revision"
-                highest_revision_asset_count="$asset_count"
               fi
             fi
           done < <(
             gh api --paginate "repos/${REPOSITORY}/releases?per_page=100" \
-              --jq '.[] | select(.draft == false) | [.tag_name, (.assets | length)] | @tsv'
+              --jq '.[] | select(.draft == false) | .tag_name'
           )
 
           echo "Audited complete historical publications: ${legacy_complete_count}"
@@ -80,12 +79,25 @@ jobs:
           if (( highest_revision == 0 )); then
             publication_revision=$((legacy_complete_count + 1))
             echo "No new-style revision exists yet; next complete publication is Revision ${publication_revision}."
-          elif (( highest_revision_asset_count == 6 )); then
-            publication_revision=$((highest_revision + 1))
-            echo "Latest complete publication is Revision ${highest_revision}; next is Revision ${publication_revision}."
           else
-            publication_revision="$highest_revision"
-            echo "Revision ${highest_revision} is incomplete (${highest_revision_asset_count}/6 assets); reusing Revision ${publication_revision}."
+            revision_slug="Revision-${highest_revision}"
+            tag="revision-${highest_revision}"
+            gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > current-revision-assets.txt
+            printf '%s\n' \
+              "SHA256SUMS.txt" \
+              "The-Gongfu-of-Xinzuo-EN-${revision_slug}.pdf" \
+              "The-Gongfu-of-Xinzuo-IT-${revision_slug}.pdf" \
+              "The-Gongfu-of-Xinzuo-ZH-HANS-${revision_slug}.pdf" \
+              "the-gongfu-of-xinzuo-${revision_slug}-html.zip" \
+              "the-gongfu-of-xinzuo-${revision_slug}-markdown.zip" | sort > expected-current-revision-assets.txt
+
+            if diff -q expected-current-revision-assets.txt current-revision-assets.txt >/dev/null 2>&1; then
+              publication_revision=$((highest_revision + 1))
+              echo "Latest complete publication is Revision ${highest_revision}; next is Revision ${publication_revision}."
+            else
+              publication_revision="$highest_revision"
+              echo "Revision ${highest_revision} is incomplete or has non-canonical assets; reusing Revision ${publication_revision}."
+            fi
           fi
 
           echo "PUBLICATION_REVISION=${publication_revision}" >> "$GITHUB_ENV"
@@ -209,7 +221,15 @@ jobs:
           mkdir -p release-assets/packages/html release-assets/packages/markdown release-upload
           cp -R site/. release-assets/packages/html/
           cp -R .site-work/docs/. release-assets/packages/markdown/
-          cp release-assets/pdf/*.pdf release-upload/
+
+          # Keep reader-facing metadata as "Revision N", but use filesystem-safe
+          # Revision-N names for uploaded assets so GitHub never rewrites spaces.
+          for pdf in release-assets/pdf/*.pdf; do
+            name="$(basename "$pdf")"
+            safe_name="${name/Revision /Revision-}"
+            cp "$pdf" "release-upload/${safe_name}"
+          done
+
           (cd release-assets/packages/html && zip -qr "../../../release-upload/the-gongfu-of-xinzuo-${revision_slug}-html.zip" .)
           (cd release-assets/packages/markdown && zip -qr "../../../release-upload/the-gongfu-of-xinzuo-${revision_slug}-markdown.zip" .)
           (cd release-upload && sha256sum * > SHA256SUMS.txt)
@@ -282,9 +302,9 @@ jobs:
           gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > actual-assets.txt
           printf '%s\n' \
             "SHA256SUMS.txt" \
-            "The-Gongfu-of-Xinzuo-EN-${revision_label}.pdf" \
-            "The-Gongfu-of-Xinzuo-IT-${revision_label}.pdf" \
-            "The-Gongfu-of-Xinzuo-ZH-HANS-${revision_label}.pdf" \
+            "The-Gongfu-of-Xinzuo-EN-${revision_slug}.pdf" \
+            "The-Gongfu-of-Xinzuo-IT-${revision_slug}.pdf" \
+            "The-Gongfu-of-Xinzuo-ZH-HANS-${revision_slug}.pdf" \
             "the-gongfu-of-xinzuo-${revision_slug}-html.zip" \
             "the-gongfu-of-xinzuo-${revision_slug}-markdown.zip" | sort > expected-assets.txt
           diff -u expected-assets.txt actual-assets.txt
