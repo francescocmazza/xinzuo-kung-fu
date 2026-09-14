@@ -1,5 +1,5 @@
 ---
-title: A Practical Beginner Sharpening Method
+title: Basic Sharpening
 status: review
 audience: general-reader
 language: en
@@ -7,7 +7,7 @@ reviewed: 2026-09-09
 translation_priority: high
 ---
 
-# A Practical Beginner Sharpening Method
+# Basic Sharpening
 
 Sharpening removes steel until the two sides of the cutting edge meet again in a clean apex. A beginner does not need speed, a large collection of stones or perfect knowledge of metallurgy. The essential skills are simpler:
 
@@ -110,7 +110,7 @@ Move to a finer stone only after the first stone has reached the apex along the 
 
 Rinse and dry the knife before testing it.
 
-Do not use your fingers to test whether the knife is sharp. Finger contact at the edge is used only to detect a burr during sharpening, with the controlled perpendicular method described in [Understanding and Removing the Burr](the-burr.md). Test sharpness only by cutting suitable food or paper.
+Do not use your fingers to test whether the knife is sharp. Finger contact at the edge is used only to detect a burr during sharpening, with the controlled perpendicular method described in [The Burr](the-burr.md). Test sharpness only by cutting suitable food or paper.
 
 ### Look at the edge
 
