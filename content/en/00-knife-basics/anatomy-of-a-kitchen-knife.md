@@ -3,7 +3,7 @@ title: Anatomy of a Kitchen Knife
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-10
+reviewed: 2026-09-13
 translation_priority: highest
 source_basis: standard fixed-blade kitchen-knife construction and terminology
 ---
@@ -78,7 +78,25 @@ The **cutting edge** or **edge** is the sharpened line that enters the food. Abo
 
 The **handle** is the part held by the user, but its construction varies. On a Western **full-tang** knife, the tang runs through almost the full length and outline of the handle. **Scales** cover its sides and are usually secured with adhesive and **rivets or pins**. The exposed steel can add mass and affect balance.
 
-A **bolster** is the reinforced metal transition between blade and handle found on many Western kitchen knives. It may be integral with the blade or attached separately. It can strengthen the transition, create a comfortable finger contact point, protect the front of the handle and add mass near the hand. Some bolsters extend to the heel; others leave the edge open for easier sharpening. A bolster is not necessarily a **guard**. A guard is specifically designed to stop the hand sliding toward the edge, and many kitchen knives have no separate guard.
+A **bolster** is the reinforced metal transition between blade and handle found on many Western kitchen knives. It may be integral with the blade or manufactured as a separate component. It can strengthen the transition, create a comfortable finger contact point, protect the front of the handle and add mass near the hand. Some bolsters extend to the heel; others leave the edge open for easier sharpening. A bolster is not necessarily a **guard**. A guard is specifically designed to stop the hand sliding toward the edge, and many kitchen knives have no separate guard.
+
+On many high-quality production knives, a separate bolster is joined to the blade-and-tang assembly by **welding** and is then ground and finished as part of the complete knife. The presence of a welded joint is not, by itself, a sign of lower quality. In hurried or poorly controlled manufacture, inaccurate fit or an inadequate joint can make this transition a structurally sensitive point. When the parts fit correctly and the joint, heat control and finishing are properly executed, the bolster can instead stiffen and reinforce the blade-to-handle transition and help distribute loads through that area.
+
+A common question is why the bolster is not simply made from the same high-performance steel as the blade. The first reason is functional: the bolster does not form the cutting edge, so using an expensive specialist blade steel there usually adds material cost without improving cutting performance. A separate component allows each material to be chosen for the work it actually performs: the blade steel for edge behaviour and the bolster material for structure, corrosion resistance, finish, manufacturability and reliable joining.
+
+There is also an important manufacturing reason. If an integral bolster is produced by **machining from uniform plate or bar stock**, the starting material has to be at least as thick as the bolster even though the blade and much of the tang are far thinner. A large proportion of that expensive steel must then be removed to create the final blade geometry. This wastes both premium material and machining time. Forging can create an integral bolster by a different route and reduces the need to machine the whole knife from bolster-thickness stock, so the exact economics depend on the manufacturing process. In production based on plate or bar, however, making the bolster separately is often the more rational solution: expensive blade steel is concentrated where its properties matter instead of being consumed simply to create a thick non-cutting section.
+
+### What forging actually means
+
+**Forging is a manufacturing process, not a quality grade.** The steel remains solid and is reshaped by compressive force so that material moves from one part of the workpiece to another. Knife forging is usually done hot because heated steel requires less force to deform. A hand hammer is only one way to supply that force: power hammers, mechanical or hydraulic presses and industrial dies can all forge steel. A knife can therefore be genuinely forged without being handmade, and a hand-forged knife is not automatically a better knife.
+
+The practical contrast is with **stock removal**. In stock-removal production, a blade starts from plate or bar and reaches its profile mainly by cutting, grinding and machining material away. In forging, a billet or thicker piece of steel is first deformed toward the required distribution of material and is then still cut, ground, heat-treated and finished. Forging can be especially useful when the design needs a thick integral bolster, a local change in thickness, a tapered section or another shape that would otherwise require removing a large amount of material from uniform stock.
+
+Forging can also change the internal condition of steel during manufacture. Hot working can break down the cast structure of an ingot, redistribute segregated constituents and, under suitable conditions, help refine the structure before later processing. These effects matter in steelmaking, but they should not be turned into the claim that every forged kitchen knife is metallurgically superior. Modern blade steel normally reaches the knife maker after substantial industrial processing such as forging and rolling has already occurred at the steel mill. A knife cut from high-quality rolled plate is therefore not made from raw, untouched metal.
+
+The finished knife still depends on the steel composition, the quality of the starting stock, temperature control during forging, heat treatment, grinding, edge geometry and final workmanship. Poor forging or overheating can damage steel just as poor heat treatment can. An excellent stock-removal knife can outperform a poorly forged one, and a carefully forged knife can use its manufacturing route to create shapes or material distribution that would be inefficient by stock removal.
+
+This also explains why visible hammer marks are not proof of forging quality. A forged blade can be ground and polished completely smooth, while a textured surface can be deliberately created or retained for appearance. The useful question is therefore not simply **“Is it forged?”** but **“What did forging contribute to this design, and how well were the steel, heat treatment and geometry executed afterwards?”**
 
 **Full tang** is only one valid construction. A **hidden tang** is narrower than the handle and enclosed inside it. Some hidden-tang constructions extend all the way to the butt and are mechanically secured there; this is a **through tang**, a separate construction term and not another name for a full tang. A **partial or stub tang** ends before the butt. Molded handles can encapsulate the tang so no scales or rivets are visible. None of these constructions creates a simple quality hierarchy. Durability depends on tang dimensions, materials, fit, fastening, intended use and expected loads.
 

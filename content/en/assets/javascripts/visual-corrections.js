@@ -124,14 +124,54 @@
 
   function correctAsianHandle(article) {
     const figure = article.querySelector('[data-visual-id="VIS-ANATOMY-ASIAN-01"]');
-    if (!figure) return;
-    const image = figure.querySelector("img");
-    if (!image) return;
+    if (!figure || figure.dataset.numberedReplacement === "true") return;
 
-    const corrected = image.src.replace(/asian-handle-exploded\.jpg(?:\?.*)?$/, "asian-handle-exploded-vector.svg");
-    if (corrected !== image.src) {
-      image.src = corrected;
-    }
+    const image = figure.querySelector("img");
+    const frame = image?.parentElement;
+    if (!image || !frame) return;
+
+    // Preserve the translated terms already present in the source figure before
+    // removing the old callout overlay. Their order is stable across translations.
+    const oldLabels = [...frame.querySelectorAll(":scope > span")].map((node) => node.textContent.trim());
+    if (oldLabels.length < 11) return;
+
+    const numberedLabels = [
+      oldLabels[10],
+      oldLabels[9],
+      oldLabels[8],
+      oldLabels[7],
+      oldLabels[5],
+      oldLabels[4],
+      oldLabels[1],
+      oldLabels[4],
+      oldLabels[1],
+      oldLabels[3]
+    ];
+
+    image.src = image.src.replace(/asian-handle-exploded\.jpg(?:\?.*)?$/, "../../diagrams/asian-handle-numbered.jpg");
+    image.alt = numberedLabels.map((label, index) => `${index + 1}: ${label}`).join("; ");
+
+    frame.querySelector("svg")?.remove();
+    frame.querySelectorAll(":scope > span").forEach((node) => node.remove());
+    frame.style.position = "static";
+    frame.style.overflow = "visible";
+
+    const legend = document.createElement("ol");
+    legend.className = "kb-numbered-legend";
+    legend.style.margin = ".7rem 0 .2rem 1.4rem";
+    legend.style.columns = "2";
+    legend.style.columnGap = "2rem";
+    numberedLabels.forEach((label) => {
+      const item = document.createElement("li");
+      item.textContent = label;
+      item.style.breakInside = "avoid";
+      legend.append(item);
+    });
+    frame.insertAdjacentElement("afterend", legend);
+
+    const caption = figure.querySelector("figcaption");
+    if (caption) caption.remove();
+    figure.dataset.numberedReplacement = "true";
   }
 
   function removeBunkaPackageOpening(article) {

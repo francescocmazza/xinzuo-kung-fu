@@ -3,7 +3,7 @@ title: Bibliography
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-08-26
+reviewed: 2026-09-14
 translation_priority: high
 ---
 
@@ -103,6 +103,18 @@ All bibliographic, technical and historical sources cited throughout the book ar
 4. Hermsdörfer J, Li Y, Randerath J, Goldenberg G, Eidenmüller S. “Anticipatory scaling of grip forces when lifting objects of everyday life.” *Experimental Brain Research* 212(1), 2011, 19–31. https://doi.org/10.1007/s00221-011-2695-y
 
 Additional shape references: ZWILLING describes the Santoku's characteristic high blade and compact profile; specialist comparisons consistently identify the Bunka's fine K-tip as the more precise and delicate front geometry.
+<!-- /bibliography-source -->
+
+<!-- bibliography-source: 09-maintenance/cutting-boards.md -->
+## Cutting Boards - The Surface Under the Edge
+
+- [Dean O. Cliver et al., "Cutting Boards of Plastic and Wood Contaminated Experimentally with Bacteria," *Journal of Food Protection* 57(1)](https://pubmed.ncbi.nlm.nih.gov/31113021/)
+- [A. J. Miller et al., "Bacterial Retention and Cleanability of Plastic and Wood Cutting Boards with Commercial Food Service Maintenance Practices"](https://pubmed.ncbi.nlm.nih.gov/31195548/)
+- [Anja Bischoff, Thomas Alter and Antje Schoenknecht, "Hygienic Evaluation of Wooden Cutting Boards: Microbiological Parameters," *Journal of Food Protection* 88(9), 2025](https://pubmed.ncbi.nlm.nih.gov/40609863/)
+- [Himani Yadav et al., "Cutting Boards: An Overlooked Source of Microplastics in Human Food?" *Environmental Science & Technology* 57(22), 2023, doi:10.1021/acs.est.3c00924](https://pubmed.ncbi.nlm.nih.gov/37220346/)
+- [Hai-Jun Gan et al., "Simulated Microplastic Release from Cutting Boards and Evaluation of Intestinal Inflammation and Gut Microbiota in Mice," *Environmental Health Perspectives* 133, 2025](https://pubmed.ncbi.nlm.nih.gov/40042913/)
+- [USDA Food Safety and Inspection Service, Cutting Boards](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cutting-boards)
+- [Rui Xu et al., "Characteristics of silicon and phytolith distribution in bamboo (Ferrocalamus strictus): variations between different organs and ages," *Review of Palaeobotany and Palynology* 311, 2023](https://www.sciencedirect.com/science/article/pii/S0034666722002159)
 <!-- /bibliography-source -->
 
 <!-- bibliography-source: 10-sharpening/whetstone-preparation.md -->
