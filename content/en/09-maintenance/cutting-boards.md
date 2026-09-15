@@ -24,22 +24,24 @@ Wood also should not automatically be treated as less hygienic than plastic. Cla
 
 Wash a wooden board after use, do not leave it soaking in water, and let it dry completely. Deep splits, loose laminations and grooves that can no longer be cleaned properly are signs that the board should be resurfaced or replaced.
 
-## End grain: why “wood of the head” is gentler on the edge
+## End grain: why fibre orientation matters
 
-Among wooden boards, the construction we prefer for fine knives is **end grain**, often called **butcher-block end grain**. In Italian this can be described as *legno di testa*: the cut ends of the wood fibres face upward toward the working surface.
+Among wooden boards, the construction we prefer for fine knives is **end grain**, often called **butcher-block end grain**. In Italian this is commonly described as *legno di testa*: the cut ends of the wood fibres form the working surface.
 
-Imagine wood as a bundle of very small straws. In a conventional **edge-grain** board, the long fibres run mainly parallel to the surface, so the knife tends to cross them. In an **end-grain** board, the fibre ends point upward. The knife can therefore move partly **between** the fibres, which separate and flex slightly around the edge instead of presenting the same continuous crosswise resistance.
+The easiest way to understand the term is to imagine wood as a bundle of very small straws. In an **edge-grain** board, the long sides of those fibres run mainly parallel to the cutting surface. The knife therefore meets and crosses the fibres from the side. In an **end-grain** board, the blocks are turned so that the fibre direction runs down through the thickness of the board and the cut ends face upward. The knife meets the ends of the fibres and can move partly between them, so they can separate and flex slightly around the edge instead of presenting the same continuous crosswise resistance.
+
+The new image below shows the visual clue that makes end grain easy to recognize. The surface is built from many short wood blocks, often creating a mosaic or checkerboard appearance. What matters mechanically is not the pattern itself, but the orientation underneath it: each block has been turned so that the fibre ends, rather than the long side grain, face the knife.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-CUTTING-BOARD-END-GRAIN-01">
-<img src="../../assets/diagrams/end-grain-cutting-board-numbered.svg" alt="Numbered diagram showing a knife entering an end-grain cutting board and the wood fibres separating around the edge." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
+<img src="../../assets/diagrams/Cutting board end grain.png" alt="End-grain wooden cutting board showing the mosaic-like surface formed by the exposed ends of many wood blocks." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
 <figcaption>
-<strong>End-grain principle.</strong> 1: the edge reaches the board at the end of the cut. 2: the knife enters between the exposed fibre ends. 3: the fibres deflect and separate slightly around the blade. 4: the fibres run vertically through the board instead of mainly across the cutting direction.
+<strong>End-grain construction.</strong> The visible blocks are oriented so that their fibres run approximately from the cutting surface down through the thickness of the board. The knife therefore meets the fibre ends rather than mainly cutting across long fibres lying parallel to the surface.
 </figcaption>
 </figure>
 
-This is the reason good end-grain boards often show shallower-looking cut marks and are sometimes described as “self-healing.” The wood does not regenerate. The small cuts simply tend to close visually as the fibres return toward their previous position.
+This is why a good end-grain board generally feels more forgiving to a fine edge. The fibres can deflect slightly as the knife reaches the board, spreading the contact instead of resisting the apex as one rigid cross-grain surface. End-grain boards also often show knife marks less readily. They are sometimes described as “self-healing,” but the wood does not regenerate: small cuts simply tend to close visually as the fibres move back toward their previous position.
 
-A good edge-grain board is still an excellent and usually less expensive choice. End grain becomes especially attractive when the knife has a very thin edge, the board is used heavily, and weight, cost and maintenance are not the main constraints.
+An **edge-grain** board is different, not an alternative name for the same construction. It is made from the long faces or edges of wooden strips, so the grain lines run mainly along the surface. A well-made edge-grain board is still an excellent and usually less expensive choice. End grain becomes especially attractive when the knife has a very thin edge, the board is used heavily, and weight, cost and maintenance are not the main constraints.
 
 ## Plastic: practical hygiene, but a real microplastic trade-off
 

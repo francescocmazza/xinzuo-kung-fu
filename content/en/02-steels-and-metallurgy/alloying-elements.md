@@ -42,7 +42,15 @@ Carbon is the central alloying element in most knife steels. Without enough carb
 
 A mass percentage can make the amount sound tiny. **0.5% carbon by mass means only 0.5 grams of carbon in 100 grams of steel.** But carbon is much lighter than iron, so this is roughly **one carbon atom for every 43 iron atoms**. A small mass fraction can strongly change the steel.
 
+For a simplified alloy containing only iron and carbon, **1% carbon by mass corresponds to about 4.5% of all atoms: roughly one carbon atom for every 21 iron atoms**. This is the overall composition; how much carbon remains dissolved in the matrix depends on the steel and its heat treatment.
+
 Steel is made from microscopic iron crystals. Carbon atoms are much smaller than iron atoms, so they can fit into tiny spaces between iron atoms inside those crystals. They are not simply foreign particles mixed into the metal.
+
+<figure class="kb-learning-figure" data-visual-id="VIS-MET-CARBON-INTERSTITIAL-01">
+<img src="../../assets/images/approved/iron-carbon-interstitial-matrix.webp" alt="Open-framework schematic with larger grey iron atoms, smaller dark interstitial carbon atoms and a cubic-cell inset." width="1200" height="900">
+<figcaption><strong>Carbon in the iron matrix.</strong> Grey spheres represent iron atoms; smaller dark spheres illustrate carbon in interstitial sites, between the iron atoms. The open framework makes depth easier to see; its lines are visual guides, not physical rods. The inset shows a schematic body-centred cubic unit cell.</figcaption>
+<div class="kb-learning-figure__note">Conceptual illustration, not to scale or suitable for counting atomic proportions. The cubic-cell inset does not imply that ferrite can dissolve 1% carbon by mass; carbon can also be bound in carbides.</div>
+</figure>
 
 The amount of carbon that can remain in these spaces changes with temperature and with the internal crystal structure of the iron. During hardening, heating creates **austenite**, a high-temperature form of the iron-rich steel that can hold much more carbon. Rapid cooling can then produce **martensite**, the very hard structure used in a hardened knife. Martensite is created so quickly that more carbon remains trapped in the iron structure than it would under equilibrium conditions.
 

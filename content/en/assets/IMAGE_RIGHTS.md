@@ -12,6 +12,10 @@ Diagrams created specifically for this project (for example files in `assets/dia
 
 A diagram remains published only while it passes the project's technical review. A generated illustration that is found to be materially misleading is withdrawn from the rendered guide and returned to placeholder status until a verified replacement is available.
 
+The text-free `images/approved/iron-carbon-interstitial-matrix.webp` is an AI-assisted original project illustration selected and approved by the repository owner. It is a print-optimized copy of the supplied `reticolo_bcc_di_ferro_e_carbonio.png`, with no added text or changes to the illustrated composition. Its translatable caption identifies it as a conceptual illustration, not an atom-counted or crystallographically exact representation of a finished blade.
+
+The text-free `diagrams/m4-heat-treatment-language-neutral.svg` is an original project diagram created for the metallurgy chapter. It intentionally contains no language-specific labels: the starting condition, austenitizing, generic quench/cooling stage, tempering microstructures and simplified temperature history are explained by ordinary document text so every language edition can translate the caption without altering the artwork. The cooling symbol is intentionally generic and does not specify a water, oil, gas or plate quench.
+
 ## Xinzuo catalog and product images
 
 The following approved images in `assets/images/approved/` are cropped or adapted from the 2025 Xinzuo product catalog, approved Xinzuo promotional material or product imagery supplied by the repository owner for this book:
@@ -32,6 +36,7 @@ The following approved images in `assets/images/approved/` are cropped or adapte
 - `asian-handle-exploded.jpg` (exploded Xinzuo Asian-handle product image supplied by the repository owner)
 - `PM8O Schematics.png` (approved Xinzuo Asian-handle schematic supplied by the repository owner and used as the source image for the labelled Asian-handle anatomy figure)
 - `knife-shapes/Gyuto.jpg` (approved Xinzuo gyuto product image supplied by the repository owner)
+- `knife-shapes/B30R-SG.jpg` (approved Xinzuo B30R-SG product image supplied by the repository owner and used as the straight paring-knife example)
 - all individually reviewed product images in `knife-shapes/*.jpg`, including the verified B9H-SG curved-paring image supplied for `knife-shapes/paring-curved.jpg`
 
 These images, along with any Xinzuo logos and promotional photographs that may appear elsewhere in this project, **remain the property of their respective copyright holder**. They are included in this project with the repository owner's authorization for the specific educational use of this book.
@@ -58,7 +63,7 @@ The neutral PNG adaptations remove captions embedded in a fixed language. Their 
 
 ## Removed: unrights-cleared external hotlinks
 
-Three figures in "Knife Shapes and Their Uses" previously embedded `<img>` tags pointing directly at third-party retailer websites/CDNs instead of approved local assets: Gyuto (`VIS-SHAPE-GYUTO-PM80`), Western boning knife (`VIS-SHAPE-BONING-B37TG`), and the straight paring-knife example previously tracked as `VIS-SHAPE-PARING-STRAIGHT-B13R`. Those external hotlinks were removed because their image rights were not recorded or confirmed. The Gyuto figure now uses the approved local `knife-shapes/Gyuto.jpg`, and the straight paring figure uses the approved local `knife-shapes/paring-straight.jpg`. The Western boning-knife figure remains an editorial placeholder pending an approved local photograph. See `EDITORIAL_REQUIREMENTS.md` for the rule that prevents unapproved external hotlinks from recurring.
+Three figures in "Knife Shapes and Their Uses" previously embedded `<img>` tags pointing directly at third-party retailer websites/CDNs instead of approved local assets: Gyuto (`VIS-SHAPE-GYUTO-PM80`), Western boning knife (`VIS-SHAPE-BONING-B37TG`), and the straight paring-knife example previously tracked as `VIS-SHAPE-PARING-STRAIGHT-B13R`. Those external hotlinks were removed because their image rights were not recorded or confirmed. The Gyuto figure now uses the approved local `knife-shapes/Gyuto.jpg`, and the straight paring figure now uses the approved local `knife-shapes/B30R-SG.jpg`. The Western boning-knife figure remains an editorial placeholder pending an approved local photograph. See `EDITORIAL_REQUIREMENTS.md` for the rule that prevents unapproved external hotlinks from recurring.
 
 ## Excluded confidential material
 

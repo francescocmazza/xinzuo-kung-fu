@@ -1,5 +1,5 @@
 ---
-source_hash: 5be9efb7425a323dd87477f86afb8f03a6561bacb9c85c916cd22a33cf04adc8
+source_hash: cf15f32a83cc645e699accab26f852bf8404f5b86cc2a906a1e9965ee3a36acd
 ---
 
 # Elementi di lega
@@ -37,7 +37,15 @@ Il carbonio è l'elemento di lega centrale nella maggior parte degli acciai a co
 
 Una percentuale di massa può rendere la quantità suono piccolo. **0,5% carbonio in massa significa solo 0,5 grammi di carbonio in 100 grammi di acciaio.** Ma il carbonio è molto più leggero del ferro, quindi questo è approssimativamente **un atomo di carbonio per ogni 43 atomi di ferro**. Una piccola frazione di massa può cambiare fortemente l'acciaio.
 
+In una lega semplificata composta soltanto da ferro e carbonio, **l'1% di carbonio in peso corrisponde a circa il 4,5% degli atomi totali: all'incirca un atomo di carbonio ogni 21 atomi di ferro**. Questa è la composizione complessiva; la quantità di carbonio che rimane disciolta nella matrice dipende dall'acciaio e dal trattamento termico.
+
 L'acciaio è fatto da microscopici cristalli di ferro. Gli atomi di carbonio sono molto più piccoli degli atomi di ferro, in modo da potersi adattare in piccoli spazi tra gli atomi di ferro all'interno di questi cristalli. Non sono semplicemente particelle estranee mescolate nel metallo.
+
+<figure class="kb-learning-figure" data-visual-id="VIS-MET-CARBON-INTERSTITIAL-01">
+<img src="../../assets/images/approved/iron-carbon-interstitial-matrix.webp" alt="Schema a reticolo aperto con atomi di ferro grigi più grandi, atomi di carbonio interstiziali scuri più piccoli e una cella cubica nel riquadro." width="1200" height="900">
+<figcaption><strong>Il carbonio nella matrice di ferro.</strong> Le sfere grigie rappresentano gli atomi di ferro; quelle scure, più piccole, illustrano il carbonio negli interstizi, gli spazi tra gli atomi di ferro. Il reticolo aperto rende visibile la profondità; i segmenti sono guide grafiche, non collegamenti materiali. Nel riquadro è schematizzata una cella cubica a corpo centrato.</figcaption>
+<div class="kb-learning-figure__note">Schema concettuale, non in scala e non utilizzabile per contare le proporzioni atomiche. Il riquadro cubico non implica che la ferrite possa sciogliere l'1% in peso di carbonio: parte del carbonio può essere legata nei carburi.</div>
+</figure>
 
 La quantità di carbonio che può rimanere in questi spazi cambia con la temperatura e con la struttura cristallina interna del ferro. Durante l'indurimento, il riscaldamento crea **austenite**, una forma ad alta temperatura dell'acciaio ricco di ferro che può contenere molto più carbonio. Raffreddamento rapido può quindi produrre **martensite**, la struttura molto dura utilizzata in un coltello indurito. Martensite viene creato così rapidamente che più carbonio rimane intrappolato nella struttura del ferro che in condizioni di equilibrio.
 
