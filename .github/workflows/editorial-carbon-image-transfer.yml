@@ -1,0 +1,48 @@
+name: Editorial carbon image transfer
+on:
+  push:
+    branches: [editorial/revision-51-review]
+    paths: [.github/workflows/editorial-carbon-image-transfer.yml]
+permissions:
+  contents: read
+jobs:
+  verify-transfer:
+    if: github.repository == 'francescocmazza/xinzuo-kung-fu'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retrieve image transfer object for byte verification
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import base64, hashlib, json, os, pathlib, urllib.request
+          sha = 'aeb82352a600513efcaee30f6aa9c0ddc65a3672'
+          url = 'https://api.github.com/repos/francescocmazza/xinzuo-kung-fu/git/blobs/' + sha
+          req = urllib.request.Request(url, headers={'Authorization': 'Bearer ' + os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json'})
+          with urllib.request.urlopen(req, timeout=30) as response:
+              obj = json.load(response)
+          raw = base64.b64decode(obj['content'])
+          actual = hashlib.sha1(b'blob ' + str(len(raw)).encode() + b'\0' + raw).hexdigest()
+          assert actual == sha, (actual, sha)
+          pathlib.Path('transfer-object.webp').write_bytes(raw)
+          print('TRANSFER_BYTES', len(raw))
+          print('TRANSFER_SHA256', hashlib.sha256(raw).hexdigest())
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: carbon-image-transfer-verification
+          retention-days: 1
+          path: |
+            transfer-object.webp
+            content/
+            translations/
+            scripts/
+            localization/
+            glossaries/
+            requirements-*.txt
+            mkdocs.yml
+            EDITORIAL_REQUIREMENTS.md
+            PUBLISHING_GUIDE.md
+            sources/
