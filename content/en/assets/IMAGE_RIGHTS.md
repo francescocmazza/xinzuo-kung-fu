@@ -12,6 +12,8 @@ Diagrams created specifically for this project (for example files in `assets/dia
 
 A diagram remains published only while it passes the project's technical review. A generated illustration that is found to be materially misleading is withdrawn from the rendered guide and returned to placeholder status until a verified replacement is available.
 
+The text-free `images/approved/iron-carbon-interstitial-matrix.webp` is an AI-assisted original project illustration selected and approved by the repository owner. It is a print-optimized copy of the supplied `reticolo_bcc_di_ferro_e_carbonio.png`, with no added text or changes to the illustrated composition. Its translatable caption identifies it as a conceptual illustration, not an atom-counted or crystallographically exact representation of a finished blade.
+
 ## Xinzuo catalog and product images
 
 The following approved images in `assets/images/approved/` are cropped or adapted from the 2025 Xinzuo product catalog, approved Xinzuo promotional material or product imagery supplied by the repository owner for this book:
