@@ -14,6 +14,8 @@ A diagram remains published only while it passes the project's technical review.
 
 The text-free `images/approved/iron-carbon-interstitial-matrix.webp` is an AI-assisted original project illustration selected and approved by the repository owner. It is a print-optimized copy of the supplied `reticolo_bcc_di_ferro_e_carbonio.png`, with no added text or changes to the illustrated composition. Its translatable caption identifies it as a conceptual illustration, not an atom-counted or crystallographically exact representation of a finished blade.
 
+The text-free `diagrams/m4-heat-treatment-language-neutral.svg` is an original project diagram created for the metallurgy chapter. It intentionally contains no language-specific labels: the starting condition, austenitizing, generic quench/cooling stage, tempering microstructures and simplified temperature history are explained by ordinary document text so every language edition can translate the caption without altering the artwork. The cooling symbol is intentionally generic and does not specify a water, oil, gas or plate quench.
+
 ## Xinzuo catalog and product images
 
 The following approved images in `assets/images/approved/` are cropped or adapted from the 2025 Xinzuo product catalog, approved Xinzuo promotional material or product imagery supplied by the repository owner for this book:
