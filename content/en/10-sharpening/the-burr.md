@@ -3,11 +3,13 @@ title: The Burr
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-09
+reviewed: 2026-09-16
 translation_priority: high
 ---
 
 # The Burr
+
+The previous chapter already used the burr as part of the **basic sharpening process**. This chapter does not add a new stage that happens after sharpening. It pauses to explain that same feedback signal in more detail: what the burr is, what it proves, how to detect it safely and why removing it is as important as creating it.
 
 The burr is the beginner's clearest proof that the stone has reached the cutting edge.
 
