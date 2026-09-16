@@ -3,17 +3,17 @@ title: Routine Knife Care
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-09
+reviewed: 2026-09-16
 translation_priority: high
 ---
 
 # Routine Knife Care
 
+The previous chapter dealt with the surface the edge meets during use. Routine care continues the same idea: preserve the knife by controlling the ordinary conditions that act on it between sharpening sessions.
+
 Sharpening is only one part of knife maintenance and usually not the most frequent one. Edge life depends more on everyday habits: **what the knife cuts on, how it is washed and dried, how it is stored and whether the edge is used for jobs it was not designed to do**.
 
-Good routine care slows corrosion and mechanical damage and reduces how often sharpening must remove steel.
-
-This chapter covers ordinary maintenance. Full edge restoration appears later in the sharpening chapters.
+Good routine care slows corrosion and mechanical damage and reduces how often sharpening must remove steel. This chapter covers ordinary maintenance. Full edge restoration appears later in the sharpening chapters.
 
 ## After every use: wash, rinse and dry
 
@@ -47,11 +47,9 @@ Deep pitting, damaged finishes or uncertain treatment on a valuable blade are be
 
 ## The cutting board is part of edge maintenance
 
-The edge touches the board hundreds or thousands of times between sharpenings, so board material matters greatly.
+The board is one of the main sources of ordinary edge contact, but its materials and construction have already been covered in [Cutting Boards](cutting-boards.md). The maintenance rule here is therefore brief: use a suitable board in good condition, keep it stable and avoid routine contact with glass, ceramic, stone, metal, plates, pan rims or the worktop.
 
-Suitable wood and plastic or rubber cutting surfaces designed to be gentle on knife edges let the apex enter or deform the surface slightly instead of striking something much harder. Glass, ceramic, stone and metal are poor cutting surfaces for fine edges because they accelerate rolling, flattening and chipping.
-
-Use a board large enough to keep both food and movement stable. Repeatedly striking a plate, pan rim or stone counter can damage an edge much faster than ordinary food.
+Replacing or resurfacing a badly scored board can protect the knife more effectively than sharpening more often. Board care and knife care are part of the same system.
 
 ## Do not scrape the board with the cutting edge
 
@@ -103,7 +101,7 @@ A smooth steel can help straighten or recondition a rolled edge on suitable stee
 
 Very hard, thin knives that tend to chip rather than roll may gain little from forceful steeling and can be damaged by poor technique. Choose the maintenance tool according to steel, hardness and edge geometry.
 
-When the apex is genuinely rounded, worn or chipped, a rod cannot replace proper sharpening. The [sharpening section](../10-sharpening/basic-sharpening-process.md) explains how to rebuild the edge.
+When the apex is genuinely rounded, worn or chipped, a rod cannot replace proper sharpening. At that point maintenance changes from **preservation** to **restoration**.
 
 ## Inspect before damage becomes serious
 
@@ -137,3 +135,5 @@ The everyday routine is short:
 8. sharpen when the edge genuinely needs restoration.
 
 These habits take little time and can save much more work at the next sharpening session.
+
+The book now moves from **protecting an existing edge** to **rebuilding one that has worn**. The sharpening section begins with the stone and workstation, then teaches the complete basic process, and only afterwards examines the burr in greater detail.

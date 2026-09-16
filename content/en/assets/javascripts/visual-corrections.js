@@ -23,7 +23,7 @@
       placeholder: {
         id: "VIS-BURR-01",
         title: "How a Burr Forms",
-        note: "Awaiting a verified burr cross-section. The previous generated illustration was withdrawn because its pre-apex geometry could suggest an already-complete apex.",
+        note: "Awaiting a verified burr cross-section. The previous generated illustration was withdrawn after review because its pre-apex geometry could suggest an already-complete apex.",
         insertAfterLeadParagraphs: 2
       }
     }
@@ -109,7 +109,7 @@
 
     const image = figure.querySelector("img");
     const caption = figure.querySelector("figcaption");
-    const note = figure.querySelector(".kb-learning-figure__note");
+    let note = figure.querySelector(".kb-learning-figure__note");
 
     if (image) {
       image.alt = "Presentation chart showing seven schematic grind and bevel cross-sections: V, convex, asymmetric V, compound double V, concave, single-sided, and single-sided with urasuki.";
@@ -117,9 +117,47 @@
     if (caption) {
       caption.textContent = "Selected grind and bevel cross-section geometries from the training presentation. They illustrate different ways the blade can transition toward the cutting edge; they are not a universal taxonomy.";
     }
-    if (note) {
-      note.textContent = "Source labels remain in Italian (V, Convessa, Asimmetrica, Concava, Lato singolo, Lato singolo con Urasuki). The drawings are schematic and should not be read as equivalently scaled edge angles.";
+
+    if (!note) {
+      note = document.createElement("div");
+      note.className = "kb-learning-figure__note";
+      figure.append(note);
     }
+
+    const language = (document.documentElement.lang || "en").toLowerCase();
+    const urasukiNote = language.startsWith("it")
+      ? "Le etichette originali restano in italiano (V, Convessa, Asimmetrica, Concava, Lato singolo, Lato singolo con Urasuki). I disegni sono schematici e non rappresentano angoli di filo in scala equivalente. Nella figura 7 la concavità dell'urasuki è volutamente molto esagerata per renderla chiaramente visibile: su un coltello reale è normalmente molto lieve e può essere quasi impercettibile."
+      : language.startsWith("zh")
+        ? "原图标签保留为意大利语（V、Convessa、Asimmetrica、Concava、Lato singolo、Lato singolo con Urasuki）。这些图是示意图，不应理解为按同一比例绘制的刃角。第 7 图为了便于辨认，故意大幅夸张了 urasuki（里凹）的凹度；在真实刀具上，这种凹度通常非常浅，甚至几乎难以察觉。"
+        : "Source labels remain in Italian (V, Convessa, Asimmetrica, Concava, Lato singolo, Lato singolo con Urasuki). The drawings are schematic and should not be read as equivalently scaled edge angles. In Figure 7, the concavity of the urasuki is deliberately strongly exaggerated for visual clarity; on a real knife it is normally very shallow and may be almost imperceptible.";
+    note.textContent = urasukiNote;
+  }
+
+  function correctAsianHandleCallouts(article) {
+    const figure = article.querySelector('[data-visual-id="VIS-ANATOMY-ASIAN-01"]');
+    if (!figure) return;
+
+    const image = figure.querySelector("img");
+    const sourcePath = decodeURIComponent(image?.getAttribute("src") || "");
+    if (!sourcePath.endsWith("PM8O Schematics.png")) return;
+
+    const groups = figure.querySelectorAll("svg g");
+    const lines = groups[0] ? [...groups[0].querySelectorAll("line")] : [];
+    const circles = groups[1] ? [...groups[1].querySelectorAll("circle")] : [];
+    if (lines.length < 11 || circles.length < 11) return;
+
+    // Keep the labels where they are, but make the two technical targets
+    // unambiguous: Bevel points to the ground band above the edge, while
+    // Cutting edge points to the terminal cutting line itself.
+    lines[6].setAttribute("x2", "70");
+    lines[6].setAttribute("y2", "47.5");
+    circles[6].setAttribute("cx", "70");
+    circles[6].setAttribute("cy", "47.5");
+
+    lines[7].setAttribute("x2", "80");
+    lines[7].setAttribute("y2", "43.3");
+    circles[7].setAttribute("cx", "80");
+    circles[7].setAttribute("cy", "43.3");
   }
 
   function correctAsianHandle(article) {
@@ -180,6 +218,13 @@
     figure.dataset.numberedReplacement = "true";
   }
 
+  function correctStraightParingImage(article) {
+    article.querySelectorAll('img[src*="knife-shapes/paring-straight.jpg"]').forEach((image) => {
+      image.src = image.src.replace(/paring-straight\.jpg(?:\?.*)?$/, "B30R-SG.jpg");
+      image.alt = "Xinzuo B30R-SG straight paring knife";
+    });
+  }
+
   function removeBunkaPackageOpening(article) {
     const headings = [...article.querySelectorAll("h2")];
     const bunkaHeading = headings[3];
@@ -202,11 +247,15 @@
 
     const key = pageKey();
     withdrawGeneratedFigures(article, key);
+    correctAsianHandleCallouts(article);
     correctAsianHandle(article);
 
     if (key === "01-foundations/five-dimensions-of-knife-steel") correctFiveDimensions(article);
     if (key === "04-geometry-and-bevels/single-and-double-bevels") correctBevelFamilies(article);
-    if (key === "05-knife-types/overview") removeBunkaPackageOpening(article);
+    if (key === "05-knife-types/overview") {
+      correctStraightParingImage(article);
+      removeBunkaPackageOpening(article);
+    }
   }
 
   document.addEventListener("DOMContentLoaded", renderCorrections);

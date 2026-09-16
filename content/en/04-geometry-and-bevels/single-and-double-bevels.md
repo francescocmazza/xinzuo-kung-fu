@@ -3,11 +3,13 @@ title: Knife Bevels
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-11
+reviewed: 2026-09-16
 translation_priority: highest
 ---
 
 # Knife Bevels
+
+The anatomy chapter established **where** the blade face, bevel and cutting edge are. The next question is **how those surfaces meet**. That geometry changes how the knife enters food, how it steers, how it separates a slice and how it must later be sharpened.
 
 Cut a tall potato with two knives and you may notice something unexpected. One blade travels almost straight downward; another pulls sideways even when your hand points forward. The bevel—the sloping surface leading to the cutting edge—may explain the difference.
 
@@ -228,3 +230,5 @@ The complete sequence appears later in [Basic Sharpening](../10-sharpening/basic
 - On a single bevel, the local main-bevel angle can change as blade height and thickness change toward the tip.
 - A single-bevel knife is optimized for one hand but can often be used with the other when the food and cutting direction are arranged around the geometry.
 - Manage steering through setup and direction, not forced sideways correction.
+
+With the edge geometry understood, the next chapter can compare **complete blade profiles** without having to re-explain what single bevel, double bevel, asymmetry or urasuki mean each time. Shape then adds length, height, curvature and tip design to the bevel system described here.

@@ -102,6 +102,8 @@ The Chinese cleaver is one of the most distinctive all-purpose forms. Its tall r
 
 Its height, forward mass and lack of a familiar pointed profile can make it harder for beginners because they change the usual visual and tactile references for fine control. In experienced hands, the same features make it exceptionally versatile. Always check weight, thickness behind the edge, bevel geometry and intended use.
 
+On the board, a thin all-purpose Chinese cleaver works best with controlled push cuts, short vertical chops and draw slicing rather than heavy impact. The tall face gives excellent knuckle guidance and becomes a convenient scoop for moving prepared ingredients, but the broad blade also magnifies twisting forces if the edge becomes trapped in dense food. Treat a fine slicer as a slicer; use a true bone chopper only when its mass and edge geometry are designed for impact.
+
 ### Bone chopper
 
 <div class="kb-profile-visual">
@@ -112,6 +114,8 @@ A bone chopper uses mass, a supported edge and substantial cross-section for con
 
 It is not indestructible. Large dense bones, hard frozen material, unstable work or a glancing strike can damage the knife and injure the user. A thin Chinese cleaver may look similar while having completely different capabilities.
 
+Technique should let the blade's mass do most of the work. Use a stable board, place the target securely and make a committed controlled stroke rather than repeated glancing blows. The thick supported edge is deliberately less delicate than a slicing edge, so using a bone chopper for fine vegetables or thin presentation slices trades accuracy and low drag for strength the task does not need.
+
 ## Long carving and slicing knives
 
 ### Classic carving knife
@@ -121,6 +125,8 @@ It is not indestructible. Large dense bones, hard frozen material, unstable work
 </div>
 
 A carving knife is longer and narrower than a chef's knife so it can cross a roast, poultry breast, boneless meat or large fruit with fewer strokes. Less blade height reduces drag and improves visibility. The intended movement is a long draw, not repeated short sawing.
+
+A useful carving stroke begins with as much of the edge as practical available in front of the food and pulls smoothly through the portion, using blade length instead of downward force. Compared with a chef's knife, the lower blade height gives less knuckle clearance on a board but offers better visibility around a roast and less side contact with the slice. Choose this form when long, clean portions matter more than chopping versatility.
 
 ### Roast carving knife
 
@@ -138,6 +144,8 @@ The roast-carving profile keeps a long slicing edge but gives the front a pronou
 
 A ham knife extends the carving-knife concept. Its very long, narrow blade produces broad thin slices with little friction. Some examples flex slightly to follow the ham; others are firmer. The design excels at long slicing but is inefficient for chopping and small board work.
 
+The extra length is valuable only when the cook uses it: start the cut near one end of the edge and let a long, light stroke travel through the meat. Mild flexibility can help the blade follow a broad curved surface, but it is not permission to bend or twist the knife sideways. Compared with a classic carving knife, the ham knife sacrifices some stiffness and general board control for exceptionally long, low-drag slicing.
+
 ### Sashimi knife
 
 <div class="kb-profile-visual">
@@ -146,6 +154,8 @@ A ham knife extends the carving-knife concept. Its very long, narrow blade produ
 
 Long traditional sashimi slicers use their length to cut raw fish in one pulling stroke, leaving a cleaner surface than repeated back-and-forth motion. Traditional examples are single bevelled, normally handed and sharpened differently from ordinary double-bevel slicers. This specialised geometry can steer if the user does not understand the bevel.
 
+The technique is intentionally quiet: set the heel, draw the blade toward yourself in one continuous stroke and avoid sawing unless the cut genuinely requires a second pass. The long rigid profile and single-bevel geometry are optimized for surface quality and controlled separation, not for chopping or flexible filleting. Because the reverse face and main bevel form one sharpening system, this knife also demands more specialized maintenance than an ordinary double-bevel slicer.
+
 ### Sakimaru
 
 <div class="kb-profile-visual">
@@ -153,6 +163,8 @@ Long traditional sashimi slicers use their length to cut raw fish in one pulling
 </div>
 
 The sakimaru belongs to the same long single-bevel slicing family but ends in a rounded, sword-influenced front. This changes balance, presentation and front access without changing the main task: clean draw slicing through boneless fish.
+
+The rounded front is less needle-like than the point of many yanagiba-style slicers, so it is not chosen for piercing small joints or tight detail work. Its value is in how the front completes the long slicing profile and how smoothly the blade can finish a draw through delicate fish. In practical use, blade length, single-bevel geometry and sharpening quality matter more than the ornamental association with a sword-like tip.
 
 ### Kiritsuke
 
@@ -215,6 +227,8 @@ Use only the flex the model is designed to provide. If the knife feels forced ra
 
 The deba is a thick, heavy fish-butchery knife. Its strong heel can work through appropriate fish joints and bones with controlled technique, while the front handles finer separation. Traditional deba are single bevelled and handed. Their weight does not make them universal cleavers: large mammal bone, twisting or careless impact can still chip the edge.
 
+The deba works by using different parts of the same blade for different operations. The thick heel provides support for controlled work through suitable fish joints and small fish bones, while the thinner front can trace around the head, collar and fillet line with much greater precision. Trying to make the tip perform the heel's impact work, or using the heel like a general-purpose meat cleaver, defeats that division of labour.
+
 ## Small, table and precision knives
 
 ### Utility knife
@@ -224,6 +238,8 @@ The deba is a thick, heavy fish-butchery knife. Its strong heel can work through
 </div>
 
 The utility knife is between a paring knife and a chef's knife in size and use. It has enough reach for fruit, sandwiches, small vegetables, cheese and boneless meat while remaining agile when a full-size blade would crowd the board. Its narrow profile reduces drag but gives less knuckle clearance and food-transfer area than a chef's knife.
+
+It is especially useful in kitchens where many jobs are too large for a paring knife but do not justify the height and reach of a chef's knife: trimming a small roast, portioning citrus, cutting sandwiches or working on a crowded board. The compromise cuts both ways. It is more agile than a chef's knife but less efficient for large volumes, and more capable on a board than a paring knife but usually less comfortable for prolonged in-hand peeling.
 
 ### Curved paring knife
 
@@ -238,10 +254,12 @@ The same curve gives less straight board contact. Do not treat it as a miniature
 ### Straight paring knife
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/paring-straight.jpg" alt="Complete Xinzuo straight paring knife"><figcaption>A Xinzuo straight paring-knife example with more straight edge contact for short, precise cuts.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/B30R-SG.jpg" alt="Xinzuo B30R-SG straight paring knife"><figcaption>Xinzuo B30R-SG, used here as the straight paring-knife example.</figcaption></figure>
 </div>
 
 The straight paring knife places more of its short edge on the board and tracks a direct cut naturally. It works well on garlic, shallots, small fruit, garnish and exact trimming while remaining compact enough for controlled in-hand work. It follows rounded produce less naturally than a curved parer but is more versatile when preparation alternates between hand and board.
+
+In the Xinzuo B30R-SG example shown here, the compact straight profile makes the point easy to place and the short edge easy to control without requiring a large wrist movement. That makes the form useful when precision matters more than stroke length. Its low blade height, however, provides little knuckle clearance, so repeated chopping on a board is better left to a taller knife.
 
 ### Steak knife
 
@@ -264,6 +282,8 @@ For valuable meat, the best arrangement is simple: **use a sharp plain-edge stea
 </div>
 
 Cheese knives are a family, not one universal shape. Soft sticky cheese benefits from less contact area; a narrow point can portion and serve; hard aged cheese needs stronger support. Openings, hollows and other relief can reduce sticking but cannot eliminate it for every cheese. Choose according to the cheese's texture and size, not the category name alone.
+
+Think first about the mechanical problem: soft cheese tends to adhere to broad faces, crumbly cheese rewards a controlled wedge, and very hard cheese needs enough spine and edge support to resist twisting. A cheese knife is therefore best treated as a texture-specific tool rather than a decorative serving pattern. When the cheese is large or dense, stabilize it before cutting; forcing a thin point sideways can damage both knife and food.
 
 ## Serrated and hard-food specialists
 
@@ -288,6 +308,8 @@ Use a light guided sawing motion and let the teeth work. Excessive pressure crus
 </div>
 
 A frozen-food knife uses strong coarse serrations to saw through suitable frozen ingredients. It exists because forcing a thin hard chef's knife into a frozen block can chip or break the blade. This is still a hazardous specialist operation: stabilize the food, keep the free hand outside the cutting path and avoid twisting or impact.
+
+Use the full serrated length with short, controlled strokes and keep the blade aligned with the cut. Do not pry the kerf open or twist the knife when it binds; reposition the food and restart. The specialist geometry reduces the temptation to strike a frozen block with a fine chef's knife, but it does not make every frozen item safe or practical to cut by hand.
 
 ## Choosing by work rather than by name
 
