@@ -3,7 +3,7 @@ title: The Gongfu of Xinzuo
 author: Francesco Claudio Mazza
 status: review
 language: en
-reviewed: 2026-09-10
+reviewed: 2026-09-16
 ---
 
 # The Gongfu of Xinzuo
@@ -28,4 +28,17 @@ The goal is to understand why differences between knives matter in the hand and 
 
 > **The central idea:** steel creates possibilities, heat treatment develops them, geometry turns them into cutting behaviour, sharpening restores the edge and technique determines what the cook experiences.
 
-The Preface explains the meaning of *gongfu* in the title, the purpose of the book, and why the author chose to work with Xinzuo.
+## How the book is organized
+
+The reading order is deliberate. Each part introduces the concepts needed by the next one rather than treating the book as a catalogue of independent facts.
+
+1. **Damascus steel opens the subject through something visible.** It introduces the distinction between material, construction, process and appearance without requiring the reader to know metallurgy first.
+2. **The complete knife comes next.** Anatomy establishes the vocabulary; bevel geometry explains how the blade approaches the edge; knife shapes, balance and handle materials then show how those choices become a tool for a particular hand and task.
+3. **Safe use comes before technique.** The reader establishes a stable workspace, supporting-hand habits and predictable handling before practising cutting movements.
+4. **Metallurgy then explains the behaviour already observed.** The five performance dimensions lead into alloying elements, steelmaking routes, heat treatment, actual Xinzuo steels and finally the special differential-wear case of full Damascus.
+5. **Maintenance protects what the knife has.** Cutting surfaces and routine care explain how to slow wear and avoid preventable damage.
+6. **Sharpening comes last.** Once the reader understands the edge, the material, use and ordinary care, the sharpening chapters explain how to restore the apex deliberately and safely.
+
+This sequence moves from what can first be **seen and handled**, to what can be **practised**, to what must be understood **inside the material**, and finally to maintenance and restoration.
+
+The Preface explains the meaning of *gongfu* in the title, the training purpose from which the book began, its wider public purpose, and why Xinzuo is the practical frame of reference.
