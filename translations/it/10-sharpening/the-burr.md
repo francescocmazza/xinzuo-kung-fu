@@ -1,8 +1,10 @@
 ---
-source_hash: c854a74cdb2cf98f2b3cad7946ea82a6eebf4b116a228b73107d97e2d2f881d6
+source_hash: b177d6d818535691a207ef9776d1da98125075bd8a6bd7028796e04e6f373b41
 ---
 
 # The Burr
+
+Il capitolo precedente ha già usato la bava come parte del processo di affilatura **basic**. Questo capitolo non aggiunge una nuova fase che avviene dopo l'affilatura. Si ferma per spiegare lo stesso segnale di feedback in modo più dettagliato: cos'è la bava, cosa dimostra, come rilevarla in modo sicuro e perché rimuoverla è importante quanto crearla.
 
 La bava è la prova più chiara del principiante che la pietra ha raggiunto il limite.
 

@@ -1,5 +1,5 @@
 ---
-source_hash: 08d7455998e424962cbd30a28ba945626071f199427a594e41d30593e7018d81
+source_hash: 4b7ef31858bbbbff6594e8e155e09e9def1d69f33c9ede9517be69f5d7c927cc
 ---
 
 # The Gongfu of Xinzuo
@@ -24,4 +24,17 @@ L'obiettivo è quello di capire perché le differenze tra la materia dei coltell
 
 > **L'idea centrale:** l'acciaio crea possibilità, il trattamento termico li sviluppa, la geometria li trasforma in comportamento di taglio, l'affilatura ripristina il bordo e la tecnica determina ciò che il cuoco esperienze.
 
-La Prefazione spiega il significato di *gongfu* nel titolo, lo scopo del libro, e perché l'autore ha scelto di lavorare con Xinzuo.
+## Come il libro è organizzato
+
+L'ordine di lettura è deliberato. Ogni parte introduce i concetti necessari da quello successivo piuttosto che trattare il libro come un catalogo di fatti indipendenti.
+
+1. **L'acciaio Damascus apre il soggetto attraverso qualcosa di visibile.** Introduce la distinzione tra materiale, costruzione, processo e aspetto senza che il lettore debba prima conoscere la metallurgia.
+2. **Il coltello completo arriva dopo.** L'anatomia stabilisce il vocabolario; la geometria smussata spiega come la lama si avvicina al bordo; le forme del coltello, l'equilibrio e la manipolazione dei materiali mostrano come queste scelte diventano uno strumento per una particolare mano e compito.
+3. **L'uso sicuro viene prima della tecnica.**Il lettore stabilisce uno spazio di lavoro stabile, abitudini di supporto-mano e gestione prevedibile prima di praticare movimenti di taglio.
+4. **Metallurgia spiega poi il comportamento già osservato.** Le cinque dimensioni delle prestazioni portano in elementi di lega, vie di produzione, trattamento termico, acciai Xinzuo effettivi e infine la speciale cassa differenziale-usura di Damasco completo.
+5. **Manutenzione protegge ciò che il coltello ha.** Taglio delle superfici e cura di routine spiegare come rallentare l'usura ed evitare danni prevenibili.
+6. **La condivisione viene ultima.** Una volta che il lettore comprende il bordo, il materiale, l'uso e la cura ordinaria, i capitoli di affilatura spiegano come ripristinare l'apice deliberatamente e in modo sicuro.
+
+Questa sequenza passa da ciò che può essere visto e maneggiato per primo**, a ciò che può essere **praticato**, a ciò che deve essere compreso ** all'interno del materiale**, e infine alla manutenzione e restauro.
+
+La Prefazione spiega il significato di *gongfu* nel titolo, lo scopo di formazione da cui il libro ha avuto inizio, il suo più ampio scopo pubblico, e perché Xinzuo è il quadro pratico di riferimento.

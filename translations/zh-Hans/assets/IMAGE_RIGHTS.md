@@ -1,5 +1,5 @@
 ---
-source_hash: 0bae4481a253cfa904f821705cce857ceeb09008c3e7694d78500f7c1fa911cc
+source_hash: f8d9af434486ca8a5e174ea0ac7f3e38a1731b9963c3ea8ca26690ea16292823
 ---
 
 # 图像权利
@@ -15,6 +15,10 @@ source_hash: 0bae4481a253cfa904f821705cce857ceeb09008c3e7694d78500f7c1fa911cc
 为此工程专门创建的图表( 例如文件在 `assets/diagrams/`)是原创作品,由与书面内容相同的《民法典》BY-NC-SA 4.0许可证涵盖,除非单独标明。
 
 图表只有在通过项目技术审查时才能公布,如果生成的图解被认为具有重大误导性,则从提供的指南中撤回,并恢复到占位符状态,直到有经过核实的替换。
+
+无文本 `images/approved/iron-carbon-interstitial-matrix.webp` 是由 AI 协助的原始项目图解, 由存储器所有者选中并批准。 它是所提供文件的打印优化副本 `reticolo_bcc_di_ferro_e_carbonio.png`,没有增加文字或修改插图的构成。其可转录的标题将它识别为概念说明,而不是原子计数或晶体精确表示完成的刀片。
+
+无文本 `diagrams/m4-heat-treatment-language-neutral.svg` 是一个为冶金章节创建的原始工程图。它有意不包含任何语言特定标签:启动状态、加速、通用水管/冷却阶段、调温微结构以及简化的温度历史由普通文档文本解释,这样每个语言版本都可以翻译标题而不改变艺术作品。冷却符号是有意通用的,没有指定水、石油、天然气或板块的水管。
 
 ## Xinzuo 目录和产品图像
 
@@ -36,6 +40,7 @@ source_hash: 0bae4481a253cfa904f821705cce857ceeb09008c3e7694d78500f7c1fa911cc
 - `asian-handle-exploded.jpg` (存储库所有人提供的Xinzuo亚洲手相产品图像)
 - `PM8O Schematics.png` (经存储器所有者提供并用作标有亚洲手解剖图的源图像的亚洲手图)
 - `knife-shapes/Gyuto.jpg` (已核准由存储器所有人提供的 Xinzuo Gyuto 产品图像)
+- `knife-shapes/B30R-SG.jpg` (经核准由存储器所有人提供并用作直截了当的刀形图案的Xinzuo B30R-SG产品图像)
 - 所有单独审查的产品图像 `knife-shapes/*.jpg`,包括提供经核实的 B9H-SG 曲线图象 `knife-shapes/paring-curved.jpg`
 
 这些图象,连同任何Xinzuo标志和可能在本项目其他地方出现的促销照片,** 仍属于各自版权持有者的财产** 。
@@ -62,7 +67,7 @@ source_hash: 0bae4481a253cfa904f821705cce857ceeb09008c3e7694d78500f7c1fa911cc
 
 ## 已删除: 未右清除的外部链接
 
-先前嵌入的“刀形及其用途”中的三个数字 `<img>` 直接指向第三方零售商网站/CDN而不是经核准的当地资产的标签:Gyuto(`VIS-SHAPE-GYUTO-PM80`),Western连锁刀`VIS-SHAPE-BONING-B37TG`),以及先前所追踪的直刀式例子: `VIS-SHAPE-PARING-STRAIGHT-B13R`。这些外部链接被删除是因为其图像权利没有被记录或确认。 `knife-shapes/Gyuto.jpg`,直线对角数字使用经核准的本地 `knife-shapes/paring-straight.jpg`。Western boning-knife 数字仍然是编辑版的占位符,等待当地批准的照片。 `EDITORIAL_REQUIREMENTS.md` 防止未经批准的外部热链路重复出现的规则。
+先前嵌入的“刀形及其用途”中的三个数字 `<img>` 直接指向第三方零售商网站/CDN而不是经核准的当地资产的标签:Gyuto(`VIS-SHAPE-GYUTO-PM80`),Western连锁刀`VIS-SHAPE-BONING-B37TG`),以及先前所追踪的直刀式例子: `VIS-SHAPE-PARING-STRAIGHT-B13R`。这些外部链接被删除是因为其图像权利没有被记录或确认。 `knife-shapes/Gyuto.jpg`,直线对角数字现在使用经批准的本地 `knife-shapes/B30R-SG.jpg`。Western boning-knife 数字仍然是编辑版的占位符,等待当地批准的照片。 `EDITORIAL_REQUIREMENTS.md` 防止未经批准的外部热链路重复出现的规则。
 
 ## 不包括的机密材料
 

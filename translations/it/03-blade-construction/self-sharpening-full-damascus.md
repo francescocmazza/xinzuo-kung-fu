@@ -1,5 +1,5 @@
 ---
-source_hash: 9f2b5569ea6b38ce5267cc1134774737e394f7015a1d2d85ef71d4114e39369f
+source_hash: 688a442653b7dd00711dcc534b55e4bc939650fcff6873ddbac5ebc00851d665
 ---
 
 # Abbigliamento differenziale in lame full-Damascus
@@ -78,16 +78,6 @@ I bordi non si indossano in modo identico in ogni cucina. Il taglio delicato su 
 
 La resistenza e la velocità dell'usura differenziale dipendono quindi dal sistema di lavoro completo: accoppiamenti in acciaio, trattamento termico, geometria, tagliere, alimenti e tecnica. Ciò significa che l'effetto deve essere descritto attraverso il suo meccanismo e la sua finalità pratica piuttosto che come un numero universale di settimane o mesi supplementari tra affilature.
 
-## Affilatura di una lama full-Damascus autoaffilante
-
-Affilare la lama quando smette di tagliare in modo pulito o inizia a richiedere notevolmente più forza.
-
-L'affilatura normale della pietra ripristina l'apice. Poiché gli strati continuano attraverso la lama, l'affilatura espone nuovamente i materiali alternati al bordo, permettendo all'usura differenziale di svilupparsi nuovamente durante l'uso.
-
-Seguire il bordo esistente smusso a meno che non si intende modificare la geometria. Utilizzare abrasivi adatti agli acciai, rimuovere solo il materiale sufficiente per ripristinare l'apice, forma e rimuovere la bava in modo pulito, e scegliere la griglia finale per lo stile di taglio previsto.
-
-Una finitura altamente lucida può iniziare con un bordo microscopico più liscio. Con l'uso della lama, l'usura differenziale può ristabilire un morso più microscopico quando il materiale finito a strati mantiene la differenza necessaria nel comportamento di usura.
-
 ## Xinzuo 110 strati full-Damascus design
 
 Xinzuo produce lame a tutto strato personalizzate **110** in cui il materiale stratificato continua attraverso il taglio. Ciò è fondamentalmente diverso dall'utilizzo di Damasco solo come rivestimento decorativo intorno ad un nucleo separato: la costruzione stratificata stessa diventa il bordo di lavoro.
@@ -98,4 +88,12 @@ In questa costruzione, il materiale stratificato fa parte del bordo di lavoro pi
 
 L'esatta grandezza del beneficio deve essere misurata sulla costruzione Xinzuo finita piuttosto che espressa come percentuale fissa non supportata o intervallo di affilatura. L'osservazione dell'usura microscopica, le misure di microhardness e le prove di taglio controllate come CATRA sono modi appropriati per quantificarlo.
 
-Il significato responsabile di **auto-affilatura** è quindi chiaro: il coltello non crea letteralmente un nuovo bordo o elimina l'affilatura. **La sua costruzione full-Damascus è progettata in modo che l'usura differenziale possa preservare il morso microscopico affettato con l'usura del bordo.**
+## Cosa cambia riguardo alla manutenzione
+
+Il termine **autoaffilatura** non significa che il coltello crei un nuovo bordo o elimini l'affilatura normale. Quando l'apice smette di tagliare in modo pulito, deve ancora essere ripristinato.
+
+Ciò che cambia la costruzione stratificata è ciò che accade **tra** sessioni di affilatura. Dopo il ripristino dell'apice, i materiali alternati sono nuovamente presenti alla linea di taglio, in modo da usura differenziale può svilupparsi di nuovo durante l'uso. La procedura di affilatura stessa non ha bisogno di essere insegnato qui; il più tardi [Affilatura di base](../10-sharpening/basic-sharpening-process.md) capitolo spiega come ripristinare un bordo normale a doppio sbirciamento e come formare e rimuovere la bava in modo sicuro.
+
+Il significato responsabile di **autoaffilatura** è quindi preciso: **la costruzione full-Damascus è progettata in modo da usura differenziale può aiutare a preservare il morso microscopico affettatura come il bordo indossa, mentre normale affilatura rimane necessario quando l'apice stesso ha bisogno di restauro.**
+
+Con il sistema del materiale ora spiegato, il libro lascia la metallurgia e ritorna all'ambiente in cui il bordo funziona. La sezione successiva inizia con il tagliere a partire dalla superficie che l'apice incontra alla fine di quasi ogni taglio.

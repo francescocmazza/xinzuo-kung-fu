@@ -1,5 +1,5 @@
 ---
-source_hash: d57ae0f292a1a5836ddf61df10bb5203f2bda2c93f00a580c009d66b57ceb3aa
+source_hash: ad0f6348dbf00f33b3c46fdf2b0891c0c6016cd6a2d4f72640ea58ee5c186c71
 ---
 
 # Tagliere
@@ -18,22 +18,24 @@ Anche il legno non deve essere trattato automaticamente come meno igienico della
 
 Lavare una tavola di legno dopo l'uso, non lasciarla in ammollo in acqua, e lasciarla asciugare completamente. Spacchi profondi, laminazioni sciolte e scanalature che non possono più essere puliti correttamente sono segni che la tavola deve essere riapparire o sostituito.
 
-## Grano finale: perché il legno di pino della testa è più delicato sul bordo
+## Grano finale: perché l'orientamento delle fibre è importante
 
-Tra le tavole di legno, la costruzione che preferiamo per i coltelli fini è **end grain**, spesso chiamato **butcher-block end grain**. In italiano si può definire *legno di testa*: le estremità tagliate delle fibre di legno si affacciano verso l'alto verso la superficie di lavoro.
+Tra le tavole di legno, la costruzione che preferiamo per i coltelli fini è **fine**, spesso chiamato **macellaio-blocco fine grano**. In italiano questo è comunemente descritto come *legno di testa*: le estremità tagliate delle fibre di legno formano la superficie di lavoro.
 
-Immaginate il legno come un fascio di cannucce molto piccole. In una tavola convenzionale **bordo**, le fibre lunghe corrono principalmente parallele alla superficie, quindi il coltello tende ad attraversarle. In una scheda **fine**, la fibra termina verso l'alto. Il coltello può quindi muoversi in parte **tra** le fibre, che si separano e si fletteno leggermente intorno al bordo invece di presentare la stessa resistenza trasversale continua.
+Il modo più semplice per capire il termine è quello di immaginare il legno come un fascio di cannucce molto piccole. In un'asse **bordo**, i lati lunghi di queste fibre corrono principalmente paralleli alla superficie di taglio. Il coltello quindi incontra e attraversa le fibre dal lato. In un'asse **end-grain**, i blocchi sono ruotati in modo che la direzione della fibra scorra attraverso lo spessore della tavola e le estremità tagliate si affacciano verso l'alto. Il coltello incontra le estremità delle fibre e può muoversi in parte tra loro, in modo che possano separare e flettere leggermente intorno al bordo invece di presentare la stessa resistenza trasversale continua.
+
+La nuova immagine qui sotto mostra l'indizio visivo che rende la grana finale facile da riconoscere. La superficie è costruita da molti brevi blocchi di legno, spesso creando un aspetto a mosaico o a scacchiera. Ciò che conta meccanicamente non è il motivo stesso, ma l'orientamento sotto di esso: ogni blocco è stato girato in modo che la fibra termina, piuttosto che la grana laterale lunga, affrontare il coltello.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-CUTTING-BOARD-END-GRAIN-01">
-<img src="../../assets/diagrams/end-grain-cutting-board-numbered.svg" alt="Numbered diagram showing a knife entering an end-grain cutting board and the wood fibres separating around the edge." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
+<img src="../../assets/diagrams/Cutting board end grain.png" alt="End-grain wooden cutting board showing the mosaic-like surface formed by the exposed ends of many wood blocks." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
 <figcaption>
-<strong>Principio del grano finale.</strong> 1: il bordo raggiunge il bordo alla fine del taglio. 2: il coltello entra tra le estremità della fibra esposta. 3: le fibre deviano e si separano leggermente intorno alla lama. 4: le fibre attraversano il bordo verticalmente invece che principalmente attraverso la direzione di taglio.
+<strong>Costruzione a grana fine.</strong> I blocchi visibili sono orientati in modo che le loro fibre scorrano approssimativamente dalla superficie di taglio verso il basso attraverso lo spessore della tavola. Il coltello quindi soddisfa le estremità della fibra piuttosto che tagliare principalmente fibre lunghe che giacciono parallele alla superficie.
 </figcaption>
 </figure>
 
-Questo è il motivo per cui le buone tavole a grana fine mostrano spesso segni di taglio dall'aspetto poco profondo e sono talvolta descritte come guariture auto-guarigione. Il legno non si rigenera. I piccoli tagli tendono semplicemente a chiudere visivamente mentre le fibre ritornano verso la loro posizione precedente.
+Questo è il motivo per cui una buona tavola di grana finale generalmente si sente più indulgente ad un bordo sottile. Le fibre possono deviare leggermente mentre il coltello raggiunge la tavola, diffondendo il contatto invece di resistere all'apice come una superficie rigida di grana trasversale. Le tavole di grana finale mostrano anche spesso segni di coltello meno facilmente. A volte sono descritti come  di autoguarigione, ma il legno non si rigenera: piccoli tagli tendono semplicemente a chiudere visivamente mentre le fibre si spostano verso la loro posizione precedente.
 
-Un buon bordo-grana è ancora una scelta eccellente e di solito meno costoso. Grana fine diventa particolarmente attraente quando il coltello ha un bordo molto sottile, la scheda viene utilizzata pesantemente, e il peso, il costo e la manutenzione non sono i principali vincoli.
+Una tavola **bordo-grana** è diversa, non un nome alternativo per la stessa costruzione. È fatta dalle facce lunghe o bordi di strisce di legno, in modo che le linee di grano corrono principalmente lungo la superficie. Un bordo-grana ben fatto è ancora una scelta eccellente e di solito meno costoso. Grana fine diventa particolarmente attraente quando il coltello ha un bordo molto sottile, la tavola viene utilizzata pesantemente, e il peso, il costo e la manutenzione non sono i vincoli principali.
 
 ## Plastica: igiene pratica, ma un vero e proprio trade-off microplastico
 

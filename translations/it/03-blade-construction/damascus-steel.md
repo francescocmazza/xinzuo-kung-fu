@@ -1,5 +1,5 @@
 ---
-source_hash: 667b6dbbe4f3fd529ffa6ff21cf8fce125db91928635754dc213a36dd3e6a66a
+source_hash: 42985a9684faa58d46063aae8b5525ee611ce9a30c616885792251b9d92af1d8
 ---
 
 # Damascus Steel
@@ -34,7 +34,7 @@ Su un coltello rivestito, cercare la linea in cui il materiale esterno incontra 
 
 La chiusura ha ancora un valore pratico. Il materiale esterno più morbido può supportare un nucleo duro, semplificare la rettifica e la produzione, cambiare rigidità e peso e proteggere parte del corpo della lama. Il rivestimento fantasia conferisce al coltello anche la sua identità visiva.
 
-Su un coltello completamente saldato, gli acciai alternati continuano nella regione del bordo. La loro compatibilità, la durezza relativa, il comportamento di usura, lo spessore dello strato e l'orientamento possono quindi influenzare direttamente l'apice. Il capitolo successivo spiega come l'usura disuguale tra gli strati possa influenzare il comportamento di taglio.
+Su un coltello completamente saldato, gli acciai alternati continuano nella regione del bordo. La loro compatibilità, la durezza relativa, il comportamento di usura, lo spessore dello strato e l'orientamento possono quindi influenzare direttamente l'apice. Un capitolo successivo, dopo la fondazione metallurgica, spiega come l'usura tra questi strati possa influenzare il comportamento di taglio.
 
 Nessuna costruzione è automaticamente superiore. Il primo utilizza un nucleo specializzato all'interno di un corpo stratificato. Il secondo rende il materiale stratificato stesso la lama di lavoro. Entrambi dipendono ancora da saldature pulite, trattamento termico controllato e geometria adeguata.
 
@@ -91,6 +91,36 @@ La descrizione deve corrispondere alla struttura. Se il disegno esiste solo in s
 
 La decorazione superficiale può sbiadire o cambiare con lucidatura profonda perché non si estende attraverso la lama. Un vero e proprio motivo saldato rimane parte del materiale, anche se la finitura può ridurre il suo contrasto visibile fino a quando non viene lucidato e inciso di nuovo.
 
+## Come Xinzuo utilizza diverse costruzioni di Damasco
+
+Xinzuo utilizza la costruzione a strati in diversi modi tecnicamente diversi. L'attuale gamma combina leghe moderne specificate, trattamento termico controllato, saldatura a pattern industriale, rettifica, lucidatura, incisione e test in costruzioni con core rivestito, rame e full-Damascus. Poiché queste strutture collocano diversi materiali all'avanguardia o al di fuori di quest'ultimo, essi risolvono diversi problemi tecnici e visivi piuttosto che rappresentare una ricetta decorativa.
+
+La gamma attuale comprende:
+
+- rivestimenti fantasia intorno a anime come 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, ZDP-189 e proprietaria 14Cr14MoVNb;
+- costruzioni di Damasco in rame, dove i metalli in contrasto entrano a far parte del progetto visivo e strutturale;
+- Lame customizzate a 110 strati full-Damascus, dove i materiali alternati continuano attraverso il tagliente e possono contribuire direttamente all'usura differenziale all'apice.
+
+Il motivo visibile non detta quindi una soluzione tecnica. Xinzuo può combinare il rivestimento di Damasco con acciai a nocciolo molto diversi, utilizzare rame o altri contrasti per un linguaggio di design distinto, o rendere il materiale a strati stesso il bordo di lavoro in una costruzione full-Damascus.
+
+Tra questi esempi, i materiali, la struttura, il processo e l'aspetto sono variabili che possono essere progettate insieme. [Guida Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) in seguito spiega in dettaglio i materiali di base. [Abbigliamento differenziale in lame full-Damascus](self-sharpening-full-damascus.md) ritorna al caso speciale in cui i materiali alternati raggiungono l'apice.
+
+## Una sequenza di valutazione affidabile
+
+Quando si esamina un coltello fantasia:
+
+1. Trovare ciò che forma l'apice: un nucleo separato, strati alternati o un acciaio crogiolo.
+2. Identificare gli acciai e il trattamento termico verificato.
+3. Controllare lo spessore, la macinatura e la geometria dei bordi.
+4. Controllare se il disegno visibile scorre attraverso il metallo o esiste solo sulla superficie.
+5. Interpretare il conteggio dei livelli e il pattern solo dopo che la struttura di lavoro è chiara.
+
+Questo ordine impedisce l'apparizione di essere scambiato per prestazioni ingegneristiche.
+
+> **Principio di pratica:** identificare prima l'acciaio da lavoro; interpretare il modello ultimo.
+
+La distinzione pratica è ora completa. Lo sfondo storico qui sotto spiega perché materiali molto diversi sono venuti a condividere il nome di Damasco; è contesto, non un prerequisito per la valutazione di un coltello da cucina moderno.
+
 ## L'acciaio crogiolo storico è un percorso diverso
 
 Le lame annaffiate storiche associate al nome di Damasco sono state realizzate in acciaio al cromo ad alto tenore di carbonio comunemente chiamato **wootz**. Il loro modello non proveniva dall'impilamento di fogli alternati.
@@ -116,32 +146,6 @@ La co-fusione combina materiali di ferro più alti e inferiori al carbonio per o
 
 Bintie appartiene quindi alla storia metallurgica cinese senza richiedere l'affermazione che ogni esempio è venuto da un luogo o utilizzato un processo. Mostra produttori cinesi e gli utenti che partecipano a un più ampio scambio di materiali a lama avanzati.
 
-## Come Xinzuo utilizza diverse costruzioni di Damasco
+## Dall'acciaio fantasia al coltello completo
 
-Xinzuo utilizza la costruzione a strati in diversi modi tecnicamente diversi. L'attuale gamma combina leghe moderne specificate, trattamento termico controllato, saldatura a pattern industriale, rettifica, lucidatura, incisione e test in costruzioni con core rivestito, rame e full-Damascus. Poiché queste strutture collocano diversi materiali all'avanguardia o al di fuori di quest'ultimo, essi risolvono diversi problemi tecnici e visivi piuttosto che rappresentare una ricetta decorativa.
-
-La gamma attuale comprende:
-
-- rivestimenti fantasia intorno a anime come 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, ZDP-189 e proprietaria 14Cr14MoVNb;
-- costruzioni di Damasco in rame, dove i metalli in contrasto entrano a far parte del progetto visivo e strutturale;
-- Lame customizzate a 110 strati full-Damascus, dove i materiali alternati continuano attraverso il tagliente e possono contribuire direttamente all'usura differenziale all'apice.
-
-Il motivo visibile non detta quindi una soluzione tecnica. Xinzuo può combinare il rivestimento di Damasco con acciai a nocciolo molto diversi, utilizzare rame o altri contrasti per un linguaggio di design distinto, o rendere il materiale a strati stesso il bordo di lavoro in una costruzione full-Damascus.
-
-Tra questi esempi, materiali, struttura, processo e aspetto sono variabili che possono essere disegnate insieme. Le tradizioni storiche di Damasco e la produzione moderna di Xinzuo sono diverse vie metallurgiche, ma condividono la stessa domanda di fondo: come può essere combinato materiale e processo per creare una lama con prestazioni utili e una forte identità visiva?
-
-La [Guida Xinzuo Blade Steels](../02-steels-and-metallurgy/xinzuo-blade-steels.md) spiega i materiali di base. [Abbigliamento differenziale in lame full-Damascus](self-sharpening-full-damascus.md) spiega l'usura differenziale quando materiali alternati raggiungono l'apice.
-
-## Una sequenza di lettura affidabile
-
-Quando si esamina un coltello fantasia:
-
-1. Trovare ciò che forma l'apice: un nucleo separato, strati alternati o un acciaio crogiolo.
-2. Identificare gli acciai e il trattamento termico verificato.
-3. Leggi la geometria dello spessore, della macinatura e del bordo.
-4. Controllare se il disegno visibile scorre attraverso il metallo o si siede solo sulla superficie.
-5. Interpretare il conteggio dei livelli e il pattern solo dopo che la struttura di lavoro è chiara.
-
-Questo ordine impedisce l'apparenza di stare in piedi per l'ingegneria.
-
-> **Principio di pratica:** identificare prima l'acciaio da lavoro; interpretare il modello ultimo.
+Damasco ci dà la prima ampia lezione del libro: l'aspetto, il materiale, la costruzione e il processo devono essere separati prima che possano essere collegati di nuovo. Ora possiamo passare dall'acciaio patterned stesso al **coltello completo**prima la sua anatomia, poi la sua geometria bisellata, forme ed ergonomia. La successiva sezione metallurgia ritornerà ai meccanismi microscopici dietro il comportamento materiale introdotto qui.

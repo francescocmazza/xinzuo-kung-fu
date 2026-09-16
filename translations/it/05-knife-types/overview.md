@@ -1,5 +1,5 @@
 ---
-source_hash: b114448446a4c9ac870aa90f4a99de2c5f47a95dd603edd946aaafc5ad0c0737
+source_hash: 4787705c6968f792aeb92088061be6a9a8c4c0e0457ed436981b26ab8605f38e
 ---
 
 # Forme di coltello e loro usi
@@ -96,6 +96,8 @@ La mannaia cinese è una delle forme più particolari per tutti gli usi. La sua 
 
 La sua altezza, la massa in avanti e la mancanza di un profilo appuntito familiare possono rendere più difficile per i principianti perché cambiano i soliti riferimenti visivi e tattili per il controllo fine. Nelle mani esperte, le stesse caratteristiche lo rendono estremamente versatile. Leggere sempre il peso, lo spessore dietro il bordo, la geometria smussata e l'uso previsto.
 
+Sulla tavola, un sottile manicotto cinese tutto fine funziona al meglio con tagli a push controllati, corte costole verticali e disegnare affettatura piuttosto che impatto pesante. La faccia alta dà una guida eccellente nocche e diventa un comodo scoop per spostare gli ingredienti preparati, ma la lama larga ingrandisce anche le forze di torsione se il bordo diventa intrappolato in cibo denso. Trattare una affettatrice fine come affettatrice; utilizzare un vero e proprio chopper osso solo quando la sua massa e la geometria del bordo sono progettati per l'impatto.
+
 ### Elicottero osseo
 
 <div class="kb-profile-visual">
@@ -106,6 +108,8 @@ Un elicottero osso utilizza la massa, un bordo sostenuto e sostanziale sezione t
 
 Non è indistruttibile. Grandi ossa dense, materiale duro congelato, lavoro instabile o un colpo di bagliore può danneggiare il coltello e ferire l'utente. Un mannaia cinese sottile può sembrare simile pur avendo capacità completamente diverse.
 
+La tecnica dovrebbe lasciare che la massa della lama faccia la maggior parte del lavoro. Utilizzare una tavola stabile, posizionare il bersaglio in modo sicuro e fare un colpo controllato commesso piuttosto che ripetuti colpi di bagliore. Il bordo sostenuto spesso è volutamente meno delicato di un bordo affettato, quindi utilizzando un chopper osso per le verdure fini o sottili fette di presentazione commercia precisione e resistenza bassa il compito non ha bisogno.
+
 ## Coltelli da taglio e da intaglio lunghi
 
 ### Coltello da intaglio classico
@@ -115,6 +119,8 @@ Non è indistruttibile. Grandi ossa dense, materiale duro congelato, lavoro inst
 </div>
 
 Un coltello da intaglio è più lungo e stretto del coltello da cuoco in modo da poter attraversare un arrosto, petto di pollame, carne disossata o grande frutto con meno colpi. Meno altezza della lama riduce la resistenza e migliora la visibilità. Il movimento previsto è un lungo disegno, non ripetuto short sewing.
+
+Un utile tratto di intaglio inizia con tanto di bordo quanto pratico disponibile di fronte al cibo e tira senza intoppi attraverso la porzione, utilizzando la lunghezza della lama invece che la forza verso il basso. Rispetto al coltello di uno chef, l'altezza inferiore della lama dà meno spaziatura delle nocche su una tavola ma offre una migliore visibilità intorno ad un arrosto e meno contatto laterale con la fetta. Scegli questa forma quando lunghe porzioni pulite contano più della versatilità di taglio.
 
 ### Coltello da intaglio arrosto
 
@@ -132,6 +138,8 @@ Il profilo dell'intaglio dell'arrosto mantiene un lungo bordo di affettatura, ma
 
 Un coltello per prosciutto estende il concetto di coltello da intaglio. La sua lama molto lunga e stretta produce ampie fette sottili con poco attrito. Alcuni esempi flex leggermente per seguire il prosciutto; altri sono più solidi. Il design eccelle a lunga affettatura, ma è inefficiente per tagliare e piccoli lavori di bordo.
 
+La lunghezza extra è preziosa solo quando la cuoca la utilizza: iniziare il taglio vicino a un'estremità del bordo e lasciare un lungo colpo di luce viaggiare attraverso la carne. La flessibilità lieve può aiutare la lama seguire un'ampia superficie curva, ma non è permesso di piegare o torcere il coltello lateralmente. Rispetto ad un classico coltello da intaglio, il coltello da prosciutto sacrifica un po 'di rigidità e controllo generale bordo per affettare eccezionalmente lungo, a basso taglio.
+
 ### Coltello Sashimi
 
 <div class="kb-profile-visual">
@@ -140,6 +148,8 @@ Un coltello per prosciutto estende il concetto di coltello da intaglio. La sua l
 
 Le lunghe affettatrici tradizionali di sashimi utilizzano la loro lunghezza per tagliare il pesce crudo in un colpo di tiraggio, lasciando una superficie più pulita rispetto ai ripetuti movimenti posteriori e posteriori. Gli esempi tradizionali sono singoli smussati, normalmente morsi e affilati in modo diverso dalle normali affettatrici a doppia bisellatura. Questa geometria specializzata può guidare se l'utente non capisce la bisella.
 
+La tecnica è volutamente silenziosa: impostare il tallone, disegnare la lama verso di te in una corsa continua ed evitare di segare a meno che il taglio non richieda veramente un secondo passaggio. Il lungo profilo rigido e la geometria a singolo smusso sono ottimizzati per la qualità superficiale e la separazione controllata, non per tagliare o filettare flessibile. Poiché il rovescio e la smussatura principale formano un sistema di affilatura, questo coltello richiede anche una manutenzione più specializzata di una normale affettatrice a doppio smusso.
+
 ### Sakimaru
 
 <div class="kb-profile-visual">
@@ -147,6 +157,8 @@ Le lunghe affettatrici tradizionali di sashimi utilizzano la loro lunghezza per 
 </div>
 
 Il sakimaru appartiene alla stessa famiglia di affettatori a singolo bevel lungo ma termina in un fronte arrotondato, con influenza sulla spada. Questo cambia l'equilibrio, la presentazione e l'accesso frontale senza modificare il compito principale: disegnare pulito affettando attraverso pesci disossati.
+
+Il frontale arrotondato è meno simile all'ago rispetto al punto di molte affettatrici in stile yanagiba, quindi non è scelto per forare piccoli giunti o lavorare dettagli stretti. Il suo valore è nel modo in cui il davanti completa il lungo profilo di affettatura e come la lama può finire un disegno attraverso pesci delicati. In uso pratico, lunghezza della lama, geometria biforcuto e la qualità di affilatura materia più che l'associazione ornamentale con una punta simile a spada.
 
 ### Kiritsuke
 
@@ -209,6 +221,8 @@ Utilizzare solo il flex il modello è progettato per fornire. Se il coltello si 
 
 La deba è una spessa e pesante coltello da macelleria di pesce. Il suo forte tallone può lavorare attraverso appropriate articolazioni di pesce e ossa con tecnica controllata, mentre le maniglie anteriori separazione più fine. La deba tradizionale sono singolo smussato e mano. Il loro peso non li rende universale clipping: grande osso mammifero, torsione o impatto incurante può ancora scheggiare il bordo.
 
+La deba funziona utilizzando diverse parti della stessa lama per diverse operazioni. Il tacco spesso fornisce supporto per un lavoro controllato attraverso appropriate articolazioni di pesce e piccole ossa di pesce, mentre il fronte più sottile può tracciare intorno alla testa, colletto e filetto linea con molta più precisione. Cercando di fare la punta eseguire il lavoro impatto del tallone, o utilizzando il tallone come una mannaia carne uso generale, sconfigge quella divisione del lavoro.
+
 ## Piccoli coltelli da tavola e da precisione
 
 ### Coltello utility
@@ -218,6 +232,8 @@ La deba è una spessa e pesante coltello da macelleria di pesce. Il suo forte ta
 </div>
 
 Il coltello si trova tra un coltello da cucina e un coltello da cuoco. Ha abbastanza portata per frutta, panini, verdure piccole, formaggio e carne disossata mentre rimane agile quando una lama full-size affollerebbe la tavola. Il suo profilo stretto riduce la resistenza, ma dà meno libertà di nocche e zona di trasferimento di cibo rispetto a un coltello da cuoco.
+
+È particolarmente utile in cucine dove molti lavori sono troppo grandi per un coltello da cucina ma non giustificano l'altezza e la portata del coltello di uno chef: tagliare un piccolo arrosto, porzionare agrumi, tagliare sandwich o lavorare su una tavola affollata. Il compromesso taglia in entrambi i sensi. È più agile del coltello di uno chef ma meno efficiente per grandi volumi, e più capace su una tavola di un coltello da cucina ma di solito meno comodo per un peeling prolungato a mano.
 
 ### Coltello da cucina curvato
 
@@ -232,10 +248,12 @@ La stessa curva dà meno contatto diritta bordo. Non trattarlo come un coltello 
 ### Coltello da stiro diritto
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/paring-straight.jpg" alt="Complete Xinzuo straight paring knife"><figcaption>Un modello Xinzuo a zigrinatura dritta con contatto più dritto per tagli brevi e precisi.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/B30R-SG.jpg" alt="Xinzuo B30R-SG straight paring knife"><figcaption>Xinzuo B30R-SG, usato qui come esempio di coltello da stiro.</figcaption></figure>
 </div>
 
 Il coltello dritto mette più del suo bordo corto sulla tavola e traccia un taglio diretto naturalmente. Funziona bene su aglio, scalogno, piccola frutta, guarnitura e rifilatura esatta pur rimanendo abbastanza compatto per un lavoro controllato a mano. Segue arrotondato produrre meno naturalmente di un parer curvato ma è più versatile quando la preparazione si alterna tra mano e tavola.
+
+Nell'esempio Xinzuo B30R-SG qui mostrato, il profilo compatto dritto rende il punto facile da posizionare e il bordo corto facile da controllare senza richiedere un grande movimento del polso. Ciò rende la forma utile quando la precisione conta più della lunghezza del colpo. La sua bassa altezza della lama, tuttavia, fornisce poco spazio per le nocche, quindi ritagli ripetuti su una tavola è meglio lasciare ad un coltello più alto.
 
 ### Coltello da bistecca
 
@@ -258,6 +276,8 @@ Per la carne pregiata, la migliore disposizione è semplice: **usare un coltello
 </div>
 
 I coltelli da formaggio sono una famiglia, non una forma universale. Il formaggio morbido appiccicoso beneficia di un'area di contatto inferiore; un punto stretto può porzionare e servire; il formaggio stagionato duro ha bisogno di un sostegno più forte. Aperture, cavità e altri rilievi possono ridurre l'incollaggio ma non possono eliminarlo per ogni formaggio. Scegliere in base alla consistenza e alle dimensioni del formaggio, non solo il nome della categoria.
+
+Pensate prima al problema meccanico: il formaggio morbido tende ad aderire a facce larghe, il formaggio friabile premia un cuneo controllato, e il formaggio molto duro ha bisogno di abbastanza spina dorsale e sostegno bordo per resistere alla torsione. Un coltello da formaggio è quindi meglio trattato come un attrezzo specifico per la consistenza piuttosto che un modello decorativo di servizio. Quando il formaggio è grande o denso, stabilizzarlo prima del taglio; forzando un punto sottile lateralmente può danneggiare sia il coltello che il cibo.
 
 ## Specialisti della segheria e dell'hard food
 
@@ -282,6 +302,8 @@ Utilizzare un leggero movimento di taglio guidato e lasciare lavorare i denti. E
 </div>
 
 Un coltello da cucina surgelato utilizza forti seghe grossolane per segare attraverso ingredienti surgelati adatti. Esiste perché forzare un coltello da cuoco rigido sottile in un blocco congelato può scheggiarsi o rompere la lama. Si tratta ancora di un'operazione speciale pericolosa: stabilizzare il cibo, tenere la mano libera fuori dal percorso di taglio ed evitare di torcere o l'impatto.
+
+Utilizzare la lunghezza seghettata completa con colpi brevi e controllati e mantenere la lama allineata con il taglio. Non buttare il kerf aperto o torcere il coltello quando si lega; riposizionare il cibo e riavviare. La geometria specializzata riduce la tentazione di colpire un blocco congelato con il coltello di uno chef fine, ma non rende ogni articolo congelato sicuro o pratico da tagliare a mano.
 
 ## Scegliere per lavoro anziché per nome
 

@@ -1,5 +1,5 @@
 ---
-source_hash: a31e399dba3966ab0a1af8d5ef8b486df51f2e3d4377720edf8c7dd6172e5aa9
+source_hash: 224e46f73e20f69835e53f594fdd97f7e78a51dbae1f7caf46d5297982679d86
 ---
 
 # Trattamento termico e carboidrati
@@ -42,6 +42,12 @@ Alcuni carburi si formano mentre l'acciaio viene prodotto. Alcuni rimangono irri
 Carbidi materia perché sono di solito molto più difficile della matrice circostante. Possono migliorare la resistenza all'usura abrasiva, ma influenzano anche la durezza e l'affilatura. Più carburo non è automaticamente migliore. **Tipo, durezza, dimensioni, quantità e distribuzione di tutta la materia.**
 
 Con questa immagine in mente, la sequenza di trattamento termico diventa molto più facile da seguire.
+
+<figure class="kb-learning-figure" data-visual-id="VIS-MET-HEAT-TREATMENT-M4">
+<img src="../../assets/diagrams/m4-heat-treatment-language-neutral.svg" alt="Text-free four-stage schematic showing starting steel, austenitizing, quenching and tempering above a simplified temperature-time curve." width="1600" height="1100">
+<figcaption><strong>Trattamento termico a colpo d'occhio.</strong> Da sinistra a destra, la fila superiore mostra una struttura di partenza controllata, il riscaldamento in HPLC, il raffreddamento rapido per formare martensite, e temperamento a bassa temperatura che rende la struttura martensitica più utilizzabile. Gli inserti circolari sono microstrutture schematiche.</figcaption>
+<div class="kb-learning-figure__note">La curva inferiore rappresenta lo stesso processo di una cronologia semplificata della temperatura: calore al campo di tempra, tenuta, tempra ad una temperatura molto più bassa, ririscaldamento al campo di tempra più basso, poi freddo. Temperature esatte, tempi, velocità di raffreddamento e mezzi di tempra dipendono dall'acciaio; il simbolo di raffreddamento è generico e non implica tempra dell'acqua.</div>
+</figure>
 
 ## 1. Preparazione dell'acciaio prima dell'indurimento
 

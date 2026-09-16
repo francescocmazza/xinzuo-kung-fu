@@ -1,10 +1,12 @@
 ---
-source_hash: 3e65e76e0f785b2a52a9c4ddb3fac713c0767466554d81f55a1e32b0b676e3ef
+source_hash: c5b35b0f7ad216d6d672b68f24833883581cc0778a66f917c5b80691a2cb627d
 ---
 
 # Configurazione affilatura
 
 Buona affilatura inizia con una pietra stabile, piatta e correttamente bagnata. Un'attenta preparazione rende il movimento più facile da controllare e impedisce molti errori che i principianti erroneamente incolpano della loro tecnica.
+
+Questo capitolo prepara solo la pietra e la postazione di lavoro. Il capitolo successivo utilizza quella configurazione per insegnare la sequenza di affilatura di base completa.
 
 ## Una semplice prima configurazione
 
@@ -50,4 +52,4 @@ Sciacquare il coltello e asciugarlo immediatamente. Sciacquare la pietra, rimuov
 
 Lasciare asciugare lentamente una pietra d'acqua in un luogo ventilato. Evitare radiatori, forni, luce solare forte e contenitori chiusi mentre la pietra è ancora umida. Conservare solo quando è completamente asciutto.
 
-L'obiettivo di preparazione è semplice: una pietra adatta al lavoro, correttamente bagnata, ragionevolmente piatta e completamente stabile.
+L'obiettivo di preparazione è semplice: una pietra adatta al lavoro, correttamente bagnata, ragionevolmente piatta e completamente stabile. Una volta che queste condizioni sono impostate, passare a [Affilatura di base](basic-sharpening-process.md) e concentrarsi sul contatto, l'angolo, la pressione e il feedback piuttosto che sull'apparecchiatura.

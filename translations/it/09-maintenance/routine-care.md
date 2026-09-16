@@ -1,14 +1,14 @@
 ---
-source_hash: be963478b13dcb52e95f6a27d13c8c1e8686735ddc32677263f725831837cf2a
+source_hash: 074903b80d15f70af377ac161015cf65d5348715d365ef00877acfc70c36785a
 ---
 
 # Cura del coltello di routine
 
+Il capitolo precedente trattava la superficie che il bordo incontra durante l'uso. La cura di routine continua la stessa idea: preservare il coltello controllando le condizioni ordinarie che agiscono su di esso tra le sessioni di affilatura.
+
 L'affilatura è solo una parte della manutenzione del coltello e di solito non la più frequente. La vita di bordo dipende più dalle abitudini quotidiane: **che cosa taglia il coltello su, come viene lavato e asciugato, come viene memorizzato e se il bordo è utilizzato per lavori non è stato progettato per fare**.
 
-Buona cura di routine rallenta la corrosione e danni meccanici e riduce la frequenza di affilatura deve rimuovere l'acciaio.
-
-Questo capitolo riguarda la manutenzione ordinaria. Il restauro completo dei bordi appare più tardi nei capitoli di affilatura.
+Buona cura di routine rallenta la corrosione e i danni meccanici e riduce la frequenza di affilatura deve rimuovere l'acciaio. Questo capitolo copre la manutenzione ordinaria.
 
 ## Dopo ogni utilizzo: lavare, risciacquare e asciugare
 
@@ -42,11 +42,9 @@ Il pitting profondo, le finiture danneggiate o il trattamento incerto su una lam
 
 ## Il tagliere fa parte della manutenzione dei bordi
 
-Il bordo tocca il bordo centinaia o migliaia di volte tra affilature, quindi il materiale del bordo conta molto.
+La tavola è una delle principali fonti di contatto con il bordo ordinario, ma i suoi materiali e la costruzione sono già stati coperti in [Tagliere](cutting-boards.md). La regola di manutenzione qui è quindi breve: utilizzare una scheda adatta in buone condizioni, mantenerla stabile ed evitare il contatto di routine con vetro, ceramica, pietra, metallo, lastre, cerchi padella o il piano di lavoro.
 
-Il legno e la plastica o la gomma compatibili con il coltello permettono all'apice di entrare o deformare leggermente la superficie invece di colpire qualcosa di molto più duro. Vetro, ceramica, pietra e metallo sono superfici di taglio scadenti per i bordi fini perché accelerano la laminazione, appiattimento e scheggiatura.
-
-Utilizzare una tavola abbastanza grande per mantenere sia il cibo che il movimento stabile. Colpire ripetutamente un piatto, cerchio o contapietre può danneggiare un bordo molto più veloce del normale cibo.
+Sostituire o riapparire una lavagna mal segnata può proteggere il coltello in modo più efficace rispetto all'affilatura più spesso. La cura della lavagna e la lama fanno parte dello stesso sistema.
 
 ## Non raschiare la tavola con il tagliente
 
@@ -98,7 +96,7 @@ Un acciaio liscio può aiutare a raddrizzare o revisionare un bordo laminato sug
 
 I coltelli molto duri e sottili che tendono a scheggiare piuttosto che a rotolo possono guadagnare poco dall'acciaio forte e possono essere danneggiati dalla tecnica scadente. Scegli l'utensile di manutenzione in base all'acciaio, alla durezza e alla geometria dei bordi.
 
-Quando l'apice è veramente arrotondato, usurato o scheggiato, un'asta non può sostituire l'affilatura adeguata. [sezione di affilatura](../10-sharpening/basic-sharpening-process.md) spiega come ricostruire il bordo.
+Quando l'apice è veramente arrotondato, usurato o scheggiato, un'asta non può sostituire l'affilatura corretta. A quel punto la manutenzione cambia da **preservazione** a **restauro**.
 
 ## Controllare prima che il danno diventi grave
 
@@ -132,3 +130,5 @@ La routine quotidiana è breve:
 8. affilare quando il bordo ha veramente bisogno di restauro.
 
 Queste abitudini richiedono poco tempo e possono risparmiare molto più lavoro alla prossima sessione di affilatura.
+
+Il libro ora si muove da **proteggendo un bordo esistente** a **ricostruendo quello che ha indossato**. La sezione di affilatura inizia con la pietra e la postazione di lavoro, poi insegna il processo di base completo, e solo in seguito esamina la bava in maggior dettaglio.

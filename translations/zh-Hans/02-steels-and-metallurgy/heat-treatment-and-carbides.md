@@ -1,5 +1,5 @@
 ---
-source_hash: d727519ab97101d9704157e4661ff2d3f83dbaf043db4b099dceb58b21a7a0bb
+source_hash: dc4c67cf5f8bed79d2f74100d7e311d3b860f996d6ada21a7df8cfcf6f0dbdd7
 ---
 
 # 热处理和碳化物
@@ -42,6 +42,12 @@ source_hash: d727519ab97101d9704157e4661ff2d3f83dbaf043db4b099dceb58b21a7a0bb
 碳化物物质, 因为它们通常比周围的矩阵要难得多。 它们可以增强对磨损性磨损的抵抗力, 但也会影响坚硬和磨损。 更多的碳化物并非自动地更好 。 ** 类型、 硬性、 大小、 数量和分布等所有物质 。 **
 
 考虑到这一景象,热处理序列变得容易遵循。
+
+<figure class="kb-learning-figure" data-visual-id="VIS-MET-HEAT-TREATMENT-M4">
+<img src="../../assets/diagrams/m4-heat-treatment-language-neutral.svg" alt="Text-free four-stage schematic showing starting steel, austenitizing, quenching and tempering above a simplified temperature-time curve." width="1600" height="1100">
+<figcaption><strong>一眼就能看出来</strong> 从左到右, 上行显示一个受控的起始结构, 向奥斯汀石加热, 快速冷却以形成马腾石, 以及低温的调温, 使得马腾斯结构更容易使用。 圆形的内置是示意图式的微结构 。</figcaption>
+<div class="kb-learning-figure__note">下曲线代表了与简化的温度历史相同的过程:热到加速范围、保持、冷却到低得多的温度、再热到低温范围、然后冷却。精确的温度、时间、冷却速度和冷却介质取决于钢;冷却符号是通用的,并不意味着水的冷却。</div>
+</figure>
 
 ## 1. 硬化前准备钢材
 

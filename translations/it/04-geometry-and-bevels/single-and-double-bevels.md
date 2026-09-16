@@ -1,8 +1,10 @@
 ---
-source_hash: b9fba252300b30f5c9eeaafff66303548dbf0b45030bb5c618001968837d2da8
+source_hash: a4665f9f6662bef8d46a62940d18b85fe98cbcb3b8bc1dc0ee8bafd1dd4f88a1
 ---
 
 # Bisturi coltello
+
+Il capitolo di anatomia ha stabilito **dove** il volto della lama, smusso e tagliente sono. La domanda successiva è **come queste superfici si incontrano**. Quella geometria cambia come il coltello entra nel cibo, come dirige, come separa una fetta e come deve essere successivamente affilata.
 
 Tagliare una patata alta con due coltelli e si può notare qualcosa di inaspettato. Una lama viaggia quasi dritto verso il basso; un altro tira lateralmente anche quando la mano punta in avanti. La smussata superficie inclinata che porta al tagliente può spiegare la differenza.
 
@@ -223,3 +225,5 @@ La sequenza completa appare più tardi in [Affilatura di base](../10-sharpening/
 - Su un singolo smusso, l'angolo principale locale può cambiare man mano che l'altezza della lama e lo spessore cambiano verso la punta.
 - Un coltello single-bevel è ottimizzato per una mano ma spesso può essere utilizzato con l'altra quando il cibo e la direzione di taglio sono disposti intorno alla geometria.
 - Gestire lo sterzo attraverso l'impostazione e la direzione, non la correzione laterale forzata.
+
+Con la geometria del bordo compresa, il capitolo successivo può confrontare **profili lama completi** senza dover rispiegare ciò che significa ogni volta smusso, smusso doppio, asimmetria o urasuki. Forma poi aggiunge lunghezza, altezza, curvatura e disegno della punta al sistema smusso qui descritto.

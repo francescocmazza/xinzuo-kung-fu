@@ -1,16 +1,12 @@
 ---
-source_hash: 44b85fedcd4aebcf100ebf44f38cf48c731c68e60fd20ee5e32d440c99219cde
+source_hash: 76cba92e5b6a87e805798da832ef04343c7f6b0ebf2ea1ded3407da31e7a8045
 ---
 
 # Uso sicuro e trasporto
 
-Un buon coltello da cucina taglia con pochissimo sforzo. Ecco perché la sicurezza deve venire dalle abitudini, non dalle esitazioni.
+Prima di praticare i movimenti di taglio, stabilire le condizioni che rendono questi movimenti prevedibili. Un buon coltello da cucina taglia con pochissimo sforzo, quindi l'uso sicuro dipende meno dalla forza che su ** cibo stabile, una tavola stabile, un percorso di taglio chiaro e abitudini coerenti**.
 
-La gente spesso dice che un coltello affilato è più sicuro di uno noioso. L'idea è utile ma incompleta.
-
-Un coltello affilato di solito ha bisogno di meno forza, entra nel cibo più facilmente e segue la linea prevista più prevedibilmente. Un coltello opaco spesso incoraggia movimenti più duri e meno controllati. Ma un coltello affilato può ancora causare lesioni gravi se maneggiato con attenzione.
-
-La sicurezza deriva da un coltello affilato adatto, uno spazio di lavoro stabile, tecnica controllata e abitudini chiare.
+La gente spesso dice che un coltello affilato è più sicuro di uno noioso. L'idea è utile ma incompleta. Un coltello affilato di solito ha bisogno di meno forza, entra nel cibo più facilmente e segue la linea prevista più prevedibilmente; un coltello affilato spesso incoraggia movimenti più duri e meno controllati. Ma un coltello affilato può ancora causare lesioni gravi quando lo spazio di lavoro o il movimento è disattento.
 
 Utilizzare un controllo breve prima di ogni sessione:
 
@@ -18,92 +14,64 @@ Utilizzare un controllo breve prima di ogni sessione:
 
 Tutte e quattro le cose. Una perfetta presa artiglio non può salvare una cipolla rotolante, e cibo stabile non è sufficiente se la tavola scivola.
 
-## Creare un'area di lavoro sicura prima del taglio
+## Crea la postazione di lavoro prima del taglio
 
 Molti incidenti iniziano prima che la lama tocchi il cibo.
 
-Stabilizzare il tagliere con un panno umido, un tappetino antiscivolo o un supporto adatto se necessario. Utilizzare una tavola abbastanza grande sia per l'ingrediente che per il coltello. Una tavola che è troppo piccola costringe cibo, lama e mani nello stesso spazio limitato.
+Stabilizzare il tagliere con un panno umido, stuoia antiscivolo o supporto adatto se necessario. Utilizzare una tavola abbastanza grande per l'ingrediente, il coltello e una zona per pezzi tagliati. Ciotole trasparenti, imballaggio, utensili e scarti dal percorso della lama. Tenere il pavimento e contro asciugare e utilizzare abbastanza luce per vedere il punto, la mano di sostegno e qualsiasi oggetto duro all'interno del cibo.
 
-Mantenere l'area di lavoro chiara. Ciotole, imballaggi, utensili e scarti non dovrebbero bloccare il percorso di taglio. Tenere il pavimento e il contatore asciutto, e utilizzare abbastanza luce per vedere la punta, la mano di sostegno e gli oggetti duri all'interno del cibo.
+Una sequenza utile è:
 
-Una semplice routine è:
-
-1. Stabilizza la tavola.
-2. Liberate l'area di lavoro.
-3. Asciuga le mani e la maniglia.
-4. Stabilizza il cibo.
-5. Scegli il coltello corretto.
-
-Questi pochi secondi riducono il rischio e migliorano la qualità del taglio.
+1. stabilizzare la tavola;
+2. chiarire l'area di lavoro;
+3. asciugare le mani e le maniglie;
+4. stabilizzare il cibo;
+5. scegliere il coltello corretto;
+6. identificare dove la lama viaggierà prima dell'inizio.
 
 ## Stabilizzare l'ingrediente
 
 Ingredienti tondi possono rotolare. Creare una superficie piatta su una cipolla, patata, zucca o melone prima di effettuare i tagli principali, quindi posizionare quella superficie sulla tavola.
 
-Dividere il cibo grande o irregolare in sezioni gestibili. Forzare un coltello lungo attraverso qualcosa che non può essere tenuto in modo sicuro aumenta il rischio di scivolare o torsione.
+Dividere il cibo grande o irregolare in sezioni gestibili. Forzare un coltello lungo attraverso qualcosa che non può essere tenuto in modo sicuro aumenta la possibilità di scivolare, torcere o rilasciare improvvisamente.
 
-Evitare il cibo congelato a meno che il coltello è specificamente progettato per esso. Una superficie rigida congelato può rendere il bordo skid, chip o rompere improvvisamente con forza incontrollata.
+Evitare il cibo congelato a meno che il coltello è specificamente progettato per esso. Una superficie rigida congelato può fare un bordo sottile skid, chip o rompere in modo imprevedibile.
 
 ## Usa il coltello giusto per l'attività
 
-I coltelli da cucina non sono utensili da taglio universali.
+I coltelli da cucina non sono utensili da taglio universali. Un sottile gyuto, santoku o nakiri è eccellente per la preparazione degli alimenti, ma non un osso pesante. Un coltello flessibile segue i contorni ma non deve essere attorcigliato contro un giunto duro. Un deba può gestire un lavoro appropriato di macelleria di pesce, ma non è una mannaia universale.
 
-Un sottile gyuto, santoku o nakiri è eccellente per la preparazione di alimenti ma non ossa pesanti. Un coltello flessibile a filetto segue i contorni ma non deve essere attorcigliato contro un giunto duro. Un deba può gestire ossa di pesce appropriate, ma non è un mannaio universale.
+Non utilizzare un coltello da cucina come una barra di prim'ordine, un cacciavite, un apriscatole, una leva, un utensile o un utensile per la separazione degli oggetti congelati. Non utilizzare il tagliente come raschietto laterale.
 
-Non utilizzare un coltello da cucina come:
+L'acciaio e la geometria sono progettati per il taglio. Un carico che è sicuro nella direzione di taglio prevista può diventare dannoso quando la lama è attorcigliata o levato lateralmente.
 
-- una barra di pry;
-- un cacciavite;
-- un apriscatole;
-- uno strumento per separare gli oggetti congelati;
-- una leva per l'apertura di gusci o coperchi;
-- un raschietto con il tagliente trascinato lateralmente su tutta la lavagna.
-
-L'acciaio e la geometria sono progettati per il taglio. La forza laterale può danneggiare un bordo anche quando la forza di taglio dritta è sicura.
-
-## Grip e controllo
+## Grip e mano di supporto
 
 La sicurezza non dipende da un'impugnatura universale della mano del coltello. L'impugnatura **, l'impugnatura intermedia o ibrida e l'impugnatura** descritta in [Peso, equilibrio ed ergonomia](../05-knife-types/weight-and-balance.md) tutti possono essere controllati quando si adattano al coltello e compito.
 
 Qualunque sia la presa che si usa, tenere il coltello saldamente senza tensione inutile, tenere le dita da scivolare verso il bordo e mantenere il polso in una linea naturale. Se una nuova presa cambia l'equilibrio che si sente, rallentare fino a quando il coltello diventa prevedibile di nuovo.
 
-La mano di sostegno dovrebbe guidare il cibo mantenendo la punta delle dita fuori dal percorso di taglio. Nella presa **claw**, la punta delle dita ricurvo verso l'interno e il lato della lama si muove contro le prime articolazioni. L'artiglio è una guida in movimento, non una posa da imitare a velocità professionale.
+La mano di sostegno guida il cibo mantenendo la punta delle dita fuori del percorso di taglio. Nella presa **claw**, la punta delle dita ricurvo verso l'interno e il lato della lama può muoversi contro le prime articolazioni. L'artiglio è una guida in movimento, non una posa da imitare a velocità professionale.
 
-[Tecniche di taglio](../06-cutting-techniques/essential-cutting-techniques.md) La regola di sicurezza è più semplice: utilizzare una presa stabile, tenere la mano di supporto dietro la linea di taglio e non aumentare la velocità a scapito del controllo.
+Il capitolo successivo spiega i movimenti di taglio stessi. In questa fase la regola è più semplice: ** impostare la mano di supporto prima, poi spostare il coltello**.
 
 ## Lasciate che il bordo faccia il lavoro
 
-Un coltello ben affilato non dovrebbe avere bisogno di forza eccessiva.
+Un coltello ben affilato non dovrebbe avere bisogno di forza eccessiva. Se la lama non entra facilmente, fermarsi e identificare la ragione. Il bordo può essere noioso, il cibo instabile, il coltello inadatto o il movimento errato per il profilo.
 
-Se la lama non entra facilmente, fermarsi e trovare il motivo. Il bordo può essere noioso, il cibo instabile, il coltello inadatto o il movimento sbagliato per il profilo.
-
-La forza eccessiva può fare:
-
-- la slitta del coltello;
-- il cibo si muove all'improvviso;
-- il cuneo bordo e rilasciare in modo imprevedibile;
-- l'utilizzatore torce la lama mentre la libera;
-- la mano di sostegno si muove nel sentiero.
-
-Utilizzare movimenti scorrevoli e deliberati ed evitare sollecitazioni laterali.
+Eccessiva forza può fare scivolare il coltello, fare il movimento del cibo improvvisamente, incuneare la lama e rilasciarlo in modo imprevedibile, o incoraggiare l'utente a torcere la lama durante la liberazione. Utilizzare movimenti lisci, deliberati ed evitare lo stress laterale.
 
 ## Utilizzare un tagliere adatto
 
-Legno e pannelli di plastica adatti sono generalmente abbastanza delicato per i bordi del coltello di qualità.
+Per motivi di sicurezza, la tavola deve fare due cose: **restare stabile sotto il cibo e fornire una superficie di taglio adatta per un bordo coltello**.
 
-Tra le tavole di legno, i taglieri **end-grain** sono particolarmente delicati sul bordo. Il loro aspetto caratteristico a blocchi o scacchiere deriva dall'organizzazione del legno in modo che le estremità delle fibre formano la superficie di taglio. Quando il coltello incontra la tavola, il bordo tende ad entrare tra quelle fibre e separarle leggermente invece di tagliarle ripetutamente attraverso la loro lunghezza. Ciò dà alla superficie un po 'più dare sotto la lama e rende generalmente meno aggressivo su un bordo fine. Le fibre possono anche tendono a chiudere di nuovo dopo il taglio, motivo per cui le tavole di grana fine spesso mostrano segni di coltello meno prontamente rispetto ad altre costruzioni di legno.
+Le tavole in plastica o in materiale sintetico resiliente possono fornire superfici di taglio adeguate quando sono pulite, piatte e in buone condizioni. Vetro, ceramica, pietra e metallo sono troppo dure per il taglio di routine con bordi sottili e possono danneggiare rapidamente l'apice.
 
-Ciò differisce dalle tavole a grana**, dove il lato lungo delle fibre forma la superficie di taglio, e le tavole a grana**, che espongono la faccia larga della tavola. Entrambe possono essere adatte per l'uso in cucina, ma la costruzione a grana finale è generalmente l'opzione di legno più a misura di bordo.
-
-Vetro, ceramica, pietra e metallo sono troppo duri per i bordi fini. Il contatto ripetuto può opacare o scheggiare rapidamente l'apice. Le tavole decorative di vetro possono essere facili da pulire, ma sono superfici di taglio scadenti.
-
-Mantenere anche la tavola. Le scanalature profonde possono intrappolare residui e influenzare la stabilità. Le tavole di legno pulite e asciutte correttamente invece di ammollarle.
+Le differenze dettagliate tra le specie legnose, **fine grano**, bordo grano, plastica, gomma resiliente, bambù e pannelli compositi appartengono al dedicato [Tagliere](../09-maintenance/cutting-boards.md) capitolo. Qui, non lasciare che la scelta del bordo distrarre dalla regola di sicurezza immediata: la scheda non deve scivolare, e la superficie di taglio non deve forzare il coltello a rimbalzo o perdere il suo bordo inutilmente.
 
 ## Evitare la torsione e raschiare lateralmente
 
-Questo è importante soprattutto per gli acciai Xinzuo più duri. ZDP-189, SRS13, M390, Blue Steel No. 2 e 14Cr14MoVNb sono scelti per prestazioni di bordo esigenti, ma un sottile bordo duro non è progettato per strappare, girare attraverso un taglio, colpire o tagliare alimenti congelati. Più acciai perdonanti e geometrie più pesanti offrono un margine più ampio, ma ancora non trasformano il coltello di uno chef in un mannaio o un utensile di pry.
-
-Un coltello sottile è forte nella sua direzione di taglio prevista e molto meno tollerante della forza laterale.
+Ciò è particolarmente importante per i coltelli ad alta durezza e a taglio sottile. Un bordo di precisione può essere estremamente forte nella sua direzione di taglio prevista e molto meno tollerante rispetto alla forza laterale.
 
 Se una lama si blocca in un cibo denso, ritirarla con attenzione e regolare il taglio invece di torcerlo libero.
 
@@ -111,9 +79,9 @@ Non raschiare il cibo in tutta la tavola con il tagliente. Utilizzare la colonna
 
 ## Lavare in modo sicuro e con attenzione
 
-[Cura del coltello di routine](../09-maintenance/routine-care.md) spiega la cura del materiale. Durante il lavaggio, la regola di sicurezza è semplice: ** mantenere la lama visibile e il suo percorso di bordo controllato**.
+[Cura del coltello di routine](../09-maintenance/routine-care.md) spiega la cura del materiale. Durante il lavaggio, la regola di sicurezza immediata è semplice: **tenere la lama visibile e il suo percorso di bordo controllato**.
 
-Non lasciare mai un coltello nascosto sotto l'acqua saponata o mescolato con altri oggetti nel lavandino. Lavarlo singolarmente con detersivo delicato e una morbida spugna, tenendo il bordo lontano dalla mano. Asciugarlo immediatamente dal lato della colonna vertebrale senza avvolgere le dita intorno al bordo.
+Non lasciare mai un coltello nascosto sotto l'acqua saponata o mescolato con altri oggetti nel lavandino. Lavarlo singolarmente con detersivo delicato e una morbida spugna, tenendo il bordo lontano dalla mano. Asciugarlo immediatamente dal lato della colonna vertebrale senza avvolgere le dita intorno al bordo tagliente.
 
 Una lavastoviglie può anche nascondere una lama affilata tra gli altri utensili. Il lavaggio a mano risolve sia i problemi di sicurezza che di cura dei materiali.
 
@@ -125,7 +93,7 @@ Aprire entrambe le mani con i palmi rivolti verso l'alto e appoggiare il coltell
 
 L'altra persona prende il coltello dalla maniglia e lo solleva dai palmi aperti. La persona che offre il coltello non chiude le dita intorno ad esso, tirarlo indietro o fare un altro movimento mentre viene preso. Il trasferimento è completo solo quando l'altra persona ha il pieno controllo della maniglia.
 
-Questo piccolo rituale rende il movimento chiaro e prevedibile: il coltello è visibile, nessuno è in competizione per la stessa presa, e la persona che lo riceve decide quando prenderlo.
+Questo rende il trasferimento chiaro e prevedibile: il coltello è visibile, solo una persona controlla il manico alla volta, e la persona che lo riceve decide quando prenderlo.
 
 Mai lanciare, scivolare o casualmente raggiungere un coltello verso qualcuno.
 
@@ -141,43 +109,25 @@ Per brevi distanze, tenere il coltello basso, vicino al corpo e fermo.
 6. Avvisa la gente vicina che stai passando con un coltello.
 7. Cammina lentamente, non correre mai.
 
-Puntare la punta verso il basso riduce la possibilità di indirizzarla verso la parte superiore del corpo di un'altra persona. Tenere il bordo lontano e il braccio riduce ancora il contatto accidentale.
+Puntare la punta verso il basso riduce la possibilità di indirizzarla verso la parte superiore del corpo di un'altra persona. Mantenere il braccio rende ancora più facile il movimento per altre persone a prevedere.
 
-Non coprire la punta con la mano libera o portare il coltello in posizione verticale vicino al viso o al petto.
-
-In una cucina professionale, utilizzare un chiaro avvertimento come il coltello dietro o l'espressione stabilita del posto di lavoro.
+Non coprire la punta con la mano libera o portare il coltello in posizione verticale vicino al viso o al petto. In una cucina professionale, utilizzare un chiaro avvertimento come il coltello dietro o l'espressione stabilita sul posto di lavoro.
 
 ## Trasporto oltre la postazione di lavoro
 
 Non portare un coltello sciolto attraverso un edificio, metterlo non protetto in una borsa o lasciarlo in un cassetto con il bordo esposto.
 
-Uso:
-
-- una protezione della lama;
-- a saya;
-- una cassa attrezzata;
-- un rotolo di coltelli;
-- imballaggio sicuro progettato per il trasporto.
-
-La protezione deve impedire al coltello di scivolare fuori e il bordo di tagliare attraverso il materiale.
+Utilizzare una protezione lama, saya, caso montato, rotolo di coltello o imballaggio sicuro progettato per il trasporto. La protezione deve impedire che il coltello scorre fuori e il bordo di tagliare attraverso il materiale.
 
 Per il trasporto al di fuori della cucina, seguire le leggi locali e le regole della sede.
 
 ## Conservazione sicura
 
-Conservare i coltelli con il bordo protetto e la maniglia accessibile senza toccare la lama.
+Conservare i coltelli con il bordo protetto e la maniglia accessibile senza toccare la lama. Opzioni adatte includono un blocco coltello ben progettato, una striscia magnetica stabile, un organizzatore in-drower, una protezione lama o saya, e un rotolo coltello per il trasporto professionale.
 
-Opzioni adatte includono:
+Un coltello sciolto in un cassetto non è sicuro e può danneggiare il bordo contro altri utensili.
 
-- un blocco coltello ben progettato;
-- una striscia magnetica stabile installata correttamente;
-- un organizzatore di drawer;
-- un paralama o un saya;
-- un rotolo di coltello per trasporto professionale.
-
-Un coltello sciolto in un cassetto è pericoloso e danneggia anche il bordo contro altri utensili.
-
-Su una striscia magnetica, posizionare la spina dorsale contro la striscia prima e ruotare la lama in posizione. Per rimuoverla, ruotare il bordo di distanza prima di tirare. Ciò evita di colpire o raschiare il bordo contro il magnete.
+Su una striscia magnetica, posizionare la spina dorsale o la lama contro la striscia prima e ruotare la lama in posizione sotto controllo. Per rimuoverla, ruotare il bordo di distanza prima di tirare. Ciò evita di colpire o raschiare il bordo contro il supporto.
 
 ## Cosa fare se un coltello cade
 
@@ -187,15 +137,7 @@ Spostare i piedi e lasciare cadere il coltello. Una volta che smette di muoversi
 
 ## Nitidezza e sicurezza
 
-Affila un coltello noioso invece di compensare con la forza.
-
-Segni che il bordo ha bisogno di attenzione includono:
-
-- scivolare sulla pelle di pomodoro;
-- frantumare le erbe invece di tagliare in modo pulito;
-- necessità di pressione per iniziare un taglio;
-- carta o alimenti strappanti;
-- muoversi imprevedibilmente attraverso l'ingrediente.
+Affilare un coltello opaco invece di compensare con la forza. Segni che il bordo ha bisogno di attenzione includono scivolare sulla pelle di pomodoro, erbe schiaccianti invece di tagliare in modo pulito, bisogno di pressione eccessiva per iniziare un taglio, strappare carta o cibo, e muoversi imprevedibilmente attraverso l'ingrediente.
 
 La nitidezza migliora il controllo, ma non sostituisce la tecnica sicura.
 
@@ -207,7 +149,7 @@ Una lama nascosta può tagliare chiunque arrivando in acqua. Tenere il coltello 
 
 ### Taglio verso il corpo
 
-Tagli diretti lontano dalle mani e dal corpo quando possibile. Se è opportuno lavorare a mano specialista, utilizzare un piccolo coltello adatto e mantenere il movimento breve e controllato.
+Disporre la tavola, ingrediente e posizione in modo che il percorso di taglio previsto rimane libero da mani e corpo. Specialista in-mano utilizza un diverso, deliberatamente controllato configurazione e dovrebbe essere imparato separatamente.
 
 ### Tenere il cibo in aria con un grande coltello
 
@@ -215,7 +157,7 @@ Utilizzare un tagliere a meno che l'operazione richiede specificamente un lavoro
 
 ### Prova di nitidezza con un dito
 
-Mai usare un dito per verificare se un coltello è affilato, sia facendo scorrere lungo il bordo o premendo contro di esso. Provare nitidezza solo su cibo adatto o carta. L'unico controllo tattile bordo insegnato in questa guida è il controllo bava controllata utilizzato durante l'affilatura: il dito si muove dalla lama faccia verso il bordo, perpendicolare ad esso, e si ferma all'apice.
+Mai usare un dito per verificare se un coltello è affilato, sia facendo scorrere lungo il bordo o premendo contro di esso. Provare nitidezza solo su cibo adatto o carta. L'unico controllo tattile bordo insegnato in questa guida è il controllo **burr controllato durante l'affilatura**: il dito si muove dalla faccia della lama verso il bordo, perpendicolare ad esso, e si ferma all'apice.
 
 ### Scraping la scheda con il tagliente
 
@@ -223,12 +165,14 @@ Utilizzare la colonna vertebrale, la lama faccia o un raschietto da banco. Sidew
 
 ### con un'asse di vetro, ceramica, pietra o metallo
 
-Queste superfici danneggiano rapidamente i bordi sottili e possono rendere il taglio meno prevedibile. Utilizzare legno o plastica adatta.
+Queste superfici danneggiano rapidamente i bordi sottili e possono rendere il taglio meno prevedibile. Utilizzare un tagliere adatto progettato per lavorare coltello.
 
 ## Cosa ricordare
 
-> Un coltello affilato è più facile da controllare perché ha bisogno di meno forza, ma la sicurezza dipende dall'intero metodo di lavoro. Stabilizzare la tavola e il cibo, utilizzare il coltello corretto, tenere la mano di sostegno chiaro, evitare di torcere e portare il coltello basso e ancora con la punta verso il basso e il bordo via.
+> Un coltello affilato è più facile da controllare perché ha bisogno di meno forza, ma la sicurezza dipende dall'intero metodo di lavoro. Stabilizzare la tavola e il cibo, utilizzare il coltello corretto, tenere la mano di supporto chiaro, evitare di torcere e rendere ogni movimento prevedibile per le persone intorno a voi.
 
-Il cuoco più sicuro non è il più veloce, è quello i cui movimenti rimangono prevedibili.
+Il cuoco più sicuro non è il più veloce. È quello i cui movimenti rimangono controllati e facili da anticipare.
+
+Con quel framework stabilito, il prossimo capitolo può concentrarsi su **come muovere il coltello**: discesa diretta, avanzamento tagli, disegnare affettatura, lavoro piroettante e controllo preciso della punta.
 
 > **Principio di pratica:** rendere ogni movimento coltello facile per un'altra persona da anticipare.

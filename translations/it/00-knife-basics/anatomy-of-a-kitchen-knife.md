@@ -1,5 +1,5 @@
 ---
-source_hash: d9228fdd9c59bf0847edf398f147c6d23de73f55f5f1ff5a55f407fe96e9ea9e
+source_hash: 2df54241b4e5626c4dfe72e23b4425791397638c5d518d9f1c0745b3743bdc4c
 ---
 
 # Anatomia di un coltello da cucina
@@ -72,7 +72,9 @@ Il bordo **taglio** o **bordo** è la linea affilata che entra nel cibo. Sopra d
 
 Il **handle** è la parte tenuta dall'utente, ma la sua costruzione varia. Su un coltello occidentale **full-tang**, il tang attraversa quasi tutta la lunghezza e il contorno dell'impugnatura. **Scales** coprire i suoi lati e sono di solito fissati con adesivi e **rivet o perni**. L'acciaio esposto può aggiungere massa e influenzare l'equilibrio.
 
-Un **bolster** è la transizione in metallo rinforzato tra lama e manico trovato su molti coltelli da cucina occidentali. Può essere integrato con la lama o fabbricati come componente separato. Può rafforzare la transizione, creare un comodo punto di contatto con le dita, proteggere la parte anteriore della maniglia e aggiungere la massa vicino alla mano. Alcuni supporti si estendono al tallone; altri lasciano il bordo aperto per affilare più facilmente. Un supporto non è necessariamente una guardia ****. Una guardia è specificamente progettato per fermare la mano scivolare verso il bordo, e molti coltelli da cucina non hanno guardia separata.
+**Full tang è solo una costruzione di tang valida.** Un **hidden tang** è più stretto della maniglia e racchiuso al suo interno. Alcuni tang nascosti si estendono fino al sedere e sono fissati meccanicamente lì; questo è un **through tang**, un termine di costruzione separato e non un altro nome per un tang completo. Un **parziale o stub tang** termina prima del sedere. Le maniglie modellate possono incapsulare il tang in modo che non siano visibili scale o rivetti. Queste costruzioni non devono essere trattate come una semplice gerarchia di qualità: la durata dipende dalle dimensioni del tang, materiali, vestibilità, fissaggio, uso previsto e carichi previsti.
+
+Con il tang identificato, la parte successiva da distinguere è il **blade-to-handle transition**. Un **bolster** è la transizione in metallo rinforzato trovato su molti coltelli da cucina occidentali. Può essere integrato con la lama o fabbricato come componente separato. Può rafforzare la transizione, creare un comodo punto di contatto con le dita, proteggere la parte anteriore della maniglia e aggiungere massa vicino alla mano. Alcuni supporti si estendono al tallone; altri lasciano il bordo aperto per un più facile affinamento. Un supporto non è necessariamente un **guard**. Una guardia è specificamente progettato per fermare la mano scivolare verso il bordo, e molti coltelli da cucina non hanno guardia separata.
 
 Su molti coltelli di produzione di alta qualità, un supporto separato è unito alla lama-e-tang montaggio tramite **saldatura** ed è poi macinato e rifinito come parte del coltello completo. La presenza di un giunto saldato non è, da solo, un segno di qualità inferiore. In manifattura frettolosa o mal controllata, fit impreciso o un giunto inadeguato può rendere questa transizione un punto strutturalmente sensibile. Quando le parti si adattano correttamente e il giunto, il controllo del calore e la finitura sono correttamente eseguiti, il supporto può invece irrigidire e rafforzare la transizione lama-manico e contribuire a distribuire i carichi attraverso quella zona.
 
@@ -82,7 +84,7 @@ C'è anche un'importante ragione di produzione. Se un supporto integrale viene p
 
 ### Che cosa significa forgiare realmente
 
-**La forgiatura è un processo di fabbricazione, non un grado di qualità.** L'acciaio rimane solido ed è rimodellato dalla forza di compressione in modo che il materiale si muova da una parte all'altra del pezzo. La forgiatura del coltello è solitamente fatta a caldo perché l'acciaio riscaldato richiede meno forza per deformarsi. Un martello a mano è solo un modo per fornire quella forza: martelli di potenza, presse meccaniche o idrauliche e stampi industriali possono tutto forgiare l'acciaio. Un coltello può quindi essere forgiato genuinamente senza essere fatto a mano, e un coltello forgiato a mano non è automaticamente un coltello migliore.
+Questo confronto produttivo solleva un termine spesso scambiato per un'etichetta di qualità. **La forgiatura è un processo di fabbricazione, non un grado di qualità.** L'acciaio rimane solido ed è rimodellato dalla forza di compressione in modo che il materiale si muova da una parte all'altra del pezzo. La forgiatura del coltello è solitamente fatta a caldo perché l'acciaio riscaldato richiede meno forza per deformarsi. Un martello a mano è solo un modo per fornire quella forza: martelli di potenza, presse meccaniche o idrauliche e stampi industriali possono tutti forgiare l'acciaio. Un coltello può quindi essere realmente forgiato senza essere fatto a mano, e un coltello forgiato a mano non è automaticamente un coltello migliore.
 
 Nella produzione stock-removal, una lama parte dalla piastra o dalla barra e raggiunge il suo profilo principalmente attraverso il taglio, la rettifica e la lavorazione del materiale. Nella forgiatura, un billet o un pezzo d'acciaio più spesso viene prima deformato verso la distribuzione richiesta del materiale e poi viene ancora tagliato, macinato, trattato termicamente e rifinito. La forgiatura può essere particolarmente utile quando il disegno necessita di un supporto integrale spesso, di un cambio di spessore locale, di una sezione affusolata o di un'altra forma che altrimenti richiederebbe l'eliminazione di una grande quantità di materiale dal materiale uniforme.
 
@@ -92,7 +94,7 @@ Il coltello finito dipende ancora dalla composizione dell'acciaio, dalla qualit�
 
 Questo spiega anche perché i segni visibili del martello non sono la prova della qualità della forgiatura. Una lama forgiata può essere levigata e levigata completamente liscia, mentre una superficie textured può essere volutamente creata o mantenuta per l'aspetto. La domanda utile non è quindi semplicemente **... È forgiata? ma **... Cosa ha contribuito la forgiatura a questo disegno, e quanto bene è stato l'acciaio, il trattamento termico e la geometria eseguita successivamente?
 
-**Full tang** è solo una costruzione valida. Un **hidden tang** è più stretto rispetto alla maniglia e racchiuso al suo interno. Alcune costruzioni nascoste-tang** si estendono fino al culo e sono fissati meccanicamente lì; questo è un **through tang**, un termine di costruzione separato e non un altro nome per un tang completo. Un **parziale o stub tang** termina prima del culo. Le maniglie modellate possono incapsulare il tang in modo che nessuna bilancia o rivetti sono visibili. Nessuna di queste costruzioni crea una semplice gerarchia di qualità. La durata dipende dalle dimensioni del tang, materiali, vestibilità, fissaggio, uso previsto e carichi previsti.
+La forgiatura e la costruzione del tang rispondono a domande diverse. La forgiatura descrive **come l'acciaio è modellato durante la fabbricazione**; il tang completo, nascosto, attraverso e parziale descrivere **come la lama continua nella maniglia**. Mantenere queste idee separate rende la costruzione successiva maniglia più facile da capire.
 
 ## Quello che questo libro chiama un manico asiatico
 
@@ -148,20 +150,13 @@ Il termine è intenzionalmente stretto. Non significa **** che tutti i coltelli 
 
 Un **collare** è diverso da un supporto occidentale. Entrambi si siedono vicino alla giunzione lama-manico, ma il colletto rafforza la parte anteriore della maniglia, mentre il supporto è un componente metallico alla transizione lama-manico. L'inserto tassello mostrato nella costruzione Xinzuo esplosa è un metodo di assemblaggio; non è una caratteristica di definizione di ogni maniglia asiatica.
 
-## Durezza, ritenzione dei bordi e flessibilità
+## Geometria e materiale: ciò che l'anatomia da sola non può dirvi
 
-Per la selezione del coltello, ricordate: **la geometria determina quanto facilmente una lama curva; l'acciaio e il trattamento termico determinano la sicurezza che tollera la flessione.**
+Anatomia ci dice **dove** una caratteristica è; non ci dice di per sé come quella caratteristica si comporterà. Una lama sottile si piega più facilmente di una spessa a causa della geometria, mentre il trattamento dell'acciaio e del calore determinare quanto piegare, impatto o torcere la lama può tollerare senza danni permanenti o fratture.
 
-Una lama sottile si flette più facilmente di una spessa, ma un coltello progettato per flettere ripetutamente necessita anche di una resistenza sufficiente a sopravvivere alle sollecitazioni laterali. Con una geometria comparabile e famiglie d'acciaio molto simili, **la durezza più elevata sostiene un bordo fine e di solito migliora la ritenzione dei bordi, ma riduce la tolleranza per la piegatura, torsione e impatto severi**. Forzato troppo lateralmente, una lama molto dura è più probabile di scheggiare, rompere o rompere che semplicemente rimanere piegato in modo permanente.
+Questa distinzione è importante quando si confronta un coltello flessibile a filetto, una affettatrice rigida di precisione e un elicottero osseo. Le loro dimensioni visibili, l'acciaio e il trattamento termico sono progettati insieme per diversi carichi. Non testare un coltello di precisione dura piegandolo deliberatamente: la flessibilità non è un test di qualità, e una lama sottile dura può scheggiare, rompere o rompere quando forzato lateralmente.
 
-Molti coltelli da taglio di alta gamma utilizzano acciai duri e geometrie di precisione relativamente rigide. Essi mantengono un bordo fine per lungo tempo, ma non devono essere testati piegandoli. Coltelli progettati per colpire l'osso o flex intorno ai contorni di solito utilizzano acciai più resistenti o trattamenti termici di bassa durezza. Tollerano l'impatto e la deflessione meglio, ma normalmente hanno bisogno di manutenzione bordo più frequente.
-
-Un utile aiuto alla memoria è:
-
-**lama di precisione più dura = maggiore ritenzione del bordo, meno tolleranza per il flex forzato**  
-**Lama di lavoro più dura/morbida = maggiore tolleranza per flex o impatto, minore ritenzione del bordo**
-
-Questa è una regola di allenamento, non una formula metallurgica completa. Spessore della lama, cono, composizione, struttura interna microscopica dell'acciaio, trattamento termico e geometria dei bordi ancora materia. La regola spiega perché un coltello flessibile filetto, un chopper osso e una affettatrice molto duro fine-bordo utilizzano compromessi diversi.
+I successivi capitoli in acciaio spiegano in dettaglio durezza, durezza, ritenzione dei bordi e microstruttura. Per ora, mantenere un principio: **geometria determina il carico posto sul materiale; materiale e trattamento termico determinare come il coltello risponde a tale carico.**
 
 ## Leggere il volto della lama attraverso tre domande separate
 
@@ -175,4 +170,4 @@ Non trattare ogni caratteristica della superficie visibile come lo stesso tipo d
 
 Il rilascio degli alimenti dipende dalla topografia, dalla geometria della lama, dalla finitura, dal cibo e dal movimento insieme.
 
-Con questi principi generali stabiliti, possiamo confrontare le forme della lama senza ripeterle in ogni profilo.
+Con le parti e i termini di costruzione stabiliti, il capitolo successivo esamina **come la lama si restringe verso il tagliente**. Capire la geometria del bisello prima rende il confronto successivo delle forme complete del coltello molto più facile.

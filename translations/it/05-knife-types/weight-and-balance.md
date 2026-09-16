@@ -1,5 +1,5 @@
 ---
-source_hash: 448b4725b958f0d42c51915219e8bb6e3f373627b34efe29c554687fd6b850e1
+source_hash: fb8a3cdb5e6cb369beb899d30809bd21bc8efb539c12914bba31b22a376b5c7c
 ---
 
 # Peso, equilibrio ed ergonomia
@@ -77,3 +77,5 @@ Per una raccomandazione in negozio:
 6. ** Utilizzare acciaio, costruzione, materiali, aspetto e prezzo per completare la scelta.** Questi fattori distinguono tra coltelli che già si adattano all'uso del cliente.
 
 Ricordare il metodo come **funzione, vestibilità, selezione**. Prima trovare la forma che fa il lavoro. Poi trovare l'ergonomia che si adatta alla persona. Infine scegliere il prodotto specifico tra i modelli che soddisfano entrambi.
+
+Il capitolo successivo mantiene l'attenzione sull'interfaccia mano guardando i materiali **handle**. Il materiale non sostituisce la forma o l'equilibrio, ma cambia peso, sensazione di superficie, resistenza all'umidità e requisiti di cura. Una volta comprese queste scelte di design, il libro passa dalla scelta e comprensione del coltello all'utilizzo sicuro.

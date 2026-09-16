@@ -1,5 +1,5 @@
 ---
-source_hash: 7a7d755e6c76b76b360590b985c16f3d986c5eb5d484bb16496ae9d20dab105d
+source_hash: c6f14e674121d8051cad1348187374d83d37ba42a125180da6d7ef5863491f8c
 ---
 
 # Diritti di immagine
@@ -15,6 +15,10 @@ Salvo diversa indicazione, il contenuto originale scritto di questo libro è con
 Diagrammi creati appositamente per questo progetto (ad esempio file in `assets/diagrams/`) sono opere originali e sono coperte dalla stessa licenza CC BY-NC-SA 4.0 del contenuto scritto, salvo diversa indicazione individuale.
 
 Un diagramma rimane pubblicato solo mentre passa la revisione tecnica del progetto. Un'illustrazione generata che risulta essere materialmente fuorviante viene ritirata dalla guida resa e restituita allo status di segnaposto fino a quando non è disponibile una sostituzione verificata.
+
+Senza testo `images/approved/iron-carbon-interstitial-matrix.webp` è un'illustrazione di progetto originale assistita dall'AI selezionata e approvata dal proprietario del repository. È una copia ottimizzata per la stampa della fornitura `reticolo_bcc_di_ferro_e_carbonio.png`, senza aggiunta di testo o modifiche alla composizione illustrata. La sua didascalia traducibile la identifica come un'illustrazione concettuale, non una rappresentazione atomica o cristallograficamente esatta di una lama finita.
+
+Senza testo `diagrams/m4-heat-treatment-language-neutral.svg` è uno schema di progetto originale creato per il capitolo metallurgico. Non contiene intenzionalmente etichette specifiche per la lingua: le condizioni di partenza, la fase di tempra/raffreddamento generico, le microstrutture di temperamento e la cronologia della temperatura semplificata sono spiegate dal testo del documento ordinario in modo che ogni edizione linguistica possa tradurre la didascalia senza alterare l'opera d'arte. Il simbolo di raffreddamento è intenzionalmente generico e non specifica l'estinzione di acqua, olio, gas o piastre.
 
 ## Xinzuo catalogo e immagini dei prodotti
 
@@ -36,6 +40,7 @@ Le seguenti immagini approvate in `assets/images/approved/` sono ritagliati o ad
 - `asian-handle-exploded.jpg` (immagine del prodotto con maniglia asiatica Xinzuo esplosa fornita dal proprietario del repository)
 - `PM8O Schematics.png` (schema di maniglia asiatica Xinzuo approvato fornito dal proprietario del repository e utilizzato come immagine sorgente per la figura di anatomia etichettata maniglia asiatica)
 - `knife-shapes/Gyuto.jpg` (immagine approvata del prodotto Xinzuo gyuto fornita dal proprietario del repository)
+- `knife-shapes/B30R-SG.jpg` (immagine del prodotto Xinzuo B30R-SG approvata fornita dal proprietario del repository e utilizzata come esempio di ritaglio)
 - tutte le immagini del prodotto recensite singolarmente in `knife-shapes/*.jpg`, compresa l'immagine curvata B9H-SG verificata fornita per `knife-shapes/paring-curved.jpg`
 
 Queste immagini, insieme a eventuali loghi Xinzuo e fotografie promozionali che potrebbero apparire altrove in questo progetto, **restano di proprietà del rispettivo titolare del copyright**. Sono incluse in questo progetto con l'autorizzazione del proprietario del repository per l'uso didattico specifico di questo libro.
@@ -62,7 +67,7 @@ Gli adattamenti PNG neutri rimuovono le didascalie inserite in una lingua fissa.
 
 ## Rimosso: hotlink esterni non corretti
 
-Tre figure in "Schede coltello e loro usi" precedentemente incorporato `<img>` tags che puntano direttamente su siti web/CDN di terzi rivenditori invece di attività locali approvate: Gyuto (`VIS-SHAPE-GYUTO-PM80`), coltello da disossamento occidentale (`VIS-SHAPE-BONING-B37TG`), e l'esempio di pareggio-coltello dritto precedentemente tracciato come `VIS-SHAPE-PARING-STRAIGHT-B13R`. Questi hotlink esterni sono stati rimossi perché i loro diritti di immagine non sono stati registrati o confermati. La figura Gyuto ora utilizza il locale approvato `knife-shapes/Gyuto.jpg`, e la figura dritta di ritaglio utilizza il locale approvato `knife-shapes/paring-straight.jpg`. La figura del coltello disossante occidentale rimane un segnaposto editoriale in attesa di una fotografia locale approvata. `EDITORIAL_REQUIREMENTS.md` per la regola che impedisce che i hotlink esterni non approvati si ripetano.
+Tre figure in "Schede coltello e loro usi" precedentemente incorporato `<img>` tags che puntano direttamente su siti web/CDN di terzi rivenditori invece di attività locali approvate: Gyuto (`VIS-SHAPE-GYUTO-PM80`), coltello da disossamento occidentale (`VIS-SHAPE-BONING-B37TG`), e l'esempio di pareggio-coltello dritto precedentemente tracciato come `VIS-SHAPE-PARING-STRAIGHT-B13R`. Questi hotlink esterni sono stati rimossi perché i loro diritti di immagine non sono stati registrati o confermati. La figura Gyuto ora utilizza il locale approvato `knife-shapes/Gyuto.jpg`, e la figura dritta ora utilizza il locale approvato `knife-shapes/B30R-SG.jpg`. La figura del coltello disossante occidentale rimane un segnaposto editoriale in attesa di una fotografia locale approvata. `EDITORIAL_REQUIREMENTS.md` per la regola che impedisce che i hotlink esterni non approvati si ripetano.
 
 ## Materiale riservato escluso
 

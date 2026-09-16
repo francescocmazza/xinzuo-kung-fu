@@ -1,5 +1,5 @@
 ---
-source_hash: 5eca4e9a2e65b349082859cd2cbb12d57a59b350f5ddce0373ada59add168bd7
+source_hash: f31f2c633ffe77aa7c24812c5ecf9ca30946858a3823c1e43756fc050ec2222d
 ---
 
 # 切割板
@@ -18,22 +18,24 @@ source_hash: 5eca4e9a2e65b349082859cd2cbb12d57a59b350f5ddce0373ada59add168bd7
 
 使用后清洗木板, 不要让它浸泡在水中, 让它完全干涸。 深处的裂缝、 松散的薄膜和无法再适当清理的槽子是板子应该重新铺设或更换的迹象 。
 
-## 末粒:为什么“头的木头”在边缘比较温和
+## 末粒:为什么纤维方向很重要
 
-在木板中,我们喜欢的精细刀具是** 端谷物** , 通常称为** 丁彻块末谷** 。 在意大利,这可以称为 *legno di testa* : 木材纤维的切片面朝上朝工作表面。
+在木板中,我们更喜欢的精细刀具是** 端谷物**,通常称为** 丁彻块末谷**。 在意大利,这通常被称为*legno di testa*:木纤维的切割端形成工作表面。
 
-想象一下木质是一捆非常小的稻草。 在传统的“ 边缘- 草质** ” 板上, 长的纤维主要与表面平行, 所以刀子往往会穿过它们。 在“ 末端- 草质** ” 板上, 纤维的端点会向上移动。 因此, 刀子可以在** 纤维之间部分移动, 纤维在边缘上略为分离和伸缩, 而不是表现出同样的连续的交叉阻力 。
+最容易理解这个词的方法是将木头想象成一捆非常小的稻草。 在“ 边缘草” 板上, 这些纤维的长边主要与切开的表面平行。 因此, 刀子从侧面相交并交叉纤维。 在“ 末边草” 板上, 区块被转动, 以便纤维的方向穿过板的厚度, 切开的顶端向上。 刀子符合纤维的端, 可以部分地在它们之间移动, 这样它们就可以在边缘上划开和伸展, 而不是产生同样的连续的交叉阻力。
+
+下面的新图像显示了让最终粒子容易识别的视觉线索。 表面是由许多短木块建造的, 通常形成一个马赛克或格子板外观。 机械上重要的是不是图案本身,而是其下方的方向:每个块都被转动,使得纤维结束,而不是长边粒子面对刀子。
 
 <figure class="kb-learning-figure" data-visual-id="VIS-CUTTING-BOARD-END-GRAIN-01">
-<img src="../../assets/diagrams/end-grain-cutting-board-numbered.svg" alt="Numbered diagram showing a knife entering an end-grain cutting board and the wood fibres separating around the edge." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
+<img src="../../assets/diagrams/Cutting board end grain.png" alt="End-grain wooden cutting board showing the mosaic-like surface formed by the exposed ends of many wood blocks." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
 <figcaption>
-<strong>收割原则。</strong> 1: 边缘在切口结束时到达板块。 2: 刀插在被暴露纤维的端口之间。 3: 纤维偏转,在刀片周围稍有分离。 4: 纤维垂直穿过板块,而不是主要穿过切口。
+<strong>最终草原建筑。</strong> 可见区块的方向是使其纤维从切割表面到板的厚度之间运行。 因此,刀直通纤维端,而不是主要切穿与表面平行的长纤维。
 </figcaption>
 </figure>
 
-正因为如此,良好的最终谷物板往往显示浅色的切痕,有时被描述为“自我愈合 ” 。 木材不会再生。 随着纤维恢复到其先前的位置,小块的切痕往往在视觉上趋于关闭。
+这也是为什么良好的最终草原板一般会感到对精细边缘比较宽容的原因。 当刀子伸到板子上时,纤维会稍有偏移,将接触点分散起来,而不是将顶点作为硬性交叉草地表面。 最终草原板也往往不那么容易显示刀痕。 它们有时被描述为“自我愈合 ” , 但木头不会再生:随着纤维向先前位置的移动,小切片只是视觉上的接近。
 
-良好的边草板仍然是一个很好的选择,而且通常成本较低。 当刀子的边缘非常薄,板子使用过量,重量、成本和维修不是主要制约因素时,断粒会变得特别吸引人。
+** 边缘草料板不同, 而不是同一构造的替代名称。 它由木条长面或边缘制成, 因此谷物线主要沿表面运行。 精心制作的边缘草料板仍是一个很好且通常更便宜的选择。 当刀子的边缘非常薄, 板被大量使用, 重量、 成本和维修不是主要制约因素时, 末粒会变得特别有吸引力 。
 
 ## 塑料:实际卫生,但真正的微塑料交换
 
