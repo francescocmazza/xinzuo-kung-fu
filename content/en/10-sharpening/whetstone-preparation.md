@@ -3,13 +3,15 @@ title: Sharpening Setup
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-09
+reviewed: 2026-09-16
 translation_priority: high
 ---
 
 # Sharpening Setup
 
 Good sharpening begins with a stable, flat and correctly wetted stone. Careful preparation makes the movement easier to control and prevents many mistakes that beginners wrongly blame on their technique.
+
+This chapter prepares the stone and workstation only. The next chapter uses that setup to teach the complete basic sharpening sequence.
 
 ## A simple first setup
 
@@ -55,4 +57,4 @@ Rinse the knife and dry it immediately. Rinse the stone, remove loose residue an
 
 Let a water stone dry slowly in a ventilated place. Avoid radiators, ovens, strong sunlight and closed containers while the stone is still damp. Store it only when it is completely dry.
 
-The preparation target is simple: a stone that is suitable for the work, correctly wetted, reasonably flat and completely stable.
+The preparation target is simple: a stone that is suitable for the work, correctly wetted, reasonably flat and completely stable. Once those conditions are set, move to [Basic Sharpening](basic-sharpening-process.md) and concentrate on contact, angle, pressure and feedback rather than on the equipment.
