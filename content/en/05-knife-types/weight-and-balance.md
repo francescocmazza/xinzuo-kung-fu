@@ -3,7 +3,7 @@ title: "Weight, Balance and Ergonomics"
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-13
+reviewed: 2026-09-16
 translation_priority: high
 ---
 
@@ -82,3 +82,5 @@ For an in-store recommendation:
 6. **Use steel, construction, materials, appearance and price to complete the choice.** These factors distinguish between knives that already suit the customer's use.
 
 Remember the method as **function, fit, selection**. First find the shape that does the job. Then find the ergonomics that suit the person. Finally choose the specific product among the models that satisfy both.
+
+The next chapter keeps the focus on the hand interface by looking at **handle materials**. Material does not replace shape or balance, but it changes weight, surface feel, moisture resistance and care requirements. Once those design choices are understood, the book moves from choosing and understanding the knife to using it safely.
