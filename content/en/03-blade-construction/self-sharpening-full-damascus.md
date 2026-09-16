@@ -3,7 +3,7 @@ title: Differential Wear in Full-Damascus Blades
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-13
+reviewed: 2026-09-16
 translation_priority: high
 ---
 
@@ -83,16 +83,6 @@ Edges do not wear identically in every kitchen. Gentle slicing on wood differs f
 
 The strength and speed of differential wear therefore depend on the complete working system: steel pairing, heat treatment, geometry, cutting board, food and technique. This means the effect should be described through its mechanism and practical purpose rather than as one universal number of extra weeks or months between sharpenings.
 
-## Sharpening a self-sharpening full-Damascus blade
-
-Sharpen the blade when it stops cutting cleanly or begins to require noticeably more force.
-
-Normal stone sharpening restores the apex. Because the layers continue through the blade, sharpening exposes the alternating materials at the edge again, allowing differential wear to develop again during use.
-
-Follow the existing edge bevel unless you intend to change the geometry. Use abrasives suited to the steels, remove only enough material to restore the apex, form and remove the burr cleanly, and choose the final grit for the intended cutting style.
-
-A highly polished finish may begin with a smoother microscopic edge. As the blade is used, differential wear can re-establish more microscopic bite when the finished layered material retains the required difference in wear behaviour.
-
 ## Xinzuo's 110-layer full-Damascus design
 
 Xinzuo produces selected customized **110-layer full-Damascus blades** in which the layered material continues through the cutting edge. This is fundamentally different from using Damascus only as decorative cladding around a separate core: the layered construction itself becomes the working edge.
@@ -103,4 +93,12 @@ In this construction, the layered material is part of the working edge rather th
 
 The exact magnitude of the benefit should be measured on the finished Xinzuo construction rather than expressed as an unsupported fixed percentage or sharpening interval. Microscopic wear observation, microhardness measurements and controlled cutting tests such as CATRA are appropriate ways to quantify it.
 
-The responsible meaning of **self-sharpening** is therefore clear: the knife does not literally create a new edge or eliminate sharpening. **Its full-Damascus construction is designed so differential wear can preserve microscopic slicing bite as the edge wears.**
+## What this changes about maintenance
+
+The term **self-sharpening** does not mean that the knife creates a new edge or eliminates normal sharpening. When the apex eventually stops cutting cleanly, it still has to be restored.
+
+What the layered construction changes is what happens **between** sharpening sessions. After the apex is restored, the alternating materials are again present at the cutting line, so differential wear can develop again during use. The sharpening procedure itself does not need to be taught here; the later [Basic Sharpening](../10-sharpening/basic-sharpening-process.md) chapter explains how to restore an ordinary double-bevel edge and how to form and remove the burr safely.
+
+The responsible meaning of **self-sharpening** is therefore precise: **the full-Damascus construction is designed so differential wear can help preserve microscopic slicing bite as the edge wears, while normal sharpening remains necessary when the apex itself needs restoration.**
+
+With the material system now explained, the book leaves metallurgy and returns to the environment in which the edge works. The next section begins with the cutting board—the surface the apex meets at the end of almost every cut.
