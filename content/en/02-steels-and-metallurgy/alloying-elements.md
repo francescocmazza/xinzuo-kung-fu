@@ -102,9 +102,11 @@ In knife steel, vanadium matters mainly for microstructural control and hard car
 
 Tungsten forms hard carbides and increases wear resistance. It is common in tool steels and traditional Japanese blue-paper steels, where it supports a hard, durable cutting structure.
 
-In a kitchen knife, tungsten can help maintain an aggressive edge for a long time. The same wear resistance also resists the sharpening stone, so sharpening may take longer or require more efficient abrasives. Very high hardness combined with thin geometry demands careful technique.
+In a kitchen knife, tungsten can help maintain an aggressive edge for a long time. When it contributes to a sufficiently large volume of hard carbides, the added wear resistance can also resist the sharpening stone, so sharpening may take longer or require more efficient abrasives. Very high hardness combined with thin geometry demands careful technique.
 
-Tungsten is one part of the alloy, not a guarantee of superiority.
+**Blue Steel No. 2 (Aogami #2) is a useful counterexample to treating tungsten content as a direct measure of sharpening difficulty.** Although it contains tungsten and is commonly used at high hardness, it can respond very quickly to suitable water stones. Sharpening behaviour depends on the whole microstructure — including carbide type, volume, size and distribution — together with heat treatment and blade geometry, not on the presence of one alloying element alone.
+
+Tungsten is one part of the alloy, not a guarantee of superiority or of difficult sharpening.
 
 ## Cobalt: supporting demanding heat treatment
 
