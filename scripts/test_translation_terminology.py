@@ -8,7 +8,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from auto_translate import _split_constraint_units
+import auto_translate
+from auto_translate import _generate_unit_with_constraint_splitting, _split_constraint_units
 from translation_terminology import load_terminology, validate_active_locales
 
 
@@ -103,8 +104,6 @@ def main() -> int:
     )
 
     # A terminology-dense sentence must be split before constrained beam search.
-    # This is the class of sentence that previously hit Marian's length ceiling and
-    # silently omitted one of the required technical terms.
     dense = (
         "Hardness, toughness, edge retention, wear resistance and corrosion resistance "
         "all depend on heat treatment and edge geometry."
@@ -122,6 +121,42 @@ def main() -> int:
             all(len(terminology.required_targets(piece)) <= 2 for piece in prose),
             f"{locale} clause split left too many simultaneous constraints: {pieces}",
         )
+
+    # Regression for the production failure seen on 2026-09-17. A two-term
+    # sub-clause can still fail constrained decoding. It must therefore flow
+    # through the wrapper and split again at its conjunction rather than calling
+    # the original generator directly and aborting the whole book refresh.
+    source = "edge retention and microstructure in detail."
+
+    class FakeTranslator:
+        locale = "it"
+        terminology = it
+
+    original = auto_translate._ORIGINAL_GENERATE_UNIT
+
+    def fake_original(_self, text: str) -> str:
+        normalized = text.strip().lower()
+        if "edge retention" in normalized and "microstructure" in normalized:
+            raise RuntimeError(
+                "it: constrained translation omitted controlled term(s) tenuta del filo "
+                f"while translating: {text!r}"
+            )
+        if "edge retention" in normalized:
+            return "tenuta del filo"
+        if "microstructure" in normalized:
+            return "microstruttura in dettaglio."
+        return text
+
+    try:
+        auto_translate._ORIGINAL_GENERATE_UNIT = fake_original
+        translated = _generate_unit_with_constraint_splitting(FakeTranslator(), source)
+    finally:
+        auto_translate._ORIGINAL_GENERATE_UNIT = original
+
+    require(
+        it.missing_targets(source, translated) == [],
+        f"Nested constrained-decoding fallback failed: {translated!r}",
+    )
 
     # Output validation must catch a generic but non-approved substitute.
     missing = it.missing_targets(

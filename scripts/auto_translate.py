@@ -5,10 +5,15 @@ Public names are re-exported because repair_translated_html.py imports the
 translator helpers lazily from this module.
 
 This wrapper also installs a small safety layer around Marian constrained
-decoding.  A sentence that contains many mandatory technical terms is split
-into natural clauses before generation.  This prevents constrained beam search
+decoding. A sentence that contains many mandatory technical terms is split
+into natural clauses before generation. This prevents constrained beam search
 from becoming combinatorially expensive or reaching the model length ceiling
 before every required knife/metallurgy term has been emitted.
+
+Every generated sub-clause is routed back through the same guard. This matters
+because even a low-density two-term clause can still make Marian omit one forced
+term; the recursive route gives that clause the conjunction fallback instead of
+failing after a long full-book refresh.
 """
 
 from __future__ import annotations
@@ -29,9 +34,9 @@ def _split_constraint_units(text: str, terminology) -> list[str] | None:
     """Split a terminology-dense English sentence at safe clause boundaries.
 
     Separators are retained as their own list items so translated clauses can be
-    joined without altering punctuation.  Commas/semicolons/colons/dashes are
-    preferred.  If a dense segment still remains, coordinating conjunctions are
-    used as a second-level split.  We only accept a split when it actually lowers
+    joined without altering punctuation. Commas/semicolons/colons/dashes are
+    preferred. If a dense segment still remains, coordinating conjunctions are
+    used as a second-level split. We only accept a split when it actually lowers
     the maximum number of terminology constraints in an individual prose unit.
     """
 
@@ -53,7 +58,7 @@ def _split_constraint_units(text: str, terminology) -> list[str] | None:
     if len(prose) <= 1:
         return None
 
-    # Recursively refine any still-dense clause at a conjunction.  Do not split
+    # Recursively refine any still-dense clause at a conjunction. Do not split
     # ordinary low-density prose merely because it contains "and" or "or".
     refined: list[str] = []
     for piece in pieces:
@@ -86,7 +91,7 @@ def _split_constraint_units(text: str, terminology) -> list[str] | None:
 
 
 def _generate_unit_with_constraint_splitting(self, text: str) -> str:
-    """Generate one unit, splitting dense technical lists before constrained MT."""
+    """Generate one unit, recursively splitting when constrained MT drops a term."""
 
     pieces = _split_constraint_units(text, self.terminology)
     if pieces:
@@ -97,13 +102,11 @@ def _generate_unit_with_constraint_splitting(self, text: str) -> str:
             if _CLAUSE_SEPARATOR_RE.fullmatch(piece) or _CONJUNCTION_SEPARATOR_RE.fullmatch(piece):
                 output.append(piece)
                 continue
-            # A recursively dense segment may remain if it contains multiple
-            # punctuation levels.  Route it through this guard again; otherwise
-            # call the original engine directly.
-            if len(self.terminology.required_targets(piece)) > _MAX_CONSTRAINTS_PER_UNIT:
-                output.append(_generate_unit_with_constraint_splitting(self, piece))
-            else:
-                output.append(_ORIGINAL_GENERATE_UNIT(self, piece))
+
+            # Always route prose subpieces through this wrapper. A piece with only
+            # one or two controlled terms can still fail constrained decoding and
+            # needs the same conjunction fallback as a top-level unit.
+            output.append(_generate_unit_with_constraint_splitting(self, piece))
 
         translated = "".join(output)
         missing = self.terminology.missing_targets(text, translated)
@@ -132,7 +135,7 @@ def _generate_unit_with_constraint_splitting(self, text: str) -> str:
             if _CONJUNCTION_SEPARATOR_RE.fullmatch(piece):
                 output.append(piece)
             else:
-                output.append(_ORIGINAL_GENERATE_UNIT(self, piece))
+                output.append(_generate_unit_with_constraint_splitting(self, piece))
         translated = "".join(output)
         missing = self.terminology.missing_targets(text, translated)
         if missing:
