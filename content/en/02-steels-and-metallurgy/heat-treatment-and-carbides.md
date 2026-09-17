@@ -48,10 +48,9 @@ Carbides matter because they are usually much harder than the surrounding matrix
 
 With that picture in mind, the heat-treatment sequence becomes much easier to follow.
 
-<figure class="kb-learning-figure" data-visual-id="VIS-MET-HEAT-TREATMENT-M4">
-<img src="../../assets/diagrams/m4-heat-treatment-language-neutral.svg" alt="Text-free four-stage schematic showing starting steel, austenitizing, quenching and tempering above a simplified temperature-time curve." width="1600" height="1100">
-<figcaption><strong>Heat treatment at a glance.</strong> From left to right, the upper row shows a controlled starting structure, heating into austenite, rapid cooling to form martensite, and lower-temperature tempering that makes the martensitic structure more usable. The circular insets are schematic microstructures.</figcaption>
-<div class="kb-learning-figure__note">The lower curve represents the same process as a simplified temperature history: heat to the austenitizing range, hold, quench to a much lower temperature, reheat to the lower tempering range, then cool. Exact temperatures, times, cooling rates and quench media depend on the steel; the cooling symbol is generic and does not imply water quenching.</div>
+<figure class="kb-learning-figure" data-visual-id="VIS-MET-HEAT-TREATMENT-APPROVED">
+<img src="../../assets/diagrams/Heat treatment.jpg" alt="Approved heat-treatment diagram illustrating the main thermal stages discussed in this chapter." style="display:block;width:100%;height:auto;margin:0;border:0;">
+<figcaption><strong>Heat treatment at a glance.</strong> The approved diagram summarizes the principal thermal stages discussed below.</figcaption>
 </figure>
 
 ## 1. Preparing the steel before hardening
