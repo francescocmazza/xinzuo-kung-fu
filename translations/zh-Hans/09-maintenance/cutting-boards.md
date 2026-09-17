@@ -1,5 +1,5 @@
 ---
-source_hash: f31f2c633ffe77aa7c24812c5ecf9ca30946858a3823c1e43756fc050ec2222d
+source_hash: 7bc2a68ea5a30ad097eed8443914c5225f9c1d4d890bcd8d2387a7aee599f89f
 ---
 
 # 切割板
@@ -24,7 +24,7 @@ source_hash: f31f2c633ffe77aa7c24812c5ecf9ca30946858a3823c1e43756fc050ec2222d
 
 最容易理解这个词的方法是将木头想象成一捆非常小的稻草。 在“ 边缘草” 板上, 这些纤维的长边主要与切开的表面平行。 因此, 刀子从侧面相交并交叉纤维。 在“ 末边草” 板上, 区块被转动, 以便纤维的方向穿过板的厚度, 切开的顶端向上。 刀子符合纤维的端, 可以部分地在它们之间移动, 这样它们就可以在边缘上划开和伸展, 而不是产生同样的连续的交叉阻力。
 
-下面的新图像显示了让最终粒子容易识别的视觉线索。 表面是由许多短木块建造的, 通常形成一个马赛克或格子板外观。 机械上重要的是不是图案本身,而是其下方的方向:每个块都被转动,使得纤维结束,而不是长边粒子面对刀子。
+下面的图像显示了让最终粒子易于识别的视觉线索。 表面是由许多短木块建造的, 通常形成一个马赛克或棋盘外观。 机械上重要的是不是图案本身,而是其下方的方向:每个块都被转动,使得纤维结束,而不是长边粒子面对刀子。
 
 <figure class="kb-learning-figure" data-visual-id="VIS-CUTTING-BOARD-END-GRAIN-01">
 <img src="../../assets/diagrams/Cutting board end grain.png" alt="End-grain wooden cutting board showing the mosaic-like surface formed by the exposed ends of many wood blocks." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">

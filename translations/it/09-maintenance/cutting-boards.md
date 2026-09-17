@@ -1,5 +1,5 @@
 ---
-source_hash: ad0f6348dbf00f33b3c46fdf2b0891c0c6016cd6a2d4f72640ea58ee5c186c71
+source_hash: aa414b7e74576b31cfe741e353377aee6efd1dca41bb26c6d2fbf96c91debe27
 ---
 
 # Tagliere
@@ -24,7 +24,7 @@ Tra le tavole di legno, la costruzione che preferiamo per i coltelli fini è **f
 
 Il modo più semplice per capire il termine è quello di immaginare il legno come un fascio di cannucce molto piccole. In un'asse **bordo**, i lati lunghi di queste fibre corrono principalmente paralleli alla superficie di taglio. Il coltello quindi incontra e attraversa le fibre dal lato. In un'asse **end-grain**, i blocchi sono ruotati in modo che la direzione della fibra scorra attraverso lo spessore della tavola e le estremità tagliate si affacciano verso l'alto. Il coltello incontra le estremità delle fibre e può muoversi in parte tra loro, in modo che possano separare e flettere leggermente intorno al bordo invece di presentare la stessa resistenza trasversale continua.
 
-La nuova immagine qui sotto mostra l'indizio visivo che rende la grana finale facile da riconoscere. La superficie è costruita da molti brevi blocchi di legno, spesso creando un aspetto a mosaico o a scacchiera. Ciò che conta meccanicamente non è il motivo stesso, ma l'orientamento sotto di esso: ogni blocco è stato girato in modo che la fibra termina, piuttosto che la grana laterale lunga, affrontare il coltello.
+L'immagine qui sotto mostra l'indizio visivo che rende la grana finale facile da riconoscere. La superficie è costruita da molti brevi blocchi di legno, spesso creando un mosaico o un aspetto a scacchiera. Ciò che conta meccanicamente non è il motivo stesso, ma l'orientamento sotto di esso: ogni blocco è stato girato in modo che la fibra termina, piuttosto che il lungo grano laterale, affrontare il coltello.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-CUTTING-BOARD-END-GRAIN-01">
 <img src="../../assets/diagrams/Cutting board end grain.png" alt="End-grain wooden cutting board showing the mosaic-like surface formed by the exposed ends of many wood blocks." style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
