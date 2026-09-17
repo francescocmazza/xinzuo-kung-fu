@@ -1,4 +1,4 @@
-version: 3
+version: 4
 source_locale: en
 domain: kitchen-knives
 policy:
@@ -6,6 +6,7 @@ policy:
   - Every deployed locale must provide every term marked enforce: true.
   - Approved target terms override generic machine-translation wording.
   - Longer source phrases take precedence over shorter overlapping phrases.
+  - Ambiguous English words are constrained only in unambiguous technical phrases.
   - Knife-type names use the established technical form of each target language.
   - A new locale must not be activated until its technical vocabulary has been reviewed.
 
@@ -38,7 +39,22 @@ terms:
       - {en: cutting edges, it: fili, zh-Hans: 刃口}
 
   apex: {source_en: apex, it: apice del filo, zh-Hans: 刃尖, enforce: true}
-  handle: {source_en: handle, it: manico, zh-Hans: 刀柄, enforce: true}
+
+  # Bare "handle" is intentionally not constrained: the English source also
+  # uses handle as a verb (for example, a deba can handle suitable work).
+  handle_terms:
+    source_en: knife handle
+    it: manico
+    zh-Hans: 刀柄
+    enforce: true
+    forms:
+      - {en: knife handle, it: manico del coltello, zh-Hans: 刀柄}
+      - {en: knife handles, it: manici dei coltelli, zh-Hans: 刀柄}
+      - {en: handle material, it: materiale del manico, zh-Hans: 刀柄材料}
+      - {en: handle materials, it: materiali del manico, zh-Hans: 刀柄材料}
+      - {en: handle construction, it: costruzione del manico, zh-Hans: 刀柄结构}
+      - {en: handle shape, it: forma del manico, zh-Hans: 刀柄形状}
+      - {en: handle length, it: lunghezza del manico, zh-Hans: 刀柄长度}
 
   handle_scales:
     source_en: handle scales
@@ -198,14 +214,11 @@ terms:
       - {en: carbide, it: carburo, zh-Hans: 碳化物}
       - {en: carbides, it: carburi, zh-Hans: 碳化物}
 
-  grain:
-    source_en: grain
-    it: grano cristallino
-    zh-Hans: 晶粒
-    enforce: true
-    forms:
-      - {en: grain, it: grano cristallino, zh-Hans: 晶粒}
-      - {en: grains, it: grani cristallini, zh-Hans: 晶粒}
+  # Bare "grain" is intentionally not constrained because the book also uses
+  # grain for wood and food fibres. Only unambiguous metallurgical compounds are.
+  grain_size: {source_en: grain size, it: dimensione del grano cristallino, zh-Hans: 晶粒尺寸, enforce: true}
+  grain_refinement: {source_en: grain refinement, it: affinamento del grano cristallino, zh-Hans: 晶粒细化, enforce: true}
+  grain_control: {source_en: grain control, it: controllo del grano cristallino, zh-Hans: 晶粒控制, enforce: true}
 
   grain_boundary:
     source_en: grain boundary
