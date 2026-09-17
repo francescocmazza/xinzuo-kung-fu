@@ -8,6 +8,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+from auto_translate import _split_constraint_units
 from translation_terminology import load_terminology, validate_active_locales
 
 
@@ -100,6 +101,27 @@ def main() -> int:
         == ["晶粒尺寸", "晶粒细化", "显微组织"],
         "Chinese grain metallurgy terminology failed",
     )
+
+    # A terminology-dense sentence must be split before constrained beam search.
+    # This is the class of sentence that previously hit Marian's length ceiling and
+    # silently omitted one of the required technical terms.
+    dense = (
+        "Hardness, toughness, edge retention, wear resistance and corrosion resistance "
+        "all depend on heat treatment and edge geometry."
+    )
+    for locale, terminology in (("it", it), ("zh-Hans", zh)):
+        pieces = _split_constraint_units(dense, terminology)
+        require(pieces is not None, f"{locale} dense terminology sentence was not split")
+        prose = [
+            piece
+            for piece in pieces
+            if piece.strip() and not piece.strip().lower() in {"and", "or"}
+            and not piece.lstrip().startswith((",", ";", ":", "—", "–"))
+        ]
+        require(
+            all(len(terminology.required_targets(piece)) <= 2 for piece in prose),
+            f"{locale} clause split left too many simultaneous constraints: {pieces}",
+        )
 
     # Output validation must catch a generic but non-approved substitute.
     missing = it.missing_targets(
