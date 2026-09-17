@@ -1,5 +1,10 @@
 # Local, API-key-free machine translation used by GitHub Actions.
 # PyTorch is installed separately from the CPU-only index in the workflow.
-transformers>=4.44,<5
+#
+# Keep Transformers below 4.57: 4.57 moved constrained beam search (used by
+# our controlled knife terminology) to a remote custom_generate repository.
+# We intentionally keep constrained decoding inside the installed library so
+# CI never needs trust_remote_code=True for translation.
+transformers>=4.44,<4.57
 sentencepiece>=0.2,<0.3
 sacremoses>=0.1,<0.2
