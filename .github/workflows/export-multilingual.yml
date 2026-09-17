@@ -7,8 +7,13 @@ on:
       - ".github/workflows/export-multilingual.yml"
       - "content/en/**"
       - "translations/**"
+      - "glossaries/**"
+      - "localization/**"
       - "mkdocs.yml"
       - "scripts/auto_translate.py"
+      - "scripts/translation_engine.py"
+      - "scripts/translation_terminology.py"
+      - "scripts/test_translation_terminology.py"
       - "scripts/repair_translated_html.py"
       - "scripts/test_repair_translated_html.py"
       - "scripts/centralize_bibliography.py"
@@ -53,10 +58,14 @@ jobs:
           test -f publish-guide.cmd
           test -f PUBLISHING_GUIDE.md
           test -f scripts/auto_translate.py
+          test -f scripts/translation_engine.py
+          test -f scripts/translation_terminology.py
+          test -f scripts/test_translation_terminology.py
           test -f scripts/repair_translated_html.py
           test -f scripts/test_repair_translated_html.py
           test -f scripts/centralize_bibliography.py
           test -f requirements-translation.txt
+          test -f glossaries/master-terms.yml
 
   export:
     if: github.event_name == 'workflow_dispatch' || github.event_name == 'pull_request'
@@ -80,8 +89,10 @@ jobs:
       - name: Install documentation dependencies
         run: pip install -r requirements-docs.txt
 
-      - name: Validate translation repair regression cases
-        run: python scripts/test_repair_translated_html.py
+      - name: Validate translation regression cases
+        run: |
+          python scripts/test_repair_translated_html.py
+          python scripts/test_translation_terminology.py
 
       - name: Cache local translation models
         uses: actions/cache@v5

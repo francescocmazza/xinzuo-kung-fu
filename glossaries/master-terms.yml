@@ -1,96 +1,327 @@
+version: 4
+source_locale: en
+domain: kitchen-knives
+policy:
+  - English is the source of truth.
+  - Every deployed locale must provide every term marked enforce: true.
+  - Approved target terms override generic machine-translation wording.
+  - Longer source phrases take precedence over shorter overlapping phrases.
+  - Ambiguous English words are constrained only in unambiguous technical phrases.
+  - Knife-type names use the established technical form of each target language.
+  - A new locale must not be activated until its technical vocabulary has been reviewed.
+
 terms:
-  hardness:
-    definition_en: Resistance of steel to local deformation, commonly expressed as HRC for knife blades.
-    preferred_customer_term_en: hardness
-    it: durezza
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  # ---------------------------------------------------------------------------
+  # Anatomy and construction
+  # ---------------------------------------------------------------------------
+  blade:
+    source_en: blade
+    it: lama
+    zh-Hans: 刀身
+    enforce: true
+    forms:
+      - {en: blade, it: lama, zh-Hans: 刀身}
+      - {en: blades, it: lame, zh-Hans: 刀身}
 
-  robustness:
-    definition_en: Practical ability of the blade and edge to tolerate impact, twisting, chipping, and demanding use.
-    technical_note_en: The closest technical concept is toughness, but robustness is preferred in customer-facing content.
-    preferred_customer_term_en: robustness
-    it: robustezza
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  blade_face: {source_en: blade face, it: faccia della lama, zh-Hans: 刀面, enforce: true}
+  spine: {source_en: spine, it: dorso, zh-Hans: 刀背, enforce: true}
+  heel: {source_en: heel, it: tallone, zh-Hans: 刀根, enforce: true}
+  belly: {source_en: belly, it: pancia della lama, zh-Hans: 刀腹, enforce: true}
+  tip: {source_en: tip, it: punta, zh-Hans: 刀尖, enforce: true}
 
-  ease_of_sharpening:
-    definition_en: How easily an abrasive can remove material and restore a clean cutting edge.
-    it: facilità di affilatura
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  cutting_edge:
+    source_en: cutting edge
+    it: filo
+    zh-Hans: 刃口
+    enforce: true
+    forms:
+      - {en: cutting edge, it: filo, zh-Hans: 刃口}
+      - {en: cutting edges, it: fili, zh-Hans: 刃口}
 
-  corrosion_resistance:
-    definition_en: Ability to resist rust, staining, and oxidation under normal use and maintenance.
-    it: resistenza alla corrosione
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  apex: {source_en: apex, it: apice del filo, zh-Hans: 刃尖, enforce: true}
 
-  microstructural_fineness:
-    definition_en: Fineness and distribution of grains and carbides that influence edge refinement, stability, and sharpening behavior.
-    it: finezza della microstruttura
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  # Bare "handle" is intentionally not constrained: the English source also
+  # uses handle as a verb (for example, a deba can handle suitable work).
+  handle_terms:
+    source_en: knife handle
+    it: manico
+    zh-Hans: 刀柄
+    enforce: true
+    forms:
+      - {en: knife handle, it: manico del coltello, zh-Hans: 刀柄}
+      - {en: knife handles, it: manici dei coltelli, zh-Hans: 刀柄}
+      - {en: handle material, it: materiale del manico, zh-Hans: 刀柄材料}
+      - {en: handle materials, it: materiali del manico, zh-Hans: 刀柄材料}
+      - {en: handle construction, it: costruzione del manico, zh-Hans: 刀柄结构}
+      - {en: handle shape, it: forma del manico, zh-Hans: 刀柄形状}
+      - {en: handle length, it: lunghezza del manico, zh-Hans: 刀柄长度}
 
-  burr:
-    definition_en: A very thin lip of steel that remains attached to the edge and bends to the opposite side during sharpening.
-    note_en: It is not loose grinding residue or stone slurry.
-    it: bava di affilatura
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  handle_scales:
+    source_en: handle scales
+    it: guancette del manico
+    zh-Hans: 柄片
+    enforce: true
+    forms:
+      - {en: handle scale, it: guancetta del manico, zh-Hans: 柄片}
+      - {en: handle scales, it: guancette del manico, zh-Hans: 柄片}
+      - {en: scales, it: guancette, zh-Hans: 柄片}
 
-  slurry:
-    definition_en: Mixture of water, released abrasive particles, and removed metal found on a sharpening stone during use.
-    it: sospensione abrasiva
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  rivet:
+    source_en: rivet
+    it: rivetto
+    zh-Hans: 铆钉
+    enforce: true
+    forms:
+      - {en: rivet, it: rivetto, zh-Hans: 铆钉}
+      - {en: rivets, it: rivetti, zh-Hans: 铆钉}
 
-  full_damascus:
-    definition_en: A blade whose patterned multilayer steel forms the blade body and reaches the cutting-edge region, rather than being only decorative cladding around a separate core.
-    it: damasco integrale
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  handle_pin:
+    source_en: handle pin
+    it: perno del manico
+    zh-Hans: 柄钉
+    enforce: true
+    forms:
+      - {en: handle pin, it: perno del manico, zh-Hans: 柄钉}
+      - {en: handle pins, it: perni del manico, zh-Hans: 柄钉}
+      - {en: pin, it: perno, zh-Hans: 柄钉}
+      - {en: pins, it: perni, zh-Hans: 柄钉}
 
-  single_bevel:
-    definition_en: An asymmetrical blade geometry with a main bevel on one side, often paired with a flat or concave reverse side.
-    it: monobisela
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  tang: {source_en: tang, it: codolo, zh-Hans: 柄芯, enforce: true}
 
   full_tang:
-    definition_en: Tang construction in which the steel extends through almost the full length and outline of the handle, normally visible between handle scales.
-    technical_note_en: Use “full tang” for this construction. “Through tang” is a separate construction term; “thorough tang” is incorrect.
-    preferred_customer_term_en: full tang
-    it: codolo pieno
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+    source_en: full tang
+    it: codolo integrale
+    zh-Hans: 全龙骨
+    enforce: true
+    forms:
+      - {en: full tang, it: codolo integrale, zh-Hans: 全龙骨}
+      - {en: full-tang, it: codolo integrale, zh-Hans: 全龙骨}
 
-  collar:
-    definition_en: Reinforcing sleeve or ring around the front of an Asian hidden-tang handle, close to the blade-handle junction.
-    technical_note_en: Preferred house term. Knife literature may also call this part a ferrule.
-    preferred_customer_term_en: collar
-    it: collare
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  hidden_tang: {source_en: hidden tang, it: codolo nascosto, zh-Hans: 隐藏式柄芯, enforce: true}
+  through_tang: {source_en: through tang, it: codolo passante, zh-Hans: 贯穿式柄芯, enforce: true}
+  partial_tang: {source_en: partial tang, it: codolo parziale, zh-Hans: 半龙骨, enforce: true}
+  bolster: {source_en: bolster, it: raccordo, zh-Hans: 刀枕, enforce: true}
+  guard: {source_en: guard, it: guardia, zh-Hans: 护手, enforce: true}
+  collar: {source_en: collar, it: collare, zh-Hans: 柄箍, enforce: true}
+  ferrule: {source_en: ferrule, it: collare, zh-Hans: 柄箍, enforce: true}
+  butt: {source_en: butt, it: fondello del manico, zh-Hans: 柄尾, enforce: true}
+  pommel: {source_en: pommel, it: pomolo, zh-Hans: 柄尾帽, enforce: true}
+  surface_finish: {source_en: surface finish, it: finitura superficiale, zh-Hans: 表面处理, enforce: true}
+  asian_handle: {source_en: Asian handle, it: manico asiatico, zh-Hans: 亚洲式刀柄, enforce: true}
+
+  # ---------------------------------------------------------------------------
+  # Geometry and cutting behaviour
+  # ---------------------------------------------------------------------------
+  primary_grind: {source_en: primary grind, it: molatura primaria, zh-Hans: 主研磨面, enforce: true}
+
+  bevel:
+    source_en: bevel
+    it: bisello
+    zh-Hans: 开刃面
+    enforce: true
+    forms:
+      - {en: bevel, it: bisello, zh-Hans: 开刃面}
+      - {en: bevels, it: biselli, zh-Hans: 开刃面}
+
+  edge_bevel:
+    source_en: edge bevel
+    it: bisello del filo
+    zh-Hans: 刃口次级开刃面
+    enforce: true
+    forms:
+      - {en: edge bevel, it: bisello del filo, zh-Hans: 刃口次级开刃面}
+      - {en: edge bevels, it: biselli del filo, zh-Hans: 刃口次级开刃面}
+
+  microbevel:
+    source_en: microbevel
+    it: microbisello
+    zh-Hans: 二段刃
+    enforce: true
+    forms:
+      - {en: microbevel, it: microbisello, zh-Hans: 二段刃}
+      - {en: microbevels, it: microbiselli, zh-Hans: 二段刃}
+
+  single_bevel:
+    source_en: single bevel
+    it: bisello singolo
+    zh-Hans: 单面开刃
+    enforce: true
+    forms:
+      - {en: single bevel, it: bisello singolo, zh-Hans: 单面开刃}
+      - {en: single-bevel, it: bisello singolo, zh-Hans: 单面开刃}
+      - {en: single bevels, it: biselli singoli, zh-Hans: 单面开刃}
+
+  double_bevel:
+    source_en: double bevel
+    it: doppio bisello
+    zh-Hans: 双面开刃
+    enforce: true
+    forms:
+      - {en: double bevel, it: doppio bisello, zh-Hans: 双面开刃}
+      - {en: double-bevel, it: doppio bisello, zh-Hans: 双面开刃}
+      - {en: double bevels, it: doppi biselli, zh-Hans: 双面开刃}
+
+  convex_grind: {source_en: convex grind, it: molatura convessa, zh-Hans: 凸磨, enforce: true}
+  hollow_grind: {source_en: hollow grind, it: molatura concava, zh-Hans: 凹磨, enforce: true}
+  flat_grind: {source_en: flat grind, it: molatura piana, zh-Hans: 平磨, enforce: true}
+  distal_taper: {source_en: distal taper, it: rastrematura distale, zh-Hans: 向刀尖渐薄, enforce: true}
+  thickness_behind_edge: {source_en: thickness behind the edge, it: spessore dietro il filo, zh-Hans: 刃后厚度, enforce: true}
+  blade_thickness: {source_en: blade thickness, it: spessore della lama, zh-Hans: 刀身厚度, enforce: true}
+  blade_height: {source_en: blade height, it: altezza della lama, zh-Hans: 刀身高度, enforce: true}
+  blade_curvature: {source_en: blade curvature, it: curvatura della lama, zh-Hans: 刀身弧度, enforce: true}
+  sharpening_angle: {source_en: sharpening angle, it: angolo di affilatura, zh-Hans: 开刃角度, enforce: true}
+  edge_angle: {source_en: edge angle, it: angolo del filo, zh-Hans: 刃角, enforce: true}
+  wedging: {source_en: wedging, it: effetto cuneo, zh-Hans: 楔入阻力, enforce: true}
+  steering: {source_en: steering, it: deviazione del taglio, zh-Hans: 偏切, enforce: true}
+  food_separation: {source_en: food separation, it: separazione dell'alimento, zh-Hans: 食材分离, enforce: true}
+  food_release: {source_en: food release, it: distacco degli alimenti, zh-Hans: 食材脱离性, enforce: true}
+  handedness: {source_en: handedness, it: lateralità d'uso, zh-Hans: 左右手适用性, enforce: true}
+
+  # ---------------------------------------------------------------------------
+  # Grip, ergonomics and use
+  # ---------------------------------------------------------------------------
+  handle_grip: {source_en: handle grip, it: presa sul manico, zh-Hans: 握柄式握法, enforce: true}
+  intermediate_grip: {source_en: intermediate grip, it: presa intermedia, zh-Hans: 中间式握法, enforce: true}
+  hybrid_grip: {source_en: hybrid grip, it: presa intermedia, zh-Hans: 中间式握法, enforce: true}
+  pinch_grip: {source_en: pinch grip, it: presa a pinza, zh-Hans: 捏刀式握法, enforce: true}
+  balance_point: {source_en: balance point, it: punto di equilibrio, zh-Hans: 平衡点, enforce: true}
+  weight_distribution: {source_en: weight distribution, it: distribuzione del peso, zh-Hans: 重量分布, enforce: true}
+
+  # ---------------------------------------------------------------------------
+  # Steel properties and metallurgy
+  # ---------------------------------------------------------------------------
+  hardness: {source_en: hardness, it: durezza, zh-Hans: 硬度, enforce: true}
+  toughness: {source_en: toughness, it: tenacità, zh-Hans: 韧性, enforce: true}
+  robustness: {source_en: robustness, it: robustezza, zh-Hans: 耐用强度, enforce: true}
+  edge_retention: {source_en: edge retention, it: tenuta del filo, zh-Hans: 刃口保持性, enforce: true}
+  wear_resistance: {source_en: wear resistance, it: resistenza all'usura, zh-Hans: 耐磨性, enforce: true}
+  corrosion_resistance: {source_en: corrosion resistance, it: resistenza alla corrosione, zh-Hans: 耐腐蚀性, enforce: true}
+  ease_of_sharpening: {source_en: ease of sharpening, it: facilità di affilatura, zh-Hans: 易磨性, enforce: true}
+  edge_stability: {source_en: edge stability, it: stabilità del filo, zh-Hans: 刃口稳定性, enforce: true}
+  microstructure: {source_en: microstructure, it: microstruttura, zh-Hans: 显微组织, enforce: true}
+  microstructural_fineness: {source_en: microstructural fineness, it: finezza microstrutturale, zh-Hans: 显微组织细化程度, enforce: true}
+  crystal_lattice: {source_en: crystal lattice, it: reticolo cristallino, zh-Hans: 晶格, enforce: true}
+  interstitial_site: {source_en: interstitial site, it: sito interstiziale, zh-Hans: 间隙位置, enforce: true}
+  solid_solution: {source_en: solid solution, it: soluzione solida, zh-Hans: 固溶体, enforce: true}
+  alloying_element: {source_en: alloying element, it: elemento di lega, zh-Hans: 合金元素, enforce: true}
+
+  carbide:
+    source_en: carbide
+    it: carburo
+    zh-Hans: 碳化物
+    enforce: true
+    forms:
+      - {en: carbide, it: carburo, zh-Hans: 碳化物}
+      - {en: carbides, it: carburi, zh-Hans: 碳化物}
+
+  # Bare "grain" is intentionally not constrained because the book also uses
+  # grain for wood and food fibres. Only unambiguous metallurgical compounds are.
+  grain_size: {source_en: grain size, it: dimensione del grano cristallino, zh-Hans: 晶粒尺寸, enforce: true}
+  grain_refinement: {source_en: grain refinement, it: affinamento del grano cristallino, zh-Hans: 晶粒细化, enforce: true}
+  grain_control: {source_en: grain control, it: controllo del grano cristallino, zh-Hans: 晶粒控制, enforce: true}
+
+  grain_boundary:
+    source_en: grain boundary
+    it: bordo di grano
+    zh-Hans: 晶界
+    enforce: true
+    forms:
+      - {en: grain boundary, it: bordo di grano, zh-Hans: 晶界}
+      - {en: grain boundaries, it: bordi di grano, zh-Hans: 晶界}
+
+  austenite: {source_en: austenite, it: austenite, zh-Hans: 奥氏体, enforce: true}
+  retained_austenite: {source_en: retained austenite, it: austenite residua, zh-Hans: 残余奥氏体, enforce: true}
+  martensite: {source_en: martensite, it: martensite, zh-Hans: 马氏体, enforce: true}
+  ferrite: {source_en: ferrite, it: ferrite, zh-Hans: 铁素体, enforce: true}
+  cementite: {source_en: cementite, it: cementite, zh-Hans: 渗碳体, enforce: true}
+  pearlite: {source_en: pearlite, it: perlite, zh-Hans: 珠光体, enforce: true}
+  heat_treatment: {source_en: heat treatment, it: trattamento termico, zh-Hans: 热处理, enforce: true}
+  quenching: {source_en: quenching, it: tempra, zh-Hans: 淬火, enforce: true}
+  tempering: {source_en: tempering, it: rinvenimento, zh-Hans: 回火, enforce: true}
+  annealing: {source_en: annealing, it: ricottura, zh-Hans: 退火, enforce: true}
+  cryogenic_treatment: {source_en: cryogenic treatment, it: trattamento criogenico, zh-Hans: 深冷处理, enforce: true}
+  powder_metallurgy: {source_en: powder metallurgy, it: metallurgia delle polveri, zh-Hans: 粉末冶金, enforce: true}
+  stainless_steel: {source_en: stainless steel, it: acciaio inossidabile, zh-Hans: 不锈钢, enforce: true}
+  carbon_steel: {source_en: carbon steel, it: acciaio al carbonio, zh-Hans: 碳钢, enforce: true}
+  core_steel: {source_en: core steel, it: acciaio del nucleo, zh-Hans: 芯钢, enforce: true}
+  cladding: {source_en: cladding, it: rivestimento, zh-Hans: 覆层, enforce: true}
+  clad_blade: {source_en: clad blade, it: lama rivestita, zh-Hans: 复合覆层刀身, enforce: true}
+
+  damascus_steel:
+    source_en: Damascus steel
+    it: acciaio damasco
+    zh-Hans: 大马士革钢
+    enforce: true
+    forms:
+      - {en: Damascus steel, it: acciaio damasco, zh-Hans: 大马士革钢}
+      - {en: damascus steel, it: acciaio damasco, zh-Hans: 大马士革钢}
+
+  full_damascus:
+    source_en: full Damascus
+    it: damasco integrale
+    zh-Hans: 全大马士革钢
+    enforce: true
+    forms:
+      - {en: full Damascus, it: damasco integrale, zh-Hans: 全大马士革钢}
+      - {en: full-Damascus, it: damasco integrale, zh-Hans: 全大马士革钢}
+
+  forging: {source_en: forging, it: forgiatura, zh-Hans: 锻造, enforce: true}
+  forged: {source_en: forged, it: forgiato, zh-Hans: 锻造, enforce: true}
+
+  # ---------------------------------------------------------------------------
+  # Sharpening and edge maintenance
+  # ---------------------------------------------------------------------------
+  sharpening: {source_en: sharpening, it: affilatura, zh-Hans: 刃磨, enforce: true}
+
+  whetstone:
+    source_en: whetstone
+    it: pietra per affilatura
+    zh-Hans: 磨刀石
+    enforce: true
+    forms:
+      - {en: whetstone, it: pietra per affilatura, zh-Hans: 磨刀石}
+      - {en: whetstones, it: pietre per affilatura, zh-Hans: 磨刀石}
+
+  water_stone: {source_en: water stone, it: pietra ad acqua, zh-Hans: 水磨石, enforce: true}
+  grit: {source_en: grit, it: grana, zh-Hans: 粒度, enforce: true}
+  grit_progression: {source_en: grit progression, it: progressione delle grane, zh-Hans: 粒度序列, enforce: true}
+
+  burr:
+    source_en: burr
+    it: bava di affilatura
+    zh-Hans: 刃口毛刺
+    enforce: true
+    forms:
+      - {en: burr, it: bava di affilatura, zh-Hans: 刃口毛刺}
+      - {en: burrs, it: bave di affilatura, zh-Hans: 刃口毛刺}
+
+  deburring: {source_en: deburring, it: rimozione della bava, zh-Hans: 去毛刺, enforce: true}
+  slurry: {source_en: slurry, it: sospensione abrasiva, zh-Hans: 研磨泥浆, enforce: true}
+  thinning: {source_en: thinning, it: assottigliamento, zh-Hans: 减薄, enforce: true}
+  reprofiling: {source_en: reprofiling, it: riprofilatura, zh-Hans: 重新修整刃形, enforce: true}
+  flattening_stone: {source_en: flattening stone, it: pietra di spianatura, zh-Hans: 修平石, enforce: true}
+  stone_flattening: {source_en: stone flattening, it: spianatura della pietra, zh-Hans: 磨石修平, enforce: true}
+  honing_rod: {source_en: honing rod, it: acciaino, zh-Hans: 磨刀棒, enforce: true}
+  stropping: {source_en: stropping, it: passaggio su strop, zh-Hans: 荡刀, enforce: true}
+  chipping: {source_en: chipping, it: scheggiatura, zh-Hans: 崩刃, enforce: true}
+  edge_rolling: {source_en: edge rolling, it: ripiegamento del filo, zh-Hans: 卷刃, enforce: true}
+
+  # ---------------------------------------------------------------------------
+  # Established knife-type terminology
+  # Italian keeps the normal Japanese loanwords. Simplified Chinese uses the
+  # established Chinese knife-category names used by specialist manufacturers.
+  # ---------------------------------------------------------------------------
+  gyuto: {source_en: gyuto, it: gyuto, zh-Hans: 牛刀, enforce: true}
+  santoku: {source_en: santoku, it: santoku, zh-Hans: 三德刀, enforce: true}
+  nakiri: {source_en: nakiri, it: nakiri, zh-Hans: 菜切, enforce: true}
+  bunka: {source_en: bunka, it: bunka, zh-Hans: 文化刀, enforce: true}
+  deba: {source_en: deba, it: deba, zh-Hans: 出刃, enforce: true}
+  yanagiba: {source_en: yanagiba, it: yanagiba, zh-Hans: 柳刃, enforce: true}
+  usuba: {source_en: usuba, it: usuba, zh-Hans: 薄刃, enforce: true}
+  kiritsuke: {source_en: kiritsuke, it: kiritsuke, zh-Hans: 切付, enforce: true}
+  honesuki: {source_en: honesuki, it: honesuki, zh-Hans: 骨透, enforce: true}
+
+cjk_status:
+  zh-Hans: controlled-terminology-active-native-review-still-required
+  ja: specialist-review-required-before-activation
+  zh-Hant: specialist-review-required-before-activation
