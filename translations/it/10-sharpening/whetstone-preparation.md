@@ -1,18 +1,20 @@
 ---
-source_hash: c5b35b0f7ad216d6d672b68f24833883581cc0778a66f917c5b80691a2cb627d
+source_hash: 89bae73edcf3df4506f9ebc615b9db516b6a028a08d326c256e20bcab8003a6c
+translation_engine: 2026-09-17-knife-terminology-v1
+glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 ---
 
 # Configurazione affilatura
 
-Buona affilatura inizia con una pietra stabile, piatta e correttamente bagnata. Un'attenta preparazione rende il movimento più facile da controllare e impedisce molti errori che i principianti erroneamente incolpano della loro tecnica.
+Buona affilatura inizia con una pietra stabile, piatta e bagnata correttamente. Un'attenta preparazione rende il movimento più facile da controllare e impedisce molti errori che i principianti erroneamente incolpano della loro tecnica.
 
-Questo capitolo prepara solo la pietra e la postazione di lavoro. Il capitolo successivo utilizza quella configurazione per insegnare la sequenza di affilatura di base completa.
+Questo capitolo prepara solo la pietra e la postazione di lavoro. Il prossimo capitolo utilizza quella configurazione per insegnare la sequenza di affilatura di base completa.
 
 ## Una semplice prima configurazione
 
-Per un coltello da cucina ordinario che è diventato noioso attraverso l'uso normale, una buona pietra d'acqua di media qualità è di solito sufficiente. Una pietra intorno 800-1500 grinta può ricostruire un bordo pratico della cucina senza aggiungere passaggi inutili.
+Per un coltello da cucina normale che è diventato noioso attraverso l'uso normale, un buon mezzo-grana pietra ad acqua Di solito basta. Una groppa di groppa di gr. 800 gr. può gr. 800 gr. per gr. 1 gr. per gr. di gr. senza gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr. di gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. gr.. grana
 
-Una pietra grossolana è utile per i trucioli, un bordo molto arrotondato o un cambiamento deliberato della geometria. Una pietra più fine può rendere il bordo finito più liscia, ma è opzionale. Una pietra fine non può compensare un bordo che non è mai stato affilato correttamente sulla prima pietra.
+Una pietra grossolana è utile per i trucioli, un bordo molto arrotondato o un cambiamento deliberato della geometria. Una pietra più fine può rendere il bordo finito più liscio, ma è opzionale. Una pietra fine non può compensare un bordo che non è mai stato affilato correttamente sulla prima pietra.
 
 Hai anche bisogno di:
 
@@ -20,36 +22,36 @@ Hai anche bisogno di:
 - acqua o il lubrificante richiesto dal fabbricante della pietra;
 - un panno pulito;
 - buona luce;
-- spazio sufficiente per spostare la lama completa sopra la pietra.
+- abbastanza spazio libero da spostare la lama completa sopra la pietra.
 
 ## Preparare correttamente la pietra
 
-Le pietre d'acqua non funzionano tutte nello stesso modo. Alcuni assorbono l'acqua e hanno bisogno di ammollo. Altri sono pietre splash-and-go e hanno bisogno solo di acqua sulla superficie. I piatti di diamante non ammollo, e le pietre di olio usano l'olio piuttosto che l'acqua.
+Le pietre d'acqua non funzionano tutte allo stesso modo. Alcuni assorbono l'acqua e hanno bisogno di ammollo. Altri hanno bisogno solo di acqua sulla superficie e sono spesso chiamati **splash-and-go** pietre. I piatti diamantati non ammollono, e le pietre di olio usano l'olio piuttosto che l'acqua.
 
-Seguire le istruzioni del produttore ogni volta che sono disponibili. Per una pietra d'acqua assorbente tradizionale, immergerlo fino a quando il flusso di bolle d'aria si è quasi fermato. Non lasciare una pietra sconosciuta sommersa per ore: l'immersione lunga può danneggiare alcuni leganti.
+Seguire le istruzioni del costruttore quando sono disponibili. per assorbenti tradizionali pietra ad acqua, immergerlo fino a quando il flusso di bolle d'aria si è quasi fermato. Non lasciare una pietra sconosciuta sommersa per ore: l'immersione lunga può danneggiare alcuni leganti.
 
-Mantenere la superficie di lavoro bagnata durante l'affilatura. Aggiungere acqua quando la lama inizia a trascinare, il suono diventa secco o il residuo scuro smette di muoversi liberamente. La miscela grigia sulla pietra contiene acqua, abrasivo e acciaio rimosso. Non è la bava, che rimane attaccato al bordo tagliente.
+Mantenere la superficie di lavoro bagnata durante l'affilatura. Aggiungere acqua quando la lama inizia a trascinare, il suono diventa secco o residui scuri smette di muoversi liberamente. La miscela grigia sulla pietra contiene acqua, abrasivo e acciaio rimosso. filo bava di affilatura non è la bava che rimane attaccata al tagliente.
 
 ## Controlla che la pietra sia piatta
 
-Una pietra indossa la maggior parte dove il coltello passa più spesso. Con l'uso, il suo centro può diventare cavo. Una superficie cava cambia l'angolo di contatto durante la corsa e rende un risultato costante molto più difficile.
+Una pietra indossa la maggior parte dove il coltello passa più spesso. Con l'uso, il suo centro può diventare vuoto. Una superficie cava cambia l'angolo di contatto durante la corsa e rende un risultato costante molto più difficile.
 
-Posizionare un bordo dritto attraverso la pietra in diverse direzioni e cercare lacune. Linee di matita disegnate sulla superficie sono un altro utile controllo: durante l'appiattimento, aree alte perdono i segni prima e aree basse li mantengono.
+Posizionare un bordo dritto attraverso la pietra in diverse direzioni e cercare lacune. Le linee di matita disegnate sulla superficie sono un altro utile controllo: durante l'appiattimento, le aree alte perdono i segni prima e le aree basse le mantengono.
 
-Appiattire la pietra con un piatto adatto o pietra lapping quando necessario. Un principiante non ha bisogno di inseguire la perfezione microscopica, ma la superficie dovrebbe formare un piano affidabile.
+Appiattire la pietra con una piastra adatta o lappeggiare la pietra, se necessario. Un principiante non ha bisogno di microscopica perfezione, ma la superficie dovrebbe formare un piano affidabile.
 
 ## Rendere stabile lo spazio di lavoro
 
-Posizionare la pietra su un supporto, base in gomma o panno umido piegato. Spingere delicatamente prima di iniziare. Non deve scivolare o rock.
+Posizionare la pietra su un supporto, base in gomma o panno umido piegato. Spinga delicatamente prima di iniziare. Non dovrebbe scivolare o rock.
 
-Stare o sedersi ad un'altezza che consente di rilassare le spalle e spostare le braccia liberamente. Lasciare spazio per il coltello per viaggiare attraverso la pietra dalla punta al tallone. Tenere l'area libera da oggetti che potrebbero fermare il movimento.
+Stare o sedersi ad un'altezza che ti permette di rilassare le spalle e muovere le braccia liberamente. Lasciare spazio per il coltello per viaggiare attraverso la pietra dalla punta al tallone. Tenere l'area libera da oggetti che potrebbero fermare il movimento.
 
-La mano che tiene la maniglia controlla la direzione e l'angolo. L'altra mano poggia leggermente sulla lama ed applica pressione vicino alla parte del bordo che sta attraversando la pietra. Tenere le dita sopra la faccia della lama e lontano dal bordo tagliente.
+La mano che tiene la maniglia controlla la direzione e l'angolo. L'altra mano poggia leggermente sulla lama ed applica pressione vicino alla parte del bordo che sta attraversando la pietra. filo faccia della lama e lontano dal taglio.
 
 ## Dopo l'affilatura
 
 Sciacquare il coltello e asciugarlo immediatamente. Sciacquare la pietra, rimuovere i residui sciolti e controllare se ha bisogno di appiattimento leggero.
 
-Lasciare asciugare lentamente una pietra d'acqua in un luogo ventilato. Evitare radiatori, forni, luce solare forte e contenitori chiusi mentre la pietra è ancora umida. Conservare solo quando è completamente asciutto.
+Let a pietra ad acqua asciugare lentamente in un luogo ventilato. Evitare radiatori, forni, luce solare forte e contenitori chiusi mentre la pietra è ancora umida. Conservare solo quando è completamente asciutto.
 
 L'obiettivo di preparazione è semplice: una pietra adatta al lavoro, correttamente bagnata, ragionevolmente piatta e completamente stabile. Una volta che queste condizioni sono impostate, passare a [Affilatura di base](basic-sharpening-process.md) e concentrarsi sul contatto, l'angolo, la pressione e il feedback piuttosto che sull'apparecchiatura.
