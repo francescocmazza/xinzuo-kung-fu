@@ -37,12 +37,16 @@
   display: none !important;
 }
 
+/* Keep the editorial copy out of the central calligraphy. The artwork leaves
+   a broad quiet field at the foot of the page, so the complete live-text block
+   is anchored to that lower area instead of being vertically centred. */
 .kb-cover__top {
   position: absolute;
   z-index: 2;
-  top: 34.5%;
-  left: 5.5%;
-  width: 89%;
+  top: auto;
+  bottom: 12mm;
+  left: 7%;
+  width: 86%;
   margin: 0;
   padding: 0;
 }
@@ -54,7 +58,7 @@
   gap: 4.2mm;
   margin: 0;
   font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
-  font-size: clamp(21pt, 6.6vw, 31pt);
+  font-size: clamp(20pt, 6vw, 29pt);
   font-weight: 500;
   line-height: 1.05;
   letter-spacing: 0.015em;
@@ -81,14 +85,14 @@
 
 .kb-cover__subtitle {
   position: relative;
-  max-width: 112mm;
-  margin: 6.5mm auto 0;
-  padding-bottom: 18mm;
+  max-width: 108mm;
+  margin: 4.5mm auto 0;
+  padding-bottom: 13mm;
   color: var(--kb-cover-ink);
   font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
-  font-size: clamp(11.5pt, 3.4vw, 16pt);
+  font-size: clamp(10.5pt, 3.1vw, 14.5pt);
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 1.32;
   letter-spacing: 0;
 }
 
@@ -98,13 +102,13 @@
   left: 50%;
   bottom: 1.7mm;
   width: 65%;
-  height: 11mm;
+  height: 9mm;
   transform: translateX(-50%);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--kb-cover-gold-mid);
-  font-size: 10pt;
+  font-size: 9pt;
   line-height: 1;
   background:
     linear-gradient(90deg,
@@ -119,11 +123,11 @@
 .kb-cover__author {
   width: 100%;
   height: 1.55em;
-  margin: 2.5mm auto 0;
+  margin: 1.8mm auto 0;
   overflow: hidden;
   color: var(--kb-cover-ink);
   font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
-  font-size: clamp(9.5pt, 2.7vw, 12.5pt);
+  font-size: clamp(9pt, 2.5vw, 11.5pt);
   font-weight: 500;
   line-height: 1.45;
   letter-spacing: 0.22em;
