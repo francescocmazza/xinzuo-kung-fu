@@ -3,7 +3,7 @@ title: Routine Knife Care
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-16
+reviewed: 2026-09-17
 translation_priority: high
 ---
 
@@ -93,15 +93,21 @@ A stainless kitchen knife that is washed, dried and used regularly usually needs
 
 Reactive carbon steel, long-term storage or humid conditions may justify a very thin protective film. Use only a food-safe product suitable for kitchen blades and wipe off excess before using the knife with food.
 
-## Honing is not sharpening—and rods do different things
+## What a honing rod is for
 
-The word *honing* can describe several different mechanisms.
+A **honing rod is a quick maintenance tool used between full sharpening sessions**. Its purpose is to recover some of the knife's cutting performance when the edge has begun to lose its crispness but is not yet seriously dull, rounded or chipped.
 
-A smooth steel can help straighten or recondition a rolled edge on suitable steels whose edge tends to bend rather than chip. Grooved steels, ceramic rods and diamond-coated rods can also remove material, sometimes substantially. They should not all be described as tools that simply “realign” the edge.
+Exactly what the rod does depends on its surface.
 
-Very hard, thin knives that tend to chip rather than roll may gain little from forceful steeling and can be damaged by poor technique. Choose the maintenance tool according to steel, hardness and edge geometry.
+A **smooth steel rod** removes very little material. On an edge that has bent or rolled slightly during use, it can help straighten and recondition the apex, bringing it closer to its original position. This is the traditional meaning of *honing*. It works best on steels and edge geometries that tend to deform slightly before they chip.
 
-When the apex is genuinely rounded, worn or chipped, a rod cannot replace proper sharpening. At that point maintenance changes from **preservation** to **restoration**.
+A **ceramic or diamond-coated rod works differently**. Its surface is abrasive, so it removes a small amount of steel. In practice, it performs a light touch-up sharpening rather than simply straightening the edge. A ceramic rod normally removes material more gently, while a diamond-coated rod can work considerably faster.
+
+This distinction explains why a honing rod can make a knife feel sharper again without replacing proper sharpening. It is useful for **maintaining an edge that is still fundamentally intact**. Once the apex has become substantially worn or rounded, or if it is chipped, the edge geometry must be rebuilt by sharpening on stones or another suitable abrasive system.
+
+Not every knife benefits equally from a traditional steel rod. Very hard, thin kitchen knives often resist rolling and are more likely to suffer microchipping if subjected to excessive force or poor steeling technique. For these knives, gentle abrasive maintenance with an appropriate fine ceramic rod—or normal stone sharpening—may be more suitable than repeated use of a conventional steel.
+
+The practical distinction is therefore simple: **use a rod to maintain or refresh an edge that is still in good condition; sharpen when the edge itself needs to be rebuilt.**
 
 ## Inspect before damage becomes serious
 
