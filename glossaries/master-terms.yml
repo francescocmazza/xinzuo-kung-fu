@@ -1,96 +1,569 @@
+version: 2
+source_locale: en
+domain: kitchen-knives
+policy:
+  - English is the source of truth.
+  - Active locales must provide every term marked enforce: true.
+  - The translation engine must prefer the forms below over generic machine-translation wording.
+  - Longer source phrases take precedence over shorter overlapping phrases.
+  - Japanese knife-type names are preserved rather than machine-transliterated.
+
 terms:
-  hardness:
-    definition_en: Resistance of steel to local deformation, commonly expressed as HRC for knife blades.
-    preferred_customer_term_en: hardness
-    it: durezza
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  blade:
+    source_en: blade
+    definition_en: The metal cutting body of the knife, excluding the handle.
+    it: lama
+    zh-Hans: 刀身
+    enforce: true
+    forms:
+      - {en: blade, it: lama, zh-Hans: 刀身}
+      - {en: blades, it: lame, zh-Hans: 刀身}
 
-  robustness:
-    definition_en: Practical ability of the blade and edge to tolerate impact, twisting, chipping, and demanding use.
-    technical_note_en: The closest technical concept is toughness, but robustness is preferred in customer-facing content.
-    preferred_customer_term_en: robustness
-    it: robustezza
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  blade_face:
+    source_en: blade face
+    definition_en: Broad side surface of the blade.
+    it: faccia della lama
+    zh-Hans: 刀面
+    enforce: true
 
-  ease_of_sharpening:
-    definition_en: How easily an abrasive can remove material and restore a clean cutting edge.
-    it: facilità di affilatura
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  spine:
+    source_en: spine
+    definition_en: Unsharpened upper edge of the blade.
+    it: dorso
+    zh-Hans: 刀背
+    enforce: true
 
-  corrosion_resistance:
-    definition_en: Ability to resist rust, staining, and oxidation under normal use and maintenance.
-    it: resistenza alla corrosione
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  heel:
+    source_en: heel
+    definition_en: Rear part of the cutting edge nearest the handle.
+    it: tallone
+    zh-Hans: 刀根
+    enforce: true
 
-  microstructural_fineness:
-    definition_en: Fineness and distribution of grains and carbides that influence edge refinement, stability, and sharpening behavior.
-    it: finezza della microstruttura
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  belly:
+    source_en: belly
+    definition_en: Curved portion of the cutting edge.
+    it: pancia della lama
+    zh-Hans: 刀腹
+    enforce: true
 
-  burr:
-    definition_en: A very thin lip of steel that remains attached to the edge and bends to the opposite side during sharpening.
-    note_en: It is not loose grinding residue or stone slurry.
-    it: bava di affilatura
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  tip:
+    source_en: tip
+    definition_en: Forward point or terminal portion of the blade.
+    it: punta
+    zh-Hans: 刀尖
+    enforce: true
 
-  slurry:
-    definition_en: Mixture of water, released abrasive particles, and removed metal found on a sharpening stone during use.
-    it: sospensione abrasiva
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  cutting_edge:
+    source_en: cutting edge
+    definition_en: Sharpened line that performs the cut.
+    it: filo
+    zh-Hans: 刃口
+    enforce: true
+    forms:
+      - {en: cutting edge, it: filo, zh-Hans: 刃口}
+      - {en: cutting edges, it: fili, zh-Hans: 刃口}
 
-  full_damascus:
-    definition_en: A blade whose patterned multilayer steel forms the blade body and reaches the cutting-edge region, rather than being only decorative cladding around a separate core.
-    it: damasco integrale
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+  apex:
+    source_en: apex
+    definition_en: Microscopic terminal line where the two edge surfaces meet.
+    it: apice del filo
+    zh-Hans: 刃尖
+    enforce: true
+
+  primary_grind:
+    source_en: primary grind
+    definition_en: Main blade thinning geometry above the final edge bevel.
+    it: molatura primaria
+    zh-Hans: 主研磨面
+    enforce: true
+
+  bevel:
+    source_en: bevel
+    definition_en: Deliberately ground inclined surface approaching the edge.
+    it: bisello
+    zh-Hans: 开刃面
+    enforce: true
+    forms:
+      - {en: bevel, it: bisello, zh-Hans: 开刃面}
+      - {en: bevels, it: biselli, zh-Hans: 开刃面}
+
+  edge_bevel:
+    source_en: edge bevel
+    definition_en: Small secondary bevel immediately behind the apex.
+    it: bisello del filo
+    zh-Hans: 刃口次级开刃面
+    enforce: true
+    forms:
+      - {en: edge bevel, it: bisello del filo, zh-Hans: 刃口次级开刃面}
+      - {en: edge bevels, it: biselli del filo, zh-Hans: 刃口次级开刃面}
+
+  microbevel:
+    source_en: microbevel
+    definition_en: Very narrow secondary edge bevel.
+    it: microbisello
+    zh-Hans: 微刃面
+    enforce: true
+    forms:
+      - {en: microbevel, it: microbisello, zh-Hans: 微刃面}
+      - {en: microbevels, it: microbiselli, zh-Hans: 微刃面}
 
   single_bevel:
-    definition_en: An asymmetrical blade geometry with a main bevel on one side, often paired with a flat or concave reverse side.
-    it: monobisela
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+    source_en: single bevel
+    definition_en: Knife geometry sharpened predominantly on one side.
+    it: bisello singolo
+    zh-Hans: 单面开刃
+    enforce: true
+    forms:
+      - {en: single bevel, it: bisello singolo, zh-Hans: 单面开刃}
+      - {en: single-bevel, it: bisello singolo, zh-Hans: 单面开刃}
+      - {en: single bevels, it: biselli singoli, zh-Hans: 单面开刃}
+
+  double_bevel:
+    source_en: double bevel
+    definition_en: Knife geometry sharpened from both sides.
+    it: doppio bisello
+    zh-Hans: 双面开刃
+    enforce: true
+    forms:
+      - {en: double bevel, it: doppio bisello, zh-Hans: 双面开刃}
+      - {en: double-bevel, it: doppio bisello, zh-Hans: 双面开刃}
+      - {en: double bevels, it: doppi biselli, zh-Hans: 双面开刃}
+
+  convex_grind:
+    source_en: convex grind
+    definition_en: Grind whose surface curves outward toward the edge.
+    it: molatura convessa
+    zh-Hans: 凸磨
+    enforce: true
+
+  hollow_grind:
+    source_en: hollow grind
+    definition_en: Grind whose surface curves inward toward the edge.
+    it: molatura concava
+    zh-Hans: 凹磨
+    enforce: true
+
+  distal_taper:
+    source_en: distal taper
+    definition_en: Progressive reduction in blade thickness toward the tip.
+    it: rastrematura distale
+    zh-Hans: 向刀尖渐薄
+    enforce: true
+
+  thickness_behind_edge:
+    source_en: thickness behind the edge
+    definition_en: Blade thickness measured immediately behind the sharpened edge.
+    it: spessore dietro il filo
+    zh-Hans: 刃后厚度
+    enforce: true
+
+  tang:
+    source_en: tang
+    definition_en: Portion of the blade extending into the handle.
+    it: codolo
+    zh-Hans: 柄芯
+    enforce: true
 
   full_tang:
-    definition_en: Tang construction in which the steel extends through almost the full length and outline of the handle, normally visible between handle scales.
-    technical_note_en: Use “full tang” for this construction. “Through tang” is a separate construction term; “thorough tang” is incorrect.
-    preferred_customer_term_en: full tang
-    it: codolo pieno
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+    source_en: full tang
+    definition_en: Tang extending through the full handle length and substantially its profile.
+    it: codolo integrale
+    zh-Hans: 全龙骨
+    enforce: true
+    forms:
+      - {en: full tang, it: codolo integrale, zh-Hans: 全龙骨}
+      - {en: full-tang, it: codolo integrale, zh-Hans: 全龙骨}
+
+  hidden_tang:
+    source_en: hidden tang
+    definition_en: Tang enclosed inside the handle rather than visible around its perimeter.
+    it: codolo nascosto
+    zh-Hans: 隐藏式柄芯
+    enforce: true
+
+  through_tang:
+    source_en: through tang
+    definition_en: Narrow tang extending through the handle to the butt or end fitting.
+    it: codolo passante
+    zh-Hans: 贯穿式柄芯
+    enforce: true
+
+  handle_scales:
+    source_en: handle scales
+    definition_en: Two handle slabs fixed to the sides of a full tang.
+    it: guancette del manico
+    zh-Hans: 柄片
+    enforce: true
+
+  bolster:
+    source_en: bolster
+    definition_en: Thickened transition element between blade and handle on many Western knives.
+    it: rinforzo
+    zh-Hans: 刀枕
+    enforce: true
 
   collar:
-    definition_en: Reinforcing sleeve or ring around the front of an Asian hidden-tang handle, close to the blade-handle junction.
-    technical_note_en: Preferred house term. Knife literature may also call this part a ferrule.
-    preferred_customer_term_en: collar
+    source_en: collar
+    definition_en: Front handle fitting surrounding the tang on many Asian-style handles.
     it: collare
-    ja: null
-    zh-Hans: null
-    zh-Hant: null
-    cjk_status: specialist-review-required
+    zh-Hans: 柄箍
+    enforce: true
+
+  ferrule:
+    source_en: ferrule
+    definition_en: Synonym encountered for the front handle collar; house English prefers collar.
+    it: collare
+    zh-Hans: 柄箍
+    enforce: true
+
+  hardness:
+    source_en: hardness
+    definition_en: Resistance to permanent indentation or deformation; often expressed as HRC for knife steels.
+    it: durezza
+    zh-Hans: 硬度
+    enforce: true
+
+  toughness:
+    source_en: toughness
+    definition_en: Ability to absorb energy and resist fracture or chipping.
+    it: tenacità
+    zh-Hans: 韧性
+    enforce: true
+
+  robustness:
+    source_en: robustness
+    definition_en: Practical resistance to damage in intended use.
+    it: robustezza
+    zh-Hans: 耐用强度
+    enforce: true
+
+  edge_retention:
+    source_en: edge retention
+    definition_en: Ability of the cutting edge to retain useful sharpness.
+    it: tenuta del filo
+    zh-Hans: 刃口保持性
+    enforce: true
+
+  wear_resistance:
+    source_en: wear resistance
+    definition_en: Resistance to material loss by abrasion.
+    it: resistenza all'usura
+    zh-Hans: 耐磨性
+    enforce: true
+
+  corrosion_resistance:
+    source_en: corrosion resistance
+    definition_en: Resistance to rusting and chemical attack.
+    it: resistenza alla corrosione
+    zh-Hans: 耐腐蚀性
+    enforce: true
+
+  ease_of_sharpening:
+    source_en: ease of sharpening
+    definition_en: How readily an edge can be restored with appropriate abrasives.
+    it: facilità di affilatura
+    zh-Hans: 易磨性
+    enforce: true
+
+  microstructural_fineness:
+    source_en: microstructural fineness
+    definition_en: Fineness and uniformity of grains, carbides and phases.
+    it: finezza microstrutturale
+    zh-Hans: 显微组织细化程度
+    enforce: true
+
+  carbide:
+    source_en: carbide
+    definition_en: Hard compound phase formed by carbon and carbide-forming elements.
+    it: carburo
+    zh-Hans: 碳化物
+    enforce: true
+    forms:
+      - {en: carbide, it: carburo, zh-Hans: 碳化物}
+      - {en: carbides, it: carburi, zh-Hans: 碳化物}
+
+  heat_treatment:
+    source_en: heat treatment
+    definition_en: Controlled thermal processing used to obtain the desired steel microstructure and properties.
+    it: trattamento termico
+    zh-Hans: 热处理
+    enforce: true
+
+  quenching:
+    source_en: quenching
+    definition_en: Rapid cooling stage used to transform austenite during hardening.
+    it: tempra
+    zh-Hans: 淬火
+    enforce: true
+
+  tempering:
+    source_en: tempering
+    definition_en: Reheating after hardening to adjust hardness, toughness and stresses.
+    it: rinvenimento
+    zh-Hans: 回火
+    enforce: true
+
+  cryogenic_treatment:
+    source_en: cryogenic treatment
+    definition_en: Sub-zero treatment used after quenching in selected heat-treatment schedules.
+    it: trattamento criogenico
+    zh-Hans: 深冷处理
+    enforce: true
+
+  powder_metallurgy:
+    source_en: powder metallurgy
+    definition_en: Steelmaking route based on atomized powder consolidated into solid material.
+    it: metallurgia delle polveri
+    zh-Hans: 粉末冶金
+    enforce: true
+
+  stainless_steel:
+    source_en: stainless steel
+    definition_en: Steel engineered for elevated corrosion resistance through sufficient chromium and suitable processing.
+    it: acciaio inossidabile
+    zh-Hans: 不锈钢
+    enforce: true
+
+  carbon_steel:
+    source_en: carbon steel
+    definition_en: Conventional knife-steel category primarily associated with carbon alloying and limited stainless corrosion resistance.
+    it: acciaio al carbonio
+    zh-Hans: 碳钢
+    enforce: true
+
+  core_steel:
+    source_en: core steel
+    definition_en: Steel forming the cutting core in a clad blade.
+    it: acciaio del nucleo
+    zh-Hans: 芯钢
+    enforce: true
+
+  cladding:
+    source_en: cladding
+    definition_en: Outer material bonded to a blade core.
+    it: rivestimento
+    zh-Hans: 覆层
+    enforce: true
+
+  clad_blade:
+    source_en: clad blade
+    definition_en: Blade constructed with a core steel bonded to outer cladding.
+    it: lama rivestita
+    zh-Hans: 复合覆层刀身
+    enforce: true
+
+  damascus_steel:
+    source_en: Damascus steel
+    definition_en: House term for visible layered Damascus constructions described in the book.
+    it: acciaio damasco
+    zh-Hans: 大马士革钢
+    enforce: true
+    forms:
+      - {en: Damascus steel, it: acciaio damasco, zh-Hans: 大马士革钢}
+      - {en: damascus steel, it: acciaio damasco, zh-Hans: 大马士革钢}
+
+  full_damascus:
+    source_en: full Damascus
+    definition_en: Blade whose body is made from a Damascus laminate rather than a separate core with decorative cladding.
+    it: damasco integrale
+    zh-Hans: 全大马士革钢
+    enforce: true
+    forms:
+      - {en: full Damascus, it: damasco integrale, zh-Hans: 全大马士革钢}
+      - {en: full-Damascus, it: damasco integrale, zh-Hans: 全大马士革钢}
+
+  forging:
+    source_en: forging
+    definition_en: Plastic deformation of metal by compressive force, distinct from a generic quality label.
+    it: forgiatura
+    zh-Hans: 锻造
+    enforce: true
+
+  forged:
+    source_en: forged
+    definition_en: Produced or shaped through a forging operation.
+    it: forgiato
+    zh-Hans: 锻造
+    enforce: true
+
+  sharpening:
+    source_en: sharpening
+    definition_en: Restoring or creating the cutting edge using abrasives.
+    it: affilatura
+    zh-Hans: 刃磨
+    enforce: true
+
+  whetstone:
+    source_en: whetstone
+    definition_en: Abrasive stone used to sharpen knives.
+    it: pietra per affilatura
+    zh-Hans: 磨刀石
+    enforce: true
+    forms:
+      - {en: whetstone, it: pietra per affilatura, zh-Hans: 磨刀石}
+      - {en: whetstones, it: pietre per affilatura, zh-Hans: 磨刀石}
+
+  grit:
+    source_en: grit
+    definition_en: Nominal abrasive particle-size grade of a sharpening stone or abrasive.
+    it: grana
+    zh-Hans: 粒度
+    enforce: true
+
+  burr:
+    source_en: burr
+    definition_en: Thin lip of displaced metal formed at the apex during sharpening.
+    it: bava di affilatura
+    zh-Hans: 刃口毛刺
+    enforce: true
+    forms:
+      - {en: burr, it: bava di affilatura, zh-Hans: 刃口毛刺}
+      - {en: burrs, it: bave di affilatura, zh-Hans: 刃口毛刺}
+
+  slurry:
+    source_en: slurry
+    definition_en: Abrasive suspension formed by stone particles, water and swarf during sharpening.
+    it: sospensione abrasiva
+    zh-Hans: 研磨泥浆
+    enforce: true
+
+  thinning:
+    source_en: thinning
+    definition_en: Deliberate reduction of blade thickness behind the edge.
+    it: assottigliamento
+    zh-Hans: 减薄
+    enforce: true
+
+  reprofiling:
+    source_en: reprofiling
+    definition_en: Deliberate change or restoration of edge or blade geometry.
+    it: riprofilatura
+    zh-Hans: 重新修整刃形
+    enforce: true
+
+  flattening_stone:
+    source_en: flattening stone
+    definition_en: Abrasive tool used to restore a whetstone to a flat surface.
+    it: pietra di spianatura
+    zh-Hans: 修平石
+    enforce: true
+
+  honing_rod:
+    source_en: honing rod
+    definition_en: Rod used to realign, maintain or lightly abrade an edge depending on its material.
+    it: acciaino
+    zh-Hans: 磨刀棒
+    enforce: true
+
+  edge_stability:
+    source_en: edge stability
+    definition_en: Ability of a fine edge to resist chipping, rolling or deformation.
+    it: stabilità del filo
+    zh-Hans: 刃口稳定性
+    enforce: true
+
+  chipping:
+    source_en: chipping
+    definition_en: Local brittle fracture causing small pieces to break from the edge.
+    it: scheggiatura
+    zh-Hans: 崩刃
+    enforce: true
+
+  edge_rolling:
+    source_en: edge rolling
+    definition_en: Plastic bending or folding of the cutting edge rather than fracture.
+    it: ripiegamento del filo
+    zh-Hans: 卷刃
+    enforce: true
+
+  food_release:
+    source_en: food release
+    definition_en: Tendency of cut food to separate from rather than adhere to the blade face.
+    it: distacco degli alimenti
+    zh-Hans: 食材脱离性
+    enforce: true
+
+  pinch_grip:
+    source_en: pinch grip
+    definition_en: Grip in which thumb and index finger pinch the blade near the handle.
+    it: presa a pinza
+    zh-Hans: 捏刀式握法
+    enforce: true
+
+  gyuto:
+    source_en: gyuto
+    definition_en: Japanese knife-type name; preserve the established name.
+    it: gyuto
+    zh-Hans: gyuto
+    enforce: true
+    preserve_name: true
+
+  santoku:
+    source_en: santoku
+    definition_en: Japanese knife-type name; preserve the established name.
+    it: santoku
+    zh-Hans: santoku
+    enforce: true
+    preserve_name: true
+
+  nakiri:
+    source_en: nakiri
+    definition_en: Japanese knife-type name; preserve the established name.
+    it: nakiri
+    zh-Hans: nakiri
+    enforce: true
+    preserve_name: true
+
+  bunka:
+    source_en: bunka
+    definition_en: Japanese knife-type name; preserve the established name.
+    it: bunka
+    zh-Hans: bunka
+    enforce: true
+    preserve_name: true
+
+  deba:
+    source_en: deba
+    definition_en: Japanese knife-type name; preserve the established name.
+    it: deba
+    zh-Hans: deba
+    enforce: true
+    preserve_name: true
+
+  yanagiba:
+    source_en: yanagiba
+    definition_en: Japanese knife-type name; preserve the established name.
+    it: yanagiba
+    zh-Hans: yanagiba
+    enforce: true
+    preserve_name: true
+
+  usuba:
+    source_en: usuba
+    definition_en: Japanese knife-type name; preserve the established name.
+    it: usuba
+    zh-Hans: usuba
+    enforce: true
+    preserve_name: true
+
+  kiritsuke:
+    source_en: kiritsuke
+    definition_en: Japanese knife-type name; preserve the established name.
+    it: kiritsuke
+    zh-Hans: kiritsuke
+    enforce: true
+    preserve_name: true
+
+  honesuki:
+    source_en: honesuki
+    definition_en: Japanese knife-type name; preserve the established name.
+    it: honesuki
+    zh-Hans: honesuki
+    enforce: true
+    preserve_name: true
+
+cjk_status:
+  zh-Hans: controlled-terminology-active-specialist-review-still-required
+  ja: specialist-review-required-before-activation
+  zh-Hant: specialist-review-required-before-activation
