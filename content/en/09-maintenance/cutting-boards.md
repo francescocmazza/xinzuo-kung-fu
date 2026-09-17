@@ -18,7 +18,7 @@ This matters most with very sharp knives. A thin edge enters food with little re
 
 For normal home use, and whenever preserving the edge is a priority, **a well-made wooden cutting board is our preferred choice**.
 
-Suitable hardwoods include **maple, beech, walnut and cherry**. The aim is not to find the hardest possible material. The board should resist wear while still yielding slightly when the edge reaches it. Very soft woods scar too easily; extremely hard or abrasive surfaces are less friendly to a fine edge.
+Suitable hardwoods include **acacia, ashwood, maple, beech, walnut and cherry**. The aim is not to find the hardest possible material. The board should resist wear while still yielding slightly when the edge reaches it. Very soft woods scar too easily; extremely hard or abrasive surfaces are less friendly to a fine edge.
 
 Wood also should not automatically be treated as less hygienic than plastic. Classic studies found lower recoverable bacterial counts on several wooden surfaces than on plastic, while other food-service studies found plastic easier to clean and sanitize under standardized commercial procedures. A 2025 study comparing sugar maple with HDPE again found rapid reductions of *E. coli* on maple and generally higher recoverable counts on HDPE. The practical conclusion is simple: **material matters, but condition, cleaning, drying and replacement matter just as much**.
 
