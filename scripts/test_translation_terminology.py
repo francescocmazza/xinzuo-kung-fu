@@ -18,8 +18,8 @@ def require(condition: bool, message: str) -> None:
 
 def main() -> int:
     counts = validate_active_locales(["it", "zh-Hans"])
-    require(counts["it"] >= 70, "Italian controlled vocabulary unexpectedly small")
-    require(counts["zh-Hans"] >= 70, "Simplified-Chinese controlled vocabulary unexpectedly small")
+    require(counts["it"] >= 100, "Italian controlled vocabulary unexpectedly small")
+    require(counts["zh-Hans"] >= 100, "Simplified-Chinese controlled vocabulary unexpectedly small")
 
     it = load_terminology("it")
     zh = load_terminology("zh-Hans")
@@ -34,7 +34,7 @@ def main() -> int:
         "Chinese longest-term precedence failed",
     )
 
-    # Critical terms that were mistranslated by the old generic engine.
+    # Critical edge terms that the former generic MT engine rendered inconsistently.
     require(
         it.required_targets("single-bevel geometry, microbevel and burr")
         == ["bisello singolo", "microbisello", "bava di affilatura"],
@@ -42,20 +42,32 @@ def main() -> int:
     )
     require(
         zh.required_targets("single-bevel geometry, microbevel and burr")
-        == ["单面开刃", "微刃面", "刃口毛刺"],
+        == ["单面开刃", "二段刃", "刃口毛刺"],
         "Chinese bevel/sharpening terminology failed",
     )
 
-    # Japanese knife names must survive MT instead of being transliterated into nonsense.
+    # Knife-category names follow each target language's established specialist usage.
     require(
         it.required_targets("Santoku, Nakiri and Bunka")
         == ["santoku", "nakiri", "bunka"],
-        "Italian knife-name preservation failed",
+        "Italian knife-name terminology failed",
     )
     require(
         zh.required_targets("Santoku, Nakiri and Bunka")
-        == ["santoku", "nakiri", "bunka"],
-        "Chinese knife-name preservation failed",
+        == ["三德刀", "菜切", "文化刀"],
+        "Chinese knife-name terminology failed",
+    )
+
+    # Metallurgy terms must not be treated as ordinary vocabulary.
+    require(
+        it.required_targets("Austenite transforms to martensite; pearlite contains ferrite and cementite.")
+        == ["austenite", "martensite", "perlite", "ferrite", "cementite"],
+        "Italian metallurgy terminology failed",
+    )
+    require(
+        zh.required_targets("Austenite transforms to martensite; pearlite contains ferrite and cementite.")
+        == ["奥氏体", "马氏体", "珠光体", "铁素体", "渗碳体"],
+        "Chinese metallurgy terminology failed",
     )
 
     # Output validation must catch a generic but non-approved substitute.
