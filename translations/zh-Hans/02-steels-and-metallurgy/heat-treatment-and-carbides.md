@@ -1,5 +1,5 @@
 ---
-source_hash: dc4c67cf5f8bed79d2f74100d7e311d3b860f996d6ada21a7df8cfcf6f0dbdd7
+source_hash: 5884d3b461a370cd09cfacaf67c0e61e16880d32095a42c196bb7225a0f41c1d
 ---
 
 # 热处理和碳化物
@@ -43,10 +43,9 @@ source_hash: dc4c67cf5f8bed79d2f74100d7e311d3b860f996d6ada21a7df8cfcf6f0dbdd7
 
 考虑到这一景象,热处理序列变得容易遵循。
 
-<figure class="kb-learning-figure" data-visual-id="VIS-MET-HEAT-TREATMENT-M4">
-<img src="../../assets/diagrams/m4-heat-treatment-language-neutral.svg" alt="Text-free four-stage schematic showing starting steel, austenitizing, quenching and tempering above a simplified temperature-time curve." width="1600" height="1100">
-<figcaption><strong>一眼就能看出来</strong> 从左到右, 上行显示一个受控的起始结构, 向奥斯汀石加热, 快速冷却以形成马腾石, 以及低温的调温, 使得马腾斯结构更容易使用。 圆形的内置是示意图式的微结构 。</figcaption>
-<div class="kb-learning-figure__note">下曲线代表了与简化的温度历史相同的过程:热到加速范围、保持、冷却到低得多的温度、再热到低温范围、然后冷却。精确的温度、时间、冷却速度和冷却介质取决于钢;冷却符号是通用的,并不意味着水的冷却。</div>
+<figure class="kb-learning-figure" data-visual-id="VIS-MET-HEAT-TREATMENT-APPROVED">
+<img src="../../assets/diagrams/Heat treatment.jpg" alt="Approved heat-treatment diagram illustrating the main thermal stages discussed in this chapter." style="display:block;width:100%;height:auto;margin:0;border:0;">
+<figcaption><strong>一眼就能看出来</strong> 核准的图表概述了下文讨论的主要热级。</figcaption>
 </figure>
 
 ## 1. 硬化前准备钢材

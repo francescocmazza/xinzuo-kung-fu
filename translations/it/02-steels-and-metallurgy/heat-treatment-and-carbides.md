@@ -1,5 +1,5 @@
 ---
-source_hash: 224e46f73e20f69835e53f594fdd97f7e78a51dbae1f7caf46d5297982679d86
+source_hash: db4e4c1b00199484f2c72cf24c7ee30bd1ec9d3e24718d3912b35998207eac4f
 ---
 
 # Trattamento termico e carboidrati
@@ -43,10 +43,9 @@ Carbidi materia perché sono di solito molto più difficile della matrice circos
 
 Con questa immagine in mente, la sequenza di trattamento termico diventa molto più facile da seguire.
 
-<figure class="kb-learning-figure" data-visual-id="VIS-MET-HEAT-TREATMENT-M4">
-<img src="../../assets/diagrams/m4-heat-treatment-language-neutral.svg" alt="Text-free four-stage schematic showing starting steel, austenitizing, quenching and tempering above a simplified temperature-time curve." width="1600" height="1100">
-<figcaption><strong>Trattamento termico a colpo d'occhio.</strong> Da sinistra a destra, la fila superiore mostra una struttura di partenza controllata, il riscaldamento in HPLC, il raffreddamento rapido per formare martensite, e temperamento a bassa temperatura che rende la struttura martensitica più utilizzabile. Gli inserti circolari sono microstrutture schematiche.</figcaption>
-<div class="kb-learning-figure__note">La curva inferiore rappresenta lo stesso processo di una cronologia semplificata della temperatura: calore al campo di tempra, tenuta, tempra ad una temperatura molto più bassa, ririscaldamento al campo di tempra più basso, poi freddo. Temperature esatte, tempi, velocità di raffreddamento e mezzi di tempra dipendono dall'acciaio; il simbolo di raffreddamento è generico e non implica tempra dell'acqua.</div>
+<figure class="kb-learning-figure" data-visual-id="VIS-MET-HEAT-TREATMENT-APPROVED">
+<img src="../../assets/diagrams/Heat treatment.jpg" alt="Approved heat-treatment diagram illustrating the main thermal stages discussed in this chapter." style="display:block;width:100%;height:auto;margin:0;border:0;">
+<figcaption><strong>Trattamento termico a colpo d'occhio.</strong> Il diagramma approvato riassume le principali fasi termiche discusse di seguito.</figcaption>
 </figure>
 
 ## 1. Preparazione dell'acciaio prima dell'indurimento

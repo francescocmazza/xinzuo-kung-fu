@@ -1,5 +1,5 @@
 ---
-source_hash: 074903b80d15f70af377ac161015cf65d5348715d365ef00877acfc70c36785a
+source_hash: 09f17d5d842e47a7e148af957ce830743f898afc0fea74aa7a7ed51b6a77d53b
 ---
 
 # Cura del coltello di routine
@@ -88,15 +88,21 @@ Un coltello da cucina inox che viene lavato, asciugato e utilizzato regolarmente
 
 L'acciaio al carbonio reattivo, la conservazione a lungo termine o le condizioni umide possono giustificare una pellicola protettiva molto sottile. Utilizzare solo un prodotto alimentare adatto per le lame da cucina e cancellare l'eccesso prima di utilizzare il coltello con il cibo.
 
-## L'affilatura non è affilatura e le barre fanno cose diverse
+## A cosa serve una verga per levigare
 
-La parola *honing* può descrivere diversi meccanismi.
+Un **honing rod è uno strumento di manutenzione veloce utilizzato tra sessioni di affilatura completa**. Il suo scopo è quello di recuperare alcune delle prestazioni di taglio del coltello quando il bordo ha iniziato a perdere la sua freschezza, ma non è ancora seriamente noioso, arrotondato o scheggiato.
 
-Un acciaio liscio può aiutare a raddrizzare o revisionare un bordo laminato sugli acciai adatti il cui bordo tende a piegarsi piuttosto che chip. Gli acciai scanalati, le barre di ceramica e le barre rivestite di diamante possono anche rimuovere il materiale, a volte sostanzialmente. Essi non devono essere tutti descritti come strumenti che semplicemente riaffiorano il bordo.
+Esattamente ciò che fa l'asta dipende dalla sua superficie.
 
-I coltelli molto duri e sottili che tendono a scheggiare piuttosto che a rotolo possono guadagnare poco dall'acciaio forte e possono essere danneggiati dalla tecnica scadente. Scegli l'utensile di manutenzione in base all'acciaio, alla durezza e alla geometria dei bordi.
+Su un bordo piegato o rotolato leggermente durante l'uso, può aiutare a raddrizzare e ricondizionare l'apice, avvicinandolo alla sua posizione originale. Questo è il significato tradizionale di *honing*. Funziona meglio su acciai e geometrie di bordo che tendono a deformarsi leggermente prima di scheggiare.
 
-Quando l'apice è veramente arrotondato, usurato o scheggiato, un'asta non può sostituire l'affilatura corretta. A quel punto la manutenzione cambia da **preservazione** a **restauro**.
+Un asta in ceramica o in diamante funziona in modo diverso**. La sua superficie è abrasiva, quindi rimuove una piccola quantità di acciaio. In pratica, esegue una leggera affilatura del touch-up piuttosto che semplicemente raddrizzando il bordo. Un asta in ceramica normalmente rimuove il materiale più delicatamente, mentre un asta rivestita in diamante può lavorare considerevolmente più velocemente.
+
+Questa distinzione spiega perché un'asta di levigatura può far sentire di nuovo un coltello più affilato senza sostituire l'affilatura corretta. È utile per mantenere ** un bordo ancora fondamentalmente intatto**. Una volta che l'apice è diventato sostanzialmente consumato o arrotondato, o se è scheggiato, la geometria del bordo deve essere ricostruita affilando su pietre o un altro sistema abrasivo adatto.
+
+Non ogni coltello beneficia ugualmente di una tradizionale asta d'acciaio. I coltelli da cucina molto duri e sottili spesso resistono alla laminazione e sono più suscettibili di subire microchipping se sottoposti a forza eccessiva o tecnica di acciaio scadente. Per questi coltelli, la manutenzione abrasiva delicata con una asta di ceramica fine appropriata o l'affilatura normale della pietra può essere più adatta di un uso ripetuto di un acciaio convenzionale.
+
+La distinzione pratica è quindi semplice: **usare un'asta per mantenere o aggiornare un bordo che è ancora in buone condizioni; affilare quando il bordo stesso deve essere ricostruito.**
 
 ## Controllare prima che il danno diventi grave
 
