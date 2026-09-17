@@ -48,6 +48,7 @@ terms:
     forms:
       - {en: handle scale, it: guancetta del manico, zh-Hans: 柄片}
       - {en: handle scales, it: guancette del manico, zh-Hans: 柄片}
+      - {en: scales, it: guancette, zh-Hans: 柄片}
 
   rivet:
     source_en: rivet
@@ -66,12 +67,10 @@ terms:
     forms:
       - {en: handle pin, it: perno del manico, zh-Hans: 柄钉}
       - {en: handle pins, it: perni del manico, zh-Hans: 柄钉}
+      - {en: pin, it: perno, zh-Hans: 柄钉}
+      - {en: pins, it: perni, zh-Hans: 柄钉}
 
-  tang:
-    source_en: tang
-    it: codolo
-    zh-Hans: 柄芯
-    enforce: true
+  tang: {source_en: tang, it: codolo, zh-Hans: 柄芯, enforce: true}
 
   full_tang:
     source_en: full tang
@@ -85,7 +84,7 @@ terms:
   hidden_tang: {source_en: hidden tang, it: codolo nascosto, zh-Hans: 隐藏式柄芯, enforce: true}
   through_tang: {source_en: through tang, it: codolo passante, zh-Hans: 贯穿式柄芯, enforce: true}
   partial_tang: {source_en: partial tang, it: codolo parziale, zh-Hans: 半龙骨, enforce: true}
-  bolster: {source_en: bolster, it: rinforzo, zh-Hans: 刀枕, enforce: true}
+  bolster: {source_en: bolster, it: raccordo, zh-Hans: 刀枕, enforce: true}
   guard: {source_en: guard, it: guardia, zh-Hans: 护手, enforce: true}
   collar: {source_en: collar, it: collare, zh-Hans: 柄箍, enforce: true}
   ferrule: {source_en: ferrule, it: collare, zh-Hans: 柄箍, enforce: true}
