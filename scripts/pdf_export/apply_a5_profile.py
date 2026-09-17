@@ -121,6 +121,24 @@ def main() -> int:
     )
     exporter = replace_checked(
         exporter,
+        'HERO_IMAGE_REL = "assets/images/approved/home-hero-xinzuo-neutral.png"',
+        'HERO_IMAGE_REL = "assets/Frontespizio.png"',
+        "Frontespizio cover artwork",
+    )
+    exporter = replace_checked(
+        exporter,
+        'HERO_IMAGE_ALT = "A craftsman inspecting a Xinzuo Damascus kitchen knife."',
+        'HERO_IMAGE_ALT = "Front cover artwork for The Gongfu of Xinzuo."',
+        "Frontespizio cover alternative text",
+    )
+    exporter = replace_checked(
+        exporter,
+        'PRINT_SKIP_VISUAL_IDS = {"index": ["VIS-HOME-01"]}',
+        'PRINT_SKIP_VISUAL_IDS = {}',
+        "home illustration retention after changing cover artwork",
+    )
+    exporter = replace_checked(
+        exporter,
         'format="A4"',
         'format="A5"',
         "Chromium paper format",
