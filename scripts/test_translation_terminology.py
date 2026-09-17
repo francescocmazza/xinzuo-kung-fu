@@ -70,6 +70,37 @@ def main() -> int:
         "Chinese metallurgy terminology failed",
     )
 
+    # Ambiguous English words are deliberately constrained only in technical phrases.
+    # "handle" below is a verb, not the knife component.
+    require(
+        it.required_targets("A deba can handle appropriate fish-butchery work.") == ["deba"],
+        "Italian terminology incorrectly constrained verbal 'handle'",
+    )
+    require(
+        zh.required_targets("A deba can handle appropriate fish-butchery work.") == ["出刃"],
+        "Chinese terminology incorrectly constrained verbal 'handle'",
+    )
+
+    # "grain" can mean wood/fibre grain as well as metallurgical crystal grains.
+    require(
+        it.required_targets("Slice across the grain.") == [],
+        "Italian terminology incorrectly constrained food/wood 'grain'",
+    )
+    require(
+        zh.required_targets("Slice across the grain.") == [],
+        "Chinese terminology incorrectly constrained food/wood 'grain'",
+    )
+    require(
+        it.required_targets("Grain size and grain refinement affect steel microstructure.")
+        == ["dimensione del grano cristallino", "affinamento del grano cristallino", "microstruttura"],
+        "Italian grain metallurgy terminology failed",
+    )
+    require(
+        zh.required_targets("Grain size and grain refinement affect steel microstructure.")
+        == ["晶粒尺寸", "晶粒细化", "显微组织"],
+        "Chinese grain metallurgy terminology failed",
+    )
+
     # Output validation must catch a generic but non-approved substitute.
     missing = it.missing_targets(
         "The bevel forms the cutting edge.",
