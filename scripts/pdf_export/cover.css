@@ -1,0 +1,288 @@
+/* Front and back cover typography for the printed publication.
+   This stylesheet is appended by apply_a5_profile.py after the generic
+   print stylesheet, so it can override the legacy PDF cover without
+   changing the live website. The artwork stays image-only on the front:
+   title, subtitle and author remain selectable HTML text. */
+
+:root {
+  --kb-cover-paper: #f5f1ea;
+  --kb-cover-gold-dark: #7a4b16;
+  --kb-cover-gold-mid: #a87222;
+  --kb-cover-gold-light: #c79b4c;
+  --kb-cover-ink: #161411;
+}
+
+.kb-cover {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  background-color: var(--kb-cover-paper);
+  background-image: url("assets/Frontespizio.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  break-after: page;
+  page-break-after: always;
+}
+
+.kb-cover__hero,
+.kb-cover__bottom,
+.kb-cover__language {
+  display: none !important;
+}
+
+.kb-cover__top {
+  position: absolute;
+  z-index: 2;
+  top: 34.5%;
+  left: 5.5%;
+  width: 89%;
+  margin: 0;
+  padding: 0;
+}
+
+.kb-cover__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.2mm;
+  margin: 0;
+  font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
+  font-size: clamp(21pt, 6.6vw, 31pt);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, var(--kb-cover-gold-light) 0%, var(--kb-cover-gold-dark) 45%, var(--kb-cover-gold-mid) 72%, #6d4313 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0.25mm 0.35mm rgba(90, 55, 16, 0.12);
+}
+
+.kb-cover__title::before,
+.kb-cover__title::after {
+  content: "";
+  flex: 1 1 13mm;
+  max-width: 18mm;
+  height: 0.25mm;
+  background: linear-gradient(90deg, rgba(122, 75, 22, 0.18), var(--kb-cover-gold-mid));
+}
+
+.kb-cover__title::after {
+  background: linear-gradient(90deg, var(--kb-cover-gold-mid), rgba(122, 75, 22, 0.18));
+}
+
+.kb-cover__subtitle {
+  position: relative;
+  max-width: 112mm;
+  margin: 6.5mm auto 0;
+  padding-bottom: 18mm;
+  color: var(--kb-cover-ink);
+  font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
+  font-size: clamp(11.5pt, 3.4vw, 16pt);
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.kb-cover__subtitle::after {
+  content: "◆";
+  position: absolute;
+  left: 50%;
+  bottom: 1.7mm;
+  width: 65%;
+  height: 11mm;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--kb-cover-gold-mid);
+  font-size: 10pt;
+  line-height: 1;
+  background:
+    linear-gradient(90deg,
+      transparent 0%, transparent 2%,
+      var(--kb-cover-gold-mid) 2%, var(--kb-cover-gold-mid) 39%,
+      transparent 39%, transparent 61%,
+      var(--kb-cover-gold-mid) 61%, var(--kb-cover-gold-mid) 98%,
+      transparent 98%, transparent 100%)
+    center / 100% 0.25mm no-repeat;
+}
+
+.kb-cover__author {
+  width: 100%;
+  height: 1.55em;
+  margin: 2.5mm auto 0;
+  overflow: hidden;
+  color: var(--kb-cover-ink);
+  font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
+  font-size: clamp(9.5pt, 2.7vw, 12.5pt);
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* ---------- Back cover ---------- */
+
+.kb-back-cover {
+  min-height: 100vh;
+  margin: 0;
+  padding: 12mm 12mm 10mm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--kb-cover-paper);
+  color: var(--kb-cover-ink);
+}
+
+.kb-back-cover__inner {
+  width: 100%;
+  max-width: 112mm;
+}
+
+.kb-back-cover__eyebrow {
+  margin: 0;
+  text-align: center;
+  font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
+  font-size: 8.2pt;
+  line-height: 1.3;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--kb-cover-gold-dark);
+}
+
+.kb-back-cover__headline {
+  margin: 5mm 0 6mm;
+  text-align: center;
+  font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
+  font-size: 15.5pt;
+  line-height: 1.28;
+  font-weight: 500;
+  color: var(--kb-cover-ink);
+}
+
+.kb-back-cover__body p {
+  margin: 0 0 3.1mm;
+  font-size: 8.7pt;
+  line-height: 1.48;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+.kb-back-cover__rule {
+  margin: 5.2mm auto 5mm;
+  width: 72%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4mm;
+  color: var(--kb-cover-gold-mid);
+  font-size: 9pt;
+  line-height: 1;
+}
+
+.kb-back-cover__rule::before,
+.kb-back-cover__rule::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 0.25mm;
+  background: linear-gradient(90deg, transparent 0%, var(--kb-cover-gold-mid) 22%, var(--kb-cover-gold-mid) 78%, transparent 100%);
+}
+
+.kb-back-cover__digital {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5mm;
+  margin-top: 0;
+}
+
+.kb-back-cover__qr {
+  flex: 0 0 auto;
+  width: 23mm;
+  height: 23mm;
+  padding: 1.2mm;
+  background: #fff;
+  border: 0.25mm solid rgba(122, 75, 22, 0.24);
+}
+
+.kb-back-cover__qr img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.kb-back-cover__cta {
+  max-width: 65mm;
+  text-align: left;
+}
+
+.kb-back-cover__cta-title {
+  margin: 0;
+  font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
+  font-size: 9.1pt;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--kb-cover-gold-dark);
+}
+
+.kb-back-cover__cta-text,
+.kb-back-cover__cta-url {
+  margin: 1.1mm 0 0;
+  font-size: 8.2pt;
+  line-height: 1.38;
+}
+
+.kb-back-cover__cta-url a {
+  color: var(--kb-cover-ink);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.kb-back-cover__author-block {
+  margin-top: 6mm;
+  padding-top: 4.5mm;
+  border-top: 0.25mm solid rgba(122, 75, 22, 0.22);
+  text-align: center;
+}
+
+.kb-back-cover__author,
+.kb-back-cover__role,
+.kb-back-cover__edition {
+  margin: 0;
+}
+
+.kb-back-cover__author {
+  font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
+  font-size: 9.6pt;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.kb-back-cover__role,
+.kb-back-cover__edition {
+  margin-top: 1.1mm;
+  font-size: 8.1pt;
+  line-height: 1.35;
+}
+
+@media print {
+  .kb-cover,
+  .kb-back-cover {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
