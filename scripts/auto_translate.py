@@ -19,12 +19,22 @@ required phrase. This wrapper now uses a three-stage strategy:
 The final terminology check remains strict, but a model quirk can no longer
 waste an hour of CI and abort the whole publication. Output is line-buffered so
 GitHub Actions shows page progress while the refresh is running.
+
+On the main publication workflow, each fully translated page is also committed
+and pushed immediately with ``[skip ci]``. A later model error, runner failure,
+or job timeout therefore loses at most the page currently being generated.
+The next publication run resumes automatically because checkpointed pages carry
+current source/engine/glossary metadata and are no longer considered stale.
 """
 
 from __future__ import annotations
 
+import os
 import re
+import subprocess
 import sys
+import time
+from pathlib import Path
 
 import translation_engine as _engine
 from translation_engine import *  # noqa: F401,F403
@@ -41,6 +51,143 @@ _MAX_CONSTRAINTS_PER_UNIT = 2
 _NORMAL_BEAMS = 2
 _CONSTRAINED_BEAMS = 2
 _MAX_NEW_TOKENS = 256
+
+_ORIGINAL_PATH_WRITE_TEXT = Path.write_text
+_CHECKPOINT_WORKFLOW = "Publish book, PDFs and GitHub Pages"
+_CHECKPOINT_BRANCH = "main"
+_CHECKPOINT_PUSH_RETRIES = 3
+_CHECKPOINT_RETRY_DELAYS = (2, 5, 10)
+
+
+def _checkpoint_enabled() -> bool:
+    """Return True only inside the write-enabled main publication workflow."""
+
+    return (
+        os.getenv("GITHUB_ACTIONS", "").lower() == "true"
+        and os.getenv("GITHUB_WORKFLOW") == _CHECKPOINT_WORKFLOW
+        and os.getenv("GITHUB_REF") == f"refs/heads/{_CHECKPOINT_BRANCH}"
+    )
+
+
+def _repo_relative(path: Path) -> Path:
+    """Return a repository-relative path suitable for git commands."""
+
+    resolved = path.resolve()
+    root = Path.cwd().resolve()
+    try:
+        return resolved.relative_to(root)
+    except ValueError as exc:
+        raise RuntimeError(f"Translation checkpoint path is outside the repository: {path}") from exc
+
+
+def _is_translation_page(path: Path) -> bool:
+    """Limit automatic checkpoints to completed Markdown translation pages."""
+
+    if path.suffix.lower() != ".md":
+        return False
+    try:
+        path.resolve().relative_to(_engine.TRANSLATIONS.resolve())
+        return True
+    except ValueError:
+        return False
+
+
+def _run_git(args: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
+    result = subprocess.run(
+        ["git", *args],
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if check and result.returncode != 0:
+        detail = (result.stderr or result.stdout).strip()
+        raise RuntimeError(f"git {' '.join(args)} failed: {detail}")
+    return result
+
+
+def _checkpoint_translation_page(path: Path) -> None:
+    """Commit and push one completed translation page immediately.
+
+    The page has already been fully generated and written before this function is
+    called. If the push cannot be persisted after a few retries, fail promptly
+    instead of spending more compute on work that could be lost.
+    """
+
+    relative = _repo_relative(path)
+    relative_text = relative.as_posix()
+
+    _run_git(["config", "user.name", "github-actions[bot]"])
+    _run_git(
+        [
+            "config",
+            "user.email",
+            "41898282+github-actions[bot]@users.noreply.github.com",
+        ]
+    )
+    _run_git(["add", "--", relative_text])
+
+    staged = _run_git(
+        ["diff", "--cached", "--quiet", "--", relative_text],
+        check=False,
+    )
+    if staged.returncode == 0:
+        return
+    if staged.returncode not in (0, 1):
+        detail = (staged.stderr or staged.stdout).strip()
+        raise RuntimeError(f"Unable to inspect translation checkpoint {relative_text}: {detail}")
+
+    _run_git(
+        [
+            "commit",
+            "-m",
+            f"Checkpoint translation {relative_text} [skip ci]",
+        ]
+    )
+
+    last_error = "unknown push failure"
+    for attempt in range(1, _CHECKPOINT_PUSH_RETRIES + 1):
+        pushed = _run_git(
+            ["push", "origin", f"HEAD:{_CHECKPOINT_BRANCH}"],
+            check=False,
+        )
+        if pushed.returncode == 0:
+            print(f"  checkpointed {relative_text} to {_CHECKPOINT_BRANCH}", flush=True)
+            return
+
+        last_error = (pushed.stderr or pushed.stdout).strip()
+        if attempt < _CHECKPOINT_PUSH_RETRIES:
+            delay = _CHECKPOINT_RETRY_DELAYS[attempt - 1]
+            print(
+                f"  checkpoint push attempt {attempt} failed for {relative_text}; "
+                f"retrying in {delay}s",
+                flush=True,
+            )
+            time.sleep(delay)
+
+    raise RuntimeError(
+        f"Unable to persist translation checkpoint {relative_text} after "
+        f"{_CHECKPOINT_PUSH_RETRIES} attempts: {last_error}"
+    )
+
+
+def _checkpointing_write_text(self: Path, data: str, *args, **kwargs) -> int:
+    """Wrap Path.write_text so a completed translated page becomes durable."""
+
+    written = _ORIGINAL_PATH_WRITE_TEXT(self, data, *args, **kwargs)
+    if _checkpoint_enabled() and _is_translation_page(self):
+        _checkpoint_translation_page(self)
+    return written
+
+
+def _install_translation_checkpointing() -> None:
+    if not _checkpoint_enabled():
+        return
+    Path.write_text = _checkpointing_write_text  # type: ignore[method-assign]
+    print(
+        "Translation checkpointing enabled: each completed page is committed "
+        "and pushed to main with [skip ci].",
+        flush=True,
+    )
 
 
 def _split_constraint_units(text: str, terminology) -> list[str] | None:
@@ -237,4 +384,5 @@ MarianTranslator = _engine.MarianTranslator
 
 
 if __name__ == "__main__":
+    _install_translation_checkpointing()
     raise SystemExit(main())
