@@ -10,6 +10,8 @@ The publication cover is also assembled here. Its artwork remains an image,
 while title, subtitle and author stay live/selectable text. Cover wording is
 read from the translated ``index.md`` files, so the normal translation engine
 remains the single localization path instead of baking words into an image.
+The final back cover is injected by ``back_cover.py`` using the same localized
+publication pipeline.
 """
 
 from __future__ import annotations
@@ -19,6 +21,8 @@ import re
 from pathlib import Path
 
 import yaml
+
+from back_cover import apply_back_cover_profile
 
 ROOT = Path(__file__).resolve().parents[2]
 EXPORTER = ROOT / "scripts" / "export_pdf_guides.py"
@@ -159,6 +163,7 @@ def main() -> int:
         "Xinzuo steel comparison print marker",
     )
     exporter = _inject_localized_cover_copy(exporter)
+    exporter = apply_back_cover_profile(exporter)
     EXPORTER.write_text(exporter, encoding="utf-8")
 
     css = PRINT_CSS.read_text(encoding="utf-8")
@@ -248,8 +253,9 @@ def main() -> int:
     PRINT_CSS.write_text(css, encoding="utf-8")
 
     print(
-        "Applied A5 publication profile: 148 x 210 mm, full-bleed Frontespizio cover, "
-        "localized live cover text, 14/15/14/14 mm interior PDF margins."
+        "Applied A5 publication profile: 148 x 210 mm, full-bleed Frontespizio front cover, "
+        "localized live front/back cover text, QR-linked digital edition and "
+        "14/15/14/14 mm interior PDF margins."
     )
     return 0
 
