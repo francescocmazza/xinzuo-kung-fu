@@ -3,6 +3,7 @@ name: Export multilingual guide
 on:
   workflow_dispatch:
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
     paths:
       - ".github/workflows/export-multilingual.yml"
       - "content/en/**"
@@ -88,12 +89,26 @@ jobs:
         run: python scripts/centralize_bibliography.py
 
       - name: Verify translations are current and ChatGPT-generated
+        id: translation_check
+        continue-on-error: ${{ github.event_name == 'pull_request' && github.event.pull_request.draft }}
         run: python scripts/chatgpt_translate.py --check-only
 
+      - name: Explain skipped multilingual export on draft PRs
+        if: ${{ steps.translation_check.outcome == 'failure' && github.event_name == 'pull_request' && github.event.pull_request.draft }}
+        shell: bash
+        run: |
+          {
+            echo "### Multilingual export skipped"
+            echo
+            echo "This draft PR still has pending translation units. Export remains blocked on ready-for-review PRs and on manual release/export runs."
+          } >> "$GITHUB_STEP_SUMMARY"
+
       - name: Build every configured language from committed translations
+        if: ${{ steps.translation_check.outcome == 'success' }}
         run: python scripts/multilingual_site.py --require-translations
 
       - name: Prepare export package
+        if: ${{ steps.translation_check.outcome == 'success' }}
         shell: bash
         run: |
           set -euo pipefail
@@ -113,6 +128,7 @@ jobs:
           EOF
 
       - name: Upload multilingual guide export
+        if: ${{ steps.translation_check.outcome == 'success' }}
         uses: actions/upload-artifact@v6
         with:
           name: the-gongfu-of-xinzuo-multilingual-${{ github.run_number }}
