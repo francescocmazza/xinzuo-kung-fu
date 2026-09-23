@@ -554,7 +554,14 @@ def translate_changed_units(
     glossary: list[tuple[str, str]],
 ) -> dict[str, str]:
     language = _target_language(locale, locale_cfg)
-    glossary_text = _glossary_prompt(glossary)
+    relevant_pairs: list[tuple[str, str]] = []
+    seen_pairs: set[tuple[str, str]] = set()
+    for unit in units:
+        for pair in unit.relevant_glossary:
+            if pair not in seen_pairs:
+                seen_pairs.add(pair)
+                relevant_pairs.append(pair)
+    glossary_text = _glossary_prompt(relevant_pairs)
     guidance = str(locale_cfg.get("translation_guidance", "")).strip()
     if guidance:
         glossary_text += (
