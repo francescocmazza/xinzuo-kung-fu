@@ -16,6 +16,11 @@ locales:
     direction: ltr
     deploy: true
     mkdocs_language: it
+    translation_guidance: >-
+      Write polished native Italian editorial prose, not translated-sounding Italian.
+      Prefer terminology actually used in Italian professional cooking, cutlery,
+      sharpening and metallurgy. Avoid English syntactic calques, unnecessary
+      anglicisms and literal renderings when an established Italian expression exists.
   es:
     name: Español
     status: inactive
@@ -48,6 +53,10 @@ locales:
     deploy: true
     mkdocs_language: zh
     specialist_review_required: true
+    translation_guidance: >-
+      Write natural professional Simplified Chinese for readers of technical culinary
+      and knife literature. Prefer established Chinese knife and metallurgy terminology,
+      preserve technical distinctions precisely and avoid literal English sentence order.
   zh-Hant:
     name: 繁體中文
     status: inactive
