@@ -2,6 +2,7 @@ name: Prepare ChatGPT translation queue
 
 on:
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
     paths:
       - "content/en/**"
       - "translations/**"
@@ -94,4 +95,17 @@ jobs:
           retention-days: 7
 
       - name: Validate committed translations
+        id: translation_check
+        continue-on-error: ${{ github.event_name == 'pull_request' && github.event.pull_request.draft }}
         run: python scripts/chatgpt_translate.py --check-only
+
+      - name: Explain pending translation work on draft PRs
+        if: ${{ steps.translation_check.outcome == 'failure' && github.event_name == 'pull_request' && github.event.pull_request.draft }}
+        shell: bash
+        run: |
+          {
+            echo "### Translation migration is still in progress"
+            echo
+            echo "The queue was generated successfully, but committed translations are not current yet."
+            echo "This is informational while the pull request is a draft. The same check becomes blocking when the PR is marked ready for review."
+          } >> "$GITHUB_STEP_SUMMARY"
