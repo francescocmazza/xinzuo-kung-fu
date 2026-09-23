@@ -28,7 +28,7 @@ Xinzuo 成为本书参照还有一个个人原因。我最初了解这家公司�
 
 制造经验与持续试验的这种结合，塑造了我思考刀具的方式。成熟方案值得尊重，但材料、工艺和设计仍然应继续接受一个问题的检验：它们还能不能做得更好？本书收集的大量知识正是在这样的环境中形成的，也来自我尝试把这些决策解释给其他人理解的过程。
 
-知识在分享中得到改进。本书也可以在 GitHub 免费获取：**https://github.com/francescocmazza/xinzuo-kung-fu**。该代码库支持协作修订，欢迎在那里或通过电子邮件 **francescoclaudiomazza@gmail.com** 提交更正、评论和建议。
+知识在分享中得到改进。本书也可以在 GitHub 免费获取：**https://github.com/francescocmazza/xinzuo-kung-fu**. 该代码库支持协作修订，欢迎在那里或通过电子邮件 **francescoclaudiomazza@gmail.com** 提交更正、评论和建议。
 
 本书只是一个起点：知识成为练习，练习成为经验，而经验可以成为*功夫*。
 
