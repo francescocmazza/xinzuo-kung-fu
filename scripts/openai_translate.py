@@ -270,6 +270,7 @@ def unit_key(
     locale: str,
     source: str,
     relevant_terms: tuple[tuple[str, str], ...],
+    locale_guidance: str = "",
 ) -> str:
     payload = json.dumps(
         {
@@ -277,6 +278,7 @@ def unit_key(
             "locale": locale,
             "source": source,
             "relevant_glossary": relevant_terms,
+            "locale_guidance": locale_guidance.strip(),
         },
         ensure_ascii=False,
         sort_keys=True,
@@ -289,13 +291,14 @@ def prepare_units(
     blocks: list[SourceBlock],
     locale: str,
     pairs: list[tuple[str, str]],
+    locale_guidance: str = "",
 ) -> list[PreparedUnit]:
     result: list[PreparedUnit] = []
     occurrences: dict[str, int] = {}
     for index, block in enumerate(blocks, start=1):
         masked, mapping = mask_protected_literals(block.text)
         terms = relevant_glossary(block.text, pairs)
-        base_key = unit_key(locale, block.text, terms)
+        base_key = unit_key(locale, block.text, terms, locale_guidance)
         occurrence = occurrences.get(base_key, 0) + 1
         occurrences[base_key] = occurrence
         unique_key = _hash(f"{base_key}:{occurrence}")
@@ -649,6 +652,7 @@ def _check_page(
     target_path: Path,
     pairs: list[tuple[str, str]],
     glossary_text: str,
+    locale_guidance: str,
 ) -> list[str]:
     if not target_path.exists():
         return [f"{locale}:{relative}: missing translation"]
@@ -663,7 +667,7 @@ def _check_page(
         problems.append(f"{locale}:{relative}: stale prompt revision")
 
     blocks = split_markdown_blocks(source_body)
-    units = prepare_units(blocks, locale, pairs)
+    units = prepare_units(blocks, locale, pairs, locale_guidance)
     existing = parse_existing_units(target_body)
     if list(existing.keys()) != [unit.unit_key for unit in units]:
         problems.append(f"{locale}:{relative}: tx-unit sequence mismatch")
@@ -708,6 +712,7 @@ def main() -> int:
                         target_path=TRANSLATIONS / locale / relative,
                         pairs=pairs,
                         glossary_text=glossary_text,
+                        locale_guidance=str(locale_cfg[locale].get("translation_guidance", "")),
                     )
                 )
         if failures:
@@ -731,6 +736,7 @@ def main() -> int:
     for locale in selected_locales:
         cfg = locale_cfg[locale]
         pairs = glossary_pairs(locale)
+        locale_guidance = str(cfg.get("translation_guidance", ""))
         print(
             f"{locale}: {len(pairs)} controlled glossary form(s); "
             f"translator={translator_model}; reviewer={reviewer_model}"
@@ -742,7 +748,7 @@ def main() -> int:
             _, raw_source_body = split_document(source_text)
             source_body = _normalize_source_body(raw_source_body)
             blocks = split_markdown_blocks(source_body)
-            units = prepare_units(blocks, locale, pairs)
+            units = prepare_units(blocks, locale, pairs, locale_guidance)
 
             target_path = TRANSLATIONS / locale / relative
             existing_units: dict[str, str] = {}
