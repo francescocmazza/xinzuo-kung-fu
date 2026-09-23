@@ -83,7 +83,7 @@ The publication workflow does **not** translate anything. It validates that ever
 
 A maintainer can run **Actions → Translate book with OpenAI** manually. Running it from `main` creates a dedicated translation branch and pull request rather than changing `main` directly.
 
-Use **force_full** only when a deliberate full regeneration is required.
+Use **force_full** only when a deliberate full regeneration is required. The optional **locales** input can target any configured language codes (space-separated); leaving it blank translates all deployed non-English languages.
 
 ## 6. Human translation corrections
 
