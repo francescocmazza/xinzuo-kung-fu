@@ -1,219 +1,180 @@
-# Publishing and exporting the multilingual guide
+# Publishing and translating the multilingual guide
 
-English under `content/en/` is the only source of truth. Active translations live under `translations/<locale>/` and are automatically refreshed by GitHub Actions when the English source changes.
+English under `content/en/` is the only source of truth. Active translations live under `translations/<locale>/` and are committed to Git so they can be reviewed exactly like any other book change.
 
 ## Current active languages
 
-The current publication scope is intentionally limited to:
+The current publication scope is:
 
 - English (`en`) — source of truth
 - Italian (`it`)
 - Simplified Chinese (`zh-Hans`)
 
-Other locale definitions remain inactive. They are not deployed, validated, automatically translated, exported, or offered by the PDF workflow unless deliberately activated later.
+Other locales remain defined but inactive until their terminology and review policy are ready.
+
+## Translation architecture
+
+The book no longer uses Marian, OPUS-MT, Transformers or any local generic machine-translation model.
+
+Translation is performed by `scripts/openai_translate.py` through the OpenAI Responses API. The default roles are intentionally separated:
+
+- translation model: `gpt-6-sol`;
+- independent review model: `gpt-6-astra`.
+
+The model IDs can be changed without code edits through GitHub repository variables `OPENAI_TRANSLATION_MODEL` and `OPENAI_TRANSLATION_REVIEW_MODEL`.
+
+The translation workflow requires one GitHub Actions secret:
+
+`OPENAI_API_KEY`
+
+The publication, PDF export and multilingual export workflows do **not** need that secret and never call the translation API.
+
+## Differential translation memory
+
+Each English Markdown page is split into semantic blocks such as headings, paragraphs, lists, tables, figure markup and fenced code. A translated block is surrounded by invisible HTML comments containing a deterministic `tx-unit` key.
+
+That key depends on:
+
+- the English block;
+- the target locale;
+- the translation prompt revision;
+- only the controlled glossary terms relevant to that block.
+
+This has two important effects.
+
+First, an unchanged block is reused exactly, including any human correction made inside its `tx-unit` markers. Second, a change to one English paragraph does not force the rest of the page or book through the API again.
+
+On the first OpenAI migration, legacy translations have no `tx-unit` markers, so they are fully regenerated once. After that, refreshes are differential.
+
+## Translation quality and structure protection
+
+Changed units are processed in two model passes.
+
+The first pass translates the requested units with the full English page supplied as context and with the controlled knife/metallurgy glossary. The second pass acts as a bilingual technical editor and independently checks meaning, terminology, omissions, additions, awkward literal wording and untranslated headings/captions.
+
+The API response uses Structured Outputs, so the workflow expects a defined unit schema rather than free-form prose.
+
+Before text reaches the model, structural literals are masked and later restored byte-for-byte. This includes HTML tags and attributes, URLs, Markdown link destinations, inline code and inline mathematics.
+
+The engine also fails closed if it detects missing/reordered protected placeholders, empty output, pathological repeated-token or repeated-phrase loops, implausible text expansion, stale unit markers or stale source hashes.
+
+There is no Marian fallback. If GPT translation or validation fails, the workflow fails and nothing is silently published.
 
 ## Normal publishing routine
 
 For an ordinary content change:
 
 1. Edit the English source under `content/en/`.
-2. Choose **Create a new branch for this commit and start a pull request** rather than committing an unfinished English change directly to `main`.
-3. GitHub Actions detects which active translations became stale.
-4. `scripts/auto_translate.py` refreshes only stale/missing active pages using local Marian/OPUS-MT models.
-5. Where the previous English source and existing translation have matching line structure, unchanged translated lines are reused and only changed/inserted English lines are machine-translated.
-6. Simplified Chinese is explicitly generated as Simplified Mandarin (`cmn_Hans`).
-7. Strict multilingual validation runs after the refresh. The PR must report `0 missing, 0 stale`.
-8. Merge the PR when the English edit and checks are correct.
-9. On the resulting push to `main`, the publication workflow locks the next revision number, refreshes translations, builds every active language, exports the PDFs and downloadable packages, publishes the numbered GitHub Release and deploys GitHub Pages.
+2. Create a branch and pull request. Avoid putting unfinished English-only edits directly on `main`.
+3. **Translate book with OpenAI** runs on the trusted PR branch.
+4. Only new or changed `tx-unit` blocks are sent to the translation model and then to the independent review model.
+5. The workflow commits the refreshed translation files back into the same PR.
+6. Review the English change and, when relevant, the generated translation diff.
+7. Merge only when translation integrity and multilingual checks are green.
+8. The `main` publication workflow validates the already-committed translations, builds all active languages, exports PDFs and packages, publishes the numbered Revision and deploys GitHub Pages.
 
-You therefore do **not** need to manually ask Claude Code to translate Italian and Chinese after every English edit.
+The publication workflow never generates or repairs translations on the fly.
 
-## Translation engine and cost
+## Manual translation refresh
 
-Automatic translation uses these local open-source models:
+A maintainer can also use:
 
-- `Helsinki-NLP/opus-mt-en-it`
-- `Helsinki-NLP/opus-mt-en-zh`
+**Actions → Translate book with OpenAI → Run workflow**
 
-They run inside the GitHub Actions runner through Transformers/PyTorch and are cached between runs when possible.
+Select the source ref, normally `main`. Keep **force_full** off for an ordinary differential refresh. Turn it on only when you deliberately want to regenerate every unit, for example during the initial migration or after a major translation-policy change.
 
-There is no OpenAI API, GitHub Models API, translation API key, or paid translation API in this workflow. The model checkpoints are downloaded from Hugging Face when they are not already cached.
+When started manually, the workflow creates a dedicated `translations/openai-...` branch and opens a pull request instead of writing translations directly to `main`.
 
-Machine translation is still subject to review. This is especially important for specialist Chinese knife terminology and any technical statement where a wording difference could change the meaning.
+## Local use
 
-## Why the previous `index.md` edit failed
+Install the translation dependencies:
 
-Each translated Markdown file contains a `source_hash`. The build system calculates the expected hash from:
+~~~bash
+pip install -r requirements-translation.txt
+~~~
 
-- the English source page;
-- the target locale;
-- the translation schema version;
-- the controlled glossary.
+Set the API key in the environment and run:
 
-Before automatic refresh existed, changing even one English sentence immediately made the corresponding Italian and Simplified Chinese files stale. Pull-request validation then failed intentionally rather than publishing an old translation.
+~~~bash
+python scripts/openai_translate.py
+~~~
 
-The protection remains in place. The difference is that CI now refreshes the stale translations **before** strict validation.
+Force a complete regeneration:
 
-## Translation files and stale-page protection
+~~~bash
+python scripts/openai_translate.py --force-full
+~~~
 
-The active translation tree mirrors `content/en/`, for example:
+Run the integrity check without making any API request:
 
-```text
-content/en/10-sharpening/the-burr.md
-translations/it/10-sharpening/the-burr.md
-translations/zh-Hans/10-sharpening/the-burr.md
-```
+~~~bash
+python scripts/openai_translate.py --check-only
+~~~
 
-Strict validation is still performed with:
+Strict multilingual validation remains:
 
-```text
+~~~bash
 python scripts/multilingual_site.py --require-translations
-```
+~~~
 
-A successful active-language run must report:
+## Human corrections
 
-```text
-0 missing
-0 stale
-```
+A linguistic correction can be made directly inside a translated `tx-unit` while the English meaning is already correct. Leave the surrounding `tx-unit` comments intact. Because the key is derived from the English source, the corrected target text will be reused as long as that English unit remains unchanged.
 
-The automatic refresh command is:
+If the meaning itself is wrong, edit English first and let the translation workflow regenerate the affected unit.
 
-```text
-python scripts/auto_translate.py
-```
+## Controlled terminology
 
-Running it locally requires the dependencies in `requirements-translation.txt` plus a CPU-compatible PyTorch installation. For routine browser-based editing, letting GitHub Actions run it is simpler.
+`glossaries/master-terms.yml` remains the controlled vocabulary for technical knife, metallurgy, sharpening and ergonomics terminology.
 
-## What the automatic translator preserves
+For a configured locale, relevant reviewed target terms are included in both the translation and review prompts. Because relevant glossary rows are part of each unit key, correcting one glossary translation invalidates only blocks that use that term rather than the entire book.
 
-The helper is deliberately conservative. It attempts to preserve:
+A new locale can be translated by the engine, but it should not be activated for publication until its specialist glossary and review policy are ready.
 
-- unchanged translated lines;
-- Markdown headings and list markers;
-- links and link destinations;
-- inline code;
-- URLs;
-- HTML tags;
-- inline math;
-- fenced code blocks and commands;
-- Markdown table structure;
-- existing translation wording when an English edit is formatting-only and does not change meaning.
+## Adding, moving or deleting an article
 
-If a page cannot safely reuse the previous line alignment, the helper falls back to translating the current page rather than marking an unknown/outdated translation as current.
+For a new article, add the English Markdown under `content/en/`, update `mkdocs.yml` when needed and open a PR. The OpenAI translation workflow creates the corresponding active-language pages.
 
-## Human corrections to a translation
-
-English remains authoritative, but a purely linguistic improvement to Italian or Simplified Chinese may still be committed directly to the matching file under `translations/` as long as it does not introduce a new technical or commercial claim.
-
-A human correction does not need to change the English source when the meaning is unchanged.
-
-If the English meaning is wrong, change English first and let the automatic refresh propagate the new source meaning.
-
-## Adding a new article
-
-1. Create the English `.md` page under the appropriate `content/en/` folder.
-2. Add it to `mkdocs.yml` if it should appear in navigation.
-3. Open a PR.
-4. Automatic translation creates the missing Italian and Simplified Chinese pages in the CI workspace and strict validation checks them.
-5. After merge, the `main` workflow commits the generated active translations to the repository and publishes the next complete revision.
-
-## Renaming, moving, or deleting an article
-
-Structural changes still need care because source and translation paths must remain aligned.
-
-For a rename/move, update the English path, navigation and internal links. Existing translated files should normally be renamed/moved correspondingly so reviewed wording can be retained. The automatic translator is intended primarily for content refresh and missing-page generation, not for guessing file-renaming intent.
+For a move or rename, update the English path, navigation and internal links. Because translation memory is block-based, unchanged block text remains reusable when the target page already contains its `tx-unit` markers, but the translated file path should still mirror the English tree.
 
 For deletion, remove the corresponding active translated files and update navigation/internal links.
 
-## Images
+## Publication and exports
 
-Content images used by the English source belong under the approved asset structure, principally:
+**Publish book, PDFs and GitHub Pages**, **Export PDF guides** and **Export multilingual guide** are consumers of committed translations. They never call OpenAI.
 
-```text
-content/en/assets/
-```
+Before publishing/exporting a non-English edition they run the OpenAI translation integrity check. If any active translation is missing, stale, generated by the retired engine or has a mismatched unit sequence, the operation fails and instructs the maintainer to run the translation workflow first.
 
-Only original, properly licensed, or explicitly authorized images may be published. See `content/en/assets/IMAGE_RIGHTS.md`.
+This separation is deliberate: translation is reviewable content work; publication is deterministic packaging and deployment.
 
-## GitHub Pages deployment and complete revisions
+## Revision numbers
 
-The public site and downloadable edition are published by:
+Website pages, PDFs and release packages use the shared publication metadata in `scripts/publication_metadata.py`.
 
-**Actions → Publish book, PDFs and GitHub Pages**
+- Public nomenclature: `Revision N`.
+- Revision numbers count complete published editions, not commits or workflow attempts.
+- There are 49 complete historical numbered publications through legacy `v372`, corresponding to Revision 49.
+- The first new-style publication is Revision 50.
+- Failed or incomplete publication attempts do not consume a Revision number.
+- Translation PRs and ordinary commits do not consume a Revision number.
+- Publication date uses `Europe/Rome` and format `YYYY-MM-DD`.
 
-On pull requests the supporting workflows refresh translations in the temporary Actions workspace and validate/export them, but they do not create a new revision.
+## Key files
 
-On `main` the publication workflow:
+~~~text
+content/en/                              English source of truth
+translations/                            Committed, reviewable localized Markdown
+glossaries/master-terms.yml              Controlled technical vocabulary
+localization/locales.yml                 Locale activation and language metadata
+scripts/openai_translate.py              Differential GPT translation + review
+scripts/test_openai_translate.py         Translation-memory/structure regressions
+scripts/multilingual_site.py             Source-hash validation and site build
+.github/workflows/translate-openai.yml   Translation PR workflow
+.github/workflows/pages.yml              Deterministic publication/deployment
+.github/workflows/export-pdf.yml         PDF export from committed translations
+.github/workflows/export-multilingual.yml Multilingual package export
+~~~
 
-1. counts completed historical publications and resolves one sequential **Revision** number;
-2. locks that Revision number for the entire workflow run;
-3. refreshes stale translations;
-4. commits changed translation files using `github-actions[bot]` when necessary;
-5. runs the strict multilingual build from the resulting committed state;
-6. exports the three PDFs and the HTML/Markdown packages;
-7. publishes and verifies the numbered GitHub Release;
-8. uploads the Pages artifact and deploys the site.
+## Retired translation system
 
-The bot commit uses the repository `GITHUB_TOKEN`, preventing a recursive second push workflow while the current deployment continues. Because the Revision number is locked before that commit is created, automatic translation commits do not change the Revision number.
-
-## Downloadable multilingual export
-
-Go to **Actions → Export multilingual guide → Run workflow**.
-
-Before building, the workflow automatically refreshes stale active translations using the same local models. The resulting artifact contains:
-
-```text
-html/      complete built website for every active locale
-markdown/  per-locale source trees used for that build
-```
-
-This is an export operation, not a publication, so it does not consume a new Revision number.
-
-## Official GitHub Releases
-
-The normal `main` publication workflow creates one permanent GitHub Release for every complete Revision. New-style release tags use the machine-friendly form `revision-N`, while the reader-facing nomenclature is **Revision N**.
-
-A Revision is considered complete only when the release has the full publication package: English PDF, Italian PDF, Simplified Chinese PDF, HTML archive, Markdown archive and SHA-256 checksum file.
-
-The latest downloadable Revision is always available from the repository's **Releases** menu and the “Download the latest official release” link in `README.md`.
-
-The old manual semantic-version release workflow has been removed so it cannot create a parallel `v1.0.0`/`vXYZ` numbering scheme.
-
-## PDF export
-
-Go to **Actions → Export PDF guides → Run workflow** and choose:
-
-- `all`
-- `en`
-- `it`
-- `zh-Hans`
-
-For Italian, Simplified Chinese, or `all`, stale active translations are refreshed automatically before PDF generation. English-only PDF exports skip the translation-model installation.
-
-The generated artifact contains the current requested PDF guide(s). CJK exports continue to install Noto fonts for full character coverage. A manual/test PDF export reports the latest completed Revision; it does not reserve the next Revision.
-
-## Revision numbers and publication dates
-
-Website pages, PDFs and release packages use the shared publication metadata implementation in `scripts/publication_metadata.py`.
-
-- **Public nomenclature:** `Revision N`.
-- **Meaning:** `N` is the number of complete published revisions, not the number of commits, workflow runs or attempted releases.
-- Historical `edition-vXYZ` releases remain archived unchanged for traceability, but their `vXYZ` number is not carried into the new nomenclature.
-- There are **49 complete historical numbered publications through the legacy `v372` release**. Therefore that current legacy publication corresponds to **Revision 49**.
-- The first new-style publication is therefore **Revision 50**.
-- After that the sequence is strictly `Revision 50`, `Revision 51`, `Revision 52`, and so on.
-- Ordinary commits do not increment the Revision.
-- Failed publication attempts do not increment the Revision. If a new-style release is incomplete, the next publication attempt reuses the same Revision number.
-- Automatic translation commits created during publication do not change the locked Revision number.
-- **Date:** actual build/export date in `Europe/Rome`, formatted `YYYY-MM-DD`.
-
-## Important rules
-
-- English is always the source of truth.
-- Meaning changes must start in English.
-- Do not bypass strict multilingual validation.
-- Automatic translation removes the manual synchronization step; it does not remove the need for human review of important technical wording.
-- Simplified Chinese specialist terminology deserves extra review.
-- Inactive locales remain inactive until a model/review policy is deliberately configured for them.
-- Images and third-party material may have rights different from the written-content licence.
+The previous Marian/OPUS-MT implementation is not part of any active workflow and must not be used as a fallback. Its poor technical-language quality and degeneration failure modes are the reason the translation architecture was replaced.
