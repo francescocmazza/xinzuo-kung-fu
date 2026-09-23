@@ -10,8 +10,8 @@ on:
       - "glossaries/**"
       - "localization/**"
       - "scripts/multilingual_site.py"
-      - "scripts/openai_translate.py"
-      - "scripts/test_openai_translate.py"
+      - "scripts/chatgpt_translate.py"
+      - "scripts/test_chatgpt_translate.py"
       - "scripts/centralize_bibliography.py"
       - "scripts/publication_metadata.py"
       - "scripts/export_pdf_guides.py"
@@ -111,15 +111,15 @@ jobs:
           set -euo pipefail
           python scripts/centralize_bibliography.py
           if ! git diff --quiet -- content/en; then
-            echo "English source changed during publication normalization. Run the OpenAI translation workflow and merge its PR before publishing." >&2
+            echo "English source changed during publication normalization. Run the ChatGPT translation workflow and merge its PR before publishing." >&2
             git diff -- content/en
             exit 1
           fi
 
-      - name: Validate committed OpenAI translations
+      - name: Validate committed ChatGPT translations
         run: |
-          python scripts/test_openai_translate.py
-          python scripts/openai_translate.py --check-only
+          python scripts/test_chatgpt_translate.py
+          python scripts/chatgpt_translate.py --check-only
 
       - name: Validate and build every configured language
         run: python scripts/multilingual_site.py --require-translations
