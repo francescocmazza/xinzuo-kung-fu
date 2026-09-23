@@ -10,8 +10,8 @@ on:
       - "glossaries/**"
       - "localization/**"
       - "mkdocs.yml"
-      - "scripts/openai_translate.py"
-      - "scripts/test_openai_translate.py"
+      - "scripts/chatgpt_translate.py"
+      - "scripts/test_chatgpt_translate.py"
       - "scripts/centralize_bibliography.py"
       - "requirements-translation.txt"
       - "scripts/publish_multilingual.ps1"
@@ -53,8 +53,8 @@ jobs:
         run: |
           test -f publish-guide.cmd
           test -f PUBLISHING_GUIDE.md
-          test -f scripts/openai_translate.py
-          test -f scripts/test_openai_translate.py
+          test -f scripts/chatgpt_translate.py
+          test -f scripts/test_chatgpt_translate.py
           test -f scripts/centralize_bibliography.py
           test -f requirements-translation.txt
           test -f glossaries/master-terms.yml
@@ -82,13 +82,13 @@ jobs:
         run: pip install -r requirements-docs.txt
 
       - name: Validate differential translation regression cases
-        run: python scripts/test_openai_translate.py
+        run: python scripts/test_chatgpt_translate.py
 
       - name: Centralize bibliography in English source
         run: python scripts/centralize_bibliography.py
 
-      - name: Verify translations are current and GPT-generated
-        run: python scripts/openai_translate.py --check-only
+      - name: Verify translations are current and ChatGPT-generated
+        run: python scripts/chatgpt_translate.py --check-only
 
       - name: Build every configured language from committed translations
         run: python scripts/multilingual_site.py --require-translations
@@ -106,7 +106,7 @@ jobs:
           html/      Complete built website for every configured active locale.
           markdown/  Per-locale source trees used to build the site.
 
-          English remains the source of truth. Translations must already be current, GPT-generated and committed before export.
+          English remains the source of truth. Translations must already be current, ChatGPT-generated and committed before export.
           Bibliographic lists are centralized into the final Bibliography chapter before export.
           Export itself makes no translation API calls.
           Image rights may differ from the written-content license; see the repository IMAGE_RIGHTS.md.
