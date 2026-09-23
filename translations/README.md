@@ -2,12 +2,14 @@
 
 English under `content/en/` is the source of truth for every language edition.
 
-Production translations are generated through `scripts/openai_translate.py` and committed to Git. The translator uses semantic `tx-unit` blocks: unchanged English blocks reuse their existing translated text exactly, while changed/new blocks are translated with GPT and then passed through an independent GPT technical-editor review.
+The repository does **not** call a translation API. `scripts/chatgpt_translate.py` splits English pages into semantic `tx-unit` blocks, compares them with the committed translation memory and generates a deterministic queue containing only blocks that are new or changed.
 
-Human corrections are expected and supported. When the English meaning is unchanged, edit the target wording inside the existing `tx-unit` comments and leave those comments intact; the corrected wording will remain reusable until that English unit changes.
+That queue is translated in ChatGPT or Codex using the user's normal ChatGPT plan. The completed results are written back to the translated Markdown and validated before publication. Unchanged target units are reused exactly, so later human corrections survive until the corresponding English unit changes.
+
+Human corrections are expected and supported. Keep the surrounding `tx-unit` comments intact.
 
 Translations must preserve technical meaning, chapter structure, cross-references, protected Markdown/HTML structure and the controlled terminology in `glossaries/master-terms.yml`, while reading as native editorial prose rather than translated English.
 
-The retired Marian/OPUS-MT pipeline is not an approved fallback. Publication and export workflows only consume already committed, current translations and fail closed when a translation is missing, stale or from the retired engine.
+The retired Marian/OPUS-MT pipeline is not an approved fallback. Publication and export workflows only consume committed, current ChatGPT translations and fail closed when a translation is missing, stale or from the retired engine.
 
 See `PUBLISHING_GUIDE.md` for the complete workflow.
