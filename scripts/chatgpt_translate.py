@@ -147,20 +147,15 @@ def mask_literals(text: str) -> tuple[str, dict[str, str]]:
 
 
 def restore_literals(text: str, mapping: dict[str, str]) -> str:
-    expected = PLACEHOLDER_RE.findall(mask_literals_from_mapping(text, mapping))
     seen = PLACEHOLDER_RE.findall(text)
-    if Counter(seen) != Counter(mapping):
-        raise RuntimeError(f"protected placeholders changed: expected {list(mapping)}, got {seen}")
+    if Counter(seen) != Counter(mapping.keys()):
+        raise RuntimeError(
+            f"protected placeholders changed: expected {list(mapping)}, got {seen}"
+        )
     restored = text
     for token, literal in mapping.items():
         restored = restored.replace(token, literal)
     return restored
-
-
-def mask_literals_from_mapping(text: str, mapping: dict[str, str]) -> str:
-    # Compatibility helper: mapping keys are authoritative; text is already masked
-    # when restore_literals is called. Return unchanged.
-    return text
 
 
 def glossary_pairs(locale: str) -> list[tuple[str, str]]:
