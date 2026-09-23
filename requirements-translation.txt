@@ -1,5 +1,2 @@
-# High-quality differential translation through the OpenAI Responses API.
-# The legacy Marian/OPUS-MT stack is no longer part of the publication pipeline.
-openai>=2.0,<3
-pydantic>=2.8,<3
+# No model SDK is required. This dependency is only for parsing localization/glossary YAML.
 PyYAML>=6,<7
