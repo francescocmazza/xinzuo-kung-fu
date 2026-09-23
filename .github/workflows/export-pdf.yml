@@ -20,6 +20,7 @@ on:
           - hide
           - show
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
     paths:
       - "content/en/**/*.md"
       - "content/en/assets/**"
@@ -74,10 +75,22 @@ jobs:
         run: python scripts/centralize_bibliography.py
 
       - name: Validate committed ChatGPT translations
+        id: translation_check
         if: github.event_name == 'pull_request' || inputs.language != 'en'
+        continue-on-error: ${{ github.event_name == 'pull_request' && github.event.pull_request.draft }}
         run: |
           python scripts/test_chatgpt_translate.py
           python scripts/chatgpt_translate.py --check-only
+
+      - name: Explain pending translations on draft PRs
+        if: ${{ steps.translation_check.outcome == 'failure' && github.event_name == 'pull_request' && github.event.pull_request.draft }}
+        shell: bash
+        run: |
+          {
+            echo "### Translation validation pending"
+            echo
+            echo "The English PDF smoke test can continue while this PR is a draft. Non-English PDF export remains blocked until translations are current."
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Apply A5 publication profile
         run: python scripts/pdf_export/apply_a5_profile.py
