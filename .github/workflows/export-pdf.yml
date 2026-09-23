@@ -27,8 +27,8 @@ on:
       - "mkdocs.yml"
       - "localization/**"
       - "scripts/multilingual_site.py"
-      - "scripts/openai_translate.py"
-      - "scripts/test_openai_translate.py"
+      - "scripts/chatgpt_translate.py"
+      - "scripts/test_chatgpt_translate.py"
       - "scripts/centralize_bibliography.py"
       - "scripts/publication_metadata.py"
       - "scripts/export_pdf_guides.py"
@@ -73,11 +73,11 @@ jobs:
       - name: Centralize bibliography in English source
         run: python scripts/centralize_bibliography.py
 
-      - name: Validate committed OpenAI translations
+      - name: Validate committed ChatGPT translations
         if: github.event_name == 'pull_request' || inputs.language != 'en'
         run: |
-          python scripts/test_openai_translate.py
-          python scripts/openai_translate.py --check-only
+          python scripts/test_chatgpt_translate.py
+          python scripts/chatgpt_translate.py --check-only
 
       - name: Apply A5 publication profile
         run: python scripts/pdf_export/apply_a5_profile.py
