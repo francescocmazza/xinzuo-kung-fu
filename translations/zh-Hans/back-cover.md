@@ -1,25 +1,37 @@
 ---
 source_hash: 5530cc80d09787bc654715e9d4dcd24ad927a35b6a0e81a29dd34adcc0d2b7a3
-translation_engine: 2026-09-17-knife-terminology-v1
+translation_engine: chatgpt-differential-v1
+prompt_revision: 2026-09-23-technical-book-v2
 glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 ---
 
-# The Gongfu of Xinzuo
-
-## 一本实用的书 是关于什么真正使厨房刀表演。
-
-厨房刀可能看起来很简单, 但是切割板上发生的事情是由钢制成的, 热处理,几何学, 刃磨 和技术合作。
-
-* 收到有关文件的日期。The Gongfu of Xinzuo* 开始为每天使用Xinzuo刀的人提供实用培训工具。 从那时起,它就发展成为厨师、专业人士和好奇读者的指南,他们不仅想了解要选择哪种刀,而且想了解为什么不同的刀在手和板上表现不同。
-
-来自冶金和 刀身 建筑以控制、切割技术、维修和 刃磨,这本书将理论与实际可以观察到、感觉到和实际应用的东西联系起来。
-
-** Gongfu** 是通过时间、学习、重复和留意实践积累的技能。 这本书是用来开发它的邀请书
-
-### 数字版更新( A)
-
-在GitHub上读最新版本。
-
-### 作者作用
-
-欧盟品牌和业务经理,Xinzuo
+<!-- tx-unit:bb6d1506b03d533bb1f416ada51189756fbc7fd84de9dc0cff02e6a7b0f5d3b4 -->
+# Xinzuo 功夫
+<!-- /tx-unit -->
+<!-- tx-unit:2b52cf60b585329d551fab8b548fd119a62b1b27275718c56848108fb0578abf -->
+## 一本实用的书，讲清楚究竟是什么决定了一把厨刀的性能。
+<!-- /tx-unit -->
+<!-- tx-unit:9ddf2cff46c4be7a198779a27ef42f6eee35d403bc87b126e7570638cd582fa7 -->
+厨刀看似简单，但砧板上真正发生的一切，是钢材、热处理、几何结构、刃磨和使用技法共同作用的结果。
+<!-- /tx-unit -->
+<!-- tx-unit:0036860fa0f6506a533870757f23f01412bd66711f9f69d6f9118be17c2005f6 -->
+*Xinzuo 功夫* 最初是为每天接触 Xinzuo 刀具的工作人员编写的一套实用培训资料。以此为起点，它逐渐发展成一本面向厨师、专业人士和好奇读者的指南，帮助读者理解的不只是该选哪一把刀，还包括为什么不同的刀在手中和砧板上的表现会有所不同。
+<!-- /tx-unit -->
+<!-- tx-unit:8270f01b423ef0f47549c96d8792db0d24b73e38410f1064aa21b2f80cf04e1c -->
+从冶金和刀身结构，到握法、切割技法、保养和刃磨，本书把理论与实际使用中能够观察、感受和练习的现象联系起来。
+<!-- /tx-unit -->
+<!-- tx-unit:1acffbbd14b3cca68b3ccd8ce5098a4be5042098d5aac77c32cb38a19e90ca31 -->
+**功夫** 是通过时间、学习、反复练习和有意识的训练逐渐形成的能力。本书邀请你去培养这种能力。
+<!-- /tx-unit -->
+<!-- tx-unit:bf062a3da0f20fae23d21c9f4afa5f95b60f916a270306cab5a1894af433fbf3 -->
+### 数字版与更新
+<!-- /tx-unit -->
+<!-- tx-unit:6c1f671f0267cf5d9847d9420c5c4cd0fd21055dcc300aa7bce18291ae5b0315 -->
+请在 GitHub 在线阅读最新版。
+<!-- /tx-unit -->
+<!-- tx-unit:09bcdcf924606092b53373566f7e43f2a38f606bc8f86cb6280067599ee1d600 -->
+### 作者职务
+<!-- /tx-unit -->
+<!-- tx-unit:2e1ea691ac287755393eeefbc888da2293b161a93d10b1c5963a0702fd7bbdd2 -->
+EU Brand and Operations Manager, Xinzuo
+<!-- /tx-unit -->
