@@ -188,7 +188,7 @@ def mask_protected_literals(text: str) -> tuple[str, dict[str, str]]:
 def restore_protected_literals(text: str, mapping: dict[str, str]) -> str:
     seen = PLACEHOLDER_RE.findall(text)
     expected = list(mapping.keys())
-    if seen != expected:
+    if Counter(seen) != Counter(expected):
         raise RuntimeError(
             "Model changed, omitted or reordered protected placeholders: "
             f"expected {expected}, got {seen}"
@@ -291,13 +291,18 @@ def prepare_units(
     pairs: list[tuple[str, str]],
 ) -> list[PreparedUnit]:
     result: list[PreparedUnit] = []
+    occurrences: dict[str, int] = {}
     for index, block in enumerate(blocks, start=1):
         masked, mapping = mask_protected_literals(block.text)
         terms = relevant_glossary(block.text, pairs)
+        base_key = unit_key(locale, block.text, terms)
+        occurrence = occurrences.get(base_key, 0) + 1
+        occurrences[base_key] = occurrence
+        unique_key = _hash(f"{base_key}:{occurrence}")
         result.append(
             PreparedUnit(
                 unit_id=f"u{index:04d}",
-                unit_key=unit_key(locale, block.text, terms),
+                unit_key=unique_key,
                 source=block.text,
                 masked_source=masked,
                 placeholders=mapping,
@@ -382,7 +387,7 @@ def validate_unit_translation(unit: PreparedUnit, translated: str) -> None:
     if not translated.strip():
         raise RuntimeError(f"{unit.unit_id}: model returned an empty translation")
     placeholders = PLACEHOLDER_RE.findall(translated)
-    expected = list(unit.placeholders.keys())
+    expected = PLACEHOLDER_RE.findall(unit.masked_source)
     if placeholders != expected:
         raise RuntimeError(
             f"{unit.unit_id}: protected placeholders changed. "
@@ -547,7 +552,7 @@ def translate_changed_units(
 ) -> dict[str, str]:
     language = _target_language(locale, locale_cfg)
     glossary_text = _glossary_prompt(glossary)
-    page_context, _ = mask_protected_literals(source_body)
+    page_context = source_body
 
     first = _call_model(
         model=translator_model,
