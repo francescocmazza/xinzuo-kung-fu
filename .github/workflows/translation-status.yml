@@ -11,6 +11,7 @@ on:
       - "scripts/chatgpt_translate.py"
       - "scripts/test_chatgpt_translate.py"
       - ".translation/results.json"
+      - ".translation/pages/**"
       - ".github/workflows/translation-status.yml"
   workflow_dispatch:
     inputs:
@@ -52,6 +53,10 @@ jobs:
       - name: Run differential translation tests
         run: python scripts/test_chatgpt_translate.py
 
+      - name: Apply full-page ChatGPT translation batch
+        if: hashFiles('.translation/pages/**/*.md') != ''
+        run: python scripts/chatgpt_translate.py --apply-page-dir .translation/pages
+
       - name: Apply ChatGPT result batch
         if: hashFiles('.translation/results.json') != ''
         run: python scripts/chatgpt_translate.py --apply-results .translation/results.json
@@ -78,6 +83,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add translations .translation/queue.json
+          git rm -r --ignore-unmatch .translation/pages
           git rm --ignore-unmatch .translation/results.json
           if git diff --cached --quiet; then
             echo "Queue snapshot already current."
