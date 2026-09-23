@@ -552,6 +552,11 @@ def translate_changed_units(
 ) -> dict[str, str]:
     language = _target_language(locale, locale_cfg)
     glossary_text = _glossary_prompt(glossary)
+    guidance = str(locale_cfg.get("translation_guidance", "")).strip()
+    if guidance:
+        glossary_text += (
+            "\n\nLOCALE-SPECIFIC EDITORIAL GUIDANCE\n" + guidance
+        )
     page_context = source_body
 
     first = _call_model(
