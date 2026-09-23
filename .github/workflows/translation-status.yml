@@ -9,6 +9,7 @@ on:
       - "localization/locales.yml"
       - "scripts/chatgpt_translate.py"
       - "scripts/test_chatgpt_translate.py"
+      - ".translation/results.json"
       - ".github/workflows/translation-status.yml"
   workflow_dispatch:
     inputs:
@@ -50,6 +51,10 @@ jobs:
       - name: Run differential translation tests
         run: python scripts/test_chatgpt_translate.py
 
+      - name: Apply ChatGPT result batch
+        if: hashFiles('.translation/results.json') != ''
+        run: python scripts/chatgpt_translate.py --apply-results .translation/results.json
+
       - name: Prepare translation queue
         env:
           TARGET_LOCALES: ${{ github.event_name == 'workflow_dispatch' && inputs.locales || '' }}
@@ -64,19 +69,20 @@ jobs:
           mkdir -p .translation
           python scripts/chatgpt_translate.py --prepare-queue .translation/queue.json "${args[@]}"
 
-      - name: Commit queue snapshot into the branch
+      - name: Commit applied translations and queue snapshot into the branch
         if: github.event_name == 'pull_request'
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .translation/queue.json
+          git add translations .translation/queue.json
+          git rm --ignore-unmatch .translation/results.json
           if git diff --cached --quiet; then
             echo "Queue snapshot already current."
             exit 0
           fi
-          git commit -m "Update ChatGPT translation queue [skip ci]"
+          git commit -m "Apply ChatGPT translations and update queue [skip ci]"
           git push origin "HEAD:${{ github.event.pull_request.head.ref }}"
 
       - name: Upload queue artifact
