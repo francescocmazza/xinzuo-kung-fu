@@ -34,161 +34,76 @@ Other locale definitions remain in the repository for possible future use, but t
 
 ## English is the source of truth
 
-All technical or factual changes must first be made in the English files under:
+The master manuscript lives under `content/en/`. Active translations are committed under `translations/it/` and `translations/zh-Hans/`.
 
-```text
-content/en/
-```
+Translations are produced with the OpenAI Responses API, not with the retired Marian/OPUS-MT system. Every translated page contains a normal `source_hash` plus invisible `tx-unit` comments that act as block-level translation memory.
 
-Active translations live under:
-
-```text
-translations/it/
-translations/zh-Hans/
-```
-
-Each translated Markdown file contains a `source_hash`. The build compares that hash with the current English source. If English changes, the matching translation becomes stale.
-
-The publishing workflow now refreshes stale active translations automatically before strict validation. It uses local Marian/OPUS-MT models inside GitHub Actions, so no translation API key or paid translation API is required.
-
-The system reuses unchanged translated lines whenever possible and machine-translates only changed/inserted English lines. Simplified Chinese is explicitly targeted as `cmn_Hans`.
-
-Automatic translation still requires human review for important technical wording, especially specialist Chinese terminology.
-
----
+An unchanged English block reuses its existing target text exactly, including later human corrections. Only new or changed English blocks are sent to GPT.
 
 # Editing the book — normal workflow
 
-For routine edits, the intended process is now:
+The intended flow is:
 
-```text
-Edit English → create branch/PR → automatic IT + zh-Hans refresh → strict validation → merge → automatic commit/deploy
-```
+~~~text
+Edit English → PR → GPT translation → independent GPT review → translation commit in the same PR → strict validation → merge → deterministic publication
+~~~
 
-## 1. Find the English page
+## 1. Find and edit the English page
 
-The master content is under:
+All meaning changes begin under `content/en/`. For a routine GitHub edit, create a branch and pull request rather than committing unfinished English-only content directly to `main`.
 
-```text
-content/en/
-```
+## 2. Translation is automatic on trusted PRs
 
-Examples:
+**Translate book with OpenAI** runs when English content, the glossary or translation configuration changes.
 
-```text
-content/en/index.md                         Home page
-content/en/01-foundations/                 Foundations
-content/en/02-steels-and-metallurgy/       Steels and metallurgy
-content/en/03-blade-construction/           Blade construction
-content/en/04-geometry-and-bevels/          Geometry and bevels
-content/en/05-knife-types/                  Knife types
-content/en/08-use-and-safety/               Use and safety
-content/en/10-sharpening/                   Sharpening
-content/en/assets/                          Images and other content assets
-```
+The workflow:
 
-## 2. Edit directly on GitHub
+1. splits each page into semantic `tx-unit` blocks;
+2. reuses unchanged translated units;
+3. sends only changed/new units to the configured translation model;
+4. supplies the complete English page and controlled technical glossary as context;
+5. sends the candidate translation through a second, independent GPT technical-editor pass;
+6. restores protected HTML, URLs, link destinations, code and math byte-for-byte;
+7. rejects malformed placeholders, pathological repetition and implausible expansion;
+8. commits the refreshed translations back into the same PR.
 
-For a simple text correction, no local software is required.
+The default models are `gpt-6-sol` for translation and `gpt-6-astra` for review. They are configurable through repository variables.
 
-1. Open the repository on GitHub.
-2. Click **Code**.
-3. Open `content` → `en`.
-4. Open the appropriate `.md` file.
-5. Click the pencil icon: **Edit this file**.
-6. Make the English change.
-7. Use **Preview** when useful.
-8. Click **Commit changes…**.
-9. Choose **Create a new branch for this commit and start a pull request**.
+## 3. Review the translation diff
 
-For normal book edits, do not put an unfinished English-only change directly on `main`.
+Because translations are committed into the PR, they can be reviewed exactly like source edits. This is especially useful for specialist terminology, captions and Simplified Chinese.
 
-## 3. You do not need to translate the edit manually
+The first migration from the legacy system is a full regeneration because old translation files do not contain `tx-unit` memory. Later edits are differential.
 
-When the PR changes English content, **Deploy The Gongfu of Xinzuo to GitHub Pages** automatically:
+## 4. Merge only when translation checks are green
 
-1. detects stale/missing active translations;
-2. loads the local English→Italian and English→Chinese translation models;
-3. reuses unchanged translated lines;
-4. translates changed/inserted lines;
-5. updates the translation hash in the Actions workspace;
-6. runs strict multilingual validation.
+The publication workflow does **not** translate anything. It validates that every active translation is current, GPT-generated and structurally aligned with the English source. A stale or legacy translation blocks publication.
 
-The PR is considered translation-complete when the validator reports:
+## 5. Manual translation refresh
 
-```text
-0 missing
-0 stale
-```
+A maintainer can run **Actions → Translate book with OpenAI** manually. Running it from `main` creates a dedicated translation branch and pull request rather than changing `main` directly.
 
-On a pull request, these generated translation changes stay in the temporary Actions workspace; the workflow does not push a bot commit onto the PR branch.
+Use **force_full** only when a deliberate full regeneration is required.
 
-## 4. Merge when the checks are green
+## 6. Human translation corrections
 
-Once the English content is correct and the relevant checks are green, merge the PR into `main`.
+Purely linguistic improvements may be made directly inside a translated `tx-unit`. Keep the surrounding `tx-unit` comments intact. If the English block remains unchanged, that corrected wording is reused by future differential refreshes.
 
-On the resulting `main` push, the deployment workflow runs the same translation refresh again, then:
-
-1. commits any refreshed files under `translations/` using `github-actions[bot]`;
-2. builds all active languages from that committed repository state;
-3. uploads the Pages artifact;
-4. deploys the multilingual website.
-
-After that deployment succeeds, a second workflow automatically:
-
-1. exports fresh PDFs for English, Italian, and Simplified Chinese;
-2. rebuilds the offline HTML and Markdown packages;
-3. replaces the assets in the rolling `latest` release;
-4. points that release to the same current `main` revision and marks it as GitHub's latest release.
-
-This means a normal content merge updates both the online Pages site and the downloadable edition without any manual Release action.
-
-The bot uses the repository `GITHUB_TOKEN`, so its translation commit does not start an infinite second workflow loop.
-
-## 5. What the translator protects
-
-`scripts/auto_translate.py` is designed to preserve the structure and literals that should not be translated, including:
-
-- Markdown headings and list markers;
-- link destinations;
-- inline code;
-- URLs;
-- HTML tags;
-- inline math;
-- fenced code blocks and commands;
-- Markdown table structure;
-- unchanged existing translation lines.
-
-If a previous page cannot be safely aligned line-by-line, the helper falls back to translating the current page rather than silently treating an unknown old translation as current.
-
-## 6. Human translation corrections are still allowed
-
-A purely linguistic correction to Italian or Simplified Chinese may be made directly under `translations/<locale>/` when the English meaning is already correct.
-
-Do not introduce a new technical or commercial claim only in a translation. If the meaning itself must change, edit English first.
+If the meaning is wrong, fix English first.
 
 ## 7. Adding a new article
 
 1. Create the English `.md` file under the appropriate `content/en/` section.
-2. Follow the style of nearby articles.
-3. Add the page to `mkdocs.yml` if it should appear in navigation.
-4. Open a PR.
-5. The automatic workflow generates the missing active translations in CI and validates them.
-6. After merge, the `main` workflow commits those generated translation files and deploys them.
+2. Add it to `mkdocs.yml` when it should appear in navigation.
+3. Open a PR.
+4. The OpenAI translation workflow creates the active-language pages and commits them into that PR.
+5. Review and merge after the multilingual checks pass.
 
 ## 8. Renaming, moving, or deleting an article
 
-Structural changes require more care because the source and translation trees must remain aligned.
+Keep the English and active translation trees aligned. For a move or rename, update navigation/internal links and move the translated files correspondingly when useful. The block-level `tx-unit` memory keeps unchanged translated units reusable.
 
-For a rename or move:
-
-1. rename/move the English file;
-2. rename/move the corresponding Italian and Simplified Chinese files so existing reviewed wording is retained;
-3. update `mkdocs.yml` and internal links;
-4. let CI refresh content/hash differences;
-5. merge only after strict validation passes.
-
-For deletion, remove the corresponding active translation files and update navigation/internal links.
+For deletion, remove the corresponding active translation files.
 
 ## 9. Images
 
@@ -204,88 +119,69 @@ Never embed an `<img src="https://...">` pointing at an external website, retail
 
 ## 10. Local validation
 
+Validate the differential translation engine without making an API call:
+
+~~~bash
+python scripts/test_openai_translate.py
+python scripts/openai_translate.py --check-only
+~~~
+
 Strict multilingual validation remains:
 
-```bash
+~~~bash
 python scripts/multilingual_site.py --require-translations
-```
+~~~
 
-Automatic translation is:
+To translate locally, install `requirements-translation.txt`, set `OPENAI_API_KEY` and run:
 
-```bash
-python scripts/auto_translate.py
-```
-
-Local automatic translation requires `requirements-translation.txt` plus a CPU-compatible PyTorch installation. For routine browser-based edits, GitHub Actions is the easier route.
+~~~bash
+python scripts/openai_translate.py
+~~~
 
 ## 11. Generate PDFs
 
-After the desired content is on `main`:
+Use **Actions → Export PDF guides → Run workflow** and choose `all`, `en`, `it` or `zh-Hans`.
 
-1. open **Actions**;
-2. select **Export PDF guides**;
-3. click **Run workflow**;
-4. choose `all`, `en`, `it`, or `zh-Hans`;
-5. choose whether editorial placeholders are hidden or shown;
-6. run the workflow;
-7. download the artifact from the workflow Summary page.
+PDF export never translates. Non-English export fails if committed translations are stale or still use the retired translation engine.
 
-For `it`, `zh-Hans`, or `all`, the PDF workflow refreshes stale active translations automatically before export. English-only export skips the translation models.
+## 12. Publishing and downloadable exports
 
-## 12. Publish an official Release
+A successful merge to `main` triggers **Publish book, PDFs and GitHub Pages**. That workflow validates the committed translations, builds every active language, exports the PDFs and packages, creates/verifies the numbered Revision release and deploys GitHub Pages.
 
-After the approved content is on `main`, open **Actions → Publish official release → Run workflow** and enter a semantic version such as `v1.0.0` plus a short release title.
+**Export multilingual guide** likewise packages only committed, validated translations and makes no translation API call.
 
-The workflow refreshes Italian and Simplified Chinese, validates and builds the complete multilingual site, exports one PDF per active language, and publishes a GitHub Release containing:
+## OpenAI translation implementation
 
-- English, Italian and Simplified Chinese PDF guides;
-- an offline multilingual HTML archive;
-- the corresponding multilingual Markdown source package;
-- checksums for every downloadable file.
+Translation uses `scripts/openai_translate.py` with OpenAI Structured Outputs. Protected structural literals are masked before model calls and restored afterwards. The controlled vocabulary remains in `glossaries/master-terms.yml`.
 
-GitHub Pages remains the best way to read the current guide online. Releases are numbered, downloadable editions that can be archived, distributed or cited.
+The translation workflow needs the GitHub Actions secret `OPENAI_API_KEY`. Optional repository variables are:
 
-## 12. Downloadable multilingual export
+~~~text
+OPENAI_TRANSLATION_MODEL
+OPENAI_TRANSLATION_REVIEW_MODEL
+~~~
 
-Use **Actions → Export multilingual guide → Run workflow**.
+Defaults are `gpt-6-sol` and `gpt-6-astra` respectively.
 
-The workflow refreshes stale active translations before building and produces an artifact containing:
-
-```text
-html/      complete built website for every active locale
-markdown/  per-locale source trees used for that build
-```
-
-## Automatic translation implementation
-
-The active models are:
-
-```text
-Helsinki-NLP/opus-mt-en-it
-Helsinki-NLP/opus-mt-en-zh
-```
-
-The dependency set is pinned in `requirements-translation.txt`, with Transformers kept below v5 for a stable Marian implementation.
-
-The workflow caches Hugging Face model files when possible. Translation happens on the GitHub-hosted runner; guide content is not sent to a paid translation API.
+The legacy Marian/OPUS-MT implementation has no active workflow path and is not a fallback.
 
 ## Publishing architecture
 
-The key components are:
+~~~text
+content/en/                               English source of truth
+translations/                             Committed localized content + tx-unit memory
+localization/locales.yml                  Locale configuration
+glossaries/master-terms.yml               Controlled terminology
+scripts/openai_translate.py               Differential GPT translation + review
+scripts/test_openai_translate.py          Translation regression tests
+scripts/multilingual_site.py              Hash validation and multilingual site build
+.github/workflows/translate-openai.yml    Translation PR workflow
+.github/workflows/pages.yml               Publication and GitHub Pages deployment
+.github/workflows/export-pdf.yml          PDF export
+.github/workflows/export-multilingual.yml Downloadable multilingual export
+~~~
 
-```text
-content/en/                         English source of truth
-translations/                      Committed localized content
-localization/locales.yml            Active/inactive locale configuration
-scripts/auto_translate.py           Automatic stale-translation refresh
-scripts/multilingual_site.py        Hash validation and multilingual site build
-glossaries/master-terms.yml         Controlled terminology
-.github/workflows/pages.yml         PR validation and GitHub Pages deployment
-.github/workflows/export-pdf.yml    PDF export
-.github/workflows/export-multilingual.yml  Downloadable multilingual export
-```
-
-See `PUBLISHING_GUIDE.md` for the detailed publishing behavior and operational notes.
+See `PUBLISHING_GUIDE.md` for the full operating model.
 
 ## Current content scope
 
