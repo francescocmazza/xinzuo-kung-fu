@@ -1,6 +1,6 @@
 source_locale: en
 locale_standard: BCP-47
-translation_engine: local Marian OPUS-MT models in GitHub Actions with committed translation memory
+translation_engine: OpenAI Responses API with differential tx-unit translation memory and independent review
 translation_policy: translations are derived from and never replace the English source of truth
 
 locales:
@@ -102,8 +102,10 @@ rules:
   - English is the sole source of truth.
   - Meaning changes must be made in English first.
   - Every deployed translation must be refreshed when its English source hash changes.
-  - CI refreshes stale active translations locally before strict validation; no translation API key or paid translation API is required.
-  - Unchanged translated lines are reused whenever the previous English source is available.
+  - Translation is generated before publication through the OpenAI Responses API and committed for review in Git.
+  - Publication never translates on the fly and never falls back to the legacy Marian/OPUS-MT engine.
+  - Unchanged tx-unit blocks are reused exactly; only changed or new English blocks are sent to the translation and review models.
+  - OPENAI_API_KEY is required only by the translation workflow, not by PDF/site publication.
   - Every committed translated page displays a visible review notice.
   - Machine-updated translations require human review, especially Simplified Chinese specialist terminology.
   - CJK PDF exports require fonts with full Unicode coverage.
