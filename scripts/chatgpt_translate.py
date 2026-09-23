@@ -464,6 +464,85 @@ def apply_results(
         raise SystemExit("Missing translation result(s):\n  " + "\n  ".join(missing))
 
 
+def apply_page_dir(root: Path, locale_cfg: dict[str, Any]) -> list[tuple[str, Path]]:
+    """Apply full-page ChatGPT translations while preserving source block identity.
+
+    Files live under <root>/<locale>/<source-relative-path>. Each temporary page
+    contains the translated Markdown body only (no front matter). The block
+    structure and all protected literals must match the English source.
+    """
+    applied: list[tuple[str, Path]] = []
+    if not root.exists():
+        raise SystemExit(f"Page translation directory does not exist: {root}")
+
+    glossary_text = GLOSSARY.read_text(encoding="utf-8") if GLOSSARY.exists() else ""
+
+    for temp in sorted(root.rglob("*.md")):
+        rel_to_root = temp.relative_to(root)
+        if len(rel_to_root.parts) < 2:
+            raise SystemExit(f"Expected <locale>/<path> under {root}: {rel_to_root}")
+        locale = rel_to_root.parts[0]
+        if locale == "en" or locale not in locale_cfg:
+            raise SystemExit(f"Unknown/non-target locale in page batch: {locale}")
+        relative = Path(*rel_to_root.parts[1:])
+        source_path = SOURCE / relative
+        if not source_path.exists():
+            raise SystemExit(f"Unknown English source for page batch: {relative}")
+
+        cfg = locale_cfg[locale]
+        guidance = str(cfg.get("translation_guidance", ""))
+        pairs = glossary_pairs(locale)
+        source_text = source_path.read_text(encoding="utf-8")
+        _, source_body = split_document(source_text)
+        source_blocks = split_blocks(source_body)
+        units = prepare_units(source_blocks, locale, pairs, guidance)
+
+        translated_body = temp.read_text(encoding="utf-8")
+        translated_blocks = split_blocks(translated_body)
+        if len(translated_blocks) != len(source_blocks):
+            raise SystemExit(
+                f"{locale}:{relative}: translated block count {len(translated_blocks)} "
+                f"does not match English block count {len(source_blocks)}"
+            )
+
+        translations: dict[str, str] = {}
+        for index, (source_block, target_block, unit) in enumerate(
+            zip(source_blocks, translated_blocks, units), 1
+        ):
+            if unit.verbatim:
+                if target_block.text != source_block.text:
+                    raise SystemExit(
+                        f"{locale}:{relative}: block {index} is verbatim but changed"
+                    )
+                translations[unit.key] = source_block.text
+                continue
+
+            target_masked, target_mapping = mask_literals(target_block.text)
+            if list(target_mapping.values()) != list(unit.placeholders.values()):
+                raise SystemExit(
+                    f"{locale}:{relative}: block {index} changed protected HTML/URL/code/math literals"
+                )
+            validate_candidate(unit, target_masked)
+            translations[unit.key] = target_block.text
+
+        header = (
+            "---\n"
+            f"source_hash: {digest(locale, source_text, glossary_text)}\n"
+            f"translation_engine: {ENGINE_REVISION}\n"
+            f"prompt_revision: {PROMPT_REVISION}\n"
+            f"glossary_hash: {_hash(glossary_text)}\n"
+            "---\n\n"
+        )
+        target = TRANSLATIONS / locale / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(header + render(source_blocks, units, translations), encoding="utf-8")
+        applied.append((locale, relative))
+
+    if not applied:
+        raise SystemExit(f"No Markdown page translations found under {root}")
+    return applied
+
+
 def check(locale_cfg: dict[str, Any], locales: list[str], paths: list[Path]) -> list[str]:
     glossary_text = GLOSSARY.read_text(encoding="utf-8") if GLOSSARY.exists() else ""
     failures: list[str] = []
@@ -505,6 +584,7 @@ def main() -> int:
     mode = parser.add_mutually_exclusive_group(required=True)
     mode.add_argument("--prepare-queue", metavar="PATH")
     mode.add_argument("--apply-results", metavar="PATH")
+    mode.add_argument("--apply-page-dir", metavar="DIR")
     mode.add_argument("--check-only", action="store_true")
     parser.add_argument("--locales", nargs="*")
     parser.add_argument("--paths", nargs="*")
@@ -512,6 +592,19 @@ def main() -> int:
 
     cfg, locales = selected_locales(args.locales)
     paths = source_paths(args.paths)
+
+    if args.apply_page_dir:
+        applied = apply_page_dir(Path(args.apply_page_dir), cfg)
+        scoped_locales = sorted({locale for locale, _ in applied})
+        scoped_paths = sorted({path for _, path in applied}, key=lambda p: p.as_posix())
+        failures = check(cfg, scoped_locales, scoped_paths)
+        if failures:
+            print("Translation validation failed after full-page apply:")
+            for item in failures:
+                print(" ", item)
+            return 1
+        print(f"Applied and validated {len(applied)} full-page ChatGPT translation(s)")
+        return 0
 
     # Result batches may intentionally cover only one or a few page/locale pairs.
     # When --apply-results is used without explicit selectors, infer the exact
