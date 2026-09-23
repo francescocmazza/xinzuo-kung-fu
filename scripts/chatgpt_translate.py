@@ -513,6 +513,20 @@ def main() -> int:
     cfg, locales = selected_locales(args.locales)
     paths = source_paths(args.paths)
 
+    # Result batches may intentionally cover only one or a few page/locale pairs.
+    # When --apply-results is used without explicit selectors, infer the exact
+    # batch scope from the result rows so ChatGPT can migrate the book page by page.
+    prefetched_results: dict[str, Any] | None = None
+    if args.apply_results and not args.locales and not args.paths:
+        prefetched_results = json.loads(Path(args.apply_results).read_text(encoding="utf-8"))
+        rows = prefetched_results.get("results")
+        if not isinstance(rows, list) or not rows:
+            raise SystemExit("Results JSON contains no results")
+        inferred_locales = sorted({str(row.get("locale")) for row in rows if isinstance(row, dict)})
+        inferred_paths = sorted({str(row.get("path")) for row in rows if isinstance(row, dict)})
+        cfg, locales = selected_locales(inferred_locales)
+        paths = source_paths(inferred_paths)
+
     if args.prepare_queue:
         data = queue(cfg, locales, paths)
         out = Path(args.prepare_queue)
@@ -523,7 +537,7 @@ def main() -> int:
         return 0
 
     if args.apply_results:
-        data = json.loads(Path(args.apply_results).read_text(encoding="utf-8"))
+        data = prefetched_results or json.loads(Path(args.apply_results).read_text(encoding="utf-8"))
         apply_results(data, cfg, locales, paths)
         failures = check(cfg, locales, paths)
         if failures:
