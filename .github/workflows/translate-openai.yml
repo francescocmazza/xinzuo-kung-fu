@@ -27,7 +27,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: openai-translation-\${{ github.event_name == 'pull_request' && github.event.pull_request.number || github.run_id }}
+  group: openai-translation-${{ github.event_name == 'pull_request' && github.event.pull_request.number || github.run_id }}
   cancel-in-progress: true
 
 jobs:
@@ -40,7 +40,7 @@ jobs:
       - name: Check out source branch
         uses: actions/checkout@v5
         with:
-          ref: \${{ github.event_name == 'pull_request' && github.event.pull_request.head.ref || inputs.ref }}
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.ref || inputs.ref }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -61,7 +61,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          branch="translations/openai-\${GITHUB_RUN_ID}"
+          branch="translations/openai-${GITHUB_RUN_ID}"
           git switch -c "$branch"
           echo "TRANSLATION_BRANCH=$branch" >> "$GITHUB_ENV"
 
@@ -70,10 +70,10 @@ jobs:
 
       - name: Translate changed units and independently review them
         env:
-          OPENAI_API_KEY: \${{ secrets.OPENAI_API_KEY }}
-          OPENAI_TRANSLATION_MODEL: \${{ vars.OPENAI_TRANSLATION_MODEL || 'gpt-6-sol' }}
-          OPENAI_TRANSLATION_REVIEW_MODEL: \${{ vars.OPENAI_TRANSLATION_REVIEW_MODEL || 'gpt-6-astra' }}
-          FORCE_FULL: \${{ github.event_name == 'workflow_dispatch' && inputs.force_full || false }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TRANSLATION_MODEL: ${{ vars.OPENAI_TRANSLATION_MODEL || 'gpt-6-sol' }}
+          OPENAI_TRANSLATION_REVIEW_MODEL: ${{ vars.OPENAI_TRANSLATION_REVIEW_MODEL || 'gpt-6-astra' }}
+          FORCE_FULL: ${{ github.event_name == 'workflow_dispatch' && inputs.force_full || false }}
         shell: bash
         run: |
           set -euo pipefail
@@ -81,7 +81,7 @@ jobs:
           if [ "$FORCE_FULL" = "true" ]; then
             args+=(--force-full)
           fi
-          python scripts/openai_translate.py "\${args[@]}"
+          python scripts/openai_translate.py "${args[@]}"
 
       - name: Validate OpenAI translation memory and degeneration guards
         run: python scripts/openai_translate.py --check-only
@@ -109,7 +109,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git push origin "HEAD:\${{ github.event.pull_request.head.ref }}"
+          git push origin "HEAD:${{ github.event.pull_request.head.ref }}"
 
       - name: Push manual translation branch
         if: github.event_name == 'workflow_dispatch' && steps.commit.outputs.changed == 'true'
@@ -118,12 +118,12 @@ jobs:
       - name: Open manual translation pull request
         if: github.event_name == 'workflow_dispatch' && steps.commit.outputs.changed == 'true'
         env:
-          GH_TOKEN: \${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
           gh pr create \
-            --base "\${{ inputs.ref }}" \
+            --base "${{ inputs.ref }}" \
             --head "$TRANSLATION_BRANCH" \
             --title "Refresh book translations with OpenAI" \
             --body "Differential translation refresh using the OpenAI Responses API. Changed English tx-units were translated with the configured translation model and independently reviewed with the configured review model. Unchanged tx-units were reused from committed translation memory."
