@@ -21,6 +21,10 @@ on:
         type: boolean
         required: true
         default: false
+      locales:
+        description: "Optional space-separated locale codes; blank means all deployed non-English locales"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -74,12 +78,17 @@ jobs:
           OPENAI_TRANSLATION_MODEL: ${{ vars.OPENAI_TRANSLATION_MODEL || 'gpt-6-sol' }}
           OPENAI_TRANSLATION_REVIEW_MODEL: ${{ vars.OPENAI_TRANSLATION_REVIEW_MODEL || 'gpt-6-astra' }}
           FORCE_FULL: ${{ github.event_name == 'workflow_dispatch' && inputs.force_full || false }}
+          TARGET_LOCALES: ${{ github.event_name == 'workflow_dispatch' && inputs.locales || '' }}
         shell: bash
         run: |
           set -euo pipefail
           args=()
           if [ "$FORCE_FULL" = "true" ]; then
             args+=(--force-full)
+          fi
+          if [ -n "$TARGET_LOCALES" ]; then
+            read -r -a locale_args <<< "$TARGET_LOCALES"
+            args+=(--locales "${locale_args[@]}")
           fi
           python scripts/openai_translate.py "${args[@]}"
 
