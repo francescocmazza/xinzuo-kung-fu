@@ -81,7 +81,7 @@ A maintainer can also use:
 
 **Actions → Translate book with OpenAI → Run workflow**
 
-Select the source ref, normally `main`. Keep **force_full** off for an ordinary differential refresh. Turn it on only when you deliberately want to regenerate every unit, for example during the initial migration or after a major translation-policy change.
+Select the source ref, normally `main`. Keep **force_full** off for an ordinary differential refresh. Turn it on only when you deliberately want to regenerate every unit, for example during the initial migration or after a major translation-policy change. The optional **locales** field accepts space-separated configured locale codes, so the same engine can translate inactive/future languages without changing the workflow; when left blank it processes every deployed non-English locale.
 
 When started manually, the workflow creates a dedicated `translations/openai-...` branch and opens a pull request instead of writing translations directly to `main`.
 
