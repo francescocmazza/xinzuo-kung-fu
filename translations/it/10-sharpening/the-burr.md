@@ -1,56 +1,82 @@
 ---
 source_hash: 77309b348f27636f6f5614504ebd2f9a49123dd9b0b703b201e222e2fab16bd0
-translation_engine: 2026-09-17-knife-terminology-v1
+translation_engine: chatgpt-differential-v1
+prompt_revision: 2026-09-23-technical-book-v2
 glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 ---
 
-# La bava di affilatura.
-
-affilatura bava di affilatura**. Questo capitolo non aggiunge una nuova fase che avviene dopo l'affilatura. Si bava di affilarsi per bava di affilarlo in bava di affila, di bava di affilatura, di come rilevarlo in modo sicuro e perché rimuoverlo è importante quanto crearlo.
-
-filo bava di affilatura è la prova più chiara del principiante che la pietra ha raggiunto il limite.
-
-Con apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rouge apice del fil rock apice del fil rock apice del fil rock apice del fil rock apice del fil rock apice del fil rock apice del fil rock apice del fil rock apice del fil rock apice del fil rock apice del filtello apice del filte ro apice del filte ro apice del filte ro apice del filte ro apice del filte apice del filo. L'abrasivo alla fine piega un labbro di metallo verso il lato opposto. Questo bava di affilatura è il **burr**.
-
-L bava di affilatura è molto piccola che può essere rilevata lungo tutto il bordo. Una bava di affilatura di grandi dimensioni si depreca ed è più difficile da rimuovere. Può anche comportarsi come un filo fragile: il coltello sembra affilato all'inizio, poi perde il suo bordo quando il filo si piega o si rompe.
-
-## Come controllare in modo sicuro
-
-Non filtrate filtrate filtrando filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filtrate filo
-
-Questo non è un test di nitidezza. affilatura bava di affilatura. In questa guida, l'unico motivo per portare una punta del dito al bordo è di rilevare una bava. Provare la nitidezza del coltello solo tagliando alimenti o carta adatti.
-
-Tieni fermo il coltello e usa una pressione molto leggera. apice del filo faccia della lama verso il bordo, perpendicolare ad esso, e fermarsi all'apice. Controllare il tallone, centrale, curvo davanti e punta. La bava di affilatura sembra un piccolo gancio rozzo sul lato opposto a quello appena affilato.
-
-Se preferisci non toccare il bordo, usa un pad di cotone o una morbida fibra di panno. Potrebbe bava di affilarsi. bava di affilatura. Buona luce e ingrandimento possono anche rivelare parti del bordo che ancora riflettono la luce.
-
-Pulire la lama prima di controllare. bava di affilatura e sospensione abrasfere possono sospensione abrastive. sospensione abrastive. sospensione abrastive. sospensione abrastive. sospensione abrastive. sospensione abrastive. sospensione abrastive. sospensione abras. sospensione abrasiva...
-
-## bava di affilatura.
-
-apice del filo bava di affilatura... tallone bava di affilatura continua puntle punta che il lato intero ha raggiunto il bordo.
-
-Controllare occasionalmente durante il lavoro, soprattutto durante l'apprendimento. Una bava di affilatura può apparire quasi immediatamente quando l'angolazione è troppo ripida. In bisello del fil rove bisello del fil rove bisello del fil rove bisello del fil rove bisello del fil rove bisello del fil rove bisello del fil rove bisello del fil rove bisello del fil rove bisello del fil rove bisello del fil rove bisello del fil rove bisello del fil rove bisello del fil rove bisello del filo. apice del filo bava di affilatura, ma non di per sé prova che l'angolo è corretto. Controlla bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrante bisello del filtrato bisello del filtrato bisello del filtrante bisello del filtrato bisello del filtrato bisello del filtrato bisello del filtrato bisello del filtrato bisello del filtrato bisello del filo.
-
-bava di affilatura quando l'angolo è corretto, fermare il lavoro principale su quel lato non appena la più piccola bava rilevabile è continua. Passi più pesanti solo ingrandirlo.
-
-## S bava di affilatura
-
-Dopo apice del filo, affilare il secondo lato con lo stesso percorso e angolo di contatto locale. Se stai seguendo il metodo di commutazione a mano insegnato in questo libro, cambia la mano tenendo il coltello quando cambi i lati. La bava di affila dovrebbe tornare bava di affila lungo bava di affilatura.
-
-Quindi ridurre la pressione e i lati alternati. Gli ultimi passi dovrebbero essere molto più leggeri di quelli di lavoro. apice del filo, bava di affilatura, anziché rimuovere l'acciaio sostanziale.
-
-Non c'è nessun conteggio fisso utile. L'acciaio, la pietra, la pressione e lo stato iniziale del coltello cambiano la quantità di lavoro richiesta. Continuare fino a quando nessuna faccia ha un gancio direzionale e il bordo si sente coerente dal tallone alla punta.
-
-Un bava di affilatura in pelle o tessuto può aiutare a rimuovere una bava molto fine rimanente. S dosare il dondolo prima dondolando dona poco doping, donando dote al dondolo o dondolandosi dondolando domattina domattina dobbiamo fare domattina dobbiamo fare domattina dobbiamo fare domattina dobbiamo andare domattina dobbiamo andare domattina dobbiamo andare domattina dobbiamo andare domattina dobbiamo andare domattina dobbiamo andare domattina dobbiamo andare domattina dobbiamo andare dobbiamo andare domattina dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo. dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo andare dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo dobbiamo abbiamo do dobbiamo dobbiamo abbiamo dorso passaggio su strop è utile ma facoltativo; un lavoro attento e leggero sulla pietra è il passo essenziale.
-
+<!-- tx-unit:67dd3b44736974d3e7095569a5ed0803f95d339cef75fd8f9a109aeccf91f517 -->
+# La bava
+<!-- /tx-unit -->
+<!-- tx-unit:6ce9855cf3e0f89fb319549d2da3774cb26363878f8ed116f2a6790fe99ba33b -->
+Il capitolo precedente ha già introdotto la bava come parte del **processo base di affilatura**. Questo capitolo non aggiunge una nuova fase successiva all'affilatura. Si sofferma invece sullo stesso segnale di riscontro per spiegarlo più in dettaglio: che cos'è la bava, che cosa dimostra, come rilevarla in sicurezza e perché eliminarla è importante quanto formarla.
+<!-- /tx-unit -->
+<!-- tx-unit:3bad0c2363708c6ead43695e2fc7ac0382140a02d8dc80b87487cc2b4c7d5beb -->
+Per chi sta imparando, la bava è la prova più chiara che la pietra ha raggiunto il filo.
+<!-- /tx-unit -->
+<!-- tx-unit:a30cb0599b8f8640deba5983cf519e13df3c19d908c346c2e1a01704d433a6ea -->
+Affilando un lato, l'acciaio in corrispondenza dell'apice diventa estremamente sottile. L'abrasivo finisce per piegare verso il lato opposto un minuscolo lembo di metallo. Questo lembo è la **bava**.
+<!-- /tx-unit -->
+<!-- tx-unit:0061b04209c7ed0db543bacbbf0853a04e9d52a37c47d5382ae485694ae5544c -->
+L'obiettivo è ottenere una bava molto piccola, rilevabile lungo tutto il filo. Una bava grande spreca acciaio ed è più difficile da eliminare. Può inoltre comportarsi come un filo metallico fragile: il coltello sembra inizialmente affilato, poi perde il filo quando questa sottile lamina si piega o si spezza.
+<!-- /tx-unit -->
+<!-- tx-unit:ec56ff959f66ace01337444eef8657b731187fcb50064f21e89d767381afb79f -->
+## Come controllarla in sicurezza
+<!-- /tx-unit -->
+<!-- tx-unit:86b5238841e6a4e6f4f801835e3a4b2573765de8384be1182ae21e280920ddcd -->
+Non far mai scorrere un dito lungo il filo.
+<!-- /tx-unit -->
+<!-- tx-unit:5745fc9e72a5c91e4d72d4db20e09bc1d497d79b2152902b3efc542fcfaafe83 -->
+Questo non è un test di affilatura. In questa guida, l'unico motivo per avvicinare il polpastrello al filo è rilevare la bava durante l'affilatura. Verifica l'affilatura del coltello soltanto tagliando un alimento adatto o della carta.
+<!-- /tx-unit -->
+<!-- tx-unit:b7e3ee4928c674ffe889c4bc8d23c6e5cd262d34250f77215cb39af3808c783d -->
+Tieni fermo il coltello e applica una pressione leggerissima. Muovi il polpastrello dalla faccia della lama verso il filo, perpendicolarmente a esso, e fermati all'apice. Controlla tallone, parte centrale, zona curva anteriore e punta. La bava si percepisce come un leggero uncino ruvido sul lato opposto a quello appena affilato.
+<!-- /tx-unit -->
+<!-- tx-unit:8ee0925035bf5cd1e74cca3ea1d72d7d349a6f537059fdefdd79e7ae23a6b763 -->
+Se preferisci non avvicinare le dita al filo, usa un batuffolo di cotone o le fibre di un panno morbido: possono impigliarsi nella bava. Una buona illuminazione e un ingrandimento possono inoltre mettere in evidenza le zone del filo che riflettono ancora la luce.
+<!-- /tx-unit -->
+<!-- tx-unit:222c8464ce36f6956b69b9a1f5834bbe5d6ebe13fb8f5a9a6b089a15f94a65e5 -->
+Pulisci la lama prima del controllo. In caso contrario, il fango abrasivo e le particelle di acciaio libere potrebbero essere scambiati per la bava.
+<!-- /tx-unit -->
+<!-- tx-unit:df8ea53b64c444d2f5c90bd56d549199caafdb433c5989f01954dbe6c6dbb243 -->
+## Che cosa indica la bava
+<!-- /tx-unit -->
+<!-- tx-unit:67fcf3c238a48845af61c4064193226abcfd9a0fef3e0c31fdfa82989d3f9184 -->
+Una bava presente in un solo punto dimostra che la pietra ha raggiunto l'apice soltanto in quel punto. Una bava leggera e continua dal tallone alla punta conferma che l'intero lato ha raggiunto il filo.
+<!-- /tx-unit -->
+<!-- tx-unit:de1692cd5a6f64f3cffb136f2f32661aff72ced67139dc591c4d42b4e502c897 -->
+Controllala di tanto in tanto durante il lavoro, soprattutto mentre stai imparando. La bava può comparire quasi immediatamente se l'angolo è troppo elevato. In quel caso, la pietra potrebbe toccare soltanto l'estremità del filo e creare un nuovo bisello del filo più ripido. La rapida comparsa di una bava dimostra quindi il contatto con l'apice, ma da sola non dimostra che l'angolo sia corretto. Prima di continuare controlla la traccia lasciata dal pennarello e la larghezza del bisello del filo.
+<!-- /tx-unit -->
+<!-- tx-unit:cca330ae4b5454797a339c1b6184c516ce89a9e28ef7887c70d61751f8de26ce -->
+Quando l'angolo è corretto, interrompi il lavoro principale su quel lato non appena la più piccola bava rilevabile risulta continua. Ulteriori passate energiche servirebbero soltanto ad aumentarla.
+<!-- /tx-unit -->
+<!-- tx-unit:8150346d83de4a8094b875775bf7d517877b8c8aa1089ba5b617536cc07269a7 -->
+## Spostare ed eliminare la bava
+<!-- /tx-unit -->
+<!-- tx-unit:08eaec45d5f187d1328c86463547bab8bdf4aafc7f5f394028f36ab81367e0f6 -->
+Dopo aver raggiunto l'apice sul primo lato, affila il secondo seguendo lo stesso percorso e mantenendo lo stesso angolo di contatto locale. Se stai seguendo il metodo con cambio di mano insegnato in questo libro, quando cambi lato cambia anche la mano che impugna il coltello. La bava dovrebbe spostarsi nuovamente verso il primo lato lungo tutto il filo.
+<!-- /tx-unit -->
+<!-- tx-unit:21fd0680a32992ac0bd0c3f81eb72a1ebd7ed9aa21d22123126f87169ae54d4b -->
+Riduci quindi la pressione e alterna i lati. Le ultime passate devono essere molto più leggere di quelle di lavoro. Il loro scopo è centrare l'apice e indebolire la bava, non asportare una quantità significativa di acciaio.
+<!-- /tx-unit -->
+<!-- tx-unit:ab44a023aa1ff49046f126a2a908ca438c6499cb520becb3ed0b8644aba80893 -->
+Non esiste un numero fisso di passate realmente utile. Acciaio, pietra, pressione e condizioni iniziali del coltello modificano tutti la quantità di lavoro necessaria. Continua finché nessuna delle due facce presenta un uncino orientato e il filo risulta uniforme dal tallone alla punta.
+<!-- /tx-unit -->
+<!-- tx-unit:1e9b9b2a1db8b63ce8d46f8bbdaab539c6ad099346526f53ac3b5a5a26e418df -->
+Una coramella in pelle o tessuto può aiutare a eliminare una bava residua molto fine. Muovi il coltello con il dorso in avanti e usa poca pressione, in modo che il filo non incida la coramella e non venga arrotondato. La stroppatura può essere utile, ma è facoltativa; il passaggio essenziale resta un accurato lavoro leggero sulla pietra.
+<!-- /tx-unit -->
+<!-- tx-unit:63b3cfc13a0bf66644d3e25f63f2eb4b67196b59294234a23d9e71b826cd02d4 -->
 ## La regola pratica
-
-affilatura, bava di affilatura, non come obiettivo finale:
-
-1. apice del filo con bava di affilatura continua più piccola;
-2. bava di affilatura;
-3. ridurre la pressione e i lati alternati;
-4. finitura solo quando il metallo indebolito è stato rimosso.
-
-Un coltello che ha ancora un filo può tagliare la carta una volta e fallire nel cibo. Un pulito, stabile apice del filo dovrebbe continuare a tagliare dopo il test.
+<!-- /tx-unit -->
+<!-- tx-unit:cf82eeed3660fe8ba15d6129682c37a61daf37bcbdd91ca1760aec9eaf2bd969 -->
+Usa la bava come controllo durante l'affilatura, non come obiettivo finale:
+<!-- /tx-unit -->
+<!-- tx-unit:0b4e5f1fe6b9a36c0cd6e7b59ea4d6120702387fcf3dc94180fe49a542fa5d60 -->
+1. raggiungi l'apice formando la più piccola bava continua possibile;
+2. ripeti sull'altro lato finché la bava cambia direzione;
+3. riduci la pressione e alterna i lati;
+4. termina soltanto quando il metallo indebolito è stato eliminato.
+<!-- /tx-unit -->
+<!-- tx-unit:062a4888dd909717a6438779328a46306177edb4974ed6de7b6579b9a6e255d8 -->
+Un coltello che conserva ancora un filo di bava può tagliare la carta una volta e poi cedere nell'uso sugli alimenti. Un apice pulito e stabile deve continuare a tagliare anche dopo il test.
+<!-- /tx-unit -->
