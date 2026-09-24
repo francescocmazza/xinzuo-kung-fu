@@ -31,8 +31,8 @@ COVER_CSS = ROOT / "scripts" / "pdf_export" / "cover.css"
 LOCALES_CONFIG = ROOT / "localization" / "locales.yml"
 SOURCE_INDEX = ROOT / "content" / "en" / "index.md"
 TRANSLATIONS = ROOT / "translations"
-FRONT_COVER_ASSET = ROOT / "content" / "en" / "assets" / "CoverFront.png"
-BACK_COVER_ASSET = ROOT / "content" / "en" / "assets" / "CoverBack.png"
+FRONT_COVER_ASSET = ROOT / "content" / "en" / "assets" / "Copertina.jpg"
+BACK_COVER_ASSET = ROOT / "content" / "en" / "assets" / "ChatGPT Image Sep 24, 2026, 07_22_10 PM (1).png"
 
 
 def replace_checked(text: str, old: str, new: str, label: str) -> str:
@@ -132,7 +132,7 @@ def main() -> int:
     exporter = replace_checked(
         exporter,
         'HERO_IMAGE_REL = "assets/images/approved/home-hero-xinzuo-neutral.png"',
-        'HERO_IMAGE_REL = "assets/CoverFront.png"',
+        'HERO_IMAGE_REL = "assets/Copertina.jpg"',
         "next-edition front cover artwork",
     )
     exporter = replace_checked(
