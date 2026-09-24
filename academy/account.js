@@ -315,6 +315,13 @@
 
   async function openManager() {
     if (!currentUser || !["manager", "admin"].includes(currentUser.role)) return;
+    const managerRoleOption = el.inviteForm.querySelector('option[value="manager"]');
+    if (managerRoleOption) {
+      managerRoleOption.disabled = currentUser.role !== "admin";
+      if (currentUser.role !== "admin" && el.inviteForm.elements.role.value === "manager") {
+        el.inviteForm.elements.role.value = "staff";
+      }
+    }
     el.learnerArea.hidden = true;
     el.authGate.hidden = true;
     el.managerView.hidden = false;
@@ -688,6 +695,11 @@
       el.resetTab.classList.add("auth-tab--active");
       el.resetCompleteForm.elements.resetToken.value = reset;
       if (email) el.resetCompleteForm.elements.email.value = email;
+    }
+    if (invite || reset) {
+      const clean = new URL(window.location.href);
+      clean.search = "";
+      history.replaceState({}, "", clean.pathname + clean.hash);
     }
   }
 
