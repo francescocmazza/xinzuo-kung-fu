@@ -1,4 +1,4 @@
-name: Deploy Xinzuo Academy company backend
+name: Deploy Xinzuo Academy public backend
 
 on:
   workflow_dispatch:
@@ -17,7 +17,16 @@ jobs:
       BOOTSTRAP_TOKEN: ${{ secrets.ACADEMY_BOOTSTRAP_TOKEN }}
       PASSWORD_PEPPER: ${{ secrets.ACADEMY_PASSWORD_PEPPER }}
       IP_HASH_SALT: ${{ secrets.ACADEMY_IP_HASH_SALT }}
-      RESET_WEBHOOK_URL: ${{ secrets.ACADEMY_RESET_WEBHOOK_URL }}
+      VERIFICATION_PEPPER: ${{ secrets.ACADEMY_VERIFICATION_PEPPER }}
+      VERIFICATION_WEBHOOK_URL: ${{ secrets.ACADEMY_VERIFICATION_WEBHOOK_URL }}
+      RESEND_API_KEY: ${{ secrets.ACADEMY_RESEND_API_KEY }}
+      VERIFICATION_EMAIL_FROM: ${{ vars.ACADEMY_VERIFICATION_EMAIL_FROM }}
+      TWILIO_ACCOUNT_SID: ${{ secrets.ACADEMY_TWILIO_ACCOUNT_SID }}
+      TWILIO_API_KEY: ${{ secrets.ACADEMY_TWILIO_API_KEY }}
+      TWILIO_API_SECRET: ${{ secrets.ACADEMY_TWILIO_API_SECRET }}
+      TWILIO_FROM_NUMBER: ${{ secrets.ACADEMY_TWILIO_FROM_NUMBER }}
+      TWILIO_MESSAGING_SERVICE_SID: ${{ secrets.ACADEMY_TWILIO_MESSAGING_SERVICE_SID }}
+      TWILIO_API_BASE: ${{ vars.ACADEMY_TWILIO_API_BASE }}
       RESET_PAGE_URL: ${{ vars.ACADEMY_PUBLIC_URL }}
       ALLOWED_ORIGINS: ${{ vars.ACADEMY_ALLOWED_ORIGINS }}
 
@@ -68,6 +77,8 @@ jobs:
                   "ACTIVE_LESSON_TOTAL": "27",
                   "ALLOWED_ORIGINS": allowed,
                   "RESET_PAGE_URL": os.environ.get("RESET_PAGE_URL") or "https://francescocmazza.github.io/xinzuo-kung-fu/academy/",
+                  "VERIFICATION_EMAIL_FROM": os.environ.get("VERIFICATION_EMAIL_FROM") or "",
+                  "TWILIO_API_BASE": os.environ.get("TWILIO_API_BASE") or "https://api.twilio.com/2010-04-01",
               },
           }
           with open("wrangler.jsonc", "w", encoding="utf-8") as fh:
@@ -86,8 +97,29 @@ jobs:
           printf '%s' "$BOOTSTRAP_TOKEN" | npx wrangler secret put BOOTSTRAP_TOKEN --config wrangler.jsonc
           printf '%s' "$PASSWORD_PEPPER" | npx wrangler secret put PASSWORD_PEPPER --config wrangler.jsonc
           printf '%s' "$IP_HASH_SALT" | npx wrangler secret put IP_HASH_SALT --config wrangler.jsonc
-          if [ -n "${RESET_WEBHOOK_URL:-}" ]; then
-            printf '%s' "$RESET_WEBHOOK_URL" | npx wrangler secret put RESET_WEBHOOK_URL --config wrangler.jsonc
+          if [ -n "${VERIFICATION_PEPPER:-}" ]; then
+            printf '%s' "$VERIFICATION_PEPPER" | npx wrangler secret put VERIFICATION_PEPPER --config wrangler.jsonc
+          fi
+          if [ -n "${VERIFICATION_WEBHOOK_URL:-}" ]; then
+            printf '%s' "$VERIFICATION_WEBHOOK_URL" | npx wrangler secret put VERIFICATION_WEBHOOK_URL --config wrangler.jsonc
+          fi
+          if [ -n "${RESEND_API_KEY:-}" ]; then
+            printf '%s' "$RESEND_API_KEY" | npx wrangler secret put RESEND_API_KEY --config wrangler.jsonc
+          fi
+          if [ -n "${TWILIO_ACCOUNT_SID:-}" ]; then
+            printf '%s' "$TWILIO_ACCOUNT_SID" | npx wrangler secret put TWILIO_ACCOUNT_SID --config wrangler.jsonc
+          fi
+          if [ -n "${TWILIO_API_KEY:-}" ]; then
+            printf '%s' "$TWILIO_API_KEY" | npx wrangler secret put TWILIO_API_KEY --config wrangler.jsonc
+          fi
+          if [ -n "${TWILIO_API_SECRET:-}" ]; then
+            printf '%s' "$TWILIO_API_SECRET" | npx wrangler secret put TWILIO_API_SECRET --config wrangler.jsonc
+          fi
+          if [ -n "${TWILIO_FROM_NUMBER:-}" ]; then
+            printf '%s' "$TWILIO_FROM_NUMBER" | npx wrangler secret put TWILIO_FROM_NUMBER --config wrangler.jsonc
+          fi
+          if [ -n "${TWILIO_MESSAGING_SERVICE_SID:-}" ]; then
+            printf '%s' "$TWILIO_MESSAGING_SERVICE_SID" | npx wrangler secret put TWILIO_MESSAGING_SERVICE_SID --config wrangler.jsonc
           fi
 
       - name: Deploy Worker
