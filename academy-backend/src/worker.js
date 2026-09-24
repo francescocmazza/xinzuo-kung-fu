@@ -1156,7 +1156,12 @@ async function managerPasswordReset(request, env, userId) {
     const target = await env.DB.prepare("SELECT * FROM users WHERE id=?").bind(userId).first();
     if (!target || target.role !== "staff") throw new HttpError(404, "not_found", "Learner not found.");
     const token = await createResetToken(env, target.id, auth.user.id);
-    return apiJson(request, env, { ok:true, resetToken:token, email:target.email, expiresAt:now()+3600 });
+    return apiJson(request, env, {
+      ok:true,
+      resetToken:token,
+      contact:target.email || target.phone || "",
+      expiresAt:now()+30*60
+    });
   });
 }
 
