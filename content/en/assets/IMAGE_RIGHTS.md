@@ -18,7 +18,7 @@ The text-free `diagrams/m4-heat-treatment-language-neutral.svg` is an original p
 
 ## Publication cover artwork
 
-`CoverFront.webp` and `CoverBack.webp` are AI-assisted original project artwork created specifically for this publication, supplied and approved by the repository owner. The front artwork is intentionally free of Latin title/subtitle/author text so those elements remain live, selectable and translatable in every language edition; the back artwork is a text-free matching wood texture.
+`CoverFront.svg` and `CoverBack.svg` are vector publication-cover artwork created specifically for this edition, reconstructing the approved composition after the earlier binary cover files proved unusable in the publication pipeline. The front artwork keeps the Xinzuo mark and vertical Chinese subtitle as graphic elements while leaving the Latin title, subtitle and author as live, selectable and translatable text; the back artwork is a text-free matching dark-wood texture.
 
 ## Xinzuo catalog and product images
 
