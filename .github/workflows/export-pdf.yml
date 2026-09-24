@@ -85,8 +85,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          test -s content/en/assets/CoverFront.webp
-          test -s content/en/assets/CoverBack.webp
+          test -s content/en/assets/CoverFront.svg
+          test -s content/en/assets/CoverBack.svg
+          grep -q '<svg' content/en/assets/CoverFront.svg
+          grep -q '<svg' content/en/assets/CoverBack.svg
 
       - name: Apply A5 publication profile
         run: python scripts/pdf_export/apply_a5_profile.py
