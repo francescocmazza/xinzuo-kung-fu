@@ -21,7 +21,7 @@ export default {
           ok:true,
           service:"xinzuo-academy",
           now:new Date().toISOString(),
-          publicRegistration:true,
+          publicRegistration:publicRegistrationEnabled(env),
           verificationChannels:{
             email:canSendVerification("email",env),
             sms:canSendVerification("sms",env)
@@ -79,6 +79,10 @@ export default {
 
 function now() {
   return Math.floor(Date.now() / 1000);
+}
+
+function publicRegistrationEnabled(env) {
+  return String(env.PUBLIC_REGISTRATION_ENABLED || "").toLowerCase() === "true";
 }
 
 function allowedOrigins(env) {
@@ -513,6 +517,9 @@ async function recordConsent(env, userId, type, granted, version, source = "regi
 
 async function publicRegisterStart(request, env) {
   return withHttpErrors(request, env, async () => {
+    if (!publicRegistrationEnabled(env)) {
+      throw new HttpError(503,"registration_closed","Public registration is not open yet.");
+    }
     const body = await bodyJson(request);
     if (body.ageConfirmed !== true) {
       throw new HttpError(400, "age_required", "Public registration is currently available to adults aged 18 or over.");
