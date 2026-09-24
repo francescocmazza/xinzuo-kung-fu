@@ -2070,13 +2070,602 @@
         {
           "id": "base-sharpening-foundations",
           "title": "Sharpening Foundations",
-          "status": "planned",
+          "status": "active",
           "source_paths": [
             "10-sharpening/whetstone-preparation.md",
             "10-sharpening/basic-sharpening-process.md",
             "10-sharpening/the-burr.md"
           ],
-          "summary": "Stable stone, verified angle, complete heel-to-tip movement, burr formation/removal and practical edge checks."
+          "summary": "Build a repeatable basic sharpening routine: stable stone, verified contact, complete edge coverage, small burr and clean deburring.",
+          "lessons": [
+            {
+              "id": "bsf-01-setup",
+              "concept_id": "sharpening.stone_setup",
+              "title": "Prepare a stable stone",
+              "critical": true,
+              "source_path": "10-sharpening/whetstone-preparation.md",
+              "content": {
+                "lead": "A moving, dry or inappropriate stone makes angle control harder before sharpening even begins.",
+                "points": [
+                  "Follow the stone manufacturer's water/lubrication instructions: some stones soak, others are splash-and-go.",
+                  "Use a non-slip holder or stable damp-cloth support and work with good light.",
+                  "The working surface should be flat enough for reliable contact; correct excessive dishing before serious sharpening."
+                ],
+                "takeaway": "Flat enough, wet as required, and absolutely stable."
+              },
+              "question": {
+                "id": "bsf-q01",
+                "prompt": "What is the most important first condition before sharpening?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "A very fine grit"
+                  },
+                  {
+                    "id": "b",
+                    "text": "A flat-enough, properly lubricated and stable stone"
+                  },
+                  {
+                    "id": "c",
+                    "text": "A fixed number of passes"
+                  },
+                  {
+                    "id": "d",
+                    "text": "A leather strop"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The stone and support must provide predictable contact before angle work starts."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r01a",
+                  "prompt": "The stone holder moves during a pass. What should you do?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Grip the knife harder"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Stop immediately and stabilize the support"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Use more pressure"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Move faster"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "A moving stone compromises both safety and contact control."
+                },
+                {
+                  "id": "bsf-r01b",
+                  "prompt": "Should every water stone be soaked for the same time?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Yes"
+                    },
+                    {
+                      "id": "b",
+                      "text": "No; follow the specific stone manufacturer's instructions"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only fine stones"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only carbon-steel knives"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Water-stone families differ; soaking is not a universal rule."
+                }
+              ]
+            },
+            {
+              "id": "bsf-02-contact",
+              "concept_id": "sharpening.edge_bevel_contact",
+              "title": "Identify the edge bevel and verify contact",
+              "critical": true,
+              "source_path": "10-sharpening/basic-sharpening-process.md",
+              "content": {
+                "lead": "Beginners often sharpen the wrong surface or hold an angle that changes without noticing.",
+                "points": [
+                  "Identify the narrow edge bevel rather than the broad blade face or primary geometry above it.",
+                  "Use marker on the edge bevel to see where the stone removes ink; adjust until contact is where intended.",
+                  "The required hand position changes as the blade profile curves: preserve local bevel contact from heel through tip instead of freezing the wrist."
+                ],
+                "takeaway": "The target is consistent bevel contact, not a memorized hand angle."
+              },
+              "question": {
+                "id": "bsf-q02",
+                "prompt": "What does the marker method tell you?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The steel hardness"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Where the stone is contacting and removing material on the edge bevel"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The exact grit of the stone"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Whether the knife is forged"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Ink removal makes contact visible and helps correct an angle that is too high or too low."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r02a",
+                  "prompt": "Why should the hand position adapt near a curved tip?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "To preserve local edge-bevel contact as blade geometry changes"
+                    },
+                    {
+                      "id": "b",
+                      "text": "To increase pressure automatically"
+                    },
+                    {
+                      "id": "c",
+                      "text": "To create a larger burr"
+                    },
+                    {
+                      "id": "d",
+                      "text": "To polish the blade face"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "A fixed hand position can lose the intended contact as the profile curves."
+                },
+                {
+                  "id": "bsf-r02b",
+                  "prompt": "A burr appears immediately but the marker shows contact only at the very apex. What does that mean?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The angle is definitely correct"
+                    },
+                    {
+                      "id": "b",
+                      "text": "The angle may be too steep even though the apex was reached"
+                    },
+                    {
+                      "id": "c",
+                      "text": "The stone is too flat"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The knife is finished"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "A quick burr proves apex contact, not that the chosen bevel angle is correct."
+                }
+              ]
+            },
+            {
+              "id": "bsf-03-complete-edge",
+              "concept_id": "sharpening.complete_edge_work",
+              "title": "Work the whole edge, not just the middle",
+              "critical": true,
+              "source_path": "10-sharpening/basic-sharpening-process.md",
+              "content": {
+                "lead": "A sharp middle section does not make a sharp knife.",
+                "points": [
+                  "Use controlled outward and return movement across heel, middle, curved front and tip.",
+                  "Listen and feel: rough scratching often becomes smoother as contact evens out.",
+                  "Alternate sides periodically and keep the work broadly balanced; do not rely on a fixed pass count because steel, stone and edge condition vary."
+                ],
+                "takeaway": "Coverage and feedback matter more than counting strokes."
+              },
+              "question": {
+                "id": "bsf-q03",
+                "prompt": "What is a common beginner error?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Checking heel and tip"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Overworking the middle while missing heel or tip"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Using marker"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Reducing pressure near the finish"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Every section must reach the apex; the middle is often easiest and can receive too much work."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r03a",
+                  "prompt": "Why is a fixed pass count unreliable?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Because stone, steel, pressure and starting condition change the work required"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Because only the tip needs sharpening"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Because passes never remove steel"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Because all stones cut equally"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Sharpening is controlled by evidence from contact and edge condition, not an arbitrary number."
+                },
+                {
+                  "id": "bsf-r03b",
+                  "prompt": "If the heel has not reached the apex but the middle has, what should you do?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Continue heavy work everywhere equally"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Focus briefly on the heel, then return to complete passes"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ignore it"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Increase angle only at the middle"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Correct the local deficit without unnecessarily grinding sections already finished."
+                }
+              ]
+            },
+            {
+              "id": "bsf-04-burr",
+              "concept_id": "sharpening.burr_control",
+              "title": "Use the smallest continuous burr as evidence",
+              "critical": true,
+              "source_path": "10-sharpening/the-burr.md",
+              "content": {
+                "lead": "The burr is feedback that the abrasive has reached the apex; it is not the final product.",
+                "points": [
+                  "Aim for the smallest detectable burr that is continuous from heel to tip.",
+                  "Check safely by moving a fingertip from blade face toward the edge, perpendicular to it — never slide a finger along the edge.",
+                  "After the first side reaches the apex, sharpen the other side until the burr changes direction along the complete edge."
+                ],
+                "takeaway": "Create the burr only to prove apex contact, then remove it."
+              },
+              "question": {
+                "id": "bsf-q04",
+                "prompt": "What does a burr present only in the middle prove?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The whole edge is finished"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Only that the middle has reached the apex"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The angle is perfect everywhere"
+                  },
+                  {
+                    "id": "d",
+                    "text": "The stone is too fine"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "A continuous burr is needed to show complete apex reach along the entire side."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r04a",
+                  "prompt": "How should a burr be checked with a fingertip?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Slide along the cutting edge"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Move lightly from the blade face toward the edge, perpendicular to it, stopping at the apex"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Press directly onto the apex"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Rub rapidly along both sides"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Never slide a finger along the cutting edge."
+                },
+                {
+                  "id": "bsf-r04b",
+                  "prompt": "Why is a large burr undesirable?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It wastes steel and can behave like a fragile wire edge"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It proves better sharpening"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It makes deburring unnecessary"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It protects the edge"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "A large burr is harder to remove and can make a knife seem sharp before folding or breaking away."
+                }
+              ]
+            },
+            {
+              "id": "bsf-05-deburr-test",
+              "concept_id": "sharpening.deburr_and_test",
+              "title": "Reduce pressure, deburr and test intelligently",
+              "critical": true,
+              "source_path": "10-sharpening/basic-sharpening-process.md",
+              "content": {
+                "lead": "The finishing stage stabilizes the apex; polishing alone does not guarantee a good edge.",
+                "points": [
+                  "Reduce pressure gradually and alternate sides more frequently until no directional hook remains.",
+                  "A strop can help with a very fine remaining burr, but is optional; the stone should already produce a clean stable edge.",
+                  "Test with strong-light inspection, burr check and controlled cuts in paper or suitable food such as tomato. Paper alone can be fooled by a fragile wire edge."
+                ],
+                "takeaway": "A good edge is clean, stable and consistent along its full length."
+              },
+              "question": {
+                "id": "bsf-q05",
+                "prompt": "Why should paper not be the only final test?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Paper is too expensive"
+                  },
+                  {
+                    "id": "b",
+                    "text": "A fragile wire edge can sometimes cut paper once but fail in food"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Paper dulls every knife immediately"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Paper cannot reveal any catches"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Combine paper with burr inspection and real cutting behavior to detect unstable wire edges."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r05a",
+                  "prompt": "What should happen to pressure during deburring?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Increase steadily"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Reduce progressively while alternating sides"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Remain at maximum"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Stop contacting the bevel"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Light alternating passes center the apex and weaken/remove the burr."
+                },
+                {
+                  "id": "bsf-r05b",
+                  "prompt": "Is stropping mandatory for a good basic edge?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Yes, always"
+                    },
+                    {
+                      "id": "b",
+                      "text": "No; it can help, but careful stone work is the essential step"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only for stainless"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only for single bevel"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The stone should already leave a clean, stable edge."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bsf-mini-01",
+            "title": "Sharpening Foundations check",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bsf-m01",
+                "concept_id": "sharpening.stone_setup",
+                "critical": true,
+                "prompt": "What should you do if the stone support moves?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Continue more slowly"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Stop and stabilize it"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Increase pressure"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Change to a finer grit"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Stable support is a prerequisite."
+              },
+              {
+                "id": "bsf-m02",
+                "concept_id": "sharpening.edge_bevel_contact",
+                "critical": true,
+                "prompt": "What is the purpose of marker on the edge bevel?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Decorate the blade"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Verify where the stone is contacting"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Measure HRC"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Prevent burr formation"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Ink removal visualizes bevel contact."
+              },
+              {
+                "id": "bsf-m03",
+                "concept_id": "sharpening.complete_edge_work",
+                "critical": true,
+                "prompt": "What matters more than a fixed pass count?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Complete edge coverage and feedback"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Speed"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Stone color"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Handle material"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "The required work varies with the sharpening system and starting condition."
+              },
+              {
+                "id": "bsf-m04",
+                "concept_id": "sharpening.burr_control",
+                "critical": true,
+                "prompt": "What is the correct burr target?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The largest possible burr"
+                  },
+                  {
+                    "id": "b",
+                    "text": "The smallest detectable continuous burr"
+                  },
+                  {
+                    "id": "c",
+                    "text": "A burr only in the middle"
+                  },
+                  {
+                    "id": "d",
+                    "text": "No apex contact"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The burr is evidence, not a feature to maximize."
+              },
+              {
+                "id": "bsf-m05",
+                "concept_id": "sharpening.deburr_and_test",
+                "critical": true,
+                "prompt": "What makes a final test more reliable?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Paper alone"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Combining burr/light inspection with controlled paper and suitable food tests"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Touching the apex directly"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Counting strokes"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Multiple checks reduce the chance of mistaking a wire edge for a stable apex."
+              }
+            ]
+          }
         },
         {
           "id": "base-customer-discovery",
