@@ -3,6 +3,7 @@ name: Export multilingual guide
 on:
   workflow_dispatch:
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
     paths:
       - ".github/workflows/export-multilingual.yml"
       - "content/en/**"
@@ -10,13 +11,10 @@ on:
       - "glossaries/**"
       - "localization/**"
       - "mkdocs.yml"
-      - "scripts/auto_translate.py"
-      - "scripts/translation_engine.py"
-      - "scripts/translation_terminology.py"
-      - "scripts/test_translation_terminology.py"
-      - "scripts/repair_translated_html.py"
-      - "scripts/test_repair_translated_html.py"
+      - "scripts/chatgpt_translate.py"
+      - "scripts/test_chatgpt_translate.py"
       - "scripts/centralize_bibliography.py"
+      - "scripts/publication_locales.py"
       - "requirements-translation.txt"
       - "scripts/publish_multilingual.ps1"
       - "publish-guide.cmd"
@@ -57,13 +55,10 @@ jobs:
         run: |
           test -f publish-guide.cmd
           test -f PUBLISHING_GUIDE.md
-          test -f scripts/auto_translate.py
-          test -f scripts/translation_engine.py
-          test -f scripts/translation_terminology.py
-          test -f scripts/test_translation_terminology.py
-          test -f scripts/repair_translated_html.py
-          test -f scripts/test_repair_translated_html.py
+          test -f scripts/chatgpt_translate.py
+          test -f scripts/test_chatgpt_translate.py
           test -f scripts/centralize_bibliography.py
+          test -f scripts/publication_locales.py
           test -f requirements-translation.txt
           test -f glossaries/master-terms.yml
 
@@ -89,67 +84,38 @@ jobs:
       - name: Install documentation dependencies
         run: pip install -r requirements-docs.txt
 
-      - name: Validate translation regression cases
-        run: |
-          python scripts/test_repair_translated_html.py
-          python scripts/test_translation_terminology.py
-
-      - name: Cache local translation models
-        uses: actions/cache@v5
-        with:
-          path: ~/.cache/huggingface
-          key: hf-marian-${{ runner.os }}-${{ hashFiles('requirements-translation.txt') }}
-          restore-keys: |
-            hf-marian-${{ runner.os }}-
-
-      - name: Install local translation dependencies
-        run: |
-          python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch>=2.2,<3"
-          python -m pip install -r requirements-translation.txt
+      - name: Validate differential translation regression cases
+        run: python scripts/test_chatgpt_translate.py
+          python scripts/test_publication_locales.py
 
       - name: Centralize bibliography in English source
         run: python scripts/centralize_bibliography.py
 
-      - name: Resolve translation base revision
-        id: translation-base
+      - name: Resolve publication-ready languages
         shell: bash
         run: |
           set -euo pipefail
-          base="$(git rev-parse HEAD^1)"
+          ready_locales="$(python scripts/publication_locales.py --format space)"
+          echo "READY_LOCALES=$ready_locales" >> "$GITHUB_ENV"
+          echo "Exporting ready locales: $ready_locales"
+          python scripts/publication_locales.py --explain
 
-          # If this commit changes no English source or glossary, it may be a
-          # recovery/CI-only commit following a failed publication. Walk back to
-          # the most recent source-changing commit and use that commit's parent,
-          # so stale translations cannot be rehashed as current without actually
-          # translating the missed source changes.
-          if git diff --quiet "$base" HEAD -- content/en glossaries; then
-            cursor="$base"
-            for _ in $(seq 1 50); do
-              parent="$(git rev-parse "${cursor}^1" 2>/dev/null || true)"
-              if [ -z "$parent" ]; then
-                break
-              fi
-              if ! git diff --quiet "$parent" "$cursor" -- content/en glossaries; then
-                base="$parent"
-                break
-              fi
-              cursor="$parent"
-            done
+      - name: Verify ready translations are current and ChatGPT-generated
+        shell: bash
+        run: |
+          set -euo pipefail
+          non_english=""
+          for locale in $READY_LOCALES; do
+            if [ "$locale" != "en" ]; then
+              non_english="$non_english $locale"
+            fi
+          done
+          if [ -n "${non_english// /}" ]; then
+            python scripts/chatgpt_translate.py --check-only --locales $non_english
           fi
 
-          echo "Resolved translation base: $base"
-          echo "sha=$base" >> "$GITHUB_OUTPUT"
-
-      - name: Refresh stale active translations locally
-        env:
-          TRANSLATION_BASE_SHA: ${{ steps.translation-base.outputs.sha }}
-        run: python scripts/auto_translate.py
-
-      - name: Repair translated raw HTML
-        run: python scripts/repair_translated_html.py
-
-      - name: Build every configured language from refreshed translations
-        run: python scripts/multilingual_site.py --require-translations
+      - name: Build publication-ready languages from committed translations
+        run: python scripts/multilingual_site.py --require-translations --locales $READY_LOCALES
 
       - name: Prepare export package
         shell: bash
@@ -164,9 +130,9 @@ jobs:
           html/      Complete built website for every configured active locale.
           markdown/  Per-locale source trees used to build the site.
 
-          English remains the source of truth. Stale active translations are refreshed locally before export and may require human review.
+          English remains the source of truth. Each non-English locale is included automatically only when its committed ChatGPT translation is complete and current.
           Bibliographic lists are centralized into the final Bibliography chapter before export.
-          No translation API key or paid translation API is used.
+          Export itself makes no translation API calls.
           Image rights may differ from the written-content license; see the repository IMAGE_RIGHTS.md.
           EOF
 

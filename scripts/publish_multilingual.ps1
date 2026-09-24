@@ -71,7 +71,7 @@ if (-not $SkipLocalValidation) {
     Write-Host "Validating English and all committed translations locally..."
     python scripts/multilingual_site.py --require-translations
     if ($LASTEXITCODE -ne 0) {
-        Stop-WithMessage "Multilingual validation failed. Ask Claude Code to refresh the missing/stale translations before publishing. Nothing was committed or pushed."
+        Stop-WithMessage "Multilingual validation failed. Run the 'Translate book with OpenAI' workflow to refresh missing/stale translations before publishing. Nothing was committed or pushed."
     }
 }
 

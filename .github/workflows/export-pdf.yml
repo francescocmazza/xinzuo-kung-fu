@@ -4,14 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       language:
-        description: "Language to export ('all' builds one PDF per active language)"
-        type: choice
+        description: "Locale code to export, or 'all' for every publication-ready language"
+        type: string
         default: all
-        options:
-          - all
-          - en
-          - it
-          - zh-Hans
       placeholders:
         description: "Editorial IMAGE PLACEHOLDER boxes in the printed guide"
         type: choice
@@ -20,6 +15,7 @@ on:
           - hide
           - show
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
     paths:
       - "content/en/**/*.md"
       - "content/en/assets/**"
@@ -27,9 +23,11 @@ on:
       - "mkdocs.yml"
       - "localization/**"
       - "scripts/multilingual_site.py"
-      - "scripts/auto_translate.py"
+      - "scripts/chatgpt_translate.py"
+      - "scripts/test_chatgpt_translate.py"
       - "scripts/centralize_bibliography.py"
       - "scripts/publication_metadata.py"
+      - "scripts/publication_locales.py"
       - "scripts/export_pdf_guides.py"
       - "scripts/pdf_export/**"
       - "requirements-pdf.txt"
@@ -72,15 +70,13 @@ jobs:
       - name: Centralize bibliography in English source
         run: python scripts/centralize_bibliography.py
 
-      - name: Install local translation dependencies
-        if: github.event_name == 'workflow_dispatch' && inputs.language != 'en'
+      - name: Validate translation tooling and resolve ready languages
+        shell: bash
         run: |
-          python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch>=2.2,<3"
-          python -m pip install -r requirements-translation.txt
-
-      - name: Refresh stale active translations locally
-        if: github.event_name == 'workflow_dispatch' && inputs.language != 'en'
-        run: python scripts/auto_translate.py
+          set -euo pipefail
+          python scripts/test_chatgpt_translate.py
+          python scripts/test_publication_locales.py
+          python scripts/publication_locales.py --explain
 
       - name: Apply A5 publication profile
         run: python scripts/pdf_export/apply_a5_profile.py

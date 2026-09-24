@@ -10,16 +10,16 @@ on:
       - "glossaries/**"
       - "localization/**"
       - "scripts/multilingual_site.py"
-      - "scripts/auto_translate.py"
-      - "scripts/repair_translated_html.py"
+      - "scripts/chatgpt_translate.py"
+      - "scripts/test_chatgpt_translate.py"
       - "scripts/centralize_bibliography.py"
       - "scripts/publication_metadata.py"
+      - "scripts/publication_locales.py"
       - "scripts/export_pdf_guides.py"
       - "scripts/pdf_export/**"
       - "mkdocs.yml"
       - "requirements-docs.txt"
       - "requirements-pdf.txt"
-      - "requirements-translation.txt"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -60,8 +60,9 @@ jobs:
 
           # Historical vXYZ releases have already been audited once and are
           # represented by LEGACY_COMPLETE_REVISION_COUNT. From the new system
-          # onward, a revision is complete only when all six expected assets
-          # exist with their canonical Revision-N filenames.
+          # onward, a revision is complete when its own SHA256 manifest exactly
+          # matches the uploaded assets and the canonical EN/HTML/Markdown files exist.
+          # The number of language PDFs is intentionally dynamic.
           while IFS= read -r tag; do
             if [[ "$tag" =~ ^revision-([0-9]+)$ ]]; then
               revision=$((10#${BASH_REMATCH[1]}))
@@ -82,21 +83,29 @@ jobs:
           else
             revision_slug="Revision-${highest_revision}"
             tag="revision-${highest_revision}"
+            asset_dir="$(mktemp -d)"
             gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > current-revision-assets.txt
-            printf '%s\n' \
-              "SHA256SUMS.txt" \
-              "The-Gongfu-of-Xinzuo-EN-${revision_slug}.pdf" \
-              "The-Gongfu-of-Xinzuo-IT-${revision_slug}.pdf" \
-              "The-Gongfu-of-Xinzuo-ZH-HANS-${revision_slug}.pdf" \
-              "the-gongfu-of-xinzuo-${revision_slug}-html.zip" \
-              "the-gongfu-of-xinzuo-${revision_slug}-markdown.zip" | sort > expected-current-revision-assets.txt
 
-            if diff -q expected-current-revision-assets.txt current-revision-assets.txt >/dev/null 2>&1; then
+            previous_complete=false
+            if gh release download "$tag" --repo "$REPOSITORY" --pattern "SHA256SUMS.txt" --dir "$asset_dir" >/dev/null 2>&1; then
+              awk '{print $2}' "$asset_dir/SHA256SUMS.txt" | sed 's/^\*//' | sort > manifest-assets.txt
+              printf '%s\n' "SHA256SUMS.txt" >> manifest-assets.txt
+              sort -u manifest-assets.txt -o manifest-assets.txt
+              if diff -q manifest-assets.txt current-revision-assets.txt >/dev/null 2>&1 \
+                 && grep -q "^The-Gongfu-of-Xinzuo-EN-${revision_slug}\.pdf$" current-revision-assets.txt \
+                 && grep -q "^the-gongfu-of-xinzuo-${revision_slug}-html\.zip$" current-revision-assets.txt \
+                 && grep -q "^the-gongfu-of-xinzuo-${revision_slug}-markdown\.zip$" current-revision-assets.txt; then
+                previous_complete=true
+              fi
+            fi
+            rm -rf "$asset_dir"
+
+            if [ "$previous_complete" = "true" ]; then
               publication_revision=$((highest_revision + 1))
               echo "Latest complete publication is Revision ${highest_revision}; next is Revision ${publication_revision}."
             else
               publication_revision="$highest_revision"
-              echo "Revision ${highest_revision} is incomplete or has non-canonical assets; reusing Revision ${publication_revision}."
+              echo "Revision ${highest_revision} is incomplete; reusing Revision ${publication_revision}."
             fi
           fi
 
@@ -106,97 +115,49 @@ jobs:
       - name: Install documentation and PDF dependencies
         run: pip install -r requirements-pdf.txt
 
-      - name: Install local translation dependencies
-        run: |
-          python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch>=2.2,<3"
-          python -m pip install -r requirements-translation.txt
-
-      - name: Centralize bibliography in English source
-        run: python scripts/centralize_bibliography.py
-
-      - name: Resolve translation base revision
-        id: translation-base
+      - name: Resolve publication-ready languages
         shell: bash
         run: |
           set -euo pipefail
-          base="$(git rev-parse HEAD^1)"
-
-          # A CI/recovery-only commit may follow a source-changing commit whose
-          # publication failed before refreshed translations were committed. If
-          # HEAD itself changes no English source or glossary, walk back to the
-          # most recent source-changing commit and use that commit's parent. This
-          # prevents stale translations from merely receiving a new source hash.
-          if git diff --quiet "$base" HEAD -- content/en glossaries; then
-            cursor="$base"
-            for _ in $(seq 1 50); do
-              parent="$(git rev-parse "${cursor}^1" 2>/dev/null || true)"
-              if [ -z "$parent" ]; then
-                break
-              fi
-              if ! git diff --quiet "$parent" "$cursor" -- content/en glossaries; then
-                base="$parent"
-                break
-              fi
-              cursor="$parent"
-            done
+          ready_locales="$(python scripts/publication_locales.py --format space)"
+          if [ -z "$ready_locales" ]; then
+            echo "No publication-ready locales were resolved." >&2
+            exit 1
           fi
+          echo "READY_LOCALES=$ready_locales" >> "$GITHUB_ENV"
+          echo "Publication-ready locales: $ready_locales"
+          python scripts/publication_locales.py --explain
 
-          echo "Resolved translation base: $base"
-          echo "sha=$base" >> "$GITHUB_OUTPUT"
 
-      - name: Refresh stale active translations
-        env:
-          TRANSLATION_BASE_SHA: ${{ steps.translation-base.outputs.sha }}
-        run: python scripts/auto_translate.py
-
-      - name: Repair translated raw HTML
-        run: python scripts/repair_translated_html.py
-
-      - name: Commit refreshed source and translations without retriggering CI
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      - name: Verify English bibliography is already centralized
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- content/en translations; then
-            echo "No source or translation files changed."
-            exit 0
+          python scripts/centralize_bibliography.py
+          if ! git diff --quiet -- content/en; then
+            echo "English source changed during publication normalization. Run the ChatGPT translation workflow and merge its PR before publishing." >&2
+            git diff -- content/en
+            exit 1
           fi
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/en translations
-          git commit -m "Auto-centralize bibliography and refresh translations [skip ci]"
-
-          for attempt in 1 2 3; do
-            if git push origin HEAD:main; then
-              echo "Source and translations pushed successfully."
-              exit 0
+      - name: Validate committed ChatGPT translations for ready languages
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/test_chatgpt_translate.py
+          python scripts/test_publication_locales.py
+          non_english=""
+          for locale in $READY_LOCALES; do
+            if [ "$locale" != "en" ]; then
+              non_english="$non_english $locale"
             fi
-
-            if [ "$attempt" -eq 3 ]; then
-              echo "Unable to publish generated source/translations after 3 attempts because main kept changing." >&2
-              exit 1
-            fi
-
-            echo "main advanced while publication files were being generated; resynchronizing with the latest main (attempt $((attempt + 1))/3)."
-            git fetch origin main
-            git reset --hard origin/main
-
-            python scripts/centralize_bibliography.py
-            TRANSLATION_BASE_SHA=0000000000000000000000000000000000000000 python scripts/auto_translate.py
-            python scripts/repair_translated_html.py
-
-            if git diff --quiet -- content/en translations; then
-              echo "Latest main already contains current source and translations; no push is required."
-              exit 0
-            fi
-
-            git add content/en translations
-            git commit -m "Auto-centralize bibliography and refresh translations [skip ci]"
           done
+          if [ -n "${non_english// /}" ]; then
+            python scripts/chatgpt_translate.py --check-only --locales $non_english
+          fi
 
-      - name: Validate and build every configured language
-        run: python scripts/multilingual_site.py --require-translations
+      - name: Build publication-ready languages
+        run: python scripts/multilingual_site.py --require-translations --locales $READY_LOCALES
 
       - name: Install Playwright Chromium and CJK fonts
         run: |
@@ -210,7 +171,7 @@ jobs:
       - name: Export current PDFs
         run: |
           python scripts/export_pdf_guides.py \
-            --locales all \
+            --locales $READY_LOCALES \
             --placeholders hide \
             --output-dir release-assets/pdf
 
@@ -246,7 +207,7 @@ jobs:
           tag="revision-${revision}"
           title="The Gongfu of Xinzuo — ${revision_label} — ${publication_date}"
           source_sha="$(git rev-parse HEAD)"
-          notes="${revision_label}. Automatically published from main on ${publication_date}. Source commit: ${source_sha}. Revision numbers count complete published editions only; commits and failed publication attempts do not consume a revision number."
+          notes="${revision_label}. Automatically published from main on ${publication_date}. Languages: ${READY_LOCALES}. Source commit: ${source_sha}. Revision numbers count complete published editions only; commits and failed publication attempts do not consume a revision number."
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -294,19 +255,14 @@ jobs:
           revision_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().revision_label)')"
           revision_slug="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().revision_slug)')"
           tag="revision-${revision}"
-          asset_count="$(gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets | length')"
-          if [ "$asset_count" -ne 6 ]; then
-            echo "Expected exactly 6 downloadable assets for ${revision_label}, found $asset_count." >&2
+          gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > actual-assets.txt
+          python scripts/publication_locales.py --expected-assets "$revision_slug" | sort > expected-assets.txt
+          expected_count="$(wc -l < expected-assets.txt | tr -d ' ')"
+          asset_count="$(wc -l < actual-assets.txt | tr -d ' ')"
+          if [ "$asset_count" -ne "$expected_count" ]; then
+            echo "Expected $expected_count downloadable assets for ${revision_label}, found $asset_count." >&2
             exit 1
           fi
-          gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > actual-assets.txt
-          printf '%s\n' \
-            "SHA256SUMS.txt" \
-            "The-Gongfu-of-Xinzuo-EN-${revision_slug}.pdf" \
-            "The-Gongfu-of-Xinzuo-IT-${revision_slug}.pdf" \
-            "The-Gongfu-of-Xinzuo-ZH-HANS-${revision_slug}.pdf" \
-            "the-gongfu-of-xinzuo-${revision_slug}-html.zip" \
-            "the-gongfu-of-xinzuo-${revision_slug}-markdown.zip" | sort > expected-assets.txt
           diff -u expected-assets.txt actual-assets.txt
 
           latest_tag="$(gh api "repos/${REPOSITORY}/releases/latest" --jq '.tag_name')"

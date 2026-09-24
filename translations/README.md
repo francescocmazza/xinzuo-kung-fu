@@ -1,9 +1,15 @@
 # Translation workflow
 
-English under `content/en/` is the source of truth for every active language edition.
+English under `content/en/` is the source of truth for every language edition.
 
-Translations should preserve technical meaning, chapter structure, cross-references and controlled terminology while reading naturally in the target language. They must not mechanically reproduce English word order when that produces an awkward sentence.
+The repository does **not** call a translation API. `scripts/chatgpt_translate.py` splits English pages into semantic `tx-unit` blocks, compares them with the committed translation memory and generates a deterministic queue containing only blocks that are new or changed.
 
-In particular, the sentence-level linearity rules in `EDITORIAL_REQUIREMENTS.md` apply to translations as well: complete the main proposition in the order that is natural for the target language, then place comparisons, limitations, conditions and exceptions where a human reader can resolve them most easily.
+That queue is translated in ChatGPT or Codex using the user's normal ChatGPT plan. The completed results are written back to the translated Markdown and validated before publication. Unchanged target units are reused exactly, so later human corrections survive until the corresponding English unit changes.
 
-Automatic translation output remains subject to validation and may be manually corrected when necessary for technical accuracy, terminology or natural prose. HTML and image references must remain structurally valid so the multilingual site and PDF workflows can reuse the same approved visual assets.
+Human corrections are expected and supported. Keep the surrounding `tx-unit` comments intact.
+
+Translations must preserve technical meaning, chapter structure, cross-references, protected Markdown/HTML structure and the controlled terminology in `glossaries/master-terms.yml`, while reading as native editorial prose rather than translated English.
+
+The retired Marian/OPUS-MT pipeline is not an approved fallback. Publication and export workflows only consume committed, current ChatGPT translations and fail closed when a translation is missing, stale or from the retired engine.
+
+See `PUBLISHING_GUIDE.md` for the complete workflow.

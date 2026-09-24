@@ -1,41 +1,52 @@
 source_locale: en
 locale_standard: BCP-47
-translation_engine: local Marian OPUS-MT models in GitHub Actions with committed translation memory
+translation_engine: ChatGPT-assisted differential tx-unit translation memory; GitHub performs no model API calls
 translation_policy: translations are derived from and never replace the English source of truth
 
 locales:
   en:
     name: English
+    publish_when_complete: true
     status: source
     direction: ltr
     deploy: true
     mkdocs_language: en
   it:
     name: Italiano
+    publish_when_complete: true
     status: committed
     direction: ltr
     deploy: true
     mkdocs_language: it
+    translation_guidance: >-
+      Write polished native Italian editorial prose, not translated-sounding Italian.
+      Prefer terminology actually used in Italian professional cooking, cutlery,
+      sharpening and metallurgy. Avoid English syntactic calques, unnecessary
+      anglicisms and literal renderings when an established Italian expression exists.
   es:
     name: Español
+    publish_when_complete: true
     status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: es
   de:
     name: Deutsch
+    publish_when_complete: true
     status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: de
   fr:
     name: Français
+    publish_when_complete: true
     status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: fr
   ja:
     name: 日本語
+    publish_when_complete: true
     status: inactive
     direction: ltr
     deploy: false
@@ -43,13 +54,19 @@ locales:
     specialist_review_required: true
   zh-Hans:
     name: 简体中文
+    publish_when_complete: true
     status: committed
     direction: ltr
     deploy: true
     mkdocs_language: zh
     specialist_review_required: true
+    translation_guidance: >-
+      Write natural professional Simplified Chinese for readers of technical culinary
+      and knife literature. Prefer established Chinese knife and metallurgy terminology,
+      preserve technical distinctions precisely and avoid literal English sentence order.
   zh-Hant:
     name: 繁體中文
+    publish_when_complete: true
     status: inactive
     direction: ltr
     deploy: false
@@ -57,36 +74,56 @@ locales:
     specialist_review_required: true
   pt:
     name: Português
+    publish_when_complete: true
     status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: pt
   pl:
     name: Polski
+    publish_when_complete: true
     status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: pl
   cs:
     name: Čeština
+    publish_when_complete: true
     status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: cs
   nl:
     name: Nederlands
+    publish_when_complete: true
     status: inactive
     direction: ltr
     deploy: false
     mkdocs_language: nl
+    translation_guidance: >-
+      Write polished, natural Dutch editorial prose for readers interested in
+      professional cooking, kitchen knives, sharpening and metallurgy. Prefer
+      established Dutch technical terminology and avoid literal English syntax.
+    pdf_cover:
+      title: The Gongfu of Xinzuo
+      subtitle: Een praktische gids voor keukenmessen
+      strapline: Materialen, vormen en technieken voor meesterlijk snijden
+    pdf_edition:
+      heading: Editie en bijdragen
+      availability: Dit boek is gratis beschikbaar op GitHub. Opmerkingen, correcties en voorstellen voor verbetering zijn welkom.
+      contact: Als GitHub niet vertrouwd is, kunt u ook rechtstreeks naar de auteur schrijven.
+      version: Editie
+      published: Gepubliceerd / geëxporteerd
   ar:
     name: العربية
+    publish_when_complete: false
     status: inactive
     direction: rtl
     deploy: false
     mkdocs_language: ar
   he:
     name: עברית
+    publish_when_complete: false
     status: inactive
     direction: rtl
     deploy: false
@@ -101,10 +138,14 @@ export_formats:
 rules:
   - English is the sole source of truth.
   - Meaning changes must be made in English first.
-  - Every deployed translation must be refreshed when its English source hash changes.
-  - CI refreshes stale active translations locally before strict validation; no translation API key or paid translation API is required.
-  - Unchanged translated lines are reused whenever the previous English source is available.
+  - A non-English locale is published automatically only when every translated page is complete, current and structurally valid.
+  - GitHub prepares a deterministic queue containing only missing or changed tx-unit blocks.
+  - ChatGPT or Codex translates that queue using the user's ChatGPT plan; the repository makes no model API calls.
+  - Incomplete locales never block already complete languages; they are skipped until they become publication-ready.
+  - Publication never translates on the fly and never falls back to the legacy Marian/OPUS-MT engine.
+  - Unchanged tx-unit blocks are reused exactly, including human corrections.
+  - No OPENAI_API_KEY or API billing is required anywhere in the repository workflow.
   - Every committed translated page displays a visible review notice.
   - Machine-updated translations require human review, especially Simplified Chinese specialist terminology.
   - CJK PDF exports require fonts with full Unicode coverage.
-  - Right-to-left support remains reserved for future inactive locales.
+  - Left-to-right configured locales may publish automatically when complete; right-to-left locales remain opt-out until the RTL publication path is explicitly enabled.

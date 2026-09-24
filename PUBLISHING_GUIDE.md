@@ -1,219 +1,215 @@
-# Publishing and exporting the multilingual guide
+# Publishing and translating the multilingual guide
 
-English under `content/en/` is the only source of truth. Active translations live under `translations/<locale>/` and are automatically refreshed by GitHub Actions when the English source changes.
+English under `content/en/` is the only source of truth. Active translations live under `translations/<locale>/` and are committed to Git so they can be reviewed exactly like any other book change.
 
-## Current active languages
+## Publication-ready languages
 
-The current publication scope is intentionally limited to:
+English (`en`) is always published. Every configured non-English locale with `publish_when_complete: true` is published **automatically as soon as its complete committed translation is current and structurally valid**.
 
-- English (`en`) — source of truth
-- Italian (`it`)
-- Simplified Chinese (`zh-Hans`)
+Publication is therefore dynamic rather than controlled by a fixed language list. An incomplete language is simply skipped and never blocks languages that are already ready. For example, the book can publish English and Italian while Simplified Chinese is still being translated; as soon as Simplified Chinese reaches 100%, the next publication automatically includes its website and PDF too. The same rule applies to future languages such as Dutch.
 
-Other locale definitions remain inactive. They are not deployed, validated, automatically translated, exported, or offered by the PDF workflow unless deliberately activated later.
+The current translation set includes Italian and Simplified Chinese. Other left-to-right locales are prepared for the same publish-when-complete mechanism. Right-to-left locales remain excluded from automatic publication until the RTL publication path is explicitly enabled.
+
+## Core rule: no translation API and no API credits
+
+The repository never calls the OpenAI API or any other paid translation API.
+
+GitHub performs only deterministic work:
+
+1. split English Markdown into semantic translation units;
+2. compare those units with committed translation memory;
+3. create `.translation/queue.json` containing only missing or changed units;
+4. validate completed translations;
+5. classify each configured locale as READY or WAIT;
+6. publish only the READY set, while incomplete locales remain in the translation queue.
+
+The actual language work is performed in ChatGPT or Codex using the user's ChatGPT plan. This uses the plan's included ChatGPT/agentic allowance rather than API billing. If the included allowance is exhausted, the workflow can wait for the plan reset rather than buying API credits.
+
+## Differential translation memory
+
+Each translated semantic block is wrapped in invisible HTML comments:
+
+~~~text
+<!-- tx-unit:<hash> -->
+translated text
+<!-- /tx-unit -->
+~~~
+
+The key depends on:
+
+- the English block;
+- the target locale;
+- the translation prompt revision;
+- the locale-specific writing guidance;
+- only the controlled glossary terms relevant to that block.
+
+An unchanged English block therefore reuses its existing translated text exactly, including later human edits. A change to one paragraph does not force the rest of the page or book to be translated again.
+
+The first migration from the retired translation system is necessarily a full regeneration because the legacy files have no `tx-unit` memory.
+
+## Translation queue
+
+The workflow **Prepare ChatGPT translation queue** runs on trusted pull requests and creates:
+
+~~~text
+.translation/queue.json
+~~~
+
+The queue includes, for each affected page/language:
+
+- target locale and language;
+- full English page context;
+- target-language editorial guidance;
+- only the units that actually need translation;
+- protected placeholder tokens;
+- only the glossary entries relevant to each unit;
+- the deterministic unit key that must be returned with the translated text.
+
+The queue is also uploaded as a GitHub Actions artifact.
+
+## How translation is performed
+
+A ChatGPT/Codex translation session reads the queue and produces publication-quality target text.
+
+For each queued unit it should:
+
+- preserve every factual distinction and degree of certainty;
+- use natural native-language editorial prose rather than literal English syntax;
+- respect the supplied specialist knife/metallurgy terminology;
+- preserve placeholder tokens exactly and in order;
+- avoid omissions, added claims and marketing embellishment;
+- translate headings, captions and labels unless they are genuine names/titles;
+- keep bibliographic work titles in the source language where appropriate.
+
+A second review pass inside the ChatGPT task should check meaning, terminology, fluency, omissions/additions and untranslated reader-facing text before results are committed.
+
+## Applying results
+
+The deterministic helper can apply a completed result JSON:
+
+~~~bash
+python scripts/chatgpt_translate.py --apply-results translation-results.json
+~~~
+
+It restores protected HTML/URLs/code/math, writes the translated Markdown with `tx-unit` markers and validates it.
+
+Normal validation is:
+
+~~~bash
+python scripts/chatgpt_translate.py --check-only
+python scripts/multilingual_site.py --require-translations
+~~~
+
+Generate a queue locally with:
+
+~~~bash
+python scripts/chatgpt_translate.py --prepare-queue .translation/queue.json
+~~~
+
+No API key is required for any command.
 
 ## Normal publishing routine
 
 For an ordinary content change:
 
-1. Edit the English source under `content/en/`.
-2. Choose **Create a new branch for this commit and start a pull request** rather than committing an unfinished English change directly to `main`.
-3. GitHub Actions detects which active translations became stale.
-4. `scripts/auto_translate.py` refreshes only stale/missing active pages using local Marian/OPUS-MT models.
-5. Where the previous English source and existing translation have matching line structure, unchanged translated lines are reused and only changed/inserted English lines are machine-translated.
-6. Simplified Chinese is explicitly generated as Simplified Mandarin (`cmn_Hans`).
-7. Strict multilingual validation runs after the refresh. The PR must report `0 missing, 0 stale`.
-8. Merge the PR when the English edit and checks are correct.
-9. On the resulting push to `main`, the publication workflow locks the next revision number, refreshes translations, builds every active language, exports the PDFs and downloadable packages, publishes the numbered GitHub Release and deploys GitHub Pages.
+1. edit English under `content/en/`;
+2. create a branch and PR;
+3. **Prepare ChatGPT translation queue** creates/updates `.translation/queue.json`;
+4. ask ChatGPT/Codex to process the translation queue for that PR;
+5. the completed translation files are committed into the same PR;
+6. review the translation diff where appropriate;
+7. merge only after translation checks are green;
+8. the `main` publication workflow resolves the READY locale set and builds only those languages;
+9. one PDF is generated automatically for every READY locale and attached to the numbered GitHub Release.
 
-You therefore do **not** need to manually ask Claude Code to translate Italian and Chinese after every English edit.
+Publication never generates a translation itself.
 
-## Translation engine and cost
+## Working directly from ChatGPT
 
-Automatic translation uses these local open-source models:
+With the repository connected, a practical instruction is:
 
-- `Helsinki-NLP/opus-mt-en-it`
-- `Helsinki-NLP/opus-mt-en-zh`
+~~~text
+Process the translation queue in PR #<number>. Translate all queued units,
+review them for technical accuracy and natural target-language prose,
+write the completed translations back to the PR, and run the translation checks.
+~~~
 
-They run inside the GitHub Actions runner through Transformers/PyTorch and are cached between runs when possible.
+This is the default workflow for this project. It avoids API billing entirely.
 
-There is no OpenAI API, GitHub Models API, translation API key, or paid translation API in this workflow. The model checkpoints are downloaded from Hugging Face when they are not already cached.
+## Optional Work/Codex automation
 
-Machine translation is still subject to review. This is especially important for specialist Chinese knife terminology and any technical statement where a wording difference could change the meaning.
+Eligible ChatGPT accounts can use GitHub pull-request activity as an event trigger in ChatGPT Work. This can be used later to automatically notice a PR update and start a translation task.
 
-## Why the previous `index.md` edit failed
+Codex is also available through ChatGPT plans and is appropriate when the task needs to run repository commands and commit changes.
 
-Each translated Markdown file contains a `source_hash`. The build system calculates the expected hash from:
+These are ChatGPT product workflows, not OpenAI API calls. Their usage is governed by the ChatGPT plan allowance.
 
-- the English source page;
-- the target locale;
-- the translation schema version;
-- the controlled glossary.
+## Human corrections
 
-Before automatic refresh existed, changing even one English sentence immediately made the corresponding Italian and Simplified Chinese files stale. Pull-request validation then failed intentionally rather than publishing an old translation.
+A linguistic correction may be made directly inside a translated `tx-unit` when the English meaning is already correct. Leave the surrounding comments intact.
 
-The protection remains in place. The difference is that CI now refreshes the stale translations **before** strict validation.
+Because the unit key is derived from English, the corrected target wording is reused until that English block changes.
 
-## Translation files and stale-page protection
+If the meaning itself is wrong, edit English first.
 
-The active translation tree mirrors `content/en/`, for example:
+## Controlled terminology
 
-```text
-content/en/10-sharpening/the-burr.md
-translations/it/10-sharpening/the-burr.md
-translations/zh-Hans/10-sharpening/the-burr.md
-```
+`glossaries/master-terms.yml` remains the controlled vocabulary for knife anatomy, metallurgy, sharpening, ergonomics and established knife names.
 
-Strict validation is still performed with:
+Only glossary rows relevant to a queued unit are included with that translation task. Updating a technical term therefore invalidates only units that use it instead of the entire book.
 
-```text
-python scripts/multilingual_site.py --require-translations
-```
+## Adding other languages
 
-A successful active-language run must report:
+The queue generator can target any configured locale:
 
-```text
-0 missing
-0 stale
-```
+~~~bash
+python scripts/chatgpt_translate.py \
+  --prepare-queue .translation/queue.json \
+  --locales es fr de
+~~~
 
-The automatic refresh command is:
+For left-to-right locales configured with `publish_when_complete: true`, no later workflow edit is required: once every page passes the translation validator, `scripts/publication_locales.py` automatically promotes the locale into the website, downloadable packages and PDF release. Locale-specific PDF cover/edition copy can be supplied in `localization/locales.yml`; Dutch is already prepared as an example.
 
-```text
-python scripts/auto_translate.py
-```
+## Publication and exports
 
-Running it locally requires the dependencies in `requirements-translation.txt` plus a CPU-compatible PyTorch installation. For routine browser-based editing, letting GitHub Actions run it is simpler.
+**Publish book, PDFs and GitHub Pages**, **Export PDF guides** and **Export multilingual guide** consume committed translations only.
 
-## What the automatic translator preserves
+Publication first runs `scripts/publication_locales.py`. A locale is READY only when every English Markdown source has a complete, current and structurally valid ChatGPT translation. Missing, stale, legacy or malformed translations make **that locale** WAIT; they do not block other READY languages.
 
-The helper is deliberately conservative. It attempts to preserve:
+The release asset list is dynamic: checksum + HTML package + Markdown package + one PDF for every READY locale. When a new language becomes complete, the next Revision gains its PDF automatically.
 
-- unchanged translated lines;
-- Markdown headings and list markers;
-- links and link destinations;
-- inline code;
-- URLs;
-- HTML tags;
-- inline math;
-- fenced code blocks and commands;
-- Markdown table structure;
-- existing translation wording when an English edit is formatting-only and does not change meaning.
+This separation is deliberate: translation is reviewable content work; publication is deterministic packaging and deployment.
 
-If a page cannot safely reuse the previous line alignment, the helper falls back to translating the current page rather than marking an unknown/outdated translation as current.
+## Revision numbers
 
-## Human corrections to a translation
+Website pages, PDFs and release packages use `scripts/publication_metadata.py`.
 
-English remains authoritative, but a purely linguistic improvement to Italian or Simplified Chinese may still be committed directly to the matching file under `translations/` as long as it does not introduce a new technical or commercial claim.
+- Public nomenclature: `Revision N`.
+- Revision numbers count complete published editions, not commits or workflow attempts.
+- Historical numbered publications through legacy `v372` correspond to Revision 49.
+- The first new-style publication is Revision 50.
+- Failed or incomplete publication attempts do not consume a Revision number.
+- Translation PRs and ordinary commits do not consume a Revision number.
+- Publication date uses `Europe/Rome` and format `YYYY-MM-DD`.
 
-A human correction does not need to change the English source when the meaning is unchanged.
+## Key files
 
-If the English meaning is wrong, change English first and let the automatic refresh propagate the new source meaning.
+~~~text
+content/en/                                English source of truth
+translations/                              Committed localized Markdown + tx-unit memory
+.translation/queue.json                    Current deterministic translation queue
+glossaries/master-terms.yml                Controlled technical terminology
+localization/locales.yml                   Locale configuration and language guidance
+scripts/chatgpt_translate.py               Queue/apply/validation engine; no model calls
+scripts/test_chatgpt_translate.py          Differential translation regression tests
+scripts/multilingual_site.py               Source-hash validation and multilingual build
+scripts/publication_locales.py              READY/WAIT resolver + dynamic release asset list
+.github/workflows/translation-status.yml   Queue generation + translation status
+.github/workflows/pages.yml                Publication and GitHub Pages deployment
+.github/workflows/export-pdf.yml           PDF export
+.github/workflows/export-multilingual.yml  Multilingual package export
+~~~
 
-## Adding a new article
+## Retired translation systems
 
-1. Create the English `.md` page under the appropriate `content/en/` folder.
-2. Add it to `mkdocs.yml` if it should appear in navigation.
-3. Open a PR.
-4. Automatic translation creates the missing Italian and Simplified Chinese pages in the CI workspace and strict validation checks them.
-5. After merge, the `main` workflow commits the generated active translations to the repository and publishes the next complete revision.
-
-## Renaming, moving, or deleting an article
-
-Structural changes still need care because source and translation paths must remain aligned.
-
-For a rename/move, update the English path, navigation and internal links. Existing translated files should normally be renamed/moved correspondingly so reviewed wording can be retained. The automatic translator is intended primarily for content refresh and missing-page generation, not for guessing file-renaming intent.
-
-For deletion, remove the corresponding active translated files and update navigation/internal links.
-
-## Images
-
-Content images used by the English source belong under the approved asset structure, principally:
-
-```text
-content/en/assets/
-```
-
-Only original, properly licensed, or explicitly authorized images may be published. See `content/en/assets/IMAGE_RIGHTS.md`.
-
-## GitHub Pages deployment and complete revisions
-
-The public site and downloadable edition are published by:
-
-**Actions → Publish book, PDFs and GitHub Pages**
-
-On pull requests the supporting workflows refresh translations in the temporary Actions workspace and validate/export them, but they do not create a new revision.
-
-On `main` the publication workflow:
-
-1. counts completed historical publications and resolves one sequential **Revision** number;
-2. locks that Revision number for the entire workflow run;
-3. refreshes stale translations;
-4. commits changed translation files using `github-actions[bot]` when necessary;
-5. runs the strict multilingual build from the resulting committed state;
-6. exports the three PDFs and the HTML/Markdown packages;
-7. publishes and verifies the numbered GitHub Release;
-8. uploads the Pages artifact and deploys the site.
-
-The bot commit uses the repository `GITHUB_TOKEN`, preventing a recursive second push workflow while the current deployment continues. Because the Revision number is locked before that commit is created, automatic translation commits do not change the Revision number.
-
-## Downloadable multilingual export
-
-Go to **Actions → Export multilingual guide → Run workflow**.
-
-Before building, the workflow automatically refreshes stale active translations using the same local models. The resulting artifact contains:
-
-```text
-html/      complete built website for every active locale
-markdown/  per-locale source trees used for that build
-```
-
-This is an export operation, not a publication, so it does not consume a new Revision number.
-
-## Official GitHub Releases
-
-The normal `main` publication workflow creates one permanent GitHub Release for every complete Revision. New-style release tags use the machine-friendly form `revision-N`, while the reader-facing nomenclature is **Revision N**.
-
-A Revision is considered complete only when the release has the full publication package: English PDF, Italian PDF, Simplified Chinese PDF, HTML archive, Markdown archive and SHA-256 checksum file.
-
-The latest downloadable Revision is always available from the repository's **Releases** menu and the “Download the latest official release” link in `README.md`.
-
-The old manual semantic-version release workflow has been removed so it cannot create a parallel `v1.0.0`/`vXYZ` numbering scheme.
-
-## PDF export
-
-Go to **Actions → Export PDF guides → Run workflow** and choose:
-
-- `all`
-- `en`
-- `it`
-- `zh-Hans`
-
-For Italian, Simplified Chinese, or `all`, stale active translations are refreshed automatically before PDF generation. English-only PDF exports skip the translation-model installation.
-
-The generated artifact contains the current requested PDF guide(s). CJK exports continue to install Noto fonts for full character coverage. A manual/test PDF export reports the latest completed Revision; it does not reserve the next Revision.
-
-## Revision numbers and publication dates
-
-Website pages, PDFs and release packages use the shared publication metadata implementation in `scripts/publication_metadata.py`.
-
-- **Public nomenclature:** `Revision N`.
-- **Meaning:** `N` is the number of complete published revisions, not the number of commits, workflow runs or attempted releases.
-- Historical `edition-vXYZ` releases remain archived unchanged for traceability, but their `vXYZ` number is not carried into the new nomenclature.
-- There are **49 complete historical numbered publications through the legacy `v372` release**. Therefore that current legacy publication corresponds to **Revision 49**.
-- The first new-style publication is therefore **Revision 50**.
-- After that the sequence is strictly `Revision 50`, `Revision 51`, `Revision 52`, and so on.
-- Ordinary commits do not increment the Revision.
-- Failed publication attempts do not increment the Revision. If a new-style release is incomplete, the next publication attempt reuses the same Revision number.
-- Automatic translation commits created during publication do not change the locked Revision number.
-- **Date:** actual build/export date in `Europe/Rome`, formatted `YYYY-MM-DD`.
-
-## Important rules
-
-- English is always the source of truth.
-- Meaning changes must start in English.
-- Do not bypass strict multilingual validation.
-- Automatic translation removes the manual synchronization step; it does not remove the need for human review of important technical wording.
-- Simplified Chinese specialist terminology deserves extra review.
-- Inactive locales remain inactive until a model/review policy is deliberately configured for them.
-- Images and third-party material may have rights different from the written-content licence.
+Marian/OPUS-MT and the API-based translator are not part of the active architecture and must not be used as fallback paths. If ChatGPT translation has not been completed, publication fails rather than silently using a lower-quality translator.

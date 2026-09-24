@@ -1,21 +1,29 @@
 ---
 source_hash: cb9d6486a315011129d1e7a11c179b656d1f69be8adb372486baaf9accbbd6f2
-translation_engine: 2026-09-17-knife-terminology-v1
+translation_engine: chatgpt-differential-v1
+prompt_revision: 2026-09-23-technical-book-v2
 glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 ---
 
-# 厨房刀的解剖
-
-比较前 刀身 形状、钢或 刃磨 角度,将刀子理解为三个连接系统: 切割几何,支撑它的钢结构 和控制它的手界面。 以下名称是这些系统中每个特征的位置。
-
-并不是每把刀都有这章里命名的所有特征 下方爆炸的图像显示 全龙骨 建筑业。 亚洲隐藏...柄芯 处理器使用不同的结构,本章下文对此作了说明。
-
-## 从边缘到手
-
-固定的厨房刀子从刀身** 收到有关文件的日期。 它的前端结束于 **刀尖**; 上半边的无缝是刀背**; 宽的一面是刀面**; 尖锐的下边界是 **刃口**; 和后切割部分是 ** **刀根** 收到有关文件的日期。 通往边缘的斜坡几何是 **开刃面** 收到有关文件的日期。 可见纹理或抛光 刀面 是那个表面处理** 收到有关文件的日期。
-
-后面那个 刀身钢铁继续作为 **柄芯** 收到有关文件的日期。 在西方的很多刀子上 柄芯 在把手旁可见 并覆盖在两侧柄片**, 通常用粘合剂固定, **铆钉 ưμ㼯A 柄钉** 收到有关文件的日期。 许多西方菜刀也有金属刀枕** 之间 刀身 并处理。 把手的后端是 **柄尾** **柄尾帽** 收到有关文件的日期。
-
+<!-- tx-unit:b75633ec961f527d3b07c8e7b6e9dadda28766aa6f14c628455667cb75965718 -->
+# 厨房刀的结构
+<!-- /tx-unit -->
+<!-- tx-unit:55ce0c397f93f48efd8d0ac94181cb5a1e74a3d66ab48c07c50615ee320d66d0 -->
+在比较刀身形状、钢材或磨刃角度之前，先把一把刀理解成三个彼此连接的系统：负责切削的几何、支撑这种几何的钢结构，以及让手能够控制刀具的人机界面。下面的术语用于标明这些特征在三个系统中的位置。
+<!-- /tx-unit -->
+<!-- tx-unit:ed36cdd52320c7c918f1a8c4d7c28c345287847518c009c4f97e81a2d69cd588 -->
+并不是每把刀都会拥有本章列出的全部结构。下方爆炸图展示的是西式全龙骨结构。亚洲式隐藏式柄芯刀柄采用不同构造，本章后面会说明。
+<!-- /tx-unit -->
+<!-- tx-unit:44133898444aac6c42782c7d9a81b854bc077b9bbbf94b09f8490dd33ef94048 -->
+## 从刃口到手
+<!-- /tx-unit -->
+<!-- tx-unit:9bdbca1da49254e68fcb84e9e28b65e6b3f81fbc06505150879c8c6c721d9262 -->
+固定刃厨房刀首先由**刀身**构成。最前端是**刀尖**；上方通常不磨刃的一侧是**刀背**；宽阔侧面是**刀面**；下方经过磨削、实际切入食材的边界是**刃口**；切削区域后端是**刀根**。通向刃口的倾斜几何是**开刃面**。刀面上可见的纹理或抛光状态则是**表面处理**。
+<!-- /tx-unit -->
+<!-- tx-unit:bf25be9abfbcceb932c71f76a50eb67064257905513f8b124cf6524d19d34c3b -->
+刀身之后，钢材继续延伸形成**柄芯**。在许多西式刀上，柄芯沿刀柄轮廓可见，两侧覆盖**柄片**，通常通过胶黏剂和**铆钉或柄钉**固定。许多西式厨房刀在刀身与刀柄之间还设有金属**刀枕**。刀柄最后端则是**柄尾**或**柄尾帽**。
+<!-- /tx-unit -->
+<!-- tx-unit:be881f899e51d13979a61bccfcfb59104025f1a7c51fc531412c2844b0656ebf -->
 <figure class="kb-learning-figure" data-visual-id="VIS-ANATOMY-WESTERN-01">
 <div style="position:relative;width:100%;overflow:visible;background:#000000;">
 <img src="../../assets/images/approved/b13R schematics horizontalSmall copy.jpg" alt="" style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#000000;box-shadow:none;">
@@ -47,9 +55,9 @@ glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 <circle cx="96" cy="47.2" r=".55"/>
 </g>
 </svg>
-<span style="position:absolute;left:9%;top:45%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">柄尾 备注: 柄尾帽</span>
+<span style="position:absolute;left:9%;top:45%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">柄尾 / 柄尾帽</span>
 <span style="position:absolute;left:18%;top:13%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:22%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">柄片</span>
-<span style="position:absolute;left:34%;top:12%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">铆钉 备注: 柄钉</span>
+<span style="position:absolute;left:34%;top:12%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">铆钉 / 柄钉</span>
 <span style="position:absolute;left:42%;top:31%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">刀枕</span>
 <span style="position:absolute;left:31%;top:67%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">全龙骨</span>
 <span style="position:absolute;left:48%;top:72%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:16%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">刀根</span>
@@ -59,49 +67,70 @@ glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 <span style="position:absolute;left:69%;top:24%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:17%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">刀背</span>
 <span style="position:absolute;left:92%;top:30%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">刀尖</span>
 </div>
-<figcaption>西部爆炸 全龙骨 建筑业: 刀身, 全龙骨, 柄片 和加固的硬件分离 以显示手柄是如何组装的。</figcaption>
+<figcaption>西式全龙骨结构爆炸图：刀身、全龙骨、柄片和紧固件分开显示，以便看清刀柄的装配方式。</figcaption>
 </figure>
-
-## 刀身 术语
-
-** ** * * * * * * * * * * * ** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *刀尖# 是前门 # 刀身. . 。 它的形状会影响刀子进入小空间、分数表面或细微的方向校正的容易程度。 ** ** * * * * * * * * * * * ** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *刀背** 是上边,通常没有碎片的一面。 它的厚度和细微的向着 刀尖 影响僵硬度、平衡度和容易 刀身 通过食物。
-
-宽的一面是刀面** 收到有关文件的日期。 它不总是平的: 柔和的,空的, 覆层 转型和其他形态可以改变粮食如何与之对抗。 ** ** * * * * * * * * * * * ** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *表面处理** 是最后的纹理或表情,如、磨光、镜片、刷、刻或锤子。 完成和几何不同: 2 刀身 厚度和横截面非常不同,但外观相似。
-
-** ** * * * * * * * * * * * ** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *刃口** 或** 边缘** 是进入食物的细线 。 上面那个...开刃面** 缩小 刀身 向着 刃尖. . 。 有些刀子有明显可见的主菜 开刃面;在另一些情况下,过渡是微妙的。 ** ** * * * * * * * * * * * ** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *刀根** 是后方的 刃口离手柄最近的地方 视设计情况而定,一个短小的无缝区域或空隙可将其与 刀枕 或处理。
-
-## 处理, 刀枕 财务报告和已审计财务报表 柄芯
-
-**handle**是用户持有的部分,但其构造各有不同。 西方国家 **全龙骨** 刀子,刀子,刀子,刀子,刀子,刀子,刀子,刀子 柄芯 运行几乎整个长度 和轮廓的控点。 **柄片** 覆盖其侧面。 and 通常用粘合剂固定 and **铆钉 or 柄钉** 收到有关文件的日期。 暴露的钢可以增加质量并影响平衡。
-
-**全龙骨 只有一个有效 柄芯 建筑工程。 ** A **隐藏式柄芯** 窄于把手,并嵌入其内。 一些隐藏的刺青 一直延伸到 柄尾 并且在那里被机械地固定着; 这是...贯穿式柄芯**, 一个单独的建筑术语,而不是另一个名称 全龙骨. . 。 ** 片段或条块 柄芯** 在《公约》之前结束 柄尾. . 。 焊接把手可以包装 柄芯 没有 柄片 or 铆钉 可见。 不应将这些建筑视为一个简单的质量等级:持久性取决于 柄芯 尺寸、材料、装配、紧固、预定用途和预期负荷。
-
-与 柄芯 确定,下一部分是**刀身- 从头到尾的过渡**。 A 类**刀枕** 在许多西方厨房刀上发现的强化金属转换。 它可能是与 刀身 或作为单独部件制造。 它可以加强过渡,建立一个舒适的手指联络点,保护把手的前部,并增加手边的重量。 一些支撑延伸到 刀根; 其他人将边缘打开以更容易 刃磨. . 。 A 级 刀枕 不一定是一个 **护手** 收到有关文件的日期。 A 级 护手 专门设计来阻止手滑向边缘 很多厨房刀都没有分开 护手. . 。
-
-许多优质生产刀 刀枕 合并到 刀身-还有...柄芯 * 装配成** ,然后作为整把刀的一部分在地面上完成。 焊接点的存在本身并不是质量较低的迹象。 在仓促或管理不善的制造中,不准确或不完善的结合可使这一过渡成为一个结构敏感点。 当部件正确和连接、热控和完成正确执行时, 刀枕 反而可以使 刀身- 进行过渡,帮助通过该地区分配货物。
-
-一个共同的问题是为什么 刀枕 并非简单地用高性能钢制成 刀身. . 。 第一个原因是功能性的: 会 议 纪 要 刀枕 不构成 刃口, 所以用一个昂贵的专家 刀身 钢通常会增加材料成本,但不会改善切割性能。 一个单独的组件允许为实际完成的工作选择每种材料: 会 议 纪 要 刀身 钢用于边缘行为和 刀枕 结构材料, 耐腐蚀性, 结束, 制造业和可靠的加入。
-
-还有一个重要的制造原因。 如果一个整体 刀枕 由** 军装牌照或酒吧库存制成**, 起步材料至少必须和 刀枕 即使 刀身 and 大部分时间 柄芯 更细。 然后必须移除大部分昂贵的钢材 才能制造最后的 刀身 几何学 这既浪费了保费材料,也浪费了机械操作的时间。 锻造 能够创建一个 刀枕 换个路线 减少整把刀从 刀枕- 厚度存量,所以准确的经济学 取决于制造过程。 然而,在根据板块或条状生产时, 刀枕 分开是比较合理的解决办法:昂贵 刀身 钢的特性在于集中,而不是仅仅为了制造一个厚厚的无切割区而消费。
-
-### 什麽? 锻造 其实意味着
-
-这种制造业比较提出了一个常常被误认为质量标签的术语。 **锻造 ** 钢铁坚固,并用压缩力进行改造,使材料从一个部分移到另一个部分。 刀头 锻造 因为加热的钢材需要的变形力更少 锤子是提供这种力量的唯一方法:电锤、机械或液压压机和工业死亡都可制成钢铁。 所以刀子是真实的 锻造 而不是亲手做的 和一只手锻造 刀不是自动更好的刀
-
-实际对照是** 库存清除**。 库存清除生产a 刀身 从板块或棍子开始,主要通过切割、研磨和加工材料进入其侧面。 输入 锻造中,一块薄板或厚的钢材首先变形,以达到所需材料的分布,然后切割、地面、加热处理和完成。 锻造 当设计需要一个厚的内装件时, 特别有用 刀枕,当地厚度变化、块状变异或需要从统一库存中去除大量材料的其他形状。
-
-锻造 还可以改变钢在制造过程中的内部状况。 热工可以打破一个被凝聚的、分离的成分的铸造结构,并在适当的条件下,帮助在以后加工之前改进结构。 这些效应在钢铁生产中很重要,但不应被转化为关于每个钢铁厂 锻造 厨房刀在冶金方面优于它。 现代 刀身 钢通常在经过大量工业加工后,如: 锻造 钢铁厂已经开动了 因此,从高品质的滚盘上切开的刀不是用原金属、未触及的金属制成的。
-
-完成的刀子仍然取决于钢铁成分 初始储存的质量 以及温度控制 锻造, 显示 : 热处理磨损 边缘几何 和最终的工程技巧 穷 锻造 或过热会破坏钢 一样差 热处理 来啊 精良的运货刀能比差的好 锻造 一个,一个小心 锻造 刀可以使用其制造路线制造因清除库存而效率低下的形状或材料分配。
-
-这也解释了为什么可见的锤痕不能证明 锻造 质量。 A 级 锻造 刀身 可以完全平滑地擦拭,而纹理的表面可以刻意形成或保留,供外观使用。 因此,有益的问题不仅仅是 ** “这是不是 锻造”** 但** “什么 锻造 和钢铁有多好, 热处理 之后又执行几何学?” **
-
-锻造 财务报告和已审计财务报表 柄芯 建筑公司回答不同的问题。 锻造 描述** 钢在制造过程中的形状**; 满, 隐藏, 通过和 半龙骨 描述** 刀身 继续进入把手**。 把这些想法分开 就会变成下一个 刀柄结构 容易理解。
-
-## 这本书所说的是“亚洲式刀柄” (英文)
-
-在这本书里, **亚洲式刀柄** 是指传统的隐藏 -柄芯 建筑通常配有**ocgagonal**,有时还有oval手柄。 较窄的 柄芯 消失在把手内,而不是在侧面保持可见 柄片. . 。 A 类**柄箍** 强化了把手的前面,而一些现代结构也使用内部的**doul 插入** 来指导和接收 柄芯. . 。
-
+<!-- /tx-unit -->
+<!-- tx-unit:fd05d91830919c5ded2e61291ff147ffd8afe27a70bcb09f3a1e60679e6e67b2 -->
+## 刀身术语
+<!-- /tx-unit -->
+<!-- tx-unit:0fe6df39d219bb32de3af50b3b3d86479c3e7dc3834a2917fe024d518c1f85bf -->
+**刀尖**位于刀身前端。它的形状会影响刀具进入狭小空间、划开表面或进行细微方向修正的能力。**刀背**是上方通常不磨刃的一侧。刀背厚度以及向刀尖的逐渐变薄，会影响刚性、平衡以及刀身穿过食材时的阻力。
+<!-- /tx-unit -->
+<!-- tx-unit:a8f32b7cd4f26f8210c2bc0b7ed3bf4504058e5a8119109f46719cd6e0d2929d -->
+宽阔的一侧是**刀面**。刀面并不一定完全平坦：凸面、凹面、覆层过渡和其他成形方式，都可能改变食物与刀面的接触方式。**表面处理**是刀面最终呈现的纹理或外观，例如缎面、抛光、镜面、拉丝、蚀刻或锤纹。表面处理与几何是两回事：两把外观相似的刀，厚度和横截面可能完全不同。
+<!-- /tx-unit -->
+<!-- tx-unit:9528419641a04137b4bfb4bf2875ca9ed62b5eed218330b38cbe5e714a3034f3 -->
+**刃口**或简称“刃”，是真正进入食材的磨利边线。它上方的**开刃面**让刀身逐渐收窄并到达刃尖。有些刀的主开刃面清楚可见；有些过渡则非常细微。**刀根**是刃口最后端、最接近刀柄的区域。根据设计不同，它与刀枕或刀柄之间可能有一小段未开刃区域或避空位。
+<!-- /tx-unit -->
+<!-- tx-unit:a258c7b9a11ec9f85d0f31b6a09765d95e7960f8e402c5ffc45ae6fc411ccc06 -->
+## 刀柄、刀枕与柄芯
+<!-- /tx-unit -->
+<!-- tx-unit:fc15ff1c93dd16be777ee02c00ae7e570597317fa03ba6ff08fb87d19c798810 -->
+**刀柄**是使用者握持的部分，但其结构并不只有一种。在西式**全龙骨**刀上，柄芯几乎贯穿刀柄的全部长度和轮廓。两侧由**柄片**覆盖，通常用胶黏剂以及**铆钉或柄钉**固定。外露钢材会增加质量，并影响平衡。
+<!-- /tx-unit -->
+<!-- tx-unit:c9a3fb0c0f30db401343637564655d54cb88dd88c791c38b12e7bdb5a009ee66 -->
+**全龙骨只是多种合理柄芯结构中的一种。****隐藏式柄芯**比刀柄窄，并完全包在刀柄内部。有些隐藏式柄芯会一直延伸到柄尾，并在那里用机械方式固定；这种结构称为**贯穿式柄芯**，它是独立结构术语，并不是全龙骨的另一种叫法。**半龙骨或短柄芯**会在到达柄尾之前结束。模塑刀柄还可以把柄芯完全包覆，使外面看不到柄片或铆钉。这些结构不应该被简单排成“质量高低”的等级；耐用性取决于柄芯尺寸、材料、配合、固定方式、预期用途和实际载荷。
+<!-- /tx-unit -->
+<!-- tx-unit:1eb9fd1307e0d91ec5a506c2a7d6d3a519600ce490db9cda3c7bbbf4470bdce7 -->
+确认柄芯之后，下一步要区分的是**刀身与刀柄之间的过渡区域**。**刀枕**是许多西式厨房刀上用于强化过渡位置的金属部件。它可以与刀身一体，也可以单独制造。刀枕能够加强过渡、形成舒适的手指接触点、保护刀柄前端，并在手附近增加质量。有些刀枕延伸到刀根；有些则让刃口后端保持开放，方便磨刃。刀枕并不一定是**护手**。护手的专门功能，是防止手向刃口方向滑动，而许多厨房刀没有独立护手。
+<!-- /tx-unit -->
+<!-- tx-unit:4af33a354980acac652498c05c16a5af82d12d1f641c7abe91ac4479732095a7 -->
+在许多高品质量产刀上，单独制造的刀枕通过**焊接**与刀身—柄芯组件连接，然后再作为整把刀的一部分一起磨削和精加工。存在焊缝本身并不代表质量较低。在仓促或控制不良的制造中，如果配合不准确或接头不足，这一区域确实可能成为结构敏感点；但如果零件配合正确，接头、热量控制和最终精加工都执行良好，刀枕反而可以提高刀身—刀柄过渡区域的刚性和强度，并帮助分散载荷。
+<!-- /tx-unit -->
+<!-- tx-unit:6c78b7fd5d455f8c96b7a3722b86a9e71f7293001eeeabd88347ef428eb9cdfd -->
+一个常见问题是：为什么刀枕不直接使用与刀身相同的高性能钢？第一个原因是功能。刀枕并不形成刃口，所以在那里使用昂贵的专业刀身钢，通常只会增加材料成本，并不会改善切削性能。单独制造刀枕，可以让每种材料都为自己的实际任务服务：刀身钢负责刃口行为，而刀枕材料则负责结构、耐腐蚀性、表面效果、加工性以及可靠连接。
+<!-- /tx-unit -->
+<!-- tx-unit:4b0befa531df3109c081d4017a711cd5de75cf08c3e17664c71f50570131c553 -->
+还有一个重要的制造原因。如果一体刀枕通过**从等厚板材或棒材机加工**得到，那么原始材料至少要和刀枕一样厚，即使刀身和大部分柄芯实际上薄得多。为了得到最终刀身几何，就必须去掉大量昂贵钢材，既浪费高级材料，也浪费加工时间。锻造可以通过另一种方式形成一体刀枕，从而减少把整把刀都从“刀枕厚度”的材料中切削出来的需求，因此具体成本取决于制造路线。不过在以板材或棒材为起点的量产中，单独制造刀枕往往更合理：让昂贵刀身钢集中在真正需要其性能的位置，而不是为了形成一个较厚却不参与切削的部分而大量消耗。
+<!-- /tx-unit -->
+<!-- tx-unit:8934d54b41939dc49649fd25488772af3bcba954191d66c38d788f49122d5111 -->
+### “锻造”真正是什么意思
+<!-- /tx-unit -->
+<!-- tx-unit:fc6c0468f6bb7949dbd89a8ca22a3af5729cc4dffdb52ae97f3d67920c555dc0 -->
+上述制造方式的比较，也涉及一个经常被误当成质量标签的词。**锻造是一种制造过程，不是质量等级。** 钢材保持固态，通过压缩力重新成形，使材料从工件的一部分流向另一部分。刀具锻造通常在高温下进行，因为加热后的钢更容易塑性变形。手锤只是施加这种力量的一种方式；动力锤、机械压力机、液压压力机和工业模具都可以完成真正的锻造。因此，一把刀可以是真正锻造的，却并非手工制作；而手工锻造也不会自动让一把刀更好。
+<!-- /tx-unit -->
+<!-- tx-unit:a6084e6dc93cae557e37fd2f3c0457808e6d37e3559771bb0d6ab3052840dac7 -->
+实际对照是**去料加工**。去料制造中，刀身从板材或棒材开始，主要通过切割、磨削和机加工去掉材料，最终形成轮廓。锻造则先让钢坯或较厚钢材变形，使材料分布更接近最终需求，随后仍要进行切削、磨削、热处理和精加工。当设计需要厚的一体刀枕、局部厚度变化、渐薄区域，或其他如果从等厚材料直接去料会造成大量浪费的形状时，锻造尤其有价值。
+<!-- /tx-unit -->
+<!-- tx-unit:1e865328e6c86c38160797c6b066e62f739e64e269883c76fda4a3ad4e08a2cd -->
+锻造还可能在制造过程中改变钢材的内部状态。热加工可以破碎铸态组织、重新分布偏析成分，并在适当条件下帮助后续加工前的组织细化。这些作用在炼钢和钢材加工中很重要，但不应被简化成“所有锻造厨房刀在冶金上都更优”。现代刀身钢在到达刀具制造商之前，通常已经在钢厂经历过锻造、轧制等大量工业加工。因此，从高品质轧制钢板中切削出的刀具，并不是由完全未经加工的“原始金属”制造。
+<!-- /tx-unit -->
+<!-- tx-unit:84e54b63c3973522577eab89f5c51d3c40c7f4e4e151f81536dfd5298653570b -->
+成品刀最终仍取决于钢材成分、原始材料质量、锻造过程中的温度控制、热处理、磨削、刃口几何和最终工艺。错误锻造或过热同样能损伤钢材，就像错误热处理一样。优秀的去料刀可以胜过劣质锻造刀；而精确锻造也可以利用其制造路线，创造用纯去料方式非常低效的形状和材料分布。
+<!-- /tx-unit -->
+<!-- tx-unit:237984a127f8511acd0750661c5d93d51f6782170b942bbff4c57dcccf2eb8b5 -->
+这也解释了为什么可见的锤纹并不能证明锻造质量。锻造刀身完全可以被磨削、抛光到非常光滑；而纹理表面也可以为了外观而刻意制作或保留。因此，真正有用的问题不只是**“它是不是锻造的？”**，而是**“锻造为这个设计带来了什么？之后的钢材、热处理和几何又执行得有多好？”**
+<!-- /tx-unit -->
+<!-- tx-unit:186ca25324004c6835f53195f8656fa38ff92c6a3ed273eda86c267d57ccf7fa -->
+锻造与柄芯结构回答的是不同问题。锻造描述**制造过程中钢材如何被成形**；全龙骨、隐藏式柄芯、贯穿式柄芯和半龙骨则描述**刀身如何继续延伸进刀柄**。把这两个概念分开，就更容易理解下面的刀柄结构。
+<!-- /tx-unit -->
+<!-- tx-unit:a3674e9bb8cba279130bdea524ae581cd204e3b1e73f2dc3c188b951c85dda67 -->
+## 本书所说的“亚洲式刀柄”
+<!-- /tx-unit -->
+<!-- tx-unit:13b6db9347a4b054eb5b1b26e1e44a695a16937b8355a79e9b6d79d723016e04 -->
+本书中的**亚洲式刀柄**，特指传统的隐藏式柄芯结构，通常配合**八角形**，有时也使用椭圆形刀柄。较窄的柄芯进入刀柄内部，而不是像西式结构那样在两侧柄片之间保持可见。前端由**柄箍**加强，一些现代结构还会使用内部**木销套件**来引导并容纳柄芯。
+<!-- /tx-unit -->
+<!-- tx-unit:cfba65dbc97fd262a8126dba895480d152c971c224f8556ca5bfa02da2c9076d -->
 <figure class="kb-learning-figure" data-visual-id="VIS-ANATOMY-ASIAN-01">
 <div style="position:relative;width:100%;overflow:visible;background:#ffffff;">
 <img src="../../assets/images/approved/PM8O Schematics.png" alt="" style="display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;background:#ffffff;box-shadow:none;">
@@ -134,8 +163,8 @@ glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 </g>
 </svg>
 <span style="position:absolute;left:8%;top:90%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">柄尾</span>
-<span style="position:absolute;left:19%;top:88%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">处理身体</span>
-<span style="position:absolute;left:33%;top:82%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">插入圆圈</span>
+<span style="position:absolute;left:19%;top:88%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">刀柄主体</span>
+<span style="position:absolute;left:33%;top:82%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:20%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">内部木销套</span>
 <span style="position:absolute;left:42%;top:66%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:18%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">隐藏式柄芯</span>
 <span style="position:absolute;left:48%;top:72%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:15%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">柄箍</span>
 <span style="position:absolute;left:58%;top:73%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">刀根</span>
@@ -145,31 +174,45 @@ glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 <span style="position:absolute;left:66%;top:24%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:14%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">刀背</span>
 <span style="position:absolute;left:92%;top:12%;transform:translate(-50%,-50%);z-index:2;padding:.18em .42em;max-width:12%;font-size:clamp(10px,1.35vw,13px);font-weight:700;line-height:1.08;text-align:center;white-space:normal;color:#1f2326;background:rgba(255,255,255,.96);border:1px solid rgba(45,52,56,.45);border-radius:.3em;box-shadow:0 1px 4px rgba(0,0,0,.14);">刀尖</span>
 </div>
-<figcaption>爆炸性的亚洲隐藏 -柄芯 建筑业: 八角把手体, 插入内部圆线, 柄箍 财务报告和已审计财务报表 隐藏式柄芯 分开显示组装 。 插图是一个构思方法,并非通用。</figcaption>
+<figcaption>亚洲式隐藏柄芯结构爆炸图：八角刀柄主体、内部木销套、柄箍和隐藏式柄芯分开显示，以说明装配方式。内部木销套只是其中一种结构方法，并非所有亚洲式刀柄都会采用。</figcaption>
 </figure>
-
-这个词是故意狭义的。 这并不意味着亚洲制造的刀子都用这个建筑;许多用的是西方 全龙骨、模具或其他系统。 在这里, **亚洲式刀柄** 意指八角形或卵形隐藏柄芯 前面的建筑 柄箍 (a) 与《公约》第4条有关的其他事项
-
-A 类**柄箍** 与西方不同 刀枕. . 。 都坐在旁边 刀身-手交界处, 但, 柄箍 增强把手前部, 时 刀枕 是一个金属组件 刀身- 手势过渡。 辛祖爆炸建筑中显示的dewel 插入是一种组装方法;它不是每个 亚洲式刀柄. . 。
-
-## 几何和材料: 仅凭解剖无法告诉你
-
-解剖学告诉我们** 特征在哪里;它本身并不告诉我们该特征将如何运作。 薄一点 刀身 由于几何学,弯曲比厚的要容易,而钢和 热处理 确定弯曲、撞击或扭动 刀身 能够忍受无永久损伤或骨折。
-
-在比较柔软的片子刀、硬性精密切片和骨骼直升机时,这种区别很重要。 其可见尺寸、钢和热处理是针对不同负荷设计的。 不要故意弯曲来测试一把精密的刀:灵活性不是质量的测试,而是一个薄的硬刀 刀身 被逼倒的时候 可能会碎裂 裂缝或断裂
-
-后面的钢章解释 硬度, 韧性, 刃口保持性 财务报告和已审计财务报表 显微组织 细节。 目前,保留一项原则:** 测量法确定材料的载荷;材料和热处理确定刀子与载荷的对应情况。 **
-
-## 理解 刀身- 面部特征
-
-不要把每个可见表面特征都视为同样的处理方式。
-
-** 首先:什么是地形? ** 空洞、通道和锤子压抑症改变了地球的物理形状。 刀面. . 。 通过中断广泛接触,它们可以减少吸水量或粘粘一些潮湿或星状食物。 深度、位置和间距比装饰名称重要得多。 厨师的刀口是空的 因为它的工作情况没有改变
-
-** 第二:什么纹理使末叶脱落?** 磨叶方向线;磨损会降低表面粗糙度,镜光会进一步降低。 纹理会影响拖动、刮伤可见度和清洁,但不会在 刃尖. . 。
-
-** 第三:表面是揭示还是保留结构?** Etching可以暴露大马士革层之间的对比。 手举起来 锻造 当脸部不完全平滑时,可留下不固定的尺寸或质地。 保留一个 锻造 表面和有意的锤子可能看起来是相互关联的,但它们来自不同的过程,应该分别加以说明。
-
-食材脱离性 取决于地形 刀身 几何学, 完成, 食物和移动在一起。 任何图案或抛光都无法取代适当的厚度和横截面。
-
-随着零部件和施工条件的确定,下一章将审查: 刀身 向着 刃口** 收到有关文件的日期。 理解 开刃面 首先,几何学使得后来对完整的刀形的比较容易得多。
+<!-- /tx-unit -->
+<!-- tx-unit:a125b1f244ec60f6cfff30051245820bb27b568432838b13445f9230f432656c -->
+这里对“亚洲式刀柄”的定义是有意保持狭义的。它**并不是**说所有在亚洲制造的刀都采用这种结构；许多亚洲刀具同样使用西式全龙骨、模塑刀柄或其他系统。本书中的**亚洲式刀柄**，专指上文描述的八角形或椭圆形隐藏式柄芯结构，并带有前端柄箍。
+<!-- /tx-unit -->
+<!-- tx-unit:e36adef356ef65a82fd664b57fd5fef898feb36451087c782773ac88304673cb -->
+**柄箍**与西式刀枕并不相同。二者都位于刀身与刀柄交界附近，但柄箍主要加强刀柄前端，而刀枕是刀身—刀柄过渡处的金属部件。Xinzuo 爆炸图中的内部木销套只是其中一种装配方式，并不是亚洲式刀柄的定义性特征。
+<!-- /tx-unit -->
+<!-- tx-unit:50581dc0c26b842ca0ca0cce34bb3d4fa069cdb039e09070b4e353511cf7d708 -->
+## 几何与材料：结构名称本身不能告诉你的事
+<!-- /tx-unit -->
+<!-- tx-unit:eecf5367076c67a20d379005c7feb87ab69a8d3b662d1b69640643c18d809eb7 -->
+结构术语告诉我们一个部件**在哪里**，但不能单独告诉我们它会如何表现。薄刀身因为几何原因更容易弯曲；钢材与热处理则决定它能够承受多少弯曲、冲击或扭转，而不会发生永久变形或断裂。
+<!-- /tx-unit -->
+<!-- tx-unit:c9860cb0110e7f957d8d9aa338cc7658960f8634a7fb9a8787fa53a21469922b -->
+比较柔性的鱼片刀、刚性的精密切片刀和厚重砍骨刀时，这一区别非常重要。它们可见的尺寸、钢材和热处理，是围绕完全不同的载荷一起设计的。不要通过故意弯曲一把高硬度精密刀来“测试质量”：柔韧性并不是质量测试，薄而硬的刀身受到强制侧向弯曲时，可能崩裂、开裂甚至折断。
+<!-- /tx-unit -->
+<!-- tx-unit:be4922d2c1603d4804213a3a5fe67054ec5f9633201e08dc0f9258f37daa38b6 -->
+后面的钢材章节会详细说明硬度、韧性、刃口保持性和显微组织。这里先记住一条原则：**几何决定材料承受什么载荷；材料与热处理决定刀具如何响应这些载荷。**
+<!-- /tx-unit -->
+<!-- tx-unit:5ca1df1f01aab70d71c531f551a8f113c2a1dba714b3785dd1d46c92f28e54ca -->
+## 理解刀面的各种特征
+<!-- /tx-unit -->
+<!-- tx-unit:729d0cb863d38bc91ff6b680a7904207497e838c9390be8ceccfdbc213e282c3 -->
+不要把所有肉眼可见的刀面特征都当成同一种“表面处理”。
+<!-- /tx-unit -->
+<!-- tx-unit:1eb8625a8ce4413d6ca9deadc9265efd8846b31db925899de44179af1387f1d1 -->
+**第一：表面起伏是什么？** 凹槽、沟道和锤击凹点会真正改变刀面的物理形状。通过打断大面积接触，它们可能减少某些湿润或含淀粉食材产生的吸附或黏附。真正重要的是深度、位置和间距，而不是装饰名称。带有凹槽的主厨刀仍然是主厨刀，因为其工作轮廓并没有因此变成另一类刀型。
+<!-- /tx-unit -->
+<!-- tx-unit:59b6ede5b6e03efa05235d353993abbabf1d6ce41b263e8ab51cda44d6fe51c5 -->
+**第二：精加工留下了什么纹理？** 缎面磨削会留下有方向性的细纹；抛光会降低表面粗糙度，镜面抛光则进一步降低。纹理会影响摩擦阻力、划痕可见程度和清洁，但它不会在刃尖创造锋利。
+<!-- /tx-unit -->
+<!-- tx-unit:6554fc0ba0efba66ab58305b8ccfb013fdeaf08f236d1bfd62a81a56da90b4a5 -->
+**第三：表面是在显现结构，还是保留制造痕迹？** 蚀刻可以显现大马士革钢层之间的对比。手工锻造后，如果刀面没有完全磨平，也可以保留不规则氧化皮或纹理。保留锻造表面与刻意锤击纹理可能外观接近，但形成过程不同，应分别描述。
+<!-- /tx-unit -->
+<!-- tx-unit:6edea3f10ae3eb21204fc19dd4c0bd09c87fa009eda5ffeb16c591b08877689c -->
+食物是否容易从刀面脱离，是表面起伏、刀身几何、表面处理、食材和动作共同作用的结果。任何纹理或抛光都无法取代合适的厚度和横截面。
+<!-- /tx-unit -->
+<!-- tx-unit:15fb1161d97caaddae77733a41015886bce6c68067abd3755d9d49d58896e327 -->
+现在结构部件和术语已经建立，下一章将讨论**刀身如何逐渐变窄并形成刃口**。先理解开刃几何，会让后面对完整刀型的比较容易得多。
+<!-- /tx-unit -->

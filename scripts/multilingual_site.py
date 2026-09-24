@@ -206,7 +206,7 @@ def build(
         **dict(config.get("extra", {})),
         "alternate": [
             {"name": data["name"], "link": f"/xinzuo-kung-fu/{locale}/", "lang": locale}
-            for locale, data in locales.items() if data.get("deploy")
+            for locale, data in locales.items()
         ],
     }
 
@@ -220,7 +220,7 @@ def root_index(locales: dict[str, dict[str, Any]]) -> None:
     SITE.mkdir(parents=True, exist_ok=True)
     links = "".join(
         f'<li><a href="{html.escape(code)}/">{html.escape(data["name"])}</a></li>'
-        for code, data in locales.items() if data.get("deploy")
+        for code, data in locales.items()
     )
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta http-equiv="refresh" content="0; url=en/"><link rel="canonical" href="{BASE_URL}/en/">
@@ -252,12 +252,13 @@ def main() -> int:
     print(f"Publication metadata: {metadata.full_label} · {metadata.publication_date}")
     print("Translation source: committed repository files (no translation API)")
 
+    published_cfg = {code: locale_cfg[code] for code in selected}
     for code in selected:
         print(f"Preparing {code}")
         docs = prepare_docs(code, locale_cfg[code], options.require_translations, glossary)
         print(f"Building {code}")
-        build(code, locale_cfg[code], locale_cfg, docs, metadata)
-    root_index(locale_cfg)
+        build(code, locale_cfg[code], published_cfg, docs, metadata)
+    root_index(published_cfg)
     print(f"Built {len(selected)} locale(s)")
     return 0
 
