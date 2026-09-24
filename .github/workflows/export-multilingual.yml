@@ -85,7 +85,7 @@ jobs:
         run: pip install -r requirements-docs.txt
 
       - name: Validate differential translation regression cases
-        run: python scripts/test_chatgpt_translate.py
+        run: python scripts/test_chatgpt_translate.py\n          python scripts/test_publication_locales.py
 
       - name: Centralize bibliography in English source
         run: python scripts/centralize_bibliography.py
