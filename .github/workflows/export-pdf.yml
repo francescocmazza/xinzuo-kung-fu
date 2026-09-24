@@ -85,16 +85,16 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          test -s content/en/assets/CoverFront.webp
-          test -s content/en/assets/CoverBack.webp
+          test -s content/en/assets/CoverFront.png
+          test -s content/en/assets/CoverBack.png
           python - <<'PY'
           from pathlib import Path
           from PIL import Image
           import hashlib
 
           expected = {
-              "content/en/assets/CoverFront.webp": ("fefbf0d0ee6584c6727c7919e946aef700fbe67e83892dc0400031c75e4c293c", (1055, 1491)),
-              "content/en/assets/CoverBack.webp": ("7e1eef0e90e74c061394f47a029d9b1aac2fbebb2602c2076a09d34b71984c22", (1055, 1491)),
+              "content/en/assets/CoverFront.png": ("a3ca06e7c3569fc27b255c1e10a1c3efc76de5bc7441390be46050753b6d04a8", (1055, 1491)),
+              "content/en/assets/CoverBack.png": ("6f5ca97c709f970e8ccc6fcad6d54355ce69f975141c53ec055bc84a3aab20e0", (1055, 1491)),
           }
           for filename, (digest, dimensions) in expected.items():
               path = Path(filename)
@@ -102,8 +102,8 @@ jobs:
               if actual != digest:
                   raise SystemExit(f"{filename}: SHA256 mismatch: {actual}")
               with Image.open(path) as image:
-                  if image.format != "WEBP" or image.size != dimensions:
-                      raise SystemExit(f"{filename}: expected lossless WebP {dimensions}, got {image.format} {image.size}")
+                  if image.format != "PNG" or image.size != dimensions:
+                      raise SystemExit(f"{filename}: expected approved PNG {dimensions}, got {image.format} {image.size}")
                   image.verify()
           print("Approved cover assets verified")
           PY
