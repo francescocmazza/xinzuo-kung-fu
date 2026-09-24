@@ -23,7 +23,7 @@
   overflow: hidden;
   display: block;
   text-align: center;
-  background: var(--kb-cover-wood) url("assets/CoverFront.png") center center / cover no-repeat;
+  background: var(--kb-cover-wood) url("assets/Copertina.jpg") center center / cover no-repeat;
   break-after: page;
   page-break-after: always;
 }
@@ -55,9 +55,9 @@
   position: absolute;
   z-index: 2;
   top: auto;
-  bottom: 8.5mm;
-  left: 7%;
-  width: 79%;
+  bottom: 7mm;
+  left: 8%;
+  width: 84%;
   margin: 0;
   padding: 0;
 }
@@ -145,7 +145,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: var(--kb-cover-wood) url("assets/CoverBack.png") center center / cover no-repeat;
+  background: var(--kb-cover-wood) url("assets/ChatGPT Image Sep 24, 2026, 07_22_10 PM (1).png") center center / cover no-repeat;
   color: var(--kb-cover-ivory);
 }
 
