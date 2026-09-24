@@ -15,7 +15,7 @@
   let lastInteractionAt = Date.now();
   let heartbeatTimer = null;
   let pendingRegistration = null;
-  let verificationChannels = { email: true, sms: true };
+  let verificationChannels = { email: true, whatsapp: true };
   let publicRegistrationOpen = false;
   let certificationAttempt = null;
   let certificationTimerHandle = null;
@@ -90,11 +90,11 @@
     const select = el.registerForm?.elements?.verificationChannel;
     if (!select) return;
     const emailOption = select.querySelector('option[value="email"]');
-    const smsOption = select.querySelector('option[value="sms"]');
+    const whatsappOption = select.querySelector('option[value="whatsapp"]');
     if (emailOption) emailOption.disabled = !verificationChannels.email;
-    if (smsOption) smsOption.disabled = !verificationChannels.sms;
-    if (select.value === "email" && !verificationChannels.email && verificationChannels.sms) select.value = "sms";
-    if (select.value === "sms" && !verificationChannels.sms && verificationChannels.email) select.value = "email";
+    if (whatsappOption) whatsappOption.disabled = !verificationChannels.whatsapp;
+    if (select.value === "email" && !verificationChannels.email && verificationChannels.whatsapp) select.value = "whatsapp";
+    if (select.value === "whatsapp" && !verificationChannels.whatsapp && verificationChannels.email) select.value = "email";
   }
 
   function token() {
@@ -268,10 +268,10 @@
       ]);
       const c = consentResult.consents || {};
       el.consentForm.elements.marketingEmail.checked = Boolean(c.marketingEmail);
-      el.consentForm.elements.marketingSms.checked = Boolean(c.marketingSms);
+      el.consentForm.elements.marketingWhatsapp.checked = Boolean(c.marketingWhatsapp);
       el.consentForm.elements.marketingPhone.checked = Boolean(c.marketingPhone);
       el.consentForm.elements.marketingEmail.disabled = !currentUser.email;
-      el.consentForm.elements.marketingSms.disabled = !currentUser.phone;
+      el.consentForm.elements.marketingWhatsapp.disabled = !currentUser.phone;
       el.consentForm.elements.marketingPhone.disabled = !currentUser.phone;
       renderMyCertificates(certificateResult.certificates || []);
     } catch (error) {
@@ -297,14 +297,14 @@
       const health = await api("/api/health", { method: "GET" });
       verificationChannels = {
         email:Boolean(health.verificationChannels?.email),
-        sms:Boolean(health.verificationChannels?.sms)
+        whatsapp:Boolean(health.verificationChannels?.whatsapp)
       };
       publicRegistrationOpen = Boolean(health.publicRegistration);
       applyVerificationAvailability();
       el.registerTab.disabled = !publicRegistrationOpen || !legalConfigured();
       const channelText = [
         verificationChannels.email ? "email" : null,
-        verificationChannels.sms ? "SMS" : null
+        verificationChannels.whatsapp ? "WhatsApp" : null
       ].filter(Boolean).join(" + ");
       el.backendStatus.textContent = !legalConfigured()
         ? "Backend online, ma identità del titolare privacy non ancora configurata: registrazione pubblica disabilitata."
@@ -752,7 +752,7 @@
           <div class="consent-summary">
             <strong>Marketing:</strong>
             email ${result.user.marketingEmailConsent ? "✓" : "—"} ·
-            SMS ${result.user.marketingSmsConsent ? "✓" : "—"} ·
+            SMS ${result.user.marketingWhatsappConsent ? "✓" : "—"} ·
             telefono ${result.user.marketingPhoneConsent ? "✓" : "—"}
           </div>${consentRows}
         ` : ""}
@@ -847,6 +847,19 @@
     }
   }
 
+  function updateWhatsAppServiceConsentRequirement() {
+    const row = document.getElementById("whatsappServiceConsentRow");
+    const input = el.registerForm?.elements?.whatsappServiceConsent;
+    if (!row || !input) return;
+    const required = el.registerForm.elements.verificationChannel.value === "whatsapp";
+    row.hidden = !required;
+    input.required = required;
+    if (!required) input.checked = false;
+  }
+
+  el.registerForm.elements.verificationChannel.addEventListener("change", updateWhatsAppServiceConsentRequirement);
+  updateWhatsAppServiceConsentRequirement();
+
   el.loginTab.addEventListener("click", () => showAuthTab("login"));
   el.registerTab.addEventListener("click", () => showAuthTab("register"));
   el.resetTab.addEventListener("click", () => showAuthTab("reset"));
@@ -904,12 +917,13 @@
             email:data.get("email"),
             phone:data.get("phone"),
             verificationChannel:data.get("verificationChannel"),
+            whatsappServiceConsent:data.get("whatsappServiceConsent") === "on",
             password:data.get("password"),
             ageConfirmed:data.get("ageConfirmed") === "on",
             acceptTerms:data.get("acceptTerms") === "on",
             acceptPrivacy:data.get("acceptPrivacy") === "on",
             marketingEmailConsent:data.get("marketingEmailConsent") === "on",
-            marketingSmsConsent:data.get("marketingSmsConsent") === "on",
+            marketingWhatsappConsent:data.get("marketingWhatsappConsent") === "on",
             marketingPhoneConsent:data.get("marketingPhoneConsent") === "on"
           })
         });
@@ -1042,7 +1056,7 @@
         method:"PATCH",
         body:JSON.stringify({
           marketingEmail:data.get("marketingEmail") === "on",
-          marketingSms:data.get("marketingSms") === "on",
+          marketingWhatsapp:data.get("marketingWhatsapp") === "on",
           marketingPhone:data.get("marketingPhone") === "on"
         })
       });

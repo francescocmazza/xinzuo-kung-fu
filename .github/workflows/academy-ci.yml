@@ -86,6 +86,7 @@ jobs:
           test -s academy-backend/src/certification-bank.js
           test -s academy-backend/migrations/0001_initial.sql
           test -s academy-backend/migrations/0002_public_registration_certificates.sql
+          test -s academy-backend/migrations/0003_whatsapp_otp.sql
           test -s academy/data/course.en.json
           test -s academy/data/course.it.json
 
@@ -99,7 +100,9 @@ jobs:
           grep -q '/api/certification/base/submit' academy-backend/src/worker.js
           grep -q 'certificates.*verify' academy-backend/src/worker.js
           grep -q 'marketingEmailConsent' academy/index.html
-          grep -q 'marketingSmsConsent' academy/index.html
+          grep -q 'marketingWhatsappConsent' academy/index.html
+          grep -q 'whatsappServiceConsent' academy/index.html
+          grep -q 'WHATSAPP_ACCESS_TOKEN' academy-backend/src/worker.js
           grep -q 'marketingPhoneConsent' academy/index.html
           grep -q 'privacy.html' academy/index.html
           grep -q 'terms.html' academy/index.html

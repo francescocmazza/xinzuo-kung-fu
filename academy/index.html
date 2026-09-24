@@ -87,7 +87,7 @@
           <label>Invia il codice di verifica tramite
             <select name="verificationChannel">
               <option value="email">Email</option>
-              <option value="sms">SMS</option>
+              <option value="whatsapp">WhatsApp</option>
             </select>
           </label>
           <label>Password
@@ -104,7 +104,8 @@
             <hr>
             <strong>Consensi facoltativi marketing e fidelizzazione</strong>
             <label class="check-row"><input name="marketingEmailConsent" type="checkbox"> Email promozionali, novità, fidelizzazione e formazione aggiuntiva.</label>
-            <label class="check-row"><input name="marketingSmsConsent" type="checkbox"> SMS promozionali, novità, fidelizzazione e formazione aggiuntiva.</label>
+            <label id="whatsappServiceConsentRow" class="check-row"><input name="whatsappServiceConsent" type="checkbox"> Accetto di ricevere su WhatsApp da FCM SRLS / Xinzuo Academy i messaggi necessari per verifica account, sicurezza e certificazione.</label>
+            <label class="check-row"><input name="marketingWhatsappConsent" type="checkbox"> WhatsApp promozionali, novità, fidelizzazione e formazione aggiuntiva.</label>
             <label class="check-row"><input name="marketingPhoneConsent" type="checkbox"> Contatti telefonici promozionali e di fidelizzazione.</label>
             <p class="password-hint">Puoi rifiutare o revocare questi consensi senza perdere accesso ad Academy o ai certificati.</p>
           </fieldset>
@@ -314,7 +315,7 @@
       <h3>Consensi marketing</h3>
       <form id="consentForm" class="auth-form">
         <label class="check-row"><input name="marketingEmail" type="checkbox"> Email promozionali, fidelizzazione e formazione aggiuntiva</label>
-        <label class="check-row"><input name="marketingSms" type="checkbox"> SMS promozionali, fidelizzazione e formazione aggiuntiva</label>
+        <label class="check-row"><input name="marketingWhatsapp" type="checkbox"> WhatsApp promozionali, fidelizzazione e formazione aggiuntiva</label>
         <label class="check-row"><input name="marketingPhone" type="checkbox"> Contatti telefonici promozionali e di fidelizzazione</label>
         <p class="form-status" data-status></p>
         <button class="button button--quiet" type="submit">Aggiorna preferenze</button>

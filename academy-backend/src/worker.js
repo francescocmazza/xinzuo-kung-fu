@@ -26,7 +26,7 @@ export default {
           publicRegistration:publicRegistrationEnabled(env),
           verificationChannels:{
             email:canSendVerification("email",env),
-            sms:canSendVerification("sms",env)
+            whatsapp:canSendVerification("whatsapp",env)
           },
           termsVersion:TERMS_VERSION,
           privacyVersion:PRIVACY_VERSION
@@ -283,7 +283,7 @@ function publicUser(row) {
     lastLoginAt: row.last_login_at,
     lastActiveAt: row.last_active_at,
     marketingEmailConsent: Boolean(row.marketing_email_consent),
-    marketingSmsConsent: Boolean(row.marketing_sms_consent),
+    marketingWhatsappConsent: Boolean(row.marketing_whatsapp_consent),
     marketingPhoneConsent: Boolean(row.marketing_phone_consent),
     termsVersion: row.terms_version || "",
     privacyVersion: row.privacy_version || ""
@@ -413,12 +413,12 @@ async function registerByInvite(request, env) {
 function canSendVerification(channel, env) {
   if (env.VERIFICATION_WEBHOOK_URL) return true;
   if (channel === "email") return Boolean(env.RESEND_API_KEY && env.VERIFICATION_EMAIL_FROM);
-  if (channel === "sms") {
+  if (channel === "whatsapp") {
     return Boolean(
-      env.TWILIO_ACCOUNT_SID &&
-      env.TWILIO_API_KEY &&
-      env.TWILIO_API_SECRET &&
-      (env.TWILIO_FROM_NUMBER || env.TWILIO_MESSAGING_SERVICE_SID)
+      env.WHATSAPP_ACCESS_TOKEN &&
+      env.WHATSAPP_PHONE_NUMBER_ID &&
+      env.WHATSAPP_TEMPLATE_NAME &&
+      env.WHATSAPP_TEMPLATE_LANGUAGE
     );
   }
   return false;
@@ -476,32 +476,49 @@ async function sendVerification(channel, destination, code, env) {
     return { providerMessageId: payload.id || null };
   }
 
-  if (channel === "sms") {
-    if (!canSendVerification("sms", env)) {
-      throw new HttpError(503, "verification_delivery_unavailable", "SMS verification is not configured.");
+  if (channel === "whatsapp") {
+    if (!canSendVerification("whatsapp", env)) {
+      throw new HttpError(503, "verification_delivery_unavailable", "WhatsApp verification is not configured.");
     }
-    const base = String(env.TWILIO_API_BASE || "https://api.twilio.com/2010-04-01").replace(/\/$/, "");
-    const url = `${base}/Accounts/${encodeURIComponent(env.TWILIO_ACCOUNT_SID)}/Messages.json`;
-    const params = new URLSearchParams();
-    params.set("To", destination);
-    params.set("Body", `Xinzuo Academy verification code: ${code}. Expires in ${VERIFICATION_TTL / 60} minutes.`);
-    if (env.TWILIO_MESSAGING_SERVICE_SID) params.set("MessagingServiceSid", env.TWILIO_MESSAGING_SERVICE_SID);
-    else params.set("From", env.TWILIO_FROM_NUMBER);
-    const auth = btoa(`${env.TWILIO_API_KEY}:${env.TWILIO_API_SECRET}`);
+    const version = String(env.WHATSAPP_GRAPH_VERSION || "v26.0");
+    const url = `https://graph.facebook.com/${version}/${encodeURIComponent(env.WHATSAPP_PHONE_NUMBER_ID)}/messages`;
+    const templateName = String(env.WHATSAPP_TEMPLATE_NAME);
+    const languageCode = String(env.WHATSAPP_TEMPLATE_LANGUAGE);
     const response = await fetch(url, {
-      method: "POST",
-      headers: {
-        "Authorization": `Basic ${auth}`,
-        "Content-Type": "application/x-www-form-urlencoded"
+      method:"POST",
+      headers:{
+        "Authorization":`Bearer ${env.WHATSAPP_ACCESS_TOKEN}`,
+        "Content-Type":"application/json"
       },
-      body: params
+      body:JSON.stringify({
+        messaging_product:"whatsapp",
+        recipient_type:"individual",
+        to:String(destination).replace(/^\+/,""),
+        type:"template",
+        template:{
+          name:templateName,
+          language:{code:languageCode},
+          components:[
+            {
+              type:"body",
+              parameters:[{type:"text",text:code}]
+            },
+            {
+              type:"button",
+              sub_type:"url",
+              index:"0",
+              parameters:[{type:"text",text:code}]
+            }
+          ]
+        }
+      })
     });
     const payload = await response.json().catch(() => ({}));
     if (!response.ok) {
-      console.error("Twilio verification error", payload);
-      throw new HttpError(503, "verification_delivery_failed", "Unable to send verification SMS.");
+      console.error("WhatsApp verification error", payload);
+      throw new HttpError(503, "verification_delivery_failed", "Unable to send verification code on WhatsApp.");
     }
-    return { providerMessageId: payload.sid || null };
+    return { providerMessageId: payload?.messages?.[0]?.id || null };
   }
 
   throw new HttpError(400, "invalid_channel", "Invalid verification channel.");
@@ -509,7 +526,7 @@ async function sendVerification(channel, destination, code, env) {
 
 async function createVerificationChallenge(env, userId, channel, destination) {
   if (!canSendVerification(channel, env)) {
-    throw new HttpError(503, "verification_delivery_unavailable", `${channel === "email" ? "Email" : "SMS"} verification is not configured.`);
+    throw new HttpError(503, "verification_delivery_unavailable", `${channel === "email" ? "Email" : "WhatsApp"} verification is not configured.`);
   }
   const challengeId = crypto.randomUUID();
   const code = verificationCode();
@@ -563,12 +580,15 @@ async function publicRegisterStart(request, env) {
     if (hasEmail && !validateEmail(email)) throw new HttpError(400, "invalid_email", "Invalid email.");
     if (hasPhone && !validatePhone(phone)) throw new HttpError(400, "invalid_phone", "Mobile number must use international format, for example +393331234567.");
 
-    const channel = String(body.verificationChannel || (hasEmail ? "email" : "sms"));
+    const channel = String(body.verificationChannel || (hasEmail ? "email" : "whatsapp"));
     if (channel === "email" && !hasEmail) throw new HttpError(400, "verification_contact_missing", "Email is required for email verification.");
-    if (channel === "sms" && !hasPhone) throw new HttpError(400, "verification_contact_missing", "Mobile number is required for SMS verification.");
-    if (!["email","sms"].includes(channel)) throw new HttpError(400, "invalid_channel", "Invalid verification channel.");
+    if (channel === "whatsapp" && !hasPhone) throw new HttpError(400, "verification_contact_missing", "Mobile number is required for WhatsApp verification.");
+    if (channel === "whatsapp" && body.whatsappServiceConsent !== true) {
+      throw new HttpError(400, "whatsapp_consent_required", "Consent to receive necessary Academy messages on WhatsApp is required for WhatsApp verification.");
+    }
+    if (!["email","whatsapp"].includes(channel)) throw new HttpError(400, "invalid_channel", "Invalid verification channel.");
     if (!canSendVerification(channel, env)) {
-      throw new HttpError(503, "verification_delivery_unavailable", `${channel === "email" ? "Email" : "SMS"} verification is not configured.`);
+      throw new HttpError(503, "verification_delivery_unavailable", `${channel === "email" ? "Email" : "WhatsApp"} verification is not configured.`);
     }
 
     const existing = await env.DB.prepare(
@@ -583,7 +603,7 @@ async function publicRegisterStart(request, env) {
     const id = crypto.randomUUID();
     const ts = now();
     const marketingEmail = Boolean(body.marketingEmailConsent && hasEmail);
-    const marketingSms = Boolean(body.marketingSmsConsent && hasPhone);
+    const marketingWhatsapp = Boolean(body.marketingWhatsappConsent && hasPhone);
     const marketingPhone = Boolean(body.marketingPhoneConsent && hasPhone);
 
     await env.DB.prepare(
@@ -591,19 +611,20 @@ async function publicRegisterStart(request, env) {
         id,email,phone,first_name,last_name,role,team,password_hash,password_salt,password_iterations,active,
         created_at,updated_at,last_login_at,last_active_at,email_verified_at,phone_verified_at,contact_preference,
         registration_source,terms_version,privacy_version,terms_accepted_at,privacy_accepted_at,
-        marketing_email_consent,marketing_sms_consent,marketing_phone_consent,marketing_consent_updated_at
-       ) VALUES(?,?,?,?,?,'staff',NULL,?,?,?,0,?,?,NULL,NULL,NULL,NULL,?,'public',?,?,?,?,?,?,?,?)`
+        marketing_email_consent,marketing_sms_consent,marketing_whatsapp_consent,marketing_phone_consent,marketing_consent_updated_at
+       ) VALUES(?,?,?,?,?,'staff',NULL,?,?,?,0,?,?,NULL,NULL,NULL,NULL,?,'public',?,?,?,?,?,?,?,?,?)`
     ).bind(
       id,hasEmail ? email : null,hasPhone ? phone : null,firstName,lastName,pass.hash,pass.salt,pass.iterations,
       ts,ts,channel,TERMS_VERSION,PRIVACY_VERSION,ts,ts,
-      marketingEmail ? 1 : 0,marketingSms ? 1 : 0,marketingPhone ? 1 : 0,ts
+      marketingEmail ? 1 : 0,0,marketingWhatsapp ? 1 : 0,marketingPhone ? 1 : 0,ts
     ).run();
 
     await Promise.all([
       recordConsent(env,id,"terms",true,TERMS_VERSION),
       recordConsent(env,id,"privacy",true,PRIVACY_VERSION),
       recordConsent(env,id,"marketing_email",marketingEmail,PRIVACY_VERSION),
-      recordConsent(env,id,"marketing_sms",marketingSms,PRIVACY_VERSION),
+      recordConsent(env,id,"whatsapp_service",channel === "whatsapp",PRIVACY_VERSION),
+      recordConsent(env,id,"marketing_whatsapp",marketingWhatsapp,PRIVACY_VERSION),
       recordConsent(env,id,"marketing_phone",marketingPhone,PRIVACY_VERSION)
     ]);
 
@@ -673,7 +694,7 @@ async function publicRegisterResend(request, env) {
       throw new HttpError(429, "resend_too_soon", "Wait before requesting another code.");
     }
 
-    const channel = String(body.verificationChannel || user.contact_preference || (user.email ? "email" : "sms"));
+    const channel = String(body.verificationChannel || user.contact_preference || (user.email ? "email" : "whatsapp"));
     const destination = channel === "email" ? user.email : user.phone;
     if (!destination) throw new HttpError(400, "verification_contact_missing", "Verification contact is unavailable.");
     const challenge = await createVerificationChallenge(env,registrationId,channel,destination);
@@ -694,7 +715,7 @@ async function getConsents(request, env) {
       ok:true,
       consents:{
         marketingEmail:Boolean(auth.user.marketing_email_consent),
-        marketingSms:Boolean(auth.user.marketing_sms_consent),
+        marketingWhatsapp:Boolean(auth.user.marketing_whatsapp_consent),
         marketingPhone:Boolean(auth.user.marketing_phone_consent),
         termsVersion:auth.user.terms_version || "",
         privacyVersion:auth.user.privacy_version || ""
@@ -708,15 +729,15 @@ async function updateConsents(request, env) {
     const auth = await authenticate(request,env);
     const body = await bodyJson(request);
     const emailConsent = Boolean(body.marketingEmail && auth.user.email);
-    const smsConsent = Boolean(body.marketingSms && auth.user.phone);
+    const whatsappConsent = Boolean(body.marketingWhatsapp && auth.user.phone);
     const phoneConsent = Boolean(body.marketingPhone && auth.user.phone);
     const ts = now();
     await env.DB.prepare(
-      "UPDATE users SET marketing_email_consent=?,marketing_sms_consent=?,marketing_phone_consent=?,marketing_consent_updated_at=?,updated_at=? WHERE id=?"
-    ).bind(emailConsent?1:0,smsConsent?1:0,phoneConsent?1:0,ts,ts,auth.user.id).run();
+      "UPDATE users SET marketing_email_consent=?,marketing_whatsapp_consent=?,marketing_phone_consent=?,marketing_consent_updated_at=?,updated_at=? WHERE id=?"
+    ).bind(emailConsent?1:0,whatsappConsent?1:0,phoneConsent?1:0,ts,ts,auth.user.id).run();
     await Promise.all([
       recordConsent(env,auth.user.id,"marketing_email",emailConsent,PRIVACY_VERSION,"account"),
-      recordConsent(env,auth.user.id,"marketing_sms",smsConsent,PRIVACY_VERSION,"account"),
+      recordConsent(env,auth.user.id,"marketing_whatsapp",whatsappConsent,PRIVACY_VERSION,"account"),
       recordConsent(env,auth.user.id,"marketing_phone",phoneConsent,PRIVACY_VERSION,"account")
     ]);
     const fresh = await env.DB.prepare("SELECT * FROM users WHERE id=?").bind(auth.user.id).first();
@@ -845,26 +866,10 @@ async function sendResetCode(user, channel, code, env) {
     return;
   }
 
-  if (!canSendVerification("sms",env)) {
-    throw new HttpError(503,"reset_delivery_unavailable","SMS delivery is not configured.");
+  if (!canSendVerification("whatsapp",env)) {
+    throw new HttpError(503,"reset_delivery_unavailable","WhatsApp delivery is not configured.");
   }
-  const base = String(env.TWILIO_API_BASE || "https://api.twilio.com/2010-04-01").replace(/\/$/,"");
-  const url = `${base}/Accounts/${encodeURIComponent(env.TWILIO_ACCOUNT_SID)}/Messages.json`;
-  const params = new URLSearchParams();
-  params.set("To",destination);
-  params.set("Body",`Xinzuo Academy password reset code: ${code}. Expires in 30 minutes.`);
-  if (env.TWILIO_MESSAGING_SERVICE_SID) params.set("MessagingServiceSid",env.TWILIO_MESSAGING_SERVICE_SID);
-  else params.set("From",env.TWILIO_FROM_NUMBER);
-  const auth = btoa(`${env.TWILIO_API_KEY}:${env.TWILIO_API_SECRET}`);
-  const response = await fetch(url,{
-    method:"POST",
-    headers:{
-      "Authorization":`Basic ${auth}`,
-      "Content-Type":"application/x-www-form-urlencoded"
-    },
-    body:params
-  });
-  if (!response.ok) throw new HttpError(503,"reset_delivery_failed","Unable to send password reset SMS.");
+  await sendVerification("whatsapp", destination, code, env);
 }
 
 async function requestPasswordReset(request, env) {
@@ -880,7 +885,7 @@ async function requestPasswordReset(request, env) {
       channel = "email";
     } else if (validatePhone(phone)) {
       user = await env.DB.prepare("SELECT * FROM users WHERE phone=? AND active=1").bind(phone).first();
-      channel = "sms";
+      channel = "whatsapp";
     }
 
     if (user && channel && canSendVerification(channel,env)) {
@@ -1343,7 +1348,7 @@ async function adminAudience(request, env) {
     await authenticate(request,env,["admin"]);
     const rows = await env.DB.prepare(
       `SELECT id,email,phone,first_name,last_name,created_at,last_active_at,email_verified_at,phone_verified_at,
-              marketing_email_consent,marketing_sms_consent,marketing_phone_consent,marketing_consent_updated_at
+              marketing_email_consent,marketing_whatsapp_consent,marketing_phone_consent,marketing_consent_updated_at
        FROM users
        WHERE role='staff' AND active=1
        ORDER BY created_at DESC
@@ -1360,7 +1365,7 @@ async function adminAudience(request, env) {
       emailVerified:Boolean(row.email_verified_at),
       phoneVerified:Boolean(row.phone_verified_at),
       marketingEmail:Boolean(row.marketing_email_consent),
-      marketingSms:Boolean(row.marketing_sms_consent),
+      marketingWhatsapp:Boolean(row.marketing_whatsapp_consent),
       marketingPhone:Boolean(row.marketing_phone_consent),
       consentUpdatedAt:row.marketing_consent_updated_at
     }))});

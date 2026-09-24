@@ -18,7 +18,7 @@ Registration requires:
 Marketing consent is deliberately separate and optional:
 
 - email marketing;
-- SMS marketing;
+- WhatsApp marketing;
 - telephone marketing / loyalty contact.
 
 A user may refuse or later withdraw all marketing permissions without losing the Academy account, learning progress or certificate rights.
@@ -32,10 +32,13 @@ The Worker supports three delivery patterns:
 1. **Email with Resend**
    - secret: `RESEND_API_KEY`
    - variable: `VERIFICATION_EMAIL_FROM`
-2. **SMS with Twilio**
-   - secrets: `TWILIO_ACCOUNT_SID`, `TWILIO_API_KEY`, `TWILIO_API_SECRET`
-   - one of: `TWILIO_FROM_NUMBER` or `TWILIO_MESSAGING_SERVICE_SID`
-   - optional variable: `TWILIO_API_BASE` (the default is the standard Twilio API URL; an EU regional endpoint can be supplied)
+2. **WhatsApp with Meta Cloud API**
+   - secret: `WHATSAPP_ACCESS_TOKEN`
+   - variable: `WHATSAPP_PHONE_NUMBER_ID`
+   - variable: `WHATSAPP_TEMPLATE_NAME` (recommended: `xinzuo_academy_otp`)
+   - variable: `WHATSAPP_TEMPLATE_LANGUAGE` (must exactly match the approved template locale)
+   - optional variable: `WHATSAPP_GRAPH_VERSION` (default: `v26.0`)
+   - the approved template must be category `AUTHENTICATION` with an OTP `COPY_CODE` button
 3. **Company webhook**
    - secret: `VERIFICATION_WEBHOOK_URL`
    - receives JSON containing `type`, `channel`, `destination`, `code`, and expiry.
