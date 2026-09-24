@@ -57,7 +57,10 @@ def readiness() -> dict[str, dict[str, Any]]:
             }
             continue
 
-        failures = check(cfg, [code], paths)
+        try:
+            failures = check(cfg, [code], paths)
+        except Exception as exc:  # malformed translation must never block other locales
+            failures = [f"validation error: {type(exc).__name__}: {exc}"]
         result[code] = {
             "ready": not failures,
             "reason": "complete" if not failures else "translation incomplete or stale",
