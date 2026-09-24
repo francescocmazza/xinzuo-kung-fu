@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="2100" viewBox="0 0 1480 2100">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#170b06"/>
+      <stop offset="0.28" stop-color="#3a1d0e"/>
+      <stop offset="0.56" stop-color="#241108"/>
+      <stop offset="0.78" stop-color="#4a2612"/>
+      <stop offset="1" stop-color="#160a05"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="45%" cy="35%" r="68%">
+      <stop offset="0" stop-color="#8b4e25" stop-opacity=".30"/>
+      <stop offset=".52" stop-color="#4f2915" stop-opacity=".11"/>
+      <stop offset="1" stop-color="#090402" stop-opacity=".64"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3eee3"/>
+      <stop offset=".18" stop-color="#a7a39b"/>
+      <stop offset=".42" stop-color="#e6e1d7"/>
+      <stop offset=".68" stop-color="#74736f"/>
+      <stop offset=".86" stop-color="#d8d2c7"/>
+      <stop offset="1" stop-color="#55534f"/>
+    </linearGradient>
+    <linearGradient id="handle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#120c09"/>
+      <stop offset=".42" stop-color="#442619"/>
+      <stop offset=".72" stop-color="#17100d"/>
+      <stop offset="1" stop-color="#6c4328"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8d612b"/>
+      <stop offset=".45" stop-color="#f0cf8e"/>
+      <stop offset="1" stop-color="#9d672c"/>
+    </linearGradient>
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".003 .055" numOctaves="3" seed="27" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0.42 0 0 0 0.05  0 0.20 0 0 0.02  0 0 0.08 0 0.01  0 0 0 .30 0"/>
+      <feBlend in="SourceGraphic" mode="soft-light"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="18"/>
+      <feOffset dx="18" dy="24" result="o"/>
+      <feColorMatrix in="o" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .7 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="bladeClip">
+      <path d="M250 740 C500 650 805 565 1108 553 L1202 600 C970 693 723 810 488 960 L258 926 C220 886 215 809 250 740Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1480" height="2100" fill="url(#wood)"/>
+  <g filter="url(#grain)" opacity=".96">
+    <rect x="0" y="0" width="1480" height="2100" fill="url(#warm)"/>
+    <g fill="none" stroke-linecap="round">
+      <path d="M-80 175 C235 108 498 205 790 142 C1040 87 1292 126 1550 48" stroke="#8a4a25" stroke-opacity=".22" stroke-width="18"/>
+      <path d="M-90 245 C245 167 506 274 810 204 C1062 145 1297 191 1560 115" stroke="#180a05" stroke-opacity=".45" stroke-width="7"/>
+      <path d="M-70 378 C214 309 499 402 770 337 C1064 267 1298 328 1545 251" stroke="#8f4d26" stroke-opacity=".18" stroke-width="14"/>
+      <path d="M-40 1110 C310 1030 565 1133 888 1056 C1100 1005 1306 1024 1545 955" stroke="#9a5228" stroke-opacity=".16" stroke-width="18"/>
+      <path d="M-75 1300 C242 1234 525 1322 823 1260 C1085 1206 1290 1249 1555 1182" stroke="#140805" stroke-opacity=".42" stroke-width="8"/>
+      <path d="M-50 1515 C276 1433 567 1536 877 1464 C1090 1414 1315 1455 1550 1388" stroke="#7d3f20" stroke-opacity=".14" stroke-width="13"/>
+    </g>
+    <g stroke="#090402" stroke-opacity=".38" stroke-width="4">
+      <path d="M0 520 H1480"/><path d="M0 1045 H1480"/><path d="M0 1580 H1480"/>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M250 740 C500 650 805 565 1108 553 L1202 600 C970 693 723 810 488 960 L258 926 C220 886 215 809 250 740Z" fill="url(#steel)" stroke="#d7c7a7" stroke-opacity=".45" stroke-width="4"/>
+    <g clip-path="url(#bladeClip)" fill="none" stroke="#3c3b38" stroke-opacity=".52">
+      <path d="M190 720 C390 650 442 760 637 677 C824 598 879 696 1080 611 C1180 568 1270 583 1335 553" stroke-width="9"/>
+      <path d="M171 752 C382 684 450 794 650 711 C838 633 911 731 1101 649 C1197 608 1267 620 1341 589" stroke-width="5"/>
+      <path d="M165 796 C365 728 462 836 667 753 C839 684 931 772 1113 699 C1209 660 1277 670 1353 639" stroke-width="8"/>
+      <path d="M173 839 C388 773 475 878 682 801 C861 734 945 820 1132 750 C1220 717 1287 721 1368 690" stroke-width="4"/>
+      <path d="M184 878 C407 817 492 920 702 848 C879 787 962 865 1147 803 C1235 773 1305 778 1383 749" stroke-width="7"/>
+      <path d="M188 916 C427 858 512 956 726 892 C900 840 982 910 1168 857 C1250 834 1321 840 1390 817" stroke-width="4"/>
+    </g>
+    <path d="M236 925 C500 938 798 794 1200 602" fill="none" stroke="#fff6e5" stroke-opacity=".62" stroke-width="4"/>
+    <path d="M1164 583 L1292 535 L1334 591 L1202 636 Z" fill="#18120e" stroke="url(#gold)" stroke-width="5"/>
+    <path d="M1288 536 C1355 498 1410 493 1487 520 L1510 694 C1426 677 1362 658 1309 613 Z" fill="url(#handle)" stroke="#a6773f" stroke-width="4"/>
+    <path d="M1317 554 C1383 539 1442 546 1491 573" fill="none" stroke="#c08d54" stroke-opacity=".42" stroke-width="4"/>
+  </g>
+
+  <g transform="translate(105 105)">
+    <rect width="228" height="90" rx="3" fill="#a31d18" stroke="#d8836f" stroke-opacity=".72" stroke-width="2"/>
+    <text x="114" y="57" text-anchor="middle" fill="#fff9ef" font-family="Noto Sans,Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="5">XINZUO</text>
+  </g>
+
+  <g fill="#e5c585" font-family="Noto Serif CJK SC, Noto Serif SC, serif" text-anchor="middle">
+    <text x="1270" y="250" font-size="52" letter-spacing="8" writing-mode="tb">厨房刀具实用指南</text>
+    <text x="1192" y="255" font-size="27" letter-spacing="5" writing-mode="tb" fill="#cda665">材料・刀型・精湛切割技法</text>
+  </g>
+
+  <rect x="0" y="1360" width="1480" height="740" fill="url(#wood)" opacity=".23"/>
+  <rect x="0" y="0" width="1480" height="2100" fill="none" stroke="#8c592c" stroke-opacity=".30" stroke-width="12"/>
+</svg>
