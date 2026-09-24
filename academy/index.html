@@ -58,7 +58,7 @@
 
         <form id="loginForm" class="auth-form">
           <label>Email
-            <input name="contact" type="text" autocomplete="username" required maxlength="254" placeholder="nome@email.com">
+            <input name="email" type="email" autocomplete="username" required maxlength="254" placeholder="nome@email.com">
           </label>
           <label>Password
             <input name="password" type="password" autocomplete="current-password" required minlength="12" maxlength="256">
@@ -135,7 +135,7 @@
 
         <form id="resetCompleteForm" class="auth-form" hidden>
           <label>Email
-            <input name="contact" type="text" autocomplete="username" required maxlength="254">
+            <input name="email" type="email" autocomplete="username" required maxlength="254">
           </label>
           <label>Codice di reset
             <input name="resetToken" type="text" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" required maxlength="6">
