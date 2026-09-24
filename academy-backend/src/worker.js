@@ -750,59 +750,141 @@ async function changePassword(request, env) {
 }
 
 async function createResetToken(env, userId, createdBy = null) {
-  const raw = randomToken(32);
+  const raw = verificationCode();
   const hash = await sha256(raw);
   const ts = now();
   await env.DB.prepare(
-    "INSERT INTO password_reset_tokens(token_hash,user_id,created_at,expires_at,used_at,created_by) VALUES(?,?,?,?,NULL,?)"
-  ).bind(hash,userId,ts,ts + 60 * 60,createdBy).run();
+    "INSERT INTO password_reset_tokens(token_hash,user_id,created_at,expires_at,used_at,created_by,attempts) VALUES(?,?,?,?,NULL,?,0)"
+  ).bind(hash,userId,ts,ts + 30 * 60,createdBy).run();
   return raw;
+}
+
+async function sendResetCode(user, channel, code, env) {
+  const destination = channel === "email" ? user.email : user.phone;
+  if (!destination) throw new HttpError(400, "reset_contact_missing", "Reset contact is unavailable.");
+
+  if (env.VERIFICATION_WEBHOOK_URL) {
+    const response = await fetch(env.VERIFICATION_WEBHOOK_URL, {
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({
+        type:"xinzuo-academy-password-reset-code",
+        channel,
+        destination,
+        code,
+        expiresMinutes:30
+      })
+    });
+    if (!response.ok) throw new HttpError(503,"reset_delivery_failed","Unable to send password reset code.");
+    return;
+  }
+
+  if (channel === "email") {
+    if (!env.RESEND_API_KEY || !env.VERIFICATION_EMAIL_FROM) {
+      throw new HttpError(503,"reset_delivery_unavailable","Email delivery is not configured.");
+    }
+    const response = await fetch("https://api.resend.com/emails", {
+      method:"POST",
+      headers:{
+        "Authorization":`Bearer ${env.RESEND_API_KEY}`,
+        "Content-Type":"application/json"
+      },
+      body:JSON.stringify({
+        from:env.VERIFICATION_EMAIL_FROM,
+        to:[destination],
+        subject:"Xinzuo Academy — password reset code",
+        html:`<p>Your Xinzuo Academy password reset code is:</p><p style="font-size:28px;font-weight:700;letter-spacing:.18em">${code}</p><p>The code expires in 30 minutes.</p>`
+      })
+    });
+    if (!response.ok) throw new HttpError(503,"reset_delivery_failed","Unable to send password reset email.");
+    return;
+  }
+
+  if (!canSendVerification("sms",env)) {
+    throw new HttpError(503,"reset_delivery_unavailable","SMS delivery is not configured.");
+  }
+  const base = String(env.TWILIO_API_BASE || "https://api.twilio.com/2010-04-01").replace(/\/$/,"");
+  const url = `${base}/Accounts/${encodeURIComponent(env.TWILIO_ACCOUNT_SID)}/Messages.json`;
+  const params = new URLSearchParams();
+  params.set("To",destination);
+  params.set("Body",`Xinzuo Academy password reset code: ${code}. Expires in 30 minutes.`);
+  if (env.TWILIO_MESSAGING_SERVICE_SID) params.set("MessagingServiceSid",env.TWILIO_MESSAGING_SERVICE_SID);
+  else params.set("From",env.TWILIO_FROM_NUMBER);
+  const auth = btoa(`${env.TWILIO_API_KEY}:${env.TWILIO_API_SECRET}`);
+  const response = await fetch(url,{
+    method:"POST",
+    headers:{
+      "Authorization":`Basic ${auth}`,
+      "Content-Type":"application/x-www-form-urlencoded"
+    },
+    body:params
+  });
+  if (!response.ok) throw new HttpError(503,"reset_delivery_failed","Unable to send password reset SMS.");
 }
 
 async function requestPasswordReset(request, env) {
   return withHttpErrors(request, env, async () => {
     const body = await bodyJson(request);
-    const email = normalizeEmail(body.email);
-    const user = validateEmail(email) ? await env.DB.prepare("SELECT * FROM users WHERE email=? AND active=1").bind(email).first() : null;
-    if (user) {
-      const token = await createResetToken(env, user.id, null);
-      if (env.RESET_WEBHOOK_URL) {
-        const resetBase = String(env.RESET_PAGE_URL || "https://francescocmazza.github.io/xinzuo-kung-fu/academy/");
-        const link = `${resetBase}?reset=${encodeURIComponent(token)}&email=${encodeURIComponent(user.email)}`;
-        try {
-          await fetch(env.RESET_WEBHOOK_URL, {
-            method:"POST",
-            headers:{"Content-Type":"application/json"},
-            body:JSON.stringify({ type:"xinzuo-academy-password-reset", email:user.email, firstName:user.first_name, resetLink:link })
-          });
-        } catch (error) {
-          console.error("reset webhook failed", error);
-        }
+    const contact = String(body.contact || body.email || "").trim();
+    const email = normalizeEmail(contact);
+    const phone = normalizePhone(contact);
+    let user = null;
+    let channel = null;
+    if (validateEmail(email)) {
+      user = await env.DB.prepare("SELECT * FROM users WHERE email=? AND active=1").bind(email).first();
+      channel = "email";
+    } else if (validatePhone(phone)) {
+      user = await env.DB.prepare("SELECT * FROM users WHERE phone=? AND active=1").bind(phone).first();
+      channel = "sms";
+    }
+
+    if (user && channel && canSendVerification(channel,env)) {
+      const recent = await env.DB.prepare(
+        "SELECT created_at FROM password_reset_tokens WHERE user_id=? ORDER BY created_at DESC LIMIT 1"
+      ).bind(user.id).first();
+      if (!recent || now() - Number(recent.created_at) >= 60) {
+        const code = await createResetToken(env,user.id,null);
+        await sendResetCode(user,channel,code,env);
       }
     }
-    return apiJson(request, env, { ok:true, message:"If the account exists, password reset instructions will be sent." });
+    return apiJson(request, env, { ok:true, message:"If the account exists and the selected channel is available, a reset code will be sent." });
   });
 }
 
 async function resetPassword(request, env) {
   return withHttpErrors(request, env, async () => {
     const body = await bodyJson(request);
-    const email = normalizeEmail(body.email);
+    const contact = String(body.contact || body.email || "").trim();
+    const email = normalizeEmail(contact);
+    const phone = normalizePhone(contact);
     const token = String(body.resetToken || "").trim();
-    if (!validateEmail(email) || !token) throw new HttpError(400, "invalid_reset", "Invalid reset request.");
-    const tokenHash = await sha256(token);
+    if (!/^\d{6}$/.test(token)) throw new HttpError(400,"invalid_reset","Enter the six-digit reset code.");
+
+    let user = null;
+    if (validateEmail(email)) user = await env.DB.prepare("SELECT * FROM users WHERE email=?").bind(email).first();
+    else if (validatePhone(phone)) user = await env.DB.prepare("SELECT * FROM users WHERE phone=?").bind(phone).first();
+    if (!user) throw new HttpError(400,"invalid_reset","Reset code is invalid or expired.");
+
     const row = await env.DB.prepare(
-      `SELECT r.*,u.email FROM password_reset_tokens r JOIN users u ON u.id=r.user_id
-       WHERE r.token_hash=? AND u.email=?`
-    ).bind(tokenHash,email).first();
+      "SELECT * FROM password_reset_tokens WHERE user_id=? AND used_at IS NULL ORDER BY created_at DESC LIMIT 1"
+    ).bind(user.id).first();
     const ts = now();
-    if (!row || row.used_at || row.expires_at <= ts) throw new HttpError(400, "invalid_reset", "Reset token is invalid or expired.");
+    if (!row || row.expires_at <= ts || Number(row.attempts || 0) >= VERIFICATION_MAX_ATTEMPTS) {
+      throw new HttpError(400,"invalid_reset","Reset code is invalid or expired.");
+    }
+
+    const tokenHash = await sha256(token);
+    if (tokenHash !== row.token_hash) {
+      await env.DB.prepare("UPDATE password_reset_tokens SET attempts=attempts+1 WHERE token_hash=?").bind(row.token_hash).run();
+      throw new HttpError(400,"invalid_reset","Reset code is invalid or expired.");
+    }
+
     const pass = await newPasswordRecord(body.newPassword, env);
     await env.DB.batch([
       env.DB.prepare("UPDATE users SET password_hash=?,password_salt=?,password_iterations=?,updated_at=? WHERE id=?")
-        .bind(pass.hash,pass.salt,pass.iterations,ts,row.user_id),
-      env.DB.prepare("UPDATE password_reset_tokens SET used_at=? WHERE token_hash=?").bind(ts,tokenHash),
-      env.DB.prepare("DELETE FROM sessions WHERE user_id=?").bind(row.user_id)
+        .bind(pass.hash,pass.salt,pass.iterations,ts,user.id),
+      env.DB.prepare("UPDATE password_reset_tokens SET used_at=?,attempts=attempts+1 WHERE token_hash=?").bind(ts,row.token_hash),
+      env.DB.prepare("DELETE FROM sessions WHERE user_id=?").bind(user.id)
     ]);
     return apiJson(request, env, { ok:true });
   });
