@@ -96,6 +96,7 @@ GitHub Pages must receive these repository variables before registration is enab
 - `ACADEMY_PRIVACY_CONTACT_EMAIL`
 - `ACADEMY_PUBLIC_URL`
 - `ACADEMY_API_BASE`
+- `ACADEMY_PUBLIC_REGISTRATION_ENABLED` (set to `true` only when launch configuration and legal notice are complete)
 
 The browser intentionally blocks public registration when the controller identity/contact are not configured.
 
