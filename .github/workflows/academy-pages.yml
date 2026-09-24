@@ -59,10 +59,13 @@ jobs:
         shell: bash
         env:
           ACADEMY_API_BASE: ${{ vars.ACADEMY_API_BASE }}
+          ACADEMY_PRIVACY_CONTROLLER_NAME: ${{ vars.ACADEMY_PRIVACY_CONTROLLER_NAME }}
+          ACADEMY_PRIVACY_CONTACT_EMAIL: ${{ vars.ACADEMY_PRIVACY_CONTACT_EMAIL }}
+          ACADEMY_PUBLIC_URL: ${{ vars.ACADEMY_PUBLIC_URL }}
         run: |
           set -euo pipefail
           mkdir -p site/academy
-          cp academy/index.html academy/styles.css academy/app.js academy/account.js academy/config.js site/academy/
+          cp academy/index.html academy/styles.css academy/app.js academy/account.js academy/config.js academy/privacy.html academy/terms.html academy/legal.js academy/certificate.html academy/certificate.js site/academy/
           cp -R academy/data site/academy/data
           python - <<'PY'
           import json, os
@@ -71,6 +74,9 @@ jobs:
               "apiBase": os.environ.get("ACADEMY_API_BASE", "").rstrip("/"),
               "requireAuth": True,
               "companyName": "Xinzuo Europe",
+              "privacyControllerName": os.environ.get("ACADEMY_PRIVACY_CONTROLLER_NAME", ""),
+              "privacyContactEmail": os.environ.get("ACADEMY_PRIVACY_CONTACT_EMAIL", ""),
+              "academyPublicUrl": os.environ.get("ACADEMY_PUBLIC_URL", "https://francescocmazza.github.io/xinzuo-kung-fu/academy/"),
           }
           with open(path, "w", encoding="utf-8") as fh:
               fh.write("window.XINZUO_ACADEMY_CONFIG = Object.freeze(")

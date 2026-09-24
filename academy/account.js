@@ -14,6 +14,11 @@
   let queuedProgress = null;
   let lastInteractionAt = Date.now();
   let heartbeatTimer = null;
+  let pendingRegistration = null;
+  let verificationChannels = { email: true, sms: true };
+  let publicRegistrationOpen = false;
+  let certificationAttempt = null;
+  let certificationTimerHandle = null;
 
   const el = {
     authGate: document.getElementById("authGate"),
@@ -25,6 +30,9 @@
     resetTab: document.getElementById("resetTab"),
     loginForm: document.getElementById("loginForm"),
     registerForm: document.getElementById("registerForm"),
+    verificationForm: document.getElementById("verificationForm"),
+    verificationDestination: document.getElementById("verificationDestination"),
+    resendVerification: document.getElementById("resendVerification"),
     resetRequestForm: document.getElementById("resetRequestForm"),
     resetCompleteForm: document.getElementById("resetCompleteForm"),
     offlineButton: document.getElementById("offlineButton"),
@@ -34,6 +42,8 @@
     logoutButton: document.getElementById("logoutButton"),
     accountDialog: document.getElementById("accountDialog"),
     accountProfile: document.getElementById("accountProfile"),
+    consentForm: document.getElementById("consentForm"),
+    myCertificates: document.getElementById("myCertificates"),
     changePasswordForm: document.getElementById("changePasswordForm"),
     managerBack: document.getElementById("managerBack"),
     managerRefresh: document.getElementById("managerRefresh"),
@@ -41,8 +51,16 @@
     managerUsers: document.getElementById("managerUsers"),
     managerDetail: document.getElementById("managerDetail"),
     inviteForm: document.getElementById("inviteForm"),
+    internalInvitePanel: document.getElementById("internalInvitePanel"),
     inviteResult: document.getElementById("inviteResult"),
-    managerLegend: document.getElementById("managerLegend")
+    managerLegend: document.getElementById("managerLegend"),
+    certificationPanel: document.getElementById("certificationPanel"),
+    certificationStatusSummary: document.getElementById("certificationStatusSummary"),
+    startCertification: document.getElementById("startCertification"),
+    certificationView: document.getElementById("certificationView"),
+    certificationBack: document.getElementById("certificationBack"),
+    certificationTimer: document.getElementById("certificationTimer"),
+    certificationSurface: document.getElementById("certificationSurface")
   };
 
   function escapeHtml(value) {
@@ -56,6 +74,21 @@
 
   function apiAvailable() {
     return Boolean(API_BASE);
+  }
+
+  function legalConfigured() {
+    return Boolean(String(cfg.privacyControllerName || "").trim() && String(cfg.privacyContactEmail || "").trim());
+  }
+
+  function applyVerificationAvailability() {
+    const select = el.registerForm?.elements?.verificationChannel;
+    if (!select) return;
+    const emailOption = select.querySelector('option[value="email"]');
+    const smsOption = select.querySelector('option[value="sms"]');
+    if (emailOption) emailOption.disabled = !verificationChannels.email;
+    if (smsOption) smsOption.disabled = !verificationChannels.sms;
+    if (select.value === "email" && !verificationChannels.email && verificationChannels.sms) select.value = "sms";
+    if (select.value === "sms" && !verificationChannels.sms && verificationChannels.email) select.value = "email";
   }
 
   function token() {
@@ -118,6 +151,7 @@
       reset: el.resetRequestForm
     };
     Object.entries(forms).forEach(([key, form]) => { form.hidden = key !== name; });
+    el.verificationForm.hidden = true;
     el.resetCompleteForm.hidden = true;
     [
       [el.loginTab, "login"],
@@ -148,9 +182,16 @@
       renderAccountProfile();
       dispatchAuth(user);
       startHeartbeat();
+      if (el.certificationPanel) {
+        el.certificationPanel.hidden = false;
+        loadCertificationStatus();
+      }
     } else {
       el.userChip.textContent = "";
       el.managerView.hidden = true;
+      if (el.certificationPanel) el.certificationPanel.hidden = true;
+      if (el.certificationView) el.certificationView.hidden = true;
+      stopCertificationTimer();
       if (REQUIRE_AUTH && apiAvailable()) {
         el.authGate.hidden = false;
         el.learnerArea.hidden = true;
@@ -167,7 +208,7 @@
   }
 
   function roleLabel(role) {
-    return role === "admin" ? "Admin" : role === "manager" ? "Manager" : "Staff";
+    return role === "admin" ? "Admin" : role === "manager" ? "Manager" : "Learner";
   }
 
   function dispatchAuth(user) {
@@ -182,30 +223,88 @@
     el.accountProfile.innerHTML = `
       <dl class="profile-list">
         <div><dt>Nome</dt><dd>${escapeHtml(currentUser.firstName)} ${escapeHtml(currentUser.lastName)}</dd></div>
-        <div><dt>Email</dt><dd>${escapeHtml(currentUser.email)}</dd></div>
+        <div><dt>Email</dt><dd>${escapeHtml(currentUser.email || "—")} ${currentUser.emailVerified ? "✓" : ""}</dd></div>
+        <div><dt>Cellulare</dt><dd>${escapeHtml(currentUser.phone || "—")} ${currentUser.phoneVerified ? "✓" : ""}</dd></div>
         <div><dt>Ruolo</dt><dd>${escapeHtml(roleLabel(currentUser.role))}</dd></div>
-        <div><dt>Team</dt><dd>${escapeHtml(currentUser.team || "—")}</dd></div>
       </dl>
     `;
+  }
+
+
+  function certificateUrl(code) {
+    const base = String(cfg.academyPublicUrl || new URL("./", window.location.href)).replace(/\/$/,"");
+    return `${base}/certificate.html?code=${encodeURIComponent(code)}`;
+  }
+
+  function renderMyCertificates(certificates) {
+    if (!el.myCertificates) return;
+    if (!certificates.length) {
+      el.myCertificates.innerHTML = '<p class="password-hint">Nessun certificato emesso.</p>';
+      return;
+    }
+    el.myCertificates.innerHTML = certificates.map(cert => `
+      <article class="certificate-list-item">
+        <div>
+          <strong>${escapeHtml(cert.courseLevel)} · ${escapeHtml(cert.verificationCode)}</strong>
+          <span>${escapeHtml(cert.status)} · ${when(cert.issuedAt)}</span>
+        </div>
+        <a class="button button--quiet" href="${escapeHtml(certificateUrl(cert.verificationCode))}" target="_blank" rel="noopener">Apri</a>
+      </article>
+    `).join("");
+  }
+
+  async function loadAccountExtras() {
+    if (!currentUser || !apiAvailable()) return;
+    try {
+      const [consentResult,certificateResult] = await Promise.all([
+        api("/api/privacy/consents",{method:"GET"}),
+        api("/api/certificates/mine",{method:"GET"})
+      ]);
+      const c = consentResult.consents || {};
+      el.consentForm.elements.marketingEmail.checked = Boolean(c.marketingEmail);
+      el.consentForm.elements.marketingSms.checked = Boolean(c.marketingSms);
+      el.consentForm.elements.marketingPhone.checked = Boolean(c.marketingPhone);
+      el.consentForm.elements.marketingEmail.disabled = !currentUser.email;
+      el.consentForm.elements.marketingSms.disabled = !currentUser.phone;
+      el.consentForm.elements.marketingPhone.disabled = !currentUser.phone;
+      renderMyCertificates(certificateResult.certificates || []);
+    } catch (error) {
+      formStatus(el.consentForm,error.message,"error");
+    }
   }
 
   async function restoreSession() {
     if (!apiAvailable()) {
       el.backendStatus.innerHTML = `
-        <strong>Backend aziendale pronto nel progetto, ma non ancora collegato a questo sito.</strong>
-        <span>Configura <code>ACADEMY_API_BASE</code> dopo il deploy Cloudflare. Nel frattempo puoi continuare in modalità locale.</span>
+        <strong>Il backend pubblico di Academy non è ancora collegato a questo sito.</strong>
+        <span>Configura <code>ACADEMY_API_BASE</code> dopo il deploy Cloudflare. La modalità locale resta disponibile solo come anteprima senza account o certificati.</span>
       `;
       el.offlineButton.hidden = false;
       setUser(null);
       return;
     }
 
-    el.backendStatus.textContent = "Connessione al backend aziendale…";
+    el.backendStatus.textContent = "Connessione al backend Xinzuo Academy…";
     el.offlineButton.hidden = true;
 
     try {
-      await api("/api/health", { method: "GET" });
-      el.backendStatus.textContent = "Backend aziendale online.";
+      const health = await api("/api/health", { method: "GET" });
+      verificationChannels = {
+        email:Boolean(health.verificationChannels?.email),
+        sms:Boolean(health.verificationChannels?.sms)
+      };
+      publicRegistrationOpen = Boolean(health.publicRegistration);
+      applyVerificationAvailability();
+      el.registerTab.disabled = !publicRegistrationOpen || !legalConfigured();
+      const channelText = [
+        verificationChannels.email ? "email" : null,
+        verificationChannels.sms ? "SMS" : null
+      ].filter(Boolean).join(" + ");
+      el.backendStatus.textContent = !legalConfigured()
+        ? "Backend online, ma identità del titolare privacy non ancora configurata: registrazione pubblica disabilitata."
+        : !publicRegistrationOpen
+          ? "Backend Academy online · registrazione pubblica non ancora aperta."
+          : `Backend Academy online${channelText ? " · verifica " + channelText : " · nessun canale OTP configurato"}.`;
     } catch (error) {
       el.backendStatus.textContent = `Backend non raggiungibile: ${error.message}`;
       el.offlineButton.hidden = false;
@@ -273,6 +372,7 @@
         method: "POST",
         body: JSON.stringify({ type, ...data })
       });
+      if (type === "module_completed") loadCertificationStatus();
     } catch (error) {
       console.warn("Activity event failed", error);
     }
@@ -313,15 +413,185 @@
     });
   }
 
+
+  function stopCertificationTimer() {
+    if (certificationTimerHandle) clearInterval(certificationTimerHandle);
+    certificationTimerHandle = null;
+  }
+
+  function startCertificationTimer(expiresAt) {
+    stopCertificationTimer();
+    const update = () => {
+      const seconds = Math.max(0, Number(expiresAt || 0) - Math.floor(Date.now()/1000));
+      const minutes = Math.floor(seconds / 60);
+      const rest = seconds % 60;
+      el.certificationTimer.textContent = `Tempo residuo: ${minutes}:${String(rest).padStart(2,"0")}`;
+      if (seconds <= 0) stopCertificationTimer();
+    };
+    update();
+    certificationTimerHandle = setInterval(update,1000);
+  }
+
+  async function loadCertificationStatus() {
+    if (!currentUser || !apiAvailable() || !el.certificationPanel) return;
+    try {
+      const result = await api("/api/certification/base/status",{method:"GET"});
+      const valid = (result.certificates || []).find(cert=>cert.status === "valid");
+      if (valid) {
+        el.certificationStatusSummary.innerHTML = `
+          <strong>Certificato valido</strong><br>
+          <a href="${escapeHtml(certificateUrl(valid.verificationCode))}" target="_blank" rel="noopener">${escapeHtml(valid.verificationCode)}</a>
+        `;
+        el.startCertification.textContent = "Sostieni nuovamente l'esame";
+        el.startCertification.disabled = false;
+        return;
+      }
+      if (result.eligible) {
+        el.certificationStatusSummary.textContent = "Requisiti completati: puoi sostenere l'esame finale.";
+        el.startCertification.disabled = false;
+      } else {
+        const p = result.progress || {};
+        el.certificationStatusSummary.textContent =
+          `Completa il Base: ${p.lessonsCompleted || 0}/27 lezioni · ${p.modulesCompleted || 0}/6 moduli · ${p.miniTestsCompleted || 0}/6 mini-test.`;
+        el.startCertification.disabled = true;
+      }
+    } catch (error) {
+      el.certificationStatusSummary.textContent = error.message;
+      el.startCertification.disabled = true;
+    }
+  }
+
+  function openCertificationView() {
+    document.getElementById("hero").hidden = true;
+    document.getElementById("homeView").hidden = true;
+    document.getElementById("learningView").hidden = true;
+    el.certificationPanel.hidden = true;
+    el.certificationView.hidden = false;
+    window.scrollTo({top:0,behavior:"smooth"});
+  }
+
+  function closeCertificationView() {
+    stopCertificationTimer();
+    el.certificationView.hidden = true;
+    document.getElementById("hero").hidden = false;
+    document.getElementById("homeView").hidden = false;
+    document.getElementById("learningView").hidden = true;
+    el.certificationPanel.hidden = !currentUser;
+    window.scrollTo({top:0,behavior:"smooth"});
+    loadCertificationStatus();
+  }
+
+  function renderCertificationAssessment(result) {
+    certificationAttempt = result;
+    openCertificationView();
+    startCertificationTimer(result.expiresAt);
+    const questions = result.questions || [];
+    el.certificationSurface.innerHTML = `
+      <div class="lesson-kicker">
+        <span>Assessment finale · ${escapeHtml(result.assessmentVersion)}</span>
+        <span class="critical-flag">80% + 0 errori critici</span>
+      </div>
+      <h2>Certificazione Xinzuo Academy · Base</h2>
+      <p class="lead">Rispondi a tutte le domande. Il risultato viene calcolato dal backend al momento dell'invio.</p>
+      <form id="certificationForm" class="question-form">
+        <div class="mini-grid">
+          ${questions.map((question,index)=>`
+            <fieldset class="mini-question">
+              <legend>${index+1}. ${escapeHtml(question.prompt)} ${question.critical ? '<span class="critical-inline">critica</span>' : ""}</legend>
+              ${question.options.map(option=>`
+                <label class="option">
+                  <input type="radio" name="${escapeHtml(question.id)}" value="${escapeHtml(option.id)}">
+                  <span>${escapeHtml(option.text)}</span>
+                </label>
+              `).join("")}
+            </fieldset>
+          `).join("")}
+        </div>
+        <p id="certificationMessage" class="form-status" role="alert"></p>
+        <div class="learning-actions">
+          <button class="button" type="submit">Invia esame finale</button>
+        </div>
+      </form>
+    `;
+    document.getElementById("certificationForm").addEventListener("submit",submitCertificationAssessment);
+  }
+
+  async function startCertificationAssessment() {
+    if (!currentUser) return;
+    el.startCertification.disabled = true;
+    el.certificationStatusSummary.textContent = "Preparazione esame…";
+    try {
+      const result = await api("/api/certification/base/start",{
+        method:"POST",
+        body:JSON.stringify({locale:window.XinzuoAcademy?.getLocale?.() || "it"})
+      });
+      renderCertificationAssessment(result);
+    } catch (error) {
+      el.certificationStatusSummary.textContent = error.message;
+      el.startCertification.disabled = false;
+    }
+  }
+
+  async function submitCertificationAssessment(event) {
+    event.preventDefault();
+    if (!certificationAttempt) return;
+    const form = event.currentTarget;
+    const answers = {};
+    for (const question of certificationAttempt.questions || []) {
+      const selected = form.querySelector(`input[name="${CSS.escape(question.id)}"]:checked`);
+      if (!selected) {
+        document.getElementById("certificationMessage").textContent = "Rispondi a tutte le domande prima di inviare l'esame.";
+        return;
+      }
+      answers[question.id] = selected.value;
+    }
+    setBusy(form,true);
+    document.getElementById("certificationMessage").textContent = "Valutazione in corso…";
+    try {
+      const result = await api("/api/certification/base/submit",{
+        method:"POST",
+        body:JSON.stringify({
+          attemptId:certificationAttempt.attemptId,
+          answers,
+          courseVersion:window.XinzuoAcademy?.getCourseVersion?.() || "0.1.0"
+        })
+      });
+      stopCertificationTimer();
+      const percentage = Math.round(Number(result.score || 0)*100);
+      if (result.passed && result.certificate) {
+        el.certificationSurface.innerHTML = `
+          <div class="certificate-result certificate-result--pass">
+            <p class="eyebrow">Esame superato</p>
+            <h2>Congratulazioni</h2>
+            <p class="lead">Punteggio: <strong>${percentage}%</strong> · errori critici: <strong>${result.criticalErrors}</strong>.</p>
+            <p>Il tuo certificato Xinzuo Academy Base è stato emesso e registrato.</p>
+            <a class="button" href="${escapeHtml(certificateUrl(result.certificate.verificationCode))}" target="_blank" rel="noopener">Apri certificato ${escapeHtml(result.certificate.verificationCode)}</a>
+          </div>
+        `;
+        loadAccountExtras();
+      } else {
+        el.certificationSurface.innerHTML = `
+          <div class="certificate-result certificate-result--fail">
+            <p class="eyebrow">Da consolidare</p>
+            <h2>Esame non superato</h2>
+            <p class="lead">Punteggio: <strong>${percentage}%</strong> · errori critici: <strong>${result.criticalErrors}</strong>.</p>
+            <p>Rivedi i concetti indicati nel percorso e completa almeno ${result.remediationInteractionsRequired || 3} nuove interazioni formative prima di riprovare.</p>
+            <p class="password-hint">Aree da consolidare: ${(result.failedConcepts || []).map(escapeHtml).join(", ") || "riesamina il percorso Base"}.</p>
+            <button id="certificationReturn" class="button" type="button">Torna alla formazione</button>
+          </div>
+        `;
+        document.getElementById("certificationReturn").addEventListener("click",closeCertificationView);
+      }
+      certificationAttempt = null;
+    } catch (error) {
+      document.getElementById("certificationMessage").textContent = error.message;
+      setBusy(form,false);
+    }
+  }
+
   async function openManager() {
     if (!currentUser || !["manager", "admin"].includes(currentUser.role)) return;
-    const managerRoleOption = el.inviteForm.querySelector('option[value="manager"]');
-    if (managerRoleOption) {
-      managerRoleOption.disabled = currentUser.role !== "admin";
-      if (currentUser.role !== "admin" && el.inviteForm.elements.role.value === "manager") {
-        el.inviteForm.elements.role.value = "staff";
-      }
-    }
+    if (el.internalInvitePanel) el.internalInvitePanel.hidden = currentUser.role !== "admin";
     el.learnerArea.hidden = true;
     el.authGate.hidden = true;
     el.managerView.hidden = false;
@@ -373,7 +643,7 @@
 
   function renderManagerOverview(data) {
     const items = [
-      ["Personale", data.learners],
+      ["Iscritti", data.learners],
       ["Attivi 7 gg", data.active7d],
       ["Progresso medio", pct(data.progressAvg)],
       ["Media mini-test", pct(data.miniTestAvg)],
@@ -398,7 +668,7 @@
 
   function renderManagerUsers(users) {
     if (!users.length) {
-      el.managerUsers.innerHTML = '<tr><td colspan="8">Nessun utente staff registrato.</td></tr>';
+      el.managerUsers.innerHTML = '<tr><td colspan="8">Nessun iscritto registrato.</td></tr>';
       return;
     }
     el.managerUsers.innerHTML = users.map(user => {
@@ -406,8 +676,8 @@
       const score = Number(user.mini_tests_completed || 0) ? pct(user.mini_test_avg) : "—";
       return `
         <tr>
-          <td><strong>${escapeHtml(user.first_name)} ${escapeHtml(user.last_name)}</strong><small>${escapeHtml(user.email)}</small></td>
-          <td>${escapeHtml(user.team || "—")}</td>
+          <td><strong>${escapeHtml(user.first_name)} ${escapeHtml(user.last_name)}</strong><small>iscritto ${when(user.created_at)}</small></td>
+          <td>${escapeHtml(user.email || user.phone || "—")}<small>${user.email_verified_at || user.phone_verified_at ? "verificato" : "non verificato"}</small></td>
           <td><span class="table-progress"><i style="width:${Math.round(progress * 100)}%"></i></span><b>${pct(progress)}</b></td>
           <td>${Number(user.concepts_acquired || 0)} acquisiti<br><small>${Number(user.concepts_weak || 0)} da rivedere</small></td>
           <td>${score}<br><small>${Number(user.mini_tests_completed || 0)} test</small></td>
@@ -430,15 +700,37 @@
       const result = await api(`/api/manager/users/${encodeURIComponent(userId)}`, { method: "GET" });
       const p = result.progress;
       const events = result.events || [];
+      const certificates = result.certificates || [];
+      const contacts = [result.user.email,result.user.phone].filter(Boolean).join(" · ") || "—";
+      const certificateRows = certificates.length ? certificates.map(cert => `
+        <div class="certificate-admin-row">
+          <div>
+            <strong>${escapeHtml(cert.courseLevel)} · ${escapeHtml(cert.verificationCode)}</strong>
+            <span>${escapeHtml(cert.status)} · ${when(cert.issuedAt)}</span>
+          </div>
+          <div class="learning-actions">
+            <a class="button button--quiet" href="${escapeHtml(certificateUrl(cert.verificationCode))}" target="_blank" rel="noopener">Verifica</a>
+            ${result.admin && cert.status === "valid" ? `<button class="button button--quiet revoke-cert" type="button" data-cert-id="${escapeHtml(cert.id)}">Revoca</button>` : ""}
+          </div>
+        </div>
+      `).join("") : "<p>Nessun certificato emesso.</p>";
+
+      const consentRows = result.admin && (result.consents || []).length
+        ? `<details class="consent-history"><summary>Cronologia consensi</summary>${result.consents.slice(0,30).map(row => `
+            <div><strong>${escapeHtml(row.consent_type)}</strong><span>${row.granted ? "consenso" : "revoca/rifiuto"} · ${when(row.created_at)}</span></div>
+          `).join("")}</details>`
+        : "";
+
       el.managerDetail.innerHTML = `
         <div class="section-heading">
           <div>
             <p class="eyebrow">Learner detail</p>
             <h2>${escapeHtml(result.user.firstName)} ${escapeHtml(result.user.lastName)}</h2>
-            <p>${escapeHtml(result.user.email)} · ${escapeHtml(result.user.team || "Nessun team")}</p>
+            <p>${escapeHtml(contacts)}</p>
           </div>
           <div class="learning-actions">
             <button id="generateReset" class="button button--quiet" type="button">Genera reset password</button>
+            ${result.admin ? '<button id="issueCertificate" class="button" type="button">Emetti certificato manuale</button>' : ""}
             <button id="toggleUser" class="button button--quiet" type="button">${result.user.active ? "Disabilita account" : "Riattiva account"}</button>
           </div>
         </div>
@@ -450,7 +742,17 @@
           <article class="metric-card"><span>Interazioni</span><strong>${p?.interactions || 0}</strong></article>
           <article class="metric-card"><span>Impegno</span><strong>${humanMinutes(p?.engagement_seconds || 0)}</strong></article>
         </div>
+        ${result.admin ? `
+          <div class="consent-summary">
+            <strong>Marketing:</strong>
+            email ${result.user.marketingEmailConsent ? "✓" : "—"} ·
+            SMS ${result.user.marketingSmsConsent ? "✓" : "—"} ·
+            telefono ${result.user.marketingPhoneConsent ? "✓" : "—"}
+          </div>${consentRows}
+        ` : ""}
         <div id="detailActionResult" class="invite-result" hidden></div>
+        <h3>Certificati</h3>
+        <div class="certificate-admin-list">${certificateRows}</div>
         <h3>Attività recente</h3>
         <div class="activity-list">
           ${events.slice(0, 30).map(event => `
@@ -462,6 +764,7 @@
           `).join("") || "<p>Nessuna attività registrata.</p>"}
         </div>
       `;
+
       document.getElementById("generateReset").addEventListener("click", () => generateManagerReset(userId));
       document.getElementById("toggleUser").addEventListener("click", async () => {
         await api(`/api/manager/users/${encodeURIComponent(userId)}`, {
@@ -471,9 +774,42 @@
         await refreshManager();
         await openUserDetail(userId);
       });
+
+      const issue = document.getElementById("issueCertificate");
+      if (issue) issue.addEventListener("click",()=>issueManualCertificate(userId));
+
+      el.managerDetail.querySelectorAll(".revoke-cert").forEach(button => {
+        button.addEventListener("click",async()=>{
+          const reason = prompt("Motivo della revoca del certificato:");
+          if (!reason) return;
+          await api(`/api/admin/certificates/${encodeURIComponent(button.dataset.certId)}`,{
+            method:"PATCH",
+            body:JSON.stringify({status:"revoked",reason})
+          });
+          await openUserDetail(userId);
+        });
+      });
     } catch (error) {
       el.managerDetail.innerHTML = `<p class="form-status form-status--error">${escapeHtml(error.message)}</p>`;
     }
+  }
+
+  async function issueManualCertificate(userId) {
+    if (!confirm("Emettere manualmente un certificato Base? Questa funzione è provvisoria finché l'assessment finale automatico non viene collegato.")) return;
+    const result = await api("/api/admin/certificates/issue",{
+      method:"POST",
+      body:JSON.stringify({
+        userId,
+        courseId:"xinzuo-academy-base",
+        courseLevel:"Base",
+        courseVersion:window.XinzuoAcademy?.getCourseVersion?.() || "0.1.0",
+        assessmentVersion:"manual-admin-v1",
+        publicNote:"Manual issuance by Xinzuo Academy administrator.",
+        basis:"Manual administrator issuance pending automated final assessment integration."
+      })
+    });
+    window.open(certificateUrl(result.certificate.verificationCode),"_blank","noopener");
+    await openUserDetail(userId);
   }
 
   function eventLabel(type) {
@@ -491,15 +827,12 @@
     const box = document.getElementById("detailActionResult");
     try {
       const result = await api(`/api/manager/users/${encodeURIComponent(userId)}/password-reset`, { method: "POST", body: "{}" });
-      const url = new URL(window.location.href);
-      url.search = "";
-      url.searchParams.set("reset", result.resetToken);
-      url.searchParams.set("email", result.email);
       box.hidden = false;
       box.innerHTML = `
-        <strong>Reset valido per 1 ora</strong>
-        <label>Link da consegnare all'utente
-          <input type="text" readonly value="${escapeHtml(url.toString())}">
+        <strong>Codice reset valido per 30 minuti</strong>
+        <p>Recapito: ${escapeHtml(result.contact || "—")}</p>
+        <label>Codice
+          <input type="text" readonly value="${escapeHtml(result.resetToken)}">
         </label>
       `;
     } catch (error) {
@@ -519,7 +852,7 @@
     formStatus(el.loginForm, "Accesso…");
     try {
       await authenticateWith("/api/auth/login", {
-        email: data.get("email"),
+        contact: data.get("contact"),
         password: data.get("password"),
         remember: data.get("remember") === "on"
       }, data.get("remember") === "on");
@@ -538,20 +871,104 @@
     setBusy(el.registerForm, true);
     formStatus(el.registerForm, "Creazione account…");
     try {
-      await authenticateWith("/api/auth/register", {
-        inviteToken: data.get("inviteToken"),
-        firstName: data.get("firstName"),
-        lastName: data.get("lastName"),
-        email: data.get("email"),
-        password: data.get("password"),
-        remember: data.get("remember") === "on"
-      }, data.get("remember") === "on");
-      el.registerForm.reset();
-      formStatus(el.registerForm, "");
+      const inviteToken = String(data.get("inviteToken") || "").trim();
+      if (inviteToken) {
+        await authenticateWith("/api/auth/register", {
+          inviteToken,
+          firstName:data.get("firstName"),
+          lastName:data.get("lastName"),
+          email:data.get("email"),
+          password:data.get("password"),
+          remember:data.get("remember") === "on"
+        }, data.get("remember") === "on");
+        el.registerForm.reset();
+        formStatus(el.registerForm,"");
+      } else {
+        if (!legalConfigured()) {
+          throw new Error("Registrazione non ancora aperta: identità e contatto privacy del titolare devono essere configurati.");
+        }
+        if (!publicRegistrationOpen) {
+          throw new Error("La registrazione pubblica non è ancora stata attivata.");
+        }
+        const result = await api("/api/auth/register/start", {
+          method:"POST",
+          body:JSON.stringify({
+            firstName:data.get("firstName"),
+            lastName:data.get("lastName"),
+            email:data.get("email"),
+            phone:data.get("phone"),
+            verificationChannel:data.get("verificationChannel"),
+            password:data.get("password"),
+            ageConfirmed:data.get("ageConfirmed") === "on",
+            acceptTerms:data.get("acceptTerms") === "on",
+            acceptPrivacy:data.get("acceptPrivacy") === "on",
+            marketingEmailConsent:data.get("marketingEmailConsent") === "on",
+            marketingSmsConsent:data.get("marketingSmsConsent") === "on",
+            marketingPhoneConsent:data.get("marketingPhoneConsent") === "on"
+          })
+        });
+        pendingRegistration = {
+          registrationId:result.registrationId,
+          verificationChannel:result.verificationChannel,
+          remember:data.get("remember") === "on"
+        };
+        el.verificationForm.elements.registrationId.value = result.registrationId;
+        el.verificationForm.elements.remember.checked = pendingRegistration.remember;
+        el.verificationDestination.textContent = `Abbiamo inviato il codice a ${result.maskedDestination}. Scade tra pochi minuti.`;
+        el.registerForm.hidden = true;
+        el.verificationForm.hidden = false;
+        formStatus(el.registerForm,"");
+      }
     } catch (error) {
-      formStatus(el.registerForm, error.message, "error");
+      formStatus(el.registerForm,error.message,"error");
     } finally {
-      setBusy(el.registerForm, false);
+      setBusy(el.registerForm,false);
+    }
+  });
+
+  el.verificationForm.addEventListener("submit", async event => {
+    event.preventDefault();
+    const data = new FormData(el.verificationForm);
+    setBusy(el.verificationForm,true);
+    formStatus(el.verificationForm,"Verifica…");
+    try {
+      const result = await api("/api/auth/register/verify", {
+        method:"POST",
+        body:JSON.stringify({
+          registrationId:data.get("registrationId"),
+          code:data.get("code"),
+          remember:data.get("remember") === "on"
+        })
+      });
+      rememberToken(result.token,data.get("remember") === "on");
+      pendingRegistration = null;
+      setUser(result.user);
+      await hydrateRemoteProgress();
+      el.registerForm.reset();
+      el.verificationForm.reset();
+      formStatus(el.verificationForm,"");
+    } catch (error) {
+      formStatus(el.verificationForm,error.message,"error");
+    } finally {
+      setBusy(el.verificationForm,false);
+    }
+  });
+
+  el.resendVerification.addEventListener("click", async () => {
+    const registrationId = pendingRegistration?.registrationId || el.verificationForm.elements.registrationId.value;
+    if (!registrationId) return;
+    el.resendVerification.disabled = true;
+    try {
+      const result = await api("/api/auth/register/resend", {
+        method:"POST",
+        body:JSON.stringify({registrationId,verificationChannel:pendingRegistration?.verificationChannel})
+      });
+      el.verificationDestination.textContent = `Nuovo codice inviato a ${result.maskedDestination}.`;
+      formStatus(el.verificationForm,"Nuovo codice inviato.","success");
+    } catch (error) {
+      formStatus(el.verificationForm,error.message,"error");
+    } finally {
+      setTimeout(()=>{ el.resendVerification.disabled = false; },1000);
     }
   });
 
@@ -562,7 +979,7 @@
     try {
       const result = await api("/api/auth/request-reset", {
         method: "POST",
-        body: JSON.stringify({ email: data.get("email") })
+        body: JSON.stringify({ contact: data.get("contact") })
       });
       formStatus(el.resetRequestForm, result.message || "Richiesta inviata.", "success");
     } catch (error) {
@@ -580,7 +997,7 @@
       await api("/api/auth/reset-password", {
         method: "POST",
         body: JSON.stringify({
-          email: data.get("email"),
+          contact: data.get("contact"),
           resetToken: data.get("resetToken"),
           newPassword: data.get("newPassword")
         })
@@ -603,9 +1020,33 @@
     showAuthTab("login");
   });
 
-  el.accountButton.addEventListener("click", () => {
+  el.accountButton.addEventListener("click", async () => {
     renderAccountProfile();
     el.accountDialog.showModal();
+    await loadAccountExtras();
+  });
+
+
+  el.consentForm.addEventListener("submit", async event => {
+    event.preventDefault();
+    const data = new FormData(el.consentForm);
+    setBusy(el.consentForm,true);
+    try {
+      const result = await api("/api/privacy/consents",{
+        method:"PATCH",
+        body:JSON.stringify({
+          marketingEmail:data.get("marketingEmail") === "on",
+          marketingSms:data.get("marketingSms") === "on",
+          marketingPhone:data.get("marketingPhone") === "on"
+        })
+      });
+      setUser(result.user);
+      formStatus(el.consentForm,"Preferenze aggiornate.","success");
+    } catch (error) {
+      formStatus(el.consentForm,error.message,"error");
+    } finally {
+      setBusy(el.consentForm,false);
+    }
   });
 
   el.changePasswordForm.addEventListener("submit", async event => {
@@ -629,6 +1070,9 @@
       setBusy(el.changePasswordForm, false);
     }
   });
+
+  el.startCertification.addEventListener("click",startCertificationAssessment);
+  el.certificationBack.addEventListener("click",closeCertificationView);
 
   el.managerButton.addEventListener("click", openManager);
   el.managerBack.addEventListener("click", closeManager);
@@ -685,6 +1129,12 @@
       showAuthTab("register");
       el.registerForm.elements.inviteToken.value = invite;
       if (email) el.registerForm.elements.email.value = email;
+      const privacyModule = el.registerForm.querySelector(".privacy-module");
+      if (privacyModule) {
+        privacyModule.hidden = true;
+        privacyModule.querySelectorAll("input,select").forEach(node => { node.disabled = true; });
+      }
+      el.registerForm.elements.email.required = true;
     }
     if (reset) {
       el.loginForm.hidden = true;
@@ -694,7 +1144,7 @@
       [el.loginTab, el.registerTab, el.resetTab].forEach(b => b.classList.remove("auth-tab--active"));
       el.resetTab.classList.add("auth-tab--active");
       el.resetCompleteForm.elements.resetToken.value = reset;
-      if (email) el.resetCompleteForm.elements.email.value = email;
+      if (email) el.resetCompleteForm.elements.contact.value = email;
     }
     if (invite || reset) {
       const clean = new URL(window.location.href);
