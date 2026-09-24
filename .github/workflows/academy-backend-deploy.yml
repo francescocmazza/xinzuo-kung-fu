@@ -27,6 +27,7 @@ jobs:
       TWILIO_FROM_NUMBER: ${{ secrets.ACADEMY_TWILIO_FROM_NUMBER }}
       TWILIO_MESSAGING_SERVICE_SID: ${{ secrets.ACADEMY_TWILIO_MESSAGING_SERVICE_SID }}
       TWILIO_API_BASE: ${{ vars.ACADEMY_TWILIO_API_BASE }}
+      PUBLIC_REGISTRATION_ENABLED: ${{ vars.ACADEMY_PUBLIC_REGISTRATION_ENABLED }}
       RESET_PAGE_URL: ${{ vars.ACADEMY_PUBLIC_URL }}
       ALLOWED_ORIGINS: ${{ vars.ACADEMY_ALLOWED_ORIGINS }}
 
@@ -79,6 +80,7 @@ jobs:
                   "RESET_PAGE_URL": os.environ.get("RESET_PAGE_URL") or "https://francescocmazza.github.io/xinzuo-kung-fu/academy/",
                   "VERIFICATION_EMAIL_FROM": os.environ.get("VERIFICATION_EMAIL_FROM") or "",
                   "TWILIO_API_BASE": os.environ.get("TWILIO_API_BASE") or "https://api.twilio.com/2010-04-01",
+                  "PUBLIC_REGISTRATION_ENABLED": os.environ.get("PUBLIC_REGISTRATION_ENABLED") or "false",
               },
           }
           with open("wrangler.jsonc", "w", encoding="utf-8") as fh:
