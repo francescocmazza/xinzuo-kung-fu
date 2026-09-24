@@ -1348,7 +1348,7 @@ async function adminAudience(request, env) {
     await authenticate(request,env,["admin"]);
     const rows = await env.DB.prepare(
       `SELECT id,email,phone,first_name,last_name,created_at,last_active_at,email_verified_at,phone_verified_at,
-              marketing_email_consent,marketing_sms_consent,marketing_phone_consent,marketing_consent_updated_at
+              marketing_email_consent,marketing_whatsapp_consent,marketing_phone_consent,marketing_consent_updated_at
        FROM users
        WHERE role='staff' AND active=1
        ORDER BY created_at DESC
@@ -1365,7 +1365,7 @@ async function adminAudience(request, env) {
       emailVerified:Boolean(row.email_verified_at),
       phoneVerified:Boolean(row.phone_verified_at),
       marketingEmail:Boolean(row.marketing_email_consent),
-      marketingSms:Boolean(row.marketing_sms_consent),
+      marketingWhatsapp:Boolean(row.marketing_whatsapp_consent),
       marketingPhone:Boolean(row.marketing_phone_consent),
       consentUpdatedAt:row.marketing_consent_updated_at
     }))});
