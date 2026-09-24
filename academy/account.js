@@ -1124,6 +1124,11 @@
         privacyModule.querySelectorAll("input,select").forEach(node => { node.disabled = true; });
       }
       el.registerForm.elements.email.required = true;
+      if (el.registerForm.elements.phone) {
+        el.registerForm.elements.phone.required = false;
+        const phoneLabel = el.registerForm.elements.phone.closest("label");
+        if (phoneLabel) phoneLabel.hidden = true;
+      }
     }
     if (reset) {
       el.loginForm.hidden = true;
@@ -1133,7 +1138,7 @@
       [el.loginTab, el.registerTab, el.resetTab].forEach(b => b.classList.remove("auth-tab--active"));
       el.resetTab.classList.add("auth-tab--active");
       el.resetCompleteForm.elements.resetToken.value = reset;
-      if (email) el.resetCompleteForm.elements.contact.value = email;
+      if (email) el.resetCompleteForm.elements.email.value = email;
     }
     if (invite || reset) {
       const clean = new URL(window.location.href);
