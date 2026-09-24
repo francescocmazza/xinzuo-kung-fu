@@ -53,6 +53,8 @@ CREATE INDEX users_active_idx_v2 ON users(active, last_active_at);
 CREATE INDEX users_phone_idx ON users(phone);
 CREATE INDEX users_registration_idx ON users(registration_source, created_at);
 
+ALTER TABLE password_reset_tokens ADD COLUMN attempts INTEGER NOT NULL DEFAULT 0;
+
 CREATE TABLE verification_challenges (
   id TEXT PRIMARY KEY,
   user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
