@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Xinzuo Academy — interactive staff training based on The Gongfu of Xinzuo knowledge base.">
+  <title>Xinzuo Academy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="academy-header">
+    <div class="academy-header__inner">
+      <a class="brand" href="./" aria-label="Xinzuo Academy home">
+        <span class="brand__mark" aria-hidden="true">新</span>
+        <span>
+          <strong>Xinzuo Academy</strong>
+          <small id="headerSubtitle">Interactive staff training</small>
+        </span>
+      </a>
+      <div class="header-actions">
+        <label class="language-control">
+          <span id="languageLabel">Language</span>
+          <select id="languageSelect" aria-label="Language">
+            <option value="it">Italiano</option>
+            <option value="en">English</option>
+          </select>
+        </label>
+        <button id="resetProgress" class="button button--quiet" type="button">Reset progress</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="academy-main">
+    <section id="hero" class="hero">
+      <div>
+        <p class="eyebrow" id="heroEyebrow">Xinzuo staff training</p>
+        <h1 id="heroTitle">Learn the knife. Understand the customer.</h1>
+        <p id="heroText" class="hero__text"></p>
+      </div>
+      <aside class="progress-card" aria-labelledby="progressTitle">
+        <div class="progress-card__top">
+          <span id="progressTitle">Your progress</span>
+          <strong id="progressPercent">0%</strong>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
+        <dl class="progress-stats">
+          <div><dt id="masteredLabel">Acquired</dt><dd id="masteredCount">0</dd></div>
+          <div><dt id="reviewLabel">To review</dt><dd id="reviewCount">0</dd></div>
+          <div><dt id="interactionsLabel">Interactions</dt><dd id="interactionCount">0</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section id="homeView" aria-labelledby="curriculumTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow" id="curriculumEyebrow">Three-level path</p>
+          <h2 id="curriculumTitle">Curriculum</h2>
+        </div>
+        <p id="curriculumNote" class="section-note"></p>
+      </div>
+      <div id="levels" class="levels"></div>
+    </section>
+
+    <section id="learningView" class="learning-view" hidden>
+      <nav class="learning-nav" aria-label="Course navigation">
+        <button id="backHome" class="button button--quiet" type="button">← Curriculum</button>
+        <div class="learning-position">
+          <span id="modulePosition"></span>
+          <div class="progress-track progress-track--compact" aria-hidden="true"><span id="moduleProgressBar"></span></div>
+        </div>
+      </nav>
+      <div id="learningSurface" class="learning-surface" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="academy-footer">
+    <p id="footerText">The Gongfu of Xinzuo remains the technical source of truth.</p>
+    <a id="bookLink" href="../it/">Open the knowledge base</a>
+  </footer>
+
+  <noscript>This training application requires JavaScript.</noscript>
+  <script src="app.js" defer></script>
+</body>
+</html>
