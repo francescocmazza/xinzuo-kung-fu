@@ -1,15 +1,16 @@
 /* Front and back cover typography for the printed publication.
    This stylesheet is appended by apply_a5_profile.py after the generic
    print stylesheet, so it can override the legacy PDF cover without
-   changing the live website. The artwork stays image-only on the front:
-   title, subtitle and author remain selectable HTML text. */
+   changing the live website. Front/back artwork remains language-neutral:
+   title, subtitle, author and back-cover copy stay selectable HTML text. */
 
 :root {
-  --kb-cover-paper: #f5f1ea;
-  --kb-cover-gold-dark: #7a4b16;
-  --kb-cover-gold-mid: #a87222;
-  --kb-cover-gold-light: #c79b4c;
-  --kb-cover-ink: #161411;
+  --kb-cover-ivory: #f4e5c8;
+  --kb-cover-gold: #d7aa61;
+  --kb-cover-gold-soft: #e6c78f;
+  --kb-cover-gold-dark: #9c672c;
+  --kb-cover-shadow: rgba(18, 8, 3, 0.9);
+  --kb-cover-wood: #21130b;
 }
 
 .kb-cover {
@@ -22,36 +23,25 @@
   overflow: hidden;
   display: block;
   text-align: center;
-  background-color: var(--kb-cover-paper);
-  background-image: url("assets/Frontespizio.png");
-  background-repeat: no-repeat;
-  background-position: center 4mm;
-  background-size: 92% auto;
+  background: var(--kb-cover-wood) url("assets/CoverFront.webp") center center / cover no-repeat;
   break-after: page;
   page-break-after: always;
 }
 
-/* Visually shorten the illustration without altering the approved artwork.
-   A soft paper-coloured veil absorbs the lower landscape into the cover stock,
-   leaving a true editorial field for the live localized typography. */
+/* The approved artwork already provides a dark editorial field at the bottom.
+   A very light vignette protects translated text lengths without masking it. */
 .kb-cover::after {
   content: "";
   position: absolute;
   z-index: 1;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 43%;
+  inset: 0;
   pointer-events: none;
-  background: linear-gradient(
-    to bottom,
-    rgba(245, 241, 234, 0) 0%,
-    rgba(245, 241, 234, 0.45) 10%,
-    rgba(245, 241, 234, 0.88) 20%,
-    rgba(245, 241, 234, 0.98) 30%,
-    var(--kb-cover-paper) 40%,
-    var(--kb-cover-paper) 100%
-  );
+  background:
+    linear-gradient(to bottom,
+      rgba(17, 8, 3, 0) 0%,
+      rgba(17, 8, 3, 0) 58%,
+      rgba(17, 8, 3, 0.10) 70%,
+      rgba(17, 8, 3, 0.28) 100%);
 }
 
 .kb-cover__hero,
@@ -60,14 +50,14 @@
   display: none !important;
 }
 
-/* Editorial copy sits entirely inside the clean lower field. */
+/* Keep the live localized typography clear of the vertical Chinese inscription. */
 .kb-cover__top {
   position: absolute;
   z-index: 2;
   top: auto;
-  bottom: 11mm;
-  left: 8%;
-  width: 84%;
+  bottom: 8.5mm;
+  left: 7%;
+  width: 79%;
   margin: 0;
   padding: 0;
 }
@@ -75,134 +65,151 @@
 .kb-cover__title {
   display: block;
   margin: 0;
-  font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
-  font-size: clamp(20pt, 5.8vw, 28pt);
-  font-weight: 500;
-  line-height: 1.08;
-  letter-spacing: 0.015em;
-  text-transform: uppercase;
-  background: linear-gradient(180deg, var(--kb-cover-gold-light) 0%, var(--kb-cover-gold-dark) 45%, var(--kb-cover-gold-mid) 72%, #6d4313 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-shadow: 0 0.25mm 0.35mm rgba(90, 55, 16, 0.12);
+  color: #efca87;
+  font-family: "URW Chancery L", "Z003", "Brush Script MT", "Segoe Script",
+    "Noto Serif", "Noto Serif CJK SC", serif;
+  font-size: clamp(29pt, 8.2vw, 39pt);
+  font-style: italic;
+  font-weight: 600;
+  line-height: 0.95;
+  letter-spacing: -0.025em;
+  text-transform: none;
+  text-shadow:
+    0 0.6mm 0.8mm rgba(12, 5, 2, 0.95),
+    0 0 1.2mm rgba(215, 170, 97, 0.16);
 }
 
-/* Keep the title visually quiet; the only ornament belongs below the subtitle. */
-.kb-cover__title::before,
-.kb-cover__title::after {
+.kb-cover__title::before {
   display: none;
 }
 
+.kb-cover__title::after {
+  content: "";
+  display: block;
+  width: 64%;
+  height: 0.42mm;
+  margin: 3.2mm auto 0;
+  transform: skewX(-18deg);
+  background: linear-gradient(90deg, transparent 0%, #c99349 12%, #e5c587 50%, #c99349 88%, transparent 100%);
+  box-shadow: 0 0.35mm 0.55mm rgba(10, 4, 2, 0.55);
+}
+
 .kb-cover__subtitle {
-  position: relative;
-  max-width: 102mm;
-  margin: 5mm auto 0;
-  padding-bottom: 14mm;
-  color: var(--kb-cover-ink);
+  max-width: 101mm;
+  margin: 4.2mm auto 0;
+  padding: 0;
+  color: var(--kb-cover-ivory);
   font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
-  font-size: clamp(10.5pt, 3vw, 14pt);
-  font-weight: 400;
-  line-height: 1.34;
-  letter-spacing: 0;
+  font-size: clamp(7.8pt, 2.25vw, 9.4pt);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-shadow: 0 0.45mm 0.75mm var(--kb-cover-shadow);
 }
 
 .kb-cover__subtitle::after {
-  content: "◆";
-  position: absolute;
-  left: 50%;
-  bottom: 1.6mm;
-  width: 64%;
-  height: 9mm;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--kb-cover-gold-mid);
-  font-size: 9pt;
-  line-height: 1;
-  background:
-    linear-gradient(90deg,
-      transparent 0%, transparent 2%,
-      var(--kb-cover-gold-mid) 2%, var(--kb-cover-gold-mid) 39%,
-      transparent 39%, transparent 61%,
-      var(--kb-cover-gold-mid) 61%, var(--kb-cover-gold-mid) 98%,
-      transparent 98%, transparent 100%)
-    center / 100% 0.25mm no-repeat;
+  content: "";
+  display: block;
+  width: 20mm;
+  height: 0.3mm;
+  margin: 4.1mm auto 0;
+  background: linear-gradient(90deg, transparent, var(--kb-cover-gold), transparent);
 }
 
 .kb-cover__author {
   width: 100%;
-  height: 1.55em;
-  margin: 2.2mm auto 0;
-  overflow: hidden;
-  color: var(--kb-cover-ink);
+  height: auto;
+  margin: 4.1mm auto 0;
+  overflow: visible;
+  color: var(--kb-cover-ivory);
   font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
-  font-size: clamp(9pt, 2.45vw, 11.3pt);
+  font-size: clamp(7.8pt, 2.25vw, 9.2pt);
   font-weight: 500;
-  line-height: 1.45;
-  letter-spacing: 0.22em;
+  line-height: 1.55;
+  letter-spacing: 0.20em;
   text-transform: uppercase;
-  white-space: nowrap;
+  white-space: normal;
+  text-shadow: 0 0.45mm 0.75mm var(--kb-cover-shadow);
 }
 
 /* ---------- Back cover ---------- */
 
 .kb-back-cover {
+  position: relative;
+  isolation: isolate;
   min-height: 100vh;
   margin: 0;
-  padding: 12mm 12mm 10mm;
+  padding: 11mm;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--kb-cover-paper);
-  color: var(--kb-cover-ink);
+  overflow: hidden;
+  background: var(--kb-cover-wood) url("assets/CoverBack.webp") center center / cover no-repeat;
+  color: var(--kb-cover-ivory);
+}
+
+.kb-back-cover::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background:
+    radial-gradient(circle at 50% 44%, rgba(82, 44, 20, 0.10) 0%, rgba(15, 7, 3, 0.22) 72%, rgba(8, 4, 2, 0.36) 100%);
 }
 
 .kb-back-cover__inner {
   width: 100%;
   max-width: 112mm;
+  padding: 7.5mm 7mm 6.5mm;
+  border: 0.25mm solid rgba(215, 170, 97, 0.24);
+  background: rgba(24, 13, 7, 0.52);
+  box-shadow: 0 1.5mm 4mm rgba(0, 0, 0, 0.28);
 }
 
 .kb-back-cover__eyebrow {
   margin: 0;
   text-align: center;
   font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
-  font-size: 8.2pt;
-  line-height: 1.3;
-  letter-spacing: 0.14em;
+  font-size: 7.8pt;
+  line-height: 1.35;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--kb-cover-gold-dark);
+  color: var(--kb-cover-gold-soft);
 }
 
 .kb-back-cover__headline {
-  margin: 5mm 0 6mm;
+  margin: 4.5mm 0 5.5mm;
   text-align: center;
-  font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
-  font-size: 15.5pt;
-  line-height: 1.28;
-  font-weight: 500;
-  color: var(--kb-cover-ink);
+  font-family: "URW Chancery L", "Z003", "Noto Serif", "Noto Serif CJK SC", serif;
+  font-size: 17pt;
+  line-height: 1.15;
+  font-style: italic;
+  font-weight: 600;
+  color: #efca87;
+  text-shadow: 0 0.45mm 0.65mm rgba(0, 0, 0, 0.75);
 }
 
 .kb-back-cover__body p {
-  margin: 0 0 3.1mm;
-  font-size: 8.7pt;
-  line-height: 1.48;
+  margin: 0 0 3mm;
+  color: #f2e6d1;
+  font-size: 8.45pt;
+  line-height: 1.47;
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
+  text-shadow: 0 0.25mm 0.45mm rgba(0, 0, 0, 0.65);
 }
 
 .kb-back-cover__rule {
-  margin: 5.2mm auto 5mm;
+  margin: 4.8mm auto 4.7mm;
   width: 72%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4mm;
-  color: var(--kb-cover-gold-mid);
-  font-size: 9pt;
+  color: var(--kb-cover-gold);
+  font-size: 8.5pt;
   line-height: 1;
 }
 
@@ -211,7 +218,7 @@
   content: "";
   flex: 1 1 auto;
   height: 0.25mm;
-  background: linear-gradient(90deg, transparent 0%, var(--kb-cover-gold-mid) 22%, var(--kb-cover-gold-mid) 78%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, var(--kb-cover-gold) 22%, var(--kb-cover-gold) 78%, transparent 100%);
 }
 
 .kb-back-cover__digital {
@@ -228,7 +235,7 @@
   height: 23mm;
   padding: 1.2mm;
   background: #fff;
-  border: 0.25mm solid rgba(122, 75, 22, 0.24);
+  border: 0.25mm solid rgba(215, 170, 97, 0.55);
 }
 
 .kb-back-cover__qr img {
@@ -245,31 +252,32 @@
 
 .kb-back-cover__cta-title {
   margin: 0;
+  color: var(--kb-cover-gold-soft);
   font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
-  font-size: 9.1pt;
+  font-size: 8.9pt;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
-  color: var(--kb-cover-gold-dark);
 }
 
 .kb-back-cover__cta-text,
 .kb-back-cover__cta-url {
   margin: 1.1mm 0 0;
-  font-size: 8.2pt;
+  color: #f2e6d1;
+  font-size: 8pt;
   line-height: 1.38;
 }
 
 .kb-back-cover__cta-url a {
-  color: var(--kb-cover-ink);
+  color: var(--kb-cover-gold-soft);
   text-decoration: none;
   overflow-wrap: anywhere;
 }
 
 .kb-back-cover__author-block {
-  margin-top: 6mm;
-  padding-top: 4.5mm;
-  border-top: 0.25mm solid rgba(122, 75, 22, 0.22);
+  margin-top: 5.5mm;
+  padding-top: 4.2mm;
+  border-top: 0.25mm solid rgba(215, 170, 97, 0.34);
   text-align: center;
 }
 
@@ -280,17 +288,19 @@
 }
 
 .kb-back-cover__author {
+  color: var(--kb-cover-ivory);
   font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
-  font-size: 9.6pt;
+  font-size: 9.2pt;
   font-weight: 600;
-  letter-spacing: 0.11em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
 .kb-back-cover__role,
 .kb-back-cover__edition {
   margin-top: 1.1mm;
-  font-size: 8.1pt;
+  color: #e8d9bf;
+  font-size: 7.9pt;
   line-height: 1.35;
 }
 
