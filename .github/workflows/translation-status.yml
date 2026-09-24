@@ -10,6 +10,7 @@ on:
       - "localization/locales.yml"
       - "scripts/chatgpt_translate.py"
       - "scripts/test_chatgpt_translate.py"
+      - "scripts/publication_locales.py"
       - ".translation/results.json"
       - ".translation/pages/**"
       - ".github/workflows/translation-status.yml"
@@ -100,18 +101,39 @@ jobs:
           if-no-files-found: error
           retention-days: 7
 
-      - name: Validate committed translations
-        id: translation_check
-        continue-on-error: ${{ github.event_name == 'pull_request' && github.event.pull_request.draft }}
-        run: python scripts/chatgpt_translate.py --check-only
-
-      - name: Explain pending translation work on draft PRs
-        if: ${{ steps.translation_check.outcome == 'failure' && github.event_name == 'pull_request' && github.event.pull_request.draft }}
+      - name: Validate publication-ready translations
         shell: bash
         run: |
-          {
-            echo "### Translation migration is still in progress"
-            echo
-            echo "The queue was generated successfully, but committed translations are not current yet."
-            echo "This is informational while the pull request is a draft. The same check becomes blocking when the PR is marked ready for review."
-          } >> "$GITHUB_STEP_SUMMARY"
+          set -euo pipefail
+          ready_locales="$(python scripts/publication_locales.py --format space)"
+          non_english=""
+          for locale in $ready_locales; do
+            if [ "$locale" != "en" ]; then
+              non_english="$non_english $locale"
+            fi
+          done
+          if [ -n "${non_english// /}" ]; then
+            python scripts/chatgpt_translate.py --check-only --locales $non_english
+          fi
+          python scripts/publication_locales.py --explain
+
+      - name: Summarize pending translation queue
+        shell: bash
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          data = json.loads(Path(".translation/queue.json").read_text(encoding="utf-8"))
+          by_locale = {}
+          for page in data.get("pages", []):
+              item = by_locale.setdefault(page["locale"], {"pages": 0, "units": 0})
+              item["pages"] += 1
+              item["units"] += len(page.get("units", []))
+          print("### Translation queue")
+          print()
+          if not by_locale:
+              print("All default translation-target locales are current.")
+          else:
+              for locale, item in by_locale.items():
+                  print(f"- **{locale}**: {item['pages']} page(s), {item['units']} unit(s) remaining")
+          PY
