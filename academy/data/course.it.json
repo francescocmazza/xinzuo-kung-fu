@@ -2070,13 +2070,602 @@
         {
           "id": "base-sharpening-foundations",
           "title": "Fondamenti di affilatura",
-          "status": "planned",
+          "status": "active",
           "source_paths": [
             "10-sharpening/whetstone-preparation.md",
             "10-sharpening/basic-sharpening-process.md",
             "10-sharpening/the-burr.md"
           ],
-          "summary": "Pietra stabile, angolo verificato, movimento completo tacco-punta, formazione/rimozione della bava e controlli pratici del filo."
+          "summary": "Costruisci una routine Base ripetibile: pietra stabile, contatto verificato, copertura completa del filo, bava piccola e deburring pulito.",
+          "lessons": [
+            {
+              "id": "bsf-01-setup",
+              "concept_id": "sharpening.stone_setup",
+              "title": "Prepara una pietra stabile",
+              "critical": true,
+              "source_path": "10-sharpening/whetstone-preparation.md",
+              "content": {
+                "lead": "Una pietra che si muove, è asciutta quando non dovrebbe o è inadatta rende difficile il controllo dell'angolo ancora prima di iniziare.",
+                "points": [
+                  "Segui le istruzioni del produttore per acqua o lubrificante: alcune pietre vanno immerse, altre sono splash-and-go.",
+                  "Usa un supporto antiscivolo o un appoggio stabile con panno umido e lavora con buona luce.",
+                  "La superficie di lavoro deve essere sufficientemente piana per un contatto affidabile; correggi un'incavatura eccessiva prima di un'affilatura seria."
+                ],
+                "takeaway": "Abbastanza piana, bagnata come richiesto e assolutamente stabile."
+              },
+              "question": {
+                "id": "bsf-q01",
+                "prompt": "Qual è la prima condizione importante prima di affilare?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Una grana molto fine"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Una pietra sufficientemente piana, lubrificata correttamente e stabile"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Un numero fisso di passate"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Una coramella"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Pietra e supporto devono fornire un contatto prevedibile prima di lavorare sull'angolo."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r01a",
+                  "prompt": "Il supporto della pietra si muove durante una passata. Che cosa fai?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Stringi più forte il coltello"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ti fermi immediatamente e stabilizzi il supporto"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Aumenti la pressione"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Vai più veloce"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Una pietra che si muove compromette sia sicurezza sia controllo del contatto."
+                },
+                {
+                  "id": "bsf-r01b",
+                  "prompt": "Ogni pietra ad acqua deve essere immersa per lo stesso tempo?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sì"
+                    },
+                    {
+                      "id": "b",
+                      "text": "No; bisogna seguire le istruzioni specifiche del produttore"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Solo le pietre fini"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Solo con coltelli al carbonio"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Le famiglie di pietre ad acqua sono diverse: l'ammollo non è una regola universale."
+                }
+              ]
+            },
+            {
+              "id": "bsf-02-contact",
+              "concept_id": "sharpening.edge_bevel_contact",
+              "title": "Identifica il bisello del filo e verifica il contatto",
+              "critical": true,
+              "source_path": "10-sharpening/basic-sharpening-process.md",
+              "content": {
+                "lead": "Un principiante può lavorare sulla superficie sbagliata o cambiare angolo senza accorgersene.",
+                "points": [
+                  "Identifica il sottile bisello del filo, non la faccia larga della lama o una geometria primaria più alta.",
+                  "Usa un pennarello sul bisello del filo per vedere dove la pietra rimuove l'inchiostro; regola finché il contatto è quello voluto.",
+                  "La posizione delle mani deve adattarsi quando la lama curva: conserva il contatto locale dal tallone alla punta invece di irrigidire il polso."
+                ],
+                "takeaway": "L'obiettivo è un contatto coerente sul bisello, non un angolo della mano memorizzato."
+              },
+              "question": {
+                "id": "bsf-q02",
+                "prompt": "Che cosa ti mostra il metodo del pennarello?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "La durezza dell'acciaio"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Dove la pietra sta toccando e rimuovendo materiale sul bisello del filo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "La grana esatta della pietra"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Se il coltello è forgiato"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "La rimozione dell'inchiostro rende visibile il contatto e aiuta a correggere un angolo troppo alto o basso."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r02a",
+                  "prompt": "Perché la posizione della mano deve adattarsi vicino a una punta curva?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Per mantenere il contatto locale col bisello mentre cambia il profilo della lama"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Per aumentare automaticamente la pressione"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Per creare una bava più grande"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Per lucidare la faccia della lama"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Una posizione fissa può perdere il contatto corretto quando il profilo curva."
+                },
+                {
+                  "id": "bsf-r02b",
+                  "prompt": "Compare subito una bava ma il pennarello mostra contatto solo sull'estremo apice. Che cosa significa?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "L'angolo è sicuramente corretto"
+                    },
+                    {
+                      "id": "b",
+                      "text": "L'angolo può essere troppo ripido anche se hai raggiunto l'apice"
+                    },
+                    {
+                      "id": "c",
+                      "text": "La pietra è troppo piana"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Il coltello è finito"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Una bava rapida prova il contatto con l'apice, non la correttezza dell'angolo scelto."
+                }
+              ]
+            },
+            {
+              "id": "bsf-03-complete-edge",
+              "concept_id": "sharpening.complete_edge_work",
+              "title": "Lavora tutto il filo, non solo il centro",
+              "critical": true,
+              "source_path": "10-sharpening/basic-sharpening-process.md",
+              "content": {
+                "lead": "Una zona centrale affilata non rende affilato l'intero coltello.",
+                "points": [
+                  "Usa movimenti controllati in andata e ritorno coprendo tallone, centro, parte curva e punta.",
+                  "Ascolta e senti il contatto: un rumore inizialmente ruvido e graffiante tende a diventare più uniforme mentre il bisello si regolarizza.",
+                  "Alterna periodicamente i lati e mantieni il lavoro complessivamente bilanciato; non affidarti a un numero fisso di passate, perché cambiano acciaio, pietra e stato iniziale."
+                ],
+                "takeaway": "Copertura e feedback contano più del conteggio delle passate."
+              },
+              "question": {
+                "id": "bsf-q03",
+                "prompt": "Qual è un errore tipico del principiante?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Controllare tallone e punta"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Lavorare troppo il centro trascurando tallone o punta"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Usare il pennarello"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Ridurre la pressione in finitura"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Ogni zona deve raggiungere l'apice; il centro è spesso la zona più facile e riceve troppo lavoro."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r03a",
+                  "prompt": "Perché un numero fisso di passate è poco affidabile?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Perché pietra, acciaio, pressione e stato iniziale cambiano il lavoro necessario"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Perché serve affilare solo la punta"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Perché le passate non rimuovono mai acciaio"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Perché tutte le pietre tagliano allo stesso modo"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "L'affilatura va guidata dalle evidenze del contatto e dello stato del filo, non da un numero arbitrario."
+                },
+                {
+                  "id": "bsf-r03b",
+                  "prompt": "Il tallone non ha ancora raggiunto l'apice ma il centro sì. Che cosa fai?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Continui a lavorare pesantemente tutto il filo allo stesso modo"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ti concentri brevemente sul tallone e poi torni a passate complete"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Lo ignori"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Aumenti l'angolo solo al centro"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Correggi il deficit locale senza consumare inutilmente le zone già arrivate."
+                }
+              ]
+            },
+            {
+              "id": "bsf-04-burr",
+              "concept_id": "sharpening.burr_control",
+              "title": "Usa la bava più piccola e continua come prova",
+              "critical": true,
+              "source_path": "10-sharpening/the-burr.md",
+              "content": {
+                "lead": "La bava è il segnale che l'abrasivo ha raggiunto l'apice; non è il risultato finale.",
+                "points": [
+                  "Cerca la più piccola bava rilevabile e continua dal tallone alla punta.",
+                  "Controllala in sicurezza muovendo il polpastrello dalla faccia della lama verso il filo, perpendicolarmente: non far mai scorrere il dito lungo il filo.",
+                  "Dopo aver raggiunto l'apice sul primo lato, lavora l'altro finché la bava cambia direzione lungo tutto il filo."
+                ],
+                "takeaway": "Crea la bava solo per dimostrare il contatto con l'apice, poi rimuovila."
+              },
+              "question": {
+                "id": "bsf-q04",
+                "prompt": "Che cosa prova una bava presente solo al centro?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Che tutto il filo è finito"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Solo che il centro ha raggiunto l'apice"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Che l'angolo è perfetto ovunque"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Che la pietra è troppo fine"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Serve una bava continua per dimostrare che l'apice è stato raggiunto lungo tutto il lato."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r04a",
+                  "prompt": "Come si controlla la bava con un polpastrello?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Facendolo scorrere lungo il filo"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Muovendolo leggermente dalla faccia verso il filo, perpendicolare ad esso, fermandosi all'apice"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Premendo direttamente sull'apice"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Sfregando rapidamente sui due lati"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Non bisogna mai far scorrere un dito lungo il filo."
+                },
+                {
+                  "id": "bsf-r04b",
+                  "prompt": "Perché una bava grande è indesiderabile?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Spreca acciaio e può comportarsi come un fragile filo metallico"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dimostra un'affilatura migliore"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Rende inutile il deburring"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Protegge il filo"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Una bava grande è più difficile da rimuovere e può dare una falsa sensazione di affilatura prima di piegarsi o rompersi."
+                }
+              ]
+            },
+            {
+              "id": "bsf-05-deburr-test",
+              "concept_id": "sharpening.deburr_and_test",
+              "title": "Riduci la pressione, rimuovi la bava e testa con criterio",
+              "critical": true,
+              "source_path": "10-sharpening/basic-sharpening-process.md",
+              "content": {
+                "lead": "La fase finale stabilizza l'apice; una grande lucidatura da sola non garantisce un buon filo.",
+                "points": [
+                  "Riduci gradualmente la pressione e alterna più spesso i lati finché non rimane alcun uncino direzionale.",
+                  "Una coramella può aiutare con una bava molto fine residua, ma è opzionale: la pietra deve già produrre un filo pulito e stabile.",
+                  "Controlla con luce forte, verifica della bava e tagli controllati su carta o alimenti adatti come il pomodoro. La sola carta può essere ingannata da un wire edge fragile."
+                ],
+                "takeaway": "Un buon filo è pulito, stabile e coerente per tutta la sua lunghezza."
+              },
+              "question": {
+                "id": "bsf-q05",
+                "prompt": "Perché la carta non dovrebbe essere l'unico test finale?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Costa troppo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Un wire edge fragile può tagliare la carta una volta e poi fallire nell'alimento"
+                  },
+                  {
+                    "id": "c",
+                    "text": "La carta rovina immediatamente ogni coltello"
+                  },
+                  {
+                    "id": "d",
+                    "text": "La carta non può mai mostrare impuntamenti"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Combina carta, controllo della bava e comportamento sul cibo per individuare un apice instabile."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r05a",
+                  "prompt": "Che cosa deve succedere alla pressione durante il deburring?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Aumentare progressivamente"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ridursi progressivamente mentre si alternano i lati"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Restare al massimo"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Smettere di toccare il bisello"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Passate leggere alternate centrano l'apice e indeboliscono/rimuovono la bava."
+                },
+                {
+                  "id": "bsf-r05b",
+                  "prompt": "La coramella è obbligatoria per ottenere un buon filo Base?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sì, sempre"
+                    },
+                    {
+                      "id": "b",
+                      "text": "No; può aiutare, ma il lavoro accurato sulla pietra è la fase essenziale"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Solo per inox"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Solo per bisello singolo"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "La pietra dovrebbe già lasciare un filo pulito e stabile."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bsf-mini-01",
+            "title": "Verifica Fondamenti di affilatura",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bsf-m01",
+                "concept_id": "sharpening.stone_setup",
+                "critical": true,
+                "prompt": "Che cosa fai se il supporto della pietra si muove?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Continui più lentamente"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Ti fermi e lo stabilizzi"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Aumenti la pressione"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Passi a una grana più fine"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "La stabilità è un prerequisito."
+              },
+              {
+                "id": "bsf-m02",
+                "concept_id": "sharpening.edge_bevel_contact",
+                "critical": true,
+                "prompt": "A che cosa serve il pennarello sul bisello del filo?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Decorare la lama"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Verificare dove tocca la pietra"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Misurare l'HRC"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Evitare la bava"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "La rimozione dell'inchiostro visualizza il contatto."
+              },
+              {
+                "id": "bsf-m03",
+                "concept_id": "sharpening.complete_edge_work",
+                "critical": true,
+                "prompt": "Che cosa conta più di un numero fisso di passate?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Copertura completa del filo e feedback"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Velocità"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Colore della pietra"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Materiale del manico"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Il lavoro necessario varia con sistema e condizione iniziale."
+              },
+              {
+                "id": "bsf-m04",
+                "concept_id": "sharpening.burr_control",
+                "critical": true,
+                "prompt": "Qual è il target corretto della bava?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "La più grande possibile"
+                  },
+                  {
+                    "id": "b",
+                    "text": "La più piccola rilevabile ma continua"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Solo al centro"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Nessun contatto con l'apice"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "La bava è una prova, non una caratteristica da massimizzare."
+              },
+              {
+                "id": "bsf-m05",
+                "concept_id": "sharpening.deburr_and_test",
+                "critical": true,
+                "prompt": "Che cosa rende più affidabile il test finale?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Solo carta"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Combinare controllo bava/luce con carta e alimento adatto"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Toccare direttamente l'apice"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Contare le passate"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Più controlli riducono il rischio di scambiare un wire edge per un apice stabile."
+              }
+            ]
+          }
         },
         {
           "id": "base-customer-discovery",
