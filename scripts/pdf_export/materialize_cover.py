@@ -3,7 +3,7 @@
 
 GitHub's publication profile keeps large binary artwork as deterministic base64
 chunks so the exact approved image can be reconstructed on every runner without
-external hosting. The resulting WebP is 1748 x 2480 px (A5 at 300 dpi).
+external hosting. The resulting WebP is 1055 x 1491 px, matching the approved A5 master artwork.
 """
 
 from __future__ import annotations
@@ -16,8 +16,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 CHUNK_DIR = ROOT / "scripts" / "pdf_export" / "cover_art"
 OUTPUT = ROOT / "content" / "en" / "assets" / "Frontespizio.webp"
-EXPECTED_SHA256 = "6b34d7d0c9ba28182f3effe71e6eddedd794d22b42a50da273ea7969090f6d15"
-EXPECTED_SIZE = 143_806
+EXPECTED_SHA256 = "a934647c3a4ec2b96a2ea888251dca543296406d0b5e5c2444a6a6bd12857ea2"
+EXPECTED_SIZE = 103_616
 
 
 def materialize_cover() -> Path:
