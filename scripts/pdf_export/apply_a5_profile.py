@@ -31,8 +31,8 @@ COVER_CSS = ROOT / "scripts" / "pdf_export" / "cover.css"
 LOCALES_CONFIG = ROOT / "localization" / "locales.yml"
 SOURCE_INDEX = ROOT / "content" / "en" / "index.md"
 TRANSLATIONS = ROOT / "translations"
-FRONT_COVER_ASSET = ROOT / "content" / "en" / "assets" / "CoverFront.webp"
-BACK_COVER_ASSET = ROOT / "content" / "en" / "assets" / "CoverBack.webp"
+FRONT_COVER_ASSET = ROOT / "content" / "en" / "assets" / "CoverFront.png"
+BACK_COVER_ASSET = ROOT / "content" / "en" / "assets" / "CoverBack.png"
 
 
 def replace_checked(text: str, old: str, new: str, label: str) -> str:
@@ -132,7 +132,7 @@ def main() -> int:
     exporter = replace_checked(
         exporter,
         'HERO_IMAGE_REL = "assets/images/approved/home-hero-xinzuo-neutral.png"',
-        'HERO_IMAGE_REL = "assets/CoverFront.webp"',
+        'HERO_IMAGE_REL = "assets/CoverFront.png"',
         "next-edition front cover artwork",
     )
     exporter = replace_checked(
@@ -253,7 +253,7 @@ def main() -> int:
         css += steel_table_css
 
     cover_css = COVER_CSS.read_text(encoding="utf-8")
-    if 'background-image: url("assets/CoverFront.webp")' not in css:
+    if 'background-image: url("assets/CoverFront.png")' not in css:
         css += "\n\n" + cover_css
 
     PRINT_CSS.write_text(css, encoding="utf-8")
