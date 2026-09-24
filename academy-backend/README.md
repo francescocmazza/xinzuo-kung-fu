@@ -90,15 +90,23 @@ Manual admin issuance is available as a temporary operational seam. The intended
 
 ## Legal configuration before public launch
 
-GitHub Pages must receive these repository variables before registration is enabled:
+The Academy legal identity is now preconfigured as:
 
-- `ACADEMY_PRIVACY_CONTROLLER_NAME`
-- `ACADEMY_PRIVACY_CONTACT_EMAIL`
+- **Data controller:** FCM SRLS
+- **Registered office:** Via Benvenuto Cellini 15G, 04100 Latina (LT), Italy
+- **Italian VAT number:** 03086390592
+- **Privacy / Academy contact:** Dott. Francesco Claudio Mazza
+- **Contact email:** f.mazza@xinzuo-europe.com
+
+Repository variables with the corresponding `ACADEMY_PRIVACY_*` names may still override these defaults if the legal identity changes.
+
+Before registration is enabled, the deployment still requires:
+
 - `ACADEMY_PUBLIC_URL`
 - `ACADEMY_API_BASE`
-- `ACADEMY_PUBLIC_REGISTRATION_ENABLED` (set to `true` only when launch configuration and legal notice are complete)
+- `ACADEMY_PUBLIC_REGISTRATION_ENABLED=true` only after Worker/D1 and at least one OTP delivery channel are operational.
 
-The browser intentionally blocks public registration when the controller identity/contact are not configured.
+The browser intentionally blocks public registration if the full controller identity/contact configuration is incomplete.
 
 The bundled Privacy Notice and Terms are an operational draft and should receive final legal review for the actual controller, processors, international transfers, retention decisions and launch jurisdictions.
 
