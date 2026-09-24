@@ -147,7 +147,7 @@ In genere ha una sensazione più calda e meno industriale del G10 pur conservand
 Il Pakka wood è un materiale ingegnerizzato per manici, non una specie legnosa. Sottili strati di legno o materiale derivato dal legno vengono impregnati di resina, spesso colorati, e compressi in un blocco denso che viene poi tagliato e sagomato in manici.
 <!-- /tx-unit -->
 <!-- tx-unit:4ddc092d27c54946309f1ca13bc919b0ea63c955758d65d684dfe3ea8982d7e1 -->
-Il processo conserva parte della struttura visiva e del calore del legno migliorando al tempo stesso resistenza a umidità, abrasione, deformazione e fessurazione. Xinzuo utilizza Pakka wood in diverse famiglie damascate e composite a tre strati, nelle quali questa combinazione di aspetto ligneo e stabilità quotidiana si adatta al progetto.
+Il processo conserva parte della struttura visiva e del calore del legno migliorando al tempo stesso resistenza a umidità, abrasione, deformazione e fessurazione. Xinzuo utilizza Pakka wood in diverse famiglie in acciaio Damasco e composite a tre strati, nelle quali questa combinazione di aspetto ligneo e stabilità quotidiana si adatta al progetto.
 <!-- /tx-unit -->
 <!-- tx-unit:ccf0f38141a1d25218bafb3615c9fcf8b1fa4d4f7f923eb879591316d967e135 -->
 Un Pakka wood ben realizzato assorbe molta meno acqua del legno non trattato e possiede una superficie più stabile e meno porosa. **In genere tollera detergenti e sgrassatori meglio del legno naturale non trattato**, fermo restando che hanno sempre la precedenza le istruzioni del coltello e del prodotto di pulizia.
@@ -198,7 +198,7 @@ Richiede comunque le normali cure del legno naturale: evita l'ammollo e trattalo
 L'ebano proviene da diverse specie di *Diospyros*, principalmente dell'Africa e dell'Asia tropicali. È noto per il colore molto scuro, la grana fine e l'elevata densità.
 <!-- /tx-unit -->
 <!-- tx-unit:8ac39b0752b6897bcc616c6a72ca03e575c27a9a765b8d52fc5dfff3fd27bc52 -->
-Queste proprietà permettono superfici lisce e precise e si adattano a forme geometriche pulite, compresi i manici asiatici ottagonali. Xinzuo utilizza ebano sia con lame damascate sia con lame inossidabili convenzionali.
+Queste proprietà permettono superfici lisce e precise e si adattano a forme geometriche pulite, compresi i manici asiatici ottagonali. Xinzuo utilizza ebano sia con lame in acciaio Damasco sia con lame inossidabili convenzionali.
 <!-- /tx-unit -->
 <!-- tx-unit:fd9dea0c5b24c65643ceac63edc09c015ac413d208abb1d35dbb5a2a6b2f5922 -->
 La densità offre buona resistenza all'usura e stabilità, ma aggiunge anche peso. L'ebano deve comunque essere protetto dall'ammollo, dai ripetuti cicli bagnato-asciutto e dall'essiccazione eccessiva ed è generalmente più costoso dei comuni legni da manico.
