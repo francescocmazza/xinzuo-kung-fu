@@ -1,0 +1,793 @@
+{
+  "schema_version": "1.0",
+  "course_version": "0.1.0",
+  "locale": "it",
+  "title": "Xinzuo Academy",
+  "subtitle": "Formazione interattiva del personale basata su Il Gongfu di Xinzuo",
+  "certification": {
+    "minimum_score": 0.8,
+    "maximum_critical_errors": 0,
+    "remediation_required_before_retry": true
+  },
+  "mastery_states": [
+    "unseen",
+    "weak",
+    "nearly_acquired",
+    "acquired"
+  ],
+  "levels": [
+    {
+      "id": "base",
+      "title": "Base",
+      "purpose": "Conoscenza corretta del prodotto, uso sicuro e buone abitudini quotidiane.",
+      "modules": [
+        {
+          "id": "base-safety-control",
+          "title": "Sicurezza e controllo",
+          "status": "active",
+          "source_paths": [
+            "08-use-and-safety/safe-use-and-carrying.md"
+          ],
+          "summary": "Costruisci abitudini prevedibili prima della velocità: piano stabile, alimento stabile, utensile corretto, forza controllata e manipolazione sicura.",
+          "lessons": [
+            {
+              "id": "bsc-01-workstation",
+              "concept_id": "safety.workstation",
+              "title": "Rendi prevedibile la postazione",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Molti incidenti iniziano prima ancora che la lama tocchi l'alimento.",
+                "points": [
+                  "Stabilizza il tagliere prima di iniziare.",
+                  "Mantieni libero il percorso della lama e lavora su una superficie asciutta e ben illuminata.",
+                  "Asciuga mani e manico, stabilizza l'alimento, scegli il coltello corretto e identifica prima il percorso della lama."
+                ],
+                "takeaway": "Tagliere stabile. Alimento stabile. Percorso libero. Polpastrelli protetti."
+              },
+              "question": {
+                "id": "bsc-q01",
+                "prompt": "Che cosa deve avvenire prima del primo taglio?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Iniziare lentamente e stabilizzare il tagliere solo se si muove."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Stabilizzare tagliere e alimento, liberare il percorso della lama, poi scegliere e posizionare il coltello."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Tenere forte l'alimento e aumentare la pressione verso il basso."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Bagnare il tagliere per evitare rimbalzi della lama."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "La sicurezza comincia prima del taglio: tagliere, alimento e percorso della lama devono essere già sotto controllo."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r01a",
+                  "prompt": "Il tagliere si muove leggermente mentre inizi ad affettare. Che cosa fai?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Stringi più forte il coltello."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ti fermi e stabilizzi il tagliere prima di continuare."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Usi movimenti più corti e veloci."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Sposti l'alimento più vicino al bordo del tagliere."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Un tagliere che si muove rende imprevedibili tutti i movimenti successivi. Prima si corregge la postazione."
+                },
+                {
+                  "id": "bsc-r01b",
+                  "prompt": "Quale controllo riassume meglio la regola di sicurezza della Academy?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Coltello affilato, taglio veloce, presa forte, tagliere pulito."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Tagliere stabile, alimento stabile, percorso libero, polpastrelli protetti."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Coltello pesante, alimento asciutto, filo diritto, posizione larga."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Tagliere grande, acciaio morbido, taglio lento, dita aperte."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "La regola in quattro punti è un controllo prima del taglio, non una tecnica di prestazione."
+                }
+              ]
+            },
+            {
+              "id": "bsc-02-food",
+              "concept_id": "safety.food_stability",
+              "title": "Stabilizza l'alimento",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Gli alimenti rotondi o irregolari possono muoversi sotto la lama.",
+                "points": [
+                  "Crea una superficie piana sugli alimenti rotondi prima dei tagli principali.",
+                  "Dividi gli alimenti grandi o irregolari in sezioni gestibili.",
+                  "Non forzare un coltello da cucina sottile su alimenti congelati non adatti."
+                ],
+                "takeaway": "Se l'alimento può rotolare, il taglio non è ancora pronto per iniziare."
+              },
+              "question": {
+                "id": "bsc-q02",
+                "prompt": "Qual è la prima azione più sicura con una patata rotonda che rotola sul tagliere?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Tenerla più forte con i polpastrelli."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Usare un coltello più pesante."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Creare una faccia piana e appoggiarla sul tagliere."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Iniziare con la punta e aumentare la velocità."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Una faccia piana trasforma un alimento instabile in uno prevedibile prima del taglio principale."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r02a",
+                  "prompt": "Un ortaggio grande e irregolare non può essere tenuto in sicurezza. Che cosa fai?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Aumenti la forza per finirlo in un solo movimento."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Lo dividi prima in sezioni stabili e gestibili."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Passi a un coltello flessibile."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Lo sostieni con le dita direttamente sulla linea di taglio."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Prima si rende stabile la geometria del lavoro, poi si taglia."
+                },
+                {
+                  "id": "bsc-r02b",
+                  "prompt": "Perché una base piatta è utile su cipolla, melone o patata?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Rende l'acciaio più duro."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Riduce l'adesione dell'alimento."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Riduce il rotolamento e rende più prevedibile il percorso della lama."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Permette di raschiare lateralmente."
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "L'obiettivo è la stabilità meccanica, non la velocità."
+                }
+              ]
+            },
+            {
+              "id": "bsc-03-tool",
+              "concept_id": "safety.tool_fit_and_lateral_stress",
+              "title": "Usa il coltello giusto ed evita le sollecitazioni laterali",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Una lama può essere molto resistente nella direzione di taglio e molto meno tollerante alla torsione o alla leva.",
+                "points": [
+                  "Non usare i coltelli da cucina come leve, cacciaviti, apriscatole o strumenti per separare oggetti.",
+                  "Non torcere una lama bloccata in un alimento denso.",
+                  "Non raschiare lateralmente il tagliere con il filo: usa il dorso, la faccia della lama o un raschietto."
+                ],
+                "takeaway": "Scegli la geometria adatta al lavoro e mantieni il carico nella direzione del taglio."
+              },
+              "question": {
+                "id": "bsc-q03",
+                "prompt": "Una lama sottile e dura resta bloccata in un alimento denso. Qual è l'azione corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Torci leggermente il manico finché l'alimento si apre."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Colpisci il dorso con la mano libera."
+                  },
+                  {
+                    "id": "c",
+                    "text": "La estrai con cautela e modifichi il taglio."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Spingi lateralmente usando la faccia della lama."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "La torsione crea sollecitazione laterale. È meglio estrarre la lama e modificare il taglio."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r03a",
+                  "prompt": "Quale utilizzo non è adatto a un coltello da cucina fine?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Affettare carne disossata."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Tagliare verdure su un tagliere adatto."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Fare leva per separare due oggetti congelati."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Tagliare erbe con movimento controllato."
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Un coltello da cucina è uno strumento da taglio, non una leva."
+                },
+                {
+                  "id": "bsc-r03b",
+                  "prompt": "Perché il filo non dovrebbe essere usato per raschiare lateralmente gli alimenti sul tagliere?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Può sottoporre l'apice a una sollecitazione laterale dannosa."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Scalda troppo il coltello."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Rimuove il motivo Damasco."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Modifica definitivamente il bilanciamento del manico."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Il raschiamento laterale carica l'apice fine in una direzione per cui non è progettato."
+                }
+              ]
+            },
+            {
+              "id": "bsc-04-hands-force",
+              "concept_id": "safety.hands_and_force",
+              "title": "Posiziona la mano di supporto e usa solo la forza necessaria",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Il controllo nasce dalla posizione delle mani e da un movimento deliberato, non dal stringere più forte.",
+                "points": [
+                  "Posiziona la mano di supporto prima di muovere il coltello.",
+                  "Mantieni i polpastrelli fuori dal percorso della lama; la presa ad artiglio è una guida in movimento, non un trucco per andare più veloci.",
+                  "Se un coltello ben affilato richiede troppa forza, fermati e individua la causa."
+                ],
+                "takeaway": "Prima posiziona la mano, poi muovi il coltello."
+              },
+              "question": {
+                "id": "bsc-q04",
+                "prompt": "Un coltello affilato sembra improvvisamente richiedere troppa forza. Che cosa fai?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Aumenti la pressione verso il basso per completare il taglio."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Ti fermi e controlli filo, stabilità dell'alimento, scelta del coltello e movimento."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Avvicini la mano di supporto al filo."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Usi comunque un movimento oscillante più veloce."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Una resistenza inattesa è un'informazione: va diagnosticata, non compensata con più forza."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r04a",
+                  "prompt": "Quando va posizionata la mano di supporto?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Dopo il primo taglio, quando è chiaro il percorso della lama."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Prima che il coltello inizi a muoversi."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Solo con ingredienti molto piccoli."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Solo quando si usa il pinch grip."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "La mano di supporto definisce il percorso sicuro prima del movimento della lama."
+                },
+                {
+                  "id": "bsc-r04b",
+                  "prompt": "Che cosa indica più spesso una forza eccessiva?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Che bisogna tagliare più velocemente."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Che va controllato qualcosa tra filo, stabilità, scelta del coltello o tecnica."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Che il materiale del manico è sbagliato."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Che serve un motivo Damasco più spesso."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "La forza non è la soluzione predefinita a un taglio che non si comporta correttamente."
+                }
+              ]
+            },
+            {
+              "id": "bsc-05-handling",
+              "concept_id": "safety.washing_transfer_carrying",
+              "title": "Mantieni il controllo anche quando non stai tagliando",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Le abitudini sicure continuano durante lavaggio, passaggio e trasporto.",
+                "points": [
+                  "Non lasciare mai un coltello nascosto nell'acqua saponata o mescolato ad altri oggetti nel lavello.",
+                  "Passa il coltello in modo deliberato, con il manico orientato verso chi lo riceve e il filo lontano dalle dita.",
+                  "Per brevi spostamenti, tieni il coltello basso, vicino al corpo, fermo e con la punta verso il pavimento."
+                ],
+                "takeaway": "Un coltello deve restare visibile, controllato e prevedibile anche quando non sta tagliando."
+              },
+              "question": {
+                "id": "bsc-q05",
+                "prompt": "Quale situazione è esplicitamente pericolosa?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Lavare un coltello alla volta mantenendo visibile il filo."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Trasportare il coltello basso e fermo per una breve distanza."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Lasciare un coltello affilato nascosto nell'acqua saponata del lavello."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Orientare il manico verso la persona che riceve il coltello."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Una lama nascosta può ferire chi mette la mano nel lavello senza vederla."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r05a",
+                  "prompt": "Come va trasportato un coltello per una breve distanza in cucina?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "In verticale all'altezza del petto, così gli altri lo vedono."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Basso, vicino al corpo, fermo e con la punta verso il pavimento."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Piatto sul palmo aperto mentre si cammina."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Dentro un panno tenuto con la mano libera."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Una posizione bassa e ferma rende il percorso del coltello prevedibile per chi è vicino."
+                },
+                {
+                  "id": "bsc-r05b",
+                  "prompt": "Qual è il principio chiave durante il lavaggio del coltello?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mantenere la lama visibile e sotto controllo."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Lasciarlo prima in ammollo."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Avvolgere la spugna attorno al filo."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Metterlo insieme alle altre posate prima di asciugarlo."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Durante il lavaggio contano soprattutto visibilità e controllo."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bsc-mini-01",
+            "title": "Verifica Sicurezza e controllo",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bsc-m01",
+                "concept_id": "safety.workstation",
+                "critical": true,
+                "prompt": "Qual è la sequenza migliore prima del taglio?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Scegli coltello → fai un taglio di prova → stabilizza se serve."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Stabilizza tagliere → libera area → asciuga mani/manico → stabilizza alimento → scegli coltello → identifica percorso lama."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Stabilizza alimento → affila coltello → aumenta forza → pulisci dopo."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Scegli il coltello più pesante → bagna il tagliere → tieni forte l'alimento."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "La sequenza completa elimina l'instabilità prima che la lama si muova."
+              },
+              {
+                "id": "bsc-m02",
+                "concept_id": "safety.food_stability",
+                "critical": true,
+                "prompt": "Un alimento rotondo rotola facilmente. Che cosa rende il lavoro più sicuro?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Una faccia di appoggio piatta."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Un primo taglio più veloce."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Un tagliere più stretto."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Maggiore pressione dei polpastrelli."
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Una faccia piana stabilizza meccanicamente l'alimento."
+              },
+              {
+                "id": "bsc-m03",
+                "concept_id": "safety.tool_fit_and_lateral_stress",
+                "critical": true,
+                "prompt": "Che cosa fai se una lama si blocca?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Torci leggermente."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Fai leva lateralmente."
+                  },
+                  {
+                    "id": "c",
+                    "text": "La estrai e modifichi il taglio."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Colpisci il manico."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Evita le sollecitazioni laterali: modifica il taglio."
+              },
+              {
+                "id": "bsc-m04",
+                "concept_id": "safety.hands_and_force",
+                "critical": true,
+                "prompt": "Qual è la relazione corretta tra mano di supporto e movimento del coltello?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Partono insieme."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Prima si posiziona la mano di supporto, poi si muove il coltello."
+                  },
+                  {
+                    "id": "c",
+                    "text": "La mano segue il coltello."
+                  },
+                  {
+                    "id": "d",
+                    "text": "La posizione conta solo a velocità professionale."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "La posizione della mano definisce il percorso sicuro prima del movimento."
+              },
+              {
+                "id": "bsc-m05",
+                "concept_id": "safety.washing_transfer_carrying",
+                "critical": true,
+                "prompt": "Quale regola resta valida dopo aver finito di tagliare?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Mantenere il coltello visibile e sotto controllo durante lavaggio, passaggio e trasporto."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Un coltello è sicuro appena smette di muoversi."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Il lavello è il posto più sicuro per appoggiarlo temporaneamente."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Va trasportato alto per rendere visibile la lama."
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Anche quando non taglia, il coltello deve restare controllato e prevedibile."
+              }
+            ]
+          }
+        },
+        {
+          "id": "base-anatomy-bevels",
+          "title": "Anatomia e biselli",
+          "status": "planned",
+          "source_paths": [
+            "00-knife-basics/anatomy-of-a-kitchen-knife.md",
+            "04-geometry-and-bevels/single-and-double-bevels.md"
+          ],
+          "summary": "Impara i componenti del coltello e che cosa cambia tra geometrie a bisello singolo e doppio."
+        },
+        {
+          "id": "base-shapes-use",
+          "title": "Forme dei coltelli e utilizzo",
+          "status": "planned",
+          "source_paths": [
+            "05-knife-types/overview.md"
+          ],
+          "summary": "Collega le forme principali ai lavori per cui sono state progettate."
+        },
+        {
+          "id": "base-care-boards",
+          "title": "Cura e taglieri",
+          "status": "planned",
+          "source_paths": [
+            "09-maintenance/cutting-boards.md",
+            "09-maintenance/routine-care.md"
+          ],
+          "summary": "Proteggi filo e materiali scegliendo tagliere, lavaggio, asciugatura e conservazione corretti."
+        },
+        {
+          "id": "base-sharpening-foundations",
+          "title": "Fondamenti di affilatura",
+          "status": "planned",
+          "source_paths": [
+            "10-sharpening/whetstone-preparation.md",
+            "10-sharpening/basic-sharpening-process.md",
+            "10-sharpening/the-burr.md"
+          ],
+          "summary": "Pietra stabile, angolo verificato, movimento completo tacco-punta, formazione/rimozione della bava e controlli pratici del filo."
+        },
+        {
+          "id": "base-customer-discovery",
+          "title": "Analisi delle esigenze del cliente",
+          "status": "planned",
+          "source_paths": [
+            "05-knife-types/overview.md",
+            "05-knife-types/weight-and-balance.md"
+          ],
+          "summary": "Parti da alimenti, quantità, movimento e adattamento ergonomico prima di discutere acciaio, estetica o prezzo."
+        }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "title": "Intermedio",
+      "purpose": "Collega materiale, costruzione, geometria ed esigenze dell'utente senza affidarti a slogan.",
+      "modules": [
+        {
+          "id": "int-steel-dimensions",
+          "title": "Le cinque dimensioni dell'acciaio da coltello",
+          "status": "planned",
+          "source_paths": [
+            "01-foundations/five-dimensions-of-knife-steel.md"
+          ]
+        },
+        {
+          "id": "int-alloys-heat-treatment",
+          "title": "Elementi di lega, trattamento termico e carburi",
+          "status": "planned",
+          "source_paths": [
+            "02-steels-and-metallurgy/alloying-elements.md",
+            "02-steels-and-metallurgy/heat-treatment-and-carbides.md"
+          ]
+        },
+        {
+          "id": "int-steel-families",
+          "title": "Acciai convenzionali, PM e acciai Xinzuo",
+          "status": "planned",
+          "source_paths": [
+            "02-steels-and-metallurgy/conventional-and-powder-metallurgy-steels.md",
+            "02-steels-and-metallurgy/xinzuo-blade-steels.md"
+          ]
+        },
+        {
+          "id": "int-damascus-construction",
+          "title": "Damasco e costruzione della lama",
+          "status": "planned",
+          "source_paths": [
+            "03-blade-construction/damascus-steel.md",
+            "03-blade-construction/self-sharpening-full-damascus.md"
+          ]
+        },
+        {
+          "id": "int-ergonomics-geometry",
+          "title": "Geometria, bilanciamento ed ergonomia",
+          "status": "planned",
+          "source_paths": [
+            "04-geometry-and-bevels/single-and-double-bevels.md",
+            "05-knife-types/weight-and-balance.md"
+          ]
+        },
+        {
+          "id": "int-consultation",
+          "title": "Consulenza di prodotto basata sulle esigenze",
+          "status": "planned",
+          "source_paths": [
+            "05-knife-types/overview.md",
+            "02-steels-and-metallurgy/xinzuo-blade-steels.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Avanzato",
+      "purpose": "Diagnostica compromessi, utilizzi specialistici e problemi del filo, quindi consiglia il cliente con ragionamento basato su evidenze.",
+      "modules": [
+        {
+          "id": "adv-material-reasoning",
+          "title": "Ragionamento comparativo sui materiali",
+          "status": "planned",
+          "source_paths": [
+            "02-steels-and-metallurgy/xinzuo-blade-steels.md"
+          ]
+        },
+        {
+          "id": "adv-specialist-knives",
+          "title": "Bisello singolo e famiglie specialistiche",
+          "status": "planned",
+          "source_paths": [
+            "04-geometry-and-bevels/single-and-double-bevels.md",
+            "05-knife-types/overview.md"
+          ]
+        },
+        {
+          "id": "adv-sharpening",
+          "title": "Affilatura avanzata e correzioni locali",
+          "status": "planned",
+          "source_paths": [
+            "10-sharpening/basic-sharpening-process.md",
+            "10-sharpening/the-burr.md"
+          ]
+        },
+        {
+          "id": "adv-edge-diagnosis",
+          "title": "Diagnosi dei problemi del filo e manutenzione",
+          "status": "planned",
+          "source_paths": [
+            "09-maintenance/routine-care.md",
+            "10-sharpening/basic-sharpening-process.md"
+          ]
+        },
+        {
+          "id": "adv-consultation",
+          "title": "Scenari cliente complessi",
+          "status": "planned",
+          "source_paths": [
+            "05-knife-types/overview.md",
+            "05-knife-types/weight-and-balance.md",
+            "02-steels-and-metallurgy/xinzuo-blade-steels.md"
+          ]
+        },
+        {
+          "id": "adv-capstone",
+          "title": "Certificazione finale",
+          "status": "planned",
+          "source_paths": []
+        }
+      ]
+    }
+  ]
+}
