@@ -6,12 +6,10 @@ on:
       - main
     paths:
       - "content/en/**"
-      - "academy/**"
       - "translations/**"
       - "glossaries/**"
       - "localization/**"
       - "scripts/multilingual_site.py"
-      - "scripts/validate_academy.py"
       - "scripts/chatgpt_translate.py"
       - "scripts/test_chatgpt_translate.py"
       - "scripts/centralize_bibliography.py"
