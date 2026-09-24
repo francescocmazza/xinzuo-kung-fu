@@ -622,12 +622,485 @@
         {
           "id": "base-anatomy-bevels",
           "title": "Anatomy & Bevels",
-          "status": "planned",
+          "status": "active",
           "source_paths": [
             "00-knife-basics/anatomy-of-a-kitchen-knife.md",
             "04-geometry-and-bevels/single-and-double-bevels.md"
           ],
-          "summary": "Name the parts of a knife and understand what single- and double-bevel geometry changes."
+          "summary": "Name the parts of a knife, distinguish construction from quality claims, and understand what bevel geometry changes.",
+          "lessons": [
+            {
+              "id": "bab-01-blade-anatomy",
+              "concept_id": "anatomy.blade_parts",
+              "title": "Read the blade from tip to heel",
+              "critical": false,
+              "source_path": "00-knife-basics/anatomy-of-a-kitchen-knife.md",
+              "content": {
+                "lead": "Accurate product explanation starts with accurate names.",
+                "points": [
+                  "The tip is the front; the spine is the upper normally unsharpened side; the blade face is the broad side.",
+                  "The cutting edge is the sharpened boundary; the heel is the rear of that cutting edge.",
+                  "The bevel is the geometry that narrows the blade toward the apex. Surface finish and geometry are different things."
+                ],
+                "takeaway": "Name the feature you are discussing before describing what it does."
+              },
+              "question": {
+                "id": "bab-q01",
+                "prompt": "Which statement correctly distinguishes the cutting edge from the bevel?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The bevel is the sharpened line; the cutting edge is the broad blade face."
+                  },
+                  {
+                    "id": "b",
+                    "text": "The cutting edge is the sharpened line; the bevel is the geometry narrowing toward the apex."
+                  },
+                  {
+                    "id": "c",
+                    "text": "They are two names for the same surface finish."
+                  },
+                  {
+                    "id": "d",
+                    "text": "The bevel is the spine and the cutting edge is the heel."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The edge is the sharpened boundary; the bevel is the sloping geometry leading to it."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bab-r01a",
+                  "prompt": "What is the heel of a kitchen knife?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The rear of the cutting edge nearest the handle."
+                    },
+                    {
+                      "id": "b",
+                      "text": "The rear end of the handle."
+                    },
+                    {
+                      "id": "c",
+                      "text": "The upper unsharpened side."
+                    },
+                    {
+                      "id": "d",
+                      "text": "The broad side of the blade."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The heel is the rear portion of the cutting edge, close to the handle."
+                },
+                {
+                  "id": "bab-r01b",
+                  "prompt": "Two blades have the same polished appearance. What can you safely conclude?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Their cross-section and thickness must be the same."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Their surface finish looks similar, but their geometry may still differ."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Their edge angle must be identical."
+                    },
+                    {
+                      "id": "d",
+                      "text": "They must use the same steel."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Finish is appearance/texture on the blade face; it does not prove the underlying geometry."
+                }
+              ]
+            },
+            {
+              "id": "bab-02-tang-bolster",
+              "concept_id": "anatomy.tang_and_bolster",
+              "title": "Construction is not a simple quality hierarchy",
+              "critical": false,
+              "source_path": "00-knife-basics/anatomy-of-a-kitchen-knife.md",
+              "content": {
+                "lead": "Full tang, hidden tang, through tang and partial tang describe construction, not an automatic ranking.",
+                "points": [
+                  "A full tang follows almost the full handle outline and is commonly covered by scales.",
+                  "A hidden tang is enclosed by the handle; a through tang reaches the butt and is not another name for full tang.",
+                  "A bolster is a reinforced blade-to-handle transition on many Western knives. Its presence, absence or welding method alone does not determine knife quality."
+                ],
+                "takeaway": "Explain how the knife is built without turning one construction feature into a universal quality score."
+              },
+              "question": {
+                "id": "bab-q02",
+                "prompt": "Which statement about tang construction is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "A through tang is simply another name for a full tang."
+                  },
+                  {
+                    "id": "b",
+                    "text": "A hidden tang is always lower quality than a full tang."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Tang type describes construction; durability also depends on dimensions, materials, fit and intended loads."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only forged knives can have a full tang."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "The knowledge base explicitly rejects treating tang styles as a simple quality hierarchy."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bab-r02a",
+                  "prompt": "What makes a through tang different from a full tang?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "A through tang is narrower and enclosed, but extends to and is secured at the butt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "A through tang has no steel inside the handle."
+                    },
+                    {
+                      "id": "c",
+                      "text": "A full tang always stops before the butt."
+                    },
+                    {
+                      "id": "d",
+                      "text": "There is no difference."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "A through tang is a hidden-tang construction that extends to the butt; it is not a full-outline tang."
+                },
+                {
+                  "id": "bab-r02b",
+                  "prompt": "A welded bolster is visible in a production knife. What does that fact alone prove?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The knife is low quality."
+                    },
+                    {
+                      "id": "b",
+                      "text": "The blade steel is cheap."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nothing about overall quality without considering fit, joint quality, heat control and finishing."
+                    },
+                    {
+                      "id": "d",
+                      "text": "The knife was not heat treated."
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "A correctly executed separate bolster can be a rational manufacturing and structural choice."
+                }
+              ]
+            },
+            {
+              "id": "bab-03-double-bevel",
+              "concept_id": "geometry.double_bevel",
+              "title": "Understand double-bevel geometry",
+              "critical": false,
+              "source_path": "04-geometry-and-bevels/single-and-double-bevels.md",
+              "content": {
+                "lead": "Most general-purpose kitchen knives sharpen from both sides, but 'double bevel' does not always mean perfectly symmetrical.",
+                "points": [
+                  "A symmetrical double bevel places comparable geometry on both sides.",
+                  "An asymmetrical double bevel moves the edge closer to one side and can affect food release, precision and slight steering.",
+                  "The exact grind matters more than assumptions based on the knife's name."
+                ],
+                "takeaway": "Double bevel tells you there are two sharpened sides; it does not by itself tell you the exact symmetry."
+              },
+              "question": {
+                "id": "bab-q03",
+                "prompt": "What can an asymmetrical double bevel change?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Only the decorative finish."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Food separation and the tendency to steer slightly."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Whether the handle is full tang."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Whether the steel is stainless."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Moving the edge toward one side changes how the geometry interacts with food and can introduce slight steering."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bab-r03a",
+                  "prompt": "Does 'double bevel' guarantee a 50/50 symmetrical grind?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Yes, always."
+                    },
+                    {
+                      "id": "b",
+                      "text": "No. Double bevel means both sides are sharpened; the proportions can be asymmetrical."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only on forged knives."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only on Japanese profiles."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Symmetry is a separate property from the presence of two bevels."
+                },
+                {
+                  "id": "bab-r03b",
+                  "prompt": "What should staff check before making a claim about the exact grind?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The silhouette alone."
+                    },
+                    {
+                      "id": "b",
+                      "text": "The model's actual construction/specification."
+                    },
+                    {
+                      "id": "c",
+                      "text": "The handle material."
+                    },
+                    {
+                      "id": "d",
+                      "text": "The Damascus pattern."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Profile names and appearances can be shared by knives with different grinds."
+                }
+              ]
+            },
+            {
+              "id": "bab-04-single-bevel",
+              "concept_id": "geometry.single_bevel_and_handedness",
+              "title": "Single bevel requires model-specific care",
+              "critical": true,
+              "source_path": "04-geometry-and-bevels/single-and-double-bevels.md",
+              "content": {
+                "lead": "Traditional single-bevel geometry can be handed and behaves differently from ordinary double-bevel sharpening.",
+                "points": [
+                  "Single-bevel knives concentrate the main bevel on one side and require a different sharpening approach.",
+                  "Handedness and steering can matter, so the exact model must be checked before advising a customer.",
+                  "A traditional profile name does not prove the grind: modern makers also produce double-bevel versions of traditionally single-bevel forms."
+                ],
+                "takeaway": "Never infer handedness or sharpening instructions from the silhouette alone."
+              },
+              "question": {
+                "id": "bab-q04",
+                "prompt": "A knife has a profile traditionally associated with single-bevel construction. What should staff do?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Assume it is right-handed."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Assume it is single bevel and give traditional sharpening instructions."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Check the exact model's grind and handedness before describing or sharpening it."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Treat all versions as 50/50 double bevel."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "The same profile name can exist in different grinds; model-specific verification is essential."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bab-r04a",
+                  "prompt": "Why can single-bevel handedness matter to a customer?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It can affect steering, use and sharpening."
+                    },
+                    {
+                      "id": "b",
+                      "text": "It changes the steel composition."
+                    },
+                    {
+                      "id": "c",
+                      "text": "It determines whether the knife can cut vegetables."
+                    },
+                    {
+                      "id": "d",
+                      "text": "It determines the handle material."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The asymmetric working geometry can interact differently with the cut depending on orientation."
+                },
+                {
+                  "id": "bab-r04b",
+                  "prompt": "What is unsafe product advice?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Checking the exact specification before explaining the grind."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Explaining that a profile name alone does not prove handedness."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Giving single-bevel sharpening instructions solely because the knife looks like a traditional single-bevel form."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Comparing verified model geometry."
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Sharpening advice must follow the actual grind, not a visual assumption."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bab-mini-01",
+            "title": "Anatomy & Bevels check",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bab-m01",
+                "concept_id": "anatomy.blade_parts",
+                "critical": false,
+                "prompt": "Which part is the rear of the cutting edge nearest the handle?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Heel"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Spine"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Tip"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Pommel"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "The heel is the rear of the cutting edge."
+              },
+              {
+                "id": "bab-m02",
+                "concept_id": "anatomy.tang_and_bolster",
+                "critical": false,
+                "prompt": "Which statement is most accurate?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Full tang is always superior."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Construction type must be evaluated with dimensions, materials, fit and intended use."
+                  },
+                  {
+                    "id": "c",
+                    "text": "A welded bolster proves low quality."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Hidden tang and through tang are identical terms."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Construction features are not universal quality rankings."
+              },
+              {
+                "id": "bab-m03",
+                "concept_id": "geometry.double_bevel",
+                "critical": false,
+                "prompt": "Can a double-bevel knife be asymmetrical?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Yes"
+                  },
+                  {
+                    "id": "b",
+                    "text": "No"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only if serrated"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only if forged"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Two bevels do not require a perfectly symmetrical ratio."
+              },
+              {
+                "id": "bab-m04",
+                "concept_id": "geometry.single_bevel_and_handedness",
+                "critical": true,
+                "prompt": "What is the correct rule before describing handedness?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Infer it from the silhouette."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Infer it from the country of origin."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Check the exact model's grind and specification."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Assume every traditional profile is right-handed."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Exact model verification is required."
+              }
+            ]
+          }
         },
         {
           "id": "base-shapes-use",
