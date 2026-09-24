@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Xinzuo Academy — interactive staff training based on The Gongfu of Xinzuo knowledge base.">
+  <meta name="description" content="Xinzuo Academy — interactive company training based on The Gongfu of Xinzuo knowledge base.">
   <title>Xinzuo Academy</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,12 +11,17 @@
   <header class="academy-header">
     <div class="academy-header__inner">
       <a class="brand" href="./" aria-label="Xinzuo Academy home">
-        <span class="brand__mark" aria-hidden="true">新</span>
-        <span>
-          <strong>Xinzuo Academy</strong>
+        <img
+          class="brand__logo"
+          src="https://www.xinzuo-europe.com/wp-content/uploads/2023/07/Xinzuo-Logo-and-name-horizontalss-1024x191.jpg"
+          alt="Xinzuo"
+          referrerpolicy="no-referrer">
+        <span class="brand__academy">
+          <strong>Academy</strong>
           <small id="headerSubtitle">Interactive staff training</small>
         </span>
       </a>
+
       <div class="header-actions">
         <label class="language-control">
           <span id="languageLabel">Language</span>
@@ -25,54 +30,239 @@
             <option value="en">English</option>
           </select>
         </label>
+
+        <span id="userChip" class="user-chip" hidden></span>
+        <button id="managerButton" class="button button--quiet" type="button" hidden>Manager</button>
+        <button id="accountButton" class="button button--quiet" type="button" hidden>Account</button>
+        <button id="logoutButton" class="button button--quiet" type="button" hidden>Logout</button>
         <button id="resetProgress" class="button button--quiet" type="button">Reset progress</button>
       </div>
     </div>
   </header>
 
   <main class="academy-main">
-    <section id="hero" class="hero">
-      <div>
-        <p class="eyebrow" id="heroEyebrow">Xinzuo staff training</p>
-        <h1 id="heroTitle">Learn the knife. Understand the customer.</h1>
-        <p id="heroText" class="hero__text"></p>
+    <section id="authGate" class="auth-gate" hidden aria-labelledby="authTitle">
+      <div class="auth-intro">
+        <p class="eyebrow">Xinzuo Company Academy</p>
+        <h1 id="authTitle">Formazione aziendale, progressi verificabili.</h1>
+        <p>Accedi con il tuo account aziendale. La registrazione richiede un invito emesso da un manager o amministratore.</p>
+        <div id="backendStatus" class="backend-status" aria-live="polite"></div>
       </div>
-      <aside class="progress-card" aria-labelledby="progressTitle">
-        <div class="progress-card__top">
-          <span id="progressTitle">Your progress</span>
-          <strong id="progressPercent">0%</strong>
+
+      <div class="auth-card">
+        <div class="auth-tabs" role="tablist" aria-label="Authentication">
+          <button id="loginTab" class="auth-tab auth-tab--active" type="button" role="tab" aria-selected="true">Login</button>
+          <button id="registerTab" class="auth-tab" type="button" role="tab" aria-selected="false">Registrazione</button>
+          <button id="resetTab" class="auth-tab" type="button" role="tab" aria-selected="false">Password</button>
         </div>
-        <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
-        <dl class="progress-stats">
-          <div><dt id="masteredLabel">Acquired</dt><dd id="masteredCount">0</dd></div>
-          <div><dt id="reviewLabel">To review</dt><dd id="reviewCount">0</dd></div>
-          <div><dt id="interactionsLabel">Interactions</dt><dd id="interactionCount">0</dd></div>
-        </dl>
-      </aside>
+
+        <form id="loginForm" class="auth-form">
+          <label>Email aziendale
+            <input name="email" type="email" autocomplete="username" required maxlength="254">
+          </label>
+          <label>Password
+            <input name="password" type="password" autocomplete="current-password" required minlength="12" maxlength="256">
+          </label>
+          <label class="check-row"><input name="remember" type="checkbox"> Mantieni l'accesso su questo dispositivo</label>
+          <p class="form-status" data-status></p>
+          <button class="button" type="submit">Accedi</button>
+        </form>
+
+        <form id="registerForm" class="auth-form" hidden>
+          <label>Codice invito
+            <input name="inviteToken" type="text" autocomplete="off" required maxlength="160">
+          </label>
+          <div class="form-grid">
+            <label>Nome
+              <input name="firstName" type="text" autocomplete="given-name" required maxlength="80">
+            </label>
+            <label>Cognome
+              <input name="lastName" type="text" autocomplete="family-name" required maxlength="80">
+            </label>
+          </div>
+          <label>Email aziendale
+            <input name="email" type="email" autocomplete="username" required maxlength="254">
+          </label>
+          <label>Password
+            <input name="password" type="password" autocomplete="new-password" required minlength="12" maxlength="256">
+          </label>
+          <label class="check-row"><input name="remember" type="checkbox"> Mantieni l'accesso su questo dispositivo</label>
+          <p class="password-hint">Minimo 12 caratteri. Sono ammesse passphrase lunghe.</p>
+          <p class="form-status" data-status></p>
+          <button class="button" type="submit">Crea account</button>
+        </form>
+
+        <form id="resetRequestForm" class="auth-form" hidden>
+          <label>Email aziendale
+            <input name="email" type="email" autocomplete="username" required maxlength="254">
+          </label>
+          <p class="password-hint">Se il servizio email/reset è configurato, riceverai le istruzioni. Un manager può anche generare un link di reset dalla dashboard aziendale.</p>
+          <p class="form-status" data-status></p>
+          <button class="button" type="submit">Richiedi reset password</button>
+        </form>
+
+        <form id="resetCompleteForm" class="auth-form" hidden>
+          <label>Email aziendale
+            <input name="email" type="email" autocomplete="username" required maxlength="254">
+          </label>
+          <label>Token di reset
+            <input name="resetToken" type="text" autocomplete="off" required maxlength="160">
+          </label>
+          <label>Nuova password
+            <input name="newPassword" type="password" autocomplete="new-password" required minlength="12" maxlength="256">
+          </label>
+          <p class="form-status" data-status></p>
+          <button class="button" type="submit">Imposta nuova password</button>
+        </form>
+
+        <button id="offlineButton" class="button button--quiet offline-button" type="button" hidden>Continua in modalità locale</button>
+      </div>
     </section>
 
-    <section id="homeView" aria-labelledby="curriculumTitle">
-      <div class="section-heading">
+    <div id="learnerArea">
+      <section id="hero" class="hero">
         <div>
-          <p class="eyebrow" id="curriculumEyebrow">Three-level path</p>
-          <h2 id="curriculumTitle">Curriculum</h2>
+          <p class="eyebrow" id="heroEyebrow">Xinzuo staff training</p>
+          <h1 id="heroTitle">Learn the knife. Understand the customer.</h1>
+          <p id="heroText" class="hero__text"></p>
         </div>
-        <p id="curriculumNote" class="section-note"></p>
-      </div>
-      <div id="levels" class="levels"></div>
-    </section>
+        <aside class="progress-card" aria-labelledby="progressTitle">
+          <div class="progress-card__top">
+            <span id="progressTitle">Your progress</span>
+            <strong id="progressPercent">0%</strong>
+          </div>
+          <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
+          <dl class="progress-stats">
+            <div><dt id="masteredLabel">Acquired</dt><dd id="masteredCount">0</dd></div>
+            <div><dt id="reviewLabel">To review</dt><dd id="reviewCount">0</dd></div>
+            <div><dt id="interactionsLabel">Interactions</dt><dd id="interactionCount">0</dd></div>
+          </dl>
+        </aside>
+      </section>
 
-    <section id="learningView" class="learning-view" hidden>
-      <nav class="learning-nav" aria-label="Course navigation">
-        <button id="backHome" class="button button--quiet" type="button">← Curriculum</button>
-        <div class="learning-position">
-          <span id="modulePosition"></span>
-          <div class="progress-track progress-track--compact" aria-hidden="true"><span id="moduleProgressBar"></span></div>
+      <section id="homeView" aria-labelledby="curriculumTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" id="curriculumEyebrow">Three-level path</p>
+            <h2 id="curriculumTitle">Curriculum</h2>
+          </div>
+          <p id="curriculumNote" class="section-note"></p>
         </div>
-      </nav>
-      <div id="learningSurface" class="learning-surface" aria-live="polite"></div>
+        <div id="levels" class="levels"></div>
+      </section>
+
+      <section id="learningView" class="learning-view" hidden>
+        <nav class="learning-nav" aria-label="Course navigation">
+          <button id="backHome" class="button button--quiet" type="button">← Curriculum</button>
+          <div class="learning-position">
+            <span id="modulePosition"></span>
+            <div class="progress-track progress-track--compact" aria-hidden="true"><span id="moduleProgressBar"></span></div>
+          </div>
+        </nav>
+        <div id="learningSurface" class="learning-surface" aria-live="polite"></div>
+      </section>
+    </div>
+
+    <section id="managerView" class="manager-view" hidden aria-labelledby="managerTitle">
+      <div class="manager-heading">
+        <div>
+          <p class="eyebrow">Company backend</p>
+          <h1 id="managerTitle">Training dashboard</h1>
+          <p>Stato di avanzamento, impegno, risultati e attività del personale.</p>
+        </div>
+        <button id="managerBack" class="button button--quiet" type="button">← Academy</button>
+      </div>
+
+      <div id="managerOverview" class="manager-metrics"></div>
+
+      <div class="manager-grid">
+        <section class="manager-panel">
+          <h2>Invita personale</h2>
+          <form id="inviteForm" class="auth-form">
+            <label>Email (opzionale)
+              <input name="email" type="email" maxlength="254">
+            </label>
+            <div class="form-grid">
+              <label>Ruolo
+                <select name="role">
+                  <option value="staff">Staff</option>
+                  <option value="manager">Manager</option>
+                </select>
+              </label>
+              <label>Team / sede
+                <input name="team" type="text" maxlength="80" placeholder="Roma">
+              </label>
+            </div>
+            <label>Validità invito
+              <select name="days">
+                <option value="3">3 giorni</option>
+                <option value="7" selected>7 giorni</option>
+                <option value="14">14 giorni</option>
+                <option value="30">30 giorni</option>
+              </select>
+            </label>
+            <p class="form-status" data-status></p>
+            <button class="button" type="submit">Crea invito</button>
+          </form>
+          <div id="inviteResult" class="invite-result" hidden></div>
+        </section>
+
+        <section class="manager-panel">
+          <h2>Indicatori</h2>
+          <p class="manager-note">L'impegno è misurato come tempo attivo nella Academy con pagina visibile e attività recente; non come semplice tempo di login.</p>
+          <div id="managerLegend" class="manager-legend"></div>
+        </section>
+      </div>
+
+      <section class="manager-panel manager-panel--wide">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">People</p>
+            <h2>Avanzamento personale</h2>
+          </div>
+          <button id="managerRefresh" class="button button--quiet" type="button">Aggiorna</button>
+        </div>
+        <div class="table-wrap">
+          <table class="manager-table">
+            <thead>
+              <tr>
+                <th>Persona</th>
+                <th>Team</th>
+                <th>Progresso</th>
+                <th>Concetti</th>
+                <th>Mini-test</th>
+                <th>Impegno</th>
+                <th>Ultima attività</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="managerUsers"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="managerDetail" class="manager-panel manager-panel--wide" hidden></section>
     </section>
   </main>
+
+  <dialog id="accountDialog" class="account-dialog">
+    <form method="dialog" class="dialog-close-row">
+      <button class="button button--quiet" value="cancel">Chiudi</button>
+    </form>
+    <h2>Account</h2>
+    <div id="accountProfile" class="account-profile"></div>
+    <form id="changePasswordForm" class="auth-form">
+      <h3>Cambia password</h3>
+      <label>Password attuale
+        <input name="currentPassword" type="password" autocomplete="current-password" required minlength="12" maxlength="256">
+      </label>
+      <label>Nuova password
+        <input name="newPassword" type="password" autocomplete="new-password" required minlength="12" maxlength="256">
+      </label>
+      <p class="form-status" data-status></p>
+      <button class="button" type="submit">Aggiorna password</button>
+    </form>
+  </dialog>
 
   <footer class="academy-footer">
     <p id="footerText">The Gongfu of Xinzuo remains the technical source of truth.</p>
@@ -80,6 +270,8 @@
   </footer>
 
   <noscript>This training application requires JavaScript.</noscript>
+  <script src="config.js" defer></script>
+  <script src="account.js" defer></script>
   <script src="app.js" defer></script>
 </body>
 </html>
