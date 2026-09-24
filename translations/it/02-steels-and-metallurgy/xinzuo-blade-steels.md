@@ -256,7 +256,7 @@ La durezza da sola è quindi un indicatore poco affidabile del comportamento in 
 ## Le costruzioni stratificate non sono “livelli di affilatura” separati
 <!-- /tx-unit -->
 <!-- tx-unit:0beacf715a086b27572c9b2464f713e1149271581fd6be195e38e6bab7481903 -->
-Xinzuo utilizza anche costruzioni stratificate, fra cui rivestimenti damascati convenzionali, damasco con rame e damasco integrale a 110 strati.
+Xinzuo utilizza anche costruzioni stratificate, fra cui rivestimenti in acciaio Damasco convenzionali, damasco con rame e damasco integrale a 110 strati.
 <!-- /tx-unit -->
 <!-- tx-unit:889d6b120241a0963a5bce1ce3cb86293440ff6e60ce7a1d0bf90f68a59eda4b -->
 Il numero di strati non misura direttamente l'affilatura. In una lama con nucleo e rivestimento, l'acciaio del nucleo controlla il comportamento metallurgico all'apice del filo; costruzione della lama e geometria del filo determinano poi come quel materiale viene utilizzato. Strati decorativi in rame o ottone possono creare un forte contrasto senza rendere il filo intrinsecamente più affilato.
