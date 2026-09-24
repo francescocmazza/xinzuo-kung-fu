@@ -87,6 +87,7 @@ jobs:
           test -s academy-backend/migrations/0001_initial.sql
           test -s academy-backend/migrations/0002_public_registration_certificates.sql
           test -s academy-backend/migrations/0003_whatsapp_otp.sql
+          test -s academy-backend/migrations/0004_email_only_auth.sql
           test -s academy/data/course.en.json
           test -s academy/data/course.it.json
 
@@ -100,9 +101,13 @@ jobs:
           grep -q '/api/certification/base/submit' academy-backend/src/worker.js
           grep -q 'certificates.*verify' academy-backend/src/worker.js
           grep -q 'marketingEmailConsent' academy/index.html
-          grep -q 'marketingWhatsappConsent' academy/index.html
-          grep -q 'whatsappServiceConsent' academy/index.html
-          grep -q 'WHATSAPP_ACCESS_TOKEN' academy-backend/src/worker.js
+          grep -q 'name="email".*required' academy/index.html
+          grep -q 'name="phone".*required' academy/index.html
+          grep -q 'RESEND_API_KEY' academy-backend/src/worker.js
+          if grep -qi 'WhatsApp' academy/index.html academy/account.js academy-backend/src/worker.js .github/workflows/academy-backend-deploy.yml; then
+            echo "WhatsApp runtime references must not remain in email-only auth mode." >&2
+            exit 1
+          fi
           grep -q 'marketingPhoneConsent' academy/index.html
           grep -q 'privacy.html' academy/index.html
           grep -q 'terms.html' academy/index.html

@@ -15,10 +15,6 @@
     "ACTIVE_LESSON_TOTAL": "27",
     "ALLOWED_ORIGINS": "https://francescocmazza.github.io",
     "PUBLIC_REGISTRATION_ENABLED": "false",
-    "VERIFICATION_EMAIL_FROM": "",
-    "WHATSAPP_PHONE_NUMBER_ID": "",
-    "WHATSAPP_TEMPLATE_NAME": "xinzuo_academy_otp",
-    "WHATSAPP_TEMPLATE_LANGUAGE": "it",
-    "WHATSAPP_GRAPH_VERSION": "v26.0"
+    "VERIFICATION_EMAIL_FROM": ""
   }
 }

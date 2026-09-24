@@ -15,7 +15,7 @@
   let lastInteractionAt = Date.now();
   let heartbeatTimer = null;
   let pendingRegistration = null;
-  let verificationChannels = { email: true, whatsapp: true };
+  let verificationChannels = { email: true };
   let publicRegistrationOpen = false;
   let certificationAttempt = null;
   let certificationTimerHandle = null;
@@ -87,15 +87,9 @@
   }
 
   function applyVerificationAvailability() {
-    const select = el.registerForm?.elements?.verificationChannel;
-    if (!select) return;
-    const emailOption = select.querySelector('option[value="email"]');
-    const whatsappOption = select.querySelector('option[value="whatsapp"]');
-    if (emailOption) emailOption.disabled = !verificationChannels.email;
-    if (whatsappOption) whatsappOption.disabled = !verificationChannels.whatsapp;
-    if (select.value === "email" && !verificationChannels.email && verificationChannels.whatsapp) select.value = "whatsapp";
-    if (select.value === "whatsapp" && !verificationChannels.whatsapp && verificationChannels.email) select.value = "email";
+    // Email is the only authentication channel.
   }
+
 
   function token() {
     return sessionStorage.getItem(TOKEN_SESSION) || localStorage.getItem(TOKEN_LOCAL) || "";
@@ -268,10 +262,8 @@
       ]);
       const c = consentResult.consents || {};
       el.consentForm.elements.marketingEmail.checked = Boolean(c.marketingEmail);
-      el.consentForm.elements.marketingWhatsapp.checked = Boolean(c.marketingWhatsapp);
       el.consentForm.elements.marketingPhone.checked = Boolean(c.marketingPhone);
       el.consentForm.elements.marketingEmail.disabled = !currentUser.email;
-      el.consentForm.elements.marketingWhatsapp.disabled = !currentUser.phone;
       el.consentForm.elements.marketingPhone.disabled = !currentUser.phone;
       renderMyCertificates(certificateResult.certificates || []);
     } catch (error) {
@@ -296,16 +288,12 @@
     try {
       const health = await api("/api/health", { method: "GET" });
       verificationChannels = {
-        email:Boolean(health.verificationChannels?.email),
-        whatsapp:Boolean(health.verificationChannels?.whatsapp)
+        email:Boolean(health.verificationChannels?.email)
       };
       publicRegistrationOpen = Boolean(health.publicRegistration);
       applyVerificationAvailability();
       el.registerTab.disabled = !publicRegistrationOpen || !legalConfigured();
-      const channelText = [
-        verificationChannels.email ? "email" : null,
-        verificationChannels.whatsapp ? "WhatsApp" : null
-      ].filter(Boolean).join(" + ");
+      const channelText = verificationChannels.email ? "email" : "";
       el.backendStatus.textContent = !legalConfigured()
         ? "Backend online, ma identità del titolare privacy non ancora configurata: registrazione pubblica disabilitata."
         : !publicRegistrationOpen
@@ -752,7 +740,6 @@
           <div class="consent-summary">
             <strong>Marketing:</strong>
             email ${result.user.marketingEmailConsent ? "✓" : "—"} ·
-            SMS ${result.user.marketingWhatsappConsent ? "✓" : "—"} ·
             telefono ${result.user.marketingPhoneConsent ? "✓" : "—"}
           </div>${consentRows}
         ` : ""}
@@ -847,19 +834,6 @@
     }
   }
 
-  function updateWhatsAppServiceConsentRequirement() {
-    const row = document.getElementById("whatsappServiceConsentRow");
-    const input = el.registerForm?.elements?.whatsappServiceConsent;
-    if (!row || !input) return;
-    const required = el.registerForm.elements.verificationChannel.value === "whatsapp";
-    row.hidden = !required;
-    input.required = required;
-    if (!required) input.checked = false;
-  }
-
-  el.registerForm.elements.verificationChannel.addEventListener("change", updateWhatsAppServiceConsentRequirement);
-  updateWhatsAppServiceConsentRequirement();
-
   el.loginTab.addEventListener("click", () => showAuthTab("login"));
   el.registerTab.addEventListener("click", () => showAuthTab("register"));
   el.resetTab.addEventListener("click", () => showAuthTab("reset"));
@@ -871,7 +845,7 @@
     formStatus(el.loginForm, "Accesso…");
     try {
       await authenticateWith("/api/auth/login", {
-        contact: data.get("contact"),
+        email: data.get("email"),
         password: data.get("password"),
         remember: data.get("remember") === "on"
       }, data.get("remember") === "on");
@@ -916,20 +890,16 @@
             lastName:data.get("lastName"),
             email:data.get("email"),
             phone:data.get("phone"),
-            verificationChannel:data.get("verificationChannel"),
-            whatsappServiceConsent:data.get("whatsappServiceConsent") === "on",
             password:data.get("password"),
             ageConfirmed:data.get("ageConfirmed") === "on",
             acceptTerms:data.get("acceptTerms") === "on",
             acceptPrivacy:data.get("acceptPrivacy") === "on",
             marketingEmailConsent:data.get("marketingEmailConsent") === "on",
-            marketingWhatsappConsent:data.get("marketingWhatsappConsent") === "on",
             marketingPhoneConsent:data.get("marketingPhoneConsent") === "on"
           })
         });
         pendingRegistration = {
           registrationId:result.registrationId,
-          verificationChannel:result.verificationChannel,
           remember:data.get("remember") === "on"
         };
         el.verificationForm.elements.registrationId.value = result.registrationId;
@@ -981,7 +951,7 @@
     try {
       const result = await api("/api/auth/register/resend", {
         method:"POST",
-        body:JSON.stringify({registrationId,verificationChannel:pendingRegistration?.verificationChannel})
+        body:JSON.stringify({registrationId})
       });
       el.verificationDestination.textContent = `Nuovo codice inviato a ${result.maskedDestination}.`;
       formStatus(el.verificationForm,"Nuovo codice inviato.","success");
@@ -999,7 +969,7 @@
     try {
       const result = await api("/api/auth/request-reset", {
         method: "POST",
-        body: JSON.stringify({ contact: data.get("contact") })
+        body: JSON.stringify({ email: data.get("email") })
       });
       formStatus(el.resetRequestForm, result.message || "Richiesta inviata.", "success");
     } catch (error) {
@@ -1017,7 +987,7 @@
       await api("/api/auth/reset-password", {
         method: "POST",
         body: JSON.stringify({
-          contact: data.get("contact"),
+          email: data.get("email"),
           resetToken: data.get("resetToken"),
           newPassword: data.get("newPassword")
         })
@@ -1056,7 +1026,6 @@
         method:"PATCH",
         body:JSON.stringify({
           marketingEmail:data.get("marketingEmail") === "on",
-          marketingWhatsapp:data.get("marketingWhatsapp") === "on",
           marketingPhone:data.get("marketingPhone") === "on"
         })
       });
@@ -1155,6 +1124,11 @@
         privacyModule.querySelectorAll("input,select").forEach(node => { node.disabled = true; });
       }
       el.registerForm.elements.email.required = true;
+      if (el.registerForm.elements.phone) {
+        el.registerForm.elements.phone.required = false;
+        const phoneLabel = el.registerForm.elements.phone.closest("label");
+        if (phoneLabel) phoneLabel.hidden = true;
+      }
     }
     if (reset) {
       el.loginForm.hidden = true;
@@ -1164,7 +1138,7 @@
       [el.loginTab, el.registerTab, el.resetTab].forEach(b => b.classList.remove("auth-tab--active"));
       el.resetTab.classList.add("auth-tab--active");
       el.resetCompleteForm.elements.resetToken.value = reset;
-      if (email) el.resetCompleteForm.elements.contact.value = email;
+      if (email) el.resetCompleteForm.elements.email.value = email;
     }
     if (invite || reset) {
       const clean = new URL(window.location.href);

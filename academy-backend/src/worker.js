@@ -25,8 +25,7 @@ export default {
           now:new Date().toISOString(),
           publicRegistration:publicRegistrationEnabled(env),
           verificationChannels:{
-            email:canSendVerification("email",env),
-            whatsapp:canSendVerification("whatsapp",env)
+            email:canSendVerification(env)
           },
           termsVersion:TERMS_VERSION,
           privacyVersion:PRIVACY_VERSION
@@ -283,7 +282,6 @@ function publicUser(row) {
     lastLoginAt: row.last_login_at,
     lastActiveAt: row.last_active_at,
     marketingEmailConsent: Boolean(row.marketing_email_consent),
-    marketingWhatsappConsent: Boolean(row.marketing_whatsapp_consent),
     marketingPhoneConsent: Boolean(row.marketing_phone_consent),
     termsVersion: row.terms_version || "",
     privacyVersion: row.privacy_version || ""
@@ -410,18 +408,8 @@ async function registerByInvite(request, env) {
 }
 
 
-function canSendVerification(channel, env) {
-  if (env.VERIFICATION_WEBHOOK_URL) return true;
-  if (channel === "email") return Boolean(env.RESEND_API_KEY && env.VERIFICATION_EMAIL_FROM);
-  if (channel === "whatsapp") {
-    return Boolean(
-      env.WHATSAPP_ACCESS_TOKEN &&
-      env.WHATSAPP_PHONE_NUMBER_ID &&
-      env.WHATSAPP_TEMPLATE_NAME &&
-      env.WHATSAPP_TEMPLATE_LANGUAGE
-    );
-  }
-  return false;
+function canSendVerification(env) {
+  return Boolean(env.RESEND_API_KEY && env.VERIFICATION_EMAIL_FROM);
 }
 
 function verificationCode() {
@@ -434,99 +422,34 @@ async function verificationHash(challengeId, code, env) {
   return sha256(`${challengeId}\u0000${code}\u0000${env.VERIFICATION_PEPPER || env.PASSWORD_PEPPER || ""}`);
 }
 
-async function sendVerification(channel, destination, code, env) {
-  if (env.VERIFICATION_WEBHOOK_URL) {
-    const response = await fetch(env.VERIFICATION_WEBHOOK_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        type: "xinzuo-academy-verification",
-        channel,
-        destination,
-        code,
-        expiresMinutes: VERIFICATION_TTL / 60
-      })
-    });
-    if (!response.ok) throw new HttpError(503, "verification_delivery_failed", "Unable to send verification code.");
-    return { providerMessageId: response.headers.get("X-Message-Id") || null };
+async function sendVerification(destination, code, env) {
+  if (!canSendVerification(env)) {
+    throw new HttpError(503, "verification_delivery_unavailable", "Email verification is not configured.");
   }
-
-  if (channel === "email") {
-    if (!env.RESEND_API_KEY || !env.VERIFICATION_EMAIL_FROM) {
-      throw new HttpError(503, "verification_delivery_unavailable", "Email verification is not configured.");
-    }
-    const response = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${env.RESEND_API_KEY}`,
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        from: env.VERIFICATION_EMAIL_FROM,
-        to: [destination],
-        subject: "Xinzuo Academy — verification code",
-        html: `<p>Your Xinzuo Academy verification code is:</p><p style="font-size:28px;font-weight:700;letter-spacing:.18em">${code}</p><p>The code expires in ${VERIFICATION_TTL / 60} minutes.</p>`
-      })
-    });
-    const payload = await response.json().catch(() => ({}));
-    if (!response.ok) {
-      console.error("Resend verification error", payload);
-      throw new HttpError(503, "verification_delivery_failed", "Unable to send verification email.");
-    }
-    return { providerMessageId: payload.id || null };
+  const response = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${env.RESEND_API_KEY}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      from: env.VERIFICATION_EMAIL_FROM,
+      to: [destination],
+      subject: "Xinzuo Academy — codice di verifica",
+      html: `<p>Il tuo codice di verifica Xinzuo Academy è:</p><p style="font-size:28px;font-weight:700;letter-spacing:.18em">${code}</p><p>Il codice scade tra ${VERIFICATION_TTL / 60} minuti.</p>`
+    })
+  });
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    console.error("Resend verification error", payload);
+    throw new HttpError(503, "verification_delivery_failed", "Unable to send verification email.");
   }
-
-  if (channel === "whatsapp") {
-    if (!canSendVerification("whatsapp", env)) {
-      throw new HttpError(503, "verification_delivery_unavailable", "WhatsApp verification is not configured.");
-    }
-    const version = String(env.WHATSAPP_GRAPH_VERSION || "v26.0");
-    const url = `https://graph.facebook.com/${version}/${encodeURIComponent(env.WHATSAPP_PHONE_NUMBER_ID)}/messages`;
-    const templateName = String(env.WHATSAPP_TEMPLATE_NAME);
-    const languageCode = String(env.WHATSAPP_TEMPLATE_LANGUAGE);
-    const response = await fetch(url, {
-      method:"POST",
-      headers:{
-        "Authorization":`Bearer ${env.WHATSAPP_ACCESS_TOKEN}`,
-        "Content-Type":"application/json"
-      },
-      body:JSON.stringify({
-        messaging_product:"whatsapp",
-        recipient_type:"individual",
-        to:String(destination).replace(/^\+/,""),
-        type:"template",
-        template:{
-          name:templateName,
-          language:{code:languageCode},
-          components:[
-            {
-              type:"body",
-              parameters:[{type:"text",text:code}]
-            },
-            {
-              type:"button",
-              sub_type:"url",
-              index:"0",
-              parameters:[{type:"text",text:code}]
-            }
-          ]
-        }
-      })
-    });
-    const payload = await response.json().catch(() => ({}));
-    if (!response.ok) {
-      console.error("WhatsApp verification error", payload);
-      throw new HttpError(503, "verification_delivery_failed", "Unable to send verification code on WhatsApp.");
-    }
-    return { providerMessageId: payload?.messages?.[0]?.id || null };
-  }
-
-  throw new HttpError(400, "invalid_channel", "Invalid verification channel.");
+  return { providerMessageId: payload.id || null };
 }
 
-async function createVerificationChallenge(env, userId, channel, destination) {
-  if (!canSendVerification(channel, env)) {
-    throw new HttpError(503, "verification_delivery_unavailable", `${channel === "email" ? "Email" : "WhatsApp"} verification is not configured.`);
+async function createVerificationChallenge(env, userId, destination) {
+  if (!canSendVerification(env)) {
+    throw new HttpError(503, "verification_delivery_unavailable", "Email verification is not configured.");
   }
   const challengeId = crypto.randomUUID();
   const code = verificationCode();
@@ -534,11 +457,11 @@ async function createVerificationChallenge(env, userId, channel, destination) {
   const ts = now();
   await env.DB.prepare(
     `INSERT INTO verification_challenges(id,user_id,channel,destination,code_hash,created_at,expires_at,attempts,used_at,sent_at,provider_message_id)
-     VALUES(?,?,?,?,?,?,?,0,NULL,NULL,NULL)`
-  ).bind(challengeId,userId,channel,destination,codeHash,ts,ts+VERIFICATION_TTL).run();
+     VALUES(?,?, 'email', ?,?,?,?,0,NULL,NULL,NULL)`
+  ).bind(challengeId,userId,destination,codeHash,ts,ts+VERIFICATION_TTL).run();
 
   try {
-    const sent = await sendVerification(channel, destination, code, env);
+    const sent = await sendVerification(destination, code, env);
     await env.DB.prepare("UPDATE verification_challenges SET sent_at=?,provider_message_id=? WHERE id=?")
       .bind(now(),sent.providerMessageId,challengeId).run();
   } catch (error) {
@@ -546,7 +469,7 @@ async function createVerificationChallenge(env, userId, channel, destination) {
     throw error;
   }
 
-  return { challengeId, expiresAt: ts + VERIFICATION_TTL, destination: maskedDestination(channel,destination) };
+  return { challengeId, expiresAt: ts + VERIFICATION_TTL, destination: maskedDestination("email",destination) };
 }
 
 async function recordConsent(env, userId, type, granted, version, source = "registration") {
@@ -574,26 +497,15 @@ async function publicRegisterStart(request, env) {
     const email = normalizeEmail(body.email);
     const phone = normalizePhone(body.phone);
 
-    const hasEmail = Boolean(email);
-    const hasPhone = Boolean(phone);
-    if (!hasEmail && !hasPhone) throw new HttpError(400, "contact_required", "Provide at least one email address or mobile number.");
-    if (hasEmail && !validateEmail(email)) throw new HttpError(400, "invalid_email", "Invalid email.");
-    if (hasPhone && !validatePhone(phone)) throw new HttpError(400, "invalid_phone", "Mobile number must use international format, for example +393331234567.");
-
-    const channel = String(body.verificationChannel || (hasEmail ? "email" : "whatsapp"));
-    if (channel === "email" && !hasEmail) throw new HttpError(400, "verification_contact_missing", "Email is required for email verification.");
-    if (channel === "whatsapp" && !hasPhone) throw new HttpError(400, "verification_contact_missing", "Mobile number is required for WhatsApp verification.");
-    if (channel === "whatsapp" && body.whatsappServiceConsent !== true) {
-      throw new HttpError(400, "whatsapp_consent_required", "Consent to receive necessary Academy messages on WhatsApp is required for WhatsApp verification.");
-    }
-    if (!["email","whatsapp"].includes(channel)) throw new HttpError(400, "invalid_channel", "Invalid verification channel.");
-    if (!canSendVerification(channel, env)) {
-      throw new HttpError(503, "verification_delivery_unavailable", `${channel === "email" ? "Email" : "WhatsApp"} verification is not configured.`);
+    if (!validateEmail(email)) throw new HttpError(400, "invalid_email", "A valid email address is required.");
+    if (!validatePhone(phone)) throw new HttpError(400, "invalid_phone", "A valid mobile number in international format is required, for example +393331234567.");
+    if (!canSendVerification(env)) {
+      throw new HttpError(503, "verification_delivery_unavailable", "Email verification is not configured.");
     }
 
     const existing = await env.DB.prepare(
-      "SELECT id,active FROM users WHERE (? IS NOT NULL AND email=?) OR (? IS NOT NULL AND phone=?) LIMIT 1"
-    ).bind(hasEmail ? email : null,hasEmail ? email : null,hasPhone ? phone : null,hasPhone ? phone : null).first();
+      "SELECT id,active FROM users WHERE email=? OR phone=? LIMIT 1"
+    ).bind(email,phone).first();
     if (existing?.active) throw new HttpError(409, "account_exists", "An account already exists for this email or mobile number.");
     if (existing && !existing.active) {
       await env.DB.prepare("DELETE FROM users WHERE id=?").bind(existing.id).run();
@@ -602,38 +514,34 @@ async function publicRegisterStart(request, env) {
     const pass = await newPasswordRecord(body.password, env);
     const id = crypto.randomUUID();
     const ts = now();
-    const marketingEmail = Boolean(body.marketingEmailConsent && hasEmail);
-    const marketingWhatsapp = Boolean(body.marketingWhatsappConsent && hasPhone);
-    const marketingPhone = Boolean(body.marketingPhoneConsent && hasPhone);
+    const marketingEmail = Boolean(body.marketingEmailConsent);
+    const marketingPhone = Boolean(body.marketingPhoneConsent);
 
     await env.DB.prepare(
       `INSERT INTO users(
         id,email,phone,first_name,last_name,role,team,password_hash,password_salt,password_iterations,active,
         created_at,updated_at,last_login_at,last_active_at,email_verified_at,phone_verified_at,contact_preference,
         registration_source,terms_version,privacy_version,terms_accepted_at,privacy_accepted_at,
-        marketing_email_consent,marketing_sms_consent,marketing_whatsapp_consent,marketing_phone_consent,marketing_consent_updated_at
-       ) VALUES(?,?,?,?,?,'staff',NULL,?,?,?,0,?,?,NULL,NULL,NULL,NULL,?,'public',?,?,?,?,?,?,?,?,?)`
+        marketing_email_consent,marketing_sms_consent,marketing_phone_consent,marketing_consent_updated_at
+       ) VALUES(?,?,?,?,?,'staff',NULL,?,?,?,0,?,?,NULL,NULL,NULL,NULL,'email','public',?,?,?,?,0,?,?,?)`
     ).bind(
-      id,hasEmail ? email : null,hasPhone ? phone : null,firstName,lastName,pass.hash,pass.salt,pass.iterations,
-      ts,ts,channel,TERMS_VERSION,PRIVACY_VERSION,ts,ts,
-      marketingEmail ? 1 : 0,0,marketingWhatsapp ? 1 : 0,marketingPhone ? 1 : 0,ts
+      id,email,phone,firstName,lastName,pass.hash,pass.salt,pass.iterations,
+      ts,ts,TERMS_VERSION,PRIVACY_VERSION,ts,ts,
+      marketingEmail ? 1 : 0,marketingPhone ? 1 : 0,ts
     ).run();
 
     await Promise.all([
       recordConsent(env,id,"terms",true,TERMS_VERSION),
       recordConsent(env,id,"privacy",true,PRIVACY_VERSION),
       recordConsent(env,id,"marketing_email",marketingEmail,PRIVACY_VERSION),
-      recordConsent(env,id,"whatsapp_service",channel === "whatsapp",PRIVACY_VERSION),
-      recordConsent(env,id,"marketing_whatsapp",marketingWhatsapp,PRIVACY_VERSION),
       recordConsent(env,id,"marketing_phone",marketingPhone,PRIVACY_VERSION)
     ]);
 
-    const destination = channel === "email" ? email : phone;
-    const challenge = await createVerificationChallenge(env,id,channel,destination);
+    const challenge = await createVerificationChallenge(env,id,email);
     return apiJson(request, env, {
       ok:true,
       registrationId:id,
-      verificationChannel:channel,
+      verificationChannel:"email",
       maskedDestination:challenge.destination,
       expiresAt:challenge.expiresAt,
       termsVersion:TERMS_VERSION,
@@ -686,6 +594,7 @@ async function publicRegisterResend(request, env) {
     const registrationId = String(body.registrationId || "").trim();
     const user = await env.DB.prepare("SELECT * FROM users WHERE id=?").bind(registrationId).first();
     if (!user || user.active) throw new HttpError(400, "invalid_registration", "Registration is not awaiting verification.");
+    if (!user.email) throw new HttpError(400, "verification_contact_missing", "Registration email is unavailable.");
 
     const recent = await env.DB.prepare(
       "SELECT created_at FROM verification_challenges WHERE user_id=? ORDER BY created_at DESC LIMIT 1"
@@ -694,14 +603,11 @@ async function publicRegisterResend(request, env) {
       throw new HttpError(429, "resend_too_soon", "Wait before requesting another code.");
     }
 
-    const channel = String(body.verificationChannel || user.contact_preference || (user.email ? "email" : "whatsapp"));
-    const destination = channel === "email" ? user.email : user.phone;
-    if (!destination) throw new HttpError(400, "verification_contact_missing", "Verification contact is unavailable.");
-    const challenge = await createVerificationChallenge(env,registrationId,channel,destination);
+    const challenge = await createVerificationChallenge(env,registrationId,user.email);
     return apiJson(request, env, {
       ok:true,
       registrationId,
-      verificationChannel:channel,
+      verificationChannel:"email",
       maskedDestination:challenge.destination,
       expiresAt:challenge.expiresAt
     });
@@ -715,7 +621,6 @@ async function getConsents(request, env) {
       ok:true,
       consents:{
         marketingEmail:Boolean(auth.user.marketing_email_consent),
-        marketingWhatsapp:Boolean(auth.user.marketing_whatsapp_consent),
         marketingPhone:Boolean(auth.user.marketing_phone_consent),
         termsVersion:auth.user.terms_version || "",
         privacyVersion:auth.user.privacy_version || ""
@@ -729,15 +634,13 @@ async function updateConsents(request, env) {
     const auth = await authenticate(request,env);
     const body = await bodyJson(request);
     const emailConsent = Boolean(body.marketingEmail && auth.user.email);
-    const whatsappConsent = Boolean(body.marketingWhatsapp && auth.user.phone);
     const phoneConsent = Boolean(body.marketingPhone && auth.user.phone);
     const ts = now();
     await env.DB.prepare(
-      "UPDATE users SET marketing_email_consent=?,marketing_whatsapp_consent=?,marketing_phone_consent=?,marketing_consent_updated_at=?,updated_at=? WHERE id=?"
-    ).bind(emailConsent?1:0,whatsappConsent?1:0,phoneConsent?1:0,ts,ts,auth.user.id).run();
+      "UPDATE users SET marketing_email_consent=?,marketing_phone_consent=?,marketing_consent_updated_at=?,updated_at=? WHERE id=?"
+    ).bind(emailConsent?1:0,phoneConsent?1:0,ts,ts,auth.user.id).run();
     await Promise.all([
       recordConsent(env,auth.user.id,"marketing_email",emailConsent,PRIVACY_VERSION,"account"),
-      recordConsent(env,auth.user.id,"marketing_whatsapp",whatsappConsent,PRIVACY_VERSION,"account"),
       recordConsent(env,auth.user.id,"marketing_phone",phoneConsent,PRIVACY_VERSION,"account")
     ]);
     const fresh = await env.DB.prepare("SELECT * FROM users WHERE id=?").bind(auth.user.id).first();
@@ -748,13 +651,11 @@ async function updateConsents(request, env) {
 async function login(request, env) {
   return withHttpErrors(request, env, async () => {
     const body = await bodyJson(request);
-    const contact = String(body.contact || body.email || "").trim();
-    const email = normalizeEmail(contact);
-    const phone = normalizePhone(contact);
+    const email = normalizeEmail(body.email || body.contact);
     const password = String(body.password || "");
-    let user = null;
-    if (validateEmail(email)) user = await env.DB.prepare("SELECT * FROM users WHERE email=?").bind(email).first();
-    else if (validatePhone(phone)) user = await env.DB.prepare("SELECT * FROM users WHERE phone=?").bind(phone).first();
+    const user = validateEmail(email)
+      ? await env.DB.prepare("SELECT * FROM users WHERE email=?").bind(email).first()
+      : null;
     const ts = now();
 
     if (!user) {
@@ -825,94 +726,58 @@ async function createResetToken(env, userId, createdBy = null) {
   return raw;
 }
 
-async function sendResetCode(user, channel, code, env) {
-  const destination = channel === "email" ? user.email : user.phone;
-  if (!destination) throw new HttpError(400, "reset_contact_missing", "Reset contact is unavailable.");
-
-  if (env.VERIFICATION_WEBHOOK_URL) {
-    const response = await fetch(env.VERIFICATION_WEBHOOK_URL, {
-      method:"POST",
-      headers:{"Content-Type":"application/json"},
-      body:JSON.stringify({
-        type:"xinzuo-academy-password-reset-code",
-        channel,
-        destination,
-        code,
-        expiresMinutes:30
-      })
-    });
-    if (!response.ok) throw new HttpError(503,"reset_delivery_failed","Unable to send password reset code.");
-    return;
+async function sendResetCode(user, code, env) {
+  if (!user.email) throw new HttpError(400, "reset_contact_missing", "Reset email is unavailable.");
+  if (!canSendVerification(env)) {
+    throw new HttpError(503,"reset_delivery_unavailable","Email delivery is not configured.");
   }
-
-  if (channel === "email") {
-    if (!env.RESEND_API_KEY || !env.VERIFICATION_EMAIL_FROM) {
-      throw new HttpError(503,"reset_delivery_unavailable","Email delivery is not configured.");
-    }
-    const response = await fetch("https://api.resend.com/emails", {
-      method:"POST",
-      headers:{
-        "Authorization":`Bearer ${env.RESEND_API_KEY}`,
-        "Content-Type":"application/json"
-      },
-      body:JSON.stringify({
-        from:env.VERIFICATION_EMAIL_FROM,
-        to:[destination],
-        subject:"Xinzuo Academy — password reset code",
-        html:`<p>Your Xinzuo Academy password reset code is:</p><p style="font-size:28px;font-weight:700;letter-spacing:.18em">${code}</p><p>The code expires in 30 minutes.</p>`
-      })
-    });
-    if (!response.ok) throw new HttpError(503,"reset_delivery_failed","Unable to send password reset email.");
-    return;
-  }
-
-  if (!canSendVerification("whatsapp",env)) {
-    throw new HttpError(503,"reset_delivery_unavailable","WhatsApp delivery is not configured.");
-  }
-  await sendVerification("whatsapp", destination, code, env);
+  const response = await fetch("https://api.resend.com/emails", {
+    method:"POST",
+    headers:{
+      "Authorization":`Bearer ${env.RESEND_API_KEY}`,
+      "Content-Type":"application/json"
+    },
+    body:JSON.stringify({
+      from:env.VERIFICATION_EMAIL_FROM,
+      to:[user.email],
+      subject:"Xinzuo Academy — codice reset password",
+      html:`<p>Il tuo codice per reimpostare la password Xinzuo Academy è:</p><p style="font-size:28px;font-weight:700;letter-spacing:.18em">${code}</p><p>Il codice scade tra 30 minuti.</p>`
+    })
+  });
+  if (!response.ok) throw new HttpError(503,"reset_delivery_failed","Unable to send password reset email.");
 }
 
 async function requestPasswordReset(request, env) {
   return withHttpErrors(request, env, async () => {
     const body = await bodyJson(request);
-    const contact = String(body.contact || body.email || "").trim();
-    const email = normalizeEmail(contact);
-    const phone = normalizePhone(contact);
-    let user = null;
-    let channel = null;
-    if (validateEmail(email)) {
-      user = await env.DB.prepare("SELECT * FROM users WHERE email=? AND active=1").bind(email).first();
-      channel = "email";
-    } else if (validatePhone(phone)) {
-      user = await env.DB.prepare("SELECT * FROM users WHERE phone=? AND active=1").bind(phone).first();
-      channel = "whatsapp";
-    }
+    const email = normalizeEmail(body.email || body.contact);
+    const user = validateEmail(email)
+      ? await env.DB.prepare("SELECT * FROM users WHERE email=? AND active=1").bind(email).first()
+      : null;
 
-    if (user && channel && canSendVerification(channel,env)) {
+    if (user && canSendVerification(env)) {
       const recent = await env.DB.prepare(
         "SELECT created_at FROM password_reset_tokens WHERE user_id=? ORDER BY created_at DESC LIMIT 1"
       ).bind(user.id).first();
       if (!recent || now() - Number(recent.created_at) >= 60) {
         const code = await createResetToken(env,user.id,null);
-        await sendResetCode(user,channel,code,env);
+        await sendResetCode(user,code,env);
       }
     }
-    return apiJson(request, env, { ok:true, message:"If the account exists and the selected channel is available, a reset code will be sent." });
+    return apiJson(request, env, { ok:true, message:"If the account exists, a reset code will be sent by email." });
   });
 }
 
 async function resetPassword(request, env) {
   return withHttpErrors(request, env, async () => {
     const body = await bodyJson(request);
-    const contact = String(body.contact || body.email || "").trim();
-    const email = normalizeEmail(contact);
-    const phone = normalizePhone(contact);
+    const email = normalizeEmail(body.email || body.contact);
     const token = String(body.resetToken || "").trim();
-    if (!/^\d{6}$/.test(token)) throw new HttpError(400,"invalid_reset","Enter the six-digit reset code.");
+    if (!validateEmail(email) || !/^\d{6}$/.test(token)) {
+      throw new HttpError(400,"invalid_reset","Enter a valid email and six-digit reset code.");
+    }
 
-    let user = null;
-    if (validateEmail(email)) user = await env.DB.prepare("SELECT * FROM users WHERE email=?").bind(email).first();
-    else if (validatePhone(phone)) user = await env.DB.prepare("SELECT * FROM users WHERE phone=?").bind(phone).first();
+    const user = await env.DB.prepare("SELECT * FROM users WHERE email=?").bind(email).first();
     if (!user) throw new HttpError(400,"invalid_reset","Reset code is invalid or expired.");
 
     const row = await env.DB.prepare(
@@ -1348,7 +1213,7 @@ async function adminAudience(request, env) {
     await authenticate(request,env,["admin"]);
     const rows = await env.DB.prepare(
       `SELECT id,email,phone,first_name,last_name,created_at,last_active_at,email_verified_at,phone_verified_at,
-              marketing_email_consent,marketing_whatsapp_consent,marketing_phone_consent,marketing_consent_updated_at
+              marketing_email_consent,marketing_phone_consent,marketing_consent_updated_at
        FROM users
        WHERE role='staff' AND active=1
        ORDER BY created_at DESC
@@ -1365,7 +1230,6 @@ async function adminAudience(request, env) {
       emailVerified:Boolean(row.email_verified_at),
       phoneVerified:Boolean(row.phone_verified_at),
       marketingEmail:Boolean(row.marketing_email_consent),
-      marketingWhatsapp:Boolean(row.marketing_whatsapp_consent),
       marketingPhone:Boolean(row.marketing_phone_consent),
       consentUpdatedAt:row.marketing_consent_updated_at
     }))});
