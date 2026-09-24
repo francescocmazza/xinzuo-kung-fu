@@ -1105,11 +1105,484 @@
         {
           "id": "base-shapes-use",
           "title": "Knife Shapes & Intended Use",
-          "status": "planned",
+          "status": "active",
           "source_paths": [
             "05-knife-types/overview.md"
           ],
-          "summary": "Match common profiles to the work they are designed to do."
+          "summary": "Match blade families to the work they are designed to do instead of recommending by appearance alone.",
+          "lessons": [
+            {
+              "id": "bsu-01-work-first",
+              "concept_id": "shapes.work_before_name",
+              "title": "Start from the work, not the silhouette",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "The most useful sales question is not 'Which shape do you like?' but 'What do you actually cut?'",
+                "points": [
+                  "Ask what foods the customer cuts most often and in what quantities.",
+                  "Ask whether the work is mainly on a board or in the hand, and whether it needs chopping, long slicing, work around bone, fish preparation or fine detail.",
+                  "Use those answers to identify the blade family before comparing materials or appearance."
+                ],
+                "takeaway": "Task first; knife family second."
+              },
+              "question": {
+                "id": "bsu-q01",
+                "prompt": "What should staff identify first when recommending a knife?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Preferred Damascus pattern"
+                  },
+                  {
+                    "id": "b",
+                    "text": "The customer's actual cutting work"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Highest hardness available"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Most expensive series"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The source explicitly tells sales staff to start from the customer's work, not the silhouette they like."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsu-r01a",
+                  "prompt": "A customer says 'I want a bunka because I like the shape.' What is the best next question?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Which handle color?"
+                    },
+                    {
+                      "id": "b",
+                      "text": "What foods and cutting movements will you use it for most often?"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Do you want the hardest steel?"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Would you like a larger box?"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The intended work determines whether that shape is actually suitable."
+                },
+                {
+                  "id": "bsu-r01b",
+                  "prompt": "Which information is most useful before selecting a blade family?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Foods, quantities and cutting movements"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Logo placement"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Packaging size"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Blade pattern only"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Those factors define the functional problem the knife must solve."
+                }
+              ]
+            },
+            {
+              "id": "bsu-02-generalists",
+              "concept_id": "shapes.general_purpose",
+              "title": "Recognize general-purpose families",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Chef's knife, gyuto, santoku and Chinese cleaver can all be general-purpose tools, but they emphasize different movement and geometry.",
+                "points": [
+                  "Chef's knives and gyuto give useful length and versatility for broad kitchen work.",
+                  "Santoku offers a compact all-round format with enough height for board work.",
+                  "A Chinese cleaver can provide broad contact and food-transfer area, but its thin general-purpose versions are not automatically bone cleavers."
+                ],
+                "takeaway": "General-purpose does not mean identical behavior."
+              },
+              "question": {
+                "id": "bsu-q02",
+                "prompt": "Which statement about a Chinese cleaver is safest?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Every Chinese cleaver is designed for heavy bone"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Thin general-purpose Chinese cleavers can be excellent board tools but should not be assumed to be bone cleavers"
+                  },
+                  {
+                    "id": "c",
+                    "text": "It is only for vegetables"
+                  },
+                  {
+                    "id": "d",
+                    "text": "It must be single bevel"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Blade family names do not override the exact geometry and intended use."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsu-r02a",
+                  "prompt": "Why might a santoku appeal to someone who wants an all-round knife in a smaller format?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It combines compact length with useful blade height for board work"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It is always heavier than a chef's knife"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It is always single bevel"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It is designed for bones"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Its compact general-purpose format is part of the reason the shape is widely useful."
+                },
+                {
+                  "id": "bsu-r02b",
+                  "prompt": "What should decide between two suitable general-purpose shapes?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Only which one looks more traditional"
+                    },
+                    {
+                      "id": "b",
+                      "text": "The customer's movements, preferred length and ergonomic fit"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only the higher HRC"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only the larger blade"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Once function is satisfied, movement and fit distinguish suitable options."
+                }
+              ]
+            },
+            {
+              "id": "bsu-03-specialists",
+              "concept_id": "shapes.specialist_geometry",
+              "title": "Use specialist geometry for specialist work",
+              "critical": true,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Boning, filleting, carving and fish butchery ask for very different mechanical behavior.",
+                "points": [
+                  "A boning knife stays narrow so it can change angle around joints and bone.",
+                  "A fillet knife may be flexible to follow fish contours; hard thin models should not be forced into deep bends or twisted.",
+                  "A deba is a fish-butchery specialist: its strong heel can handle appropriate fish joints and small bones, but it is not a universal cleaver."
+                ],
+                "takeaway": "Specialist shape describes a mechanical job, not a license for extra force."
+              },
+              "question": {
+                "id": "bsu-q03",
+                "prompt": "Which use is appropriate for a deba?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Universal mammal-bone cleaving"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Controlled fish-butchery work using different parts of the blade appropriately"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Prying frozen food apart"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Flexible filleting around a rib cage"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The deba is specialized for fish butchery and must not be treated as a universal impact tool."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsu-r03a",
+                  "prompt": "Why is a Western boning knife narrow?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "To change angle easily while following joints and bone"
+                    },
+                    {
+                      "id": "b",
+                      "text": "To add chopping mass"
+                    },
+                    {
+                      "id": "c",
+                      "text": "To increase knuckle clearance"
+                    },
+                    {
+                      "id": "d",
+                      "text": "To act as a cleaver"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Low blade height helps the knife navigate a three-dimensional path around bone."
+                },
+                {
+                  "id": "bsu-r03b",
+                  "prompt": "What is wrong with testing how far a hard fillet knife can bend?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nothing; maximum flex is the point"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Excess lateral stress can chip, crack or fracture a hard thin blade"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It removes the finish"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It makes the handle heavier"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Use only the flex the model is designed to provide."
+                }
+              ]
+            },
+            {
+              "id": "bsu-04-slicing",
+              "concept_id": "shapes.long_slicing",
+              "title": "Understand long slicing tools",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Long narrow slicers are built to reduce repeated sawing and produce cleaner portions.",
+                "points": [
+                  "Carving and ham knives use length to create long drawing cuts through boneless cooked meat.",
+                  "Traditional sashimi slicers use a long controlled pull cut through raw fish and can be single bevel and handed.",
+                  "Length only helps if the user actually uses a long stroke rather than short repeated sawing."
+                ],
+                "takeaway": "A slicer's advantage comes from using its length in the intended stroke."
+              },
+              "question": {
+                "id": "bsu-q04",
+                "prompt": "What is the main reason for the length of a dedicated slicer?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "To make the knife heavier for chopping"
+                  },
+                  {
+                    "id": "b",
+                    "text": "To complete broad portions with fewer, cleaner drawing strokes"
+                  },
+                  {
+                    "id": "c",
+                    "text": "To pry joints apart"
+                  },
+                  {
+                    "id": "d",
+                    "text": "To make the knife suitable for frozen food"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Long slicing geometry reduces the need for repeated back-and-forth cuts."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsu-r04a",
+                  "prompt": "How should a traditional sashimi slicer normally be used?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "With a long controlled pull stroke"
+                    },
+                    {
+                      "id": "b",
+                      "text": "As a rocking chopper"
+                    },
+                    {
+                      "id": "c",
+                      "text": "With sideways scraping"
+                    },
+                    {
+                      "id": "d",
+                      "text": "As a flexible fillet knife"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The geometry is optimized for clean draw slicing, not chopping or flexing."
+                },
+                {
+                  "id": "bsu-r04b",
+                  "prompt": "When does a long slicing blade provide little benefit?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "When the user reduces every cut to short sawing strokes"
+                    },
+                    {
+                      "id": "b",
+                      "text": "When cutting boneless cooked meat"
+                    },
+                    {
+                      "id": "c",
+                      "text": "When making broad thin slices"
+                    },
+                    {
+                      "id": "d",
+                      "text": "When the food is stabilized"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The user has to exploit the available edge length."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bsu-mini-01",
+            "title": "Knife Shapes & Intended Use check",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bsu-m01",
+                "concept_id": "shapes.work_before_name",
+                "critical": false,
+                "prompt": "What comes first in a sound recommendation?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Customer's work"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Pattern"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Price ceiling only"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Hardness only"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Function is identified first."
+              },
+              {
+                "id": "bsu-m02",
+                "concept_id": "shapes.general_purpose",
+                "critical": false,
+                "prompt": "Can a thin Chinese cleaver be assumed to be a bone cleaver?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Yes"
+                  },
+                  {
+                    "id": "b",
+                    "text": "No"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only if stainless"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only if long"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Exact geometry and intended use must be checked."
+              },
+              {
+                "id": "bsu-m03",
+                "concept_id": "shapes.specialist_geometry",
+                "critical": true,
+                "prompt": "A fillet knife feels forced while bending around a contour. What should the user do?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Bend harder"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Change the cutting angle instead of forcing more flex"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Twist the blade"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Strike the spine"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Do not exceed the flex the model is designed to provide."
+              },
+              {
+                "id": "bsu-m04",
+                "concept_id": "shapes.long_slicing",
+                "critical": false,
+                "prompt": "What makes a long slicer effective?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Using a long drawing stroke"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Heavy vertical impact"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Sideways leverage"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Rapid rocking"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "The blade length is useful when the stroke uses it."
+              }
+            ]
+          }
         },
         {
           "id": "base-care-boards",
