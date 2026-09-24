@@ -166,6 +166,9 @@ jobs:
         env:
           ACADEMY_API_BASE: ${{ vars.ACADEMY_API_BASE }}
           ACADEMY_PRIVACY_CONTROLLER_NAME: ${{ vars.ACADEMY_PRIVACY_CONTROLLER_NAME }}
+          ACADEMY_PRIVACY_CONTROLLER_ADDRESS: ${{ vars.ACADEMY_PRIVACY_CONTROLLER_ADDRESS }}
+          ACADEMY_PRIVACY_CONTROLLER_VAT: ${{ vars.ACADEMY_PRIVACY_CONTROLLER_VAT }}
+          ACADEMY_PRIVACY_CONTACT_NAME: ${{ vars.ACADEMY_PRIVACY_CONTACT_NAME }}
           ACADEMY_PRIVACY_CONTACT_EMAIL: ${{ vars.ACADEMY_PRIVACY_CONTACT_EMAIL }}
           ACADEMY_PUBLIC_URL: ${{ vars.ACADEMY_PUBLIC_URL }}
         run: |
@@ -179,9 +182,12 @@ jobs:
               "apiBase": os.environ.get("ACADEMY_API_BASE", "").rstrip("/"),
               "requireAuth": True,
               "companyName": "Xinzuo Europe",
-              "privacyControllerName": os.environ.get("ACADEMY_PRIVACY_CONTROLLER_NAME", ""),
-              "privacyContactEmail": os.environ.get("ACADEMY_PRIVACY_CONTACT_EMAIL", ""),
-              "academyPublicUrl": os.environ.get("ACADEMY_PUBLIC_URL", "https://francescocmazza.github.io/xinzuo-kung-fu/academy/"),
+              "privacyControllerName": os.environ.get("ACADEMY_PRIVACY_CONTROLLER_NAME") or "FCM SRLS",
+              "privacyControllerAddress": os.environ.get("ACADEMY_PRIVACY_CONTROLLER_ADDRESS") or "Via Benvenuto Cellini 15G, 04100 Latina (LT), Italia",
+              "privacyControllerVat": os.environ.get("ACADEMY_PRIVACY_CONTROLLER_VAT") or "03086390592",
+              "privacyContactName": os.environ.get("ACADEMY_PRIVACY_CONTACT_NAME") or "Dott. Francesco Claudio Mazza",
+              "privacyContactEmail": os.environ.get("ACADEMY_PRIVACY_CONTACT_EMAIL") or "f.mazza@xinzuo-europe.com",
+              "academyPublicUrl": os.environ.get("ACADEMY_PUBLIC_URL") or "https://francescocmazza.github.io/xinzuo-kung-fu/academy/",
           }
           with open("site/academy/config.js", "w", encoding="utf-8") as fh:
               fh.write("window.XINZUO_ACADEMY_CONFIG = Object.freeze(")
