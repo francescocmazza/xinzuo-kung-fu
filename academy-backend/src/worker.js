@@ -1366,3 +1366,260 @@ async function adminAudience(request, env) {
     }))});
   });
 }
+
+
+function randomShuffle(items) {
+  const out = [...items];
+  const random = new Uint32Array(Math.max(1,out.length));
+  crypto.getRandomValues(random);
+  for (let i=out.length-1;i>0;i-=1) {
+    const j = random[i] % (i+1);
+    [out[i],out[j]] = [out[j],out[i]];
+  }
+  return out;
+}
+
+function publicAssessmentQuestion(question, locale) {
+  const lang = locale === "it" ? "it" : "en";
+  return {
+    id:question.id,
+    conceptId:question.conceptId,
+    critical:Boolean(question.critical),
+    prompt:question.prompt[lang] || question.prompt.en,
+    options:question.options.map(option=>({
+      id:option.id,
+      text:option[lang] || option.en
+    }))
+  };
+}
+
+async function certificationStatus(request, env) {
+  return withHttpErrors(request,env,async()=>{
+    const auth = await authenticate(request,env);
+    const [progress,attempts,certificates] = await Promise.all([
+      env.DB.prepare("SELECT * FROM learner_progress WHERE user_id=?").bind(auth.user.id).first(),
+      env.DB.prepare(
+        "SELECT id,assessment_version,started_at,completed_at,score,critical_errors,passed,certificate_id FROM certification_attempts WHERE user_id=? AND course_id='xinzuo-academy-base' ORDER BY started_at DESC LIMIT 10"
+      ).bind(auth.user.id).all(),
+      env.DB.prepare("SELECT * FROM certificates WHERE user_id=? AND course_id='xinzuo-academy-base' ORDER BY issued_at DESC").bind(auth.user.id).all()
+    ]);
+    const eligible = Boolean(
+      progress &&
+      Number(progress.lessons_completed||0) >= 27 &&
+      Number(progress.modules_completed||0) >= 6 &&
+      Number(progress.mini_tests_completed||0) >= 6
+    );
+    return apiJson(request,env,{
+      ok:true,
+      eligible,
+      requirements:{
+        minimumScore:0.80,
+        maximumCriticalErrors:0,
+        lessonsRequired:27,
+        modulesRequired:6,
+        miniTestsRequired:6
+      },
+      progress:progress ? {
+        lessonsCompleted:progress.lessons_completed,
+        modulesCompleted:progress.modules_completed,
+        miniTestsCompleted:progress.mini_tests_completed,
+        interactions:progress.interactions
+      } : null,
+      attempts:attempts.results || [],
+      certificates:(certificates.results||[]).map(publicCertificate)
+    });
+  });
+}
+
+async function startBaseCertification(request, env) {
+  return withHttpErrors(request,env,async()=>{
+    const auth = await authenticate(request,env);
+    const body = await bodyJson(request);
+    const locale = body.locale === "it" ? "it" : "en";
+    const progress = await env.DB.prepare("SELECT * FROM learner_progress WHERE user_id=?").bind(auth.user.id).first();
+    if (!progress ||
+        Number(progress.lessons_completed||0) < 27 ||
+        Number(progress.modules_completed||0) < 6 ||
+        Number(progress.mini_tests_completed||0) < 6) {
+      throw new HttpError(409,"certification_not_ready","Complete all Base lessons, modules and mini-tests before the final assessment.");
+    }
+
+    const latestFailed = await env.DB.prepare(
+      "SELECT * FROM certification_attempts WHERE user_id=? AND course_id='xinzuo-academy-base' AND completed_at IS NOT NULL AND passed=0 ORDER BY completed_at DESC LIMIT 1"
+    ).bind(auth.user.id).first();
+    if (latestFailed) {
+      let evidence = {};
+      try { evidence = JSON.parse(latestFailed.evidence_json || "{}"); } catch {}
+      const baseline = Number(evidence.interactionBaseline || 0);
+      const remediationRequired = Math.max(3,Number(evidence.remediationInteractionsRequired || 3));
+      if (Number(progress.interactions || 0) < baseline + remediationRequired ||
+          Number(progress.updated_at || 0) <= Number(latestFailed.completed_at || 0)) {
+        throw new HttpError(
+          409,
+          "remediation_required",
+          `Review the course and complete at least ${remediationRequired} additional learning interactions before retrying.`
+        );
+      }
+    }
+
+    const active = await env.DB.prepare(
+      "SELECT * FROM certification_attempts WHERE user_id=? AND course_id='xinzuo-academy-base' AND completed_at IS NULL ORDER BY started_at DESC LIMIT 1"
+    ).bind(auth.user.id).first();
+    if (active && now() - Number(active.started_at) < 60*60) {
+      let evidence = {};
+      try { evidence = JSON.parse(active.evidence_json || "{}"); } catch {}
+      const ids = Array.isArray(evidence.questionIds) ? evidence.questionIds : BASE_CERTIFICATION_BANK.map(q=>q.id);
+      const questions = ids.map(id=>BASE_CERTIFICATION_BANK.find(q=>q.id===id)).filter(Boolean);
+      return apiJson(request,env,{
+        ok:true,
+        attemptId:active.id,
+        assessmentVersion:active.assessment_version,
+        expiresAt:Number(active.started_at)+60*60,
+        rules:{minimumScore:0.80,maximumCriticalErrors:0},
+        questions:questions.map(q=>publicAssessmentQuestion(q,evidence.locale || locale))
+      });
+    }
+
+    const ordered = randomShuffle(BASE_CERTIFICATION_BANK);
+    const attemptId = crypto.randomUUID();
+    const ts = now();
+    const evidence = {
+      questionIds:ordered.map(q=>q.id),
+      locale,
+      interactionBaseline:Number(progress.interactions || 0),
+      remediationInteractionsRequired:3
+    };
+    await env.DB.prepare(
+      `INSERT INTO certification_attempts(
+        id,user_id,course_id,assessment_version,started_at,completed_at,score,critical_errors,passed,evidence_json,certificate_id
+       ) VALUES(?,?, 'xinzuo-academy-base', ?, ?, NULL,NULL,NULL,NULL,?,NULL)`
+    ).bind(attemptId,auth.user.id,BASE_CERTIFICATION_VERSION,ts,JSON.stringify(evidence)).run();
+
+    return apiJson(request,env,{
+      ok:true,
+      attemptId,
+      assessmentVersion:BASE_CERTIFICATION_VERSION,
+      expiresAt:ts+60*60,
+      rules:{minimumScore:0.80,maximumCriticalErrors:0},
+      questions:ordered.map(q=>publicAssessmentQuestion(q,locale))
+    },201);
+  });
+}
+
+async function submitBaseCertification(request, env) {
+  return withHttpErrors(request,env,async()=>{
+    const auth = await authenticate(request,env);
+    const body = await bodyJson(request);
+    const attemptId = String(body.attemptId || "").trim();
+    const answers = body.answers;
+    if (!attemptId || !answers || typeof answers !== "object" || Array.isArray(answers)) {
+      throw new HttpError(400,"invalid_assessment","Assessment submission is invalid.");
+    }
+
+    const attempt = await env.DB.prepare(
+      "SELECT * FROM certification_attempts WHERE id=? AND user_id=? AND course_id='xinzuo-academy-base'"
+    ).bind(attemptId,auth.user.id).first();
+    if (!attempt) throw new HttpError(404,"assessment_not_found","Assessment attempt not found.");
+    if (attempt.completed_at) throw new HttpError(409,"assessment_completed","This assessment attempt has already been submitted.");
+    if (now() - Number(attempt.started_at) > 60*60) {
+      await env.DB.prepare(
+        "UPDATE certification_attempts SET completed_at=?,score=0,critical_errors=0,passed=0 WHERE id=?"
+      ).bind(now(),attempt.id).run();
+      throw new HttpError(408,"assessment_expired","Assessment time expired. Review the course before starting another attempt.");
+    }
+
+    let evidence = {};
+    try { evidence = JSON.parse(attempt.evidence_json || "{}"); } catch {}
+    const ids = Array.isArray(evidence.questionIds) ? evidence.questionIds : [];
+    if (ids.length !== BASE_CERTIFICATION_BANK.length) {
+      throw new HttpError(500,"assessment_corrupt","Assessment question set is incomplete.");
+    }
+
+    const questions = ids.map(id=>BASE_CERTIFICATION_BANK.find(q=>q.id===id)).filter(Boolean);
+    if (questions.length !== ids.length) throw new HttpError(500,"assessment_corrupt","Assessment question set is invalid.");
+
+    let correctCount = 0;
+    let criticalErrors = 0;
+    const failedConcepts = [];
+    const answerAudit = {};
+    for (const q of questions) {
+      const answer = String(answers[q.id] || "");
+      if (!q.options.some(option=>option.id===answer)) {
+        throw new HttpError(400,"assessment_incomplete","Answer every certification question before submitting.");
+      }
+      answerAudit[q.id] = answer;
+      if (answer === q.correct) {
+        correctCount += 1;
+      } else {
+        if (q.critical) criticalErrors += 1;
+        if (!failedConcepts.includes(q.conceptId)) failedConcepts.push(q.conceptId);
+      }
+    }
+
+    const score = correctCount / questions.length;
+    const passed = score >= 0.80 && criticalErrors === 0;
+    const ts = now();
+    const completedEvidence = {
+      ...evidence,
+      answers:answerAudit,
+      failedConcepts,
+      correctCount,
+      totalQuestions:questions.length,
+      completedAt:ts
+    };
+
+    let certificate = null;
+    if (passed) {
+      const existing = await env.DB.prepare(
+        "SELECT * FROM certificates WHERE user_id=? AND course_id='xinzuo-academy-base' AND status='valid' ORDER BY issued_at DESC LIMIT 1"
+      ).bind(auth.user.id).first();
+      if (existing) {
+        certificate = publicCertificate(existing);
+      } else {
+        const user = await env.DB.prepare("SELECT * FROM users WHERE id=?").bind(auth.user.id).first();
+        const certificateId = crypto.randomUUID();
+        let verificationCode = certificateVerificationCode();
+        for (let i=0;i<4;i+=1) {
+          const collision = await env.DB.prepare("SELECT id FROM certificates WHERE verification_code=?").bind(verificationCode).first();
+          if (!collision) break;
+          verificationCode = certificateVerificationCode();
+        }
+        await env.DB.prepare(
+          `INSERT INTO certificates(
+            id,verification_code,user_id,certificate_name,course_id,course_level,course_version,assessment_version,score,
+            issued_at,status,updated_at,revoked_at,revocation_reason,superseded_by,public_note
+           ) VALUES(?,?,?,?, 'xinzuo-academy-base','Base',?,?,?,?,'valid',?,NULL,NULL,NULL,?)`
+        ).bind(
+          certificateId,verificationCode,user.id,`${user.first_name} ${user.last_name}`.trim(),
+          String(body.courseVersion || "0.1.0").slice(0,40),
+          BASE_CERTIFICATION_VERSION,score,ts,ts,
+          "Issued automatically after passing the Xinzuo Academy Base final assessment."
+        ).run();
+        await env.DB.prepare(
+          "INSERT INTO certificate_events(certificate_id,actor_user_id,event_type,detail,created_at) VALUES(?,NULL,'issued',?,?)"
+        ).bind(certificateId,`Automatic issuance from assessment ${attempt.id}`,ts).run();
+        const certRow = await env.DB.prepare("SELECT * FROM certificates WHERE id=?").bind(certificateId).first();
+        certificate = publicCertificate(certRow);
+      }
+    }
+
+    await env.DB.prepare(
+      "UPDATE certification_attempts SET completed_at=?,score=?,critical_errors=?,passed=?,evidence_json=?,certificate_id=? WHERE id=?"
+    ).bind(
+      ts,score,criticalErrors,passed?1:0,JSON.stringify(completedEvidence),certificate?.id || null,attempt.id
+    ).run();
+
+    return apiJson(request,env,{
+      ok:true,
+      passed,
+      score,
+      correct:correctCount,
+      total:questions.length,
+      criticalErrors,
+      failedConcepts,
+      remediationRequired:!passed,
+      remediationInteractionsRequired:passed ? 0 : 3,
+      certificate
+    });
+  });
+}
