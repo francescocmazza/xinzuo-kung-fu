@@ -1,31 +1,44 @@
 ---
 source_hash: f9509184403c1ec71f019a413ea97cecd1c1dc9a08487122c870e7302efa7abf
-translation_engine: 2026-09-17-knife-terminology-v1
+translation_engine: chatgpt-differential-v1
+prompt_revision: 2026-09-23-technical-book-v2
 glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 ---
 
-# 图像权利
-
-该页面列出了该书及其配套网站上发表的视觉材料的许可状况。 它适用于每个图像下 `content/en/assets/`,包括 `assets/diagrams/` 和目录或演示文稿生成的图像 `assets/images/approved/`. . 。
-
-## 书面内容
-
-除另有说明外,本书的原始书面内容均按** " 创意公域归属 -- -- 非商业 -- -- 分享 -- -- 4.0国际 " (CC BY-NC-SA 4.0)** 颁发许可证。 见 [液态液态](../../../LICENSE.md). . 。
-
-## 原始图表
-
-为此工程专门创建的图表( 例如文件在 `assets/diagrams/`)是原始工作,由与书面内容相同的《民法典》BY-NC-SA 4.0许可证涵盖,除非单独标明。
-
-只有在通过项目技术审查时才能公布图表。 所产生的说明如果被认为具有重大误导性,则从所提供的指南中撤回,并恢复到占位地位,直至有经过核实的替代。
-
-无文本 `images/approved/iron-carbon-interstitial-matrix.webp` 由 AI 协助的原始项目说明,由存储器所有人选择并核准。 这是所提供文件的打印优化副本 `reticolo_bcc_di_ferro_e_carbonio.png`,不增加文字或对说明的构成进行修改。 它的可翻转标题将它确定为概念说明,而不是原子计数或晶体精确表示完成 刀身. . 。
-
-无文本 `diagrams/m4-heat-treatment-language-neutral.svg` 是为冶金章创建的原始工程图。 它故意不包含任何语言专用标签:起始状态、加速、一般的冷却/冷却阶段, 回火 缩微结构和简化的温度历史由普通文档文本解释,这样每种语文版本都可以翻译标题而不改变艺术作品。 冷却符号有意通用,没有具体说明水、石油、天然气或板块的排水。
-
-## 清祖目录和产品图象
-
-下列已核准的图像在 `assets/images/approved/` 使用2025年辛祖产品目录、经批准的辛祖宣传材料或本书存放者提供的产品图象进行裁剪或改编:
-
+<!-- tx-unit:636bed97bfffdf04a6fbba7b13725649dc917db60967c4069b9fa675c1311e08 -->
+# 图像权利说明
+<!-- /tx-unit -->
+<!-- tx-unit:09c0850bc861a5c6cd322b9c11328802bcd9a074a749c98b7777f95d90802f14 -->
+本页说明本书及配套网站中视觉材料的许可状态。它适用于 `content/en/assets/` 下的所有图像，包括 `assets/diagrams/` 中的图表，以及 `assets/images/approved/` 中由目录或演示资料衍生的图像。
+<!-- /tx-unit -->
+<!-- tx-unit:3d2346545c921bcdd96c4930c09dd381e7ff6f5c558363ef5dc31715b0b768c2 -->
+## 文字内容
+<!-- /tx-unit -->
+<!-- tx-unit:2af5eaa64a603c96347c1ca9b33c6468f5bd088ff813f461d9fa4ac5ea3f8be7 -->
+除非另有说明，本书原创文字内容采用 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International（CC BY-NC-SA 4.0）** 许可。参见 [LICENSE.md](../../../LICENSE.md)。
+<!-- /tx-unit -->
+<!-- tx-unit:653ed73999266d4d69ee6ad1c83b07c0ac47b162a0d743e27bbd77d22ebfa32e -->
+## 原创图表
+<!-- /tx-unit -->
+<!-- tx-unit:50450ed081456145c22f62aff07077817e345f17195e94b9f53f6c6b4bec34eb -->
+专门为本项目制作的图表（例如 `assets/diagrams/` 中的文件）属于原创作品，除非单独标注其他许可，否则与文字内容采用相同的 CC BY-NC-SA 4.0 许可。
+<!-- /tx-unit -->
+<!-- tx-unit:d56ea7968ab8b691f12c184ca39713469e3e79e04c7160f6305fe4b00a0cc04b -->
+只有在通过项目技术审查的情况下，图表才会继续出现在正式出版内容中。如果某幅生成式插图被发现具有实质性误导，它会从渲染后的指南中撤下并恢复为占位状态，直到有经过验证的替代图像。
+<!-- /tx-unit -->
+<!-- tx-unit:3da57ec3a677bd0a6f4f8adfb02043c9efa7472f59643f8646deab549e7b70e7 -->
+无文字的 `images/approved/iron-carbon-interstitial-matrix.webp` 是一幅 AI 辅助制作的项目原创插图，由仓库所有者选择并批准。它是所提供 `reticolo_bcc_di_ferro_e_carbonio.png` 的印刷优化版本，没有添加文字，也没有改变原有画面构成。其可翻译图注明确将其描述为概念示意图，而不是对成品刀身进行原子数量精确或晶体学完全准确的表达。
+<!-- /tx-unit -->
+<!-- tx-unit:42ac96acb8bc7cd1cb87fda9069628fd806603632a1dc28f4c5d8fc2d7707c98 -->
+无文字的 `diagrams/m4-heat-treatment-language-neutral.svg` 是为冶金章节制作的项目原创图表。它有意不包含任何特定语言标签：起始状态、奥氏体化、一般淬火/冷却阶段、回火后的显微组织以及简化温度历史，均由普通正文说明，因此每种语言版本都可以翻译图注，而无需修改图像本身。冷却符号刻意保持通用，不指定水淬、油淬、气淬或板淬。
+<!-- /tx-unit -->
+<!-- tx-unit:d7107d18a419a24d2a8edb3f46e40003216734398e811bc602f38ec30311d6e5 -->
+## Xinzuo 目录与产品图像
+<!-- /tx-unit -->
+<!-- tx-unit:5c8a3dec50200a86949ca482fef135762e8a6c383e4909270719f43e4cb69935 -->
+`assets/images/approved/` 中以下已批准图像，裁切或改编自 Xinzuo 2025 产品目录、经批准的 Xinzuo 宣传材料，或由仓库所有者为本书提供的产品图像：
+<!-- /tx-unit -->
+<!-- tx-unit:5fd1b07705bb6d899f0c0698f045557b859f543132c009687db838987a12a1ea -->
 - `home-hero-xinzuo-masterpieces.svg`
 - `production-process-overview.svg`
 - `handle-material-gallery.svg`
@@ -39,44 +52,62 @@ glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 - `knife-shape-silhouettes-neutral.png`
 - `damascus-pattern-knives-neutral.png`
 - `stable-whetstone-neutral.png`
-- `asian-handle-exploded.jpg` (存储库所有人提供的Xinzuo亚洲手相产品图像)
-- `PM8O Schematics.png` (经仓库所有人提供并用作标有亚洲手解剖图的源图像的亚洲手图)
-- `knife-shapes/Gyuto.jpg` (已核准Xinzuo) 牛刀 由仓库所有人提供的产品图像)
-- `knife-shapes/B30R-SG.jpg` (经核准由存储器所有人提供并用作直截了当的刀式模版的Xinzuo B30R-SG产品图像)
-- 所有单独审查的产品图像 `knife-shapes/*.jpg`,包括为 `knife-shapes/paring-curved.jpg`
-
-这些图像,连同任何Xinzuo标志和可能在本项目其他地方出现的促销照片,** 仍然是其各自版权持有者的财产**。 在存储处负责人授权的情况下,他们被纳入该项目,用于该书的具体教育用途。
-
-** 上面所说的创意共同许可涵盖原始书面内容和原始图表;它不自动延伸至目录或促销图像。
-
-** 商业再利用这些图像需要相关版权持有者单独授权。 未经此单独许可, 不复制、 重新发布或再使用此书以外的这些特定图像文件 。
-
-## 演示文稿产生的图像
-
-下列已核准的图像在 `assets/images/approved/` 由仓库所有人提供的内部代理培训演示书裁剪:
-
-- `bevel-families.svg` (从 `Formazione Agenti A`) (单位:千美元)
-- `damascus-structure-comparison.svg` (从 `Formazione Agenti D`) (单位:千美元)
-- `bevel-families-neutral.png` (无标签适应作物) `Formazione Agenti A`) (单位:千美元)
-
-存储器所有人使用内部演示文稿的许可本身并不证明对该演示文稿中所含的每一张照片、图表、显微图、标志或其他要素的所有权。 因此,必须将这些来自演示品的作物视为限制性项目使用材料,除非基本权利来源得到独立确认。
-
-** 根据CC BY-NC-SA 4.0**,它们不是自动转许可的,本书以外的商业再利用需要相关版权持有人分别确认权利。
-
-用于 `damascus-structure-comparison.svg`中,提供的向导故意显示的只是现代 全大马士革钢 面板。 来源幻灯片中的历史比较面板被排除在已公布的视图之外,因为它不应用作历史微调的冶金模型。
-
-中性巴布亚新几内亚的修改删除了嵌入固定语言的字幕 。 他们编号的传说和解释性说明作为普通文件文本出版,以便每个语文版本都能翻译,而不会改变基本图像。
-
-## 已删除: 未清理的外部链接
-
-先前嵌入的“刀形及其用途”中的三个数字 `<img>` 直接指向第三方零售商网站/CDN而不是经核准的当地资产的标签: 牛刀 (单位:千美元)`VIS-SHAPE-GYUTO-PM80`西部连锁刀`VIS-SHAPE-BONING-B37TG`),以及先前所追踪的直刀式例子: `VIS-SHAPE-PARING-STRAIGHT-B13R`. . 。 这些外部热链路被删除,因为其图像权利没有记录或确认。 缩略语 牛刀 数字现在使用已核准的本地 `knife-shapes/Gyuto.jpg`,直线对角数字现在使用经批准的本地 `knife-shapes/B30R-SG.jpg`. . 。 西方的勃起刀数字 仍然是编辑版的占位符 等待当地批准的照片。 见 `EDITORIAL_REQUIREMENTS.md` 防止未经批准的外部热链路重复出现的规则。
-
-## 不包括的机密材料
-
-本存储处没有公布Musashi机密手册的文字、截图、图表、照片或视觉摘录。 手册不得用作图像来源。
-
-保密或专有的培训文件可帮助确定只有在捐助者有权查阅时才值得解释的主题。 必须为本书编写已出版的措辞、组织和插图,并对照独立的技术或历史来源进行核对。 经授权的Xinzuo目录和内部介绍材料分别由上文各节管理。
-
-## 问 题
-
-有关特定图像的权利状况或来源的问题应在该项目之外的任何再利用之前得到解决。 当来源不确定时,安全默认是不能重新分配图像。
+- `asian-handle-exploded.jpg`（由仓库所有者提供的 Xinzuo 亚洲式刀柄爆炸产品图）
+- `PM8O Schematics.png`（由仓库所有者提供并批准的 Xinzuo 亚洲式刀柄示意图，用作带标注亚洲式刀柄结构图的源图）
+- `knife-shapes/Gyuto.jpg`（由仓库所有者提供并批准的 Xinzuo 牛刀产品图）
+- `knife-shapes/B30R-SG.jpg`（由仓库所有者提供并批准的 Xinzuo B30R-SG 产品图，在本书中作为直刃削皮刀示例）
+- `knife-shapes/*.jpg` 中所有经过单独审核的产品图，包括用于 `knife-shapes/paring-curved.jpg` 的已验证 B9H-SG 弯刃削皮刀图像
+<!-- /tx-unit -->
+<!-- tx-unit:04ab43a39560e2183608c3e856d6dfa6f8fdf92e032da1e76ce2d402f3d60fe7 -->
+这些图像，以及本项目其他位置可能出现的 Xinzuo 标识和宣传照片，**仍归各自著作权人所有**。它们是在仓库所有者授权下，用于本书这一特定教育用途。
+<!-- /tx-unit -->
+<!-- tx-unit:5d7ec52da6f4a290906d365b549e8c0e5ccd82769d96278910386575f1ffe55b -->
+**它们不会自动按照 CC BY-NC-SA 4.0 再许可。** 上述 Creative Commons 许可覆盖原创文字内容和原创图表，并不会自动扩展到目录图片或宣传图片。
+<!-- /tx-unit -->
+<!-- tx-unit:9445773ec72082907a4e15940eca48133cbd22edb8991cf5cd0c75cb93164b43 -->
+**对这些图像进行商业再利用，需要另行获得相关著作权人的授权。** 未获得单独许可，不得在本书之外复制、再分发或重复使用这些特定图像文件。
+<!-- /tx-unit -->
+<!-- tx-unit:a808205cd89e01e10bb246348fa046c35e70ed579cc6238919f2e36c6894de37 -->
+## 由演示资料衍生的图像
+<!-- /tx-unit -->
+<!-- tx-unit:df7de45cae129cd5aadeb37d72d0a345f279989350e8885fe5f4687957fe5df3 -->
+`assets/images/approved/` 中以下已批准图像，裁切自仓库所有者提供的内部代理培训演示资料：
+<!-- /tx-unit -->
+<!-- tx-unit:909f4fbcaf95a5a086c820ba343b15bcbb9741d353b428e66fd8b8fafdffa716 -->
+- `bevel-families.svg`（裁切自 `Formazione Agenti A`）
+- `damascus-structure-comparison.svg`（裁切自 `Formazione Agenti D`）
+- `bevel-families-neutral.png`（从 `Formazione Agenti A` 裁切并制作的无标签版本）
+<!-- /tx-unit -->
+<!-- tx-unit:da16b84195e1783c0a255a70977929627418b110d215dcde2e716d6f2e5d64ba -->
+仓库所有者允许使用内部演示资料，**并不自动证明其拥有演示文稿中每一张照片、图表、显微照片、标志或其他嵌入元素的权利**。因此，在底层权利来源没有得到独立确认之前，这些由演示资料衍生的裁切图，应被视为仅限本项目使用的受限材料。
+<!-- /tx-unit -->
+<!-- tx-unit:636372d5f8c6ccf6c7c4d00f00d959ad73e01999dad3664de1ddd78360ce1572 -->
+它们**不会自动按照 CC BY-NC-SA 4.0 再许可**；在本书之外进行商业使用，需要另行确认相关著作权人的授权。
+<!-- /tx-unit -->
+<!-- tx-unit:28fcf9075188499e0bd8af53fc63673720ad0a513d0a1e253191133d8188b3f7 -->
+对于 `damascus-structure-comparison.svg`，正式渲染的指南有意只展示现代全大马士革钢面板。源幻灯片中的历史对比面板不会出现在出版版本中，因为它不应被用作历史 wootz 钢的冶金模型。
+<!-- /tx-unit -->
+<!-- tx-unit:6db5dbddf42c5129c0f337a9a0b2a5539d72a5593ca1acab4cabdef24a151e6e -->
+中性 PNG 改编版移除了固定语言的嵌入式说明文字。相应编号图例与解释性图注以普通文档文字发布，使每种语言版本都可以翻译，而无需修改底层图像。
+<!-- /tx-unit -->
+<!-- tx-unit:1db3d60f5f1f8a0bc6644ed4a6b0355727dfb0fef4b5d8a63d18a2491466b18b -->
+## 已移除：权利未经确认的外部热链接
+<!-- /tx-unit -->
+<!-- tx-unit:42559d890ba16b254834624eb2d8ac977e32eb2202b38bd37a84c4159d243115 -->
+“Knife Shapes and Their Uses”中曾有三幅图使用 `<img>` 标签直接指向第三方零售网站/CDN，而不是使用已批准的本地资源：牛刀（`VIS-SHAPE-GYUTO-PM80`）、西式剔骨刀（`VIS-SHAPE-BONING-B37TG`），以及此前记录为 `VIS-SHAPE-PARING-STRAIGHT-B13R` 的直刃削皮刀示例。由于这些外部图像的权利没有记录或确认，这些热链接已经被移除。牛刀图现在使用已批准的本地 `knife-shapes/Gyuto.jpg`，直刃削皮刀图使用已批准的本地 `knife-shapes/B30R-SG.jpg`。西式剔骨刀图在获得已批准的本地照片之前，仍保留为编辑占位图。参见 `EDITORIAL_REQUIREMENTS.md`，其中规定了防止未经批准的外部热链接再次出现的规则。
+<!-- /tx-unit -->
+<!-- tx-unit:2d328353f45d9055d09e5a7ad5b6497dd6eb36b6cb07c4b8d5d172702911c911 -->
+## 排除的保密材料
+<!-- /tx-unit -->
+<!-- tx-unit:613c807ec86da8aef155d71da6e7c2b7b0760687c68be8be5477a7ddc8c8f78c -->
+本仓库没有发布来自保密 Musashi 手册的任何文字、截图、图表、照片或视觉摘录。该手册不得作为图像来源。
+<!-- /tx-unit -->
+<!-- tx-unit:d3cc9549c1fc57b5957005e1ecccb49c2db971f7bd6a6320c0dae3bdba39b3ee -->
+只有在贡献者有权查阅的情况下，保密或专有培训文件才可以用于帮助识别值得解释的主题。正式发布的措辞、结构和插图必须为本书重新创作，并与独立技术或历史来源核对。获得授权的 Xinzuo 目录和内部演示材料，则分别受上述相关章节约束。
+<!-- /tx-unit -->
+<!-- tx-unit:5d064c8900f964eb8c4851b304787181007a45ce417115f83f746f8219fbb43b -->
+## 问题
+<!-- /tx-unit -->
+<!-- tx-unit:95a8e13c1daf61101fccbd3a3ac2cfc533ffdfb2fe9a8bb1093c2f83b4a8eda4 -->
+在本项目之外重复使用任何特定图像之前，都应先解决其权利状态或来源问题。如果来源不明确，最安全的默认做法就是不要再分发该图像。
+<!-- /tx-unit -->
