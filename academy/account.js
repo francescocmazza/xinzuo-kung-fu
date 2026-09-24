@@ -16,6 +16,7 @@
   let heartbeatTimer = null;
   let pendingRegistration = null;
   let verificationChannels = { email: true, sms: true };
+  let publicRegistrationOpen = false;
 
   const el = {
     authGate: document.getElementById("authGate"),
@@ -276,14 +277,18 @@
         email:Boolean(health.verificationChannels?.email),
         sms:Boolean(health.verificationChannels?.sms)
       };
+      publicRegistrationOpen = Boolean(health.publicRegistration);
       applyVerificationAvailability();
+      el.registerTab.disabled = !publicRegistrationOpen || !legalConfigured();
       const channelText = [
         verificationChannels.email ? "email" : null,
         verificationChannels.sms ? "SMS" : null
       ].filter(Boolean).join(" + ");
-      el.backendStatus.textContent = legalConfigured()
-        ? `Backend Academy online${channelText ? " · verifica " + channelText : " · nessun canale OTP configurato"}.`
-        : "Backend online, ma identità del titolare privacy non ancora configurata: registrazione pubblica disabilitata.";
+      el.backendStatus.textContent = !legalConfigured()
+        ? "Backend online, ma identità del titolare privacy non ancora configurata: registrazione pubblica disabilitata."
+        : !publicRegistrationOpen
+          ? "Backend Academy online · registrazione pubblica non ancora aperta."
+          : `Backend Academy online${channelText ? " · verifica " + channelText : " · nessun canale OTP configurato"}.`;
     } catch (error) {
       el.backendStatus.textContent = `Backend non raggiungibile: ${error.message}`;
       el.offlineButton.hidden = false;
@@ -688,6 +693,9 @@
       } else {
         if (!legalConfigured()) {
           throw new Error("Registrazione non ancora aperta: identità e contatto privacy del titolare devono essere configurati.");
+        }
+        if (!publicRegistrationOpen) {
+          throw new Error("La registrazione pubblica non è ancora stata attivata.");
         }
         const result = await api("/api/auth/register/start", {
           method:"POST",
