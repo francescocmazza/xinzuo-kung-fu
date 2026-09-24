@@ -85,3 +85,14 @@ CREATE TABLE activity_events (
 
 CREATE INDEX activity_user_time_idx ON activity_events(user_id, created_at DESC);
 CREATE INDEX activity_type_time_idx ON activity_events(event_type, created_at DESC);
+
+CREATE TABLE password_reset_tokens (
+  token_hash TEXT PRIMARY KEY,
+  user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  created_at INTEGER NOT NULL,
+  expires_at INTEGER NOT NULL,
+  used_at INTEGER,
+  created_by TEXT
+);
+
+CREATE INDEX password_reset_expiry_idx ON password_reset_tokens(expires_at);
