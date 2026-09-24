@@ -21,12 +21,11 @@ jobs:
       VERIFICATION_WEBHOOK_URL: ${{ secrets.ACADEMY_VERIFICATION_WEBHOOK_URL }}
       RESEND_API_KEY: ${{ secrets.ACADEMY_RESEND_API_KEY }}
       VERIFICATION_EMAIL_FROM: ${{ vars.ACADEMY_VERIFICATION_EMAIL_FROM }}
-      TWILIO_ACCOUNT_SID: ${{ secrets.ACADEMY_TWILIO_ACCOUNT_SID }}
-      TWILIO_API_KEY: ${{ secrets.ACADEMY_TWILIO_API_KEY }}
-      TWILIO_API_SECRET: ${{ secrets.ACADEMY_TWILIO_API_SECRET }}
-      TWILIO_FROM_NUMBER: ${{ secrets.ACADEMY_TWILIO_FROM_NUMBER }}
-      TWILIO_MESSAGING_SERVICE_SID: ${{ secrets.ACADEMY_TWILIO_MESSAGING_SERVICE_SID }}
-      TWILIO_API_BASE: ${{ vars.ACADEMY_TWILIO_API_BASE }}
+      WHATSAPP_ACCESS_TOKEN: ${{ secrets.ACADEMY_WHATSAPP_ACCESS_TOKEN }}
+      WHATSAPP_PHONE_NUMBER_ID: ${{ vars.ACADEMY_WHATSAPP_PHONE_NUMBER_ID }}
+      WHATSAPP_TEMPLATE_NAME: ${{ vars.ACADEMY_WHATSAPP_TEMPLATE_NAME }}
+      WHATSAPP_TEMPLATE_LANGUAGE: ${{ vars.ACADEMY_WHATSAPP_TEMPLATE_LANGUAGE }}
+      WHATSAPP_GRAPH_VERSION: ${{ vars.ACADEMY_WHATSAPP_GRAPH_VERSION }}
       PUBLIC_REGISTRATION_ENABLED: ${{ vars.ACADEMY_PUBLIC_REGISTRATION_ENABLED }}
       RESET_PAGE_URL: ${{ vars.ACADEMY_PUBLIC_URL }}
       ALLOWED_ORIGINS: ${{ vars.ACADEMY_ALLOWED_ORIGINS }}
@@ -79,7 +78,10 @@ jobs:
                   "ALLOWED_ORIGINS": allowed,
                   "RESET_PAGE_URL": os.environ.get("RESET_PAGE_URL") or "https://francescocmazza.github.io/xinzuo-kung-fu/academy/",
                   "VERIFICATION_EMAIL_FROM": os.environ.get("VERIFICATION_EMAIL_FROM") or "",
-                  "TWILIO_API_BASE": os.environ.get("TWILIO_API_BASE") or "https://api.twilio.com/2010-04-01",
+                  "WHATSAPP_PHONE_NUMBER_ID": os.environ.get("WHATSAPP_PHONE_NUMBER_ID") or "",
+                  "WHATSAPP_TEMPLATE_NAME": os.environ.get("WHATSAPP_TEMPLATE_NAME") or "",
+                  "WHATSAPP_TEMPLATE_LANGUAGE": os.environ.get("WHATSAPP_TEMPLATE_LANGUAGE") or "",
+                  "WHATSAPP_GRAPH_VERSION": os.environ.get("WHATSAPP_GRAPH_VERSION") or "v26.0",
                   "PUBLIC_REGISTRATION_ENABLED": os.environ.get("PUBLIC_REGISTRATION_ENABLED") or "false",
               },
           }
@@ -108,20 +110,8 @@ jobs:
           if [ -n "${RESEND_API_KEY:-}" ]; then
             printf '%s' "$RESEND_API_KEY" | npx wrangler secret put RESEND_API_KEY --config wrangler.jsonc
           fi
-          if [ -n "${TWILIO_ACCOUNT_SID:-}" ]; then
-            printf '%s' "$TWILIO_ACCOUNT_SID" | npx wrangler secret put TWILIO_ACCOUNT_SID --config wrangler.jsonc
-          fi
-          if [ -n "${TWILIO_API_KEY:-}" ]; then
-            printf '%s' "$TWILIO_API_KEY" | npx wrangler secret put TWILIO_API_KEY --config wrangler.jsonc
-          fi
-          if [ -n "${TWILIO_API_SECRET:-}" ]; then
-            printf '%s' "$TWILIO_API_SECRET" | npx wrangler secret put TWILIO_API_SECRET --config wrangler.jsonc
-          fi
-          if [ -n "${TWILIO_FROM_NUMBER:-}" ]; then
-            printf '%s' "$TWILIO_FROM_NUMBER" | npx wrangler secret put TWILIO_FROM_NUMBER --config wrangler.jsonc
-          fi
-          if [ -n "${TWILIO_MESSAGING_SERVICE_SID:-}" ]; then
-            printf '%s' "$TWILIO_MESSAGING_SERVICE_SID" | npx wrangler secret put TWILIO_MESSAGING_SERVICE_SID --config wrangler.jsonc
+          if [ -n "${WHATSAPP_ACCESS_TOKEN:-}" ]; then
+            printf '%s' "$WHATSAPP_ACCESS_TOKEN" | npx wrangler secret put WHATSAPP_ACCESS_TOKEN --config wrangler.jsonc
           fi
 
       - name: Deploy Worker
