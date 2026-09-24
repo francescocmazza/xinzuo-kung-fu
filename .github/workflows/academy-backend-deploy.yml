@@ -21,11 +21,6 @@ jobs:
       VERIFICATION_WEBHOOK_URL: ${{ secrets.ACADEMY_VERIFICATION_WEBHOOK_URL }}
       RESEND_API_KEY: ${{ secrets.ACADEMY_RESEND_API_KEY }}
       VERIFICATION_EMAIL_FROM: ${{ vars.ACADEMY_VERIFICATION_EMAIL_FROM }}
-      WHATSAPP_ACCESS_TOKEN: ${{ secrets.ACADEMY_WHATSAPP_ACCESS_TOKEN }}
-      WHATSAPP_PHONE_NUMBER_ID: ${{ vars.ACADEMY_WHATSAPP_PHONE_NUMBER_ID }}
-      WHATSAPP_TEMPLATE_NAME: ${{ vars.ACADEMY_WHATSAPP_TEMPLATE_NAME }}
-      WHATSAPP_TEMPLATE_LANGUAGE: ${{ vars.ACADEMY_WHATSAPP_TEMPLATE_LANGUAGE }}
-      WHATSAPP_GRAPH_VERSION: ${{ vars.ACADEMY_WHATSAPP_GRAPH_VERSION }}
       PUBLIC_REGISTRATION_ENABLED: ${{ vars.ACADEMY_PUBLIC_REGISTRATION_ENABLED }}
       RESET_PAGE_URL: ${{ vars.ACADEMY_PUBLIC_URL }}
       ALLOWED_ORIGINS: ${{ vars.ACADEMY_ALLOWED_ORIGINS }}
@@ -78,10 +73,6 @@ jobs:
                   "ALLOWED_ORIGINS": allowed,
                   "RESET_PAGE_URL": os.environ.get("RESET_PAGE_URL") or "https://francescocmazza.github.io/xinzuo-kung-fu/academy/",
                   "VERIFICATION_EMAIL_FROM": os.environ.get("VERIFICATION_EMAIL_FROM") or "",
-                  "WHATSAPP_PHONE_NUMBER_ID": os.environ.get("WHATSAPP_PHONE_NUMBER_ID") or "",
-                  "WHATSAPP_TEMPLATE_NAME": os.environ.get("WHATSAPP_TEMPLATE_NAME") or "",
-                  "WHATSAPP_TEMPLATE_LANGUAGE": os.environ.get("WHATSAPP_TEMPLATE_LANGUAGE") or "",
-                  "WHATSAPP_GRAPH_VERSION": os.environ.get("WHATSAPP_GRAPH_VERSION") or "v26.0",
                   "PUBLIC_REGISTRATION_ENABLED": os.environ.get("PUBLIC_REGISTRATION_ENABLED") or "false",
               },
           }
@@ -110,10 +101,6 @@ jobs:
           if [ -n "${RESEND_API_KEY:-}" ]; then
             printf '%s' "$RESEND_API_KEY" | npx wrangler secret put RESEND_API_KEY --config wrangler.jsonc
           fi
-          if [ -n "${WHATSAPP_ACCESS_TOKEN:-}" ]; then
-            printf '%s' "$WHATSAPP_ACCESS_TOKEN" | npx wrangler secret put WHATSAPP_ACCESS_TOKEN --config wrangler.jsonc
-          fi
-
       - name: Deploy Worker
         working-directory: academy-backend
         run: npx wrangler deploy --config wrangler.jsonc
