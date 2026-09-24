@@ -26,7 +26,7 @@ The book is published as a searchable multilingual website with GitHub Pages.
 
 English (`en`) is always available. A non-English language is added automatically to the website and PDF releases as soon as its complete committed translation passes validation. Incomplete languages are skipped and never block languages that are already ready.
 
-Italian (`it`) and Simplified Chinese (`zh-Hans`) are currently fully translated. Future left-to-right locales can use the same mechanism without editing the publication workflow.
+Italian (`it`) is currently fully translated. Simplified Chinese (`zh-Hans`) is being regenerated with the new ChatGPT workflow and will become publication-ready automatically as soon as its full translation passes validation. Future left-to-right locales use the same mechanism without editing the publication workflow.
 
 ## English is the source of truth
 
