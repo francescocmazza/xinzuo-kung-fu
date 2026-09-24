@@ -4,14 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       language:
-        description: "Language to export ('all' builds one PDF per active language)"
-        type: choice
+        description: "Locale code to export, or 'all' for every publication-ready language"
+        type: string
         default: all
-        options:
-          - all
-          - en
-          - it
-          - zh-Hans
       placeholders:
         description: "Editorial IMAGE PLACEHOLDER boxes in the printed guide"
         type: choice
@@ -32,6 +27,7 @@ on:
       - "scripts/test_chatgpt_translate.py"
       - "scripts/centralize_bibliography.py"
       - "scripts/publication_metadata.py"
+      - "scripts/publication_locales.py"
       - "scripts/export_pdf_guides.py"
       - "scripts/pdf_export/**"
       - "requirements-pdf.txt"
@@ -74,23 +70,12 @@ jobs:
       - name: Centralize bibliography in English source
         run: python scripts/centralize_bibliography.py
 
-      - name: Validate committed ChatGPT translations
-        id: translation_check
-        if: github.event_name == 'pull_request' || inputs.language != 'en'
-        continue-on-error: ${{ github.event_name == 'pull_request' && github.event.pull_request.draft }}
-        run: |
-          python scripts/test_chatgpt_translate.py
-          python scripts/chatgpt_translate.py --check-only
-
-      - name: Explain pending translations on draft PRs
-        if: ${{ steps.translation_check.outcome == 'failure' && github.event_name == 'pull_request' && github.event.pull_request.draft }}
+      - name: Validate translation tooling and resolve ready languages
         shell: bash
         run: |
-          {
-            echo "### Translation validation pending"
-            echo
-            echo "The English PDF smoke test can continue while this PR is a draft. Non-English PDF export remains blocked until translations are current."
-          } >> "$GITHUB_STEP_SUMMARY"
+          set -euo pipefail
+          python scripts/test_chatgpt_translate.py
+          python scripts/publication_locales.py --explain
 
       - name: Apply A5 publication profile
         run: python scripts/pdf_export/apply_a5_profile.py
