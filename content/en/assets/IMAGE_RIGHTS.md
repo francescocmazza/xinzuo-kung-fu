@@ -16,10 +16,6 @@ The text-free `images/approved/iron-carbon-interstitial-matrix.webp` is an AI-as
 
 The text-free `diagrams/m4-heat-treatment-language-neutral.svg` is an original project diagram created for the metallurgy chapter. It intentionally contains no language-specific labels: the starting condition, austenitizing, generic quench/cooling stage, tempering microstructures and simplified temperature history are explained by ordinary document text so every language edition can translate the caption without altering the artwork. The cooling symbol is intentionally generic and does not specify a water, oil, gas or plate quench.
 
-## Publication cover artwork
-
-`CoverFront.webp` and `CoverBack.webp` are AI-assisted original project artwork created specifically for this publication, supplied and approved by the repository owner. The front artwork is intentionally free of Latin title/subtitle/author text so those elements remain live, selectable and translatable in every language edition; the back artwork is a text-free matching wood texture.
-
 ## Xinzuo catalog and product images
 
 The following approved images in `assets/images/approved/` are cropped or adapted from the 2025 Xinzuo product catalog, approved Xinzuo promotional material or product imagery supplied by the repository owner for this book:
