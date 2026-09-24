@@ -171,12 +171,20 @@ def write_back_cover_qr(code: str) -> None:
 
 
 '''
-    exporter = _replace_checked(
-        exporter,
-        "def render_edition_html(language_name: str, metadata: PublicationMetadata) -> str:\n",
-        render_back_cover + "def render_edition_html(language_name: str, metadata: PublicationMetadata) -> str:\n",
-        "back-cover renderer",
-    )
+    current_renderer = "def render_edition_html(cfg: dict[str, Any], metadata: PublicationMetadata) -> str:\n"
+    legacy_renderer = "def render_edition_html(language_name: str, metadata: PublicationMetadata) -> str:\n"
+    if current_renderer in exporter:
+        exporter = exporter.replace(
+            current_renderer,
+            render_back_cover + current_renderer,
+        )
+    elif legacy_renderer in exporter:
+        exporter = exporter.replace(
+            legacy_renderer,
+            render_back_cover + legacy_renderer,
+        )
+    elif render_back_cover not in exporter:
+        raise RuntimeError("Could not inject back cover: expected 'back-cover renderer' was not found.")
 
     assemble_back_cover = '''def assemble_back_cover_document(cfg: dict, metadata: PublicationMetadata, css_text: str) -> str:
     """A standalone final back-cover page, printed without headers or footers."""
@@ -208,14 +216,21 @@ def write_back_cover_qr(code: str) -> None:
         "back-cover temporary PDF",
     )
 
-    old_render = '''        merge_pdfs(
+    old_render_current = '''        merge_pdfs(
+            [cover_pdf, rest_pdf],
+            pdf_path,
+            cfg=cfg,
+            metadata=metadata,
+        )
+'''
+    old_render_legacy = '''        merge_pdfs(
             [cover_pdf, rest_pdf],
             pdf_path,
             language_name=cfg["name"],
             metadata=metadata,
         )
 '''
-    new_render = '''        write_back_cover_qr(code)
+    new_render_current = '''        write_back_cover_qr(code)
         back_cover_html = assemble_back_cover_document(cfg, metadata, css_text)
         (SITE / code / PRINT_BACK_COVER_NAME).write_text(back_cover_html, encoding="utf-8")
         page.goto(f"{base_url}{code}/{PRINT_BACK_COVER_NAME}", wait_until="load")
@@ -230,11 +245,20 @@ def write_back_cover_qr(code: str) -> None:
         merge_pdfs(
             [cover_pdf, rest_pdf, back_cover_pdf],
             pdf_path,
-            language_name=cfg["name"],
+            cfg=cfg,
             metadata=metadata,
         )
 '''
-    exporter = _replace_checked(exporter, old_render, new_render, "back-cover render sequence")
+    new_render_legacy = new_render_current.replace(
+        "            cfg=cfg,\n",
+        '            language_name=cfg["name"],\n',
+    )
+    if old_render_current in exporter:
+        exporter = exporter.replace(old_render_current, new_render_current)
+    elif old_render_legacy in exporter:
+        exporter = exporter.replace(old_render_legacy, new_render_legacy)
+    elif "[cover_pdf, rest_pdf, back_cover_pdf]" not in exporter:
+        raise RuntimeError("Could not inject back cover: expected 'back-cover render sequence' was not found.")
 
     exporter = _replace_checked(
         exporter,

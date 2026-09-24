@@ -3,7 +3,7 @@
 
 from pathlib import Path
 
-from back_cover import ROOT, _extract_back_cover_text
+from back_cover import ROOT, _extract_back_cover_text, apply_back_cover_profile
 
 
 def main() -> int:
@@ -19,7 +19,13 @@ def main() -> int:
         assert data["cta"]
         assert data["cta_text"]
         assert data["author_role"]
-    print("Localized back-cover tx-unit parsing tests passed")
+
+    exporter_path = ROOT / "scripts" / "export_pdf_guides.py"
+    patched = apply_back_cover_profile(exporter_path.read_text(encoding="utf-8"))
+    assert "PRINT_BACK_COVER_NAME" in patched
+    assert "[cover_pdf, rest_pdf, back_cover_pdf]" in patched
+    assert "cfg=cfg" in patched
+    print("Localized back-cover parsing and exporter-injection tests passed")
     return 0
 
 
