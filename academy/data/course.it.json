@@ -1105,11 +1105,484 @@
         {
           "id": "base-shapes-use",
           "title": "Forme dei coltelli e utilizzo",
-          "status": "planned",
+          "status": "active",
           "source_paths": [
             "05-knife-types/overview.md"
           ],
-          "summary": "Collega le forme principali ai lavori per cui sono state progettate."
+          "summary": "Collega le famiglie di lama ai lavori per cui sono state progettate, invece di consigliare in base all'aspetto.",
+          "lessons": [
+            {
+              "id": "bsu-01-work-first",
+              "concept_id": "shapes.work_before_name",
+              "title": "Parti dal lavoro, non dalla silhouette",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "La domanda di vendita più utile non è «Quale forma ti piace?», ma «Che cosa tagli davvero?»",
+                "points": [
+                  "Chiedi quali alimenti il cliente taglia più spesso e in quali quantità.",
+                  "Chiedi se lavora soprattutto sul tagliere o in mano e se gli servono taglio ampio, affettatura lunga, lavoro attorno all'osso, pesce o dettaglio fine.",
+                  "Usa queste risposte per identificare la famiglia di lama prima di confrontare materiali o estetica."
+                ],
+                "takeaway": "Prima il compito, poi la famiglia di coltello."
+              },
+              "question": {
+                "id": "bsu-q01",
+                "prompt": "Che cosa deve identificare per prima cosa il personale quando consiglia un coltello?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Il motivo Damasco preferito"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Il lavoro di taglio reale del cliente"
+                  },
+                  {
+                    "id": "c",
+                    "text": "La durezza più alta disponibile"
+                  },
+                  {
+                    "id": "d",
+                    "text": "La serie più costosa"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "La fonte indica esplicitamente di partire dal lavoro del cliente, non dalla silhouette che gli piace."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsu-r01a",
+                  "prompt": "Un cliente dice: «Voglio un bunka perché mi piace la forma». Qual è la domanda successiva migliore?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Che colore di manico preferisci?"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Quali alimenti e movimenti di taglio userai più spesso?"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Vuoi l'acciaio più duro?"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Preferisci una scatola più grande?"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Il lavoro previsto determina se quella forma è davvero adatta."
+                },
+                {
+                  "id": "bsu-r01b",
+                  "prompt": "Quale informazione è più utile prima di scegliere una famiglia di lama?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Alimenti, quantità e movimenti di taglio"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Posizione del logo"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dimensione della confezione"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Solo il motivo della lama"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Questi fattori definiscono il problema funzionale che il coltello deve risolvere."
+                }
+              ]
+            },
+            {
+              "id": "bsu-02-generalists",
+              "concept_id": "shapes.general_purpose",
+              "title": "Riconosci le famiglie general-purpose",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Chef's knife, gyuto, santoku e mannaia cinese possono essere tutti utensili general-purpose, ma privilegiano movimenti e geometrie differenti.",
+                "points": [
+                  "Chef's knife e gyuto offrono lunghezza e versatilità per un'ampia parte del lavoro in cucina.",
+                  "Il santoku propone un formato all-round più compatto, con altezza utile sul tagliere.",
+                  "Una mannaia cinese può offrire ampia superficie di contatto e trasporto degli alimenti, ma le versioni sottili general-purpose non sono automaticamente mannaie da osso."
+                ],
+                "takeaway": "General-purpose non significa comportamento identico."
+              },
+              "question": {
+                "id": "bsu-q02",
+                "prompt": "Quale affermazione sulla mannaia cinese è più sicura?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Ogni mannaia cinese è progettata per ossa pesanti"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Le versioni sottili general-purpose possono essere eccellenti sul tagliere, ma non vanno considerate automaticamente mannaie da osso"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Serve solo per le verdure"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Deve essere a bisello singolo"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Il nome della famiglia non sostituisce la verifica di geometria e utilizzo previsto."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsu-r02a",
+                  "prompt": "Perché un santoku può piacere a chi vuole un all-round più compatto?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Combina lunghezza contenuta e altezza utile sul tagliere"
+                    },
+                    {
+                      "id": "b",
+                      "text": "È sempre più pesante di un chef's knife"
+                    },
+                    {
+                      "id": "c",
+                      "text": "È sempre a bisello singolo"
+                    },
+                    {
+                      "id": "d",
+                      "text": "È progettato per le ossa"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Il formato compatto e general-purpose è uno dei motivi della sua versatilità."
+                },
+                {
+                  "id": "bsu-r02b",
+                  "prompt": "Che cosa dovrebbe decidere tra due forme general-purpose entrambe adatte?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Solo quale sembra più tradizionale"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Movimenti del cliente, lunghezza preferita e adattamento ergonomico"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Solo l'HRC più alto"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Solo la lama più grande"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Una volta soddisfatta la funzione, movimento ed ergonomia distinguono le opzioni adatte."
+                }
+              ]
+            },
+            {
+              "id": "bsu-03-specialists",
+              "concept_id": "shapes.specialist_geometry",
+              "title": "Usa geometrie specialistiche per lavori specialistici",
+              "critical": true,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Disosso, sfilettatura, carving e lavorazione del pesce richiedono comportamenti meccanici molto diversi.",
+                "points": [
+                  "Un coltello da disosso è stretto per cambiare facilmente angolo attorno ad articolazioni e osso.",
+                  "Un coltello da sfiletto può essere flessibile per seguire i profili del pesce; i modelli sottili e duri non vanno forzati in pieghe profonde o torsioni.",
+                  "Il deba è uno specialista della lavorazione del pesce: il tallone robusto può affrontare articolazioni e piccole ossa di pesce appropriate, ma non è una mannaia universale."
+                ],
+                "takeaway": "Forma specialistica significa lavoro meccanico specifico, non autorizzazione a usare più forza."
+              },
+              "question": {
+                "id": "bsu-q03",
+                "prompt": "Quale utilizzo è appropriato per un deba?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Spaccare qualsiasi osso di mammifero"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Lavorare il pesce in modo controllato usando correttamente le diverse zone della lama"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Fare leva su cibo congelato"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Fletterlo attorno alla gabbia toracica come un filetto flessibile"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Il deba è specializzato nella lavorazione del pesce e non va trattato come utensile universale da impatto."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsu-r03a",
+                  "prompt": "Perché un coltello occidentale da disosso è stretto?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Per cambiare facilmente angolo seguendo articolazioni e ossa"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Per aggiungere massa da chop"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Per aumentare lo spazio per le nocche"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Per fare da mannaia"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "La bassa altezza della lama aiuta a seguire un percorso tridimensionale attorno all'osso."
+                },
+                {
+                  "id": "bsu-r03b",
+                  "prompt": "Che cosa c'è di sbagliato nel provare quanto può piegarsi un filetto in acciaio duro?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nulla: la massima flessione è lo scopo"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Una sollecitazione laterale eccessiva può causare scheggiatura, crepa o rottura di una lama sottile e dura"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Rimuove la finitura"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Rende il manico più pesante"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Va usata solo la flessione per cui il modello è stato progettato."
+                }
+              ]
+            },
+            {
+              "id": "bsu-04-slicing",
+              "concept_id": "shapes.long_slicing",
+              "title": "Comprendi gli strumenti da affettatura lunga",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Le lame lunghe e strette da slicing servono a ridurre il movimento a sega ripetuto e ottenere porzioni più pulite.",
+                "points": [
+                  "Carving knife e ham knife usano la lunghezza per lunghi tagli in trazione nella carne cotta disossata.",
+                  "I tradizionali slicer da sashimi usano un lungo movimento controllato in trazione sul pesce crudo e possono essere monobisello e handed.",
+                  "La lunghezza aiuta solo se l'utilizzatore esegue davvero una corsa lunga invece di brevi movimenti ripetuti a sega."
+                ],
+                "takeaway": "Il vantaggio di uno slicer nasce dall'uso della sua lunghezza nel movimento previsto."
+              },
+              "question": {
+                "id": "bsu-q04",
+                "prompt": "Qual è il motivo principale della lunghezza di uno slicer dedicato?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Renderlo più pesante per chop verticali"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Completare porzioni ampie con meno passaggi lunghi e puliti"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Fare leva sulle articolazioni"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Renderlo adatto al congelato"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "La geometria lunga riduce la necessità di ripetuti movimenti avanti-indietro."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsu-r04a",
+                  "prompt": "Come si usa normalmente un tradizionale slicer da sashimi?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Con una lunga trazione controllata"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Come coltello da rocking"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Raschiando lateralmente"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Come filetto flessibile"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "La geometria è ottimizzata per il draw slicing pulito, non per chop o flessione."
+                },
+                {
+                  "id": "bsu-r04b",
+                  "prompt": "Quando una lama lunga da slicing offre poco vantaggio?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Quando ogni taglio viene ridotto a brevi movimenti a sega"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Quando si taglia carne cotta disossata"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Quando si fanno fette ampie e sottili"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Quando l'alimento è stabile"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Per sfruttare la lama bisogna usare la lunghezza disponibile."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bsu-mini-01",
+            "title": "Verifica Forme e utilizzo",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bsu-m01",
+                "concept_id": "shapes.work_before_name",
+                "critical": false,
+                "prompt": "Che cosa viene per primo in una buona raccomandazione?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Il lavoro del cliente"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Il motivo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Solo il budget"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Solo la durezza"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "La funzione viene identificata per prima."
+              },
+              {
+                "id": "bsu-m02",
+                "concept_id": "shapes.general_purpose",
+                "critical": false,
+                "prompt": "Una mannaia cinese sottile può essere considerata automaticamente da osso?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Sì"
+                  },
+                  {
+                    "id": "b",
+                    "text": "No"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Solo se inox"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Solo se lunga"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Vanno controllati geometria e utilizzo previsti."
+              },
+              {
+                "id": "bsu-m03",
+                "concept_id": "shapes.specialist_geometry",
+                "critical": true,
+                "prompt": "Un filetto sembra forzato mentre segue un profilo. Che cosa bisogna fare?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Piegare di più"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Cambiare l'angolo di taglio invece di forzare altra flessione"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Torcere la lama"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Colpire il dorso"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Non superare la flessione prevista dal modello."
+              },
+              {
+                "id": "bsu-m04",
+                "concept_id": "shapes.long_slicing",
+                "critical": false,
+                "prompt": "Che cosa rende efficace uno slicer lungo?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Usare una lunga corsa in trazione"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Impatto verticale pesante"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Leva laterale"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Rocking rapido"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "La lunghezza della lama è utile quando il movimento la sfrutta."
+              }
+            ]
+          }
         },
         {
           "id": "base-care-boards",
