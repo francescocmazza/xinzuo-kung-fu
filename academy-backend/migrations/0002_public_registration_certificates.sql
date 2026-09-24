@@ -55,6 +55,15 @@ CREATE INDEX users_registration_idx ON users(registration_source, created_at);
 
 ALTER TABLE password_reset_tokens ADD COLUMN attempts INTEGER NOT NULL DEFAULT 0;
 
+
+CREATE TABLE registration_rate_limits (
+  key_hash TEXT PRIMARY KEY,
+  window_start INTEGER NOT NULL,
+  attempt_count INTEGER NOT NULL
+);
+
+CREATE INDEX registration_rate_window_idx ON registration_rate_limits(window_start);
+
 CREATE TABLE verification_challenges (
   id TEXT PRIMARY KEY,
   user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
