@@ -23,7 +23,7 @@
   overflow: hidden;
   display: block;
   text-align: center;
-  background: var(--kb-cover-wood) url("assets/CoverFront.svg") center center / cover no-repeat;
+  background: var(--kb-cover-wood) url("assets/CoverFront.webp") center center / cover no-repeat;
   break-after: page;
   page-break-after: always;
 }
@@ -145,7 +145,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: var(--kb-cover-wood) url("assets/CoverBack.svg") center center / cover no-repeat;
+  background: var(--kb-cover-wood) url("assets/CoverBack.webp") center center / cover no-repeat;
   color: var(--kb-cover-ivory);
 }
 
