@@ -1587,12 +1587,485 @@
         {
           "id": "base-care-boards",
           "title": "Care & Cutting Boards",
-          "status": "planned",
+          "status": "active",
           "source_paths": [
             "09-maintenance/cutting-boards.md",
             "09-maintenance/routine-care.md"
           ],
-          "summary": "Protect the edge and materials through suitable boards, cleaning, drying and storage."
+          "summary": "Protect the edge and materials through suitable cutting surfaces, cleaning, drying and storage.",
+          "lessons": [
+            {
+              "id": "bcb-01-board-hardness",
+              "concept_id": "care.board_surface_hardness",
+              "title": "Choose a yielding cutting surface",
+              "critical": true,
+              "source_path": "09-maintenance/cutting-boards.md",
+              "content": {
+                "lead": "The board is part of the cutting system because every cut ends with edge contact.",
+                "points": [
+                  "Wood and purpose-made plastic or resilient synthetic boards can provide suitable cutting surfaces when clean, flat and stable.",
+                  "Glass, ceramic, stone and metal yield very little and are too hard for routine work with fine edges.",
+                  "A very hard surface can accelerate dulling and can be especially unforgiving to thin, hard edges."
+                ],
+                "takeaway": "Do not judge a board only by durability; judge what it does to the edge."
+              },
+              "question": {
+                "id": "bcb-q01",
+                "prompt": "Which surface should not be recommended for routine cutting with a fine kitchen edge?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Suitable wood"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Purpose-made resilient synthetic board"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Glass board"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Purpose-made plastic board"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Glass is too hard and unyielding for routine contact with a fine kitchen edge."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcb-r01a",
+                  "prompt": "Why can stone or ceramic damage edge performance?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "They are too soft"
+                    },
+                    {
+                      "id": "b",
+                      "text": "They yield very little, concentrating impact at the apex"
+                    },
+                    {
+                      "id": "c",
+                      "text": "They absorb too much water"
+                    },
+                    {
+                      "id": "d",
+                      "text": "They chemically remove the bevel"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The microscopic apex repeatedly contacts an unforgiving surface."
+                },
+                {
+                  "id": "bcb-r01b",
+                  "prompt": "A customer asks for a glass cutting board because it is easy to clean. What should staff explain?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It is ideal for every knife"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It may be easy to clean, but it is too hard for routine cutting with fine edges"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It improves edge retention"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It is required for hard steels"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Hygiene convenience does not make a hard surface edge-friendly."
+                }
+              ]
+            },
+            {
+              "id": "bcb-02-board-tradeoffs",
+              "concept_id": "care.board_material_tradeoffs",
+              "title": "Understand material trade-offs",
+              "critical": false,
+              "source_path": "09-maintenance/cutting-boards.md",
+              "content": {
+                "lead": "No board material wins every category; the useful comparison is edge friendliness, stability, hygiene and maintenance.",
+                "points": [
+                  "Traditional wood is generally yielding to the edge but requires appropriate cleaning and care.",
+                  "Purpose-made plastic and resilient rubber/synthetic boards can also be practical, edge-friendly choices when maintained in good condition.",
+                  "Resin-bonded fibre composites can be thin, stable and durable but are usually harder and less yielding than traditional wood."
+                ],
+                "takeaway": "Recommend the board for the knife and working environment, not by one material slogan."
+              },
+              "question": {
+                "id": "bcb-q02",
+                "prompt": "Which statement about resin-bonded fibre composite boards is accurate?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "They are always softer than wood"
+                  },
+                  {
+                    "id": "b",
+                    "text": "They can be stable and durable but are usually harder and less yielding than traditional wood"
+                  },
+                  {
+                    "id": "c",
+                    "text": "They are the same as rubber boards"
+                  },
+                  {
+                    "id": "d",
+                    "text": "They cannot be water resistant"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Convenience and durability can come with a harder cutting surface."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcb-r02a",
+                  "prompt": "What should be compared when choosing a board?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Only appearance"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Edge friendliness, stability, hygiene and maintenance needs"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only weight"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only whether it is dishwasher-safe"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Board choice is a multi-factor decision."
+                },
+                {
+                  "id": "bcb-r02b",
+                  "prompt": "Can a purpose-made plastic or resilient synthetic board be appropriate for a quality kitchen knife?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Yes, when it is clean, flat, stable and suitable for edge contact"
+                    },
+                    {
+                      "id": "b",
+                      "text": "No, only wood is acceptable"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only for serrated knives"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only for carbon steel"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The knowledge base explicitly recognizes suitable non-wood cutting surfaces."
+                }
+              ]
+            },
+            {
+              "id": "bcb-03-wash-dry",
+              "concept_id": "care.washing_and_drying",
+              "title": "Wash by hand and dry completely",
+              "critical": true,
+              "source_path": "09-maintenance/routine-care.md",
+              "content": {
+                "lead": "Routine care is mostly about avoiding unnecessary moisture, chemicals, heat and impacts.",
+                "points": [
+                  "Wash by hand soon after use with appropriate mild cleaning.",
+                  "Rinse away salt and acids, then dry blade and handle completely.",
+                  "Dishwashers combine aggressive detergent, prolonged moisture, heat and impact risk; repeated cycles can also harm natural handles and some assemblies."
+                ],
+                "takeaway": "Hand wash, rinse, dry — promptly and completely."
+              },
+              "question": {
+                "id": "bcb-q03",
+                "prompt": "Why is a dishwasher a poor routine choice for a quality kitchen knife?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "It makes the knife too sharp"
+                  },
+                  {
+                    "id": "b",
+                    "text": "It combines aggressive detergent, prolonged moisture, heat and collision risk"
+                  },
+                  {
+                    "id": "c",
+                    "text": "It always changes the steel alloy"
+                  },
+                  {
+                    "id": "d",
+                    "text": "It removes the tang"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The dishwasher exposes both blade and handle assembly to several avoidable stresses at once."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcb-r03a",
+                  "prompt": "What should happen after cutting salty or acidic food?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Leave the residue until the end of the day"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Rinse it away and dry the knife completely"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Soak the knife overnight"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Put the knife in the dishwasher"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Removing salt/acids and moisture promptly reduces unnecessary corrosion risk."
+                },
+                {
+                  "id": "bcb-r03b",
+                  "prompt": "Does a normal stainless kitchen knife usually need oil for indoor storage if it is washed and dried properly?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Usually no"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Always yes"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only after every vegetable"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only if double bevel"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The source notes that a properly washed and dried stainless knife usually needs no oil for normal indoor storage."
+                }
+              ]
+            },
+            {
+              "id": "bcb-04-storage",
+              "concept_id": "care.safe_storage",
+              "title": "Store the edge without hidden contact",
+              "critical": true,
+              "source_path": "09-maintenance/routine-care.md",
+              "content": {
+                "lead": "A sharp edge should not rattle against other hard objects between uses.",
+                "points": [
+                  "Use storage that protects the edge and keeps the knife controlled: for example an appropriate block, guard, saya, roll or suitable magnetic solution.",
+                  "Do not leave the edge loose in a drawer where it can strike utensils or hands.",
+                  "Avoid routine edge contact with plates, pan rims, worktops and other hard surfaces."
+                ],
+                "takeaway": "Storage should protect both the user and the apex."
+              },
+              "question": {
+                "id": "bcb-q04",
+                "prompt": "Which storage habit is inappropriate?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Using a fitted guard"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Keeping a knife protected in a suitable block"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Leaving the edge loose among metal utensils in a drawer"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Using a suitable knife roll for transport"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Loose drawer contact can damage the edge and creates a hand-injury hazard."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcb-r04a",
+                  "prompt": "Why should routine contact with plate rims or worktops be avoided?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It can dull or damage the apex"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It changes blade length"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It softens the handle"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It removes carbon from the steel"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Hard incidental contact is unnecessary wear on the fine edge."
+                },
+                {
+                  "id": "bcb-r04b",
+                  "prompt": "What is the goal of knife storage?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Make the knife difficult to reach"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Protect the edge and keep the knife safely controlled"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Keep the blade wet"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Maximize contact with other steel objects"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Good storage protects both edge condition and user safety."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bcb-mini-01",
+            "title": "Care & Cutting Boards check",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bcb-m01",
+                "concept_id": "care.board_surface_hardness",
+                "critical": true,
+                "prompt": "Which surface is too hard for routine use with a fine edge?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Glass"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Suitable wood"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Resilient synthetic"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Purpose-made plastic"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Glass is an unforgiving cutting surface."
+              },
+              {
+                "id": "bcb-m02",
+                "concept_id": "care.board_material_tradeoffs",
+                "critical": false,
+                "prompt": "What is the right way to compare board materials?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Use one universal winner"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Compare edge friendliness, stability, hygiene and maintenance"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Choose only by price"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Choose the hardest surface"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Board materials involve trade-offs."
+              },
+              {
+                "id": "bcb-m03",
+                "concept_id": "care.washing_and_drying",
+                "critical": true,
+                "prompt": "What is the routine cleaning rule?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Hand wash, rinse salt/acids, dry completely"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Soak overnight"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Dishwasher after every use"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Leave wet to air dry"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Prompt hand washing and complete drying reduce avoidable damage."
+              },
+              {
+                "id": "bcb-m04",
+                "concept_id": "care.safe_storage",
+                "critical": true,
+                "prompt": "Which storage condition should be avoided?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Protected edge"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Loose edge among metal utensils"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Suitable block"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Fitted saya"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Loose hard contact damages the edge and creates a safety risk."
+              }
+            ]
+          }
         },
         {
           "id": "base-sharpening-foundations",
