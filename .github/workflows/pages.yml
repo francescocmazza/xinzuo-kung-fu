@@ -14,6 +14,7 @@ on:
       - "scripts/test_chatgpt_translate.py"
       - "scripts/centralize_bibliography.py"
       - "scripts/publication_metadata.py"
+      - "scripts/publication_locales.py"
       - "scripts/export_pdf_guides.py"
       - "scripts/pdf_export/**"
       - "mkdocs.yml"
@@ -46,6 +47,20 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+
+      - name: Resolve publication-ready languages
+        shell: bash
+        run: |
+          set -euo pipefail
+          ready_locales="$(python scripts/publication_locales.py --format space)"
+          if [ -z "$ready_locales" ]; then
+            echo "No publication-ready locales were resolved." >&2
+            exit 1
+          fi
+          echo "READY_LOCALES=$ready_locales" >> "$GITHUB_ENV"
+          echo "Publication-ready locales: $ready_locales"
+          python scripts/publication_locales.py --explain
+
 
       - name: Resolve sequential publication revision
         env:
@@ -81,21 +96,29 @@ jobs:
           else
             revision_slug="Revision-${highest_revision}"
             tag="revision-${highest_revision}"
+            asset_dir="$(mktemp -d)"
             gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > current-revision-assets.txt
-            printf '%s\n' \
-              "SHA256SUMS.txt" \
-              "The-Gongfu-of-Xinzuo-EN-${revision_slug}.pdf" \
-              "The-Gongfu-of-Xinzuo-IT-${revision_slug}.pdf" \
-              "The-Gongfu-of-Xinzuo-ZH-HANS-${revision_slug}.pdf" \
-              "the-gongfu-of-xinzuo-${revision_slug}-html.zip" \
-              "the-gongfu-of-xinzuo-${revision_slug}-markdown.zip" | sort > expected-current-revision-assets.txt
 
-            if diff -q expected-current-revision-assets.txt current-revision-assets.txt >/dev/null 2>&1; then
+            previous_complete=false
+            if gh release download "$tag" --repo "$REPOSITORY" --pattern "SHA256SUMS.txt" --dir "$asset_dir" >/dev/null 2>&1; then
+              awk '{print $2}' "$asset_dir/SHA256SUMS.txt" | sed 's/^\*//' | sort > manifest-assets.txt
+              printf '%s\n' "SHA256SUMS.txt" >> manifest-assets.txt
+              sort -u manifest-assets.txt -o manifest-assets.txt
+              if diff -q manifest-assets.txt current-revision-assets.txt >/dev/null 2>&1 \
+                 && grep -q "^The-Gongfu-of-Xinzuo-EN-${revision_slug}\.pdf$" current-revision-assets.txt \
+                 && grep -q "^the-gongfu-of-xinzuo-${revision_slug}-html\.zip$" current-revision-assets.txt \
+                 && grep -q "^the-gongfu-of-xinzuo-${revision_slug}-markdown\.zip$" current-revision-assets.txt; then
+                previous_complete=true
+              fi
+            fi
+            rm -rf "$asset_dir"
+
+            if [ "$previous_complete" = "true" ]; then
               publication_revision=$((highest_revision + 1))
               echo "Latest complete publication is Revision ${highest_revision}; next is Revision ${publication_revision}."
             else
               publication_revision="$highest_revision"
-              echo "Revision ${highest_revision} is incomplete or has non-canonical assets; reusing Revision ${publication_revision}."
+              echo "Revision ${highest_revision} is incomplete; reusing Revision ${publication_revision}."
             fi
           fi
 
@@ -116,13 +139,23 @@ jobs:
             exit 1
           fi
 
-      - name: Validate committed ChatGPT translations
+      - name: Validate committed ChatGPT translations for ready languages
+        shell: bash
         run: |
+          set -euo pipefail
           python scripts/test_chatgpt_translate.py
-          python scripts/chatgpt_translate.py --check-only
+          non_english=""
+          for locale in $READY_LOCALES; do
+            if [ "$locale" != "en" ]; then
+              non_english="$non_english $locale"
+            fi
+          done
+          if [ -n "${non_english// /}" ]; then
+            python scripts/chatgpt_translate.py --check-only --locales $non_english
+          fi
 
-      - name: Validate and build every configured language
-        run: python scripts/multilingual_site.py --require-translations
+      - name: Build publication-ready languages
+        run: python scripts/multilingual_site.py --require-translations --locales $READY_LOCALES
 
       - name: Install Playwright Chromium and CJK fonts
         run: |
@@ -136,7 +169,7 @@ jobs:
       - name: Export current PDFs
         run: |
           python scripts/export_pdf_guides.py \
-            --locales all \
+            --locales $READY_LOCALES \
             --placeholders hide \
             --output-dir release-assets/pdf
 
@@ -172,7 +205,7 @@ jobs:
           tag="revision-${revision}"
           title="The Gongfu of Xinzuo — ${revision_label} — ${publication_date}"
           source_sha="$(git rev-parse HEAD)"
-          notes="${revision_label}. Automatically published from main on ${publication_date}. Source commit: ${source_sha}. Revision numbers count complete published editions only; commits and failed publication attempts do not consume a revision number."
+          notes="${revision_label}. Automatically published from main on ${publication_date}. Languages: ${READY_LOCALES}. Source commit: ${source_sha}. Revision numbers count complete published editions only; commits and failed publication attempts do not consume a revision number."
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -220,19 +253,14 @@ jobs:
           revision_label="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().revision_label)')"
           revision_slug="$(python -c 'from scripts.publication_metadata import get_metadata; print(get_metadata().revision_slug)')"
           tag="revision-${revision}"
-          asset_count="$(gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets | length')"
-          if [ "$asset_count" -ne 6 ]; then
-            echo "Expected exactly 6 downloadable assets for ${revision_label}, found $asset_count." >&2
+          gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > actual-assets.txt
+          python scripts/publication_locales.py --expected-assets "$revision_slug" | sort > expected-assets.txt
+          expected_count="$(wc -l < expected-assets.txt | tr -d ' ')"
+          asset_count="$(wc -l < actual-assets.txt | tr -d ' ')"
+          if [ "$asset_count" -ne "$expected_count" ]; then
+            echo "Expected $expected_count downloadable assets for ${revision_label}, found $asset_count." >&2
             exit 1
           fi
-          gh release view "$tag" --repo "$REPOSITORY" --json assets --jq '.assets[].name' | sort > actual-assets.txt
-          printf '%s\n' \
-            "SHA256SUMS.txt" \
-            "The-Gongfu-of-Xinzuo-EN-${revision_slug}.pdf" \
-            "The-Gongfu-of-Xinzuo-IT-${revision_slug}.pdf" \
-            "The-Gongfu-of-Xinzuo-ZH-HANS-${revision_slug}.pdf" \
-            "the-gongfu-of-xinzuo-${revision_slug}-html.zip" \
-            "the-gongfu-of-xinzuo-${revision_slug}-markdown.zip" | sort > expected-assets.txt
           diff -u expected-assets.txt actual-assets.txt
 
           latest_tag="$(gh api "repos/${REPOSITORY}/releases/latest" --jq '.tag_name')"
