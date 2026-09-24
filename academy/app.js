@@ -175,8 +175,64 @@
   }
 
   function saveProgress() {
+    progress._updatedAt = new Date().toISOString();
     localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
     updateProgressCard();
+    window.AcademyAccount?.syncProgress?.(progress, course?.course_version || "0.1.0");
+  }
+
+  function mergeProgress(localProgress, remoteProgress) {
+    const local = { ...freshProgress(), ...(localProgress || {}) };
+    const remote = { ...freshProgress(), ...(remoteProgress || {}) };
+    const merged = freshProgress();
+
+    merged.interactions = Math.max(Number(local.interactions || 0), Number(remote.interactions || 0));
+    merged.lessons = { ...(remote.lessons || {}), ...(local.lessons || {}) };
+    for (const key of new Set([...Object.keys(remote.lessons || {}), ...Object.keys(local.lessons || {})])) {
+      merged.lessons[key] = Boolean(remote.lessons?.[key] || local.lessons?.[key]);
+    }
+
+    const stateRank = { unseen: 0, weak: 1, nearly_acquired: 2, acquired: 3 };
+    merged.concepts = {};
+    for (const key of new Set([...Object.keys(remote.concepts || {}), ...Object.keys(local.concepts || {})])) {
+      const a = remote.concepts?.[key] || {};
+      const b = local.concepts?.[key] || {};
+      const winner = (stateRank[b.state] || 0) > (stateRank[a.state] || 0) ? b :
+        (stateRank[b.state] || 0) < (stateRank[a.state] || 0) ? a :
+        Number(b.attempts || 0) >= Number(a.attempts || 0) ? b : a;
+      merged.concepts[key] = {
+        ...winner,
+        attempts: Math.max(Number(a.attempts || 0), Number(b.attempts || 0)),
+        correct: Math.max(Number(a.correct || 0), Number(b.correct || 0)),
+        reviewIndex: Math.max(Number(a.reviewIndex || 0), Number(b.reviewIndex || 0))
+      };
+      if (merged.concepts[key].state === "acquired") merged.concepts[key].due = null;
+    }
+
+    merged.miniTests = {};
+    for (const key of new Set([...Object.keys(remote.miniTests || {}), ...Object.keys(local.miniTests || {})])) {
+      const a = remote.miniTests?.[key];
+      const b = local.miniTests?.[key];
+      if (!a) merged.miniTests[key] = b;
+      else if (!b) merged.miniTests[key] = a;
+      else merged.miniTests[key] = String(b.completedAt || "") >= String(a.completedAt || "") ? b : a;
+    }
+
+    merged.moduleCompleted = {};
+    for (const key of new Set([...Object.keys(remote.moduleCompleted || {}), ...Object.keys(local.moduleCompleted || {})])) {
+      merged.moduleCompleted[key] = Boolean(remote.moduleCompleted?.[key] || local.moduleCompleted?.[key]);
+    }
+
+    merged._updatedAt = [local._updatedAt, remote._updatedAt].filter(Boolean).sort().pop() || new Date().toISOString();
+    return merged;
+  }
+
+  function mergeRemoteProgress(remoteProgress) {
+    progress = mergeProgress(progress, remoteProgress);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    updateProgressCard();
+    if (course && !currentModule) renderHome();
+    window.AcademyAccount?.syncProgress?.(progress, course?.course_version || "0.1.0");
   }
 
   function t(key) {
@@ -194,6 +250,7 @@
     course = await response.json();
     applyStaticCopy();
     renderHome();
+    window.AcademyAccount?.trackEvent?.("course_opened", { metadata: { locale, courseVersion: course.course_version } });
   }
 
   function applyStaticCopy() {
@@ -507,6 +564,12 @@
       applyConceptAnswer(lesson.concept_id, isCorrect, mode);
       if (mode === "learning") progress.lessons[lesson.id] = true;
       saveProgress();
+      window.AcademyAccount?.trackEvent?.("question_answered", {
+        moduleId: sourceModule?.id || currentModule?.id,
+        conceptId: lesson.concept_id,
+        correct: isCorrect,
+        metadata: { questionId: question.id, mode, critical: Boolean(lesson.critical) }
+      });
 
       form.querySelectorAll("input").forEach(input => { input.disabled = true; });
       form.querySelector('button[type="submit"]').remove();
@@ -604,6 +667,17 @@
       };
       progress.moduleCompleted[currentModule.id] = true;
       saveProgress();
+      window.AcademyAccount?.trackEvent?.("mini_test_completed", {
+        moduleId: currentModule.id,
+        score,
+        criticalErrors,
+        metadata: { testId: test.id, correct, total: test.questions.length }
+      });
+      window.AcademyAccount?.trackEvent?.("module_completed", {
+        moduleId: currentModule.id,
+        score,
+        criticalErrors
+      });
       renderMiniTestResult(test, progress.miniTests[test.id]);
     });
   }
@@ -672,6 +746,24 @@
   });
 
   el.backHome.addEventListener("click", renderHome);
+
+  window.XinzuoAcademy = Object.freeze({
+    getProgress: () => JSON.parse(JSON.stringify(progress)),
+    mergeRemoteProgress,
+    getCourseVersion: () => course?.course_version || "0.1.0",
+    getLocale: () => locale
+  });
+
+  window.addEventListener("academy-auth-state", event => {
+    if (event.detail?.user && course) {
+      window.AcademyAccount?.fetchProgress?.()
+        .then(result => {
+          if (result?.progress) mergeRemoteProgress(result.progress);
+          else window.AcademyAccount?.syncProgress?.(progress, course.course_version);
+        })
+        .catch(error => console.warn("Progress restore failed", error));
+    }
+  });
 
   loadCourse(locale).catch(error => {
     el.homeView.innerHTML = `<p role="alert">${escapeHtml(String(error))}</p>`;
