@@ -2670,12 +2670,601 @@
         {
           "id": "base-customer-discovery",
           "title": "Customer Discovery",
-          "status": "planned",
+          "status": "active",
           "source_paths": [
             "05-knife-types/overview.md",
             "05-knife-types/weight-and-balance.md"
           ],
-          "summary": "Start from foods, quantities, movement and ergonomic fit before discussing steel, appearance or price."
+          "summary": "Recommend by function and ergonomic fit first; use steel, construction, appearance and price only to complete the choice.",
+          "lessons": [
+            {
+              "id": "bcd-01-discover-work",
+              "concept_id": "consultation.discover_work",
+              "title": "Discover the customer's real work",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Good product advice begins with the customer's kitchen, not with a product pitch.",
+                "points": [
+                  "Ask what foods they cut most often and in what quantities.",
+                  "Ask whether the work is mainly on a board or in the hand and which movements they use: chopping, push cutting, rocking, long slicing, boning, filleting or fine detail.",
+                  "Ask about recurring frustrations: too much blade, too little knuckle clearance, difficult tip control, excessive weight or lack of reach."
+                ],
+                "takeaway": "The better the work is defined, the smaller and more useful the shortlist becomes."
+              },
+              "question": {
+                "id": "bcd-q01",
+                "prompt": "Which opening question is most useful in a knife consultation?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "What is the highest price you can spend?"
+                  },
+                  {
+                    "id": "b",
+                    "text": "What foods do you cut most often, in what quantities and with which movements?"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Do you prefer Damascus?"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Do you want the hardest steel?"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The customer's work defines the functional requirements before product features are compared."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r01a",
+                  "prompt": "Why ask about quantities as well as food type?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Volume changes how valuable reach, efficiency, weight and repeated-movement comfort may be"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It reveals the customer's income"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It determines steel composition"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It tells you which packaging to use"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The same food prepared occasionally or in large batches can favor different sizes and handling."
+                },
+                {
+                  "id": "bcd-r01b",
+                  "prompt": "A customer says only 'I need a good knife.' What should staff do next?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Show the most expensive model"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ask task and movement questions before narrowing the range"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Choose the highest HRC"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Choose the newest series"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "A vague request should be converted into functional requirements."
+                }
+              ]
+            },
+            {
+              "id": "bcd-02-function",
+              "concept_id": "consultation.function_first",
+              "title": "Choose the functional family first",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Blade shape solves the work problem before steel or decoration enters the conversation.",
+                "points": [
+                  "Broad board work favors enough blade height and useful edge contact; long clean portions favor slicer length.",
+                  "Work around bone favors narrow controllable geometry; fish contour work may require designed flexibility; fine detail benefits from accurate point placement.",
+                  "Do not recommend a specialist shape merely because it looks distinctive."
+                ],
+                "takeaway": "Solve the mechanical task first."
+              },
+              "question": {
+                "id": "bcd-q02",
+                "prompt": "At what stage should staff compare steel grades between models?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Before understanding the task"
+                  },
+                  {
+                    "id": "b",
+                    "text": "After identifying models whose shape and use already suit the customer's work"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only after payment"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Steel should never be discussed"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Steel differentiates suitable knives; it should not rescue an unsuitable blade family."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r02a",
+                  "prompt": "A customer does frequent long carving cuts. Which feature should be solved first?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "A blade family with suitable slicing length and geometry"
+                    },
+                    {
+                      "id": "b",
+                      "text": "The most complex Damascus pattern"
+                    },
+                    {
+                      "id": "c",
+                      "text": "A full tang regardless of shape"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The highest possible hardness"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The functional geometry comes before secondary differentiators."
+                },
+                {
+                  "id": "bcd-r02b",
+                  "prompt": "What is wrong with recommending a specialist knife mainly because it looks impressive?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nothing"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Its geometry may solve a different problem from the customer's actual work"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Specialist knives are always cheaper"
+                    },
+                    {
+                      "id": "d",
+                      "text": "They cannot be sharpened"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "A specialist profile is useful only when its mechanical task matches the user's needs."
+                }
+              ]
+            },
+            {
+              "id": "bcd-03-grip-balance",
+              "concept_id": "consultation.grip_and_balance",
+              "title": "Evaluate balance in the customer's real grip",
+              "critical": false,
+              "source_path": "05-knife-types/weight-and-balance.md",
+              "content": {
+                "lead": "A knife has a physical center of mass, but perceived balance depends on where the hand holds it.",
+                "points": [
+                  "With a handle grip the hand is farther back, so blade-forward balance feels more pronounced.",
+                  "An intermediate/hybrid grip moves control toward the bolster; a pinch grip moves the controlling fingers onto the blade just ahead of it.",
+                  "A knife that feels blade-heavy from the rear can feel nearly neutral in a forward pinch grip."
+                ],
+                "takeaway": "Do not ask only 'Is it balanced?' Ask 'How does it balance in your normal grip?'"
+              },
+              "question": {
+                "id": "bcd-q03",
+                "prompt": "Why can two people disagree about whether the same knife feels blade-heavy?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Balance changes the steel alloy"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Their grip positions can create different leverage relative to the same center of mass"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The knife changes weight between users"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only hand size matters"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Perceived balance depends on where the hand controls the knife."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r03a",
+                  "prompt": "What should staff do before judging a knife's ergonomic balance for a customer?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Hold it only in their own preferred grip"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Let the customer hold it as they normally cook"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Read only the listed weight"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Choose the longest handle"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The relevant balance is the one experienced in the customer's natural grip."
+                },
+                {
+                  "id": "bcd-r03b",
+                  "prompt": "Can a knife feel more neutral when the hand moves forward into a pinch grip?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Yes, because the controlling fingers move closer to blade mass"
+                    },
+                    {
+                      "id": "b",
+                      "text": "No, balance never changes with grip"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only if the knife is single bevel"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only if the handle is wood"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Moving the grip changes the leverage between the hand and the knife's mass distribution."
+                }
+              ]
+            },
+            {
+              "id": "bcd-04-fit",
+              "concept_id": "consultation.ergonomic_fit",
+              "title": "Use the store to test ergonomic fit",
+              "critical": false,
+              "source_path": "05-knife-types/weight-and-balance.md",
+              "content": {
+                "lead": "Specifications can narrow the field; the customer's hand decides among technically suitable options.",
+                "points": [
+                  "Compare handle shape, circumference, contour, bolster transition, total weight and balance.",
+                  "Put several functionally suitable knives in the customer's hand rather than forcing one 'best' model.",
+                  "Small differences in handle contour or mass distribution can change comfort and control significantly."
+                ],
+                "takeaway": "The store's advantage is comparison in the customer's own hand."
+              },
+              "question": {
+                "id": "bcd-q04",
+                "prompt": "What is the best use of a physical store after identifying the right blade family?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Compare ergonomic fit among several suitable knives"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Push one universal best seller"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Avoid letting customers hold knives"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Ignore balance and discuss packaging"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Handling reveals fit differences that specifications and photographs cannot fully predict."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r04a",
+                  "prompt": "Two knives meet the same functional need. What should happen next?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Let the customer compare grip, handle feel, weight and balance"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Automatically choose the more expensive one"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Choose only by steel hardness"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Choose only by appearance"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Ergonomic fit is the next selection criterion once function is solved."
+                },
+                {
+                  "id": "bcd-r04b",
+                  "prompt": "Why can a few millimeters of handle contour matter?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "They can change where fingers settle and how the wrist supports the blade"
+                    },
+                    {
+                      "id": "b",
+                      "text": "They change the alloy chemistry"
+                    },
+                    {
+                      "id": "c",
+                      "text": "They determine the bevel ratio"
+                    },
+                    {
+                      "id": "d",
+                      "text": "They make the blade longer"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Small geometric differences at the hand interface can materially change control and comfort."
+                }
+              ]
+            },
+            {
+              "id": "bcd-05-selection",
+              "concept_id": "consultation.function_fit_selection",
+              "title": "Complete the choice with product differentiators",
+              "critical": false,
+              "source_path": "05-knife-types/weight-and-balance.md",
+              "content": {
+                "lead": "Once function and fit are right, the remaining features can make the final choice meaningful instead of distracting.",
+                "points": [
+                  "Compare steel, heat treatment, construction, handle material, finish, appearance and price among models already suited to the work and user.",
+                  "Explain trade-offs instead of declaring a universal 'best' knife.",
+                  "Remember the method as function, fit, selection."
+                ],
+                "takeaway": "Features complete a good recommendation; they do not replace suitability."
+              },
+              "question": {
+                "id": "bcd-q05",
+                "prompt": "What is the correct order for an in-store recommendation?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Steel → price → shape"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Function → fit → selection"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Appearance → hardness → grip"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Price → Damascus → function"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "First solve the work, then ergonomic fit, then choose among the suitable products."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r05a",
+                  "prompt": "When should appearance and price become decisive?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Before checking suitability"
+                    },
+                    {
+                      "id": "b",
+                      "text": "When choosing among options that already satisfy function and fit"
+                    },
+                    {
+                      "id": "c",
+                      "text": "They should always override ergonomics"
+                    },
+                    {
+                      "id": "d",
+                      "text": "They should never be discussed"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Secondary differentiators are meaningful after unsuitable options have been removed."
+                },
+                {
+                  "id": "bcd-r05b",
+                  "prompt": "What is a better phrase than 'this is the best knife'?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "This model best matches the work and grip you described among the options we compared"
+                    },
+                    {
+                      "id": "b",
+                      "text": "This has the highest number, so it is best"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Everyone buys this one"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Harder steel is always better"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "A sound recommendation is tied to the customer's requirements, not a universal ranking."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bcd-mini-01",
+            "title": "Customer Discovery check",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bcd-m01",
+                "concept_id": "consultation.discover_work",
+                "critical": false,
+                "prompt": "What should the first discovery questions establish?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Foods, quantities and movements"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Only budget"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only aesthetics"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only HRC"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "The customer's work is the starting point."
+              },
+              {
+                "id": "bcd-m02",
+                "concept_id": "consultation.function_first",
+                "critical": false,
+                "prompt": "What comes before comparing steel grades?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Identifying suitable blade families"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Choosing packaging"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Selecting the most expensive model"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Nothing"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Geometry must solve the task first."
+              },
+              {
+                "id": "bcd-m03",
+                "concept_id": "consultation.grip_and_balance",
+                "critical": false,
+                "prompt": "What determines perceived balance in addition to mass distribution?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Grip position"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Box color"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Logo size"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Country name"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Grip position changes leverage."
+              },
+              {
+                "id": "bcd-m04",
+                "concept_id": "consultation.ergonomic_fit",
+                "critical": false,
+                "prompt": "What should the customer compare in store?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Several functionally suitable knives in their natural grip"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Only one best seller"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only price tags"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only blade patterns"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Direct handling reveals ergonomic fit."
+              },
+              {
+                "id": "bcd-m05",
+                "concept_id": "consultation.function_fit_selection",
+                "critical": false,
+                "prompt": "Which sequence summarizes the Xinzuo consultation method?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Function → fit → selection"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Price → steel → function"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Pattern → hardness → fit"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Brand → price → size"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "This is the method defined in the knowledge base."
+              }
+            ]
+          }
         }
       ]
     },
