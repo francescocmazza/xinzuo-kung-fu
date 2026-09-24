@@ -100,6 +100,20 @@ locales:
     direction: ltr
     deploy: false
     mkdocs_language: nl
+    translation_guidance: >-
+      Write polished, natural Dutch editorial prose for readers interested in
+      professional cooking, kitchen knives, sharpening and metallurgy. Prefer
+      established Dutch technical terminology and avoid literal English syntax.
+    pdf_cover:
+      title: The Gongfu of Xinzuo
+      subtitle: Een praktische gids voor keukenmessen
+      strapline: Materialen, vormen en technieken voor meesterlijk snijden
+    pdf_edition:
+      heading: Editie en bijdragen
+      availability: Dit boek is gratis beschikbaar op GitHub. Opmerkingen, correcties en voorstellen voor verbetering zijn welkom.
+      contact: Als GitHub niet vertrouwd is, kunt u ook rechtstreeks naar de auteur schrijven.
+      version: Editie
+      published: Gepubliceerd / geëxporteerd
   ar:
     name: العربية
     publish_when_complete: false
