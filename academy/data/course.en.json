@@ -1,0 +1,3390 @@
+{
+  "schema_version": "1.0",
+  "course_version": "0.1.0",
+  "locale": "en",
+  "title": "Xinzuo Academy",
+  "subtitle": "Interactive staff training from The Gongfu of Xinzuo",
+  "certification": {
+    "minimum_score": 0.8,
+    "maximum_critical_errors": 0,
+    "remediation_required_before_retry": true
+  },
+  "mastery_states": [
+    "unseen",
+    "weak",
+    "nearly_acquired",
+    "acquired"
+  ],
+  "levels": [
+    {
+      "id": "base",
+      "title": "Base",
+      "purpose": "Safe, accurate product knowledge and correct everyday knife use.",
+      "modules": [
+        {
+          "id": "base-safety-control",
+          "title": "Safety & Control",
+          "status": "active",
+          "source_paths": [
+            "08-use-and-safety/safe-use-and-carrying.md"
+          ],
+          "summary": "Build predictable habits before speed: stable workstation, stable food, correct tool, controlled force and safe handling.",
+          "lessons": [
+            {
+              "id": "bsc-01-workstation",
+              "concept_id": "safety.workstation",
+              "title": "Make the workstation predictable",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Many knife accidents begin before the blade touches food.",
+                "points": [
+                  "Stabilize the board before cutting.",
+                  "Keep the cutting path clear and the work area dry and well lit.",
+                  "Dry hands and handle, stabilize the food, choose the correct knife, then identify the blade path."
+                ],
+                "takeaway": "Stable board. Stable food. Clear path. Hidden fingertips."
+              },
+              "question": {
+                "id": "bsc-q01",
+                "prompt": "What should happen before the first cut?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Start slowly and stabilize the board only if it moves."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Stabilize the board and food, clear the blade path, then choose and position the knife."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Hold the food firmly and use extra downward pressure."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Wet the board so the knife cannot bounce."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Safety starts before cutting. The board, ingredient and cutting path must already be controlled."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r01a",
+                  "prompt": "The board moves slightly when you begin slicing. What is the correct response?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Grip the knife more tightly."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Stop and stabilize the board before continuing."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Use shorter, faster strokes."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Move the food closer to the board edge."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "A moving board makes every later movement less predictable. Correct the workstation first."
+                },
+                {
+                  "id": "bsc-r01b",
+                  "prompt": "Which check best matches the Academy safety rule?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sharp knife, fast cut, strong grip, clean board."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Stable board, stable food, clear path, hidden fingertips."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Heavy knife, dry food, straight edge, wide stance."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Large board, soft steel, slow cut, open fingertips."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The four-part rule is a compact pre-cut check, not a performance technique."
+                }
+              ]
+            },
+            {
+              "id": "bsc-02-food",
+              "concept_id": "safety.food_stability",
+              "title": "Stabilize the ingredient",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Round and irregular ingredients can move under the blade.",
+                "points": [
+                  "Create a flat surface on round produce before the main cuts.",
+                  "Divide large or irregular food into manageable sections.",
+                  "Do not force a fine kitchen knife into unsuitable frozen food."
+                ],
+                "takeaway": "If the ingredient can roll, the cut is not ready to begin."
+              },
+              "question": {
+                "id": "bsc-q02",
+                "prompt": "What is the safest first action with a round potato that rolls on the board?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Hold it harder with the fingertips."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Use a heavier knife."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Create a flat face and place that face on the board."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Start with the tip and increase speed."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "A flat face turns an unstable ingredient into a predictable one before the main cutting starts."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r02a",
+                  "prompt": "A large irregular vegetable cannot be held securely. What should you do?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Use more force so the knife finishes in one stroke."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Divide it into manageable, stable sections before continuing."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Change to a flexible knife."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Support it with fingers directly in the cutting line."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The geometry of the task should be made stable before adding force."
+                },
+                {
+                  "id": "bsc-r02b",
+                  "prompt": "Why is a flat base useful on an onion, melon or potato?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It makes the steel harder."
+                    },
+                    {
+                      "id": "b",
+                      "text": "It reduces food adhesion."
+                    },
+                    {
+                      "id": "c",
+                      "text": "It reduces rolling and makes the cutting path more predictable."
+                    },
+                    {
+                      "id": "d",
+                      "text": "It allows sideways scraping."
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "The goal is mechanical stability, not cutting speed."
+                }
+              ]
+            },
+            {
+              "id": "bsc-03-tool",
+              "concept_id": "safety.tool_fit_and_lateral_stress",
+              "title": "Use the right knife and avoid lateral stress",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "A knife can be strong in the intended cutting direction and vulnerable to twisting or levering.",
+                "points": [
+                  "Do not use kitchen knives as pry bars, screwdrivers, can openers or levers.",
+                  "Do not twist a blade free when it binds in dense food.",
+                  "Do not scrape the board sideways with the cutting edge; use the spine, blade face or a bench scraper."
+                ],
+                "takeaway": "Choose geometry for the task and keep load aligned with the cut."
+              },
+              "question": {
+                "id": "bsc-q03",
+                "prompt": "A thin hard blade becomes stuck in dense food. What is the correct action?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Twist the handle gently until the food opens."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Strike the spine with the free hand."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Withdraw it carefully and adjust the cut."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Push sideways with the blade face."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Twisting creates lateral stress. Withdraw and change the cut instead of levering the blade."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r03a",
+                  "prompt": "Which use is inappropriate for a fine kitchen knife?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Slicing boneless meat."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Cutting vegetables on a suitable board."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Prying apart two frozen objects."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Drawing through herbs with controlled technique."
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "A kitchen knife is a cutting tool, not a lever."
+                },
+                {
+                  "id": "bsc-r03b",
+                  "prompt": "Why should the cutting edge not be used to scrape food sideways across the board?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It can expose the edge to damaging lateral load."
+                    },
+                    {
+                      "id": "b",
+                      "text": "It makes the knife too warm."
+                    },
+                    {
+                      "id": "c",
+                      "text": "It removes the Damascus pattern."
+                    },
+                    {
+                      "id": "d",
+                      "text": "It changes the handle balance permanently."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Sideways scraping loads the fine apex in a direction it is not designed to take."
+                }
+              ]
+            },
+            {
+              "id": "bsc-04-hands-force",
+              "concept_id": "safety.hands_and_force",
+              "title": "Set the supporting hand and use only necessary force",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Control comes from hand position and deliberate movement, not from squeezing harder.",
+                "points": [
+                  "Set the supporting hand before moving the knife.",
+                  "Keep fingertips outside the cutting path; the claw grip is a moving guide, not a speed trick.",
+                  "If a well-sharpened knife needs excessive force, stop and identify the cause."
+                ],
+                "takeaway": "Set the hand first, then move the knife."
+              },
+              "question": {
+                "id": "bsc-q04",
+                "prompt": "A sharp knife suddenly seems to require excessive force. What should you do?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Increase downward pressure to finish the cut."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Stop and check the edge, food stability, knife choice and movement."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Move the supporting hand closer to the edge."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Use a faster rocking motion regardless of knife profile."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Unexpected resistance is information. Diagnose the cause rather than compensating with force."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r04a",
+                  "prompt": "When should the supporting hand be positioned?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "After the first cut shows where the blade will travel."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Before the knife starts moving."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only for very small ingredients."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only when using a pinch grip."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The supporting hand defines a safe path before the blade moves."
+                },
+                {
+                  "id": "bsc-r04b",
+                  "prompt": "What does excessive force most often tell you?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The cut should be made faster."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Something about edge condition, stability, knife choice or technique should be checked."
+                    },
+                    {
+                      "id": "c",
+                      "text": "The handle material is wrong."
+                    },
+                    {
+                      "id": "d",
+                      "text": "The knife needs a thicker Damascus pattern."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Force is not the default solution to a cut that is behaving incorrectly."
+                }
+              ]
+            },
+            {
+              "id": "bsc-05-handling",
+              "concept_id": "safety.washing_transfer_carrying",
+              "title": "Control the knife when cutting stops",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Safe habits continue during washing, passing and carrying.",
+                "points": [
+                  "Never leave a knife hidden under soapy water or mixed with objects in a sink.",
+                  "Pass a knife deliberately with the handle oriented to the receiver and the edge clear of fingers.",
+                  "For short movement, keep the knife low, close to the body, still and with the tip toward the floor."
+                ],
+                "takeaway": "A knife must remain visible, controlled and predictable even when it is not cutting."
+              },
+              "question": {
+                "id": "bsc-q05",
+                "prompt": "Which situation is explicitly unsafe?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Washing one knife at a time while keeping the edge visible."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Carrying a knife low and still for a short distance."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Leaving a sharp knife hidden under soapy water in the sink."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Presenting the handle toward the person receiving the knife."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "A hidden blade can injure someone who reaches into the sink without seeing it."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r05a",
+                  "prompt": "How should a knife be carried a short distance in the kitchen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Upright at chest height so others can see it."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Low, close to the body, still, with the tip toward the floor."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Flat on the open palm while walking."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Inside a towel held in the free hand."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Low and still movement makes the knife path easier for others to predict."
+                },
+                {
+                  "id": "bsc-r05b",
+                  "prompt": "What is the key principle when washing a knife?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Keep the blade visible and its edge path controlled."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Soak it first so food releases by itself."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Wrap the sponge around the edge."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Place it with the other utensils before drying."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Visibility and control matter more than speed during cleaning."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bsc-mini-01",
+            "title": "Safety & Control check",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bsc-m01",
+                "concept_id": "safety.workstation",
+                "critical": true,
+                "prompt": "Which sequence is the best preparation before cutting?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Choose knife → cut a test slice → stabilize food if needed."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Stabilize board → clear area → dry hands/handle → stabilize food → choose knife → identify blade path."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Stabilize food → sharpen knife → increase force → clear scraps later."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Choose the heaviest knife → wet board → hold food tightly."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The complete sequence removes instability before the blade moves."
+              },
+              {
+                "id": "bsc-m02",
+                "concept_id": "safety.food_stability",
+                "critical": true,
+                "prompt": "A round ingredient rolls easily. What makes the task safer?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "A flat supporting face."
+                  },
+                  {
+                    "id": "b",
+                    "text": "A faster first cut."
+                  },
+                  {
+                    "id": "c",
+                    "text": "A narrower board."
+                  },
+                  {
+                    "id": "d",
+                    "text": "More fingertip pressure."
+                  }
+                ],
+                "correct": "a",
+                "explanation": "A flat face mechanically stabilizes the ingredient."
+              },
+              {
+                "id": "bsc-m03",
+                "concept_id": "safety.tool_fit_and_lateral_stress",
+                "critical": true,
+                "prompt": "What should you do when a blade binds?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Twist gently."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Lever sideways."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Withdraw and adjust the cut."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Strike the handle."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Avoid lateral stress; change the cut instead."
+              },
+              {
+                "id": "bsc-m04",
+                "concept_id": "safety.hands_and_force",
+                "critical": true,
+                "prompt": "What is the correct relationship between the supporting hand and knife movement?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Move together from the start."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Set the supporting hand first, then move the knife."
+                  },
+                  {
+                    "id": "c",
+                    "text": "The supporting hand follows the knife."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Hand position matters only at professional speed."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Hand placement establishes the safe path before movement."
+              },
+              {
+                "id": "bsc-m05",
+                "concept_id": "safety.washing_transfer_carrying",
+                "critical": true,
+                "prompt": "Which rule remains valid after cutting is finished?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Keep the knife visible and controlled during washing, passing and carrying."
+                  },
+                  {
+                    "id": "b",
+                    "text": "A knife is safe once it is no longer moving."
+                  },
+                  {
+                    "id": "c",
+                    "text": "The sink is the safest temporary storage place."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Carry the knife high so the blade can be seen."
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Non-cutting handling still requires predictable control."
+              }
+            ]
+          }
+        },
+        {
+          "id": "base-anatomy-bevels",
+          "title": "Anatomy & Bevels",
+          "status": "active",
+          "source_paths": [
+            "00-knife-basics/anatomy-of-a-kitchen-knife.md",
+            "04-geometry-and-bevels/single-and-double-bevels.md"
+          ],
+          "summary": "Name the parts of a knife, distinguish construction from quality claims, and understand what bevel geometry changes.",
+          "lessons": [
+            {
+              "id": "bab-01-blade-anatomy",
+              "concept_id": "anatomy.blade_parts",
+              "title": "Read the blade from tip to heel",
+              "critical": false,
+              "source_path": "00-knife-basics/anatomy-of-a-kitchen-knife.md",
+              "content": {
+                "lead": "Accurate product explanation starts with accurate names.",
+                "points": [
+                  "The tip is the front; the spine is the upper normally unsharpened side; the blade face is the broad side.",
+                  "The cutting edge is the sharpened boundary; the heel is the rear of that cutting edge.",
+                  "The bevel is the geometry that narrows the blade toward the apex. Surface finish and geometry are different things."
+                ],
+                "takeaway": "Name the feature you are discussing before describing what it does."
+              },
+              "question": {
+                "id": "bab-q01",
+                "prompt": "Which statement correctly distinguishes the cutting edge from the bevel?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The bevel is the sharpened line; the cutting edge is the broad blade face."
+                  },
+                  {
+                    "id": "b",
+                    "text": "The cutting edge is the sharpened line; the bevel is the geometry narrowing toward the apex."
+                  },
+                  {
+                    "id": "c",
+                    "text": "They are two names for the same surface finish."
+                  },
+                  {
+                    "id": "d",
+                    "text": "The bevel is the spine and the cutting edge is the heel."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The edge is the sharpened boundary; the bevel is the sloping geometry leading to it."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bab-r01a",
+                  "prompt": "What is the heel of a kitchen knife?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The rear of the cutting edge nearest the handle."
+                    },
+                    {
+                      "id": "b",
+                      "text": "The rear end of the handle."
+                    },
+                    {
+                      "id": "c",
+                      "text": "The upper unsharpened side."
+                    },
+                    {
+                      "id": "d",
+                      "text": "The broad side of the blade."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The heel is the rear portion of the cutting edge, close to the handle."
+                },
+                {
+                  "id": "bab-r01b",
+                  "prompt": "Two blades have the same polished appearance. What can you safely conclude?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Their cross-section and thickness must be the same."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Their surface finish looks similar, but their geometry may still differ."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Their edge angle must be identical."
+                    },
+                    {
+                      "id": "d",
+                      "text": "They must use the same steel."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Finish is appearance/texture on the blade face; it does not prove the underlying geometry."
+                }
+              ]
+            },
+            {
+              "id": "bab-02-tang-bolster",
+              "concept_id": "anatomy.tang_and_bolster",
+              "title": "Construction is not a simple quality hierarchy",
+              "critical": false,
+              "source_path": "00-knife-basics/anatomy-of-a-kitchen-knife.md",
+              "content": {
+                "lead": "Full tang, hidden tang, through tang and partial tang describe construction, not an automatic ranking.",
+                "points": [
+                  "A full tang follows almost the full handle outline and is commonly covered by scales.",
+                  "A hidden tang is enclosed by the handle; a through tang reaches the butt and is not another name for full tang.",
+                  "A bolster is a reinforced blade-to-handle transition on many Western knives. Its presence, absence or welding method alone does not determine knife quality."
+                ],
+                "takeaway": "Explain how the knife is built without turning one construction feature into a universal quality score."
+              },
+              "question": {
+                "id": "bab-q02",
+                "prompt": "Which statement about tang construction is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "A through tang is simply another name for a full tang."
+                  },
+                  {
+                    "id": "b",
+                    "text": "A hidden tang is always lower quality than a full tang."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Tang type describes construction; durability also depends on dimensions, materials, fit and intended loads."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only forged knives can have a full tang."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "The knowledge base explicitly rejects treating tang styles as a simple quality hierarchy."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bab-r02a",
+                  "prompt": "What makes a through tang different from a full tang?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "A through tang is narrower and enclosed, but extends to and is secured at the butt."
+                    },
+                    {
+                      "id": "b",
+                      "text": "A through tang has no steel inside the handle."
+                    },
+                    {
+                      "id": "c",
+                      "text": "A full tang always stops before the butt."
+                    },
+                    {
+                      "id": "d",
+                      "text": "There is no difference."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "A through tang is a hidden-tang construction that extends to the butt; it is not a full-outline tang."
+                },
+                {
+                  "id": "bab-r02b",
+                  "prompt": "A welded bolster is visible in a production knife. What does that fact alone prove?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The knife is low quality."
+                    },
+                    {
+                      "id": "b",
+                      "text": "The blade steel is cheap."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nothing about overall quality without considering fit, joint quality, heat control and finishing."
+                    },
+                    {
+                      "id": "d",
+                      "text": "The knife was not heat treated."
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "A correctly executed separate bolster can be a rational manufacturing and structural choice."
+                }
+              ]
+            },
+            {
+              "id": "bab-03-double-bevel",
+              "concept_id": "geometry.double_bevel",
+              "title": "Understand double-bevel geometry",
+              "critical": false,
+              "source_path": "04-geometry-and-bevels/single-and-double-bevels.md",
+              "content": {
+                "lead": "Most general-purpose kitchen knives sharpen from both sides, but 'double bevel' does not always mean perfectly symmetrical.",
+                "points": [
+                  "A symmetrical double bevel places comparable geometry on both sides.",
+                  "An asymmetrical double bevel moves the edge closer to one side and can affect food release, precision and slight steering.",
+                  "The exact grind matters more than assumptions based on the knife's name."
+                ],
+                "takeaway": "Double bevel tells you there are two sharpened sides; it does not by itself tell you the exact symmetry."
+              },
+              "question": {
+                "id": "bab-q03",
+                "prompt": "What can an asymmetrical double bevel change?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Only the decorative finish."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Food separation and the tendency to steer slightly."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Whether the handle is full tang."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Whether the steel is stainless."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Moving the edge toward one side changes how the geometry interacts with food and can introduce slight steering."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bab-r03a",
+                  "prompt": "Does 'double bevel' guarantee a 50/50 symmetrical grind?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Yes, always."
+                    },
+                    {
+                      "id": "b",
+                      "text": "No. Double bevel means both sides are sharpened; the proportions can be asymmetrical."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only on forged knives."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only on Japanese profiles."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Symmetry is a separate property from the presence of two bevels."
+                },
+                {
+                  "id": "bab-r03b",
+                  "prompt": "What should staff check before making a claim about the exact grind?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The silhouette alone."
+                    },
+                    {
+                      "id": "b",
+                      "text": "The model's actual construction/specification."
+                    },
+                    {
+                      "id": "c",
+                      "text": "The handle material."
+                    },
+                    {
+                      "id": "d",
+                      "text": "The Damascus pattern."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Profile names and appearances can be shared by knives with different grinds."
+                }
+              ]
+            },
+            {
+              "id": "bab-04-single-bevel",
+              "concept_id": "geometry.single_bevel_and_handedness",
+              "title": "Single bevel requires model-specific care",
+              "critical": true,
+              "source_path": "04-geometry-and-bevels/single-and-double-bevels.md",
+              "content": {
+                "lead": "Traditional single-bevel geometry can be handed and behaves differently from ordinary double-bevel sharpening.",
+                "points": [
+                  "Single-bevel knives concentrate the main bevel on one side and require a different sharpening approach.",
+                  "Handedness and steering can matter, so the exact model must be checked before advising a customer.",
+                  "A traditional profile name does not prove the grind: modern makers also produce double-bevel versions of traditionally single-bevel forms."
+                ],
+                "takeaway": "Never infer handedness or sharpening instructions from the silhouette alone."
+              },
+              "question": {
+                "id": "bab-q04",
+                "prompt": "A knife has a profile traditionally associated with single-bevel construction. What should staff do?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Assume it is right-handed."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Assume it is single bevel and give traditional sharpening instructions."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Check the exact model's grind and handedness before describing or sharpening it."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Treat all versions as 50/50 double bevel."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "The same profile name can exist in different grinds; model-specific verification is essential."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bab-r04a",
+                  "prompt": "Why can single-bevel handedness matter to a customer?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It can affect steering, use and sharpening."
+                    },
+                    {
+                      "id": "b",
+                      "text": "It changes the steel composition."
+                    },
+                    {
+                      "id": "c",
+                      "text": "It determines whether the knife can cut vegetables."
+                    },
+                    {
+                      "id": "d",
+                      "text": "It determines the handle material."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The asymmetric working geometry can interact differently with the cut depending on orientation."
+                },
+                {
+                  "id": "bab-r04b",
+                  "prompt": "What is unsafe product advice?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Checking the exact specification before explaining the grind."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Explaining that a profile name alone does not prove handedness."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Giving single-bevel sharpening instructions solely because the knife looks like a traditional single-bevel form."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Comparing verified model geometry."
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Sharpening advice must follow the actual grind, not a visual assumption."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bab-mini-01",
+            "title": "Anatomy & Bevels check",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bab-m01",
+                "concept_id": "anatomy.blade_parts",
+                "critical": false,
+                "prompt": "Which part is the rear of the cutting edge nearest the handle?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Heel"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Spine"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Tip"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Pommel"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "The heel is the rear of the cutting edge."
+              },
+              {
+                "id": "bab-m02",
+                "concept_id": "anatomy.tang_and_bolster",
+                "critical": false,
+                "prompt": "Which statement is most accurate?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Full tang is always superior."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Construction type must be evaluated with dimensions, materials, fit and intended use."
+                  },
+                  {
+                    "id": "c",
+                    "text": "A welded bolster proves low quality."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Hidden tang and through tang are identical terms."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Construction features are not universal quality rankings."
+              },
+              {
+                "id": "bab-m03",
+                "concept_id": "geometry.double_bevel",
+                "critical": false,
+                "prompt": "Can a double-bevel knife be asymmetrical?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Yes"
+                  },
+                  {
+                    "id": "b",
+                    "text": "No"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only if serrated"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only if forged"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Two bevels do not require a perfectly symmetrical ratio."
+              },
+              {
+                "id": "bab-m04",
+                "concept_id": "geometry.single_bevel_and_handedness",
+                "critical": true,
+                "prompt": "What is the correct rule before describing handedness?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Infer it from the silhouette."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Infer it from the country of origin."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Check the exact model's grind and specification."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Assume every traditional profile is right-handed."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Exact model verification is required."
+              }
+            ]
+          }
+        },
+        {
+          "id": "base-shapes-use",
+          "title": "Knife Shapes & Intended Use",
+          "status": "active",
+          "source_paths": [
+            "05-knife-types/overview.md"
+          ],
+          "summary": "Match blade families to the work they are designed to do instead of recommending by appearance alone.",
+          "lessons": [
+            {
+              "id": "bsu-01-work-first",
+              "concept_id": "shapes.work_before_name",
+              "title": "Start from the work, not the silhouette",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "The most useful sales question is not 'Which shape do you like?' but 'What do you actually cut?'",
+                "points": [
+                  "Ask what foods the customer cuts most often and in what quantities.",
+                  "Ask whether the work is mainly on a board or in the hand, and whether it needs chopping, long slicing, work around bone, fish preparation or fine detail.",
+                  "Use those answers to identify the blade family before comparing materials or appearance."
+                ],
+                "takeaway": "Task first; knife family second."
+              },
+              "question": {
+                "id": "bsu-q01",
+                "prompt": "What should staff identify first when recommending a knife?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Preferred Damascus pattern"
+                  },
+                  {
+                    "id": "b",
+                    "text": "The customer's actual cutting work"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Highest hardness available"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Most expensive series"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The source explicitly tells sales staff to start from the customer's work, not the silhouette they like."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsu-r01a",
+                  "prompt": "A customer says 'I want a bunka because I like the shape.' What is the best next question?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Which handle color?"
+                    },
+                    {
+                      "id": "b",
+                      "text": "What foods and cutting movements will you use it for most often?"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Do you want the hardest steel?"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Would you like a larger box?"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The intended work determines whether that shape is actually suitable."
+                },
+                {
+                  "id": "bsu-r01b",
+                  "prompt": "Which information is most useful before selecting a blade family?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Foods, quantities and cutting movements"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Logo placement"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Packaging size"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Blade pattern only"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Those factors define the functional problem the knife must solve."
+                }
+              ]
+            },
+            {
+              "id": "bsu-02-generalists",
+              "concept_id": "shapes.general_purpose",
+              "title": "Recognize general-purpose families",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Chef's knife, gyuto, santoku and Chinese cleaver can all be general-purpose tools, but they emphasize different movement and geometry.",
+                "points": [
+                  "Chef's knives and gyuto give useful length and versatility for broad kitchen work.",
+                  "Santoku offers a compact all-round format with enough height for board work.",
+                  "A Chinese cleaver can provide broad contact and food-transfer area, but its thin general-purpose versions are not automatically bone cleavers."
+                ],
+                "takeaway": "General-purpose does not mean identical behavior."
+              },
+              "question": {
+                "id": "bsu-q02",
+                "prompt": "Which statement about a Chinese cleaver is safest?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Every Chinese cleaver is designed for heavy bone"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Thin general-purpose Chinese cleavers can be excellent board tools but should not be assumed to be bone cleavers"
+                  },
+                  {
+                    "id": "c",
+                    "text": "It is only for vegetables"
+                  },
+                  {
+                    "id": "d",
+                    "text": "It must be single bevel"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Blade family names do not override the exact geometry and intended use."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsu-r02a",
+                  "prompt": "Why might a santoku appeal to someone who wants an all-round knife in a smaller format?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It combines compact length with useful blade height for board work"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It is always heavier than a chef's knife"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It is always single bevel"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It is designed for bones"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Its compact general-purpose format is part of the reason the shape is widely useful."
+                },
+                {
+                  "id": "bsu-r02b",
+                  "prompt": "What should decide between two suitable general-purpose shapes?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Only which one looks more traditional"
+                    },
+                    {
+                      "id": "b",
+                      "text": "The customer's movements, preferred length and ergonomic fit"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only the higher HRC"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only the larger blade"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Once function is satisfied, movement and fit distinguish suitable options."
+                }
+              ]
+            },
+            {
+              "id": "bsu-03-specialists",
+              "concept_id": "shapes.specialist_geometry",
+              "title": "Use specialist geometry for specialist work",
+              "critical": true,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Boning, filleting, carving and fish butchery ask for very different mechanical behavior.",
+                "points": [
+                  "A boning knife stays narrow so it can change angle around joints and bone.",
+                  "A fillet knife may be flexible to follow fish contours; hard thin models should not be forced into deep bends or twisted.",
+                  "A deba is a fish-butchery specialist: its strong heel can handle appropriate fish joints and small bones, but it is not a universal cleaver."
+                ],
+                "takeaway": "Specialist shape describes a mechanical job, not a license for extra force."
+              },
+              "question": {
+                "id": "bsu-q03",
+                "prompt": "Which use is appropriate for a deba?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Universal mammal-bone cleaving"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Controlled fish-butchery work using different parts of the blade appropriately"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Prying frozen food apart"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Flexible filleting around a rib cage"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The deba is specialized for fish butchery and must not be treated as a universal impact tool."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsu-r03a",
+                  "prompt": "Why is a Western boning knife narrow?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "To change angle easily while following joints and bone"
+                    },
+                    {
+                      "id": "b",
+                      "text": "To add chopping mass"
+                    },
+                    {
+                      "id": "c",
+                      "text": "To increase knuckle clearance"
+                    },
+                    {
+                      "id": "d",
+                      "text": "To act as a cleaver"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Low blade height helps the knife navigate a three-dimensional path around bone."
+                },
+                {
+                  "id": "bsu-r03b",
+                  "prompt": "What is wrong with testing how far a hard fillet knife can bend?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nothing; maximum flex is the point"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Excess lateral stress can chip, crack or fracture a hard thin blade"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It removes the finish"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It makes the handle heavier"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Use only the flex the model is designed to provide."
+                }
+              ]
+            },
+            {
+              "id": "bsu-04-slicing",
+              "concept_id": "shapes.long_slicing",
+              "title": "Understand long slicing tools",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Long narrow slicers are built to reduce repeated sawing and produce cleaner portions.",
+                "points": [
+                  "Carving and ham knives use length to create long drawing cuts through boneless cooked meat.",
+                  "Traditional sashimi slicers use a long controlled pull cut through raw fish and can be single bevel and handed.",
+                  "Length only helps if the user actually uses a long stroke rather than short repeated sawing."
+                ],
+                "takeaway": "A slicer's advantage comes from using its length in the intended stroke."
+              },
+              "question": {
+                "id": "bsu-q04",
+                "prompt": "What is the main reason for the length of a dedicated slicer?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "To make the knife heavier for chopping"
+                  },
+                  {
+                    "id": "b",
+                    "text": "To complete broad portions with fewer, cleaner drawing strokes"
+                  },
+                  {
+                    "id": "c",
+                    "text": "To pry joints apart"
+                  },
+                  {
+                    "id": "d",
+                    "text": "To make the knife suitable for frozen food"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Long slicing geometry reduces the need for repeated back-and-forth cuts."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsu-r04a",
+                  "prompt": "How should a traditional sashimi slicer normally be used?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "With a long controlled pull stroke"
+                    },
+                    {
+                      "id": "b",
+                      "text": "As a rocking chopper"
+                    },
+                    {
+                      "id": "c",
+                      "text": "With sideways scraping"
+                    },
+                    {
+                      "id": "d",
+                      "text": "As a flexible fillet knife"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The geometry is optimized for clean draw slicing, not chopping or flexing."
+                },
+                {
+                  "id": "bsu-r04b",
+                  "prompt": "When does a long slicing blade provide little benefit?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "When the user reduces every cut to short sawing strokes"
+                    },
+                    {
+                      "id": "b",
+                      "text": "When cutting boneless cooked meat"
+                    },
+                    {
+                      "id": "c",
+                      "text": "When making broad thin slices"
+                    },
+                    {
+                      "id": "d",
+                      "text": "When the food is stabilized"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The user has to exploit the available edge length."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bsu-mini-01",
+            "title": "Knife Shapes & Intended Use check",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bsu-m01",
+                "concept_id": "shapes.work_before_name",
+                "critical": false,
+                "prompt": "What comes first in a sound recommendation?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Customer's work"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Pattern"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Price ceiling only"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Hardness only"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Function is identified first."
+              },
+              {
+                "id": "bsu-m02",
+                "concept_id": "shapes.general_purpose",
+                "critical": false,
+                "prompt": "Can a thin Chinese cleaver be assumed to be a bone cleaver?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Yes"
+                  },
+                  {
+                    "id": "b",
+                    "text": "No"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only if stainless"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only if long"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Exact geometry and intended use must be checked."
+              },
+              {
+                "id": "bsu-m03",
+                "concept_id": "shapes.specialist_geometry",
+                "critical": true,
+                "prompt": "A fillet knife feels forced while bending around a contour. What should the user do?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Bend harder"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Change the cutting angle instead of forcing more flex"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Twist the blade"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Strike the spine"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Do not exceed the flex the model is designed to provide."
+              },
+              {
+                "id": "bsu-m04",
+                "concept_id": "shapes.long_slicing",
+                "critical": false,
+                "prompt": "What makes a long slicer effective?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Using a long drawing stroke"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Heavy vertical impact"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Sideways leverage"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Rapid rocking"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "The blade length is useful when the stroke uses it."
+              }
+            ]
+          }
+        },
+        {
+          "id": "base-care-boards",
+          "title": "Care & Cutting Boards",
+          "status": "active",
+          "source_paths": [
+            "09-maintenance/cutting-boards.md",
+            "09-maintenance/routine-care.md"
+          ],
+          "summary": "Protect the edge and materials through suitable cutting surfaces, cleaning, drying and storage.",
+          "lessons": [
+            {
+              "id": "bcb-01-board-hardness",
+              "concept_id": "care.board_surface_hardness",
+              "title": "Choose a yielding cutting surface",
+              "critical": true,
+              "source_path": "09-maintenance/cutting-boards.md",
+              "content": {
+                "lead": "The board is part of the cutting system because every cut ends with edge contact.",
+                "points": [
+                  "Wood and purpose-made plastic or resilient synthetic boards can provide suitable cutting surfaces when clean, flat and stable.",
+                  "Glass, ceramic, stone and metal yield very little and are too hard for routine work with fine edges.",
+                  "A very hard surface can accelerate dulling and can be especially unforgiving to thin, hard edges."
+                ],
+                "takeaway": "Do not judge a board only by durability; judge what it does to the edge."
+              },
+              "question": {
+                "id": "bcb-q01",
+                "prompt": "Which surface should not be recommended for routine cutting with a fine kitchen edge?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Suitable wood"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Purpose-made resilient synthetic board"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Glass board"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Purpose-made plastic board"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Glass is too hard and unyielding for routine contact with a fine kitchen edge."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcb-r01a",
+                  "prompt": "Why can stone or ceramic damage edge performance?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "They are too soft"
+                    },
+                    {
+                      "id": "b",
+                      "text": "They yield very little, concentrating impact at the apex"
+                    },
+                    {
+                      "id": "c",
+                      "text": "They absorb too much water"
+                    },
+                    {
+                      "id": "d",
+                      "text": "They chemically remove the bevel"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The microscopic apex repeatedly contacts an unforgiving surface."
+                },
+                {
+                  "id": "bcb-r01b",
+                  "prompt": "A customer asks for a glass cutting board because it is easy to clean. What should staff explain?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It is ideal for every knife"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It may be easy to clean, but it is too hard for routine cutting with fine edges"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It improves edge retention"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It is required for hard steels"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Hygiene convenience does not make a hard surface edge-friendly."
+                }
+              ]
+            },
+            {
+              "id": "bcb-02-board-tradeoffs",
+              "concept_id": "care.board_material_tradeoffs",
+              "title": "Understand material trade-offs",
+              "critical": false,
+              "source_path": "09-maintenance/cutting-boards.md",
+              "content": {
+                "lead": "No board material wins every category; the useful comparison is edge friendliness, stability, hygiene and maintenance.",
+                "points": [
+                  "Traditional wood is generally yielding to the edge but requires appropriate cleaning and care.",
+                  "Purpose-made plastic and resilient rubber/synthetic boards can also be practical, edge-friendly choices when maintained in good condition.",
+                  "Resin-bonded fibre composites can be thin, stable and durable but are usually harder and less yielding than traditional wood."
+                ],
+                "takeaway": "Recommend the board for the knife and working environment, not by one material slogan."
+              },
+              "question": {
+                "id": "bcb-q02",
+                "prompt": "Which statement about resin-bonded fibre composite boards is accurate?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "They are always softer than wood"
+                  },
+                  {
+                    "id": "b",
+                    "text": "They can be stable and durable but are usually harder and less yielding than traditional wood"
+                  },
+                  {
+                    "id": "c",
+                    "text": "They are the same as rubber boards"
+                  },
+                  {
+                    "id": "d",
+                    "text": "They cannot be water resistant"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Convenience and durability can come with a harder cutting surface."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcb-r02a",
+                  "prompt": "What should be compared when choosing a board?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Only appearance"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Edge friendliness, stability, hygiene and maintenance needs"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only weight"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only whether it is dishwasher-safe"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Board choice is a multi-factor decision."
+                },
+                {
+                  "id": "bcb-r02b",
+                  "prompt": "Can a purpose-made plastic or resilient synthetic board be appropriate for a quality kitchen knife?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Yes, when it is clean, flat, stable and suitable for edge contact"
+                    },
+                    {
+                      "id": "b",
+                      "text": "No, only wood is acceptable"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only for serrated knives"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only for carbon steel"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The knowledge base explicitly recognizes suitable non-wood cutting surfaces."
+                }
+              ]
+            },
+            {
+              "id": "bcb-03-wash-dry",
+              "concept_id": "care.washing_and_drying",
+              "title": "Wash by hand and dry completely",
+              "critical": true,
+              "source_path": "09-maintenance/routine-care.md",
+              "content": {
+                "lead": "Routine care is mostly about avoiding unnecessary moisture, chemicals, heat and impacts.",
+                "points": [
+                  "Wash by hand soon after use with appropriate mild cleaning.",
+                  "Rinse away salt and acids, then dry blade and handle completely.",
+                  "Dishwashers combine aggressive detergent, prolonged moisture, heat and impact risk; repeated cycles can also harm natural handles and some assemblies."
+                ],
+                "takeaway": "Hand wash, rinse, dry — promptly and completely."
+              },
+              "question": {
+                "id": "bcb-q03",
+                "prompt": "Why is a dishwasher a poor routine choice for a quality kitchen knife?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "It makes the knife too sharp"
+                  },
+                  {
+                    "id": "b",
+                    "text": "It combines aggressive detergent, prolonged moisture, heat and collision risk"
+                  },
+                  {
+                    "id": "c",
+                    "text": "It always changes the steel alloy"
+                  },
+                  {
+                    "id": "d",
+                    "text": "It removes the tang"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The dishwasher exposes both blade and handle assembly to several avoidable stresses at once."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcb-r03a",
+                  "prompt": "What should happen after cutting salty or acidic food?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Leave the residue until the end of the day"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Rinse it away and dry the knife completely"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Soak the knife overnight"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Put the knife in the dishwasher"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Removing salt/acids and moisture promptly reduces unnecessary corrosion risk."
+                },
+                {
+                  "id": "bcb-r03b",
+                  "prompt": "Does a normal stainless kitchen knife usually need oil for indoor storage if it is washed and dried properly?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Usually no"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Always yes"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only after every vegetable"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only if double bevel"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The source notes that a properly washed and dried stainless knife usually needs no oil for normal indoor storage."
+                }
+              ]
+            },
+            {
+              "id": "bcb-04-storage",
+              "concept_id": "care.safe_storage",
+              "title": "Store the edge without hidden contact",
+              "critical": true,
+              "source_path": "09-maintenance/routine-care.md",
+              "content": {
+                "lead": "A sharp edge should not rattle against other hard objects between uses.",
+                "points": [
+                  "Use storage that protects the edge and keeps the knife controlled: for example an appropriate block, guard, saya, roll or suitable magnetic solution.",
+                  "Do not leave the edge loose in a drawer where it can strike utensils or hands.",
+                  "Avoid routine edge contact with plates, pan rims, worktops and other hard surfaces."
+                ],
+                "takeaway": "Storage should protect both the user and the apex."
+              },
+              "question": {
+                "id": "bcb-q04",
+                "prompt": "Which storage habit is inappropriate?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Using a fitted guard"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Keeping a knife protected in a suitable block"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Leaving the edge loose among metal utensils in a drawer"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Using a suitable knife roll for transport"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Loose drawer contact can damage the edge and creates a hand-injury hazard."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcb-r04a",
+                  "prompt": "Why should routine contact with plate rims or worktops be avoided?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It can dull or damage the apex"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It changes blade length"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It softens the handle"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It removes carbon from the steel"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Hard incidental contact is unnecessary wear on the fine edge."
+                },
+                {
+                  "id": "bcb-r04b",
+                  "prompt": "What is the goal of knife storage?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Make the knife difficult to reach"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Protect the edge and keep the knife safely controlled"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Keep the blade wet"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Maximize contact with other steel objects"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Good storage protects both edge condition and user safety."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bcb-mini-01",
+            "title": "Care & Cutting Boards check",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bcb-m01",
+                "concept_id": "care.board_surface_hardness",
+                "critical": true,
+                "prompt": "Which surface is too hard for routine use with a fine edge?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Glass"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Suitable wood"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Resilient synthetic"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Purpose-made plastic"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Glass is an unforgiving cutting surface."
+              },
+              {
+                "id": "bcb-m02",
+                "concept_id": "care.board_material_tradeoffs",
+                "critical": false,
+                "prompt": "What is the right way to compare board materials?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Use one universal winner"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Compare edge friendliness, stability, hygiene and maintenance"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Choose only by price"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Choose the hardest surface"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Board materials involve trade-offs."
+              },
+              {
+                "id": "bcb-m03",
+                "concept_id": "care.washing_and_drying",
+                "critical": true,
+                "prompt": "What is the routine cleaning rule?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Hand wash, rinse salt/acids, dry completely"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Soak overnight"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Dishwasher after every use"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Leave wet to air dry"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Prompt hand washing and complete drying reduce avoidable damage."
+              },
+              {
+                "id": "bcb-m04",
+                "concept_id": "care.safe_storage",
+                "critical": true,
+                "prompt": "Which storage condition should be avoided?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Protected edge"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Loose edge among metal utensils"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Suitable block"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Fitted saya"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Loose hard contact damages the edge and creates a safety risk."
+              }
+            ]
+          }
+        },
+        {
+          "id": "base-sharpening-foundations",
+          "title": "Sharpening Foundations",
+          "status": "active",
+          "source_paths": [
+            "10-sharpening/whetstone-preparation.md",
+            "10-sharpening/basic-sharpening-process.md",
+            "10-sharpening/the-burr.md"
+          ],
+          "summary": "Build a repeatable basic sharpening routine: stable stone, verified contact, complete edge coverage, small burr and clean deburring.",
+          "lessons": [
+            {
+              "id": "bsf-01-setup",
+              "concept_id": "sharpening.stone_setup",
+              "title": "Prepare a stable stone",
+              "critical": true,
+              "source_path": "10-sharpening/whetstone-preparation.md",
+              "content": {
+                "lead": "A moving, dry or inappropriate stone makes angle control harder before sharpening even begins.",
+                "points": [
+                  "Follow the stone manufacturer's water/lubrication instructions: some stones soak, others are splash-and-go.",
+                  "Use a non-slip holder or stable damp-cloth support and work with good light.",
+                  "The working surface should be flat enough for reliable contact; correct excessive dishing before serious sharpening."
+                ],
+                "takeaway": "Flat enough, wet as required, and absolutely stable."
+              },
+              "question": {
+                "id": "bsf-q01",
+                "prompt": "What is the most important first condition before sharpening?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "A very fine grit"
+                  },
+                  {
+                    "id": "b",
+                    "text": "A flat-enough, properly lubricated and stable stone"
+                  },
+                  {
+                    "id": "c",
+                    "text": "A fixed number of passes"
+                  },
+                  {
+                    "id": "d",
+                    "text": "A leather strop"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The stone and support must provide predictable contact before angle work starts."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r01a",
+                  "prompt": "The stone holder moves during a pass. What should you do?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Grip the knife harder"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Stop immediately and stabilize the support"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Use more pressure"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Move faster"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "A moving stone compromises both safety and contact control."
+                },
+                {
+                  "id": "bsf-r01b",
+                  "prompt": "Should every water stone be soaked for the same time?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Yes"
+                    },
+                    {
+                      "id": "b",
+                      "text": "No; follow the specific stone manufacturer's instructions"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only fine stones"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only carbon-steel knives"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Water-stone families differ; soaking is not a universal rule."
+                }
+              ]
+            },
+            {
+              "id": "bsf-02-contact",
+              "concept_id": "sharpening.edge_bevel_contact",
+              "title": "Identify the edge bevel and verify contact",
+              "critical": true,
+              "source_path": "10-sharpening/basic-sharpening-process.md",
+              "content": {
+                "lead": "Beginners often sharpen the wrong surface or hold an angle that changes without noticing.",
+                "points": [
+                  "Identify the narrow edge bevel rather than the broad blade face or primary geometry above it.",
+                  "Use marker on the edge bevel to see where the stone removes ink; adjust until contact is where intended.",
+                  "The required hand position changes as the blade profile curves: preserve local bevel contact from heel through tip instead of freezing the wrist."
+                ],
+                "takeaway": "The target is consistent bevel contact, not a memorized hand angle."
+              },
+              "question": {
+                "id": "bsf-q02",
+                "prompt": "What does the marker method tell you?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The steel hardness"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Where the stone is contacting and removing material on the edge bevel"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The exact grit of the stone"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Whether the knife is forged"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Ink removal makes contact visible and helps correct an angle that is too high or too low."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r02a",
+                  "prompt": "Why should the hand position adapt near a curved tip?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "To preserve local edge-bevel contact as blade geometry changes"
+                    },
+                    {
+                      "id": "b",
+                      "text": "To increase pressure automatically"
+                    },
+                    {
+                      "id": "c",
+                      "text": "To create a larger burr"
+                    },
+                    {
+                      "id": "d",
+                      "text": "To polish the blade face"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "A fixed hand position can lose the intended contact as the profile curves."
+                },
+                {
+                  "id": "bsf-r02b",
+                  "prompt": "A burr appears immediately but the marker shows contact only at the very apex. What does that mean?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The angle is definitely correct"
+                    },
+                    {
+                      "id": "b",
+                      "text": "The angle may be too steep even though the apex was reached"
+                    },
+                    {
+                      "id": "c",
+                      "text": "The stone is too flat"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The knife is finished"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "A quick burr proves apex contact, not that the chosen bevel angle is correct."
+                }
+              ]
+            },
+            {
+              "id": "bsf-03-complete-edge",
+              "concept_id": "sharpening.complete_edge_work",
+              "title": "Work the whole edge, not just the middle",
+              "critical": true,
+              "source_path": "10-sharpening/basic-sharpening-process.md",
+              "content": {
+                "lead": "A sharp middle section does not make a sharp knife.",
+                "points": [
+                  "Use controlled outward and return movement across heel, middle, curved front and tip.",
+                  "Listen and feel: rough scratching often becomes smoother as contact evens out.",
+                  "Alternate sides periodically and keep the work broadly balanced; do not rely on a fixed pass count because steel, stone and edge condition vary."
+                ],
+                "takeaway": "Coverage and feedback matter more than counting strokes."
+              },
+              "question": {
+                "id": "bsf-q03",
+                "prompt": "What is a common beginner error?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Checking heel and tip"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Overworking the middle while missing heel or tip"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Using marker"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Reducing pressure near the finish"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Every section must reach the apex; the middle is often easiest and can receive too much work."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r03a",
+                  "prompt": "Why is a fixed pass count unreliable?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Because stone, steel, pressure and starting condition change the work required"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Because only the tip needs sharpening"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Because passes never remove steel"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Because all stones cut equally"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Sharpening is controlled by evidence from contact and edge condition, not an arbitrary number."
+                },
+                {
+                  "id": "bsf-r03b",
+                  "prompt": "If the heel has not reached the apex but the middle has, what should you do?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Continue heavy work everywhere equally"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Focus briefly on the heel, then return to complete passes"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ignore it"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Increase angle only at the middle"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Correct the local deficit without unnecessarily grinding sections already finished."
+                }
+              ]
+            },
+            {
+              "id": "bsf-04-burr",
+              "concept_id": "sharpening.burr_control",
+              "title": "Use the smallest continuous burr as evidence",
+              "critical": true,
+              "source_path": "10-sharpening/the-burr.md",
+              "content": {
+                "lead": "The burr is feedback that the abrasive has reached the apex; it is not the final product.",
+                "points": [
+                  "Aim for the smallest detectable burr that is continuous from heel to tip.",
+                  "Check safely by moving a fingertip from blade face toward the edge, perpendicular to it — never slide a finger along the edge.",
+                  "After the first side reaches the apex, sharpen the other side until the burr changes direction along the complete edge."
+                ],
+                "takeaway": "Create the burr only to prove apex contact, then remove it."
+              },
+              "question": {
+                "id": "bsf-q04",
+                "prompt": "What does a burr present only in the middle prove?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The whole edge is finished"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Only that the middle has reached the apex"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The angle is perfect everywhere"
+                  },
+                  {
+                    "id": "d",
+                    "text": "The stone is too fine"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "A continuous burr is needed to show complete apex reach along the entire side."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r04a",
+                  "prompt": "How should a burr be checked with a fingertip?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Slide along the cutting edge"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Move lightly from the blade face toward the edge, perpendicular to it, stopping at the apex"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Press directly onto the apex"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Rub rapidly along both sides"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Never slide a finger along the cutting edge."
+                },
+                {
+                  "id": "bsf-r04b",
+                  "prompt": "Why is a large burr undesirable?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It wastes steel and can behave like a fragile wire edge"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It proves better sharpening"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It makes deburring unnecessary"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It protects the edge"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "A large burr is harder to remove and can make a knife seem sharp before folding or breaking away."
+                }
+              ]
+            },
+            {
+              "id": "bsf-05-deburr-test",
+              "concept_id": "sharpening.deburr_and_test",
+              "title": "Reduce pressure, deburr and test intelligently",
+              "critical": true,
+              "source_path": "10-sharpening/basic-sharpening-process.md",
+              "content": {
+                "lead": "The finishing stage stabilizes the apex; polishing alone does not guarantee a good edge.",
+                "points": [
+                  "Reduce pressure gradually and alternate sides more frequently until no directional hook remains.",
+                  "A strop can help with a very fine remaining burr, but is optional; the stone should already produce a clean stable edge.",
+                  "Test with strong-light inspection, burr check and controlled cuts in paper or suitable food such as tomato. Paper alone can be fooled by a fragile wire edge."
+                ],
+                "takeaway": "A good edge is clean, stable and consistent along its full length."
+              },
+              "question": {
+                "id": "bsf-q05",
+                "prompt": "Why should paper not be the only final test?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Paper is too expensive"
+                  },
+                  {
+                    "id": "b",
+                    "text": "A fragile wire edge can sometimes cut paper once but fail in food"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Paper dulls every knife immediately"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Paper cannot reveal any catches"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Combine paper with burr inspection and real cutting behavior to detect unstable wire edges."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsf-r05a",
+                  "prompt": "What should happen to pressure during deburring?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Increase steadily"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Reduce progressively while alternating sides"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Remain at maximum"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Stop contacting the bevel"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Light alternating passes center the apex and weaken/remove the burr."
+                },
+                {
+                  "id": "bsf-r05b",
+                  "prompt": "Is stropping mandatory for a good basic edge?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Yes, always"
+                    },
+                    {
+                      "id": "b",
+                      "text": "No; it can help, but careful stone work is the essential step"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only for stainless"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only for single bevel"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The stone should already leave a clean, stable edge."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bsf-mini-01",
+            "title": "Sharpening Foundations check",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bsf-m01",
+                "concept_id": "sharpening.stone_setup",
+                "critical": true,
+                "prompt": "What should you do if the stone support moves?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Continue more slowly"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Stop and stabilize it"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Increase pressure"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Change to a finer grit"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Stable support is a prerequisite."
+              },
+              {
+                "id": "bsf-m02",
+                "concept_id": "sharpening.edge_bevel_contact",
+                "critical": true,
+                "prompt": "What is the purpose of marker on the edge bevel?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Decorate the blade"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Verify where the stone is contacting"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Measure HRC"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Prevent burr formation"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Ink removal visualizes bevel contact."
+              },
+              {
+                "id": "bsf-m03",
+                "concept_id": "sharpening.complete_edge_work",
+                "critical": true,
+                "prompt": "What matters more than a fixed pass count?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Complete edge coverage and feedback"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Speed"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Stone color"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Handle material"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "The required work varies with the sharpening system and starting condition."
+              },
+              {
+                "id": "bsf-m04",
+                "concept_id": "sharpening.burr_control",
+                "critical": true,
+                "prompt": "What is the correct burr target?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The largest possible burr"
+                  },
+                  {
+                    "id": "b",
+                    "text": "The smallest detectable continuous burr"
+                  },
+                  {
+                    "id": "c",
+                    "text": "A burr only in the middle"
+                  },
+                  {
+                    "id": "d",
+                    "text": "No apex contact"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The burr is evidence, not a feature to maximize."
+              },
+              {
+                "id": "bsf-m05",
+                "concept_id": "sharpening.deburr_and_test",
+                "critical": true,
+                "prompt": "What makes a final test more reliable?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Paper alone"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Combining burr/light inspection with controlled paper and suitable food tests"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Touching the apex directly"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Counting strokes"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Multiple checks reduce the chance of mistaking a wire edge for a stable apex."
+              }
+            ]
+          }
+        },
+        {
+          "id": "base-customer-discovery",
+          "title": "Customer Discovery",
+          "status": "active",
+          "source_paths": [
+            "05-knife-types/overview.md",
+            "05-knife-types/weight-and-balance.md"
+          ],
+          "summary": "Recommend by function and ergonomic fit first; use steel, construction, appearance and price only to complete the choice.",
+          "lessons": [
+            {
+              "id": "bcd-01-discover-work",
+              "concept_id": "consultation.discover_work",
+              "title": "Discover the customer's real work",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Good product advice begins with the customer's kitchen, not with a product pitch.",
+                "points": [
+                  "Ask what foods they cut most often and in what quantities.",
+                  "Ask whether the work is mainly on a board or in the hand and which movements they use: chopping, push cutting, rocking, long slicing, boning, filleting or fine detail.",
+                  "Ask about recurring frustrations: too much blade, too little knuckle clearance, difficult tip control, excessive weight or lack of reach."
+                ],
+                "takeaway": "The better the work is defined, the smaller and more useful the shortlist becomes."
+              },
+              "question": {
+                "id": "bcd-q01",
+                "prompt": "Which opening question is most useful in a knife consultation?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "What is the highest price you can spend?"
+                  },
+                  {
+                    "id": "b",
+                    "text": "What foods do you cut most often, in what quantities and with which movements?"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Do you prefer Damascus?"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Do you want the hardest steel?"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The customer's work defines the functional requirements before product features are compared."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r01a",
+                  "prompt": "Why ask about quantities as well as food type?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Volume changes how valuable reach, efficiency, weight and repeated-movement comfort may be"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It reveals the customer's income"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It determines steel composition"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It tells you which packaging to use"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The same food prepared occasionally or in large batches can favor different sizes and handling."
+                },
+                {
+                  "id": "bcd-r01b",
+                  "prompt": "A customer says only 'I need a good knife.' What should staff do next?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Show the most expensive model"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ask task and movement questions before narrowing the range"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Choose the highest HRC"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Choose the newest series"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "A vague request should be converted into functional requirements."
+                }
+              ]
+            },
+            {
+              "id": "bcd-02-function",
+              "concept_id": "consultation.function_first",
+              "title": "Choose the functional family first",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Blade shape solves the work problem before steel or decoration enters the conversation.",
+                "points": [
+                  "Broad board work favors enough blade height and useful edge contact; long clean portions favor slicer length.",
+                  "Work around bone favors narrow controllable geometry; fish contour work may require designed flexibility; fine detail benefits from accurate point placement.",
+                  "Do not recommend a specialist shape merely because it looks distinctive."
+                ],
+                "takeaway": "Solve the mechanical task first."
+              },
+              "question": {
+                "id": "bcd-q02",
+                "prompt": "At what stage should staff compare steel grades between models?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Before understanding the task"
+                  },
+                  {
+                    "id": "b",
+                    "text": "After identifying models whose shape and use already suit the customer's work"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only after payment"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Steel should never be discussed"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Steel differentiates suitable knives; it should not rescue an unsuitable blade family."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r02a",
+                  "prompt": "A customer does frequent long carving cuts. Which feature should be solved first?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "A blade family with suitable slicing length and geometry"
+                    },
+                    {
+                      "id": "b",
+                      "text": "The most complex Damascus pattern"
+                    },
+                    {
+                      "id": "c",
+                      "text": "A full tang regardless of shape"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The highest possible hardness"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "The functional geometry comes before secondary differentiators."
+                },
+                {
+                  "id": "bcd-r02b",
+                  "prompt": "What is wrong with recommending a specialist knife mainly because it looks impressive?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nothing"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Its geometry may solve a different problem from the customer's actual work"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Specialist knives are always cheaper"
+                    },
+                    {
+                      "id": "d",
+                      "text": "They cannot be sharpened"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "A specialist profile is useful only when its mechanical task matches the user's needs."
+                }
+              ]
+            },
+            {
+              "id": "bcd-03-grip-balance",
+              "concept_id": "consultation.grip_and_balance",
+              "title": "Evaluate balance in the customer's real grip",
+              "critical": false,
+              "source_path": "05-knife-types/weight-and-balance.md",
+              "content": {
+                "lead": "A knife has a physical center of mass, but perceived balance depends on where the hand holds it.",
+                "points": [
+                  "With a handle grip the hand is farther back, so blade-forward balance feels more pronounced.",
+                  "An intermediate/hybrid grip moves control toward the bolster; a pinch grip moves the controlling fingers onto the blade just ahead of it.",
+                  "A knife that feels blade-heavy from the rear can feel nearly neutral in a forward pinch grip."
+                ],
+                "takeaway": "Do not ask only 'Is it balanced?' Ask 'How does it balance in your normal grip?'"
+              },
+              "question": {
+                "id": "bcd-q03",
+                "prompt": "Why can two people disagree about whether the same knife feels blade-heavy?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Balance changes the steel alloy"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Their grip positions can create different leverage relative to the same center of mass"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The knife changes weight between users"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only hand size matters"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Perceived balance depends on where the hand controls the knife."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r03a",
+                  "prompt": "What should staff do before judging a knife's ergonomic balance for a customer?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Hold it only in their own preferred grip"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Let the customer hold it as they normally cook"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Read only the listed weight"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Choose the longest handle"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The relevant balance is the one experienced in the customer's natural grip."
+                },
+                {
+                  "id": "bcd-r03b",
+                  "prompt": "Can a knife feel more neutral when the hand moves forward into a pinch grip?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Yes, because the controlling fingers move closer to blade mass"
+                    },
+                    {
+                      "id": "b",
+                      "text": "No, balance never changes with grip"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only if the knife is single bevel"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only if the handle is wood"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Moving the grip changes the leverage between the hand and the knife's mass distribution."
+                }
+              ]
+            },
+            {
+              "id": "bcd-04-fit",
+              "concept_id": "consultation.ergonomic_fit",
+              "title": "Use the store to test ergonomic fit",
+              "critical": false,
+              "source_path": "05-knife-types/weight-and-balance.md",
+              "content": {
+                "lead": "Specifications can narrow the field; the customer's hand decides among technically suitable options.",
+                "points": [
+                  "Compare handle shape, circumference, contour, bolster transition, total weight and balance.",
+                  "Put several functionally suitable knives in the customer's hand rather than forcing one 'best' model.",
+                  "Small differences in handle contour or mass distribution can change comfort and control significantly."
+                ],
+                "takeaway": "The store's advantage is comparison in the customer's own hand."
+              },
+              "question": {
+                "id": "bcd-q04",
+                "prompt": "What is the best use of a physical store after identifying the right blade family?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Compare ergonomic fit among several suitable knives"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Push one universal best seller"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Avoid letting customers hold knives"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Ignore balance and discuss packaging"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Handling reveals fit differences that specifications and photographs cannot fully predict."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r04a",
+                  "prompt": "Two knives meet the same functional need. What should happen next?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Let the customer compare grip, handle feel, weight and balance"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Automatically choose the more expensive one"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Choose only by steel hardness"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Choose only by appearance"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Ergonomic fit is the next selection criterion once function is solved."
+                },
+                {
+                  "id": "bcd-r04b",
+                  "prompt": "Why can a few millimeters of handle contour matter?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "They can change where fingers settle and how the wrist supports the blade"
+                    },
+                    {
+                      "id": "b",
+                      "text": "They change the alloy chemistry"
+                    },
+                    {
+                      "id": "c",
+                      "text": "They determine the bevel ratio"
+                    },
+                    {
+                      "id": "d",
+                      "text": "They make the blade longer"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Small geometric differences at the hand interface can materially change control and comfort."
+                }
+              ]
+            },
+            {
+              "id": "bcd-05-selection",
+              "concept_id": "consultation.function_fit_selection",
+              "title": "Complete the choice with product differentiators",
+              "critical": false,
+              "source_path": "05-knife-types/weight-and-balance.md",
+              "content": {
+                "lead": "Once function and fit are right, the remaining features can make the final choice meaningful instead of distracting.",
+                "points": [
+                  "Compare steel, heat treatment, construction, handle material, finish, appearance and price among models already suited to the work and user.",
+                  "Explain trade-offs instead of declaring a universal 'best' knife.",
+                  "Remember the method as function, fit, selection."
+                ],
+                "takeaway": "Features complete a good recommendation; they do not replace suitability."
+              },
+              "question": {
+                "id": "bcd-q05",
+                "prompt": "What is the correct order for an in-store recommendation?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Steel → price → shape"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Function → fit → selection"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Appearance → hardness → grip"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Price → Damascus → function"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "First solve the work, then ergonomic fit, then choose among the suitable products."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r05a",
+                  "prompt": "When should appearance and price become decisive?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Before checking suitability"
+                    },
+                    {
+                      "id": "b",
+                      "text": "When choosing among options that already satisfy function and fit"
+                    },
+                    {
+                      "id": "c",
+                      "text": "They should always override ergonomics"
+                    },
+                    {
+                      "id": "d",
+                      "text": "They should never be discussed"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Secondary differentiators are meaningful after unsuitable options have been removed."
+                },
+                {
+                  "id": "bcd-r05b",
+                  "prompt": "What is a better phrase than 'this is the best knife'?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "This model best matches the work and grip you described among the options we compared"
+                    },
+                    {
+                      "id": "b",
+                      "text": "This has the highest number, so it is best"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Everyone buys this one"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Harder steel is always better"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "A sound recommendation is tied to the customer's requirements, not a universal ranking."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bcd-mini-01",
+            "title": "Customer Discovery check",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bcd-m01",
+                "concept_id": "consultation.discover_work",
+                "critical": false,
+                "prompt": "What should the first discovery questions establish?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Foods, quantities and movements"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Only budget"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only aesthetics"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only HRC"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "The customer's work is the starting point."
+              },
+              {
+                "id": "bcd-m02",
+                "concept_id": "consultation.function_first",
+                "critical": false,
+                "prompt": "What comes before comparing steel grades?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Identifying suitable blade families"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Choosing packaging"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Selecting the most expensive model"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Nothing"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Geometry must solve the task first."
+              },
+              {
+                "id": "bcd-m03",
+                "concept_id": "consultation.grip_and_balance",
+                "critical": false,
+                "prompt": "What determines perceived balance in addition to mass distribution?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Grip position"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Box color"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Logo size"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Country name"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Grip position changes leverage."
+              },
+              {
+                "id": "bcd-m04",
+                "concept_id": "consultation.ergonomic_fit",
+                "critical": false,
+                "prompt": "What should the customer compare in store?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Several functionally suitable knives in their natural grip"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Only one best seller"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only price tags"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only blade patterns"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Direct handling reveals ergonomic fit."
+              },
+              {
+                "id": "bcd-m05",
+                "concept_id": "consultation.function_fit_selection",
+                "critical": false,
+                "prompt": "Which sequence summarizes the Xinzuo consultation method?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Function → fit → selection"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Price → steel → function"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Pattern → hardness → fit"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Brand → price → size"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "This is the method defined in the knowledge base."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "title": "Intermediate",
+      "purpose": "Connect material, construction, geometry and user needs without relying on slogans.",
+      "modules": [
+        {
+          "id": "int-steel-dimensions",
+          "title": "The Five Dimensions of Knife Steel",
+          "status": "planned",
+          "source_paths": [
+            "01-foundations/five-dimensions-of-knife-steel.md"
+          ]
+        },
+        {
+          "id": "int-alloys-heat-treatment",
+          "title": "Alloying, Heat Treatment & Carbides",
+          "status": "planned",
+          "source_paths": [
+            "02-steels-and-metallurgy/alloying-elements.md",
+            "02-steels-and-metallurgy/heat-treatment-and-carbides.md"
+          ]
+        },
+        {
+          "id": "int-steel-families",
+          "title": "Conventional, PM & Xinzuo Steels",
+          "status": "planned",
+          "source_paths": [
+            "02-steels-and-metallurgy/conventional-and-powder-metallurgy-steels.md",
+            "02-steels-and-metallurgy/xinzuo-blade-steels.md"
+          ]
+        },
+        {
+          "id": "int-damascus-construction",
+          "title": "Damascus & Blade Construction",
+          "status": "planned",
+          "source_paths": [
+            "03-blade-construction/damascus-steel.md",
+            "03-blade-construction/self-sharpening-full-damascus.md"
+          ]
+        },
+        {
+          "id": "int-ergonomics-geometry",
+          "title": "Geometry, Balance & Ergonomics",
+          "status": "planned",
+          "source_paths": [
+            "04-geometry-and-bevels/single-and-double-bevels.md",
+            "05-knife-types/weight-and-balance.md"
+          ]
+        },
+        {
+          "id": "int-consultation",
+          "title": "Needs-Based Product Consultation",
+          "status": "planned",
+          "source_paths": [
+            "05-knife-types/overview.md",
+            "02-steels-and-metallurgy/xinzuo-blade-steels.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Advanced",
+      "purpose": "Diagnose trade-offs, specialist use and edge problems, then advise customers with evidence-based reasoning.",
+      "modules": [
+        {
+          "id": "adv-material-reasoning",
+          "title": "Comparative Material Reasoning",
+          "status": "planned",
+          "source_paths": [
+            "02-steels-and-metallurgy/xinzuo-blade-steels.md"
+          ]
+        },
+        {
+          "id": "adv-specialist-knives",
+          "title": "Single Bevel & Specialist Knife Families",
+          "status": "planned",
+          "source_paths": [
+            "04-geometry-and-bevels/single-and-double-bevels.md",
+            "05-knife-types/overview.md"
+          ]
+        },
+        {
+          "id": "adv-sharpening",
+          "title": "Advanced Sharpening & Local Correction",
+          "status": "planned",
+          "source_paths": [
+            "10-sharpening/basic-sharpening-process.md",
+            "10-sharpening/the-burr.md"
+          ]
+        },
+        {
+          "id": "adv-edge-diagnosis",
+          "title": "Edge Failure & Maintenance Diagnosis",
+          "status": "planned",
+          "source_paths": [
+            "09-maintenance/routine-care.md",
+            "10-sharpening/basic-sharpening-process.md"
+          ]
+        },
+        {
+          "id": "adv-consultation",
+          "title": "Complex Customer Scenarios",
+          "status": "planned",
+          "source_paths": [
+            "05-knife-types/overview.md",
+            "05-knife-types/weight-and-balance.md",
+            "02-steels-and-metallurgy/xinzuo-blade-steels.md"
+          ]
+        },
+        {
+          "id": "adv-capstone",
+          "title": "Final Certification",
+          "status": "planned",
+          "source_paths": []
+        }
+      ]
+    }
+  ]
+}

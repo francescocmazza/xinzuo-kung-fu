@@ -1,0 +1,86 @@
+name: Publish Xinzuo Academy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "academy/**"
+      - "scripts/validate_academy.py"
+      - ".github/workflows/academy-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publish-the-gongfu-of-xinzuo-main
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out current main branch
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install documentation dependencies
+        run: pip install -r requirements-docs.txt
+
+      - name: Validate Xinzuo Academy
+        run: python scripts/validate_academy.py
+
+      - name: Resolve publication-ready languages
+        shell: bash
+        run: |
+          set -euo pipefail
+          ready_locales="$(python scripts/publication_locales.py --format space)"
+          if [ -z "$ready_locales" ]; then
+            echo "No publication-ready locales were resolved." >&2
+            exit 1
+          fi
+          echo "READY_LOCALES=$ready_locales" >> "$GITHUB_ENV"
+          echo "Publication-ready locales: $ready_locales"
+
+      - name: Build current multilingual knowledge base
+        run: python scripts/multilingual_site.py --require-translations --locales $READY_LOCALES
+
+      - name: Add Xinzuo Academy
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p site/academy
+          cp academy/index.html academy/styles.css academy/app.js site/academy/
+          cp -R academy/data site/academy/data
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

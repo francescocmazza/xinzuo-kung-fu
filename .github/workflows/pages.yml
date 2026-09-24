@@ -115,6 +115,9 @@ jobs:
       - name: Install documentation and PDF dependencies
         run: pip install -r requirements-pdf.txt
 
+      - name: Validate Xinzuo Academy
+        run: python scripts/validate_academy.py
+
       - name: Resolve publication-ready languages
         shell: bash
         run: |
@@ -158,6 +161,14 @@ jobs:
 
       - name: Build publication-ready languages
         run: python scripts/multilingual_site.py --require-translations --locales $READY_LOCALES
+
+      - name: Add Xinzuo Academy to the published site
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p site/academy
+          cp academy/index.html academy/styles.css academy/app.js site/academy/
+          cp -R academy/data site/academy/data
 
       - name: Install Playwright Chromium and CJK fonts
         run: |
