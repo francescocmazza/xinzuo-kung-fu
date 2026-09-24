@@ -62,10 +62,10 @@ jobs:
       - name: Install Playwright Chromium
         run: python -m playwright install --with-deps chromium
 
-      - name: Install fonts for CJK coverage
+      - name: Install publication fonts and CJK coverage
         run: |
           sudo apt-get update
-          sudo apt-get install -y fonts-noto fonts-noto-cjk fonts-noto-cjk-extra
+          sudo apt-get install -y fonts-noto fonts-noto-cjk fonts-noto-cjk-extra fonts-urw-base35
 
       - name: Centralize bibliography in English source
         run: python scripts/centralize_bibliography.py
@@ -80,6 +80,13 @@ jobs:
 
       - name: Validate localized back-cover parsing
         run: python scripts/pdf_export/test_back_cover.py
+
+      - name: Verify publication cover assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s content/en/assets/CoverFront.webp
+          test -s content/en/assets/CoverBack.webp
 
       - name: Apply A5 publication profile
         run: python scripts/pdf_export/apply_a5_profile.py
