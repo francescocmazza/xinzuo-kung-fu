@@ -17,7 +17,18 @@ export default {
       if (!url.pathname.startsWith("/api/")) return apiError(request, env, 404, "not_found", "API endpoint not found.");
 
       if (url.pathname === "/api/health" && request.method === "GET") {
-        return apiJson(request, env, { ok: true, service: "xinzuo-academy", now: new Date().toISOString() });
+        return apiJson(request, env, {
+          ok:true,
+          service:"xinzuo-academy",
+          now:new Date().toISOString(),
+          publicRegistration:true,
+          verificationChannels:{
+            email:canSendVerification("email",env),
+            sms:canSendVerification("sms",env)
+          },
+          termsVersion:TERMS_VERSION,
+          privacyVersion:PRIVACY_VERSION
+        });
       }
 
       if (url.pathname === "/api/bootstrap" && request.method === "POST") return bootstrap(request, env);
