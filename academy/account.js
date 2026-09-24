@@ -201,6 +201,49 @@
     `;
   }
 
+
+  function certificateUrl(code) {
+    const base = String(cfg.academyPublicUrl || new URL("./", window.location.href)).replace(/\/$/,"");
+    return `${base}/certificate.html?code=${encodeURIComponent(code)}`;
+  }
+
+  function renderMyCertificates(certificates) {
+    if (!el.myCertificates) return;
+    if (!certificates.length) {
+      el.myCertificates.innerHTML = '<p class="password-hint">Nessun certificato emesso.</p>';
+      return;
+    }
+    el.myCertificates.innerHTML = certificates.map(cert => `
+      <article class="certificate-list-item">
+        <div>
+          <strong>${escapeHtml(cert.courseLevel)} · ${escapeHtml(cert.verificationCode)}</strong>
+          <span>${escapeHtml(cert.status)} · ${when(cert.issuedAt)}</span>
+        </div>
+        <a class="button button--quiet" href="${escapeHtml(certificateUrl(cert.verificationCode))}" target="_blank" rel="noopener">Apri</a>
+      </article>
+    `).join("");
+  }
+
+  async function loadAccountExtras() {
+    if (!currentUser || !apiAvailable()) return;
+    try {
+      const [consentResult,certificateResult] = await Promise.all([
+        api("/api/privacy/consents",{method:"GET"}),
+        api("/api/certificates/mine",{method:"GET"})
+      ]);
+      const c = consentResult.consents || {};
+      el.consentForm.elements.marketingEmail.checked = Boolean(c.marketingEmail);
+      el.consentForm.elements.marketingSms.checked = Boolean(c.marketingSms);
+      el.consentForm.elements.marketingPhone.checked = Boolean(c.marketingPhone);
+      el.consentForm.elements.marketingEmail.disabled = !currentUser.email;
+      el.consentForm.elements.marketingSms.disabled = !currentUser.phone;
+      el.consentForm.elements.marketingPhone.disabled = !currentUser.phone;
+      renderMyCertificates(certificateResult.certificates || []);
+    } catch (error) {
+      formStatus(el.consentForm,error.message,"error");
+    }
+  }
+
   async function restoreSession() {
     if (!apiAvailable()) {
       el.backendStatus.innerHTML = `
@@ -694,6 +737,29 @@
     renderAccountProfile();
     el.accountDialog.showModal();
     await loadAccountExtras();
+  });
+
+
+  el.consentForm.addEventListener("submit", async event => {
+    event.preventDefault();
+    const data = new FormData(el.consentForm);
+    setBusy(el.consentForm,true);
+    try {
+      const result = await api("/api/privacy/consents",{
+        method:"PATCH",
+        body:JSON.stringify({
+          marketingEmail:data.get("marketingEmail") === "on",
+          marketingSms:data.get("marketingSms") === "on",
+          marketingPhone:data.get("marketingPhone") === "on"
+        })
+      });
+      setUser(result.user);
+      formStatus(el.consentForm,"Preferenze aggiornate.","success");
+    } catch (error) {
+      formStatus(el.consentForm,error.message,"error");
+    } finally {
+      setBusy(el.consentForm,false);
+    }
   });
 
   el.changePasswordForm.addEventListener("submit", async event => {
