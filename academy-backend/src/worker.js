@@ -244,6 +244,24 @@ async function ipHash(request, env) {
   return ip ? sha256(`${ip}\u0000${env.IP_HASH_SALT || ""}`) : null;
 }
 
+async function enforceRegistrationRateLimit(request, env) {
+  const ts = now();
+  const windowSeconds = 15 * 60;
+  const maxAttempts = Math.max(1,Math.min(30,Number(env.REGISTRATION_RATE_LIMIT || 5)));
+  const keyHash = await ipHash(request,env) || await sha256(`${request.headers.get("User-Agent") || "unknown"}\u0000${env.IP_HASH_SALT || ""}`);
+  const row = await env.DB.prepare("SELECT window_start,attempt_count FROM registration_rate_limits WHERE key_hash=?").bind(keyHash).first();
+  if (!row || ts - Number(row.window_start) >= windowSeconds) {
+    await env.DB.prepare(
+      "INSERT INTO registration_rate_limits(key_hash,window_start,attempt_count) VALUES(?,?,1) ON CONFLICT(key_hash) DO UPDATE SET window_start=excluded.window_start,attempt_count=1"
+    ).bind(keyHash,ts).run();
+    return;
+  }
+  if (Number(row.attempt_count) >= maxAttempts) {
+    throw new HttpError(429,"registration_rate_limited","Too many registration attempts. Try again later.");
+  }
+  await env.DB.prepare("UPDATE registration_rate_limits SET attempt_count=attempt_count+1 WHERE key_hash=?").bind(keyHash).run();
+}
+
 function publicUser(row) {
   return {
     id: row.id,
@@ -520,6 +538,7 @@ async function publicRegisterStart(request, env) {
     if (!publicRegistrationEnabled(env)) {
       throw new HttpError(503,"registration_closed","Public registration is not open yet.");
     }
+    await enforceRegistrationRateLimit(request,env);
     const body = await bodyJson(request);
     if (body.ageConfirmed !== true) {
       throw new HttpError(400, "age_required", "Public registration is currently available to adults aged 18 or over.");
