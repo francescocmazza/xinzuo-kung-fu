@@ -3,6 +3,10 @@ const PASSWORD_ITERATIONS = 600000;
 const SESSION_SHORT = 12 * 60 * 60;
 const SESSION_LONG = 30 * 24 * 60 * 60;
 const LOCK_SECONDS = 15 * 60;
+const VERIFICATION_TTL = 10 * 60;
+const VERIFICATION_MAX_ATTEMPTS = 6;
+const TERMS_VERSION = "2026-09-24-v1";
+const PRIVACY_VERSION = "2026-09-24-v1";
 const DEFAULT_ALLOWED_ORIGINS = ["https://francescocmazza.github.io", "http://localhost:8000", "http://127.0.0.1:8000"];
 
 export default {
@@ -17,13 +21,19 @@ export default {
       }
 
       if (url.pathname === "/api/bootstrap" && request.method === "POST") return bootstrap(request, env);
-      if (url.pathname === "/api/auth/register" && request.method === "POST") return register(request, env);
+      if (url.pathname === "/api/auth/register/start" && request.method === "POST") return publicRegisterStart(request, env);
+      if (url.pathname === "/api/auth/register/verify" && request.method === "POST") return publicRegisterVerify(request, env);
+      if (url.pathname === "/api/auth/register/resend" && request.method === "POST") return publicRegisterResend(request, env);
+      if (url.pathname === "/api/auth/register" && request.method === "POST") return registerByInvite(request, env);
       if (url.pathname === "/api/auth/login" && request.method === "POST") return login(request, env);
       if (url.pathname === "/api/auth/logout" && request.method === "POST") return logout(request, env);
       if (url.pathname === "/api/auth/change-password" && request.method === "POST") return changePassword(request, env);
       if (url.pathname === "/api/auth/request-reset" && request.method === "POST") return requestPasswordReset(request, env);
       if (url.pathname === "/api/auth/reset-password" && request.method === "POST") return resetPassword(request, env);
       if (url.pathname === "/api/me" && request.method === "GET") return me(request, env);
+      if (url.pathname === "/api/privacy/consents" && request.method === "GET") return getConsents(request, env);
+      if (url.pathname === "/api/privacy/consents" && request.method === "PATCH") return updateConsents(request, env);
+      if (url.pathname === "/api/certificates/mine" && request.method === "GET") return myCertificates(request, env);
       if (url.pathname === "/api/progress" && request.method === "GET") return getProgress(request, env);
       if (url.pathname === "/api/progress" && request.method === "PUT") return putProgress(request, env);
       if (url.pathname === "/api/activity/ping" && request.method === "POST") return activityPing(request, env);
@@ -32,6 +42,14 @@ export default {
       if (url.pathname === "/api/manager/users" && request.method === "GET") return managerUsers(request, env);
       if (url.pathname === "/api/manager/invites" && request.method === "GET") return managerInvites(request, env);
       if (url.pathname === "/api/manager/invites" && request.method === "POST") return createInvite(request, env);
+      if (url.pathname === "/api/admin/audience" && request.method === "GET") return adminAudience(request, env);
+      if (url.pathname === "/api/admin/certificates/issue" && request.method === "POST") return issueCertificate(request, env);
+
+      const certVerify = url.pathname.match(/^\/api\/certificates\/verify\/([^/]+)$/);
+      if (certVerify && request.method === "GET") return verifyCertificatePublic(request, env, decodeURIComponent(certVerify[1]));
+
+      const certManage = url.pathname.match(/^\/api\/admin\/certificates\/([^/]+)$/);
+      if (certManage && request.method === "PATCH") return updateCertificateStatus(request, env, decodeURIComponent(certManage[1]));
 
       const detail = url.pathname.match(/^\/api\/manager\/users\/([^/]+)$/);
       if (detail && request.method === "GET") return managerUserDetail(request, env, decodeURIComponent(detail[1]));
@@ -116,6 +134,26 @@ function validateEmail(email) {
   return email.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
+function normalizePhone(value) {
+  let phone = String(value || "").trim().replace(/[\s().-]/g, "");
+  if (phone.startsWith("00")) phone = "+" + phone.slice(2);
+  return phone;
+}
+
+function validatePhone(phone) {
+  return /^\+[1-9]\d{7,14}$/.test(phone);
+}
+
+function maskedDestination(channel, value) {
+  if (channel === "email") {
+    const [local, domain] = String(value).split("@");
+    if (!domain) return "***";
+    return `${local.slice(0,2)}***@${domain}`;
+  }
+  const text = String(value);
+  return text.length > 6 ? `${text.slice(0,3)}***${text.slice(-3)}` : "***";
+}
+
 function validatePassword(password) {
   if (typeof password !== "string" || password.length < 12) {
     throw new HttpError(400, "weak_password", "Password must contain at least 12 characters.");
@@ -194,7 +232,10 @@ async function ipHash(request, env) {
 function publicUser(row) {
   return {
     id: row.id,
-    email: row.email,
+    email: row.email || "",
+    phone: row.phone || "",
+    emailVerified: Boolean(row.email_verified_at),
+    phoneVerified: Boolean(row.phone_verified_at),
     firstName: row.first_name,
     lastName: row.last_name,
     role: row.role,
@@ -202,7 +243,12 @@ function publicUser(row) {
     active: Boolean(row.active),
     createdAt: row.created_at,
     lastLoginAt: row.last_login_at,
-    lastActiveAt: row.last_active_at
+    lastActiveAt: row.last_active_at,
+    marketingEmailConsent: Boolean(row.marketing_email_consent),
+    marketingSmsConsent: Boolean(row.marketing_sms_consent),
+    marketingPhoneConsent: Boolean(row.marketing_phone_consent),
+    termsVersion: row.terms_version || "",
+    privacyVersion: row.privacy_version || ""
   };
 }
 
@@ -282,16 +328,16 @@ async function bootstrap(request, env) {
     const id = crypto.randomUUID();
     const ts = now();
     await env.DB.prepare(
-      `INSERT INTO users(id,email,first_name,last_name,role,team,password_hash,password_salt,password_iterations,active,created_at,updated_at,last_login_at,last_active_at)
-       VALUES(?,?,?,?, 'admin', ?,?,?,?,1,?,?,?,?)`
-    ).bind(id,email,firstName,lastName,String(body.team||"Management").slice(0,80),pass.hash,pass.salt,pass.iterations,ts,ts,ts,ts).run();
+      `INSERT INTO users(id,email,first_name,last_name,role,team,password_hash,password_salt,password_iterations,active,created_at,updated_at,last_login_at,last_active_at,email_verified_at,registration_source)
+       VALUES(?,?,?,?, 'admin', ?,?,?,?,1,?,?,?,?,?,'bootstrap')`
+    ).bind(id,email,firstName,lastName,String(body.team||"Management").slice(0,80),pass.hash,pass.salt,pass.iterations,ts,ts,ts,ts,ts).run();
     const session = await createSession(request, env, id, true);
     const user = await env.DB.prepare("SELECT * FROM users WHERE id=?").bind(id).first();
     return apiJson(request, env, { ok:true, user:publicUser(user), ...session }, 201);
   });
 }
 
-async function register(request, env) {
+async function registerByInvite(request, env) {
   return withHttpErrors(request, env, async () => {
     const body = await bodyJson(request);
     const inviteToken = String(body.inviteToken || "").trim();
@@ -328,9 +374,13 @@ async function register(request, env) {
 async function login(request, env) {
   return withHttpErrors(request, env, async () => {
     const body = await bodyJson(request);
-    const email = normalizeEmail(body.email);
+    const contact = String(body.contact || body.email || "").trim();
+    const email = normalizeEmail(contact);
+    const phone = normalizePhone(contact);
     const password = String(body.password || "");
-    const user = validateEmail(email) ? await env.DB.prepare("SELECT * FROM users WHERE email=?").bind(email).first() : null;
+    let user = null;
+    if (validateEmail(email)) user = await env.DB.prepare("SELECT * FROM users WHERE email=?").bind(email).first();
+    else if (validatePhone(phone)) user = await env.DB.prepare("SELECT * FROM users WHERE phone=?").bind(phone).first();
     const ts = now();
 
     if (!user) {
