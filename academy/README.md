@@ -26,17 +26,17 @@ This branch implements the first functional vertical slice:
 
 1. responsive learner application under `academy/`;
 2. full three-level curriculum map;
-3. complete first Base module, **Safety & Control**;
+3. complete **Base** level with six active modules: Safety & Control, Anatomy & Bevels, Knife Shapes & Intended Use, Care & Cutting Boards, Sharpening Foundations, and Customer Discovery;
 4. English and Italian course data with stable IDs;
 5. formative question flow with explanation on every answer;
-6. delayed remediation/retest after 4–8 interactions;
+6. delayed remediation/retest after 4–8 interactions across module boundaries;
 7. per-concept mastery state;
-8. informational mini-test;
+8. informational mini-test for every Base module;
 9. local browser persistence for the beta;
 10. deterministic validation of course/question data and source-page references;
 11. GitHub Pages publication hook.
 
-The remaining modules are intentionally present as locked curriculum entries rather than low-quality placeholder lessons.
+Intermediate and Advanced remain mapped but locked until their reviewed question banks are ready.
 
 ## Source-of-truth rule
 
@@ -114,7 +114,7 @@ The final-certification contract is already fixed in course metadata:
 - critical knowledge errors allowed: 0;
 - failure requires remediation before retry.
 
-v0.1 does **not** expose a fake final certificate because only one module has a production-quality question bank. Certification is unlocked only when the required modules and final bank exist.
+v0.1 does **not** expose a fake final certificate. The entire Base level now has reviewed training content and question banks, but certification remains locked until the intended final assessment bank and durable learner identity/progress service exist.
 
 ## No gamification by default
 
