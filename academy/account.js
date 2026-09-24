@@ -77,7 +77,13 @@
   }
 
   function legalConfigured() {
-    return Boolean(String(cfg.privacyControllerName || "").trim() && String(cfg.privacyContactEmail || "").trim());
+    return Boolean(
+      String(cfg.privacyControllerName || "").trim() &&
+      String(cfg.privacyControllerAddress || "").trim() &&
+      String(cfg.privacyControllerVat || "").trim() &&
+      String(cfg.privacyContactName || "").trim() &&
+      String(cfg.privacyContactEmail || "").trim()
+    );
   }
 
   function applyVerificationAvailability() {
