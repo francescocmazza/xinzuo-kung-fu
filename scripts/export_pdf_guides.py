@@ -295,8 +295,8 @@ def render_cover_html(language_name: str, metadata: PublicationMetadata, hero_sr
     <section class="kb-cover">
       <div class="kb-cover__top">
         <h1 class="kb-cover__title">{html.escape(copy["title"])}</h1>
-        <p class="kb-cover__subtitle">{html.escape(copy["subtitle"])}<br>{html.escape(copy["strapline"])}</p>
-        <p class="kb-cover__author">Francesco Claudio Mazza<br>EU Brand and Operations Manager, Xinzuo</p>
+        <p class="kb-cover__subtitle">{html.escape(copy["subtitle"])}</p>
+        <p class="kb-cover__author">Francesco Claudio Mazza</p>
         <p class="kb-cover__language">{html.escape(language_name)}</p>
       </div>
       <div class="kb-cover__hero">
