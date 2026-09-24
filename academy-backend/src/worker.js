@@ -1086,7 +1086,7 @@ async function managerUserDetail(request, env, userId) {
 
 async function managerInvites(request, env) {
   return withHttpErrors(request, env, async () => {
-    await authenticate(request, env, ["manager","admin"]);
+    await authenticate(request, env, ["admin"]);
     const rows = await env.DB.prepare(
       `SELECT i.email,i.role,i.team,i.created_at,i.expires_at,i.used_at,u.first_name||' '||u.last_name created_by_name
        FROM invites i JOIN users u ON u.id=i.created_by ORDER BY i.created_at DESC LIMIT 100`
@@ -1097,20 +1097,19 @@ async function managerInvites(request, env) {
 
 async function createInvite(request, env) {
   return withHttpErrors(request, env, async () => {
-    const auth = await authenticate(request, env, ["manager","admin"]);
+    const auth = await authenticate(request, env, ["admin"]);
     const body = await bodyJson(request);
-    const role = body.role === "manager" ? "manager" : "staff";
-    if (role === "manager" && auth.user.role !== "admin") throw new HttpError(403, "forbidden", "Only an administrator can invite managers.");
+    const role = "manager";
     const email = normalizeEmail(body.email);
-    if (email && !validateEmail(email)) throw new HttpError(400, "invalid_email", "Invalid email.");
+    if (!validateEmail(email)) throw new HttpError(400, "invalid_email", "A valid manager email is required.");
     const days = Math.max(1,Math.min(30,Math.round(Number(body.days || 7))));
     const raw = randomToken(32);
     const hash = await sha256(raw);
     const ts = now();
     await env.DB.prepare(
       "INSERT INTO invites(token_hash,email,role,team,created_by,created_at,expires_at) VALUES(?,?,?,?,?,?,?)"
-    ).bind(hash,email || null,role,String(body.team || "").trim().slice(0,80) || null,auth.user.id,ts,ts + days*86400).run();
-    return apiJson(request, env, { ok:true, inviteToken:raw, expiresAt:ts + days*86400, email:email || null, role, team:String(body.team || "").trim() }, 201);
+    ).bind(hash,email,role,String(body.team || "Management").trim().slice(0,80) || null,auth.user.id,ts,ts + days*86400).run();
+    return apiJson(request, env, { ok:true, inviteToken:raw, expiresAt:ts + days*86400, email, role, team:String(body.team || "Management").trim() }, 201);
   });
 }
 
