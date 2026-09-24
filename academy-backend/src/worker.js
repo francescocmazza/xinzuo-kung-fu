@@ -371,6 +371,314 @@ async function registerByInvite(request, env) {
   });
 }
 
+
+function canSendVerification(channel, env) {
+  if (env.VERIFICATION_WEBHOOK_URL) return true;
+  if (channel === "email") return Boolean(env.RESEND_API_KEY && env.VERIFICATION_EMAIL_FROM);
+  if (channel === "sms") {
+    return Boolean(
+      env.TWILIO_ACCOUNT_SID &&
+      env.TWILIO_API_KEY &&
+      env.TWILIO_API_SECRET &&
+      (env.TWILIO_FROM_NUMBER || env.TWILIO_MESSAGING_SERVICE_SID)
+    );
+  }
+  return false;
+}
+
+function verificationCode() {
+  const bytes = new Uint32Array(1);
+  crypto.getRandomValues(bytes);
+  return String(bytes[0] % 1000000).padStart(6, "0");
+}
+
+async function verificationHash(challengeId, code, env) {
+  return sha256(`${challengeId}\u0000${code}\u0000${env.VERIFICATION_PEPPER || env.PASSWORD_PEPPER || ""}`);
+}
+
+async function sendVerification(channel, destination, code, env) {
+  if (env.VERIFICATION_WEBHOOK_URL) {
+    const response = await fetch(env.VERIFICATION_WEBHOOK_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        type: "xinzuo-academy-verification",
+        channel,
+        destination,
+        code,
+        expiresMinutes: VERIFICATION_TTL / 60
+      })
+    });
+    if (!response.ok) throw new HttpError(503, "verification_delivery_failed", "Unable to send verification code.");
+    return { providerMessageId: response.headers.get("X-Message-Id") || null };
+  }
+
+  if (channel === "email") {
+    if (!env.RESEND_API_KEY || !env.VERIFICATION_EMAIL_FROM) {
+      throw new HttpError(503, "verification_delivery_unavailable", "Email verification is not configured.");
+    }
+    const response = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${env.RESEND_API_KEY}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        from: env.VERIFICATION_EMAIL_FROM,
+        to: [destination],
+        subject: "Xinzuo Academy — verification code",
+        html: `<p>Your Xinzuo Academy verification code is:</p><p style="font-size:28px;font-weight:700;letter-spacing:.18em">${code}</p><p>The code expires in ${VERIFICATION_TTL / 60} minutes.</p>`
+      })
+    });
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      console.error("Resend verification error", payload);
+      throw new HttpError(503, "verification_delivery_failed", "Unable to send verification email.");
+    }
+    return { providerMessageId: payload.id || null };
+  }
+
+  if (channel === "sms") {
+    if (!canSendVerification("sms", env)) {
+      throw new HttpError(503, "verification_delivery_unavailable", "SMS verification is not configured.");
+    }
+    const base = String(env.TWILIO_API_BASE || "https://api.twilio.com/2010-04-01").replace(/\/$/, "");
+    const url = `${base}/Accounts/${encodeURIComponent(env.TWILIO_ACCOUNT_SID)}/Messages.json`;
+    const params = new URLSearchParams();
+    params.set("To", destination);
+    params.set("Body", `Xinzuo Academy verification code: ${code}. Expires in ${VERIFICATION_TTL / 60} minutes.`);
+    if (env.TWILIO_MESSAGING_SERVICE_SID) params.set("MessagingServiceSid", env.TWILIO_MESSAGING_SERVICE_SID);
+    else params.set("From", env.TWILIO_FROM_NUMBER);
+    const auth = btoa(`${env.TWILIO_API_KEY}:${env.TWILIO_API_SECRET}`);
+    const response = await fetch(url, {
+      method: "POST",
+      headers: {
+        "Authorization": `Basic ${auth}`,
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      body: params
+    });
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      console.error("Twilio verification error", payload);
+      throw new HttpError(503, "verification_delivery_failed", "Unable to send verification SMS.");
+    }
+    return { providerMessageId: payload.sid || null };
+  }
+
+  throw new HttpError(400, "invalid_channel", "Invalid verification channel.");
+}
+
+async function createVerificationChallenge(env, userId, channel, destination) {
+  if (!canSendVerification(channel, env)) {
+    throw new HttpError(503, "verification_delivery_unavailable", `${channel === "email" ? "Email" : "SMS"} verification is not configured.`);
+  }
+  const challengeId = crypto.randomUUID();
+  const code = verificationCode();
+  const codeHash = await verificationHash(challengeId, code, env);
+  const ts = now();
+  await env.DB.prepare(
+    `INSERT INTO verification_challenges(id,user_id,channel,destination,code_hash,created_at,expires_at,attempts,used_at,sent_at,provider_message_id)
+     VALUES(?,?,?,?,?,?,?,0,NULL,NULL,NULL)`
+  ).bind(challengeId,userId,channel,destination,codeHash,ts,ts+VERIFICATION_TTL).run();
+
+  try {
+    const sent = await sendVerification(channel, destination, code, env);
+    await env.DB.prepare("UPDATE verification_challenges SET sent_at=?,provider_message_id=? WHERE id=?")
+      .bind(now(),sent.providerMessageId,challengeId).run();
+  } catch (error) {
+    await env.DB.prepare("DELETE FROM verification_challenges WHERE id=?").bind(challengeId).run();
+    throw error;
+  }
+
+  return { challengeId, expiresAt: ts + VERIFICATION_TTL, destination: maskedDestination(channel,destination) };
+}
+
+async function recordConsent(env, userId, type, granted, version, source = "registration") {
+  await env.DB.prepare(
+    "INSERT INTO consent_events(user_id,consent_type,granted,policy_version,source,created_at) VALUES(?,?,?,?,?,?)"
+  ).bind(userId,type,granted ? 1 : 0,version || null,source,now()).run();
+}
+
+async function publicRegisterStart(request, env) {
+  return withHttpErrors(request, env, async () => {
+    const body = await bodyJson(request);
+    if (body.acceptTerms !== true || body.acceptPrivacy !== true) {
+      throw new HttpError(400, "required_acceptance", "Terms and privacy notice must be accepted.");
+    }
+
+    const firstName = cleanName(body.firstName, "first name");
+    const lastName = cleanName(body.lastName, "last name");
+    const email = normalizeEmail(body.email);
+    const phone = normalizePhone(body.phone);
+
+    const hasEmail = Boolean(email);
+    const hasPhone = Boolean(phone);
+    if (!hasEmail && !hasPhone) throw new HttpError(400, "contact_required", "Provide at least one email address or mobile number.");
+    if (hasEmail && !validateEmail(email)) throw new HttpError(400, "invalid_email", "Invalid email.");
+    if (hasPhone && !validatePhone(phone)) throw new HttpError(400, "invalid_phone", "Mobile number must use international format, for example +393331234567.");
+
+    const channel = String(body.verificationChannel || (hasEmail ? "email" : "sms"));
+    if (channel === "email" && !hasEmail) throw new HttpError(400, "verification_contact_missing", "Email is required for email verification.");
+    if (channel === "sms" && !hasPhone) throw new HttpError(400, "verification_contact_missing", "Mobile number is required for SMS verification.");
+    if (!["email","sms"].includes(channel)) throw new HttpError(400, "invalid_channel", "Invalid verification channel.");
+    if (!canSendVerification(channel, env)) {
+      throw new HttpError(503, "verification_delivery_unavailable", `${channel === "email" ? "Email" : "SMS"} verification is not configured.`);
+    }
+
+    const existing = await env.DB.prepare(
+      "SELECT id,active FROM users WHERE (? IS NOT NULL AND email=?) OR (? IS NOT NULL AND phone=?) LIMIT 1"
+    ).bind(hasEmail ? email : null,hasEmail ? email : null,hasPhone ? phone : null,hasPhone ? phone : null).first();
+    if (existing?.active) throw new HttpError(409, "account_exists", "An account already exists for this email or mobile number.");
+    if (existing && !existing.active) {
+      await env.DB.prepare("DELETE FROM users WHERE id=?").bind(existing.id).run();
+    }
+
+    const pass = await newPasswordRecord(body.password, env);
+    const id = crypto.randomUUID();
+    const ts = now();
+    const marketingEmail = Boolean(body.marketingEmailConsent && hasEmail);
+    const marketingSms = Boolean(body.marketingSmsConsent && hasPhone);
+    const marketingPhone = Boolean(body.marketingPhoneConsent && hasPhone);
+
+    await env.DB.prepare(
+      `INSERT INTO users(
+        id,email,phone,first_name,last_name,role,team,password_hash,password_salt,password_iterations,active,
+        created_at,updated_at,last_login_at,last_active_at,email_verified_at,phone_verified_at,contact_preference,
+        registration_source,terms_version,privacy_version,terms_accepted_at,privacy_accepted_at,
+        marketing_email_consent,marketing_sms_consent,marketing_phone_consent,marketing_consent_updated_at
+       ) VALUES(?,?,?,?,?,'staff',NULL,?,?,?,0,?,?,NULL,NULL,NULL,NULL,?,'public',?,?,?,?,?,?,?,?)`
+    ).bind(
+      id,hasEmail ? email : null,hasPhone ? phone : null,firstName,lastName,pass.hash,pass.salt,pass.iterations,
+      ts,ts,channel,TERMS_VERSION,PRIVACY_VERSION,ts,ts,
+      marketingEmail ? 1 : 0,marketingSms ? 1 : 0,marketingPhone ? 1 : 0,ts
+    ).run();
+
+    await Promise.all([
+      recordConsent(env,id,"terms",true,TERMS_VERSION),
+      recordConsent(env,id,"privacy",true,PRIVACY_VERSION),
+      recordConsent(env,id,"marketing_email",marketingEmail,PRIVACY_VERSION),
+      recordConsent(env,id,"marketing_sms",marketingSms,PRIVACY_VERSION),
+      recordConsent(env,id,"marketing_phone",marketingPhone,PRIVACY_VERSION)
+    ]);
+
+    const destination = channel === "email" ? email : phone;
+    const challenge = await createVerificationChallenge(env,id,channel,destination);
+    return apiJson(request, env, {
+      ok:true,
+      registrationId:id,
+      verificationChannel:channel,
+      maskedDestination:challenge.destination,
+      expiresAt:challenge.expiresAt,
+      termsVersion:TERMS_VERSION,
+      privacyVersion:PRIVACY_VERSION
+    }, 201);
+  });
+}
+
+async function publicRegisterVerify(request, env) {
+  return withHttpErrors(request, env, async () => {
+    const body = await bodyJson(request);
+    const registrationId = String(body.registrationId || "").trim();
+    const code = String(body.code || "").trim();
+    if (!registrationId || !/^\d{6}$/.test(code)) throw new HttpError(400, "invalid_verification", "Enter the six-digit verification code.");
+
+    const user = await env.DB.prepare("SELECT * FROM users WHERE id=?").bind(registrationId).first();
+    if (!user || user.active) throw new HttpError(400, "invalid_verification", "Registration is not awaiting verification.");
+
+    const challenge = await env.DB.prepare(
+      "SELECT * FROM verification_challenges WHERE user_id=? AND used_at IS NULL ORDER BY created_at DESC LIMIT 1"
+    ).bind(registrationId).first();
+    const ts = now();
+    if (!challenge || challenge.expires_at <= ts) throw new HttpError(400, "verification_expired", "Verification code expired.");
+    if (Number(challenge.attempts || 0) >= VERIFICATION_MAX_ATTEMPTS) {
+      throw new HttpError(429, "verification_locked", "Too many incorrect verification attempts.");
+    }
+
+    const expected = await verificationHash(challenge.id,code,env);
+    if (expected !== challenge.code_hash) {
+      await env.DB.prepare("UPDATE verification_challenges SET attempts=attempts+1 WHERE id=?").bind(challenge.id).run();
+      throw new HttpError(400, "invalid_verification", "Verification code is incorrect.");
+    }
+
+    const verifiedField = challenge.channel === "email" ? "email_verified_at" : "phone_verified_at";
+    await env.DB.batch([
+      env.DB.prepare(`UPDATE verification_challenges SET used_at=?,attempts=attempts+1 WHERE id=?`).bind(ts,challenge.id),
+      env.DB.prepare(`UPDATE users SET active=1,${verifiedField}=?,last_login_at=?,last_active_at=?,updated_at=? WHERE id=?`)
+        .bind(ts,ts,ts,ts,registrationId)
+    ]);
+
+    const session = await createSession(request,env,registrationId,Boolean(body.remember));
+    const fresh = await env.DB.prepare("SELECT * FROM users WHERE id=?").bind(registrationId).first();
+    return apiJson(request, env, { ok:true, user:publicUser(fresh), ...session });
+  });
+}
+
+async function publicRegisterResend(request, env) {
+  return withHttpErrors(request, env, async () => {
+    const body = await bodyJson(request);
+    const registrationId = String(body.registrationId || "").trim();
+    const user = await env.DB.prepare("SELECT * FROM users WHERE id=?").bind(registrationId).first();
+    if (!user || user.active) throw new HttpError(400, "invalid_registration", "Registration is not awaiting verification.");
+
+    const recent = await env.DB.prepare(
+      "SELECT created_at FROM verification_challenges WHERE user_id=? ORDER BY created_at DESC LIMIT 1"
+    ).bind(registrationId).first();
+    if (recent && now() - Number(recent.created_at) < 60) {
+      throw new HttpError(429, "resend_too_soon", "Wait before requesting another code.");
+    }
+
+    const channel = String(body.verificationChannel || user.contact_preference || (user.email ? "email" : "sms"));
+    const destination = channel === "email" ? user.email : user.phone;
+    if (!destination) throw new HttpError(400, "verification_contact_missing", "Verification contact is unavailable.");
+    const challenge = await createVerificationChallenge(env,registrationId,channel,destination);
+    return apiJson(request, env, {
+      ok:true,
+      registrationId,
+      verificationChannel:channel,
+      maskedDestination:challenge.destination,
+      expiresAt:challenge.expiresAt
+    });
+  });
+}
+
+async function getConsents(request, env) {
+  return withHttpErrors(request, env, async () => {
+    const auth = await authenticate(request,env);
+    return apiJson(request, env, {
+      ok:true,
+      consents:{
+        marketingEmail:Boolean(auth.user.marketing_email_consent),
+        marketingSms:Boolean(auth.user.marketing_sms_consent),
+        marketingPhone:Boolean(auth.user.marketing_phone_consent),
+        termsVersion:auth.user.terms_version || "",
+        privacyVersion:auth.user.privacy_version || ""
+      }
+    });
+  });
+}
+
+async function updateConsents(request, env) {
+  return withHttpErrors(request, env, async () => {
+    const auth = await authenticate(request,env);
+    const body = await bodyJson(request);
+    const emailConsent = Boolean(body.marketingEmail && auth.user.email);
+    const smsConsent = Boolean(body.marketingSms && auth.user.phone);
+    const phoneConsent = Boolean(body.marketingPhone && auth.user.phone);
+    const ts = now();
+    await env.DB.prepare(
+      "UPDATE users SET marketing_email_consent=?,marketing_sms_consent=?,marketing_phone_consent=?,marketing_consent_updated_at=?,updated_at=? WHERE id=?"
+    ).bind(emailConsent?1:0,smsConsent?1:0,phoneConsent?1:0,ts,ts,auth.user.id).run();
+    await Promise.all([
+      recordConsent(env,auth.user.id,"marketing_email",emailConsent,PRIVACY_VERSION,"account"),
+      recordConsent(env,auth.user.id,"marketing_sms",smsConsent,PRIVACY_VERSION,"account"),
+      recordConsent(env,auth.user.id,"marketing_phone",phoneConsent,PRIVACY_VERSION,"account")
+    ]);
+    const fresh = await env.DB.prepare("SELECT * FROM users WHERE id=?").bind(auth.user.id).first();
+    return apiJson(request,env,{ok:true,user:publicUser(fresh)});
+  });
+}
+
 async function login(request, env) {
   return withHttpErrors(request, env, async () => {
     const body = await bodyJson(request);
