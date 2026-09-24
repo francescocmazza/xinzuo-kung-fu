@@ -926,7 +926,11 @@
       el.registerForm.elements.inviteToken.value = invite;
       if (email) el.registerForm.elements.email.value = email;
       const privacyModule = el.registerForm.querySelector(".privacy-module");
-      if (privacyModule) privacyModule.hidden = true;
+      if (privacyModule) {
+        privacyModule.hidden = true;
+        privacyModule.querySelectorAll("input,select").forEach(node => { node.disabled = true; });
+      }
+      el.registerForm.elements.email.required = true;
     }
     if (reset) {
       el.loginForm.hidden = true;
