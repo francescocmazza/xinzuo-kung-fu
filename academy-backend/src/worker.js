@@ -503,6 +503,9 @@ async function recordConsent(env, userId, type, granted, version, source = "regi
 async function publicRegisterStart(request, env) {
   return withHttpErrors(request, env, async () => {
     const body = await bodyJson(request);
+    if (body.ageConfirmed !== true) {
+      throw new HttpError(400, "age_required", "Public registration is currently available to adults aged 18 or over.");
+    }
     if (body.acceptTerms !== true || body.acceptPrivacy !== true) {
       throw new HttpError(400, "required_acceptance", "Terms and privacy notice must be accepted.");
     }
