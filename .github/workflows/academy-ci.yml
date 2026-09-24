@@ -6,6 +6,8 @@ on:
       - "academy/**"
       - "scripts/validate_academy.py"
       - ".github/workflows/academy-ci.yml"
+      - ".github/workflows/academy-pages.yml"
+      - ".github/workflows/pages.yml"
   push:
     branches:
       - "academy/**"
@@ -13,6 +15,8 @@ on:
       - "academy/**"
       - "scripts/validate_academy.py"
       - ".github/workflows/academy-ci.yml"
+      - ".github/workflows/academy-pages.yml"
+      - ".github/workflows/pages.yml"
 
 permissions:
   contents: read
