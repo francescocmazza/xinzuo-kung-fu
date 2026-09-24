@@ -2670,12 +2670,601 @@
         {
           "id": "base-customer-discovery",
           "title": "Analisi delle esigenze del cliente",
-          "status": "planned",
+          "status": "active",
           "source_paths": [
             "05-knife-types/overview.md",
             "05-knife-types/weight-and-balance.md"
           ],
-          "summary": "Parti da alimenti, quantità, movimento e adattamento ergonomico prima di discutere acciaio, estetica o prezzo."
+          "summary": "Consiglia prima in base a funzione ed ergonomia; usa acciaio, costruzione, estetica e prezzo solo per completare la scelta.",
+          "lessons": [
+            {
+              "id": "bcd-01-discover-work",
+              "concept_id": "consultation.discover_work",
+              "title": "Scopri il lavoro reale del cliente",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Una buona consulenza parte dalla cucina del cliente, non da una presentazione del prodotto.",
+                "points": [
+                  "Chiedi quali alimenti taglia più spesso e in quali quantità.",
+                  "Chiedi se lavora soprattutto sul tagliere o in mano e quali movimenti usa: chop, push cut, rocking, affettatura lunga, disosso, sfilettatura o dettaglio fine.",
+                  "Chiedi quali difficoltà ricorrono: lama troppo grande, poco spazio per le nocche, punta difficile da controllare, peso eccessivo o lunghezza insufficiente."
+                ],
+                "takeaway": "Più il lavoro è definito bene, più la shortlist diventa piccola e utile."
+              },
+              "question": {
+                "id": "bcd-q01",
+                "prompt": "Qual è la domanda iniziale più utile in una consulenza su un coltello?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Qual è il massimo che vuoi spendere?"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Quali alimenti tagli più spesso, in quali quantità e con quali movimenti?"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Preferisci il Damasco?"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Vuoi l'acciaio più duro?"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Il lavoro del cliente definisce i requisiti funzionali prima di confrontare le caratteristiche del prodotto."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r01a",
+                  "prompt": "Perché chiedere le quantità oltre al tipo di alimento?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Il volume cambia quanto contano lunghezza utile, efficienza, peso e comfort nei movimenti ripetuti"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Rivela il reddito del cliente"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Determina la composizione dell'acciaio"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Indica quale confezione usare"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Lo stesso alimento preparato saltuariamente o in grandi volumi può favorire misure e maneggevolezze diverse."
+                },
+                {
+                  "id": "bcd-r01b",
+                  "prompt": "Un cliente dice solo «Mi serve un buon coltello». Che cosa deve fare il personale?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Mostrare il modello più costoso"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Fare domande su compiti e movimenti prima di restringere la scelta"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Scegliere l'HRC più alto"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Scegliere la serie più nuova"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Una richiesta vaga va trasformata in requisiti funzionali."
+                }
+              ]
+            },
+            {
+              "id": "bcd-02-function",
+              "concept_id": "consultation.function_first",
+              "title": "Scegli prima la famiglia funzionale",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "La forma della lama risolve il problema di lavoro prima che entrino in gioco acciaio o decorazione.",
+                "points": [
+                  "Il lavoro ampio sul tagliere richiede sufficiente altezza e contatto utile; porzioni lunghe e pulite richiedono lunghezza da slicer.",
+                  "Lavorare attorno all'osso richiede geometrie strette e controllabili; seguire i profili del pesce può richiedere una flessibilità progettata; il dettaglio fine beneficia di una punta precisa.",
+                  "Non consigliare una forma specialistica solo perché è vistosa."
+                ],
+                "takeaway": "Risolvi prima il compito meccanico."
+              },
+              "question": {
+                "id": "bcd-q02",
+                "prompt": "In quale fase va confrontato l'acciaio tra modelli diversi?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Prima di capire il lavoro"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Dopo aver identificato modelli la cui forma e funzione sono già adatte al lavoro del cliente"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Solo dopo il pagamento"
+                  },
+                  {
+                    "id": "d",
+                    "text": "L'acciaio non va mai discusso"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "L'acciaio differenzia coltelli già adatti; non può rendere adatta una famiglia di lama sbagliata."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r02a",
+                  "prompt": "Un cliente fa spesso lunghi tagli di carving. Quale caratteristica va risolta per prima?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Una famiglia di lama con lunghezza e geometria adatte allo slicing"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Il motivo Damasco più complesso"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Un codolo intero a prescindere dalla forma"
+                    },
+                    {
+                      "id": "d",
+                      "text": "La durezza più alta possibile"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "La geometria funzionale viene prima dei fattori secondari."
+                },
+                {
+                  "id": "bcd-r02b",
+                  "prompt": "Che cosa c'è di sbagliato nel consigliare un coltello specialistico soprattutto perché è scenografico?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Nulla"
+                    },
+                    {
+                      "id": "b",
+                      "text": "La sua geometria può risolvere un problema diverso dal lavoro reale del cliente"
+                    },
+                    {
+                      "id": "c",
+                      "text": "I coltelli specialistici costano sempre meno"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Non possono essere affilati"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Una forma specialistica è utile solo se il suo compito meccanico coincide con le esigenze dell'utente."
+                }
+              ]
+            },
+            {
+              "id": "bcd-03-grip-balance",
+              "concept_id": "consultation.grip_and_balance",
+              "title": "Valuta il bilanciamento nella presa reale del cliente",
+              "critical": false,
+              "source_path": "05-knife-types/weight-and-balance.md",
+              "content": {
+                "lead": "Il coltello ha un centro di massa fisico, ma il bilanciamento percepito dipende da dove la mano lo controlla.",
+                "points": [
+                  "Con una presa sul manico la mano è più arretrata, quindi un bilanciamento verso la lama si percepisce maggiormente.",
+                  "Con una presa intermedia/ibrida il controllo si sposta verso il bolster; con il pinch grip pollice e indice controllano la lama appena davanti ad esso.",
+                  "Un coltello percepito molto blade-heavy da dietro può sembrare quasi neutro con un pinch grip avanzato."
+                ],
+                "takeaway": "Non chiedere solo «È ben bilanciato?». Chiedi «Come si bilancia nella tua presa abituale?»"
+              },
+              "question": {
+                "id": "bcd-q03",
+                "prompt": "Perché due persone possono avere opinioni diverse sul fatto che lo stesso coltello sia blade-heavy?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Il bilanciamento cambia la lega dell'acciaio"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Posizioni di presa diverse creano leve diverse rispetto allo stesso centro di massa"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Il coltello cambia peso tra un utente e l'altro"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Conta solo la dimensione della mano"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Il bilanciamento percepito dipende dal punto in cui la mano controlla il coltello."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r03a",
+                  "prompt": "Che cosa deve fare il personale prima di giudicare il bilanciamento ergonomico per un cliente?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Usare solo la propria presa preferita"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Lasciare che il cliente lo impugni come cucina normalmente"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Leggere solo il peso dichiarato"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Scegliere il manico più lungo"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Il bilanciamento rilevante è quello percepito nella presa naturale del cliente."
+                },
+                {
+                  "id": "bcd-r03b",
+                  "prompt": "Un coltello può sembrare più neutro spostando la mano in avanti in pinch grip?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sì, perché le dita di controllo si avvicinano alla massa della lama"
+                    },
+                    {
+                      "id": "b",
+                      "text": "No, la presa non cambia mai il bilanciamento percepito"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Solo se è monobisello"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Solo se il manico è in legno"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Spostare la presa cambia la leva tra la mano e la distribuzione delle masse."
+                }
+              ]
+            },
+            {
+              "id": "bcd-04-fit",
+              "concept_id": "consultation.ergonomic_fit",
+              "title": "Usa il negozio per verificare l'ergonomia",
+              "critical": false,
+              "source_path": "05-knife-types/weight-and-balance.md",
+              "content": {
+                "lead": "Le specifiche restringono il campo; la mano del cliente decide tra opzioni tecnicamente adatte.",
+                "points": [
+                  "Confronta forma, circonferenza e profilo del manico, transizione del bolster, peso totale e bilanciamento.",
+                  "Metti nella mano del cliente più coltelli funzionalmente adatti invece di forzare un unico modello «migliore».",
+                  "Piccole differenze nel profilo del manico o nella distribuzione delle masse possono cambiare molto comfort e controllo."
+                ],
+                "takeaway": "Il vantaggio del negozio è il confronto nella mano del cliente."
+              },
+              "question": {
+                "id": "bcd-q04",
+                "prompt": "Qual è il miglior uso del negozio fisico dopo aver identificato la famiglia di lama corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Confrontare l'ergonomia di più coltelli adatti"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Spingere un unico best seller universale"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Evitare che il cliente impugni i coltelli"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Ignorare il bilanciamento e parlare della confezione"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "L'impugnatura diretta rivela differenze che specifiche e fotografie non mostrano completamente."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r04a",
+                  "prompt": "Due coltelli risolvono lo stesso bisogno funzionale. Che cosa si fa dopo?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Si lascia confrontare al cliente presa, manico, peso e bilanciamento"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Si sceglie automaticamente quello più costoso"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Si sceglie solo per durezza"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Si sceglie solo per estetica"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Dopo la funzione, l'ergonomia è il criterio successivo."
+                },
+                {
+                  "id": "bcd-r04b",
+                  "prompt": "Perché pochi millimetri nel profilo del manico possono contare?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Possono cambiare dove si appoggiano le dita e come il polso sostiene la lama"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Cambiano la chimica della lega"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Determinano il rapporto dei biselli"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Allungano la lama"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Piccole differenze nell'interfaccia con la mano possono cambiare controllo e comfort."
+                }
+              ]
+            },
+            {
+              "id": "bcd-05-selection",
+              "concept_id": "consultation.function_fit_selection",
+              "title": "Completa la scelta con i fattori di prodotto",
+              "critical": false,
+              "source_path": "05-knife-types/weight-and-balance.md",
+              "content": {
+                "lead": "Quando funzione ed ergonomia sono corrette, le altre caratteristiche completano la scelta invece di distrarre.",
+                "points": [
+                  "Confronta acciaio, trattamento termico, costruzione, materiale del manico, finitura, estetica e prezzo tra modelli già adatti al lavoro e all'utente.",
+                  "Spiega i compromessi invece di dichiarare un «miglior coltello» universale.",
+                  "Ricorda il metodo: function, fit, selection."
+                ],
+                "takeaway": "Le caratteristiche completano una buona raccomandazione; non sostituiscono l'idoneità."
+              },
+              "question": {
+                "id": "bcd-q05",
+                "prompt": "Qual è l'ordine corretto per una raccomandazione in negozio?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Acciaio → prezzo → forma"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Function → fit → selection"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Estetica → durezza → presa"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Prezzo → Damasco → funzione"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Prima si risolve il lavoro, poi l'ergonomia, infine si sceglie tra prodotti già adatti."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcd-r05a",
+                  "prompt": "Quando estetica e prezzo dovrebbero diventare decisivi?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Prima di verificare l'idoneità"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Quando si sceglie tra opzioni che soddisfano già funzione ed ergonomia"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Devono sempre superare l'ergonomia"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Non vanno mai discussi"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "I fattori secondari diventano utili dopo aver eliminato le opzioni inadatte."
+                },
+                {
+                  "id": "bcd-r05b",
+                  "prompt": "Qual è una frase migliore di «questo è il coltello migliore»?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Tra quelli confrontati, questo modello si adatta meglio al lavoro e alla presa che hai descritto"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ha il numero più alto, quindi è il migliore"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Lo comprano tutti"
+                    },
+                    {
+                      "id": "d",
+                      "text": "L'acciaio più duro è sempre migliore"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Una buona raccomandazione è legata ai requisiti del cliente, non a una classifica universale."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bcd-mini-01",
+            "title": "Verifica Analisi esigenze cliente",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bcd-m01",
+                "concept_id": "consultation.discover_work",
+                "critical": false,
+                "prompt": "Che cosa devono stabilire le prime domande?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Alimenti, quantità e movimenti"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Solo il budget"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Solo l'estetica"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Solo l'HRC"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Il lavoro del cliente è il punto di partenza."
+              },
+              {
+                "id": "bcd-m02",
+                "concept_id": "consultation.function_first",
+                "critical": false,
+                "prompt": "Che cosa viene prima del confronto tra acciai?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Identificare famiglie di lama adatte"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Scegliere la confezione"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Selezionare il modello più costoso"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Nulla"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "La geometria deve prima risolvere il compito."
+              },
+              {
+                "id": "bcd-m03",
+                "concept_id": "consultation.grip_and_balance",
+                "critical": false,
+                "prompt": "Che cosa determina il bilanciamento percepito oltre alla distribuzione delle masse?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "La posizione della presa"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Il colore della scatola"
+                  },
+                  {
+                    "id": "c",
+                    "text": "La dimensione del logo"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Il paese indicato"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "La presa cambia la leva."
+              },
+              {
+                "id": "bcd-m04",
+                "concept_id": "consultation.ergonomic_fit",
+                "critical": false,
+                "prompt": "Che cosa dovrebbe confrontare il cliente in negozio?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Più coltelli funzionalmente adatti nella propria presa naturale"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Un solo best seller"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Solo i cartellini prezzo"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Solo i motivi della lama"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "L'impugnatura diretta mostra l'adattamento ergonomico."
+              },
+              {
+                "id": "bcd-m05",
+                "concept_id": "consultation.function_fit_selection",
+                "critical": false,
+                "prompt": "Quale sequenza riassume il metodo di consulenza Xinzuo?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Function → fit → selection"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Prezzo → acciaio → funzione"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Motivo → durezza → fit"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Brand → prezzo → misura"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "È il metodo definito nella knowledge base."
+              }
+            ]
+          }
         }
       ]
     },
