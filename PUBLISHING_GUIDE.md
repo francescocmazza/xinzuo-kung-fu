@@ -2,15 +2,13 @@
 
 English under `content/en/` is the only source of truth. Active translations live under `translations/<locale>/` and are committed to Git so they can be reviewed exactly like any other book change.
 
-## Current active languages
+## Publication-ready languages
 
-The current publication scope is:
+English (`en`) is always published. Every configured non-English locale with `publish_when_complete: true` is published **automatically as soon as its complete committed translation is current and structurally valid**.
 
-- English (`en`) — source of truth
-- Italian (`it`)
-- Simplified Chinese (`zh-Hans`)
+Publication is therefore dynamic rather than controlled by a fixed language list. An incomplete language is simply skipped and never blocks languages that are already ready. For example, the book can publish English and Italian while Simplified Chinese is still being translated; as soon as Simplified Chinese reaches 100%, the next publication automatically includes its website and PDF too. The same rule applies to future languages such as Dutch.
 
-Other locales remain configured but inactive until their terminology and review policy are ready.
+The current translation set includes Italian and Simplified Chinese. Other left-to-right locales are prepared for the same publish-when-complete mechanism. Right-to-left locales remain excluded from automatic publication until the RTL publication path is explicitly enabled.
 
 ## Core rule: no translation API and no API credits
 
@@ -22,7 +20,8 @@ GitHub performs only deterministic work:
 2. compare those units with committed translation memory;
 3. create `.translation/queue.json` containing only missing or changed units;
 4. validate completed translations;
-5. block publication if any active translation is stale, missing, legacy or structurally invalid.
+5. classify each configured locale as READY or WAIT;
+6. publish only the READY set, while incomplete locales remain in the translation queue.
 
 The actual language work is performed in ChatGPT or Codex using the user's ChatGPT plan. This uses the plan's included ChatGPT/agentic allowance rather than API billing. If the included allowance is exhausted, the workflow can wait for the plan reset rather than buying API credits.
 
@@ -120,7 +119,8 @@ For an ordinary content change:
 5. the completed translation files are committed into the same PR;
 6. review the translation diff where appropriate;
 7. merge only after translation checks are green;
-8. the `main` publication workflow builds and publishes from the committed translations.
+8. the `main` publication workflow resolves the READY locale set and builds only those languages;
+9. one PDF is generated automatically for every READY locale and attached to the numbered GitHub Release.
 
 Publication never generates a translation itself.
 
@@ -168,13 +168,15 @@ python scripts/chatgpt_translate.py \
   --locales es fr de
 ~~~
 
-A locale should not be activated for public publication until its specialist terminology and review policy are ready.
+For left-to-right locales configured with `publish_when_complete: true`, no later workflow edit is required: once every page passes the translation validator, `scripts/publication_locales.py` automatically promotes the locale into the website, downloadable packages and PDF release. Locale-specific PDF cover/edition copy can be supplied in `localization/locales.yml`; Dutch is already prepared as an example.
 
 ## Publication and exports
 
 **Publish book, PDFs and GitHub Pages**, **Export PDF guides** and **Export multilingual guide** consume committed translations only.
 
-Before non-English publication/export they run `scripts/chatgpt_translate.py --check-only`. Missing, stale, legacy or structurally inconsistent translations stop the job.
+Publication first runs `scripts/publication_locales.py`. A locale is READY only when every English Markdown source has a complete, current and structurally valid ChatGPT translation. Missing, stale, legacy or malformed translations make **that locale** WAIT; they do not block other READY languages.
+
+The release asset list is dynamic: checksum + HTML package + Markdown package + one PDF for every READY locale. When a new language becomes complete, the next Revision gains its PDF automatically.
 
 This separation is deliberate: translation is reviewable content work; publication is deterministic packaging and deployment.
 
@@ -201,6 +203,7 @@ localization/locales.yml                   Locale configuration and language gui
 scripts/chatgpt_translate.py               Queue/apply/validation engine; no model calls
 scripts/test_chatgpt_translate.py          Differential translation regression tests
 scripts/multilingual_site.py               Source-hash validation and multilingual build
+scripts/publication_locales.py              READY/WAIT resolver + dynamic release asset list
 .github/workflows/translation-status.yml   Queue generation + translation status
 .github/workflows/pages.yml                Publication and GitHub Pages deployment
 .github/workflows/export-pdf.yml           PDF export
