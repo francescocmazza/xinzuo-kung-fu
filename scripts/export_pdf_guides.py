@@ -37,6 +37,7 @@ from playwright.sync_api import sync_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from publication_metadata import PublicationMetadata, get_metadata  # noqa: E402
+from publication_locales import locale_asset_tag, ready_locales  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
@@ -289,8 +290,21 @@ def wait_for_images_loaded(page, context_label: str) -> None:
         ) from exc
 
 
-def render_cover_html(language_name: str, metadata: PublicationMetadata, hero_src: str) -> str:
-    copy = COVER_COPY.get(language_name, COVER_COPY["English"])
+def _cover_copy(cfg: dict[str, Any]) -> dict[str, str]:
+    base = dict(COVER_COPY.get(cfg["name"], COVER_COPY["English"]))
+    base.update(cfg.get("pdf_cover", {}) or {})
+    return base
+
+
+def _edition_copy(cfg: dict[str, Any]) -> dict[str, str]:
+    base = dict(EDITION_COPY.get(cfg["name"], EDITION_COPY["English"]))
+    base.update(cfg.get("pdf_edition", {}) or {})
+    return base
+
+
+def render_cover_html(cfg: dict[str, Any], metadata: PublicationMetadata, hero_src: str) -> str:
+    language_name = cfg["name"]
+    copy = _cover_copy(cfg)
     return f"""
     <section class="kb-cover">
       <div class="kb-cover__top">
@@ -338,8 +352,9 @@ def render_chapter_html(node: dict) -> str:
     return f'<section class="kb-chapter" id="{node["id"]}">{node["html"]}</section>'
 
 
-def render_edition_html(language_name: str, metadata: PublicationMetadata) -> str:
-    copy = EDITION_COPY.get(language_name, EDITION_COPY["English"])
+def render_edition_html(cfg: dict[str, Any], metadata: PublicationMetadata) -> str:
+    language_name = cfg["name"]
+    copy = _edition_copy(cfg)
     return f"""
     <section class="kb-edition">
       <div class="kb-edition__content">
@@ -376,7 +391,7 @@ def assemble_cover_document(cfg: dict, metadata: PublicationMetadata, css_text: 
     """A standalone one-page document for the cover, printed without a footer."""
     direction = cfg.get("direction", "ltr")
     lang = cfg.get("mkdocs_language", "en")
-    cover = render_cover_html(cfg["name"], metadata, hero_src)
+    cover = render_cover_html(cfg, metadata, hero_src)
     return _wrap_document(lang, direction, "", f"The Gongfu of Xinzuo - {cfg['name']}", css_text, cover)
 
 
@@ -401,7 +416,7 @@ def assemble_rest_document(
     body_class = "kb-placeholders-hidden" if hide_placeholders else ""
     toc = render_toc_html(tree)
     chapters = "".join(render_chapter_html(node) for node in flat)
-    edition = render_edition_html(cfg["name"], metadata)
+    edition = render_edition_html(cfg, metadata)
     return _wrap_document(
         lang, direction, body_class, f"The Gongfu of Xinzuo - {cfg['name']}", css_text, toc + chapters + edition
     )
@@ -476,7 +491,7 @@ def render_locale_pdf(
         merge_pdfs(
             [cover_pdf, rest_pdf],
             pdf_path,
-            language_name=cfg["name"],
+            cfg=cfg,
             metadata=metadata,
         )
     finally:
@@ -494,13 +509,14 @@ def merge_pdfs(
     parts: list[Path],
     destination: Path,
     *,
-    language_name: str,
+    cfg: dict[str, Any],
     metadata: PublicationMetadata,
 ) -> None:
     from pypdf import PdfReader, PdfWriter
 
+    language_name = cfg["name"]
     title = f"The Gongfu of Xinzuo - {language_name}"
-    copy = COVER_COPY.get(language_name, COVER_COPY["English"])
+    copy = _cover_copy(cfg)
 
     writer = PdfWriter()
     for part in parts:
@@ -529,20 +545,20 @@ def merge_pdfs(
 def main() -> int:
     args = parse_args()
     locale_cfg = read_yaml(LOCALES_CONFIG).get("locales", {})
-    deployed = [code for code, cfg in locale_cfg.items() if cfg.get("deploy")]
+    available = ready_locales()
 
     if args.locales == ["all"]:
-        requested = deployed
+        requested = available
     else:
         requested = args.locales
         unknown = [code for code in requested if code not in locale_cfg]
         if unknown:
             raise SystemExit(f"Unknown locale(s): {', '.join(unknown)}")
-        disabled = [code for code in requested if code not in deployed]
-        if disabled:
+        unavailable = [code for code in requested if code not in available]
+        if unavailable:
             raise SystemExit(
-                f"Locale(s) are not enabled for PDF export: {', '.join(disabled)}. "
-                f"Active locales: {', '.join(deployed)}"
+                f"Locale(s) are not publication-ready: {', '.join(unavailable)}. "
+                f"Ready locales: {', '.join(available)}"
             )
 
     build_site(requested)
@@ -578,7 +594,9 @@ def main() -> int:
             try:
                 for code in requested:
                     cfg = locale_cfg[code]
-                    pdf_stem = PDF_NAME_BY_LOCALE.get(code, f"The-Gongfu-of-Xinzuo-{code.upper()}")
+                    pdf_stem = PDF_NAME_BY_LOCALE.get(
+                        code, f"The-Gongfu-of-Xinzuo-{locale_asset_tag(code)}"
+                    )
                     pdf_path = output_dir / f"{pdf_stem}-{metadata.version_label}.pdf"
                     print(f"Rendering {code} -> {pdf_path.name}", flush=True)
                     render_locale_pdf(
