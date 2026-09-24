@@ -42,8 +42,17 @@ def _plain_text(value: str) -> str:
     return " ".join(value.split()).strip()
 
 
+def _strip_tx_unit_markers(markdown: str) -> str:
+    """Remove translation-memory comments while preserving paragraph boundaries."""
+    return re.sub(
+        r"(?m)^[ \\t]*<!-- [ \\t]*(?:tx-unit:[0-9a-f]{64}|/tx-unit)[ \\t]*-->[ \\t]*$",
+        "",
+        markdown,
+    )
+
+
 def _extract_back_cover_text(markdown: str, path: Path) -> dict[str, object]:
-    body = _strip_front_matter(markdown)
+    body = _strip_tx_unit_markers(_strip_front_matter(markdown))
     title_match = re.search(r"(?m)^#\s+(.+?)\s*$", body)
     headline_match = re.search(r"(?m)^##\s+(.+?)\s*$", body)
     h3_matches = list(re.finditer(r"(?m)^###\s+(.+?)\s*$", body))
