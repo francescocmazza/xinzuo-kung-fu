@@ -1,0 +1,793 @@
+{
+  "schema_version": "1.0",
+  "course_version": "0.1.0",
+  "locale": "en",
+  "title": "Xinzuo Academy",
+  "subtitle": "Interactive staff training from The Gongfu of Xinzuo",
+  "certification": {
+    "minimum_score": 0.8,
+    "maximum_critical_errors": 0,
+    "remediation_required_before_retry": true
+  },
+  "mastery_states": [
+    "unseen",
+    "weak",
+    "nearly_acquired",
+    "acquired"
+  ],
+  "levels": [
+    {
+      "id": "base",
+      "title": "Base",
+      "purpose": "Safe, accurate product knowledge and correct everyday knife use.",
+      "modules": [
+        {
+          "id": "base-safety-control",
+          "title": "Safety & Control",
+          "status": "active",
+          "source_paths": [
+            "08-use-and-safety/safe-use-and-carrying.md"
+          ],
+          "summary": "Build predictable habits before speed: stable workstation, stable food, correct tool, controlled force and safe handling.",
+          "lessons": [
+            {
+              "id": "bsc-01-workstation",
+              "concept_id": "safety.workstation",
+              "title": "Make the workstation predictable",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Many knife accidents begin before the blade touches food.",
+                "points": [
+                  "Stabilize the board before cutting.",
+                  "Keep the cutting path clear and the work area dry and well lit.",
+                  "Dry hands and handle, stabilize the food, choose the correct knife, then identify the blade path."
+                ],
+                "takeaway": "Stable board. Stable food. Clear path. Hidden fingertips."
+              },
+              "question": {
+                "id": "bsc-q01",
+                "prompt": "What should happen before the first cut?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Start slowly and stabilize the board only if it moves."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Stabilize the board and food, clear the blade path, then choose and position the knife."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Hold the food firmly and use extra downward pressure."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Wet the board so the knife cannot bounce."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Safety starts before cutting. The board, ingredient and cutting path must already be controlled."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r01a",
+                  "prompt": "The board moves slightly when you begin slicing. What is the correct response?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Grip the knife more tightly."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Stop and stabilize the board before continuing."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Use shorter, faster strokes."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Move the food closer to the board edge."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "A moving board makes every later movement less predictable. Correct the workstation first."
+                },
+                {
+                  "id": "bsc-r01b",
+                  "prompt": "Which check best matches the Academy safety rule?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sharp knife, fast cut, strong grip, clean board."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Stable board, stable food, clear path, hidden fingertips."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Heavy knife, dry food, straight edge, wide stance."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Large board, soft steel, slow cut, open fingertips."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The four-part rule is a compact pre-cut check, not a performance technique."
+                }
+              ]
+            },
+            {
+              "id": "bsc-02-food",
+              "concept_id": "safety.food_stability",
+              "title": "Stabilize the ingredient",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Round and irregular ingredients can move under the blade.",
+                "points": [
+                  "Create a flat surface on round produce before the main cuts.",
+                  "Divide large or irregular food into manageable sections.",
+                  "Do not force a fine kitchen knife into unsuitable frozen food."
+                ],
+                "takeaway": "If the ingredient can roll, the cut is not ready to begin."
+              },
+              "question": {
+                "id": "bsc-q02",
+                "prompt": "What is the safest first action with a round potato that rolls on the board?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Hold it harder with the fingertips."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Use a heavier knife."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Create a flat face and place that face on the board."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Start with the tip and increase speed."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "A flat face turns an unstable ingredient into a predictable one before the main cutting starts."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r02a",
+                  "prompt": "A large irregular vegetable cannot be held securely. What should you do?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Use more force so the knife finishes in one stroke."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Divide it into manageable, stable sections before continuing."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Change to a flexible knife."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Support it with fingers directly in the cutting line."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The geometry of the task should be made stable before adding force."
+                },
+                {
+                  "id": "bsc-r02b",
+                  "prompt": "Why is a flat base useful on an onion, melon or potato?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It makes the steel harder."
+                    },
+                    {
+                      "id": "b",
+                      "text": "It reduces food adhesion."
+                    },
+                    {
+                      "id": "c",
+                      "text": "It reduces rolling and makes the cutting path more predictable."
+                    },
+                    {
+                      "id": "d",
+                      "text": "It allows sideways scraping."
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "The goal is mechanical stability, not cutting speed."
+                }
+              ]
+            },
+            {
+              "id": "bsc-03-tool",
+              "concept_id": "safety.tool_fit_and_lateral_stress",
+              "title": "Use the right knife and avoid lateral stress",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "A knife can be strong in the intended cutting direction and vulnerable to twisting or levering.",
+                "points": [
+                  "Do not use kitchen knives as pry bars, screwdrivers, can openers or levers.",
+                  "Do not twist a blade free when it binds in dense food.",
+                  "Do not scrape the board sideways with the cutting edge; use the spine, blade face or a bench scraper."
+                ],
+                "takeaway": "Choose geometry for the task and keep load aligned with the cut."
+              },
+              "question": {
+                "id": "bsc-q03",
+                "prompt": "A thin hard blade becomes stuck in dense food. What is the correct action?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Twist the handle gently until the food opens."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Strike the spine with the free hand."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Withdraw it carefully and adjust the cut."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Push sideways with the blade face."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Twisting creates lateral stress. Withdraw and change the cut instead of levering the blade."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r03a",
+                  "prompt": "Which use is inappropriate for a fine kitchen knife?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Slicing boneless meat."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Cutting vegetables on a suitable board."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Prying apart two frozen objects."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Drawing through herbs with controlled technique."
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "A kitchen knife is a cutting tool, not a lever."
+                },
+                {
+                  "id": "bsc-r03b",
+                  "prompt": "Why should the cutting edge not be used to scrape food sideways across the board?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It can expose the edge to damaging lateral load."
+                    },
+                    {
+                      "id": "b",
+                      "text": "It makes the knife too warm."
+                    },
+                    {
+                      "id": "c",
+                      "text": "It removes the Damascus pattern."
+                    },
+                    {
+                      "id": "d",
+                      "text": "It changes the handle balance permanently."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Sideways scraping loads the fine apex in a direction it is not designed to take."
+                }
+              ]
+            },
+            {
+              "id": "bsc-04-hands-force",
+              "concept_id": "safety.hands_and_force",
+              "title": "Set the supporting hand and use only necessary force",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Control comes from hand position and deliberate movement, not from squeezing harder.",
+                "points": [
+                  "Set the supporting hand before moving the knife.",
+                  "Keep fingertips outside the cutting path; the claw grip is a moving guide, not a speed trick.",
+                  "If a well-sharpened knife needs excessive force, stop and identify the cause."
+                ],
+                "takeaway": "Set the hand first, then move the knife."
+              },
+              "question": {
+                "id": "bsc-q04",
+                "prompt": "A sharp knife suddenly seems to require excessive force. What should you do?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Increase downward pressure to finish the cut."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Stop and check the edge, food stability, knife choice and movement."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Move the supporting hand closer to the edge."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Use a faster rocking motion regardless of knife profile."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Unexpected resistance is information. Diagnose the cause rather than compensating with force."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r04a",
+                  "prompt": "When should the supporting hand be positioned?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "After the first cut shows where the blade will travel."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Before the knife starts moving."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only for very small ingredients."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only when using a pinch grip."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "The supporting hand defines a safe path before the blade moves."
+                },
+                {
+                  "id": "bsc-r04b",
+                  "prompt": "What does excessive force most often tell you?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The cut should be made faster."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Something about edge condition, stability, knife choice or technique should be checked."
+                    },
+                    {
+                      "id": "c",
+                      "text": "The handle material is wrong."
+                    },
+                    {
+                      "id": "d",
+                      "text": "The knife needs a thicker Damascus pattern."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Force is not the default solution to a cut that is behaving incorrectly."
+                }
+              ]
+            },
+            {
+              "id": "bsc-05-handling",
+              "concept_id": "safety.washing_transfer_carrying",
+              "title": "Control the knife when cutting stops",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Safe habits continue during washing, passing and carrying.",
+                "points": [
+                  "Never leave a knife hidden under soapy water or mixed with objects in a sink.",
+                  "Pass a knife deliberately with the handle oriented to the receiver and the edge clear of fingers.",
+                  "For short movement, keep the knife low, close to the body, still and with the tip toward the floor."
+                ],
+                "takeaway": "A knife must remain visible, controlled and predictable even when it is not cutting."
+              },
+              "question": {
+                "id": "bsc-q05",
+                "prompt": "Which situation is explicitly unsafe?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Washing one knife at a time while keeping the edge visible."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Carrying a knife low and still for a short distance."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Leaving a sharp knife hidden under soapy water in the sink."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Presenting the handle toward the person receiving the knife."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "A hidden blade can injure someone who reaches into the sink without seeing it."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bsc-r05a",
+                  "prompt": "How should a knife be carried a short distance in the kitchen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Upright at chest height so others can see it."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Low, close to the body, still, with the tip toward the floor."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Flat on the open palm while walking."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Inside a towel held in the free hand."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Low and still movement makes the knife path easier for others to predict."
+                },
+                {
+                  "id": "bsc-r05b",
+                  "prompt": "What is the key principle when washing a knife?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Keep the blade visible and its edge path controlled."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Soak it first so food releases by itself."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Wrap the sponge around the edge."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Place it with the other utensils before drying."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Visibility and control matter more than speed during cleaning."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bsc-mini-01",
+            "title": "Safety & Control check",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bsc-m01",
+                "concept_id": "safety.workstation",
+                "critical": true,
+                "prompt": "Which sequence is the best preparation before cutting?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Choose knife → cut a test slice → stabilize food if needed."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Stabilize board → clear area → dry hands/handle → stabilize food → choose knife → identify blade path."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Stabilize food → sharpen knife → increase force → clear scraps later."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Choose the heaviest knife → wet board → hold food tightly."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "The complete sequence removes instability before the blade moves."
+              },
+              {
+                "id": "bsc-m02",
+                "concept_id": "safety.food_stability",
+                "critical": true,
+                "prompt": "A round ingredient rolls easily. What makes the task safer?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "A flat supporting face."
+                  },
+                  {
+                    "id": "b",
+                    "text": "A faster first cut."
+                  },
+                  {
+                    "id": "c",
+                    "text": "A narrower board."
+                  },
+                  {
+                    "id": "d",
+                    "text": "More fingertip pressure."
+                  }
+                ],
+                "correct": "a",
+                "explanation": "A flat face mechanically stabilizes the ingredient."
+              },
+              {
+                "id": "bsc-m03",
+                "concept_id": "safety.tool_fit_and_lateral_stress",
+                "critical": true,
+                "prompt": "What should you do when a blade binds?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Twist gently."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Lever sideways."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Withdraw and adjust the cut."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Strike the handle."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Avoid lateral stress; change the cut instead."
+              },
+              {
+                "id": "bsc-m04",
+                "concept_id": "safety.hands_and_force",
+                "critical": true,
+                "prompt": "What is the correct relationship between the supporting hand and knife movement?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Move together from the start."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Set the supporting hand first, then move the knife."
+                  },
+                  {
+                    "id": "c",
+                    "text": "The supporting hand follows the knife."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Hand position matters only at professional speed."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Hand placement establishes the safe path before movement."
+              },
+              {
+                "id": "bsc-m05",
+                "concept_id": "safety.washing_transfer_carrying",
+                "critical": true,
+                "prompt": "Which rule remains valid after cutting is finished?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Keep the knife visible and controlled during washing, passing and carrying."
+                  },
+                  {
+                    "id": "b",
+                    "text": "A knife is safe once it is no longer moving."
+                  },
+                  {
+                    "id": "c",
+                    "text": "The sink is the safest temporary storage place."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Carry the knife high so the blade can be seen."
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Non-cutting handling still requires predictable control."
+              }
+            ]
+          }
+        },
+        {
+          "id": "base-anatomy-bevels",
+          "title": "Anatomy & Bevels",
+          "status": "planned",
+          "source_paths": [
+            "00-knife-basics/anatomy-of-a-kitchen-knife.md",
+            "04-geometry-and-bevels/single-and-double-bevels.md"
+          ],
+          "summary": "Name the parts of a knife and understand what single- and double-bevel geometry changes."
+        },
+        {
+          "id": "base-shapes-use",
+          "title": "Knife Shapes & Intended Use",
+          "status": "planned",
+          "source_paths": [
+            "05-knife-types/overview.md"
+          ],
+          "summary": "Match common profiles to the work they are designed to do."
+        },
+        {
+          "id": "base-care-boards",
+          "title": "Care & Cutting Boards",
+          "status": "planned",
+          "source_paths": [
+            "09-maintenance/cutting-boards.md",
+            "09-maintenance/routine-care.md"
+          ],
+          "summary": "Protect the edge and materials through suitable boards, cleaning, drying and storage."
+        },
+        {
+          "id": "base-sharpening-foundations",
+          "title": "Sharpening Foundations",
+          "status": "planned",
+          "source_paths": [
+            "10-sharpening/whetstone-preparation.md",
+            "10-sharpening/basic-sharpening-process.md",
+            "10-sharpening/the-burr.md"
+          ],
+          "summary": "Stable stone, verified angle, complete heel-to-tip movement, burr formation/removal and practical edge checks."
+        },
+        {
+          "id": "base-customer-discovery",
+          "title": "Customer Discovery",
+          "status": "planned",
+          "source_paths": [
+            "05-knife-types/overview.md",
+            "05-knife-types/weight-and-balance.md"
+          ],
+          "summary": "Start from foods, quantities, movement and ergonomic fit before discussing steel, appearance or price."
+        }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "title": "Intermediate",
+      "purpose": "Connect material, construction, geometry and user needs without relying on slogans.",
+      "modules": [
+        {
+          "id": "int-steel-dimensions",
+          "title": "The Five Dimensions of Knife Steel",
+          "status": "planned",
+          "source_paths": [
+            "01-foundations/five-dimensions-of-knife-steel.md"
+          ]
+        },
+        {
+          "id": "int-alloys-heat-treatment",
+          "title": "Alloying, Heat Treatment & Carbides",
+          "status": "planned",
+          "source_paths": [
+            "02-steels-and-metallurgy/alloying-elements.md",
+            "02-steels-and-metallurgy/heat-treatment-and-carbides.md"
+          ]
+        },
+        {
+          "id": "int-steel-families",
+          "title": "Conventional, PM & Xinzuo Steels",
+          "status": "planned",
+          "source_paths": [
+            "02-steels-and-metallurgy/conventional-and-powder-metallurgy-steels.md",
+            "02-steels-and-metallurgy/xinzuo-blade-steels.md"
+          ]
+        },
+        {
+          "id": "int-damascus-construction",
+          "title": "Damascus & Blade Construction",
+          "status": "planned",
+          "source_paths": [
+            "03-blade-construction/damascus-steel.md",
+            "03-blade-construction/self-sharpening-full-damascus.md"
+          ]
+        },
+        {
+          "id": "int-ergonomics-geometry",
+          "title": "Geometry, Balance & Ergonomics",
+          "status": "planned",
+          "source_paths": [
+            "04-geometry-and-bevels/single-and-double-bevels.md",
+            "05-knife-types/weight-and-balance.md"
+          ]
+        },
+        {
+          "id": "int-consultation",
+          "title": "Needs-Based Product Consultation",
+          "status": "planned",
+          "source_paths": [
+            "05-knife-types/overview.md",
+            "02-steels-and-metallurgy/xinzuo-blade-steels.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Advanced",
+      "purpose": "Diagnose trade-offs, specialist use and edge problems, then advise customers with evidence-based reasoning.",
+      "modules": [
+        {
+          "id": "adv-material-reasoning",
+          "title": "Comparative Material Reasoning",
+          "status": "planned",
+          "source_paths": [
+            "02-steels-and-metallurgy/xinzuo-blade-steels.md"
+          ]
+        },
+        {
+          "id": "adv-specialist-knives",
+          "title": "Single Bevel & Specialist Knife Families",
+          "status": "planned",
+          "source_paths": [
+            "04-geometry-and-bevels/single-and-double-bevels.md",
+            "05-knife-types/overview.md"
+          ]
+        },
+        {
+          "id": "adv-sharpening",
+          "title": "Advanced Sharpening & Local Correction",
+          "status": "planned",
+          "source_paths": [
+            "10-sharpening/basic-sharpening-process.md",
+            "10-sharpening/the-burr.md"
+          ]
+        },
+        {
+          "id": "adv-edge-diagnosis",
+          "title": "Edge Failure & Maintenance Diagnosis",
+          "status": "planned",
+          "source_paths": [
+            "09-maintenance/routine-care.md",
+            "10-sharpening/basic-sharpening-process.md"
+          ]
+        },
+        {
+          "id": "adv-consultation",
+          "title": "Complex Customer Scenarios",
+          "status": "planned",
+          "source_paths": [
+            "05-knife-types/overview.md",
+            "05-knife-types/weight-and-balance.md",
+            "02-steels-and-metallurgy/xinzuo-blade-steels.md"
+          ]
+        },
+        {
+          "id": "adv-capstone",
+          "title": "Final Certification",
+          "status": "planned",
+          "source_paths": []
+        }
+      ]
+    }
+  ]
+}
