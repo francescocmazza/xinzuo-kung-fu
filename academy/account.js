@@ -479,15 +479,37 @@
       const result = await api(`/api/manager/users/${encodeURIComponent(userId)}`, { method: "GET" });
       const p = result.progress;
       const events = result.events || [];
+      const certificates = result.certificates || [];
+      const contacts = [result.user.email,result.user.phone].filter(Boolean).join(" · ") || "—";
+      const certificateRows = certificates.length ? certificates.map(cert => `
+        <div class="certificate-admin-row">
+          <div>
+            <strong>${escapeHtml(cert.courseLevel)} · ${escapeHtml(cert.verificationCode)}</strong>
+            <span>${escapeHtml(cert.status)} · ${when(cert.issuedAt)}</span>
+          </div>
+          <div class="learning-actions">
+            <a class="button button--quiet" href="${escapeHtml(certificateUrl(cert.verificationCode))}" target="_blank" rel="noopener">Verifica</a>
+            ${result.admin && cert.status === "valid" ? `<button class="button button--quiet revoke-cert" type="button" data-cert-id="${escapeHtml(cert.id)}">Revoca</button>` : ""}
+          </div>
+        </div>
+      `).join("") : "<p>Nessun certificato emesso.</p>";
+
+      const consentRows = result.admin && (result.consents || []).length
+        ? `<details class="consent-history"><summary>Cronologia consensi</summary>${result.consents.slice(0,30).map(row => `
+            <div><strong>${escapeHtml(row.consent_type)}</strong><span>${row.granted ? "consenso" : "revoca/rifiuto"} · ${when(row.created_at)}</span></div>
+          `).join("")}</details>`
+        : "";
+
       el.managerDetail.innerHTML = `
         <div class="section-heading">
           <div>
             <p class="eyebrow">Learner detail</p>
             <h2>${escapeHtml(result.user.firstName)} ${escapeHtml(result.user.lastName)}</h2>
-            <p>${escapeHtml(result.user.email)} · ${escapeHtml(result.user.team || "Nessun team")}</p>
+            <p>${escapeHtml(contacts)}</p>
           </div>
           <div class="learning-actions">
             <button id="generateReset" class="button button--quiet" type="button">Genera reset password</button>
+            ${result.admin ? '<button id="issueCertificate" class="button" type="button">Emetti certificato manuale</button>' : ""}
             <button id="toggleUser" class="button button--quiet" type="button">${result.user.active ? "Disabilita account" : "Riattiva account"}</button>
           </div>
         </div>
@@ -499,7 +521,17 @@
           <article class="metric-card"><span>Interazioni</span><strong>${p?.interactions || 0}</strong></article>
           <article class="metric-card"><span>Impegno</span><strong>${humanMinutes(p?.engagement_seconds || 0)}</strong></article>
         </div>
+        ${result.admin ? `
+          <div class="consent-summary">
+            <strong>Marketing:</strong>
+            email ${result.user.marketingEmailConsent ? "✓" : "—"} ·
+            SMS ${result.user.marketingSmsConsent ? "✓" : "—"} ·
+            telefono ${result.user.marketingPhoneConsent ? "✓" : "—"}
+          </div>${consentRows}
+        ` : ""}
         <div id="detailActionResult" class="invite-result" hidden></div>
+        <h3>Certificati</h3>
+        <div class="certificate-admin-list">${certificateRows}</div>
         <h3>Attività recente</h3>
         <div class="activity-list">
           ${events.slice(0, 30).map(event => `
@@ -511,6 +543,7 @@
           `).join("") || "<p>Nessuna attività registrata.</p>"}
         </div>
       `;
+
       document.getElementById("generateReset").addEventListener("click", () => generateManagerReset(userId));
       document.getElementById("toggleUser").addEventListener("click", async () => {
         await api(`/api/manager/users/${encodeURIComponent(userId)}`, {
@@ -520,9 +553,42 @@
         await refreshManager();
         await openUserDetail(userId);
       });
+
+      const issue = document.getElementById("issueCertificate");
+      if (issue) issue.addEventListener("click",()=>issueManualCertificate(userId));
+
+      el.managerDetail.querySelectorAll(".revoke-cert").forEach(button => {
+        button.addEventListener("click",async()=>{
+          const reason = prompt("Motivo della revoca del certificato:");
+          if (!reason) return;
+          await api(`/api/admin/certificates/${encodeURIComponent(button.dataset.certId)}`,{
+            method:"PATCH",
+            body:JSON.stringify({status:"revoked",reason})
+          });
+          await openUserDetail(userId);
+        });
+      });
     } catch (error) {
       el.managerDetail.innerHTML = `<p class="form-status form-status--error">${escapeHtml(error.message)}</p>`;
     }
+  }
+
+  async function issueManualCertificate(userId) {
+    if (!confirm("Emettere manualmente un certificato Base? Questa funzione è provvisoria finché l'assessment finale automatico non viene collegato.")) return;
+    const result = await api("/api/admin/certificates/issue",{
+      method:"POST",
+      body:JSON.stringify({
+        userId,
+        courseId:"xinzuo-academy-base",
+        courseLevel:"Base",
+        courseVersion:window.XinzuoAcademy?.getCourseVersion?.() || "0.1.0",
+        assessmentVersion:"manual-admin-v1",
+        publicNote:"Manual issuance by Xinzuo Academy administrator.",
+        basis:"Manual administrator issuance pending automated final assessment integration."
+      })
+    });
+    window.open(certificateUrl(result.certificate.verificationCode),"_blank","noopener");
+    await openUserDetail(userId);
   }
 
   function eventLabel(type) {
@@ -540,15 +606,12 @@
     const box = document.getElementById("detailActionResult");
     try {
       const result = await api(`/api/manager/users/${encodeURIComponent(userId)}/password-reset`, { method: "POST", body: "{}" });
-      const url = new URL(window.location.href);
-      url.search = "";
-      url.searchParams.set("reset", result.resetToken);
-      url.searchParams.set("email", result.email);
       box.hidden = false;
       box.innerHTML = `
-        <strong>Reset valido per 1 ora</strong>
-        <label>Link da consegnare all'utente
-          <input type="text" readonly value="${escapeHtml(url.toString())}">
+        <strong>Codice reset valido per 30 minuti</strong>
+        <p>Recapito: ${escapeHtml(result.contact || "—")}</p>
+        <label>Codice
+          <input type="text" readonly value="${escapeHtml(result.resetToken)}">
         </label>
       `;
     } catch (error) {
