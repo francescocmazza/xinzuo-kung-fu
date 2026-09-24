@@ -31,6 +31,8 @@ COVER_CSS = ROOT / "scripts" / "pdf_export" / "cover.css"
 LOCALES_CONFIG = ROOT / "localization" / "locales.yml"
 SOURCE_INDEX = ROOT / "content" / "en" / "index.md"
 TRANSLATIONS = ROOT / "translations"
+FRONT_COVER_ASSET = ROOT / "content" / "en" / "assets" / "CoverFront.webp"
+BACK_COVER_ASSET = ROOT / "content" / "en" / "assets" / "CoverBack.webp"
 
 
 def replace_checked(text: str, old: str, new: str, label: str) -> str:
@@ -110,6 +112,10 @@ def _inject_localized_cover_copy(exporter: str) -> str:
 
 
 def main() -> int:
+    for asset in (FRONT_COVER_ASSET, BACK_COVER_ASSET):
+        if not asset.is_file() or asset.stat().st_size == 0:
+            raise RuntimeError(f"Missing publication cover asset: {asset}")
+
     exporter = EXPORTER.read_text(encoding="utf-8")
     exporter = replace_checked(
         exporter,
@@ -126,14 +132,14 @@ def main() -> int:
     exporter = replace_checked(
         exporter,
         'HERO_IMAGE_REL = "assets/images/approved/home-hero-xinzuo-neutral.png"',
-        'HERO_IMAGE_REL = "assets/Frontespizio.png"',
-        "Frontespizio cover artwork",
+        'HERO_IMAGE_REL = "assets/CoverFront.webp"',
+        "next-edition front cover artwork",
     )
     exporter = replace_checked(
         exporter,
         'HERO_IMAGE_ALT = "A craftsman inspecting a Xinzuo Damascus kitchen knife."',
         'HERO_IMAGE_ALT = "Front cover artwork for The Gongfu of Xinzuo."',
-        "Frontespizio cover alternative text",
+        "next-edition cover alternative text",
     )
     exporter = replace_checked(
         exporter,
@@ -247,13 +253,13 @@ def main() -> int:
         css += steel_table_css
 
     cover_css = COVER_CSS.read_text(encoding="utf-8")
-    if 'background-image: url("assets/Frontespizio.png")' not in css:
+    if 'background-image: url("assets/CoverFront.webp")' not in css:
         css += "\n\n" + cover_css
 
     PRINT_CSS.write_text(css, encoding="utf-8")
 
     print(
-        "Applied A5 publication profile: 148 x 210 mm, full-bleed Frontespizio front cover, "
+        "Applied A5 publication profile: 148 x 210 mm, full-bleed approved front/back cover artwork, "
         "localized live front/back cover text, QR-linked digital edition and "
         "14/15/14/14 mm interior PDF margins."
     )
