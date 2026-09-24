@@ -59,7 +59,7 @@ jobs:
           tables = {row[0] for row in db.execute("select name from sqlite_master where type='table'")}
           required = {
               "users","sessions","invites","learner_progress","activity_events","password_reset_tokens",
-              "verification_challenges","consent_events","certificates","certificate_events","certification_attempts"
+              "verification_challenges","registration_rate_limits","consent_events","certificates","certificate_events","certification_attempts"
           }
           missing = required - tables
           if missing:
