@@ -20,17 +20,13 @@ This is Xinzuo's official practical book. It is designed both for general reader
 
 The goal is to explain Xinzuo's materials, constructions and product choices within the wider world of kitchen knives, without turning useful simplifications into misleading claims.
 
-## Website and active languages
+## Website and publication languages
 
 The book is published as a searchable multilingual website with GitHub Pages.
 
-The current active languages are:
+English (`en`) is always available. A non-English language is added automatically to the website and PDF releases as soon as its complete committed translation passes validation. Incomplete languages are skipped and never block languages that are already ready.
 
-- English (`en`) — source of truth
-- Italian (`it`)
-- Simplified Chinese (`zh-Hans`)
-
-Other locale definitions remain in the repository for possible future use, but they are inactive and are not built, validated, automatically translated, exported, or published.
+Italian (`it`) and Simplified Chinese (`zh-Hans`) are currently fully translated. Future left-to-right locales can use the same mechanism without editing the publication workflow.
 
 ## English is the source of truth
 
@@ -101,11 +97,11 @@ The same engine can prepare translation work for any configured locale:
 python scripts/chatgpt_translate.py --prepare-queue .translation/queue.json --locales es fr de
 ~~~
 
-Inactive locales should be reviewed before being enabled for public publication.
+For locales configured with `publish_when_complete: true`, no publication-workflow edit is needed. Once all translated pages are current and valid, the locale automatically becomes publication-ready.
 
 ## 8. PDFs and publication
 
-PDF, multilingual export and GitHub Pages workflows never translate. They only consume committed translations and fail if a translation is stale, missing, legacy or structurally inconsistent.
+PDF, multilingual export and GitHub Pages workflows never translate. They resolve the publication-ready language set from committed translations. A stale, missing, legacy or malformed locale is skipped until fixed; it does not block already complete languages. Every ready locale receives its own PDF automatically.
 
 ## Translation architecture
 
@@ -117,6 +113,7 @@ glossaries/master-terms.yml                Controlled terminology
 localization/locales.yml                   Locale guidance
 scripts/chatgpt_translate.py               Queue/apply/validate; no API calls
 scripts/test_chatgpt_translate.py          Regression tests
+scripts/publication_locales.py              Automatic READY/WAIT publication resolver
 .github/workflows/translation-status.yml   Queue generation and status
 .github/workflows/pages.yml                Publication and Pages
 .github/workflows/export-pdf.yml           PDF export
