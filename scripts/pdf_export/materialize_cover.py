@@ -16,8 +16,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 CHUNK_DIR = ROOT / "scripts" / "pdf_export" / "cover_art"
 OUTPUT = ROOT / "content" / "en" / "assets" / "Frontespizio.webp"
-EXPECTED_SHA256 = "4fd9dc2c6145dc475be03cc60c58feaf3260fb2a287fabbc2440172aaf486c51"
-EXPECTED_SIZE = 268_176
+EXPECTED_SHA256 = "c5f98b3a74be09da5c2725d9732028ca7922ba6685f603f5ab93b018c1d049da"
+EXPECTED_SIZE = 191_354
 
 
 def materialize_cover() -> Path:
