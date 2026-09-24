@@ -145,7 +145,7 @@ Xinzuo utilizza costruzioni stratificate in modi tecnicamente differenti. La gam
 La gamma attuale comprende:
 <!-- /tx-unit -->
 <!-- tx-unit:a0e601d470687c6fb552edf93a81d9dd8cd4dd0208b6c5f1b8820fcfecbce929 -->
-- rivestimenti damascati intorno a nuclei come 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, ZDP-189 e il 14Cr14MoVNb proprietario;
+- rivestimenti in acciaio Damasco intorno a nuclei come 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, ZDP-189 e il 14Cr14MoVNb proprietario;
 - costruzioni in acciaio Damasco con accenti di rame, nelle quali metalli contrastanti entrano a far parte del progetto visivo e strutturale;
 - lame personalizzate in damasco integrale a 110 strati, nelle quali i materiali alternati proseguono attraverso il filo e possono contribuire direttamente all'usura differenziale dell'apice del filo.
 <!-- /tx-unit -->
