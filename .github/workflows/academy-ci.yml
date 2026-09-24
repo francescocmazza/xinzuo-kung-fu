@@ -4,9 +4,11 @@ on:
   pull_request:
     paths:
       - "academy/**"
+      - "academy-backend/**"
       - "scripts/validate_academy.py"
       - ".github/workflows/academy-ci.yml"
       - ".github/workflows/academy-pages.yml"
+      - ".github/workflows/academy-backend-deploy.yml"
       - ".github/workflows/pages.yml"
   push:
     branches:
@@ -36,8 +38,26 @@ jobs:
       - name: Validate curriculum and question bank
         run: python scripts/validate_academy.py
 
-      - name: Check learner-engine JavaScript syntax
-        run: node --check academy/app.js
+      - name: Check Academy JavaScript syntax
+        run: |
+          node --check academy/app.js
+          node --check academy/account.js
+          node --check academy-backend/src/worker.js
+
+      - name: Validate D1 migration SQL
+        run: |
+          python - <<'PY'
+          import sqlite3
+          from pathlib import Path
+          db = sqlite3.connect(":memory:")
+          db.executescript(Path("academy-backend/migrations/0001_initial.sql").read_text(encoding="utf-8"))
+          tables = {row[0] for row in db.execute("select name from sqlite_master where type='table'")}
+          required = {"users","sessions","invites","learner_progress","activity_events","password_reset_tokens"}
+          missing = required - tables
+          if missing:
+              raise SystemExit(f"Missing D1 tables: {sorted(missing)}")
+          print("D1 schema OK:", ", ".join(sorted(required)))
+          PY
 
       - name: Verify required web assets
         shell: bash
@@ -46,5 +66,9 @@ jobs:
           test -s academy/index.html
           test -s academy/styles.css
           test -s academy/app.js
+          test -s academy/account.js
+          test -s academy/config.js
+          test -s academy-backend/src/worker.js
+          test -s academy-backend/migrations/0001_initial.sql
           test -s academy/data/course.en.json
           test -s academy/data/course.it.json
