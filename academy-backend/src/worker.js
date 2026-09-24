@@ -1148,3 +1148,163 @@ async function managerPasswordReset(request, env, userId) {
     return apiJson(request, env, { ok:true, resetToken:token, email:target.email, expiresAt:now()+3600 });
   });
 }
+
+
+function certificateVerificationCode() {
+  return `XZA-${new Date().getUTCFullYear()}-${randomToken(9).replace(/[-_]/g,"").toUpperCase().slice(0,12)}`;
+}
+
+function publicCertificate(row) {
+  return {
+    id:row.id,
+    verificationCode:row.verification_code,
+    certificateName:row.certificate_name,
+    courseId:row.course_id,
+    courseLevel:row.course_level,
+    courseVersion:row.course_version,
+    assessmentVersion:row.assessment_version || "",
+    score:row.score,
+    issuedAt:row.issued_at,
+    status:row.status,
+    updatedAt:row.updated_at,
+    revokedAt:row.revoked_at,
+    revocationReason:row.revocation_reason || "",
+    supersededBy:row.superseded_by || "",
+    publicNote:row.public_note || ""
+  };
+}
+
+async function myCertificates(request, env) {
+  return withHttpErrors(request,env,async()=>{
+    const auth = await authenticate(request,env);
+    const rows = await env.DB.prepare(
+      "SELECT * FROM certificates WHERE user_id=? ORDER BY issued_at DESC"
+    ).bind(auth.user.id).all();
+    return apiJson(request,env,{ok:true,certificates:(rows.results||[]).map(publicCertificate)});
+  });
+}
+
+async function verifyCertificatePublic(request, env, code) {
+  return withHttpErrors(request,env,async()=>{
+    const normalized = String(code || "").trim().toUpperCase();
+    if (!/^XZA-[A-Z0-9-]{6,40}$/.test(normalized)) {
+      throw new HttpError(404,"certificate_not_found","Certificate not found.");
+    }
+    const row = await env.DB.prepare(
+      "SELECT * FROM certificates WHERE verification_code=?"
+    ).bind(normalized).first();
+    if (!row) throw new HttpError(404,"certificate_not_found","Certificate not found.");
+    return apiJson(request,env,{ok:true,certificate:publicCertificate(row)});
+  });
+}
+
+async function issueCertificate(request, env) {
+  return withHttpErrors(request,env,async()=>{
+    const auth = await authenticate(request,env,["admin"]);
+    const body = await bodyJson(request);
+    const userId = String(body.userId || "").trim();
+    const user = await env.DB.prepare("SELECT * FROM users WHERE id=? AND active=1").bind(userId).first();
+    if (!user || user.role !== "staff") throw new HttpError(404,"not_found","Learner not found.");
+
+    const courseId = String(body.courseId || "xinzuo-academy-base").trim().slice(0,80);
+    const courseLevel = String(body.courseLevel || "Base").trim().slice(0,80);
+    const courseVersion = String(body.courseVersion || "0.1.0").trim().slice(0,40);
+    const assessmentVersion = nullableText(body.assessmentVersion,80);
+    const score = body.score == null ? null : Math.max(0,Math.min(1,Number(body.score)));
+    if (score != null && !Number.isFinite(score)) throw new HttpError(400,"invalid_score","Invalid certificate score.");
+
+    const id = crypto.randomUUID();
+    let verificationCode = certificateVerificationCode();
+    for (let i=0;i<4;i+=1) {
+      const collision = await env.DB.prepare("SELECT id FROM certificates WHERE verification_code=?").bind(verificationCode).first();
+      if (!collision) break;
+      verificationCode = certificateVerificationCode();
+    }
+
+    const ts = now();
+    const name = `${user.first_name} ${user.last_name}`.trim();
+    await env.DB.prepare(
+      `INSERT INTO certificates(
+        id,verification_code,user_id,certificate_name,course_id,course_level,course_version,assessment_version,score,
+        issued_at,status,updated_at,revoked_at,revocation_reason,superseded_by,public_note
+       ) VALUES(?,?,?,?,?,?,?,?,?,?,'valid',?,NULL,NULL,NULL,?)`
+    ).bind(
+      id,verificationCode,user.id,name,courseId,courseLevel,courseVersion,assessmentVersion,score,ts,ts,
+      nullableText(body.publicNote,500)
+    ).run();
+
+    await env.DB.prepare(
+      "INSERT INTO certificate_events(certificate_id,actor_user_id,event_type,detail,created_at) VALUES(?,?,'issued',?,?)"
+    ).bind(id,auth.user.id,nullableText(body.basis,500),ts).run();
+
+    if (body.supersedeCertificateId) {
+      const oldId = String(body.supersedeCertificateId);
+      const old = await env.DB.prepare("SELECT id FROM certificates WHERE id=? AND user_id=?").bind(oldId,user.id).first();
+      if (old) {
+        await env.DB.batch([
+          env.DB.prepare("UPDATE certificates SET status='superseded',superseded_by=?,updated_at=? WHERE id=?").bind(id,ts,oldId),
+          env.DB.prepare("INSERT INTO certificate_events(certificate_id,actor_user_id,event_type,detail,created_at) VALUES(?,?,'superseded',?,?)")
+            .bind(oldId,auth.user.id,`Superseded by ${verificationCode}`,ts)
+        ]);
+      }
+    }
+
+    const row = await env.DB.prepare("SELECT * FROM certificates WHERE id=?").bind(id).first();
+    return apiJson(request,env,{ok:true,certificate:publicCertificate(row)},201);
+  });
+}
+
+async function updateCertificateStatus(request, env, certificateId) {
+  return withHttpErrors(request,env,async()=>{
+    const auth = await authenticate(request,env,["admin"]);
+    const body = await bodyJson(request);
+    const status = String(body.status || "");
+    if (!["valid","suspended","revoked","superseded"].includes(status)) {
+      throw new HttpError(400,"invalid_status","Invalid certificate status.");
+    }
+    const row = await env.DB.prepare("SELECT * FROM certificates WHERE id=?").bind(certificateId).first();
+    if (!row) throw new HttpError(404,"certificate_not_found","Certificate not found.");
+    const ts = now();
+    const reason = nullableText(body.reason,500);
+    const revokedAt = status === "revoked" ? ts : null;
+    await env.DB.batch([
+      env.DB.prepare(
+        "UPDATE certificates SET status=?,updated_at=?,revoked_at=?,revocation_reason=?,public_note=COALESCE(?,public_note) WHERE id=?"
+      ).bind(status,ts,revokedAt,status==="revoked"?reason:null,nullableText(body.publicNote,500),certificateId),
+      env.DB.prepare(
+        "INSERT INTO certificate_events(certificate_id,actor_user_id,event_type,detail,created_at) VALUES(?,?,?,?,?)"
+      ).bind(certificateId,auth.user.id,status,reason,ts)
+    ]);
+    const fresh = await env.DB.prepare("SELECT * FROM certificates WHERE id=?").bind(certificateId).first();
+    return apiJson(request,env,{ok:true,certificate:publicCertificate(fresh)});
+  });
+}
+
+async function adminAudience(request, env) {
+  return withHttpErrors(request,env,async()=>{
+    await authenticate(request,env,["admin"]);
+    const rows = await env.DB.prepare(
+      `SELECT id,email,phone,first_name,last_name,created_at,last_active_at,email_verified_at,phone_verified_at,
+              marketing_email_consent,marketing_sms_consent,marketing_phone_consent,marketing_consent_updated_at
+       FROM users
+       WHERE role='staff' AND active=1
+       ORDER BY created_at DESC
+       LIMIT 5000`
+    ).all();
+    return apiJson(request,env,{ok:true,audience:(rows.results||[]).map(row=>({
+      id:row.id,
+      email:row.email || "",
+      phone:row.phone || "",
+      firstName:row.first_name,
+      lastName:row.last_name,
+      createdAt:row.created_at,
+      lastActiveAt:row.last_active_at,
+      emailVerified:Boolean(row.email_verified_at),
+      phoneVerified:Boolean(row.phone_verified_at),
+      marketingEmail:Boolean(row.marketing_email_consent),
+      marketingSms:Boolean(row.marketing_sms_consent),
+      marketingPhone:Boolean(row.marketing_phone_consent),
+      consentUpdatedAt:row.marketing_consent_updated_at
+    }))});
+  });
+}
