@@ -384,12 +384,27 @@
     el.moduleProgressBar.style.width = `${pct}%`;
   }
 
+  function allActiveModuleLessons() {
+    if (!course) return [];
+    return course.levels.flatMap(level =>
+      level.modules
+        .filter(module => module.status === "active")
+        .flatMap(module => (module.lessons || []).map(lesson => ({ module, lesson })))
+    );
+  }
+
   function dueReview() {
-    if (!currentModule) return null;
-    const lessons = currentModule.lessons || [];
-    const due = lessons
-      .map(lesson => ({ lesson, concept: progress.concepts[lesson.concept_id] }))
-      .filter(item => item.concept && Number.isFinite(item.concept.due) && item.concept.due <= progress.interactions && item.concept.state !== "acquired")
+    const due = allActiveModuleLessons()
+      .map(item => ({
+        ...item,
+        concept: progress.concepts[item.lesson.concept_id]
+      }))
+      .filter(item =>
+        item.concept &&
+        Number.isFinite(item.concept.due) &&
+        item.concept.due <= progress.interactions &&
+        item.concept.state !== "acquired"
+      )
       .sort((a, b) => a.concept.due - b.concept.due);
     return due[0] || null;
   }
@@ -399,7 +414,7 @@
 
     const review = dueReview();
     if (review) {
-      renderRecovery(review.lesson);
+      renderRecovery(review.lesson, review.module);
       return;
     }
 
@@ -436,27 +451,28 @@
         <button id="lessonNext" class="button" type="button">${escapeHtml(t("toQuestion"))}</button>
       </div>
     `;
-    document.getElementById("lessonNext").addEventListener("click", () => renderQuestion(lesson.question, lesson, "learning"));
+    document.getElementById("lessonNext").addEventListener("click", () => renderQuestion(lesson.question, lesson, "learning", currentModule));
   }
 
-  function renderRecovery(lesson) {
+  function renderRecovery(lesson, sourceModule) {
     const concept = getConcept(lesson.concept_id);
     const variants = lesson.recovery_questions || [];
     const index = variants.length ? concept.reviewIndex % variants.length : 0;
     concept.reviewIndex += 1;
     saveProgress();
     const question = variants[index];
-    renderQuestion(question, lesson, "recovery");
+    renderQuestion(question, lesson, "recovery", sourceModule);
   }
 
-  function renderQuestion(question, lesson, mode) {
+  function renderQuestion(question, lesson, mode, sourceModule) {
     updateModulePosition();
     const kicker = mode === "recovery" ? t("recoveryQuestion") : t("learningQuestion");
+    const contextLabel = mode === "recovery" ? `${kicker} · ${sourceModule.title}` : kicker;
     const form = document.createElement("form");
     form.className = "question-form";
     form.innerHTML = `
       <div class="lesson-kicker">
-        <span>${escapeHtml(kicker)}</span>
+        <span>${escapeHtml(contextLabel)}</span>
         ${lesson.critical ? `<span class="critical-flag">${escapeHtml(t("critical"))}</span>` : ""}
       </div>
       <h2>${escapeHtml(lesson.title)}</h2>
