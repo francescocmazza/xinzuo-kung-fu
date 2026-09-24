@@ -78,6 +78,9 @@ jobs:
           python scripts/test_publication_locales.py
           python scripts/publication_locales.py --explain
 
+      - name: Validate localized back-cover parsing
+        run: python scripts/pdf_export/test_back_cover.py
+
       - name: Apply A5 publication profile
         run: python scripts/pdf_export/apply_a5_profile.py
 
