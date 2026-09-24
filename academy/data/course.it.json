@@ -622,12 +622,485 @@
         {
           "id": "base-anatomy-bevels",
           "title": "Anatomia e biselli",
-          "status": "planned",
+          "status": "active",
           "source_paths": [
             "00-knife-basics/anatomy-of-a-kitchen-knife.md",
             "04-geometry-and-bevels/single-and-double-bevels.md"
           ],
-          "summary": "Impara i componenti del coltello e che cosa cambia tra geometrie a bisello singolo e doppio."
+          "summary": "Impara a nominare correttamente le parti del coltello, distinguere costruzione e qualità e capire che cosa cambia con la geometria dei biselli.",
+          "lessons": [
+            {
+              "id": "bab-01-blade-anatomy",
+              "concept_id": "anatomy.blade_parts",
+              "title": "Leggi la lama dalla punta al tallone",
+              "critical": false,
+              "source_path": "00-knife-basics/anatomy-of-a-kitchen-knife.md",
+              "content": {
+                "lead": "Una spiegazione corretta del prodotto parte dai nomi corretti.",
+                "points": [
+                  "La punta è la parte anteriore; il dorso è il lato superiore normalmente non affilato; la faccia della lama è la superficie laterale ampia.",
+                  "Il filo è il bordo affilato; il tallone è la parte posteriore del filo.",
+                  "Il bisello è la geometria che restringe la lama verso l'apice. Finitura superficiale e geometria sono due cose diverse."
+                ],
+                "takeaway": "Prima identifica la parte di cui stai parlando, poi descrivi che cosa fa."
+              },
+              "question": {
+                "id": "bab-q01",
+                "prompt": "Quale frase distingue correttamente filo e bisello?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Il bisello è la linea affilata; il filo è la faccia larga della lama."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Il filo è il bordo affilato; il bisello è la geometria che restringe la lama verso l'apice."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Sono due nomi per la stessa finitura superficiale."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Il bisello è il dorso e il filo è il tallone."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Il filo è il bordo affilato; il bisello è la geometria inclinata che conduce all'apice."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bab-r01a",
+                  "prompt": "Che cos'è il tallone di un coltello da cucina?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "La parte posteriore del filo, vicina al manico."
+                    },
+                    {
+                      "id": "b",
+                      "text": "La parte terminale del manico."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Il lato superiore non affilato."
+                    },
+                    {
+                      "id": "d",
+                      "text": "La faccia larga della lama."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Il tallone è la parte posteriore del filo, vicino al manico."
+                },
+                {
+                  "id": "bab-r01b",
+                  "prompt": "Due lame hanno la stessa finitura lucida. Che cosa puoi concludere con sicurezza?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Che hanno la stessa sezione e lo stesso spessore."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Che la finitura superficiale è simile, ma la geometria può essere diversa."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Che hanno lo stesso angolo del filo."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Che usano lo stesso acciaio."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "La finitura descrive l'aspetto o la texture della faccia della lama, non prova la geometria sottostante."
+                }
+              ]
+            },
+            {
+              "id": "bab-02-tang-bolster",
+              "concept_id": "anatomy.tang_and_bolster",
+              "title": "La costruzione non è una classifica di qualità",
+              "critical": false,
+              "source_path": "00-knife-basics/anatomy-of-a-kitchen-knife.md",
+              "content": {
+                "lead": "Codolo intero, nascosto, passante e parziale descrivono costruzioni diverse, non una graduatoria automatica.",
+                "points": [
+                  "Un codolo intero segue quasi tutta la sagoma del manico ed è spesso coperto da guancette.",
+                  "Un codolo nascosto è racchiuso nel manico; un codolo passante arriva fino al fondo e non è un altro nome per codolo intero.",
+                  "Il bolster è la zona di transizione rinforzata tra lama e manico presente su molti coltelli occidentali. Presenza, assenza o saldatura da sole non determinano la qualità."
+                ],
+                "takeaway": "Spiega come è costruito il coltello senza trasformare una caratteristica in un giudizio universale."
+              },
+              "question": {
+                "id": "bab-q02",
+                "prompt": "Quale affermazione sulla costruzione del codolo è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Il codolo passante è semplicemente un altro nome per codolo intero."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Un codolo nascosto è sempre inferiore a un codolo intero."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Il tipo di codolo descrive la costruzione; la durata dipende anche da dimensioni, materiali, assemblaggio e carichi previsti."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Solo i coltelli forgiati possono avere un codolo intero."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "La knowledge base esclude esplicitamente una gerarchia semplicistica tra le diverse costruzioni del codolo."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bab-r02a",
+                  "prompt": "Che cosa distingue un codolo passante da un codolo intero?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Il codolo passante è più stretto e nascosto, ma arriva fino al fondo del manico ed è fissato lì."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Il codolo passante non contiene acciaio nel manico."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Il codolo intero si ferma sempre prima del fondo."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Non c'è alcuna differenza."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Il codolo passante appartiene alle costruzioni a codolo nascosto e arriva fino al fondo; non segue tutta la sagoma del manico."
+                },
+                {
+                  "id": "bab-r02b",
+                  "prompt": "Vedi un bolster saldato su un coltello di produzione. Che cosa dimostra questo fatto, da solo?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Che il coltello è di bassa qualità."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Che l'acciaio della lama è economico."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Nulla sulla qualità complessiva senza valutare assemblaggio, giunto, controllo termico e finitura."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Che il coltello non è stato trattato termicamente."
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Un bolster separato e ben eseguito può essere una scelta razionale sia strutturalmente sia produttivamente."
+                }
+              ]
+            },
+            {
+              "id": "bab-03-double-bevel",
+              "concept_id": "geometry.double_bevel",
+              "title": "Comprendi il doppio bisello",
+              "critical": false,
+              "source_path": "04-geometry-and-bevels/single-and-double-bevels.md",
+              "content": {
+                "lead": "La maggior parte dei coltelli general-purpose viene affilata da entrambi i lati, ma 'doppio bisello' non significa sempre perfetta simmetria.",
+                "points": [
+                  "Un doppio bisello simmetrico presenta geometrie comparabili sui due lati.",
+                  "Un doppio bisello asimmetrico sposta il filo verso un lato e può modificare separazione dell'alimento, precisione e una lieve tendenza a deviare.",
+                  "Conta la geometria reale del modello, non ciò che si presume dal nome del coltello."
+                ],
+                "takeaway": "Doppio bisello significa due lati affilati; non specifica da solo quanto siano simmetrici."
+              },
+              "question": {
+                "id": "bab-q03",
+                "prompt": "Che cosa può cambiare con un doppio bisello asimmetrico?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Solo la finitura decorativa."
+                  },
+                  {
+                    "id": "b",
+                    "text": "La separazione dell'alimento e una possibile lieve tendenza a deviare."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Il tipo di codolo."
+                  },
+                  {
+                    "id": "d",
+                    "text": "La natura inox dell'acciaio."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Spostare il filo verso un lato modifica l'interazione della geometria con l'alimento e può introdurre una lieve deviazione."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bab-r03a",
+                  "prompt": "La definizione 'doppio bisello' garantisce una geometria 50/50?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sì, sempre."
+                    },
+                    {
+                      "id": "b",
+                      "text": "No. Significa che entrambi i lati sono affilati; le proporzioni possono essere asimmetriche."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Solo sui coltelli forgiati."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Solo sulle forme giapponesi."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "La simmetria è una proprietà distinta dalla presenza di due biselli."
+                },
+                {
+                  "id": "bab-r03b",
+                  "prompt": "Che cosa deve controllare il personale prima di fare un'affermazione sulla geometria esatta?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Solo la silhouette."
+                    },
+                    {
+                      "id": "b",
+                      "text": "La costruzione e la specifica reale del modello."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Il materiale del manico."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Il motivo Damasco."
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Nomi e forme simili possono appartenere a coltelli con geometrie diverse."
+                }
+              ]
+            },
+            {
+              "id": "bab-04-single-bevel",
+              "concept_id": "geometry.single_bevel_and_handedness",
+              "title": "Il bisello singolo richiede verifica del modello",
+              "critical": true,
+              "source_path": "04-geometry-and-bevels/single-and-double-bevels.md",
+              "content": {
+                "lead": "La geometria tradizionale a bisello singolo può essere destrorsa o mancina e si affila diversamente da un normale doppio bisello.",
+                "points": [
+                  "I coltelli a bisello singolo concentrano il bisello principale su un lato e richiedono un metodo di affilatura diverso.",
+                  "Handedness e tendenza a deviare possono essere rilevanti: prima di consigliare il cliente bisogna verificare il modello esatto.",
+                  "Il nome tradizionale della forma non prova la geometria: esistono anche versioni moderne a doppio bisello di forme tradizionalmente monobisello."
+                ],
+                "takeaway": "Non dedurre mai handedness o istruzioni di affilatura dalla sola silhouette."
+              },
+              "question": {
+                "id": "bab-q04",
+                "prompt": "Un coltello ha una forma tradizionalmente associata al bisello singolo. Che cosa deve fare il personale?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Presumere che sia destrorso."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Presumere che sia monobisello e dare subito istruzioni tradizionali di affilatura."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Controllare geometria e handedness del modello esatto prima di descriverlo o affilarlo."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Trattare tutte le versioni come doppio bisello 50/50."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "La stessa forma può esistere con geometrie diverse; serve una verifica specifica del modello."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bab-r04a",
+                  "prompt": "Perché l'handedness può essere importante su un coltello a bisello singolo?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Può influenzare deviazione, utilizzo e affilatura."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Cambia la composizione dell'acciaio."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Determina se può tagliare verdure."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Determina il materiale del manico."
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Una geometria fortemente asimmetrica può interagire con il taglio in modo diverso a seconda dell'orientamento."
+                },
+                {
+                  "id": "bab-r04b",
+                  "prompt": "Quale consiglio di prodotto è scorretto?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Controllare la specifica esatta prima di spiegare la geometria."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Spiegare che il nome della forma non prova l'handedness."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dare istruzioni da bisello singolo solo perché la forma ricorda un coltello tradizionale monobisello."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Confrontare geometrie verificate del modello."
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Le istruzioni di affilatura devono seguire la geometria reale, non un'ipotesi visiva."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bab-mini-01",
+            "title": "Verifica Anatomia e biselli",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bab-m01",
+                "concept_id": "anatomy.blade_parts",
+                "critical": false,
+                "prompt": "Quale parte è la zona posteriore del filo più vicina al manico?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Tallone"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Dorso"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Punta"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Pomolo"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Il tallone è la parte posteriore del filo."
+              },
+              {
+                "id": "bab-m02",
+                "concept_id": "anatomy.tang_and_bolster",
+                "critical": false,
+                "prompt": "Quale affermazione è più corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Il codolo intero è sempre superiore."
+                  },
+                  {
+                    "id": "b",
+                    "text": "La costruzione va valutata insieme a dimensioni, materiali, assemblaggio e uso previsto."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Un bolster saldato prova bassa qualità."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Codolo nascosto e passante sono sinonimi."
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Le caratteristiche costruttive non sono classifiche universali di qualità."
+              },
+              {
+                "id": "bab-m03",
+                "concept_id": "geometry.double_bevel",
+                "critical": false,
+                "prompt": "Un coltello a doppio bisello può essere asimmetrico?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Sì"
+                  },
+                  {
+                    "id": "b",
+                    "text": "No"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Solo se seghettato"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Solo se forgiato"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Due biselli non implicano necessariamente una geometria perfettamente simmetrica."
+              },
+              {
+                "id": "bab-m04",
+                "concept_id": "geometry.single_bevel_and_handedness",
+                "critical": true,
+                "prompt": "Qual è la regola corretta prima di descrivere l'handedness?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Deducila dalla silhouette."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Deducila dal paese d'origine."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Controlla geometria e specifiche del modello esatto."
+                  },
+                  {
+                    "id": "d",
+                    "text": "Presumi che ogni forma tradizionale sia destrorsa."
+                  }
+                ],
+                "correct": "c",
+                "explanation": "È necessaria una verifica specifica del modello."
+              }
+            ]
+          }
         },
         {
           "id": "base-shapes-use",
