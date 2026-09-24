@@ -81,6 +81,9 @@ jobs:
       - name: Validate localized back-cover parsing
         run: python scripts/pdf_export/test_back_cover.py
 
+      - name: Materialize publication cover assets
+        run: python scripts/pdf_export/materialize_cover_assets.py
+
       - name: Verify publication cover assets
         shell: bash
         run: |
