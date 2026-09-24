@@ -90,7 +90,7 @@ jobs:
             echo "Queue snapshot already current."
             exit 0
           fi
-          git commit -m "Apply ChatGPT translations and update queue [skip ci]"
+          git commit -m "Apply ChatGPT translations and update queue"
           git push origin "HEAD:${{ github.event.pull_request.head.ref }}"
 
       - name: Upload queue artifact
