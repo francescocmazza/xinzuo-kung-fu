@@ -15,6 +15,7 @@ on:
       - "academy/**"
     paths:
       - "academy/**"
+      - "academy-backend/**"
       - "scripts/validate_academy.py"
       - ".github/workflows/academy-ci.yml"
       - ".github/workflows/academy-pages.yml"
@@ -42,6 +43,8 @@ jobs:
         run: |
           node --check academy/app.js
           node --check academy/account.js
+          node --check academy/legal.js
+          node --check academy/certificate.js
           node --check academy-backend/src/worker.js
 
       - name: Validate D1 migration SQL
@@ -50,9 +53,14 @@ jobs:
           import sqlite3
           from pathlib import Path
           db = sqlite3.connect(":memory:")
-          db.executescript(Path("academy-backend/migrations/0001_initial.sql").read_text(encoding="utf-8"))
+          for migration in sorted(Path("academy-backend/migrations").glob("*.sql")):
+              print("Applying", migration.name)
+              db.executescript(migration.read_text(encoding="utf-8"))
           tables = {row[0] for row in db.execute("select name from sqlite_master where type='table'")}
-          required = {"users","sessions","invites","learner_progress","activity_events","password_reset_tokens"}
+          required = {
+              "users","sessions","invites","learner_progress","activity_events","password_reset_tokens",
+              "verification_challenges","consent_events","certificates","certificate_events","certification_attempts"
+          }
           missing = required - tables
           if missing:
               raise SystemExit(f"Missing D1 tables: {sorted(missing)}")
@@ -68,7 +76,13 @@ jobs:
           test -s academy/app.js
           test -s academy/account.js
           test -s academy/config.js
+          test -s academy/privacy.html
+          test -s academy/terms.html
+          test -s academy/legal.js
+          test -s academy/certificate.html
+          test -s academy/certificate.js
           test -s academy-backend/src/worker.js
           test -s academy-backend/migrations/0001_initial.sql
+          test -s academy-backend/migrations/0002_public_registration_certificates.sql
           test -s academy/data/course.en.json
           test -s academy/data/course.it.json
