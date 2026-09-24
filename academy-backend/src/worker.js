@@ -526,7 +526,7 @@ async function sendVerification(channel, destination, code, env) {
 
 async function createVerificationChallenge(env, userId, channel, destination) {
   if (!canSendVerification(channel, env)) {
-    throw new HttpError(503, "verification_delivery_unavailable", `${channel === "email" ? "Email" : "SMS"} verification is not configured.`);
+    throw new HttpError(503, "verification_delivery_unavailable", `${channel === "email" ? "Email" : "WhatsApp"} verification is not configured.`);
   }
   const challengeId = crypto.randomUUID();
   const code = verificationCode();
@@ -588,7 +588,7 @@ async function publicRegisterStart(request, env) {
     }
     if (!["email","whatsapp"].includes(channel)) throw new HttpError(400, "invalid_channel", "Invalid verification channel.");
     if (!canSendVerification(channel, env)) {
-      throw new HttpError(503, "verification_delivery_unavailable", `${channel === "email" ? "Email" : "SMS"} verification is not configured.`);
+      throw new HttpError(503, "verification_delivery_unavailable", `${channel === "email" ? "Email" : "WhatsApp"} verification is not configured.`);
     }
 
     const existing = await env.DB.prepare(
@@ -729,7 +729,6 @@ async function updateConsents(request, env) {
     const auth = await authenticate(request,env);
     const body = await bodyJson(request);
     const emailConsent = Boolean(body.marketingEmail && auth.user.email);
-    const smsConsent = Boolean(body.marketingSms && auth.user.phone);
     const whatsappConsent = Boolean(body.marketingWhatsapp && auth.user.phone);
     const phoneConsent = Boolean(body.marketingPhone && auth.user.phone);
     const ts = now();
