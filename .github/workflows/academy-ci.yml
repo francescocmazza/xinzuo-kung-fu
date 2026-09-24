@@ -1,0 +1,46 @@
+name: Validate Xinzuo Academy
+
+on:
+  pull_request:
+    paths:
+      - "academy/**"
+      - "scripts/validate_academy.py"
+      - ".github/workflows/academy-ci.yml"
+  push:
+    branches:
+      - "academy/**"
+    paths:
+      - "academy/**"
+      - "scripts/validate_academy.py"
+      - ".github/workflows/academy-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Validate curriculum and question bank
+        run: python scripts/validate_academy.py
+
+      - name: Check learner-engine JavaScript syntax
+        run: node --check academy/app.js
+
+      - name: Verify required web assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s academy/index.html
+          test -s academy/styles.css
+          test -s academy/app.js
+          test -s academy/data/course.en.json
+          test -s academy/data/course.it.json
