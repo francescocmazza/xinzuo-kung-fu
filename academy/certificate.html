@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verifica certificato — Xinzuo Academy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="certificate-page">
+  <main class="certificate-shell">
+    <div class="certificate-toolbar">
+      <a class="button button--quiet" href="./">← Academy</a>
+      <button id="printCertificate" class="button" type="button" hidden>Stampa / Salva PDF</button>
+    </div>
+    <section id="certificateCard" class="certificate-card" aria-live="polite">
+      <div class="certificate-brand">
+        <img src="https://www.xinzuo-europe.com/wp-content/uploads/2023/07/Xinzuo-Logo-and-name-horizontalss-1024x191.jpg" alt="Xinzuo">
+        <span>Academy</span>
+      </div>
+      <p class="eyebrow">Certificate verification</p>
+      <h1 id="certificateTitle">Verifica del certificato</h1>
+      <div id="certificateContent">
+        <p>Caricamento…</p>
+      </div>
+    </section>
+  </main>
+  <script src="config.js"></script>
+  <script src="certificate.js"></script>
+</body>
+</html>
