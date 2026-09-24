@@ -17,6 +17,8 @@
   let pendingRegistration = null;
   let verificationChannels = { email: true, sms: true };
   let publicRegistrationOpen = false;
+  let certificationAttempt = null;
+  let certificationTimerHandle = null;
 
   const el = {
     authGate: document.getElementById("authGate"),
@@ -51,7 +53,14 @@
     inviteForm: document.getElementById("inviteForm"),
     internalInvitePanel: document.getElementById("internalInvitePanel"),
     inviteResult: document.getElementById("inviteResult"),
-    managerLegend: document.getElementById("managerLegend")
+    managerLegend: document.getElementById("managerLegend"),
+    certificationPanel: document.getElementById("certificationPanel"),
+    certificationStatusSummary: document.getElementById("certificationStatusSummary"),
+    startCertification: document.getElementById("startCertification"),
+    certificationView: document.getElementById("certificationView"),
+    certificationBack: document.getElementById("certificationBack"),
+    certificationTimer: document.getElementById("certificationTimer"),
+    certificationSurface: document.getElementById("certificationSurface")
   };
 
   function escapeHtml(value) {
@@ -173,9 +182,16 @@
       renderAccountProfile();
       dispatchAuth(user);
       startHeartbeat();
+      if (el.certificationPanel) {
+        el.certificationPanel.hidden = false;
+        loadCertificationStatus();
+      }
     } else {
       el.userChip.textContent = "";
       el.managerView.hidden = true;
+      if (el.certificationPanel) el.certificationPanel.hidden = true;
+      if (el.certificationView) el.certificationView.hidden = true;
+      stopCertificationTimer();
       if (REQUIRE_AUTH && apiAvailable()) {
         el.authGate.hidden = false;
         el.learnerArea.hidden = true;
@@ -356,6 +372,7 @@
         method: "POST",
         body: JSON.stringify({ type, ...data })
       });
+      if (type === "module_completed") loadCertificationStatus();
     } catch (error) {
       console.warn("Activity event failed", error);
     }
@@ -394,6 +411,182 @@
     ["pointerdown", "keydown", "touchstart", "scroll"].forEach(name => {
       document.removeEventListener(name, markInteraction);
     });
+  }
+
+
+  function stopCertificationTimer() {
+    if (certificationTimerHandle) clearInterval(certificationTimerHandle);
+    certificationTimerHandle = null;
+  }
+
+  function startCertificationTimer(expiresAt) {
+    stopCertificationTimer();
+    const update = () => {
+      const seconds = Math.max(0, Number(expiresAt || 0) - Math.floor(Date.now()/1000));
+      const minutes = Math.floor(seconds / 60);
+      const rest = seconds % 60;
+      el.certificationTimer.textContent = `Tempo residuo: ${minutes}:${String(rest).padStart(2,"0")}`;
+      if (seconds <= 0) stopCertificationTimer();
+    };
+    update();
+    certificationTimerHandle = setInterval(update,1000);
+  }
+
+  async function loadCertificationStatus() {
+    if (!currentUser || !apiAvailable() || !el.certificationPanel) return;
+    try {
+      const result = await api("/api/certification/base/status",{method:"GET"});
+      const valid = (result.certificates || []).find(cert=>cert.status === "valid");
+      if (valid) {
+        el.certificationStatusSummary.innerHTML = `
+          <strong>Certificato valido</strong><br>
+          <a href="${escapeHtml(certificateUrl(valid.verificationCode))}" target="_blank" rel="noopener">${escapeHtml(valid.verificationCode)}</a>
+        `;
+        el.startCertification.textContent = "Sostieni nuovamente l'esame";
+        el.startCertification.disabled = false;
+        return;
+      }
+      if (result.eligible) {
+        el.certificationStatusSummary.textContent = "Requisiti completati: puoi sostenere l'esame finale.";
+        el.startCertification.disabled = false;
+      } else {
+        const p = result.progress || {};
+        el.certificationStatusSummary.textContent =
+          `Completa il Base: ${p.lessonsCompleted || 0}/27 lezioni · ${p.modulesCompleted || 0}/6 moduli · ${p.miniTestsCompleted || 0}/6 mini-test.`;
+        el.startCertification.disabled = true;
+      }
+    } catch (error) {
+      el.certificationStatusSummary.textContent = error.message;
+      el.startCertification.disabled = true;
+    }
+  }
+
+  function openCertificationView() {
+    document.getElementById("hero").hidden = true;
+    document.getElementById("homeView").hidden = true;
+    document.getElementById("learningView").hidden = true;
+    el.certificationPanel.hidden = true;
+    el.certificationView.hidden = false;
+    window.scrollTo({top:0,behavior:"smooth"});
+  }
+
+  function closeCertificationView() {
+    stopCertificationTimer();
+    el.certificationView.hidden = true;
+    document.getElementById("hero").hidden = false;
+    document.getElementById("homeView").hidden = false;
+    document.getElementById("learningView").hidden = true;
+    el.certificationPanel.hidden = !currentUser;
+    window.scrollTo({top:0,behavior:"smooth"});
+    loadCertificationStatus();
+  }
+
+  function renderCertificationAssessment(result) {
+    certificationAttempt = result;
+    openCertificationView();
+    startCertificationTimer(result.expiresAt);
+    const questions = result.questions || [];
+    el.certificationSurface.innerHTML = `
+      <div class="lesson-kicker">
+        <span>Assessment finale · ${escapeHtml(result.assessmentVersion)}</span>
+        <span class="critical-flag">80% + 0 errori critici</span>
+      </div>
+      <h2>Certificazione Xinzuo Academy · Base</h2>
+      <p class="lead">Rispondi a tutte le domande. Il risultato viene calcolato dal backend al momento dell'invio.</p>
+      <form id="certificationForm" class="question-form">
+        <div class="mini-grid">
+          ${questions.map((question,index)=>`
+            <fieldset class="mini-question">
+              <legend>${index+1}. ${escapeHtml(question.prompt)} ${question.critical ? '<span class="critical-inline">critica</span>' : ""}</legend>
+              ${question.options.map(option=>`
+                <label class="option">
+                  <input type="radio" name="${escapeHtml(question.id)}" value="${escapeHtml(option.id)}">
+                  <span>${escapeHtml(option.text)}</span>
+                </label>
+              `).join("")}
+            </fieldset>
+          `).join("")}
+        </div>
+        <p id="certificationMessage" class="form-status" role="alert"></p>
+        <div class="learning-actions">
+          <button class="button" type="submit">Invia esame finale</button>
+        </div>
+      </form>
+    `;
+    document.getElementById("certificationForm").addEventListener("submit",submitCertificationAssessment);
+  }
+
+  async function startCertificationAssessment() {
+    if (!currentUser) return;
+    el.startCertification.disabled = true;
+    el.certificationStatusSummary.textContent = "Preparazione esame…";
+    try {
+      const result = await api("/api/certification/base/start",{
+        method:"POST",
+        body:JSON.stringify({locale:window.XinzuoAcademy?.getLocale?.() || "it"})
+      });
+      renderCertificationAssessment(result);
+    } catch (error) {
+      el.certificationStatusSummary.textContent = error.message;
+      el.startCertification.disabled = false;
+    }
+  }
+
+  async function submitCertificationAssessment(event) {
+    event.preventDefault();
+    if (!certificationAttempt) return;
+    const form = event.currentTarget;
+    const answers = {};
+    for (const question of certificationAttempt.questions || []) {
+      const selected = form.querySelector(`input[name="${CSS.escape(question.id)}"]:checked`);
+      if (!selected) {
+        document.getElementById("certificationMessage").textContent = "Rispondi a tutte le domande prima di inviare l'esame.";
+        return;
+      }
+      answers[question.id] = selected.value;
+    }
+    setBusy(form,true);
+    document.getElementById("certificationMessage").textContent = "Valutazione in corso…";
+    try {
+      const result = await api("/api/certification/base/submit",{
+        method:"POST",
+        body:JSON.stringify({
+          attemptId:certificationAttempt.attemptId,
+          answers,
+          courseVersion:window.XinzuoAcademy?.getCourseVersion?.() || "0.1.0"
+        })
+      });
+      stopCertificationTimer();
+      const percentage = Math.round(Number(result.score || 0)*100);
+      if (result.passed && result.certificate) {
+        el.certificationSurface.innerHTML = `
+          <div class="certificate-result certificate-result--pass">
+            <p class="eyebrow">Esame superato</p>
+            <h2>Congratulazioni</h2>
+            <p class="lead">Punteggio: <strong>${percentage}%</strong> · errori critici: <strong>${result.criticalErrors}</strong>.</p>
+            <p>Il tuo certificato Xinzuo Academy Base è stato emesso e registrato.</p>
+            <a class="button" href="${escapeHtml(certificateUrl(result.certificate.verificationCode))}" target="_blank" rel="noopener">Apri certificato ${escapeHtml(result.certificate.verificationCode)}</a>
+          </div>
+        `;
+        loadAccountExtras();
+      } else {
+        el.certificationSurface.innerHTML = `
+          <div class="certificate-result certificate-result--fail">
+            <p class="eyebrow">Da consolidare</p>
+            <h2>Esame non superato</h2>
+            <p class="lead">Punteggio: <strong>${percentage}%</strong> · errori critici: <strong>${result.criticalErrors}</strong>.</p>
+            <p>Rivedi i concetti indicati nel percorso e completa almeno ${result.remediationInteractionsRequired || 3} nuove interazioni formative prima di riprovare.</p>
+            <p class="password-hint">Aree da consolidare: ${(result.failedConcepts || []).map(escapeHtml).join(", ") || "riesamina il percorso Base"}.</p>
+            <button id="certificationReturn" class="button" type="button">Torna alla formazione</button>
+          </div>
+        `;
+        document.getElementById("certificationReturn").addEventListener("click",closeCertificationView);
+      }
+      certificationAttempt = null;
+    } catch (error) {
+      document.getElementById("certificationMessage").textContent = error.message;
+      setBusy(form,false);
+    }
   }
 
   async function openManager() {
@@ -877,6 +1070,9 @@
       setBusy(el.changePasswordForm, false);
     }
   });
+
+  el.startCertification.addEventListener("click",startCertificationAssessment);
+  el.certificationBack.addEventListener("click",closeCertificationView);
 
   el.managerButton.addEventListener("click", openManager);
   el.managerBack.addEventListener("click", closeManager);
