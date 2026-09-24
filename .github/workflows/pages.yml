@@ -163,11 +163,25 @@ jobs:
 
       - name: Add Xinzuo Academy to the published site
         shell: bash
+        env:
+          ACADEMY_API_BASE: ${{ vars.ACADEMY_API_BASE }}
         run: |
           set -euo pipefail
           mkdir -p site/academy
-          cp academy/index.html academy/styles.css academy/app.js site/academy/
+          cp academy/index.html academy/styles.css academy/app.js academy/account.js academy/config.js site/academy/
           cp -R academy/data site/academy/data
+          python - <<'PY'
+          import json, os
+          cfg = {
+              "apiBase": os.environ.get("ACADEMY_API_BASE", "").rstrip("/"),
+              "requireAuth": True,
+              "companyName": "Xinzuo Europe",
+          }
+          with open("site/academy/config.js", "w", encoding="utf-8") as fh:
+              fh.write("window.XINZUO_ACADEMY_CONFIG = Object.freeze(")
+              fh.write(json.dumps(cfg, ensure_ascii=False))
+              fh.write(");\n")
+          PY
 
       - name: Install Playwright Chromium and CJK fonts
         run: |
