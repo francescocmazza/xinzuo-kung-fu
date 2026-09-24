@@ -1,3 +1,5 @@
+import { BASE_CERTIFICATION_BANK, BASE_CERTIFICATION_VERSION } from "./certification-bank.js";
+
 const enc = new TextEncoder();
 const PASSWORD_ITERATIONS = 600000;
 const SESSION_SHORT = 12 * 60 * 60;
@@ -45,6 +47,9 @@ export default {
       if (url.pathname === "/api/privacy/consents" && request.method === "GET") return getConsents(request, env);
       if (url.pathname === "/api/privacy/consents" && request.method === "PATCH") return updateConsents(request, env);
       if (url.pathname === "/api/certificates/mine" && request.method === "GET") return myCertificates(request, env);
+      if (url.pathname === "/api/certification/base/status" && request.method === "GET") return certificationStatus(request, env);
+      if (url.pathname === "/api/certification/base/start" && request.method === "POST") return startBaseCertification(request, env);
+      if (url.pathname === "/api/certification/base/submit" && request.method === "POST") return submitBaseCertification(request, env);
       if (url.pathname === "/api/progress" && request.method === "GET") return getProgress(request, env);
       if (url.pathname === "/api/progress" && request.method === "PUT") return putProgress(request, env);
       if (url.pathname === "/api/activity/ping" && request.method === "POST") return activityPing(request, env);
