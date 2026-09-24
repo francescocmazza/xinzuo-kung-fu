@@ -63,6 +63,8 @@ class PreparedUnit:
     masked_source: str
     placeholders: dict[str, str]
     glossary: tuple[tuple[str, str], ...]
+    translation_rules: tuple[str, ...]
+    forbidden_target_patterns: tuple[str, ...]
     verbatim: bool
 
 
@@ -205,6 +207,36 @@ def relevant_glossary(text: str, pairs: list[tuple[str, str]]) -> tuple[tuple[st
     return tuple(found)
 
 
+def relevant_translation_rules(
+    text: str,
+    rules: list[dict[str, Any]] | None,
+) -> tuple[tuple[str, ...], tuple[str, ...]]:
+    instructions: list[str] = []
+    forbidden: list[str] = []
+    folded = text.casefold()
+    for rule in rules or []:
+        if not isinstance(rule, dict):
+            continue
+        triggers = [str(item).strip() for item in (rule.get("source_triggers") or []) if str(item).strip()]
+        if triggers and not any(trigger.casefold() in folded for trigger in triggers):
+            continue
+        instruction = str(rule.get("instruction", "")).strip()
+        if instruction:
+            instructions.append(instruction)
+        for pattern in rule.get("forbidden_target_patterns") or []:
+            value = str(pattern).strip()
+            if value:
+                forbidden.append(value)
+    return tuple(instructions), tuple(forbidden)
+
+
+def translation_rule_violation(unit: PreparedUnit, text: str) -> str | None:
+    for pattern in unit.forbidden_target_patterns:
+        if re.search(pattern, text, re.IGNORECASE):
+            return f"forbidden target terminology matched {pattern!r}"
+    return None
+
+
 def is_verbatim(text: str) -> bool:
     stripped = text.strip()
     if not stripped or FENCE_RE.match(stripped) or re.fullmatch(r"[-*_]{3,}", stripped):
@@ -218,12 +250,16 @@ def prepare_units(
     locale: str,
     pairs: list[tuple[str, str]],
     guidance: str,
+    translation_rules: list[dict[str, Any]] | None = None,
 ) -> list[PreparedUnit]:
     result: list[PreparedUnit] = []
     occurrences: dict[str, int] = {}
     for index, block in enumerate(blocks, 1):
         masked, placeholders = mask_literals(block.text)
         terms = relevant_glossary(block.text, pairs)
+        rule_instructions, forbidden_patterns = relevant_translation_rules(
+            block.text, translation_rules
+        )
         base = _hash(json.dumps(
             {
                 "prompt": PROMPT_REVISION,
@@ -245,6 +281,8 @@ def prepare_units(
             masked_source=masked,
             placeholders=placeholders,
             glossary=terms,
+            translation_rules=rule_instructions,
+            forbidden_target_patterns=forbidden_patterns,
             verbatim=is_verbatim(block.text),
         ))
     return result
@@ -309,6 +347,9 @@ def validate_candidate(unit: PreparedUnit, text: str) -> None:
     problem = degeneration(text)
     if problem:
         raise RuntimeError(f"{unit.id}: {problem}")
+    rule_problem = translation_rule_violation(unit, text)
+    if rule_problem:
+        raise RuntimeError(f"{unit.id}: {rule_problem}")
     sw, tw = _words(unit.masked_source), _words(text)
     if len(unit.masked_source) >= 80 and len(text) > len(unit.masked_source) * 3.8 and len(tw) > max(30, len(sw) * 3.5):
         raise RuntimeError(f"{unit.id}: implausible expansion")
@@ -354,7 +395,9 @@ def queue(locale_cfg: dict[str, Any], locales: list[str], paths: list[Path]) -> 
             source_text = (SOURCE / relative).read_text(encoding="utf-8")
             _, source_body = split_document(source_text)
             blocks = split_blocks(source_body)
-            units = prepare_units(blocks, locale, pairs, guidance)
+            units = prepare_units(
+                blocks, locale, pairs, guidance, cfg.get("translation_rules") or []
+            )
             target = TRANSLATIONS / locale / relative
             existing: dict[str, str] = {}
             if target.exists():
@@ -383,7 +426,7 @@ def queue(locale_cfg: dict[str, Any], locales: list[str], paths: list[Path]) -> 
         "prompt_revision": PROMPT_REVISION,
         "instructions": (
             "Translate only queued units. Use natural publication-quality target-language prose, "
-            "preserve meaning exactly, obey each unit glossary, and preserve every placeholder "
+            "preserve meaning exactly, obey each unit glossary and translation_rules, and preserve every placeholder "
             "token exactly and in the same order. Return results using the result schema."
         ),
         "result_schema": {
@@ -422,7 +465,9 @@ def apply_results(
             source_text = source_path.read_text(encoding="utf-8")
             _, source_body = split_document(source_text)
             blocks = split_blocks(source_body)
-            units = prepare_units(blocks, locale, pairs, guidance)
+            units = prepare_units(
+                blocks, locale, pairs, guidance, cfg.get("translation_rules") or []
+            )
             target = TRANSLATIONS / locale / relative
             existing: dict[str, str] = {}
             if target.exists():
@@ -495,7 +540,9 @@ def apply_page_dir(root: Path, locale_cfg: dict[str, Any]) -> list[tuple[str, Pa
         source_text = source_path.read_text(encoding="utf-8")
         _, source_body = split_document(source_text)
         source_blocks = split_blocks(source_body)
-        units = prepare_units(source_blocks, locale, pairs, guidance)
+        units = prepare_units(
+            source_blocks, locale, pairs, guidance, cfg.get("translation_rules") or []
+        )
 
         translated_body = temp.read_text(encoding="utf-8")
         translated_blocks = split_blocks(translated_body)
@@ -564,7 +611,13 @@ def check(locale_cfg: dict[str, Any], locales: list[str], paths: list[Path]) -> 
                 failures.append(f"{locale}:{relative}: legacy engine")
             if meta.get("prompt_revision") != PROMPT_REVISION:
                 failures.append(f"{locale}:{relative}: stale prompt")
-            units = prepare_units(split_blocks(source_body), locale, pairs, guidance)
+            units = prepare_units(
+                split_blocks(source_body),
+                locale,
+                pairs,
+                guidance,
+                cfg.get("translation_rules") or [],
+            )
             existing = parse_units(body)
             if list(existing) != [u.key for u in units]:
                 failures.append(f"{locale}:{relative}: tx-unit sequence mismatch")
@@ -576,6 +629,11 @@ def check(locale_cfg: dict[str, Any], locales: list[str], paths: list[Path]) -> 
                 problem = degeneration(text)
                 if problem:
                     failures.append(f"{locale}:{relative}:{unit.id}: {problem}")
+                rule_problem = translation_rule_violation(unit, text)
+                if rule_problem:
+                    failures.append(
+                        f"{locale}:{relative}:{unit.id}: {rule_problem}"
+                    )
     return failures
 
 
