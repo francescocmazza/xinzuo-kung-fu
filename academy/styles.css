@@ -1253,3 +1253,68 @@ h3 { margin: 0; font-size: 27px; }
   .certificate-list-item,
   .certificate-admin-row { align-items: flex-start; flex-direction: column; }
 }
+
+
+.certification-panel {
+  margin: 34px 0 0;
+  padding-top: 30px;
+  border-top: 1px solid var(--line);
+}
+
+.certification-panel[hidden],
+#certificationView[hidden] { display: none !important; }
+
+.certification-callout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.certification-callout p {
+  max-width: 720px;
+  margin: 6px 0 0;
+  color: var(--muted);
+}
+
+.critical-inline {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: #f5dedf;
+  color: var(--danger);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  vertical-align: middle;
+}
+
+.certificate-result {
+  padding: 12px 0;
+  text-align: center;
+}
+
+.certificate-result h2 {
+  font-size: clamp(38px, 6vw, 58px);
+}
+
+.certificate-result--pass {
+  border-top: 5px solid var(--success);
+}
+
+.certificate-result--fail {
+  border-top: 5px solid var(--warning);
+}
+
+@media (max-width: 720px) {
+  .certification-callout {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
