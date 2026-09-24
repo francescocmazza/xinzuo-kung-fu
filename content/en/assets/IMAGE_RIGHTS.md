@@ -30,6 +30,7 @@ The following approved images in `assets/images/approved/` are cropped or adapte
 - `whetstones-and-sheaths.svg`
 - `strops-and-honing-rods.svg`
 - `home-hero-xinzuo-neutral.png`
+- `Frontespizio.webp` (AI-assisted A5 cover illustration derived from the approved Xinzuo F5C Damascus-knife product photograph supplied by the repository owner; the typography remains live HTML/CSS and is not baked into the artwork)
 - `knife-shape-silhouettes-neutral.png`
 - `damascus-pattern-knives-neutral.png`
 - `stable-whetstone-neutral.png`
