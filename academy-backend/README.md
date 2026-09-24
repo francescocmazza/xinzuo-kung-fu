@@ -10,15 +10,15 @@ Registration requires:
 
 - first name and last name;
 - password;
-- at least one contact between email and mobile phone;
-- verification of the selected contact with a six-digit OTP;
+- a valid email address;
+- a mobile phone number;
+- verification of the email address with a six-digit OTP;
 - confirmation that the user is at least 18;
 - acceptance of the current Academy Terms and Privacy Notice.
 
 Marketing consent is deliberately separate and optional:
 
 - email marketing;
-- WhatsApp marketing;
 - telephone marketing / loyalty contact.
 
 A user may refuse or later withdraw all marketing permissions without losing the Academy account, learning progress or certificate rights.
@@ -27,23 +27,16 @@ Internal `manager` accounts remain invitation-only and can be created by an `adm
 
 ## Verification delivery
 
-The Worker supports three delivery patterns:
+Account verification and password reset are intentionally **email-only**.
 
-1. **Email with Resend**
-   - secret: `RESEND_API_KEY`
-   - variable: `VERIFICATION_EMAIL_FROM`
-2. **WhatsApp with Meta Cloud API**
-   - secret: `WHATSAPP_ACCESS_TOKEN`
-   - variable: `WHATSAPP_PHONE_NUMBER_ID`
-   - variable: `WHATSAPP_TEMPLATE_NAME` (recommended: `xinzuo_academy_otp`)
-   - variable: `WHATSAPP_TEMPLATE_LANGUAGE` (must exactly match the approved template locale)
-   - optional variable: `WHATSAPP_GRAPH_VERSION` (default: `v26.0`)
-   - the approved template must be category `AUTHENTICATION` with an OTP `COPY_CODE` button
-3. **Company webhook**
-   - secret: `VERIFICATION_WEBHOOK_URL`
-   - receives JSON containing `type`, `channel`, `destination`, `code`, and expiry.
+The Worker uses Resend transactional email:
 
-`GET /api/health` reports which verification channels are currently usable so the browser can disable unavailable options.
+- secret: `RESEND_API_KEY`
+- variable: `VERIFICATION_EMAIL_FROM`
+
+The public registration form still collects a mobile phone number, but the phone is not used for OTP, login or password reset.
+
+The Resend Free plan is suitable for an initial free Academy launch, subject to Resend's current free-tier limits.
 
 ## Authentication and security
 
