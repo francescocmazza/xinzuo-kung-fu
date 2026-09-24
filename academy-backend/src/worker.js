@@ -651,11 +651,6 @@ async function updateConsents(request, env) {
 async function login(request, env) {
   return withHttpErrors(request, env, async () => {
     const body = await bodyJson(request);
-    const contact = String(body.contact || body.email || "").trim();
-    const email = normalizeEmail(contact);
-    const phone = normalizePhoneasync function login(request, env) {
-  return withHttpErrors(request, env, async () => {
-    const body = await bodyJson(request);
     const email = normalizeEmail(body.email || body.contact);
     const password = String(body.password || "");
     const user = validateEmail(email)
