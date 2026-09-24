@@ -1052,7 +1052,7 @@ async function managerUsers(request, env) {
   return withHttpErrors(request, env, async () => {
     await authenticate(request, env, ["manager","admin"]);
     const rows = await env.DB.prepare(
-      `SELECT u.id,u.email,u.first_name,u.last_name,u.role,u.team,u.active,u.created_at,u.last_login_at,u.last_active_at,
+      `SELECT u.id,u.email,u.phone,u.email_verified_at,u.phone_verified_at,u.first_name,u.last_name,u.role,u.team,u.active,u.created_at,u.last_login_at,u.last_active_at,
               COALESCE(lp.lessons_completed,0) lessons_completed,COALESCE(lp.lessons_total,?) lessons_total,
               COALESCE(lp.concepts_acquired,0) concepts_acquired,COALESCE(lp.concepts_weak,0) concepts_weak,
               COALESCE(lp.interactions,0) interactions,COALESCE(lp.mini_tests_completed,0) mini_tests_completed,
@@ -1068,18 +1068,27 @@ async function managerUsers(request, env) {
 
 async function managerUserDetail(request, env, userId) {
   return withHttpErrors(request, env, async () => {
-    await authenticate(request, env, ["manager","admin"]);
+    const auth = await authenticate(request, env, ["manager","admin"]);
     const user = await env.DB.prepare("SELECT * FROM users WHERE id=?").bind(userId).first();
     if (!user || user.role !== "staff") throw new HttpError(404, "not_found", "Learner not found.");
-    const progress = await env.DB.prepare("SELECT * FROM learner_progress WHERE user_id=?").bind(userId).first();
-    const events = await env.DB.prepare(
-      "SELECT id,event_type,module_id,concept_id,score,correct,critical_errors,duration_seconds,metadata_json,created_at FROM activity_events WHERE user_id=? ORDER BY created_at DESC LIMIT 100"
-    ).bind(userId).all();
+    const [progress,events,certificates,consents] = await Promise.all([
+      env.DB.prepare("SELECT * FROM learner_progress WHERE user_id=?").bind(userId).first(),
+      env.DB.prepare(
+        "SELECT id,event_type,module_id,concept_id,score,correct,critical_errors,duration_seconds,metadata_json,created_at FROM activity_events WHERE user_id=? ORDER BY created_at DESC LIMIT 100"
+      ).bind(userId).all(),
+      env.DB.prepare("SELECT * FROM certificates WHERE user_id=? ORDER BY issued_at DESC").bind(userId).all(),
+      auth.user.role === "admin"
+        ? env.DB.prepare("SELECT consent_type,granted,policy_version,source,created_at FROM consent_events WHERE user_id=? ORDER BY created_at DESC LIMIT 100").bind(userId).all()
+        : Promise.resolve({results:[]})
+    ]);
     return apiJson(request, env, {
       ok:true,
       user:publicUser(user),
       progress:progress ? {...progress,progress_json:undefined,rawProgress:JSON.parse(progress.progress_json)} : null,
-      events:events.results || []
+      events:events.results || [],
+      certificates:(certificates.results || []).map(publicCertificate),
+      consents:consents.results || [],
+      admin:auth.user.role === "admin"
     });
   });
 }
