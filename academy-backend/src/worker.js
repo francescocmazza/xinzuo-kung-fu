@@ -522,8 +522,8 @@ async function publicRegisterStart(request, env) {
         id,email,phone,first_name,last_name,role,team,password_hash,password_salt,password_iterations,active,
         created_at,updated_at,last_login_at,last_active_at,email_verified_at,phone_verified_at,contact_preference,
         registration_source,terms_version,privacy_version,terms_accepted_at,privacy_accepted_at,
-        marketing_email_consent,marketing_sms_consent,marketing_whatsapp_consent,marketing_phone_consent,marketing_consent_updated_at
-       ) VALUES(?,?,?,?,?,'staff',NULL,?,?,?,0,?,?,NULL,NULL,NULL,NULL,'email','public',?,?,?,?,0,0,?,?,?)`
+        marketing_email_consent,marketing_sms_consent,marketing_phone_consent,marketing_consent_updated_at
+       ) VALUES(?,?,?,?,?,'staff',NULL,?,?,?,0,?,?,NULL,NULL,NULL,NULL,'email','public',?,?,?,?,0,?,?,?)`
     ).bind(
       id,email,phone,firstName,lastName,pass.hash,pass.salt,pass.iterations,
       ts,ts,TERMS_VERSION,PRIVACY_VERSION,ts,ts,
@@ -637,7 +637,7 @@ async function updateConsents(request, env) {
     const phoneConsent = Boolean(body.marketingPhone && auth.user.phone);
     const ts = now();
     await env.DB.prepare(
-      "UPDATE users SET marketing_email_consent=?,marketing_whatsapp_consent=0,marketing_phone_consent=?,marketing_consent_updated_at=?,updated_at=? WHERE id=?"
+      "UPDATE users SET marketing_email_consent=?,marketing_phone_consent=?,marketing_consent_updated_at=?,updated_at=? WHERE id=?"
     ).bind(emailConsent?1:0,phoneConsent?1:0,ts,ts,auth.user.id).run();
     await Promise.all([
       recordConsent(env,auth.user.id,"marketing_email",emailConsent,PRIVACY_VERSION,"account"),
