@@ -45,6 +45,7 @@ jobs:
           node --check academy/account.js
           node --check academy/legal.js
           node --check academy/certificate.js
+          node --check academy-backend/src/certification-bank.js
           node --check academy-backend/src/worker.js
 
       - name: Validate D1 migration SQL
@@ -82,7 +83,24 @@ jobs:
           test -s academy/certificate.html
           test -s academy/certificate.js
           test -s academy-backend/src/worker.js
+          test -s academy-backend/src/certification-bank.js
           test -s academy-backend/migrations/0001_initial.sql
           test -s academy-backend/migrations/0002_public_registration_certificates.sql
           test -s academy/data/course.en.json
           test -s academy/data/course.it.json
+
+      - name: Verify public Academy contracts
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -q '/api/auth/register/start' academy-backend/src/worker.js
+          grep -q '/api/auth/register/verify' academy-backend/src/worker.js
+          grep -q '/api/certification/base/start' academy-backend/src/worker.js
+          grep -q '/api/certification/base/submit' academy-backend/src/worker.js
+          grep -q '/api/certificates/verify/' academy-backend/src/worker.js
+          grep -q 'marketingEmailConsent' academy/index.html
+          grep -q 'marketingSmsConsent' academy/index.html
+          grep -q 'marketingPhoneConsent' academy/index.html
+          grep -q 'privacy.html' academy/index.html
+          grep -q 'terms.html' academy/index.html
+          grep -q 'PUBLIC_REGISTRATION_ENABLED' academy-backend/src/worker.js
