@@ -188,6 +188,33 @@
         <div id="levels" class="levels"></div>
       </section>
 
+      <section id="certificationPanel" class="certification-panel" hidden>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Xinzuo Academy · Base</p>
+            <h2>Certificazione finale</h2>
+          </div>
+          <div id="certificationStatusSummary" class="section-note"></div>
+        </div>
+        <div class="certification-callout">
+          <div>
+            <strong>Requisiti</strong>
+            <p>Completa tutte le lezioni, i 6 moduli e i 6 mini-test. L'esame finale richiede almeno l'80% di risposte corrette e zero errori sulle domande critiche.</p>
+          </div>
+          <button id="startCertification" class="button" type="button">Avvia esame finale</button>
+        </div>
+      </section>
+
+      <section id="certificationView" class="learning-view" hidden>
+        <nav class="learning-nav" aria-label="Certification navigation">
+          <button id="certificationBack" class="button button--quiet" type="button">← Academy</button>
+          <div class="learning-position">
+            <span id="certificationTimer"></span>
+          </div>
+        </nav>
+        <div id="certificationSurface" class="learning-surface" aria-live="polite"></div>
+      </section>
+
       <section id="learningView" class="learning-view" hidden>
         <nav class="learning-nav" aria-label="Course navigation">
           <button id="backHome" class="button button--quiet" type="button">← Curriculum</button>
