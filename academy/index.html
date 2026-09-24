@@ -43,9 +43,9 @@
   <main class="academy-main">
     <section id="authGate" class="auth-gate" hidden aria-labelledby="authTitle">
       <div class="auth-intro">
-        <p class="eyebrow">Xinzuo Company Academy</p>
-        <h1 id="authTitle">Formazione aziendale, progressi verificabili.</h1>
-        <p>Accedi con il tuo account aziendale. La registrazione richiede un invito emesso da un manager o amministratore.</p>
+        <p class="eyebrow">Xinzuo Academy</p>
+        <h1 id="authTitle">Impara. Verifica. Certifica.</h1>
+        <p>La registrazione è aperta a tutti. Crea un account con email o cellulare, verifica il recapito e salva i tuoi progressi e certificati.</p>
         <div id="backendStatus" class="backend-status" aria-live="polite"></div>
       </div>
 
@@ -57,8 +57,8 @@
         </div>
 
         <form id="loginForm" class="auth-form">
-          <label>Email aziendale
-            <input name="email" type="email" autocomplete="username" required maxlength="254">
+          <label>Email o cellulare
+            <input name="contact" type="text" autocomplete="username" required maxlength="254" placeholder="nome@email.com oppure +393331234567">
           </label>
           <label>Password
             <input name="password" type="password" autocomplete="current-password" required minlength="12" maxlength="256">
@@ -69,9 +69,6 @@
         </form>
 
         <form id="registerForm" class="auth-form" hidden>
-          <label>Codice invito
-            <input name="inviteToken" type="text" autocomplete="off" required maxlength="160">
-          </label>
           <div class="form-grid">
             <label>Nome
               <input name="firstName" type="text" autocomplete="given-name" required maxlength="80">
@@ -80,33 +77,72 @@
               <input name="lastName" type="text" autocomplete="family-name" required maxlength="80">
             </label>
           </div>
-          <label>Email aziendale
-            <input name="email" type="email" autocomplete="username" required maxlength="254">
+          <label>Email
+            <input name="email" type="email" autocomplete="email" maxlength="254" placeholder="Opzionale se usi il cellulare">
+          </label>
+          <label>Cellulare
+            <input name="phone" type="tel" autocomplete="tel" maxlength="24" placeholder="+393331234567 · opzionale se usi l'email">
+          </label>
+          <label>Invia il codice di verifica tramite
+            <select name="verificationChannel">
+              <option value="email">Email</option>
+              <option value="sms">SMS</option>
+            </select>
           </label>
           <label>Password
             <input name="password" type="password" autocomplete="new-password" required minlength="12" maxlength="256">
           </label>
-          <label class="check-row"><input name="remember" type="checkbox"> Mantieni l'accesso su questo dispositivo</label>
           <p class="password-hint">Minimo 12 caratteri. Sono ammesse passphrase lunghe.</p>
+
+          <fieldset class="privacy-module">
+            <legend>Privacy e trattamento dei dati</legend>
+            <p>Academy usa i dati per account, sicurezza, formazione, progressi, certificazione, registro dei certificati e gestione del servizio. Il marketing è separato e facoltativo.</p>
+            <label class="check-row"><input name="ageConfirmed" type="checkbox" required> Dichiaro di avere almeno 18 anni.</label>
+            <label class="check-row"><input name="acceptTerms" type="checkbox" required> Accetto i <a href="terms.html" target="_blank" rel="noopener">Termini Academy e le regole di certificazione</a>.</label>
+            <label class="check-row"><input name="acceptPrivacy" type="checkbox" required> Ho letto l'<a href="privacy.html" target="_blank" rel="noopener">Informativa Privacy</a>.</label>
+            <hr>
+            <strong>Consensi facoltativi marketing e fidelizzazione</strong>
+            <label class="check-row"><input name="marketingEmailConsent" type="checkbox"> Email promozionali, novità, fidelizzazione e formazione aggiuntiva.</label>
+            <label class="check-row"><input name="marketingSmsConsent" type="checkbox"> SMS promozionali, novità, fidelizzazione e formazione aggiuntiva.</label>
+            <label class="check-row"><input name="marketingPhoneConsent" type="checkbox"> Contatti telefonici promozionali e di fidelizzazione.</label>
+            <p class="password-hint">Puoi rifiutare o revocare questi consensi senza perdere accesso ad Academy o ai certificati.</p>
+          </fieldset>
+
+          <label class="check-row"><input name="remember" type="checkbox"> Mantieni l'accesso su questo dispositivo</label>
           <p class="form-status" data-status></p>
-          <button class="button" type="submit">Crea account</button>
+          <button class="button" type="submit">Crea account e invia codice</button>
+        </form>
+
+        <form id="verificationForm" class="auth-form" hidden>
+          <h3>Verifica il tuo account</h3>
+          <p id="verificationDestination" class="password-hint"></p>
+          <input name="registrationId" type="hidden">
+          <label>Codice a 6 cifre
+            <input name="code" type="text" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" required>
+          </label>
+          <label class="check-row"><input name="remember" type="checkbox"> Mantieni l'accesso su questo dispositivo</label>
+          <p class="form-status" data-status></p>
+          <div class="learning-actions">
+            <button class="button" type="submit">Verifica e accedi</button>
+            <button id="resendVerification" class="button button--quiet" type="button">Invia un nuovo codice</button>
+          </div>
         </form>
 
         <form id="resetRequestForm" class="auth-form" hidden>
-          <label>Email aziendale
-            <input name="email" type="email" autocomplete="username" required maxlength="254">
+          <label>Email o cellulare verificato
+            <input name="contact" type="text" autocomplete="username" required maxlength="254" placeholder="nome@email.com oppure +393331234567">
           </label>
-          <p class="password-hint">Se il servizio email/reset è configurato, riceverai le istruzioni. Un manager può anche generare un link di reset dalla dashboard aziendale.</p>
+          <p class="password-hint">Se l'account esiste, riceverai un codice di reset sul recapito indicato.</p>
           <p class="form-status" data-status></p>
           <button class="button" type="submit">Richiedi reset password</button>
         </form>
 
         <form id="resetCompleteForm" class="auth-form" hidden>
-          <label>Email aziendale
-            <input name="email" type="email" autocomplete="username" required maxlength="254">
+          <label>Email o cellulare
+            <input name="contact" type="text" autocomplete="username" required maxlength="254">
           </label>
-          <label>Token di reset
-            <input name="resetToken" type="text" autocomplete="off" required maxlength="160">
+          <label>Codice di reset
+            <input name="resetToken" type="text" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" required maxlength="6">
           </label>
           <label>Nuova password
             <input name="newPassword" type="password" autocomplete="new-password" required minlength="12" maxlength="256">
@@ -122,7 +158,7 @@
     <div id="learnerArea">
       <section id="hero" class="hero">
         <div>
-          <p class="eyebrow" id="heroEyebrow">Xinzuo staff training</p>
+          <p class="eyebrow" id="heroEyebrow">Xinzuo Academy</p>
           <h1 id="heroTitle">Learn the knife. Understand the customer.</h1>
           <p id="heroText" class="hero__text"></p>
         </div>
@@ -168,7 +204,7 @@
         <div>
           <p class="eyebrow">Company backend</p>
           <h1 id="managerTitle">Training dashboard</h1>
-          <p>Stato di avanzamento, impegno, risultati e attività del personale.</p>
+          <p>Registrazioni, stato di avanzamento, impegno, risultati, consensi e certificati degli iscritti.</p>
         </div>
         <button id="managerBack" class="button button--quiet" type="button">← Academy</button>
       </div>
@@ -176,23 +212,17 @@
       <div id="managerOverview" class="manager-metrics"></div>
 
       <div class="manager-grid">
-        <section class="manager-panel">
-          <h2>Invita personale</h2>
+        <section id="internalInvitePanel" class="manager-panel">
+          <h2>Invita un manager interno</h2>
+          <p class="manager-note">La registrazione dei partecipanti è pubblica. Questo invito serve soltanto per creare altri account manager interni.</p>
           <form id="inviteForm" class="auth-form">
-            <label>Email (opzionale)
-              <input name="email" type="email" maxlength="254">
+            <label>Email manager
+              <input name="email" type="email" required maxlength="254">
             </label>
-            <div class="form-grid">
-              <label>Ruolo
-                <select name="role">
-                  <option value="staff">Staff</option>
-                  <option value="manager">Manager</option>
-                </select>
-              </label>
-              <label>Team / sede
-                <input name="team" type="text" maxlength="80" placeholder="Roma">
-              </label>
-            </div>
+            <input name="role" type="hidden" value="manager">
+            <label>Team / sede
+              <input name="team" type="text" maxlength="80" placeholder="Management">
+            </label>
             <label>Validità invito
               <select name="days">
                 <option value="3">3 giorni</option>
@@ -218,7 +248,7 @@
         <div class="section-heading">
           <div>
             <p class="eyebrow">People</p>
-            <h2>Avanzamento personale</h2>
+            <h2>Iscritti e avanzamento</h2>
           </div>
           <button id="managerRefresh" class="button button--quiet" type="button">Aggiorna</button>
         </div>
@@ -227,7 +257,7 @@
             <thead>
               <tr>
                 <th>Persona</th>
-                <th>Team</th>
+                <th>Contatto</th>
                 <th>Progresso</th>
                 <th>Concetti</th>
                 <th>Mini-test</th>
@@ -251,6 +281,24 @@
     </form>
     <h2>Account</h2>
     <div id="accountProfile" class="account-profile"></div>
+
+    <section class="account-section">
+      <h3>Consensi marketing</h3>
+      <form id="consentForm" class="auth-form">
+        <label class="check-row"><input name="marketingEmail" type="checkbox"> Email promozionali, fidelizzazione e formazione aggiuntiva</label>
+        <label class="check-row"><input name="marketingSms" type="checkbox"> SMS promozionali, fidelizzazione e formazione aggiuntiva</label>
+        <label class="check-row"><input name="marketingPhone" type="checkbox"> Contatti telefonici promozionali e di fidelizzazione</label>
+        <p class="form-status" data-status></p>
+        <button class="button button--quiet" type="submit">Aggiorna preferenze</button>
+      </form>
+      <p class="password-hint"><a href="privacy.html" target="_blank" rel="noopener">Privacy</a> · <a href="terms.html" target="_blank" rel="noopener">Termini e certificazione</a></p>
+    </section>
+
+    <section class="account-section">
+      <h3>I miei certificati</h3>
+      <div id="myCertificates" class="certificate-list"><p class="password-hint">Nessun certificato emesso.</p></div>
+    </section>
+
     <form id="changePasswordForm" class="auth-form">
       <h3>Cambia password</h3>
       <label>Password attuale
@@ -266,7 +314,12 @@
 
   <footer class="academy-footer">
     <p id="footerText">The Gongfu of Xinzuo remains the technical source of truth.</p>
-    <a id="bookLink" href="../it/">Open the knowledge base</a>
+    <div class="footer-links">
+      <a id="bookLink" href="../it/">Open the knowledge base</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Termini & certificazione</a>
+      <a href="certificate.html">Verifica certificato</a>
+    </div>
   </footer>
 
   <noscript>This training application requires JavaScript.</noscript>
