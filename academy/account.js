@@ -14,6 +14,7 @@
   let queuedProgress = null;
   let lastInteractionAt = Date.now();
   let heartbeatTimer = null;
+  let pendingRegistration = null;
 
   const el = {
     authGate: document.getElementById("authGate"),
@@ -25,6 +26,9 @@
     resetTab: document.getElementById("resetTab"),
     loginForm: document.getElementById("loginForm"),
     registerForm: document.getElementById("registerForm"),
+    verificationForm: document.getElementById("verificationForm"),
+    verificationDestination: document.getElementById("verificationDestination"),
+    resendVerification: document.getElementById("resendVerification"),
     resetRequestForm: document.getElementById("resetRequestForm"),
     resetCompleteForm: document.getElementById("resetCompleteForm"),
     offlineButton: document.getElementById("offlineButton"),
@@ -34,6 +38,8 @@
     logoutButton: document.getElementById("logoutButton"),
     accountDialog: document.getElementById("accountDialog"),
     accountProfile: document.getElementById("accountProfile"),
+    consentForm: document.getElementById("consentForm"),
+    myCertificates: document.getElementById("myCertificates"),
     changePasswordForm: document.getElementById("changePasswordForm"),
     managerBack: document.getElementById("managerBack"),
     managerRefresh: document.getElementById("managerRefresh"),
@@ -41,6 +47,7 @@
     managerUsers: document.getElementById("managerUsers"),
     managerDetail: document.getElementById("managerDetail"),
     inviteForm: document.getElementById("inviteForm"),
+    internalInvitePanel: document.getElementById("internalInvitePanel"),
     inviteResult: document.getElementById("inviteResult"),
     managerLegend: document.getElementById("managerLegend")
   };
@@ -56,6 +63,10 @@
 
   function apiAvailable() {
     return Boolean(API_BASE);
+  }
+
+  function legalConfigured() {
+    return Boolean(String(cfg.privacyControllerName || "").trim() && String(cfg.privacyContactEmail || "").trim());
   }
 
   function token() {
@@ -118,6 +129,7 @@
       reset: el.resetRequestForm
     };
     Object.entries(forms).forEach(([key, form]) => { form.hidden = key !== name; });
+    el.verificationForm.hidden = true;
     el.resetCompleteForm.hidden = true;
     [
       [el.loginTab, "login"],
@@ -167,7 +179,7 @@
   }
 
   function roleLabel(role) {
-    return role === "admin" ? "Admin" : role === "manager" ? "Manager" : "Staff";
+    return role === "admin" ? "Admin" : role === "manager" ? "Manager" : "Learner";
   }
 
   function dispatchAuth(user) {
@@ -182,9 +194,9 @@
     el.accountProfile.innerHTML = `
       <dl class="profile-list">
         <div><dt>Nome</dt><dd>${escapeHtml(currentUser.firstName)} ${escapeHtml(currentUser.lastName)}</dd></div>
-        <div><dt>Email</dt><dd>${escapeHtml(currentUser.email)}</dd></div>
+        <div><dt>Email</dt><dd>${escapeHtml(currentUser.email || "—")} ${currentUser.emailVerified ? "✓" : ""}</dd></div>
+        <div><dt>Cellulare</dt><dd>${escapeHtml(currentUser.phone || "—")} ${currentUser.phoneVerified ? "✓" : ""}</dd></div>
         <div><dt>Ruolo</dt><dd>${escapeHtml(roleLabel(currentUser.role))}</dd></div>
-        <div><dt>Team</dt><dd>${escapeHtml(currentUser.team || "—")}</dd></div>
       </dl>
     `;
   }
@@ -192,20 +204,20 @@
   async function restoreSession() {
     if (!apiAvailable()) {
       el.backendStatus.innerHTML = `
-        <strong>Backend aziendale pronto nel progetto, ma non ancora collegato a questo sito.</strong>
-        <span>Configura <code>ACADEMY_API_BASE</code> dopo il deploy Cloudflare. Nel frattempo puoi continuare in modalità locale.</span>
+        <strong>Il backend pubblico di Academy non è ancora collegato a questo sito.</strong>
+        <span>Configura <code>ACADEMY_API_BASE</code> dopo il deploy Cloudflare. La modalità locale resta disponibile solo come anteprima senza account o certificati.</span>
       `;
       el.offlineButton.hidden = false;
       setUser(null);
       return;
     }
 
-    el.backendStatus.textContent = "Connessione al backend aziendale…";
+    el.backendStatus.textContent = "Connessione al backend Xinzuo Academy…";
     el.offlineButton.hidden = true;
 
     try {
       await api("/api/health", { method: "GET" });
-      el.backendStatus.textContent = "Backend aziendale online.";
+      el.backendStatus.textContent = legalConfigured() ? "Backend Academy online." : "Backend online, ma identità del titolare privacy non ancora configurata: registrazione pubblica disabilitata.";
     } catch (error) {
       el.backendStatus.textContent = `Backend non raggiungibile: ${error.message}`;
       el.offlineButton.hidden = false;
@@ -315,13 +327,7 @@
 
   async function openManager() {
     if (!currentUser || !["manager", "admin"].includes(currentUser.role)) return;
-    const managerRoleOption = el.inviteForm.querySelector('option[value="manager"]');
-    if (managerRoleOption) {
-      managerRoleOption.disabled = currentUser.role !== "admin";
-      if (currentUser.role !== "admin" && el.inviteForm.elements.role.value === "manager") {
-        el.inviteForm.elements.role.value = "staff";
-      }
-    }
+    if (el.internalInvitePanel) el.internalInvitePanel.hidden = currentUser.role !== "admin";
     el.learnerArea.hidden = true;
     el.authGate.hidden = true;
     el.managerView.hidden = false;
@@ -407,7 +413,7 @@
       return `
         <tr>
           <td><strong>${escapeHtml(user.first_name)} ${escapeHtml(user.last_name)}</strong><small>${escapeHtml(user.email)}</small></td>
-          <td>${escapeHtml(user.team || "—")}</td>
+          <td>${escapeHtml(user.email || user.phone || "—")}<small>${user.email_verified_at || user.phone_verified_at ? "verificato" : "non verificato"}</small></td>
           <td><span class="table-progress"><i style="width:${Math.round(progress * 100)}%"></i></span><b>${pct(progress)}</b></td>
           <td>${Number(user.concepts_acquired || 0)} acquisiti<br><small>${Number(user.concepts_weak || 0)} da rivedere</small></td>
           <td>${score}<br><small>${Number(user.mini_tests_completed || 0)} test</small></td>
@@ -519,7 +525,7 @@
     formStatus(el.loginForm, "Accesso…");
     try {
       await authenticateWith("/api/auth/login", {
-        email: data.get("email"),
+        contact: data.get("contact"),
         password: data.get("password"),
         remember: data.get("remember") === "on"
       }, data.get("remember") === "on");
@@ -538,20 +544,101 @@
     setBusy(el.registerForm, true);
     formStatus(el.registerForm, "Creazione account…");
     try {
-      await authenticateWith("/api/auth/register", {
-        inviteToken: data.get("inviteToken"),
-        firstName: data.get("firstName"),
-        lastName: data.get("lastName"),
-        email: data.get("email"),
-        password: data.get("password"),
-        remember: data.get("remember") === "on"
-      }, data.get("remember") === "on");
-      el.registerForm.reset();
-      formStatus(el.registerForm, "");
+      const inviteToken = String(data.get("inviteToken") || "").trim();
+      if (inviteToken) {
+        await authenticateWith("/api/auth/register", {
+          inviteToken,
+          firstName:data.get("firstName"),
+          lastName:data.get("lastName"),
+          email:data.get("email"),
+          password:data.get("password"),
+          remember:data.get("remember") === "on"
+        }, data.get("remember") === "on");
+        el.registerForm.reset();
+        formStatus(el.registerForm,"");
+      } else {
+        if (!legalConfigured()) {
+          throw new Error("Registrazione non ancora aperta: identità e contatto privacy del titolare devono essere configurati.");
+        }
+        const result = await api("/api/auth/register/start", {
+          method:"POST",
+          body:JSON.stringify({
+            firstName:data.get("firstName"),
+            lastName:data.get("lastName"),
+            email:data.get("email"),
+            phone:data.get("phone"),
+            verificationChannel:data.get("verificationChannel"),
+            password:data.get("password"),
+            ageConfirmed:data.get("ageConfirmed") === "on",
+            acceptTerms:data.get("acceptTerms") === "on",
+            acceptPrivacy:data.get("acceptPrivacy") === "on",
+            marketingEmailConsent:data.get("marketingEmailConsent") === "on",
+            marketingSmsConsent:data.get("marketingSmsConsent") === "on",
+            marketingPhoneConsent:data.get("marketingPhoneConsent") === "on"
+          })
+        });
+        pendingRegistration = {
+          registrationId:result.registrationId,
+          verificationChannel:result.verificationChannel,
+          remember:data.get("remember") === "on"
+        };
+        el.verificationForm.elements.registrationId.value = result.registrationId;
+        el.verificationForm.elements.remember.checked = pendingRegistration.remember;
+        el.verificationDestination.textContent = `Abbiamo inviato il codice a ${result.maskedDestination}. Scade tra pochi minuti.`;
+        el.registerForm.hidden = true;
+        el.verificationForm.hidden = false;
+        formStatus(el.registerForm,"");
+      }
     } catch (error) {
-      formStatus(el.registerForm, error.message, "error");
+      formStatus(el.registerForm,error.message,"error");
     } finally {
-      setBusy(el.registerForm, false);
+      setBusy(el.registerForm,false);
+    }
+  });
+
+  el.verificationForm.addEventListener("submit", async event => {
+    event.preventDefault();
+    const data = new FormData(el.verificationForm);
+    setBusy(el.verificationForm,true);
+    formStatus(el.verificationForm,"Verifica…");
+    try {
+      const result = await api("/api/auth/register/verify", {
+        method:"POST",
+        body:JSON.stringify({
+          registrationId:data.get("registrationId"),
+          code:data.get("code"),
+          remember:data.get("remember") === "on"
+        })
+      });
+      rememberToken(result.token,data.get("remember") === "on");
+      pendingRegistration = null;
+      setUser(result.user);
+      await hydrateRemoteProgress();
+      el.registerForm.reset();
+      el.verificationForm.reset();
+      formStatus(el.verificationForm,"");
+    } catch (error) {
+      formStatus(el.verificationForm,error.message,"error");
+    } finally {
+      setBusy(el.verificationForm,false);
+    }
+  });
+
+  el.resendVerification.addEventListener("click", async () => {
+    const registrationId = pendingRegistration?.registrationId || el.verificationForm.elements.registrationId.value;
+    if (!registrationId) return;
+    el.resendVerification.disabled = true;
+    try {
+      const result = await api("/api/auth/register/resend", {
+        method:"POST",
+        body:JSON.stringify({registrationId,verificationChannel:pendingRegistration?.verificationChannel})
+      });
+      el.verificationDestination.textContent = `Nuovo codice inviato a ${result.maskedDestination}.`;
+      formStatus(el.verificationForm,"Nuovo codice inviato.","success");
+    } catch (error) {
+      formStatus(el.verificationForm,error.message,"error");
+    } finally {
+      setTimeout(()=>{ el.resendVerification.disabled = false; },1000);
     }
   });
 
@@ -562,7 +649,7 @@
     try {
       const result = await api("/api/auth/request-reset", {
         method: "POST",
-        body: JSON.stringify({ email: data.get("email") })
+        body: JSON.stringify({ contact: data.get("contact") })
       });
       formStatus(el.resetRequestForm, result.message || "Richiesta inviata.", "success");
     } catch (error) {
@@ -580,7 +667,7 @@
       await api("/api/auth/reset-password", {
         method: "POST",
         body: JSON.stringify({
-          email: data.get("email"),
+          contact: data.get("contact"),
           resetToken: data.get("resetToken"),
           newPassword: data.get("newPassword")
         })
@@ -603,9 +690,10 @@
     showAuthTab("login");
   });
 
-  el.accountButton.addEventListener("click", () => {
+  el.accountButton.addEventListener("click", async () => {
     renderAccountProfile();
     el.accountDialog.showModal();
+    await loadAccountExtras();
   });
 
   el.changePasswordForm.addEventListener("submit", async event => {
@@ -685,6 +773,8 @@
       showAuthTab("register");
       el.registerForm.elements.inviteToken.value = invite;
       if (email) el.registerForm.elements.email.value = email;
+      const privacyModule = el.registerForm.querySelector(".privacy-module");
+      if (privacyModule) privacyModule.hidden = true;
     }
     if (reset) {
       el.loginForm.hidden = true;
@@ -694,7 +784,7 @@
       [el.loginTab, el.registerTab, el.resetTab].forEach(b => b.classList.remove("auth-tab--active"));
       el.resetTab.classList.add("auth-tab--active");
       el.resetCompleteForm.elements.resetToken.value = reset;
-      if (email) el.resetCompleteForm.elements.email.value = email;
+      if (email) el.resetCompleteForm.elements.contact.value = email;
     }
     if (invite || reset) {
       const clean = new URL(window.location.href);
