@@ -1,52 +1,132 @@
-# Xinzuo Academy company backend
+# Xinzuo Academy public backend
 
-Cloudflare Worker + D1 backend for staff authentication, progress synchronization and management reporting.
+Cloudflare Worker + D1 backend for public registration, verified contact data, learner progress, consent history, management reporting and certificate lifecycle.
 
-## What it provides
+## Public account model
 
-- invitation-based employee registration;
-- login/logout with revocable bearer sessions;
-- password change and one-hour reset tokens;
-- bootstrap of the first administrator;
-- `staff`, `manager`, and `admin` roles;
-- cross-device Academy progress persistence;
-- active-time heartbeat for engagement measurement;
-- activity events for question, mini-test and module completion;
-- manager dashboard APIs for progress, engagement and current results;
-- manager-created staff invitations;
-- manager-created password-reset links;
-- user enable/disable and team assignment;
-- D1 migrations kept in Git.
+Public learners do **not** need an invitation.
 
-## Security model
+Registration requires:
 
-Passwords are never stored in plaintext. The Worker uses PBKDF2-HMAC-SHA256 with 600,000 iterations, a unique random salt per account and an optional server-side pepper. Session tokens and invitation/reset tokens are stored only as SHA-256 hashes in D1. Login attempts are temporarily locked after repeated failures.
+- first name and last name;
+- password;
+- at least one contact between email and mobile phone;
+- verification of the selected contact with a six-digit OTP;
+- confirmation that the user is at least 18;
+- acceptance of the current Academy Terms and Privacy Notice.
 
-The browser authenticates API requests with a bearer session token. The current GitHub Pages deployment can therefore call a separate Worker origin without relying on third-party cookies. For a later same-origin Academy deployment, the session transport can be migrated to an HttpOnly cookie without changing the D1 user/progress model.
+Marketing consent is deliberately separate and optional:
 
-## First deployment
+- email marketing;
+- SMS marketing;
+- telephone marketing / loyalty contact.
 
-1. Create a D1 database:
-   `npx wrangler d1 create xinzuo-academy --location weur`
-2. Copy `wrangler.example.jsonc` to `wrangler.jsonc` and insert the returned database ID.
-3. Configure Worker secrets:
-   - `BOOTSTRAP_TOKEN`: high-entropy one-time administrator bootstrap secret;
-   - `PASSWORD_PEPPER`: high-entropy password pepper;
-   - `IP_HASH_SALT`: random salt used before retaining hashed source-IP information.
-4. Apply migrations:
-   `npx wrangler d1 migrations apply DB --remote --config wrangler.jsonc`
-5. Deploy:
-   `npx wrangler deploy --config wrangler.jsonc`
-6. Set repository variable `ACADEMY_API_BASE` to the Worker URL/custom domain. The Academy Pages workflow writes that value into the runtime `academy/config.js`.
+A user may refuse or later withdraw all marketing permissions without losing the Academy account, learning progress or certificate rights.
 
-Optional:
-- `RESET_WEBHOOK_URL`: HTTPS endpoint that accepts password-reset notification JSON;
-- `RESET_PAGE_URL`: public Academy URL used to build reset links;
-- `ALLOWED_ORIGINS`: comma-separated browser origins allowed to call the API.
+Internal `manager` accounts remain invitation-only and can be created by an `admin`.
 
-## Bootstrap the first administrator
+## Verification delivery
 
-Only when the database contains no users:
+The Worker supports three delivery patterns:
+
+1. **Email with Resend**
+   - secret: `RESEND_API_KEY`
+   - variable: `VERIFICATION_EMAIL_FROM`
+2. **SMS with Twilio**
+   - secrets: `TWILIO_ACCOUNT_SID`, `TWILIO_API_KEY`, `TWILIO_API_SECRET`
+   - one of: `TWILIO_FROM_NUMBER` or `TWILIO_MESSAGING_SERVICE_SID`
+   - optional variable: `TWILIO_API_BASE` (the default is the standard Twilio API URL; an EU regional endpoint can be supplied)
+3. **Company webhook**
+   - secret: `VERIFICATION_WEBHOOK_URL`
+   - receives JSON containing `type`, `channel`, `destination`, `code`, and expiry.
+
+`GET /api/health` reports which verification channels are currently usable so the browser can disable unavailable options.
+
+## Authentication and security
+
+- password storage: PBKDF2-HMAC-SHA256, 600,000 iterations, unique random salt and optional server-side pepper;
+- session, invitation and reset tokens stored as hashes;
+- verification challenges expire after ten minutes and have a bounded attempt count;
+- password reset codes expire after 30 minutes;
+- temporary lockout after repeated failed logins;
+- CORS allowlist;
+- bearer session transport for the current cross-origin GitHub Pages + Worker deployment.
+
+## Data and reporting
+
+D1 stores:
+
+- accounts and verified contacts;
+- consent state plus an immutable consent-event history;
+- sessions and verification challenges;
+- adaptive learner progress;
+- active engagement time;
+- learning activity events;
+- certification attempts;
+- certificates and certificate lifecycle events.
+
+The management dashboard can inspect registrations, progress, activity, engagement, results and certificates. The admin-only audience endpoint exposes verified contact details and current marketing permissions for approved company workflows.
+
+## Certificates
+
+Certificates have:
+
+- internal UUID;
+- public verification code;
+- learner name snapshot;
+- course/level/version;
+- optional assessment version and score;
+- issue date;
+- status: `valid`, `suspended`, `revoked`, or `superseded`;
+- lifecycle event log.
+
+Public verification is available through:
+
+`GET /api/certificates/verify/:verificationCode`
+
+The public certificate page exposes only certificate information needed for verification and never publishes the learner's email, phone, password, detailed progress or marketing preferences.
+
+Manual admin issuance is available as a temporary operational seam. The intended production path is to connect issuance to a server-side final certification assessment rather than to the formative browser mini-tests.
+
+## Legal configuration before public launch
+
+GitHub Pages must receive these repository variables before registration is enabled:
+
+- `ACADEMY_PRIVACY_CONTROLLER_NAME`
+- `ACADEMY_PRIVACY_CONTACT_EMAIL`
+- `ACADEMY_PUBLIC_URL`
+- `ACADEMY_API_BASE`
+
+The browser intentionally blocks public registration when the controller identity/contact are not configured.
+
+The bundled Privacy Notice and Terms are an operational draft and should receive final legal review for the actual controller, processors, international transfers, retention decisions and launch jurisdictions.
+
+## Cloudflare deployment
+
+Required GitHub secrets:
+
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+- `ACADEMY_D1_DATABASE_ID`
+- `ACADEMY_BOOTSTRAP_TOKEN`
+- `ACADEMY_PASSWORD_PEPPER`
+- `ACADEMY_IP_HASH_SALT`
+
+Recommended:
+
+- `ACADEMY_VERIFICATION_PEPPER`
+
+Then configure at least one verification delivery path listed above.
+
+Run the manual GitHub Action:
+
+**Deploy Xinzuo Academy public backend**
+
+It applies all D1 migrations, configures Worker secrets and deploys the Worker.
+
+## First administrator
+
+Only while the database contains no users:
 
 ```bash
 curl -X POST "$ACADEMY_API_BASE/api/bootstrap" \
@@ -61,21 +141,12 @@ curl -X POST "$ACADEMY_API_BASE/api/bootstrap" \
   }'
 ```
 
-After that, the administrator creates manager/staff invitations from the Academy dashboard.
+The administrator can then create internal manager invitations and manage public learners/certificates.
 
-## Manager metrics
+## Privacy model
 
-The dashboard exposes:
-- total active learners;
-- learners active in the last seven days;
-- average Base completion;
-- average completed mini-test score;
-- average verified active time;
-- acquired and weak/nearly-acquired concepts;
-- per-person progress, interactions, results and recent activity.
+Necessary Academy processing and optional marketing are intentionally separated.
 
-Engagement is not "time logged in". The client sends one-minute heartbeat increments only while the Academy page is visible and the user has interacted recently.
+Necessary service communications can include account security, contact verification, material course changes and certificate status. Promotional, loyalty and marketing contact is controlled by separate user choices and can be changed later from the account panel.
 
-## Certification boundary
-
-The current mini-tests remain formative. Their results are useful for training operations, but the future pass/fail certification should be executed and scored server-side so a learner cannot alter a certification result by editing browser state.
+No third-party marketing transfer is implemented by this backend.
