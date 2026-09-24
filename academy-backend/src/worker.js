@@ -393,9 +393,9 @@ async function registerByInvite(request, env) {
     const team = String(invite.team || "").trim().slice(0,80);
     await env.DB.batch([
       env.DB.prepare(
-        `INSERT INTO users(id,email,first_name,last_name,role,team,password_hash,password_salt,password_iterations,active,created_at,updated_at,last_login_at,last_active_at)
-         VALUES(?,?,?,?,?,?,?,?,?,1,?,?,?,?)`
-      ).bind(id,email,firstName,lastName,invite.role,team,pass.hash,pass.salt,pass.iterations,ts,ts,ts,ts),
+        `INSERT INTO users(id,email,first_name,last_name,role,team,password_hash,password_salt,password_iterations,active,created_at,updated_at,last_login_at,last_active_at,email_verified_at,registration_source)
+         VALUES(?,?,?,?,?,?,?,?,?,1,?,?,?,?,?,'internal-invite')`
+      ).bind(id,email,firstName,lastName,invite.role,team,pass.hash,pass.salt,pass.iterations,ts,ts,ts,ts,ts),
       env.DB.prepare("UPDATE invites SET used_at=?,used_by=? WHERE token_hash=? AND used_at IS NULL").bind(ts,id,inviteHash)
     ]);
     const session = await createSession(request, env, id, Boolean(body.remember));
