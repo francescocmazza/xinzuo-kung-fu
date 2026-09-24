@@ -1587,12 +1587,485 @@
         {
           "id": "base-care-boards",
           "title": "Cura e taglieri",
-          "status": "planned",
+          "status": "active",
           "source_paths": [
             "09-maintenance/cutting-boards.md",
             "09-maintenance/routine-care.md"
           ],
-          "summary": "Proteggi filo e materiali scegliendo tagliere, lavaggio, asciugatura e conservazione corretti."
+          "summary": "Proteggi filo e materiali con superfici di taglio adatte, lavaggio, asciugatura e conservazione corretti.",
+          "lessons": [
+            {
+              "id": "bcb-01-board-hardness",
+              "concept_id": "care.board_surface_hardness",
+              "title": "Scegli una superficie che assorba il contatto",
+              "critical": true,
+              "source_path": "09-maintenance/cutting-boards.md",
+              "content": {
+                "lead": "Il tagliere fa parte del sistema di taglio perché ogni gesto termina con il contatto del filo.",
+                "points": [
+                  "Legno, plastica specifica e materiali sintetici resilienti possono offrire superfici adatte quando sono puliti, piani e stabili.",
+                  "Vetro, ceramica, pietra e metallo cedono pochissimo e sono troppo duri per il lavoro quotidiano con fili fini.",
+                  "Una superficie molto dura accelera la perdita di affilatura ed è particolarmente severa con fili sottili e duri."
+                ],
+                "takeaway": "Non valutare un tagliere solo per la sua durata: valuta che cosa fa al filo."
+              },
+              "question": {
+                "id": "bcb-q01",
+                "prompt": "Quale superficie non dovrebbe essere consigliata per il taglio quotidiano con un filo fine?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Legno adatto"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Sintetico resiliente specifico"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Vetro"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Plastica specifica per taglieri"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Il vetro è troppo duro e poco cedevole per il contatto quotidiano con un filo fine."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcb-r01a",
+                  "prompt": "Perché pietra o ceramica possono penalizzare il filo?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sono troppo morbide"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Cedono pochissimo e concentrano il carico sull'apice"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Assorbono troppa acqua"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Sciolgono chimicamente il bisello"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "L'apice microscopico colpisce ripetutamente una superficie molto poco cedevole."
+                },
+                {
+                  "id": "bcb-r01b",
+                  "prompt": "Un cliente vuole un tagliere in vetro perché facile da pulire. Che cosa va spiegato?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "È ideale per qualsiasi coltello"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Può essere facile da pulire, ma è troppo duro per il taglio quotidiano con fili fini"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Migliora la tenuta del filo"
+                    },
+                    {
+                      "id": "d",
+                      "text": "È necessario per gli acciai duri"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "La comodità igienica non rende una superficie dura amica del filo."
+                }
+              ]
+            },
+            {
+              "id": "bcb-02-board-tradeoffs",
+              "concept_id": "care.board_material_tradeoffs",
+              "title": "Comprendi i compromessi tra materiali",
+              "critical": false,
+              "source_path": "09-maintenance/cutting-boards.md",
+              "content": {
+                "lead": "Nessun materiale vince in ogni categoria: bisogna confrontare rispetto del filo, stabilità, igiene e manutenzione.",
+                "points": [
+                  "Il legno tradizionale è generalmente cedevole verso il filo ma richiede pulizia e cura appropriate.",
+                  "Plastica specifica e gomma/sintetici resilienti possono essere scelte pratiche e rispettose del filo se mantenute in buone condizioni.",
+                  "I compositi in fibre legate con resina possono essere sottili, stabili e durevoli, ma di solito sono più duri e meno cedevoli del legno tradizionale."
+                ],
+                "takeaway": "Consiglia il tagliere in funzione del coltello e dell'ambiente di lavoro, non di uno slogan sul materiale."
+              },
+              "question": {
+                "id": "bcb-q02",
+                "prompt": "Quale affermazione sui taglieri compositi in fibre e resina è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Sono sempre più morbidi del legno"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Possono essere stabili e durevoli ma in genere sono più duri e meno cedevoli del legno tradizionale"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Sono identici alla gomma"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Non possono essere resistenti all'acqua"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Praticità e durata possono accompagnarsi a una superficie di taglio più dura."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcb-r02a",
+                  "prompt": "Che cosa va confrontato nella scelta di un tagliere?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Solo l'aspetto"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Rispetto del filo, stabilità, igiene e manutenzione"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Solo il peso"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Solo se va in lavastoviglie"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "La scelta del tagliere è una decisione a più fattori."
+                },
+                {
+                  "id": "bcb-r02b",
+                  "prompt": "Un tagliere in plastica specifica o sintetico resiliente può essere adatto a un buon coltello?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sì, se pulito, piano, stabile e adatto al contatto col filo"
+                    },
+                    {
+                      "id": "b",
+                      "text": "No, è accettabile solo il legno"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Solo per coltelli seghettati"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Solo per acciaio al carbonio"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "La knowledge base riconosce esplicitamente anche superfici non in legno quando adatte."
+                }
+              ]
+            },
+            {
+              "id": "bcb-03-wash-dry",
+              "concept_id": "care.washing_and_drying",
+              "title": "Lava a mano e asciuga completamente",
+              "critical": true,
+              "source_path": "09-maintenance/routine-care.md",
+              "content": {
+                "lead": "La manutenzione quotidiana consiste soprattutto nell'evitare umidità, sostanze aggressive, calore e urti inutili.",
+                "points": [
+                  "Lava a mano poco dopo l'uso con detergente delicato appropriato.",
+                  "Risciacqua sale e acidi, quindi asciuga completamente lama e manico.",
+                  "La lavastoviglie combina detergente aggressivo, umidità prolungata, calore e rischio di urti; i cicli ripetuti possono danneggiare anche manici naturali e alcuni assemblaggi."
+                ],
+                "takeaway": "Lava a mano, risciacqua e asciuga: presto e completamente."
+              },
+              "question": {
+                "id": "bcb-q03",
+                "prompt": "Perché la lavastoviglie è una cattiva scelta abituale per un coltello da cucina di qualità?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Rende il coltello troppo affilato"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Combina detergente aggressivo, umidità prolungata, calore e rischio di urti"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Cambia sempre la lega dell'acciaio"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Rimuove il codolo"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "La lavastoviglie sottopone contemporaneamente lama e manico a diversi stress evitabili."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcb-r03a",
+                  "prompt": "Che cosa bisogna fare dopo aver tagliato alimenti salati o acidi?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Lasciare i residui fino a fine giornata"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Risciacquare e asciugare completamente il coltello"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Lasciarlo in ammollo tutta la notte"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Metterlo in lavastoviglie"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Rimuovere rapidamente sale, acidi e umidità riduce un rischio di corrosione inutile."
+                },
+                {
+                  "id": "bcb-r03b",
+                  "prompt": "Un normale coltello inox, se lavato e asciugato correttamente, necessita di olio per la normale conservazione in casa?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Di solito no"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sempre sì"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Dopo ogni verdura"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Solo se a doppio bisello"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "La fonte specifica che un inox correttamente lavato e asciugato normalmente non richiede olio in ambiente interno."
+                }
+              ]
+            },
+            {
+              "id": "bcb-04-storage",
+              "concept_id": "care.safe_storage",
+              "title": "Conserva il filo senza contatti nascosti",
+              "critical": true,
+              "source_path": "09-maintenance/routine-care.md",
+              "content": {
+                "lead": "Un filo affilato non dovrebbe urtare altri oggetti duri tra un utilizzo e l'altro.",
+                "points": [
+                  "Usa sistemi che proteggono il filo e mantengono il coltello controllato: per esempio ceppo adatto, protezione lama, saya, roll o una soluzione magnetica appropriata.",
+                  "Non lasciare il filo libero in un cassetto dove può urtare utensili o mani.",
+                  "Evita il contatto abituale del filo con piatti, bordi di pentole, piani di lavoro e altre superfici dure."
+                ],
+                "takeaway": "La conservazione deve proteggere sia l'utilizzatore sia l'apice."
+              },
+              "question": {
+                "id": "bcb-q04",
+                "prompt": "Quale abitudine di conservazione è inappropriata?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Usare una protezione lama adatta"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Tenere il coltello protetto in un ceppo adatto"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Lasciare il filo libero tra utensili metallici in un cassetto"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Usare un roll adatto per il trasporto"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Gli urti nel cassetto possono danneggiare il filo e aumentano il rischio di ferite alle mani."
+              },
+              "recovery_questions": [
+                {
+                  "id": "bcb-r04a",
+                  "prompt": "Perché va evitato il contatto abituale con bordi di piatti o piano di lavoro?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Può smussare o danneggiare l'apice"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Cambia la lunghezza della lama"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ammorbidisce il manico"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Rimuove carbonio dall'acciaio"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Il contatto duro accidentale è usura inutile sul filo fine."
+                },
+                {
+                  "id": "bcb-r04b",
+                  "prompt": "Qual è l'obiettivo della conservazione del coltello?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Renderlo difficile da raggiungere"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Proteggere il filo e mantenere il coltello sotto controllo in sicurezza"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Tenere la lama bagnata"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Massimizzare il contatto con altri oggetti metallici"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Una buona conservazione protegge sia il filo sia la sicurezza dell'utilizzatore."
+                }
+              ]
+            }
+          ],
+          "mini_test": {
+            "id": "bcb-mini-01",
+            "title": "Verifica Cura e taglieri",
+            "informational": true,
+            "questions": [
+              {
+                "id": "bcb-m01",
+                "concept_id": "care.board_surface_hardness",
+                "critical": true,
+                "prompt": "Quale superficie è troppo dura per l'uso quotidiano con un filo fine?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Vetro"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Legno adatto"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Sintetico resiliente"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Plastica specifica"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Il vetro è una superficie poco cedevole e severa sul filo."
+              },
+              {
+                "id": "bcb-m02",
+                "concept_id": "care.board_material_tradeoffs",
+                "critical": false,
+                "prompt": "Come si confrontano correttamente i materiali dei taglieri?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Cercando un vincitore universale"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Confrontando rispetto del filo, stabilità, igiene e manutenzione"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Solo per prezzo"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Scegliendo il più duro"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "I materiali comportano compromessi."
+              },
+              {
+                "id": "bcb-m03",
+                "concept_id": "care.washing_and_drying",
+                "critical": true,
+                "prompt": "Qual è la regola di pulizia quotidiana?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Lavaggio a mano, risciacquo di sale/acidi, asciugatura completa"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Ammollo notturno"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Lavastoviglie dopo ogni uso"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Lasciarlo bagnato ad asciugare"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Lavaggio tempestivo e asciugatura completa evitano danni inutili."
+              },
+              {
+                "id": "bcb-m04",
+                "concept_id": "care.safe_storage",
+                "critical": true,
+                "prompt": "Quale condizione di conservazione va evitata?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Filo protetto"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Filo libero tra utensili metallici"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Ceppo adatto"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Saya adatto"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Il contatto duro libero danneggia il filo e aumenta il rischio di ferite."
+              }
+            ]
+          }
         },
         {
           "id": "base-sharpening-foundations",
