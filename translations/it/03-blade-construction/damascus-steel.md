@@ -1,5 +1,5 @@
 ---
-source_hash: 285816e33998f7cb52e7fb62fb5e7d9770f7d94d358d5d31535285b8321d1d21
+source_hash: bb8c87ab7745278f037d9c1b2b53661202dc77c920f6cbf8fecc9b8710f50e04
 translation_engine: chatgpt-differential-v1
 prompt_revision: 2026-09-23-technical-book-v2
 glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
@@ -23,7 +23,7 @@ Questa domanda separa quattro famiglie:
 <!-- tx-unit:5684968267bedf4ee444354b5b9c6dcca358d3b02fed9a644ae0dc471d8b961a -->
 | Costruzione | Che cosa arriva al filo | Che cosa crea il motivo visibile |
 |---|---|---|
-| **Rivestimento damascato intorno a un nucleo** | Un distinto acciaio del nucleo identificato | Strati esterni saldati messi in evidenza da molatura, lucidatura e incisione |
+| **Rivestimento in acciaio Damasco intorno a un nucleo** | Un distinto acciaio del nucleo identificato | Strati esterni saldati messi in evidenza da molatura, lucidatura e incisione |
 | **Lama interamente in damasco saldato** | Gli stessi acciai alternati e saldati | La disposizione e la successiva esposizione degli strati |
 | **Acciaio da crogiolo con motivo** | Un'unica massa di acciaio ad alto tenore di carbonio con struttura sviluppata internamente | Bande e particelle formate mediante solidificazione e forgiatura controllata |
 | **Lama decorata in superficie** | L'acciaio sottostante della lama | Un disegno applicato soltanto all'esterno |
@@ -31,11 +31,14 @@ Questa domanda separa quattro famiglie:
 <!-- tx-unit:3de040825d994a6890f573cee0d232959815db8afb7c1a36cc88c316ddead4aa -->
 Queste famiglie possono avere un aspetto simile, ma rispondono a domande tecniche diverse. Un motivo visibile indica qualcosa che merita di essere indagato; non dimostra le prestazioni.
 <!-- /tx-unit -->
+<!-- tx-unit:e8afa6bdea47021f681d8fd97e5e95f2823f74748827f45fa83fa4dfa057d07c -->
+Per i moderni coltelli da cucina, questa guida usa l'espressione *acciaio Damasco* soltanto quando il motivo visibile nasce dalla struttura del materiale stesso: strati saldati a pacchetto nella lama o nel rivestimento, oppure l'acciaio storico da crogiolo discusso più avanti. Una lama monoblocco su cui un disegno simile al Damasco viene applicato soltanto mediante incisione laser, stampa, rivestimento o una lieve incisione decorativa superficiale è invece **acciaio damascato superficialmente, non acciaio Damasco**. Alcune descrizioni commerciali confondono questa distinzione perché il motivo applicato può far apparire più elaborata una lama semplice; il disegno, da solo, non dimostra quindi una costruzione stratificata.
+<!-- /tx-unit -->
 <!-- tx-unit:9137a35d0946a5237f0b7bcbd66f77f7859bc494f39383f732ae789df7f025ea -->
 <figure class="kb-learning-figure" data-visual-id="VIS-FINISH-01">
 <img src="../../assets/images/approved/damascus-pattern-knives-neutral.png" alt="" width="330" height="700">
 <figcaption>
-Esempi di lame Xinzuo con motivi damascati. Usa l'immagine per confrontare i disegni visibili, quindi la tabella delle costruzioni qui sopra per stabilire che cosa il motivo può — e non può — dirti sul coltello.
+Esempi di lame Xinzuo con motivi Damasco. Usa l'immagine per confrontare i disegni visibili, quindi la tabella delle costruzioni qui sopra per stabilire che cosa il motivo può — e non può — dirti sul coltello.
 </figcaption>
 </figure>
 <!-- /tx-unit -->
@@ -46,7 +49,7 @@ Esempi di lame Xinzuo con motivi damascati. Usa l'immagine per confrontare i dis
 In una lama rivestita, cerca la linea in cui il materiale esterno incontra il nucleo. Il nucleo prosegue fino all'apice del filo e svolge la maggior parte del lavoro di taglio. Composizione, trattamento termico, durezza e geometria dell'acciaio del nucleo incidono sul comportamento del filo più del motivo decorativo esterno.
 <!-- /tx-unit -->
 <!-- tx-unit:0f9f05ae83d7563bab8d8360994f02f10d09be44cef5aa572bce55b290c268eb -->
-Il rivestimento ha comunque un valore pratico. Un materiale esterno più morbido può sostenere un nucleo duro, semplificare molatura e produzione, modificare rigidità e peso e proteggere parte del corpo della lama. Un rivestimento damascato conferisce inoltre al coltello la sua identità visiva.
+Il rivestimento ha comunque un valore pratico. Un materiale esterno più morbido può sostenere un nucleo duro, semplificare molatura e produzione, modificare rigidità e peso e proteggere parte del corpo della lama. Un rivestimento in acciaio Damasco conferisce inoltre al coltello la sua identità visiva.
 <!-- /tx-unit -->
 <!-- tx-unit:9580d237229c803a2a9c8419a9cbb67f4508be688fddbc1ef4c645eb90775876 -->
 In una lama interamente in damasco saldato, gli acciai alternati proseguono fino alla zona del filo. Compatibilità, durezza relativa, comportamento all'usura, spessore e orientamento degli strati possono quindi influenzare direttamente l'apice del filo. Un capitolo successivo, dopo le basi di metallurgia, spiega come l'usura differenziale fra questi strati possa influenzare il comportamento di taglio.
@@ -109,10 +112,13 @@ Un maggior numero di strati può rendere la struttura visibile più fine o più 
 Per una lama rivestita, parti dal nucleo. Un nucleo in ZDP-189, SRS13, M390, 14Cr14MoVNb, AUS-10 o 10Cr15CoMoV conserva il proprio carattere metallurgico anche quando il motivo circostante appare simile. Il materiale esterno contribuisce al corpo della lama, ma non sostituisce il nucleo all'apice del filo.
 <!-- /tx-unit -->
 <!-- tx-unit:d69290eefa4404e656beff7741c57e8cfaa28990b20800bee3b74583928ea531 -->
-Per una lama interamente in damasco saldato, identifica entrambi gli acciai operativi e il modo in cui si incontrano sul filo. L'usura differenziale può preservare una microscopicità aggressività di taglio quando sistema degli strati e geometria sono progettati a questo scopo. L'effetto deriva dal materiale che arriva all'apice del filo, non dalle onde visibili più in alto sulla lama.
+Per una lama interamente in damasco saldato, identifica entrambi gli acciai operativi e il modo in cui si incontrano sul filo. L'usura differenziale può preservare un'aggressività microscopica di taglio quando sistema degli strati e geometria sono progettati a questo scopo. L'effetto deriva dal materiale che arriva all'apice del filo, non dalle onde visibili più in alto sulla lama.
 <!-- /tx-unit -->
-<!-- tx-unit:9e5067d2147f3f1484e79c041db3e6945d28cd5411eb83aac631c1f96fdb2c1e -->
-Il comportamento di taglio dipende dal coltello nel suo insieme: finitura del filo, spessore, convessità, altezza della lama, texture superficiale e movimento. Un'incisione profonda può modificare leggermente l'attrito. Una faccia lucidata può attraversare in modo diverso un alimento appiccicoso. Nessuna delle due garantisce il distacco degli alimenti.
+<!-- tx-unit:ddcff322c2530c1b03bb67c279ffded42489b788c81b77aba40d15b26c93e41e -->
+Il comportamento di taglio dipende dal coltello nel suo insieme: finitura del filo, spessore, convessità, altezza della lama, texture superficiale e movimento. Quando l'incisione differenziale lascia un rilievo molto lieve tra strati adiacenti, i microscopici gradini e avvallamenti che ne risultano possono interrompere il contatto perfettamente continuo tra la faccia della lama e l'alimento. Con alcuni alimenti questo può ridurre leggermente l'adesione locale o facilitare la penetrazione della lama nel taglio.
+<!-- /tx-unit -->
+<!-- tx-unit:c239997ed82961880ab128b9207e123e0200c2571e31b0dcaa228c39b40299b8 -->
+Si tratta però di un effetto secondario, dipendente dalla finitura, non di un vantaggio automatico della costruzione in acciaio Damasco. Un'incisione profonda o ruvida può aumentare l'attrito, mentre geometria della lama, spessore, convessità, lucidatura, tipo di alimento e tecnica di taglio contano normalmente di più. Questo effetto va inoltre distinto dall'usura differenziale all'apice del filo, che è un meccanismo diverso discusso più avanti.
 <!-- /tx-unit -->
 <!-- tx-unit:0939f2f1615691e22369810be98f1a77a6a1a015a45ad29a4804e0197b5be302 -->
 ## La decorazione superficiale è una categoria distinta
@@ -120,14 +126,17 @@ Il comportamento di taglio dipende dal coltello nel suo insieme: finitura del fi
 <!-- tx-unit:998127e57dae08f9d52e4aa3e8ede62f737d564e73341341ef5274daa151cdfe -->
 È possibile produrre un esterno decorato senza costruire la lama con strati saldati. Incisione, rivestimenti, colorazione controllata e trattamenti superficiali selettivi possono creare risultati decorativi del tutto legittimi.
 <!-- /tx-unit -->
+<!-- tx-unit:e1fb8694a0f769c4f9f58002531234e69097640f6317cf7ba9400ff15c087ea8 -->
+Un motivo simile al Damasco inciso al laser su una lama monoblocco appartiene a questa categoria. Può essere una scelta decorativa del tutto legittima quando viene descritta come tale, ma non deve essere presentata né interpretata come prova che la lama sia costruita con strati di vero acciaio Damasco.
+<!-- /tx-unit -->
 <!-- tx-unit:bf9291b47d0275bd8b418c720d3a06e47df238e71daf5d9e7bf01fd5e56869fa -->
-La descrizione deve corrispondere alla struttura. Se il disegno esiste soltanto sulla superficie, chiamalo finitura decorata o a motivo. Se gli strati saldati attraversano il metallo, chiamalo damasco saldato. Se un rivestimento damascato circonda un nucleo, indica separatamente nucleo e rivestimento.
+La descrizione deve corrispondere alla struttura. Se il disegno esiste soltanto sulla superficie, chiamalo finitura decorata o a motivo. Se gli strati saldati attraversano il metallo, chiamalo damasco saldato. Se un rivestimento in acciaio Damasco circonda un nucleo, indica separatamente nucleo e rivestimento.
 <!-- /tx-unit -->
 <!-- tx-unit:bb0c6278f574ecb352a6e35d689664838df9b2cd908e2f53048b05b0030efb3f -->
 Una decorazione superficiale può attenuarsi o cambiare con una lucidatura profonda perché non attraversa lo spessore della lama. Un autentico motivo saldato rimane parte del materiale, anche se una rifinitura può ridurne il contrasto visibile finché non viene nuovamente lucidato e inciso.
 <!-- /tx-unit -->
 <!-- tx-unit:c6a64385b41da4f63cc41e7ba33172e489d752715ea6774b74fb3dd910e23d51 -->
-## Come Xinzuo utilizza diverse costruzioni damascate
+## Come Xinzuo utilizza diverse costruzioni in acciaio Damasco
 <!-- /tx-unit -->
 <!-- tx-unit:284f236ecb49bc574395d84ad8813880ce2ecf9fcf2acaf7d70d07336349bf4d -->
 Xinzuo utilizza costruzioni stratificate in modi tecnicamente differenti. La gamma attuale combina leghe moderne specificate, trattamento termico controllato, saldatura industriale degli strati, molatura, lucidatura, incisione e collaudo in costruzioni con nucleo rivestito, con accenti di rame e in damasco integrale. Poiché queste strutture collocano materiali diversi sul filo — oppure lontano da esso — risolvono problemi tecnici e visivi differenti, anziché rappresentare un'unica ricetta decorativa.
@@ -136,12 +145,12 @@ Xinzuo utilizza costruzioni stratificate in modi tecnicamente differenti. La gam
 La gamma attuale comprende:
 <!-- /tx-unit -->
 <!-- tx-unit:a0e601d470687c6fb552edf93a81d9dd8cd4dd0208b6c5f1b8820fcfecbce929 -->
-- rivestimenti damascati intorno a nuclei come 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, ZDP-189 e il 14Cr14MoVNb proprietario;
-- costruzioni damascate con accenti di rame, nelle quali metalli contrastanti entrano a far parte del progetto visivo e strutturale;
+- rivestimenti in acciaio Damasco intorno a nuclei come 10Cr15CoMoV, 12Cr18MoV, AUS-10, SRS13, M390, ZDP-189 e il 14Cr14MoVNb proprietario;
+- costruzioni in acciaio Damasco con accenti di rame, nelle quali metalli contrastanti entrano a far parte del progetto visivo e strutturale;
 - lame personalizzate in damasco integrale a 110 strati, nelle quali i materiali alternati proseguono attraverso il filo e possono contribuire direttamente all'usura differenziale dell'apice del filo.
 <!-- /tx-unit -->
 <!-- tx-unit:02aeebbd327cfa0d14139db39953806713c3b3ba261bd662a68f3d94e010147c -->
-Il motivo visibile non impone quindi un'unica soluzione tecnica. Xinzuo può combinare un rivestimento damascato con acciai del nucleo molto diversi, utilizzare rame o altri contrasti per un linguaggio progettuale distinto oppure fare del materiale stratificato stesso il filo operativo in una costruzione in damasco integrale.
+Il motivo visibile non impone quindi un'unica soluzione tecnica. Xinzuo può combinare un rivestimento in acciaio Damasco con acciai del nucleo molto diversi, utilizzare rame o altri contrasti per un linguaggio progettuale distinto oppure fare del materiale stratificato stesso il filo operativo in una costruzione in damasco integrale.
 <!-- /tx-unit -->
 <!-- tx-unit:587ddffff613c65e68e8bbe8ff669c0474a85915ed193277255ebbc68e078f3b -->
 In tutti questi esempi materiali, struttura, processo e aspetto sono variabili che possono essere progettate insieme. La guida [Acciai per lame Xinzuo](../02-steels-and-metallurgy/xinzuo-blade-steels.md) approfondisce più avanti i materiali dei nuclei. [Usura differenziale nelle lame in damasco integrale](self-sharpening-full-damascus.md) torna invece sul caso particolare in cui sono gli stessi materiali alternati a raggiungere l'apice del filo.
@@ -188,7 +197,7 @@ La moderna saldatura a pacchetto e il wootz storico possono entrambi mostrare li
 - **wootz:** un unico lingotto di acciaio da crogiolo sviluppa bande attraverso composizione, solidificazione e storia di forgiatura.
 <!-- /tx-unit -->
 <!-- tx-unit:0b119410ebf9213feaf929210aea9140dcd3ab1d0c92ac1d28d7f5869adb45bd -->
-Uno studio microscopico del 2006 ha riportato nanotubi di carbonio e nanofili di cementite in un campione di sciabola damascata del XVII secolo. L'osservazione riguarda una singola lama e un singolo studio. Non può essere estesa a tutti gli acciai marezzati storici né utilizzata come spiegazione semplice delle loro prestazioni.
+Uno studio microscopico del 2006 ha riportato nanotubi di carbonio e nanofili di cementite in un campione di sciabola in acciaio Damasco del XVII secolo. L'osservazione riguarda una singola lama e un singolo studio. Non può essere estesa a tutti gli acciai marezzati storici né utilizzata come spiegazione semplice delle loro prestazioni.
 <!-- /tx-unit -->
 <!-- tx-unit:8684dfbdb328d8c043961c5119db181bfda9e0f757383d573fea39b3b3bd401a -->
 ## Bintie e la parte cinese della storia

@@ -27,7 +27,7 @@ Il risultato non è la creazione di un nuovo filo dal nulla. È un modo per cons
 Perché l'usura differenziale influenzi il taglio, i diversi materiali devono raggiungere l'apice del filo.
 <!-- /tx-unit -->
 <!-- tx-unit:b6a3811e8f975dee820fa2f92ef10480e0ae93eca1a79bbc964761b11de2c496 -->
-In un comune coltello con rivestimento damascato, gli strati esterni decorati circondano un distinto acciaio del nucleo. Normalmente è il nucleo a formare il filo, quindi il rivestimento crea carattere visivo e può contribuire al corpo della lama, ma non produce usura differenziale all'apice del filo.
+In un comune coltello con rivestimento in acciaio Damasco, gli strati esterni decorati circondano un distinto acciaio del nucleo. Normalmente è il nucleo a formare il filo, quindi il rivestimento crea carattere visivo e può contribuire al corpo della lama, ma non produce usura differenziale all'apice del filo.
 <!-- /tx-unit -->
 <!-- tx-unit:bd4c18394097153e66fdd32373021281127a6c59b6c6ca151e1a1b28e86fcd35 -->
 Una **lama interamente in damasco saldato** è diversa. I materiali alternati attraversano la lama e arrivano fino al filo stesso. La costruzione stratificata diventa quindi parte della struttura di taglio operativa anziché rimanere all'esterno di un nucleo separato.

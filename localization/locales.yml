@@ -23,6 +23,29 @@ locales:
       Prefer terminology actually used in Italian professional cooking, cutlery,
       sharpening and metallurgy. Avoid English syntactic calques, unnecessary
       anglicisms and literal renderings when an established Italian expression exists.
+    translation_rules:
+      - id: damascus-vs-damascato
+        source_triggers:
+          - Damascus
+          - pattern-welded
+          - patterned cladding
+          - surface-decorated
+          - laser
+        instruction: >-
+          Italian terminology rule: "Damasco" and "damascato" are not interchangeable.
+          Use "acciaio Damasco", "rivestimento in acciaio Damasco", "lama in acciaio
+          Damasco" and equivalent Damasco wording for genuine layered or pattern-welded
+          constructions. Reserve "acciaio damascato" (or explicit "damascato
+          superficialmente") for a monosteel blade whose Damascus-like pattern is only
+          applied to the surface, for example by laser engraving, printing, coating or
+          shallow decorative etching. Never describe genuine layered Damascus as
+          "rivestimento damascato", "motivo damascato", "lama damascata" or "famiglia
+          damascata".
+        forbidden_target_patterns:
+          - '\brivestiment(?:o|i)\s+damascat(?:o|i)\b'
+          - '\bmotiv(?:o|i)\s+damascat(?:o|i)\b'
+          - '\blam(?:a|e)\s+damascat(?:a|e)\b'
+          - '\bfamigli(?:a|e)\s+damascat(?:a|e)\b'
   es:
     name: Español
     publish_when_complete: true

@@ -3,7 +3,7 @@ title: Damascus Steel
 status: review
 audience: general-reader
 language: en
-reviewed: 2026-09-16
+reviewed: 2026-09-24
 translation_priority: highest
 ---
 
@@ -25,6 +25,8 @@ That question separates four families:
 | **Surface-decorated blade** | The underlying blade steel | A design applied only to the exterior |
 
 These families may look related, but they answer different technical questions. A visible pattern identifies something that should be investigated; it does not prove performance.
+
+For modern kitchen knives, this guide uses *Damascus steel* only when the visible pattern comes from the material construction itself: forge-welded layers in the blade or cladding, or the historical crucible-pattern steel discussed later. A monosteel blade whose Damascus-like design is added only by laser engraving, printing, coating or shallow decorative etching is **surface-decorated, not Damascus steel**. Some commercial descriptions blur this distinction because an applied pattern can make a plain blade look more elaborate; the pattern alone is therefore not evidence of layered construction.
 
 <figure class="kb-learning-figure" data-visual-id="VIS-FINISH-01">
 <img src="../../assets/images/approved/damascus-pattern-knives-neutral.png" alt="" width="330" height="700">
@@ -86,11 +88,15 @@ For a clad blade, begin with the core. A ZDP-189, SRS13, M390, 14Cr14MoVNb, AUS-
 
 For a full pattern-welded blade, identify both working steels and how they meet at the edge. Differential wear can preserve microscopic cutting aggression when the layer system and geometry are designed for it. This effect comes from the material that reaches the apex, not from the visible waves higher on the blade.
 
-Cutting behaviour depends on the complete knife: edge finish, thickness, convexity, blade height, surface texture and movement. A deep etch may change friction slightly. A polished face may move differently through sticky food. Neither guarantees food release.
+Cutting behaviour depends on the complete knife: edge finish, thickness, convexity, blade height, surface texture and movement. When differential etching leaves a very shallow relief between adjacent layers, the resulting microscopic ridges and valleys can interrupt perfectly continuous contact between the blade face and the food. In some ingredients this may slightly reduce local adhesion or help the blade move through the cut.
+
+This is a small, finish-dependent effect, not an automatic advantage of Damascus construction. A deep or rough etch can increase drag, while blade geometry, thickness, convexity, polish, the food itself and cutting technique usually matter more. It should also be kept separate from differential wear at the cutting apex, which is a different mechanism discussed later.
 
 ## Surface decoration is a separate category
 
 A patterned exterior can be produced without building the blade from welded layers. Engraving, coating, controlled coloration and selective surface treatment can create a legitimate decorative result.
+
+A laser-engraved Damascus-like pattern on a monosteel blade belongs in this category. It can be an honest decorative choice when it is described as such, but it should not be marketed or interpreted as evidence that the blade is made from layered Damascus steel.
 
 The description must match the structure. If the design exists only at the surface, call it a decorated or patterned finish. If welded layers run through the metal, call it pattern-welded. If patterned cladding surrounds a core, name the core and cladding separately.
 

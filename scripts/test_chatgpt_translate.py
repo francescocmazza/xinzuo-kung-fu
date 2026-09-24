@@ -8,6 +8,7 @@ from chatgpt_translate import (
     render,
     restore_literals,
     split_blocks,
+    validate_candidate,
 )
 
 
@@ -44,6 +45,28 @@ translate
     assert degeneration("bisello bisello bisello bisello bisello")
     assert degeneration("fondello del manico fondello del manico fondello del manico fondello del manico")
     assert degeneration("Il bisello conduce al filo.") is None
+
+    rules = [{
+        "source_triggers": ["Damascus"],
+        "instruction": "Use Damasco for genuine layered construction.",
+        "forbidden_target_patterns": [r"\brivestimento damascato\b"],
+    }]
+    ruled = prepare_units(
+        [SourceBlock("Damascus patterned cladding.", "\n\n")],
+        "it",
+        [],
+        "",
+        rules,
+    )[0]
+    assert ruled.translation_rules
+    try:
+        validate_candidate(ruled, "Rivestimento damascato.")
+    except RuntimeError as exc:
+        assert "forbidden target terminology" in str(exc)
+    else:
+        raise AssertionError("Italian Damascus terminology rule was not enforced")
+    validate_candidate(ruled, "Rivestimento in acciaio Damasco.")
+
     print("ChatGPT differential translation tests passed")
     return 0
 

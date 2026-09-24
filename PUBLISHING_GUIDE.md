@@ -158,6 +158,8 @@ If the meaning itself is wrong, edit English first.
 
 Only glossary rows relevant to a queued unit are included with that translation task. Updating a technical term therefore invalidates only units that use it instead of the entire book.
 
+Locale-specific semantic distinctions that cannot be represented safely as a simple one-to-one glossary entry live under the locale's `translation_rules` in `localization/locales.yml`. A rule is injected only into queued units whose English source matches its declared triggers, and the validator can reject explicitly forbidden target-language formulations. The Italian distinction between genuine **Damasco** construction and merely surface-**damascato** decoration is enforced this way so future translations cannot silently collapse the two concepts.
+
 ## Adding other languages
 
 The queue generator can target any configured locale:

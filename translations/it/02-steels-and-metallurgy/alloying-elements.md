@@ -166,10 +166,10 @@ Il cobalto da solo non rende un coltello più tenace, più resistente alla corro
 Il nichel può migliorare la tenacità negli acciai adatti ed è ampiamente utilizzato nel damasco saldato perché gli strati ricchi di nichel rimangono chiari dopo l'incisione e contrastano con quelli più scuri.
 <!-- /tx-unit -->
 <!-- tx-unit:d6264d79f3f4bd5c2a904a8d20723b4c19d270f1c0292d3b6151f90324f8f305 -->
-Per **incisione** si intende l'esposizione dell'acciaio a una soluzione chimica controllata che attacca i diversi strati a velocità differenti. Le diverse reazioni rendono più visibile il motivo damascato. Gli strati ricchi di nichel resistono generalmente di più all'agente di incisione e rimangono più chiari.
+Per **incisione** si intende l'esposizione dell'acciaio a una soluzione chimica controllata che attacca i diversi strati a velocità differenti. Le diverse reazioni rendono più visibile il motivo dell'acciaio Damasco. Gli strati ricchi di nichel resistono generalmente di più all'agente di incisione e rimangono più chiari.
 <!-- /tx-unit -->
 <!-- tx-unit:f5cf9d3eea228b5bfa559502348257cb4250f4d25e0f1dbe47df814bfef01006 -->
-In molti coltelli con rivestimento damascato, gli strati decorati si trovano all'esterno di un distinto acciaio del nucleo che forma il filo. Nelle costruzioni interamente in damasco saldato, l'effetto del materiale contenente nichel dipende dal fatto che raggiunga o meno il filo e dalle proprietà dell'intera combinazione.
+In molti coltelli con rivestimento in acciaio Damasco, gli strati decorati si trovano all'esterno di un distinto acciaio del nucleo che forma il filo. Nelle costruzioni interamente in damasco saldato, l'effetto del materiale contenente nichel dipende dal fatto che raggiunga o meno il filo e dalle proprietà dell'intera combinazione.
 <!-- /tx-unit -->
 <!-- tx-unit:bc1a891003e880e2b16a1c8a88d76f238f23842e8451baa450004f73c40150cc -->
 ## Azoto: un'altra via verso durezza e resistenza alla corrosione
