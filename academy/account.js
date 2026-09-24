@@ -445,7 +445,7 @@
 
   function renderManagerOverview(data) {
     const items = [
-      ["Personale", data.learners],
+      ["Iscritti", data.learners],
       ["Attivi 7 gg", data.active7d],
       ["Progresso medio", pct(data.progressAvg)],
       ["Media mini-test", pct(data.miniTestAvg)],
@@ -470,7 +470,7 @@
 
   function renderManagerUsers(users) {
     if (!users.length) {
-      el.managerUsers.innerHTML = '<tr><td colspan="8">Nessun utente staff registrato.</td></tr>';
+      el.managerUsers.innerHTML = '<tr><td colspan="8">Nessun iscritto registrato.</td></tr>';
       return;
     }
     el.managerUsers.innerHTML = users.map(user => {
@@ -478,7 +478,7 @@
       const score = Number(user.mini_tests_completed || 0) ? pct(user.mini_test_avg) : "—";
       return `
         <tr>
-          <td><strong>${escapeHtml(user.first_name)} ${escapeHtml(user.last_name)}</strong><small>${escapeHtml(user.email)}</small></td>
+          <td><strong>${escapeHtml(user.first_name)} ${escapeHtml(user.last_name)}</strong><small>iscritto ${when(user.created_at)}</small></td>
           <td>${escapeHtml(user.email || user.phone || "—")}<small>${user.email_verified_at || user.phone_verified_at ? "verificato" : "non verificato"}</small></td>
           <td><span class="table-progress"><i style="width:${Math.round(progress * 100)}%"></i></span><b>${pct(progress)}</b></td>
           <td>${Number(user.concepts_acquired || 0)} acquisiti<br><small>${Number(user.concepts_weak || 0)} da rivedere</small></td>
