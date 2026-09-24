@@ -15,6 +15,7 @@
   let lastInteractionAt = Date.now();
   let heartbeatTimer = null;
   let pendingRegistration = null;
+  let verificationChannels = { email: true, sms: true };
 
   const el = {
     authGate: document.getElementById("authGate"),
@@ -67,6 +68,17 @@
 
   function legalConfigured() {
     return Boolean(String(cfg.privacyControllerName || "").trim() && String(cfg.privacyContactEmail || "").trim());
+  }
+
+  function applyVerificationAvailability() {
+    const select = el.registerForm?.elements?.verificationChannel;
+    if (!select) return;
+    const emailOption = select.querySelector('option[value="email"]');
+    const smsOption = select.querySelector('option[value="sms"]');
+    if (emailOption) emailOption.disabled = !verificationChannels.email;
+    if (smsOption) smsOption.disabled = !verificationChannels.sms;
+    if (select.value === "email" && !verificationChannels.email && verificationChannels.sms) select.value = "sms";
+    if (select.value === "sms" && !verificationChannels.sms && verificationChannels.email) select.value = "email";
   }
 
   function token() {
@@ -259,8 +271,19 @@
     el.offlineButton.hidden = true;
 
     try {
-      await api("/api/health", { method: "GET" });
-      el.backendStatus.textContent = legalConfigured() ? "Backend Academy online." : "Backend online, ma identità del titolare privacy non ancora configurata: registrazione pubblica disabilitata.";
+      const health = await api("/api/health", { method: "GET" });
+      verificationChannels = {
+        email:Boolean(health.verificationChannels?.email),
+        sms:Boolean(health.verificationChannels?.sms)
+      };
+      applyVerificationAvailability();
+      const channelText = [
+        verificationChannels.email ? "email" : null,
+        verificationChannels.sms ? "SMS" : null
+      ].filter(Boolean).join(" + ");
+      el.backendStatus.textContent = legalConfigured()
+        ? `Backend Academy online${channelText ? " · verifica " + channelText : " · nessun canale OTP configurato"}.`
+        : "Backend online, ma identità del titolare privacy non ancora configurata: registrazione pubblica disabilitata.";
     } catch (error) {
       el.backendStatus.textContent = `Backend non raggiungibile: ${error.message}`;
       el.offlineButton.hidden = false;
