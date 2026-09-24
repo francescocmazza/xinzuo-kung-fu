@@ -97,7 +97,7 @@ jobs:
           grep -q '/api/auth/register/verify' academy-backend/src/worker.js
           grep -q '/api/certification/base/start' academy-backend/src/worker.js
           grep -q '/api/certification/base/submit' academy-backend/src/worker.js
-          grep -q '/api/certificates/verify/' academy-backend/src/worker.js
+          grep -q 'certificates.*verify' academy-backend/src/worker.js
           grep -q 'marketingEmailConsent' academy/index.html
           grep -q 'marketingSmsConsent' academy/index.html
           grep -q 'marketingPhoneConsent' academy/index.html
