@@ -1,7 +1,12 @@
 # Publication cover artwork
 
-`content/en/assets/CoverFront.svg` and `content/en/assets/CoverBack.svg` are vector publication-cover artwork created specifically for the current edition, reconstructing the approved composition after the earlier binary cover files proved unsuitable for the GitHub publication pipeline.
+The canonical publication artwork is the pair of user-approved images supplied on 2026-09-24:
 
-The front artwork keeps the Xinzuo mark and vertical Chinese subtitle as graphic elements while the Latin title, subtitle and author remain live, selectable and localized by the publication system. The back artwork is a matching text-free dark-wood texture.
+- `content/en/assets/CoverFront.webp` — the approved kitchen still-life front cover with the knife, peppers, basil, vertical Chinese inscription and red seal.
+- `content/en/assets/CoverBack.webp` — the approved matching dark-wood background.
 
-This provenance note deliberately lives outside the translatable book source so a purely technical cover-asset change does not invalidate otherwise current language editions.
+The repository stores lossless WebP conversions of those source PNGs. The conversion is pixel-identical in RGB; it changes only the technical file format. The publication workflows pin the exact SHA256 digest and dimensions of both assets so an accidental replacement or generated substitute fails CI.
+
+The artwork itself is fixed. The Latin-script title, subtitle and author are live/selectable text overlaid by the publication system and localized for each language. The vertical Chinese inscription and red seal remain part of the approved front artwork.
+
+This provenance note deliberately lives outside the translatable book source so a purely technical asset change does not invalidate otherwise current language editions.
