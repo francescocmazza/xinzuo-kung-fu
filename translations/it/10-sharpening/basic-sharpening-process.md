@@ -9,7 +9,7 @@ glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 # Affilatura di base
 <!-- /tx-unit -->
 <!-- tx-unit:3d536411524fb66fc6fd0d337758c3be5f0af9b150b003972a1ab2e13f80e7a9 -->
-L'affilatura asporta acciaio finché i due lati del filo tornano a incontrarsi in un apice del filo pulito. Chi è alle prime armi non ha bisogno di velocità, di una grande collezione di pietre o di una conoscenza perfetta della metallurgia. Le competenze essenziali sono più semplici:
+L'affilatura asporta acciaio finché i due lati del tagliente tornano a incontrarsi in un apice pulito. Chi è alle prime armi non ha bisogno di velocità, di una grande collezione di pietre o di una conoscenza perfetta della metallurgia. Le competenze essenziali sono più semplici:
 <!-- /tx-unit -->
 <!-- tx-unit:b7049ab73baba0a95d1ed688a1e1b2908b5db38ecdfbd94fe36ccedb1dccf4a9 -->
 - appoggiare sulla pietra lo stretto **bisello del filo**;
@@ -26,10 +26,10 @@ Questo metodo è pensato per comuni coltelli da cucina a doppio bisello. I tradi
 ## 1. Esaminare il coltello
 <!-- /tx-unit -->
 <!-- tx-unit:e1c58f1c68371e732255129a57ca1835453da919b47bda7b5a566897b35d1507 -->
-Osserva il filo sotto una luce intensa. Le zone smussate, ripiegate o scheggiate riflettono spesso la luce. Controlla punta, parte anteriore curva, zona centrale e tallone.
+Osserva il tagliente sotto una luce intensa. Le zone smussate, ripiegate o scheggiate riflettono spesso la luce. Controlla punta, parte anteriore curva, zona centrale e tallone.
 <!-- /tx-unit -->
 <!-- tx-unit:a5933a76ed3d279cba273bd4e58a7fdc412a3e5a93d5db07a01ea2ef1e5020b0 -->
-Un coltello normalmente smussato può essere affilato, in genere, su una sola pietra di grana media. Un filo scheggiato, una punta rotta o un coltello diventato molto spesso dietro il filo richiedono una riparazione o un intervento sulla geometria. Queste operazioni asportano molto più acciaio e non fanno parte di questo metodo per principianti.
+Un coltello normalmente smussato può essere affilato, in genere, su una sola pietra di grana media. Un tagliente scheggiato, una punta rotta o un coltello diventato molto spesso dietro il filo richiedono una riparazione o un intervento sulla geometria. Queste operazioni asportano molto più acciaio e non fanno parte di questo metodo per principianti.
 <!-- /tx-unit -->
 <!-- tx-unit:9b4f595277720a0cb761e4e353b896e498b575392da31acf438a8ac76194665a -->
 ## 2. Individuare il bisello del filo
@@ -55,7 +55,7 @@ Come riferimento visivo approssimativo, solleva il dorso finché lo spazio fra d
 ## 3. Posizionare le mani
 <!-- /tx-unit -->
 <!-- tx-unit:d15fa0d38b74ae93305e9b662da61dbcda78c2f9f2fd91a2c418c65e84f3b0a9 -->
-Impugna saldamente il manico senza creare tensione. La mano sul manico controlla direzione e angolo di contatto del coltello. Appoggia le dita dell'altra mano sulla faccia della lama, in sicurezza sopra il filo, vicino alla zona che sta attraversando la pietra.
+Impugna saldamente il manico senza creare tensione. La mano sul manico controlla direzione e angolo di contatto del coltello. Appoggia le dita dell'altra mano sulla faccia della lama, in sicurezza sopra il tagliente, vicino alla zona che sta attraversando la pietra.
 <!-- /tx-unit -->
 <!-- tx-unit:f527327bbab909a17d1f20031437a5d3ff3b30060d79b35a43abd192cc4f0dd9 -->
 Mantieni rilassate le spalle e usa braccia e parte superiore del corpo per il movimento. Un polso rigido e una presa eccessivamente serrata rendono più difficile controllare l'angolo.
@@ -64,10 +64,10 @@ Mantieni rilassate le spalle e usa braccia e parte superiore del corpo per il mo
 Nel metodo insegnato in questo libro, quando giri il coltello per affilare il secondo lato cambia anche la mano che impugna il manico. In questo modo il movimento sulla seconda faccia rispecchia quello della prima e, per chi sta imparando, può risultare più facile conservare lo stesso angolo di contatto. Altri affilatori esperti possono utilizzare con successo disposizioni delle mani differenti; ciò che conta è ottenere un contatto stabile e controllato con il bisello del filo esistente.
 <!-- /tx-unit -->
 <!-- tx-unit:bda34ca386000557148c96de65e8325c80f583581b5eca5242c199e6b07b42b1 -->
-Esercitati lentamente nel movimento, quasi senza pressione, finché entrambe le mani riescono a seguire comodamente tutto il filo.
+Esercitati lentamente nel movimento, quasi senza pressione, finché entrambe le mani riescono a seguire comodamente tutto il tagliente.
 <!-- /tx-unit -->
 <!-- tx-unit:6bd31e2e2ca15ba16cd63c4d9adc7bbfbedb8bf3d857b713867dc7172c3c1de7 -->
-## 4. Usare tutta la pietra e tutto il filo
+## 4. Usare tutta la pietra e tutto il tagliente
 <!-- /tx-unit -->
 <!-- tx-unit:76bedea7b519db1afa1c0c1209c17ec93ccb518baa36ef7533cc93b69a093639 -->
 Disponi il coltello diagonalmente sulla pietra. Inizia con la zona della punta a contatto, quindi fai scorrere lateralmente la lama in modo che il punto di lavoro percorra la parte anteriore curva e la zona centrale fino al tallone. Inverti il movimento e ritorna lungo lo stesso percorso.
@@ -82,7 +82,7 @@ Sposta le dita della mano di supporto insieme alla sezione che stai affilando. N
 ## 5. Seguire il profilo variabile della lama
 <!-- /tx-unit -->
 <!-- tx-unit:2bd92018442475b683a424baa55d423f07fa0831173d868ed0a0fd6760585b05 -->
-Il filo raramente è rettilineo dal tallone alla punta. La sua curvatura modifica il modo in cui ogni tratto incontra la pietra piana.
+Il tagliente raramente è rettilineo dal tallone alla punta. La sua curvatura modifica il modo in cui ogni tratto incontra la pietra piana.
 <!-- /tx-unit -->
 <!-- tx-unit:2b344df46e86d7ace12fb5f8917449126bb78afd06e4588c4c7261e7a0b9ca62 -->
 Adatta continuamente presa e orientamento del coltello affinché **l'angolo di contatto fra la pietra e il bisello locale del filo rimanga uguale lungo tutto il filo**, nonostante le variazioni della forma della lama. Osserva e percepisci il contatto dalla punta, attraverso la zona curva, fino alla parte centrale e al tallone.
@@ -160,10 +160,10 @@ Risciacqua e asciuga il coltello prima di provarlo.
 Non usare le dita per verificare se il coltello è affilato. Il contatto del dito con il filo viene utilizzato soltanto per rilevare una bava di affilatura durante l'affilatura, con il metodo perpendicolare controllato descritto in [La bava](the-burr.md). Verifica l'affilatura soltanto tagliando alimenti adatti o carta.
 <!-- /tx-unit -->
 <!-- tx-unit:2623c55980c70b43aecd3e71ff466e59b49f7177958286bd83b270dc11cf99a5 -->
-### Osservare il filo
+### Osservare il tagliente
 <!-- /tx-unit -->
 <!-- tx-unit:840490cf381845d902cd8d3a27e437c8d81f10801c6aa6d7b1fc6984cb48aeed -->
-Esamina l'apice del filo sotto una luce intensa. Un filo pulito e affilato riflette pochissima luce. Punti luminosi possono rivelare una zona ancora piatta, ripiegata o una piccola scheggiatura.
+Esamina l'apice del filo sotto una luce intensa. Un tagliente pulito e affilato riflette pochissima luce. Punti luminosi possono rivelare una zona ancora piatta, ripiegata o una piccola scheggiatura.
 <!-- /tx-unit -->
 <!-- tx-unit:c7ccc04488ff2ed426725e1016290e09b7ecad195b5300f8d89e544a97e8e32b -->
 ### Controllare la bava di affilatura
@@ -184,7 +184,7 @@ Nota dove cambia la resistenza. Un impuntamento o uno strappo identifica una zon
 ### Provare su alimenti adatti
 <!-- /tx-unit -->
 <!-- tx-unit:a20b2daa6a3c221ff39c0daa2d8e31f3bd04777dceb911ada051fc34ef6c9626 -->
-Un pomodoro mostra se il filo penetra una buccia resistente senza pressione. Una cipolla mostra se attraversa nettamente gli strati. Le erbe evidenziano lo schiacciamento. Scegli una prova adatta al lavoro per cui è destinato il coltello.
+Un pomodoro mostra se il tagliente penetra una buccia resistente senza pressione. Una cipolla mostra se attraversa nettamente gli strati. Le erbe evidenziano lo schiacciamento. Scegli una prova adatta al lavoro per cui è destinato il coltello.
 <!-- /tx-unit -->
 <!-- tx-unit:c8f179aa754e5ff5d0f6978ae4552d6fec46f8507a6cfb1ce8d1f16d0ccbcc3b -->
 La carta può essere tagliata anche da un fragile filo con bava residua, quindi combina il test della carta con il controllo della bava di affilatura e con il comportamento reale nel taglio.
@@ -220,7 +220,7 @@ La bava di affilatura dimostra che è stato raggiunto l'apice del filo. Non è q
 ### Accettare movimenti lenti e controllati
 <!-- /tx-unit -->
 <!-- tx-unit:57ac4deca3442ba0e7fd09be6a673a196cb2177fc6210aa90611d5f083566df2 -->
-La velocità non migliora il filo. Un movimento lento che mantiene il contatto con il bisello del filo insegna più di un movimento rapido con angolo instabile.
+La velocità non migliora il tagliente. Un movimento lento che mantiene il contatto con il bisello del filo insegna più di un movimento rapido con angolo instabile.
 <!-- /tx-unit -->
 <!-- tx-unit:c0e13bbd6787faa91b1ea7f730923b99b89abef2d49622179a52947d2c5aa0fd -->
 ## Errori comuni di chi inizia

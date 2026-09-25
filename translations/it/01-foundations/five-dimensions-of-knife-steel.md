@@ -9,7 +9,7 @@ glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 # Le cinque dimensioni dell'acciaio per coltelli
 <!-- /tx-unit -->
 <!-- tx-unit:1298a62d38519d507e8ecb64e2cccae429ae5cb7cd5e488a47e905d10405a326 -->
-Partiamo dal lavoro che il filo deve svolgere. Una lunga sessione di affettatura, il contatto ripetuto con alimenti acidi e il lavoro occasionale vicino alle articolazioni impongono all'acciaio esigenze diverse. HRC, tenuta del filo e prezzo della lega descrivono soltanto una parte del problema.
+Partiamo dal lavoro che il tagliente deve svolgere. Una lunga sessione di affettatura, il contatto ripetuto con alimenti acidi e il lavoro occasionale vicino alle articolazioni impongono all'acciaio esigenze diverse. HRC, tenuta del filo e prezzo della lega descrivono soltanto una parte del problema.
 <!-- /tx-unit -->
 <!-- tx-unit:914b529eac6b1e3c8595ba78784a98ad7ba9021b71e05ecec50ea039b6a16951 -->
 Un acciaio può mantenere il filo molto a lungo ma richiedere abrasivi impegnativi. Un altro può essere facile da affilare ma necessitare di manutenzione più frequente. Un acciaio con elevata resistenza alla corrosione può essere adatto a una cucina molto intensa, mentre un acciaio al carbonio reattivo può essere preferito da chi apprezza una buona risposta all'affilatura ed è disposto a pulire e asciugare subito la lama.
@@ -30,10 +30,10 @@ Cinque dimensioni offrono un quadro pratico: **durezza, risposta all'affilatura,
 La durezza è la resistenza all'indentazione e alla deformazione permanente. La durezza dei coltelli da cucina viene comunemente espressa sulla scala Rockwell C, abbreviata **HRC**.
 <!-- /tx-unit -->
 <!-- tx-unit:b2cda825b4994924522c32efd4b09c1f879d53c6b21c34260d169771865665ae -->
-L'HRC non misura l'affilatura, la tenacità o le prestazioni complessive di taglio. Un coltello è affilato perché il suo filo possiede una geometria fine e pulita. La durezza contribuisce a determinare come questa geometria cambia durante l'uso.
+L'HRC non misura l'affilatura, la tenacità o le prestazioni complessive di taglio. Un coltello è affilato perché il suo tagliente possiede una geometria fine e pulita. La durezza contribuisce a determinare come questa geometria cambia durante l'uso.
 <!-- /tx-unit -->
 <!-- tx-unit:f27b1efad395d5b62890f8f520aee3741e74d24200b8061ac54a4ad54550e70e -->
-Un apice del filo più duro resiste generalmente meglio al ripiegamento e alla deformazione plastica. La durezza contribuisce anche alla resistenza all'usura abrasiva. A parità approssimativa di composizione e microstruttura, il campione più duro tende a opporsi maggiormente all'usura.
+Un apice del tagliente più duro resiste generalmente meglio al ripiegamento e alla deformazione plastica. La durezza contribuisce anche alla resistenza all'usura abrasiva. A parità approssimativa di composizione e microstruttura, il campione più duro tende a opporsi maggiormente all'usura.
 <!-- /tx-unit -->
 <!-- tx-unit:50f0caa77d76ea4aa24d8f8c5a0c281f585041feec106ebfb5c2e27700132b32 -->
 L'acciaio può inoltre contenere **carburi: microscopici cristalli duri che si formano quando il carbonio si combina con il ferro o con determinati elementi di lega**. Tipo, quantità, dimensioni e distribuzione dei carburi possono modificare enormemente la resistenza all'usura. I carburi ricchi di vanadio o niobio, per esempio, sono molto più duri della matrice d'acciaio circostante.
@@ -42,16 +42,16 @@ L'acciaio può inoltre contenere **carburi: microscopici cristalli duri che si f
 La **matrice** è la parte continua dell'acciaio che circonda queste particelle. Conta anche la sua durezza. Due acciai con lo stesso HRC possono quindi comportarsi diversamente perché possiedono matrici e popolazioni di carburi differenti.
 <!-- /tx-unit -->
 <!-- tx-unit:f25ff85a0658ed6e3a59acf083cb00c61b734065abb885d7f7360c6475cf4091 -->
-La regola pratica è semplice: **non classificare acciai diversi basandoti soltanto sull'HRC**. Valuta la durezza insieme a trattamento termico, microstruttura, angolo del filo, spessore dietro il filo e impiego previsto.
+La regola pratica è semplice: **non classificare acciai diversi basandoti soltanto sull'HRC**. Valuta la durezza insieme a trattamento termico, microstruttura, angolo del tagliente, spessore dietro il tagliente e impiego previsto.
 <!-- /tx-unit -->
 <!-- tx-unit:fa0e99b10825aba764afdea41f6bc8d0b7f2ce35d10ec3ca571e47b4101d3e28 -->
-Una durezza più elevata può anche ridurre la tolleranza agli abusi. Un filo molto duro e sottile può rimanere estremamente stabile nel taglio corretto ma tollerare male torsioni, leve o urti. La durezza dà il meglio quando tenacità dell'acciaio e geometria della lama sono adatte al lavoro previsto.
+Una durezza più elevata può anche ridurre la tolleranza agli abusi. Un tagliente molto duro e sottile può rimanere estremamente stabile nel taglio corretto ma tollerare male torsioni, leve o urti. La durezza dà il meglio quando tenacità dell'acciaio e geometria della lama sono adatte al lavoro previsto.
 <!-- /tx-unit -->
 <!-- tx-unit:e41c2f29ac26c6c8d1cf304bbde35e959e5382b8f72360f3ea8cbda29705eb56 -->
 ## 2. Risposta all'affilatura: molto più di “morbido uguale facile”
 <!-- /tx-unit -->
 <!-- tx-unit:f3ef4d9051c159336f8f65871149b48501dbffc2651f3b6cad5c4aaedc25b8f0 -->
-La risposta all'affilatura descrive quanto facilmente e prevedibilmente un abrasivo riesce a ripristinare l'apice del filo. La durezza è soltanto una parte del quadro.
+La risposta all'affilatura descrive quanto facilmente e prevedibilmente un abrasivo riesce a ripristinare l'apice del tagliente. La durezza è soltanto una parte del quadro.
 <!-- /tx-unit -->
 <!-- tx-unit:15f2f1c438fca9b9a4a521558d173bd07f865059c0e3fcd9b583abddd5c95b49 -->
 Una matrice più dura resiste maggiormente all'abrasione, ma i carburi possono contare ancora di più. Elevati volumi di carburi molto duri rallentano l'asportazione di materiale e possono richiedere abrasivi ceramici o diamantati efficienti. Conta anche il comportamento della bava di affilatura. Un acciaio può formare una bava piccola e netta che si stacca con facilità; un altro può creare un tenace filo di bava che richiede più lavoro per essere eliminato.
@@ -94,19 +94,19 @@ L'acciaio inossidabile è resistente alla corrosione, non immune alle macchie. S
 ## 4. Tenacità: resistenza alla frattura
 <!-- /tx-unit -->
 <!-- tx-unit:c35009ab74f3670b025d38f0750a6b32f0fa7b6b179d7c8376645ae4d6b8febe -->
-La **tenacità** è la capacità di assorbire sollecitazioni ed energia senza fratturarsi. Sul filo, una bassa tenacità può manifestarsi come scheggiatura. Su scala maggiore può portare a cricche o rotture in presenza di urti, torsioni o forti carichi laterali.
+La **tenacità** è la capacità di assorbire sollecitazioni ed energia senza fratturarsi. Sul tagliente, una bassa tenacità può manifestarsi come scheggiatura. Su scala maggiore può portare a cricche o rotture in presenza di urti, torsioni o forti carichi laterali.
 <!-- /tx-unit -->
 <!-- tx-unit:f70945cef7e72482c9f74a625aa6cd74b9e23d55ad361a919fd530f3718f77f1 -->
-La tenacità è un concetto più specifico della comune idea di *robustezza*. Un coltello finito acquista o perde robustezza anche attraverso spessore, angolo del filo, forma della lama e quantità di materiale che sostiene il filo.
+La tenacità è un concetto più specifico della comune idea di *robustezza*. Un coltello finito acquista o perde robustezza anche attraverso spessore, angolo del tagliente, forma della lama e quantità di materiale che sostiene il tagliente.
 <!-- /tx-unit -->
 <!-- tx-unit:4218595e94eaca7dbdd841ec36e405f324706f07f2bb06d7090fb4beae093264 -->
-Lo stesso acciaio può sembrare delicato in un affettatore di precisione estremamente sottile e molto più tollerante in una geometria di lavoro più spessa. Neppure un acciaio molto tenace può rendere un filo ultrasottile immune agli abusi laterali.
+Lo stesso acciaio può sembrare delicato in un affettatore di precisione estremamente sottile e molto più tollerante in una geometria di lavoro più spessa. Neppure un acciaio molto tenace può rendere un tagliente ultrasottile immune agli abusi laterali.
 <!-- /tx-unit -->
 <!-- tx-unit:e89812720621fd84c1a1a5899f17571de6492a378c0a7320d25d54f4252a9cff -->
-È il compito a determinare il compromesso utile. Un affettatore per sashimi trae vantaggio da finezza e bassa resistenza al taglio; un coltello destinato alle ossa necessita di un sostegno molto maggiore dietro il filo.
+È il compito a determinare il compromesso utile. Un affettatore per sashimi trae vantaggio da finezza e bassa resistenza al taglio; un coltello destinato alle ossa necessita di un sostegno molto maggiore dietro il tagliente.
 <!-- /tx-unit -->
 <!-- tx-unit:8adb4ac5db38a6375650588d2548276553bab4ab08c928f30c3d17e7797d9c80 -->
-## 5. Finezza microstrutturale: ciò che sostiene l'apice del filo
+## 5. Finezza microstrutturale: ciò che sostiene l'apice del tagliente
 <!-- /tx-unit -->
 <!-- tx-unit:fc116db572f2b9d3ce15f1d14bd007dba030a49006d8ff042620dba8248ac6d7 -->
 A occhio nudo l'acciaio appare uniforme, ma al microscopio è costituito da moltissimi minuscoli **grani cristallini** e può contenere fasi diverse e cristalli di carburi. Dimensioni, quantità e distribuzione di questi elementi influenzano resistenza all'usura, tenacità e il grado di finezza con cui il filo può essere rifinito.
