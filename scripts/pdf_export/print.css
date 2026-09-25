@@ -209,6 +209,44 @@ a {
   text-align: center;
 }
 
+.kb-edition__digital {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6mm;
+  margin: 1.5rem auto;
+}
+
+.kb-edition__qr {
+  flex: 0 0 auto;
+  width: 30mm;
+  height: 30mm;
+  padding: 1.2mm;
+  border: 1px solid var(--kb-rule);
+  background: #fff;
+}
+
+.kb-edition__qr img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.kb-edition__digital-copy {
+  max-width: 72mm;
+  text-align: left;
+}
+
+.kb-edition__digital-copy p {
+  text-align: left;
+}
+
+.kb-edition__url {
+  font-size: 0.82rem;
+  overflow-wrap: anywhere;
+}
+
 .kb-edition__metadata {
   margin-top: 2.5rem;
   padding-top: 1rem;

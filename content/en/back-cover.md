@@ -9,11 +9,3 @@ A kitchen knife may look simple, yet what happens on the cutting board is shaped
 From metallurgy and blade construction to grip, cutting technique, maintenance and sharpening, the book connects theory to what can actually be observed, felt and practised in real use.
 
 **Gongfu** is skill built through time, study, repetition and mindful practice. This book is an invitation to develop it.
-
-### Digital edition & updates
-
-Read the latest edition online on GitHub.
-
-### Author role
-
-EU Brand and Operations Manager, Xinzuo

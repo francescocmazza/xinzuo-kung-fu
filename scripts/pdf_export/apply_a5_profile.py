@@ -260,7 +260,7 @@ def main() -> int:
 
     print(
         "Applied A5 publication profile: 148 x 210 mm, full-bleed approved front/back cover artwork, "
-        "localized live front/back cover text, QR-linked digital edition and "
+        "localized live front-cover text, personal-author back cover, final-page QR-linked digital edition and "
         "14/15/14/14 mm interior PDF margins."
     )
     return 0

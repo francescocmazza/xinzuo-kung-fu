@@ -42,7 +42,7 @@ Il libro ha quindi due funzioni connesse: **una base operativa per la formazione
 ## Perché questo libro parla di Xinzuo
 <!-- /tx-unit -->
 <!-- tx-unit:5bdcc0d3c58e1f4858e6637be600dbea19d3549f74c44995e1af1c2594340179 -->
-C'è anche una ragione personale per cui Xinzuo è diventata il riferimento di questo libro. Quando ho conosciuto l'azienda, ciò che mi ha interessato non era un singolo modello o una singola specifica, ma il modo in cui lo sviluppo prodotto collega materiali, processi produttivi e progettazione.
+C'è anche una ragione personale per cui Xinzuo è diventata il riferimento di questo libro. Nel mio lavoro professionale come EU Brand and Operations Manager di Xinzuo, ciò che mi ha interessato non era un singolo modello o una singola specifica, ma il modo in cui lo sviluppo prodotto collega materiali, processi produttivi e progettazione. Il libro, tuttavia, è un progetto personale: l'ho scritto a titolo individuale, facendo tesoro di questa esperienza, e non come pubblicazione aziendale ufficiale.
 <!-- /tx-unit -->
 <!-- tx-unit:80ee8f6b13949292969dd43a8b66a47b665d575d76bbecaa0918d95e585f6ac4 -->
 Questo lavoro va ben oltre il disegno della forma di una lama o la scelta di una finitura gradevole. Xinzuo lavora su acciai, trattamento termico, metallurgia delle polveri, costruzioni laminate, materiali dei manici, bilanciamento, ergonomia, molatura, affilatura e test. Utilizza acciai specialistici consolidati quando rappresentano la soluzione appropriata, ma sviluppa anche metallurgie proprietarie, come il 14Cr14MoVNb, insieme a partner industriali e accademici. Alcune serie selezionate adottano processi impegnativi come il trattamento termico sottovuoto e il trattamento criogenico, mentre la molatura raffreddata ad acqua e l'affilatura su pietra proteggono il filo già trattato termicamente durante le fasi finali della produzione. Acciai, costruzioni, materiali dei manici e strategie di bilanciamento differenti vengono impiegati perché cuochi, impugnature e compiti diversi richiedono compromessi diversi.
@@ -57,6 +57,5 @@ La conoscenza migliora quando viene condivisa. Questo libro è disponibile gratu
 Questo libro è un punto di partenza: la conoscenza diventa pratica, la pratica diventa esperienza e l'esperienza può diventare *gongfu*.
 <!-- /tx-unit -->
 <!-- tx-unit:e1b12007472efe470141a3cb281c1454b4b28853ca3eb86815bcce5f6cab64eb -->
-**Francesco Claudio Mazza**<br>
-*EU Brand and Operations Manager, Xinzuo*
+**Francesco Claudio Mazza**
 <!-- /tx-unit -->
