@@ -12,28 +12,28 @@ glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 Il capitolo precedente ha già introdotto la bava come parte del **processo base di affilatura**. Questo capitolo non aggiunge una nuova fase successiva all'affilatura. Si sofferma invece sullo stesso segnale di riscontro per spiegarlo più in dettaglio: che cos'è la bava, che cosa dimostra, come rilevarla in sicurezza e perché eliminarla è importante quanto formarla.
 <!-- /tx-unit -->
 <!-- tx-unit:3bad0c2363708c6ead43695e2fc7ac0382140a02d8dc80b87487cc2b4c7d5beb -->
-Per chi sta imparando, la bava è la prova più chiara che la pietra ha raggiunto il filo.
+Per chi sta imparando, la bava è la prova più chiara che la pietra ha raggiunto il tagliente.
 <!-- /tx-unit -->
 <!-- tx-unit:a30cb0599b8f8640deba5983cf519e13df3c19d908c346c2e1a01704d433a6ea -->
 Affilando un lato, l'acciaio in corrispondenza dell'apice diventa estremamente sottile. L'abrasivo finisce per piegare verso il lato opposto un minuscolo lembo di metallo. Questo lembo è la **bava**.
 <!-- /tx-unit -->
 <!-- tx-unit:0061b04209c7ed0db543bacbbf0853a04e9d52a37c47d5382ae485694ae5544c -->
-L'obiettivo è ottenere una bava molto piccola, rilevabile lungo tutto il filo. Una bava grande spreca acciaio ed è più difficile da eliminare. Può inoltre comportarsi come un filo metallico fragile: il coltello sembra inizialmente affilato, poi perde il filo quando questa sottile lamina si piega o si spezza.
+L'obiettivo è ottenere una bava molto piccola, rilevabile lungo tutto il tagliente. Una bava grande spreca acciaio ed è più difficile da eliminare. Può inoltre comportarsi come un filo metallico fragile: il coltello sembra inizialmente affilato, poi perde il filo quando questa sottile lamina si piega o si spezza.
 <!-- /tx-unit -->
 <!-- tx-unit:ec56ff959f66ace01337444eef8657b731187fcb50064f21e89d767381afb79f -->
 ## Come controllarla in sicurezza
 <!-- /tx-unit -->
 <!-- tx-unit:86b5238841e6a4e6f4f801835e3a4b2573765de8384be1182ae21e280920ddcd -->
-Non far mai scorrere un dito lungo il filo.
+Non far mai scorrere un dito lungo il tagliente.
 <!-- /tx-unit -->
 <!-- tx-unit:5745fc9e72a5c91e4d72d4db20e09bc1d497d79b2152902b3efc542fcfaafe83 -->
-Questo non è un test di affilatura. In questa guida, l'unico motivo per avvicinare il polpastrello al filo è rilevare la bava durante l'affilatura. Verifica l'affilatura del coltello soltanto tagliando un alimento adatto o della carta.
+Questo non è un test di affilatura. In questa guida, l'unico motivo per avvicinare il polpastrello al tagliente è rilevare la bava durante l'affilatura. Verifica l'affilatura del coltello soltanto tagliando un alimento adatto o della carta.
 <!-- /tx-unit -->
 <!-- tx-unit:b7e3ee4928c674ffe889c4bc8d23c6e5cd262d34250f77215cb39af3808c783d -->
-Tieni fermo il coltello e applica una pressione leggerissima. Muovi il polpastrello dalla faccia della lama verso il filo, perpendicolarmente a esso, e fermati all'apice. Controlla tallone, parte centrale, zona curva anteriore e punta. La bava si percepisce come un leggero uncino ruvido sul lato opposto a quello appena affilato.
+Tieni fermo il coltello e applica una pressione leggerissima. Muovi il polpastrello dalla faccia della lama verso il tagliente, perpendicolarmente a esso, e fermati all'apice. Controlla tallone, parte centrale, zona curva anteriore e punta. La bava si percepisce come un leggero uncino ruvido sul lato opposto a quello appena affilato.
 <!-- /tx-unit -->
 <!-- tx-unit:8ee0925035bf5cd1e74cca3ea1d72d7d349a6f537059fdefdd79e7ae23a6b763 -->
-Se preferisci non avvicinare le dita al filo, usa un batuffolo di cotone o le fibre di un panno morbido: possono impigliarsi nella bava. Una buona illuminazione e un ingrandimento possono inoltre mettere in evidenza le zone del filo che riflettono ancora la luce.
+Se preferisci non avvicinare le dita al tagliente, usa un batuffolo di cotone o le fibre di un panno morbido: possono impigliarsi nella bava. Una buona illuminazione e un ingrandimento possono inoltre mettere in evidenza le zone del tagliente che riflettono ancora la luce.
 <!-- /tx-unit -->
 <!-- tx-unit:222c8464ce36f6956b69b9a1f5834bbe5d6ebe13fb8f5a9a6b089a15f94a65e5 -->
 Pulisci la lama prima del controllo. In caso contrario, il fango abrasivo e le particelle di acciaio libere potrebbero essere scambiati per la bava.
