@@ -9,12 +9,17 @@ back to English until the main publication workflow refreshes translations.
 
 from __future__ import annotations
 
+import pprint
 import re
 from pathlib import Path
 
+import yaml
+
 
 ROOT = Path(__file__).resolve().parents[2]
+LOCALES_CONFIG = ROOT / "localization" / "locales.yml"
 SOURCE_BACK_COVER = ROOT / "content" / "en" / "back-cover.md"
+TRANSLATIONS = ROOT / "translations"
 
 
 def _replace_checked(text: str, old: str, new: str, label: str) -> str:
@@ -70,6 +75,31 @@ def _extract_back_cover_text(markdown: str, path: Path) -> dict[str, object]:
     }
 
 
+
+def _localized_back_cover_copy() -> dict[str, dict[str, object]]:
+    cfg = yaml.safe_load(LOCALES_CONFIG.read_text(encoding="utf-8")) or {}
+    locales = cfg.get("locales", {})
+    english = _extract_back_cover_text(
+        SOURCE_BACK_COVER.read_text(encoding="utf-8"), SOURCE_BACK_COVER
+    )
+    copy: dict[str, dict[str, object]] = {}
+
+    for code, locale in locales.items():
+        if not locale.get("deploy"):
+            continue
+        path = SOURCE_BACK_COVER if code == "en" else TRANSLATIONS / code / "back-cover.md"
+        if path.exists():
+            copy[locale["name"]] = _extract_back_cover_text(
+                path.read_text(encoding="utf-8"), path
+            )
+        else:
+            copy[locale["name"]] = english
+
+    if "English" not in copy:
+        raise RuntimeError("The English source locale must remain active for publication export.")
+    return copy
+
+
 def apply_back_cover_profile(exporter: str) -> str:
     """Return ``exporter`` with a standalone final back-cover page injected."""
 
@@ -80,9 +110,7 @@ def apply_back_cover_profile(exporter: str) -> str:
         "back-cover print filename",
     )
 
-    back_copy = repr(_extract_back_cover_text(
-        SOURCE_BACK_COVER.read_text(encoding="utf-8"), SOURCE_BACK_COVER
-    ))
+    back_copy = pprint.pformat(_localized_back_cover_copy(), width=100, sort_dicts=False)
     exporter = _replace_checked(
         exporter,
         "EDITION_COPY = {",
@@ -90,8 +118,8 @@ def apply_back_cover_profile(exporter: str) -> str:
         "back-cover copy",
     )
 
-    render_back_cover = '''def render_back_cover_html() -> str:
-    copy = BACK_COVER_COPY
+    render_back_cover = '''def render_back_cover_html(language_name: str) -> str:
+    copy = BACK_COVER_COPY.get(language_name, BACK_COVER_COPY["English"])
     paragraphs = "".join(f"<p>{html.escape(paragraph)}</p>" for paragraph in copy["paragraphs"])
     return f"""
     <section class="kb-back-cover">
@@ -128,7 +156,7 @@ def apply_back_cover_profile(exporter: str) -> str:
     """A standalone final back-cover page, printed without headers or footers."""
     direction = cfg.get("direction", "ltr")
     lang = cfg.get("mkdocs_language", "en")
-    back_cover = render_back_cover_html()
+    back_cover = render_back_cover_html(cfg["name"])
     return _wrap_document(
         lang,
         direction,
