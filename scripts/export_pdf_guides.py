@@ -32,6 +32,7 @@ from pathlib import Path
 from typing import Any
 
 import yaml
+import qrcode
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from playwright.sync_api import sync_playwright
 
@@ -56,6 +57,7 @@ IMAGE_RIGHTS_URL = f"{GITHUB_REPO_URL}/blob/main/content/en/assets/IMAGE_RIGHTS.
 IMAGE_LOAD_TIMEOUT_MS = 20000
 PRINT_COVER_NAME = "__print_cover__.html"
 PRINT_REST_NAME = "__print_rest__.html"
+PRINT_EDITION_QR = "__edition_qr.png"
 HERO_IMAGE_REL = "assets/images/approved/home-hero-xinzuo-neutral.png"
 HERO_IMAGE_ALT = "A craftsman inspecting a Xinzuo Damascus kitchen knife."
 COVER_COPY = {
@@ -310,7 +312,7 @@ def render_cover_html(cfg: dict[str, Any], metadata: PublicationMetadata, hero_s
       <div class="kb-cover__top">
         <h1 class="kb-cover__title">{html.escape(copy["title"])}</h1>
         <p class="kb-cover__subtitle">{html.escape(copy["subtitle"])}<br>{html.escape(copy["strapline"])}</p>
-        <p class="kb-cover__author">Francesco Claudio Mazza<br>EU Brand and Operations Manager, Xinzuo</p>
+        <p class="kb-cover__author">Francesco Claudio Mazza</p>
         <p class="kb-cover__language">{html.escape(language_name)}</p>
       </div>
       <div class="kb-cover__hero">
@@ -353,15 +355,21 @@ def render_chapter_html(node: dict) -> str:
 
 
 def render_edition_html(cfg: dict[str, Any], metadata: PublicationMetadata) -> str:
-    language_name = cfg["name"]
     copy = _edition_copy(cfg)
     return f"""
     <section class="kb-edition">
       <div class="kb-edition__content">
         <p class="kb-edition__eyebrow">The Gongfu of Xinzuo</p>
         <h2>{html.escape(copy["heading"])}</h2>
-        <p>{html.escape(copy["availability"])}</p>
-        <p><a href="{GITHUB_REPO_URL}">{GITHUB_REPO_URL}</a></p>
+        <div class="kb-edition__digital">
+          <div class="kb-edition__qr">
+            <img src="{PRINT_EDITION_QR}" alt="QR code for the free digital edition">
+          </div>
+          <div class="kb-edition__digital-copy">
+            <p>{html.escape(copy["availability"])}</p>
+            <p class="kb-edition__url"><a href="{GITHUB_REPO_URL}">{GITHUB_REPO_URL}</a></p>
+          </div>
+        </div>
         <p>{html.escape(copy["contact"])}</p>
         <p><a href="mailto:francescoclaudiomazza@gmail.com">francescoclaudiomazza@gmail.com</a></p>
         <div class="kb-edition__metadata">
@@ -371,6 +379,14 @@ def render_edition_html(cfg: dict[str, Any], metadata: PublicationMetadata) -> s
       </div>
     </section>
     """
+
+
+def write_edition_qr(code: str) -> None:
+    qr = qrcode.QRCode(version=None, box_size=8, border=2)
+    qr.add_data(GITHUB_REPO_URL)
+    qr.make(fit=True)
+    image = qr.make_image(fill_color="black", back_color="white")
+    image.save(SITE / code / PRINT_EDITION_QR)
 
 
 def _wrap_document(lang: str, direction: str, body_class: str, title: str, css_text: str, body_content: str) -> str:
@@ -474,6 +490,7 @@ def render_locale_pdf(
         wait_for_images_loaded(page, f"{code}:cover")
         page.pdf(path=str(cover_pdf), format="A4", print_background=True, margin=PDF_MARGIN)
 
+        write_edition_qr(code)
         rest_html = assemble_rest_document(cfg, tree, flat, hide_placeholders, css_text, metadata)
         (SITE / code / PRINT_REST_NAME).write_text(rest_html, encoding="utf-8")
         page.goto(f"{base_url}{code}/{PRINT_REST_NAME}", wait_until="load")
@@ -498,6 +515,7 @@ def render_locale_pdf(
         page.close()
         (SITE / code / PRINT_COVER_NAME).unlink(missing_ok=True)
         (SITE / code / PRINT_REST_NAME).unlink(missing_ok=True)
+        (SITE / code / PRINT_EDITION_QR).unlink(missing_ok=True)
         cover_pdf.unlink(missing_ok=True)
         rest_pdf.unlink(missing_ok=True)
 
