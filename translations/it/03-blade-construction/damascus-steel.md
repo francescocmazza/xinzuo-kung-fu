@@ -15,13 +15,13 @@ Xinzuo è un produttore artigianale di coltelli specializzato in coltelli da cuc
 Partire da qui offre un accesso utile agli argomenti successivi. Un coltello damasco può riunire selezione degli acciai, saldatura a forgia, rivestimento, acciai del nucleo, trattamento termico, durezza, molatura, lucidatura, incisione chimica e geometria finale del filo. Capire che cosa significa il motivo — e che cosa non significa — insegna un principio importante valido per tutto il libro: **un coltello deve essere valutato in base alla relazione complessiva fra materiale, processo, costruzione e geometria, non sulla base di una singola caratteristica visibile o di un unico numero.**
 <!-- /tx-unit -->
 <!-- tx-unit:e17c4f3bc72238cb824407982d8e0cb9ec2dae3840ecb5e5ced8e2289ab6af12 -->
-La parola *damasco* descrive diversi materiali visibilmente decorati che non condividono una sola costruzione. Il modo più sicuro per capire un coltello è ignorare per un momento il motivo e chiedersi quale metallo formi realmente il filo.
+La parola *damasco* descrive diversi materiali visibilmente decorati che non condividono una sola costruzione. Il modo più sicuro per capire un coltello è ignorare per un momento il motivo e chiedersi quale metallo formi realmente il tagliente.
 <!-- /tx-unit -->
 <!-- tx-unit:e204eb34fdb5f3f4b525427e700b4e9b0a28966c609e88d62a4f43adee6ceba7 -->
 Questa domanda separa quattro famiglie:
 <!-- /tx-unit -->
 <!-- tx-unit:5684968267bedf4ee444354b5b9c6dcca358d3b02fed9a644ae0dc471d8b961a -->
-| Costruzione | Che cosa arriva al filo | Che cosa crea il motivo visibile |
+| Costruzione | Che cosa arriva al tagliente | Che cosa crea il motivo visibile |
 |---|---|---|
 | **Rivestimento in acciaio Damasco intorno a un nucleo** | Un distinto acciaio del nucleo identificato | Strati esterni saldati messi in evidenza da molatura, lucidatura e incisione |
 | **Lama interamente in damasco saldato** | Gli stessi acciai alternati e saldati | La disposizione e la successiva esposizione degli strati |
@@ -43,16 +43,16 @@ Esempi di lame Xinzuo con motivi Damasco. Usa l'immagine per confrontare i diseg
 </figure>
 <!-- /tx-unit -->
 <!-- tx-unit:e0b1b3a5295544883f8bb7ba9d0595a7af68bbeec94ade346fecb0a6a97c77f9 -->
-## Partire dal filo
+## Partire dal tagliente
 <!-- /tx-unit -->
 <!-- tx-unit:9837a821754a1199276b921b6219fcf701048e653e292a17f92cfe0f0dc8a196 -->
-In una lama rivestita, cerca la linea in cui il materiale esterno incontra il nucleo. Il nucleo prosegue fino all'apice del filo e svolge la maggior parte del lavoro di taglio. Composizione, trattamento termico, durezza e geometria dell'acciaio del nucleo incidono sul comportamento del filo più del motivo decorativo esterno.
+In una lama rivestita, cerca la linea in cui il materiale esterno incontra il nucleo. Il nucleo prosegue fino all'apice del tagliente e svolge la maggior parte del lavoro di taglio. Composizione, trattamento termico, durezza e geometria dell'acciaio del nucleo incidono sul comportamento del tagliente più del motivo decorativo esterno.
 <!-- /tx-unit -->
 <!-- tx-unit:0f9f05ae83d7563bab8d8360994f02f10d09be44cef5aa572bce55b290c268eb -->
 Il rivestimento ha comunque un valore pratico. Un materiale esterno più morbido può sostenere un nucleo duro, semplificare molatura e produzione, modificare rigidità e peso e proteggere parte del corpo della lama. Un rivestimento in acciaio Damasco conferisce inoltre al coltello la sua identità visiva.
 <!-- /tx-unit -->
 <!-- tx-unit:9580d237229c803a2a9c8419a9cbb67f4508be688fddbc1ef4c645eb90775876 -->
-In una lama interamente in damasco saldato, gli acciai alternati proseguono fino alla zona del filo. Compatibilità, durezza relativa, comportamento all'usura, spessore e orientamento degli strati possono quindi influenzare direttamente l'apice del filo. Un capitolo successivo, dopo le basi di metallurgia, spiega come l'usura differenziale fra questi strati possa influenzare il comportamento di taglio.
+In una lama interamente in damasco saldato, gli acciai alternati proseguono fino alla zona del tagliente. Compatibilità, durezza relativa, comportamento all'usura, spessore e orientamento degli strati possono quindi influenzare direttamente l'apice del tagliente. Un capitolo successivo, dopo le basi di metallurgia, spiega come l'usura differenziale fra questi strati possa influenzare il comportamento di taglio.
 <!-- /tx-unit -->
 <!-- tx-unit:c457186daf859b6e83538d48d7270e6942af1b0b148d3a4e7a0c40a93b5c6fc4 -->
 Nessuna delle due costruzioni è automaticamente superiore. La prima utilizza un nucleo specializzato all'interno di un corpo stratificato. Nella seconda è il materiale stratificato stesso a costituire la lama operativa. Entrambe dipendono comunque da saldature pulite, trattamento termico controllato e geometria adatta.
@@ -92,7 +92,7 @@ Numeri come 33, 67, 73, 101 o 110 descrivono quanti strati il produttore contegg
 Non rivelano:
 <!-- /tx-unit -->
 <!-- tx-unit:18749e0794edb5226e67031f0c5a7f8847633dc2f8ebea4f89a5c0aaafb82abb -->
-- quale acciaio forma il filo;
+- quale acciaio forma il tagliente;
 - la composizione degli altri strati;
 - l'integrità delle saldature;
 - la qualità del trattamento termico;
@@ -112,10 +112,10 @@ Un maggior numero di strati può rendere la struttura visibile più fine o più 
 Per una lama rivestita, parti dal nucleo. Un nucleo in ZDP-189, SRS13, M390, 14Cr14MoVNb, AUS-10 o 10Cr15CoMoV conserva il proprio carattere metallurgico anche quando il motivo circostante appare simile. Il materiale esterno contribuisce al corpo della lama, ma non sostituisce il nucleo all'apice del filo.
 <!-- /tx-unit -->
 <!-- tx-unit:d69290eefa4404e656beff7741c57e8cfaa28990b20800bee3b74583928ea531 -->
-Per una lama interamente in damasco saldato, identifica entrambi gli acciai operativi e il modo in cui si incontrano sul filo. L'usura differenziale può preservare un'aggressività microscopica di taglio quando sistema degli strati e geometria sono progettati a questo scopo. L'effetto deriva dal materiale che arriva all'apice del filo, non dalle onde visibili più in alto sulla lama.
+Per una lama interamente in damasco saldato, identifica entrambi gli acciai operativi e il modo in cui si incontrano sul tagliente. L'usura differenziale può preservare un'aggressività microscopica di taglio quando sistema degli strati e geometria sono progettati a questo scopo. L'effetto deriva dal materiale che arriva all'apice del filo, non dalle onde visibili più in alto sulla lama.
 <!-- /tx-unit -->
 <!-- tx-unit:ddcff322c2530c1b03bb67c279ffded42489b788c81b77aba40d15b26c93e41e -->
-Il comportamento di taglio dipende dal coltello nel suo insieme: finitura del filo, spessore, convessità, altezza della lama, texture superficiale e movimento. Quando l'incisione differenziale lascia un rilievo molto lieve tra strati adiacenti, i microscopici gradini e avvallamenti che ne risultano possono interrompere il contatto perfettamente continuo tra la faccia della lama e l'alimento. Con alcuni alimenti questo può ridurre leggermente l'adesione locale o facilitare la penetrazione della lama nel taglio.
+Il comportamento di taglio dipende dal coltello nel suo insieme: finitura del tagliente, spessore, convessità, altezza della lama, texture superficiale e movimento. Quando l'incisione differenziale lascia un rilievo molto lieve tra strati adiacenti, i microscopici gradini e avvallamenti che ne risultano possono interrompere il contatto perfettamente continuo tra la faccia della lama e l'alimento. Con alcuni alimenti questo può ridurre leggermente l'adesione locale o facilitare la penetrazione della lama nel taglio.
 <!-- /tx-unit -->
 <!-- tx-unit:c239997ed82961880ab128b9207e123e0200c2571e31b0dcaa228c39b40299b8 -->
 Si tratta però di un effetto secondario, dipendente dalla finitura, non di un vantaggio automatico della costruzione in acciaio Damasco. Un'incisione profonda o ruvida può aumentare l'attrito, mentre geometria della lama, spessore, convessità, lucidatura, tipo di alimento e tecnica di taglio contano normalmente di più. Questo effetto va inoltre distinto dall'usura differenziale all'apice del filo, che è un meccanismo diverso discusso più avanti.
