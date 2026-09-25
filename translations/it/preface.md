@@ -1,5 +1,5 @@
 ---
-source_hash: 99fd6ea148d7e449e49b01ccb998dc2e4cf1ad5ee310b45fdfe796f18ea62aa0
+source_hash: c2b0135f134faeebb04579f8240b39c21bba2fb0f30786857565adb18b930fd8
 translation_engine: chatgpt-differential-v1
 prompt_revision: 2026-09-23-technical-book-v2
 glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
@@ -41,7 +41,7 @@ Il libro ha quindi due funzioni connesse: **una base operativa per la formazione
 <!-- tx-unit:a6f84c4e7d7d58fabf8ebd9cf52a1dcf65bfde88fe21cc90b59e394f5488096b -->
 ## Perché questo libro parla di Xinzuo
 <!-- /tx-unit -->
-<!-- tx-unit:5bdcc0d3c58e1f4858e6637be600dbea19d3549f74c44995e1af1c2594340179 -->
+<!-- tx-unit:59f6b9e6c44fba125c32ec1c7741e300e151e4ad0b3052f143ae991ba604dc7e -->
 C'è anche una ragione personale per cui Xinzuo è diventata il riferimento di questo libro. Nel mio lavoro professionale come EU Brand and Operations Manager di Xinzuo, ciò che mi ha interessato non era un singolo modello o una singola specifica, ma il modo in cui lo sviluppo prodotto collega materiali, processi produttivi e progettazione. Il libro, tuttavia, è un progetto personale: l'ho scritto a titolo individuale, facendo tesoro di questa esperienza, e non come pubblicazione aziendale ufficiale.
 <!-- /tx-unit -->
 <!-- tx-unit:80ee8f6b13949292969dd43a8b66a47b665d575d76bbecaa0918d95e585f6ac4 -->
@@ -56,6 +56,6 @@ La conoscenza migliora quando viene condivisa. Questo libro è disponibile gratu
 <!-- tx-unit:6907965e87198547365c9a7e74ac0148fa3829043184cee869cb69130a01c79e -->
 Questo libro è un punto di partenza: la conoscenza diventa pratica, la pratica diventa esperienza e l'esperienza può diventare *gongfu*.
 <!-- /tx-unit -->
-<!-- tx-unit:e1b12007472efe470141a3cb281c1454b4b28853ca3eb86815bcce5f6cab64eb -->
+<!-- tx-unit:4c68f0b5cefad63ba558a3a0dc8feb7be8751718a2f1edd1e259bb1f85ec4b4f -->
 **Francesco Claudio Mazza**
 <!-- /tx-unit -->

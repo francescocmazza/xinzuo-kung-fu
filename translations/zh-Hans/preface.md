@@ -1,5 +1,5 @@
 ---
-source_hash: a17cdd1ec6607c89c0fb845a2ac519e7dfe01e71193922ad5a38408270c20d9c
+source_hash: a980d7484cfacf3cf80a783c1f6c02112936005c190b31e49bd3bf05efd1ce28
 translation_engine: chatgpt-differential-v1
 prompt_revision: 2026-09-23-technical-book-v2
 glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
@@ -41,7 +41,7 @@ glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 <!-- tx-unit:22b603f82a9570f18f650046520a6393a2777bc8f8d73c01d5b465d8ce28d83a -->
 ## 为什么这本书以 Xinzuo 为参照
 <!-- /tx-unit -->
-<!-- tx-unit:b2bead493b3b605dda47cd4af11c315e648c1820bf402a2fe5874499273ef640 -->
+<!-- tx-unit:749d0f5f828e0233c6165dda8d7cfcf126cd9ac1ae58582adfd9f7ddbac94867 -->
 Xinzuo 成为本书参照还有一个个人原因。在我担任 Xinzuo EU Brand and Operations Manager 的专业工作中，真正吸引我的并不是某一个型号或某一项参数，而是产品开发如何把材料、制造工艺和设计连接在一起。不过，本书本身是一个个人项目：我以个人身份撰写，并借鉴了这段工作经验，而不是把它作为公司的正式出版物。
 <!-- /tx-unit -->
 <!-- tx-unit:c54554ae553920abc80b79768c78bc5e8a75822e242609906887e5fca97e885c -->
@@ -56,6 +56,6 @@ Xinzuo 成为本书参照还有一个个人原因。在我担任 Xinzuo EU Brand
 <!-- tx-unit:b4966cb34e3a251026826a7b998f8b11515a0ea51103eb50761661e3d2323790 -->
 本书只是一个起点：知识成为练习，练习成为经验，而经验可以成为*功夫*。
 <!-- /tx-unit -->
-<!-- tx-unit:a25c43d483d1948ff6d18f1ff71f276607d725e573ab1cc3a2c887df1673db1e -->
+<!-- tx-unit:ee06ab693b6c1aca0c17330e04605cf28b7c36a22c6339375d548684f47c8f4a -->
 **Francesco Claudio Mazza**
 <!-- /tx-unit -->

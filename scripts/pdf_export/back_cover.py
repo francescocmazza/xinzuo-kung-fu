@@ -227,8 +227,8 @@ def apply_back_cover_profile(exporter: str) -> str:
 
     exporter = _replace_checked(
         exporter,
-        '        (SITE / code / PRINT_COVER_NAME).unlink(missing_ok=True)\n        (SITE / code / PRINT_REST_NAME).unlink(missing_ok=True)\n        cover_pdf.unlink(missing_ok=True)\n        rest_pdf.unlink(missing_ok=True)',
-        '        (SITE / code / PRINT_COVER_NAME).unlink(missing_ok=True)\n        (SITE / code / PRINT_REST_NAME).unlink(missing_ok=True)\n        (SITE / code / PRINT_BACK_COVER_NAME).unlink(missing_ok=True)\n        cover_pdf.unlink(missing_ok=True)\n        rest_pdf.unlink(missing_ok=True)\n        back_cover_pdf.unlink(missing_ok=True)',
+        '        (SITE / code / PRINT_COVER_NAME).unlink(missing_ok=True)\n        (SITE / code / PRINT_REST_NAME).unlink(missing_ok=True)\n        (SITE / code / PRINT_EDITION_QR).unlink(missing_ok=True)\n        cover_pdf.unlink(missing_ok=True)\n        rest_pdf.unlink(missing_ok=True)',
+        '        (SITE / code / PRINT_COVER_NAME).unlink(missing_ok=True)\n        (SITE / code / PRINT_REST_NAME).unlink(missing_ok=True)\n        (SITE / code / PRINT_EDITION_QR).unlink(missing_ok=True)\n        (SITE / code / PRINT_BACK_COVER_NAME).unlink(missing_ok=True)\n        cover_pdf.unlink(missing_ok=True)\n        rest_pdf.unlink(missing_ok=True)\n        back_cover_pdf.unlink(missing_ok=True)',
         "back-cover cleanup",
     )
 
