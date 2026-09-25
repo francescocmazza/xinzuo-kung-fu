@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regression test for the simplified localized back-cover publication layout."""
+"""Regression test for the simplified localized back-cover publication layout and final-page QR."""
 
 from back_cover import ROOT, _extract_back_cover_text, apply_back_cover_profile
 
