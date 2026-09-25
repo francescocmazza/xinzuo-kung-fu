@@ -161,7 +161,7 @@
 .kb-back-cover__inner {
   width: 100%;
   max-width: 112mm;
-  padding: 7.5mm 7mm 6.5mm;
+  padding: 10mm 8mm 9mm;
   border: 0.25mm solid rgba(215, 170, 97, 0.24);
   background: rgba(24, 13, 7, 0.52);
   box-shadow: 0 1.5mm 4mm rgba(0, 0, 0, 0.28);
@@ -191,10 +191,10 @@
 }
 
 .kb-back-cover__body p {
-  margin: 0 0 3mm;
+  margin: 0 0 4mm;
   color: #f2e6d1;
-  font-size: 8.45pt;
-  line-height: 1.47;
+  font-size: 8.8pt;
+  line-height: 1.52;
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
@@ -221,62 +221,9 @@
   background: linear-gradient(90deg, transparent 0%, var(--kb-cover-gold) 22%, var(--kb-cover-gold) 78%, transparent 100%);
 }
 
-.kb-back-cover__digital {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5mm;
-  margin-top: 0;
-}
-
-.kb-back-cover__qr {
-  flex: 0 0 auto;
-  width: 23mm;
-  height: 23mm;
-  padding: 1.2mm;
-  background: #fff;
-  border: 0.25mm solid rgba(215, 170, 97, 0.55);
-}
-
-.kb-back-cover__qr img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.kb-back-cover__cta {
-  max-width: 65mm;
-  text-align: left;
-}
-
-.kb-back-cover__cta-title {
-  margin: 0;
-  color: var(--kb-cover-gold-soft);
-  font-family: "Noto Serif", "Noto Serif CJK SC", Baskerville, "Times New Roman", serif;
-  font-size: 8.9pt;
-  font-weight: 600;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-}
-
-.kb-back-cover__cta-text,
-.kb-back-cover__cta-url {
-  margin: 1.1mm 0 0;
-  color: #f2e6d1;
-  font-size: 8pt;
-  line-height: 1.38;
-}
-
-.kb-back-cover__cta-url a {
-  color: var(--kb-cover-gold-soft);
-  text-decoration: none;
-  overflow-wrap: anywhere;
-}
-
 .kb-back-cover__author-block {
-  margin-top: 5.5mm;
-  padding-top: 4.2mm;
+  margin-top: 7mm;
+  padding-top: 5mm;
   border-top: 0.25mm solid rgba(215, 170, 97, 0.34);
   text-align: center;
 }
@@ -294,14 +241,6 @@
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-}
-
-.kb-back-cover__role,
-.kb-back-cover__edition {
-  margin-top: 1.1mm;
-  color: #e8d9bf;
-  font-size: 7.9pt;
-  line-height: 1.35;
 }
 
 @media print {
