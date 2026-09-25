@@ -80,10 +80,18 @@ def apply_back_cover_profile(exporter: str) -> str:
         "back-cover print filename",
     )
 
-    render_back_cover = '''def render_back_cover_html() -> str:
-    copy = _extract_back_cover_text(
+    back_copy = repr(_extract_back_cover_text(
         SOURCE_BACK_COVER.read_text(encoding="utf-8"), SOURCE_BACK_COVER
+    ))
+    exporter = _replace_checked(
+        exporter,
+        "EDITION_COPY = {",
+        f"BACK_COVER_COPY = {back_copy}\nEDITION_COPY = {{",
+        "back-cover copy",
     )
+
+    render_back_cover = '''def render_back_cover_html() -> str:
+    copy = BACK_COVER_COPY
     paragraphs = "".join(f"<p>{html.escape(paragraph)}</p>" for paragraph in copy["paragraphs"])
     return f"""
     <section class="kb-back-cover">
