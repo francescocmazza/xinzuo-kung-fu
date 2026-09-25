@@ -46,6 +46,19 @@ locales:
           - '\bmotiv(?:o|i)\s+damascat(?:o|i)\b'
           - '\blam(?:a|e)\s+damascat(?:a|e)\b'
           - '\bfamigli(?:a|e)\s+damascat(?:a|e)\b'
+      - id: filo-and-tagliente
+        source_triggers:
+          - edge
+          - cutting edge
+        instruction: >-
+          Italian terminology rule for the sharpened edge of a knife: use both
+          "filo" and the noun "tagliente" naturally. At the first anatomical
+          introduction, explicitly explain that "filo" and "tagliente" are
+          synonyms in this guide. Thereafter alternate them where idiomatic to
+          avoid unnecessary repetition. Keep established expressions such as
+          "bisello del filo" and "tenuta del filo" when they are clearer or more
+          conventional; do not force "tagliente" into unrelated uses of English
+          "edge" such as edge-grain wood.
   es:
     name: Español
     publish_when_complete: true
