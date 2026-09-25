@@ -30,7 +30,7 @@ The book therefore has two connected roles: **a working foundation for professio
 
 ## Why this book is about Xinzuo
 
-There is also a personal reason Xinzuo became the frame of reference for this book. When I first came to know the company, what interested me was not a single model or specification, but the way product development connects materials, manufacturing processes and design.
+There is also a personal reason Xinzuo became the frame of reference for this book. In my professional work as EU Brand and Operations Manager at Xinzuo, what interested me was not a single model or specification, but the way product development connects materials, manufacturing processes and design. The book itself, however, is a personal project: I wrote it in my own capacity, drawing on that experience rather than as an official corporate publication.
 
 That work extends far beyond designing a blade shape or choosing an attractive finish. Xinzuo works on steels, heat treatment, powder metallurgy, layered constructions, handle materials, balance, ergonomics, grinding, sharpening and testing. It uses established specialist steels when they are the right solution, but it also develops proprietary metallurgy such as 14Cr14MoVNb with industrial and academic partners. Selected series use demanding processes such as vacuum heat treatment and deep-freeze processing, while water-cooled grinding and whetstone sharpening protect the heat-treated edge during final manufacturing. Different steels, constructions, handle materials and balance strategies are used because different cooks, grips and tasks require different compromises.
 
@@ -40,5 +40,4 @@ Knowledge improves when it is shared. This book is also available free of charge
 
 This book is a starting point: knowledge becomes practice, practice becomes experience, and experience can become *gongfu*.
 
-**Francesco Claudio Mazza**<br>
-*EU Brand and Operations Manager, Xinzuo*
+**Francesco Claudio Mazza**
