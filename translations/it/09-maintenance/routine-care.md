@@ -9,13 +9,13 @@ glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
 # Cura ordinaria del coltello
 <!-- /tx-unit -->
 <!-- tx-unit:acdf24e8eedf8b22634e81339c4324b3e4bdc6ab44da9b40b77b9822bc67664b -->
-Il capitolo precedente ha affrontato la superficie che il filo incontra durante l'uso. La cura ordinaria prosegue la stessa logica: preservare il coltello controllando le normali condizioni a cui è sottoposto fra una sessione di affilatura e l'altra.
+Il capitolo precedente ha affrontato la superficie che il tagliente incontra durante l'uso. La cura ordinaria prosegue la stessa logica: preservare il coltello controllando le normali condizioni a cui è sottoposto fra una sessione di affilatura e l'altra.
 <!-- /tx-unit -->
 <!-- tx-unit:ddd688b907415f6d1c1c9f73109788b461a02198a87c3fb3e96527c06cf35571 -->
-L'affilatura è soltanto una parte della manutenzione del coltello e, di solito, non è neppure quella più frequente. La durata del filo dipende soprattutto dalle abitudini quotidiane: **su che cosa taglia il coltello, come viene lavato e asciugato, come viene conservato e se il filo viene usato per lavori per cui non è stato progettato**.
+L'affilatura è soltanto una parte della manutenzione del coltello e, di solito, non è neppure quella più frequente. La durata del tagliente dipende soprattutto dalle abitudini quotidiane: **su che cosa taglia il coltello, come viene lavato e asciugato, come viene conservato e se il tagliente viene usato per lavori per cui non è stato progettato**.
 <!-- /tx-unit -->
 <!-- tx-unit:51a918d8587d00859ead3ebb0652a061085c0f3673c165cfa7f8dda8d0e035e5 -->
-Una buona cura ordinaria rallenta la corrosione e i danni meccanici e riduce la frequenza con cui l'affilatura deve asportare acciaio. Questo capitolo riguarda la manutenzione ordinaria. Il ripristino completo del filo verrà trattato più avanti nei capitoli dedicati all'affilatura.
+Una buona cura ordinaria rallenta la corrosione e i danni meccanici e riduce la frequenza con cui l'affilatura deve asportare acciaio. Questo capitolo riguarda la manutenzione ordinaria. Il ripristino completo del tagliente verrà trattato più avanti nei capitoli dedicati all'affilatura.
 <!-- /tx-unit -->
 <!-- tx-unit:dd8d75ed9315336ae9357a6af42ac29cbdd85f726a040f2e58ad4a97da42e361 -->
 ## Dopo ogni utilizzo: lavare, risciacquare e asciugare
@@ -63,22 +63,22 @@ Rimuovi la corrosione rossastra o arancione attiva prima che si trasformi in una
 Vaiolature profonde, finiture danneggiate o trattamenti incerti su una lama di valore sono gestiti meglio da un professionista che con una lucidatura domestica aggressiva.
 <!-- /tx-unit -->
 <!-- tx-unit:cdc768e25b2024046a7d38afafa508867c4e191dde507525d5d644792834c485 -->
-## Il tagliere fa parte della manutenzione del filo
+## Il tagliere fa parte della manutenzione del tagliente
 <!-- /tx-unit -->
 <!-- tx-unit:64ac73b7cb4256071bc1b40d770913d23fa6a23f842c14088edc88a400e3d2a6 -->
-Il tagliere è una delle principali fonti di contatto ordinario con il filo, ma materiali e costruzioni sono già stati trattati in [Taglieri](cutting-boards.md). La regola di manutenzione qui è quindi breve: usa un tagliere adatto e in buone condizioni, mantienilo stabile ed evita il contatto abituale con vetro, ceramica, pietra, metallo, piatti, bordi delle pentole o piano di lavoro.
+Il tagliere è una delle principali fonti di contatto ordinario con il tagliente, ma materiali e costruzioni sono già stati trattati in [Taglieri](cutting-boards.md). La regola di manutenzione qui è quindi breve: usa un tagliere adatto e in buone condizioni, mantienilo stabile ed evita il contatto abituale con vetro, ceramica, pietra, metallo, piatti, bordi delle pentole o piano di lavoro.
 <!-- /tx-unit -->
 <!-- tx-unit:87580f41b0773ab46c30c66133eb8576461fa757db967e4660dcafcc02599516 -->
 Sostituire o ripristinare un tagliere molto segnato può proteggere il coltello più efficacemente che affilarlo più spesso. Cura del tagliere e cura del coltello fanno parte dello stesso sistema.
 <!-- /tx-unit -->
 <!-- tx-unit:20479fda96db0ab12e754a93f2f4ec217a4e299165e88f3652b74c55bf8a3e15 -->
-## Non raschiare il tagliere con il filo
+## Non raschiare il tagliere con il tagliente
 <!-- /tx-unit -->
 <!-- tx-unit:603ebe45b8fe91087f68c9d2de458f2a0427177f6eb7e29717b2cdab0b4b3fcb -->
-Trascinare lateralmente il filo sul tagliere per raccogliere il cibo applica una forza trasversale all'apice del filo e, gradualmente, lo ripiega o lo abrade.
+Trascinare lateralmente il tagliente sul tagliere per raccogliere il cibo applica una forza trasversale all'apice del filo e, gradualmente, lo ripiega o lo abrade.
 <!-- /tx-unit -->
 <!-- tx-unit:2a7ae7599efad4c167e1fcac67b1234290287c3d04753f59b75f8a5f823bb9f7 -->
-Usa invece **il dorso o la faccia larga della lama**, oppure una spatola raschiante da banco. Questa semplice abitudine preserva sorprendentemente bene un filo sottile.
+Usa invece **il dorso o la faccia larga della lama**, oppure una spatola raschiante da banco. Questa semplice abitudine preserva sorprendentemente bene un tagliente sottile.
 <!-- /tx-unit -->
 <!-- tx-unit:b1927632aba070798f9c19c313e54c96ff5be4a694b47000fa2b30d55a821e8d -->
 ## Conservazione: proteggere il filo dagli oggetti duri
