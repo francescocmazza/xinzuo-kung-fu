@@ -1,7 +1,9 @@
 import { BASE_CERTIFICATION_BANK, BASE_CERTIFICATION_VERSION } from "./certification-bank.js";
 
 const enc = new TextEncoder();
-const PASSWORD_ITERATIONS = 600000;
+// Cloudflare Workers Web Crypto currently rejects PBKDF2 iteration counts above 100,000.
+// The per-user iteration count is persisted in D1 so this can be increased later.
+const PASSWORD_ITERATIONS = 100000;
 const SESSION_SHORT = 12 * 60 * 60;
 const SESSION_LONG = 30 * 24 * 60 * 60;
 const LOCK_SECONDS = 15 * 60;
