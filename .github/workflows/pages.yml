@@ -236,7 +236,7 @@ jobs:
           python - <<'PY'
           import json, os
           cfg = {
-              "apiBase": os.environ.get("ACADEMY_API_BASE", "").rstrip("/"),
+              "apiBase": os.environ.get("ACADEMY_API_BASE", "").rstrip("/") or "https://xinzuo-academy-api.mazza-apps.workers.dev",
               "requireAuth": True,
               "companyName": "Xinzuo Europe",
               "privacyControllerName": os.environ.get("ACADEMY_PRIVACY_CONTROLLER_NAME") or "FCM SRLS",
