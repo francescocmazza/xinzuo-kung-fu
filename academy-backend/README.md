@@ -40,7 +40,7 @@ The Resend Free plan is suitable for an initial free Academy launch, subject to 
 
 ## Authentication and security
 
-- password storage: PBKDF2-HMAC-SHA256, 600,000 iterations, unique random salt and optional server-side pepper;
+- password storage: PBKDF2-HMAC-SHA256, 100,000 iterations (the current Cloudflare Workers Web Crypto ceiling), unique random salt and server-side pepper; the iteration count is persisted per user so the cost can be raised when the runtime permits it;
 - session, invitation and reset tokens stored as hashes;
 - verification challenges expire after ten minutes and have a bounded attempt count;
 - password reset codes expire after 30 minutes;
