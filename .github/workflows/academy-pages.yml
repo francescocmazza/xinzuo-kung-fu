@@ -8,6 +8,7 @@ on:
       - "academy/**"
       - "scripts/validate_academy.py"
       - ".github/workflows/academy-pages.yml"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -92,6 +93,15 @@ jobs:
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
+
+      - name: Verify Academy is present in Pages artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s site/academy/index.html
+          test -s site/academy/config.js
+          test -s site/academy/account.js
+          echo "Xinzuo Academy present in Pages artifact"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
