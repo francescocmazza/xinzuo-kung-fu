@@ -161,40 +161,6 @@ jobs:
       - name: Build publication-ready languages
         run: python scripts/multilingual_site.py --require-translations --locales $READY_LOCALES
 
-      - name: Add Xinzuo Academy to the published site
-        shell: bash
-        env:
-          ACADEMY_API_BASE: ${{ vars.ACADEMY_API_BASE }}
-          ACADEMY_PRIVACY_CONTROLLER_NAME: ${{ vars.ACADEMY_PRIVACY_CONTROLLER_NAME }}
-          ACADEMY_PRIVACY_CONTROLLER_ADDRESS: ${{ vars.ACADEMY_PRIVACY_CONTROLLER_ADDRESS }}
-          ACADEMY_PRIVACY_CONTROLLER_VAT: ${{ vars.ACADEMY_PRIVACY_CONTROLLER_VAT }}
-          ACADEMY_PRIVACY_CONTACT_NAME: ${{ vars.ACADEMY_PRIVACY_CONTACT_NAME }}
-          ACADEMY_PRIVACY_CONTACT_EMAIL: ${{ vars.ACADEMY_PRIVACY_CONTACT_EMAIL }}
-          ACADEMY_PUBLIC_URL: ${{ vars.ACADEMY_PUBLIC_URL }}
-        run: |
-          set -euo pipefail
-          mkdir -p site/academy
-          cp academy/index.html academy/styles.css academy/app.js academy/account.js academy/config.js academy/privacy.html academy/terms.html academy/legal.js academy/certificate.html academy/certificate.js site/academy/
-          cp -R academy/data site/academy/data
-          python - <<'PY'
-          import json, os
-          cfg = {
-              "apiBase": os.environ.get("ACADEMY_API_BASE", "").rstrip("/"),
-              "requireAuth": True,
-              "companyName": "Xinzuo Europe",
-              "privacyControllerName": os.environ.get("ACADEMY_PRIVACY_CONTROLLER_NAME") or "FCM SRLS",
-              "privacyControllerAddress": os.environ.get("ACADEMY_PRIVACY_CONTROLLER_ADDRESS") or "Via Benvenuto Cellini 15G, 04100 Latina (LT), Italia",
-              "privacyControllerVat": os.environ.get("ACADEMY_PRIVACY_CONTROLLER_VAT") or "03086390592",
-              "privacyContactName": os.environ.get("ACADEMY_PRIVACY_CONTACT_NAME") or "Dott. Francesco Claudio Mazza",
-              "privacyContactEmail": os.environ.get("ACADEMY_PRIVACY_CONTACT_EMAIL") or "f.mazza@xinzuo-europe.com",
-              "academyPublicUrl": os.environ.get("ACADEMY_PUBLIC_URL") or "https://francescocmazza.github.io/xinzuo-kung-fu/academy/",
-          }
-          with open("site/academy/config.js", "w", encoding="utf-8") as fh:
-              fh.write("window.XINZUO_ACADEMY_CONFIG = Object.freeze(")
-              fh.write(json.dumps(cfg, ensure_ascii=False))
-              fh.write(");\n")
-          PY
-
       - name: Install Playwright Chromium and CJK fonts
         run: |
           python -m playwright install --with-deps chromium
@@ -251,6 +217,40 @@ jobs:
             --locales $READY_LOCALES \
             --placeholders hide \
             --output-dir release-assets/pdf
+
+      - name: Add Xinzuo Academy to the published site
+        shell: bash
+        env:
+          ACADEMY_API_BASE: ${{ vars.ACADEMY_API_BASE }}
+          ACADEMY_PRIVACY_CONTROLLER_NAME: ${{ vars.ACADEMY_PRIVACY_CONTROLLER_NAME }}
+          ACADEMY_PRIVACY_CONTROLLER_ADDRESS: ${{ vars.ACADEMY_PRIVACY_CONTROLLER_ADDRESS }}
+          ACADEMY_PRIVACY_CONTROLLER_VAT: ${{ vars.ACADEMY_PRIVACY_CONTROLLER_VAT }}
+          ACADEMY_PRIVACY_CONTACT_NAME: ${{ vars.ACADEMY_PRIVACY_CONTACT_NAME }}
+          ACADEMY_PRIVACY_CONTACT_EMAIL: ${{ vars.ACADEMY_PRIVACY_CONTACT_EMAIL }}
+          ACADEMY_PUBLIC_URL: ${{ vars.ACADEMY_PUBLIC_URL }}
+        run: |
+          set -euo pipefail
+          mkdir -p site/academy
+          cp academy/index.html academy/styles.css academy/app.js academy/account.js academy/config.js academy/privacy.html academy/terms.html academy/legal.js academy/certificate.html academy/certificate.js site/academy/
+          cp -R academy/data site/academy/data
+          python - <<'PY'
+          import json, os
+          cfg = {
+              "apiBase": os.environ.get("ACADEMY_API_BASE", "").rstrip("/"),
+              "requireAuth": True,
+              "companyName": "Xinzuo Europe",
+              "privacyControllerName": os.environ.get("ACADEMY_PRIVACY_CONTROLLER_NAME") or "FCM SRLS",
+              "privacyControllerAddress": os.environ.get("ACADEMY_PRIVACY_CONTROLLER_ADDRESS") or "Via Benvenuto Cellini 15G, 04100 Latina (LT), Italia",
+              "privacyControllerVat": os.environ.get("ACADEMY_PRIVACY_CONTROLLER_VAT") or "03086390592",
+              "privacyContactName": os.environ.get("ACADEMY_PRIVACY_CONTACT_NAME") or "Dott. Francesco Claudio Mazza",
+              "privacyContactEmail": os.environ.get("ACADEMY_PRIVACY_CONTACT_EMAIL") or "f.mazza@xinzuo-europe.com",
+              "academyPublicUrl": os.environ.get("ACADEMY_PUBLIC_URL") or "https://francescocmazza.github.io/xinzuo-kung-fu/academy/",
+          }
+          with open("site/academy/config.js", "w", encoding="utf-8") as fh:
+              fh.write("window.XINZUO_ACADEMY_CONFIG = Object.freeze(")
+              fh.write(json.dumps(cfg, ensure_ascii=False))
+              fh.write(");\n")
+          PY
 
       - name: Package current downloadable revision
         run: |
@@ -350,6 +350,15 @@ jobs:
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
+
+      - name: Verify Academy is present in Pages artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s site/academy/index.html
+          test -s site/academy/config.js
+          test -s site/academy/account.js
+          echo "Xinzuo Academy present in Pages artifact"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
