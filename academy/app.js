@@ -81,7 +81,7 @@
       interactions: "Interactions",
       curriculumEyebrow: "Three-level path",
       curriculumTitle: "Curriculum",
-      curriculumNote: "All three levels are active and cover the same major themes from the book. The required depth changes: Base recognizes and applies fundamentals; Intermediate connects causes and trade-offs; Advanced diagnoses and justifies decisions.",
+      curriculumNote: "All three levels are active with 27 lessons each: three lessons in every knowledge domain. The topics stay parallel while the required depth changes: Base recognizes and applies fundamentals; Intermediate connects causes and trade-offs; Advanced diagnoses and justifies decisions.",
       active: "Active",
       planned: "Planned",
       lessons: "lessons",
@@ -297,9 +297,11 @@
   function mergeRemoteProgress(remoteProgress) {
     if (course && remoteProgress?._courseVersion !== course.course_version) {
       const migratedRemote = migrateCourseProgress(remoteProgress, course.course_version);
-      const migratedLocal = migrateCourseProgress(progress, course.course_version);
-      if (migratedRemote || migratedLocal) {
-        progress = mergeProgress(migratedLocal || freshProgress(), migratedRemote || freshProgress());
+      const localForMerge = progress?._courseVersion === course.course_version
+        ? progress
+        : migrateCourseProgress(progress, course.course_version);
+      if (migratedRemote || localForMerge) {
+        progress = mergeProgress(localForMerge || freshProgress(), migratedRemote || freshProgress());
         progress._courseVersion = course.course_version;
       } else {
         // Older incompatible curricula must not inflate completion or manager metrics.
