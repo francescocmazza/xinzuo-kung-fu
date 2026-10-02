@@ -13,21 +13,21 @@
       resetConfirm: "Vuoi davvero azzerare tutti i progressi della Academy su questo browser?",
       heroEyebrow: "Formazione del personale Xinzuo",
       heroTitle: "Conosci il coltello. Comprendi il cliente.",
-      heroText: "Un percorso pratico costruito sulla knowledge base: apprendi un concetto, rispondi, capisci gli errori e ritrovi più avanti ciò che deve essere consolidato.",
+      heroText: "Un percorso pratico costruito sulla base di conoscenza: apprendi un concetto, rispondi, comprendi gli errori e ritrovi più avanti ciò che deve essere consolidato.",
       progress: "I tuoi progressi",
       acquired: "Acquisiti",
       review: "Da rivedere",
       interactions: "Interazioni",
       curriculumEyebrow: "Percorso su tre livelli",
       curriculumTitle: "Curriculum",
-      curriculumNote: "Il livello Base è ora completo e attivo. Intermedio e Avanzato sono già mappati sulla knowledge base e verranno attivati solo quando i rispettivi question bank avranno superato la revisione.",
+      curriculumNote: "Il livello Base è completo e attivo. Intermedio e Avanzato sono già mappati sulla base di conoscenza e verranno attivati solo quando le rispettive banche di domande avranno superato la revisione.",
       active: "Attivo",
       planned: "In preparazione",
       lessons: "lezioni",
       start: "Inizia",
       resume: "Riprendi",
       back: "← Curriculum",
-      source: "Apri la fonte nella knowledge base",
+      source: "Apri la fonte nella base di conoscenza",
       continue: "Continua",
       toQuestion: "Vai alla domanda",
       critical: "Conoscenza critica",
@@ -56,7 +56,16 @@
       bookTruth: "Il Gongfu di Xinzuo resta la fonte tecnica autorevole.",
       openBook: "Apri la knowledge base",
       unavailable: "Questo modulo è già previsto nel percorso, ma non viene aperto finché contenuti e domande non hanno superato la revisione.",
-      moduleProgress: "Progresso modulo"
+      moduleProgress: "Progresso modulo",
+      level: "Livello",
+      courseChooserEyebrow: "Scegli il corso",
+      courseChooserTitle: "Due lingue, un unico percorso",
+      courseChooserNote: "Italiano e inglese hanno la stessa struttura didattica e condividono progressi e certificazione.",
+      courseItalianTitle: "Corso in italiano",
+      courseItalianText: "Contenuti, domande e verifiche in italiano.",
+      courseEnglishTitle: "Course in English",
+      courseEnglishText: "Contents, questions and reviews in English.",
+      courseActive: "Corso attivo"
     },
     en: {
       headerSubtitle: "Interactive staff training",
@@ -108,7 +117,16 @@
       bookTruth: "The Gongfu of Xinzuo remains the technical source of truth.",
       openBook: "Open the knowledge base",
       unavailable: "This module is already mapped in the path, but stays locked until its content and question bank pass review.",
-      moduleProgress: "Module progress"
+      moduleProgress: "Module progress",
+      level: "Level",
+      courseChooserEyebrow: "Choose your course",
+      courseChooserTitle: "Two languages, one learning path",
+      courseChooserNote: "Italian and English use the same learning structure and share progress and certification.",
+      courseItalianTitle: "Corso in italiano",
+      courseItalianText: "Contenuti, domande e verifiche in italiano.",
+      courseEnglishTitle: "Course in English",
+      courseEnglishText: "Contents, questions and reviews in English.",
+      courseActive: "Active course"
     }
   };
 
@@ -137,6 +155,15 @@
     curriculumEyebrow: document.getElementById("curriculumEyebrow"),
     curriculumTitle: document.getElementById("curriculumTitle"),
     curriculumNote: document.getElementById("curriculumNote"),
+    courseLanguageEyebrow: document.getElementById("courseLanguageEyebrow"),
+    courseLanguageTitle: document.getElementById("courseLanguageTitle"),
+    courseLanguageNote: document.getElementById("courseLanguageNote"),
+    courseItalian: document.getElementById("courseItalian"),
+    courseEnglish: document.getElementById("courseEnglish"),
+    courseItalianTitle: document.getElementById("courseItalianTitle"),
+    courseItalianText: document.getElementById("courseItalianText"),
+    courseEnglishTitle: document.getElementById("courseEnglishTitle"),
+    courseEnglishText: document.getElementById("courseEnglishText"),
     levels: document.getElementById("levels"),
     homeView: document.getElementById("homeView"),
     learningView: document.getElementById("learningView"),
@@ -149,6 +176,8 @@
   };
 
   function pickInitialLocale() {
+    const requested = new URLSearchParams(window.location.search).get("lang");
+    if (SUPPORTED.includes(requested)) return requested;
     const saved = localStorage.getItem(LOCALE_KEY);
     if (SUPPORTED.includes(saved)) return saved;
     const browser = (navigator.language || "en").toLowerCase();
@@ -244,12 +273,17 @@
     localStorage.setItem(LOCALE_KEY, locale);
     document.documentElement.lang = locale;
     el.languageSelect.value = locale;
+    const url = new URL(window.location.href);
+    url.searchParams.set("lang", locale);
+    window.history.replaceState({}, "", url);
+    updateCourseLanguageCards();
 
     const response = await fetch(`data/course.${locale}.json`, { cache: "no-store" });
     if (!response.ok) throw new Error(`Unable to load course data (${response.status})`);
     course = await response.json();
     applyStaticCopy();
     renderHome();
+    window.dispatchEvent(new CustomEvent("academy-locale-changed", { detail: { locale } }));
     window.AcademyAccount?.trackEvent?.("course_opened", { metadata: { locale, courseVersion: course.course_version } });
   }
 
@@ -267,11 +301,34 @@
     el.curriculumEyebrow.textContent = t("curriculumEyebrow");
     el.curriculumTitle.textContent = t("curriculumTitle");
     el.curriculumNote.textContent = t("curriculumNote");
+    el.courseLanguageEyebrow.textContent = t("courseChooserEyebrow");
+    el.courseLanguageTitle.textContent = t("courseChooserTitle");
+    el.courseLanguageNote.textContent = t("courseChooserNote");
+    el.courseItalianTitle.textContent = t("courseItalianTitle");
+    el.courseItalianText.textContent = t("courseItalianText");
+    el.courseEnglishTitle.textContent = t("courseEnglishTitle");
+    el.courseEnglishText.textContent = t("courseEnglishText");
+    updateCourseLanguageCards();
     el.backHome.textContent = t("back");
     el.footerText.textContent = t("bookTruth");
     el.bookLink.textContent = t("openBook");
     el.bookLink.href = `../${locale}/`;
     updateProgressCard();
+  }
+
+  function updateCourseLanguageCards() {
+    const cards = [
+      [el.courseItalian, "it"],
+      [el.courseEnglish, "en"]
+    ];
+    cards.forEach(([card, code]) => {
+      if (!card) return;
+      const active = code === locale;
+      card.classList.toggle("course-language-card--active", active);
+      card.setAttribute("aria-pressed", active ? "true" : "false");
+      const codeEl = card.querySelector(".course-language-card__code");
+      if (codeEl) codeEl.setAttribute("data-active-label", active ? t("courseActive") : "");
+    });
   }
 
   function activeLessons() {
@@ -311,7 +368,7 @@
       heading.className = "level-card__heading";
       heading.innerHTML = `
         <div>
-          <p class="eyebrow">Level ${index + 1}</p>
+          <p class="eyebrow">${escapeHtml(t("level"))} ${index + 1}</p>
           <h3>${escapeHtml(level.title)}</h3>
           <p>${escapeHtml(level.purpose || "")}</p>
         </div>
@@ -729,6 +786,19 @@
     if (window.CSS && typeof window.CSS.escape === "function") return window.CSS.escape(value);
     return String(value).replace(/[^a-zA-Z0-9_-]/g, "\\$&");
   }
+
+  [el.courseItalian, el.courseEnglish].forEach(card => {
+    card?.addEventListener("click", async () => {
+      const nextLocale = card.dataset.courseLocale;
+      if (!SUPPORTED.includes(nextLocale) || nextLocale === locale) return;
+      try {
+        await loadCourse(nextLocale);
+        window.scrollTo({ top: document.getElementById("homeView").offsetTop - 24, behavior: "smooth" });
+      } catch (error) {
+        el.learningSurface.textContent = String(error);
+      }
+    });
+  });
 
   el.languageSelect.addEventListener("change", async event => {
     try {
