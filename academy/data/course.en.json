@@ -3441,7 +3441,59 @@
             "questions": [
               {
                 "id": "i-knife-system-mini-1",
-                "prompt": "Module check — Connect construction choices to use: which answer is correct?",
+                "prompt": "Module check — Connect construction choices to use: choose the best answer.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "It proves forged construction"
+                  },
+                  {
+                    "id": "b",
+                    "text": "It fixes poor geometry"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Joint and overall execution"
+                  },
+                  {
+                    "id": "d",
+                    "text": "It is automatically inferior"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Judge the design as a system, not one construction keyword.",
+                "concept_id": "knife-system.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-knife-system-mini-2",
+                "prompt": "Application — Connect construction choices to use: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "It proves forged construction"
+                  },
+                  {
+                    "id": "b",
+                    "text": "It fixes poor geometry"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Joint and overall execution"
+                  },
+                  {
+                    "id": "d",
+                    "text": "It is automatically inferior"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Judge the design as a system, not one construction keyword.",
+                "concept_id": "knife-system.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-knife-system-mini-3",
+                "prompt": "Final check — Connect construction choices to use: which answer is most defensible?",
                 "options": [
                   {
                     "id": "a",
@@ -3575,26 +3627,78 @@
             "questions": [
               {
                 "id": "i-steel-performance-mini-1",
-                "prompt": "Module check — Apply steel trade-offs to users: which answer is correct?",
+                "prompt": "Module check — Apply steel trade-offs to users: choose the best answer.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Most visible pattern"
-                  },
-                  {
-                    "id": "b",
                     "text": "Heaviest handle material"
                   },
                   {
-                    "id": "c",
+                    "id": "b",
                     "text": "Balanced corrosion resistance and retention"
                   },
                   {
-                    "id": "d",
+                    "id": "c",
                     "text": "Highest HRC regardless of use"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Most visible pattern"
                   }
                 ],
-                "correct": "c",
+                "correct": "b",
+                "explanation": "Match the property balance to the work pattern.",
+                "concept_id": "steel-performance.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-steel-performance-mini-2",
+                "prompt": "Application — Apply steel trade-offs to users: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Highest HRC regardless of use"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Most visible pattern"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Heaviest handle material"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Balanced corrosion resistance and retention"
+                  }
+                ],
+                "correct": "d",
+                "explanation": "Match the property balance to the work pattern.",
+                "concept_id": "steel-performance.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-steel-performance-mini-3",
+                "prompt": "Final check — Apply steel trade-offs to users: which answer is most defensible?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Balanced corrosion resistance and retention"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Highest HRC regardless of use"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Most visible pattern"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Heaviest handle material"
+                  }
+                ],
+                "correct": "a",
                 "explanation": "Match the property balance to the work pattern.",
                 "concept_id": "steel-performance.integrated.intermediate",
                 "critical": false
@@ -3712,26 +3816,78 @@
             "questions": [
               {
                 "id": "i-metallurgy-mini-1",
-                "prompt": "Module check — Connect chemistry, structure and process: which answer is correct?",
+                "prompt": "Module check — Connect chemistry, structure and process: choose the best answer.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "The logo altered carbides"
-                  },
-                  {
-                    "id": "b",
                     "text": "The box changed hardness"
                   },
                   {
-                    "id": "c",
+                    "id": "b",
                     "text": "Heat treatment or geometry"
                   },
                   {
-                    "id": "d",
+                    "id": "c",
                     "text": "The steel name changed"
+                  },
+                  {
+                    "id": "d",
+                    "text": "The logo altered carbides"
                   }
                 ],
-                "correct": "c",
+                "correct": "b",
+                "explanation": "Read composition, route and heat treatment together.",
+                "concept_id": "metallurgy.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-metallurgy-mini-2",
+                "prompt": "Application — Connect chemistry, structure and process: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The steel name changed"
+                  },
+                  {
+                    "id": "b",
+                    "text": "The logo altered carbides"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The box changed hardness"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Heat treatment or geometry"
+                  }
+                ],
+                "correct": "d",
+                "explanation": "Read composition, route and heat treatment together.",
+                "concept_id": "metallurgy.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-metallurgy-mini-3",
+                "prompt": "Final check — Connect chemistry, structure and process: which answer is most defensible?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Heat treatment or geometry"
+                  },
+                  {
+                    "id": "b",
+                    "text": "The steel name changed"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The logo altered carbides"
+                  },
+                  {
+                    "id": "d",
+                    "text": "The box changed hardness"
+                  }
+                ],
+                "correct": "a",
                 "explanation": "Read composition, route and heat treatment together.",
                 "concept_id": "metallurgy.integrated.intermediate",
                 "critical": false
@@ -3847,7 +4003,59 @@
             "questions": [
               {
                 "id": "i-damascus-mini-1",
-                "prompt": "Module check — Explain Damascus without slogans: which answer is correct?",
+                "prompt": "Module check — Explain Damascus without slogans: choose the best answer.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Layer count proves superiority"
+                  },
+                  {
+                    "id": "b",
+                    "text": "That the blade is layered"
+                  },
+                  {
+                    "id": "c",
+                    "text": "That pattern affects appearance"
+                  },
+                  {
+                    "id": "d",
+                    "text": "That core steel still matters"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Explain what the layers do, not just how many there are.",
+                "concept_id": "damascus.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-damascus-mini-2",
+                "prompt": "Application — Explain Damascus without slogans: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Layer count proves superiority"
+                  },
+                  {
+                    "id": "b",
+                    "text": "That the blade is layered"
+                  },
+                  {
+                    "id": "c",
+                    "text": "That pattern affects appearance"
+                  },
+                  {
+                    "id": "d",
+                    "text": "That core steel still matters"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Explain what the layers do, not just how many there are.",
+                "concept_id": "damascus.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-damascus-mini-3",
+                "prompt": "Final check — Explain Damascus without slogans: which answer is most defensible?",
                 "options": [
                   {
                     "id": "a",
@@ -3981,26 +4189,78 @@
             "questions": [
               {
                 "id": "i-geometry-mini-1",
-                "prompt": "Module check — Predict cutting behavior from geometry: which answer is correct?",
+                "prompt": "Module check — Predict cutting behavior from geometry: choose the best answer.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Behind-edge thickness"
-                  },
-                  {
-                    "id": "b",
                     "text": "Handle logo"
                   },
                   {
-                    "id": "c",
+                    "id": "b",
                     "text": "Packaging insert"
                   },
                   {
-                    "id": "d",
+                    "id": "c",
                     "text": "Blade engraving color"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Behind-edge thickness"
                   }
                 ],
-                "correct": "a",
+                "correct": "d",
+                "explanation": "Predict behavior from the whole section, not one number.",
+                "concept_id": "geometry.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-geometry-mini-2",
+                "prompt": "Application — Predict cutting behavior from geometry: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Blade engraving color"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Behind-edge thickness"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Handle logo"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Packaging insert"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Predict behavior from the whole section, not one number.",
+                "concept_id": "geometry.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-geometry-mini-3",
+                "prompt": "Final check — Predict cutting behavior from geometry: which answer is most defensible?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Packaging insert"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Blade engraving color"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Behind-edge thickness"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Handle logo"
+                  }
+                ],
+                "correct": "c",
                 "explanation": "Predict behavior from the whole section, not one number.",
                 "concept_id": "geometry.integrated.intermediate",
                 "critical": false
@@ -4116,7 +4376,59 @@
             "questions": [
               {
                 "id": "i-knife-types-mini-1",
-                "prompt": "Module check — Compare fit after solving function: which answer is correct?",
+                "prompt": "Module check — Compare fit after solving function: choose the best answer.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Ergonomic handling fit"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Pattern count only"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Highest HRC only"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Largest box only"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Function → ergonomics → selection.",
+                "concept_id": "knife-types.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-knife-types-mini-2",
+                "prompt": "Application — Compare fit after solving function: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Ergonomic handling fit"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Pattern count only"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Highest HRC only"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Largest box only"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Function → ergonomics → selection.",
+                "concept_id": "knife-types.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-knife-types-mini-3",
+                "prompt": "Final check — Compare fit after solving function: which answer is most defensible?",
                 "options": [
                   {
                     "id": "a",
@@ -4251,7 +4563,59 @@
             "questions": [
               {
                 "id": "i-technique-safety-mini-1",
-                "prompt": "Module check — Adapt technique to geometry and resistance: which answer is correct?",
+                "prompt": "Module check — Adapt technique to geometry and resistance: choose the best answer.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Useful edge length"
+                  },
+                  {
+                    "id": "b",
+                    "text": "The handle material"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The steel composition"
+                  },
+                  {
+                    "id": "d",
+                    "text": "The surface finish"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Technique should solve resistance, not fight it.",
+                "concept_id": "technique-safety.integrated.intermediate",
+                "critical": true
+              },
+              {
+                "id": "i-technique-safety-mini-2",
+                "prompt": "Application — Adapt technique to geometry and resistance: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Useful edge length"
+                  },
+                  {
+                    "id": "b",
+                    "text": "The handle material"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The steel composition"
+                  },
+                  {
+                    "id": "d",
+                    "text": "The surface finish"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Technique should solve resistance, not fight it.",
+                "concept_id": "technique-safety.integrated.intermediate",
+                "critical": true
+              },
+              {
+                "id": "i-technique-safety-mini-3",
+                "prompt": "Final check — Adapt technique to geometry and resistance: which answer is most defensible?",
                 "options": [
                   {
                     "id": "a",
@@ -4386,7 +4750,59 @@
             "questions": [
               {
                 "id": "i-care-mini-1",
-                "prompt": "Module check — Match maintenance to materials and use: which answer is correct?",
+                "prompt": "Module check — Match maintenance to materials and use: choose the best answer.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Dishwasher use becomes safer"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Edge angle no longer matters"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Faster rinse-and-dry care"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Glass becomes the best board"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Maintenance is material- and environment-specific.",
+                "concept_id": "care.integrated.intermediate",
+                "critical": true
+              },
+              {
+                "id": "i-care-mini-2",
+                "prompt": "Application — Match maintenance to materials and use: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Dishwasher use becomes safer"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Edge angle no longer matters"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Faster rinse-and-dry care"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Glass becomes the best board"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Maintenance is material- and environment-specific.",
+                "concept_id": "care.integrated.intermediate",
+                "critical": true
+              },
+              {
+                "id": "i-care-mini-3",
+                "prompt": "Final check — Match maintenance to materials and use: which answer is most defensible?",
                 "options": [
                   {
                     "id": "a",
@@ -4522,7 +4938,59 @@
             "questions": [
               {
                 "id": "i-sharpening-mini-1",
-                "prompt": "Module check — Use sharpening feedback instead of fixed recipes: which answer is correct?",
+                "prompt": "Module check — Use sharpening feedback instead of fixed recipes: choose the best answer.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The handle is too light"
+                  },
+                  {
+                    "id": "b",
+                    "text": "The blade needs oil"
+                  },
+                  {
+                    "id": "c",
+                    "text": "An overly steep angle"
+                  },
+                  {
+                    "id": "d",
+                    "text": "The stone is too flat"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Let evidence decide the next sharpening step.",
+                "concept_id": "sharpening.integrated.intermediate",
+                "critical": true
+              },
+              {
+                "id": "i-sharpening-mini-2",
+                "prompt": "Application — Use sharpening feedback instead of fixed recipes: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The handle is too light"
+                  },
+                  {
+                    "id": "b",
+                    "text": "The blade needs oil"
+                  },
+                  {
+                    "id": "c",
+                    "text": "An overly steep angle"
+                  },
+                  {
+                    "id": "d",
+                    "text": "The stone is too flat"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Let evidence decide the next sharpening step.",
+                "concept_id": "sharpening.integrated.intermediate",
+                "critical": true
+              },
+              {
+                "id": "i-sharpening-mini-3",
+                "prompt": "Final check — Use sharpening feedback instead of fixed recipes: which answer is most defensible?",
                 "options": [
                   {
                     "id": "a",
@@ -4664,26 +5132,78 @@
             "questions": [
               {
                 "id": "a-knife-system-mini-1",
-                "prompt": "Module check — Diagnose construction trade-offs: which answer is correct?",
+                "prompt": "Module check — Diagnose construction trade-offs: choose the best answer.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Material, sealing and moisture history"
-                  },
-                  {
-                    "id": "b",
-                    "text": "Blade pattern complexity"
-                  },
-                  {
-                    "id": "c",
                     "text": "Nominal HRC value"
                   },
                   {
-                    "id": "d",
+                    "id": "b",
                     "text": "Number of rivets alone"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Material, sealing and moisture history"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Blade pattern complexity"
                   }
                 ],
-                "correct": "a",
+                "correct": "c",
+                "explanation": "Use evidence from construction, load path and environment together.",
+                "concept_id": "knife-system.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-knife-system-mini-2",
+                "prompt": "Application — Diagnose construction trade-offs: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Nominal HRC value"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Number of rivets alone"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Material, sealing and moisture history"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Blade pattern complexity"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Use evidence from construction, load path and environment together.",
+                "concept_id": "knife-system.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-knife-system-mini-3",
+                "prompt": "Final check — Diagnose construction trade-offs: which answer is most defensible?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Number of rivets alone"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Material, sealing and moisture history"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Blade pattern complexity"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Nominal HRC value"
+                  }
+                ],
+                "correct": "b",
                 "explanation": "Use evidence from construction, load path and environment together.",
                 "concept_id": "knife-system.integrated.advanced",
                 "critical": false
@@ -4798,7 +5318,7 @@
             "questions": [
               {
                 "id": "a-steel-performance-mini-1",
-                "prompt": "Module check — Diagnose steel behavior from symptoms: which answer is correct?",
+                "prompt": "Module check — Diagnose steel behavior from symptoms: choose the best answer.",
                 "options": [
                   {
                     "id": "a",
@@ -4818,6 +5338,58 @@
                   }
                 ],
                 "correct": "b",
+                "explanation": "Diagnose the failure mode before changing steel.",
+                "concept_id": "steel-performance.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-steel-performance-mini-2",
+                "prompt": "Application — Diagnose steel behavior from symptoms: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Logo placement"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Handle color"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Packaging weight"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Use and edge geometry"
+                  }
+                ],
+                "correct": "d",
+                "explanation": "Diagnose the failure mode before changing steel.",
+                "concept_id": "steel-performance.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-steel-performance-mini-3",
+                "prompt": "Final check — Diagnose steel behavior from symptoms: which answer is most defensible?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Use and edge geometry"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Logo placement"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Handle color"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Packaging weight"
+                  }
+                ],
+                "correct": "a",
                 "explanation": "Diagnose the failure mode before changing steel.",
                 "concept_id": "steel-performance.integrated.advanced",
                 "critical": false
@@ -4935,7 +5507,33 @@
             "questions": [
               {
                 "id": "a-metallurgy-mini-1",
-                "prompt": "Module check — Reason from microstructure to edge behavior: which answer is correct?",
+                "prompt": "Module check — Reason from microstructure to edge behavior: choose the best answer.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Spine polish alone"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Carbide size and edge geometry"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Handle color and logo"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Packaging and price"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Use microstructural evidence before prestige claims.",
+                "concept_id": "metallurgy.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-metallurgy-mini-2",
+                "prompt": "Application — Reason from microstructure to edge behavior: which conclusion is correct?",
                 "options": [
                   {
                     "id": "a",
@@ -4955,6 +5553,32 @@
                   }
                 ],
                 "correct": "d",
+                "explanation": "Use microstructural evidence before prestige claims.",
+                "concept_id": "metallurgy.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-metallurgy-mini-3",
+                "prompt": "Final check — Reason from microstructure to edge behavior: which answer is most defensible?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Carbide size and edge geometry"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Handle color and logo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Packaging and price"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Spine polish alone"
+                  }
+                ],
+                "correct": "a",
                 "explanation": "Use microstructural evidence before prestige claims.",
                 "concept_id": "metallurgy.integrated.advanced",
                 "critical": false
@@ -5070,26 +5694,78 @@
             "questions": [
               {
                 "id": "a-damascus-mini-1",
-                "prompt": "Module check — Evaluate functional Damascus evidence: which answer is correct?",
+                "prompt": "Module check — Evaluate functional Damascus evidence: choose the best answer.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "High retail price"
-                  },
-                  {
-                    "id": "b",
-                    "text": "A larger gift box"
-                  },
-                  {
-                    "id": "c",
                     "text": "Measured layer-and-edge evidence"
                   },
                   {
-                    "id": "d",
+                    "id": "b",
                     "text": "Pattern beauty alone"
+                  },
+                  {
+                    "id": "c",
+                    "text": "High retail price"
+                  },
+                  {
+                    "id": "d",
+                    "text": "A larger gift box"
                   }
                 ],
-                "correct": "c",
+                "correct": "a",
+                "explanation": "Separate mechanism, observation and inference.",
+                "concept_id": "damascus.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-damascus-mini-2",
+                "prompt": "Application — Evaluate functional Damascus evidence: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Measured layer-and-edge evidence"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Pattern beauty alone"
+                  },
+                  {
+                    "id": "c",
+                    "text": "High retail price"
+                  },
+                  {
+                    "id": "d",
+                    "text": "A larger gift box"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Separate mechanism, observation and inference.",
+                "concept_id": "damascus.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-damascus-mini-3",
+                "prompt": "Final check — Evaluate functional Damascus evidence: which answer is most defensible?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Pattern beauty alone"
+                  },
+                  {
+                    "id": "b",
+                    "text": "High retail price"
+                  },
+                  {
+                    "id": "c",
+                    "text": "A larger gift box"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Measured layer-and-edge evidence"
+                  }
+                ],
+                "correct": "d",
                 "explanation": "Separate mechanism, observation and inference.",
                 "concept_id": "damascus.integrated.advanced",
                 "critical": false
@@ -5204,7 +5880,33 @@
             "questions": [
               {
                 "id": "a-geometry-mini-1",
-                "prompt": "Module check — Diagnose geometry-driven problems: which answer is correct?",
+                "prompt": "Module check — Diagnose geometry-driven problems: choose the best answer.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Handle finish only"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Blade logo size"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Retail packaging"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Bevel asymmetry"
+                  }
+                ],
+                "correct": "d",
+                "explanation": "Diagnose geometry before prescribing sharpening changes.",
+                "concept_id": "geometry.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-geometry-mini-2",
+                "prompt": "Application — Diagnose geometry-driven problems: which conclusion is correct?",
                 "options": [
                   {
                     "id": "a",
@@ -5224,6 +5926,32 @@
                   }
                 ],
                 "correct": "b",
+                "explanation": "Diagnose geometry before prescribing sharpening changes.",
+                "concept_id": "geometry.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-geometry-mini-3",
+                "prompt": "Final check — Diagnose geometry-driven problems: which answer is most defensible?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Blade logo size"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Retail packaging"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Bevel asymmetry"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Handle finish only"
+                  }
+                ],
+                "correct": "c",
                 "explanation": "Diagnose geometry before prescribing sharpening changes.",
                 "concept_id": "geometry.integrated.advanced",
                 "critical": false
@@ -5339,7 +6067,7 @@
             "questions": [
               {
                 "id": "a-knife-types-mini-1",
-                "prompt": "Module check — Resolve complex fit conflicts: which answer is correct?",
+                "prompt": "Module check — Resolve complex fit conflicts: choose the best answer.",
                 "options": [
                   {
                     "id": "a",
@@ -5359,6 +6087,58 @@
                   }
                 ],
                 "correct": "a",
+                "explanation": "Explain the fit decision in terms of the user's actual work.",
+                "concept_id": "knife-types.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-knife-types-mini-2",
+                "prompt": "Application — Resolve complex fit conflicts: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Overall ergonomic fit"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Pattern visibility only"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Gift-box quality"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Logo position only"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Explain the fit decision in terms of the user's actual work.",
+                "concept_id": "knife-types.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-knife-types-mini-3",
+                "prompt": "Final check — Resolve complex fit conflicts: which answer is most defensible?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Pattern visibility only"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Gift-box quality"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Logo position only"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Overall ergonomic fit"
+                  }
+                ],
+                "correct": "d",
                 "explanation": "Explain the fit decision in terms of the user's actual work.",
                 "concept_id": "knife-types.integrated.advanced",
                 "critical": false
@@ -5474,26 +6254,78 @@
             "questions": [
               {
                 "id": "a-technique-safety-mini-1",
-                "prompt": "Module check — Diagnose technique-induced edge damage: which answer is correct?",
+                "prompt": "Module check — Diagnose technique-induced edge damage: choose the best answer.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Change handle color"
-                  },
-                  {
-                    "id": "b",
-                    "text": "Polish the blade face"
-                  },
-                  {
-                    "id": "c",
                     "text": "Remove the lateral twisting load"
                   },
                   {
-                    "id": "d",
+                    "id": "b",
                     "text": "Increase sharpening angle blindly"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Change handle color"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Polish the blade face"
                   }
                 ],
-                "correct": "c",
+                "correct": "a",
+                "explanation": "Trace damage back to the load that created it.",
+                "concept_id": "technique-safety.integrated.advanced",
+                "critical": true
+              },
+              {
+                "id": "a-technique-safety-mini-2",
+                "prompt": "Application — Diagnose technique-induced edge damage: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Remove the lateral twisting load"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Increase sharpening angle blindly"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Change handle color"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Polish the blade face"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Trace damage back to the load that created it.",
+                "concept_id": "technique-safety.integrated.advanced",
+                "critical": true
+              },
+              {
+                "id": "a-technique-safety-mini-3",
+                "prompt": "Final check — Diagnose technique-induced edge damage: which answer is most defensible?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Increase sharpening angle blindly"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Change handle color"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Polish the blade face"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Remove the lateral twisting load"
+                  }
+                ],
+                "correct": "d",
                 "explanation": "Trace damage back to the load that created it.",
                 "concept_id": "technique-safety.integrated.advanced",
                 "critical": true
@@ -5609,26 +6441,78 @@
             "questions": [
               {
                 "id": "a-care-mini-1",
-                "prompt": "Module check — Diagnose maintenance failures: which answer is correct?",
+                "prompt": "Module check — Diagnose maintenance failures: choose the best answer.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Surface and contact habits"
-                  },
-                  {
-                    "id": "b",
-                    "text": "The product logo"
-                  },
-                  {
-                    "id": "c",
                     "text": "The gift packaging"
                   },
                   {
-                    "id": "d",
+                    "id": "b",
                     "text": "The user's email"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Surface and contact habits"
+                  },
+                  {
+                    "id": "d",
+                    "text": "The product logo"
                   }
                 ],
-                "correct": "a",
+                "correct": "c",
+                "explanation": "Diagnose the exposure before blaming the material.",
+                "concept_id": "care.integrated.advanced",
+                "critical": true
+              },
+              {
+                "id": "a-care-mini-2",
+                "prompt": "Application — Diagnose maintenance failures: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The gift packaging"
+                  },
+                  {
+                    "id": "b",
+                    "text": "The user's email"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Surface and contact habits"
+                  },
+                  {
+                    "id": "d",
+                    "text": "The product logo"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Diagnose the exposure before blaming the material.",
+                "concept_id": "care.integrated.advanced",
+                "critical": true
+              },
+              {
+                "id": "a-care-mini-3",
+                "prompt": "Final check — Diagnose maintenance failures: which answer is most defensible?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "The user's email"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Surface and contact habits"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The product logo"
+                  },
+                  {
+                    "id": "d",
+                    "text": "The gift packaging"
+                  }
+                ],
+                "correct": "b",
                 "explanation": "Diagnose the exposure before blaming the material.",
                 "concept_id": "care.integrated.advanced",
                 "critical": true
@@ -5745,26 +6629,78 @@
             "questions": [
               {
                 "id": "a-sharpening-mini-1",
-                "prompt": "Module check — Diagnose sharpening and edge failures: which answer is correct?",
+                "prompt": "Module check — Diagnose sharpening and edge failures: choose the best answer.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Behind-edge thickness"
-                  },
-                  {
-                    "id": "b",
-                    "text": "Add a larger burr"
-                  },
-                  {
-                    "id": "c",
                     "text": "Use more handle oil"
                   },
                   {
-                    "id": "d",
+                    "id": "b",
                     "text": "Polish the logo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Behind-edge thickness"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Add a larger burr"
                   }
                 ],
-                "correct": "a",
+                "correct": "c",
+                "explanation": "Diagnose first; remove only the steel the problem requires.",
+                "concept_id": "sharpening.integrated.advanced",
+                "critical": true
+              },
+              {
+                "id": "a-sharpening-mini-2",
+                "prompt": "Application — Diagnose sharpening and edge failures: which conclusion is correct?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Use more handle oil"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Polish the logo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Behind-edge thickness"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Add a larger burr"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Diagnose first; remove only the steel the problem requires.",
+                "concept_id": "sharpening.integrated.advanced",
+                "critical": true
+              },
+              {
+                "id": "a-sharpening-mini-3",
+                "prompt": "Final check — Diagnose sharpening and edge failures: which answer is most defensible?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Polish the logo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Behind-edge thickness"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Add a larger burr"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Use more handle oil"
+                  }
+                ],
+                "correct": "b",
                 "explanation": "Diagnose first; remove only the steel the problem requires.",
                 "concept_id": "sharpening.integrated.advanced",
                 "critical": true
