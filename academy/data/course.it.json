@@ -6719,6 +6719,6 @@
     "reviewed_at": "2026-10-02",
     "guidance": "localization/locales.yml#it",
     "note": "Italian Academy v0.2 reviewed with the current ChatGPT translation workflow; legacy Marian/OPUS-MT output is not accepted.",
-    "reviewed_translatable_strings": 1439
+    "reviewed_translatable_strings": 1655
   }
 }
