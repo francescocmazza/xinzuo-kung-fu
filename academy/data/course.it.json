@@ -233,72 +233,72 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Paese di origine"
+                    "text": "La massima densità disponibile"
                   },
                   {
                     "id": "b",
-                    "text": "Contesto d'uso e cura"
+                    "text": "Impugnatura dell'utilizzatore, ambiente e routine di cura"
                   },
                   {
                     "id": "c",
-                    "text": "Solo il motivo estetico"
+                    "text": "La venatura visibile più complessa"
                   },
                   {
                     "id": "d",
-                    "text": "Solo la densità più alta"
+                    "text": "Il peso più basso in ogni caso"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Scegli il manico come interfaccia, non come sola decorazione."
+                "explanation": "Il materiale del manico va scelto come parte dell'interfaccia con l'utilizzatore, considerando uso, umidità e manutenzione."
               },
               "recovery_questions": [
                 {
                   "id": "b-knife-system-03-r1",
-                  "prompt": "Verifica: Che cosa dovrebbe guidare la scelta del materiale del manico?",
+                  "prompt": "Perché si può scegliere un legno stabilizzato invece di un legno naturale non trattato?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Solo il motivo estetico"
+                      "text": "Offre sempre una presa più morbida"
                     },
                     {
                       "id": "b",
-                      "text": "Solo la densità più alta"
+                      "text": "Pesa sempre meno"
                     },
                     {
                       "id": "c",
-                      "text": "Paese di origine"
+                      "text": "Cambia la durezza della lama"
                     },
                     {
                       "id": "d",
-                      "text": "Contesto d'uso e cura"
+                      "text": "Può offrire maggiore stabilità dimensionale al variare dell'umidità"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Scegli il manico come interfaccia, non come sola decorazione."
+                  "explanation": "La stabilizzazione può rendere il legno più costante e meno sensibile ai movimenti dovuti all'umidità."
                 },
                 {
                   "id": "b-knife-system-03-r2",
-                  "prompt": "Controllo applicativo — Comprendi i materiali del manico: quale risposta è corretta?",
+                  "prompt": "Perché non esiste un materiale del manico universalmente migliore?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Contesto d'uso e cura"
+                      "text": "Mani, ambienti e abitudini di cura diversi creano priorità diverse"
                     },
                     {
                       "id": "b",
-                      "text": "Solo il motivo estetico"
+                      "text": "Tutti i materiali hanno esattamente le stesse proprietà"
                     },
                     {
                       "id": "c",
-                      "text": "Solo la densità più alta"
+                      "text": "Tra i materiali cambia soltanto l'aspetto"
                     },
                     {
                       "id": "d",
-                      "text": "Paese di origine"
+                      "text": "Il materiale del manico conta soltanto per i collezionisti"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Scegli il manico come interfaccia, non come sola decorazione."
+                  "explanation": "La scelta del manico è un compromesso pratico tra sensazione, stabilità, manutenzione e aspetto."
                 }
               ]
             }
@@ -362,27 +362,27 @@
               },
               {
                 "id": "b-knife-system-mini-3",
-                "prompt": "Verifica modulo — Comprendi i materiali del manico: quale risposta è corretta?",
+                "prompt": "Che cosa dovrebbe guidare la scelta del materiale del manico?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Solo il motivo estetico"
+                    "text": "La massima densità disponibile"
                   },
                   {
                     "id": "b",
-                    "text": "Solo la densità più alta"
+                    "text": "La venatura visibile più complessa"
                   },
                   {
                     "id": "c",
-                    "text": "Paese di origine"
+                    "text": "Il peso più basso in ogni caso"
                   },
                   {
                     "id": "d",
-                    "text": "Contesto d'uso e cura"
+                    "text": "Impugnatura dell'utilizzatore, ambiente e routine di cura"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Scegli il manico come interfaccia, non come sola decorazione.",
+                "explanation": "Il materiale del manico va scelto come parte dell'interfaccia con l'utilizzatore, considerando uso, umidità e manutenzione.",
                 "concept_id": "knife-system.handle-materials.base",
                 "critical": false
               }
@@ -505,11 +505,11 @@
               },
               "question": {
                 "id": "b-steel-performance-02-q",
-                "prompt": "Quale proprietà resiste più direttamente alla criccatura?",
+                "prompt": "Quale proprietà resiste più direttamente a criccatura e frattura?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Densità del motivo"
+                    "text": "Durezza"
                   },
                   {
                     "id": "b",
@@ -517,44 +517,44 @@
                   },
                   {
                     "id": "c",
-                    "text": "Durezza"
+                    "text": "Resistenza all'usura"
                   },
                   {
                     "id": "d",
-                    "text": "Lucidatura"
+                    "text": "Resistenza alla corrosione"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Duro non significa tenace."
+                "explanation": "La tenacità è la proprietà più direttamente associata alla resistenza alla frattura sotto urti o carichi laterali."
               },
               "recovery_questions": [
                 {
                   "id": "b-steel-performance-02-r1",
-                  "prompt": "Verifica: Quale proprietà resiste più direttamente alla criccatura?",
+                  "prompt": "Un filo molto duro può comunque scheggiarsi?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Durezza"
+                      "text": "No; un'elevata durezza impedisce la scheggiatura"
                     },
                     {
                       "id": "b",
-                      "text": "Lucidatura"
+                      "text": "Solo se l'acciaio non è inox"
                     },
                     {
                       "id": "c",
-                      "text": "Densità del motivo"
+                      "text": "Solo se la lama è forgiata"
                     },
                     {
                       "id": "d",
-                      "text": "Tenacità"
+                      "text": "Sì; durezza e tenacità sono proprietà diverse"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Duro non significa tenace."
+                  "explanation": "La durezza sostiene il filo, mentre la tenacità governa la resistenza alla frattura; una non sostituisce l'altra."
                 },
                 {
                   "id": "b-steel-performance-02-r2",
-                  "prompt": "Controllo applicativo — Distingui durezza e tenacità: quale risposta è corretta?",
+                  "prompt": "Un coltello subirà occasionalmente urti e carichi laterali. Quale proprietà diventa particolarmente importante?",
                   "options": [
                     {
                       "id": "a",
@@ -562,19 +562,19 @@
                     },
                     {
                       "id": "b",
-                      "text": "Durezza"
+                      "text": "Livello di lucidatura"
                     },
                     {
                       "id": "c",
-                      "text": "Lucidatura"
+                      "text": "Contrasto del motivo"
                     },
                     {
                       "id": "d",
-                      "text": "Densità del motivo"
+                      "text": "Solo tenuta del filo"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Duro non significa tenace."
+                  "explanation": "La tenacità aiuta l'acciaio a resistere a cricche e fratture quando i carichi non sono soltanto quelli del taglio rettilineo."
                 }
               ]
             },
@@ -702,7 +702,7 @@
               },
               {
                 "id": "b-steel-performance-mini-2",
-                "prompt": "Verifica modulo — Distingui durezza e tenacità: quale risposta è corretta?",
+                "prompt": "Quale proprietà resiste più direttamente a criccatura e frattura?",
                 "options": [
                   {
                     "id": "a",
@@ -710,11 +710,11 @@
                   },
                   {
                     "id": "b",
-                    "text": "Lucidatura"
+                    "text": "Resistenza all'usura"
                   },
                   {
                     "id": "c",
-                    "text": "Densità del motivo"
+                    "text": "Resistenza alla corrosione"
                   },
                   {
                     "id": "d",
@@ -722,7 +722,7 @@
                   }
                 ],
                 "correct": "d",
-                "explanation": "Duro non significa tenace.",
+                "explanation": "La tenacità è la proprietà più direttamente associata alla resistenza alla frattura sotto urti o carichi laterali.",
                 "concept_id": "steel-performance.hardness-toughness.base",
                 "critical": false
               },
@@ -874,19 +874,19 @@
               },
               "question": {
                 "id": "b-metallurgy-02-q",
-                "prompt": "Che cosa sviluppa più direttamente la microstruttura finale di un acciaio da lama?",
+                "prompt": "Quale processo sviluppa più direttamente la microstruttura finale di un acciaio da lama?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Logo sulla lama"
+                    "text": "Molatura finale"
                   },
                   {
                     "id": "b",
-                    "text": "Forma del manico"
+                    "text": "Lucidatura superficiale"
                   },
                   {
                     "id": "c",
-                    "text": "Metodo di confezionamento"
+                    "text": "Assemblaggio del manico"
                   },
                   {
                     "id": "d",
@@ -894,56 +894,56 @@
                   }
                 ],
                 "correct": "d",
-                "explanation": "La stessa lega può comportarsi diversamente con trattamenti termici differenti."
+                "explanation": "Il trattamento termico trasforma l'acciaio nella microstruttura prevista per la lama finita."
               },
               "recovery_questions": [
                 {
                   "id": "b-metallurgy-02-r1",
-                  "prompt": "Verifica: Che cosa sviluppa più direttamente la microstruttura finale di un acciaio da lama?",
+                  "prompt": "Perché un valore HRC elevato non descrive completamente le prestazioni di un acciaio?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Metodo di confezionamento"
+                      "text": "L'HRC misura soltanto la resistenza alla corrosione"
                     },
                     {
                       "id": "b",
-                      "text": "Trattamento termico"
+                      "text": "Contano ancora microstruttura, tenacità e geometria"
                     },
                     {
                       "id": "c",
-                      "text": "Logo sulla lama"
+                      "text": "L'HRC descrive la rigidità del manico"
                     },
                     {
                       "id": "d",
-                      "text": "Forma del manico"
+                      "text": "L'HRC indica il numero degli strati"
                     }
                   ],
                   "correct": "b",
-                  "explanation": "La stessa lega può comportarsi diversamente con trattamenti termici differenti."
+                  "explanation": "La durezza è utile, ma non descrive l'intera microstruttura né la geometria che sostiene il filo."
                 },
                 {
                   "id": "b-metallurgy-02-r2",
-                  "prompt": "Controllo applicativo — Comprendi trattamento termico e carburi: quale risposta è corretta?",
+                  "prompt": "Che cos'è un carburo in un acciaio da coltello?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Forma del manico"
+                      "text": "Un altro nome della matrice martensitica"
                     },
                     {
                       "id": "b",
-                      "text": "Metodo di confezionamento"
+                      "text": "Un tipo di rinforzo del manico"
                     },
                     {
                       "id": "c",
-                      "text": "Trattamento termico"
+                      "text": "Un composto duro distinto formato dal carbonio con ferro o elementi di lega"
                     },
                     {
                       "id": "d",
-                      "text": "Logo sulla lama"
+                      "text": "Un segno di lucidatura superficiale"
                     }
                   ],
                   "correct": "c",
-                  "explanation": "La stessa lega può comportarsi diversamente con trattamenti termici differenti."
+                  "explanation": "I carburi sono composti distinti nell'acciaio; non sono la stessa cosa della martensite o di una finitura superficiale."
                 }
               ]
             },
@@ -1071,19 +1071,19 @@
               },
               {
                 "id": "b-metallurgy-mini-2",
-                "prompt": "Verifica modulo — Comprendi trattamento termico e carburi: quale risposta è corretta?",
+                "prompt": "Quale processo sviluppa più direttamente la microstruttura finale di un acciaio da lama?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Logo sulla lama"
+                    "text": "Molatura finale"
                   },
                   {
                     "id": "b",
-                    "text": "Forma del manico"
+                    "text": "Lucidatura superficiale"
                   },
                   {
                     "id": "c",
-                    "text": "Metodo di confezionamento"
+                    "text": "Assemblaggio del manico"
                   },
                   {
                     "id": "d",
@@ -1091,7 +1091,7 @@
                   }
                 ],
                 "correct": "d",
-                "explanation": "La stessa lega può comportarsi diversamente con trattamenti termici differenti.",
+                "explanation": "Il trattamento termico trasforma l'acciaio nella microstruttura prevista per la lama finita.",
                 "concept_id": "metallurgy.heat-treatment-carbides.base",
                 "critical": false
               },
@@ -1151,76 +1151,76 @@
               },
               "question": {
                 "id": "b-damascus-01-q",
-                "prompt": "Che cosa contiene al nucleo tagliente un Damasco con rivestimento?",
+                "prompt": "Che cosa contiene al nucleo tagliente un coltello in Damasco con nucleo e rivestimento?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Un inserto plastico"
+                    "text": "Gli stessi strati alternati lungo tutta la sezione"
                   },
                   {
                     "id": "b",
-                    "text": "Nucleo distinto"
+                    "text": "Un acciaio del nucleo distinto"
                   },
                   {
                     "id": "c",
-                    "text": "Solo vernice superficiale"
+                    "text": "Una lama monolitica con decorazione incisa"
                   },
                   {
                     "id": "d",
-                    "text": "Nessuno strato metallico"
+                    "text": "Un inserto non metallico tra gli strati"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Identifica la costruzione prima di parlare del motivo."
+                "explanation": "La costruzione con nucleo e rivestimento inserisce un acciaio dedicato al taglio all'interno del materiale esterno stratificato."
               },
               "recovery_questions": [
                 {
                   "id": "b-damascus-01-r1",
-                  "prompt": "Verifica: Che cosa contiene al nucleo tagliente un Damasco con rivestimento?",
+                  "prompt": "Che cosa distingue una costruzione in Damasco integrale da una con nucleo e rivestimento?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Solo vernice superficiale"
+                      "text": "È sempre realizzata con un solo acciaio omogeneo"
                     },
                     {
                       "id": "b",
-                      "text": "Nessuno strato metallico"
+                      "text": "Usa un motivo verniciato invece di strati metallici"
                     },
                     {
                       "id": "c",
-                      "text": "Un inserto plastico"
+                      "text": "Non può richiedere affilatura"
                     },
                     {
                       "id": "d",
-                      "text": "Nucleo distinto"
+                      "text": "La costruzione stratificata continua nella lama invece di circondare un nucleo tagliente distinto"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Identifica la costruzione prima di parlare del motivo."
+                  "explanation": "Il Damasco integrale non si basa su un nucleo tagliente monolitico distinto come la costruzione con nucleo e rivestimento."
                 },
                 {
                   "id": "b-damascus-01-r2",
-                  "prompt": "Controllo applicativo — Distingui le costruzioni in Damasco: quale risposta è corretta?",
+                  "prompt": "Un motivo visibile in stile Damasco basta da solo a identificare la costruzione sottostante?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Nucleo distinto"
+                      "text": "No; il solo aspetto non basta a provare la struttura interna"
                     },
                     {
                       "id": "b",
-                      "text": "Solo vernice superficiale"
+                      "text": "Sì; ogni motivo visibile prova la presenza di strati forgiati"
                     },
                     {
                       "id": "c",
-                      "text": "Nessuno strato metallico"
+                      "text": "Sì; il motivo fornisce il numero esatto degli strati"
                     },
                     {
                       "id": "d",
-                      "text": "Un inserto plastico"
+                      "text": "Solo se la lama è inox"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Identifica la costruzione prima di parlare del motivo."
+                  "explanation": "Aspetto del motivo e costruzione metallurgica devono essere distinti."
                 }
               ]
             },
@@ -1412,27 +1412,27 @@
             "questions": [
               {
                 "id": "b-damascus-mini-1",
-                "prompt": "Verifica modulo — Distingui le costruzioni in Damasco: quale risposta è corretta?",
+                "prompt": "Che cosa contiene al nucleo tagliente un coltello in Damasco con nucleo e rivestimento?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Solo vernice superficiale"
+                    "text": "Gli stessi strati alternati lungo tutta la sezione"
                   },
                   {
                     "id": "b",
-                    "text": "Nessuno strato metallico"
+                    "text": "Una lama monolitica con decorazione incisa"
                   },
                   {
                     "id": "c",
-                    "text": "Un inserto plastico"
+                    "text": "Un inserto non metallico tra gli strati"
                   },
                   {
                     "id": "d",
-                    "text": "Nucleo distinto"
+                    "text": "Un acciaio del nucleo distinto"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Identifica la costruzione prima di parlare del motivo.",
+                "explanation": "La costruzione con nucleo e rivestimento inserisce un acciaio dedicato al taglio all'interno del materiale esterno stratificato.",
                 "concept_id": "damascus.damascus-types.base",
                 "critical": false
               },
@@ -1697,7 +1697,7 @@
               },
               "question": {
                 "id": "b-geometry-03-q",
-                "prompt": "Che cosa contribuisce più direttamente all'effetto cuneo negli alimenti spessi?",
+                "prompt": "Che cosa contribuisce più direttamente all'effetto cuneo negli alimenti spessi anche quando l'apice è affilato?",
                 "options": [
                   {
                     "id": "a",
@@ -1705,68 +1705,68 @@
                   },
                   {
                     "id": "b",
-                    "text": "Profondità del logo"
+                    "text": "Lunghezza della lama"
                   },
                   {
                     "id": "c",
-                    "text": "Colore del manico"
+                    "text": "Lucidatura finale"
                   },
                   {
                     "id": "d",
-                    "text": "Materiale della scatola"
+                    "text": "Bilanciamento del manico"
                   }
                 ],
                 "correct": "a",
-                "explanation": "L'angolo del filo è solo una parte della geometria di taglio."
+                "explanation": "Una sezione spessa dietro l'apice può divaricare l'alimento e creare effetto cuneo."
               },
               "recovery_questions": [
                 {
                   "id": "b-geometry-03-r1",
-                  "prompt": "Verifica: Che cosa contribuisce più direttamente all'effetto cuneo negli alimenti spessi?",
+                  "prompt": "Che cosa descrive la rastremazione della lama?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Spessore dietro il filo"
+                      "text": "Come cambia lo spessore lungo una parte della lama"
                     },
                     {
                       "id": "b",
-                      "text": "Profondità del logo"
+                      "text": "Quanto è lucida la superficie della lama"
                     },
                     {
                       "id": "c",
-                      "text": "Colore del manico"
+                      "text": "Quanto è duro il materiale del manico"
                     },
                     {
                       "id": "d",
-                      "text": "Materiale della scatola"
+                      "text": "Quante volte è stato affilato il filo"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "L'angolo del filo è solo una parte della geometria di taglio."
+                  "explanation": "La rastremazione è una variazione geometrica dello spessore, non una finitura superficiale o una misura di durezza."
                 },
                 {
                   "id": "b-geometry-03-r2",
-                  "prompt": "Controllo applicativo — Leggi spessore e rastrematura: quale risposta è corretta?",
+                  "prompt": "Un coltello entra facilmente nell'alimento ma poi sembra spesso e lo divarica. Quale zona va controllata?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Profondità del logo"
+                      "text": "Solo la forma della punta"
                     },
                     {
                       "id": "b",
-                      "text": "Colore del manico"
+                      "text": "Solo il profilo del manico"
                     },
                     {
                       "id": "c",
-                      "text": "Materiale della scatola"
+                      "text": "Solo la finitura del dorso"
                     },
                     {
                       "id": "d",
-                      "text": "Spessore dietro il filo"
+                      "text": "La sezione subito dietro il filo"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "L'angolo del filo è solo una parte della geometria di taglio."
+                  "explanation": "Il morso iniziale dipende dall'apice, mentre la resistenza più profonda riflette spesso la sezione della lama dietro di esso."
                 }
               ]
             }
@@ -1830,15 +1830,15 @@
               },
               {
                 "id": "b-geometry-mini-3",
-                "prompt": "Verifica modulo — Leggi spessore e rastrematura: quale risposta è corretta?",
+                "prompt": "Che cosa contribuisce più direttamente all'effetto cuneo negli alimenti spessi anche quando l'apice è affilato?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Colore del manico"
+                    "text": "Lunghezza della lama"
                   },
                   {
                     "id": "b",
-                    "text": "Materiale della scatola"
+                    "text": "Lucidatura finale"
                   },
                   {
                     "id": "c",
@@ -1846,11 +1846,11 @@
                   },
                   {
                     "id": "d",
-                    "text": "Profondità del logo"
+                    "text": "Bilanciamento del manico"
                   }
                 ],
                 "correct": "c",
-                "explanation": "L'angolo del filo è solo una parte della geometria di taglio.",
+                "explanation": "Una sezione spessa dietro l'apice può divaricare l'alimento e creare effetto cuneo.",
                 "concept_id": "geometry.section-geometry.base",
                 "critical": false
               }
@@ -1884,76 +1884,76 @@
               },
               "question": {
                 "id": "b-knife-types-01-q",
-                "prompt": "Che cosa viene prima nella scelta di un coltello multiuso?",
+                "prompt": "Che cosa viene prima nella scelta di un coltello da cucina multiuso?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Il motivo più grande"
+                    "text": "La sola lunghezza della lama"
                   },
                   {
                     "id": "b",
-                    "text": "Il prezzo più alto"
+                    "text": "Il solo prestigio dell'acciaio"
                   },
                   {
                     "id": "c",
-                    "text": "Il manico più scuro"
+                    "text": "Il solo stile estetico"
                   },
                   {
                     "id": "d",
-                    "text": "Lavoro di taglio reale"
+                    "text": "I lavori di taglio che l'utilizzatore svolge davvero"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Parti da compito e movimento, non dalla silhouette."
+                "explanation": "Un coltello multiuso deve prima di tutto corrispondere al lavoro reale e al movimento preferito dell'utilizzatore."
               },
               "recovery_questions": [
                 {
                   "id": "b-knife-types-01-r1",
-                  "prompt": "Verifica: Che cosa viene prima nella scelta di un coltello multiuso?",
+                  "prompt": "Perché «multiuso» non significa «migliore per ogni lavoro»?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Il manico più scuro"
+                      "text": "I coltelli multiuso non possono essere affilati finemente"
                     },
                     {
                       "id": "b",
-                      "text": "Lavoro di taglio reale"
+                      "text": "Le forme specialistiche possono risolvere meglio lavori di taglio specifici"
                     },
                     {
                       "id": "c",
-                      "text": "Il motivo più grande"
+                      "text": "I coltelli multiuso sono sempre più corti"
                     },
                     {
                       "id": "d",
-                      "text": "Il prezzo più alto"
+                      "text": "I coltelli specialistici usano per definizione metalli diversi"
                     }
                   ],
                   "correct": "b",
-                  "explanation": "Parti da compito e movimento, non dalla silhouette."
+                  "explanation": "I progetti multiuso coprono molti lavori, mentre una geometria specialistica può essere migliore per un compito ristretto."
                 },
                 {
                   "id": "b-knife-types-01-r2",
-                  "prompt": "Controllo applicativo — Riconosci le famiglie multiuso: quale risposta è corretta?",
+                  "prompt": "Un utilizzatore taglia soprattutto le verdure in spinta sul tagliere. Che cosa dovrebbe influenzare la scelta del coltello?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Il prezzo più alto"
+                      "text": "Confezione regalo"
                     },
                     {
                       "id": "b",
-                      "text": "Il manico più scuro"
+                      "text": "Numero massimo di strati"
                     },
                     {
                       "id": "c",
-                      "text": "Lavoro di taglio reale"
+                      "text": "Profilo della lama, lunghezza utile e comodità in quel movimento"
                     },
                     {
                       "id": "d",
-                      "text": "Il motivo più grande"
+                      "text": "Solo il paese di produzione"
                     }
                   ],
                   "correct": "c",
-                  "explanation": "Parti da compito e movimento, non dalla silhouette."
+                  "explanation": "La scelta del coltello deve collegare forma e maneggevolezza al movimento che l'utilizzatore ripete più spesso."
                 }
               ]
             },
@@ -2064,76 +2064,76 @@
               },
               "question": {
                 "id": "b-knife-types-03-q",
-                "prompt": "Perché lo stesso coltello può sembrare bilanciato diversamente a due utenti?",
+                "prompt": "Perché lo stesso coltello può sembrare bilanciato diversamente a due utilizzatori?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La scatola cambia la leva"
+                    "text": "La lama cambia massa nella mano"
                   },
                   {
                     "id": "b",
-                    "text": "Posizioni di presa diverse"
+                    "text": "Possono impugnarlo in posizioni diverse"
                   },
                   {
                     "id": "c",
-                    "text": "L'acciaio cambia peso"
+                    "text": "Il centro di massa si sposta fisicamente"
                   },
                   {
                     "id": "d",
-                    "text": "Il logo sposta la massa"
+                    "text": "L'acciaio cambia densità durante l'uso"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Lascia confrontare coltelli adatti nella presa realmente usata dall'utente."
+                "explanation": "La posizione dell'impugnatura cambia la leva e quindi il bilanciamento percepito."
               },
               "recovery_questions": [
                 {
                   "id": "b-knife-types-03-r1",
-                  "prompt": "Verifica: Perché lo stesso coltello può sembrare bilanciato diversamente a due utenti?",
+                  "prompt": "Che cosa indica un punto di bilanciamento misurato?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "L'acciaio cambia peso"
+                      "text": "Quale acciaio ha la migliore tenuta del filo"
                     },
                     {
                       "id": "b",
-                      "text": "Il logo sposta la massa"
+                      "text": "Quanto è affilato l'apice"
                     },
                     {
                       "id": "c",
-                      "text": "La scatola cambia la leva"
+                      "text": "Se il manico resiste all'umidità"
                     },
                     {
                       "id": "d",
-                      "text": "Posizioni di presa diverse"
+                      "text": "Dove la massa del coltello si equilibra fisicamente, non esattamente come ogni utilizzatore lo percepirà"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Lascia confrontare coltelli adatti nella presa realmente usata dall'utente."
+                  "explanation": "Il bilanciamento misurato è oggettivo, mentre quello percepito dipende anche da impugnatura e posizione della mano."
                 },
                 {
                   "id": "b-knife-types-03-r2",
-                  "prompt": "Controllo applicativo — Valuta il bilanciamento nella presa reale: quale risposta è corretta?",
+                  "prompt": "Se un coltello riceve un manico molto più pesante mentre la lama resta la stessa, che cosa probabilmente cambia?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Posizioni di presa diverse"
+                      "text": "Il bilanciamento si sposta verso il manico"
                     },
                     {
                       "id": "b",
-                      "text": "L'acciaio cambia peso"
+                      "text": "La lama diventa più dura"
                     },
                     {
                       "id": "c",
-                      "text": "Il logo sposta la massa"
+                      "text": "L'angolo del filo diminuisce"
                     },
                     {
                       "id": "d",
-                      "text": "La scatola cambia la leva"
+                      "text": "L'acciaio diventa più resistente alla corrosione"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Lascia confrontare coltelli adatti nella presa realmente usata dall'utente."
+                  "explanation": "Cambiare la distribuzione delle masse cambia il bilanciamento anche se la lama resta invariata."
                 }
               ]
             }
@@ -2145,27 +2145,27 @@
             "questions": [
               {
                 "id": "b-knife-types-mini-1",
-                "prompt": "Verifica modulo — Riconosci le famiglie multiuso: quale risposta è corretta?",
+                "prompt": "Che cosa viene prima nella scelta di un coltello da cucina multiuso?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Il motivo più grande"
+                    "text": "La sola lunghezza della lama"
                   },
                   {
                     "id": "b",
-                    "text": "Il prezzo più alto"
+                    "text": "Il solo prestigio dell'acciaio"
                   },
                   {
                     "id": "c",
-                    "text": "Il manico più scuro"
+                    "text": "Il solo stile estetico"
                   },
                   {
                     "id": "d",
-                    "text": "Lavoro di taglio reale"
+                    "text": "I lavori di taglio che l'utilizzatore svolge davvero"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Parti da compito e movimento, non dalla silhouette.",
+                "explanation": "Un coltello multiuso deve prima di tutto corrispondere al lavoro reale e al movimento preferito dell'utilizzatore.",
                 "concept_id": "knife-types.general-purpose.base",
                 "critical": false
               },
@@ -2197,27 +2197,27 @@
               },
               {
                 "id": "b-knife-types-mini-3",
-                "prompt": "Verifica modulo — Valuta il bilanciamento nella presa reale: quale risposta è corretta?",
+                "prompt": "Perché lo stesso coltello può sembrare bilanciato diversamente a due utilizzatori?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La scatola cambia la leva"
+                    "text": "La lama cambia massa nella mano"
                   },
                   {
                     "id": "b",
-                    "text": "Posizioni di presa diverse"
+                    "text": "Possono impugnarlo in posizioni diverse"
                   },
                   {
                     "id": "c",
-                    "text": "L'acciaio cambia peso"
+                    "text": "Il centro di massa si sposta fisicamente"
                   },
                   {
                     "id": "d",
-                    "text": "Il logo sposta la massa"
+                    "text": "L'acciaio cambia densità durante l'uso"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Lascia confrontare coltelli adatti nella presa realmente usata dall'utente.",
+                "explanation": "La posizione dell'impugnatura cambia la leva e quindi il bilanciamento percepito.",
                 "concept_id": "knife-types.balance-grip.base",
                 "critical": false
               }
