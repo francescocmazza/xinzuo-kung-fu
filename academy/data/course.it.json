@@ -3360,76 +3360,76 @@
               },
               "question": {
                 "id": "i-knife-system-integrated-q",
-                "prompt": "Un coltello di produzione ha un raccordo saldato. Qual è la conclusione corretta?",
+                "prompt": "Un coltello di produzione ha un raccordo saldato. Che cosa puoi concludere da questo solo dato?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Prova che è forgiato"
+                    "text": "Il coltello deve essere stato forgiato in un solo pezzo"
                   },
                   {
                     "id": "b",
-                    "text": "Compensa una geometria scadente"
+                    "text": "La costruzione è automaticamente inferiore"
                   },
                   {
                     "id": "c",
-                    "text": "Giunto ed esecuzione complessiva"
+                    "text": "Vanno ancora valutati giunzione ed esecuzione complessiva"
                   },
                   {
                     "id": "d",
-                    "text": "È automaticamente inferiore"
+                    "text": "Il punto di bilanciamento è determinato solo dal raccordo"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Valuta il progetto come sistema, non da una singola parola costruttiva."
+                "explanation": "Un raccordo saldato è una scelta costruttiva; la qualità dipende da giunzione, controllo termico, finitura e progetto complessivo."
               },
               "recovery_questions": [
                 {
                   "id": "i-knife-system-integrated-r1",
-                  "prompt": "Verifica: Un coltello di produzione ha un raccordo saldato. Qual è la conclusione corretta?",
+                  "prompt": "Un coltello a codolo nascosto viene proposto per il normale lavoro in cucina. Quale giudizio è tecnicamente corretto?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Prova che è forgiato"
+                      "text": "Un codolo nascosto è sempre più debole di un codolo integrale"
                     },
                     {
                       "id": "b",
-                      "text": "Compensa una geometria scadente"
+                      "text": "Il codolo nascosto è adatto soltanto ai manici in legno"
                     },
                     {
                       "id": "c",
-                      "text": "Giunto ed esecuzione complessiva"
+                      "text": "La durata dipende da dimensioni del codolo, accoppiamento, fissaggio e carichi previsti"
                     },
                     {
                       "id": "d",
-                      "text": "È automaticamente inferiore"
+                      "text": "Il tipo di codolo determina da solo il bilanciamento"
                     }
                   ],
                   "correct": "c",
-                  "explanation": "Valuta il progetto come sistema, non da una singola parola costruttiva."
+                  "explanation": "Il nome del tipo di codolo non determina da solo la durata: contano dimensioni, assemblaggio e percorso dei carichi previsti."
                 },
                 {
                   "id": "i-knife-system-integrated-r2",
-                  "prompt": "Controllo applicativo — Collega le scelte costruttive all'uso: quale risposta è corretta?",
+                  "prompt": "Qual è la ragione più difendibile per preferire la forgiatura in un determinato progetto di coltello?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Compensa una geometria scadente"
+                      "text": "Garantisce un trattamento termico superiore"
                     },
                     {
                       "id": "b",
-                      "text": "Giunto ed esecuzione complessiva"
+                      "text": "Può ridistribuire l'acciaio pieno in una forma utile prima della finitura"
                     },
                     {
                       "id": "c",
-                      "text": "È automaticamente inferiore"
+                      "text": "Produce sempre un filo più sottile"
                     },
                     {
                       "id": "d",
-                      "text": "Prova che è forgiato"
+                      "text": "Rende inutile l'asportazione di materiale"
                     }
                   ],
                   "correct": "b",
-                  "explanation": "Valuta il progetto come sistema, non da una singola parola costruttiva."
+                  "explanation": "La forgiatura è un processo che può ridistribuire il materiale; non sostituisce trattamento termico, molatura o controllo della geometria."
                 }
               ]
             }
@@ -3441,79 +3441,79 @@
             "questions": [
               {
                 "id": "i-knife-system-mini-1",
-                "prompt": "Verifica modulo — Collega le scelte costruttive all'uso: scegli la risposta migliore.",
+                "prompt": "La stessa lama viene montata con un materiale del manico molto più denso. Qual è il cambiamento più probabile per l'utilizzatore?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Prova che è forgiato"
+                    "text": "L'acciaio della lama diventa più tenace"
                   },
                   {
                     "id": "b",
-                    "text": "Compensa una geometria scadente"
+                    "text": "L'angolo del filo diventa più acuto"
                   },
                   {
                     "id": "c",
-                    "text": "Giunto ed esecuzione complessiva"
+                    "text": "La distribuzione dei pesi e il bilanciamento percepito possono spostarsi verso il manico"
                   },
                   {
                     "id": "d",
-                    "text": "È automaticamente inferiore"
+                    "text": "La giunzione del raccordo diventa integrale"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Valuta il progetto come sistema, non da una singola parola costruttiva.",
+                "explanation": "La massa del manico fa parte del sistema coltello e può cambiare bilanciamento e maneggevolezza senza modificare l'acciaio della lama.",
                 "concept_id": "knife-system.integrated.intermediate",
                 "critical": false
               },
               {
                 "id": "i-knife-system-mini-2",
-                "prompt": "Applicazione — Collega le scelte costruttive all'uso: quale conclusione è corretta?",
+                "prompt": "Un coltello di produzione ha un raccordo saldato. Che cosa puoi concludere da questo solo dato?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Prova che è forgiato"
+                    "text": "Il coltello deve essere stato forgiato in un solo pezzo"
                   },
                   {
                     "id": "b",
-                    "text": "Compensa una geometria scadente"
+                    "text": "La costruzione è automaticamente inferiore"
                   },
                   {
                     "id": "c",
-                    "text": "Giunto ed esecuzione complessiva"
+                    "text": "Vanno ancora valutati giunzione ed esecuzione complessiva"
                   },
                   {
                     "id": "d",
-                    "text": "È automaticamente inferiore"
+                    "text": "Il punto di bilanciamento è determinato solo dal raccordo"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Valuta il progetto come sistema, non da una singola parola costruttiva.",
+                "explanation": "Un raccordo saldato è una scelta costruttiva; la qualità dipende da giunzione, controllo termico, finitura e progetto complessivo.",
                 "concept_id": "knife-system.integrated.intermediate",
                 "critical": false
               },
               {
                 "id": "i-knife-system-mini-3",
-                "prompt": "Controllo finale — Collega le scelte costruttive all'uso: quale risposta è più difendibile?",
+                "prompt": "Un coltello a codolo nascosto viene proposto per il normale lavoro in cucina. Quale giudizio è tecnicamente corretto?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Compensa una geometria scadente"
+                    "text": "Un codolo nascosto è sempre più debole di un codolo integrale"
                   },
                   {
                     "id": "b",
-                    "text": "Giunto ed esecuzione complessiva"
+                    "text": "La durata dipende da dimensioni del codolo, accoppiamento, fissaggio e carichi previsti"
                   },
                   {
                     "id": "c",
-                    "text": "È automaticamente inferiore"
+                    "text": "Il codolo nascosto è adatto soltanto ai manici in legno"
                   },
                   {
                     "id": "d",
-                    "text": "Prova che è forgiato"
+                    "text": "Il tipo di codolo determina da solo il bilanciamento"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Valuta il progetto come sistema, non da una singola parola costruttiva.",
+                "explanation": "Il nome del tipo di codolo non determina da solo la durata: contano dimensioni, assemblaggio e percorso dei carichi previsti.",
                 "concept_id": "knife-system.integrated.intermediate",
                 "critical": false
               }
@@ -3546,76 +3546,76 @@
               },
               "question": {
                 "id": "i-steel-performance-integrated-q",
-                "prompt": "Un utente vuole poca manutenzione e affila raramente. Che cosa conta di più?",
+                "prompt": "Un utilizzatore vuole poca manutenzione e affila raramente. Quale equilibrio di proprietà merita priorità?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Materiale del manico più pesante"
+                    "text": "Massima durezza indipendentemente dall'uso"
                   },
                   {
                     "id": "b",
-                    "text": "Corrosione e tenuta bilanciate"
+                    "text": "Buona resistenza alla corrosione insieme a un'adeguata tenuta del filo"
                   },
                   {
                     "id": "c",
-                    "text": "HRC più alto a prescindere dall'uso"
+                    "text": "Massima tenacità senza considerare la tenuta del filo"
                   },
                   {
                     "id": "d",
-                    "text": "Motivo più visibile"
+                    "text": "Affilatura facile anche con scarsa resistenza alla corrosione"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Abbina il bilanciamento delle proprietà al modo d'uso."
+                "explanation": "La scelta utile è un equilibrio adatto alle abitudini di manutenzione, non il massimo di una sola proprietà."
               },
               "recovery_questions": [
                 {
                   "id": "i-steel-performance-integrated-r1",
-                  "prompt": "Verifica: Un utente vuole poca manutenzione e affila raramente. Che cosa conta di più?",
+                  "prompt": "Un filo sottile e duro si scheggia durante un uso gravoso sul tagliere. Che cosa va riconsiderato prima di scegliere semplicemente un acciaio più duro?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "HRC più alto a prescindere dall'uso"
+                      "text": "Solo il valore nominale di HRC"
                     },
                     {
                       "id": "b",
-                      "text": "Motivo più visibile"
+                      "text": "Solo la resistenza alla corrosione"
                     },
                     {
                       "id": "c",
-                      "text": "Materiale del manico più pesante"
+                      "text": "Solo la resistenza all'usura abrasiva"
                     },
                     {
                       "id": "d",
-                      "text": "Corrosione e tenuta bilanciate"
+                      "text": "Esigenze di tenacità, geometria del filo e carichi reali"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Abbina il bilanciamento delle proprietà al modo d'uso."
+                  "explanation": "La scheggiatura può dipendere da carico e geometria; aumentare soltanto la durezza può peggiorare il problema."
                 },
                 {
                   "id": "i-steel-performance-integrated-r2",
-                  "prompt": "Controllo applicativo — Applica i compromessi dell'acciaio agli utenti: quale risposta è corretta?",
+                  "prompt": "Un cuoco affila spesso e apprezza un ripristino rapido del filo. Quale proprietà diventa più importante rispetto a un utilizzatore che non affila mai?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Corrosione e tenuta bilanciate"
+                      "text": "Facilità di affilatura"
                     },
                     {
                       "id": "b",
-                      "text": "HRC più alto a prescindere dall'uso"
+                      "text": "Numero degli strati"
                     },
                     {
                       "id": "c",
-                      "text": "Motivo più visibile"
+                      "text": "Massima durezza raggiungibile"
                     },
                     {
                       "id": "d",
-                      "text": "Materiale del manico più pesante"
+                      "text": "Densità del manico"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Abbina il bilanciamento delle proprietà al modo d'uso."
+                  "explanation": "La facilità di affilatura fa parte del profilo pratico dell'acciaio e conta di più quando l'utilizzatore mantiene spesso il filo."
                 }
               ]
             }
@@ -3627,79 +3627,79 @@
             "questions": [
               {
                 "id": "i-steel-performance-mini-1",
-                "prompt": "Verifica modulo — Applica i compromessi dell'acciaio agli utenti: scegli la risposta migliore.",
+                "prompt": "Un acciaio offre una resistenza molto elevata all'usura abrasiva. Quale compromesso può diventare più evidente nella manutenzione?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Materiale del manico più pesante"
+                    "text": "Deve diventare meno resistente alla corrosione"
                   },
                   {
                     "id": "b",
-                    "text": "Corrosione e tenuta bilanciate"
+                    "text": "Può richiedere più tempo o abrasione per essere affilato"
                   },
                   {
                     "id": "c",
-                    "text": "HRC più alto a prescindere dall'uso"
+                    "text": "Deve diventare più tenace"
                   },
                   {
                     "id": "d",
-                    "text": "Motivo più visibile"
+                    "text": "Consente automaticamente una geometria più sottile"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Abbina il bilanciamento delle proprietà al modo d'uso.",
+                "explanation": "Un'elevata resistenza all'usura può rallentare l'asportazione abrasiva; non obbliga le altre proprietà a cambiare in una direzione prestabilita.",
                 "concept_id": "steel-performance.integrated.intermediate",
                 "critical": false
               },
               {
                 "id": "i-steel-performance-mini-2",
-                "prompt": "Applicazione — Applica i compromessi dell'acciaio agli utenti: quale conclusione è corretta?",
+                "prompt": "Un utilizzatore vuole poca manutenzione e affila raramente. Quale equilibrio di proprietà merita priorità?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "HRC più alto a prescindere dall'uso"
+                    "text": "Massima durezza indipendentemente dall'uso"
                   },
                   {
                     "id": "b",
-                    "text": "Motivo più visibile"
+                    "text": "Massima tenacità senza considerare la tenuta del filo"
                   },
                   {
                     "id": "c",
-                    "text": "Materiale del manico più pesante"
+                    "text": "Affilatura facile anche con scarsa resistenza alla corrosione"
                   },
                   {
                     "id": "d",
-                    "text": "Corrosione e tenuta bilanciate"
+                    "text": "Buona resistenza alla corrosione insieme a un'adeguata tenuta del filo"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Abbina il bilanciamento delle proprietà al modo d'uso.",
+                "explanation": "La scelta utile è un equilibrio adatto alle abitudini di manutenzione, non il massimo di una sola proprietà.",
                 "concept_id": "steel-performance.integrated.intermediate",
                 "critical": false
               },
               {
                 "id": "i-steel-performance-mini-3",
-                "prompt": "Controllo finale — Applica i compromessi dell'acciaio agli utenti: quale risposta è più difendibile?",
+                "prompt": "Un filo sottile e duro si scheggia durante un uso gravoso sul tagliere. Che cosa va riconsiderato prima di scegliere semplicemente un acciaio più duro?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Corrosione e tenuta bilanciate"
+                    "text": "Esigenze di tenacità, geometria del filo e carichi reali"
                   },
                   {
                     "id": "b",
-                    "text": "HRC più alto a prescindere dall'uso"
+                    "text": "Solo il valore nominale di HRC"
                   },
                   {
                     "id": "c",
-                    "text": "Motivo più visibile"
+                    "text": "Solo la resistenza alla corrosione"
                   },
                   {
                     "id": "d",
-                    "text": "Materiale del manico più pesante"
+                    "text": "Solo la resistenza all'usura abrasiva"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Abbina il bilanciamento delle proprietà al modo d'uso.",
+                "explanation": "La scheggiatura può dipendere da carico e geometria; aumentare soltanto la durezza può peggiorare il problema.",
                 "concept_id": "steel-performance.integrated.intermediate",
                 "critical": false
               }
@@ -3735,76 +3735,76 @@
               },
               "question": {
                 "id": "i-metallurgy-integrated-q",
-                "prompt": "Due coltelli usano lo stesso acciaio nominale ma si comportano diversamente. Qual è una causa plausibile?",
+                "prompt": "Due coltelli usano lo stesso acciaio dichiarato ma si comportano diversamente. Quale spiegazione è plausibile?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La scatola ha cambiato la durezza"
+                    "text": "Il nome dell'acciaio determina tutte le prestazioni"
                   },
                   {
                     "id": "b",
-                    "text": "Trattamento termico o geometria"
+                    "text": "Trattamento termico o geometria differenti"
                   },
                   {
                     "id": "c",
-                    "text": "È cambiato il nome dell'acciaio"
+                    "text": "La stessa composizione garantisce lo stesso filo"
                   },
                   {
                     "id": "d",
-                    "text": "Il logo ha modificato i carburi"
+                    "text": "Il processo produttivo non può avere importanza"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Leggi insieme composizione, processo e trattamento termico."
+                "explanation": "La composizione nominale è solo una parte del risultato; trattamento termico e geometria possono cambiare molto il comportamento del filo."
               },
               "recovery_questions": [
                 {
                   "id": "i-metallurgy-integrated-r1",
-                  "prompt": "Verifica: Due coltelli usano lo stesso acciaio nominale ma si comportano diversamente. Qual è una causa plausibile?",
+                  "prompt": "Perché la metallurgia delle polveri è particolarmente utile per alcuni acciai molto legati?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "È cambiato il nome dell'acciaio"
+                      "text": "Garantisce la massima tenacità in ogni acciaio"
                     },
                     {
                       "id": "b",
-                      "text": "Il logo ha modificato i carburi"
+                      "text": "Elimina la necessità del trattamento termico"
                     },
                     {
                       "id": "c",
-                      "text": "La scatola ha cambiato la durezza"
+                      "text": "Rende automaticamente facile l'affilatura"
                     },
                     {
                       "id": "d",
-                      "text": "Trattamento termico o geometria"
+                      "text": "Può ridurre la segregazione e produrre una distribuzione più fine e uniforme dei costituenti"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Leggi insieme composizione, processo e trattamento termico."
+                  "explanation": "La via delle polveri può migliorare uniformità chimica e strutturale, soprattutto dove la solidificazione convenzionale produrrebbe forte segregazione."
                 },
                 {
                   "id": "i-metallurgy-integrated-r2",
-                  "prompt": "Controllo applicativo — Collega chimica, struttura e processo: quale risposta è corretta?",
+                  "prompt": "Conosci la composizione di una lega ma non il suo trattamento termico. Che cosa puoi prevedere con affidabilità?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Trattamento termico o geometria"
+                      "text": "Solo una parte del comportamento potenziale, non le prestazioni della lama finita"
                     },
                     {
                       "id": "b",
-                      "text": "È cambiato il nome dell'acciaio"
+                      "text": "La sua esatta tenuta del filo"
                     },
                     {
                       "id": "c",
-                      "text": "Il logo ha modificato i carburi"
+                      "text": "La sua esatta tenacità nella geometria finale"
                     },
                     {
                       "id": "d",
-                      "text": "La scatola ha cambiato la durezza"
+                      "text": "La distribuzione finale dei carburi con certezza"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Leggi insieme composizione, processo e trattamento termico."
+                  "explanation": "La composizione definisce possibilità; le prestazioni finali dipendono da processo, microstruttura e geometria."
                 }
               ]
             }
@@ -3816,79 +3816,79 @@
             "questions": [
               {
                 "id": "i-metallurgy-mini-1",
-                "prompt": "Verifica modulo — Collega chimica, struttura e processo: scegli la risposta migliore.",
+                "prompt": "Due lame misurano lo stesso HRC ma una sostiene un filo più fine. Che cos'altro va indagato?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La scatola ha cambiato la durezza"
+                    "text": "L'HRC da solo spiega già la differenza"
                   },
                   {
                     "id": "b",
-                    "text": "Trattamento termico o geometria"
+                    "text": "Struttura dei carburi, condizione del grano, trattamento termico e geometria"
                   },
                   {
                     "id": "c",
-                    "text": "È cambiato il nome dell'acciaio"
+                    "text": "Solo la finitura visibile"
                   },
                   {
                     "id": "d",
-                    "text": "Il logo ha modificato i carburi"
+                    "text": "Solo se l'acciaio è definito inox"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Leggi insieme composizione, processo e trattamento termico.",
+                "explanation": "La stessa durezza non implica la stessa microstruttura né la stessa stabilità del filo.",
                 "concept_id": "metallurgy.integrated.intermediate",
                 "critical": false
               },
               {
                 "id": "i-metallurgy-mini-2",
-                "prompt": "Applicazione — Collega chimica, struttura e processo: quale conclusione è corretta?",
+                "prompt": "Due coltelli usano lo stesso acciaio dichiarato ma si comportano diversamente. Quale spiegazione è plausibile?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "È cambiato il nome dell'acciaio"
+                    "text": "Il nome dell'acciaio determina tutte le prestazioni"
                   },
                   {
                     "id": "b",
-                    "text": "Il logo ha modificato i carburi"
+                    "text": "La stessa composizione garantisce lo stesso filo"
                   },
                   {
                     "id": "c",
-                    "text": "La scatola ha cambiato la durezza"
+                    "text": "Il processo produttivo non può avere importanza"
                   },
                   {
                     "id": "d",
-                    "text": "Trattamento termico o geometria"
+                    "text": "Trattamento termico o geometria differenti"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Leggi insieme composizione, processo e trattamento termico.",
+                "explanation": "La composizione nominale è solo una parte del risultato; trattamento termico e geometria possono cambiare molto il comportamento del filo.",
                 "concept_id": "metallurgy.integrated.intermediate",
                 "critical": false
               },
               {
                 "id": "i-metallurgy-mini-3",
-                "prompt": "Controllo finale — Collega chimica, struttura e processo: quale risposta è più difendibile?",
+                "prompt": "Perché la metallurgia delle polveri è particolarmente utile per alcuni acciai molto legati?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Trattamento termico o geometria"
+                    "text": "Può ridurre la segregazione e produrre una distribuzione più fine e uniforme dei costituenti"
                   },
                   {
                     "id": "b",
-                    "text": "È cambiato il nome dell'acciaio"
+                    "text": "Garantisce la massima tenacità in ogni acciaio"
                   },
                   {
                     "id": "c",
-                    "text": "Il logo ha modificato i carburi"
+                    "text": "Elimina la necessità del trattamento termico"
                   },
                   {
                     "id": "d",
-                    "text": "La scatola ha cambiato la durezza"
+                    "text": "Rende automaticamente facile l'affilatura"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Leggi insieme composizione, processo e trattamento termico.",
+                "explanation": "La via delle polveri può migliorare uniformità chimica e strutturale, soprattutto dove la solidificazione convenzionale produrrebbe forte segregazione.",
                 "concept_id": "metallurgy.integrated.intermediate",
                 "critical": false
               }
@@ -3922,76 +3922,76 @@
               },
               "question": {
                 "id": "i-damascus-integrated-q",
-                "prompt": "Un coltello mostra 67 strati. Che cosa deve evitare di affermare il personale?",
+                "prompt": "Un coltello mostra 67 strati visibili. Quale affermazione il personale dovrebbe evitare?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Il numero di strati prova superiorità"
+                    "text": "Che il numero degli strati, da solo, provi prestazioni superiori"
                   },
                   {
                     "id": "b",
-                    "text": "Che la lama sia stratificata"
+                    "text": "Che la lama utilizzi una costruzione stratificata"
                   },
                   {
                     "id": "c",
-                    "text": "Che il motivo influenzi l'estetica"
+                    "text": "Che il motivo contribuisca all'aspetto"
                   },
                   {
                     "id": "d",
-                    "text": "Che l'acciaio del nucleo conti ancora"
+                    "text": "Che il nucleo tagliente continui a essere importante"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Spiega che cosa fanno gli strati, non solo quanti sono."
+                "explanation": "Il numero degli strati descrive costruzione e scala del motivo; non è una classifica autonoma delle prestazioni."
               },
               "recovery_questions": [
                 {
                   "id": "i-damascus-integrated-r1",
-                  "prompt": "Verifica: Un coltello mostra 67 strati. Che cosa deve evitare di affermare il personale?",
+                  "prompt": "Una lama presenta un motivo tipo Damasco realizzato al laser. Che cosa può dimostrare da solo quel motivo?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Il numero di strati prova superiorità"
+                      "text": "Soltanto che è presente un motivo visibile sulla superficie"
                     },
                     {
                       "id": "b",
-                      "text": "Che la lama sia stratificata"
+                      "text": "Che la lama contiene strati alternati forgiati"
                     },
                     {
                       "id": "c",
-                      "text": "Che il motivo influenzi l'estetica"
+                      "text": "Che l'acciaio del nucleo ha durezza maggiore"
                     },
                     {
                       "id": "d",
-                      "text": "Che l'acciaio del nucleo conti ancora"
+                      "text": "Che sul filo avverrà usura differenziale"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Spiega che cosa fanno gli strati, non solo quanti sono."
+                  "explanation": "Un motivo superficiale può imitare l'aspetto senza dimostrare la costruzione stratificata sottostante."
                 },
                 {
                   "id": "i-damascus-integrated-r2",
-                  "prompt": "Controllo applicativo — Spiega il Damasco senza slogan: quale risposta è corretta?",
+                  "prompt": "In un coltello in Damasco con nucleo e rivestimento, quale componente domina normalmente il comportamento del filo?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Che la lama sia stratificata"
+                      "text": "Il solo motivo esterno"
                     },
                     {
                       "id": "b",
-                      "text": "Che il motivo influenzi l'estetica"
+                      "text": "Il numero totale degli strati di rivestimento"
                     },
                     {
                       "id": "c",
-                      "text": "Che l'acciaio del nucleo conti ancora"
+                      "text": "Il contrasto dell'incisione"
                     },
                     {
                       "id": "d",
-                      "text": "Il numero di strati prova superiorità"
+                      "text": "L'acciaio dedicato del nucleo tagliente e il suo trattamento termico"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Spiega che cosa fanno gli strati, non solo quanti sono."
+                  "explanation": "Il rivestimento può influire su altre proprietà e sull'aspetto, ma in questa costruzione è il nucleo ad arrivare al filo."
                 }
               ]
             }
@@ -4003,79 +4003,79 @@
             "questions": [
               {
                 "id": "i-damascus-mini-1",
-                "prompt": "Verifica modulo — Spiega il Damasco senza slogan: scegli la risposta migliore.",
+                "prompt": "Come va presentata responsabilmente un'affermazione funzionale sul Damasco?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Il numero di strati prova superiorità"
+                    "text": "Indicando meccanismo proposto, prove a sostegno e limiti"
                   },
                   {
                     "id": "b",
-                    "text": "Che la lama sia stratificata"
+                    "text": "Trattando il motivo visibile come prova sufficiente"
                   },
                   {
                     "id": "c",
-                    "text": "Che il motivo influenzi l'estetica"
+                    "text": "Usando il numero degli strati come misura delle prestazioni"
                   },
                   {
                     "id": "d",
-                    "text": "Che l'acciaio del nucleo conti ancora"
+                    "text": "Presumendo che ogni lama stratificata si comporti allo stesso modo"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Spiega che cosa fanno gli strati, non solo quanti sono.",
+                "explanation": "Un'affermazione funzionale deve essere verificabile e distinguere meccanismo, prove e inferenze.",
                 "concept_id": "damascus.integrated.intermediate",
                 "critical": false
               },
               {
                 "id": "i-damascus-mini-2",
-                "prompt": "Applicazione — Spiega il Damasco senza slogan: quale conclusione è corretta?",
+                "prompt": "Un coltello mostra 67 strati visibili. Quale affermazione il personale dovrebbe evitare?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Il numero di strati prova superiorità"
+                    "text": "Che il numero degli strati, da solo, provi prestazioni superiori"
                   },
                   {
                     "id": "b",
-                    "text": "Che la lama sia stratificata"
+                    "text": "Che la lama utilizzi una costruzione stratificata"
                   },
                   {
                     "id": "c",
-                    "text": "Che il motivo influenzi l'estetica"
+                    "text": "Che il motivo contribuisca all'aspetto"
                   },
                   {
                     "id": "d",
-                    "text": "Che l'acciaio del nucleo conti ancora"
+                    "text": "Che il nucleo tagliente continui a essere importante"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Spiega che cosa fanno gli strati, non solo quanti sono.",
+                "explanation": "Il numero degli strati descrive costruzione e scala del motivo; non è una classifica autonoma delle prestazioni.",
                 "concept_id": "damascus.integrated.intermediate",
                 "critical": false
               },
               {
                 "id": "i-damascus-mini-3",
-                "prompt": "Controllo finale — Spiega il Damasco senza slogan: quale risposta è più difendibile?",
+                "prompt": "Una lama presenta un motivo tipo Damasco realizzato al laser. Che cosa può dimostrare da solo quel motivo?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Che la lama sia stratificata"
+                    "text": "Che la lama contiene strati alternati forgiati"
                   },
                   {
                     "id": "b",
-                    "text": "Che il motivo influenzi l'estetica"
+                    "text": "Che l'acciaio del nucleo ha durezza maggiore"
                   },
                   {
                     "id": "c",
-                    "text": "Che l'acciaio del nucleo conti ancora"
+                    "text": "Che sul filo avverrà usura differenziale"
                   },
                   {
                     "id": "d",
-                    "text": "Il numero di strati prova superiorità"
+                    "text": "Soltanto che è presente un motivo visibile sulla superficie"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Spiega che cosa fanno gli strati, non solo quanti sono.",
+                "explanation": "Un motivo superficiale può imitare l'aspetto senza dimostrare la costruzione stratificata sottostante.",
                 "concept_id": "damascus.integrated.intermediate",
                 "critical": false
               }
@@ -4108,76 +4108,76 @@
               },
               "question": {
                 "id": "i-geometry-integrated-q",
-                "prompt": "Un coltello è affilato ma apre le carote a cuneo. Che cosa va ispezionato?",
+                "prompt": "Un coltello è affilato all'apice ma spacca le carote. Che cosa va controllato per prima cosa?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Logo del manico"
+                    "text": "Solo la grana finale di lucidatura"
                   },
                   {
                     "id": "b",
-                    "text": "Inserto della confezione"
+                    "text": "Solo il punto di bilanciamento del manico"
                   },
                   {
                     "id": "c",
-                    "text": "Colore dell'incisione"
+                    "text": "Solo l'angolo nominale del filo"
                   },
                   {
                     "id": "d",
-                    "text": "Spessore retrofilo"
+                    "text": "Spessore e rastremazione dietro il filo"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Prevedi il comportamento dall'intera sezione, non da un solo numero."
+                "explanation": "Un apice affilato può comunque fare cuneo se la lama diventa spessa troppo rapidamente dietro il filo."
               },
               "recovery_questions": [
                 {
                   "id": "i-geometry-integrated-r1",
-                  "prompt": "Verifica: Un coltello è affilato ma apre le carote a cuneo. Che cosa va ispezionato?",
+                  "prompt": "Dopo l'affilatura, un coltello devia costantemente da un lato. Quale fattore geometrico è più rilevante?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Colore dell'incisione"
+                      "text": "Lunghezza complessiva della lama"
                     },
                     {
                       "id": "b",
-                      "text": "Spessore retrofilo"
+                      "text": "Asimmetria tra i due lati della molatura o del bisello del filo"
                     },
                     {
                       "id": "c",
-                      "text": "Logo del manico"
+                      "text": "Finitura del dorso"
                     },
                     {
                       "id": "d",
-                      "text": "Inserto della confezione"
+                      "text": "Densità del manico"
                     }
                   ],
                   "correct": "b",
-                  "explanation": "Prevedi il comportamento dall'intera sezione, non da un solo numero."
+                  "explanation": "Una geometria asimmetrica può creare forze diverse nel taglio e far deviare la lama da un lato."
                 },
                 {
                   "id": "i-geometry-integrated-r2",
-                  "prompt": "Controllo applicativo — Prevedi il taglio dalla geometria: quale risposta è corretta?",
+                  "prompt": "Un coltello ha un bisello del filo molto acuto ma una spalla spessa subito sopra. Quale comportamento è probabile?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Inserto della confezione"
+                      "text": "Deve essere fragile in ogni lavoro"
                     },
                     {
                       "id": "b",
-                      "text": "Colore dell'incisione"
+                      "text": "Devierà sempre perfettamente diritto"
                     },
                     {
                       "id": "c",
-                      "text": "Spessore retrofilo"
+                      "text": "Può iniziare facilmente il taglio ma fare cuneo più in profondità negli alimenti spessi"
                     },
                     {
                       "id": "d",
-                      "text": "Logo del manico"
+                      "text": "Taglierà gli alimenti spessi senza resistenza"
                     }
                   ],
                   "correct": "c",
-                  "explanation": "Prevedi il comportamento dall'intera sezione, non da un solo numero."
+                  "explanation": "La geometria dell'apice e la sezione dietro di esso influenzano fasi diverse del taglio."
                 }
               ]
             }
@@ -4189,79 +4189,79 @@
             "questions": [
               {
                 "id": "i-geometry-mini-1",
-                "prompt": "Verifica modulo — Prevedi il taglio dalla geometria: scegli la risposta migliore.",
+                "prompt": "Perché ridurre l'angolo del filo non è automaticamente un miglioramento?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Logo del manico"
+                    "text": "Aumenta sempre la tenacità"
                   },
                   {
                     "id": "b",
-                    "text": "Inserto della confezione"
+                    "text": "Elimina sempre la deviazione"
                   },
                   {
                     "id": "c",
-                    "text": "Colore dell'incisione"
+                    "text": "Cambia soltanto l'aspetto"
                   },
                   {
                     "id": "d",
-                    "text": "Spessore retrofilo"
+                    "text": "Può migliorare la penetrazione riducendo però il materiale che sostiene l'apice"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Prevedi il comportamento dall'intera sezione, non da un solo numero.",
+                "explanation": "La geometria è un compromesso: meno supporto può migliorare l'efficienza di taglio ma ridurre la tolleranza agli abusi.",
                 "concept_id": "geometry.integrated.intermediate",
                 "critical": false
               },
               {
                 "id": "i-geometry-mini-2",
-                "prompt": "Applicazione — Prevedi il taglio dalla geometria: quale conclusione è corretta?",
+                "prompt": "Un coltello è affilato all'apice ma spacca le carote. Che cosa va controllato per prima cosa?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Colore dell'incisione"
+                    "text": "Solo la grana finale di lucidatura"
                   },
                   {
                     "id": "b",
-                    "text": "Spessore retrofilo"
+                    "text": "Spessore e rastremazione dietro il filo"
                   },
                   {
                     "id": "c",
-                    "text": "Logo del manico"
+                    "text": "Solo il punto di bilanciamento del manico"
                   },
                   {
                     "id": "d",
-                    "text": "Inserto della confezione"
+                    "text": "Solo l'angolo nominale del filo"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Prevedi il comportamento dall'intera sezione, non da un solo numero.",
+                "explanation": "Un apice affilato può comunque fare cuneo se la lama diventa spessa troppo rapidamente dietro il filo.",
                 "concept_id": "geometry.integrated.intermediate",
                 "critical": false
               },
               {
                 "id": "i-geometry-mini-3",
-                "prompt": "Controllo finale — Prevedi il taglio dalla geometria: quale risposta è più difendibile?",
+                "prompt": "Dopo l'affilatura, un coltello devia costantemente da un lato. Quale fattore geometrico è più rilevante?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Inserto della confezione"
+                    "text": "Lunghezza complessiva della lama"
                   },
                   {
                     "id": "b",
-                    "text": "Colore dell'incisione"
+                    "text": "Finitura del dorso"
                   },
                   {
                     "id": "c",
-                    "text": "Spessore retrofilo"
+                    "text": "Asimmetria tra i due lati della molatura o del bisello del filo"
                   },
                   {
                     "id": "d",
-                    "text": "Logo del manico"
+                    "text": "Densità del manico"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Prevedi il comportamento dall'intera sezione, non da un solo numero.",
+                "explanation": "Una geometria asimmetrica può creare forze diverse nel taglio e far deviare la lama da un lato.",
                 "concept_id": "geometry.integrated.intermediate",
                 "critical": false
               }
@@ -4295,76 +4295,76 @@
               },
               "question": {
                 "id": "i-knife-types-integrated-q",
-                "prompt": "Due coltelli sono entrambi adatti al compito. Che cosa decide dopo?",
+                "prompt": "Due coltelli svolgono bene lo stesso lavoro richiesto. Che cosa dovrebbe guidare il confronto successivo?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Adattamento ergonomico nell'uso"
+                    "text": "Impugnatura, portata, bilanciamento e adattamento ergonomico complessivo"
                   },
                   {
                     "id": "b",
-                    "text": "Solo numero di strati"
+                    "text": "Solo l'HRC più alto"
                   },
                   {
                     "id": "c",
-                    "text": "Solo HRC più alto"
+                    "text": "Solo la lama più lunga"
                   },
                   {
                     "id": "d",
-                    "text": "Solo confezione più grande"
+                    "text": "Solo la costruzione più complessa"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Funzione → ergonomia → scelta."
+                "explanation": "Una volta risolta la funzione, ergonomia e movimento reale dell'utilizzatore diventano i fattori utili per distinguere le opzioni."
               },
               "recovery_questions": [
                 {
                   "id": "i-knife-types-integrated-r1",
-                  "prompt": "Verifica: Due coltelli sono entrambi adatti al compito. Che cosa decide dopo?",
+                  "prompt": "Perché un deba non è semplicemente un sostituto più pesante del coltello da chef per ogni lavoro?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Adattamento ergonomico nell'uso"
+                      "text": "La sua geometria è specializzata per la lavorazione controllata del pesce e per carichi specifici"
                     },
                     {
                       "id": "b",
-                      "text": "Solo numero di strati"
+                      "text": "Il suo acciaio non può essere affilato finemente"
                     },
                     {
                       "id": "c",
-                      "text": "Solo HRC più alto"
+                      "text": "Il suo manico impedisce il lavoro sul tagliere"
                     },
                     {
                       "id": "d",
-                      "text": "Solo confezione più grande"
+                      "text": "La sua lama è progettata soltanto per alimenti congelati"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Funzione → ergonomia → scelta."
+                  "explanation": "Le forme specialistiche hanno senso quando il loro ruolo meccanico corrisponde al lavoro."
                 },
                 {
                   "id": "i-knife-types-integrated-r2",
-                  "prompt": "Controllo applicativo — Confronta l'ergonomia dopo aver risolto la funzione: quale risposta è corretta?",
+                  "prompt": "Due cuochi impugnano lo stesso coltello in punti diversi del manico. Perché la percezione del bilanciamento può cambiare?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Solo numero di strati"
+                      "text": "La composizione dell'acciaio cambia durante l'uso"
                     },
                     {
                       "id": "b",
-                      "text": "Solo HRC più alto"
+                      "text": "La massa della lama cambia con l'impugnatura"
                     },
                     {
                       "id": "c",
-                      "text": "Solo confezione più grande"
+                      "text": "Il punto di bilanciamento nominale si sposta fisicamente"
                     },
                     {
                       "id": "d",
-                      "text": "Adattamento ergonomico nell'uso"
+                      "text": "La posizione dell'impugnatura cambia la leva percepita attorno alla mano"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Funzione → ergonomia → scelta."
+                  "explanation": "Il bilanciamento percepito dipende da come la mano si accoppia al coltello, non soltanto dal punto di bilanciamento misurato."
                 }
               ]
             }
@@ -4376,79 +4376,79 @@
             "questions": [
               {
                 "id": "i-knife-types-mini-1",
-                "prompt": "Verifica modulo — Confronta l'ergonomia dopo aver risolto la funzione: scegli la risposta migliore.",
+                "prompt": "Quando una forma specialistica è la raccomandazione migliore?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Adattamento ergonomico nell'uso"
+                    "text": "Quando geometria e movimento risolvono meglio il lavoro ricorrente dell'utilizzatore"
                   },
                   {
                     "id": "b",
-                    "text": "Solo numero di strati"
+                    "text": "Ogni volta che costa più di un coltello multiuso"
                   },
                   {
                     "id": "c",
-                    "text": "Solo HRC più alto"
+                    "text": "Ogni volta che usa un acciaio più duro"
                   },
                   {
                     "id": "d",
-                    "text": "Solo confezione più grande"
+                    "text": "Ogni volta che il profilo appare più tradizionale"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Funzione → ergonomia → scelta.",
+                "explanation": "La specializzazione deve risolvere un'esigenza meccanica reale, non funzionare come etichetta di prestigio.",
                 "concept_id": "knife-types.integrated.intermediate",
                 "critical": false
               },
               {
                 "id": "i-knife-types-mini-2",
-                "prompt": "Applicazione — Confronta l'ergonomia dopo aver risolto la funzione: quale conclusione è corretta?",
+                "prompt": "Due coltelli svolgono bene lo stesso lavoro richiesto. Che cosa dovrebbe guidare il confronto successivo?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Adattamento ergonomico nell'uso"
+                    "text": "Impugnatura, portata, bilanciamento e adattamento ergonomico complessivo"
                   },
                   {
                     "id": "b",
-                    "text": "Solo numero di strati"
+                    "text": "Solo l'HRC più alto"
                   },
                   {
                     "id": "c",
-                    "text": "Solo HRC più alto"
+                    "text": "Solo la lama più lunga"
                   },
                   {
                     "id": "d",
-                    "text": "Solo confezione più grande"
+                    "text": "Solo la costruzione più complessa"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Funzione → ergonomia → scelta.",
+                "explanation": "Una volta risolta la funzione, ergonomia e movimento reale dell'utilizzatore diventano i fattori utili per distinguere le opzioni.",
                 "concept_id": "knife-types.integrated.intermediate",
                 "critical": false
               },
               {
                 "id": "i-knife-types-mini-3",
-                "prompt": "Controllo finale — Confronta l'ergonomia dopo aver risolto la funzione: quale risposta è più difendibile?",
+                "prompt": "Perché un deba non è semplicemente un sostituto più pesante del coltello da chef per ogni lavoro?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Solo numero di strati"
+                    "text": "Il suo acciaio non può essere affilato finemente"
                   },
                   {
                     "id": "b",
-                    "text": "Solo HRC più alto"
+                    "text": "Il suo manico impedisce il lavoro sul tagliere"
                   },
                   {
                     "id": "c",
-                    "text": "Solo confezione più grande"
+                    "text": "La sua lama è progettata soltanto per alimenti congelati"
                   },
                   {
                     "id": "d",
-                    "text": "Adattamento ergonomico nell'uso"
+                    "text": "La sua geometria è specializzata per la lavorazione controllata del pesce e per carichi specifici"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Funzione → ergonomia → scelta.",
+                "explanation": "Le forme specialistiche hanno senso quando il loro ruolo meccanico corrisponde al lavoro.",
                 "concept_id": "knife-types.integrated.intermediate",
                 "critical": false
               }
@@ -4482,76 +4482,76 @@
               },
               "question": {
                 "id": "i-technique-safety-integrated-q",
-                "prompt": "Un affettatore lungo viene usato con brevi movimenti a sega. Che cosa si perde?",
+                "prompt": "Un'affettatrice lunga viene usata con brevi movimenti ripetuti a sega. Quale vantaggio si sta perdendo?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Lunghezza utile del filo"
+                    "text": "La possibilità di usare più lunghezza del filo in una passata fluida"
                   },
                   {
                     "id": "b",
-                    "text": "Il materiale del manico"
+                    "text": "La resistenza alla corrosione dell'acciaio"
                   },
                   {
                     "id": "c",
-                    "text": "La composizione dell'acciaio"
+                    "text": "La stabilità dimensionale del manico"
                   },
                   {
                     "id": "d",
-                    "text": "La finitura superficiale"
+                    "text": "Il trattamento termico della lama"
                   }
                 ],
                 "correct": "a",
-                "explanation": "La tecnica dovrebbe risolvere la resistenza, non combatterla."
+                "explanation": "Una lama lunga da affettatura è pensata per sfruttare la lunghezza del filo, non per imitare una sega corta."
               },
               "recovery_questions": [
                 {
                   "id": "i-technique-safety-integrated-r1",
-                  "prompt": "Verifica: Un affettatore lungo viene usato con brevi movimenti a sega. Che cosa si perde?",
+                  "prompt": "Perché un rocking molto accentuato può essere inefficiente con un profilo del filo molto piatto?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Lunghezza utile del filo"
+                      "text": "Una parte ampia del filo può perdere il contatto utile con il tagliere durante il movimento"
                     },
                     {
                       "id": "b",
-                      "text": "Il materiale del manico"
+                      "text": "L'acciaio diventa meno tenace"
                     },
                     {
                       "id": "c",
-                      "text": "La composizione dell'acciaio"
+                      "text": "Il manico modifica il trattamento termico"
                     },
                     {
                       "id": "d",
-                      "text": "La finitura superficiale"
+                      "text": "L'apice diventa chimicamente più morbido"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "La tecnica dovrebbe risolvere la resistenza, non combatterla."
+                  "explanation": "La tecnica deve adattarsi al profilo; un filo più piatto favorisce spesso taglio in spinta o a chop sul tagliere."
                 },
                 {
                   "id": "i-technique-safety-integrated-r2",
-                  "prompt": "Controllo applicativo — Adatta la tecnica a geometria e resistenza: quale risposta è corretta?",
+                  "prompt": "Una lama resta incastrata in un alimento denso. Qual è la risposta tecnica più sicura?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Il materiale del manico"
+                      "text": "Aumentare la leva laterale finché si libera"
                     },
                     {
                       "id": "b",
-                      "text": "La composizione dell'acciaio"
+                      "text": "Colpire il dorso mentre la lama è bloccata"
                     },
                     {
                       "id": "c",
-                      "text": "La finitura superficiale"
+                      "text": "Tenere ferma la lama e ruotare il manico"
                     },
                     {
                       "id": "d",
-                      "text": "Lunghezza utile del filo"
+                      "text": "Estrarla, stabilizzare il lavoro e cambiare angolo o utensile invece di torcere"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "La tecnica dovrebbe risolvere la resistenza, non combatterla."
+                  "explanation": "Torcendo una lama incastrata si aggiunge stress laterale; bisogna ridurre la causa della resistenza, non moltiplicare il carico."
                 }
               ]
             }
@@ -4563,79 +4563,79 @@
             "questions": [
               {
                 "id": "i-technique-safety-mini-1",
-                "prompt": "Verifica modulo — Adatta la tecnica a geometria e resistenza: scegli la risposta migliore.",
+                "prompt": "Un taglio richiede molta più forza del previsto. Che cosa va controllato prima di spingere semplicemente più forte?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Lunghezza utile del filo"
+                    "text": "Stabilità dell'alimento, angolo di taglio, profilo della lama e scelta dell'utensile"
                   },
                   {
                     "id": "b",
-                    "text": "Il materiale del manico"
+                    "text": "Solo il peso del manico"
                   },
                   {
                     "id": "c",
-                    "text": "La composizione dell'acciaio"
+                    "text": "Solo il nome dell'acciaio"
                   },
                   {
                     "id": "d",
-                    "text": "La finitura superficiale"
+                    "text": "Solo la finitura di lucidatura"
                   }
                 ],
                 "correct": "a",
-                "explanation": "La tecnica dovrebbe risolvere la resistenza, non combatterla.",
+                "explanation": "Una buona tecnica riduce la resistenza tramite stabilità, angolo e scelta dell'utensile prima di aumentare la forza.",
                 "concept_id": "technique-safety.integrated.intermediate",
                 "critical": true
               },
               {
                 "id": "i-technique-safety-mini-2",
-                "prompt": "Applicazione — Adatta la tecnica a geometria e resistenza: quale conclusione è corretta?",
+                "prompt": "Un'affettatrice lunga viene usata con brevi movimenti ripetuti a sega. Quale vantaggio si sta perdendo?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Lunghezza utile del filo"
+                    "text": "La possibilità di usare più lunghezza del filo in una passata fluida"
                   },
                   {
                     "id": "b",
-                    "text": "Il materiale del manico"
+                    "text": "La resistenza alla corrosione dell'acciaio"
                   },
                   {
                     "id": "c",
-                    "text": "La composizione dell'acciaio"
+                    "text": "La stabilità dimensionale del manico"
                   },
                   {
                     "id": "d",
-                    "text": "La finitura superficiale"
+                    "text": "Il trattamento termico della lama"
                   }
                 ],
                 "correct": "a",
-                "explanation": "La tecnica dovrebbe risolvere la resistenza, non combatterla.",
+                "explanation": "Una lama lunga da affettatura è pensata per sfruttare la lunghezza del filo, non per imitare una sega corta.",
                 "concept_id": "technique-safety.integrated.intermediate",
                 "critical": true
               },
               {
                 "id": "i-technique-safety-mini-3",
-                "prompt": "Controllo finale — Adatta la tecnica a geometria e resistenza: quale risposta è più difendibile?",
+                "prompt": "Perché un rocking molto accentuato può essere inefficiente con un profilo del filo molto piatto?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Il materiale del manico"
+                    "text": "L'acciaio diventa meno tenace"
                   },
                   {
                     "id": "b",
-                    "text": "La composizione dell'acciaio"
+                    "text": "Il manico modifica il trattamento termico"
                   },
                   {
                     "id": "c",
-                    "text": "La finitura superficiale"
+                    "text": "L'apice diventa chimicamente più morbido"
                   },
                   {
                     "id": "d",
-                    "text": "Lunghezza utile del filo"
+                    "text": "Una parte ampia del filo può perdere il contatto utile con il tagliere durante il movimento"
                   }
                 ],
                 "correct": "d",
-                "explanation": "La tecnica dovrebbe risolvere la resistenza, non combatterla.",
+                "explanation": "La tecnica deve adattarsi al profilo; un filo più piatto favorisce spesso taglio in spinta o a chop sul tagliere.",
                 "concept_id": "technique-safety.integrated.intermediate",
                 "critical": true
               }
@@ -4669,76 +4669,76 @@
               },
               "question": {
                 "id": "i-care-integrated-q",
-                "prompt": "Un coltello in acciaio al carbonio taglia alimenti acidi. Che cosa cambia?",
+                "prompt": "Un coltello in acciaio al carbonio ha appena tagliato un alimento acido. Che cosa deve cambiare nella routine di cura?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La lavastoviglie diventa più sicura"
+                    "text": "Lasciare i residui fino a fine servizio"
                   },
                   {
                     "id": "b",
-                    "text": "L'angolo del filo non conta più"
+                    "text": "Mettere il coltello in ammollo per diluire l'acido"
                   },
                   {
                     "id": "c",
-                    "text": "Pulizia e asciugatura più rapide"
+                    "text": "Risciacquarlo e asciugarlo subito invece di lasciare residui sulla lama"
                   },
                   {
                     "id": "d",
-                    "text": "Il vetro diventa il tagliere migliore"
+                    "text": "Ritardare l'asciugatura perché la patina impedisce ogni corrosione"
                   }
                 ],
                 "correct": "c",
-                "explanation": "La manutenzione dipende da materiale e ambiente."
+                "explanation": "Gli alimenti reattivi aumentano la necessità di una pulizia rapida sugli acciai meno resistenti alla corrosione."
               },
               "recovery_questions": [
                 {
                   "id": "i-care-integrated-r1",
-                  "prompt": "Verifica: Un coltello in acciaio al carbonio taglia alimenti acidi. Che cosa cambia?",
+                  "prompt": "Perché un manico in legno naturale può richiedere cure diverse da un composito stabilizzato?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "La lavastoviglie diventa più sicura"
+                      "text": "Il legno naturale non può essere usato in cucina"
                     },
                     {
                       "id": "b",
-                      "text": "L'angolo del filo non conta più"
+                      "text": "Un materiale stabilizzato non richiede mai controlli"
                     },
                     {
                       "id": "c",
-                      "text": "Pulizia e asciugatura più rapide"
+                      "text": "I cicli di umidità possono influire diversamente sulla stabilità dimensionale"
                     },
                     {
                       "id": "d",
-                      "text": "Il vetro diventa il tagliere migliore"
+                      "text": "I manici in composito rendono inutile asciugare la lama"
                     }
                   ],
                   "correct": "c",
-                  "explanation": "La manutenzione dipende da materiale e ambiente."
+                  "explanation": "La cura del manico deve seguire la risposta del materiale a umidità e ambiente."
                 },
                 {
                   "id": "i-care-integrated-r2",
-                  "prompt": "Controllo applicativo — Adatta la manutenzione a materiali e uso: quale risposta è corretta?",
+                  "prompt": "Un tagliere normalmente adatto diventa molto inciso e instabile. Che cosa va rivalutato?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "L'angolo del filo non conta più"
+                      "text": "Solo se il materiale del tagliere era inizialmente approvato"
                     },
                     {
                       "id": "b",
-                      "text": "Pulizia e asciugatura più rapide"
+                      "text": "Igiene, stabilità e capacità della superficie di sostenere un taglio sicuro"
                     },
                     {
                       "id": "c",
-                      "text": "Il vetro diventa il tagliere migliore"
+                      "text": "Il ciclo di trattamento termico del coltello"
                     },
                     {
                       "id": "d",
-                      "text": "La lavastoviglie diventa più sicura"
+                      "text": "Il numero degli strati della lama"
                     }
                   ],
                   "correct": "b",
-                  "explanation": "La manutenzione dipende da materiale e ambiente."
+                  "explanation": "Conta lo stato del tagliere oltre al materiale: i danni possono creare problemi di igiene e stabilità."
                 }
               ]
             }
@@ -4750,79 +4750,79 @@
             "questions": [
               {
                 "id": "i-care-mini-1",
-                "prompt": "Verifica modulo — Adatta la manutenzione a materiali e uso: scegli la risposta migliore.",
+                "prompt": "Un coltello pulito sviluppa corrosione localizzata dopo lo stoccaggio. Quale causa va indagata per prima?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La lavastoviglie diventa più sicura"
+                    "text": "Un angolo del filo più basso da solo"
                   },
                   {
                     "id": "b",
-                    "text": "L'angolo del filo non conta più"
+                    "text": "Un punto di bilanciamento più avanzato"
                   },
                   {
                     "id": "c",
-                    "text": "Pulizia e asciugatura più rapide"
+                    "text": "Umidità o residui intrappolati nei punti di contatto durante lo stoccaggio"
                   },
                   {
                     "id": "d",
-                    "text": "Il vetro diventa il tagliere migliore"
+                    "text": "Una pietra di affilatura più fine"
                   }
                 ],
                 "correct": "c",
-                "explanation": "La manutenzione dipende da materiale e ambiente.",
+                "explanation": "La corrosione localizzata indica spesso condizioni locali di esposizione, come umidità o residui intrappolati.",
                 "concept_id": "care.integrated.intermediate",
                 "critical": true
               },
               {
                 "id": "i-care-mini-2",
-                "prompt": "Applicazione — Adatta la manutenzione a materiali e uso: quale conclusione è corretta?",
+                "prompt": "Un coltello in acciaio al carbonio ha appena tagliato un alimento acido. Che cosa deve cambiare nella routine di cura?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La lavastoviglie diventa più sicura"
+                    "text": "Lasciare i residui fino a fine servizio"
                   },
                   {
                     "id": "b",
-                    "text": "L'angolo del filo non conta più"
+                    "text": "Mettere il coltello in ammollo per diluire l'acido"
                   },
                   {
                     "id": "c",
-                    "text": "Pulizia e asciugatura più rapide"
+                    "text": "Risciacquarlo e asciugarlo subito invece di lasciare residui sulla lama"
                   },
                   {
                     "id": "d",
-                    "text": "Il vetro diventa il tagliere migliore"
+                    "text": "Ritardare l'asciugatura perché la patina impedisce ogni corrosione"
                   }
                 ],
                 "correct": "c",
-                "explanation": "La manutenzione dipende da materiale e ambiente.",
+                "explanation": "Gli alimenti reattivi aumentano la necessità di una pulizia rapida sugli acciai meno resistenti alla corrosione.",
                 "concept_id": "care.integrated.intermediate",
                 "critical": true
               },
               {
                 "id": "i-care-mini-3",
-                "prompt": "Controllo finale — Adatta la manutenzione a materiali e uso: quale risposta è più difendibile?",
+                "prompt": "Perché un manico in legno naturale può richiedere cure diverse da un composito stabilizzato?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "L'angolo del filo non conta più"
+                    "text": "Il legno naturale non può essere usato in cucina"
                   },
                   {
                     "id": "b",
-                    "text": "Pulizia e asciugatura più rapide"
+                    "text": "I cicli di umidità possono influire diversamente sulla stabilità dimensionale"
                   },
                   {
                     "id": "c",
-                    "text": "Il vetro diventa il tagliere migliore"
+                    "text": "Un materiale stabilizzato non richiede mai controlli"
                   },
                   {
                     "id": "d",
-                    "text": "La lavastoviglie diventa più sicura"
+                    "text": "I manici in composito rendono inutile asciugare la lama"
                   }
                 ],
                 "correct": "b",
-                "explanation": "La manutenzione dipende da materiale e ambiente.",
+                "explanation": "La cura del manico deve seguire la risposta del materiale a umidità e ambiente.",
                 "concept_id": "care.integrated.intermediate",
                 "critical": true
               }
@@ -4857,76 +4857,76 @@
               },
               "question": {
                 "id": "i-sharpening-integrated-q",
-                "prompt": "La bava compare subito ma il pennarello resta sopra l'apice. Che cosa può essere sbagliato?",
+                "prompt": "La bava compare quasi subito, ma il pennarello resta sopra l'apice originale. Che cosa può stare succedendo?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Il manico è troppo leggero"
+                    "text": "La pietra è necessariamente troppo fine"
                   },
                   {
                     "id": "b",
-                    "text": "La lama ha bisogno d'olio"
+                    "text": "La lama richiede lubrificazione sul manico"
                   },
                   {
                     "id": "c",
-                    "text": "Un angolo troppo elevato"
+                    "text": "L'angolo di affilatura può essere troppo alto e creare un nuovo bisello sopra il contatto previsto"
                   },
                   {
                     "id": "d",
-                    "text": "La pietra è troppo piana"
+                    "text": "L'acciaio deve aver perso durezza"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Lascia che siano i riscontri a decidere il passo successivo."
+                "explanation": "La formazione della bava è utile solo quando l'abrasivo raggiunge la geometria del filo prevista."
               },
               "recovery_questions": [
                 {
                   "id": "i-sharpening-integrated-r1",
-                  "prompt": "Verifica: La bava compare subito ma il pennarello resta sopra l'apice. Che cosa può essere sbagliato?",
+                  "prompt": "Quasi tutto il filo presenta una bava continua, ma il tallone no. Qual è il passo successivo migliore?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Il manico è troppo leggero"
+                      "text": "Continuare a molare tutto il filo allo stesso modo finché il tallone recupera"
                     },
                     {
                       "id": "b",
-                      "text": "La lama ha bisogno d'olio"
+                      "text": "Passare subito alla pietra più fine"
                     },
                     {
                       "id": "c",
-                      "text": "Un angolo troppo elevato"
+                      "text": "Correggere localmente il tallone, poi uniformare e verificare l'intero filo"
                     },
                     {
                       "id": "d",
-                      "text": "La pietra è troppo piana"
+                      "text": "Sbavare ora e ignorare la sezione mancante"
                     }
                   ],
                   "correct": "c",
-                  "explanation": "Lascia che siano i riscontri a decidere il passo successivo."
+                  "explanation": "Un avanzamento irregolare va corretto localmente invece di rimuovere acciaio inutilmente ovunque."
                 },
                 {
                   "id": "i-sharpening-integrated-r2",
-                  "prompt": "Controllo applicativo — Usa i riscontri invece di ricette fisse: quale risposta è corretta?",
+                  "prompt": "Quando ha senso tecnico passare a una pietra più fine?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "La lama ha bisogno d'olio"
+                      "text": "Appena la superficie appare lucida"
                     },
                     {
                       "id": "b",
-                      "text": "Un angolo troppo elevato"
+                      "text": "Dopo aver raggiunto l'apice e stabilito il controllo della bava"
                     },
                     {
                       "id": "c",
-                      "text": "La pietra è troppo piana"
+                      "text": "Prima che la pietra grossa raggiunga l'apice"
                     },
                     {
                       "id": "d",
-                      "text": "Il manico è troppo leggero"
+                      "text": "Ogni volta che si desidera una bava più grande"
                     }
                   ],
                   "correct": "b",
-                  "explanation": "Lascia che siano i riscontri a decidere il passo successivo."
+                  "explanation": "Un abrasivo più fine rifinisce un lavoro già completo geometricamente; non sostituisce il raggiungimento dell'apice."
                 }
               ]
             }
@@ -4938,79 +4938,79 @@
             "questions": [
               {
                 "id": "i-sharpening-mini-1",
-                "prompt": "Verifica modulo — Usa i riscontri invece di ricette fisse: scegli la risposta migliore.",
+                "prompt": "L'usura del pennarello è uniforme, il rumore di graffiatura diventa fluido e la bava è continua. Che cosa suggerisce questa combinazione?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Il manico è troppo leggero"
+                    "text": "Che la lama deve essere alla massima durezza"
                   },
                   {
                     "id": "b",
-                    "text": "La lama ha bisogno d'olio"
+                    "text": "Che la pietra non rimuove più metallo"
                   },
                   {
                     "id": "c",
-                    "text": "Un angolo troppo elevato"
+                    "text": "Che l'abrasivo lavora con contatto coerente e che probabilmente l'apice è stato raggiunto lungo il filo"
                   },
                   {
                     "id": "d",
-                    "text": "La pietra è troppo piana"
+                    "text": "Che l'angolo del filo è automaticamente ideale per ogni uso"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Lascia che siano i riscontri a decidere il passo successivo.",
+                "explanation": "Più segnali di feedback indipendenti sono una prova migliore di un numero fisso di passate.",
                 "concept_id": "sharpening.integrated.intermediate",
                 "critical": true
               },
               {
                 "id": "i-sharpening-mini-2",
-                "prompt": "Applicazione — Usa i riscontri invece di ricette fisse: quale conclusione è corretta?",
+                "prompt": "La bava compare quasi subito, ma il pennarello resta sopra l'apice originale. Che cosa può stare succedendo?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Il manico è troppo leggero"
+                    "text": "La pietra è necessariamente troppo fine"
                   },
                   {
                     "id": "b",
-                    "text": "La lama ha bisogno d'olio"
+                    "text": "La lama richiede lubrificazione sul manico"
                   },
                   {
                     "id": "c",
-                    "text": "Un angolo troppo elevato"
+                    "text": "L'angolo di affilatura può essere troppo alto e creare un nuovo bisello sopra il contatto previsto"
                   },
                   {
                     "id": "d",
-                    "text": "La pietra è troppo piana"
+                    "text": "L'acciaio deve aver perso durezza"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Lascia che siano i riscontri a decidere il passo successivo.",
+                "explanation": "La formazione della bava è utile solo quando l'abrasivo raggiunge la geometria del filo prevista.",
                 "concept_id": "sharpening.integrated.intermediate",
                 "critical": true
               },
               {
                 "id": "i-sharpening-mini-3",
-                "prompt": "Controllo finale — Usa i riscontri invece di ricette fisse: quale risposta è più difendibile?",
+                "prompt": "Quasi tutto il filo presenta una bava continua, ma il tallone no. Qual è il passo successivo migliore?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La lama ha bisogno d'olio"
+                    "text": "Continuare a molare tutto il filo allo stesso modo finché il tallone recupera"
                   },
                   {
                     "id": "b",
-                    "text": "Un angolo troppo elevato"
+                    "text": "Correggere localmente il tallone, poi uniformare e verificare l'intero filo"
                   },
                   {
                     "id": "c",
-                    "text": "La pietra è troppo piana"
+                    "text": "Passare subito alla pietra più fine"
                   },
                   {
                     "id": "d",
-                    "text": "Il manico è troppo leggero"
+                    "text": "Sbavare ora e ignorare la sezione mancante"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Lascia che siano i riscontri a decidere il passo successivo.",
+                "explanation": "Un avanzamento irregolare va corretto localmente invece di rimuovere acciaio inutilmente ovunque.",
                 "concept_id": "sharpening.integrated.intermediate",
                 "critical": true
               }
@@ -5051,76 +5051,76 @@
               },
               "question": {
                 "id": "a-knife-system-integrated-q",
-                "prompt": "Un manico si fessura dopo ripetuti cicli bagnato-asciutto. Quale evidenza conta per prima?",
+                "prompt": "Un manico si crepa dopo ripetuti cicli bagnato-asciutto. Quali prove vanno esaminate per prime?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Valore HRC nominale"
+                    "text": "Solo la durezza nominale della lama"
                   },
                   {
                     "id": "b",
-                    "text": "Solo il numero di rivetti"
+                    "text": "Il numero degli strati visibili nella lama"
                   },
                   {
                     "id": "c",
-                    "text": "Materiale, sigillatura e storia dell'umidità"
+                    "text": "Materiale del manico, sigillatura o stabilizzazione, assemblaggio e storia dell'umidità"
                   },
                   {
                     "id": "d",
-                    "text": "Complessità del motivo lama"
+                    "text": "Solo l'angolo del filo misurato"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Usa insieme le evidenze su costruzione, percorso dei carichi e ambiente."
+                "explanation": "Il percorso di carico probabile è ambientale e strutturale, quindi sono rilevanti il materiale del manico e la sua storia di esposizione."
               },
               "recovery_questions": [
                 {
                   "id": "a-knife-system-integrated-r1",
-                  "prompt": "Verifica: Un manico si fessura dopo ripetuti cicli bagnato-asciutto. Quale evidenza conta per prima?",
+                  "prompt": "Un utilizzatore esperto sostiene che un codolo nascosto sia per natura inadatto a un uso intenso in cucina. Qual è la risposta migliore?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Valore HRC nominale"
+                      "text": "Concordare perché i codoli nascosti cedono sempre per primi"
                     },
                     {
                       "id": "b",
-                      "text": "Solo il numero di rivetti"
+                      "text": "Giudicare soltanto se il coltello è forgiato"
                     },
                     {
                       "id": "c",
-                      "text": "Materiale, sigillatura e storia dell'umidità"
+                      "text": "Valutare dimensioni del codolo, accoppiamento, fissaggio e carichi previsti prima di giudicare la durata"
                     },
                     {
                       "id": "d",
-                      "text": "Complessità del motivo lama"
+                      "text": "Usare il peso complessivo del coltello come test di durata"
                     }
                   ],
                   "correct": "c",
-                  "explanation": "Usa insieme le evidenze su costruzione, percorso dei carichi e ambiente."
+                  "explanation": "Le etichette costruttive non sostituiscono l'analisi di dimensioni, assemblaggio e carichi previsti."
                 },
                 {
                   "id": "a-knife-system-integrated-r2",
-                  "prompt": "Controllo applicativo — Diagnostica i compromessi costruttivi: quale risposta è corretta?",
+                  "prompt": "Un coltello presenta un raccordo molto spesso. Quale conclusione sul processo produttivo è giustificata dal solo aspetto?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Solo il numero di rivetti"
+                      "text": "Dimostra che raccordo e lama sono stati forgiati integralmente"
                     },
                     {
                       "id": "b",
-                      "text": "Materiale, sigillatura e storia dell'umidità"
+                      "text": "Nessuna: sia la forgiatura sia una forte asportazione di materiale possono creare quella geometria"
                     },
                     {
                       "id": "c",
-                      "text": "Complessità del motivo lama"
+                      "text": "Dimostra che il coltello è stato ricavato da lamiera sottile"
                     },
                     {
                       "id": "d",
-                      "text": "Valore HRC nominale"
+                      "text": "Dimostra che il trattamento termico è avvenuto prima della sagomatura"
                     }
                   ],
                   "correct": "b",
-                  "explanation": "Usa insieme le evidenze su costruzione, percorso dei carichi e ambiente."
+                  "explanation": "Una forma visibile non identifica univocamente il processo produttivo senza prove sul processo."
                 }
               ]
             }
@@ -5132,79 +5132,79 @@
             "questions": [
               {
                 "id": "a-knife-system-mini-1",
-                "prompt": "Verifica modulo — Diagnostica i compromessi costruttivi: scegli la risposta migliore.",
+                "prompt": "Un coltello sembra pesante sul manico a un cuoco ma neutro a un altro. Quale spiegazione va verificata per prima?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Valore HRC nominale"
+                    "text": "La composizione dell'acciaio cambia tra gli utilizzatori"
                   },
                   {
                     "id": "b",
-                    "text": "Solo il numero di rivetti"
+                    "text": "La massa del codolo cambia mentre il coltello è impugnato"
                   },
                   {
                     "id": "c",
-                    "text": "Materiale, sigillatura e storia dell'umidità"
+                    "text": "Posizioni d'impugnatura e accoppiamento con la mano diversi possono cambiare la leva percepita"
                   },
                   {
                     "id": "d",
-                    "text": "Complessità del motivo lama"
+                    "text": "Il centro di massa fisico si sposta con la preferenza"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Usa insieme le evidenze su costruzione, percorso dei carichi e ambiente.",
+                "explanation": "Il centro di massa misurato è fisso, ma il bilanciamento percepito cambia con impugnatura e leva.",
                 "concept_id": "knife-system.integrated.advanced",
                 "critical": false
               },
               {
                 "id": "a-knife-system-mini-2",
-                "prompt": "Applicazione — Diagnostica i compromessi costruttivi: quale conclusione è corretta?",
+                "prompt": "Un manico si crepa dopo ripetuti cicli bagnato-asciutto. Quali prove vanno esaminate per prime?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Valore HRC nominale"
+                    "text": "Solo la durezza nominale della lama"
                   },
                   {
                     "id": "b",
-                    "text": "Solo il numero di rivetti"
+                    "text": "Il numero degli strati visibili nella lama"
                   },
                   {
                     "id": "c",
-                    "text": "Materiale, sigillatura e storia dell'umidità"
+                    "text": "Materiale del manico, sigillatura o stabilizzazione, assemblaggio e storia dell'umidità"
                   },
                   {
                     "id": "d",
-                    "text": "Complessità del motivo lama"
+                    "text": "Solo l'angolo del filo misurato"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Usa insieme le evidenze su costruzione, percorso dei carichi e ambiente.",
+                "explanation": "Il percorso di carico probabile è ambientale e strutturale, quindi sono rilevanti il materiale del manico e la sua storia di esposizione.",
                 "concept_id": "knife-system.integrated.advanced",
                 "critical": false
               },
               {
                 "id": "a-knife-system-mini-3",
-                "prompt": "Controllo finale — Diagnostica i compromessi costruttivi: quale risposta è più difendibile?",
+                "prompt": "Un utilizzatore esperto sostiene che un codolo nascosto sia per natura inadatto a un uso intenso in cucina. Qual è la risposta migliore?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Solo il numero di rivetti"
+                    "text": "Concordare perché i codoli nascosti cedono sempre per primi"
                   },
                   {
                     "id": "b",
-                    "text": "Materiale, sigillatura e storia dell'umidità"
+                    "text": "Valutare dimensioni del codolo, accoppiamento, fissaggio e carichi previsti prima di giudicare la durata"
                   },
                   {
                     "id": "c",
-                    "text": "Complessità del motivo lama"
+                    "text": "Giudicare soltanto se il coltello è forgiato"
                   },
                   {
                     "id": "d",
-                    "text": "Valore HRC nominale"
+                    "text": "Usare il peso complessivo del coltello come test di durata"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Usa insieme le evidenze su costruzione, percorso dei carichi e ambiente.",
+                "explanation": "Le etichette costruttive non sostituiscono l'analisi di dimensioni, assemblaggio e carichi previsti.",
                 "concept_id": "knife-system.integrated.advanced",
                 "critical": false
               }
@@ -5237,76 +5237,76 @@
               },
               "question": {
                 "id": "a-steel-performance-integrated-q",
-                "prompt": "Un filo mostra micro-scheggiature dopo torsioni laterali. Che cosa va controllato per primo?",
+                "prompt": "Un filo sviluppa micro-scheggiature soprattutto dopo tagli con torsione. Che cosa va indagato prima di incolpare la qualità dell'acciaio?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Peso della confezione"
+                    "text": "Solo la durezza nominale"
                   },
                   {
                     "id": "b",
-                    "text": "Uso e geometria"
+                    "text": "Carico laterale, geometria del filo e modo in cui il coltello viene usato"
                   },
                   {
                     "id": "c",
-                    "text": "Posizione del logo"
+                    "text": "Solo la resistenza alla corrosione"
                   },
                   {
                     "id": "d",
-                    "text": "Colore del manico"
+                    "text": "Solo la resistenza all'usura abrasiva"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Diagnostica il modo di cedimento prima di cambiare acciaio."
+                "explanation": "Il cedimento è correlato a una specifica direzione di carico, quindi uso e geometria sono prove primarie."
               },
               "recovery_questions": [
                 {
                   "id": "a-steel-performance-integrated-r1",
-                  "prompt": "Verifica: Un filo mostra micro-scheggiature dopo torsioni laterali. Che cosa va controllato per primo?",
+                  "prompt": "Due fili smussati sembrano simili, ma uno si è ripiegato e l'altro si è scheggiato. Perché la distinzione è importante?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Posizione del logo"
+                      "text": "Entrambe dimostrano che l'acciaio è troppo morbido"
                     },
                     {
                       "id": "b",
-                      "text": "Colore del manico"
+                      "text": "Entrambe dimostrano che l'angolo del filo è troppo alto"
                     },
                     {
                       "id": "c",
-                      "text": "Peso della confezione"
+                      "text": "Entrambe richiedono di sostituire il coltello"
                     },
                     {
                       "id": "d",
-                      "text": "Uso e geometria"
+                      "text": "Sono modalità di cedimento diverse e possono richiedere correzioni diverse"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Diagnostica il modo di cedimento prima di cambiare acciaio."
+                  "explanation": "Ripiegamento e scheggiatura indicano interazioni diverse tra carico, tenacità, durezza e geometria."
                 },
                 {
                   "id": "a-steel-performance-integrated-r2",
-                  "prompt": "Controllo applicativo — Diagnostica il comportamento dell'acciaio dai sintomi: quale risposta è corretta?",
+                  "prompt": "Due acciai misurano lo stesso HRC, ma un filo è più stabile a un angolo fine. Che cosa va confrontato dopo?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Uso e geometria"
+                      "text": "Trattamento termico, microstruttura, popolazione dei carburi e geometria"
                     },
                     {
                       "id": "b",
-                      "text": "Posizione del logo"
+                      "text": "Prezzo di vendita e paese di commercializzazione"
                     },
                     {
                       "id": "c",
-                      "text": "Colore del manico"
+                      "text": "Solo la resistenza alla corrosione"
                     },
                     {
                       "id": "d",
-                      "text": "Peso della confezione"
+                      "text": "Solo il nome dell'acciaio stampato"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Diagnostica il modo di cedimento prima di cambiare acciaio."
+                  "explanation": "La durezza è una sola dimensione; lo stesso HRC non rende equivalenti microstruttura o sostegno del filo."
                 }
               ]
             }
@@ -5318,79 +5318,79 @@
             "questions": [
               {
                 "id": "a-steel-performance-mini-1",
-                "prompt": "Verifica modulo — Diagnostica il comportamento dell'acciaio dai sintomi: scegli la risposta migliore.",
+                "prompt": "Un utilizzatore sottopone ripetutamente il coltello a urti e forti carichi laterali. Quale modifica può essere razionale anche sacrificando parte della tenuta del filo?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Peso della confezione"
+                    "text": "Massimizzare la durezza a qualunque costo"
                   },
                   {
                     "id": "b",
-                    "text": "Uso e geometria"
+                    "text": "Privilegiare tenacità e una geometria del filo più robusta"
                   },
                   {
                     "id": "c",
-                    "text": "Posizione del logo"
+                    "text": "Usare l'angolo del filo più fine possibile"
                   },
                   {
                     "id": "d",
-                    "text": "Colore del manico"
+                    "text": "Scegliere il massimo volume di carburi disponibile"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Diagnostica il modo di cedimento prima di cambiare acciaio.",
+                "explanation": "L'equilibrio migliore delle proprietà segue il rischio di cedimento creato dal lavoro reale.",
                 "concept_id": "steel-performance.integrated.advanced",
                 "critical": false
               },
               {
                 "id": "a-steel-performance-mini-2",
-                "prompt": "Applicazione — Diagnostica il comportamento dell'acciaio dai sintomi: quale conclusione è corretta?",
+                "prompt": "Un filo sviluppa micro-scheggiature soprattutto dopo tagli con torsione. Che cosa va indagato prima di incolpare la qualità dell'acciaio?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Posizione del logo"
+                    "text": "Solo la durezza nominale"
                   },
                   {
                     "id": "b",
-                    "text": "Colore del manico"
+                    "text": "Solo la resistenza alla corrosione"
                   },
                   {
                     "id": "c",
-                    "text": "Peso della confezione"
+                    "text": "Solo la resistenza all'usura abrasiva"
                   },
                   {
                     "id": "d",
-                    "text": "Uso e geometria"
+                    "text": "Carico laterale, geometria del filo e modo in cui il coltello viene usato"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Diagnostica il modo di cedimento prima di cambiare acciaio.",
+                "explanation": "Il cedimento è correlato a una specifica direzione di carico, quindi uso e geometria sono prove primarie.",
                 "concept_id": "steel-performance.integrated.advanced",
                 "critical": false
               },
               {
                 "id": "a-steel-performance-mini-3",
-                "prompt": "Controllo finale — Diagnostica il comportamento dell'acciaio dai sintomi: quale risposta è più difendibile?",
+                "prompt": "Due fili smussati sembrano simili, ma uno si è ripiegato e l'altro si è scheggiato. Perché la distinzione è importante?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Uso e geometria"
+                    "text": "Sono modalità di cedimento diverse e possono richiedere correzioni diverse"
                   },
                   {
                     "id": "b",
-                    "text": "Posizione del logo"
+                    "text": "Entrambe dimostrano che l'acciaio è troppo morbido"
                   },
                   {
                     "id": "c",
-                    "text": "Colore del manico"
+                    "text": "Entrambe dimostrano che l'angolo del filo è troppo alto"
                   },
                   {
                     "id": "d",
-                    "text": "Peso della confezione"
+                    "text": "Entrambe richiedono di sostituire il coltello"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Diagnostica il modo di cedimento prima di cambiare acciaio.",
+                "explanation": "Ripiegamento e scheggiatura indicano interazioni diverse tra carico, tenacità, durezza e geometria.",
                 "concept_id": "steel-performance.integrated.advanced",
                 "critical": false
               }
@@ -5426,76 +5426,76 @@
               },
               "question": {
                 "id": "a-metallurgy-integrated-q",
-                "prompt": "C'è elevata resistenza all'usura ma un filo molto fine è instabile. Che cosa può contare?",
+                "prompt": "Un acciaio ha elevata resistenza all'usura, ma un filo molto fine resta instabile. Quale combinazione può spiegare il risultato?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Solo lucidatura del dorso"
+                    "text": "La sola elevata resistenza alla corrosione"
                   },
                   {
                     "id": "b",
-                    "text": "Carburi e geometria"
+                    "text": "Popolazione di carburi grossolani insieme a sostegno geometrico insufficiente"
                   },
                   {
                     "id": "c",
-                    "text": "Colore del manico e logo"
+                    "text": "Un dorso lucidato e un choil arrotondato"
                   },
                   {
                     "id": "d",
-                    "text": "Confezione e prezzo"
+                    "text": "Un materiale del manico molto denso"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Usa evidenze microstrutturali prima di affermazioni di prestigio."
+                "explanation": "Resistenza all'usura e stabilità di un filo molto fine non sono la stessa proprietà; scala dei carburi e geometria possono limitare la seconda."
               },
               "recovery_questions": [
                 {
                   "id": "a-metallurgy-integrated-r1",
-                  "prompt": "Verifica: C'è elevata resistenza all'usura ma un filo molto fine è instabile. Che cosa può contare?",
+                  "prompt": "Una lama mostra instabilità inattesa nonostante composizione e HRC appropriati. Quali variabili del trattamento termico possono ancora contare?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Colore del manico e logo"
+                      "text": "Lunghezza della lama e densità del manico"
                     },
                     {
                       "id": "b",
-                      "text": "Confezione e prezzo"
+                      "text": "Contrasto del motivo e profondità dell'incisione"
                     },
                     {
                       "id": "c",
-                      "text": "Solo lucidatura del dorso"
+                      "text": "Solo se l'acciaio è inox"
                     },
                     {
                       "id": "d",
-                      "text": "Carburi e geometria"
+                      "text": "Austenite residua, condizione di rinvenimento e microstruttura risultante"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Usa evidenze microstrutturali prima di affermazioni di prestigio."
+                  "explanation": "Composizione nominale e durezza non rivelano tutte le condizioni microstrutturali create dal trattamento termico."
                 },
                 {
                   "id": "a-metallurgy-integrated-r2",
-                  "prompt": "Controllo applicativo — Ragiona dalla microstruttura al comportamento del filo: quale risposta è corretta?",
+                  "prompt": "Due lame hanno sostanzialmente la stessa composizione ma cicli di trattamento termico differenti. Che cosa può cambiare di conseguenza?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Carburi e geometria"
+                      "text": "Equilibrio delle fasi, condizione dei carburi, tenacità e stabilità del filo"
                     },
                     {
                       "id": "b",
-                      "text": "Colore del manico e logo"
+                      "text": "Solo il colore superficiale"
                     },
                     {
                       "id": "c",
-                      "text": "Confezione e prezzo"
+                      "text": "Solo la massa totale della lama"
                     },
                     {
                       "id": "d",
-                      "text": "Solo lucidatura del dorso"
+                      "text": "Solo il comportamento alla corrosione mentre tutte le altre proprietà restano fisse"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Usa evidenze microstrutturali prima di affermazioni di prestigio."
+                  "explanation": "Il trattamento termico cambia la microstruttura, quindi la stessa composizione non implica lo stesso comportamento finale."
                 }
               ]
             }
@@ -5507,79 +5507,79 @@
             "questions": [
               {
                 "id": "a-metallurgy-mini-1",
-                "prompt": "Verifica modulo — Ragiona dalla microstruttura al comportamento del filo: scegli la risposta migliore.",
+                "prompt": "Che cosa rende difendibile un confronto metallurgico avanzato quando le misure dirette sono incomplete?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Solo lucidatura del dorso"
+                    "text": "Presentare la conclusione più forte senza riserve"
                   },
                   {
                     "id": "b",
-                    "text": "Carburi e geometria"
+                    "text": "Separare fatti misurati, inferenze ragionevoli e ciò che richiede ancora verifica"
                   },
                   {
                     "id": "c",
-                    "text": "Colore del manico e logo"
+                    "text": "Trattare la reputazione della lega come equivalente a una prova"
                   },
                   {
                     "id": "d",
-                    "text": "Confezione e prezzo"
+                    "text": "Usare l'HRC come sostituto completo della microstruttura"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Usa evidenze microstrutturali prima di affermazioni di prestigio.",
+                "explanation": "Il ragionamento avanzato deve rendere esplicito il confine delle prove invece di nascondere l'incertezza.",
                 "concept_id": "metallurgy.integrated.advanced",
                 "critical": false
               },
               {
                 "id": "a-metallurgy-mini-2",
-                "prompt": "Applicazione — Ragiona dalla microstruttura al comportamento del filo: quale conclusione è corretta?",
+                "prompt": "Un acciaio ha elevata resistenza all'usura, ma un filo molto fine resta instabile. Quale combinazione può spiegare il risultato?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Colore del manico e logo"
+                    "text": "La sola elevata resistenza alla corrosione"
                   },
                   {
                     "id": "b",
-                    "text": "Confezione e prezzo"
+                    "text": "Un dorso lucidato e un choil arrotondato"
                   },
                   {
                     "id": "c",
-                    "text": "Solo lucidatura del dorso"
+                    "text": "Un materiale del manico molto denso"
                   },
                   {
                     "id": "d",
-                    "text": "Carburi e geometria"
+                    "text": "Popolazione di carburi grossolani insieme a sostegno geometrico insufficiente"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Usa evidenze microstrutturali prima di affermazioni di prestigio.",
+                "explanation": "Resistenza all'usura e stabilità di un filo molto fine non sono la stessa proprietà; scala dei carburi e geometria possono limitare la seconda.",
                 "concept_id": "metallurgy.integrated.advanced",
                 "critical": false
               },
               {
                 "id": "a-metallurgy-mini-3",
-                "prompt": "Controllo finale — Ragiona dalla microstruttura al comportamento del filo: quale risposta è più difendibile?",
+                "prompt": "Una lama mostra instabilità inattesa nonostante composizione e HRC appropriati. Quali variabili del trattamento termico possono ancora contare?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Carburi e geometria"
+                    "text": "Austenite residua, condizione di rinvenimento e microstruttura risultante"
                   },
                   {
                     "id": "b",
-                    "text": "Colore del manico e logo"
+                    "text": "Lunghezza della lama e densità del manico"
                   },
                   {
                     "id": "c",
-                    "text": "Confezione e prezzo"
+                    "text": "Contrasto del motivo e profondità dell'incisione"
                   },
                   {
                     "id": "d",
-                    "text": "Solo lucidatura del dorso"
+                    "text": "Solo se l'acciaio è inox"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Usa evidenze microstrutturali prima di affermazioni di prestigio.",
+                "explanation": "Composizione nominale e durezza non rivelano tutte le condizioni microstrutturali create dal trattamento termico.",
                 "concept_id": "metallurgy.integrated.advanced",
                 "critical": false
               }
@@ -5613,76 +5613,76 @@
               },
               "question": {
                 "id": "a-damascus-integrated-q",
-                "prompt": "Che cosa sosterebbe meglio un'affermazione sull'usura differenziale?",
+                "prompt": "Quale prova sosterrebbe meglio un'affermazione funzionale di usura differenziale sul filo?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Evidenze misurate"
+                    "text": "Misure che colleghino proprietà e scala degli strati alla tessitura d'usura sulla linea di taglio"
                   },
                   {
                     "id": "b",
-                    "text": "Solo bellezza del motivo"
+                    "text": "Il solo motivo visivamente complesso"
                   },
                   {
                     "id": "c",
-                    "text": "Prezzo elevato"
+                    "text": "Un alto numero di strati senza misure sul filo"
                   },
                   {
                     "id": "d",
-                    "text": "Una confezione più grande"
+                    "text": "Una lunga durata di taglio senza controllare acciaio o geometria"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Separa meccanismo, osservazione e inferenza."
+                "explanation": "La prova deve collegare il meccanismo proposto a ciò che accade realmente sul filo."
               },
               "recovery_questions": [
                 {
                   "id": "a-damascus-integrated-r1",
-                  "prompt": "Verifica: Che cosa sosterebbe meglio un'affermazione sull'usura differenziale?",
+                  "prompt": "Una lama stratificata mostra una durata di affettatura insolitamente lunga. Perché l'osservazione non basta a provare che la causa sia l'usura differenziale?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Evidenze misurate"
+                      "text": "Anche acciaio, trattamento termico, geometria e affilatura possono influire sul risultato"
                     },
                     {
                       "id": "b",
-                      "text": "Solo bellezza del motivo"
+                      "text": "L'usura differenziale non può mai influire sul taglio"
                     },
                     {
                       "id": "c",
-                      "text": "Prezzo elevato"
+                      "text": "Le lame stratificate non possono essere confrontate sperimentalmente"
                     },
                     {
                       "id": "d",
-                      "text": "Una confezione più grande"
+                      "text": "Solo la resistenza alla corrosione influenza la durata di affettatura"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Separa meccanismo, osservazione e inferenza."
+                  "explanation": "Le prestazioni osservate possono avere più cause; un'affermazione sul meccanismo richiede controlli o prove dirette."
                 },
                 {
                   "id": "a-damascus-integrated-r2",
-                  "prompt": "Controllo applicativo — Valuta le evidenze funzionali sul Damasco: quale risposta è corretta?",
+                  "prompt": "Come va interpretato il termine «autoaffilante» per un Damasco integrale progettato per usura differenziale?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Solo bellezza del motivo"
+                      "text": "Come prova che la normale affilatura non è necessaria"
                     },
                     {
                       "id": "b",
-                      "text": "Prezzo elevato"
+                      "text": "Come prova che le scheggiature si riparano durante l'uso"
                     },
                     {
                       "id": "c",
-                      "text": "Una confezione più grande"
+                      "text": "Come garanzia di un angolo del filo costante"
                     },
                     {
                       "id": "d",
-                      "text": "Evidenze misurate"
+                      "text": "Come possibile mantenimento del mordente microscopico tra le affilature, non come creazione di un nuovo apice"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Separa meccanismo, osservazione e inferenza."
+                  "explanation": "L'usura differenziale può influire sulla microtessitura, mentre un apice usurato o danneggiato richiede comunque affilatura."
                 }
               ]
             }
@@ -5694,79 +5694,79 @@
             "questions": [
               {
                 "id": "a-damascus-mini-1",
-                "prompt": "Verifica modulo — Valuta le evidenze funzionali sul Damasco: scegli la risposta migliore.",
+                "prompt": "Un motivo Damasco è chiaramente visibile, ma non sono disponibili dati sulla costruzione. Quale conclusione è giustificata?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Evidenze misurate"
+                    "text": "L'aspetto è documentato, ma costruzione sottostante e meccanismo funzionale restano da provare"
                   },
                   {
                     "id": "b",
-                    "text": "Solo bellezza del motivo"
+                    "text": "La lama è certamente in Damasco integrale"
                   },
                   {
                     "id": "c",
-                    "text": "Prezzo elevato"
+                    "text": "Il numero degli strati si può dedurre dal motivo"
                   },
                   {
                     "id": "d",
-                    "text": "Una confezione più grande"
+                    "text": "La durezza differenziale è dimostrata dall'aspetto"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Separa meccanismo, osservazione e inferenza.",
+                "explanation": "Una valutazione avanzata separa ciò che è osservato da ciò che richiede ancora prove.",
                 "concept_id": "damascus.integrated.advanced",
                 "critical": false
               },
               {
                 "id": "a-damascus-mini-2",
-                "prompt": "Applicazione — Valuta le evidenze funzionali sul Damasco: quale conclusione è corretta?",
+                "prompt": "Quale prova sosterrebbe meglio un'affermazione funzionale di usura differenziale sul filo?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Evidenze misurate"
+                    "text": "Misure che colleghino proprietà e scala degli strati alla tessitura d'usura sulla linea di taglio"
                   },
                   {
                     "id": "b",
-                    "text": "Solo bellezza del motivo"
+                    "text": "Il solo motivo visivamente complesso"
                   },
                   {
                     "id": "c",
-                    "text": "Prezzo elevato"
+                    "text": "Un alto numero di strati senza misure sul filo"
                   },
                   {
                     "id": "d",
-                    "text": "Una confezione più grande"
+                    "text": "Una lunga durata di taglio senza controllare acciaio o geometria"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Separa meccanismo, osservazione e inferenza.",
+                "explanation": "La prova deve collegare il meccanismo proposto a ciò che accade realmente sul filo.",
                 "concept_id": "damascus.integrated.advanced",
                 "critical": false
               },
               {
                 "id": "a-damascus-mini-3",
-                "prompt": "Controllo finale — Valuta le evidenze funzionali sul Damasco: quale risposta è più difendibile?",
+                "prompt": "Una lama stratificata mostra una durata di affettatura insolitamente lunga. Perché l'osservazione non basta a provare che la causa sia l'usura differenziale?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Solo bellezza del motivo"
+                    "text": "L'usura differenziale non può mai influire sul taglio"
                   },
                   {
                     "id": "b",
-                    "text": "Prezzo elevato"
+                    "text": "Le lame stratificate non possono essere confrontate sperimentalmente"
                   },
                   {
                     "id": "c",
-                    "text": "Una confezione più grande"
+                    "text": "Solo la resistenza alla corrosione influenza la durata di affettatura"
                   },
                   {
                     "id": "d",
-                    "text": "Evidenze misurate"
+                    "text": "Anche acciaio, trattamento termico, geometria e affilatura possono influire sul risultato"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Separa meccanismo, osservazione e inferenza.",
+                "explanation": "Le prestazioni osservate possono avere più cause; un'affermazione sul meccanismo richiede controlli o prove dirette.",
                 "concept_id": "damascus.integrated.advanced",
                 "critical": false
               }
@@ -5799,76 +5799,76 @@
               },
               "question": {
                 "id": "a-geometry-integrated-q",
-                "prompt": "Un coltello devia costantemente da un lato dopo l'affilatura. Che cosa va controllato?",
+                "prompt": "Un coltello devia costantemente da un lato dopo l'affilatura. Quale causa geometrica va controllata per prima?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Solo finitura del manico"
+                    "text": "Lunghezza complessiva della lama"
                   },
                   {
                     "id": "b",
-                    "text": "Dimensione del logo"
+                    "text": "Densità del materiale del manico"
                   },
                   {
                     "id": "c",
-                    "text": "Confezione commerciale"
+                    "text": "Livello di lucidatura finale"
                   },
                   {
                     "id": "d",
-                    "text": "Asimmetria dei biselli"
+                    "text": "Asimmetria del bisello o della sezione che crea forze di taglio diverse"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Diagnostica la geometria prima di prescrivere modifiche di affilatura."
+                "explanation": "La deviazione è un sintomo direzionale, quindi l'asimmetria è più rilevante di variabili di finitura non correlate."
               },
               "recovery_questions": [
                 {
                   "id": "a-geometry-integrated-r1",
-                  "prompt": "Verifica: Un coltello devia costantemente da un lato dopo l'affilatura. Che cosa va controllato?",
+                  "prompt": "Dopo anni di affilature, l'apice è affilato ma il coltello fa molto più cuneo di quando era nuovo. Quale diagnosi è più coerente?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Confezione commerciale"
+                      "text": "L'apice è necessariamente troppo lucidato"
                     },
                     {
                       "id": "b",
-                      "text": "Asimmetria dei biselli"
+                      "text": "La lama può essere diventata troppo spessa dietro il filo e richiedere un assottigliamento controllato"
                     },
                     {
                       "id": "c",
-                      "text": "Solo finitura del manico"
+                      "text": "Il manico ha spostato in avanti il punto di bilanciamento"
                     },
                     {
                       "id": "d",
-                      "text": "Dimensione del logo"
+                      "text": "L'acciaio ha automaticamente perso tenacità"
                     }
                   ],
                   "correct": "b",
-                  "explanation": "Diagnostica la geometria prima di prescrivere modifiche di affilatura."
+                  "explanation": "Le affilature ripetute possono spostare il filo in una parte più spessa della lama anche se l'apice resta affilato."
                 },
                 {
                   "id": "a-geometry-integrated-r2",
-                  "prompt": "Controllo applicativo — Diagnostica i problemi causati dalla geometria: quale risposta è corretta?",
+                  "prompt": "Perché l'assottigliamento va trattato come una modifica geometrica controllata e non come un miglioramento universale?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Dimensione del logo"
+                      "text": "Aumenta sempre la tenuta del filo"
                     },
                     {
                       "id": "b",
-                      "text": "Confezione commerciale"
+                      "text": "Può influire soltanto sull'aspetto"
                     },
                     {
                       "id": "c",
-                      "text": "Asimmetria dei biselli"
+                      "text": "Migliora la penetrazione rimuovendo materiale di sostegno, ma può ridurre la robustezza se eccessivo"
                     },
                     {
                       "id": "d",
-                      "text": "Solo finitura del manico"
+                      "text": "Rende irrilevante il trattamento termico"
                     }
                   ],
                   "correct": "c",
-                  "explanation": "Diagnostica la geometria prima di prescrivere modifiche di affilatura."
+                  "explanation": "L'assottigliamento cambia la sezione resistente della lama, quindi la quantità corretta dipende da acciaio e lavoro."
                 }
               ]
             }
@@ -5880,79 +5880,79 @@
             "questions": [
               {
                 "id": "a-geometry-mini-1",
-                "prompt": "Verifica modulo — Diagnostica i problemi causati dalla geometria: scegli la risposta migliore.",
+                "prompt": "Si sta riparando un filo scheggiato. Quale principio deve guidare la geometria finale?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Solo finitura del manico"
+                    "text": "Rimuovere più acciaio possibile per sicurezza"
                   },
                   {
                     "id": "b",
-                    "text": "Dimensione del logo"
+                    "text": "Rendere i due biselli perfettamente simmetrici qualunque fosse il progetto originale"
                   },
                   {
                     "id": "c",
-                    "text": "Confezione commerciale"
+                    "text": "Scegliere l'angolo più basso che l'affilatore riesce a mantenere"
                   },
                   {
                     "id": "d",
-                    "text": "Asimmetria dei biselli"
+                    "text": "Ripristinare sufficiente integrità preservando la sezione e l'uso previsti del coltello"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Diagnostica la geometria prima di prescrivere modifiche di affilatura.",
+                "explanation": "La riparazione deve risolvere il danno senza riprogettare inutilmente il coltello.",
                 "concept_id": "geometry.integrated.advanced",
                 "critical": false
               },
               {
                 "id": "a-geometry-mini-2",
-                "prompt": "Applicazione — Diagnostica i problemi causati dalla geometria: quale conclusione è corretta?",
+                "prompt": "Un coltello devia costantemente da un lato dopo l'affilatura. Quale causa geometrica va controllata per prima?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Confezione commerciale"
+                    "text": "Lunghezza complessiva della lama"
                   },
                   {
                     "id": "b",
-                    "text": "Asimmetria dei biselli"
+                    "text": "Asimmetria del bisello o della sezione che crea forze di taglio diverse"
                   },
                   {
                     "id": "c",
-                    "text": "Solo finitura del manico"
+                    "text": "Densità del materiale del manico"
                   },
                   {
                     "id": "d",
-                    "text": "Dimensione del logo"
+                    "text": "Livello di lucidatura finale"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Diagnostica la geometria prima di prescrivere modifiche di affilatura.",
+                "explanation": "La deviazione è un sintomo direzionale, quindi l'asimmetria è più rilevante di variabili di finitura non correlate.",
                 "concept_id": "geometry.integrated.advanced",
                 "critical": false
               },
               {
                 "id": "a-geometry-mini-3",
-                "prompt": "Controllo finale — Diagnostica i problemi causati dalla geometria: quale risposta è più difendibile?",
+                "prompt": "Dopo anni di affilature, l'apice è affilato ma il coltello fa molto più cuneo di quando era nuovo. Quale diagnosi è più coerente?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Dimensione del logo"
+                    "text": "L'apice è necessariamente troppo lucidato"
                   },
                   {
                     "id": "b",
-                    "text": "Confezione commerciale"
+                    "text": "Il manico ha spostato in avanti il punto di bilanciamento"
                   },
                   {
                     "id": "c",
-                    "text": "Asimmetria dei biselli"
+                    "text": "La lama può essere diventata troppo spessa dietro il filo e richiedere un assottigliamento controllato"
                   },
                   {
                     "id": "d",
-                    "text": "Solo finitura del manico"
+                    "text": "L'acciaio ha automaticamente perso tenacità"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Diagnostica la geometria prima di prescrivere modifiche di affilatura.",
+                "explanation": "Le affilature ripetute possono spostare il filo in una parte più spessa della lama anche se l'apice resta affilato.",
                 "concept_id": "geometry.integrated.advanced",
                 "critical": false
               }
@@ -5986,76 +5986,76 @@
               },
               "question": {
                 "id": "a-knife-types-integrated-q",
-                "prompt": "Un cuoco apprezza un coltello all'inizio ma si affatica nelle preparazioni lunghe. Che cosa va rivalutato?",
+                "prompt": "Un cuoco apprezza un coltello in una prova breve ma sviluppa affaticamento durante preparazioni lunghe. Che cosa va rivalutato?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Adattamento ergonomico complessivo"
+                    "text": "Portata, impugnatura, bilanciamento ed ergonomia del carico ripetitivo nel ciclo di lavoro reale"
                   },
                   {
                     "id": "b",
-                    "text": "Solo visibilità del motivo"
+                    "text": "Solo la durezza dell'acciaio della lama"
                   },
                   {
                     "id": "c",
-                    "text": "Qualità della confezione"
+                    "text": "Solo il centro di massa misurato del coltello"
                   },
                   {
                     "id": "d",
-                    "text": "Solo posizione del logo"
+                    "text": "Solo se la forma è tradizionale"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Spiega la scelta ergonomica in funzione del lavoro reale dell'utente."
+                "explanation": "L'adattamento nel lungo periodo può rivelare effetti di leva e fatica che una prima impressione breve non mostra."
               },
               "recovery_questions": [
                 {
                   "id": "a-knife-types-integrated-r1",
-                  "prompt": "Verifica: Un cuoco apprezza un coltello all'inizio ma si affatica nelle preparazioni lunghe. Che cosa va rivalutato?",
+                  "prompt": "Perché l'impugnatura naturale di un utilizzatore può ribaltare la prima impressione di bilanciamento tra due coltelli?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Adattamento ergonomico complessivo"
+                      "text": "La posizione della presa cambia la leva e il modo in cui la massa viene percepita attorno alla mano"
                     },
                     {
                       "id": "b",
-                      "text": "Solo visibilità del motivo"
+                      "text": "Il centro di massa fisico cambia permanentemente"
                     },
                     {
                       "id": "c",
-                      "text": "Qualità della confezione"
+                      "text": "L'acciaio della lama cambia densità durante l'uso"
                     },
                     {
                       "id": "d",
-                      "text": "Solo posizione del logo"
+                      "text": "Il manico diventa più leggero con la presa pinch"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Spiega la scelta ergonomica in funzione del lavoro reale dell'utente."
+                  "explanation": "Il bilanciamento percepito è relazionale: la stessa distribuzione di massa può risultare diversa con impugnature diverse."
                 },
                 {
                   "id": "a-knife-types-integrated-r2",
-                  "prompt": "Controllo applicativo — Risolvi conflitti ergonomici complessi: quale risposta è corretta?",
+                  "prompt": "Due coltelli risolvono il lavoro, ma uno è più agile e l'altro più stabile nei tagli lunghi. Qual è l'approccio avanzato alla raccomandazione?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Solo visibilità del motivo"
+                      "text": "Dichiarare universalmente migliore il coltello più pesante"
                     },
                     {
                       "id": "b",
-                      "text": "Qualità della confezione"
+                      "text": "Scegliere l'acciaio più duro indipendentemente dal movimento"
                     },
                     {
                       "id": "c",
-                      "text": "Solo posizione del logo"
+                      "text": "Usare il prezzo come variabile tecnica decisiva"
                     },
                     {
                       "id": "d",
-                      "text": "Adattamento ergonomico complessivo"
+                      "text": "Spiegare il compromesso rispetto al flusso di lavoro reale dell'utilizzatore e lasciare che sia quello a determinare l'adattamento"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Spiega la scelta ergonomica in funzione del lavoro reale dell'utente."
+                  "explanation": "La raccomandazione avanzata rende esplicito il compromesso invece di fingere che esista una configurazione universalmente migliore."
                 }
               ]
             }
@@ -6067,79 +6067,79 @@
             "questions": [
               {
                 "id": "a-knife-types-mini-1",
-                "prompt": "Verifica modulo — Risolvi conflitti ergonomici complessi: scegli la risposta migliore.",
+                "prompt": "Un coltello specialistico è comodo ma la sua geometria non è adatta al lavoro ricorrente dell'utilizzatore. Quale fattore deve prevalere?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Adattamento ergonomico complessivo"
+                    "text": "Idoneità meccanica al lavoro, poi ergonomia tra le opzioni adatte"
                   },
                   {
                     "id": "b",
-                    "text": "Solo visibilità del motivo"
+                    "text": "La sola comodità, anche se la forma lavora contro il compito"
                   },
                   {
                     "id": "c",
-                    "text": "Qualità della confezione"
+                    "text": "La tradizione associata al tipo di coltello"
                   },
                   {
                     "id": "d",
-                    "text": "Solo posizione del logo"
+                    "text": "La massima lunghezza della lama"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Spiega la scelta ergonomica in funzione del lavoro reale dell'utente.",
+                "explanation": "L'ergonomia conta dopo che l'utensile è meccanicamente adatto al lavoro che deve svolgere.",
                 "concept_id": "knife-types.integrated.advanced",
                 "critical": false
               },
               {
                 "id": "a-knife-types-mini-2",
-                "prompt": "Applicazione — Risolvi conflitti ergonomici complessi: quale conclusione è corretta?",
+                "prompt": "Un cuoco apprezza un coltello in una prova breve ma sviluppa affaticamento durante preparazioni lunghe. Che cosa va rivalutato?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Adattamento ergonomico complessivo"
+                    "text": "Portata, impugnatura, bilanciamento ed ergonomia del carico ripetitivo nel ciclo di lavoro reale"
                   },
                   {
                     "id": "b",
-                    "text": "Solo visibilità del motivo"
+                    "text": "Solo la durezza dell'acciaio della lama"
                   },
                   {
                     "id": "c",
-                    "text": "Qualità della confezione"
+                    "text": "Solo il centro di massa misurato del coltello"
                   },
                   {
                     "id": "d",
-                    "text": "Solo posizione del logo"
+                    "text": "Solo se la forma è tradizionale"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Spiega la scelta ergonomica in funzione del lavoro reale dell'utente.",
+                "explanation": "L'adattamento nel lungo periodo può rivelare effetti di leva e fatica che una prima impressione breve non mostra.",
                 "concept_id": "knife-types.integrated.advanced",
                 "critical": false
               },
               {
                 "id": "a-knife-types-mini-3",
-                "prompt": "Controllo finale — Risolvi conflitti ergonomici complessi: quale risposta è più difendibile?",
+                "prompt": "Perché l'impugnatura naturale di un utilizzatore può ribaltare la prima impressione di bilanciamento tra due coltelli?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Solo visibilità del motivo"
+                    "text": "Il centro di massa fisico cambia permanentemente"
                   },
                   {
                     "id": "b",
-                    "text": "Qualità della confezione"
+                    "text": "L'acciaio della lama cambia densità durante l'uso"
                   },
                   {
                     "id": "c",
-                    "text": "Solo posizione del logo"
+                    "text": "Il manico diventa più leggero con la presa pinch"
                   },
                   {
                     "id": "d",
-                    "text": "Adattamento ergonomico complessivo"
+                    "text": "La posizione della presa cambia la leva e il modo in cui la massa viene percepita attorno alla mano"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Spiega la scelta ergonomica in funzione del lavoro reale dell'utente.",
+                "explanation": "Il bilanciamento percepito è relazionale: la stessa distribuzione di massa può risultare diversa con impugnature diverse.",
                 "concept_id": "knife-types.integrated.advanced",
                 "critical": false
               }
@@ -6173,76 +6173,76 @@
               },
               "question": {
                 "id": "a-technique-safety-integrated-q",
-                "prompt": "Compaiono micro-scheggiature soprattutto dopo tagli con torsione. Qual è la prima correzione?",
+                "prompt": "Le micro-scheggiature compaiono soprattutto dopo tagli con torsione. Qual è la prima azione correttiva?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Eliminare la torsione laterale"
+                    "text": "Eliminare il carico laterale di torsione e rivalutare il metodo di taglio"
                   },
                   {
                     "id": "b",
-                    "text": "Aumentare alla cieca l'angolo"
+                    "text": "Aumentare l'angolo di affilatura prima di controllare la tecnica"
                   },
                   {
                     "id": "c",
-                    "text": "Cambiare colore del manico"
+                    "text": "Scegliere prima un acciaio più duro"
                   },
                   {
                     "id": "d",
-                    "text": "Lucidare la faccia della lama"
+                    "text": "Usare più forza verso il basso per completare il taglio"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Risalire dal danno al carico che lo ha creato."
+                "explanation": "Il danno è correlato al carico laterale, quindi la prima correzione è eliminare quel carico."
               },
               "recovery_questions": [
                 {
                   "id": "a-technique-safety-integrated-r1",
-                  "prompt": "Verifica: Compaiono micro-scheggiature soprattutto dopo tagli con torsione. Qual è la prima correzione?",
+                  "prompt": "Un filo fine viene usato ripetutamente per raschiare lateralmente il cibo sul tagliere. Quale meccanismo di danno diventa più probabile?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Eliminare la torsione laterale"
+                      "text": "Carico laterale e abrasione sull'apice non legati al normale affettare"
                     },
                     {
                       "id": "b",
-                      "text": "Aumentare alla cieca l'angolo"
+                      "text": "Perdita del trattamento termico per attrito a temperatura ambiente"
                     },
                     {
                       "id": "c",
-                      "text": "Cambiare colore del manico"
+                      "text": "Cambiamento della composizione dell'acciaio"
                     },
                     {
                       "id": "d",
-                      "text": "Lucidare la faccia della lama"
+                      "text": "Ispessimento automatico dietro il filo"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Risalire dal danno al carico che lo ha creato."
+                  "explanation": "Il raschiamento laterale carica il fine apice in una direzione per cui non è ottimizzato."
                 },
                 {
                   "id": "a-technique-safety-integrated-r2",
-                  "prompt": "Controllo applicativo — Diagnostica i danni al filo causati dalla tecnica: quale risposta è corretta?",
+                  "prompt": "Una lama si incastra ripetutamente nello stesso alimento denso. Che cosa va cambiato prima di specificare un acciaio più tenace?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Aumentare alla cieca l'angolo"
+                      "text": "Solo la lucidatura del filo"
                     },
                     {
                       "id": "b",
-                      "text": "Cambiare colore del manico"
+                      "text": "Solo il materiale del manico"
                     },
                     {
                       "id": "c",
-                      "text": "Lucidare la faccia della lama"
+                      "text": "Solo il numero degli strati"
                     },
                     {
                       "id": "d",
-                      "text": "Eliminare la torsione laterale"
+                      "text": "Tecnica, angolo d'ingresso, sostegno dell'alimento o scelta dell'utensile"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Risalire dal danno al carico che lo ha creato."
+                  "explanation": "Un carico ricorrente creato dalla tecnica o da un utensile non adatto va corretto prima di cambiare la specifica del materiale."
                 }
               ]
             }
@@ -6254,79 +6254,79 @@
             "questions": [
               {
                 "id": "a-technique-safety-mini-1",
-                "prompt": "Verifica modulo — Diagnostica i danni al filo causati dalla tecnica: scegli la risposta migliore.",
+                "prompt": "Il danno compare soltanto durante un particolare movimento, mentre lo stesso filo resiste in altri lavori. Qual è l'indizio diagnostico migliore?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Eliminare la torsione laterale"
+                    "text": "Direzione del carico e resistenza create da quel movimento"
                   },
                   {
                     "id": "b",
-                    "text": "Aumentare alla cieca l'angolo"
+                    "text": "Il prezzo complessivo del coltello"
                   },
                   {
                     "id": "c",
-                    "text": "Cambiare colore del manico"
+                    "text": "Il nome dell'acciaio da solo"
                   },
                   {
                     "id": "d",
-                    "text": "Lucidare la faccia della lama"
+                    "text": "La finitura del manico"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Risalire dal danno al carico che lo ha creato.",
+                "explanation": "Un sintomo che segue un singolo movimento indica fortemente il percorso di carico di quel movimento.",
                 "concept_id": "technique-safety.integrated.advanced",
                 "critical": true
               },
               {
                 "id": "a-technique-safety-mini-2",
-                "prompt": "Applicazione — Diagnostica i danni al filo causati dalla tecnica: quale conclusione è corretta?",
+                "prompt": "Le micro-scheggiature compaiono soprattutto dopo tagli con torsione. Qual è la prima azione correttiva?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Eliminare la torsione laterale"
+                    "text": "Eliminare il carico laterale di torsione e rivalutare il metodo di taglio"
                   },
                   {
                     "id": "b",
-                    "text": "Aumentare alla cieca l'angolo"
+                    "text": "Aumentare l'angolo di affilatura prima di controllare la tecnica"
                   },
                   {
                     "id": "c",
-                    "text": "Cambiare colore del manico"
+                    "text": "Scegliere prima un acciaio più duro"
                   },
                   {
                     "id": "d",
-                    "text": "Lucidare la faccia della lama"
+                    "text": "Usare più forza verso il basso per completare il taglio"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Risalire dal danno al carico che lo ha creato.",
+                "explanation": "Il danno è correlato al carico laterale, quindi la prima correzione è eliminare quel carico.",
                 "concept_id": "technique-safety.integrated.advanced",
                 "critical": true
               },
               {
                 "id": "a-technique-safety-mini-3",
-                "prompt": "Controllo finale — Diagnostica i danni al filo causati dalla tecnica: quale risposta è più difendibile?",
+                "prompt": "Un filo fine viene usato ripetutamente per raschiare lateralmente il cibo sul tagliere. Quale meccanismo di danno diventa più probabile?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Aumentare alla cieca l'angolo"
+                    "text": "Perdita del trattamento termico per attrito a temperatura ambiente"
                   },
                   {
                     "id": "b",
-                    "text": "Cambiare colore del manico"
+                    "text": "Cambiamento della composizione dell'acciaio"
                   },
                   {
                     "id": "c",
-                    "text": "Lucidare la faccia della lama"
+                    "text": "Ispessimento automatico dietro il filo"
                   },
                   {
                     "id": "d",
-                    "text": "Eliminare la torsione laterale"
+                    "text": "Carico laterale e abrasione sull'apice non legati al normale affettare"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Risalire dal danno al carico che lo ha creato.",
+                "explanation": "Il raschiamento laterale carica il fine apice in una direzione per cui non è ottimizzato.",
                 "concept_id": "technique-safety.integrated.advanced",
                 "critical": true
               }
@@ -6360,76 +6360,76 @@
               },
               "question": {
                 "id": "a-care-integrated-q",
-                "prompt": "Un filo perde affilatura insolitamente in fretta solo su una postazione. Che cosa va controllato per primo?",
+                "prompt": "Un filo perde l'affilatura insolitamente in fretta solo su una postazione. Che cosa va controllato per prima cosa?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La confezione regalo"
+                    "text": "Solo il grado nominale dell'acciaio"
                   },
                   {
                     "id": "b",
-                    "text": "L'email dell'utente"
+                    "text": "Solo il materiale del manico"
                   },
                   {
                     "id": "c",
-                    "text": "Superficie e contatto"
+                    "text": "Superficie del tagliere e abitudini di contatto dell'utilizzatore su quella postazione"
                   },
                   {
                     "id": "d",
-                    "text": "Il logo del prodotto"
+                    "text": "Il metodo di stoccaggio usato altrove"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Diagnostica l'esposizione prima di incolpare il materiale."
+                "explanation": "Un problema limitato a una postazione indica prima di tutto le condizioni locali di contatto."
               },
               "recovery_questions": [
                 {
                   "id": "a-care-integrated-r1",
-                  "prompt": "Verifica: Un filo perde affilatura insolitamente in fretta solo su una postazione. Che cosa va controllato per primo?",
+                  "prompt": "Compare corrosione localizzata dove la lama tocca il fodero o la protezione. Qual è l'ipotesi principale?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "La confezione regalo"
+                      "text": "L'angolo del filo è troppo acuto"
                     },
                     {
                       "id": "b",
-                      "text": "L'email dell'utente"
+                      "text": "Il punto di bilanciamento è troppo avanzato"
                     },
                     {
                       "id": "c",
-                      "text": "Superficie e contatto"
+                      "text": "Umidità o residui restano intrappolati nell'area di contatto"
                     },
                     {
                       "id": "d",
-                      "text": "Il logo del prodotto"
+                      "text": "L'acciaio è diventato più morbido"
                     }
                   ],
                   "correct": "c",
-                  "explanation": "Diagnostica l'esposizione prima di incolpare il materiale."
+                  "explanation": "La posizione della corrosione è una prova sulle condizioni locali di esposizione."
                 },
                 {
                   "id": "a-care-integrated-r2",
-                  "prompt": "Controllo applicativo — Diagnostica i problemi di manutenzione: quale risposta è corretta?",
+                  "prompt": "Un manico si allenta dopo ripetute variazioni di umidità. Che cosa deve includere una diagnosi avanzata?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "L'email dell'utente"
+                      "text": "Solo l'HRC della lama"
                     },
                     {
                       "id": "b",
-                      "text": "Superficie e contatto"
+                      "text": "Movimento del materiale, metodo di assemblaggio e cicli ambientali"
                     },
                     {
                       "id": "c",
-                      "text": "Il logo del prodotto"
+                      "text": "Solo la frequenza di affilatura"
                     },
                     {
                       "id": "d",
-                      "text": "La confezione regalo"
+                      "text": "Solo la durezza del tagliere"
                     }
                   ],
                   "correct": "b",
-                  "explanation": "Diagnostica l'esposizione prima di incolpare il materiale."
+                  "explanation": "Il movimento del manico può derivare dall'interazione tra comportamento del materiale, assemblaggio e cicli di umidità."
                 }
               ]
             }
@@ -6441,79 +6441,79 @@
             "questions": [
               {
                 "id": "a-care-mini-1",
-                "prompt": "Verifica modulo — Diagnostica i problemi di manutenzione: scegli la risposta migliore.",
+                "prompt": "Due utilizzatori possiedono lo stesso acciaio; solo uno osserva frequenti puntinature di ruggine. Che cosa va confrontato prima di incolpare una qualità incoerente della lega?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La confezione regalo"
+                    "text": "Solo la lunghezza della lama"
                   },
                   {
                     "id": "b",
-                    "text": "L'email dell'utente"
+                    "text": "Solo l'angolo di affilatura"
                   },
                   {
                     "id": "c",
-                    "text": "Superficie e contatto"
+                    "text": "Esposizione agli alimenti, ritardo nella pulizia, asciugatura e ambiente di stoccaggio"
                   },
                   {
                     "id": "d",
-                    "text": "Il logo del prodotto"
+                    "text": "Solo il peso del manico"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Diagnostica l'esposizione prima di incolpare il materiale.",
+                "explanation": "I sintomi di corrosione dipendono molto dalla storia di esposizione, quindi uso e cura vanno confrontati per primi.",
                 "concept_id": "care.integrated.advanced",
                 "critical": true
               },
               {
                 "id": "a-care-mini-2",
-                "prompt": "Applicazione — Diagnostica i problemi di manutenzione: quale conclusione è corretta?",
+                "prompt": "Un filo perde l'affilatura insolitamente in fretta solo su una postazione. Che cosa va controllato per prima cosa?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La confezione regalo"
+                    "text": "Solo il grado nominale dell'acciaio"
                   },
                   {
                     "id": "b",
-                    "text": "L'email dell'utente"
+                    "text": "Solo il materiale del manico"
                   },
                   {
                     "id": "c",
-                    "text": "Superficie e contatto"
+                    "text": "Superficie del tagliere e abitudini di contatto dell'utilizzatore su quella postazione"
                   },
                   {
                     "id": "d",
-                    "text": "Il logo del prodotto"
+                    "text": "Il metodo di stoccaggio usato altrove"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Diagnostica l'esposizione prima di incolpare il materiale.",
+                "explanation": "Un problema limitato a una postazione indica prima di tutto le condizioni locali di contatto.",
                 "concept_id": "care.integrated.advanced",
                 "critical": true
               },
               {
                 "id": "a-care-mini-3",
-                "prompt": "Controllo finale — Diagnostica i problemi di manutenzione: quale risposta è più difendibile?",
+                "prompt": "Compare corrosione localizzata dove la lama tocca il fodero o la protezione. Qual è l'ipotesi principale?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "L'email dell'utente"
+                    "text": "L'angolo del filo è troppo acuto"
                   },
                   {
                     "id": "b",
-                    "text": "Superficie e contatto"
+                    "text": "Umidità o residui restano intrappolati nell'area di contatto"
                   },
                   {
                     "id": "c",
-                    "text": "Il logo del prodotto"
+                    "text": "Il punto di bilanciamento è troppo avanzato"
                   },
                   {
                     "id": "d",
-                    "text": "La confezione regalo"
+                    "text": "L'acciaio è diventato più morbido"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Diagnostica l'esposizione prima di incolpare il materiale.",
+                "explanation": "La posizione della corrosione è una prova sulle condizioni locali di esposizione.",
                 "concept_id": "care.integrated.advanced",
                 "critical": true
               }
@@ -6548,76 +6548,76 @@
               },
               "question": {
                 "id": "a-sharpening-integrated-q",
-                "prompt": "L'apice è affilato ma il coltello fa molto cuneo dopo anni di affilatura. Che cosa può servire?",
+                "prompt": "L'apice è affilato, ma il coltello fa molto cuneo dopo anni di affilature. Quale intervento può essere necessario?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Usare più olio sul manico"
+                    "text": "Una bava più grande con la stessa geometria"
                   },
                   {
                     "id": "b",
-                    "text": "Lucidare il logo"
+                    "text": "Solo una pietra di finitura più fine"
                   },
                   {
                     "id": "c",
-                    "text": "Spessore dietro il filo"
+                    "text": "Assottigliamento controllato dietro il filo invece di ulteriore lavoro sull'apice"
                   },
                   {
                     "id": "d",
-                    "text": "Creare una bava più grande"
+                    "text": "Un apice più lucidato senza cambiare la sezione"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Diagnostica prima; rimuovi solo l'acciaio necessario al problema."
+                "explanation": "Affilatura dell'apice e geometria dietro il filo sono problemi diversi e richiedono interventi diversi."
               },
               "recovery_questions": [
                 {
                   "id": "a-sharpening-integrated-r1",
-                  "prompt": "Verifica: L'apice è affilato ma il coltello fa molto cuneo dopo anni di affilatura. Che cosa può servire?",
+                  "prompt": "Un filo taglia la carta subito dopo l'affilatura ma perde mordente dopo pochi tagli. Che cosa va sospettato?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Usare più olio sul manico"
+                      "text": "Solo eccessivo spessore dietro il filo"
                     },
                     {
                       "id": "b",
-                      "text": "Lucidare il logo"
+                      "text": "Stabilizzazione insufficiente del manico"
                     },
                     {
                       "id": "c",
-                      "text": "Spessore dietro il filo"
+                      "text": "Un filo a bava residua o una sbavatura incompleta"
                     },
                     {
                       "id": "d",
-                      "text": "Creare una bava più grande"
+                      "text": "Troppa resistenza alla corrosione"
                     }
                   ],
                   "correct": "c",
-                  "explanation": "Diagnostica prima; rimuovi solo l'acciaio necessario al problema."
+                  "explanation": "Un filo a bava può sembrare molto affilato per poco, poi ripiegarsi o staccarsi perché l'apice non è stato sbavato correttamente."
                 },
                 {
                   "id": "a-sharpening-integrated-r2",
-                  "prompt": "Controllo applicativo — Diagnostica i problemi di affilatura e del filo: quale risposta è corretta?",
+                  "prompt": "Che cosa distingue riparazione di una scheggiatura, riprofilatura e assottigliamento?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Lucidare il logo"
+                      "text": "Sono tre nomi dello stesso passaggio di affilatura"
                     },
                     {
                       "id": "b",
-                      "text": "Spessore dietro il filo"
+                      "text": "Rimuovono acciaio da zone diverse per risolvere problemi geometrici diversi"
                     },
                     {
                       "id": "c",
-                      "text": "Creare una bava più grande"
+                      "text": "Differiscono soltanto per la marca della pietra usata"
                     },
                     {
                       "id": "d",
-                      "text": "Usare più olio sul manico"
+                      "text": "Richiedono sempre lo stesso angolo finale"
                     }
                   ],
                   "correct": "b",
-                  "explanation": "Diagnostica prima; rimuovi solo l'acciaio necessario al problema."
+                  "explanation": "L'affilatura avanzata parte dall'identificare quale parte della geometria causa realmente il problema."
                 }
               ]
             }
@@ -6629,79 +6629,79 @@
             "questions": [
               {
                 "id": "a-sharpening-mini-1",
-                "prompt": "Verifica modulo — Diagnostica i problemi di affilatura e del filo: scegli la risposta migliore.",
+                "prompt": "Durante un'affilatura correttiva, quando deve fermarsi l'asportazione di acciaio?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Usare più olio sul manico"
+                    "text": "Dopo un numero fisso di passate"
                   },
                   {
                     "id": "b",
-                    "text": "Lucidare il logo"
+                    "text": "Solo quando scompare ogni graffio della pietra più grossa"
                   },
                   {
                     "id": "c",
-                    "text": "Spessore dietro il filo"
+                    "text": "Quando le prove mostrano che il problema diagnosticato è corretto e la geometria prevista è ripristinata"
                   },
                   {
                     "id": "d",
-                    "text": "Creare una bava più grande"
+                    "text": "Quando la bava diventa il più grande possibile"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Diagnostica prima; rimuovi solo l'acciaio necessario al problema.",
+                "explanation": "Il lavoro correttivo deve essere guidato dalle prove e rimuovere solo l'acciaio necessario al problema.",
                 "concept_id": "sharpening.integrated.advanced",
                 "critical": true
               },
               {
                 "id": "a-sharpening-mini-2",
-                "prompt": "Applicazione — Diagnostica i problemi di affilatura e del filo: quale conclusione è corretta?",
+                "prompt": "L'apice è affilato, ma il coltello fa molto cuneo dopo anni di affilature. Quale intervento può essere necessario?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Usare più olio sul manico"
+                    "text": "Una bava più grande con la stessa geometria"
                   },
                   {
                     "id": "b",
-                    "text": "Lucidare il logo"
+                    "text": "Solo una pietra di finitura più fine"
                   },
                   {
                     "id": "c",
-                    "text": "Spessore dietro il filo"
+                    "text": "Assottigliamento controllato dietro il filo invece di ulteriore lavoro sull'apice"
                   },
                   {
                     "id": "d",
-                    "text": "Creare una bava più grande"
+                    "text": "Un apice più lucidato senza cambiare la sezione"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Diagnostica prima; rimuovi solo l'acciaio necessario al problema.",
+                "explanation": "Affilatura dell'apice e geometria dietro il filo sono problemi diversi e richiedono interventi diversi.",
                 "concept_id": "sharpening.integrated.advanced",
                 "critical": true
               },
               {
                 "id": "a-sharpening-mini-3",
-                "prompt": "Controllo finale — Diagnostica i problemi di affilatura e del filo: quale risposta è più difendibile?",
+                "prompt": "Un filo taglia la carta subito dopo l'affilatura ma perde mordente dopo pochi tagli. Che cosa va sospettato?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Lucidare il logo"
+                    "text": "Solo eccessivo spessore dietro il filo"
                   },
                   {
                     "id": "b",
-                    "text": "Spessore dietro il filo"
+                    "text": "Un filo a bava residua o una sbavatura incompleta"
                   },
                   {
                     "id": "c",
-                    "text": "Creare una bava più grande"
+                    "text": "Stabilizzazione insufficiente del manico"
                   },
                   {
                     "id": "d",
-                    "text": "Usare più olio sul manico"
+                    "text": "Troppa resistenza alla corrosione"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Diagnostica prima; rimuovi solo l'acciaio necessario al problema.",
+                "explanation": "Un filo a bava può sembrare molto affilato per poco, poi ripiegarsi o staccarsi perché l'apice non è stato sbavato correttamente.",
                 "concept_id": "sharpening.integrated.advanced",
                 "critical": true
               }
@@ -6714,11 +6714,11 @@
   "translation_provenance": {
     "source_locale": "en",
     "engine": "chatgpt-differential-v1",
-    "prompt_revision": "2026-10-02-academy-depth-v2",
+    "prompt_revision": "2026-10-02-academy-question-quality-v3",
     "source_blob_sha": "a4f13af4d53b2cfdb620cb13d9aad43f2238c68c",
     "reviewed_at": "2026-10-02",
     "guidance": "localization/locales.yml#it",
-    "note": "Italian Academy v0.2 reviewed with the current ChatGPT translation workflow; legacy Marian/OPUS-MT output is not accepted.",
+    "note": "Italian Academy v0.2 reviewed with the current ChatGPT translation workflow; Intermediate and Advanced assessment items received a second pedagogical review for plausible distractors and scenario diversity.",
     "reviewed_translatable_strings": 1655
   }
 }
