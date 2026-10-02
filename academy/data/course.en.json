@@ -1937,7 +1937,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "An unrelated secondary feature"
+                      "text": "Maximum nominal hardness alone"
                     },
                     {
                       "id": "b",
@@ -8973,23 +8973,23 @@
               },
               {
                 "id": "a-knife-types-mini-2",
-                "prompt": "Two knives have the same weight but feel different over time. What can explain it?",
+                "prompt": "Two knives have the same total weight but different rotational feel in the hand. What most directly explains the difference?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Different handle geometry"
+                    "text": "Different nominal edge hardness"
                   },
                   {
                     "id": "b",
-                    "text": "Balance and leverage"
+                    "text": "Balance and mass distribution"
                   },
                   {
                     "id": "c",
-                    "text": "An unrelated secondary feature"
+                    "text": "Different surface polish"
                   },
                   {
                     "id": "d",
-                    "text": "Different certificates"
+                    "text": "Different layer count"
                   }
                 ],
                 "correct": "b",
