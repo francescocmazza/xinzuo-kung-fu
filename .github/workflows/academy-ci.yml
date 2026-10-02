@@ -43,6 +43,9 @@ jobs:
       - name: Validate current ChatGPT Academy translation
         run: python scripts/chatgpt_translate_academy.py --check-only
 
+      - name: Audit final certification question bank
+        run: node academy-backend/scripts/validate-certification-bank.mjs
+
       - name: Check Academy JavaScript syntax
         run: |
           node --check academy/app.js
