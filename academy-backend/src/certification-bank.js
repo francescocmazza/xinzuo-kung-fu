@@ -1,7 +1,7 @@
 // Generated from the reviewed Academy Base v0.2 concept bank.
 // The final assessment covers all 27 Base concepts. Correct answers stay server-side;
 // the Worker shuffles option order on delivery to avoid positional shortcuts.
-export const BASE_CERTIFICATION_VERSION = "base-final-2026-10-v2";
+export const BASE_CERTIFICATION_VERSION = "base-final-2026-10-v3";
 
 export const BASE_CERTIFICATION_BANK = [
   {
@@ -26,12 +26,12 @@ export const BASE_CERTIFICATION_BANK = [
   },
   {
     id:"cert-base-003", conceptId:"knife-system.handle-materials.base", critical:false,
-    prompt:{en:"What should guide handle-material choice?",it:"Che cosa dovrebbe guidare la scelta del materiale del manico?"},
+    prompt:{en:"What should guide the choice of handle material?",it:"Che cosa dovrebbe guidare la scelta del materiale del manico?"},
     options:[
-      {id:"a",en:"Country of origin",it:"Paese di origine"},
-      {id:"b",en:"Use and care context",it:"Contesto d'uso e cura"},
-      {id:"c",en:"Pattern alone",it:"Solo il motivo estetico"},
-      {id:"d",en:"Highest density only",it:"Solo la densità più alta"}
+      {id:"a",en:"The highest density available",it:"La massima densità disponibile"},
+      {id:"b",en:"The user's grip, environment and care routine",it:"Impugnatura dell'utilizzatore, ambiente e routine di cura"},
+      {id:"c",en:"The most complex visible grain",it:"La venatura visibile più complessa"},
+      {id:"d",en:"The lowest weight in every case",it:"Il peso più basso in ogni caso"}
     ], correct:"b"
   },
   {
@@ -46,12 +46,12 @@ export const BASE_CERTIFICATION_BANK = [
   },
   {
     id:"cert-base-005", conceptId:"steel-performance.hardness-toughness.base", critical:false,
-    prompt:{en:"Which property most directly resists cracking?",it:"Quale proprietà resiste più direttamente alla criccatura?"},
+    prompt:{en:"Which property most directly resists cracking and fracture?",it:"Quale proprietà resiste più direttamente a criccatura e frattura?"},
     options:[
-      {id:"a",en:"Pattern density",it:"Densità del motivo"},
+      {id:"a",en:"Hardness",it:"Durezza"},
       {id:"b",en:"Toughness",it:"Tenacità"},
-      {id:"c",en:"Hardness",it:"Durezza"},
-      {id:"d",en:"Polish",it:"Lucidatura"}
+      {id:"c",en:"Wear resistance",it:"Resistenza all'usura"},
+      {id:"d",en:"Corrosion resistance",it:"Resistenza alla corrosione"}
     ], correct:"b"
   },
   {
@@ -76,11 +76,11 @@ export const BASE_CERTIFICATION_BANK = [
   },
   {
     id:"cert-base-008", conceptId:"metallurgy.heat-treatment-carbides.base", critical:false,
-    prompt:{en:"What most directly develops the final microstructure of a blade steel?",it:"Che cosa sviluppa più direttamente la microstruttura finale di un acciaio da lama?"},
+    prompt:{en:"Which process most directly develops the final microstructure of a blade steel?",it:"Quale processo sviluppa più direttamente la microstruttura finale di un acciaio da lama?"},
     options:[
-      {id:"a",en:"Blade logo",it:"Logo sulla lama"},
-      {id:"b",en:"Handle shape",it:"Forma del manico"},
-      {id:"c",en:"Packaging method",it:"Metodo di confezionamento"},
+      {id:"a",en:"Final grinding",it:"Molatura finale"},
+      {id:"b",en:"Surface polishing",it:"Lucidatura superficiale"},
+      {id:"c",en:"Handle assembly",it:"Assemblaggio del manico"},
       {id:"d",en:"Heat treatment",it:"Trattamento termico"}
     ], correct:"d"
   },
@@ -96,12 +96,12 @@ export const BASE_CERTIFICATION_BANK = [
   },
   {
     id:"cert-base-010", conceptId:"damascus.damascus-types.base", critical:false,
-    prompt:{en:"What does core-and-cladding Damascus contain at the cutting core?",it:"Che cosa contiene al nucleo tagliente un Damasco con rivestimento?"},
+    prompt:{en:"What does a core-and-cladding Damascus knife contain at the cutting core?",it:"Che cosa contiene al nucleo tagliente un coltello in Damasco con nucleo e rivestimento?"},
     options:[
-      {id:"a",en:"A plastic insert",it:"Un inserto plastico"},
-      {id:"b",en:"Separate core steel",it:"Nucleo distinto"},
-      {id:"c",en:"Only surface paint",it:"Solo vernice superficiale"},
-      {id:"d",en:"No metallic layers",it:"Nessuno strato metallico"}
+      {id:"a",en:"The same alternating layers all the way through",it:"Gli stessi strati alternati lungo tutta la sezione"},
+      {id:"b",en:"A separate core steel",it:"Un acciaio del nucleo distinto"},
+      {id:"c",en:"A monosteel blade with etched decoration",it:"Una lama monolitica con decorazione incisa"},
+      {id:"d",en:"A non-metal insert between the layers",it:"Un inserto non metallico tra gli strati"}
     ], correct:"b"
   },
   {
@@ -146,22 +146,22 @@ export const BASE_CERTIFICATION_BANK = [
   },
   {
     id:"cert-base-015", conceptId:"geometry.section-geometry.base", critical:false,
-    prompt:{en:"What most directly contributes to wedging in thick food?",it:"Che cosa contribuisce più direttamente all'effetto cuneo negli alimenti spessi?"},
+    prompt:{en:"What most directly contributes to wedging in thick food even when the apex is sharp?",it:"Che cosa contribuisce più direttamente all'effetto cuneo negli alimenti spessi anche quando l'apice è affilato?"},
     options:[
-      {id:"a",en:"Behind-edge thickness",it:"Spessore dietro il filo"},
-      {id:"b",en:"Logo depth",it:"Profondità del logo"},
-      {id:"c",en:"Handle color",it:"Colore del manico"},
-      {id:"d",en:"Box material",it:"Materiale della scatola"}
+      {id:"a",en:"Thickness behind the edge",it:"Spessore dietro il filo"},
+      {id:"b",en:"Blade length",it:"Lunghezza della lama"},
+      {id:"c",en:"Final polish",it:"Lucidatura finale"},
+      {id:"d",en:"Handle balance",it:"Bilanciamento del manico"}
     ], correct:"a"
   },
   {
     id:"cert-base-016", conceptId:"knife-types.general-purpose.base", critical:false,
-    prompt:{en:"What should come first when choosing a general-purpose knife?",it:"Che cosa viene prima nella scelta di un coltello multiuso?"},
+    prompt:{en:"What should come first when choosing a general-purpose kitchen knife?",it:"Che cosa viene prima nella scelta di un coltello da cucina multiuso?"},
     options:[
-      {id:"a",en:"The largest pattern",it:"Il motivo più grande"},
-      {id:"b",en:"The highest price",it:"Il prezzo più alto"},
-      {id:"c",en:"The darkest handle",it:"Il manico più scuro"},
-      {id:"d",en:"Actual cutting work",it:"Lavoro di taglio reale"}
+      {id:"a",en:"Blade length by itself",it:"La sola lunghezza della lama"},
+      {id:"b",en:"Steel prestige by itself",it:"Il solo prestigio dell'acciaio"},
+      {id:"c",en:"Visual style by itself",it:"Il solo stile estetico"},
+      {id:"d",en:"The cutting tasks the user actually performs",it:"I lavori di taglio che l'utilizzatore svolge davvero"}
     ], correct:"d"
   },
   {
@@ -176,12 +176,12 @@ export const BASE_CERTIFICATION_BANK = [
   },
   {
     id:"cert-base-018", conceptId:"knife-types.balance-grip.base", critical:false,
-    prompt:{en:"Why can the same knife feel differently balanced to two users?",it:"Perché lo stesso coltello può sembrare bilanciato diversamente a due utenti?"},
+    prompt:{en:"Why can the same knife feel differently balanced to two users?",it:"Perché lo stesso coltello può sembrare bilanciato diversamente a due utilizzatori?"},
     options:[
-      {id:"a",en:"The box changes leverage",it:"La scatola cambia la leva"},
-      {id:"b",en:"Different grip positions",it:"Posizioni di presa diverse"},
-      {id:"c",en:"The steel changes weight",it:"L'acciaio cambia peso"},
-      {id:"d",en:"The logo shifts mass",it:"Il logo sposta la massa"}
+      {id:"a",en:"The blade changes mass in the hand",it:"La lama cambia massa nella mano"},
+      {id:"b",en:"They may grip it at different positions",it:"Possono impugnarlo in posizioni diverse"},
+      {id:"c",en:"The center of mass physically moves",it:"Il centro di massa si sposta fisicamente"},
+      {id:"d",en:"The steel changes density during use",it:"L'acciaio cambia densità durante l'uso"}
     ], correct:"b"
   },
   {
