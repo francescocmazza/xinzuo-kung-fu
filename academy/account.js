@@ -856,7 +856,7 @@
   }
 
   async function issueManualCertificate(userId) {
-    if (!confirm("Emettere manualmente un certificato Base? Questa funzione è provvisoria finché l'assessment finale automatico non viene collegato.")) return;
+    if (!confirm("Emettere manualmente un certificato Base? Usa questa funzione solo per una correzione o eccezione amministrativa documentata.")) return;
     const result = await api("/api/admin/certificates/issue",{
       method:"POST",
       body:JSON.stringify({
@@ -866,7 +866,7 @@
         courseVersion:window.XinzuoAcademy?.getCourseVersion?.() || "0.1.0",
         assessmentVersion:"manual-admin-v1",
         publicNote:"Manual issuance by Xinzuo Academy administrator.",
-        basis:"Manual administrator issuance pending automated final assessment integration."
+        basis:"Manual administrator issuance for a documented administrative exception."
       })
     });
     window.open(certificateUrl(result.certificate.verificationCode),"_blank","noopener");
