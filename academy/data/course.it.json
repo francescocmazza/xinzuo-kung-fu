@@ -3,7 +3,7 @@
   "course_version": "0.1.0",
   "locale": "it",
   "title": "Xinzuo Academy",
-  "subtitle": "Formazione interattiva del personale basata su Il Gongfu di Xinzuo",
+  "subtitle": "Formazione interattiva del personale basata sul Gongfu di Xinzuo",
   "certification": {
     "minimum_score": 0.8,
     "maximum_critical_errors": 0,
@@ -19,7 +19,7 @@
     {
       "id": "base",
       "title": "Base",
-      "purpose": "Conoscenza corretta del prodotto, uso sicuro e buone abitudini quotidiane.",
+      "purpose": "Conoscenza accurata del prodotto e uso quotidiano corretto e sicuro dei coltelli.",
       "modules": [
         {
           "id": "base-safety-control",
@@ -28,7 +28,7 @@
           "source_paths": [
             "08-use-and-safety/safe-use-and-carrying.md"
           ],
-          "summary": "Costruisci abitudini prevedibili prima della velocità: piano stabile, alimento stabile, utensile corretto, forza controllata e manipolazione sicura.",
+          "summary": "Costruisci abitudini prevedibili prima di cercare velocità: postazione stabile, alimento stabile, utensile corretto, forza controllata e manipolazione sicura.",
           "lessons": [
             {
               "id": "bsc-01-workstation",
@@ -96,7 +96,7 @@
                 },
                 {
                   "id": "bsc-r01b",
-                  "prompt": "Quale controllo riassume meglio la regola di sicurezza della Academy?",
+                  "prompt": "Quale controllo riassume meglio la regola di sicurezza dell'Academy?",
                   "options": [
                     {
                       "id": "a",
@@ -116,7 +116,7 @@
                     }
                   ],
                   "correct": "b",
-                  "explanation": "La regola in quattro punti è un controllo prima del taglio, non una tecnica di prestazione."
+                  "explanation": "La regola in quattro punti è un controllo compatto da eseguire prima del taglio, non una tecnica per aumentare le prestazioni."
                 }
               ]
             },
@@ -182,7 +182,7 @@
                     }
                   ],
                   "correct": "b",
-                  "explanation": "Prima si rende stabile la geometria del lavoro, poi si taglia."
+                  "explanation": "Prima rendi stabile la geometria del lavoro, poi valuta la forza necessaria."
                 },
                 {
                   "id": "bsc-r02b",
@@ -268,7 +268,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Tagliare erbe con movimento controllato."
+                      "text": "Tagliare le erbe con un movimento controllato in trazione."
                     }
                   ],
                   "correct": "c",
@@ -358,7 +358,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Solo quando si usa il pinch grip."
+                      "text": "Solo quando si usa una presa a pinza."
                     }
                   ],
                   "correct": "b",
@@ -460,7 +460,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Mantenere la lama visibile e sotto controllo."
+                      "text": "Mantenere la lama visibile e il percorso del filo sotto controllo."
                     },
                     {
                       "id": "b",
@@ -483,7 +483,7 @@
           ],
           "mini_test": {
             "id": "bsc-mini-01",
-            "title": "Verifica Sicurezza e controllo",
+            "title": "Verifica: sicurezza e controllo",
             "informational": true,
             "questions": [
               {
@@ -498,7 +498,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Stabilizza tagliere → libera area → asciuga mani/manico → stabilizza alimento → scegli coltello → identifica percorso lama."
+                    "text": "Stabilizza il tagliere → libera l'area → asciuga mani e manico → stabilizza l'alimento → scegli il coltello → identifica il percorso della lama."
                   },
                   {
                     "id": "c",
@@ -627,7 +627,7 @@
             "00-knife-basics/anatomy-of-a-kitchen-knife.md",
             "04-geometry-and-bevels/single-and-double-bevels.md"
           ],
-          "summary": "Impara a nominare correttamente le parti del coltello, distinguere costruzione e qualità e capire che cosa cambia con la geometria dei biselli.",
+          "summary": "Impara a nominare correttamente le parti del coltello, a distinguere le caratteristiche costruttive dalle affermazioni sulla qualità e a capire che cosa cambia con la geometria dei biselli.",
           "lessons": [
             {
               "id": "bab-01-blade-anatomy",
@@ -639,7 +639,7 @@
                 "lead": "Una spiegazione corretta del prodotto parte dai nomi corretti.",
                 "points": [
                   "La punta è la parte anteriore; il dorso è il lato superiore normalmente non affilato; la faccia della lama è la superficie laterale ampia.",
-                  "Il filo è il bordo affilato; il tallone è la parte posteriore del filo.",
+                  "Il filo, o tagliente, è il bordo affilato; il tallone è la parte posteriore del filo.",
                   "Il bisello è la geometria che restringe la lama verso l'apice. Finitura superficiale e geometria sono due cose diverse."
                 ],
                 "takeaway": "Prima identifica la parte di cui stai parlando, poi descrivi che cosa fa."
@@ -726,11 +726,11 @@
               "critical": false,
               "source_path": "00-knife-basics/anatomy-of-a-kitchen-knife.md",
               "content": {
-                "lead": "Codolo intero, nascosto, passante e parziale descrivono costruzioni diverse, non una graduatoria automatica.",
+                "lead": "Codolo integrale, nascosto, passante e parziale descrivono costruzioni diverse, non una graduatoria automatica.",
                 "points": [
-                  "Un codolo intero segue quasi tutta la sagoma del manico ed è spesso coperto da guancette.",
-                  "Un codolo nascosto è racchiuso nel manico; un codolo passante arriva fino al fondo e non è un altro nome per codolo intero.",
-                  "Il bolster è la zona di transizione rinforzata tra lama e manico presente su molti coltelli occidentali. Presenza, assenza o saldatura da sole non determinano la qualità."
+                  "Un codolo integrale segue quasi tutta la sagoma del manico ed è spesso coperto da guancette.",
+                  "Un codolo nascosto è racchiuso nel manico; un codolo passante arriva fino al fondello e non è un altro nome per codolo integrale.",
+                  "Il raccordo (bolster) è la zona di transizione rinforzata tra lama e manico presente su molti coltelli occidentali. Presenza, assenza o metodo di saldatura, da soli, non determinano la qualità."
                 ],
                 "takeaway": "Spiega come è costruito il coltello senza trasformare una caratteristica in un giudizio universale."
               },
@@ -740,11 +740,11 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Il codolo passante è semplicemente un altro nome per codolo intero."
+                    "text": "Il codolo passante è semplicemente un altro nome per codolo integrale."
                   },
                   {
                     "id": "b",
-                    "text": "Un codolo nascosto è sempre inferiore a un codolo intero."
+                    "text": "Un codolo nascosto è sempre inferiore a un codolo integrale."
                   },
                   {
                     "id": "c",
@@ -752,7 +752,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Solo i coltelli forgiati possono avere un codolo intero."
+                    "text": "Solo i coltelli forgiati possono avere un codolo integrale."
                   }
                 ],
                 "correct": "c",
@@ -765,7 +765,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Il codolo passante è più stretto e nascosto, ma arriva fino al fondo del manico ed è fissato lì."
+                      "text": "Il codolo passante è più stretto e nascosto, ma arriva fino al fondello del manico ed è fissato lì."
                     },
                     {
                       "id": "b",
@@ -773,7 +773,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Il codolo intero si ferma sempre prima del fondo."
+                      "text": "Il codolo integrale si ferma sempre prima del fondello."
                     },
                     {
                       "id": "d",
@@ -781,11 +781,11 @@
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Il codolo passante appartiene alle costruzioni a codolo nascosto e arriva fino al fondo; non segue tutta la sagoma del manico."
+                  "explanation": "Il codolo passante appartiene alle costruzioni a codolo nascosto e arriva fino al fondello; non segue tutta la sagoma del manico."
                 },
                 {
                   "id": "bab-r02b",
-                  "prompt": "Vedi un bolster saldato su un coltello di produzione. Che cosa dimostra questo fatto, da solo?",
+                  "prompt": "Vedi un raccordo saldato su un coltello di produzione. Che cosa dimostra questo fatto, da solo?",
                   "options": [
                     {
                       "id": "a",
@@ -805,7 +805,7 @@
                     }
                   ],
                   "correct": "c",
-                  "explanation": "Un bolster separato e ben eseguito può essere una scelta razionale sia strutturalmente sia produttivamente."
+                  "explanation": "Un raccordo separato e ben eseguito può essere una scelta razionale sia strutturalmente sia produttivamente."
                 }
               ]
             },
@@ -816,7 +816,7 @@
               "critical": false,
               "source_path": "04-geometry-and-bevels/single-and-double-bevels.md",
               "content": {
-                "lead": "La maggior parte dei coltelli general-purpose viene affilata da entrambi i lati, ma 'doppio bisello' non significa sempre perfetta simmetria.",
+                "lead": "La maggior parte dei coltelli multiuso viene affilata da entrambi i lati, ma «doppio bisello» non significa sempre perfetta simmetria.",
                 "points": [
                   "Un doppio bisello simmetrico presenta geometrie comparabili sui due lati.",
                   "Un doppio bisello asimmetrico sposta il filo verso un lato e può modificare separazione dell'alimento, precisione e una lieve tendenza a deviare.",
@@ -909,10 +909,10 @@
                 "lead": "La geometria tradizionale a bisello singolo può essere destrorsa o mancina e si affila diversamente da un normale doppio bisello.",
                 "points": [
                   "I coltelli a bisello singolo concentrano il bisello principale su un lato e richiedono un metodo di affilatura diverso.",
-                  "Handedness e tendenza a deviare possono essere rilevanti: prima di consigliare il cliente bisogna verificare il modello esatto.",
+                  "La lateralità d'uso e la tendenza a deviare possono essere rilevanti: prima di consigliare il cliente bisogna verificare il modello esatto.",
                   "Il nome tradizionale della forma non prova la geometria: esistono anche versioni moderne a doppio bisello di forme tradizionalmente monobisello."
                 ],
-                "takeaway": "Non dedurre mai handedness o istruzioni di affilatura dalla sola silhouette."
+                "takeaway": "Non dedurre mai lateralità d'uso o istruzioni di affilatura dalla sola silhouette."
               },
               "question": {
                 "id": "bab-q04",
@@ -928,7 +928,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Controllare geometria e handedness del modello esatto prima di descriverlo o affilarlo."
+                    "text": "Controllare geometria e lateralità d'uso del modello esatto prima di descriverlo o affilarlo."
                   },
                   {
                     "id": "d",
@@ -941,7 +941,7 @@
               "recovery_questions": [
                 {
                   "id": "bab-r04a",
-                  "prompt": "Perché l'handedness può essere importante su un coltello a bisello singolo?",
+                  "prompt": "Perché la lateralità d'uso può essere importante su un coltello a bisello singolo?",
                   "options": [
                     {
                       "id": "a",
@@ -973,7 +973,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Spiegare che il nome della forma non prova l'handedness."
+                      "text": "Spiegare che il nome della forma, da solo, non determina la lateralità d'uso."
                     },
                     {
                       "id": "c",
@@ -992,7 +992,7 @@
           ],
           "mini_test": {
             "id": "bab-mini-01",
-            "title": "Verifica Anatomia e biselli",
+            "title": "Verifica: anatomia e biselli",
             "informational": true,
             "questions": [
               {
@@ -1077,7 +1077,7 @@
                 "id": "bab-m04",
                 "concept_id": "geometry.single_bevel_and_handedness",
                 "critical": true,
-                "prompt": "Qual è la regola corretta prima di descrivere l'handedness?",
+                "prompt": "Qual è la regola corretta prima di descrivere la lateralità d'uso?",
                 "options": [
                   {
                     "id": "a",
@@ -1204,17 +1204,17 @@
             {
               "id": "bsu-02-generalists",
               "concept_id": "shapes.general_purpose",
-              "title": "Riconosci le famiglie general-purpose",
+              "title": "Riconosci le famiglie multiuso",
               "critical": false,
               "source_path": "05-knife-types/overview.md",
               "content": {
-                "lead": "Chef's knife, gyuto, santoku e mannaia cinese possono essere tutti utensili general-purpose, ma privilegiano movimenti e geometrie differenti.",
+                "lead": "Il coltello da chef, il gyuto, il santoku e la mannaia cinese possono essere tutti utensili multiuso, ma privilegiano movimenti e geometrie differenti.",
                 "points": [
-                  "Chef's knife e gyuto offrono lunghezza e versatilità per un'ampia parte del lavoro in cucina.",
-                  "Il santoku propone un formato all-round più compatto, con altezza utile sul tagliere.",
-                  "Una mannaia cinese può offrire ampia superficie di contatto e trasporto degli alimenti, ma le versioni sottili general-purpose non sono automaticamente mannaie da osso."
+                  "I coltelli da chef e i gyuto offrono lunghezza e versatilità per un'ampia parte del lavoro in cucina.",
+                  "Il santoku propone un formato multiuso più compatto, con altezza utile sul tagliere.",
+                  "Una mannaia cinese può offrire ampia superficie di contatto e di trasferimento degli alimenti, ma le versioni sottili multiuso non sono automaticamente mannaie da osso."
                 ],
-                "takeaway": "General-purpose non significa comportamento identico."
+                "takeaway": "Multiuso non significa comportamento identico."
               },
               "question": {
                 "id": "bsu-q02",
@@ -1226,7 +1226,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Le versioni sottili general-purpose possono essere eccellenti sul tagliere, ma non vanno considerate automaticamente mannaie da osso"
+                    "text": "Le versioni sottili multiuso possono essere eccellenti sul tagliere, ma non vanno considerate automaticamente mannaie da osso."
                   },
                   {
                     "id": "c",
@@ -1243,7 +1243,7 @@
               "recovery_questions": [
                 {
                   "id": "bsu-r02a",
-                  "prompt": "Perché un santoku può piacere a chi vuole un all-round più compatto?",
+                  "prompt": "Perché un santoku può piacere a chi vuole un coltello multiuso più compatto?",
                   "options": [
                     {
                       "id": "a",
@@ -1251,7 +1251,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "È sempre più pesante di un chef's knife"
+                      "text": "È sempre più pesante di un coltello da chef."
                     },
                     {
                       "id": "c",
@@ -1263,11 +1263,11 @@
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Il formato compatto e general-purpose è uno dei motivi della sua versatilità."
+                  "explanation": "Il formato compatto e multiuso è uno dei motivi della sua versatilità."
                 },
                 {
                   "id": "bsu-r02b",
-                  "prompt": "Che cosa dovrebbe decidere tra due forme general-purpose entrambe adatte?",
+                  "prompt": "Che cosa dovrebbe guidare la scelta tra due forme multiuso entrambe adatte?",
                   "options": [
                     {
                       "id": "a",
@@ -1298,11 +1298,11 @@
               "critical": true,
               "source_path": "05-knife-types/overview.md",
               "content": {
-                "lead": "Disosso, sfilettatura, carving e lavorazione del pesce richiedono comportamenti meccanici molto diversi.",
+                "lead": "Disosso, sfilettatura, affettatura di arrosti e lavorazione del pesce richiedono comportamenti meccanici molto diversi.",
                 "points": [
                   "Un coltello da disosso è stretto per cambiare facilmente angolo attorno ad articolazioni e osso.",
                   "Un coltello da sfiletto può essere flessibile per seguire i profili del pesce; i modelli sottili e duri non vanno forzati in pieghe profonde o torsioni.",
-                  "Il deba è uno specialista della lavorazione del pesce: il tallone robusto può affrontare articolazioni e piccole ossa di pesce appropriate, ma non è una mannaia universale."
+                  "Il deba è uno specialista della lavorazione del pesce: il tallone robusto può affrontare articolazioni e piccole ossa del pesce per cui è progettato, ma non è una mannaia universale."
                 ],
                 "takeaway": "Forma specialistica significa lavoro meccanico specifico, non autorizzazione a usare più forza."
               },
@@ -1341,7 +1341,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Per aggiungere massa da chop"
+                      "text": "Per aggiungere massa per tagli a colpo."
                     },
                     {
                       "id": "c",
@@ -1357,7 +1357,7 @@
                 },
                 {
                   "id": "bsu-r03b",
-                  "prompt": "Che cosa c'è di sbagliato nel provare quanto può piegarsi un filetto in acciaio duro?",
+                  "prompt": "Che cosa c'è di sbagliato nel provare quanto può piegarsi un coltello da sfiletto in acciaio duro?",
                   "options": [
                     {
                       "id": "a",
@@ -1388,21 +1388,21 @@
               "critical": false,
               "source_path": "05-knife-types/overview.md",
               "content": {
-                "lead": "Le lame lunghe e strette da slicing servono a ridurre il movimento a sega ripetuto e ottenere porzioni più pulite.",
+                "lead": "I coltelli affettatori lunghi e stretti sono progettati per ridurre i movimenti a sega ripetuti e ottenere porzioni più pulite.",
                 "points": [
-                  "Carving knife e ham knife usano la lunghezza per lunghi tagli in trazione nella carne cotta disossata.",
-                  "I tradizionali slicer da sashimi usano un lungo movimento controllato in trazione sul pesce crudo e possono essere monobisello e handed.",
+                  "I coltelli da arrosto e da prosciutto sfruttano la lunghezza per eseguire lunghi tagli in trazione nella carne cotta disossata.",
+                  "I tradizionali affettatori da sashimi usano un lungo taglio controllato in trazione sul pesce crudo e possono avere bisello singolo e una specifica lateralità d'uso.",
                   "La lunghezza aiuta solo se l'utilizzatore esegue davvero una corsa lunga invece di brevi movimenti ripetuti a sega."
                 ],
-                "takeaway": "Il vantaggio di uno slicer nasce dall'uso della sua lunghezza nel movimento previsto."
+                "takeaway": "Il vantaggio di un coltello affettatore nasce dall'uso della sua lunghezza nel movimento previsto."
               },
               "question": {
                 "id": "bsu-q04",
-                "prompt": "Qual è il motivo principale della lunghezza di uno slicer dedicato?",
+                "prompt": "Qual è il motivo principale della lunghezza di un coltello affettatore dedicato?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Renderlo più pesante per chop verticali"
+                    "text": "Renderlo più pesante per tagli verticali a colpo."
                   },
                   {
                     "id": "b",
@@ -1423,7 +1423,7 @@
               "recovery_questions": [
                 {
                   "id": "bsu-r04a",
-                  "prompt": "Come si usa normalmente un tradizionale slicer da sashimi?",
+                  "prompt": "Come si usa normalmente un tradizionale affettatore da sashimi?",
                   "options": [
                     {
                       "id": "a",
@@ -1431,7 +1431,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Come coltello da rocking"
+                      "text": "Con un movimento oscillante."
                     },
                     {
                       "id": "c",
@@ -1443,11 +1443,11 @@
                     }
                   ],
                   "correct": "a",
-                  "explanation": "La geometria è ottimizzata per il draw slicing pulito, non per chop o flessione."
+                  "explanation": "La geometria è ottimizzata per un'affettatura pulita in trazione, non per tagli a colpo o flessioni."
                 },
                 {
                   "id": "bsu-r04b",
-                  "prompt": "Quando una lama lunga da slicing offre poco vantaggio?",
+                  "prompt": "Quando una lama lunga da affettatura offre poco vantaggio?",
                   "options": [
                     {
                       "id": "a",
@@ -1474,7 +1474,7 @@
           ],
           "mini_test": {
             "id": "bsu-mini-01",
-            "title": "Verifica Forme e utilizzo",
+            "title": "Verifica: forme e utilizzo",
             "informational": true,
             "questions": [
               {
@@ -1533,7 +1533,7 @@
                 "id": "bsu-m03",
                 "concept_id": "shapes.specialist_geometry",
                 "critical": true,
-                "prompt": "Un filetto sembra forzato mentre segue un profilo. Che cosa bisogna fare?",
+                "prompt": "Un coltello da sfiletto sembra forzato mentre segue un profilo. Che cosa bisogna fare?",
                 "options": [
                   {
                     "id": "a",
@@ -1559,7 +1559,7 @@
                 "id": "bsu-m04",
                 "concept_id": "shapes.long_slicing",
                 "critical": false,
-                "prompt": "Che cosa rende efficace uno slicer lungo?",
+                "prompt": "Che cosa rende efficace un coltello affettatore lungo?",
                 "options": [
                   {
                     "id": "a",
@@ -1575,7 +1575,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Rocking rapido"
+                    "text": "Taglio oscillante rapido."
                   }
                 ],
                 "correct": "a",
@@ -1680,7 +1680,7 @@
                     }
                   ],
                   "correct": "b",
-                  "explanation": "La comodità igienica non rende una superficie dura amica del filo."
+                  "explanation": "La praticità nella pulizia non rende una superficie dura rispettosa del filo."
                 }
               ]
             },
@@ -1770,7 +1770,7 @@
                     }
                   ],
                   "correct": "a",
-                  "explanation": "La knowledge base riconosce esplicitamente anche superfici non in legno quando adatte."
+                  "explanation": "La base di conoscenza riconosce esplicitamente anche superfici non in legno quando adatte."
                 }
               ]
             },
@@ -1787,7 +1787,7 @@
                   "Risciacqua sale e acidi, quindi asciuga completamente lama e manico.",
                   "La lavastoviglie combina detergente aggressivo, umidità prolungata, calore e rischio di urti; i cicli ripetuti possono danneggiare anche manici naturali e alcuni assemblaggi."
                 ],
-                "takeaway": "Lava a mano, risciacqua e asciuga: presto e completamente."
+                "takeaway": "Lava a mano, risciacqua e asciuga: tempestivamente e completamente."
               },
               "question": {
                 "id": "bcb-q03",
@@ -1860,7 +1860,7 @@
                     }
                   ],
                   "correct": "a",
-                  "explanation": "La fonte specifica che un inox correttamente lavato e asciugato normalmente non richiede olio in ambiente interno."
+                  "explanation": "La fonte specifica che un coltello in acciaio inossidabile, se lavato e asciugato correttamente, normalmente non richiede olio per la conservazione in ambiente interno."
                 }
               ]
             },
@@ -1873,7 +1873,7 @@
               "content": {
                 "lead": "Un filo affilato non dovrebbe urtare altri oggetti duri tra un utilizzo e l'altro.",
                 "points": [
-                  "Usa sistemi che proteggono il filo e mantengono il coltello controllato: per esempio ceppo adatto, protezione lama, saya, roll o una soluzione magnetica appropriata.",
+                  "Usa sistemi che proteggono il filo e mantengono il coltello sotto controllo: per esempio un ceppo adatto, una protezione lama, una saya, un rotolo portacoltelli o una soluzione magnetica appropriata.",
                   "Non lasciare il filo libero in un cassetto dove può urtare utensili o mani.",
                   "Evita il contatto abituale del filo con piatti, bordi di pentole, piani di lavoro e altre superfici dure."
                 ],
@@ -1897,7 +1897,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Usare un roll adatto per il trasporto"
+                    "text": "Usare un rotolo portacoltelli adatto per il trasporto."
                   }
                 ],
                 "correct": "c",
@@ -1957,7 +1957,7 @@
           ],
           "mini_test": {
             "id": "bcb-mini-01",
-            "title": "Verifica Cura e taglieri",
+            "title": "Verifica: cura e taglieri",
             "informational": true,
             "questions": [
               {
@@ -2076,7 +2076,7 @@
             "10-sharpening/basic-sharpening-process.md",
             "10-sharpening/the-burr.md"
           ],
-          "summary": "Costruisci una routine Base ripetibile: pietra stabile, contatto verificato, copertura completa del filo, bava piccola e deburring pulito.",
+          "summary": "Costruisci una routine di base ripetibile: pietra stabile, contatto verificato, copertura completa del filo, bava minima e rimozione pulita della bava.",
           "lessons": [
             {
               "id": "bsf-01-setup",
@@ -2087,7 +2087,7 @@
               "content": {
                 "lead": "Una pietra che si muove, è asciutta quando non dovrebbe o è inadatta rende difficile il controllo dell'angolo ancora prima di iniziare.",
                 "points": [
-                  "Segui le istruzioni del produttore per acqua o lubrificante: alcune pietre vanno immerse, altre sono splash-and-go.",
+                  "Segui le istruzioni del produttore per acqua o lubrificante: alcune pietre vanno immerse, altre richiedono solo di essere bagnate in superficie (splash-and-go).",
                   "Usa un supporto antiscivolo o un appoggio stabile con panno umido e lavora con buona luce.",
                   "La superficie di lavoro deve essere sufficientemente piana per un contatto affidabile; correggi un'incavatura eccessiva prima di un'affilatura seria."
                 ],
@@ -2177,9 +2177,9 @@
               "content": {
                 "lead": "Un principiante può lavorare sulla superficie sbagliata o cambiare angolo senza accorgersene.",
                 "points": [
-                  "Identifica il sottile bisello del filo, non la faccia larga della lama o una geometria primaria più alta.",
+                  "Identifica il sottile bisello del filo, non la faccia larga della lama o la molatura primaria soprastante.",
                   "Usa un pennarello sul bisello del filo per vedere dove la pietra rimuove l'inchiostro; regola finché il contatto è quello voluto.",
-                  "La posizione delle mani deve adattarsi quando la lama curva: conserva il contatto locale dal tallone alla punta invece di irrigidire il polso."
+                  "La posizione delle mani deve adattarsi quando il profilo della lama curva: mantieni il contatto locale con il bisello del filo dal tallone alla punta, invece di irrigidire il polso."
                 ],
                 "takeaway": "L'obiettivo è un contatto coerente sul bisello, non un angolo della mano memorizzato."
               },
@@ -2234,7 +2234,7 @@
                 },
                 {
                   "id": "bsf-r02b",
-                  "prompt": "Compare subito una bava ma il pennarello mostra contatto solo sull'estremo apice. Che cosa significa?",
+                  "prompt": "Compare subito una bava, ma il pennarello mostra contatto solo sull'apice. Che cosa significa?",
                   "options": [
                     {
                       "id": "a",
@@ -2242,7 +2242,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "L'angolo può essere troppo ripido anche se hai raggiunto l'apice"
+                      "text": "L'angolo può essere troppo elevato anche se hai raggiunto l'apice."
                     },
                     {
                       "id": "c",
@@ -2254,7 +2254,7 @@
                     }
                   ],
                   "correct": "b",
-                  "explanation": "Una bava rapida prova il contatto con l'apice, non la correttezza dell'angolo scelto."
+                  "explanation": "La comparsa rapida di una bava dimostra il contatto con l'apice, non che l'angolo scelto per il bisello sia corretto."
                 }
               ]
             },
@@ -2320,7 +2320,7 @@
                     }
                   ],
                   "correct": "a",
-                  "explanation": "L'affilatura va guidata dalle evidenze del contatto e dello stato del filo, non da un numero arbitrario."
+                  "explanation": "L'affilatura va guidata dai riscontri sul contatto e sullo stato del filo, non da un numero arbitrario."
                 },
                 {
                   "id": "bsf-r03b",
@@ -2344,14 +2344,14 @@
                     }
                   ],
                   "correct": "b",
-                  "explanation": "Correggi il deficit locale senza consumare inutilmente le zone già arrivate."
+                  "explanation": "Correggi il deficit locale senza consumare inutilmente le zone già completate."
                 }
               ]
             },
             {
               "id": "bsf-04-burr",
               "concept_id": "sharpening.burr_control",
-              "title": "Usa la bava più piccola e continua come prova",
+              "title": "Usa la bava più piccola e continua come riscontro",
               "critical": true,
               "source_path": "10-sharpening/the-burr.md",
               "content": {
@@ -2398,7 +2398,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Muovendolo leggermente dalla faccia verso il filo, perpendicolare ad esso, fermandosi all'apice"
+                      "text": "Muovi leggermente il polpastrello dalla faccia della lama verso il filo, perpendicolarmente al filo, fermandoti all'apice."
                     },
                     {
                       "id": "c",
@@ -2418,7 +2418,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Spreca acciaio e può comportarsi come un fragile filo metallico"
+                      "text": "Spreca acciaio e può comportarsi come un fragile filo residuo (wire edge)."
                     },
                     {
                       "id": "b",
@@ -2426,7 +2426,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Rende inutile il deburring"
+                      "text": "Rende inutile la rimozione della bava."
                     },
                     {
                       "id": "d",
@@ -2441,15 +2441,15 @@
             {
               "id": "bsf-05-deburr-test",
               "concept_id": "sharpening.deburr_and_test",
-              "title": "Riduci la pressione, rimuovi la bava e testa con criterio",
+              "title": "Riduci la pressione, rimuovi la bava e verifica il filo con criterio",
               "critical": true,
               "source_path": "10-sharpening/basic-sharpening-process.md",
               "content": {
-                "lead": "La fase finale stabilizza l'apice; una grande lucidatura da sola non garantisce un buon filo.",
+                "lead": "La fase finale stabilizza l'apice; la lucidatura, da sola, non garantisce un buon filo.",
                 "points": [
                   "Riduci gradualmente la pressione e alterna più spesso i lati finché non rimane alcun uncino direzionale.",
                   "Una coramella può aiutare con una bava molto fine residua, ma è opzionale: la pietra deve già produrre un filo pulito e stabile.",
-                  "Controlla con luce forte, verifica della bava e tagli controllati su carta o alimenti adatti come il pomodoro. La sola carta può essere ingannata da un wire edge fragile."
+                  "Controlla con luce forte, verifica la bava ed esegui tagli controllati su carta o alimenti adatti, come il pomodoro. La prova sulla carta, da sola, può dare un falso positivo in presenza di un fragile filo residuo (wire edge)."
                 ],
                 "takeaway": "Un buon filo è pulito, stabile e coerente per tutta la sua lunghezza."
               },
@@ -2463,7 +2463,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Un wire edge fragile può tagliare la carta una volta e poi fallire nell'alimento"
+                    "text": "Un fragile filo residuo (wire edge) può tagliare la carta una volta e poi cedere sull'alimento."
                   },
                   {
                     "id": "c",
@@ -2480,7 +2480,7 @@
               "recovery_questions": [
                 {
                   "id": "bsf-r05a",
-                  "prompt": "Che cosa deve succedere alla pressione durante il deburring?",
+                  "prompt": "Che cosa deve succedere alla pressione durante la rimozione della bava?",
                   "options": [
                     {
                       "id": "a",
@@ -2504,7 +2504,7 @@
                 },
                 {
                   "id": "bsf-r05b",
-                  "prompt": "La coramella è obbligatoria per ottenere un buon filo Base?",
+                  "prompt": "La coramella è obbligatoria per ottenere un buon filo di base?",
                   "options": [
                     {
                       "id": "a",
@@ -2531,7 +2531,7 @@
           ],
           "mini_test": {
             "id": "bsf-mini-01",
-            "title": "Verifica Fondamenti di affilatura",
+            "title": "Verifica: fondamenti di affilatura",
             "informational": true,
             "questions": [
               {
@@ -2584,7 +2584,7 @@
                   }
                 ],
                 "correct": "b",
-                "explanation": "La rimozione dell'inchiostro visualizza il contatto."
+                "explanation": "La rimozione dell'inchiostro rende visibile il contatto sul bisello."
               },
               {
                 "id": "bsf-m03",
@@ -2610,13 +2610,13 @@
                   }
                 ],
                 "correct": "a",
-                "explanation": "Il lavoro necessario varia con sistema e condizione iniziale."
+                "explanation": "Il lavoro necessario varia con il sistema di affilatura e lo stato iniziale del filo."
               },
               {
                 "id": "bsf-m04",
                 "concept_id": "sharpening.burr_control",
                 "critical": true,
-                "prompt": "Qual è il target corretto della bava?",
+                "prompt": "Qual è l'obiettivo corretto per la bava?",
                 "options": [
                   {
                     "id": "a",
@@ -2650,7 +2650,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Combinare controllo bava/luce con carta e alimento adatto"
+                    "text": "Combinare l'ispezione della bava e alla luce con prove controllate su carta e alimenti adatti."
                   },
                   {
                     "id": "c",
@@ -2662,7 +2662,7 @@
                   }
                 ],
                 "correct": "b",
-                "explanation": "Più controlli riducono il rischio di scambiare un wire edge per un apice stabile."
+                "explanation": "Più controlli riducono il rischio di scambiare un fragile filo residuo (wire edge) per un apice stabile."
               }
             ]
           }
@@ -2687,10 +2687,10 @@
                 "lead": "Una buona consulenza parte dalla cucina del cliente, non da una presentazione del prodotto.",
                 "points": [
                   "Chiedi quali alimenti taglia più spesso e in quali quantità.",
-                  "Chiedi se lavora soprattutto sul tagliere o in mano e quali movimenti usa: chop, push cut, rocking, affettatura lunga, disosso, sfilettatura o dettaglio fine.",
+                  "Chiedi se lavora soprattutto sul tagliere o in mano e quali movimenti usa: taglio a colpo, taglio a spingere, taglio oscillante, affettatura lunga, disosso, sfilettatura o lavoro di precisione.",
                   "Chiedi quali difficoltà ricorrono: lama troppo grande, poco spazio per le nocche, punta difficile da controllare, peso eccessivo o lunghezza insufficiente."
                 ],
-                "takeaway": "Più il lavoro è definito bene, più la shortlist diventa piccola e utile."
+                "takeaway": "Più il lavoro è definito bene, più la selezione si restringe e diventa utile."
               },
               "question": {
                 "id": "bcd-q01",
@@ -2776,7 +2776,7 @@
               "content": {
                 "lead": "La forma della lama risolve il problema di lavoro prima che entrino in gioco acciaio o decorazione.",
                 "points": [
-                  "Il lavoro ampio sul tagliere richiede sufficiente altezza e contatto utile; porzioni lunghe e pulite richiedono lunghezza da slicer.",
+                  "Il lavoro ampio sul tagliere richiede sufficiente altezza della lama e contatto utile del filo; porzioni lunghe e pulite richiedono la lunghezza di un affettatore.",
                   "Lavorare attorno all'osso richiede geometrie strette e controllabili; seguire i profili del pesce può richiedere una flessibilità progettata; il dettaglio fine beneficia di una punta precisa.",
                   "Non consigliare una forma specialistica solo perché è vistosa."
                 ],
@@ -2809,11 +2809,11 @@
               "recovery_questions": [
                 {
                   "id": "bcd-r02a",
-                  "prompt": "Un cliente fa spesso lunghi tagli di carving. Quale caratteristica va risolta per prima?",
+                  "prompt": "Un cliente esegue spesso lunghi tagli di affettatura su arrosti. Quale caratteristica va risolta per prima?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Una famiglia di lama con lunghezza e geometria adatte allo slicing"
+                      "text": "Una famiglia di lama con lunghezza e geometria adatte all'affettatura."
                     },
                     {
                       "id": "b",
@@ -2821,7 +2821,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Un codolo intero a prescindere dalla forma"
+                      "text": "Un codolo integrale a prescindere dalla forma."
                     },
                     {
                       "id": "d",
@@ -2867,14 +2867,14 @@
                 "lead": "Il coltello ha un centro di massa fisico, ma il bilanciamento percepito dipende da dove la mano lo controlla.",
                 "points": [
                   "Con una presa sul manico la mano è più arretrata, quindi un bilanciamento verso la lama si percepisce maggiormente.",
-                  "Con una presa intermedia/ibrida il controllo si sposta verso il bolster; con il pinch grip pollice e indice controllano la lama appena davanti ad esso.",
-                  "Un coltello percepito molto blade-heavy da dietro può sembrare quasi neutro con un pinch grip avanzato."
+                  "Con una presa intermedia il controllo si sposta verso il raccordo; con la presa a pinza pollice e indice controllano la lama appena davanti ad esso.",
+                  "Un coltello percepito molto sbilanciato verso la lama da una presa arretrata può sembrare quasi neutro con una presa a pinza avanzata."
                 ],
                 "takeaway": "Non chiedere solo «È ben bilanciato?». Chiedi «Come si bilancia nella tua presa abituale?»"
               },
               "question": {
                 "id": "bcd-q03",
-                "prompt": "Perché due persone possono avere opinioni diverse sul fatto che lo stesso coltello sia blade-heavy?",
+                "prompt": "Perché due persone possono avere opinioni diverse sul fatto che lo stesso coltello sembri sbilanciato verso la lama?",
                 "options": [
                   {
                     "id": "a",
@@ -2923,7 +2923,7 @@
                 },
                 {
                   "id": "bcd-r03b",
-                  "prompt": "Un coltello può sembrare più neutro spostando la mano in avanti in pinch grip?",
+                  "prompt": "Un coltello può sembrare più neutro spostando la mano in avanti con una presa a pinza?",
                   "options": [
                     {
                       "id": "a",
@@ -2956,7 +2956,7 @@
               "content": {
                 "lead": "Le specifiche restringono il campo; la mano del cliente decide tra opzioni tecnicamente adatte.",
                 "points": [
-                  "Confronta forma, circonferenza e profilo del manico, transizione del bolster, peso totale e bilanciamento.",
+                  "Confronta forma, circonferenza e profilo del manico, transizione del raccordo, peso totale e bilanciamento.",
                   "Metti nella mano del cliente più coltelli funzionalmente adatti invece di forzare un unico modello «migliore».",
                   "Piccole differenze nel profilo del manico o nella distribuzione delle masse possono cambiare molto comfort e controllo."
                 ],
@@ -2972,7 +2972,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Spingere un unico best seller universale"
+                    "text": "Spingere un unico modello più venduto come soluzione universale."
                   },
                   {
                     "id": "c",
@@ -3048,7 +3048,7 @@
                 "points": [
                   "Confronta acciaio, trattamento termico, costruzione, materiale del manico, finitura, estetica e prezzo tra modelli già adatti al lavoro e all'utente.",
                   "Spiega i compromessi invece di dichiarare un «miglior coltello» universale.",
-                  "Ricorda il metodo: function, fit, selection."
+                  "Ricorda il metodo: funzione, ergonomia, scelta."
                 ],
                 "takeaway": "Le caratteristiche completano una buona raccomandazione; non sostituiscono l'idoneità."
               },
@@ -3062,7 +3062,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Function → fit → selection"
+                    "text": "Funzione → ergonomia → scelta"
                   },
                   {
                     "id": "c",
@@ -3091,7 +3091,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Devono sempre superare l'ergonomia"
+                      "text": "Devono sempre prevalere sull'ergonomia."
                     },
                     {
                       "id": "d",
@@ -3130,7 +3130,7 @@
           ],
           "mini_test": {
             "id": "bcd-mini-01",
-            "title": "Verifica Analisi esigenze cliente",
+            "title": "Verifica: analisi delle esigenze del cliente",
             "informational": true,
             "questions": [
               {
@@ -3223,7 +3223,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Un solo best seller"
+                    "text": "Un solo modello più venduto."
                   },
                   {
                     "id": "c",
@@ -3245,7 +3245,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Function → fit → selection"
+                    "text": "Funzione → ergonomia → scelta"
                   },
                   {
                     "id": "b",
@@ -3253,15 +3253,15 @@
                   },
                   {
                     "id": "c",
-                    "text": "Motivo → durezza → fit"
+                    "text": "Motivo → durezza → ergonomia"
                   },
                   {
                     "id": "d",
-                    "text": "Brand → prezzo → misura"
+                    "text": "Marchio → prezzo → misura"
                   }
                 ],
                 "correct": "a",
-                "explanation": "È il metodo definito nella knowledge base."
+                "explanation": "È il metodo definito nella base di conoscenza."
               }
             ]
           }
@@ -3331,7 +3331,7 @@
     {
       "id": "advanced",
       "title": "Avanzato",
-      "purpose": "Diagnostica compromessi, utilizzi specialistici e problemi del filo, quindi consiglia il cliente con ragionamento basato su evidenze.",
+      "purpose": "Diagnostica compromessi, utilizzi specialistici e problemi del filo, quindi consiglia il cliente con un ragionamento fondato su riscontri concreti.",
       "modules": [
         {
           "id": "adv-material-reasoning",
@@ -3386,5 +3386,15 @@
         }
       ]
     }
-  ]
+  ],
+  "translation_provenance": {
+    "source_locale": "en",
+    "engine": "chatgpt-differential-v1",
+    "prompt_revision": "2026-10-02-academy-it-v1",
+    "source_blob_sha": "0c388b7dcb3904e40ff5a30870ca9adac385832f",
+    "reviewed_at": "2026-10-02",
+    "reviewed_translatable_strings": 848,
+    "guidance": "localization/locales.yml#it",
+    "note": "Italian Academy course reviewed end-to-end with the current ChatGPT translation system; no legacy Marian/OPUS-MT output is accepted."
+  }
 }
