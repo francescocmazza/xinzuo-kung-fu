@@ -237,7 +237,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Hand, environment and care needs"
+                    "text": "Use and care context"
                   },
                   {
                     "id": "c",
@@ -270,7 +270,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Hand, environment and care needs"
+                      "text": "Use and care context"
                     }
                   ],
                   "correct": "d",
@@ -282,7 +282,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Hand, environment and care needs"
+                      "text": "Use and care context"
                     },
                     {
                       "id": "b",
@@ -378,7 +378,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Hand, environment and care needs"
+                    "text": "Use and care context"
                   }
                 ],
                 "correct": "d",
@@ -427,7 +427,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "It balances several performance dimensions"
+                    "text": "A property balance"
                   },
                   {
                     "id": "d",
@@ -452,7 +452,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "It balances several performance dimensions"
+                      "text": "A property balance"
                     },
                     {
                       "id": "d",
@@ -472,7 +472,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "It balances several performance dimensions"
+                      "text": "A property balance"
                     },
                     {
                       "id": "c",
@@ -599,7 +599,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "It can make sharpening slower"
+                    "text": "Higher sharpening effort"
                   },
                   {
                     "id": "b",
@@ -624,7 +624,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "It can make sharpening slower"
+                      "text": "Higher sharpening effort"
                     },
                     {
                       "id": "b",
@@ -660,7 +660,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "It can make sharpening slower"
+                      "text": "Higher sharpening effort"
                     }
                   ],
                   "correct": "d",
@@ -688,7 +688,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "It balances several performance dimensions"
+                    "text": "A property balance"
                   },
                   {
                     "id": "d",
@@ -732,7 +732,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "It can make sharpening slower"
+                    "text": "Higher sharpening effort"
                   },
                   {
                     "id": "b",
@@ -976,7 +976,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "No universal performance ranking"
+                    "text": "No automatic ranking"
                   },
                   {
                     "id": "d",
@@ -1001,7 +1001,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "No universal performance ranking"
+                      "text": "No automatic ranking"
                     },
                     {
                       "id": "d",
@@ -1021,7 +1021,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "No universal performance ranking"
+                      "text": "No automatic ranking"
                     },
                     {
                       "id": "c",
@@ -1101,7 +1101,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "No universal performance ranking"
+                    "text": "No automatic ranking"
                   },
                   {
                     "id": "b",
@@ -1159,7 +1159,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "A distinct core steel"
+                    "text": "Separate core steel"
                   },
                   {
                     "id": "c",
@@ -1192,7 +1192,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "A distinct core steel"
+                      "text": "Separate core steel"
                     }
                   ],
                   "correct": "d",
@@ -1204,7 +1204,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "A distinct core steel"
+                      "text": "Separate core steel"
                     },
                     {
                       "id": "b",
@@ -1347,7 +1347,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Layers can wear at different rates"
+                    "text": "Different layer wear"
                   }
                 ],
                 "correct": "d",
@@ -1364,7 +1364,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Layers can wear at different rates"
+                      "text": "Different layer wear"
                     },
                     {
                       "id": "c",
@@ -1392,7 +1392,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Layers can wear at different rates"
+                      "text": "Different layer wear"
                     },
                     {
                       "id": "d",
@@ -1428,7 +1428,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "A distinct core steel"
+                    "text": "Separate core steel"
                   }
                 ],
                 "correct": "d",
@@ -1472,7 +1472,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Layers can wear at different rates"
+                    "text": "Different layer wear"
                   },
                   {
                     "id": "c",
@@ -1701,7 +1701,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Cross-section behind the edge"
+                    "text": "Behind-edge thickness"
                   },
                   {
                     "id": "b",
@@ -1726,7 +1726,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Cross-section behind the edge"
+                      "text": "Behind-edge thickness"
                     },
                     {
                       "id": "b",
@@ -1762,7 +1762,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Cross-section behind the edge"
+                      "text": "Behind-edge thickness"
                     }
                   ],
                   "correct": "d",
@@ -1842,7 +1842,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Cross-section behind the edge"
+                    "text": "Behind-edge thickness"
                   },
                   {
                     "id": "d",
@@ -1900,7 +1900,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The user's cutting work"
+                    "text": "Actual cutting work"
                   }
                 ],
                 "correct": "d",
@@ -1917,7 +1917,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "The user's cutting work"
+                      "text": "Actual cutting work"
                     },
                     {
                       "id": "c",
@@ -1945,7 +1945,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "The user's cutting work"
+                      "text": "Actual cutting work"
                     },
                     {
                       "id": "d",
@@ -2072,7 +2072,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "They may use different grip positions"
+                    "text": "Different grip positions"
                   },
                   {
                     "id": "c",
@@ -2105,7 +2105,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "They may use different grip positions"
+                      "text": "Different grip positions"
                     }
                   ],
                   "correct": "d",
@@ -2117,7 +2117,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "They may use different grip positions"
+                      "text": "Different grip positions"
                     },
                     {
                       "id": "b",
@@ -2161,7 +2161,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The user's cutting work"
+                    "text": "Actual cutting work"
                   }
                 ],
                 "correct": "d",
@@ -2205,7 +2205,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "They may use different grip positions"
+                    "text": "Different grip positions"
                   },
                   {
                     "id": "c",
@@ -2353,7 +2353,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Stabilize board, food and blade path"
+                    "text": "Stable board, food and path"
                   },
                   {
                     "id": "d",
@@ -2378,7 +2378,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Stabilize board, food and blade path"
+                      "text": "Stable board, food and path"
                     },
                     {
                       "id": "d",
@@ -2398,7 +2398,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Stabilize board, food and blade path"
+                      "text": "Stable board, food and path"
                     },
                     {
                       "id": "c",
@@ -2447,7 +2447,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Withdraw and adjust the cut"
+                    "text": "Withdraw and re-angle"
                   }
                 ],
                 "correct": "d",
@@ -2464,7 +2464,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Withdraw and adjust the cut"
+                      "text": "Withdraw and re-angle"
                     },
                     {
                       "id": "c",
@@ -2492,7 +2492,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Withdraw and adjust the cut"
+                      "text": "Withdraw and re-angle"
                     },
                     {
                       "id": "d",
@@ -2550,7 +2550,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Stabilize board, food and blade path"
+                    "text": "Stable board, food and path"
                   },
                   {
                     "id": "d",
@@ -2572,7 +2572,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Withdraw and adjust the cut"
+                    "text": "Withdraw and re-angle"
                   },
                   {
                     "id": "c",
@@ -2712,7 +2712,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Rinse and dry the knife"
+                    "text": "Rinse and dry"
                   },
                   {
                     "id": "b",
@@ -2737,7 +2737,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Rinse and dry the knife"
+                      "text": "Rinse and dry"
                     },
                     {
                       "id": "b",
@@ -2773,7 +2773,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Rinse and dry the knife"
+                      "text": "Rinse and dry"
                     }
                   ],
                   "correct": "d",
@@ -2806,7 +2806,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Loose edge among metal utensils"
+                    "text": "Loose drawer contact"
                   },
                   {
                     "id": "c",
@@ -2839,7 +2839,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Loose edge among metal utensils"
+                      "text": "Loose drawer contact"
                     }
                   ],
                   "correct": "d",
@@ -2851,7 +2851,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Loose edge among metal utensils"
+                      "text": "Loose drawer contact"
                     },
                     {
                       "id": "b",
@@ -2909,7 +2909,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Rinse and dry the knife"
+                    "text": "Rinse and dry"
                   },
                   {
                     "id": "b",
@@ -2947,7 +2947,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Loose edge among metal utensils"
+                    "text": "Loose drawer contact"
                   }
                 ],
                 "correct": "d",
@@ -3080,7 +3080,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Where the stone contacts the edge bevel"
+                    "text": "Edge-bevel contact"
                   },
                   {
                     "id": "b",
@@ -3105,7 +3105,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Where the stone contacts the edge bevel"
+                      "text": "Edge-bevel contact"
                     },
                     {
                       "id": "b",
@@ -3141,7 +3141,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Where the stone contacts the edge bevel"
+                      "text": "Edge-bevel contact"
                     }
                   ],
                   "correct": "d",
@@ -3277,7 +3277,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Where the stone contacts the edge bevel"
+                    "text": "Edge-bevel contact"
                   },
                   {
                     "id": "b",
@@ -3372,7 +3372,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Judge the joint and overall execution"
+                    "text": "Joint and overall execution"
                   },
                   {
                     "id": "d",
@@ -3397,7 +3397,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Judge the joint and overall execution"
+                      "text": "Joint and overall execution"
                     },
                     {
                       "id": "d",
@@ -3417,7 +3417,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Judge the joint and overall execution"
+                      "text": "Joint and overall execution"
                     },
                     {
                       "id": "c",
@@ -3449,7 +3449,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Judge the joint and overall execution"
+                    "text": "Joint and overall execution"
                   },
                   {
                     "id": "c",
@@ -3639,7 +3639,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Different heat treatment or geometry"
+                    "text": "Heat treatment or geometry"
                   },
                   {
                     "id": "c",
@@ -3672,7 +3672,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Different heat treatment or geometry"
+                      "text": "Heat treatment or geometry"
                     }
                   ],
                   "correct": "d",
@@ -3684,7 +3684,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Different heat treatment or geometry"
+                      "text": "Heat treatment or geometry"
                     },
                     {
                       "id": "b",
@@ -3724,7 +3724,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Different heat treatment or geometry"
+                    "text": "Heat treatment or geometry"
                   },
                   {
                     "id": "d",
@@ -3770,7 +3770,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "That layer count alone proves superior cutting"
+                    "text": "Layer count proves superiority"
                   },
                   {
                     "id": "b",
@@ -3795,7 +3795,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "That layer count alone proves superior cutting"
+                      "text": "Layer count proves superiority"
                     },
                     {
                       "id": "b",
@@ -3831,7 +3831,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "That layer count alone proves superior cutting"
+                      "text": "Layer count proves superiority"
                     }
                   ],
                   "correct": "d",
@@ -3863,7 +3863,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "That layer count alone proves superior cutting"
+                    "text": "Layer count proves superiority"
                   }
                 ],
                 "correct": "d",
@@ -3916,7 +3916,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Thickness behind the edge"
+                    "text": "Behind-edge thickness"
                   }
                 ],
                 "correct": "d",
@@ -3933,7 +3933,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Thickness behind the edge"
+                      "text": "Behind-edge thickness"
                     },
                     {
                       "id": "c",
@@ -3961,7 +3961,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Thickness behind the edge"
+                      "text": "Behind-edge thickness"
                     },
                     {
                       "id": "d",
@@ -3985,7 +3985,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Thickness behind the edge"
+                    "text": "Behind-edge thickness"
                   },
                   {
                     "id": "b",
@@ -4039,7 +4039,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Grip, balance and handling fit"
+                    "text": "Ergonomic handling fit"
                   },
                   {
                     "id": "b",
@@ -4064,7 +4064,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Grip, balance and handling fit"
+                      "text": "Ergonomic handling fit"
                     },
                     {
                       "id": "b",
@@ -4100,7 +4100,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Grip, balance and handling fit"
+                      "text": "Ergonomic handling fit"
                     }
                   ],
                   "correct": "d",
@@ -4132,7 +4132,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Grip, balance and handling fit"
+                    "text": "Ergonomic handling fit"
                   }
                 ],
                 "correct": "d",
@@ -4174,7 +4174,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "The benefit of its edge length"
+                    "text": "Useful edge length"
                   },
                   {
                     "id": "b",
@@ -4199,7 +4199,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "The benefit of its edge length"
+                      "text": "Useful edge length"
                     },
                     {
                       "id": "b",
@@ -4235,7 +4235,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "The benefit of its edge length"
+                      "text": "Useful edge length"
                     }
                   ],
                   "correct": "d",
@@ -4267,7 +4267,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The benefit of its edge length"
+                    "text": "Useful edge length"
                   }
                 ],
                 "correct": "d",
@@ -4317,7 +4317,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Prompt rinsing and drying become more important"
+                    "text": "Faster rinse-and-dry care"
                   },
                   {
                     "id": "d",
@@ -4342,7 +4342,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Prompt rinsing and drying become more important"
+                      "text": "Faster rinse-and-dry care"
                     },
                     {
                       "id": "d",
@@ -4362,7 +4362,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Prompt rinsing and drying become more important"
+                      "text": "Faster rinse-and-dry care"
                     },
                     {
                       "id": "c",
@@ -4394,7 +4394,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Prompt rinsing and drying become more important"
+                    "text": "Faster rinse-and-dry care"
                   },
                   {
                     "id": "c",
@@ -4453,7 +4453,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "The sharpening angle may be too steep"
+                    "text": "An overly steep angle"
                   },
                   {
                     "id": "d",
@@ -4478,7 +4478,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "The sharpening angle may be too steep"
+                      "text": "An overly steep angle"
                     },
                     {
                       "id": "d",
@@ -4498,7 +4498,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "The sharpening angle may be too steep"
+                      "text": "An overly steep angle"
                     },
                     {
                       "id": "c",
@@ -4530,7 +4530,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "The sharpening angle may be too steep"
+                    "text": "An overly steep angle"
                   },
                   {
                     "id": "c",
@@ -4725,7 +4725,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Use pattern and edge geometry"
+                    "text": "Use and edge geometry"
                   },
                   {
                     "id": "c",
@@ -4758,7 +4758,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Use pattern and edge geometry"
+                      "text": "Use and edge geometry"
                     }
                   ],
                   "correct": "d",
@@ -4770,7 +4770,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Use pattern and edge geometry"
+                      "text": "Use and edge geometry"
                     },
                     {
                       "id": "b",
@@ -4806,7 +4806,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Use pattern and edge geometry"
+                    "text": "Use and edge geometry"
                   },
                   {
                     "id": "c",
@@ -4993,7 +4993,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Measured layer properties and edge observations"
+                    "text": "Measured layer-and-edge evidence"
                   },
                   {
                     "id": "b",
@@ -5018,7 +5018,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Measured layer properties and edge observations"
+                      "text": "Measured layer-and-edge evidence"
                     },
                     {
                       "id": "b",
@@ -5054,7 +5054,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Measured layer properties and edge observations"
+                      "text": "Measured layer-and-edge evidence"
                     }
                   ],
                   "correct": "d",
@@ -5082,7 +5082,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Measured layer properties and edge observations"
+                    "text": "Measured layer-and-edge evidence"
                   },
                   {
                     "id": "d",
@@ -5139,7 +5139,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Bevel asymmetry and edge position"
+                    "text": "Bevel asymmetry"
                   }
                 ],
                 "correct": "d",
@@ -5156,7 +5156,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Bevel asymmetry and edge position"
+                      "text": "Bevel asymmetry"
                     },
                     {
                       "id": "c",
@@ -5184,7 +5184,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Bevel asymmetry and edge position"
+                      "text": "Bevel asymmetry"
                     },
                     {
                       "id": "d",
@@ -5212,7 +5212,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Bevel asymmetry and edge position"
+                    "text": "Bevel asymmetry"
                   },
                   {
                     "id": "c",
@@ -5262,7 +5262,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Weight, balance, grip and reach together"
+                    "text": "Overall ergonomic fit"
                   },
                   {
                     "id": "b",
@@ -5287,7 +5287,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Weight, balance, grip and reach together"
+                      "text": "Overall ergonomic fit"
                     },
                     {
                       "id": "b",
@@ -5323,7 +5323,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Weight, balance, grip and reach together"
+                      "text": "Overall ergonomic fit"
                     }
                   ],
                   "correct": "d",
@@ -5343,7 +5343,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Weight, balance, grip and reach together"
+                    "text": "Overall ergonomic fit"
                   },
                   {
                     "id": "b",
@@ -5540,7 +5540,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "The cutting surface and contact habits"
+                    "text": "Surface and contact habits"
                   },
                   {
                     "id": "d",
@@ -5565,7 +5565,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "The cutting surface and contact habits"
+                      "text": "Surface and contact habits"
                     },
                     {
                       "id": "d",
@@ -5585,7 +5585,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "The cutting surface and contact habits"
+                      "text": "Surface and contact habits"
                     },
                     {
                       "id": "c",
@@ -5613,7 +5613,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "The cutting surface and contact habits"
+                    "text": "Surface and contact habits"
                   },
                   {
                     "id": "b",
@@ -5676,7 +5676,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Assess thickness behind the edge"
+                    "text": "Behind-edge thickness"
                   },
                   {
                     "id": "d",
@@ -5701,7 +5701,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Assess thickness behind the edge"
+                      "text": "Behind-edge thickness"
                     },
                     {
                       "id": "d",
@@ -5721,7 +5721,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Assess thickness behind the edge"
+                      "text": "Behind-edge thickness"
                     },
                     {
                       "id": "c",
@@ -5749,7 +5749,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Assess thickness behind the edge"
+                    "text": "Behind-edge thickness"
                   },
                   {
                     "id": "b",
