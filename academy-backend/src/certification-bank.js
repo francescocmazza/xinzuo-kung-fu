@@ -11,7 +11,7 @@ export const BASE_CERTIFICATION_BANK = [
       {id:"a",en:"Spine",it:"Dorso"},
       {id:"b",en:"Bolster",it:"Raccordo"},
       {id:"c",en:"Tang",it:"Codolo"},
-      {id:"d",en:"Cutting edge",it:"Filo / tagliente"}
+      {id:"d",en:"Cutting edge",it:"Tagliente"}
     ], correct:"d"
   },
   {
@@ -99,7 +99,7 @@ export const BASE_CERTIFICATION_BANK = [
     prompt:{en:"What does core-and-cladding Damascus contain at the cutting core?",it:"Che cosa contiene al nucleo tagliente un Damasco con rivestimento?"},
     options:[
       {id:"a",en:"A plastic insert",it:"Un inserto plastico"},
-      {id:"b",en:"Separate core steel",it:"Acciaio del nucleo distinto"},
+      {id:"b",en:"Separate core steel",it:"Nucleo distinto"},
       {id:"c",en:"Only surface paint",it:"Solo vernice superficiale"},
       {id:"d",en:"No metallic layers",it:"Nessuno strato metallico"}
     ], correct:"b"
@@ -211,7 +211,7 @@ export const BASE_CERTIFICATION_BANK = [
       {id:"a",en:"Twist the handle",it:"Torcere il manico"},
       {id:"b",en:"Lever sideways",it:"Fare leva lateralmente"},
       {id:"c",en:"Strike the spine",it:"Colpire il dorso"},
-      {id:"d",en:"Withdraw and re-angle",it:"Estrarre e cambiare angolo"}
+      {id:"d",en:"Withdraw and re-angle",it:"Estrarre e correggere"}
     ], correct:"d"
   },
   {
@@ -239,7 +239,7 @@ export const BASE_CERTIFICATION_BANK = [
     prompt:{en:"Which storage condition is inappropriate?",it:"Quale condizione di conservazione è inappropriata?"},
     options:[
       {id:"a",en:"Fitted saya",it:"Saya adatta"},
-      {id:"b",en:"Loose drawer contact",it:"Contatto libero nel cassetto"},
+      {id:"b",en:"Loose drawer contact",it:"Filo libero"},
       {id:"c",en:"Fitted blade guard",it:"Protezione lama adatta"},
       {id:"d",en:"Suitable knife block",it:"Ceppo adatto"}
     ], correct:"b"
@@ -258,7 +258,7 @@ export const BASE_CERTIFICATION_BANK = [
     id:"cert-base-026", conceptId:"sharpening.contact-coverage.base", critical:true,
     prompt:{en:"What does the marker method show?",it:"Che cosa mostra il metodo del pennarello?"},
     options:[
-      {id:"a",en:"Edge-bevel contact",it:"Contatto sul bisello del filo"},
+      {id:"a",en:"Edge-bevel contact",it:"Contatto del bisello"},
       {id:"b",en:"Exact HRC",it:"HRC esatto"},
       {id:"c",en:"Steel composition",it:"Composizione dell'acciaio"},
       {id:"d",en:"Handle density",it:"Densità del manico"}
