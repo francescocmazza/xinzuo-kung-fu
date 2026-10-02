@@ -2292,7 +2292,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Greater blade height near the heel"
+                    "text": "More heel height"
                   },
                   {
                     "id": "c",
@@ -2383,7 +2383,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Whether the final grind and heat treatment are well executed"
+                      "text": "Final grind and heat-treatment quality"
                     },
                     {
                       "id": "c",
@@ -2411,7 +2411,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "It can limit or shape forward grip positions."
+                    "text": "It can constrain forward grip positions."
                   },
                   {
                     "id": "b",
@@ -2449,7 +2449,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Overall geometry, thickness and actual contact pattern"
+                    "text": "Overall geometry and contact pattern"
                   }
                 ],
                 "correct": "d",
@@ -2490,7 +2490,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Toughness and misuse tolerance"
+                    "text": "Lateral-load toughness"
                   },
                   {
                     "id": "b",
@@ -2568,7 +2568,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Different carbon balance, heat treatment and chromium availability"
+                    "text": "Carbon balance and chromium availability"
                   }
                 ],
                 "correct": "d",
@@ -2617,7 +2617,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Their microstructures, carbides and heat treatments can differ."
+                    "text": "Different microstructure and carbide balance"
                   },
                   {
                     "id": "c",
@@ -2698,7 +2698,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "It can bind more chromium into carbides, reducing chromium available for passivation."
+                    "text": "More chromium can be tied up in carbides."
                   },
                   {
                     "id": "c",
@@ -2789,7 +2789,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "PM controls the starting material; heat treatment still sets final phases and hardness."
+                      "text": "Heat treatment still sets final phases and hardness."
                     },
                     {
                       "id": "c",
@@ -2855,7 +2855,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Control the atmosphere around the steel during high-temperature treatment"
+                    "text": "Atmosphere control during high-temperature treatment"
                   }
                 ],
                 "correct": "d",
@@ -3137,7 +3137,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "They are different metallurgical routes even if both can show patterns."
+                      "text": "They use different metallurgical routes."
                     }
                   ],
                   "correct": "d",
@@ -3195,7 +3195,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Microscopic edge texture can still engage the food during sliding motion."
+                      "text": "Microtexture still supports sliding bite."
                     },
                     {
                       "id": "c",
@@ -3223,7 +3223,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Identify whether the pattern is structural layering or surface decoration."
+                    "text": "Structural layering or surface decoration?"
                   },
                   {
                     "id": "b",
@@ -3261,7 +3261,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The knife still eventually needs normal sharpening to restore geometry."
+                    "text": "It still needs normal sharpening."
                   }
                 ],
                 "correct": "d",
@@ -3302,7 +3302,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Thickness and geometry behind the edge"
+                    "text": "Geometry behind the edge"
                   },
                   {
                     "id": "b",
@@ -3335,7 +3335,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "It removes material behind the edge and leaves a concave section."
+                      "text": "It removes support behind the edge."
                     },
                     {
                       "id": "d",
@@ -3393,7 +3393,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Reference lands are altered and the specialist geometry degrades."
+                      "text": "Reference lands and specialist geometry degrade."
                     },
                     {
                       "id": "b",
@@ -3429,7 +3429,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Edge angle and thickness behind the edge"
+                    "text": "Edge angle plus behind-edge thickness"
                   },
                   {
                     "id": "c",
@@ -3509,7 +3509,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "A long narrow slicer that supports a drawing stroke"
+                    "text": "A long slicer for drawing strokes"
                   },
                   {
                     "id": "c",
@@ -3542,7 +3542,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Its robust geometry is specialized for controlled fish butchery, not arbitrary heavy impact."
+                      "text": "It is specialized for controlled fish butchery."
                     }
                   ],
                   "correct": "d",
@@ -3579,7 +3579,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "More resistance to starting, stopping and turning the tip-heavy knife"
+                    "text": "More rotational resistance from tip-heavy mass"
                   },
                   {
                     "id": "d",
@@ -3600,7 +3600,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Rearward handle mass can counterbalance blade mass around the working grip."
+                      "text": "Rearward mass counterbalances blade mass"
                     },
                     {
                       "id": "c",
@@ -3628,7 +3628,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Need for manoeuvrability around anatomy versus impact through hard material"
+                    "text": "Manoeuvrability versus impact tolerance"
                   },
                   {
                     "id": "b",
@@ -3666,7 +3666,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Compare grip, handle contour, weight and balance in the customer's hand."
+                    "text": "Compare grip, weight and balance in hand."
                   }
                 ],
                 "correct": "d",
@@ -3707,7 +3707,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Add controlled forward travel instead of only pressing down."
+                    "text": "Add controlled forward travel."
                   },
                   {
                     "id": "b",
@@ -3740,7 +3740,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "The chosen path does not use the edge curve efficiently."
+                      "text": "The path mismatches the edge curve."
                     },
                     {
                       "id": "d",
@@ -3785,7 +3785,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Use the spine, blade face or a bench scraper for transfer."
+                    "text": "Use the spine, face or a scraper."
                   }
                 ],
                 "correct": "d",
@@ -3834,7 +3834,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "It spreads work over more edge and reduces downward compression."
+                    "text": "It reduces compression by using more edge."
                   },
                   {
                     "id": "c",
@@ -3864,7 +3864,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "The cutting path is close to the supporting hand and body."
+                    "text": "Edge path close to hand/body"
                   },
                   {
                     "id": "d",
@@ -3913,7 +3913,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Stop and check edge condition, food stability, knife choice and path."
+                    "text": "Stop and diagnose edge, stability, tool and path."
                   },
                   {
                     "id": "c",
@@ -3946,7 +3946,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Its geometry may encourage force or load directions unsuited to the task."
+                      "text": "Its geometry can encourage unsafe load directions."
                     }
                   ],
                   "correct": "d",
@@ -3983,7 +3983,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "It risks hand injury and hard contact damage to the edge."
+                    "text": "Hand-injury risk plus hard-contact edge damage"
                   },
                   {
                     "id": "d",
@@ -4004,7 +4004,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "A fitted guard, roll or case that secures the blade"
+                      "text": "A fitted guard, roll or case"
                     },
                     {
                       "id": "c",
@@ -4070,7 +4070,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "It gives the receiver a controlled grip while the edge remains oriented away."
+                    "text": "Controlled grip with the edge oriented away"
                   }
                 ],
                 "correct": "d",
@@ -4203,7 +4203,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "The edge was partly realigned without major material removal."
+                      "text": "The edge was partly realigned."
                     },
                     {
                       "id": "b",
@@ -4269,7 +4269,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "When moisture, drying and surface conditioning affect the wood differently."
+                    "text": "When wood reacts differently to moisture"
                   },
                   {
                     "id": "d",
@@ -4353,7 +4353,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "The required abrasion changes with steel, stone and starting edge condition."
+                      "text": "Abrasion needs vary with steel, stone and edge."
                     }
                   ],
                   "correct": "d",
@@ -4411,7 +4411,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Very hard vanadium carbides resist that abrasive."
+                      "text": "Hard vanadium carbides resist the abrasive."
                     },
                     {
                       "id": "c",
@@ -4477,7 +4477,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Optional help for a very fine remaining burr after good stone work"
+                    "text": "Optional help after sound stone work"
                   }
                 ],
                 "correct": "d",
@@ -4533,7 +4533,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Heel-area thickness and face geometry can still be substantial despite a thin tip."
+                    "text": "Heel-area thickness and face geometry"
                   },
                   {
                     "id": "d",
@@ -4550,7 +4550,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "A tall blade may improve knuckle clearance, but actual comfort still depends on grip and handle geometry."
+                      "text": "Tall blade helps clearance; comfort still depends on grip."
                     },
                     {
                       "id": "b",
@@ -4595,7 +4595,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Welding method alone does not establish joint quality, heat control or overall performance."
+                    "text": "Welding method alone does not establish overall quality."
                   },
                   {
                     "id": "c",
@@ -4624,7 +4624,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Very little; failure analysis must separate design, assembly and misuse before generalizing."
+                      "text": "Very little without separating design, assembly and misuse."
                     },
                     {
                       "id": "d",
@@ -4660,7 +4660,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "How mass is distributed relative to the grip"
+                    "text": "Grip-relative mass distribution"
                   }
                 ],
                 "correct": "d",
@@ -4674,7 +4674,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Fit, joint execution, dimensions, finishing and performance under intended loads"
+                    "text": "Fit, joints, dimensions and load performance"
                   },
                   {
                     "id": "b",
@@ -4756,7 +4756,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Long edge life may matter more because they own suitable abrasives and sharpen infrequently."
+                      "text": "Long edge life may justify slower sharpening."
                     },
                     {
                       "id": "c",
@@ -4858,7 +4858,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Required tolerance to lateral or impact misuse"
+                    "text": "Misuse tolerance"
                   },
                   {
                     "id": "d",
@@ -4880,7 +4880,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Performance evidence tied to the intended geometry and use, not HRC alone"
+                    "text": "Use-specific performance evidence"
                   },
                   {
                     "id": "c",
@@ -4939,7 +4939,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Austenitizing/quench/sub-zero sequence and its phase transformation balance"
+                    "text": "Hardening transformation sequence"
                   },
                   {
                     "id": "d",
@@ -4956,7 +4956,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "It can coarsen grains or alter carbide/solution balance unfavourably."
+                      "text": "It can coarsen grains or upset carbide balance."
                     },
                     {
                       "id": "b",
@@ -5001,7 +5001,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Its alloy can contain a high volume of very hard carbides despite fine distribution."
+                    "text": "High volume of very hard carbides"
                   },
                   {
                     "id": "c",
@@ -5030,7 +5030,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "More uniform microstructure at an alloy content that would segregate strongly in conventional casting"
+                      "text": "More uniform microstructure at high alloy content"
                     },
                     {
                       "id": "d",
@@ -5066,7 +5066,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Useful knives require a balanced microstructure, not the highest number alone."
+                    "text": "Balanced final microstructure"
                   }
                 ],
                 "correct": "d",
@@ -5080,7 +5080,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Every PM steel is tougher, sharper and easier to sharpen than every conventional steel."
+                    "text": "Every PM steel is universally superior."
                   },
                   {
                     "id": "b",
@@ -5200,7 +5200,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Test the actual handle geometry and balance; the desired material may shift mass too far rearward."
+                    "text": "Test actual geometry and balance first."
                   },
                   {
                     "id": "b",
@@ -5237,7 +5237,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Layup, density, finish, contour and mass distribution can differ."
+                      "text": "Layup, density, finish, contour and mass distribution"
                     }
                   ],
                   "correct": "d",
@@ -5265,7 +5265,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Explicit priorities, stated trade-offs and a match to geometry/use"
+                    "text": "Explicit priorities and stated trade-offs"
                   },
                   {
                     "id": "d",
@@ -5287,7 +5287,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Compare material properties, geometry, finish, balance and care together."
+                    "text": "Compare material, geometry, balance and care"
                   },
                   {
                     "id": "c",
@@ -5345,7 +5345,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Core/edge steel, heat treatment and edge geometry"
+                    "text": "Core metallurgy and edge geometry"
                   },
                   {
                     "id": "d",
@@ -5362,7 +5362,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Sharpness is apex geometry; Damascus describes a construction/pattern route."
+                      "text": "Sharpness is apex geometry, not a pattern label."
                     },
                     {
                       "id": "b",
@@ -5407,7 +5407,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Microtexture still helps sliding cuts while peak apex refinement has declined."
+                    "text": "Microtexture still supports sliding bite."
                   },
                   {
                     "id": "c",
@@ -5472,7 +5472,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "This laser-damascato monosteel is genuine layered Damascus because the pattern looks deep."
+                    "text": "Laser pattern means genuine layered Damascus."
                   }
                 ],
                 "correct": "d",
@@ -5486,7 +5486,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Actual cutting/board contact and layer wear contrast"
+                    "text": "Layer-wear contrast"
                   },
                   {
                     "id": "b",
@@ -5551,7 +5551,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The apex is keen, but thickness/face geometry farther behind the edge creates resistance."
+                    "text": "Behind-edge thickness and face geometry"
                   }
                 ],
                 "correct": "d",
@@ -5568,7 +5568,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "It reduces material behind the edge and therefore wedging resistance."
+                      "text": "It reduces behind-edge material and wedging."
                     },
                     {
                       "id": "c",
@@ -5670,7 +5670,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Whether the blade enters easily before resistance rises deeper in the cut"
+                    "text": "Where resistance begins in the cut"
                   },
                   {
                     "id": "d",
@@ -5692,7 +5692,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Verify intended geometry, current bevel proportions and technique before regrinding."
+                    "text": "Verify intended geometry before regrinding"
                   },
                   {
                     "id": "c",
@@ -5750,7 +5750,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Separate the tasks: keep the thin gyuto for prep and add a bone-capable tool."
+                    "text": "Use separate tools for prep and bone impact."
                   },
                   {
                     "id": "d",
@@ -5767,7 +5767,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "When its mechanical advantage solves a frequent, important task."
+                      "text": "When it solves a frequent important task."
                     },
                     {
                       "id": "b",
@@ -5812,7 +5812,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Forward mass creates a larger lever arm in the rear grip."
+                    "text": "Forward mass increases the rear-grip lever arm."
                   },
                   {
                     "id": "c",
@@ -5841,7 +5841,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Bolster/handle contour and local contact pressure"
+                      "text": "Bolster/handle contour and local pressure"
                     },
                     {
                       "id": "d",
@@ -5877,7 +5877,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "A few knives that all fit the main task, with explicit trade-offs between them"
+                    "text": "A few task-fit knives with explicit trade-offs"
                   }
                 ],
                 "correct": "d",
@@ -5891,7 +5891,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Let the customer use their natural grip and compare several functionally suitable knives."
+                    "text": "Compare task-fit knives in natural grip"
                   },
                   {
                     "id": "b",
@@ -5973,7 +5973,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Its flatter edge does not maintain board contact through that rocking arc."
+                      "text": "Poor contact during wide rocking"
                     },
                     {
                       "id": "c",
@@ -6047,7 +6047,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Its geometry has intended load directions and limits just like any other tool."
+                      "text": "Specialist geometry still has load limits."
                     }
                   ],
                   "correct": "d",
@@ -6075,7 +6075,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "The knife cuts cleanly when the movement path changes but poorly with one specific motion."
+                    "text": "Performance changes with the movement path."
                   },
                   {
                     "id": "d",
@@ -6097,7 +6097,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "The blade requires unexpected force, twisting or unstable hand position."
+                    "text": "Unexpected force, twisting or unstable hand position"
                   },
                   {
                     "id": "c",
@@ -6154,7 +6154,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Several upstream controls failed: food stability, tool fit and force management."
+                    "text": "Multiple upstream controls failed."
                   },
                   {
                     "id": "d",
@@ -6171,7 +6171,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Standardize non-slip board setup and verify it before cutting."
+                      "text": "Standardize and verify non-slip board setup."
                     },
                     {
                       "id": "b",
@@ -6216,7 +6216,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Dedicated fitted storage that isolates and fixes each edge position"
+                    "text": "Fitted storage that isolates each edge"
                   },
                   {
                     "id": "c",
@@ -6245,7 +6245,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Defined orientation plus clear confirmation that the receiver is ready"
+                      "text": "Defined orientation plus receiver confirmation"
                     },
                     {
                       "id": "d",
@@ -6281,7 +6281,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "It does not remove unstable conditions or mismatched tools that create risk."
+                    "text": "It leaves hazards unchanged."
                   }
                 ],
                 "correct": "d",
@@ -6295,7 +6295,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "A fitted guard or block that physically isolates the edge"
+                    "text": "A fitted guard that isolates the edge"
                   },
                   {
                     "id": "b",
@@ -6361,7 +6361,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Use a resilient professional material compatible with sanitation and monitor surface condition."
+                    "text": "Resilient sanitation-compatible professional board"
                   }
                 ],
                 "correct": "d",
@@ -6378,7 +6378,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Deep grooves, warping or contamination can change stability and hygiene in service."
+                      "text": "Grooves or warping can compromise stability/hygiene"
                     },
                     {
                       "id": "c",
@@ -6480,7 +6480,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Board price plus replacement, sanitation and induced edge-maintenance cost"
+                    "text": "Total lifecycle cost"
                   },
                   {
                     "id": "d",
@@ -6502,7 +6502,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Loose handle scales with movement around the tang"
+                    "text": "Loose handle scales"
                   },
                   {
                     "id": "c",
@@ -6561,7 +6561,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Assess and possibly thin the geometry behind the edge."
+                    "text": "Assess behind-edge thinning needs."
                   },
                   {
                     "id": "d",
@@ -6578,7 +6578,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "When the intended edge angle/shape must be changed or restored substantially"
+                      "text": "When edge geometry needs substantial restoration"
                     },
                     {
                       "id": "b",
@@ -6623,7 +6623,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "An incompletely removed wire edge is giving false initial sharpness."
+                    "text": "A remaining wire edge"
                   },
                   {
                     "id": "c",
@@ -6652,7 +6652,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Stone dishing or an uneven sharpening surface"
+                      "text": "Stone dishing"
                     },
                     {
                       "id": "d",
@@ -6688,7 +6688,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "It removes blade-face material and can change finish, cladding exposure and geometry."
+                    "text": "It changes face geometry."
                   }
                 ],
                 "correct": "d",
@@ -6702,7 +6702,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Choose a more efficient abrasive suited to the carbide hardness and keep pressure controlled."
+                    "text": "Use a more efficient carbide-capable abrasive."
                   },
                   {
                     "id": "b",
