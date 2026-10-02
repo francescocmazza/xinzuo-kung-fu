@@ -74,10 +74,10 @@ for (const [id, count] of Object.entries(positions)) {
 }
 
 for (const locale of ["en", "it"]) {
-  if (longest[locale] / BASE_CERTIFICATION_BANK.length > 0.35) {
+  if (longest[locale] / BASE_CERTIFICATION_BANK.length > 0.30) {
     fail(`${locale}: correct answer is uniquely longest too often: ${longest[locale]}/27`);
   }
-  if (shortest[locale] / BASE_CERTIFICATION_BANK.length > 0.35) {
+  if (shortest[locale] / BASE_CERTIFICATION_BANK.length > 0.30) {
     fail(`${locale}: correct answer is uniquely shortest too often: ${shortest[locale]}/27`);
   }
 }
