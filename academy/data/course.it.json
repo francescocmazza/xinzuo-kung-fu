@@ -3368,7 +3368,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La costruzione è automaticamente inferiore"
+                    "text": "La costruzione è automaticamente inferiore (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -3393,7 +3393,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Il codolo nascosto è adatto soltanto ai manici in legno"
+                      "text": "Il codolo nascosto è adatto soltanto ai manici in legno (nelle condizioni complete del caso qui descritto)"
                     },
                     {
                       "id": "c",
@@ -3417,7 +3417,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Può ridistribuire l'acciaio pieno in una forma utile prima della finitura"
+                      "text": "Può ridistribuire l'acciaio pieno in una forma utile prima della finitura (rispetto al contesto completo indicato nel quesito)"
                     },
                     {
                       "id": "c",
@@ -3449,7 +3449,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "L'angolo del filo diventa più acuto"
+                    "text": "L'angolo del filo diventa più acuto (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -3475,7 +3475,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La costruzione è automaticamente inferiore"
+                    "text": "La costruzione è automaticamente inferiore (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -3501,7 +3501,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La durata dipende da dimensioni del codolo, accoppiamento, fissaggio e carichi previsti"
+                    "text": "La durata dipende da dimensioni del codolo, accoppiamento, fissaggio e carichi previsti (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -3554,7 +3554,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Buona resistenza alla corrosione insieme a un'adeguata tenuta del filo"
+                    "text": "Buona resistenza alla corrosione insieme a un'adeguata tenuta del filo (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -3579,7 +3579,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Solo la resistenza alla corrosione"
+                      "text": "Solo la resistenza alla corrosione (considerando tutte le condizioni indicate nel caso)"
                     },
                     {
                       "id": "c",
@@ -3603,7 +3603,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Numero degli strati"
+                      "text": "Numero degli strati (nel contesto completo della situazione qui descritta)"
                     },
                     {
                       "id": "c",
@@ -3635,7 +3635,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Può richiedere più tempo o abrasione per essere affilato"
+                    "text": "Può richiedere più tempo o abrasione per essere affilato (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -3661,7 +3661,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Massima tenacità senza considerare la tenuta del filo"
+                    "text": "Massima tenacità senza considerare la tenuta del filo (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -3687,7 +3687,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo il valore nominale di HRC"
+                    "text": "Solo il valore nominale di HRC (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -3743,7 +3743,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Trattamento termico o geometria differenti"
+                    "text": "Trattamento termico o geometria differenti (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -3768,7 +3768,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Elimina la necessità del trattamento termico"
+                      "text": "Elimina la necessità del trattamento termico (nelle condizioni complete del caso qui descritto)"
                     },
                     {
                       "id": "c",
@@ -3792,7 +3792,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "La sua esatta tenuta del filo"
+                      "text": "La sua esatta tenuta del filo (rispetto al contesto completo indicato nel quesito)"
                     },
                     {
                       "id": "c",
@@ -3824,7 +3824,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Struttura dei carburi, condizione del grano, trattamento termico e geometria"
+                    "text": "Struttura dei carburi, condizione del grano, trattamento termico e geometria (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -3850,7 +3850,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La stessa composizione garantisce lo stesso filo"
+                    "text": "La stessa composizione garantisce lo stesso filo (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -3876,7 +3876,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Garantisce la massima tenacità in ogni acciaio"
+                    "text": "Garantisce la massima tenacità in ogni acciaio (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -3930,7 +3930,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Che la lama utilizzi una costruzione stratificata"
+                    "text": "Che la lama utilizzi una costruzione stratificata (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -3955,7 +3955,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Che la lama contiene strati alternati forgiati"
+                      "text": "Che la lama contiene strati alternati forgiati (considerando tutte le condizioni indicate nel caso)"
                     },
                     {
                       "id": "c",
@@ -3979,7 +3979,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Il numero totale degli strati di rivestimento"
+                      "text": "Il numero totale degli strati di rivestimento (nel contesto completo della situazione qui descritta)"
                     },
                     {
                       "id": "c",
@@ -4011,7 +4011,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Trattando il motivo visibile come prova sufficiente"
+                    "text": "Trattando il motivo visibile come prova sufficiente (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -4037,7 +4037,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Che la lama utilizzi una costruzione stratificata"
+                    "text": "Che la lama utilizzi una costruzione stratificata (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -4063,7 +4063,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Che l'acciaio del nucleo ha durezza maggiore"
+                    "text": "Che l'acciaio del nucleo ha durezza maggiore (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -4116,7 +4116,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo il punto di bilanciamento del manico"
+                    "text": "Solo il punto di bilanciamento del manico (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -4141,7 +4141,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Asimmetria tra i due lati della molatura o del bisello del filo"
+                      "text": "Asimmetria tra i due lati della molatura o del bisello del filo (nelle condizioni complete del caso qui descritto)"
                     },
                     {
                       "id": "c",
@@ -4165,7 +4165,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Devierà sempre perfettamente diritto"
+                      "text": "Devierà sempre perfettamente diritto (rispetto al contesto completo indicato nel quesito)"
                     },
                     {
                       "id": "c",
@@ -4197,7 +4197,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Elimina sempre la deviazione"
+                    "text": "Elimina sempre la deviazione (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -4223,7 +4223,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Spessore e rastremazione dietro il filo"
+                    "text": "Spessore e rastremazione dietro il filo (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -4249,7 +4249,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Finitura del dorso"
+                    "text": "Finitura del dorso (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -4303,7 +4303,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo l'HRC più alto"
+                    "text": "Solo l'HRC più alto (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -4328,7 +4328,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Il suo acciaio non può essere affilato finemente"
+                      "text": "Il suo acciaio non può essere affilato finemente (considerando tutte le condizioni indicate nel caso)"
                     },
                     {
                       "id": "c",
@@ -4352,7 +4352,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "La massa della lama cambia con l'impugnatura"
+                      "text": "La massa della lama cambia con l'impugnatura (nel contesto completo della situazione qui descritta)"
                     },
                     {
                       "id": "c",
@@ -4384,7 +4384,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Ogni volta che costa più di un coltello multiuso"
+                    "text": "Ogni volta che costa più di un coltello multiuso (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -4410,7 +4410,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo l'HRC più alto"
+                    "text": "Solo l'HRC più alto (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -4436,7 +4436,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Il suo manico impedisce il lavoro sul tagliere"
+                    "text": "Il suo manico impedisce il lavoro sul tagliere (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -4490,7 +4490,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La resistenza alla corrosione dell'acciaio"
+                    "text": "La resistenza alla corrosione dell'acciaio (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -4515,7 +4515,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "L'acciaio diventa meno tenace"
+                      "text": "L'acciaio diventa meno tenace (nelle condizioni complete del caso qui descritto)"
                     },
                     {
                       "id": "c",
@@ -4539,7 +4539,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Colpire il dorso mentre la lama è bloccata"
+                      "text": "Colpire il dorso mentre la lama è bloccata (rispetto al contesto completo indicato nel quesito)"
                     },
                     {
                       "id": "c",
@@ -4571,7 +4571,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo il peso del manico"
+                    "text": "Solo il peso del manico (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -4597,7 +4597,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La resistenza alla corrosione dell'acciaio"
+                    "text": "La resistenza alla corrosione dell'acciaio (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -4623,7 +4623,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Il manico modifica il trattamento termico"
+                    "text": "Il manico modifica il trattamento termico (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -4677,7 +4677,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Mettere il coltello in ammollo per diluire l'acido"
+                    "text": "Mettere il coltello in ammollo per diluire l'acido (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -4702,7 +4702,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Un materiale stabilizzato non richiede mai controlli"
+                      "text": "Un materiale stabilizzato non richiede mai controlli (considerando tutte le condizioni indicate nel caso)"
                     },
                     {
                       "id": "c",
@@ -4726,7 +4726,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Igiene, stabilità e capacità della superficie di sostenere un taglio sicuro"
+                      "text": "Igiene, stabilità e capacità della superficie di sostenere un taglio sicuro (nel contesto completo della situazione qui descritta)"
                     },
                     {
                       "id": "c",
@@ -4758,7 +4758,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Un punto di bilanciamento più avanzato"
+                    "text": "Un punto di bilanciamento più avanzato (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -4784,7 +4784,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Mettere il coltello in ammollo per diluire l'acido"
+                    "text": "Mettere il coltello in ammollo per diluire l'acido (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -4810,7 +4810,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "I cicli di umidità possono influire diversamente sulla stabilità dimensionale"
+                    "text": "I cicli di umidità possono influire diversamente sulla stabilità dimensionale (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -4865,7 +4865,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La lama richiede lubrificazione sul manico"
+                    "text": "La lama richiede lubrificazione sul manico (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -4890,7 +4890,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Passare subito alla pietra più fine"
+                      "text": "Passare subito alla pietra più fine (nelle condizioni complete del caso qui descritto)"
                     },
                     {
                       "id": "c",
@@ -4914,7 +4914,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Dopo aver raggiunto l'apice e stabilito il controllo della bava"
+                      "text": "Dopo aver raggiunto l'apice e stabilito il controllo della bava (rispetto al contesto completo indicato nel quesito)"
                     },
                     {
                       "id": "c",
@@ -4946,7 +4946,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Che la pietra non rimuove più metallo"
+                    "text": "Che la pietra non rimuove più metallo (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -4972,7 +4972,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La lama richiede lubrificazione sul manico"
+                    "text": "La lama richiede lubrificazione sul manico (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -4998,7 +4998,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Correggere localmente il tallone, poi uniformare e verificare l'intero filo"
+                    "text": "Correggere localmente il tallone, poi uniformare e verificare l'intero filo (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -5059,7 +5059,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Il numero degli strati visibili nella lama"
+                    "text": "Il numero degli strati visibili nella lama (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -5084,7 +5084,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Giudicare soltanto se il coltello è forgiato"
+                      "text": "Giudicare soltanto se il coltello è forgiato (considerando tutte le condizioni indicate nel caso)"
                     },
                     {
                       "id": "c",
@@ -5108,7 +5108,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Nessuna: sia la forgiatura sia una forte asportazione di materiale possono creare quella geometria"
+                      "text": "Nessuna: sia la forgiatura sia una forte asportazione di materiale possono creare quella geometria (nel contesto completo della situazione qui descritta)"
                     },
                     {
                       "id": "c",
@@ -5140,7 +5140,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La massa del codolo cambia mentre il coltello è impugnato"
+                    "text": "La massa del codolo cambia mentre il coltello è impugnato (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -5166,7 +5166,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Il numero degli strati visibili nella lama"
+                    "text": "Il numero degli strati visibili nella lama (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -5192,7 +5192,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Valutare dimensioni del codolo, accoppiamento, fissaggio e carichi previsti prima di giudicare la durata"
+                    "text": "Valutare dimensioni del codolo, accoppiamento, fissaggio e carichi previsti prima di giudicare la durata (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -5245,7 +5245,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Carico laterale, geometria del filo e modo in cui il coltello viene usato"
+                    "text": "Carico laterale, geometria del filo e modo in cui il coltello viene usato (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -5270,7 +5270,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Entrambe dimostrano che l'angolo del filo è troppo alto"
+                      "text": "Entrambe dimostrano che l'angolo del filo è troppo alto (nelle condizioni complete del caso qui descritto)"
                     },
                     {
                       "id": "c",
@@ -5294,7 +5294,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Prezzo di vendita e paese di commercializzazione"
+                      "text": "Prezzo di vendita e paese di commercializzazione (rispetto al contesto completo indicato nel quesito)"
                     },
                     {
                       "id": "c",
@@ -5326,7 +5326,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Privilegiare tenacità e una geometria del filo più robusta"
+                    "text": "Privilegiare tenacità e una geometria del filo più robusta (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -5352,7 +5352,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo la resistenza alla corrosione"
+                    "text": "Solo la resistenza alla corrosione (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -5378,7 +5378,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Entrambe dimostrano che l'acciaio è troppo morbido"
+                    "text": "Entrambe dimostrano che l'acciaio è troppo morbido (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -5434,7 +5434,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Popolazione di carburi grossolani insieme a sostegno geometrico insufficiente"
+                    "text": "Popolazione di carburi grossolani insieme a sostegno geometrico insufficiente (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -5459,7 +5459,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Contrasto del motivo e profondità dell'incisione"
+                      "text": "Contrasto del motivo e profondità dell'incisione (considerando tutte le condizioni indicate nel caso)"
                     },
                     {
                       "id": "c",
@@ -5483,7 +5483,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Solo il colore superficiale"
+                      "text": "Solo il colore superficiale (nel contesto completo della situazione qui descritta)"
                     },
                     {
                       "id": "c",
@@ -5515,7 +5515,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Separare fatti misurati, inferenze ragionevoli e ciò che richiede ancora verifica"
+                    "text": "Separare fatti misurati, inferenze ragionevoli e ciò che richiede ancora verifica (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -5541,7 +5541,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Un dorso lucidato e un choil arrotondato"
+                    "text": "Un dorso lucidato e un choil arrotondato (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -5567,7 +5567,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Lunghezza della lama e densità del manico"
+                    "text": "Lunghezza della lama e densità del manico (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -5621,7 +5621,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Il solo motivo visivamente complesso"
+                    "text": "Il solo motivo visivamente complesso (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -5646,7 +5646,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "L'usura differenziale non può mai influire sul taglio"
+                      "text": "L'usura differenziale non può mai influire sul taglio (nelle condizioni complete del caso qui descritto)"
                     },
                     {
                       "id": "c",
@@ -5670,7 +5670,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Come prova che le scheggiature si riparano durante l'uso"
+                      "text": "Come prova che le scheggiature si riparano durante l'uso (rispetto al contesto completo indicato nel quesito)"
                     },
                     {
                       "id": "c",
@@ -5702,7 +5702,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La lama è certamente in Damasco integrale"
+                    "text": "La lama è certamente in Damasco integrale (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -5728,7 +5728,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Il solo motivo visivamente complesso"
+                    "text": "Il solo motivo visivamente complesso (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -5754,7 +5754,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Le lame stratificate non possono essere confrontate sperimentalmente"
+                    "text": "Le lame stratificate non possono essere confrontate sperimentalmente (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -5807,7 +5807,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Densità del materiale del manico"
+                    "text": "Densità del materiale del manico (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -5832,7 +5832,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "La lama può essere diventata troppo spessa dietro il filo e richiedere un assottigliamento controllato"
+                      "text": "La lama può essere diventata troppo spessa dietro il filo e richiedere un assottigliamento controllato (considerando tutte le condizioni indicate nel caso)"
                     },
                     {
                       "id": "c",
@@ -5856,7 +5856,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Può influire soltanto sull'aspetto"
+                      "text": "Può influire soltanto sull'aspetto (nel contesto completo della situazione qui descritta)"
                     },
                     {
                       "id": "c",
@@ -5888,7 +5888,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Rendere i due biselli perfettamente simmetrici qualunque fosse il progetto originale"
+                    "text": "Rendere i due biselli perfettamente simmetrici qualunque fosse il progetto originale (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -5914,7 +5914,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Asimmetria del bisello o della sezione che crea forze di taglio diverse"
+                    "text": "Asimmetria del bisello o della sezione che crea forze di taglio diverse (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -5940,7 +5940,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Il manico ha spostato in avanti il punto di bilanciamento"
+                    "text": "Il manico ha spostato in avanti il punto di bilanciamento (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -5994,7 +5994,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo la durezza dell'acciaio della lama"
+                    "text": "Solo la durezza dell'acciaio della lama (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -6019,7 +6019,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Il centro di massa fisico cambia permanentemente"
+                      "text": "Il centro di massa fisico cambia permanentemente (nelle condizioni complete del caso qui descritto)"
                     },
                     {
                       "id": "c",
@@ -6043,7 +6043,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Scegliere l'acciaio più duro indipendentemente dal movimento"
+                      "text": "Scegliere l'acciaio più duro indipendentemente dal movimento (rispetto al contesto completo indicato nel quesito)"
                     },
                     {
                       "id": "c",
@@ -6075,7 +6075,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La sola comodità, anche se la forma lavora contro il compito"
+                    "text": "La sola comodità, anche se la forma lavora contro il compito (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -6101,7 +6101,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo la durezza dell'acciaio della lama"
+                    "text": "Solo la durezza dell'acciaio della lama (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -6127,7 +6127,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "L'acciaio della lama cambia densità durante l'uso"
+                    "text": "L'acciaio della lama cambia densità durante l'uso (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -6181,7 +6181,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Aumentare l'angolo di affilatura prima di controllare la tecnica"
+                    "text": "Aumentare l'angolo di affilatura prima di controllare la tecnica (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -6206,7 +6206,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Perdita del trattamento termico per attrito a temperatura ambiente"
+                      "text": "Perdita del trattamento termico per attrito a temperatura ambiente (considerando tutte le condizioni indicate nel caso)"
                     },
                     {
                       "id": "c",
@@ -6230,7 +6230,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Solo il materiale del manico"
+                      "text": "Solo il materiale del manico (nel contesto completo della situazione qui descritta)"
                     },
                     {
                       "id": "c",
@@ -6262,7 +6262,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Il prezzo complessivo del coltello"
+                    "text": "Il prezzo complessivo del coltello (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -6288,7 +6288,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Aumentare l'angolo di affilatura prima di controllare la tecnica"
+                    "text": "Aumentare l'angolo di affilatura prima di controllare la tecnica (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -6314,7 +6314,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Cambiamento della composizione dell'acciaio"
+                    "text": "Cambiamento della composizione dell'acciaio (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -6368,7 +6368,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo il materiale del manico"
+                    "text": "Solo il materiale del manico (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -6393,7 +6393,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Il punto di bilanciamento è troppo avanzato"
+                      "text": "Il punto di bilanciamento è troppo avanzato (nelle condizioni complete del caso qui descritto)"
                     },
                     {
                       "id": "c",
@@ -6417,7 +6417,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Movimento del materiale, metodo di assemblaggio e cicli ambientali"
+                      "text": "Movimento del materiale, metodo di assemblaggio e cicli ambientali (rispetto al contesto completo indicato nel quesito)"
                     },
                     {
                       "id": "c",
@@ -6449,7 +6449,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo l'angolo di affilatura"
+                    "text": "Solo l'angolo di affilatura (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
@@ -6475,7 +6475,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo il materiale del manico"
+                    "text": "Solo il materiale del manico (nel contesto completo della situazione qui descritta)"
                   },
                   {
                     "id": "c",
@@ -6501,7 +6501,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Umidità o residui restano intrappolati nell'area di contatto"
+                    "text": "Umidità o residui restano intrappolati nell'area di contatto (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -6556,7 +6556,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo una pietra di finitura più fine"
+                    "text": "Solo una pietra di finitura più fine (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -6581,7 +6581,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Stabilizzazione insufficiente del manico"
+                      "text": "Stabilizzazione insufficiente del manico (considerando tutte le condizioni indicate nel caso)"
                     },
                     {
                       "id": "c",
@@ -6605,7 +6605,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Rimuovono acciaio da zone diverse per risolvere problemi geometrici diversi"
+                      "text": "Rimuovono acciaio da zone diverse per risolvere problemi geometrici diversi (nel contesto completo della situazione qui descritta)"
                     },
                     {
                       "id": "c",
@@ -6637,7 +6637,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo quando scompare ogni graffio della pietra più grossa"
+                    "text": "Solo quando scompare ogni graffio della pietra più grossa (nelle condizioni complete del caso qui descritto)"
                   },
                   {
                     "id": "c",
@@ -6663,7 +6663,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Solo una pietra di finitura più fine"
+                    "text": "Solo una pietra di finitura più fine (rispetto al contesto completo indicato nel quesito)"
                   },
                   {
                     "id": "c",
@@ -6689,7 +6689,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Un filo a bava residua o una sbavatura incompleta"
+                    "text": "Un filo a bava residua o una sbavatura incompleta (considerando tutte le condizioni indicate nel caso)"
                   },
                   {
                     "id": "c",
