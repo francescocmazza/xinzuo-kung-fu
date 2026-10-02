@@ -173,6 +173,28 @@
       </section>
 
       <section id="homeView" aria-labelledby="curriculumTitle">
+        <div class="course-language-section" aria-labelledby="courseLanguageTitle">
+          <div class="section-heading course-language-heading">
+            <div>
+              <p class="eyebrow" id="courseLanguageEyebrow">Choose your course</p>
+              <h2 id="courseLanguageTitle">Italiano / English</h2>
+            </div>
+            <p id="courseLanguageNote" class="section-note"></p>
+          </div>
+          <div class="course-language-grid">
+            <button id="courseItalian" class="course-language-card" type="button" data-course-locale="it">
+              <span class="course-language-card__code">IT</span>
+              <strong id="courseItalianTitle">Corso in italiano</strong>
+              <span id="courseItalianText">Percorso completo in italiano.</span>
+            </button>
+            <button id="courseEnglish" class="course-language-card" type="button" data-course-locale="en">
+              <span class="course-language-card__code">EN</span>
+              <strong id="courseEnglishTitle">Course in English</strong>
+              <span id="courseEnglishText">Complete course in English.</span>
+            </button>
+          </div>
+        </div>
+
         <div class="section-heading">
           <div>
             <p class="eyebrow" id="curriculumEyebrow">Three-level path</p>
@@ -186,17 +208,17 @@
       <section id="certificationPanel" class="certification-panel" hidden>
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Xinzuo Academy · Base</p>
-            <h2>Certificazione finale</h2>
+            <p class="eyebrow" id="certificationEyebrow">Xinzuo Academy · Base</p>
+            <h2 id="certificationTitle">Certificazione finale</h2>
           </div>
           <div id="certificationStatusSummary" class="section-note"></div>
         </div>
         <div class="certification-callout">
           <div>
-            <strong>Requisiti</strong>
-            <p>Completa tutte le lezioni, i 6 moduli e i 6 mini-test. L'esame finale richiede almeno l'80% di risposte corrette e zero errori sulle domande critiche.</p>
+            <strong id="certificationRequirementsTitle">Test finale</strong>
+            <p id="certificationRequirementsText">Puoi sostenere il test finale in qualsiasi momento. Completare prima lezioni e mini-test è consigliato, ma non è obbligatorio. Per superarlo servono almeno l'80% di risposte corrette e zero errori sulle domande critiche.</p>
           </div>
-          <button id="startCertification" class="button" type="button">Avvia esame finale</button>
+          <button id="startCertification" class="button" type="button">Prova il test finale</button>
         </div>
       </section>
 

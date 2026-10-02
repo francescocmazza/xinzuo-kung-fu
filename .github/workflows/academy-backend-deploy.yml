@@ -2,6 +2,12 @@ name: Deploy Xinzuo Academy public backend
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "academy-backend/**"
+      - ".github/workflows/academy-backend-deploy.yml"
 
 permissions:
   contents: read
