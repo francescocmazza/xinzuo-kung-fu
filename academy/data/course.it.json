@@ -7,7 +7,7 @@
   "certification": {
     "minimum_score": 0.8,
     "maximum_critical_errors": 0,
-    "remediation_required_before_retry": true,
+    "remediation_required_before_retry": false,
     "direct_attempt_allowed": true
   },
   "mastery_states": [
@@ -6715,7 +6715,7 @@
     "source_locale": "en",
     "engine": "chatgpt-differential-v1",
     "prompt_revision": "2026-10-02-academy-depth-v2",
-    "source_blob_sha": "f663b102181449862c650e11ffbd2add70d67bbe",
+    "source_blob_sha": "a4f13af4d53b2cfdb620cb13d9aad43f2238c68c",
     "reviewed_at": "2026-10-02",
     "guidance": "localization/locales.yml#it",
     "note": "Italian Academy v0.2 reviewed with the current ChatGPT translation workflow; legacy Marian/OPUS-MT output is not accepted.",
