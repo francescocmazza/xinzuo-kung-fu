@@ -1937,7 +1937,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Una caratteristica secondaria non pertinente"
+                      "text": "Solo la massima durezza nominale"
                     },
                     {
                       "id": "b",
@@ -8973,23 +8973,23 @@
               },
               {
                 "id": "a-knife-types-mini-2",
-                "prompt": "Due coltelli hanno lo stesso peso ma sensazioni diverse nel tempo. Che cosa può spiegarlo?",
+                "prompt": "Due coltelli hanno lo stesso peso totale ma una diversa sensazione di rotazione in mano. Che cosa spiega più direttamente la differenza?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Confezioni diverse"
+                    "text": "Diversa durezza nominale del filo"
                   },
                   {
                     "id": "b",
-                    "text": "Bilanciamento e leva"
+                    "text": "Bilanciamento e distribuzione delle masse"
                   },
                   {
                     "id": "c",
-                    "text": "Loghi diversi"
+                    "text": "Diversa lucidatura superficiale"
                   },
                   {
                     "id": "d",
-                    "text": "Certificati diversi"
+                    "text": "Diverso numero degli strati"
                   }
                 ],
                 "correct": "b",
