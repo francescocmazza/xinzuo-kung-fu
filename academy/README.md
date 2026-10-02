@@ -35,6 +35,8 @@ Question banks are validated to prevent obvious answer shortcuts:
 - exactly four options;
 - balanced correct-answer positions across A–D;
 - the correct answer may not be the uniquely longest or shortest option too often across the bank;
+- Intermediate and Advanced concepts must use multiple genuinely different scenarios and answer sets;
+- higher-level and certification banks reject obviously irrelevant distractors that turn questions into guessing exercises;
 - answer order is shuffled in the browser;
 - the server also shuffles final-assessment options;
 - explanations are shown after formative answers.
