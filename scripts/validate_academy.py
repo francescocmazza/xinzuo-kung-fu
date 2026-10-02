@@ -60,13 +60,16 @@ def ids(course: dict[str, Any]) -> dict[str, list[str]]:
 def validate_question(question: dict[str, Any], where: str) -> None:
     require(question.get("id"), f"{where}: missing question id")
     options = question.get("options")
-    require(isinstance(options, list) and len(options) >= 2, f"{where}: requires at least two options")
+    require(isinstance(options, list) and len(options) == 4, f"{where}: requires exactly four options")
     option_ids = [option.get("id") for option in options]
     require(all(option_ids), f"{where}: every option requires an id")
     require(len(option_ids) == len(set(option_ids)), f"{where}: duplicate option ids")
     require(question.get("correct") in option_ids, f"{where}: correct answer is not an option")
     require(bool(question.get("prompt")), f"{where}: missing prompt")
     require(bool(question.get("explanation")), f"{where}: missing explanation")
+    texts = [str(option.get("text") or "").strip() for option in options]
+    require(all(texts), f"{where}: every option requires text")
+    require(len(set(texts)) == len(texts), f"{where}: duplicate option text")
 
 
 def validate_sources(paths: list[str], where: str) -> None:
@@ -81,14 +84,20 @@ def validate_course(course: dict[str, Any], locale: str) -> None:
     require(certification.get("minimum_score") == 0.8, f"{locale}: certification minimum must be 80%")
     require(certification.get("maximum_critical_errors") == 0, f"{locale}: critical-error allowance must be zero")
     require(certification.get("remediation_required_before_retry") is True, f"{locale}: remediation-before-retry must be enabled")
+    require(certification.get("direct_attempt_allowed") is True, f"{locale}: direct final-assessment attempt must be allowed")
 
     levels = course.get("levels", [])
     require([level.get("id") for level in levels] == ["base", "intermediate", "advanced"], f"{locale}: expected Base/Intermediate/Advanced levels")
 
     seen: dict[str, set[str]] = {key: set() for key in ("module", "lesson", "question", "concept", "mini")}
     active_modules = 0
+    active_modules_by_level: dict[str, int] = {}
+    lessons_by_level: dict[str, int] = {}
+    all_questions: list[dict[str, Any]] = []
 
     for level in levels:
+        active_modules_by_level[level["id"]] = 0
+        lessons_by_level[level["id"]] = 0
         for module in level.get("modules", []):
             module_id = module.get("id")
             require(module_id and module_id not in seen["module"], f"{locale}: duplicate/missing module id {module_id!r}")
@@ -99,7 +108,9 @@ def validate_course(course: dict[str, Any], locale: str) -> None:
                 continue
 
             active_modules += 1
+            active_modules_by_level[level["id"]] += 1
             lessons = module.get("lessons", [])
+            lessons_by_level[level["id"]] += len(lessons)
             require(lessons, f"{locale}:{module_id}: active module requires lessons")
 
             for lesson in lessons:
@@ -114,6 +125,7 @@ def validate_course(course: dict[str, Any], locale: str) -> None:
 
                 question = lesson.get("question", {})
                 validate_question(question, f"{locale}:{lesson_id}:learning")
+                all_questions.append(question)
                 require(question["id"] not in seen["question"], f"{locale}: duplicate question id {question['id']}")
                 seen["question"].add(question["id"])
 
@@ -121,6 +133,7 @@ def validate_course(course: dict[str, Any], locale: str) -> None:
                 require(len(recovery) >= 2, f"{locale}:{lesson_id}: at least two recovery variants are required")
                 for question in recovery:
                     validate_question(question, f"{locale}:{lesson_id}:recovery")
+                    all_questions.append(question)
                     require(question["id"] not in seen["question"], f"{locale}: duplicate question id {question['id']}")
                     seen["question"].add(question["id"])
 
@@ -133,12 +146,45 @@ def validate_course(course: dict[str, Any], locale: str) -> None:
             require(len(mini.get("questions", [])) >= len(lessons), f"{locale}:{mini_id}: mini-test should cover the module concepts")
             for question in mini.get("questions", []):
                 validate_question(question, f"{locale}:{mini_id}")
+                all_questions.append(question)
                 require(question.get("concept_id") in seen["concept"], f"{locale}:{mini_id}: unknown concept {question.get('concept_id')}")
                 require(isinstance(question.get("critical"), bool), f"{locale}:{question.get('id')}: critical must be boolean")
                 require(question["id"] not in seen["question"], f"{locale}: duplicate question id {question['id']}")
                 seen["question"].add(question["id"])
 
-    require(active_modules >= 1, f"{locale}: at least one module must be active")
+    require(active_modules_by_level == {"base": 9, "intermediate": 9, "advanced": 9},
+            f"{locale}: expected 9 active modules at every level, got {active_modules_by_level}")
+    require(lessons_by_level == {"base": 27, "intermediate": 9, "advanced": 9},
+            f"{locale}: unexpected lesson depth structure {lessons_by_level}")
+
+    # Anti-shortcut audit: correct answers must not systematically reveal themselves by length
+    # or fixed option position. We intentionally assess the whole bank rather than forcing
+    # every single item to have identical-length prose.
+    correct_positions = {"a": 0, "b": 0, "c": 0, "d": 0}
+    unique_longest = 0
+    unique_shortest = 0
+    for question in all_questions:
+        correct = question["correct"]
+        correct_positions[correct] += 1
+        lengths = [len(str(option["text"]).split()) for option in question["options"]]
+        correct_index = next(i for i, option in enumerate(question["options"]) if option["id"] == correct)
+        correct_len = lengths[correct_index]
+        longest = max(lengths)
+        shortest = min(lengths)
+        if correct_len == longest and lengths.count(longest) == 1:
+            unique_longest += 1
+        if correct_len == shortest and lengths.count(shortest) == 1:
+            unique_shortest += 1
+
+    total_questions = max(1, len(all_questions))
+    require(unique_longest / total_questions <= 0.35,
+            f"{locale}: correct answer is uniquely longest too often ({unique_longest}/{total_questions})")
+    require(unique_shortest / total_questions <= 0.35,
+            f"{locale}: correct answer is uniquely shortest too often ({unique_shortest}/{total_questions})")
+    for option_id, count in correct_positions.items():
+        share = count / total_questions
+        require(0.18 <= share <= 0.32,
+                f"{locale}: correct option position {option_id} is imbalanced ({count}/{total_questions})")
 
     for kind, values in ids(course).items():
         if kind == "concepts":
