@@ -479,8 +479,8 @@
           : "Percorso Base completato. Puoi sostenere il test finale.";
       } else {
         el.certificationStatusSummary.textContent = en
-          ? `Final test available now · preparation: ${p.lessonsCompleted || 0}/27 lessons · ${p.modulesCompleted || 0}/6 modules · ${p.miniTestsCompleted || 0}/6 mini-tests.`
-          : `Test finale disponibile anche subito · preparazione: ${p.lessonsCompleted || 0}/27 lezioni · ${p.modulesCompleted || 0}/6 moduli · ${p.miniTestsCompleted || 0}/6 mini-test.`;
+          ? `Final test available now · preparation: ${p.lessonsCompleted || 0}/27 lessons · ${p.modulesCompleted || 0}/9 modules · ${p.miniTestsCompleted || 0}/9 mini-tests.`
+          : `Test finale disponibile anche subito · preparazione: ${p.lessonsCompleted || 0}/27 lezioni · ${p.modulesCompleted || 0}/9 moduli · ${p.miniTestsCompleted || 0}/9 mini-test.`;
       }
       el.startCertification.disabled = false;
     } catch (error) {
@@ -606,8 +606,8 @@
             <h2>${en ? "Test not passed" : "Esame non superato"}</h2>
             <p class="lead">${en ? "Score" : "Punteggio"}: <strong>${percentage}%</strong> · ${en ? "critical errors" : "errori critici"}: <strong>${result.criticalErrors}</strong>.</p>
             <p>${en
-              ? `Review the indicated concepts and complete at least ${result.remediationInteractionsRequired || 3} new learning interactions before trying again.`
-              : `Rivedi i concetti indicati nel percorso e completa almeno ${result.remediationInteractionsRequired || 3} nuove interazioni formative prima di riprovare.`}</p>
+              ? "Review the indicated concepts before trying again. The final test remains available without mandatory module completion."
+              : "Rivedi i concetti indicati prima di riprovare. Il test finale resta disponibile senza obbligo di completare i moduli."}</p>
             <p class="password-hint">${en ? "Areas to review" : "Aree da consolidare"}: ${(result.failedConcepts || []).map(escapeHtml).join(", ") || (en ? "review the Base path" : "riesamina il percorso Base")}.</p>
             <button id="certificationReturn" class="button" type="button">${en ? "Return to training" : "Torna alla formazione"}</button>
           </div>

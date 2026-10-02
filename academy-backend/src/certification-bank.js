@@ -1,204 +1,277 @@
-export const BASE_CERTIFICATION_VERSION = "base-final-2026-09-v1";
+// Generated from the reviewed Academy Base v0.2 concept bank.
+// The final assessment covers all 27 Base concepts. Correct answers stay server-side;
+// the Worker shuffles option order on delivery to avoid positional shortcuts.
+export const BASE_CERTIFICATION_VERSION = "base-final-2026-10-v2";
 
 export const BASE_CERTIFICATION_BANK = [
   {
-    id:"cert-base-001", conceptId:"safety.workstation", critical:true,
-    prompt:{en:"Before the first cut, which preparation is correct?",it:"Prima del primo taglio, quale preparazione è corretta?"},
+    id:"cert-base-001", conceptId:"knife-system.anatomy.base", critical:false,
+    prompt:{en:"Which part is the sharpened boundary of the blade?",it:"Quale parte è il bordo affilato della lama?"},
     options:[
-      {id:"a",en:"Stabilize board and food, clear the blade path, dry hands/handle, then position the knife.",it:"Stabilizzare tagliere e alimento, liberare il percorso della lama, asciugare mani/manico e poi posizionare il coltello."},
-      {id:"b",en:"Start slowly and correct the board only if it moves.",it:"Iniziare lentamente e correggere il tagliere solo se si muove."},
-      {id:"c",en:"Hold the food harder and add downward force.",it:"Tenere più forte l'alimento e aumentare la forza verso il basso."},
-      {id:"d",en:"Wet the board so the blade cannot bounce.",it:"Bagnare il tagliere per evitare rimbalzi della lama."}
+      {id:"a",en:"Spine",it:"Dorso"},
+      {id:"b",en:"Bolster",it:"Raccordo"},
+      {id:"c",en:"Tang",it:"Codolo"},
+      {id:"d",en:"Cutting edge",it:"Filo / tagliente"}
+    ], correct:"d"
+  },
+  {
+    id:"cert-base-002", conceptId:"knife-system.tang-bolster-forging.base", critical:false,
+    prompt:{en:"What does 'full tang' primarily describe?",it:"Che cosa descrive principalmente «codolo integrale»?"},
+    options:[
+      {id:"a",en:"Handle construction",it:"Costruzione del manico"},
+      {id:"b",en:"Steel hardness",it:"Durezza dell'acciaio"},
+      {id:"c",en:"Edge angle",it:"Angolo del filo"},
+      {id:"d",en:"Surface finish",it:"Finitura superficiale"}
     ], correct:"a"
   },
   {
-    id:"cert-base-002", conceptId:"safety.food_stability", critical:true,
-    prompt:{en:"A round ingredient rolls on the board. What should happen first?",it:"Un alimento rotondo rotola sul tagliere. Che cosa bisogna fare prima?"},
+    id:"cert-base-003", conceptId:"knife-system.handle-materials.base", critical:false,
+    prompt:{en:"What should guide handle-material choice?",it:"Che cosa dovrebbe guidare la scelta del materiale del manico?"},
     options:[
-      {id:"a",en:"Create a flat supporting face.",it:"Creare una faccia di appoggio piatta."},
-      {id:"b",en:"Use a heavier knife.",it:"Usare un coltello più pesante."},
-      {id:"c",en:"Increase fingertip pressure.",it:"Aumentare la pressione dei polpastrelli."},
-      {id:"d",en:"Start the cut faster.",it:"Iniziare il taglio più velocemente."}
+      {id:"a",en:"Country of origin",it:"Paese di origine"},
+      {id:"b",en:"Use and care context",it:"Contesto d'uso e cura"},
+      {id:"c",en:"Pattern alone",it:"Solo il motivo estetico"},
+      {id:"d",en:"Highest density only",it:"Solo la densità più alta"}
+    ], correct:"b"
+  },
+  {
+    id:"cert-base-004", conceptId:"steel-performance.five-dimensions.base", critical:false,
+    prompt:{en:"Which statement best describes a knife steel?",it:"Quale frase descrive meglio un acciaio da coltello?"},
+    options:[
+      {id:"a",en:"Price predicts all properties",it:"Il prezzo predice tutte le proprietà"},
+      {id:"b",en:"Stainless means no trade-offs",it:"Inox significa nessun compromesso"},
+      {id:"c",en:"A property balance",it:"Un equilibrio di proprietà"},
+      {id:"d",en:"Hardness alone defines quality",it:"La sola durezza definisce la qualità"}
+    ], correct:"c"
+  },
+  {
+    id:"cert-base-005", conceptId:"steel-performance.hardness-toughness.base", critical:false,
+    prompt:{en:"Which property most directly resists cracking?",it:"Quale proprietà resiste più direttamente alla criccatura?"},
+    options:[
+      {id:"a",en:"Pattern density",it:"Densità del motivo"},
+      {id:"b",en:"Toughness",it:"Tenacità"},
+      {id:"c",en:"Hardness",it:"Durezza"},
+      {id:"d",en:"Polish",it:"Lucidatura"}
+    ], correct:"b"
+  },
+  {
+    id:"cert-base-006", conceptId:"steel-performance.retention-corrosion-sharpening.base", critical:false,
+    prompt:{en:"What can high wear resistance change?",it:"Che cosa può cambiare un'elevata resistenza all'usura?"},
+    options:[
+      {id:"a",en:"Higher sharpening effort",it:"Maggiore sforzo di affilatura"},
+      {id:"b",en:"It guarantees toughness",it:"Garantisce tenacità"},
+      {id:"c",en:"It prevents all corrosion",it:"Impedisce ogni corrosione"},
+      {id:"d",en:"It fixes poor geometry",it:"Corregge una cattiva geometria"}
     ], correct:"a"
   },
   {
-    id:"cert-base-003", conceptId:"safety.tool_fit_and_lateral_stress", critical:true,
-    prompt:{en:"A thin hard blade becomes stuck in dense food. What is the correct action?",it:"Una lama sottile e dura resta bloccata in un alimento denso. Qual è l'azione corretta?"},
+    id:"cert-base-007", conceptId:"metallurgy.alloying.base", critical:false,
+    prompt:{en:"Which element is strongly linked to corrosion resistance in stainless steel?",it:"Quale elemento è fortemente legato alla resistenza alla corrosione negli inox?"},
     options:[
-      {id:"a",en:"Withdraw it carefully and adjust the cut.",it:"Estrarla con cautela e modificare il taglio."},
-      {id:"b",en:"Twist the handle until the food opens.",it:"Torcere il manico finché l'alimento si apre."},
-      {id:"c",en:"Lever sideways with the blade face.",it:"Fare leva lateralmente con la faccia della lama."},
-      {id:"d",en:"Strike the spine.",it:"Colpire il dorso."}
+      {id:"a",en:"Chromium",it:"Cromo"},
+      {id:"b",en:"Copper only",it:"Solo rame"},
+      {id:"c",en:"Aluminum only",it:"Solo alluminio"},
+      {id:"d",en:"Silicon alone",it:"Solo silicio"}
     ], correct:"a"
   },
   {
-    id:"cert-base-004", conceptId:"safety.washing_transfer_carrying", critical:true,
-    prompt:{en:"Which handling situation is explicitly unsafe?",it:"Quale situazione di manipolazione è esplicitamente pericolosa?"},
+    id:"cert-base-008", conceptId:"metallurgy.heat-treatment-carbides.base", critical:false,
+    prompt:{en:"What most directly develops the final microstructure of a blade steel?",it:"Che cosa sviluppa più direttamente la microstruttura finale di un acciaio da lama?"},
     options:[
-      {id:"a",en:"Leaving a sharp knife hidden under soapy water.",it:"Lasciare un coltello affilato nascosto nell'acqua saponata."},
-      {id:"b",en:"Washing one knife at a time with the edge visible.",it:"Lavare un coltello alla volta mantenendo visibile il filo."},
-      {id:"c",en:"Carrying a knife low and still for a short distance.",it:"Trasportare un coltello basso e fermo per una breve distanza."},
-      {id:"d",en:"Presenting the handle toward the receiver.",it:"Orientare il manico verso chi riceve il coltello."}
+      {id:"a",en:"Blade logo",it:"Logo sulla lama"},
+      {id:"b",en:"Handle shape",it:"Forma del manico"},
+      {id:"c",en:"Packaging method",it:"Metodo di confezionamento"},
+      {id:"d",en:"Heat treatment",it:"Trattamento termico"}
+    ], correct:"d"
+  },
+  {
+    id:"cert-base-009", conceptId:"metallurgy.steelmaking-routes.base", critical:false,
+    prompt:{en:"What does powder metallurgy guarantee by itself?",it:"Che cosa garantisce da sola la metallurgia delle polveri?"},
+    options:[
+      {id:"a",en:"Lowest sharpening effort",it:"Minimo sforzo di affilatura"},
+      {id:"b",en:"Best geometry",it:"Migliore geometria"},
+      {id:"c",en:"No automatic ranking",it:"Nessuna classifica automatica"},
+      {id:"d",en:"Maximum toughness",it:"Tenacità massima"}
+    ], correct:"c"
+  },
+  {
+    id:"cert-base-010", conceptId:"damascus.damascus-types.base", critical:false,
+    prompt:{en:"What does core-and-cladding Damascus contain at the cutting core?",it:"Che cosa contiene al nucleo tagliente un Damasco con rivestimento?"},
+    options:[
+      {id:"a",en:"A plastic insert",it:"Un inserto plastico"},
+      {id:"b",en:"Separate core steel",it:"Acciaio del nucleo distinto"},
+      {id:"c",en:"Only surface paint",it:"Solo vernice superficiale"},
+      {id:"d",en:"No metallic layers",it:"Nessuno strato metallico"}
+    ], correct:"b"
+  },
+  {
+    id:"cert-base-011", conceptId:"damascus.pattern-vs-performance.base", critical:false,
+    prompt:{en:"What can a Damascus-like laser pattern prove?",it:"Che cosa può provare un motivo tipo Damasco realizzato al laser?"},
+    options:[
+      {id:"a",en:"Higher toughness",it:"Maggiore tenacità"},
+      {id:"b",en:"Better heat treatment",it:"Migliore trattamento termico"},
+      {id:"c",en:"Surface decoration only",it:"Solo decorazione superficiale"},
+      {id:"d",en:"Layered construction",it:"Costruzione stratificata"}
+    ], correct:"c"
+  },
+  {
+    id:"cert-base-012", conceptId:"damascus.differential-wear.base", critical:false,
+    prompt:{en:"What is a careful description of differential-wear full Damascus?",it:"Qual è una descrizione corretta del Damasco integrale a usura differenziale?"},
+    options:[
+      {id:"a",en:"It never needs sharpening",it:"Non richiede mai affilatura"},
+      {id:"b",en:"It cannot chip",it:"Non può scheggiarsi"},
+      {id:"c",en:"It ignores geometry",it:"La geometria non conta"},
+      {id:"d",en:"Different layer wear",it:"Usura differente degli strati"}
+    ], correct:"d"
+  },
+  {
+    id:"cert-base-013", conceptId:"geometry.edge-bevel.base", critical:false,
+    prompt:{en:"Which feature sits immediately beside the apex?",it:"Quale caratteristica si trova immediatamente vicino all'apice?"},
+    options:[
+      {id:"a",en:"Tang",it:"Codolo"},
+      {id:"b",en:"Handle scale",it:"Guancetta"},
+      {id:"c",en:"Edge bevel",it:"Bisello del filo"},
+      {id:"d",en:"Spine",it:"Dorso"}
+    ], correct:"c"
+  },
+  {
+    id:"cert-base-014", conceptId:"geometry.single-double.base", critical:false,
+    prompt:{en:"Does double bevel always mean 50/50 symmetry?",it:"Doppio bisello significa sempre simmetria 50/50?"},
+    options:[
+      {id:"a",en:"Only on carbon steel",it:"Solo sugli acciai al carbonio"},
+      {id:"b",en:"No, proportions can differ",it:"No, le proporzioni possono differire"},
+      {id:"c",en:"Yes, by definition",it:"Sì, per definizione"},
+      {id:"d",en:"Only on forged knives",it:"Solo sui forgiati"}
+    ], correct:"b"
+  },
+  {
+    id:"cert-base-015", conceptId:"geometry.section-geometry.base", critical:false,
+    prompt:{en:"What most directly contributes to wedging in thick food?",it:"Che cosa contribuisce più direttamente all'effetto cuneo negli alimenti spessi?"},
+    options:[
+      {id:"a",en:"Behind-edge thickness",it:"Spessore dietro il filo"},
+      {id:"b",en:"Logo depth",it:"Profondità del logo"},
+      {id:"c",en:"Handle color",it:"Colore del manico"},
+      {id:"d",en:"Box material",it:"Materiale della scatola"}
     ], correct:"a"
   },
   {
-    id:"cert-base-005", conceptId:"anatomy.blade_parts", critical:false,
-    prompt:{en:"What is the bevel?",it:"Che cos'è il bisello?"},
+    id:"cert-base-016", conceptId:"knife-types.general-purpose.base", critical:false,
+    prompt:{en:"What should come first when choosing a general-purpose knife?",it:"Che cosa viene prima nella scelta di un coltello multiuso?"},
     options:[
-      {id:"a",en:"The geometry that narrows the blade toward the apex.",it:"La geometria che restringe la lama verso l'apice."},
-      {id:"b",en:"The rear end of the handle.",it:"La parte terminale del manico."},
-      {id:"c",en:"The upper unsharpened side.",it:"Il lato superiore non affilato."},
-      {id:"d",en:"A surface finish only.",it:"Soltanto una finitura superficiale."}
+      {id:"a",en:"The largest pattern",it:"Il motivo più grande"},
+      {id:"b",en:"The highest price",it:"Il prezzo più alto"},
+      {id:"c",en:"The darkest handle",it:"Il manico più scuro"},
+      {id:"d",en:"Actual cutting work",it:"Lavoro di taglio reale"}
+    ], correct:"d"
+  },
+  {
+    id:"cert-base-017", conceptId:"knife-types.specialist-families.base", critical:false,
+    prompt:{en:"What is a deba primarily designed for?",it:"Per che cosa è progettato principalmente un deba?"},
+    options:[
+      {id:"a",en:"Controlled fish butchery",it:"Lavorazione controllata del pesce"},
+      {id:"b",en:"Frozen-food prying",it:"Fare leva su alimenti congelati"},
+      {id:"c",en:"Universal bone chopping",it:"Spaccare qualunque osso"},
+      {id:"d",en:"Bread slicing",it:"Affettare il pane"}
     ], correct:"a"
   },
   {
-    id:"cert-base-006", conceptId:"geometry.single_bevel_and_handedness", critical:true,
-    prompt:{en:"A profile is traditionally associated with single-bevel knives. What must staff do before giving handedness or sharpening advice?",it:"Una forma è tradizionalmente associata ai coltelli a bisello singolo. Che cosa deve fare il personale prima di dare indicazioni sulla lateralità d’uso o sull’affilatura?"},
-    options:[
-      {id:"a",en:"Check the exact model's grind and specification.",it:"Controllare geometria e specifiche del modello esatto."},
-      {id:"b",en:"Assume it is right-handed.",it:"Presumere che sia destrorso."},
-      {id:"c",en:"Assume every traditional form is single bevel.",it:"Presumere che ogni forma tradizionale sia monobisello."},
-      {id:"d",en:"Treat it as 50/50 without checking.",it:"Trattarlo come 50/50 senza verificare."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-007", conceptId:"geometry.double_bevel", critical:false,
-    prompt:{en:"Does 'double bevel' guarantee a perfectly symmetrical 50/50 grind?",it:"La definizione 'doppio bisello' garantisce una geometria perfettamente simmetrica 50/50?"},
-    options:[
-      {id:"a",en:"No. Both sides are sharpened, but the proportions can be asymmetric.",it:"No. Entrambi i lati sono affilati, ma le proporzioni possono essere asimmetriche."},
-      {id:"b",en:"Yes, always.",it:"Sì, sempre."},
-      {id:"c",en:"Only on forged knives.",it:"Solo sui coltelli forgiati."},
-      {id:"d",en:"Only on stainless knives.",it:"Solo sui coltelli inox."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-008", conceptId:"shapes.work_before_name", critical:false,
-    prompt:{en:"What should come first in a knife recommendation?",it:"Che cosa deve venire prima in una raccomandazione di un coltello?"},
-    options:[
-      {id:"a",en:"The customer's foods, quantities and cutting movements.",it:"Alimenti, quantità e movimenti di taglio del cliente."},
-      {id:"b",en:"The most complex Damascus pattern.",it:"Il motivo Damasco più complesso."},
-      {id:"c",en:"The highest HRC.",it:"L'HRC più alto."},
-      {id:"d",en:"The most expensive series.",it:"La serie più costosa."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-009", conceptId:"shapes.specialist_geometry", critical:true,
-    prompt:{en:"Which statement about a deba is correct?",it:"Quale affermazione sul deba è corretta?"},
-    options:[
-      {id:"a",en:"It is a fish-butchery specialist, not a universal heavy-bone cleaver.",it:"È uno specialista della lavorazione del pesce, non una mannaia universale per ossa pesanti."},
-      {id:"b",en:"It is intended for prying frozen objects apart.",it:"È destinato a fare leva su oggetti congelati."},
-      {id:"c",en:"It should flex deeply around a rib cage.",it:"Deve flettersi profondamente attorno alla gabbia toracica."},
-      {id:"d",en:"Its weight makes twisting safe.",it:"Il suo peso rende sicura la torsione."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-010", conceptId:"shapes.long_slicing", critical:false,
-    prompt:{en:"What makes a long slicer effective?",it:"Che cosa rende efficace un coltello affettatore lungo?"},
-    options:[
-      {id:"a",en:"Using its length in a long drawing stroke.",it:"Usare la sua lunghezza in una lunga corsa in trazione."},
-      {id:"b",en:"Repeated short sawing strokes.",it:"Ripetuti brevi movimenti a sega."},
-      {id:"c",en:"Heavy vertical impact.",it:"Impatto verticale pesante."},
-      {id:"d",en:"Sideways leverage.",it:"Leva laterale."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-011", conceptId:"care.board_surface_hardness", critical:true,
-    prompt:{en:"Which routine cutting surface should be avoided with a fine kitchen edge?",it:"Quale superficie di taglio quotidiana va evitata con un filo fine da cucina?"},
-    options:[
-      {id:"a",en:"Glass.",it:"Vetro."},
-      {id:"b",en:"Suitable wood.",it:"Legno adatto."},
-      {id:"c",en:"Purpose-made resilient synthetic.",it:"Sintetico resiliente specifico."},
-      {id:"d",en:"Suitable purpose-made plastic.",it:"Plastica specifica adatta."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-012", conceptId:"care.washing_and_drying", critical:true,
-    prompt:{en:"What is the correct routine after cutting salty or acidic food?",it:"Qual è la routine corretta dopo aver tagliato alimenti salati o acidi?"},
-    options:[
-      {id:"a",en:"Hand wash/rinse promptly and dry blade and handle completely.",it:"Lavare/risciacquare a mano tempestivamente e asciugare completamente lama e manico."},
-      {id:"b",en:"Leave residues until the end of the day.",it:"Lasciare i residui fino a fine giornata."},
-      {id:"c",en:"Soak the knife overnight.",it:"Lasciare il coltello in ammollo tutta la notte."},
-      {id:"d",en:"Put it in the dishwasher.",it:"Metterlo in lavastoviglie."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-013", conceptId:"care.safe_storage", critical:true,
-    prompt:{en:"Which storage condition is inappropriate?",it:"Quale condizione di conservazione è inappropriata?"},
-    options:[
-      {id:"a",en:"The edge loose among metal utensils in a drawer.",it:"Il filo libero tra utensili metallici in un cassetto."},
-      {id:"b",en:"A suitable fitted guard.",it:"Una protezione lama adatta."},
-      {id:"c",en:"A suitable knife block.",it:"Un ceppo adatto."},
-      {id:"d",en:"A fitted saya.",it:"Una saya adatta."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-014", conceptId:"sharpening.stone_setup", critical:true,
-    prompt:{en:"The stone support moves during sharpening. What should happen?",it:"Il supporto della pietra si muove durante l'affilatura. Che cosa bisogna fare?"},
-    options:[
-      {id:"a",en:"Stop and stabilize it before continuing.",it:"Fermarsi e stabilizzarlo prima di continuare."},
-      {id:"b",en:"Increase pressure.",it:"Aumentare la pressione."},
-      {id:"c",en:"Move faster.",it:"Andare più velocemente."},
-      {id:"d",en:"Change to a finer grit.",it:"Passare a una grana più fine."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-015", conceptId:"sharpening.edge_bevel_contact", critical:true,
-    prompt:{en:"What does the marker method verify during sharpening?",it:"Che cosa verifica il metodo del pennarello durante l'affilatura?"},
-    options:[
-      {id:"a",en:"Where the stone contacts and removes material on the edge bevel.",it:"Dove la pietra tocca e rimuove materiale sul bisello del filo."},
-      {id:"b",en:"The steel hardness.",it:"La durezza dell'acciaio."},
-      {id:"c",en:"The exact stone grit.",it:"La grana esatta della pietra."},
-      {id:"d",en:"Whether the knife is forged.",it:"Se il coltello è forgiato."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-016", conceptId:"sharpening.burr_control", critical:true,
-    prompt:{en:"What is the correct burr target?",it:"Qual è il target corretto della bava?"},
-    options:[
-      {id:"a",en:"The smallest detectable burr that is continuous along the whole edge.",it:"La più piccola bava rilevabile ma continua lungo tutto il filo."},
-      {id:"b",en:"The largest burr possible.",it:"La bava più grande possibile."},
-      {id:"c",en:"A burr only in the middle.",it:"Una bava soltanto al centro."},
-      {id:"d",en:"A burr left attached for durability.",it:"Una bava lasciata attaccata per aumentare la durata."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-017", conceptId:"sharpening.deburr_and_test", critical:true,
-    prompt:{en:"Why should paper not be the only final sharpness test?",it:"Perché la carta non dovrebbe essere l'unico test finale di affilatura?"},
-    options:[
-      {id:"a",en:"A fragile wire edge can cut paper once but fail in food.",it:"Un fragile filo residuo (wire edge) può tagliare la carta una volta ma cedere sull’alimento."},
-      {id:"b",en:"Paper never shows catches.",it:"La carta non mostra mai impuntamenti."},
-      {id:"c",en:"Paper always damages the edge.",it:"La carta danneggia sempre il filo."},
-      {id:"d",en:"Paper only works on serrations.",it:"La carta funziona solo con i seghettati."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-018", conceptId:"consultation.function_first", critical:false,
-    prompt:{en:"When should steel grades be compared in a customer consultation?",it:"Quando vanno confrontati gli acciai in una consulenza al cliente?"},
-    options:[
-      {id:"a",en:"After identifying knife families whose geometry already suits the customer's work.",it:"Dopo aver identificato famiglie di coltelli la cui geometria è già adatta al lavoro del cliente."},
-      {id:"b",en:"Before asking what the customer cuts.",it:"Prima di chiedere che cosa taglia il cliente."},
-      {id:"c",en:"Steel should be the only selection criterion.",it:"L'acciaio deve essere l'unico criterio di scelta."},
-      {id:"d",en:"Only after payment.",it:"Solo dopo il pagamento."}
-    ], correct:"a"
-  },
-  {
-    id:"cert-base-019", conceptId:"consultation.grip_and_balance", critical:false,
+    id:"cert-base-018", conceptId:"knife-types.balance-grip.base", critical:false,
     prompt:{en:"Why can the same knife feel differently balanced to two users?",it:"Perché lo stesso coltello può sembrare bilanciato diversamente a due utenti?"},
     options:[
-      {id:"a",en:"Grip position changes leverage relative to the same mass distribution.",it:"La posizione della presa cambia la leva rispetto alla stessa distribuzione delle masse."},
-      {id:"b",en:"The knife changes its physical weight.",it:"Il coltello cambia il proprio peso fisico."},
-      {id:"c",en:"Only blade steel controls balance.",it:"Solo l'acciaio della lama controlla il bilanciamento."},
-      {id:"d",en:"Balance is purely decorative.",it:"Il bilanciamento è puramente decorativo."}
+      {id:"a",en:"The box changes leverage",it:"La scatola cambia la leva"},
+      {id:"b",en:"Different grip positions",it:"Posizioni di presa diverse"},
+      {id:"c",en:"The steel changes weight",it:"L'acciaio cambia peso"},
+      {id:"d",en:"The logo shifts mass",it:"Il logo sposta la massa"}
+    ], correct:"b"
+  },
+  {
+    id:"cert-base-019", conceptId:"technique-safety.cutting-movements.base", critical:true,
+    prompt:{en:"Which movement sends the edge forward and down?",it:"Quale movimento porta il filo in avanti e verso il basso?"},
+    options:[
+      {id:"a",en:"Handle twisting",it:"Torsione del manico"},
+      {id:"b",en:"Push cutting",it:"Taglio a spingere"},
+      {id:"c",en:"Side scraping",it:"Raschiamento laterale"},
+      {id:"d",en:"Prying",it:"Leva"}
+    ], correct:"b"
+  },
+  {
+    id:"cert-base-020", conceptId:"technique-safety.workstation-hand.base", critical:true,
+    prompt:{en:"What should happen before the first cut?",it:"Che cosa deve avvenire prima del primo taglio?"},
+    options:[
+      {id:"a",en:"Speed up the stroke",it:"Accelerare il movimento"},
+      {id:"b",en:"Wet the board",it:"Bagnare il tagliere"},
+      {id:"c",en:"Stable board, food and path",it:"Tagliere, alimento e percorso stabili"},
+      {id:"d",en:"Add more force",it:"Aumentare la forza"}
+    ], correct:"c"
+  },
+  {
+    id:"cert-base-021", conceptId:"technique-safety.handling-lateral-load.base", critical:true,
+    prompt:{en:"A blade binds in dense food. What should you do?",it:"Una lama si blocca in un alimento denso. Che cosa fai?"},
+    options:[
+      {id:"a",en:"Twist the handle",it:"Torcere il manico"},
+      {id:"b",en:"Lever sideways",it:"Fare leva lateralmente"},
+      {id:"c",en:"Strike the spine",it:"Colpire il dorso"},
+      {id:"d",en:"Withdraw and re-angle",it:"Estrarre e cambiare angolo"}
+    ], correct:"d"
+  },
+  {
+    id:"cert-base-022", conceptId:"care.boards.base", critical:true,
+    prompt:{en:"Which surface should be avoided for routine fine-edge cutting?",it:"Quale superficie va evitata per il taglio quotidiano con filo fine?"},
+    options:[
+      {id:"a",en:"Suitable wood",it:"Legno adatto"},
+      {id:"b",en:"Resilient synthetic",it:"Sintetico resiliente"},
+      {id:"c",en:"Purpose-made plastic",it:"Plastica specifica"},
+      {id:"d",en:"Glass",it:"Vetro"}
+    ], correct:"d"
+  },
+  {
+    id:"cert-base-023", conceptId:"care.wash-dry.base", critical:true,
+    prompt:{en:"What should follow cutting salty or acidic food?",it:"Che cosa va fatto dopo aver tagliato alimenti salati o acidi?"},
+    options:[
+      {id:"a",en:"Rinse and dry",it:"Risciacquare e asciugare"},
+      {id:"b",en:"Soak overnight",it:"Lasciare in ammollo"},
+      {id:"c",en:"Leave residue to dry",it:"Lasciare seccare i residui"},
+      {id:"d",en:"Use the dishwasher",it:"Usare la lavastoviglie"}
     ], correct:"a"
   },
   {
-    id:"cert-base-020", conceptId:"consultation.function_fit_selection", critical:false,
-    prompt:{en:"Which sequence summarizes the Xinzuo consultation method?",it:"Quale sequenza riassume il metodo di consulenza Xinzuo?"},
+    id:"cert-base-024", conceptId:"care.storage-inspection.base", critical:true,
+    prompt:{en:"Which storage condition is inappropriate?",it:"Quale condizione di conservazione è inappropriata?"},
     options:[
-      {id:"a",en:"Function → fit → selection.",it:"Funzione → ergonomia → scelta."},
-      {id:"b",en:"Price → hardness → appearance.",it:"Prezzo → durezza → estetica."},
-      {id:"c",en:"Damascus → price → function.",it:"Damasco → prezzo → funzione."},
-      {id:"d",en:"Hardness → handle → task.",it:"Durezza → manico → compito."}
+      {id:"a",en:"Fitted saya",it:"Saya adatta"},
+      {id:"b",en:"Loose drawer contact",it:"Contatto libero nel cassetto"},
+      {id:"c",en:"Fitted blade guard",it:"Protezione lama adatta"},
+      {id:"d",en:"Suitable knife block",it:"Ceppo adatto"}
+    ], correct:"b"
+  },
+  {
+    id:"cert-base-025", conceptId:"sharpening.stone-prep.base", critical:true,
+    prompt:{en:"What should you do if the stone support moves?",it:"Che cosa fai se il supporto della pietra si muove?"},
+    options:[
+      {id:"a",en:"Increase pressure",it:"Aumentare la pressione"},
+      {id:"b",en:"Sharpen faster",it:"Affilare più velocemente"},
+      {id:"c",en:"Use a finer grit",it:"Usare una grana più fine"},
+      {id:"d",en:"Stop and stabilize it",it:"Fermarsi e stabilizzarlo"}
+    ], correct:"d"
+  },
+  {
+    id:"cert-base-026", conceptId:"sharpening.contact-coverage.base", critical:true,
+    prompt:{en:"What does the marker method show?",it:"Che cosa mostra il metodo del pennarello?"},
+    options:[
+      {id:"a",en:"Edge-bevel contact",it:"Contatto sul bisello del filo"},
+      {id:"b",en:"Exact HRC",it:"HRC esatto"},
+      {id:"c",en:"Steel composition",it:"Composizione dell'acciaio"},
+      {id:"d",en:"Handle density",it:"Densità del manico"}
     ], correct:"a"
+  },
+  {
+    id:"cert-base-027", conceptId:"sharpening.burr-finish.base", critical:true,
+    prompt:{en:"What is the correct burr target?",it:"Qual è l'obiettivo corretto per la bava?"},
+    options:[
+      {id:"a",en:"Left attached to the edge",it:"Lasciata attaccata al filo"},
+      {id:"b",en:"Small, continuous and removable",it:"Piccola, continua e rimovibile"},
+      {id:"c",en:"As large as possible",it:"Più grande possibile"},
+      {id:"d",en:"Only at the middle",it:"Solo al centro"}
+    ], correct:"b"
   }
 ];

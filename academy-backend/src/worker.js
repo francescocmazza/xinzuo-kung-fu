@@ -816,7 +816,7 @@ function progressMetrics(progress, env) {
   const miniAvg = miniRows.length ? miniRows.reduce((sum,v) => sum + Number(v.score),0) / miniRows.length : 0;
   const criticalErrors = miniRows.reduce((sum,v) => sum + Math.max(0, Number(v.criticalErrors || 0)),0);
   const conceptRows = Object.values(concepts).filter(Boolean);
-  const lessonsTotal = Math.max(1, Math.min(500, Number(env.ACTIVE_LESSON_TOTAL || 27)));
+  const lessonsTotal = Math.max(1, Math.min(500, Number(env.ACTIVE_LESSON_TOTAL || 45)));
   return {
     lessonsCompleted:Object.values(lessons).filter(Boolean).length,
     lessonsTotal,
@@ -894,7 +894,7 @@ async function activityPing(request, env) {
         `INSERT INTO learner_progress(user_id,course_version,progress_json,lessons_total,engagement_seconds,updated_at)
          VALUES(?,?,'{}',?, ?,?)
          ON CONFLICT(user_id) DO UPDATE SET engagement_seconds=engagement_seconds+excluded.engagement_seconds,updated_at=excluded.updated_at`
-      ).bind(auth.user.id,String(body.courseVersion || "0.1.0").slice(0,40),Number(env.ACTIVE_LESSON_TOTAL || 27),seconds,ts),
+      ).bind(auth.user.id,String(body.courseVersion || "0.1.0").slice(0,40),Number(env.ACTIVE_LESSON_TOTAL || 45),seconds,ts),
       env.DB.prepare(
         "INSERT INTO activity_events(user_id,event_type,duration_seconds,metadata_json,created_at) VALUES(?, 'engagement', ?, ?, ?)"
       ).bind(auth.user.id,seconds,JSON.stringify({ page:String(body.page || "academy").slice(0,80) }),ts)
@@ -978,7 +978,7 @@ async function managerUsers(request, env) {
               lp.updated_at progress_updated_at
        FROM users u LEFT JOIN learner_progress lp ON lp.user_id=u.id
        WHERE u.role='staff' ORDER BY u.active DESC,u.last_active_at DESC,u.last_name,u.first_name`
-    ).bind(Number(env.ACTIVE_LESSON_TOTAL || 27)).all();
+    ).bind(Number(env.ACTIVE_LESSON_TOTAL || 45)).all();
     return apiJson(request, env, { ok:true, users:rows.results || [] });
   });
 }
@@ -1257,7 +1257,7 @@ function publicAssessmentQuestion(question, locale) {
     conceptId:question.conceptId,
     critical:Boolean(question.critical),
     prompt:question.prompt[lang] || question.prompt.en,
-    options:question.options.map(option=>({
+    options:randomShuffle(question.options).map(option=>({
       id:option.id,
       text:option[lang] || option.en
     }))
@@ -1274,11 +1274,18 @@ async function certificationStatus(request, env) {
       ).bind(auth.user.id).all(),
       env.DB.prepare("SELECT * FROM certificates WHERE user_id=? AND course_id='xinzuo-academy-base' ORDER BY issued_at DESC").bind(auth.user.id).all()
     ]);
+    let progressPayload = {};
+    try { progressPayload = progress ? JSON.parse(progress.progress_json || "{}") : {}; } catch {}
+    const baseLessonsCompleted = Object.entries(progressPayload.lessons || {})
+      .filter(([id,done]) => id.startsWith("b-") && Boolean(done)).length;
+    const baseModulesCompleted = Object.entries(progressPayload.moduleCompleted || {})
+      .filter(([id,done]) => id.startsWith("base-") && Boolean(done)).length;
+    const baseMiniTestsCompleted = Object.entries(progressPayload.miniTests || {})
+      .filter(([id,value]) => id.startsWith("base-") && Boolean(value)).length;
     const preparationComplete = Boolean(
-      progress &&
-      Number(progress.lessons_completed||0) >= 27 &&
-      Number(progress.modules_completed||0) >= 6 &&
-      Number(progress.mini_tests_completed||0) >= 6
+      baseLessonsCompleted >= 27 &&
+      baseModulesCompleted >= 9 &&
+      baseMiniTestsCompleted >= 9
     );
     return apiJson(request,env,{
       ok:true,
@@ -1288,13 +1295,13 @@ async function certificationStatus(request, env) {
         minimumScore:0.80,
         maximumCriticalErrors:0,
         lessonsRequired:27,
-        modulesRequired:6,
-        miniTestsRequired:6
+        modulesRequired:9,
+        miniTestsRequired:9
       },
       progress:progress ? {
-        lessonsCompleted:progress.lessons_completed,
-        modulesCompleted:progress.modules_completed,
-        miniTestsCompleted:progress.mini_tests_completed,
+        lessonsCompleted:baseLessonsCompleted,
+        modulesCompleted:baseModulesCompleted,
+        miniTestsCompleted:baseMiniTestsCompleted,
         interactions:progress.interactions
       } : null,
       attempts:attempts.results || [],
@@ -1309,24 +1316,6 @@ async function startBaseCertification(request, env) {
     const body = await bodyJson(request);
     const locale = body.locale === "it" ? "it" : "en";
     const progress = await env.DB.prepare("SELECT * FROM learner_progress WHERE user_id=?").bind(auth.user.id).first();
-
-    const latestFailed = await env.DB.prepare(
-      "SELECT * FROM certification_attempts WHERE user_id=? AND course_id='xinzuo-academy-base' AND completed_at IS NOT NULL AND passed=0 ORDER BY completed_at DESC LIMIT 1"
-    ).bind(auth.user.id).first();
-    if (latestFailed) {
-      let evidence = {};
-      try { evidence = JSON.parse(latestFailed.evidence_json || "{}"); } catch {}
-      const baseline = Number(evidence.interactionBaseline || 0);
-      const remediationRequired = Math.max(3,Number(evidence.remediationInteractionsRequired || 3));
-      if (Number(progress?.interactions || 0) < baseline + remediationRequired ||
-          Number(progress?.updated_at || 0) <= Number(latestFailed.completed_at || 0)) {
-        throw new HttpError(
-          409,
-          "remediation_required",
-          `Review the course and complete at least ${remediationRequired} additional learning interactions before retrying.`
-        );
-      }
-    }
 
     const active = await env.DB.prepare(
       "SELECT * FROM certification_attempts WHERE user_id=? AND course_id='xinzuo-academy-base' AND completed_at IS NULL ORDER BY started_at DESC LIMIT 1"
@@ -1483,8 +1472,8 @@ async function submitBaseCertification(request, env) {
       total:questions.length,
       criticalErrors,
       failedConcepts,
-      remediationRequired:!passed,
-      remediationInteractionsRequired:passed ? 0 : 3,
+      remediationRequired:false,
+      remediationInteractionsRequired:0,
       certificate
     });
   });

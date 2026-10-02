@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const STORAGE_KEY = "xinzuo-academy-progress-v0.1";
+  const STORAGE_KEY = "xinzuo-academy-progress-v0.2";
   const LOCALE_KEY = "xinzuo-academy-locale";
   const SUPPORTED = ["it", "en"];
 
@@ -20,7 +20,7 @@
       interactions: "Interazioni",
       curriculumEyebrow: "Percorso su tre livelli",
       curriculumTitle: "Curriculum",
-      curriculumNote: "Il livello Base è completo e attivo. Intermedio e Avanzato sono già mappati sulla base di conoscenza e verranno attivati solo quando le rispettive banche di domande avranno superato la revisione.",
+      curriculumNote: "Tutti e tre i livelli sono attivi e coprono gli stessi grandi temi del libro. Cambia la profondità richiesta: Base riconosce e applica i fondamenti; Intermedio collega cause e compromessi; Avanzato diagnostica e giustifica decisioni.",
       active: "Attivo",
       planned: "In preparazione",
       lessons: "lezioni",
@@ -81,7 +81,7 @@
       interactions: "Interactions",
       curriculumEyebrow: "Three-level path",
       curriculumTitle: "Curriculum",
-      curriculumNote: "The full Base level is now active. Intermediate and Advanced are already mapped to the knowledge base and unlock only when their reviewed question banks are ready.",
+      curriculumNote: "All three levels are active and cover the same major themes from the book. The required depth changes: Base recognizes and applies fundamentals; Intermediate connects causes and trade-offs; Advanced diagnoses and justifies decisions.",
       active: "Active",
       planned: "Planned",
       lessons: "lessons",
@@ -186,6 +186,7 @@
 
   function freshProgress() {
     return {
+      _courseVersion: null,
       interactions: 0,
       lessons: {},
       concepts: {},
@@ -204,6 +205,7 @@
   }
 
   function saveProgress() {
+    progress._courseVersion = course?.course_version || progress._courseVersion || null;
     progress._updatedAt = new Date().toISOString();
     localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
     updateProgressCard();
@@ -257,7 +259,15 @@
   }
 
   function mergeRemoteProgress(remoteProgress) {
+    if (course && remoteProgress?._courseVersion !== course.course_version) {
+      // v0.2 replaces the earlier use-heavy curriculum; incompatible legacy IDs
+      // must not inflate completion or manager metrics.
+      progress._courseVersion = course.course_version;
+      saveProgress();
+      return;
+    }
     progress = mergeProgress(progress, remoteProgress);
+    progress._courseVersion = course?.course_version || progress._courseVersion;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
     updateProgressCard();
     if (course && !currentModule) renderHome();
@@ -281,6 +291,11 @@
     const response = await fetch(`data/course.${locale}.json`, { cache: "no-store" });
     if (!response.ok) throw new Error(`Unable to load course data (${response.status})`);
     course = await response.json();
+    if (progress._courseVersion !== course.course_version) {
+      progress = freshProgress();
+      progress._courseVersion = course.course_version;
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    }
     applyStaticCopy();
     renderHome();
     window.dispatchEvent(new CustomEvent("academy-locale-changed", { detail: { locale } }));
@@ -578,6 +593,21 @@
     renderQuestion(question, lesson, "recovery", sourceModule);
   }
 
+  function shuffledOptions(question) {
+    const options = [...(question.options || [])];
+    let seed = 2166136261;
+    for (const ch of String(question.id || "")) {
+      seed ^= ch.charCodeAt(0);
+      seed = Math.imul(seed, 16777619) >>> 0;
+    }
+    for (let i = options.length - 1; i > 0; i -= 1) {
+      seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
+      const j = seed % (i + 1);
+      [options[i], options[j]] = [options[j], options[i]];
+    }
+    return options;
+  }
+
   function renderQuestion(question, lesson, mode, sourceModule) {
     updateModulePosition();
     const kicker = mode === "recovery" ? t("recoveryQuestion") : t("learningQuestion");
@@ -592,7 +622,7 @@
       <h2>${escapeHtml(lesson.title)}</h2>
       <fieldset>
         <legend>${escapeHtml(question.prompt)}</legend>
-        ${question.options.map(option => `
+        ${shuffledOptions(question).map(option => `
           <label class="option">
             <input type="radio" name="answer" value="${escapeHtml(option.id)}">
             <span>${escapeHtml(option.text)}</span>
@@ -674,7 +704,7 @@
         ${test.questions.map((question, index) => `
           <fieldset class="mini-question">
             <legend>${index + 1}. ${escapeHtml(question.prompt)}</legend>
-            ${question.options.map(option => `
+            ${shuffledOptions(question).map(option => `
               <label class="option">
                 <input type="radio" name="${escapeHtml(question.id)}" value="${escapeHtml(option.id)}">
                 <span>${escapeHtml(option.text)}</span>
@@ -780,6 +810,18 @@
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#039;");
+  }
+
+  function shuffledOptions(options) {
+    const out = [...(options || [])];
+    if (out.length < 2) return out;
+    const random = new Uint32Array(out.length);
+    crypto.getRandomValues(random);
+    for (let i = out.length - 1; i > 0; i -= 1) {
+      const j = random[i] % (i + 1);
+      [out[i], out[j]] = [out[j], out[i]];
+    }
+    return out;
   }
 
   function cssEscape(value) {
