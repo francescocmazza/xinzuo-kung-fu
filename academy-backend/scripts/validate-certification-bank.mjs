@@ -17,6 +17,19 @@ const concepts = new Set();
 const positions = { a: 0, b: 0, c: 0, d: 0 };
 const longest = { en: 0, it: 0 };
 const shortest = { en: 0, it: 0 };
+const weakDistractorTerms = [
+  "logo",
+  "gift box",
+  "packaging",
+  "user's email",
+  "handle color",
+  "blade engraving color",
+  "scatola regalo",
+  "confezione regalo",
+  "email dell'utente",
+  "colore del manico",
+  "colore dell'incisione",
+];
 
 for (const question of BASE_CERTIFICATION_BANK) {
   if (ids.has(question.id)) fail(`Duplicate question id: ${question.id}`);
@@ -41,6 +54,13 @@ for (const question of BASE_CERTIFICATION_BANK) {
     const min = Math.min(...lengths);
     if (correctLength === max && lengths.filter(v => v === max).length === 1) longest[locale] += 1;
     if (correctLength === min && lengths.filter(v => v === min).length === 1) shortest[locale] += 1;
+
+    for (const option of question.options) {
+      const value = String(option[locale] || "").toLowerCase();
+      if (weakDistractorTerms.some(term => value.includes(term))) {
+        fail(`${question.id}: implausibly irrelevant ${locale} distractor: ${option[locale]}`);
+      }
+    }
   }
 }
 
