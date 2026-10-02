@@ -1,121 +1,75 @@
 # Xinzuo Academy
 
-Xinzuo Academy is the interactive staff-training layer built on top of **The Gongfu of Xinzuo** knowledge base.
+Xinzuo Academy is the interactive learning layer built on **The Gongfu of Xinzuo** knowledge base.
 
-The book remains the source of truth. Academy content must point back to canonical knowledge-base pages and must not become a second, divergent technical manual.
+The English book remains the technical source of truth. Academy content simplifies, sequences and tests that knowledge; technical changes must originate in the book first.
 
-## Product principles recovered from the original design
+## Curriculum v0.2
 
-- remote, browser-based and free to access;
-- three levels: **Base**, **Intermediate**, **Advanced**;
-- short learning content followed immediately by a multiple-choice learning question;
-- learning questions are formative, not scored;
-- a wrong answer shows the reason, lets the learner continue, then re-tests the same concept later with a different question;
-- first delayed recovery happens after **4–8 interactions**;
-- concepts have mastery states: **weak**, **nearly acquired**, **acquired**;
-- macro-topics end with a mini-test that reports results but is not the certification gate;
-- the final assessment is pass/fail, with the working rule **80% overall and zero errors on critical knowledge**;
-- a failed final assessment triggers remediation before retry;
-- progress is tracked by stable `concept_id`, not merely by page completion;
-- training must support consultative product advice: understand the customer's work and recommend the best-fit knife rather than teach aggressive selling;
-- manager reporting and durable multi-device progress belong to the product architecture.
+The Academy uses the same nine knowledge domains at every level so that **Base, Intermediate and Advanced differ mainly by depth of competence, not by topic**:
 
-## v0.1 scope
+1. Knife System & Construction
+2. Steel Performance Foundations
+3. Metallurgy, Heat Treatment & Steels
+4. Damascus & Blade Construction
+5. Geometry & Bevels
+6. Knife Types, Balance & Ergonomics
+7. Cutting Technique & Safe Use
+8. Maintenance & Cutting Boards
+9. Sharpening Foundations & Diagnosis
 
-This branch implements the first functional vertical slice:
+The levels deliberately ask for different kinds of thinking:
 
-1. responsive learner application under `academy/`;
-2. full three-level curriculum map;
-3. complete **Base** level with six active modules: Safety & Control, Anatomy & Bevels, Knife Shapes & Intended Use, Care & Cutting Boards, Sharpening Foundations, and Customer Discovery;
-4. English and Italian course data with stable IDs;
-5. formative question flow with explanation on every answer;
-6. delayed remediation/retest after 4–8 interactions across module boundaries;
-7. per-concept mastery state;
-8. informational mini-test for every Base module;
-9. local browser persistence for the beta;
-10. deterministic validation of course/question data and source-page references;
-11. GitHub Pages publication hook.
+- **Base** — recognize terminology, understand essential mechanisms and make safe everyday choices. It contains 27 lessons: three in every domain.
+- **Intermediate** — apply the same knowledge to realistic trade-offs, cause-and-effect relationships and user needs.
+- **Advanced** — diagnose conflicting evidence, connect multiple variables and justify a technically defensible decision.
 
-Intermediate and Advanced remain mapped but locked until their reviewed question banks are ready.
+All three levels are active in both English and Italian.
 
-## Source-of-truth rule
+## Question design
 
-Each teachable concept carries a canonical `source_path` that points into `content/en/`.
+Every active lesson contains a learning question and two delayed-review variants. Every module ends with an informational mini-test.
 
-The Academy may simplify, sequence and test the knowledge, but technical changes must originate in the English knowledge base first.
+Question banks are validated to prevent obvious answer shortcuts:
 
-## Data model
+- exactly four options;
+- balanced correct-answer positions across A–D;
+- the correct answer may not be the uniquely longest or shortest option too often across the bank;
+- answer order is shuffled in the browser;
+- the server also shuffles final-assessment options;
+- explanations are shown after formative answers.
 
-The localized files `data/course.en.json` and `data/course.it.json` share identical IDs.
+Correctness must therefore come from the content rather than from option position or answer length.
 
-Important entities:
+## Italian translation policy
 
-- `level.id`
-- `module.id`
-- `lesson.id`
-- `concept_id`
-- learning-question `id`
-- recovery-question `id`
-- mini-test question `id`
-- `critical` flag
+`course.en.json` is the Academy source of truth. `course.it.json` is reviewed through the current **ChatGPT differential translation workflow**, using the same Italian terminology guidance as the book.
 
-The validator rejects duplicate IDs, missing source pages, locale structure drift, broken answer keys and inconsistent final-certification rules.
+The Academy translation validator rejects stale Italian content, missing current ChatGPT provenance, legacy Marian/OPUS-MT output, forbidden terminology patterns, and structural drift between English and Italian.
 
-## Adaptive learning state
+The current workflow is `scripts/chatgpt_translate_academy.py` and is integrated into the existing **Prepare ChatGPT translation queue** Action.
 
-The browser beta stores:
+## Final Base assessment
 
-- completed lesson/question IDs;
-- interaction counter;
-- concept attempts and correct answers;
-- current mastery state;
-- next delayed-review interaction;
-- mini-test attempts/results.
+The Base final assessment:
 
-When a learner misses a learning question, the concept becomes `weak`. A different recovery question is scheduled 4–8 interactions later. A successful recovery moves the concept to `nearly_acquired`; a later successful verification can move it to `acquired`.
+- can be attempted **at any time**, even before lessons or mini-tests are complete;
+- can be retried without a mandatory module-completion gate;
+- covers all 27 Base concepts across all nine domains;
+- requires **80% overall** and **zero critical-knowledge errors** to pass;
+- keeps correct answers server-side;
+- issues the Base certificate automatically after a pass.
 
-This is deliberately concept-based so the same logic can later be moved from local storage to a server without changing the course content.
+Course completion is recommended preparation, not an access prerequisite.
 
-## Planned production persistence
+## Adaptive learning
 
-The architecture recovered from the original design is:
+Progress is concept-based. A wrong formative answer marks a concept for delayed review. Successful later checks move the concept through `weak`, `nearly_acquired` and `acquired` states.
 
-```text
-GitHub knowledge base
-        ↓
-Academy curriculum + question bank
-        ↓
-adaptive learning engine
-        ↓
-progress service
-        ↓
-staff dashboard / manager dashboard
-```
+English and Italian share stable lesson, concept and assessment IDs, so changing course language does not create separate progress.
 
-For the shared production service, the intended low-cost stack remains **Cloudflare Pages/Workers + D1**. The beta does not require that backend yet: it proves the learning model first and avoids coupling content authoring to authentication/database work.
+## Production architecture
 
-The server phase should persist at minimum:
+GitHub knowledge base → bilingual Academy curriculum → adaptive learning engine → Cloudflare Worker + D1 → learner / manager / certificate views.
 
-- learner;
-- role/team;
-- concept mastery;
-- attempts;
-- due reviews;
-- module/level completion;
-- final assessment attempts;
-- certification state;
-- source/course revision used for each assessment.
-
-## Certification rule
-
-The final-certification contract is already fixed in course metadata:
-
-- minimum score: 80%;
-- critical knowledge errors allowed: 0;
-- failure requires remediation before retry.
-
-v0.1 does **not** expose a fake final certificate. The entire Base level now has reviewed training content and question banks, but certification remains locked until the intended final assessment bank and durable learner identity/progress service exist.
-
-## No gamification by default
-
-Progress and mastery are visible. Leaderboards, points, streak pressure and decorative badges are intentionally absent until there is a real training reason to add them.
+The Academy is published separately to GitHub Pages so Academy-only changes do not create a new book/PDF revision.
