@@ -10171,7 +10171,7 @@
     "source_locale": "en",
     "engine": "chatgpt-differential-v1",
     "prompt_revision": "2026-10-02-academy-full-depth-v4",
-    "source_blob_sha": "f6ccd0023a783e2c7afb32f393eb4da6207f9837",
+    "source_blob_sha": "e592c5bdbf6b9f3505ea24950affbf07d160c080",
     "reviewed_at": "2026-10-02",
     "guidance": "localization/locales.yml#it",
     "note": "Italian Academy v0.3 reviewed with the current ChatGPT translation workflow; Base, Intermediate and Advanced each contain 27 aligned lessons with reviewed assessment wording.",
