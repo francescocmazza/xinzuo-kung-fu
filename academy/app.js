@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const STORAGE_KEY = "xinzuo-academy-progress-v0.1";
+  const STORAGE_KEY = "xinzuo-academy-progress-v0.2";
   const LOCALE_KEY = "xinzuo-academy-locale";
   const SUPPORTED = ["it", "en"];
 
@@ -186,6 +186,7 @@
 
   function freshProgress() {
     return {
+      _courseVersion: null,
       interactions: 0,
       lessons: {},
       concepts: {},
@@ -204,6 +205,7 @@
   }
 
   function saveProgress() {
+    progress._courseVersion = course?.course_version || progress._courseVersion || null;
     progress._updatedAt = new Date().toISOString();
     localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
     updateProgressCard();
@@ -257,7 +259,15 @@
   }
 
   function mergeRemoteProgress(remoteProgress) {
+    if (course && remoteProgress?._courseVersion !== course.course_version) {
+      // v0.2 replaces the earlier use-heavy curriculum; incompatible legacy IDs
+      // must not inflate completion or manager metrics.
+      progress._courseVersion = course.course_version;
+      saveProgress();
+      return;
+    }
     progress = mergeProgress(progress, remoteProgress);
+    progress._courseVersion = course?.course_version || progress._courseVersion;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
     updateProgressCard();
     if (course && !currentModule) renderHome();
@@ -281,6 +291,11 @@
     const response = await fetch(`data/course.${locale}.json`, { cache: "no-store" });
     if (!response.ok) throw new Error(`Unable to load course data (${response.status})`);
     course = await response.json();
+    if (progress._courseVersion !== course.course_version) {
+      progress = freshProgress();
+      progress._courseVersion = course.course_version;
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    }
     applyStaticCopy();
     renderHome();
     window.dispatchEvent(new CustomEvent("academy-locale-changed", { detail: { locale } }));
