@@ -607,7 +607,7 @@
       <h2>${escapeHtml(lesson.title)}</h2>
       <fieldset>
         <legend>${escapeHtml(question.prompt)}</legend>
-        ${shuffledOptions(question.options).map(option => `
+        ${shuffledOptions(question).map(option => `
           <label class="option">
             <input type="radio" name="answer" value="${escapeHtml(option.id)}">
             <span>${escapeHtml(option.text)}</span>
@@ -689,7 +689,7 @@
         ${test.questions.map((question, index) => `
           <fieldset class="mini-question">
             <legend>${index + 1}. ${escapeHtml(question.prompt)}</legend>
-            ${shuffledOptions(question.options).map(option => `
+            ${shuffledOptions(question).map(option => `
               <label class="option">
                 <input type="radio" name="${escapeHtml(question.id)}" value="${escapeHtml(option.id)}">
                 <span>${escapeHtml(option.text)}</span>
