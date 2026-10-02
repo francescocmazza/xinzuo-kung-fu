@@ -1937,7 +1937,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Gift packaging"
+                      "text": "An unrelated secondary feature"
                     },
                     {
                       "id": "b",
@@ -3840,7 +3840,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Hardness relative to the load"
+                    "text": "Load-relative hardness"
                   },
                   {
                     "id": "d",
@@ -4045,7 +4045,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Hardness and fracture resistance differ"
+                    "text": "Hardness differs from toughness"
                   },
                   {
                     "id": "c",
@@ -4460,7 +4460,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Only the logo can differ"
+                    "text": "The heat-treatment schedule can differ"
                   }
                 ],
                 "correct": "a",
@@ -4600,7 +4600,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "The cutting core and its heat treatment"
+                    "text": "Core steel and heat treatment"
                   },
                   {
                     "id": "d",
@@ -4631,7 +4631,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Stiffness, corrosion behavior and appearance"
+                      "text": "Stiffness, corrosion and appearance"
                     }
                   ],
                   "correct": "d",
@@ -4645,7 +4645,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "The core and geometry still control the edge"
+                      "text": "Core and geometry still dominate"
                     },
                     {
                       "id": "b",
@@ -4997,7 +4997,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Handle color"
+                      "text": "Overall edge angle"
                     },
                     {
                       "id": "b",
@@ -5031,7 +5031,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "It may erase intended geometry"
+                      "text": "It erases design intent"
                     },
                     {
                       "id": "d",
@@ -5070,7 +5070,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Thickness behind the edge"
+                    "text": "Behind-edge thickness"
                   },
                   {
                     "id": "c",
@@ -5131,7 +5131,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "The blade section above the edge also matters"
+                      "text": "Blade section also matters"
                     }
                   ],
                   "correct": "d",
@@ -5191,7 +5191,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Tracking and food release"
+                    "text": "Tracking and release"
                   }
                 ],
                 "correct": "d",
@@ -5205,7 +5205,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "A change in thickness along the blade"
+                    "text": "Thickness change along the blade"
                   },
                   {
                     "id": "b",
@@ -5472,7 +5472,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "After the knife suits the task"
+                      "text": "After task fit"
                     },
                     {
                       "id": "b",
@@ -5502,7 +5502,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "The leverage felt by the hand"
+                      "text": "Hand leverage"
                     },
                     {
                       "id": "c",
@@ -5592,7 +5592,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Repeated leverage can reveal fatigue"
+                    "text": "Repeated leverage reveals fatigue"
                   },
                   {
                     "id": "d",
@@ -5728,7 +5728,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Loss of useful board contact"
+                    "text": "Lost board contact"
                   },
                   {
                     "id": "b",
@@ -5759,7 +5759,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "A smooth pass using edge length"
+                      "text": "Smooth full-edge pass"
                     },
                     {
                       "id": "c",
@@ -5789,7 +5789,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Profile changes how the edge contacts the work"
+                      "text": "Profile changes edge contact"
                     },
                     {
                       "id": "d",
@@ -5828,7 +5828,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Withdraw and re-angle the cut"
+                    "text": "Withdraw and re-angle"
                   },
                   {
                     "id": "c",
@@ -5859,7 +5859,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Stability, angle and tool choice"
+                      "text": "Stability, angle and tool"
                     },
                     {
                       "id": "d",
@@ -5889,7 +5889,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "It creates lateral stress at the edge"
+                      "text": "Lateral edge stress"
                     }
                   ],
                   "correct": "d",
@@ -5963,7 +5963,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Board, food and cutting path"
+                    "text": "Stable board, food and path"
                   },
                   {
                     "id": "b",
@@ -6146,7 +6146,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "It can move more with moisture cycling"
+                      "text": "Moisture-driven movement"
                     }
                   ],
                   "correct": "d",
@@ -6160,7 +6160,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Heat, chemistry and movement add avoidable risks"
+                      "text": "Heat, chemistry and movement risks"
                     },
                     {
                       "id": "b",
@@ -6320,7 +6320,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Material and moisture exposure"
+                    "text": "Material moisture exposure"
                   },
                   {
                     "id": "c",
@@ -6881,7 +6881,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Retail price and packaging"
+                    "text": "Blade polish and edge finish"
                   },
                   {
                     "id": "d",
@@ -6904,7 +6904,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Dimensions and fastening can match the load"
+                      "text": "Dimensions, fastening and load"
                     },
                     {
                       "id": "c",
@@ -6973,7 +6973,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Material, sealing and moisture history"
+                    "text": "Material, sealing and moisture"
                   },
                   {
                     "id": "c",
@@ -7004,7 +7004,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Local fit, fastening stress and material movement"
+                      "text": "Fit, fastener stress and movement"
                     },
                     {
                       "id": "d",
@@ -7034,7 +7034,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Its dimensional response to moisture is reduced"
+                      "text": "Reduced moisture-driven movement"
                     }
                   ],
                   "correct": "d",
@@ -7094,7 +7094,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Local mass distribution and stiffness"
+                    "text": "Local mass and stiffness"
                   }
                 ],
                 "correct": "d",
@@ -7108,7 +7108,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Cosmetic change versus structural movement"
+                    "text": "Cosmetic versus structural change"
                   },
                   {
                     "id": "b",
@@ -7404,7 +7404,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "When it reduces the dominant failure risk"
+                      "text": "Reduce the dominant failure risk"
                     },
                     {
                       "id": "c",
@@ -7494,7 +7494,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "A stated trade-off tied to real use"
+                    "text": "Trade-off tied to real use"
                   },
                   {
                     "id": "d",
@@ -7632,7 +7632,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Microstructure and heat-treatment condition"
+                    "text": "Heat-treatment microstructure"
                   },
                   {
                     "id": "b",
@@ -7663,7 +7663,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Retained austenite or tempering condition"
+                      "text": "Retained austenite or tempering"
                     },
                     {
                       "id": "c",
@@ -7693,7 +7693,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Geometry and use can create the same symptom"
+                      "text": "Geometry and use can mimic it"
                     },
                     {
                       "id": "d",
@@ -7732,7 +7732,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Measured chemistry and hardness, not exact microstructure"
+                    "text": "Measured chemistry and hardness"
                   },
                   {
                     "id": "c",
@@ -7763,7 +7763,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "As context, not direct measurement of this blade"
+                      "text": "Context, not direct measurement"
                     },
                     {
                       "id": "d",
@@ -7853,7 +7853,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Process history plus microstructural or behavior data"
+                    "text": "Process and microstructural evidence"
                   }
                 ],
                 "correct": "d",
@@ -7867,7 +7867,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Mark the boundary between fact and inference"
+                    "text": "Separate fact from inference"
                   },
                   {
                     "id": "b",
@@ -8119,7 +8119,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Possible preservation of microscopic slicing bite"
+                    "text": "Preserved microscopic slicing bite"
                   }
                 ],
                 "correct": "d",
@@ -8134,7 +8134,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "A worn or damaged apex"
+                      "text": "Worn or damaged apex"
                     },
                     {
                       "id": "b",
@@ -8164,7 +8164,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "The knife never needs sharpening"
+                      "text": "It never needs sharpening"
                     },
                     {
                       "id": "c",
@@ -8254,7 +8254,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "The mechanism affects wear texture, not all edge failure"
+                    "text": "Wear texture, not every edge failure"
                   },
                   {
                     "id": "d",
@@ -8389,7 +8389,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Controlled thinning behind the edge"
+                    "text": "Controlled behind-edge thinning"
                   },
                   {
                     "id": "b",
@@ -8420,7 +8420,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Repair by moving the edge past the damage"
+                      "text": "Move the edge past damage"
                     },
                     {
                       "id": "c",
@@ -8489,7 +8489,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Side-to-side bevel and section asymmetry"
+                    "text": "Bevel and section asymmetry"
                   },
                   {
                     "id": "c",
@@ -8520,7 +8520,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Reduced support at the apex"
+                      "text": "Reduced apex support"
                     },
                     {
                       "id": "d",
@@ -8610,7 +8610,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Further removal changes geometry without benefit"
+                    "text": "Further removal adds no benefit"
                   }
                 ],
                 "correct": "d",
@@ -8624,7 +8624,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Solve the symptom while preserving useful design intent"
+                    "text": "Fix the symptom, preserve design intent"
                   },
                   {
                     "id": "b",
@@ -8821,7 +8821,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Repeated work that resembles real prep"
+                      "text": "Repeated realistic prep work"
                     },
                     {
                       "id": "b",
@@ -8876,7 +8876,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Mechanical suitability for the task"
+                    "text": "Task suitability"
                   }
                 ],
                 "correct": "d",
@@ -8891,7 +8891,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "The user's actual priorities and care habits"
+                      "text": "User priorities and care habits"
                     },
                     {
                       "id": "b",
@@ -8921,7 +8921,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Explicit reasoning tied to the user's work"
+                      "text": "Reasoning tied to real work"
                     },
                     {
                       "id": "c",
@@ -8977,15 +8977,15 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Different packaging"
+                    "text": "Different handle geometry"
                   },
                   {
                     "id": "b",
-                    "text": "Different balance and leverage"
+                    "text": "Balance and leverage"
                   },
                   {
                     "id": "c",
-                    "text": "Different logos"
+                    "text": "An unrelated secondary feature"
                   },
                   {
                     "id": "d",
@@ -9011,7 +9011,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "When users face different constraints and priorities"
+                    "text": "Different constraints and priorities"
                   },
                   {
                     "id": "d",
@@ -9147,7 +9147,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Remove the lateral twisting load"
+                    "text": "Remove lateral twisting"
                   },
                   {
                     "id": "b",
@@ -9178,7 +9178,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "It applies lateral load and abrasion"
+                      "text": "Lateral load and abrasion"
                     },
                     {
                       "id": "c",
@@ -9200,7 +9200,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "The handle color"
+                      "text": "The blade profile"
                     },
                     {
                       "id": "b",
@@ -9208,7 +9208,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "The direction of the applied load"
+                      "text": "Applied load direction"
                     },
                     {
                       "id": "d",
@@ -9247,7 +9247,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Technique, angle and tool choice"
+                    "text": "Technique, angle and tool"
                   },
                   {
                     "id": "c",
@@ -9278,7 +9278,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "When technique is creating avoidable lateral load"
+                      "text": "Avoidable technique-induced lateral load"
                     },
                     {
                       "id": "d",
@@ -9308,7 +9308,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Use a tool designed for that load"
+                      "text": "Use a load-appropriate tool"
                     }
                   ],
                   "correct": "d",
@@ -9360,15 +9360,15 @@
                   },
                   {
                     "id": "b",
-                    "text": "The gift box"
+                    "text": "The nominal edge angle"
                   },
                   {
                     "id": "c",
-                    "text": "The blade logo"
+                    "text": "The carbide volume"
                   },
                   {
                     "id": "d",
-                    "text": "The technique creating the lateral load"
+                    "text": "The load-producing technique"
                   }
                 ],
                 "correct": "d",
@@ -9382,7 +9382,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "The wrong load can damage many suitable steels"
+                    "text": "Wrong loads damage suitable steels"
                   },
                   {
                     "id": "b",
@@ -9534,7 +9534,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Trapped moisture or residue"
+                    "text": "Trapped moisture"
                   },
                   {
                     "id": "d",
@@ -9565,7 +9565,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Exposure, cleaning, drying and storage"
+                      "text": "Exposure and care"
                     }
                   ],
                   "correct": "d",
@@ -9579,7 +9579,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "The care routine is too slow for the exposure"
+                      "text": "Care too slow for the exposure"
                     },
                     {
                       "id": "b",
@@ -9679,7 +9679,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Moisture retention in storage"
+                      "text": "Storage moisture retention"
                     },
                     {
                       "id": "c",
@@ -9739,7 +9739,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Its location can identify local exposure conditions"
+                    "text": "Location identifies exposure conditions"
                   },
                   {
                     "id": "c",
@@ -9769,7 +9769,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "They reveal a reproducible exposure mechanism"
+                    "text": "A reproducible exposure mechanism"
                   },
                   {
                     "id": "d",
@@ -9937,7 +9937,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Weak residual metal attached near the apex"
+                      "text": "Weak residual apex metal"
                     },
                     {
                       "id": "c",
@@ -9967,7 +9967,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "A residual burr can cut briefly before failing"
+                      "text": "Residual burr fails after brief cutting"
                     },
                     {
                       "id": "d",
@@ -10006,7 +10006,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Restore the apex without unnecessary thinning"
+                    "text": "Restore the apex without thinning"
                   },
                   {
                     "id": "c",
@@ -10067,7 +10067,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "They change different regions of the geometry"
+                      "text": "They alter different geometric regions"
                     }
                   ],
                   "correct": "d",
@@ -10127,7 +10127,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Stable cutting after the loose burr is removed"
+                    "text": "Stable cutting after burr removal"
                   }
                 ],
                 "correct": "d",
@@ -10141,7 +10141,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "When evidence shows the diagnosed defect is corrected"
+                    "text": "Stop when the defect is corrected"
                   },
                   {
                     "id": "b",
