@@ -7,7 +7,7 @@
   "certification": {
     "minimum_score": 0.8,
     "maximum_critical_errors": 0,
-    "remediation_required_before_retry": true,
+    "remediation_required_before_retry": false,
     "direct_attempt_allowed": true
   },
   "mastery_states": [
