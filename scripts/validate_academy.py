@@ -230,9 +230,9 @@ def validate_course(course: dict[str, Any], locale: str) -> None:
             unique_shortest += 1
 
     total_questions = max(1, len(all_questions))
-    require(unique_longest / total_questions <= 0.35,
+    require(unique_longest / total_questions <= 0.30,
             f"{locale}: correct answer is uniquely longest too often ({unique_longest}/{total_questions})")
-    require(unique_shortest / total_questions <= 0.35,
+    require(unique_shortest / total_questions <= 0.30,
             f"{locale}: correct answer is uniquely shortest too often ({unique_shortest}/{total_questions})")
     for option_id, count in correct_positions.items():
         share = count / total_questions
