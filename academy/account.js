@@ -293,14 +293,22 @@
       publicRegistrationOpen = Boolean(health.publicRegistration);
       applyVerificationAvailability();
       el.registerTab.disabled = !publicRegistrationOpen || !legalConfigured();
-      const channelText = verificationChannels.email ? "email" : "";
-      el.backendStatus.textContent = !legalConfigured()
-        ? "Backend online, ma identità del titolare privacy non ancora configurata: registrazione pubblica disabilitata."
-        : !publicRegistrationOpen
-          ? "Backend Academy online · registrazione pubblica non ancora aperta."
-          : `Backend Academy online${channelText ? " · verifica " + channelText : " · nessun canale OTP configurato"}.`;
+      if (!legalConfigured()) {
+        el.backendStatus.textContent = "La registrazione non è al momento disponibile.";
+        el.backendStatus.hidden = false;
+      } else if (!publicRegistrationOpen) {
+        el.backendStatus.textContent = "La registrazione non è al momento disponibile.";
+        el.backendStatus.hidden = false;
+      } else if (!verificationChannels.email) {
+        el.backendStatus.textContent = "Il servizio di verifica email non è momentaneamente disponibile. Riprova tra poco.";
+        el.backendStatus.hidden = false;
+      } else {
+        el.backendStatus.textContent = "";
+        el.backendStatus.hidden = true;
+      }
     } catch (error) {
-      el.backendStatus.textContent = `Backend non raggiungibile: ${error.message}`;
+      el.backendStatus.textContent = "Il servizio Academy non è momentaneamente disponibile. Riprova tra poco.";
+      el.backendStatus.hidden = false;
       el.offlineButton.hidden = false;
       setUser(null);
       return;
