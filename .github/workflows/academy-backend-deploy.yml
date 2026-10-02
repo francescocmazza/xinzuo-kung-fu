@@ -75,7 +75,7 @@ jobs:
                   "migrations_dir": "migrations",
               }],
               "vars": {
-                  "ACTIVE_LESSON_TOTAL": "27",
+                  "ACTIVE_LESSON_TOTAL": "45",
                   "ALLOWED_ORIGINS": allowed,
                   "RESET_PAGE_URL": os.environ.get("RESET_PAGE_URL") or "https://francescocmazza.github.io/xinzuo-kung-fu/academy/",
                   "VERIFICATION_EMAIL_FROM": os.environ.get("VERIFICATION_EMAIL_FROM") or "",
