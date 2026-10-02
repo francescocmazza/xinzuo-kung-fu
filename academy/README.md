@@ -53,16 +53,18 @@ The Academy translation validator rejects stale Italian content, missing current
 
 The current workflow is `scripts/chatgpt_translate_academy.py` and is integrated into the existing **Prepare ChatGPT translation queue** Action.
 
-## Final Base assessment
+## Final assessments
 
-The Base final assessment:
+Base, Intermediate and Advanced each have a separate final assessment and certificate.
+
+Every final assessment:
 
 - can be attempted **at any time**, even before lessons or mini-tests are complete;
 - can be retried without a mandatory module-completion gate;
-- covers all 27 Base concepts across all nine domains;
+- covers all 27 concepts of its level across all nine domains;
 - requires **80% overall** and **zero critical-knowledge errors** to pass;
-- keeps correct answers server-side;
-- issues the Base certificate automatically after a pass.
+- keeps correct answers server-side and shuffles delivered options;
+- issues the corresponding level certificate automatically after a pass.
 
 Course completion is recommended preparation, not an access prerequisite.
 
