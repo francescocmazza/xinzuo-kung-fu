@@ -1,5 +1,5 @@
-// Generated from the reviewed Academy Base v0.2 concept bank.
-// The final assessment covers all 27 Base concepts. Correct answers stay server-side;
+// Reviewed Academy certification banks for Base, Intermediate and Advanced.
+// Every final assessment covers 27 level-specific concepts. Correct answers stay server-side;
 // the Worker shuffles option order on delivery to avoid positional shortcuts.
 export const BASE_CERTIFICATION_VERSION = "base-final-2026-10-v3";
 
