@@ -3441,7 +3441,59 @@
             "questions": [
               {
                 "id": "i-knife-system-mini-1",
-                "prompt": "Verifica modulo — Collega le scelte costruttive all'uso: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Collega le scelte costruttive all'uso: scegli la risposta migliore.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Prova che è forgiato"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Compensa una geometria scadente"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Giunto ed esecuzione complessiva"
+                  },
+                  {
+                    "id": "d",
+                    "text": "È automaticamente inferiore"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Valuta il progetto come sistema, non da una singola parola costruttiva.",
+                "concept_id": "knife-system.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-knife-system-mini-2",
+                "prompt": "Applicazione — Collega le scelte costruttive all'uso: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Prova che è forgiato"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Compensa una geometria scadente"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Giunto ed esecuzione complessiva"
+                  },
+                  {
+                    "id": "d",
+                    "text": "È automaticamente inferiore"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Valuta il progetto come sistema, non da una singola parola costruttiva.",
+                "concept_id": "knife-system.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-knife-system-mini-3",
+                "prompt": "Controllo finale — Collega le scelte costruttive all'uso: quale risposta è più difendibile?",
                 "options": [
                   {
                     "id": "a",
@@ -3575,26 +3627,78 @@
             "questions": [
               {
                 "id": "i-steel-performance-mini-1",
-                "prompt": "Verifica modulo — Applica i compromessi dell'acciaio agli utenti: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Applica i compromessi dell'acciaio agli utenti: scegli la risposta migliore.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Motivo più visibile"
-                  },
-                  {
-                    "id": "b",
                     "text": "Materiale del manico più pesante"
                   },
                   {
-                    "id": "c",
+                    "id": "b",
                     "text": "Equilibrio tra resistenza alla corrosione e tenuta"
                   },
                   {
-                    "id": "d",
+                    "id": "c",
                     "text": "HRC più alto a prescindere dall'uso"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Motivo più visibile"
                   }
                 ],
-                "correct": "c",
+                "correct": "b",
+                "explanation": "Abbina il bilanciamento delle proprietà al modo d'uso.",
+                "concept_id": "steel-performance.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-steel-performance-mini-2",
+                "prompt": "Applicazione — Applica i compromessi dell'acciaio agli utenti: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "HRC più alto a prescindere dall'uso"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Motivo più visibile"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Materiale del manico più pesante"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Equilibrio tra resistenza alla corrosione e tenuta"
+                  }
+                ],
+                "correct": "d",
+                "explanation": "Abbina il bilanciamento delle proprietà al modo d'uso.",
+                "concept_id": "steel-performance.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-steel-performance-mini-3",
+                "prompt": "Controllo finale — Applica i compromessi dell'acciaio agli utenti: quale risposta è più difendibile?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Equilibrio tra resistenza alla corrosione e tenuta"
+                  },
+                  {
+                    "id": "b",
+                    "text": "HRC più alto a prescindere dall'uso"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Motivo più visibile"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Materiale del manico più pesante"
+                  }
+                ],
+                "correct": "a",
                 "explanation": "Abbina il bilanciamento delle proprietà al modo d'uso.",
                 "concept_id": "steel-performance.integrated.intermediate",
                 "critical": false
@@ -3712,26 +3816,78 @@
             "questions": [
               {
                 "id": "i-metallurgy-mini-1",
-                "prompt": "Verifica modulo — Collega chimica, struttura e processo: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Collega chimica, struttura e processo: scegli la risposta migliore.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Il logo ha modificato i carburi"
-                  },
-                  {
-                    "id": "b",
                     "text": "La scatola ha cambiato la durezza"
                   },
                   {
-                    "id": "c",
+                    "id": "b",
                     "text": "Trattamento termico o geometria"
                   },
                   {
-                    "id": "d",
+                    "id": "c",
                     "text": "È cambiato il nome dell'acciaio"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Il logo ha modificato i carburi"
                   }
                 ],
-                "correct": "c",
+                "correct": "b",
+                "explanation": "Leggi insieme composizione, processo e trattamento termico.",
+                "concept_id": "metallurgy.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-metallurgy-mini-2",
+                "prompt": "Applicazione — Collega chimica, struttura e processo: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "È cambiato il nome dell'acciaio"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Il logo ha modificato i carburi"
+                  },
+                  {
+                    "id": "c",
+                    "text": "La scatola ha cambiato la durezza"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Trattamento termico o geometria"
+                  }
+                ],
+                "correct": "d",
+                "explanation": "Leggi insieme composizione, processo e trattamento termico.",
+                "concept_id": "metallurgy.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-metallurgy-mini-3",
+                "prompt": "Controllo finale — Collega chimica, struttura e processo: quale risposta è più difendibile?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Trattamento termico o geometria"
+                  },
+                  {
+                    "id": "b",
+                    "text": "È cambiato il nome dell'acciaio"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Il logo ha modificato i carburi"
+                  },
+                  {
+                    "id": "d",
+                    "text": "La scatola ha cambiato la durezza"
+                  }
+                ],
+                "correct": "a",
                 "explanation": "Leggi insieme composizione, processo e trattamento termico.",
                 "concept_id": "metallurgy.integrated.intermediate",
                 "critical": false
@@ -3847,7 +4003,59 @@
             "questions": [
               {
                 "id": "i-damascus-mini-1",
-                "prompt": "Verifica modulo — Spiega il Damasco senza slogan: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Spiega il Damasco senza slogan: scegli la risposta migliore.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Il numero di strati prova superiorità"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Che la lama sia stratificata"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Che il motivo influenzi l'estetica"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Che l'acciaio del nucleo conti ancora"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Spiega che cosa fanno gli strati, non solo quanti sono.",
+                "concept_id": "damascus.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-damascus-mini-2",
+                "prompt": "Applicazione — Spiega il Damasco senza slogan: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Il numero di strati prova superiorità"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Che la lama sia stratificata"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Che il motivo influenzi l'estetica"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Che l'acciaio del nucleo conti ancora"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Spiega che cosa fanno gli strati, non solo quanti sono.",
+                "concept_id": "damascus.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-damascus-mini-3",
+                "prompt": "Controllo finale — Spiega il Damasco senza slogan: quale risposta è più difendibile?",
                 "options": [
                   {
                     "id": "a",
@@ -3981,26 +4189,78 @@
             "questions": [
               {
                 "id": "i-geometry-mini-1",
-                "prompt": "Verifica modulo — Prevedi il taglio dalla geometria: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Prevedi il taglio dalla geometria: scegli la risposta migliore.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Spessore dietro il filo"
-                  },
-                  {
-                    "id": "b",
                     "text": "Logo del manico"
                   },
                   {
-                    "id": "c",
+                    "id": "b",
                     "text": "Inserto della confezione"
                   },
                   {
-                    "id": "d",
+                    "id": "c",
                     "text": "Colore dell'incisione"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Spessore dietro il filo"
                   }
                 ],
-                "correct": "a",
+                "correct": "d",
+                "explanation": "Prevedi il comportamento dall'intera sezione, non da un solo numero.",
+                "concept_id": "geometry.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-geometry-mini-2",
+                "prompt": "Applicazione — Prevedi il taglio dalla geometria: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Colore dell'incisione"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Spessore dietro il filo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Logo del manico"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Inserto della confezione"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Prevedi il comportamento dall'intera sezione, non da un solo numero.",
+                "concept_id": "geometry.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-geometry-mini-3",
+                "prompt": "Controllo finale — Prevedi il taglio dalla geometria: quale risposta è più difendibile?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Inserto della confezione"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Colore dell'incisione"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Spessore dietro il filo"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Logo del manico"
+                  }
+                ],
+                "correct": "c",
                 "explanation": "Prevedi il comportamento dall'intera sezione, non da un solo numero.",
                 "concept_id": "geometry.integrated.intermediate",
                 "critical": false
@@ -4116,7 +4376,59 @@
             "questions": [
               {
                 "id": "i-knife-types-mini-1",
-                "prompt": "Verifica modulo — Confronta l'ergonomia dopo aver risolto la funzione: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Confronta l'ergonomia dopo aver risolto la funzione: scegli la risposta migliore.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Adattamento ergonomico nell'uso"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Solo numero di strati"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Solo HRC più alto"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Solo confezione più grande"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Funzione → ergonomia → scelta.",
+                "concept_id": "knife-types.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-knife-types-mini-2",
+                "prompt": "Applicazione — Confronta l'ergonomia dopo aver risolto la funzione: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Adattamento ergonomico nell'uso"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Solo numero di strati"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Solo HRC più alto"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Solo confezione più grande"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Funzione → ergonomia → scelta.",
+                "concept_id": "knife-types.integrated.intermediate",
+                "critical": false
+              },
+              {
+                "id": "i-knife-types-mini-3",
+                "prompt": "Controllo finale — Confronta l'ergonomia dopo aver risolto la funzione: quale risposta è più difendibile?",
                 "options": [
                   {
                     "id": "a",
@@ -4251,7 +4563,59 @@
             "questions": [
               {
                 "id": "i-technique-safety-mini-1",
-                "prompt": "Verifica modulo — Adatta la tecnica a geometria e resistenza: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Adatta la tecnica a geometria e resistenza: scegli la risposta migliore.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Lunghezza utile del filo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Il materiale del manico"
+                  },
+                  {
+                    "id": "c",
+                    "text": "La composizione dell'acciaio"
+                  },
+                  {
+                    "id": "d",
+                    "text": "La finitura superficiale"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "La tecnica dovrebbe risolvere la resistenza, non combatterla.",
+                "concept_id": "technique-safety.integrated.intermediate",
+                "critical": true
+              },
+              {
+                "id": "i-technique-safety-mini-2",
+                "prompt": "Applicazione — Adatta la tecnica a geometria e resistenza: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Lunghezza utile del filo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Il materiale del manico"
+                  },
+                  {
+                    "id": "c",
+                    "text": "La composizione dell'acciaio"
+                  },
+                  {
+                    "id": "d",
+                    "text": "La finitura superficiale"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "La tecnica dovrebbe risolvere la resistenza, non combatterla.",
+                "concept_id": "technique-safety.integrated.intermediate",
+                "critical": true
+              },
+              {
+                "id": "i-technique-safety-mini-3",
+                "prompt": "Controllo finale — Adatta la tecnica a geometria e resistenza: quale risposta è più difendibile?",
                 "options": [
                   {
                     "id": "a",
@@ -4386,7 +4750,59 @@
             "questions": [
               {
                 "id": "i-care-mini-1",
-                "prompt": "Verifica modulo — Adatta la manutenzione a materiali e uso: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Adatta la manutenzione a materiali e uso: scegli la risposta migliore.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "La lavastoviglie diventa più sicura"
+                  },
+                  {
+                    "id": "b",
+                    "text": "L'angolo del filo non conta più"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Pulizia e asciugatura più rapide"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Il vetro diventa il tagliere migliore"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "La manutenzione dipende da materiale e ambiente.",
+                "concept_id": "care.integrated.intermediate",
+                "critical": true
+              },
+              {
+                "id": "i-care-mini-2",
+                "prompt": "Applicazione — Adatta la manutenzione a materiali e uso: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "La lavastoviglie diventa più sicura"
+                  },
+                  {
+                    "id": "b",
+                    "text": "L'angolo del filo non conta più"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Pulizia e asciugatura più rapide"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Il vetro diventa il tagliere migliore"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "La manutenzione dipende da materiale e ambiente.",
+                "concept_id": "care.integrated.intermediate",
+                "critical": true
+              },
+              {
+                "id": "i-care-mini-3",
+                "prompt": "Controllo finale — Adatta la manutenzione a materiali e uso: quale risposta è più difendibile?",
                 "options": [
                   {
                     "id": "a",
@@ -4522,7 +4938,59 @@
             "questions": [
               {
                 "id": "i-sharpening-mini-1",
-                "prompt": "Verifica modulo — Usa i riscontri invece di ricette fisse: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Usa i riscontri invece di ricette fisse: scegli la risposta migliore.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Il manico è troppo leggero"
+                  },
+                  {
+                    "id": "b",
+                    "text": "La lama ha bisogno d'olio"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Un angolo troppo elevato"
+                  },
+                  {
+                    "id": "d",
+                    "text": "La pietra è troppo piana"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Lascia che siano i riscontri a decidere il passo successivo.",
+                "concept_id": "sharpening.integrated.intermediate",
+                "critical": true
+              },
+              {
+                "id": "i-sharpening-mini-2",
+                "prompt": "Applicazione — Usa i riscontri invece di ricette fisse: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Il manico è troppo leggero"
+                  },
+                  {
+                    "id": "b",
+                    "text": "La lama ha bisogno d'olio"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Un angolo troppo elevato"
+                  },
+                  {
+                    "id": "d",
+                    "text": "La pietra è troppo piana"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Lascia che siano i riscontri a decidere il passo successivo.",
+                "concept_id": "sharpening.integrated.intermediate",
+                "critical": true
+              },
+              {
+                "id": "i-sharpening-mini-3",
+                "prompt": "Controllo finale — Usa i riscontri invece di ricette fisse: quale risposta è più difendibile?",
                 "options": [
                   {
                     "id": "a",
@@ -4664,26 +5132,78 @@
             "questions": [
               {
                 "id": "a-knife-system-mini-1",
-                "prompt": "Verifica modulo — Diagnostica i compromessi costruttivi: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Diagnostica i compromessi costruttivi: scegli la risposta migliore.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Materiale, sigillatura e storia dell'umidità"
-                  },
-                  {
-                    "id": "b",
-                    "text": "Complessità del motivo lama"
-                  },
-                  {
-                    "id": "c",
                     "text": "Valore HRC nominale"
                   },
                   {
-                    "id": "d",
+                    "id": "b",
                     "text": "Solo il numero di rivetti"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Materiale, sigillatura e storia dell'umidità"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Complessità del motivo lama"
                   }
                 ],
-                "correct": "a",
+                "correct": "c",
+                "explanation": "Usa insieme le evidenze su costruzione, percorso dei carichi e ambiente.",
+                "concept_id": "knife-system.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-knife-system-mini-2",
+                "prompt": "Applicazione — Diagnostica i compromessi costruttivi: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Valore HRC nominale"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Solo il numero di rivetti"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Materiale, sigillatura e storia dell'umidità"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Complessità del motivo lama"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Usa insieme le evidenze su costruzione, percorso dei carichi e ambiente.",
+                "concept_id": "knife-system.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-knife-system-mini-3",
+                "prompt": "Controllo finale — Diagnostica i compromessi costruttivi: quale risposta è più difendibile?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Solo il numero di rivetti"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Materiale, sigillatura e storia dell'umidità"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Complessità del motivo lama"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Valore HRC nominale"
+                  }
+                ],
+                "correct": "b",
                 "explanation": "Usa insieme le evidenze su costruzione, percorso dei carichi e ambiente.",
                 "concept_id": "knife-system.integrated.advanced",
                 "critical": false
@@ -4798,7 +5318,7 @@
             "questions": [
               {
                 "id": "a-steel-performance-mini-1",
-                "prompt": "Verifica modulo — Diagnostica il comportamento dell'acciaio dai sintomi: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Diagnostica il comportamento dell'acciaio dai sintomi: scegli la risposta migliore.",
                 "options": [
                   {
                     "id": "a",
@@ -4818,6 +5338,58 @@
                   }
                 ],
                 "correct": "b",
+                "explanation": "Diagnostica il modo di cedimento prima di cambiare acciaio.",
+                "concept_id": "steel-performance.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-steel-performance-mini-2",
+                "prompt": "Applicazione — Diagnostica il comportamento dell'acciaio dai sintomi: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Posizione del logo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Colore del manico"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Peso della confezione"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Uso e geometria del filo"
+                  }
+                ],
+                "correct": "d",
+                "explanation": "Diagnostica il modo di cedimento prima di cambiare acciaio.",
+                "concept_id": "steel-performance.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-steel-performance-mini-3",
+                "prompt": "Controllo finale — Diagnostica il comportamento dell'acciaio dai sintomi: quale risposta è più difendibile?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Uso e geometria del filo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Posizione del logo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Colore del manico"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Peso della confezione"
+                  }
+                ],
+                "correct": "a",
                 "explanation": "Diagnostica il modo di cedimento prima di cambiare acciaio.",
                 "concept_id": "steel-performance.integrated.advanced",
                 "critical": false
@@ -4935,7 +5507,33 @@
             "questions": [
               {
                 "id": "a-metallurgy-mini-1",
-                "prompt": "Verifica modulo — Ragiona dalla microstruttura al comportamento del filo: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Ragiona dalla microstruttura al comportamento del filo: scegli la risposta migliore.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Solo lucidatura del dorso"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Dimensione dei carburi e geometria del filo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Colore del manico e logo"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Confezione e prezzo"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Usa evidenze microstrutturali prima di affermazioni di prestigio.",
+                "concept_id": "metallurgy.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-metallurgy-mini-2",
+                "prompt": "Applicazione — Ragiona dalla microstruttura al comportamento del filo: quale conclusione è corretta?",
                 "options": [
                   {
                     "id": "a",
@@ -4955,6 +5553,32 @@
                   }
                 ],
                 "correct": "d",
+                "explanation": "Usa evidenze microstrutturali prima di affermazioni di prestigio.",
+                "concept_id": "metallurgy.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-metallurgy-mini-3",
+                "prompt": "Controllo finale — Ragiona dalla microstruttura al comportamento del filo: quale risposta è più difendibile?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Dimensione dei carburi e geometria del filo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Colore del manico e logo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Confezione e prezzo"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Solo lucidatura del dorso"
+                  }
+                ],
+                "correct": "a",
                 "explanation": "Usa evidenze microstrutturali prima di affermazioni di prestigio.",
                 "concept_id": "metallurgy.integrated.advanced",
                 "critical": false
@@ -5070,26 +5694,78 @@
             "questions": [
               {
                 "id": "a-damascus-mini-1",
-                "prompt": "Verifica modulo — Valuta le evidenze funzionali sul Damasco: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Valuta le evidenze funzionali sul Damasco: scegli la risposta migliore.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Prezzo elevato"
-                  },
-                  {
-                    "id": "b",
-                    "text": "Una confezione più grande"
-                  },
-                  {
-                    "id": "c",
                     "text": "Evidenze misurate su strati e filo"
                   },
                   {
-                    "id": "d",
+                    "id": "b",
                     "text": "Solo bellezza del motivo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Prezzo elevato"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Una confezione più grande"
                   }
                 ],
-                "correct": "c",
+                "correct": "a",
+                "explanation": "Separa meccanismo, osservazione e inferenza.",
+                "concept_id": "damascus.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-damascus-mini-2",
+                "prompt": "Applicazione — Valuta le evidenze funzionali sul Damasco: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Evidenze misurate su strati e filo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Solo bellezza del motivo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Prezzo elevato"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Una confezione più grande"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Separa meccanismo, osservazione e inferenza.",
+                "concept_id": "damascus.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-damascus-mini-3",
+                "prompt": "Controllo finale — Valuta le evidenze funzionali sul Damasco: quale risposta è più difendibile?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Solo bellezza del motivo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Prezzo elevato"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Una confezione più grande"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Evidenze misurate su strati e filo"
+                  }
+                ],
+                "correct": "d",
                 "explanation": "Separa meccanismo, osservazione e inferenza.",
                 "concept_id": "damascus.integrated.advanced",
                 "critical": false
@@ -5204,7 +5880,33 @@
             "questions": [
               {
                 "id": "a-geometry-mini-1",
-                "prompt": "Verifica modulo — Diagnostica i problemi causati dalla geometria: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Diagnostica i problemi causati dalla geometria: scegli la risposta migliore.",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Solo finitura del manico"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Dimensione del logo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Confezione commerciale"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Asimmetria dei biselli"
+                  }
+                ],
+                "correct": "d",
+                "explanation": "Diagnostica la geometria prima di prescrivere modifiche di affilatura.",
+                "concept_id": "geometry.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-geometry-mini-2",
+                "prompt": "Applicazione — Diagnostica i problemi causati dalla geometria: quale conclusione è corretta?",
                 "options": [
                   {
                     "id": "a",
@@ -5224,6 +5926,32 @@
                   }
                 ],
                 "correct": "b",
+                "explanation": "Diagnostica la geometria prima di prescrivere modifiche di affilatura.",
+                "concept_id": "geometry.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-geometry-mini-3",
+                "prompt": "Controllo finale — Diagnostica i problemi causati dalla geometria: quale risposta è più difendibile?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Dimensione del logo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Confezione commerciale"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Asimmetria dei biselli"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Solo finitura del manico"
+                  }
+                ],
+                "correct": "c",
                 "explanation": "Diagnostica la geometria prima di prescrivere modifiche di affilatura.",
                 "concept_id": "geometry.integrated.advanced",
                 "critical": false
@@ -5339,7 +6067,7 @@
             "questions": [
               {
                 "id": "a-knife-types-mini-1",
-                "prompt": "Verifica modulo — Risolvi conflitti ergonomici complessi: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Risolvi conflitti ergonomici complessi: scegli la risposta migliore.",
                 "options": [
                   {
                     "id": "a",
@@ -5359,6 +6087,58 @@
                   }
                 ],
                 "correct": "a",
+                "explanation": "Spiega la scelta ergonomica in funzione del lavoro reale dell'utente.",
+                "concept_id": "knife-types.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-knife-types-mini-2",
+                "prompt": "Applicazione — Risolvi conflitti ergonomici complessi: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Adattamento ergonomico complessivo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Solo visibilità del motivo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Qualità della confezione"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Solo posizione del logo"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Spiega la scelta ergonomica in funzione del lavoro reale dell'utente.",
+                "concept_id": "knife-types.integrated.advanced",
+                "critical": false
+              },
+              {
+                "id": "a-knife-types-mini-3",
+                "prompt": "Controllo finale — Risolvi conflitti ergonomici complessi: quale risposta è più difendibile?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Solo visibilità del motivo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Qualità della confezione"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Solo posizione del logo"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Adattamento ergonomico complessivo"
+                  }
+                ],
+                "correct": "d",
                 "explanation": "Spiega la scelta ergonomica in funzione del lavoro reale dell'utente.",
                 "concept_id": "knife-types.integrated.advanced",
                 "critical": false
@@ -5474,26 +6254,78 @@
             "questions": [
               {
                 "id": "a-technique-safety-mini-1",
-                "prompt": "Verifica modulo — Diagnostica i danni al filo causati dalla tecnica: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Diagnostica i danni al filo causati dalla tecnica: scegli la risposta migliore.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Cambiare colore del manico"
-                  },
-                  {
-                    "id": "b",
-                    "text": "Lucidare la faccia della lama"
-                  },
-                  {
-                    "id": "c",
                     "text": "Eliminare il carico laterale di torsione"
                   },
                   {
-                    "id": "d",
+                    "id": "b",
                     "text": "Aumentare alla cieca l'angolo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Cambiare colore del manico"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Lucidare la faccia della lama"
                   }
                 ],
-                "correct": "c",
+                "correct": "a",
+                "explanation": "Risalire dal danno al carico che lo ha creato.",
+                "concept_id": "technique-safety.integrated.advanced",
+                "critical": true
+              },
+              {
+                "id": "a-technique-safety-mini-2",
+                "prompt": "Applicazione — Diagnostica i danni al filo causati dalla tecnica: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Eliminare il carico laterale di torsione"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Aumentare alla cieca l'angolo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Cambiare colore del manico"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Lucidare la faccia della lama"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Risalire dal danno al carico che lo ha creato.",
+                "concept_id": "technique-safety.integrated.advanced",
+                "critical": true
+              },
+              {
+                "id": "a-technique-safety-mini-3",
+                "prompt": "Controllo finale — Diagnostica i danni al filo causati dalla tecnica: quale risposta è più difendibile?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Aumentare alla cieca l'angolo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Cambiare colore del manico"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Lucidare la faccia della lama"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Eliminare il carico laterale di torsione"
+                  }
+                ],
+                "correct": "d",
                 "explanation": "Risalire dal danno al carico che lo ha creato.",
                 "concept_id": "technique-safety.integrated.advanced",
                 "critical": true
@@ -5609,26 +6441,78 @@
             "questions": [
               {
                 "id": "a-care-mini-1",
-                "prompt": "Verifica modulo — Diagnostica i problemi di manutenzione: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Diagnostica i problemi di manutenzione: scegli la risposta migliore.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Superficie e abitudini di contatto"
-                  },
-                  {
-                    "id": "b",
-                    "text": "Il logo del prodotto"
-                  },
-                  {
-                    "id": "c",
                     "text": "La confezione regalo"
                   },
                   {
-                    "id": "d",
+                    "id": "b",
                     "text": "L'email dell'utente"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Superficie e abitudini di contatto"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Il logo del prodotto"
                   }
                 ],
-                "correct": "a",
+                "correct": "c",
+                "explanation": "Diagnostica l'esposizione prima di incolpare il materiale.",
+                "concept_id": "care.integrated.advanced",
+                "critical": true
+              },
+              {
+                "id": "a-care-mini-2",
+                "prompt": "Applicazione — Diagnostica i problemi di manutenzione: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "La confezione regalo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "L'email dell'utente"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Superficie e abitudini di contatto"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Il logo del prodotto"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Diagnostica l'esposizione prima di incolpare il materiale.",
+                "concept_id": "care.integrated.advanced",
+                "critical": true
+              },
+              {
+                "id": "a-care-mini-3",
+                "prompt": "Controllo finale — Diagnostica i problemi di manutenzione: quale risposta è più difendibile?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "L'email dell'utente"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Superficie e abitudini di contatto"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Il logo del prodotto"
+                  },
+                  {
+                    "id": "d",
+                    "text": "La confezione regalo"
+                  }
+                ],
+                "correct": "b",
                 "explanation": "Diagnostica l'esposizione prima di incolpare il materiale.",
                 "concept_id": "care.integrated.advanced",
                 "critical": true
@@ -5745,26 +6629,78 @@
             "questions": [
               {
                 "id": "a-sharpening-mini-1",
-                "prompt": "Verifica modulo — Diagnostica i problemi di affilatura e del filo: quale risposta è corretta?",
+                "prompt": "Verifica modulo — Diagnostica i problemi di affilatura e del filo: scegli la risposta migliore.",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Spessore dietro il filo"
-                  },
-                  {
-                    "id": "b",
-                    "text": "Creare una bava più grande"
-                  },
-                  {
-                    "id": "c",
                     "text": "Usare più olio sul manico"
                   },
                   {
-                    "id": "d",
+                    "id": "b",
                     "text": "Lucidare il logo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Spessore dietro il filo"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Creare una bava più grande"
                   }
                 ],
-                "correct": "a",
+                "correct": "c",
+                "explanation": "Diagnostica prima; rimuovi solo l'acciaio necessario al problema.",
+                "concept_id": "sharpening.integrated.advanced",
+                "critical": true
+              },
+              {
+                "id": "a-sharpening-mini-2",
+                "prompt": "Applicazione — Diagnostica i problemi di affilatura e del filo: quale conclusione è corretta?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Usare più olio sul manico"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Lucidare il logo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Spessore dietro il filo"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Creare una bava più grande"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Diagnostica prima; rimuovi solo l'acciaio necessario al problema.",
+                "concept_id": "sharpening.integrated.advanced",
+                "critical": true
+              },
+              {
+                "id": "a-sharpening-mini-3",
+                "prompt": "Controllo finale — Diagnostica i problemi di affilatura e del filo: quale risposta è più difendibile?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Lucidare il logo"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Spessore dietro il filo"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Creare una bava più grande"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Usare più olio sul manico"
+                  }
+                ],
+                "correct": "b",
                 "explanation": "Diagnostica prima; rimuovi solo l'acciaio necessario al problema.",
                 "concept_id": "sharpening.integrated.advanced",
                 "critical": true
@@ -5779,7 +6715,7 @@
     "source_locale": "en",
     "engine": "chatgpt-differential-v1",
     "prompt_revision": "2026-10-02-academy-depth-v2",
-    "source_blob_sha": "8f05b110194cc1feb3484aaf1276c7cf22a1063b",
+    "source_blob_sha": "f663b102181449862c650e11ffbd2add70d67bbe",
     "reviewed_at": "2026-10-02",
     "guidance": "localization/locales.yml#it",
     "note": "Italian Academy v0.2 reviewed with the current ChatGPT translation workflow; legacy Marian/OPUS-MT output is not accepted.",
