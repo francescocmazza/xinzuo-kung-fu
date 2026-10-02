@@ -1,4 +1,4 @@
-import { BASE_CERTIFICATION_BANK, BASE_CERTIFICATION_VERSION } from "./certification-bank.js";
+import { CERTIFICATION_LEVELS } from "./certification-bank.js";
 
 const enc = new TextEncoder();
 // Cloudflare Workers Web Crypto currently rejects PBKDF2 iteration counts above 100,000.
@@ -48,9 +48,15 @@ export default {
       if (url.pathname === "/api/privacy/consents" && request.method === "GET") return getConsents(request, env);
       if (url.pathname === "/api/privacy/consents" && request.method === "PATCH") return updateConsents(request, env);
       if (url.pathname === "/api/certificates/mine" && request.method === "GET") return myCertificates(request, env);
-      if (url.pathname === "/api/certification/base/status" && request.method === "GET") return certificationStatus(request, env);
-      if (url.pathname === "/api/certification/base/start" && request.method === "POST") return startBaseCertification(request, env);
-      if (url.pathname === "/api/certification/base/submit" && request.method === "POST") return submitBaseCertification(request, env);
+
+      const certificationRoute = url.pathname.match(/^\/api\/certification\/(base|intermediate|advanced)\/(status|start|submit)$/);
+      if (certificationRoute) {
+        const [,level,action] = certificationRoute;
+        if (action === "status" && request.method === "GET") return certificationStatus(request, env, level);
+        if (action === "start" && request.method === "POST") return startCertification(request, env, level);
+        if (action === "submit" && request.method === "POST") return submitCertification(request, env, level);
+      }
+
       if (url.pathname === "/api/progress" && request.method === "GET") return getProgress(request, env);
       if (url.pathname === "/api/progress" && request.method === "PUT") return putProgress(request, env);
       if (url.pathname === "/api/activity/ping" && request.method === "POST") return activityPing(request, env);
@@ -1264,31 +1270,40 @@ function publicAssessmentQuestion(question, locale) {
   };
 }
 
-async function certificationStatus(request, env) {
+function certificationConfig(level) {
+  const config = CERTIFICATION_LEVELS[level];
+  if (!config) throw new HttpError(404,"certification_level_not_found","Certification level not found.");
+  return config;
+}
+
+async function certificationStatus(request, env, level) {
   return withHttpErrors(request,env,async()=>{
     const auth = await authenticate(request,env);
+    const config = certificationConfig(level);
     const [progress,attempts,certificates] = await Promise.all([
       env.DB.prepare("SELECT * FROM learner_progress WHERE user_id=?").bind(auth.user.id).first(),
       env.DB.prepare(
-        "SELECT id,assessment_version,started_at,completed_at,score,critical_errors,passed,certificate_id FROM certification_attempts WHERE user_id=? AND course_id='xinzuo-academy-base' ORDER BY started_at DESC LIMIT 10"
-      ).bind(auth.user.id).all(),
-      env.DB.prepare("SELECT * FROM certificates WHERE user_id=? AND course_id='xinzuo-academy-base' ORDER BY issued_at DESC").bind(auth.user.id).all()
+        "SELECT id,assessment_version,started_at,completed_at,score,critical_errors,passed,certificate_id FROM certification_attempts WHERE user_id=? AND course_id=? ORDER BY started_at DESC LIMIT 10"
+      ).bind(auth.user.id,config.courseId).all(),
+      env.DB.prepare("SELECT * FROM certificates WHERE user_id=? AND course_id=? ORDER BY issued_at DESC").bind(auth.user.id,config.courseId).all()
     ]);
     let progressPayload = {};
     try { progressPayload = progress ? JSON.parse(progress.progress_json || "{}") : {}; } catch {}
-    const baseLessonsCompleted = Object.entries(progressPayload.lessons || {})
-      .filter(([id,done]) => id.startsWith("b-") && Boolean(done)).length;
-    const baseModulesCompleted = Object.entries(progressPayload.moduleCompleted || {})
-      .filter(([id,done]) => id.startsWith("base-") && Boolean(done)).length;
-    const baseMiniTestsCompleted = Object.entries(progressPayload.miniTests || {})
-      .filter(([id,value]) => id.startsWith("base-") && Boolean(value)).length;
+    const lessonsCompleted = Object.entries(progressPayload.lessons || {})
+      .filter(([id,done]) => id.startsWith(config.lessonPrefix) && Boolean(done)).length;
+    const modulesCompleted = Object.entries(progressPayload.moduleCompleted || {})
+      .filter(([id,done]) => id.startsWith(config.modulePrefix) && Boolean(done)).length;
+    const miniTestsCompleted = Object.entries(progressPayload.miniTests || {})
+      .filter(([id,value]) => id.startsWith(config.modulePrefix) && Boolean(value)).length;
     const preparationComplete = Boolean(
-      baseLessonsCompleted >= 27 &&
-      baseModulesCompleted >= 9 &&
-      baseMiniTestsCompleted >= 9
+      lessonsCompleted >= 27 &&
+      modulesCompleted >= 9 &&
+      miniTestsCompleted >= 9
     );
     return apiJson(request,env,{
       ok:true,
+      level,
+      courseLevel:config.courseLevel,
       eligible:true,
       preparationComplete,
       requirements:{
@@ -1299,9 +1314,9 @@ async function certificationStatus(request, env) {
         miniTestsRequired:9
       },
       progress:progress ? {
-        lessonsCompleted:baseLessonsCompleted,
-        modulesCompleted:baseModulesCompleted,
-        miniTestsCompleted:baseMiniTestsCompleted,
+        lessonsCompleted,
+        modulesCompleted,
+        miniTestsCompleted,
         interactions:progress.interactions
       } : null,
       attempts:attempts.results || [],
@@ -1310,23 +1325,26 @@ async function certificationStatus(request, env) {
   });
 }
 
-async function startBaseCertification(request, env) {
+async function startCertification(request, env, level) {
   return withHttpErrors(request,env,async()=>{
     const auth = await authenticate(request,env);
+    const config = certificationConfig(level);
     const body = await bodyJson(request);
     const locale = body.locale === "it" ? "it" : "en";
     const progress = await env.DB.prepare("SELECT * FROM learner_progress WHERE user_id=?").bind(auth.user.id).first();
 
     const active = await env.DB.prepare(
-      "SELECT * FROM certification_attempts WHERE user_id=? AND course_id='xinzuo-academy-base' AND completed_at IS NULL ORDER BY started_at DESC LIMIT 1"
-    ).bind(auth.user.id).first();
+      "SELECT * FROM certification_attempts WHERE user_id=? AND course_id=? AND completed_at IS NULL ORDER BY started_at DESC LIMIT 1"
+    ).bind(auth.user.id,config.courseId).first();
     if (active && now() - Number(active.started_at) < 60*60) {
       let evidence = {};
       try { evidence = JSON.parse(active.evidence_json || "{}"); } catch {}
-      const ids = Array.isArray(evidence.questionIds) ? evidence.questionIds : BASE_CERTIFICATION_BANK.map(q=>q.id);
-      const questions = ids.map(id=>BASE_CERTIFICATION_BANK.find(q=>q.id===id)).filter(Boolean);
+      const ids = Array.isArray(evidence.questionIds) ? evidence.questionIds : config.bank.map(q=>q.id);
+      const questions = ids.map(id=>config.bank.find(q=>q.id===id)).filter(Boolean);
       return apiJson(request,env,{
         ok:true,
+        level,
+        courseLevel:config.courseLevel,
         attemptId:active.id,
         assessmentVersion:active.assessment_version,
         expiresAt:Number(active.started_at)+60*60,
@@ -1335,25 +1353,27 @@ async function startBaseCertification(request, env) {
       });
     }
 
-    const ordered = randomShuffle(BASE_CERTIFICATION_BANK);
+    const ordered = randomShuffle(config.bank);
     const attemptId = crypto.randomUUID();
     const ts = now();
     const evidence = {
+      level,
       questionIds:ordered.map(q=>q.id),
       locale,
-      interactionBaseline:Number(progress?.interactions || 0),
-      remediationInteractionsRequired:3
+      interactionBaseline:Number(progress?.interactions || 0)
     };
     await env.DB.prepare(
       `INSERT INTO certification_attempts(
         id,user_id,course_id,assessment_version,started_at,completed_at,score,critical_errors,passed,evidence_json,certificate_id
-       ) VALUES(?,?, 'xinzuo-academy-base', ?, ?, NULL,NULL,NULL,NULL,?,NULL)`
-    ).bind(attemptId,auth.user.id,BASE_CERTIFICATION_VERSION,ts,JSON.stringify(evidence)).run();
+       ) VALUES(?,?,?,?,?,NULL,NULL,NULL,NULL,?,NULL)`
+    ).bind(attemptId,auth.user.id,config.courseId,config.version,ts,JSON.stringify(evidence)).run();
 
     return apiJson(request,env,{
       ok:true,
+      level,
+      courseLevel:config.courseLevel,
       attemptId,
-      assessmentVersion:BASE_CERTIFICATION_VERSION,
+      assessmentVersion:config.version,
       expiresAt:ts+60*60,
       rules:{minimumScore:0.80,maximumCriticalErrors:0},
       questions:ordered.map(q=>publicAssessmentQuestion(q,locale))
@@ -1361,9 +1381,10 @@ async function startBaseCertification(request, env) {
   });
 }
 
-async function submitBaseCertification(request, env) {
+async function submitCertification(request, env, level) {
   return withHttpErrors(request,env,async()=>{
     const auth = await authenticate(request,env);
+    const config = certificationConfig(level);
     const body = await bodyJson(request);
     const attemptId = String(body.attemptId || "").trim();
     const answers = body.answers;
@@ -1372,8 +1393,8 @@ async function submitBaseCertification(request, env) {
     }
 
     const attempt = await env.DB.prepare(
-      "SELECT * FROM certification_attempts WHERE id=? AND user_id=? AND course_id='xinzuo-academy-base'"
-    ).bind(attemptId,auth.user.id).first();
+      "SELECT * FROM certification_attempts WHERE id=? AND user_id=? AND course_id=?"
+    ).bind(attemptId,auth.user.id,config.courseId).first();
     if (!attempt) throw new HttpError(404,"assessment_not_found","Assessment attempt not found.");
     if (attempt.completed_at) throw new HttpError(409,"assessment_completed","This assessment attempt has already been submitted.");
     if (now() - Number(attempt.started_at) > 60*60) {
@@ -1386,11 +1407,11 @@ async function submitBaseCertification(request, env) {
     let evidence = {};
     try { evidence = JSON.parse(attempt.evidence_json || "{}"); } catch {}
     const ids = Array.isArray(evidence.questionIds) ? evidence.questionIds : [];
-    if (ids.length !== BASE_CERTIFICATION_BANK.length) {
+    if (ids.length !== config.bank.length) {
       throw new HttpError(500,"assessment_corrupt","Assessment question set is incomplete.");
     }
 
-    const questions = ids.map(id=>BASE_CERTIFICATION_BANK.find(q=>q.id===id)).filter(Boolean);
+    const questions = ids.map(id=>config.bank.find(q=>q.id===id)).filter(Boolean);
     if (questions.length !== ids.length) throw new HttpError(500,"assessment_corrupt","Assessment question set is invalid.");
 
     let correctCount = 0;
@@ -1426,8 +1447,8 @@ async function submitBaseCertification(request, env) {
     let certificate = null;
     if (passed) {
       const existing = await env.DB.prepare(
-        "SELECT * FROM certificates WHERE user_id=? AND course_id='xinzuo-academy-base' AND status='valid' ORDER BY issued_at DESC LIMIT 1"
-      ).bind(auth.user.id).first();
+        "SELECT * FROM certificates WHERE user_id=? AND course_id=? AND status='valid' ORDER BY issued_at DESC LIMIT 1"
+      ).bind(auth.user.id,config.courseId).first();
       if (existing) {
         certificate = publicCertificate(existing);
       } else {
@@ -1443,12 +1464,13 @@ async function submitBaseCertification(request, env) {
           `INSERT INTO certificates(
             id,verification_code,user_id,certificate_name,course_id,course_level,course_version,assessment_version,score,
             issued_at,status,updated_at,revoked_at,revocation_reason,superseded_by,public_note
-           ) VALUES(?,?,?,?, 'xinzuo-academy-base','Base',?,?,?,?,'valid',?,NULL,NULL,NULL,?)`
+           ) VALUES(?,?,?,?,?,?,?,?,?,?,'valid',?,NULL,NULL,NULL,?)`
         ).bind(
           certificateId,verificationCode,user.id,`${user.first_name} ${user.last_name}`.trim(),
+          config.courseId,config.courseLevel,
           String(body.courseVersion || "0.1.0").slice(0,40),
-          BASE_CERTIFICATION_VERSION,score,ts,ts,
-          "Issued automatically after passing the Xinzuo Academy Base final assessment."
+          config.version,score,ts,ts,
+          `Issued automatically after passing the Xinzuo Academy ${config.courseLevel} final assessment.`
         ).run();
         await env.DB.prepare(
           "INSERT INTO certificate_events(certificate_id,actor_user_id,event_type,detail,created_at) VALUES(?,NULL,'issued',?,?)"
@@ -1466,6 +1488,8 @@ async function submitBaseCertification(request, env) {
 
     return apiJson(request,env,{
       ok:true,
+      level,
+      courseLevel:config.courseLevel,
       passed,
       score,
       correct:correctCount,
