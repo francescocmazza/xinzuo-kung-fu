@@ -22,7 +22,7 @@ IT_PATH = ROOT / "academy" / "data" / "course.it.json"
 LOCALES_PATH = ROOT / "localization" / "locales.yml"
 
 ENGINE = "chatgpt-differential-v1"
-PROMPT_REVISION = "2026-10-02-academy-it-v1"
+PROMPT_REVISION = "2026-10-02-academy-depth-v2"
 
 NON_TRANSLATABLE_KEYS = {
     "id", "concept_id", "source_path", "source_paths", "correct", "status",
@@ -160,7 +160,7 @@ def validate(source: dict[str, Any], target: dict[str, Any]) -> list[str]:
                 failures.append(f"{row['path']}: {instruction}: {text}")
 
     anatomy = (
-        target["levels"][0]["modules"][1]["lessons"][0]["content"]["points"][1]
+        target["levels"][0]["modules"][0]["lessons"][0]["content"]["points"][1]
     ).casefold()
     if "filo" not in anatomy or "tagliente" not in anatomy:
         failures.append("First anatomy introduction must explicitly say that filo and tagliente are synonyms.")
