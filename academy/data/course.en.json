@@ -6750,7 +6750,7 @@
     {
       "id": "advanced",
       "title": "Advanced",
-      "purpose": "Diagnose conflicting evidence, justify decisions and connect material, geometry, technique and maintenance.",
+      "purpose": "Diagnose conflicting evidence, integrate multiple variables and justify technically defensible decisions across the same domains.",
       "modules": [
         {
           "id": "advanced-knife-system",
@@ -6851,6 +6851,198 @@
                   "explanation": "A visible form does not uniquely identify the manufacturing route without process evidence."
                 }
               ]
+            },
+            {
+              "id": "a-knife-system-load",
+              "concept_id": "knife-system.load-path.advanced",
+              "title": "Trace loads through tang, bolster and handle",
+              "critical": false,
+              "source_path": "00-knife-basics/anatomy-of-a-kitchen-knife.md",
+              "content": {
+                "lead": "Advanced construction analysis follows force through the blade-handle system rather than treating one component name as decisive.",
+                "points": [
+                  "Tang dimensions, transitions, fastening and handle fit determine how loads are transferred.",
+                  "Stress concentrations can matter more than whether a tang is described as full or hidden.",
+                  "A bolster can change mass distribution and local stiffness without proving a manufacturing route."
+                ],
+                "takeaway": "Trace the load path before judging structural adequacy."
+              },
+              "question": {
+                "id": "a-knife-system-load-q",
+                "prompt": "A handle joint fails under repeated lateral load. What should you inspect first?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Load path, fit and fastening"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Blade polish and pattern"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Retail price and packaging"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Edge retention alone"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Trace the load path before judging structural adequacy.",
+                "concept_id": "knife-system.load-path.advanced",
+                "critical": false
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-knife-system-load-r1",
+                  "prompt": "Why can a hidden tang still be structurally adequate?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Hidden tangs avoid all stress"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Dimensions and fastening can match the load"
+                    },
+                    {
+                      "id": "c",
+                      "text": "They always use softer steel"
+                    },
+                    {
+                      "id": "d",
+                      "text": "They eliminate handle movement"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Trace the load path before judging structural adequacy.",
+                  "concept_id": "knife-system.load-path.advanced",
+                  "critical": false
+                },
+                {
+                  "id": "a-knife-system-load-r2",
+                  "prompt": "A crack starts at a sharp transition near the tang. What concept is most relevant?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Corrosion resistance"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Layer count"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Stress concentration"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Food release"
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Trace the load path before judging structural adequacy.",
+                  "concept_id": "knife-system.load-path.advanced",
+                  "critical": false
+                }
+              ]
+            },
+            {
+              "id": "a-knife-system-stability",
+              "concept_id": "knife-system.material-stability.advanced",
+              "title": "Diagnose handle stability failures",
+              "critical": false,
+              "source_path": "02-steels-and-metallurgy/xinzuo-handle-materials.md",
+              "content": {
+                "lead": "Handle failures should be separated into material movement, sealing, assembly and environmental exposure.",
+                "points": [
+                  "Natural materials can expand and contract with humidity more than stabilized composites.",
+                  "Cracking can result from material behavior, geometry, fastening stress or repeated wet-dry cycles.",
+                  "A diagnosis should distinguish cosmetic change from structural movement."
+                ],
+                "takeaway": "Use material behavior and exposure history to explain handle failures."
+              },
+              "question": {
+                "id": "a-knife-system-stability-q",
+                "prompt": "A wood handle cracks after repeated wet-dry cycles. What evidence matters most?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Blade hardness alone"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Material, sealing and moisture history"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Layer count alone"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Edge angle alone"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Use material behavior and exposure history to explain handle failures.",
+                "concept_id": "knife-system.material-stability.advanced",
+                "critical": false
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-knife-system-stability-r1",
+                  "prompt": "A scale lifts near one fastener but not elsewhere. What should be checked?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Only blade polish"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Only steel grade"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Local fit, fastening stress and material movement"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only cutting technique"
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Use material behavior and exposure history to explain handle failures.",
+                  "concept_id": "knife-system.material-stability.advanced",
+                  "critical": false
+                },
+                {
+                  "id": "a-knife-system-stability-r2",
+                  "prompt": "Why can stabilized wood behave differently from untreated wood?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It changes blade hardness"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It removes all maintenance"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It fixes tang geometry"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Its dimensional response to moisture is reduced"
+                    }
+                  ],
+                  "correct": "d",
+                  "explanation": "Use material behavior and exposure history to explain handle failures.",
+                  "concept_id": "knife-system.material-stability.advanced",
+                  "critical": false
+                }
+              ]
             }
           ],
           "mini_test": {
@@ -6886,54 +7078,54 @@
               },
               {
                 "id": "a-knife-system-mini-2",
-                "prompt": "A handle cracks after repeated wet-dry cycles. What evidence should be examined first?",
+                "prompt": "What does a heavy bolster change most directly?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Nominal blade hardness alone"
+                    "text": "Steel composition"
                   },
                   {
                     "id": "b",
-                    "text": "The number of visible layers in the blade"
+                    "text": "Carbide chemistry"
                   },
                   {
                     "id": "c",
-                    "text": "Material, assembly and moisture history"
+                    "text": "Sharpening grit"
                   },
                   {
                     "id": "d",
-                    "text": "The knife's measured edge angle alone"
+                    "text": "Local mass distribution and stiffness"
                   }
                 ],
-                "correct": "c",
-                "explanation": "The likely load path is environmental and structural, so the handle material and its exposure history are the relevant evidence.",
-                "concept_id": "knife-system.integrated.advanced",
+                "correct": "d",
+                "explanation": "Trace the load path before judging structural adequacy.",
+                "concept_id": "knife-system.load-path.advanced",
                 "critical": false
               },
               {
                 "id": "a-knife-system-mini-3",
-                "prompt": "An advanced user says a hidden tang is inherently unsuitable for hard kitchen use. What is the best response?",
+                "prompt": "A handle changes color but remains tight and stable. What distinction matters?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Agree because hidden tangs always fail first"
+                    "text": "Cosmetic change versus structural movement"
                   },
                   {
                     "id": "b",
-                    "text": "Dimensions, fit, fastening and expected load"
+                    "text": "Forging versus stock removal"
                   },
                   {
                     "id": "c",
-                    "text": "Judge only by whether the knife was forged"
+                    "text": "Single versus double bevel"
                   },
                   {
                     "id": "d",
-                    "text": "Use overall knife weight as the durability test"
+                    "text": "Coarse versus fine grit"
                   }
                 ],
-                "correct": "b",
-                "explanation": "Construction labels are not substitutes for analyzing dimensions, assembly and expected loads.",
-                "concept_id": "knife-system.integrated.advanced",
+                "correct": "a",
+                "explanation": "Use material behavior and exposure history to explain handle failures.",
+                "concept_id": "knife-system.material-stability.advanced",
                 "critical": false
               }
             ]
@@ -7037,6 +7229,198 @@
                   "explanation": "Hardness is one dimension; equal HRC does not make microstructure or edge support equivalent."
                 }
               ]
+            },
+            {
+              "id": "a-steel-performance-rolling",
+              "concept_id": "steel-performance.rolling-chipping.advanced",
+              "title": "Differentiate rolling, chipping and wear",
+              "critical": false,
+              "source_path": "01-foundations/five-dimensions-of-knife-steel.md",
+              "content": {
+                "lead": "Different dulling symptoms point toward different relationships among hardness, toughness, geometry and use.",
+                "points": [
+                  "Rolling is plastic deformation; chipping is fracture; smooth wear is material loss without a discrete break.",
+                  "The same user can create different failures by changing load direction or cutting surface.",
+                  "Diagnosis should precede changing hardness or edge angle."
+                ],
+                "takeaway": "Name the failure mode before prescribing a steel or geometry change."
+              },
+              "question": {
+                "id": "a-steel-performance-rolling-q",
+                "prompt": "The apex folds sideways but remains attached. Which failure mode is this?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Chipping"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Corrosion pitting"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Rolling"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Abrasive wear only"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Name the failure mode before prescribing a steel or geometry change.",
+                "concept_id": "steel-performance.rolling-chipping.advanced",
+                "critical": false
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-steel-performance-rolling-r1",
+                  "prompt": "Tiny pieces are missing from the apex after twisting cuts. Which failure mode fits?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Rolling only"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Patina formation"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Normal polishing"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Microchipping"
+                    }
+                  ],
+                  "correct": "d",
+                  "explanation": "Name the failure mode before prescribing a steel or geometry change.",
+                  "concept_id": "steel-performance.rolling-chipping.advanced",
+                  "critical": false
+                },
+                {
+                  "id": "a-steel-performance-rolling-r2",
+                  "prompt": "The edge gradually loses bite with no folds or chips. What is most consistent?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Progressive wear"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Sudden brittle fracture"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Handle instability"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Tang failure"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Name the failure mode before prescribing a steel or geometry change.",
+                  "concept_id": "steel-performance.rolling-chipping.advanced",
+                  "critical": false
+                }
+              ]
+            },
+            {
+              "id": "a-steel-performance-priority",
+              "concept_id": "steel-performance.property-priority.advanced",
+              "title": "Justify property compromises for demanding use",
+              "critical": false,
+              "source_path": "01-foundations/five-dimensions-of-knife-steel.md",
+              "content": {
+                "lead": "Advanced recommendation explains which property is being sacrificed, why, and for which real loading pattern.",
+                "points": [
+                  "Impact-heavy or lateral work may justify sacrificing retention for toughness and geometry support.",
+                  "Frequent maintenance can make sharpenability more valuable than maximum wear resistance.",
+                  "A recommendation should state the expected failure risk it is trying to reduce."
+                ],
+                "takeaway": "Make the trade-off explicit and tie it to the actual failure risk."
+              },
+              "question": {
+                "id": "a-steel-performance-priority-q",
+                "prompt": "A user repeatedly twists through dense food. Which priority may increase?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Maximum hardness only"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Maximum carbide volume"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Minimum edge support"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Toughness and edge support"
+                  }
+                ],
+                "correct": "d",
+                "explanation": "Make the trade-off explicit and tie it to the actual failure risk.",
+                "concept_id": "steel-performance.property-priority.advanced",
+                "critical": false
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-steel-performance-priority-r1",
+                  "prompt": "A professional sharpens daily and wants fast restoration. Which property gains value?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sharpenability"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Layer count"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Pattern contrast"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Handle density"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Make the trade-off explicit and tie it to the actual failure risk.",
+                  "concept_id": "steel-performance.property-priority.advanced",
+                  "critical": false
+                },
+                {
+                  "id": "a-steel-performance-priority-r2",
+                  "prompt": "When is sacrificing some edge retention rational?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Whenever hardness is high"
+                    },
+                    {
+                      "id": "b",
+                      "text": "When it reduces the dominant failure risk"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Whenever the knife is expensive"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Whenever the blade is long"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Make the trade-off explicit and tie it to the actual failure risk.",
+                  "concept_id": "steel-performance.property-priority.advanced",
+                  "critical": false
+                }
+              ]
             }
           ],
           "mini_test": {
@@ -7072,54 +7456,54 @@
               },
               {
                 "id": "a-steel-performance-mini-2",
-                "prompt": "An edge develops microchips mainly after twisting cuts. What should be investigated before blaming the steel grade?",
+                "prompt": "Why does distinguishing rolling from chipping matter?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Only the nominal hardness"
+                    "text": "They require the same response"
                   },
                   {
                     "id": "b",
-                    "text": "Only corrosion resistance"
+                    "text": "They suggest different corrective priorities"
                   },
                   {
                     "id": "c",
-                    "text": "Only abrasive wear resistance"
+                    "text": "They reveal exact alloy chemistry"
                   },
                   {
                     "id": "d",
-                    "text": "Lateral load, geometry and use"
+                    "text": "They determine handle material"
                   }
                 ],
-                "correct": "d",
-                "explanation": "The failure is correlated with a specific load direction, so use and geometry are primary evidence.",
-                "concept_id": "steel-performance.integrated.advanced",
+                "correct": "b",
+                "explanation": "Name the failure mode before prescribing a steel or geometry change.",
+                "concept_id": "steel-performance.rolling-chipping.advanced",
                 "critical": false
               },
               {
                 "id": "a-steel-performance-mini-3",
-                "prompt": "Two dull edges feel similar, but one has rolled and the other has chipped. Why does the distinction matter?",
+                "prompt": "What makes a steel recommendation technically defensible?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Different failure modes need different corrections"
+                    "text": "A prestige ranking"
                   },
                   {
                     "id": "b",
-                    "text": "Both prove the steel is too soft"
+                    "text": "A single HRC number"
                   },
                   {
                     "id": "c",
-                    "text": "Both prove the edge angle is too high"
+                    "text": "A stated trade-off tied to real use"
                   },
                   {
                     "id": "d",
-                    "text": "Both require replacing the knife"
+                    "text": "A country-of-origin claim"
                   }
                 ],
-                "correct": "a",
-                "explanation": "Rolling and chipping point to different interactions among load, toughness, hardness and geometry.",
-                "concept_id": "steel-performance.integrated.advanced",
+                "correct": "c",
+                "explanation": "Make the trade-off explicit and tie it to the actual failure risk.",
+                "concept_id": "steel-performance.property-priority.advanced",
                 "critical": false
               }
             ]
@@ -7226,6 +7610,198 @@
                   "explanation": "Heat treatment changes microstructure, so equal composition does not imply equal finished behavior."
                 }
               ]
+            },
+            {
+              "id": "a-metallurgy-heat",
+              "concept_id": "metallurgy.heat-treatment-diagnosis.advanced",
+              "title": "Diagnose heat-treatment variables from behavior",
+              "critical": false,
+              "source_path": "02-steels-and-metallurgy/heat-treatment-and-carbides.md",
+              "content": {
+                "lead": "Advanced metallurgy treats hardness as one output of heat treatment, not as a complete description of the resulting microstructure.",
+                "points": [
+                  "Retained austenite, tempering condition and carbide state can affect stability independently of nominal HRC.",
+                  "Two blades of the same composition can behave differently after different thermal histories.",
+                  "Geometry must be separated from microstructure before attributing an edge failure to heat treatment."
+                ],
+                "takeaway": "Use behavior, hardness and processing evidence together before blaming heat treatment."
+              },
+              "question": {
+                "id": "a-metallurgy-heat-q",
+                "prompt": "Two blades share composition and HRC but differ in fine-edge stability. What may still differ?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Microstructure and heat-treatment condition"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Steel name"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Blade length only"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Handle density"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Use behavior, hardness and processing evidence together before blaming heat treatment.",
+                "concept_id": "metallurgy.heat-treatment-diagnosis.advanced",
+                "critical": false
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-metallurgy-heat-r1",
+                  "prompt": "Which variable can remain hidden behind a normal HRC reading?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Tang length"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Retained austenite or tempering condition"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Blade pattern"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Board material"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Use behavior, hardness and processing evidence together before blaming heat treatment.",
+                  "concept_id": "metallurgy.heat-treatment-diagnosis.advanced",
+                  "critical": false
+                },
+                {
+                  "id": "a-metallurgy-heat-r2",
+                  "prompt": "Why is one chipped edge not proof of bad heat treatment?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Heat treatment never matters"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Chipping proves low hardness"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Geometry and use can create the same symptom"
+                    },
+                    {
+                      "id": "d",
+                      "text": "All steels chip equally"
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Use behavior, hardness and processing evidence together before blaming heat treatment.",
+                  "concept_id": "metallurgy.heat-treatment-diagnosis.advanced",
+                  "critical": false
+                }
+              ]
+            },
+            {
+              "id": "a-metallurgy-evidence",
+              "concept_id": "metallurgy.evidence-boundaries.advanced",
+              "title": "Separate measurement from metallurgical inference",
+              "critical": false,
+              "source_path": "02-steels-and-metallurgy/xinzuo-blade-steels.md",
+              "content": {
+                "lead": "Technical credibility improves when measured facts, plausible mechanisms and unverified assumptions are clearly separated.",
+                "points": [
+                  "Composition and HRC are measurements, but they do not reveal every microstructural detail.",
+                  "Carbide-size or toughness claims may require microscopy, testing or controlled comparison.",
+                  "Brand or steel reputation is contextual evidence, not a substitute for measurement."
+                ],
+                "takeaway": "State what is known, what is inferred and what still needs testing."
+              },
+              "question": {
+                "id": "a-metallurgy-evidence-q",
+                "prompt": "You know composition and HRC but have no microscopy. What can you claim confidently?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Exact carbide size"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Measured chemistry and hardness, not exact microstructure"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Exact toughness"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Exact retained austenite"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "State what is known, what is inferred and what still needs testing.",
+                "concept_id": "metallurgy.evidence-boundaries.advanced",
+                "critical": false
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-metallurgy-evidence-r1",
+                  "prompt": "A steel has a strong reputation for toughness. How should that be used?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "As proof of this blade's toughness"
+                    },
+                    {
+                      "id": "b",
+                      "text": "As proof of perfect heat treatment"
+                    },
+                    {
+                      "id": "c",
+                      "text": "As context, not direct measurement of this blade"
+                    },
+                    {
+                      "id": "d",
+                      "text": "As proof of ideal geometry"
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "State what is known, what is inferred and what still needs testing.",
+                  "concept_id": "metallurgy.evidence-boundaries.advanced",
+                  "critical": false
+                },
+                {
+                  "id": "a-metallurgy-evidence-r2",
+                  "prompt": "What would best support a claim about carbide fineness?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "A high retail price"
+                    },
+                    {
+                      "id": "b",
+                      "text": "A polished surface"
+                    },
+                    {
+                      "id": "c",
+                      "text": "A heavy handle"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Direct microstructural evidence"
+                    }
+                  ],
+                  "correct": "d",
+                  "explanation": "State what is known, what is inferred and what still needs testing.",
+                  "concept_id": "metallurgy.evidence-boundaries.advanced",
+                  "critical": false
+                }
+              ]
             }
           ],
           "mini_test": {
@@ -7261,54 +7837,54 @@
               },
               {
                 "id": "a-metallurgy-mini-2",
-                "prompt": "A steel has high wear resistance, but a very fine edge remains unstable. Which combination may explain the result?",
+                "prompt": "What evidence strengthens a heat-treatment diagnosis?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "High corrosion resistance alone"
+                    "text": "Retail price only"
                   },
                   {
                     "id": "b",
-                    "text": "A polished spine and rounded choil"
+                    "text": "Pattern contrast only"
                   },
                   {
                     "id": "c",
-                    "text": "A dense handle material"
+                    "text": "Handle material only"
                   },
                   {
                     "id": "d",
-                    "text": "Carbide scale plus insufficient edge support"
+                    "text": "Process history plus microstructural or behavior data"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Wear resistance and very fine-edge stability are not the same property; carbide scale and geometry can limit the latter.",
-                "concept_id": "metallurgy.integrated.advanced",
+                "explanation": "Use behavior, hardness and processing evidence together before blaming heat treatment.",
+                "concept_id": "metallurgy.heat-treatment-diagnosis.advanced",
                 "critical": false
               },
               {
                 "id": "a-metallurgy-mini-3",
-                "prompt": "A blade shows unexpected instability despite an appropriate composition and HRC. Which heat-treatment variables may still matter?",
+                "prompt": "What is the advanced response to incomplete evidence?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Retained austenite, tempering and microstructure"
+                    "text": "Mark the boundary between fact and inference"
                   },
                   {
                     "id": "b",
-                    "text": "Blade length and handle density"
+                    "text": "Fill gaps with prestige claims"
                   },
                   {
                     "id": "c",
-                    "text": "Pattern contrast and etching depth"
+                    "text": "Assume the best process"
                   },
                   {
                     "id": "d",
-                    "text": "Only whether the steel is stainless"
+                    "text": "Avoid stating uncertainty"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Nominal composition and hardness do not reveal all microstructural conditions created by heat treatment.",
-                "concept_id": "metallurgy.integrated.advanced",
+                "explanation": "State what is known, what is inferred and what still needs testing.",
+                "concept_id": "metallurgy.evidence-boundaries.advanced",
                 "critical": false
               }
             ]
@@ -7413,6 +7989,198 @@
                   "explanation": "Differential wear may influence microtexture, while a worn or damaged apex still requires sharpening."
                 }
               ]
+            },
+            {
+              "id": "a-damascus-wear",
+              "concept_id": "damascus.differential-wear.advanced",
+              "title": "Test differential-wear mechanisms",
+              "critical": false,
+              "source_path": "03-blade-construction/self-sharpening-full-damascus.md",
+              "content": {
+                "lead": "A differential-wear claim should connect layer properties, scale and actual edge texture through evidence.",
+                "points": [
+                  "Different hardness or wear response can create differential material loss between layers.",
+                  "Useful microtexture depends on whether layer scale intersects the cutting line meaningfully.",
+                  "Observed slicing life must be separated from effects of steel, heat treatment and geometry."
+                ],
+                "takeaway": "Connect the proposed wear mechanism to measured behavior at the edge."
+              },
+              "question": {
+                "id": "a-damascus-wear-q",
+                "prompt": "What evidence most directly supports differential wear at the edge?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Pattern beauty"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Retail price"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Layer-to-edge wear measurements"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Layer count alone"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Connect the proposed wear mechanism to measured behavior at the edge.",
+                "concept_id": "damascus.differential-wear.advanced",
+                "critical": false
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-damascus-wear-r1",
+                  "prompt": "Why is long slicing life insufficient proof by itself?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Differential wear is impossible"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Layered blades cannot be tested"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Slicing life depends only on corrosion"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Other variables can also cause it"
+                    }
+                  ],
+                  "correct": "d",
+                  "explanation": "Connect the proposed wear mechanism to measured behavior at the edge.",
+                  "concept_id": "damascus.differential-wear.advanced",
+                  "critical": false
+                },
+                {
+                  "id": "a-damascus-wear-r2",
+                  "prompt": "Which feature must align with the cutting line for useful layer microtexture?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Layer scale and edge geometry"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Handle density"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Tang length"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Box size"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Connect the proposed wear mechanism to measured behavior at the edge.",
+                  "concept_id": "damascus.differential-wear.advanced",
+                  "critical": false
+                }
+              ]
+            },
+            {
+              "id": "a-damascus-claim",
+              "concept_id": "damascus.self-sharpening-claim.advanced",
+              "title": "Bound the self-sharpening claim",
+              "critical": false,
+              "source_path": "03-blade-construction/self-sharpening-full-damascus.md",
+              "content": {
+                "lead": "The term self-sharpening must be translated into a precise physical claim rather than taken literally.",
+                "points": [
+                  "Differential wear may preserve microscopic slicing bite between sharpening sessions.",
+                  "It does not recreate a worn apex or repair chips.",
+                  "Normal sharpening is still required when the apex itself needs restoration."
+                ],
+                "takeaway": "Describe preserved micro-bite, not an edge that magically rebuilds itself."
+              },
+              "question": {
+                "id": "a-damascus-claim-q",
+                "prompt": "What is the defensible meaning of self-sharpening in this context?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Automatic recreation of the apex"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Self-repair of chips"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Permanent sharpness"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Possible preservation of microscopic slicing bite"
+                  }
+                ],
+                "correct": "d",
+                "explanation": "Describe preserved micro-bite, not an edge that magically rebuilds itself.",
+                "concept_id": "damascus.self-sharpening-claim.advanced",
+                "critical": false
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-damascus-claim-r1",
+                  "prompt": "What still requires normal sharpening on a differential-wear blade?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "A worn or damaged apex"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Only the handle"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only the spine"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only the cladding surface"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Describe preserved micro-bite, not an edge that magically rebuilds itself.",
+                  "concept_id": "damascus.self-sharpening-claim.advanced",
+                  "critical": false
+                },
+                {
+                  "id": "a-damascus-claim-r2",
+                  "prompt": "Which claim would be misleading?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Layer wear can differ"
+                    },
+                    {
+                      "id": "b",
+                      "text": "The knife never needs sharpening"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Microtexture may influence slicing"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Geometry still matters"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Describe preserved micro-bite, not an edge that magically rebuilds itself.",
+                  "concept_id": "damascus.self-sharpening-claim.advanced",
+                  "critical": false
+                }
+              ]
             }
           ],
           "mini_test": {
@@ -7448,54 +8216,54 @@
               },
               {
                 "id": "a-damascus-mini-2",
-                "prompt": "What evidence would best support a functional differential-wear claim at the edge?",
+                "prompt": "A hard and soft layer pair wears differently. What does that establish first?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Measured layer-to-edge wear evidence"
+                    "text": "Automatic superiority"
                   },
                   {
                     "id": "b",
-                    "text": "A visually complex pattern alone"
+                    "text": "A plausible differential-wear mechanism"
                   },
                   {
                     "id": "c",
-                    "text": "A high layer count without edge measurements"
+                    "text": "No need for sharpening"
                   },
                   {
                     "id": "d",
-                    "text": "Long cutting life with no control for steel or geometry"
+                    "text": "Guaranteed chip resistance"
                   }
                 ],
-                "correct": "a",
-                "explanation": "The evidence should connect the proposed mechanism to what actually happens at the cutting edge.",
-                "concept_id": "damascus.integrated.advanced",
+                "correct": "b",
+                "explanation": "Connect the proposed wear mechanism to measured behavior at the edge.",
+                "concept_id": "damascus.differential-wear.advanced",
                 "critical": false
               },
               {
                 "id": "a-damascus-mini-3",
-                "prompt": "A layered blade shows unusually long slicing life. Why is that observation not enough to prove differential wear is the cause?",
+                "prompt": "Why must the claim be bounded carefully?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Differential wear can never affect cutting"
+                    "text": "Marketing terms define metallurgy"
                   },
                   {
                     "id": "b",
-                    "text": "Layered blades cannot be compared experimentally"
+                    "text": "Layer count proves the mechanism"
                   },
                   {
                     "id": "c",
-                    "text": "Only corrosion resistance affects slicing life"
+                    "text": "The mechanism affects wear texture, not all edge failure"
                   },
                   {
                     "id": "d",
-                    "text": "Other variables can also explain the result"
+                    "text": "Etching repairs the apex"
                   }
                 ],
-                "correct": "d",
-                "explanation": "Observed performance can have multiple causes; a mechanism claim needs controls or direct evidence.",
-                "concept_id": "damascus.integrated.advanced",
+                "correct": "c",
+                "explanation": "Describe preserved micro-bite, not an edge that magically rebuilds itself.",
+                "concept_id": "damascus.self-sharpening-claim.advanced",
                 "critical": false
               }
             ]
@@ -7599,6 +8367,198 @@
                   "explanation": "Thinning changes the load-bearing section of the blade, so the correct amount depends on steel and task."
                 }
               ]
+            },
+            {
+              "id": "a-geometry-intervention",
+              "concept_id": "geometry.thinning-repair.advanced",
+              "title": "Choose between repair, reprofiling and thinning",
+              "critical": false,
+              "source_path": "04-geometry-and-bevels/single-and-double-bevels.md",
+              "content": {
+                "lead": "Corrective geometry work should remove steel from the region that actually causes the problem.",
+                "points": [
+                  "Chip repair restores missing edge material by moving the apex back.",
+                  "Reprofiling changes edge angle or bevel proportions.",
+                  "Thinning removes material behind the edge to restore penetration."
+                ],
+                "takeaway": "Match the intervention to the geometric location of the defect."
+              },
+              "question": {
+                "id": "a-geometry-intervention-q",
+                "prompt": "The apex is intact but the blade wedges after years of sharpening. What is most relevant?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Controlled thinning behind the edge"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Chip repair"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Handle replacement"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Surface polishing"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Match the intervention to the geometric location of the defect.",
+                "concept_id": "geometry.thinning-repair.advanced",
+                "critical": false
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-geometry-intervention-r1",
+                  "prompt": "A large chip reaches behind the existing apex. What is required first?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Only finer polishing"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Repair by moving the edge past the damage"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only handle oil"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Only a lower grit finish"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Match the intervention to the geometric location of the defect.",
+                  "concept_id": "geometry.thinning-repair.advanced",
+                  "critical": false
+                },
+                {
+                  "id": "a-geometry-intervention-r2",
+                  "prompt": "The user needs a stronger edge angle with no thickness problem. Which operation fits?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Thinning the whole blade"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Handle stabilization"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Reprofiling"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Cladding etching"
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Match the intervention to the geometric location of the defect.",
+                  "concept_id": "geometry.thinning-repair.advanced",
+                  "critical": false
+                }
+              ]
+            },
+            {
+              "id": "a-geometry-support",
+              "concept_id": "geometry.asymmetry-support.advanced",
+              "title": "Balance steering, support and penetration",
+              "critical": false,
+              "source_path": "04-geometry-and-bevels/single-and-double-bevels.md",
+              "content": {
+                "lead": "Advanced geometry decisions balance directional behavior, cutting resistance and the support available to the apex.",
+                "points": [
+                  "Asymmetry can cause or intentionally manage steering and food release.",
+                  "Lower edge angles improve penetration but reduce supporting material.",
+                  "A repair should preserve intended geometry unless evidence justifies changing it."
+                ],
+                "takeaway": "Change only the geometric variable responsible for the observed behavior."
+              },
+              "question": {
+                "id": "a-geometry-support-q",
+                "prompt": "A knife tracks strongly left after sharpening. What should you inspect?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Handle moisture"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Side-to-side bevel and section asymmetry"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Steelmaking route"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Pattern contrast"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Change only the geometric variable responsible for the observed behavior.",
+                "concept_id": "geometry.asymmetry-support.advanced",
+                "critical": false
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-geometry-support-r1",
+                  "prompt": "What is the main risk of making an edge angle much lower?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Automatic corrosion"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Higher handle mass"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Reduced support at the apex"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Lower blade length"
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Change only the geometric variable responsible for the observed behavior.",
+                  "concept_id": "geometry.asymmetry-support.advanced",
+                  "critical": false
+                },
+                {
+                  "id": "a-geometry-support-r2",
+                  "prompt": "An asymmetric knife cuts well and tracks as designed. What should sharpening do?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Force it to 50/50"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Remove all asymmetry"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Match the handle angle"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Preserve the intended asymmetry"
+                    }
+                  ],
+                  "correct": "d",
+                  "explanation": "Change only the geometric variable responsible for the observed behavior.",
+                  "concept_id": "geometry.asymmetry-support.advanced",
+                  "critical": false
+                }
+              ]
             }
           ],
           "mini_test": {
@@ -7634,54 +8594,54 @@
               },
               {
                 "id": "a-geometry-mini-2",
-                "prompt": "A knife consistently steers to one side after sharpening. Which geometric cause should be checked first?",
+                "prompt": "Why should steel removal stop once the diagnosed problem is solved?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Overall blade length"
+                    "text": "More removal always improves cutting"
                   },
                   {
                     "id": "b",
-                    "text": "Bevel or section asymmetry"
+                    "text": "More removal raises toughness"
                   },
                   {
                     "id": "c",
-                    "text": "Handle material density"
+                    "text": "More removal restores heat treatment"
                   },
                   {
                     "id": "d",
-                    "text": "Final polish level"
+                    "text": "Further removal changes geometry without benefit"
                   }
                 ],
-                "correct": "b",
-                "explanation": "Steering is a directional symptom, so asymmetry is more relevant than unrelated finish variables.",
-                "concept_id": "geometry.integrated.advanced",
+                "correct": "d",
+                "explanation": "Match the intervention to the geometric location of the defect.",
+                "concept_id": "geometry.thinning-repair.advanced",
                 "critical": false
               },
               {
                 "id": "a-geometry-mini-3",
-                "prompt": "After years of sharpening, the apex is sharp but the knife wedges much more than when new. What diagnosis fits best?",
+                "prompt": "What is the advanced goal of geometry correction?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "The apex is necessarily too polished"
+                    "text": "Solve the symptom while preserving useful design intent"
                   },
                   {
                     "id": "b",
-                    "text": "The handle has shifted the balance point forward"
+                    "text": "Maximize sharpness at any cost"
                   },
                   {
                     "id": "c",
-                    "text": "Excess thickness behind the edge"
+                    "text": "Make every knife symmetrical"
                   },
                   {
                     "id": "d",
-                    "text": "The steel has automatically lost toughness"
+                    "text": "Remove as much steel as possible"
                   }
                 ],
-                "correct": "c",
-                "explanation": "Repeated sharpening can move the edge into a thicker part of the blade even when the apex itself is sharp.",
-                "concept_id": "geometry.integrated.advanced",
+                "correct": "a",
+                "explanation": "Change only the geometric variable responsible for the observed behavior.",
+                "concept_id": "geometry.asymmetry-support.advanced",
                 "critical": false
               }
             ]
@@ -7786,6 +8746,198 @@
                   "explanation": "Advanced recommendation makes the compromise explicit instead of pretending there is one universal best configuration."
                 }
               ]
+            },
+            {
+              "id": "a-knife-types-fatigue",
+              "concept_id": "knife-types.fatigue-leverage.advanced",
+              "title": "Diagnose fatigue through leverage",
+              "critical": false,
+              "source_path": "05-knife-types/weight-and-balance.md",
+              "content": {
+                "lead": "Fatigue often emerges from repeated leverage and reach rather than from total knife weight alone.",
+                "points": [
+                  "Grip position changes the lever arm between hand and blade mass.",
+                  "Long-duration work magnifies small mismatches in reach and balance.",
+                  "A lighter knife can still fatigue the user if its mass distribution conflicts with the grip."
+                ],
+                "takeaway": "Evaluate fatigue over the real work cycle, not a short first impression."
+              },
+              "question": {
+                "id": "a-knife-types-fatigue-q",
+                "prompt": "A light knife still tires the user during long prep. What should you inspect?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Only total weight"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Only blade hardness"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Grip, reach and mass distribution"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only layer count"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Evaluate fatigue over the real work cycle, not a short first impression.",
+                "concept_id": "knife-types.fatigue-leverage.advanced",
+                "critical": false
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-knife-types-fatigue-r1",
+                  "prompt": "Why can a pinch grip reduce or increase fatigue?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It changes steel density"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It changes HRC"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It moves the actual center of mass"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It changes leverage around the hand"
+                    }
+                  ],
+                  "correct": "d",
+                  "explanation": "Evaluate fatigue over the real work cycle, not a short first impression.",
+                  "concept_id": "knife-types.fatigue-leverage.advanced",
+                  "critical": false
+                },
+                {
+                  "id": "a-knife-types-fatigue-r2",
+                  "prompt": "What kind of test best reveals ergonomic fatigue?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Repeated work that resembles real prep"
+                    },
+                    {
+                      "id": "b",
+                      "text": "A brief static hold only"
+                    },
+                    {
+                      "id": "c",
+                      "text": "A hardness test"
+                    },
+                    {
+                      "id": "d",
+                      "text": "A corrosion test"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Evaluate fatigue over the real work cycle, not a short first impression.",
+                  "concept_id": "knife-types.fatigue-leverage.advanced",
+                  "critical": false
+                }
+              ]
+            },
+            {
+              "id": "a-knife-types-tradeoff",
+              "concept_id": "knife-types.recommendation-tradeoff.advanced",
+              "title": "Defend a recommendation under conflicting priorities",
+              "critical": false,
+              "source_path": "05-knife-types/overview.md",
+              "content": {
+                "lead": "Advanced recommendation makes compromises visible when task fit, fatigue, maintenance and preference do not all point to the same knife.",
+                "points": [
+                  "Mechanical suitability for the task comes before aesthetic preference.",
+                  "Among suitable tools, ergonomic fit and maintenance habits can justify different choices.",
+                  "A defensible recommendation explains why the selected compromise fits this user."
+                ],
+                "takeaway": "Explain the trade-off instead of declaring a universal best knife."
+              },
+              "question": {
+                "id": "a-knife-types-tradeoff-q",
+                "prompt": "A comfortable knife is poorly suited to the user's main task. What should prevail?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Comfort alone"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Pattern preference"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Highest price"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Mechanical suitability for the task"
+                  }
+                ],
+                "correct": "d",
+                "explanation": "Explain the trade-off instead of declaring a universal best knife.",
+                "concept_id": "knife-types.recommendation-tradeoff.advanced",
+                "critical": false
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-knife-types-tradeoff-r1",
+                  "prompt": "Two knives fit the task; one needs more maintenance but feels better. What should decide?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The user's actual priorities and care habits"
+                    },
+                    {
+                      "id": "b",
+                      "text": "A universal ranking"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Layer count only"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Country of origin only"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Explain the trade-off instead of declaring a universal best knife.",
+                  "concept_id": "knife-types.recommendation-tradeoff.advanced",
+                  "critical": false
+                },
+                {
+                  "id": "a-knife-types-tradeoff-r2",
+                  "prompt": "What makes an advanced recommendation defensible?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "A prestige label"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Explicit reasoning tied to the user's work"
+                    },
+                    {
+                      "id": "c",
+                      "text": "One hardness number"
+                    },
+                    {
+                      "id": "d",
+                      "text": "A brand slogan"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Explain the trade-off instead of declaring a universal best knife.",
+                  "concept_id": "knife-types.recommendation-tradeoff.advanced",
+                  "critical": false
+                }
+              ]
             }
           ],
           "mini_test": {
@@ -7821,54 +8973,54 @@
               },
               {
                 "id": "a-knife-types-mini-2",
-                "prompt": "A cook likes a knife during a short trial but develops fatigue during long prep. What should be reassessed?",
+                "prompt": "Two knives have the same weight but feel different over time. What can explain it?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Real-work ergonomics over the full prep cycle"
+                    "text": "Different packaging"
                   },
                   {
                     "id": "b",
-                    "text": "Only the blade steel hardness"
+                    "text": "Different balance and leverage"
                   },
                   {
                     "id": "c",
-                    "text": "Only the knife's measured center of mass"
+                    "text": "Different logos"
                   },
                   {
                     "id": "d",
-                    "text": "Only whether the shape is traditional"
+                    "text": "Different certificates"
                   }
                 ],
-                "correct": "a",
-                "explanation": "Long-duration fit can reveal leverage and fatigue effects that a short first impression misses.",
-                "concept_id": "knife-types.integrated.advanced",
+                "correct": "b",
+                "explanation": "Evaluate fatigue over the real work cycle, not a short first impression.",
+                "concept_id": "knife-types.fatigue-leverage.advanced",
                 "critical": false
               },
               {
                 "id": "a-knife-types-mini-3",
-                "prompt": "Why can a user's natural grip reverse an initial impression of balance between two knives?",
+                "prompt": "When can two different recommendations both be reasonable?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "The physical center of mass changes permanently"
+                    "text": "When technical facts do not matter"
                   },
                   {
                     "id": "b",
-                    "text": "The blade steel changes density during use"
+                    "text": "When price is identical"
                   },
                   {
                     "id": "c",
-                    "text": "The handle becomes lighter when pinched"
+                    "text": "When users face different constraints and priorities"
                   },
                   {
                     "id": "d",
-                    "text": "Grip position changes perceived leverage"
+                    "text": "When blade lengths match"
                   }
                 ],
-                "correct": "d",
-                "explanation": "Perceived balance is relational: the same fixed mass distribution can feel different from different grips.",
-                "concept_id": "knife-types.integrated.advanced",
+                "correct": "c",
+                "explanation": "Explain the trade-off instead of declaring a universal best knife.",
+                "concept_id": "knife-types.recommendation-tradeoff.advanced",
                 "critical": false
               }
             ]
@@ -7973,6 +9125,198 @@
                   "explanation": "A recurring load created by technique or tool mismatch should be corrected before changing material specification."
                 }
               ]
+            },
+            {
+              "id": "a-technique-safety-lateral",
+              "concept_id": "technique-safety.lateral-load.advanced",
+              "title": "Trace lateral-load damage",
+              "critical": true,
+              "source_path": "08-use-and-safety/safe-use-and-carrying.md",
+              "content": {
+                "lead": "Damage that follows twisting or scraping should be traced to load direction before changing steel or sharpening specification.",
+                "points": [
+                  "Fine edges are strongest in the intended cutting direction, not under large lateral bending.",
+                  "Twisting a bound blade multiplies stress at the edge and transition regions.",
+                  "Side scraping can abrade or deform the apex even when slicing performance is excellent."
+                ],
+                "takeaway": "Remove the damaging load before redesigning the edge."
+              },
+              "question": {
+                "id": "a-technique-safety-lateral-q",
+                "prompt": "Microchips appear mainly after twisting cuts. What is the first corrective action?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Remove the lateral twisting load"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Increase hardness immediately"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Lower the edge angle"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Polish the blade face"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Remove the damaging load before redesigning the edge.",
+                "concept_id": "technique-safety.lateral-load.advanced",
+                "critical": true
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-technique-safety-lateral-r1",
+                  "prompt": "Why can side scraping harm a fine apex?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "It raises corrosion resistance"
+                    },
+                    {
+                      "id": "b",
+                      "text": "It applies lateral load and abrasion"
+                    },
+                    {
+                      "id": "c",
+                      "text": "It changes alloy chemistry"
+                    },
+                    {
+                      "id": "d",
+                      "text": "It lengthens the blade"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Remove the damaging load before redesigning the edge.",
+                  "concept_id": "technique-safety.lateral-load.advanced",
+                  "critical": true
+                },
+                {
+                  "id": "a-technique-safety-lateral-r2",
+                  "prompt": "A blade survives slicing but chips when twisted free. What clue is strongest?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The handle color"
+                    },
+                    {
+                      "id": "b",
+                      "text": "The pattern contrast"
+                    },
+                    {
+                      "id": "c",
+                      "text": "The direction of the applied load"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The box weight"
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Remove the damaging load before redesigning the edge.",
+                  "concept_id": "technique-safety.lateral-load.advanced",
+                  "critical": true
+                }
+              ]
+            },
+            {
+              "id": "a-technique-safety-tool",
+              "concept_id": "technique-safety.tool-choice.advanced",
+              "title": "Change technique or tool before material",
+              "critical": true,
+              "source_path": "06-cutting-techniques/essential-cutting-techniques.md",
+              "content": {
+                "lead": "A recurring resistance problem can come from a mismatch among tool geometry, movement and material being cut.",
+                "points": [
+                  "Changing entry angle or stabilizing the food can reduce force without changing the knife.",
+                  "A specialist tool may be safer when the task repeatedly exceeds the geometry of a fine kitchen edge.",
+                  "Material changes should follow, not precede, diagnosis of the load."
+                ],
+                "takeaway": "Correct the load-generating system before changing the material specification."
+              },
+              "question": {
+                "id": "a-technique-safety-tool-q",
+                "prompt": "The same ingredient repeatedly traps a thin slicer. What should you reassess first?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Only steel hardness"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Technique, angle and tool choice"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only handle density"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Only layer count"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Correct the load-generating system before changing the material specification.",
+                "concept_id": "technique-safety.tool-choice.advanced",
+                "critical": true
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-technique-safety-tool-r1",
+                  "prompt": "When is a tougher knife not the first answer to edge damage?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Whenever the blade is long"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Whenever HRC is known"
+                    },
+                    {
+                      "id": "c",
+                      "text": "When technique is creating avoidable lateral load"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Whenever the handle is wood"
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Correct the load-generating system before changing the material specification.",
+                  "concept_id": "technique-safety.tool-choice.advanced",
+                  "critical": true
+                },
+                {
+                  "id": "a-technique-safety-tool-r2",
+                  "prompt": "A task repeatedly needs levering force. What is the safest conclusion?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Make the fine edge thinner"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Twist harder"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Increase polishing grit"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Use a tool designed for that load"
+                    }
+                  ],
+                  "correct": "d",
+                  "explanation": "Correct the load-generating system before changing the material specification.",
+                  "concept_id": "technique-safety.tool-choice.advanced",
+                  "critical": true
+                }
+              ]
             }
           ],
           "mini_test": {
@@ -8008,54 +9352,54 @@
               },
               {
                 "id": "a-technique-safety-mini-2",
-                "prompt": "Microchips appear mainly after twisting cuts. What is the first corrective action?",
+                "prompt": "What should be changed before specifying tougher steel?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Remove the lateral twisting load"
+                    "text": "The product name"
                   },
                   {
                     "id": "b",
-                    "text": "Increase the sharpening angle before checking technique"
+                    "text": "The gift box"
                   },
                   {
                     "id": "c",
-                    "text": "Choose a harder steel first"
+                    "text": "The blade logo"
                   },
                   {
                     "id": "d",
-                    "text": "Use more downward force to finish the cut"
+                    "text": "The technique creating the lateral load"
                   }
                 ],
-                "correct": "a",
-                "explanation": "The damage correlates with lateral loading, so the first correction is to remove that load.",
-                "concept_id": "technique-safety.integrated.advanced",
+                "correct": "d",
+                "explanation": "Remove the damaging load before redesigning the edge.",
+                "concept_id": "technique-safety.lateral-load.advanced",
                 "critical": true
               },
               {
                 "id": "a-technique-safety-mini-3",
-                "prompt": "A fine edge is repeatedly used to scrape food sideways across the board. What failure mechanism becomes more likely?",
+                "prompt": "Why should material changes come after load diagnosis?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Loss of heat treatment through room-temperature friction"
+                    "text": "The wrong load can damage many suitable steels"
                   },
                   {
                     "id": "b",
-                    "text": "A change in steel composition"
+                    "text": "Materials never matter"
                   },
                   {
                     "id": "c",
-                    "text": "Automatic thickening behind the edge"
+                    "text": "Geometry never matters"
                   },
                   {
                     "id": "d",
-                    "text": "Lateral apex loading and abrasion"
+                    "text": "Technique determines HRC"
                   }
                 ],
-                "correct": "d",
-                "explanation": "Side scraping loads the fine apex in a direction it is not optimized to support.",
-                "concept_id": "technique-safety.integrated.advanced",
+                "correct": "a",
+                "explanation": "Correct the load-generating system before changing the material specification.",
+                "concept_id": "technique-safety.tool-choice.advanced",
                 "critical": true
               }
             ]
@@ -8160,6 +9504,198 @@
                   "explanation": "Handle movement can come from the interaction between material behavior, assembly and moisture cycles."
                 }
               ]
+            },
+            {
+              "id": "a-care-corrosion",
+              "concept_id": "care.corrosion-forensics.advanced",
+              "title": "Read corrosion patterns as evidence",
+              "critical": true,
+              "source_path": "09-maintenance/routine-care.md",
+              "content": {
+                "lead": "Where corrosion appears can reveal the exposure mechanism more clearly than the alloy name alone.",
+                "points": [
+                  "Localized spots under a guard suggest trapped moisture or residue.",
+                  "Uniform reaction after acidic food suggests delayed cleaning or insufficient corrosion resistance for the routine.",
+                  "Comparing users with the same steel can isolate environmental and care differences."
+                ],
+                "takeaway": "Use corrosion location and timing to reconstruct the exposure history."
+              },
+              "question": {
+                "id": "a-care-corrosion-q",
+                "prompt": "Rust appears only where a blade guard touches the steel. What is the leading cause?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Edge angle"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Tang length"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Trapped moisture or residue"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Handle balance"
+                  }
+                ],
+                "correct": "c",
+                "explanation": "Use corrosion location and timing to reconstruct the exposure history.",
+                "concept_id": "care.corrosion-forensics.advanced",
+                "critical": true
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-care-corrosion-r1",
+                  "prompt": "Two users own the same steel; only one gets rust spots. What should you compare?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Only blade length"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Only layer count"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only handle weight"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Exposure, cleaning, drying and storage"
+                    }
+                  ],
+                  "correct": "d",
+                  "explanation": "Use corrosion location and timing to reconstruct the exposure history.",
+                  "concept_id": "care.corrosion-forensics.advanced",
+                  "critical": true
+                },
+                {
+                  "id": "a-care-corrosion-r2",
+                  "prompt": "Uniform staining follows repeated acidic-food prep with delayed cleaning. What does that suggest?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The care routine is too slow for the exposure"
+                    },
+                    {
+                      "id": "b",
+                      "text": "The tang is too short"
+                    },
+                    {
+                      "id": "c",
+                      "text": "The blade is too balanced"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The sharpening stone is too flat"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Use corrosion location and timing to reconstruct the exposure history.",
+                  "concept_id": "care.corrosion-forensics.advanced",
+                  "critical": true
+                }
+              ]
+            },
+            {
+              "id": "a-care-cycles",
+              "concept_id": "care.environment-cycle.advanced",
+              "title": "Diagnose moisture and surface cycles",
+              "critical": true,
+              "source_path": "09-maintenance/cutting-boards.md",
+              "content": {
+                "lead": "Repeated environmental cycles can explain problems that appear to be random material failures.",
+                "points": [
+                  "Wet-dry cycling can move natural handle materials and stress joints.",
+                  "Repeated hard-board contact can accelerate dulling without any steel defect.",
+                  "Storage in closed damp spaces can create corrosion that is absent during open-air use."
+                ],
+                "takeaway": "Look for repeated environmental cycles before blaming inconsistent material quality."
+              },
+              "question": {
+                "id": "a-care-cycles-q",
+                "prompt": "A handle loosens seasonally with humidity changes. What should you investigate?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Edge angle"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Carbide volume"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Blade polish"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Material movement and assembly"
+                  }
+                ],
+                "correct": "d",
+                "explanation": "Look for repeated environmental cycles before blaming inconsistent material quality.",
+                "concept_id": "care.environment-cycle.advanced",
+                "critical": true
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-care-cycles-r1",
+                  "prompt": "A knife dulls rapidly only on one hard-board station. What is the likely factor?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Repeated surface contact"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Different heat treatment each day"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Changing steel composition"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Changing tang length"
+                    }
+                  ],
+                  "correct": "a",
+                  "explanation": "Look for repeated environmental cycles before blaming inconsistent material quality.",
+                  "concept_id": "care.environment-cycle.advanced",
+                  "critical": true
+                },
+                {
+                  "id": "a-care-cycles-r2",
+                  "prompt": "Corrosion appears only after closed-sheath storage. What should be tested?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Blade balance"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Moisture retention in storage"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Food release"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Handle density"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Look for repeated environmental cycles before blaming inconsistent material quality.",
+                  "concept_id": "care.environment-cycle.advanced",
+                  "critical": true
+                }
+              ]
             }
           ],
           "mini_test": {
@@ -8195,54 +9731,54 @@
               },
               {
                 "id": "a-care-mini-2",
-                "prompt": "An edge dulls unusually fast only on one workstation. What should be inspected first?",
+                "prompt": "Why is corrosion pattern useful diagnostically?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "The nominal steel grade alone"
+                    "text": "It gives exact HRC"
                   },
                   {
                     "id": "b",
-                    "text": "The knife's handle material alone"
+                    "text": "Its location can identify local exposure conditions"
                   },
                   {
                     "id": "c",
-                    "text": "Board surface and contact habits"
+                    "text": "It proves carbide size"
                   },
                   {
                     "id": "d",
-                    "text": "The storage method used elsewhere"
+                    "text": "It measures toughness"
                   }
                 ],
-                "correct": "c",
-                "explanation": "A problem isolated to one workstation points first to local contact conditions.",
-                "concept_id": "care.integrated.advanced",
+                "correct": "b",
+                "explanation": "Use corrosion location and timing to reconstruct the exposure history.",
+                "concept_id": "care.corrosion-forensics.advanced",
                 "critical": true
               },
               {
                 "id": "a-care-mini-3",
-                "prompt": "Localized corrosion appears where a blade contacts a sheath or guard. What is the leading hypothesis?",
+                "prompt": "Why are repeated cycles more informative than one isolated event?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "The edge angle is too acute"
+                    "text": "They determine exact alloy chemistry"
                   },
                   {
                     "id": "b",
-                    "text": "Trapped moisture or residue"
+                    "text": "They replace all testing"
                   },
                   {
                     "id": "c",
-                    "text": "The balance point is too far forward"
+                    "text": "They reveal a reproducible exposure mechanism"
                   },
                   {
                     "id": "d",
-                    "text": "The steel has become softer"
+                    "text": "They prove manufacturing route"
                   }
                 ],
-                "correct": "b",
-                "explanation": "The location of the corrosion is evidence about the local exposure condition.",
-                "concept_id": "care.integrated.advanced",
+                "correct": "c",
+                "explanation": "Look for repeated environmental cycles before blaming inconsistent material quality.",
+                "concept_id": "care.environment-cycle.advanced",
                 "critical": true
               }
             ]
@@ -8348,6 +9884,198 @@
                   "explanation": "Advanced sharpening starts by identifying which part of the geometry is actually causing the problem."
                 }
               ]
+            },
+            {
+              "id": "a-sharpening-wire",
+              "concept_id": "sharpening.wire-edge.advanced",
+              "title": "Identify wire-edge failure",
+              "critical": true,
+              "source_path": "10-sharpening/the-burr.md",
+              "content": {
+                "lead": "An edge can pass an immediate sharpness test while still carrying a weak residual burr that fails quickly in use.",
+                "points": [
+                  "A wire edge is thin unsupported metal left attached near the apex.",
+                  "It can cut impressively at first, then fold or detach after a few cuts.",
+                  "Deburring should be verified with stable cutting behavior, not only initial sharpness."
+                ],
+                "takeaway": "Separate true apex refinement from temporary sharpness created by a residual burr."
+              },
+              "question": {
+                "id": "a-sharpening-wire-q",
+                "prompt": "An edge cuts paper brilliantly, then loses bite after a few cuts. What should you suspect?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Residual wire edge"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Behind-edge thickness only"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Handle instability"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Corrosion resistance"
+                  }
+                ],
+                "correct": "a",
+                "explanation": "Separate true apex refinement from temporary sharpness created by a residual burr.",
+                "concept_id": "sharpening.wire-edge.advanced",
+                "critical": true
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-sharpening-wire-r1",
+                  "prompt": "What is a wire edge?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "A thicker primary bevel"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Weak residual metal attached near the apex"
+                    },
+                    {
+                      "id": "c",
+                      "text": "A handle construction"
+                    },
+                    {
+                      "id": "d",
+                      "text": "A Damascus layer"
+                    }
+                  ],
+                  "correct": "b",
+                  "explanation": "Separate true apex refinement from temporary sharpness created by a residual burr.",
+                  "concept_id": "sharpening.wire-edge.advanced",
+                  "critical": true
+                },
+                {
+                  "id": "a-sharpening-wire-r2",
+                  "prompt": "Why can immediate sharpness be misleading?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Sharpness always predicts retention"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Paper tests measure toughness"
+                    },
+                    {
+                      "id": "c",
+                      "text": "A residual burr can cut briefly before failing"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Polish guarantees deburring"
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Separate true apex refinement from temporary sharpness created by a residual burr.",
+                  "concept_id": "sharpening.wire-edge.advanced",
+                  "critical": true
+                }
+              ]
+            },
+            {
+              "id": "a-sharpening-intervention",
+              "concept_id": "sharpening.intervention.advanced",
+              "title": "Choose the minimum corrective intervention",
+              "critical": true,
+              "source_path": "10-sharpening/basic-sharpening-process.md",
+              "content": {
+                "lead": "Advanced sharpening solves the diagnosed defect while removing no more steel than necessary.",
+                "points": [
+                  "Dullness, rolling, chipping, thickening and wire-edge failure require different interventions.",
+                  "Reprofiling and thinning are geometry changes, not simply more sharpening.",
+                  "Evidence should determine when corrective steel removal stops."
+                ],
+                "takeaway": "Diagnose first, choose the smallest effective intervention, then verify the result."
+              },
+              "question": {
+                "id": "a-sharpening-intervention-q",
+                "prompt": "The edge is rolled but not chipped or thickened. What is the first goal?",
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "Thin the whole blade"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Restore the apex without unnecessary thinning"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Remove the handle"
+                  },
+                  {
+                    "id": "d",
+                    "text": "Increase layer count"
+                  }
+                ],
+                "correct": "b",
+                "explanation": "Diagnose first, choose the smallest effective intervention, then verify the result.",
+                "concept_id": "sharpening.intervention.advanced",
+                "critical": true
+              },
+              "recovery_questions": [
+                {
+                  "id": "a-sharpening-intervention-r1",
+                  "prompt": "The apex is sharp but penetration is poor after years of sharpening. What fits best?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Create a larger burr"
+                    },
+                    {
+                      "id": "b",
+                      "text": "Use only a finer stone"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Evaluate behind-edge thickness"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Increase handle mass"
+                    }
+                  ],
+                  "correct": "c",
+                  "explanation": "Diagnose first, choose the smallest effective intervention, then verify the result.",
+                  "concept_id": "sharpening.intervention.advanced",
+                  "critical": true
+                },
+                {
+                  "id": "a-sharpening-intervention-r2",
+                  "prompt": "Why are reprofiling and thinning different operations?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "They use different brands only"
+                    },
+                    {
+                      "id": "b",
+                      "text": "They always use different steels"
+                    },
+                    {
+                      "id": "c",
+                      "text": "They change handle construction"
+                    },
+                    {
+                      "id": "d",
+                      "text": "They change different regions of the geometry"
+                    }
+                  ],
+                  "correct": "d",
+                  "explanation": "Diagnose first, choose the smallest effective intervention, then verify the result.",
+                  "concept_id": "sharpening.intervention.advanced",
+                  "critical": true
+                }
+              ]
             }
           ],
           "mini_test": {
@@ -8383,54 +10111,54 @@
               },
               {
                 "id": "a-sharpening-mini-2",
-                "prompt": "The apex is sharp, but a knife wedges badly after years of sharpening. What intervention may be needed?",
+                "prompt": "What best confirms successful deburring?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "A larger burr at the same geometry"
+                    "text": "The largest possible burr"
                   },
                   {
                     "id": "b",
-                    "text": "A finer finishing stone only"
+                    "text": "The brightest polish"
                   },
                   {
                     "id": "c",
-                    "text": "Controlled thinning behind the edge"
+                    "text": "A fixed pass count"
                   },
                   {
                     "id": "d",
-                    "text": "A more polished apex without changing the section"
+                    "text": "Stable cutting after the loose burr is removed"
                   }
                 ],
-                "correct": "c",
-                "explanation": "Apex sharpness and behind-edge geometry are different problems and require different interventions.",
-                "concept_id": "sharpening.integrated.advanced",
+                "correct": "d",
+                "explanation": "Separate true apex refinement from temporary sharpness created by a residual burr.",
+                "concept_id": "sharpening.wire-edge.advanced",
                 "critical": true
               },
               {
                 "id": "a-sharpening-mini-3",
-                "prompt": "An edge cuts paper immediately after sharpening but loses bite after a few cuts. What should be suspected?",
+                "prompt": "When should corrective steel removal stop?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Behind-edge thickness alone"
+                    "text": "When evidence shows the diagnosed defect is corrected"
                   },
                   {
                     "id": "b",
-                    "text": "A residual wire edge or poor deburring"
+                    "text": "After a fixed number of strokes"
                   },
                   {
                     "id": "c",
-                    "text": "Insufficient handle stabilization"
+                    "text": "When the burr is largest"
                   },
                   {
                     "id": "d",
-                    "text": "Too much corrosion resistance"
+                    "text": "When the bevel is mirror polished"
                   }
                 ],
-                "correct": "b",
-                "explanation": "A wire edge can feel very sharp briefly, then fold or break away because the apex was not properly deburred.",
-                "concept_id": "sharpening.integrated.advanced",
+                "correct": "a",
+                "explanation": "Diagnose first, choose the smallest effective intervention, then verify the result.",
+                "concept_id": "sharpening.intervention.advanced",
                 "critical": true
               }
             ]
