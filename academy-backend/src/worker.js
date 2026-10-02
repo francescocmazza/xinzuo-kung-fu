@@ -1317,24 +1317,6 @@ async function startBaseCertification(request, env) {
     const locale = body.locale === "it" ? "it" : "en";
     const progress = await env.DB.prepare("SELECT * FROM learner_progress WHERE user_id=?").bind(auth.user.id).first();
 
-    const latestFailed = await env.DB.prepare(
-      "SELECT * FROM certification_attempts WHERE user_id=? AND course_id='xinzuo-academy-base' AND completed_at IS NOT NULL AND passed=0 ORDER BY completed_at DESC LIMIT 1"
-    ).bind(auth.user.id).first();
-    if (latestFailed) {
-      let evidence = {};
-      try { evidence = JSON.parse(latestFailed.evidence_json || "{}"); } catch {}
-      const baseline = Number(evidence.interactionBaseline || 0);
-      const remediationRequired = Math.max(3,Number(evidence.remediationInteractionsRequired || 3));
-      if (Number(progress?.interactions || 0) < baseline + remediationRequired ||
-          Number(progress?.updated_at || 0) <= Number(latestFailed.completed_at || 0)) {
-        throw new HttpError(
-          409,
-          "remediation_required",
-          `Review the course and complete at least ${remediationRequired} additional learning interactions before retrying.`
-        );
-      }
-    }
-
     const active = await env.DB.prepare(
       "SELECT * FROM certification_attempts WHERE user_id=? AND course_id='xinzuo-academy-base' AND completed_at IS NULL ORDER BY started_at DESC LIMIT 1"
     ).bind(auth.user.id).first();
@@ -1490,8 +1472,8 @@ async function submitBaseCertification(request, env) {
       total:questions.length,
       criticalErrors,
       failedConcepts,
-      remediationRequired:!passed,
-      remediationInteractionsRequired:passed ? 0 : 3,
+      remediationRequired:false,
+      remediationInteractionsRequired:0,
       certificate
     });
   });
