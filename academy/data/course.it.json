@@ -6715,7 +6715,7 @@
     "source_locale": "en",
     "engine": "chatgpt-differential-v1",
     "prompt_revision": "2026-10-02-academy-question-quality-v3",
-    "source_blob_sha": "154f029cb69fbd37561d04b1a41fdd82b3f9391e",
+    "source_blob_sha": "7f74968d2cbe5969e060f7653119a3226e42a353",
     "reviewed_at": "2026-10-02",
     "guidance": "localization/locales.yml#it",
     "note": "Italian Academy v0.2 reviewed with the current ChatGPT translation workflow; Intermediate and Advanced assessment items received a second pedagogical review for plausible distractors and scenario diversity.",
