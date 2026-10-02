@@ -143,7 +143,11 @@ def validate_course(course: dict[str, Any], locale: str) -> None:
             require(mini_id and mini_id not in seen["mini"], f"{locale}: duplicate/missing mini-test id {mini_id!r}")
             seen["mini"].add(mini_id)
             require(mini.get("informational") is True, f"{locale}:{mini_id}: mini-test must remain informational")
-            require(len(mini.get("questions", [])) >= len(lessons), f"{locale}:{mini_id}: mini-test should cover the module concepts")
+            require(len(mini.get("questions", [])) == len(lessons), f"{locale}:{mini_id}: mini-test must contain one question per lesson concept")
+            lesson_concepts = {lesson["concept_id"] for lesson in lessons}
+            mini_concepts = [question.get("concept_id") for question in mini.get("questions", [])]
+            require(set(mini_concepts) == lesson_concepts, f"{locale}:{mini_id}: mini-test concept coverage must match module lessons")
+            require(len(mini_concepts) == len(set(mini_concepts)), f"{locale}:{mini_id}: each lesson concept must appear exactly once in mini-test")
             for question in mini.get("questions", []):
                 validate_question(question, f"{locale}:{mini_id}")
                 all_questions.append(question)
@@ -154,7 +158,7 @@ def validate_course(course: dict[str, Any], locale: str) -> None:
 
     require(active_modules_by_level == {"base": 9, "intermediate": 9, "advanced": 9},
             f"{locale}: expected 9 active modules at every level, got {active_modules_by_level}")
-    require(lessons_by_level == {"base": 27, "intermediate": 9, "advanced": 9},
+    require(lessons_by_level == {"base": 27, "intermediate": 27, "advanced": 27},
             f"{locale}: unexpected lesson depth structure {lessons_by_level}")
 
     # Higher-level assessments must test reasoning with genuinely different scenarios,

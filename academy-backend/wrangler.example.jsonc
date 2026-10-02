@@ -12,7 +12,7 @@
     }
   ],
   "vars": {
-    "ACTIVE_LESSON_TOTAL": "27",
+    "ACTIVE_LESSON_TOTAL": "81",
     "ALLOWED_ORIGINS": "https://francescocmazza.github.io",
     "PUBLIC_REGISTRATION_ENABLED": "false",
     "VERIFICATION_EMAIL_FROM": ""

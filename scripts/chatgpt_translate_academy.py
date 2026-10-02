@@ -22,7 +22,7 @@ IT_PATH = ROOT / "academy" / "data" / "course.it.json"
 LOCALES_PATH = ROOT / "localization" / "locales.yml"
 
 ENGINE = "chatgpt-differential-v1"
-PROMPT_REVISION = "2026-10-02-academy-question-quality-v3"
+PROMPT_REVISION = "2026-10-02-academy-full-depth-v4"
 
 NON_TRANSLATABLE_KEYS = {
     "id", "concept_id", "source_path", "source_paths", "correct", "status",

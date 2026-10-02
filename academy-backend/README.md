@@ -82,7 +82,7 @@ Public verification is available through:
 
 The public certificate page exposes only certificate information needed for verification and never publishes the learner's email, phone, password, detailed progress or marketing preferences.
 
-Manual admin issuance is available as a temporary operational seam. The intended production path is to connect issuance to a server-side final certification assessment rather than to the formative browser mini-tests.
+Base, Intermediate and Advanced each use a server-side 27-question final assessment with automatic certificate issuance after a passing result. Manual admin issuance remains available only for documented administrative exceptions.
 
 ## Legal configuration before public launch
 

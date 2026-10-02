@@ -104,8 +104,10 @@ jobs:
           set -euo pipefail
           grep -q '/api/auth/register/start' academy-backend/src/worker.js
           grep -q '/api/auth/register/verify' academy-backend/src/worker.js
-          grep -q '/api/certification/base/start' academy-backend/src/worker.js
-          grep -q '/api/certification/base/submit' academy-backend/src/worker.js
+          grep -q 'certificationRoute' academy-backend/src/worker.js
+          grep -q 'base|intermediate|advanced' academy-backend/src/worker.js
+          grep -q 'startCertification' academy-backend/src/worker.js
+          grep -q 'submitCertification' academy-backend/src/worker.js
           grep -q 'certificates.*verify' academy-backend/src/worker.js
           grep -q 'marketingEmailConsent' academy/index.html
           grep -q 'name="email".*required' academy/index.html

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "engine": "chatgpt-differential-v1",
-  "prompt_revision": "2026-10-02-academy-question-quality-v3",
+  "prompt_revision": "2026-10-02-academy-full-depth-v4",
   "source_locale": "en",
   "target_locale": "it",
   "translation_guidance": "Write polished native Italian editorial prose, not translated-sounding Italian. Prefer terminology actually used in Italian professional cooking, cutlery, sharpening and metallurgy. Avoid English syntactic calques, unnecessary anglicisms and literal renderings when an established Italian expression exists.",

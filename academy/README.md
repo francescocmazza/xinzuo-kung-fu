@@ -4,7 +4,7 @@ Xinzuo Academy is the interactive learning layer built on **The Gongfu of Xinzuo
 
 The English book remains the technical source of truth. Academy content simplifies, sequences and tests that knowledge; technical changes must originate in the book first.
 
-## Curriculum v0.2
+## Curriculum v0.3
 
 The Academy uses the same nine knowledge domains at every level so that **Base, Intermediate and Advanced differ mainly by depth of competence, not by topic**:
 
@@ -20,9 +20,11 @@ The Academy uses the same nine knowledge domains at every level so that **Base, 
 
 The levels deliberately ask for different kinds of thinking:
 
-- **Base** — recognize terminology, understand essential mechanisms and make safe everyday choices. It contains 27 lessons: three in every domain.
+- **Base** — recognize terminology, understand essential mechanisms and make safe everyday choices.
 - **Intermediate** — apply the same knowledge to realistic trade-offs, cause-and-effect relationships and user needs.
 - **Advanced** — diagnose conflicting evidence, connect multiple variables and justify a technically defensible decision.
+
+Each level contains **27 lessons: three in every domain**, plus one informational mini-test per domain. Topic coverage therefore stays parallel while the required reasoning depth increases.
 
 All three levels are active in both English and Italian.
 
@@ -51,16 +53,18 @@ The Academy translation validator rejects stale Italian content, missing current
 
 The current workflow is `scripts/chatgpt_translate_academy.py` and is integrated into the existing **Prepare ChatGPT translation queue** Action.
 
-## Final Base assessment
+## Final assessments
 
-The Base final assessment:
+Base, Intermediate and Advanced each have a separate final assessment and certificate.
+
+Every final assessment:
 
 - can be attempted **at any time**, even before lessons or mini-tests are complete;
 - can be retried without a mandatory module-completion gate;
-- covers all 27 Base concepts across all nine domains;
+- covers all 27 concepts of its level across all nine domains;
 - requires **80% overall** and **zero critical-knowledge errors** to pass;
-- keeps correct answers server-side;
-- issues the Base certificate automatically after a pass.
+- keeps correct answers server-side and shuffles delivered options;
+- issues the corresponding level certificate automatically after a pass.
 
 Course completion is recommended preparation, not an access prerequisite.
 

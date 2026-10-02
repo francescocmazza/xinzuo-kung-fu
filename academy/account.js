@@ -19,6 +19,13 @@
   let publicRegistrationOpen = false;
   let certificationAttempt = null;
   let certificationTimerHandle = null;
+  let certificationLevel = "base";
+
+  const CERTIFICATION_LEVELS = Object.freeze({
+    base: { en: "Base", it: "Base" },
+    intermediate: { en: "Intermediate", it: "Intermedio" },
+    advanced: { en: "Advanced", it: "Avanzato" }
+  });
 
   const el = {
     authGate: document.getElementById("authGate"),
@@ -438,13 +445,32 @@
     return window.XinzuoAcademy?.getLocale?.() === "en" ? "en" : "it";
   }
 
+  function certificationLevelLabel(level = certificationLevel) {
+    const locale = certificationLocale();
+    return CERTIFICATION_LEVELS[level]?.[locale] || CERTIFICATION_LEVELS.base[locale];
+  }
+
+  function certificationPath(action, level = certificationLevel) {
+    return "/api/certification/" + level + "/" + action;
+  }
+
+  function updateCertificationLevelButtons() {
+    document.querySelectorAll("[data-certification-level]").forEach(button => {
+      const level = button.dataset.certificationLevel;
+      const active = level === certificationLevel;
+      button.className = active ? "button" : "button button--quiet";
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+      button.textContent = CERTIFICATION_LEVELS[level]?.[certificationLocale()] || button.textContent;
+    });
+  }
+
   function applyCertificationPanelCopy() {
     const en = certificationLocale() === "en";
     const eyebrow = document.getElementById("certificationEyebrow");
     const title = document.getElementById("certificationTitle");
     const reqTitle = document.getElementById("certificationRequirementsTitle");
     const reqText = document.getElementById("certificationRequirementsText");
-    if (eyebrow) eyebrow.textContent = "Xinzuo Academy · Base";
+    if (eyebrow) eyebrow.textContent = "Xinzuo Academy · " + certificationLevelLabel();
     if (title) title.textContent = en ? "Final certification" : "Certificazione finale";
     if (reqTitle) reqTitle.textContent = en ? "Final test" : "Test finale";
     if (reqText) reqText.textContent = en
@@ -454,14 +480,16 @@
       el.startCertification.textContent = en ? "Start final test" : "Prova il test finale";
     }
     if (el.certificationBack) el.certificationBack.textContent = "← Academy";
+    updateCertificationLevelButtons();
   }
 
   async function loadCertificationStatus() {
     if (!currentUser || !apiAvailable() || !el.certificationPanel) return;
     applyCertificationPanelCopy();
     try {
-      const result = await api("/api/certification/base/status",{method:"GET"});
+      const result = await api(certificationPath("status"),{method:"GET"});
       const en = certificationLocale() === "en";
+      const levelLabel = certificationLevelLabel();
       const valid = (result.certificates || []).find(cert=>cert.status === "valid");
       if (valid) {
         el.certificationStatusSummary.innerHTML = `
@@ -475,8 +503,8 @@
       const p = result.progress || {};
       if (result.preparationComplete) {
         el.certificationStatusSummary.textContent = en
-          ? "Base path completed. You can take the final test."
-          : "Percorso Base completato. Puoi sostenere il test finale.";
+          ? levelLabel + " path completed. You can take the final test."
+          : "Percorso " + levelLabel + " completato. Puoi sostenere il test finale.";
       } else {
         el.certificationStatusSummary.textContent = en
           ? `Final test available now · preparation: ${p.lessonsCompleted || 0}/27 lessons · ${p.modulesCompleted || 0}/9 modules · ${p.miniTestsCompleted || 0}/9 mini-tests.`
@@ -515,12 +543,13 @@
     startCertificationTimer(result.expiresAt);
     const questions = result.questions || [];
     const en = certificationLocale() === "en";
+    const levelLabel = result.courseLevel || certificationLevelLabel(result.level);
     el.certificationSurface.innerHTML = `
       <div class="lesson-kicker">
         <span>${en ? "Final assessment" : "Test finale"} · ${escapeHtml(result.assessmentVersion)}</span>
         <span class="critical-flag">${en ? "80% + 0 critical errors" : "80% + 0 errori critici"}</span>
       </div>
-      <h2>${en ? "Xinzuo Academy · Base certification" : "Certificazione Xinzuo Academy · Base"}</h2>
+      <h2>${escapeHtml(en ? "Xinzuo Academy · " + levelLabel + " certification" : "Certificazione Xinzuo Academy · " + levelLabel)}</h2>
       <p class="lead">${en ? "Answer every question. The backend calculates the result when you submit the test." : "Rispondi a tutte le domande. Il risultato viene calcolato dal backend al momento dell'invio."}</p>
       <form id="certificationForm" class="question-form">
         <div class="mini-grid">
@@ -550,7 +579,7 @@
     el.startCertification.disabled = true;
     el.certificationStatusSummary.textContent = certificationLocale() === "en" ? "Preparing test…" : "Preparazione test…";
     try {
-      const result = await api("/api/certification/base/start",{
+      const result = await api(certificationPath("start"),{
         method:"POST",
         body:JSON.stringify({locale:window.XinzuoAcademy?.getLocale?.() || "it"})
       });
@@ -577,7 +606,7 @@
     setBusy(form,true);
     document.getElementById("certificationMessage").textContent = certificationLocale() === "en" ? "Evaluating…" : "Valutazione in corso…";
     try {
-      const result = await api("/api/certification/base/submit",{
+      const result = await api(certificationPath("submit", certificationAttempt.level || certificationLevel),{
         method:"POST",
         body:JSON.stringify({
           attemptId:certificationAttempt.attemptId,
@@ -588,13 +617,14 @@
       stopCertificationTimer();
       const percentage = Math.round(Number(result.score || 0)*100);
       const en = certificationLocale() === "en";
+      const resultLevel = result.courseLevel || certificationLevelLabel(certificationAttempt.level);
       if (result.passed && result.certificate) {
         el.certificationSurface.innerHTML = `
           <div class="certificate-result certificate-result--pass">
             <p class="eyebrow">${en ? "Test passed" : "Esame superato"}</p>
             <h2>${en ? "Congratulations" : "Congratulazioni"}</h2>
             <p class="lead">${en ? "Score" : "Punteggio"}: <strong>${percentage}%</strong> · ${en ? "critical errors" : "errori critici"}: <strong>${result.criticalErrors}</strong>.</p>
-            <p>${en ? "Your Xinzuo Academy Base certificate has been issued and registered." : "Il tuo certificato Xinzuo Academy Base è stato emesso e registrato."}</p>
+            <p>${en ? "Your Xinzuo Academy " + escapeHtml(resultLevel) + " certificate has been issued and registered." : "Il tuo certificato Xinzuo Academy " + escapeHtml(resultLevel) + " è stato emesso e registrato."}</p>
             <a class="button" href="${escapeHtml(certificateUrl(result.certificate.verificationCode))}" target="_blank" rel="noopener">${en ? "Open certificate" : "Apri certificato"} ${escapeHtml(result.certificate.verificationCode)}</a>
           </div>
         `;
@@ -608,7 +638,7 @@
             <p>${en
               ? "Review the indicated concepts before trying again. The final test remains available without mandatory module completion."
               : "Rivedi i concetti indicati prima di riprovare. Il test finale resta disponibile senza obbligo di completare i moduli."}</p>
-            <p class="password-hint">${en ? "Areas to review" : "Aree da consolidare"}: ${(result.failedConcepts || []).map(escapeHtml).join(", ") || (en ? "review the Base path" : "riesamina il percorso Base")}.</p>
+            <p class="password-hint">${en ? "Areas to review" : "Aree da consolidare"}: ${(result.failedConcepts || []).map(escapeHtml).join(", ") || (en ? "review the " + certificationLevelLabel(certificationAttempt.level) + " path" : "riesamina il percorso " + certificationLevelLabel(certificationAttempt.level))}.</p>
             <button id="certificationReturn" class="button" type="button">${en ? "Return to training" : "Torna alla formazione"}</button>
           </div>
         `;
@@ -826,7 +856,7 @@
   }
 
   async function issueManualCertificate(userId) {
-    if (!confirm("Emettere manualmente un certificato Base? Questa funzione è provvisoria finché l'assessment finale automatico non viene collegato.")) return;
+    if (!confirm("Emettere manualmente un certificato Base? Usa questa funzione solo per una correzione o eccezione amministrativa documentata.")) return;
     const result = await api("/api/admin/certificates/issue",{
       method:"POST",
       body:JSON.stringify({
@@ -836,7 +866,7 @@
         courseVersion:window.XinzuoAcademy?.getCourseVersion?.() || "0.1.0",
         assessmentVersion:"manual-admin-v1",
         publicNote:"Manual issuance by Xinzuo Academy administrator.",
-        basis:"Manual administrator issuance pending automated final assessment integration."
+        basis:"Manual administrator issuance for a documented administrative exception."
       })
     });
     window.open(certificateUrl(result.certificate.verificationCode),"_blank","noopener");
@@ -1103,7 +1133,18 @@
     if (currentUser) loadCertificationStatus();
   });
 
-    el.startCertification.addEventListener("click",startCertificationAssessment);
+  document.querySelectorAll("[data-certification-level]").forEach(button => {
+    button.addEventListener("click", () => {
+      if (certificationAttempt) return;
+      const level = button.dataset.certificationLevel;
+      if (!CERTIFICATION_LEVELS[level]) return;
+      certificationLevel = level;
+      applyCertificationPanelCopy();
+      if (currentUser) loadCertificationStatus();
+    });
+  });
+
+  el.startCertification.addEventListener("click",startCertificationAssessment);
   el.certificationBack.addEventListener("click",closeCertificationView);
 
   el.managerButton.addEventListener("click", openManager);
