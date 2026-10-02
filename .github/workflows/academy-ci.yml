@@ -6,6 +6,7 @@ on:
       - "academy/**"
       - "academy-backend/**"
       - "scripts/validate_academy.py"
+      - "scripts/chatgpt_translate_academy.py"
       - ".github/workflows/academy-ci.yml"
       - ".github/workflows/academy-pages.yml"
       - ".github/workflows/academy-backend-deploy.yml"
@@ -38,6 +39,9 @@ jobs:
 
       - name: Validate curriculum and question bank
         run: python scripts/validate_academy.py
+
+      - name: Validate current ChatGPT Academy translation
+        run: python scripts/chatgpt_translate_academy.py --check-only
 
       - name: Check Academy JavaScript syntax
         run: |
