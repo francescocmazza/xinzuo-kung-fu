@@ -514,18 +514,19 @@
     openCertificationView();
     startCertificationTimer(result.expiresAt);
     const questions = result.questions || [];
+    const en = certificationLocale() === "en";
     el.certificationSurface.innerHTML = `
       <div class="lesson-kicker">
-        <span>Assessment finale · ${escapeHtml(result.assessmentVersion)}</span>
-        <span class="critical-flag">80% + 0 errori critici</span>
+        <span>${en ? "Final assessment" : "Test finale"} · ${escapeHtml(result.assessmentVersion)}</span>
+        <span class="critical-flag">${en ? "80% + 0 critical errors" : "80% + 0 errori critici"}</span>
       </div>
-      <h2>Certificazione Xinzuo Academy · Base</h2>
-      <p class="lead">Rispondi a tutte le domande. Il risultato viene calcolato dal backend al momento dell'invio.</p>
+      <h2>${en ? "Xinzuo Academy · Base certification" : "Certificazione Xinzuo Academy · Base"}</h2>
+      <p class="lead">${en ? "Answer every question. The backend calculates the result when you submit the test." : "Rispondi a tutte le domande. Il risultato viene calcolato dal backend al momento dell'invio."}</p>
       <form id="certificationForm" class="question-form">
         <div class="mini-grid">
           ${questions.map((question,index)=>`
             <fieldset class="mini-question">
-              <legend>${index+1}. ${escapeHtml(question.prompt)} ${question.critical ? '<span class="critical-inline">critica</span>' : ""}</legend>
+              <legend>${index+1}. ${escapeHtml(question.prompt)} ${question.critical ? `<span class="critical-inline">${en ? "critical" : "critica"}</span>` : ""}</legend>
               ${question.options.map(option=>`
                 <label class="option">
                   <input type="radio" name="${escapeHtml(question.id)}" value="${escapeHtml(option.id)}">
@@ -537,7 +538,7 @@
         </div>
         <p id="certificationMessage" class="form-status" role="alert"></p>
         <div class="learning-actions">
-          <button class="button" type="submit">Invia esame finale</button>
+          <button class="button" type="submit">${en ? "Submit final test" : "Invia test finale"}</button>
         </div>
       </form>
     `;
@@ -568,13 +569,13 @@
     for (const question of certificationAttempt.questions || []) {
       const selected = form.querySelector(`input[name="${CSS.escape(question.id)}"]:checked`);
       if (!selected) {
-        document.getElementById("certificationMessage").textContent = "Rispondi a tutte le domande prima di inviare l'esame.";
+        document.getElementById("certificationMessage").textContent = certificationLocale() === "en" ? "Answer every question before submitting the test." : "Rispondi a tutte le domande prima di inviare il test.";
         return;
       }
       answers[question.id] = selected.value;
     }
     setBusy(form,true);
-    document.getElementById("certificationMessage").textContent = "Valutazione in corso…";
+    document.getElementById("certificationMessage").textContent = certificationLocale() === "en" ? "Evaluating…" : "Valutazione in corso…";
     try {
       const result = await api("/api/certification/base/submit",{
         method:"POST",
@@ -586,26 +587,29 @@
       });
       stopCertificationTimer();
       const percentage = Math.round(Number(result.score || 0)*100);
+      const en = certificationLocale() === "en";
       if (result.passed && result.certificate) {
         el.certificationSurface.innerHTML = `
           <div class="certificate-result certificate-result--pass">
-            <p class="eyebrow">Esame superato</p>
-            <h2>Congratulazioni</h2>
-            <p class="lead">Punteggio: <strong>${percentage}%</strong> · errori critici: <strong>${result.criticalErrors}</strong>.</p>
-            <p>Il tuo certificato Xinzuo Academy Base è stato emesso e registrato.</p>
-            <a class="button" href="${escapeHtml(certificateUrl(result.certificate.verificationCode))}" target="_blank" rel="noopener">Apri certificato ${escapeHtml(result.certificate.verificationCode)}</a>
+            <p class="eyebrow">${en ? "Test passed" : "Esame superato"}</p>
+            <h2>${en ? "Congratulations" : "Congratulazioni"}</h2>
+            <p class="lead">${en ? "Score" : "Punteggio"}: <strong>${percentage}%</strong> · ${en ? "critical errors" : "errori critici"}: <strong>${result.criticalErrors}</strong>.</p>
+            <p>${en ? "Your Xinzuo Academy Base certificate has been issued and registered." : "Il tuo certificato Xinzuo Academy Base è stato emesso e registrato."}</p>
+            <a class="button" href="${escapeHtml(certificateUrl(result.certificate.verificationCode))}" target="_blank" rel="noopener">${en ? "Open certificate" : "Apri certificato"} ${escapeHtml(result.certificate.verificationCode)}</a>
           </div>
         `;
         loadAccountExtras();
       } else {
         el.certificationSurface.innerHTML = `
           <div class="certificate-result certificate-result--fail">
-            <p class="eyebrow">Da consolidare</p>
-            <h2>Esame non superato</h2>
-            <p class="lead">Punteggio: <strong>${percentage}%</strong> · errori critici: <strong>${result.criticalErrors}</strong>.</p>
-            <p>Rivedi i concetti indicati nel percorso e completa almeno ${result.remediationInteractionsRequired || 3} nuove interazioni formative prima di riprovare.</p>
-            <p class="password-hint">Aree da consolidare: ${(result.failedConcepts || []).map(escapeHtml).join(", ") || "riesamina il percorso Base"}.</p>
-            <button id="certificationReturn" class="button" type="button">Torna alla formazione</button>
+            <p class="eyebrow">${en ? "Review required" : "Da consolidare"}</p>
+            <h2>${en ? "Test not passed" : "Esame non superato"}</h2>
+            <p class="lead">${en ? "Score" : "Punteggio"}: <strong>${percentage}%</strong> · ${en ? "critical errors" : "errori critici"}: <strong>${result.criticalErrors}</strong>.</p>
+            <p>${en
+              ? `Review the indicated concepts and complete at least ${result.remediationInteractionsRequired || 3} new learning interactions before trying again.`
+              : `Rivedi i concetti indicati nel percorso e completa almeno ${result.remediationInteractionsRequired || 3} nuove interazioni formative prima di riprovare.`}</p>
+            <p class="password-hint">${en ? "Areas to review" : "Aree da consolidare"}: ${(result.failedConcepts || []).map(escapeHtml).join(", ") || (en ? "review the Base path" : "riesamina il percorso Base")}.</p>
+            <button id="certificationReturn" class="button" type="button">${en ? "Return to training" : "Torna alla formazione"}</button>
           </div>
         `;
         document.getElementById("certificationReturn").addEventListener("click",closeCertificationView);
