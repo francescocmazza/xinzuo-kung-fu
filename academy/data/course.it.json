@@ -756,7 +756,7 @@
                   }
                 ],
                 "correct": "c",
-                "explanation": "La knowledge base esclude esplicitamente una gerarchia semplicistica tra le diverse costruzioni del codolo."
+                "explanation": "La base di conoscenza esclude esplicitamente una gerarchia semplicistica tra le diverse costruzioni del codolo."
               },
               "recovery_questions": [
                 {
@@ -1037,7 +1037,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Un bolster saldato prova bassa qualità."
+                    "text": "Un raccordo saldato dimostra una bassa qualità."
                   },
                   {
                     "id": "d",
@@ -2087,7 +2087,7 @@
               "content": {
                 "lead": "Una pietra che si muove, è asciutta quando non dovrebbe o è inadatta rende difficile il controllo dell'angolo ancora prima di iniziare.",
                 "points": [
-                  "Segui le istruzioni del produttore per acqua o lubrificante: alcune pietre vanno immerse, altre richiedono solo di essere bagnate in superficie (splash-and-go).",
+                  "Segui le istruzioni del produttore per acqua o lubrificante: alcune pietre vanno immerse, altre richiedono soltanto una bagnatura superficiale.",
                   "Usa un supporto antiscivolo o un appoggio stabile con panno umido e lavora con buona luce.",
                   "La superficie di lavoro deve essere sufficientemente piana per un contatto affidabile; correggi un'incavatura eccessiva prima di un'affilatura seria."
                 ],
@@ -2271,7 +2271,7 @@
                   "Ascolta e senti il contatto: un rumore inizialmente ruvido e graffiante tende a diventare più uniforme mentre il bisello si regolarizza.",
                   "Alterna periodicamente i lati e mantieni il lavoro complessivamente bilanciato; non affidarti a un numero fisso di passate, perché cambiano acciaio, pietra e stato iniziale."
                 ],
-                "takeaway": "Copertura e feedback contano più del conteggio delle passate."
+                "takeaway": "Copertura e riscontri contano più del conteggio delle passate."
               },
               "question": {
                 "id": "bsf-q03",
@@ -2594,7 +2594,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Copertura completa del filo e feedback"
+                    "text": "Copertura completa del filo e riscontri sul contatto"
                   },
                   {
                     "id": "b",
@@ -2650,7 +2650,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Combinare l'ispezione della bava e alla luce con prove controllate su carta e alimenti adatti."
+                    "text": "Combinare l'ispezione della bava e il controllo alla luce con prove controllate su carta e alimenti adatti."
                   },
                   {
                     "id": "c",
