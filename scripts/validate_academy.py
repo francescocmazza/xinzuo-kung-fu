@@ -83,7 +83,7 @@ def validate_course(course: dict[str, Any], locale: str) -> None:
     certification = course.get("certification", {})
     require(certification.get("minimum_score") == 0.8, f"{locale}: certification minimum must be 80%")
     require(certification.get("maximum_critical_errors") == 0, f"{locale}: critical-error allowance must be zero")
-    require(certification.get("remediation_required_before_retry") is True, f"{locale}: remediation-before-retry must be enabled")
+    require(certification.get("remediation_required_before_retry") is False, f"{locale}: final assessment retry must remain directly available")
     require(certification.get("direct_attempt_allowed") is True, f"{locale}: direct final-assessment attempt must be allowed")
 
     levels = course.get("levels", [])
