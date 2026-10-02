@@ -5782,6 +5782,7 @@
     "source_blob_sha": "8f05b110194cc1feb3484aaf1276c7cf22a1063b",
     "reviewed_at": "2026-10-02",
     "guidance": "localization/locales.yml#it",
-    "note": "Italian Academy v0.2 reviewed with the current ChatGPT translation workflow; legacy Marian/OPUS-MT output is not accepted."
+    "note": "Italian Academy v0.2 reviewed with the current ChatGPT translation workflow; legacy Marian/OPUS-MT output is not accepted.",
+    "reviewed_translatable_strings": 1439
   }
 }
