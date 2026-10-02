@@ -53,7 +53,7 @@ export const BASE_CERTIFICATION_BANK = [
   },
   {
     id:"cert-base-006", conceptId:"geometry.single_bevel_and_handedness", critical:true,
-    prompt:{en:"A profile is traditionally associated with single-bevel knives. What must staff do before giving handedness or sharpening advice?",it:"Una forma è tradizionalmente associata ai coltelli a bisello singolo. Che cosa deve fare il personale prima di dare indicazioni su handedness o affilatura?"},
+    prompt:{en:"A profile is traditionally associated with single-bevel knives. What must staff do before giving handedness or sharpening advice?",it:"Una forma è tradizionalmente associata ai coltelli a bisello singolo. Che cosa deve fare il personale prima di dare indicazioni sulla lateralità d’uso o sull’affilatura?"},
     options:[
       {id:"a",en:"Check the exact model's grind and specification.",it:"Controllare geometria e specifiche del modello esatto."},
       {id:"b",en:"Assume it is right-handed.",it:"Presumere che sia destrorso."},
@@ -93,7 +93,7 @@ export const BASE_CERTIFICATION_BANK = [
   },
   {
     id:"cert-base-010", conceptId:"shapes.long_slicing", critical:false,
-    prompt:{en:"What makes a long slicer effective?",it:"Che cosa rende efficace uno slicer lungo?"},
+    prompt:{en:"What makes a long slicer effective?",it:"Che cosa rende efficace un coltello affettatore lungo?"},
     options:[
       {id:"a",en:"Using its length in a long drawing stroke.",it:"Usare la sua lunghezza in una lunga corsa in trazione."},
       {id:"b",en:"Repeated short sawing strokes.",it:"Ripetuti brevi movimenti a sega."},
@@ -165,7 +165,7 @@ export const BASE_CERTIFICATION_BANK = [
     id:"cert-base-017", conceptId:"sharpening.deburr_and_test", critical:true,
     prompt:{en:"Why should paper not be the only final sharpness test?",it:"Perché la carta non dovrebbe essere l'unico test finale di affilatura?"},
     options:[
-      {id:"a",en:"A fragile wire edge can cut paper once but fail in food.",it:"Un wire edge fragile può tagliare la carta una volta ma fallire sull'alimento."},
+      {id:"a",en:"A fragile wire edge can cut paper once but fail in food.",it:"Un fragile filo residuo (wire edge) può tagliare la carta una volta ma cedere sull’alimento."},
       {id:"b",en:"Paper never shows catches.",it:"La carta non mostra mai impuntamenti."},
       {id:"c",en:"Paper always damages the edge.",it:"La carta danneggia sempre il filo."},
       {id:"d",en:"Paper only works on serrations.",it:"La carta funziona solo con i seghettati."}
@@ -195,7 +195,7 @@ export const BASE_CERTIFICATION_BANK = [
     id:"cert-base-020", conceptId:"consultation.function_fit_selection", critical:false,
     prompt:{en:"Which sequence summarizes the Xinzuo consultation method?",it:"Quale sequenza riassume il metodo di consulenza Xinzuo?"},
     options:[
-      {id:"a",en:"Function → fit → selection.",it:"Function → fit → selection."},
+      {id:"a",en:"Function → fit → selection.",it:"Funzione → ergonomia → scelta."},
       {id:"b",en:"Price → hardness → appearance.",it:"Prezzo → durezza → estetica."},
       {id:"c",en:"Damascus → price → function.",it:"Damasco → prezzo → funzione."},
       {id:"d",en:"Hardness → handle → task.",it:"Durezza → manico → compito."}
