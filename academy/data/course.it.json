@@ -1937,7 +1937,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Confezione regalo"
+                      "text": "Una caratteristica secondaria non pertinente"
                     },
                     {
                       "id": "b",
@@ -3840,7 +3840,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Durezza rispetto al carico applicato"
+                    "text": "Durezza rispetto al carico"
                   },
                   {
                     "id": "d",
@@ -4045,7 +4045,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Durezza e resistenza alla frattura sono diverse"
+                    "text": "Durezza e tenacità sono diverse"
                   },
                   {
                     "id": "c",
@@ -4460,7 +4460,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Può differire soltanto il logo"
+                    "text": "Può differire il ciclo termico"
                   }
                 ],
                 "correct": "a",
@@ -4600,7 +4600,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Nucleo tagliente e suo trattamento termico"
+                    "text": "Nucleo e trattamento termico"
                   },
                   {
                     "id": "d",
@@ -4645,7 +4645,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Nucleo e geometria controllano ancora il filo"
+                      "text": "Nucleo e geometria restano decisivi"
                     },
                     {
                       "id": "b",
@@ -4997,11 +4997,11 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Colore del manico"
+                      "text": "Angolo complessivo del filo"
                     },
                     {
                       "id": "b",
-                      "text": "Asimmetria del bisello e della sezione"
+                      "text": "Asimmetria di bisello e sezione"
                     },
                     {
                       "id": "c",
@@ -5031,7 +5031,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Può cancellare la geometria prevista"
+                      "text": "Cancella l'intento geometrico"
                     },
                     {
                       "id": "d",
@@ -5131,7 +5131,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Conta anche la sezione sopra il filo"
+                      "text": "Conta anche la sezione della lama"
                     }
                   ],
                   "correct": "d",
@@ -5191,7 +5191,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Direzionalità e distacco del cibo"
+                    "text": "Direzionalità e distacco"
                   }
                 ],
                 "correct": "d",
@@ -5205,7 +5205,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Una variazione di spessore lungo la lama"
+                    "text": "Variazione di spessore lungo la lama"
                   },
                   {
                     "id": "b",
@@ -5472,7 +5472,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Dopo che il coltello è adatto al lavoro"
+                      "text": "Dopo l'idoneità al lavoro"
                     },
                     {
                       "id": "b",
@@ -5502,7 +5502,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "La leva percepita dalla mano"
+                      "text": "Leva percepita dalla mano"
                     },
                     {
                       "id": "c",
@@ -5592,7 +5592,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "La leva ripetuta può rivelare affaticamento"
+                    "text": "La leva ripetuta rivela affaticamento"
                   },
                   {
                     "id": "d",
@@ -5728,7 +5728,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Perdita di contatto utile con il tagliere"
+                    "text": "Perdita di contatto utile"
                   },
                   {
                     "id": "b",
@@ -5759,7 +5759,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Una passata fluida che usa la lunghezza del filo"
+                      "text": "Passata fluida sull'intero filo"
                     },
                     {
                       "id": "c",
@@ -5789,7 +5789,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Il profilo cambia come il filo contatta il lavoro"
+                      "text": "Il profilo cambia il contatto"
                     },
                     {
                       "id": "d",
@@ -5828,7 +5828,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Estrarre e riallineare il taglio"
+                    "text": "Estrarre e riallineare"
                   },
                   {
                     "id": "c",
@@ -5859,7 +5859,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Stabilità, angolo e scelta dell'utensile"
+                      "text": "Stabilità, angolo e utensile"
                     },
                     {
                       "id": "d",
@@ -5889,7 +5889,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Crea stress laterale sul filo"
+                      "text": "Stress laterale sul filo"
                     }
                   ],
                   "correct": "d",
@@ -5963,7 +5963,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Tagliere, alimento e traiettoria di taglio"
+                    "text": "Tagliere, alimento e traiettoria stabili"
                   },
                   {
                     "id": "b",
@@ -6146,7 +6146,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Può muoversi di più con i cicli di umidità"
+                      "text": "Movimento dovuto all'umidità"
                     }
                   ],
                   "correct": "d",
@@ -6160,7 +6160,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Calore, chimica e movimento aggiungono rischi evitabili"
+                      "text": "Rischi da calore, chimica e movimento"
                     },
                     {
                       "id": "b",
@@ -6904,7 +6904,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Dimensioni e fissaggio possono essere adatti al carico"
+                      "text": "Dimensioni, fissaggio e carico"
                     },
                     {
                       "id": "c",
@@ -6973,7 +6973,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Materiale, sigillatura e storia dell'umidità"
+                    "text": "Materiale, sigillatura e umidità"
                   },
                   {
                     "id": "c",
@@ -7004,7 +7004,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Accoppiamento locale, tensione del fissaggio e movimento del materiale"
+                      "text": "Accoppiamento, tensione e movimento"
                     },
                     {
                       "id": "d",
@@ -7034,7 +7034,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "La risposta dimensionale all'umidità è ridotta"
+                      "text": "Minore movimento da umidità"
                     }
                   ],
                   "correct": "d",
@@ -7094,7 +7094,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Distribuzione locale delle masse e rigidità"
+                    "text": "Massa locale e rigidità"
                   }
                 ],
                 "correct": "d",
@@ -7108,7 +7108,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Cambiamento estetico rispetto a movimento strutturale"
+                    "text": "Cambiamento estetico o strutturale"
                   },
                   {
                     "id": "b",
@@ -7404,7 +7404,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Quando riduce il rischio dominante di cedimento"
+                      "text": "Ridurre il rischio dominante di cedimento"
                     },
                     {
                       "id": "c",
@@ -7494,7 +7494,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Un compromesso dichiarato collegato all'uso reale"
+                    "text": "Compromesso legato all'uso reale"
                   },
                   {
                     "id": "d",
@@ -7632,7 +7632,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Microstruttura e condizione del trattamento termico"
+                    "text": "Microstruttura da trattamento termico"
                   },
                   {
                     "id": "b",
@@ -7663,7 +7663,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Austenite residua o condizione di rinvenimento"
+                      "text": "Austenite residua o rinvenimento"
                     },
                     {
                       "id": "c",
@@ -7693,7 +7693,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Geometria e uso possono creare lo stesso sintomo"
+                      "text": "Geometria e uso possono imitarlo"
                     },
                     {
                       "id": "d",
@@ -7732,7 +7732,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Chimica e durezza misurate, non la microstruttura esatta"
+                    "text": "Chimica e durezza misurate"
                   },
                   {
                     "id": "c",
@@ -7763,7 +7763,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Come contesto, non come misura diretta di questa lama"
+                      "text": "Contesto, non misura diretta"
                     },
                     {
                       "id": "d",
@@ -7853,7 +7853,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Storia del processo più dati microstrutturali o comportamentali"
+                    "text": "Prove di processo e microstruttura"
                   }
                 ],
                 "correct": "d",
@@ -7867,7 +7867,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Segnare il confine tra fatto e inferenza"
+                    "text": "Separare fatto e inferenza"
                   },
                   {
                     "id": "b",
@@ -8119,7 +8119,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Possibile mantenimento del mordente microscopico"
+                    "text": "Mordente microscopico preservato"
                   }
                 ],
                 "correct": "d",
@@ -8134,7 +8134,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Un apice usurato o danneggiato"
+                      "text": "Apice usurato o danneggiato"
                     },
                     {
                       "id": "b",
@@ -8164,7 +8164,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Il coltello non richiede mai affilatura"
+                      "text": "Non richiede mai affilatura"
                     },
                     {
                       "id": "c",
@@ -8254,7 +8254,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Il meccanismo influenza la tessitura d'usura, non ogni cedimento del filo"
+                    "text": "Tessitura d'usura, non ogni cedimento"
                   },
                   {
                     "id": "d",
@@ -8420,7 +8420,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Riparare spostando il filo oltre il danno"
+                      "text": "Spostare il filo oltre il danno"
                     },
                     {
                       "id": "c",
@@ -8489,7 +8489,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Asimmetria del bisello e della sezione tra i lati"
+                    "text": "Asimmetria di bisello e sezione"
                   },
                   {
                     "id": "c",
@@ -8610,7 +8610,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Ulteriore rimozione cambia la geometria senza beneficio"
+                    "text": "Ulteriore rimozione non porta beneficio"
                   }
                 ],
                 "correct": "d",
@@ -8624,7 +8624,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Risolvere il sintomo preservando l'intento utile del progetto"
+                    "text": "Correggere il sintomo preservando il progetto"
                   },
                   {
                     "id": "b",
@@ -8821,7 +8821,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Lavoro ripetuto simile alla preparazione reale"
+                      "text": "Lavoro ripetuto simile alla realtà"
                     },
                     {
                       "id": "b",
@@ -8876,7 +8876,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Idoneità meccanica al lavoro"
+                    "text": "Idoneità al lavoro"
                   }
                 ],
                 "correct": "d",
@@ -8891,7 +8891,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Priorità reali e abitudini di cura dell'utilizzatore"
+                      "text": "Priorità e abitudini di cura"
                     },
                     {
                       "id": "b",
@@ -8921,7 +8921,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Ragionamento esplicito legato al lavoro dell'utilizzatore"
+                      "text": "Ragionamento legato al lavoro reale"
                     },
                     {
                       "id": "c",
@@ -8981,7 +8981,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Bilanciamento e leva differenti"
+                    "text": "Bilanciamento e leva"
                   },
                   {
                     "id": "c",
@@ -9011,7 +9011,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Quando gli utilizzatori hanno vincoli e priorità diversi"
+                    "text": "Vincoli e priorità differenti"
                   },
                   {
                     "id": "d",
@@ -9147,7 +9147,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Eliminare il carico laterale di torsione"
+                    "text": "Eliminare la torsione laterale"
                   },
                   {
                     "id": "b",
@@ -9178,7 +9178,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Applica carico laterale e abrasione"
+                      "text": "Carico laterale e abrasione"
                     },
                     {
                       "id": "c",
@@ -9200,7 +9200,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Il colore del manico"
+                      "text": "Il profilo della lama"
                     },
                     {
                       "id": "b",
@@ -9208,7 +9208,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "La direzione del carico applicato"
+                      "text": "Direzione del carico applicato"
                     },
                     {
                       "id": "d",
@@ -9247,7 +9247,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Tecnica, angolo e scelta dell'utensile"
+                    "text": "Tecnica, angolo e utensile"
                   },
                   {
                     "id": "c",
@@ -9278,7 +9278,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Quando la tecnica crea un carico laterale evitabile"
+                      "text": "Carico laterale evitabile da tecnica"
                     },
                     {
                       "id": "d",
@@ -9308,7 +9308,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Usare un utensile progettato per quel carico"
+                      "text": "Usare un utensile adatto al carico"
                     }
                   ],
                   "correct": "d",
@@ -9360,15 +9360,15 @@
                   },
                   {
                     "id": "b",
-                    "text": "La confezione regalo"
+                    "text": "L'angolo nominale del filo"
                   },
                   {
                     "id": "c",
-                    "text": "Il logo sulla lama"
+                    "text": "Il volume dei carburi"
                   },
                   {
                     "id": "d",
-                    "text": "La tecnica che crea il carico laterale"
+                    "text": "La tecnica che genera il carico"
                   }
                 ],
                 "correct": "d",
@@ -9382,7 +9382,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Il carico sbagliato può danneggiare molti acciai adatti"
+                    "text": "Carichi sbagliati danneggiano acciai adatti"
                   },
                   {
                     "id": "b",
@@ -9534,7 +9534,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Umidità o residui intrappolati"
+                    "text": "Umidità intrappolata"
                   },
                   {
                     "id": "d",
@@ -9565,7 +9565,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Esposizione, pulizia, asciugatura e stoccaggio"
+                      "text": "Esposizione e cura"
                     }
                   ],
                   "correct": "d",
@@ -9579,7 +9579,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "La routine di cura è troppo lenta per l'esposizione"
+                      "text": "Cura troppo lenta per l'esposizione"
                     },
                     {
                       "id": "b",
@@ -9679,7 +9679,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Ritenzione di umidità durante lo stoccaggio"
+                      "text": "Ritenzione di umidità in stoccaggio"
                     },
                     {
                       "id": "c",
@@ -9739,7 +9739,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La posizione può identificare condizioni locali di esposizione"
+                    "text": "La posizione identifica l'esposizione"
                   },
                   {
                     "id": "c",
@@ -9769,7 +9769,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Rivelano un meccanismo di esposizione riproducibile"
+                    "text": "Un meccanismo di esposizione riproducibile"
                   },
                   {
                     "id": "d",
@@ -9937,7 +9937,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Metallo residuo debole attaccato vicino all'apice"
+                      "text": "Metallo residuo debole sull'apice"
                     },
                     {
                       "id": "c",
@@ -9967,7 +9967,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Una bava residua può tagliare brevemente prima di cedere"
+                      "text": "La bava residua cede dopo poco"
                     },
                     {
                       "id": "d",
@@ -10006,7 +10006,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Ripristinare l'apice senza assottigliare inutilmente"
+                    "text": "Ripristinare l'apice senza assottigliare"
                   },
                   {
                     "id": "c",
@@ -10067,7 +10067,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Modificano zone diverse della geometria"
+                      "text": "Modificano zone geometriche diverse"
                     }
                   ],
                   "correct": "d",
@@ -10127,7 +10127,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Taglio stabile dopo la rimozione della bava libera"
+                    "text": "Taglio stabile dopo la rimozione della bava"
                   }
                 ],
                 "correct": "d",
@@ -10141,7 +10141,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Quando le prove mostrano che il difetto diagnosticato è corretto"
+                    "text": "Fermarsi quando il difetto è corretto"
                   },
                   {
                     "id": "b",
