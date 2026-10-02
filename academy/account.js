@@ -427,36 +427,62 @@
       const seconds = Math.max(0, Number(expiresAt || 0) - Math.floor(Date.now()/1000));
       const minutes = Math.floor(seconds / 60);
       const rest = seconds % 60;
-      el.certificationTimer.textContent = `Tempo residuo: ${minutes}:${String(rest).padStart(2,"0")}`;
+      el.certificationTimer.textContent = `${certificationLocale() === "en" ? "Time remaining" : "Tempo residuo"}: ${minutes}:${String(rest).padStart(2,"0")}`;
       if (seconds <= 0) stopCertificationTimer();
     };
     update();
     certificationTimerHandle = setInterval(update,1000);
   }
 
+  function certificationLocale() {
+    return window.XinzuoAcademy?.getLocale?.() === "en" ? "en" : "it";
+  }
+
+  function applyCertificationPanelCopy() {
+    const en = certificationLocale() === "en";
+    const eyebrow = document.getElementById("certificationEyebrow");
+    const title = document.getElementById("certificationTitle");
+    const reqTitle = document.getElementById("certificationRequirementsTitle");
+    const reqText = document.getElementById("certificationRequirementsText");
+    if (eyebrow) eyebrow.textContent = "Xinzuo Academy · Base";
+    if (title) title.textContent = en ? "Final certification" : "Certificazione finale";
+    if (reqTitle) reqTitle.textContent = en ? "Final test" : "Test finale";
+    if (reqText) reqText.textContent = en
+      ? "You can take the final test at any time. Completing the lessons and mini-tests first is recommended, but it is not required to attempt the exam. Passing still requires at least 80% correct answers and zero errors on critical questions."
+      : "Puoi sostenere il test finale in qualsiasi momento. Completare prima lezioni e mini-test è consigliato, ma non è obbligatorio per provare l'esame. Per superarlo servono comunque almeno l'80% di risposte corrette e zero errori sulle domande critiche.";
+    if (el.startCertification && !certificationAttempt) {
+      el.startCertification.textContent = en ? "Start final test" : "Prova il test finale";
+    }
+    if (el.certificationBack) el.certificationBack.textContent = "← Academy";
+  }
+
   async function loadCertificationStatus() {
     if (!currentUser || !apiAvailable() || !el.certificationPanel) return;
+    applyCertificationPanelCopy();
     try {
       const result = await api("/api/certification/base/status",{method:"GET"});
+      const en = certificationLocale() === "en";
       const valid = (result.certificates || []).find(cert=>cert.status === "valid");
       if (valid) {
         el.certificationStatusSummary.innerHTML = `
-          <strong>Certificato valido</strong><br>
+          <strong>${en ? "Valid certificate" : "Certificato valido"}</strong><br>
           <a href="${escapeHtml(certificateUrl(valid.verificationCode))}" target="_blank" rel="noopener">${escapeHtml(valid.verificationCode)}</a>
         `;
-        el.startCertification.textContent = "Sostieni nuovamente l'esame";
+        el.startCertification.textContent = en ? "Take the test again" : "Sostieni nuovamente il test";
         el.startCertification.disabled = false;
         return;
       }
-      if (result.eligible) {
-        el.certificationStatusSummary.textContent = "Requisiti completati: puoi sostenere l'esame finale.";
-        el.startCertification.disabled = false;
+      const p = result.progress || {};
+      if (result.preparationComplete) {
+        el.certificationStatusSummary.textContent = en
+          ? "Base path completed. You can take the final test."
+          : "Percorso Base completato. Puoi sostenere il test finale.";
       } else {
-        const p = result.progress || {};
-        el.certificationStatusSummary.textContent =
-          `Completa il Base: ${p.lessonsCompleted || 0}/27 lezioni · ${p.modulesCompleted || 0}/6 moduli · ${p.miniTestsCompleted || 0}/6 mini-test.`;
-        el.startCertification.disabled = true;
+        el.certificationStatusSummary.textContent = en
+          ? `Final test available now · preparation: ${p.lessonsCompleted || 0}/27 lessons · ${p.modulesCompleted || 0}/6 modules · ${p.miniTestsCompleted || 0}/6 mini-tests.`
+          : `Test finale disponibile anche subito · preparazione: ${p.lessonsCompleted || 0}/27 lezioni · ${p.modulesCompleted || 0}/6 moduli · ${p.miniTestsCompleted || 0}/6 mini-test.`;
       }
+      el.startCertification.disabled = false;
     } catch (error) {
       el.certificationStatusSummary.textContent = error.message;
       el.startCertification.disabled = true;
@@ -521,7 +547,7 @@
   async function startCertificationAssessment() {
     if (!currentUser) return;
     el.startCertification.disabled = true;
-    el.certificationStatusSummary.textContent = "Preparazione esame…";
+    el.certificationStatusSummary.textContent = certificationLocale() === "en" ? "Preparing test…" : "Preparazione test…";
     try {
       const result = await api("/api/certification/base/start",{
         method:"POST",
@@ -1068,7 +1094,12 @@
     }
   });
 
-  el.startCertification.addEventListener("click",startCertificationAssessment);
+  window.addEventListener("academy-locale-changed", () => {
+    applyCertificationPanelCopy();
+    if (currentUser) loadCertificationStatus();
+  });
+
+    el.startCertification.addEventListener("click",startCertificationAssessment);
   el.certificationBack.addEventListener("click",closeCertificationView);
 
   el.managerButton.addEventListener("click", openManager);
