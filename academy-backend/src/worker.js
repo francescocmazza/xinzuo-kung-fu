@@ -1274,7 +1274,7 @@ async function certificationStatus(request, env) {
       ).bind(auth.user.id).all(),
       env.DB.prepare("SELECT * FROM certificates WHERE user_id=? AND course_id='xinzuo-academy-base' ORDER BY issued_at DESC").bind(auth.user.id).all()
     ]);
-    const eligible = Boolean(
+    const preparationComplete = Boolean(
       progress &&
       Number(progress.lessons_completed||0) >= 27 &&
       Number(progress.modules_completed||0) >= 6 &&
@@ -1282,7 +1282,8 @@ async function certificationStatus(request, env) {
     );
     return apiJson(request,env,{
       ok:true,
-      eligible,
+      eligible:true,
+      preparationComplete,
       requirements:{
         minimumScore:0.80,
         maximumCriticalErrors:0,
@@ -1308,12 +1309,6 @@ async function startBaseCertification(request, env) {
     const body = await bodyJson(request);
     const locale = body.locale === "it" ? "it" : "en";
     const progress = await env.DB.prepare("SELECT * FROM learner_progress WHERE user_id=?").bind(auth.user.id).first();
-    if (!progress ||
-        Number(progress.lessons_completed||0) < 27 ||
-        Number(progress.modules_completed||0) < 6 ||
-        Number(progress.mini_tests_completed||0) < 6) {
-      throw new HttpError(409,"certification_not_ready","Complete all Base lessons, modules and mini-tests before the final assessment.");
-    }
 
     const latestFailed = await env.DB.prepare(
       "SELECT * FROM certification_attempts WHERE user_id=? AND course_id='xinzuo-academy-base' AND completed_at IS NOT NULL AND passed=0 ORDER BY completed_at DESC LIMIT 1"
@@ -1323,8 +1318,8 @@ async function startBaseCertification(request, env) {
       try { evidence = JSON.parse(latestFailed.evidence_json || "{}"); } catch {}
       const baseline = Number(evidence.interactionBaseline || 0);
       const remediationRequired = Math.max(3,Number(evidence.remediationInteractionsRequired || 3));
-      if (Number(progress.interactions || 0) < baseline + remediationRequired ||
-          Number(progress.updated_at || 0) <= Number(latestFailed.completed_at || 0)) {
+      if (Number(progress?.interactions || 0) < baseline + remediationRequired ||
+          Number(progress?.updated_at || 0) <= Number(latestFailed.completed_at || 0)) {
         throw new HttpError(
           409,
           "remediation_required",
@@ -1357,7 +1352,7 @@ async function startBaseCertification(request, env) {
     const evidence = {
       questionIds:ordered.map(q=>q.id),
       locale,
-      interactionBaseline:Number(progress.interactions || 0),
+      interactionBaseline:Number(progress?.interactions || 0),
       remediationInteractionsRequired:3
     };
     await env.DB.prepare(
