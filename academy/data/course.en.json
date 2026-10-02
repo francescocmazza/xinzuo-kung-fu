@@ -3376,7 +3376,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The balance point is fixed by the bolster alone"
+                    "text": "The balance point is fixed by the bolster alone (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "c",
@@ -3401,7 +3401,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Tang style alone determines the knife's balance"
+                      "text": "Tang style alone determines the knife's balance (viewed within the full situation described)"
                     }
                   ],
                   "correct": "c",
@@ -3425,7 +3425,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "It makes stock removal unnecessary"
+                      "text": "It makes stock removal unnecessary (judged against the complete context provided)"
                     }
                   ],
                   "correct": "b",
@@ -3457,7 +3457,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The bolster joint becomes integral"
+                    "text": "The bolster joint becomes integral (considered under the full conditions described)"
                   }
                 ],
                 "correct": "c",
@@ -3483,7 +3483,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The balance point is fixed by the bolster alone"
+                    "text": "The balance point is fixed by the bolster alone (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "c",
@@ -3509,7 +3509,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Tang style alone determines the knife's balance"
+                    "text": "Tang style alone determines the knife's balance (viewed within the full situation described)"
                   }
                 ],
                 "correct": "b",
@@ -3562,7 +3562,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Easy sharpening even if corrosion resistance is poor"
+                    "text": "Easy sharpening even if corrosion resistance is poor (judged against the complete context provided)"
                   }
                 ],
                 "correct": "b",
@@ -3587,7 +3587,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Toughness needs, edge geometry and the actual loads"
+                      "text": "Toughness needs, edge geometry and the actual loads (considered under the full conditions described)"
                     }
                   ],
                   "correct": "d",
@@ -3611,7 +3611,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Handle density"
+                      "text": "Handle density (considered within the complete scenario described)"
                     }
                   ],
                   "correct": "a",
@@ -3643,7 +3643,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "It automatically permits a thinner geometry"
+                    "text": "It automatically permits a thinner geometry (viewed within the full situation described)"
                   }
                 ],
                 "correct": "b",
@@ -3669,7 +3669,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Useful corrosion resistance together with adequate edge retention"
+                    "text": "Useful corrosion resistance together with adequate edge retention (judged against the complete context provided)"
                   }
                 ],
                 "correct": "d",
@@ -3695,7 +3695,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Only abrasive wear resistance"
+                    "text": "Only abrasive wear resistance (considered under the full conditions described)"
                   }
                 ],
                 "correct": "a",
@@ -3751,7 +3751,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The manufacturing route cannot matter"
+                    "text": "The manufacturing route cannot matter (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "b",
@@ -3776,7 +3776,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "It can reduce segregation and produce a finer, more even distribution of constituents"
+                      "text": "It can reduce segregation and produce a finer, more even distribution of constituents (viewed within the full situation described)"
                     }
                   ],
                   "correct": "d",
@@ -3800,7 +3800,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Its final carbide distribution with certainty"
+                      "text": "Its final carbide distribution with certainty (judged against the complete context provided)"
                     }
                   ],
                   "correct": "a",
@@ -3832,7 +3832,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Only whether the steel is called stainless"
+                    "text": "Only whether the steel is called stainless (considered under the full conditions described)"
                   }
                 ],
                 "correct": "b",
@@ -3858,7 +3858,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Different heat treatment or geometry"
+                    "text": "Different heat treatment or geometry (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "d",
@@ -3884,7 +3884,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "It automatically makes sharpening easy"
+                    "text": "It automatically makes sharpening easy (viewed within the full situation described)"
                   }
                 ],
                 "correct": "a",
@@ -3938,7 +3938,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "That the cutting core still matters"
+                    "text": "That the cutting core still matters (judged against the complete context provided)"
                   }
                 ],
                 "correct": "a",
@@ -3963,7 +3963,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "That differential wear will occur at the edge"
+                      "text": "That differential wear will occur at the edge (considered under the full conditions described)"
                     }
                   ],
                   "correct": "a",
@@ -3987,7 +3987,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "The dedicated cutting-core steel and its heat treatment"
+                      "text": "The dedicated cutting-core steel and its heat treatment (considered within the complete scenario described)"
                     }
                   ],
                   "correct": "d",
@@ -4019,7 +4019,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Assume every layered blade behaves the same way"
+                    "text": "Assume every layered blade behaves the same way (viewed within the full situation described)"
                   }
                 ],
                 "correct": "a",
@@ -4045,7 +4045,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "That the cutting core still matters"
+                    "text": "That the cutting core still matters (judged against the complete context provided)"
                   }
                 ],
                 "correct": "a",
@@ -4071,7 +4071,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Only that a visible surface pattern is present"
+                    "text": "Only that a visible surface pattern is present (considered under the full conditions described)"
                   }
                 ],
                 "correct": "d",
@@ -4124,7 +4124,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Thickness and taper behind the edge"
+                    "text": "Thickness and taper behind the edge (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "d",
@@ -4149,7 +4149,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Handle density"
+                      "text": "Handle density (viewed within the full situation described)"
                     }
                   ],
                   "correct": "b",
@@ -4173,7 +4173,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "It will cut thick food with no resistance"
+                      "text": "It will cut thick food with no resistance (judged against the complete context provided)"
                     }
                   ],
                   "correct": "c",
@@ -4205,7 +4205,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "It can improve penetration while reducing supporting material at the apex"
+                    "text": "It can improve penetration while reducing supporting material at the apex (considered under the full conditions described)"
                   }
                 ],
                 "correct": "d",
@@ -4231,7 +4231,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Only the nominal edge angle"
+                    "text": "Only the nominal edge angle (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "b",
@@ -4257,7 +4257,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Handle density"
+                    "text": "Handle density (viewed within the full situation described)"
                   }
                 ],
                 "correct": "c",
@@ -4311,7 +4311,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Most complex construction alone"
+                    "text": "Most complex construction alone (judged against the complete context provided)"
                   }
                 ],
                 "correct": "a",
@@ -4336,7 +4336,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Its blade is designed only for frozen food"
+                      "text": "Its blade is designed only for frozen food (considered under the full conditions described)"
                     }
                   ],
                   "correct": "a",
@@ -4360,7 +4360,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Grip position changes the leverage felt around the hand"
+                      "text": "Grip position changes the leverage felt around the hand (considered within the complete scenario described)"
                     }
                   ],
                   "correct": "d",
@@ -4392,7 +4392,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Whenever its profile looks more traditional"
+                    "text": "Whenever its profile looks more traditional (viewed within the full situation described)"
                   }
                 ],
                 "correct": "a",
@@ -4418,7 +4418,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Most complex construction alone"
+                    "text": "Most complex construction alone (judged against the complete context provided)"
                   }
                 ],
                 "correct": "a",
@@ -4444,7 +4444,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Its geometry is specialized for controlled fish butchery and specific loads"
+                    "text": "Its geometry is specialized for controlled fish butchery and specific loads (considered under the full conditions described)"
                   }
                 ],
                 "correct": "d",
@@ -4498,7 +4498,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The blade's heat treatment"
+                    "text": "The blade's heat treatment (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "a",
@@ -4523,7 +4523,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "The apex becomes chemically softer"
+                      "text": "The apex becomes chemically softer (viewed within the full situation described)"
                     }
                   ],
                   "correct": "a",
@@ -4547,7 +4547,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Withdraw, stabilize the work and change angle or tool instead of twisting"
+                      "text": "Withdraw, stabilize the work and change angle or tool instead of twisting (judged against the complete context provided)"
                     }
                   ],
                   "correct": "d",
@@ -4579,7 +4579,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Only the polishing finish"
+                    "text": "Only the polishing finish (considered under the full conditions described)"
                   }
                 ],
                 "correct": "a",
@@ -4605,7 +4605,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The blade's heat treatment"
+                    "text": "The blade's heat treatment (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "a",
@@ -4631,7 +4631,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Much of the edge may lose useful board contact during the motion"
+                    "text": "Much of the edge may lose useful board contact during the motion (viewed within the full situation described)"
                   }
                 ],
                 "correct": "d",
@@ -4685,7 +4685,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Delay drying because patina prevents all corrosion"
+                    "text": "Delay drying because patina prevents all corrosion (judged against the complete context provided)"
                   }
                 ],
                 "correct": "c",
@@ -4710,7 +4710,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Composite handles make blade drying unnecessary"
+                      "text": "Composite handles make blade drying unnecessary (considered under the full conditions described)"
                     }
                   ],
                   "correct": "c",
@@ -4734,7 +4734,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "The blade's layer count"
+                      "text": "The blade's layer count (considered within the complete scenario described)"
                     }
                   ],
                   "correct": "b",
@@ -4766,7 +4766,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "A finer sharpening stone"
+                    "text": "A finer sharpening stone (viewed within the full situation described)"
                   }
                 ],
                 "correct": "c",
@@ -4792,7 +4792,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Delay drying because patina prevents all corrosion"
+                    "text": "Delay drying because patina prevents all corrosion (judged against the complete context provided)"
                   }
                 ],
                 "correct": "c",
@@ -4818,7 +4818,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Composite handles make blade drying unnecessary"
+                    "text": "Composite handles make blade drying unnecessary (considered under the full conditions described)"
                   }
                 ],
                 "correct": "b",
@@ -4873,7 +4873,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The steel must have lost hardness"
+                    "text": "The steel must have lost hardness (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "c",
@@ -4898,7 +4898,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Deburr now and ignore the missing section"
+                      "text": "Deburr now and ignore the missing section (viewed within the full situation described)"
                     }
                   ],
                   "correct": "c",
@@ -4922,7 +4922,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Whenever a larger burr is desired"
+                      "text": "Whenever a larger burr is desired (judged against the complete context provided)"
                     }
                   ],
                   "correct": "b",
@@ -4954,7 +4954,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The edge angle is automatically ideal for every use"
+                    "text": "The edge angle is automatically ideal for every use (considered under the full conditions described)"
                   }
                 ],
                 "correct": "c",
@@ -4980,7 +4980,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The steel must have lost hardness"
+                    "text": "The steel must have lost hardness (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "c",
@@ -5006,7 +5006,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Deburr now and ignore the missing section"
+                    "text": "Deburr now and ignore the missing section (viewed within the full situation described)"
                   }
                 ],
                 "correct": "b",
@@ -5067,7 +5067,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The knife's measured edge angle alone"
+                    "text": "The knife's measured edge angle alone (judged against the complete context provided)"
                   }
                 ],
                 "correct": "c",
@@ -5092,7 +5092,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Use overall knife weight as the durability test"
+                      "text": "Use overall knife weight as the durability test (considered under the full conditions described)"
                     }
                   ],
                   "correct": "c",
@@ -5116,7 +5116,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "It proves the heat treatment occurred before shaping"
+                      "text": "It proves the heat treatment occurred before shaping (considered within the complete scenario described)"
                     }
                   ],
                   "correct": "b",
@@ -5148,7 +5148,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The physical center of mass moves with preference"
+                    "text": "The physical center of mass moves with preference (viewed within the full situation described)"
                   }
                 ],
                 "correct": "c",
@@ -5174,7 +5174,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The knife's measured edge angle alone"
+                    "text": "The knife's measured edge angle alone (judged against the complete context provided)"
                   }
                 ],
                 "correct": "c",
@@ -5200,7 +5200,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Use overall knife weight as the durability test"
+                    "text": "Use overall knife weight as the durability test (considered under the full conditions described)"
                   }
                 ],
                 "correct": "b",
@@ -5253,7 +5253,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Only abrasive wear resistance"
+                    "text": "Only abrasive wear resistance (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "b",
@@ -5278,7 +5278,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "They are different failure modes and may require different corrective choices"
+                      "text": "They are different failure modes and may require different corrective choices (viewed within the full situation described)"
                     }
                   ],
                   "correct": "d",
@@ -5302,7 +5302,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Only the stamped steel name"
+                      "text": "Only the stamped steel name (judged against the complete context provided)"
                     }
                   ],
                   "correct": "a",
@@ -5334,7 +5334,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Choosing the highest carbide volume available"
+                    "text": "Choosing the highest carbide volume available (considered under the full conditions described)"
                   }
                 ],
                 "correct": "b",
@@ -5360,7 +5360,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The lateral load, edge geometry and how the knife is being used"
+                    "text": "The lateral load, edge geometry and how the knife is being used (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "d",
@@ -5386,7 +5386,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Both require replacing the knife"
+                    "text": "Both require replacing the knife (viewed within the full situation described)"
                   }
                 ],
                 "correct": "a",
@@ -5442,7 +5442,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "A dense handle material"
+                    "text": "A dense handle material (judged against the complete context provided)"
                   }
                 ],
                 "correct": "b",
@@ -5467,7 +5467,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Retained austenite, tempering condition and the resulting microstructure"
+                      "text": "Retained austenite, tempering condition and the resulting microstructure (considered under the full conditions described)"
                     }
                   ],
                   "correct": "d",
@@ -5491,7 +5491,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Only corrosion behavior while every other property stays fixed"
+                      "text": "Only corrosion behavior while every other property stays fixed (considered within the complete scenario described)"
                     }
                   ],
                   "correct": "a",
@@ -5523,7 +5523,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Using HRC as a complete substitute for microstructure"
+                    "text": "Using HRC as a complete substitute for microstructure (viewed within the full situation described)"
                   }
                 ],
                 "correct": "b",
@@ -5549,7 +5549,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Coarse carbide population together with insufficient geometric support"
+                    "text": "Coarse carbide population together with insufficient geometric support (judged against the complete context provided)"
                   }
                 ],
                 "correct": "d",
@@ -5575,7 +5575,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Only whether the steel is stainless"
+                    "text": "Only whether the steel is stainless (considered under the full conditions described)"
                   }
                 ],
                 "correct": "a",
@@ -5629,7 +5629,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Long cutting life with no control for steel or geometry"
+                    "text": "Long cutting life with no control for steel or geometry (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "a",
@@ -5654,7 +5654,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Only corrosion resistance affects slicing life"
+                      "text": "Only corrosion resistance affects slicing life (viewed within the full situation described)"
                     }
                   ],
                   "correct": "a",
@@ -5678,7 +5678,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "As possible preservation of microscopic slicing bite between sharpenings, not creation of a new apex"
+                      "text": "As possible preservation of microscopic slicing bite between sharpenings, not creation of a new apex (judged against the complete context provided)"
                     }
                   ],
                   "correct": "d",
@@ -5710,7 +5710,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Differential hardness is established by appearance"
+                    "text": "Differential hardness is established by appearance (considered under the full conditions described)"
                   }
                 ],
                 "correct": "a",
@@ -5736,7 +5736,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Long cutting life with no control for steel or geometry"
+                    "text": "Long cutting life with no control for steel or geometry (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "a",
@@ -5762,7 +5762,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Steel, heat treatment, geometry and sharpening can also influence the result"
+                    "text": "Steel, heat treatment, geometry and sharpening can also influence the result (viewed within the full situation described)"
                   }
                 ],
                 "correct": "d",
@@ -5815,7 +5815,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Bevel or section asymmetry creating unequal cutting forces"
+                    "text": "Bevel or section asymmetry creating unequal cutting forces (judged against the complete context provided)"
                   }
                 ],
                 "correct": "d",
@@ -5840,7 +5840,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "The steel has automatically lost toughness"
+                      "text": "The steel has automatically lost toughness (considered under the full conditions described)"
                     }
                   ],
                   "correct": "b",
@@ -5864,7 +5864,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "It makes heat treatment irrelevant"
+                      "text": "It makes heat treatment irrelevant (considered within the complete scenario described)"
                     }
                   ],
                   "correct": "c",
@@ -5896,7 +5896,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Restore sufficient integrity while preserving the knife's intended section and use"
+                    "text": "Restore sufficient integrity while preserving the knife's intended section and use (viewed within the full situation described)"
                   }
                 ],
                 "correct": "d",
@@ -5922,7 +5922,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Final polish level"
+                    "text": "Final polish level (judged against the complete context provided)"
                   }
                 ],
                 "correct": "b",
@@ -5948,7 +5948,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The steel has automatically lost toughness"
+                    "text": "The steel has automatically lost toughness (considered under the full conditions described)"
                   }
                 ],
                 "correct": "c",
@@ -6002,7 +6002,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Only whether the shape is traditional"
+                    "text": "Only whether the shape is traditional (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "a",
@@ -6027,7 +6027,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "The handle becomes lighter when pinched"
+                      "text": "The handle becomes lighter when pinched (viewed within the full situation described)"
                     }
                   ],
                   "correct": "a",
@@ -6051,7 +6051,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Explain the trade-off against the user's actual workflow and let that determine fit"
+                      "text": "Explain the trade-off against the user's actual workflow and let that determine fit (judged against the complete context provided)"
                     }
                   ],
                   "correct": "d",
@@ -6083,7 +6083,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Maximum blade length"
+                    "text": "Maximum blade length (considered under the full conditions described)"
                   }
                 ],
                 "correct": "a",
@@ -6109,7 +6109,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Only whether the shape is traditional"
+                    "text": "Only whether the shape is traditional (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "a",
@@ -6135,7 +6135,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Grip position changes leverage and how mass is felt around the hand"
+                    "text": "Grip position changes leverage and how mass is felt around the hand (viewed within the full situation described)"
                   }
                 ],
                 "correct": "d",
@@ -6189,7 +6189,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Use more downward force to finish the cut"
+                    "text": "Use more downward force to finish the cut (judged against the complete context provided)"
                   }
                 ],
                 "correct": "a",
@@ -6214,7 +6214,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Automatic thickening behind the edge"
+                      "text": "Automatic thickening behind the edge (considered under the full conditions described)"
                     }
                   ],
                   "correct": "a",
@@ -6238,7 +6238,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Technique, entry angle, food support or tool choice"
+                      "text": "Technique, entry angle, food support or tool choice (considered within the complete scenario described)"
                     }
                   ],
                   "correct": "d",
@@ -6270,7 +6270,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The handle finish"
+                    "text": "The handle finish (viewed within the full situation described)"
                   }
                 ],
                 "correct": "a",
@@ -6296,7 +6296,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Use more downward force to finish the cut"
+                    "text": "Use more downward force to finish the cut (judged against the complete context provided)"
                   }
                 ],
                 "correct": "a",
@@ -6322,7 +6322,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Lateral loading and abrasion at the apex unrelated to normal slicing"
+                    "text": "Lateral loading and abrasion at the apex unrelated to normal slicing (considered under the full conditions described)"
                   }
                 ],
                 "correct": "d",
@@ -6376,7 +6376,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The storage method used elsewhere"
+                    "text": "The storage method used elsewhere (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "c",
@@ -6401,7 +6401,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "The steel has become softer"
+                      "text": "The steel has become softer (viewed within the full situation described)"
                     }
                   ],
                   "correct": "c",
@@ -6425,7 +6425,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Only the board hardness"
+                      "text": "Only the board hardness (judged against the complete context provided)"
                     }
                   ],
                   "correct": "b",
@@ -6457,7 +6457,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Only handle weight"
+                    "text": "Only handle weight (considered under the full conditions described)"
                   }
                 ],
                 "correct": "c",
@@ -6483,7 +6483,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The storage method used elsewhere"
+                    "text": "The storage method used elsewhere (considered within the complete scenario described)"
                   }
                 ],
                 "correct": "c",
@@ -6509,7 +6509,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "The steel has become softer"
+                    "text": "The steel has become softer (viewed within the full situation described)"
                   }
                 ],
                 "correct": "b",
@@ -6564,7 +6564,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "A more polished apex without changing the section"
+                    "text": "A more polished apex without changing the section (judged against the complete context provided)"
                   }
                 ],
                 "correct": "c",
@@ -6589,7 +6589,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Too much corrosion resistance"
+                      "text": "Too much corrosion resistance (considered under the full conditions described)"
                     }
                   ],
                   "correct": "c",
@@ -6613,7 +6613,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "They always require the same final angle"
+                      "text": "They always require the same final angle (considered within the complete scenario described)"
                     }
                   ],
                   "correct": "b",
@@ -6645,7 +6645,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "When the burr becomes as large as possible"
+                    "text": "When the burr becomes as large as possible (viewed within the full situation described)"
                   }
                 ],
                 "correct": "c",
@@ -6671,7 +6671,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "A more polished apex without changing the section"
+                    "text": "A more polished apex without changing the section (judged against the complete context provided)"
                   }
                 ],
                 "correct": "c",
@@ -6697,7 +6697,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Too much corrosion resistance"
+                    "text": "Too much corrosion resistance (considered under the full conditions described)"
                   }
                 ],
                 "correct": "b",
