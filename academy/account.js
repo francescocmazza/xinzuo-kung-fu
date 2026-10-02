@@ -479,8 +479,8 @@
           : "Percorso Base completato. Puoi sostenere il test finale.";
       } else {
         el.certificationStatusSummary.textContent = en
-          ? `Final test available now · preparation: ${p.lessonsCompleted || 0}/27 lessons · ${p.modulesCompleted || 0}/6 modules · ${p.miniTestsCompleted || 0}/6 mini-tests.`
-          : `Test finale disponibile anche subito · preparazione: ${p.lessonsCompleted || 0}/27 lezioni · ${p.modulesCompleted || 0}/6 moduli · ${p.miniTestsCompleted || 0}/6 mini-test.`;
+          ? `Final test available now · preparation: ${p.lessonsCompleted || 0}/27 lessons · ${p.modulesCompleted || 0}/9 modules · ${p.miniTestsCompleted || 0}/9 mini-tests.`
+          : `Test finale disponibile anche subito · preparazione: ${p.lessonsCompleted || 0}/27 lezioni · ${p.modulesCompleted || 0}/9 moduli · ${p.miniTestsCompleted || 0}/9 mini-test.`;
       }
       el.startCertification.disabled = false;
     } catch (error) {
