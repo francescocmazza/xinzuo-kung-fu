@@ -822,7 +822,7 @@ function progressMetrics(progress, env) {
   const miniAvg = miniRows.length ? miniRows.reduce((sum,v) => sum + Number(v.score),0) / miniRows.length : 0;
   const criticalErrors = miniRows.reduce((sum,v) => sum + Math.max(0, Number(v.criticalErrors || 0)),0);
   const conceptRows = Object.values(concepts).filter(Boolean);
-  const lessonsTotal = Math.max(1, Math.min(500, Number(env.ACTIVE_LESSON_TOTAL || 45)));
+  const lessonsTotal = Math.max(1, Math.min(500, Number(env.ACTIVE_LESSON_TOTAL || 81)));
   return {
     lessonsCompleted:Object.values(lessons).filter(Boolean).length,
     lessonsTotal,
@@ -900,7 +900,7 @@ async function activityPing(request, env) {
         `INSERT INTO learner_progress(user_id,course_version,progress_json,lessons_total,engagement_seconds,updated_at)
          VALUES(?,?,'{}',?, ?,?)
          ON CONFLICT(user_id) DO UPDATE SET engagement_seconds=engagement_seconds+excluded.engagement_seconds,updated_at=excluded.updated_at`
-      ).bind(auth.user.id,String(body.courseVersion || "0.1.0").slice(0,40),Number(env.ACTIVE_LESSON_TOTAL || 45),seconds,ts),
+      ).bind(auth.user.id,String(body.courseVersion || "0.1.0").slice(0,40),Number(env.ACTIVE_LESSON_TOTAL || 81),seconds,ts),
       env.DB.prepare(
         "INSERT INTO activity_events(user_id,event_type,duration_seconds,metadata_json,created_at) VALUES(?, 'engagement', ?, ?, ?)"
       ).bind(auth.user.id,seconds,JSON.stringify({ page:String(body.page || "academy").slice(0,80) }),ts)
@@ -984,7 +984,7 @@ async function managerUsers(request, env) {
               lp.updated_at progress_updated_at
        FROM users u LEFT JOIN learner_progress lp ON lp.user_id=u.id
        WHERE u.role='staff' ORDER BY u.active DESC,u.last_active_at DESC,u.last_name,u.first_name`
-    ).bind(Number(env.ACTIVE_LESSON_TOTAL || 45)).all();
+    ).bind(Number(env.ACTIVE_LESSON_TOTAL || 81)).all();
     return apiJson(request, env, { ok:true, users:rows.results || [] });
   });
 }
