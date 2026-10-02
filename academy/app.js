@@ -592,7 +592,7 @@
       <h2>${escapeHtml(lesson.title)}</h2>
       <fieldset>
         <legend>${escapeHtml(question.prompt)}</legend>
-        ${question.options.map(option => `
+        ${shuffledOptions(question.options).map(option => `
           <label class="option">
             <input type="radio" name="answer" value="${escapeHtml(option.id)}">
             <span>${escapeHtml(option.text)}</span>
@@ -674,7 +674,7 @@
         ${test.questions.map((question, index) => `
           <fieldset class="mini-question">
             <legend>${index + 1}. ${escapeHtml(question.prompt)}</legend>
-            ${question.options.map(option => `
+            ${shuffledOptions(question.options).map(option => `
               <label class="option">
                 <input type="radio" name="${escapeHtml(question.id)}" value="${escapeHtml(option.id)}">
                 <span>${escapeHtml(option.text)}</span>
@@ -780,6 +780,18 @@
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#039;");
+  }
+
+  function shuffledOptions(options) {
+    const out = [...(options || [])];
+    if (out.length < 2) return out;
+    const random = new Uint32Array(out.length);
+    crypto.getRandomValues(random);
+    for (let i = out.length - 1; i > 0; i -= 1) {
+      const j = random[i] % (i + 1);
+      [out[i], out[j]] = [out[j], out[i]];
+    }
+    return out;
   }
 
   function cssEscape(value) {
