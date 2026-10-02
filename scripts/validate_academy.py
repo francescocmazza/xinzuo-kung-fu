@@ -157,6 +157,59 @@ def validate_course(course: dict[str, Any], locale: str) -> None:
     require(lessons_by_level == {"base": 27, "intermediate": 9, "advanced": 9},
             f"{locale}: unexpected lesson depth structure {lessons_by_level}")
 
+    # Higher-level assessments must test reasoning with genuinely different scenarios,
+    # not the same item repeated with reordered answers or obviously irrelevant distractors.
+    weak_distractor_terms = {
+        "logo",
+        "gift box",
+        "packaging",
+        "user's email",
+        "handle color",
+        "blade engraving color",
+        "scatola regalo",
+        "confezione regalo",
+        "email dell'utente",
+        "colore del manico",
+        "colore dell'incisione",
+    }
+    for level in levels:
+        if level["id"] not in {"intermediate", "advanced"}:
+            continue
+        for module in level.get("modules", []):
+            if module.get("status") != "active":
+                continue
+            for lesson in module.get("lessons", []):
+                concept_id = lesson["concept_id"]
+                related = [
+                    lesson["question"],
+                    *lesson.get("recovery_questions", []),
+                    *[
+                        question
+                        for question in module["mini_test"].get("questions", [])
+                        if question.get("concept_id") == concept_id
+                    ],
+                ]
+                prompts = {str(question["prompt"]).strip().casefold() for question in related}
+                option_sets = {
+                    tuple(sorted(str(option["text"]).strip().casefold() for option in question["options"]))
+                    for question in related
+                }
+                require(
+                    len(prompts) >= 4,
+                    f"{locale}:{concept_id}: higher-level bank needs at least four distinct scenarios",
+                )
+                require(
+                    len(option_sets) >= 4,
+                    f"{locale}:{concept_id}: higher-level bank needs at least four distinct answer sets",
+                )
+                for question in related:
+                    for option in question["options"]:
+                        option_text = str(option["text"]).strip().casefold()
+                        require(
+                            not any(term in option_text for term in weak_distractor_terms),
+                            f"{locale}:{question['id']}: implausibly irrelevant distractor: {option['text']}",
+                        )
+
     # Anti-shortcut audit: correct answers must not systematically reveal themselves by length
     # or fixed option position. We intentionally assess the whole bank rather than forcing
     # every single item to have identical-length prose.
