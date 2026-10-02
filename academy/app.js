@@ -20,7 +20,7 @@
       interactions: "Interazioni",
       curriculumEyebrow: "Percorso su tre livelli",
       curriculumTitle: "Curriculum",
-      curriculumNote: "Il livello Base è completo e attivo. Intermedio e Avanzato sono già mappati sulla base di conoscenza e verranno attivati solo quando le rispettive banche di domande avranno superato la revisione.",
+      curriculumNote: "Tutti e tre i livelli sono attivi e coprono gli stessi grandi temi del libro. Cambia la profondità richiesta: Base riconosce e applica i fondamenti; Intermedio collega cause e compromessi; Avanzato diagnostica e giustifica decisioni.",
       active: "Attivo",
       planned: "In preparazione",
       lessons: "lezioni",
@@ -81,7 +81,7 @@
       interactions: "Interactions",
       curriculumEyebrow: "Three-level path",
       curriculumTitle: "Curriculum",
-      curriculumNote: "The full Base level is now active. Intermediate and Advanced are already mapped to the knowledge base and unlock only when their reviewed question banks are ready.",
+      curriculumNote: "All three levels are active and cover the same major themes from the book. The required depth changes: Base recognizes and applies fundamentals; Intermediate connects causes and trade-offs; Advanced diagnoses and justifies decisions.",
       active: "Active",
       planned: "Planned",
       lessons: "lessons",
@@ -576,6 +576,21 @@
     saveProgress();
     const question = variants[index];
     renderQuestion(question, lesson, "recovery", sourceModule);
+  }
+
+  function shuffledOptions(question) {
+    const options = [...(question.options || [])];
+    let seed = 2166136261;
+    for (const ch of String(question.id || "")) {
+      seed ^= ch.charCodeAt(0);
+      seed = Math.imul(seed, 16777619) >>> 0;
+    }
+    for (let i = options.length - 1; i > 0; i -= 1) {
+      seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
+      const j = seed % (i + 1);
+      [options[i], options[j]] = [options[j], options[i]];
+    }
+    return options;
   }
 
   function renderQuestion(question, lesson, mode, sourceModule) {
