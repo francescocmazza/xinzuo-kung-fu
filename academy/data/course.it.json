@@ -2292,7 +2292,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Maggiore altezza della lama vicino al tallone"
+                    "text": "Maggiore altezza al tallone"
                   },
                   {
                     "id": "c",
@@ -2383,7 +2383,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Se molatura finale e trattamento termico sono ben eseguiti"
+                      "text": "Qualità di molatura finale e trattamento termico"
                     },
                     {
                       "id": "c",
@@ -2411,7 +2411,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Può limitare o modellare le prese avanzate."
+                    "text": "Può limitare le prese avanzate."
                   },
                   {
                     "id": "b",
@@ -2449,7 +2449,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Geometria complessiva, spessore e reale schema di contatto"
+                    "text": "Geometria complessiva e schema di contatto"
                   }
                 ],
                 "correct": "d",
@@ -2490,7 +2490,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Tenacità e tolleranza agli abusi"
+                    "text": "Tenacità ai carichi laterali"
                   },
                   {
                     "id": "b",
@@ -2568,7 +2568,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Diverso equilibrio del carbonio, trattamento termico e disponibilità del cromo"
+                    "text": "Equilibrio del carbonio e disponibilità del cromo"
                   }
                 ],
                 "correct": "d",
@@ -2617,7 +2617,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Microstrutture, carburi e trattamenti termici possono differire."
+                    "text": "Microstruttura e bilancio dei carburi diversi"
                   },
                   {
                     "id": "c",
@@ -2698,7 +2698,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Può legare più cromo nei carburi, riducendo quello disponibile per la passivazione."
+                    "text": "Più cromo può restare legato nei carburi."
                   },
                   {
                     "id": "c",
@@ -2789,7 +2789,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "La PM controlla il materiale di partenza; il trattamento termico imposta ancora fasi finali e durezza."
+                      "text": "Il trattamento termico imposta ancora fasi finali e durezza."
                     },
                     {
                       "id": "c",
@@ -2855,7 +2855,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Controllare l'atmosfera attorno all'acciaio durante il trattamento ad alta temperatura"
+                    "text": "Controllo dell'atmosfera durante il trattamento ad alta temperatura"
                   }
                 ],
                 "correct": "d",
@@ -3137,7 +3137,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Sono percorsi metallurgici diversi anche se entrambi possono mostrare motivi."
+                      "text": "Usano percorsi metallurgici diversi."
                     }
                   ],
                   "correct": "d",
@@ -3195,7 +3195,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "La microtexture del filo può ancora agganciare l'alimento durante il movimento di scorrimento."
+                      "text": "La microtexture sostiene ancora il mordente in scorrimento."
                     },
                     {
                       "id": "c",
@@ -3223,7 +3223,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Identificare se il motivo deriva da stratificazione strutturale o decorazione superficiale."
+                    "text": "Stratificazione strutturale o decorazione superficiale?"
                   },
                   {
                     "id": "b",
@@ -3261,7 +3261,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Il coltello richiede comunque normale affilatura per ripristinare la geometria."
+                    "text": "Richiede comunque normale affilatura."
                   }
                 ],
                 "correct": "d",
@@ -3302,7 +3302,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Spessore e geometria dietro il filo"
+                    "text": "Geometria dietro il filo"
                   },
                   {
                     "id": "b",
@@ -3335,7 +3335,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Rimuove materiale dietro il filo e lascia una sezione concava."
+                      "text": "Rimuove supporto dietro il filo."
                     },
                     {
                       "id": "d",
@@ -3393,7 +3393,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Le superfici di riferimento vengono alterate e la geometria specialistica si degrada."
+                      "text": "Si degradano superfici di riferimento e geometria specialistica."
                     },
                     {
                       "id": "b",
@@ -3429,7 +3429,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Angolo del filo e spessore dietro il filo"
+                    "text": "Angolo del filo più spessore dietro il filo"
                   },
                   {
                     "id": "c",
@@ -3509,7 +3509,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Un affettatore lungo e stretto che supporta un taglio in trazione"
+                    "text": "Un affettatore lungo per tagli in trazione"
                   },
                   {
                     "id": "c",
@@ -3542,7 +3542,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "La sua geometria robusta è specializzata per lavorazione controllata del pesce, non per impatti pesanti arbitrari."
+                      "text": "È specializzato nella lavorazione controllata del pesce."
                     }
                   ],
                   "correct": "d",
@@ -3579,7 +3579,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Maggiore resistenza ad avviare, arrestare e ruotare il coltello più carico in punta"
+                    "text": "Maggiore resistenza rotazionale dalla massa in punta"
                   },
                   {
                     "id": "d",
@@ -3600,7 +3600,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "La massa posteriore del manico può controbilanciare la lama attorno alla presa di lavoro."
+                      "text": "La massa posteriore controbilancia la lama"
                     },
                     {
                       "id": "c",
@@ -3628,7 +3628,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Necessità di manovrabilità attorno all'anatomia rispetto all'impatto su materiale duro"
+                    "text": "Manovrabilità rispetto a tolleranza all'impatto"
                   },
                   {
                     "id": "b",
@@ -3666,7 +3666,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Confrontare presa, profilo del manico, peso e bilanciamento nella mano del cliente."
+                    "text": "Confrontare presa, peso e bilanciamento in mano."
                   }
                 ],
                 "correct": "d",
@@ -3707,7 +3707,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Aggiungere un avanzamento controllato invece di premere solo verso il basso."
+                    "text": "Aggiungere un avanzamento controllato."
                   },
                   {
                     "id": "b",
@@ -3740,7 +3740,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Il percorso scelto non sfrutta bene la curvatura del filo."
+                      "text": "Il percorso non corrisponde alla curvatura del filo."
                     },
                     {
                       "id": "d",
@@ -3785,7 +3785,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Usare dorso, faccia della lama o raschietto per il trasferimento."
+                    "text": "Usare dorso, faccia o un raschietto."
                   }
                 ],
                 "correct": "d",
@@ -3834,7 +3834,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Distribuisce il lavoro su più filo e riduce la compressione verso il basso."
+                    "text": "Riduce la compressione usando più filo."
                   },
                   {
                     "id": "c",
@@ -3864,7 +3864,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Il percorso di taglio è vicino alla mano di supporto e al corpo."
+                    "text": "Percorso del filo vicino a mano/corpo"
                   },
                   {
                     "id": "d",
@@ -3913,7 +3913,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Fermarsi e controllare stato del filo, stabilità dell'alimento, scelta del coltello e percorso."
+                    "text": "Fermarsi e diagnosticare filo, stabilità, utensile e percorso."
                   },
                   {
                     "id": "c",
@@ -3946,7 +3946,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "La sua geometria può incoraggiare forza o direzioni di carico inadatte al compito."
+                      "text": "La geometria può favorire direzioni di carico insicure."
                     }
                   ],
                   "correct": "d",
@@ -3983,7 +3983,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Rischia ferite alle mani e danni al filo per contatti duri."
+                    "text": "Rischio per le mani più danno al filo da contatto duro"
                   },
                   {
                     "id": "d",
@@ -4004,7 +4004,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Una protezione, un rotolo o una custodia adatti che fissino la lama"
+                      "text": "Una protezione, un rotolo o una custodia adatti"
                     },
                     {
                       "id": "c",
@@ -4070,7 +4070,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Dà a chi riceve una presa controllata mentre il filo resta orientato lontano."
+                    "text": "Presa controllata con il filo orientato lontano"
                   }
                 ],
                 "correct": "d",
@@ -4203,7 +4203,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Il filo è stato in parte riallineato senza grande rimozione di materiale."
+                      "text": "Il filo è stato parzialmente riallineato."
                     },
                     {
                       "id": "b",
@@ -4269,7 +4269,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Quando umidità, asciugatura e trattamento superficiale influenzano il legno diversamente."
+                    "text": "Quando il legno reagisce diversamente all'umidità"
                   },
                   {
                     "id": "d",
@@ -4353,7 +4353,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "L'abrasione necessaria cambia con acciaio, pietra e stato iniziale del filo."
+                      "text": "L'abrasione richiesta varia con acciaio, pietra e filo."
                     }
                   ],
                   "correct": "d",
@@ -4411,7 +4411,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Carburi di vanadio molto duri resistono a quell'abrasivo."
+                      "text": "I carburi duri di vanadio resistono all'abrasivo."
                     },
                     {
                       "id": "c",
@@ -4477,7 +4477,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Aiuto opzionale per una bava residua molto fine dopo un buon lavoro su pietra"
+                    "text": "Aiuto opzionale dopo un buon lavoro su pietra"
                   }
                 ],
                 "correct": "d",
@@ -4533,7 +4533,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Spessore e geometria delle facce al tallone possono essere importanti nonostante la punta sottile."
+                    "text": "Spessore al tallone e geometria delle facce"
                   },
                   {
                     "id": "d",
@@ -4550,7 +4550,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Una lama alta può migliorare lo spazio per le nocche, ma il comfort reale dipende ancora da presa e geometria del manico."
+                      "text": "La lama alta aiuta lo spazio; il comfort dipende ancora dalla presa."
                     },
                     {
                       "id": "b",
@@ -4595,7 +4595,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Il metodo di saldatura da solo non stabilisce qualità del giunto, controllo termico o prestazioni complessive."
+                    "text": "La sola saldatura non stabilisce la qualità complessiva."
                   },
                   {
                     "id": "c",
@@ -4624,7 +4624,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Molto poco; l'analisi deve separare progetto, assemblaggio e abuso prima di generalizzare."
+                      "text": "Molto poco senza separare progetto, assemblaggio e abuso."
                     },
                     {
                       "id": "d",
@@ -4660,7 +4660,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Come la massa è distribuita rispetto alla presa"
+                    "text": "Distribuzione della massa rispetto alla presa"
                   }
                 ],
                 "correct": "d",
@@ -4674,7 +4674,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Accoppiamenti, esecuzione dei giunti, dimensioni, finitura e prestazioni sotto carichi previsti"
+                    "text": "Accoppiamenti, giunti, dimensioni e prestazioni sotto carico"
                   },
                   {
                     "id": "b",
@@ -4756,7 +4756,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "La lunga durata del filo può contare di più perché possiede abrasivi adatti e affila raramente."
+                      "text": "La lunga durata del filo può giustificare affilatura più lenta."
                     },
                     {
                       "id": "c",
@@ -4858,7 +4858,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Tolleranza richiesta a abuso laterale o impatto"
+                    "text": "Tolleranza agli abusi"
                   },
                   {
                     "id": "d",
@@ -4880,7 +4880,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Evidenze di prestazione legate a geometria e uso previsti, non solo HRC"
+                    "text": "Evidenze prestazionali specifiche per l'uso"
                   },
                   {
                     "id": "c",
@@ -4939,7 +4939,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Sequenza austenitizzazione/tempra/sottozero e bilancio delle trasformazioni"
+                    "text": "Sequenza di trasformazione della tempra"
                   },
                   {
                     "id": "d",
@@ -4956,7 +4956,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Può ingrossare i grani o alterare sfavorevolmente l'equilibrio carburi/soluzione."
+                      "text": "Può ingrossare i grani o alterare il bilancio dei carburi."
                     },
                     {
                       "id": "b",
@@ -5001,7 +5001,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La lega può contenere molto volume di carburi molto duri nonostante la distribuzione fine."
+                    "text": "Alto volume di carburi molto duri"
                   },
                   {
                     "id": "c",
@@ -5030,7 +5030,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Microstruttura più uniforme a un contenuto di lega che segregerebbe fortemente nella colata convenzionale"
+                      "text": "Microstruttura più uniforme ad alto contenuto di lega"
                     },
                     {
                       "id": "d",
@@ -5066,7 +5066,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "I coltelli utili richiedono una microstruttura equilibrata, non solo il numero più alto."
+                    "text": "Microstruttura finale equilibrata"
                   }
                 ],
                 "correct": "d",
@@ -5080,7 +5080,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Ogni acciaio PM è più tenace, affilato e facile da affilare di ogni acciaio convenzionale."
+                    "text": "Ogni acciaio PM è universalmente superiore."
                   },
                   {
                     "id": "b",
@@ -5200,7 +5200,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Testare geometria e bilanciamento reali; il materiale desiderato può spostare troppa massa indietro."
+                    "text": "Testare prima geometria e bilanciamento reali."
                   },
                   {
                     "id": "b",
@@ -5237,7 +5237,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Stratificazione, densità, finitura, profilo e distribuzione delle masse possono differire."
+                      "text": "Stratificazione, densità, finitura, profilo e distribuzione delle masse"
                     }
                   ],
                   "correct": "d",
@@ -5265,7 +5265,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Priorità esplicite, compromessi dichiarati e coerenza con geometria/uso"
+                    "text": "Priorità esplicite e compromessi dichiarati"
                   },
                   {
                     "id": "d",
@@ -5287,7 +5287,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Confrontare insieme proprietà del materiale, geometria, finitura, bilanciamento e cura."
+                    "text": "Confrontare materiale, geometria, bilanciamento e cura"
                   },
                   {
                     "id": "c",
@@ -5345,7 +5345,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Acciaio del nucleo/filo, trattamento termico e geometria del filo"
+                    "text": "Metallurgia del nucleo e geometria del filo"
                   },
                   {
                     "id": "d",
@@ -5362,7 +5362,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "L'affilatura è geometria dell'apice; Damasco descrive un percorso costruttivo/di motivo."
+                      "text": "L'affilatura è geometria dell'apice, non un'etichetta del motivo."
                     },
                     {
                       "id": "b",
@@ -5407,7 +5407,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La microtexture aiuta ancora i tagli in scorrimento mentre la raffinatezza di picco dell'apice è calata."
+                    "text": "La microtexture sostiene ancora il mordente in scorrimento."
                   },
                   {
                     "id": "c",
@@ -5472,7 +5472,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Questo monosteel damascato al laser è vero Damasco stratificato perché il motivo sembra profondo."
+                    "text": "Un motivo laser significa vero Damasco stratificato."
                   }
                 ],
                 "correct": "d",
@@ -5486,7 +5486,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Reale contatto di taglio/tagliere e contrasto d'usura tra strati"
+                    "text": "Contrasto d'usura tra strati"
                   },
                   {
                     "id": "b",
@@ -5551,7 +5551,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "L'apice è affilato, ma spessore/geometria più indietro creano resistenza."
+                    "text": "Spessore dietro il filo e geometria delle facce"
                   }
                 ],
                 "correct": "d",
@@ -5568,7 +5568,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Riduce materiale dietro il filo e quindi la resistenza da cuneo."
+                      "text": "Riduce materiale dietro il filo ed effetto cuneo."
                     },
                     {
                       "id": "c",
@@ -5670,7 +5670,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Se la lama entra facilmente prima che la resistenza aumenti più in profondità"
+                    "text": "Dove inizia la resistenza nel taglio"
                   },
                   {
                     "id": "d",
@@ -5692,7 +5692,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Verificare geometria prevista, proporzioni attuali dei biselli e tecnica prima di rimolare."
+                    "text": "Verificare la geometria prevista prima di rimolare"
                   },
                   {
                     "id": "c",
@@ -5750,7 +5750,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Separare i compiti: gyuto sottile per preparazione e utensile adatto alle ossa."
+                    "text": "Usare utensili separati per preparazione e impatto sull'osso."
                   },
                   {
                     "id": "d",
@@ -5767,7 +5767,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Quando il suo vantaggio meccanico risolve un compito frequente e importante."
+                      "text": "Quando risolve un compito frequente e importante."
                     },
                     {
                       "id": "b",
@@ -5812,7 +5812,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La massa avanzata crea un braccio di leva maggiore nella presa arretrata."
+                    "text": "La massa avanzata aumenta il braccio di leva nella presa arretrata."
                   },
                   {
                     "id": "c",
@@ -5841,7 +5841,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Profilo di raccordo/manico e pressione locale di contatto"
+                      "text": "Profilo raccordo/manico e pressione locale"
                     },
                     {
                       "id": "d",
@@ -5877,7 +5877,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Pochi coltelli tutti adatti al compito principale, con compromessi espliciti tra loro"
+                    "text": "Pochi coltelli adatti al compito con compromessi espliciti"
                   }
                 ],
                 "correct": "d",
@@ -5891,7 +5891,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Lasciare il cliente nella presa naturale e confrontare più coltelli funzionalmente adatti."
+                    "text": "Confrontare coltelli adatti nella presa naturale"
                   },
                   {
                     "id": "b",
@@ -5973,7 +5973,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Il filo più piatto non mantiene contatto col tagliere lungo quell'arco di rocking."
+                      "text": "Scarso contatto durante un rocking ampio"
                     },
                     {
                       "id": "c",
@@ -6047,7 +6047,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "La sua geometria ha direzioni e limiti di carico previsti come ogni altro utensile."
+                      "text": "La geometria specialistica ha comunque limiti di carico."
                     }
                   ],
                   "correct": "d",
@@ -6075,7 +6075,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Il coltello taglia pulito quando cambia il percorso ma male con un movimento specifico."
+                    "text": "La prestazione cambia con il percorso del movimento."
                   },
                   {
                     "id": "d",
@@ -6097,7 +6097,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "La lama richiede forza inattesa, torsione o posizione instabile della mano."
+                    "text": "Forza inattesa, torsione o posizione instabile della mano"
                   },
                   {
                     "id": "c",
@@ -6154,7 +6154,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Sono falliti più controlli a monte: stabilità dell'alimento, idoneità dell'utensile e gestione della forza."
+                    "text": "Sono falliti più controlli a monte."
                   },
                   {
                     "id": "d",
@@ -6171,7 +6171,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Standardizzare un appoggio antiscivolo e verificarlo prima di tagliare."
+                      "text": "Standardizzare e verificare l'appoggio antiscivolo."
                     },
                     {
                       "id": "b",
@@ -6216,7 +6216,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Conservazione dedicata e adatta che isola e fissa la posizione di ogni filo"
+                    "text": "Conservazione adatta che isola ogni filo"
                   },
                   {
                     "id": "c",
@@ -6245,7 +6245,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Orientamento definito più chiara conferma che chi riceve è pronto"
+                      "text": "Orientamento definito più conferma di chi riceve"
                     },
                     {
                       "id": "d",
@@ -6281,7 +6281,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Non rimuove condizioni instabili o utensili inadatti che creano il rischio."
+                    "text": "Lascia invariati i pericoli."
                   }
                 ],
                 "correct": "d",
@@ -6295,7 +6295,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Una protezione o un ceppo adatto che isola fisicamente il filo"
+                    "text": "Una protezione adatta che isola il filo"
                   },
                   {
                     "id": "b",
@@ -6361,7 +6361,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Usare un materiale professionale resiliente compatibile con la sanificazione e monitorarne lo stato."
+                    "text": "Tagliere professionale resiliente compatibile con la sanificazione"
                   }
                 ],
                 "correct": "d",
@@ -6378,7 +6378,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Solchi profondi, deformazioni o contaminazione possono cambiare stabilità e igiene in servizio."
+                      "text": "Solchi o deformazioni possono compromettere stabilità/igiene"
                     },
                     {
                       "id": "c",
@@ -6480,7 +6480,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Prezzo del tagliere più sostituzione, sanificazione e costo di manutenzione del filo indotto"
+                    "text": "Costo totale del ciclo di vita"
                   },
                   {
                     "id": "d",
@@ -6502,7 +6502,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Guancette allentate con movimento attorno al codolo"
+                    "text": "Guancette del manico allentate"
                   },
                   {
                     "id": "c",
@@ -6561,7 +6561,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Valutare ed eventualmente assottigliare la geometria dietro il filo."
+                    "text": "Valutare la necessità di assottigliare dietro il filo."
                   },
                   {
                     "id": "d",
@@ -6578,7 +6578,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Quando l'angolo/forma del filo previsti vanno cambiati o ripristinati in modo sostanziale"
+                      "text": "Quando la geometria del filo richiede un ripristino sostanziale"
                     },
                     {
                       "id": "b",
@@ -6623,7 +6623,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Un filo residuo non completamente rimosso dà falsa affilatura iniziale."
+                    "text": "Un filo residuo ancora presente"
                   },
                   {
                     "id": "c",
@@ -6652,7 +6652,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Incavatura della pietra o superficie di affilatura irregolare"
+                      "text": "Incavatura della pietra"
                     },
                     {
                       "id": "d",
@@ -6688,7 +6688,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Rimuove materiale dalla faccia e può cambiare finitura, esposizione del rivestimento e geometria."
+                    "text": "Cambia la geometria delle facce."
                   }
                 ],
                 "correct": "d",
@@ -6702,7 +6702,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Scegliere un abrasivo più efficiente adatto alla durezza dei carburi e mantenere la pressione controllata."
+                    "text": "Usare un abrasivo più efficiente adatto ai carburi."
                   },
                   {
                     "id": "b",
