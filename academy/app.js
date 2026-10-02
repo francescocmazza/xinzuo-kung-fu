@@ -195,6 +195,42 @@
     };
   }
 
+  function canMigrateCourseProgress(fromVersion, toVersion) {
+    return fromVersion === "0.2.0" && toVersion === "0.3.0";
+  }
+
+  function migrateCourseProgress(source, toVersion) {
+    const fromVersion = source?._courseVersion || null;
+    if (!canMigrateCourseProgress(fromVersion, toVersion)) return null;
+
+    const migrated = {
+      ...freshProgress(),
+      ...(source || {}),
+      lessons: { ...(source?.lessons || {}) },
+      concepts: { ...(source?.concepts || {}) },
+      miniTests: { ...(source?.miniTests || {}) },
+      moduleCompleted: { ...(source?.moduleCompleted || {}) },
+      _courseVersion: toVersion
+    };
+
+    // v0.3 keeps all existing lesson/concept IDs but expands Intermediate and
+    // Advanced from one to three lessons per module. Their old mini-tests no
+    // longer cover the complete module, so only those completion artifacts are
+    // invalidated. Base progress and all answered lessons/concepts are retained.
+    for (const key of Object.keys(migrated.miniTests)) {
+      if (key.startsWith("intermediate-") || key.startsWith("advanced-")) {
+        delete migrated.miniTests[key];
+      }
+    }
+    for (const key of Object.keys(migrated.moduleCompleted)) {
+      if (key.startsWith("intermediate-") || key.startsWith("advanced-")) {
+        delete migrated.moduleCompleted[key];
+      }
+    }
+    migrated._updatedAt = new Date().toISOString();
+    return migrated;
+  }
+
   function loadProgress() {
     try {
       const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
@@ -260,10 +296,20 @@
 
   function mergeRemoteProgress(remoteProgress) {
     if (course && remoteProgress?._courseVersion !== course.course_version) {
-      // v0.2 replaces the earlier use-heavy curriculum; incompatible legacy IDs
-      // must not inflate completion or manager metrics.
-      progress._courseVersion = course.course_version;
-      saveProgress();
+      const migratedRemote = migrateCourseProgress(remoteProgress, course.course_version);
+      const migratedLocal = migrateCourseProgress(progress, course.course_version);
+      if (migratedRemote || migratedLocal) {
+        progress = mergeProgress(migratedLocal || freshProgress(), migratedRemote || freshProgress());
+        progress._courseVersion = course.course_version;
+      } else {
+        // Older incompatible curricula must not inflate completion or manager metrics.
+        progress = freshProgress();
+        progress._courseVersion = course.course_version;
+      }
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+      updateProgressCard();
+      if (course && !currentModule) renderHome();
+      window.AcademyAccount?.syncProgress?.(progress, course.course_version);
       return;
     }
     progress = mergeProgress(progress, remoteProgress);
@@ -292,7 +338,8 @@
     if (!response.ok) throw new Error(`Unable to load course data (${response.status})`);
     course = await response.json();
     if (progress._courseVersion !== course.course_version) {
-      progress = freshProgress();
+      const migrated = migrateCourseProgress(progress, course.course_version);
+      progress = migrated || freshProgress();
       progress._courseVersion = course.course_version;
       localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
     }
