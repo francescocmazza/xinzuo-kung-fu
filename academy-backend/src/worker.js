@@ -1257,7 +1257,7 @@ function publicAssessmentQuestion(question, locale) {
     conceptId:question.conceptId,
     critical:Boolean(question.critical),
     prompt:question.prompt[lang] || question.prompt.en,
-    options:question.options.map(option=>({
+    options:randomShuffle(question.options).map(option=>({
       id:option.id,
       text:option[lang] || option.en
     }))
