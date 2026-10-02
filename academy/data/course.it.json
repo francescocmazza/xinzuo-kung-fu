@@ -65,7 +65,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Filo / tagliente"
+                    "text": "Tagliente"
                   }
                 ],
                 "correct": "d",
@@ -82,7 +82,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Filo / tagliente"
+                      "text": "Tagliente"
                     },
                     {
                       "id": "c",
@@ -110,7 +110,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Filo / tagliente"
+                      "text": "Tagliente"
                     },
                     {
                       "id": "d",
@@ -318,7 +318,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Filo / tagliente"
+                    "text": "Tagliente"
                   },
                   {
                     "id": "c",
@@ -1159,7 +1159,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Acciaio del nucleo distinto"
+                    "text": "Nucleo distinto"
                   },
                   {
                     "id": "c",
@@ -1192,7 +1192,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Acciaio del nucleo distinto"
+                      "text": "Nucleo distinto"
                     }
                   ],
                   "correct": "d",
@@ -1204,7 +1204,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Acciaio del nucleo distinto"
+                      "text": "Nucleo distinto"
                     },
                     {
                       "id": "b",
@@ -1428,7 +1428,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Acciaio del nucleo distinto"
+                    "text": "Nucleo distinto"
                   }
                 ],
                 "correct": "d",
@@ -2447,7 +2447,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Estrarre e cambiare angolo"
+                    "text": "Estrarre e correggere"
                   }
                 ],
                 "correct": "d",
@@ -2464,7 +2464,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Estrarre e cambiare angolo"
+                      "text": "Estrarre e correggere"
                     },
                     {
                       "id": "c",
@@ -2492,7 +2492,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Estrarre e cambiare angolo"
+                      "text": "Estrarre e correggere"
                     },
                     {
                       "id": "d",
@@ -2572,7 +2572,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Estrarre e cambiare angolo"
+                    "text": "Estrarre e correggere"
                   },
                   {
                     "id": "c",
@@ -2806,7 +2806,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Contatto libero nel cassetto"
+                    "text": "Filo libero"
                   },
                   {
                     "id": "c",
@@ -2839,7 +2839,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Contatto libero nel cassetto"
+                      "text": "Filo libero"
                     }
                   ],
                   "correct": "d",
@@ -2851,7 +2851,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Contatto libero nel cassetto"
+                      "text": "Filo libero"
                     },
                     {
                       "id": "b",
@@ -2947,7 +2947,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Contatto libero nel cassetto"
+                    "text": "Filo libero"
                   }
                 ],
                 "correct": "d",
@@ -3080,7 +3080,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Contatto sul bisello del filo"
+                    "text": "Contatto del bisello"
                   },
                   {
                     "id": "b",
@@ -3105,7 +3105,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Contatto sul bisello del filo"
+                      "text": "Contatto del bisello"
                     },
                     {
                       "id": "b",
@@ -3141,7 +3141,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Contatto sul bisello del filo"
+                      "text": "Contatto del bisello"
                     }
                   ],
                   "correct": "d",
@@ -3277,7 +3277,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Contatto sul bisello del filo"
+                    "text": "Contatto del bisello"
                   },
                   {
                     "id": "b",
@@ -3554,7 +3554,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Equilibrio tra resistenza alla corrosione e tenuta"
+                    "text": "Corrosione e tenuta bilanciate"
                   },
                   {
                     "id": "c",
@@ -3587,7 +3587,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Equilibrio tra resistenza alla corrosione e tenuta"
+                      "text": "Corrosione e tenuta bilanciate"
                     }
                   ],
                   "correct": "d",
@@ -3599,7 +3599,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Equilibrio tra resistenza alla corrosione e tenuta"
+                      "text": "Corrosione e tenuta bilanciate"
                     },
                     {
                       "id": "b",
@@ -3635,7 +3635,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Equilibrio tra resistenza alla corrosione e tenuta"
+                    "text": "Corrosione e tenuta bilanciate"
                   },
                   {
                     "id": "c",
@@ -3669,7 +3669,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Equilibrio tra resistenza alla corrosione e tenuta"
+                    "text": "Corrosione e tenuta bilanciate"
                   }
                 ],
                 "correct": "d",
@@ -3683,7 +3683,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Equilibrio tra resistenza alla corrosione e tenuta"
+                    "text": "Corrosione e tenuta bilanciate"
                   },
                   {
                     "id": "b",
@@ -4124,7 +4124,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Spessore dietro il filo"
+                    "text": "Spessore retrofilo"
                   }
                 ],
                 "correct": "d",
@@ -4141,7 +4141,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Spessore dietro il filo"
+                      "text": "Spessore retrofilo"
                     },
                     {
                       "id": "c",
@@ -4169,7 +4169,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Spessore dietro il filo"
+                      "text": "Spessore retrofilo"
                     },
                     {
                       "id": "d",
@@ -4205,7 +4205,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Spessore dietro il filo"
+                    "text": "Spessore retrofilo"
                   }
                 ],
                 "correct": "d",
@@ -4223,7 +4223,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Spessore dietro il filo"
+                    "text": "Spessore retrofilo"
                   },
                   {
                     "id": "c",
@@ -4253,7 +4253,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Spessore dietro il filo"
+                    "text": "Spessore retrofilo"
                   },
                   {
                     "id": "d",
@@ -5245,7 +5245,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Uso e geometria del filo"
+                    "text": "Uso e geometria"
                   },
                   {
                     "id": "c",
@@ -5278,7 +5278,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Uso e geometria del filo"
+                      "text": "Uso e geometria"
                     }
                   ],
                   "correct": "d",
@@ -5290,7 +5290,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Uso e geometria del filo"
+                      "text": "Uso e geometria"
                     },
                     {
                       "id": "b",
@@ -5326,7 +5326,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Uso e geometria del filo"
+                    "text": "Uso e geometria"
                   },
                   {
                     "id": "c",
@@ -5360,7 +5360,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Uso e geometria del filo"
+                    "text": "Uso e geometria"
                   }
                 ],
                 "correct": "d",
@@ -5374,7 +5374,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Uso e geometria del filo"
+                    "text": "Uso e geometria"
                   },
                   {
                     "id": "b",
@@ -5434,7 +5434,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Dimensione dei carburi e geometria del filo"
+                    "text": "Carburi e geometria"
                   },
                   {
                     "id": "c",
@@ -5467,7 +5467,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Dimensione dei carburi e geometria del filo"
+                      "text": "Carburi e geometria"
                     }
                   ],
                   "correct": "d",
@@ -5479,7 +5479,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Dimensione dei carburi e geometria del filo"
+                      "text": "Carburi e geometria"
                     },
                     {
                       "id": "b",
@@ -5515,7 +5515,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Dimensione dei carburi e geometria del filo"
+                    "text": "Carburi e geometria"
                   },
                   {
                     "id": "c",
@@ -5549,7 +5549,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Dimensione dei carburi e geometria del filo"
+                    "text": "Carburi e geometria"
                   }
                 ],
                 "correct": "d",
@@ -5563,7 +5563,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Dimensione dei carburi e geometria del filo"
+                    "text": "Carburi e geometria"
                   },
                   {
                     "id": "b",
@@ -5617,7 +5617,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Evidenze misurate su strati e filo"
+                    "text": "Evidenze misurate"
                   },
                   {
                     "id": "b",
@@ -5642,7 +5642,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Evidenze misurate su strati e filo"
+                      "text": "Evidenze misurate"
                     },
                     {
                       "id": "b",
@@ -5678,7 +5678,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Evidenze misurate su strati e filo"
+                      "text": "Evidenze misurate"
                     }
                   ],
                   "correct": "d",
@@ -5698,7 +5698,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Evidenze misurate su strati e filo"
+                    "text": "Evidenze misurate"
                   },
                   {
                     "id": "b",
@@ -5724,7 +5724,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Evidenze misurate su strati e filo"
+                    "text": "Evidenze misurate"
                   },
                   {
                     "id": "b",
@@ -5762,7 +5762,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Evidenze misurate su strati e filo"
+                    "text": "Evidenze misurate"
                   }
                 ],
                 "correct": "d",
@@ -6177,7 +6177,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Eliminare il carico laterale di torsione"
+                    "text": "Eliminare la torsione laterale"
                   },
                   {
                     "id": "b",
@@ -6202,7 +6202,7 @@
                   "options": [
                     {
                       "id": "a",
-                      "text": "Eliminare il carico laterale di torsione"
+                      "text": "Eliminare la torsione laterale"
                     },
                     {
                       "id": "b",
@@ -6238,7 +6238,7 @@
                     },
                     {
                       "id": "d",
-                      "text": "Eliminare il carico laterale di torsione"
+                      "text": "Eliminare la torsione laterale"
                     }
                   ],
                   "correct": "d",
@@ -6258,7 +6258,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Eliminare il carico laterale di torsione"
+                    "text": "Eliminare la torsione laterale"
                   },
                   {
                     "id": "b",
@@ -6284,7 +6284,7 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "Eliminare il carico laterale di torsione"
+                    "text": "Eliminare la torsione laterale"
                   },
                   {
                     "id": "b",
@@ -6322,7 +6322,7 @@
                   },
                   {
                     "id": "d",
-                    "text": "Eliminare il carico laterale di torsione"
+                    "text": "Eliminare la torsione laterale"
                   }
                 ],
                 "correct": "d",
@@ -6372,7 +6372,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Superficie e abitudini di contatto"
+                    "text": "Superficie e contatto"
                   },
                   {
                     "id": "d",
@@ -6397,7 +6397,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "Superficie e abitudini di contatto"
+                      "text": "Superficie e contatto"
                     },
                     {
                       "id": "d",
@@ -6417,7 +6417,7 @@
                     },
                     {
                       "id": "b",
-                      "text": "Superficie e abitudini di contatto"
+                      "text": "Superficie e contatto"
                     },
                     {
                       "id": "c",
@@ -6453,7 +6453,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Superficie e abitudini di contatto"
+                    "text": "Superficie e contatto"
                   },
                   {
                     "id": "d",
@@ -6479,7 +6479,7 @@
                   },
                   {
                     "id": "c",
-                    "text": "Superficie e abitudini di contatto"
+                    "text": "Superficie e contatto"
                   },
                   {
                     "id": "d",
@@ -6501,7 +6501,7 @@
                   },
                   {
                     "id": "b",
-                    "text": "Superficie e abitudini di contatto"
+                    "text": "Superficie e contatto"
                   },
                   {
                     "id": "c",
