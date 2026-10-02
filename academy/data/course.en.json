@@ -229,76 +229,76 @@
               },
               "question": {
                 "id": "b-knife-system-03-q",
-                "prompt": "What should guide handle-material choice?",
+                "prompt": "What should guide the choice of handle material?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Country of origin"
+                    "text": "The highest density available"
                   },
                   {
                     "id": "b",
-                    "text": "Use and care context"
+                    "text": "The user's grip, environment and care routine"
                   },
                   {
                     "id": "c",
-                    "text": "Pattern alone"
+                    "text": "The most complex visible grain"
                   },
                   {
                     "id": "d",
-                    "text": "Highest density only"
+                    "text": "The lowest weight in every case"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Choose the handle as an interface, not as decoration alone."
+                "explanation": "Handle materials should be chosen as part of the user interface, with use, moisture exposure and care in mind."
               },
               "recovery_questions": [
                 {
                   "id": "b-knife-system-03-r1",
-                  "prompt": "Review: What should guide handle-material choice?",
+                  "prompt": "Why might stabilized wood be chosen instead of untreated natural wood?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Pattern alone"
+                      "text": "It always gives a softer grip"
                     },
                     {
                       "id": "b",
-                      "text": "Highest density only"
+                      "text": "It always weighs less"
                     },
                     {
                       "id": "c",
-                      "text": "Country of origin"
+                      "text": "It changes the blade hardness"
                     },
                     {
                       "id": "d",
-                      "text": "Use and care context"
+                      "text": "It can offer greater dimensional stability under changing moisture"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Choose the handle as an interface, not as decoration alone."
+                  "explanation": "Stabilization can make wood more consistent and less sensitive to moisture-related movement."
                 },
                 {
                   "id": "b-knife-system-03-r2",
-                  "prompt": "Application check — Understand handle materials: which answer is correct?",
+                  "prompt": "Why is there no universally best handle material?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Use and care context"
+                      "text": "Different hands, environments and care habits create different priorities"
                     },
                     {
                       "id": "b",
-                      "text": "Pattern alone"
+                      "text": "Every material has exactly the same properties"
                     },
                     {
                       "id": "c",
-                      "text": "Highest density only"
+                      "text": "Only appearance changes between materials"
                     },
                     {
                       "id": "d",
-                      "text": "Country of origin"
+                      "text": "Handle material matters only to collectors"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Choose the handle as an interface, not as decoration alone."
+                  "explanation": "Handle choice is a practical compromise among feel, stability, maintenance and appearance."
                 }
               ]
             }
@@ -362,27 +362,27 @@
               },
               {
                 "id": "b-knife-system-mini-3",
-                "prompt": "Module check — Understand handle materials: which answer is correct?",
+                "prompt": "What should guide the choice of handle material?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Pattern alone"
+                    "text": "The highest density available"
                   },
                   {
                     "id": "b",
-                    "text": "Highest density only"
+                    "text": "The most complex visible grain"
                   },
                   {
                     "id": "c",
-                    "text": "Country of origin"
+                    "text": "The lowest weight in every case"
                   },
                   {
                     "id": "d",
-                    "text": "Use and care context"
+                    "text": "The user's grip, environment and care routine"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Choose the handle as an interface, not as decoration alone.",
+                "explanation": "Handle materials should be chosen as part of the user interface, with use, moisture exposure and care in mind.",
                 "concept_id": "knife-system.handle-materials.base",
                 "critical": false
               }
@@ -505,11 +505,11 @@
               },
               "question": {
                 "id": "b-steel-performance-02-q",
-                "prompt": "Which property most directly resists cracking?",
+                "prompt": "Which property most directly resists cracking and fracture?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Pattern density"
+                    "text": "Hardness"
                   },
                   {
                     "id": "b",
@@ -517,44 +517,44 @@
                   },
                   {
                     "id": "c",
-                    "text": "Hardness"
+                    "text": "Wear resistance"
                   },
                   {
                     "id": "d",
-                    "text": "Polish"
+                    "text": "Corrosion resistance"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Hard is not the same as tough."
+                "explanation": "Toughness is the property most directly associated with resisting fracture under impact or lateral stress."
               },
               "recovery_questions": [
                 {
                   "id": "b-steel-performance-02-r1",
-                  "prompt": "Review: Which property most directly resists cracking?",
+                  "prompt": "Can a very hard edge still chip?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Hardness"
+                      "text": "No; high hardness prevents chipping"
                     },
                     {
                       "id": "b",
-                      "text": "Polish"
+                      "text": "Only if the steel is not stainless"
                     },
                     {
                       "id": "c",
-                      "text": "Pattern density"
+                      "text": "Only if the blade is forged"
                     },
                     {
                       "id": "d",
-                      "text": "Toughness"
+                      "text": "Yes; hardness and toughness are different properties"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Hard is not the same as tough."
+                  "explanation": "Hardness supports the edge, while toughness governs resistance to fracture; one does not replace the other."
                 },
                 {
                   "id": "b-steel-performance-02-r2",
-                  "prompt": "Application check — Separate hardness from toughness: which answer is correct?",
+                  "prompt": "A knife will face occasional impact and lateral stress. Which property becomes especially important?",
                   "options": [
                     {
                       "id": "a",
@@ -562,19 +562,19 @@
                     },
                     {
                       "id": "b",
-                      "text": "Hardness"
+                      "text": "Polish level"
                     },
                     {
                       "id": "c",
-                      "text": "Polish"
+                      "text": "Pattern contrast"
                     },
                     {
                       "id": "d",
-                      "text": "Pattern density"
+                      "text": "Edge retention alone"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Hard is not the same as tough."
+                  "explanation": "Toughness helps the steel resist cracks and fracture when loads are not purely straight cutting loads."
                 }
               ]
             },
@@ -702,7 +702,7 @@
               },
               {
                 "id": "b-steel-performance-mini-2",
-                "prompt": "Module check — Separate hardness from toughness: which answer is correct?",
+                "prompt": "Which property most directly resists cracking and fracture?",
                 "options": [
                   {
                     "id": "a",
@@ -710,11 +710,11 @@
                   },
                   {
                     "id": "b",
-                    "text": "Polish"
+                    "text": "Wear resistance"
                   },
                   {
                     "id": "c",
-                    "text": "Pattern density"
+                    "text": "Corrosion resistance"
                   },
                   {
                     "id": "d",
@@ -722,7 +722,7 @@
                   }
                 ],
                 "correct": "d",
-                "explanation": "Hard is not the same as tough.",
+                "explanation": "Toughness is the property most directly associated with resisting fracture under impact or lateral stress.",
                 "concept_id": "steel-performance.hardness-toughness.base",
                 "critical": false
               },
@@ -874,19 +874,19 @@
               },
               "question": {
                 "id": "b-metallurgy-02-q",
-                "prompt": "What most directly develops the final microstructure of a blade steel?",
+                "prompt": "Which process most directly develops the final microstructure of a blade steel?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Blade logo"
+                    "text": "Final grinding"
                   },
                   {
                     "id": "b",
-                    "text": "Handle shape"
+                    "text": "Surface polishing"
                   },
                   {
                     "id": "c",
-                    "text": "Packaging method"
+                    "text": "Handle assembly"
                   },
                   {
                     "id": "d",
@@ -894,56 +894,56 @@
                   }
                 ],
                 "correct": "d",
-                "explanation": "The same alloy can behave differently after different heat treatment."
+                "explanation": "Heat treatment transforms the steel into the microstructure intended for the finished blade."
               },
               "recovery_questions": [
                 {
                   "id": "b-metallurgy-02-r1",
-                  "prompt": "Review: What most directly develops the final microstructure of a blade steel?",
+                  "prompt": "Why is a high HRC number not a complete description of steel performance?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Packaging method"
+                      "text": "HRC measures only corrosion resistance"
                     },
                     {
                       "id": "b",
-                      "text": "Heat treatment"
+                      "text": "Microstructure, toughness and geometry still matter"
                     },
                     {
                       "id": "c",
-                      "text": "Blade logo"
+                      "text": "HRC describes handle stiffness"
                     },
                     {
                       "id": "d",
-                      "text": "Handle shape"
+                      "text": "HRC tells you the layer count"
                     }
                   ],
                   "correct": "b",
-                  "explanation": "The same alloy can behave differently after different heat treatment."
+                  "explanation": "Hardness is useful, but it does not describe the whole microstructure or the geometry supporting the edge."
                 },
                 {
                   "id": "b-metallurgy-02-r2",
-                  "prompt": "Application check — Understand heat treatment and carbides: which answer is correct?",
+                  "prompt": "What is a carbide in knife steel?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Handle shape"
+                      "text": "A name for the martensitic matrix"
                     },
                     {
                       "id": "b",
-                      "text": "Packaging method"
+                      "text": "A type of handle reinforcement"
                     },
                     {
                       "id": "c",
-                      "text": "Heat treatment"
+                      "text": "A separate hard compound formed by carbon with iron or alloying elements"
                     },
                     {
                       "id": "d",
-                      "text": "Blade logo"
+                      "text": "A surface polishing mark"
                     }
                   ],
                   "correct": "c",
-                  "explanation": "The same alloy can behave differently after different heat treatment."
+                  "explanation": "Carbides are distinct compounds in the steel; they are not the same thing as martensite or a surface finish."
                 }
               ]
             },
@@ -1071,19 +1071,19 @@
               },
               {
                 "id": "b-metallurgy-mini-2",
-                "prompt": "Module check — Understand heat treatment and carbides: which answer is correct?",
+                "prompt": "Which process most directly develops the final microstructure of a blade steel?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Blade logo"
+                    "text": "Final grinding"
                   },
                   {
                     "id": "b",
-                    "text": "Handle shape"
+                    "text": "Surface polishing"
                   },
                   {
                     "id": "c",
-                    "text": "Packaging method"
+                    "text": "Handle assembly"
                   },
                   {
                     "id": "d",
@@ -1091,7 +1091,7 @@
                   }
                 ],
                 "correct": "d",
-                "explanation": "The same alloy can behave differently after different heat treatment.",
+                "explanation": "Heat treatment transforms the steel into the microstructure intended for the finished blade.",
                 "concept_id": "metallurgy.heat-treatment-carbides.base",
                 "critical": false
               },
@@ -1151,76 +1151,76 @@
               },
               "question": {
                 "id": "b-damascus-01-q",
-                "prompt": "What does core-and-cladding Damascus contain at the cutting core?",
+                "prompt": "What does a core-and-cladding Damascus knife contain at the cutting core?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "A plastic insert"
+                    "text": "The same alternating layers all the way through"
                   },
                   {
                     "id": "b",
-                    "text": "Separate core steel"
+                    "text": "A separate core steel"
                   },
                   {
                     "id": "c",
-                    "text": "Only surface paint"
+                    "text": "A monosteel blade with etched decoration"
                   },
                   {
                     "id": "d",
-                    "text": "No metallic layers"
+                    "text": "A non-metal insert between the layers"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Name the construction before discussing the pattern."
+                "explanation": "Core-and-cladding construction places a dedicated cutting steel inside layered outer material."
               },
               "recovery_questions": [
                 {
                   "id": "b-damascus-01-r1",
-                  "prompt": "Review: What does core-and-cladding Damascus contain at the cutting core?",
+                  "prompt": "What distinguishes full-Damascus construction from core-and-cladding?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Only surface paint"
+                      "text": "It is always made from one homogeneous steel"
                     },
                     {
                       "id": "b",
-                      "text": "No metallic layers"
+                      "text": "It uses a painted pattern instead of metal layers"
                     },
                     {
                       "id": "c",
-                      "text": "A plastic insert"
+                      "text": "It cannot require sharpening"
                     },
                     {
                       "id": "d",
-                      "text": "Separate core steel"
+                      "text": "The layered construction itself continues through the blade instead of surrounding a separate cutting core"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Name the construction before discussing the pattern."
+                  "explanation": "Full Damascus does not rely on a separate monosteel cutting core in the same way as core-and-cladding construction."
                 },
                 {
                   "id": "b-damascus-01-r2",
-                  "prompt": "Application check — Distinguish Damascus constructions: which answer is correct?",
+                  "prompt": "Can a visible Damascus-style pattern alone identify the underlying construction?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Separate core steel"
+                      "text": "No; appearance alone is not enough to prove the internal structure"
                     },
                     {
                       "id": "b",
-                      "text": "Only surface paint"
+                      "text": "Yes; every visible pattern proves forged layers"
                     },
                     {
                       "id": "c",
-                      "text": "No metallic layers"
+                      "text": "Yes; the pattern gives the exact layer count"
                     },
                     {
                       "id": "d",
-                      "text": "A plastic insert"
+                      "text": "Only if the blade is stainless"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Name the construction before discussing the pattern."
+                  "explanation": "Pattern appearance and metallurgical construction must be distinguished."
                 }
               ]
             },
@@ -1412,27 +1412,27 @@
             "questions": [
               {
                 "id": "b-damascus-mini-1",
-                "prompt": "Module check — Distinguish Damascus constructions: which answer is correct?",
+                "prompt": "What does a core-and-cladding Damascus knife contain at the cutting core?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Only surface paint"
+                    "text": "The same alternating layers all the way through"
                   },
                   {
                     "id": "b",
-                    "text": "No metallic layers"
+                    "text": "A monosteel blade with etched decoration"
                   },
                   {
                     "id": "c",
-                    "text": "A plastic insert"
+                    "text": "A non-metal insert between the layers"
                   },
                   {
                     "id": "d",
-                    "text": "Separate core steel"
+                    "text": "A separate core steel"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Name the construction before discussing the pattern.",
+                "explanation": "Core-and-cladding construction places a dedicated cutting steel inside layered outer material.",
                 "concept_id": "damascus.damascus-types.base",
                 "critical": false
               },
@@ -1697,76 +1697,76 @@
               },
               "question": {
                 "id": "b-geometry-03-q",
-                "prompt": "What most directly contributes to wedging in thick food?",
+                "prompt": "What most directly contributes to wedging in thick food even when the apex is sharp?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Behind-edge thickness"
+                    "text": "Thickness behind the edge"
                   },
                   {
                     "id": "b",
-                    "text": "Logo depth"
+                    "text": "Blade length"
                   },
                   {
                     "id": "c",
-                    "text": "Handle color"
+                    "text": "Final polish"
                   },
                   {
                     "id": "d",
-                    "text": "Box material"
+                    "text": "Handle balance"
                   }
                 ],
                 "correct": "a",
-                "explanation": "Edge angle is only one part of cutting geometry."
+                "explanation": "A thick section behind the apex can force food apart and create wedging."
               },
               "recovery_questions": [
                 {
                   "id": "b-geometry-03-r1",
-                  "prompt": "Review: What most directly contributes to wedging in thick food?",
+                  "prompt": "What does blade taper describe?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Behind-edge thickness"
+                      "text": "How blade thickness changes along part of the blade"
                     },
                     {
                       "id": "b",
-                      "text": "Logo depth"
+                      "text": "How shiny the blade surface is"
                     },
                     {
                       "id": "c",
-                      "text": "Handle color"
+                      "text": "How hard the handle material is"
                     },
                     {
                       "id": "d",
-                      "text": "Box material"
+                      "text": "How many times the edge was sharpened"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Edge angle is only one part of cutting geometry."
+                  "explanation": "Taper is a geometric change in thickness, not a surface finish or a hardness measurement."
                 },
                 {
                   "id": "b-geometry-03-r2",
-                  "prompt": "Application check — Read thickness and taper: which answer is correct?",
+                  "prompt": "A knife enters food easily but then feels thick and pushes it apart. Which area should you inspect?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Logo depth"
+                      "text": "Only the tip shape"
                     },
                     {
                       "id": "b",
-                      "text": "Handle color"
+                      "text": "Only the handle profile"
                     },
                     {
                       "id": "c",
-                      "text": "Box material"
+                      "text": "Only the spine finish"
                     },
                     {
                       "id": "d",
-                      "text": "Behind-edge thickness"
+                      "text": "The section just behind the edge"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Edge angle is only one part of cutting geometry."
+                  "explanation": "Initial bite comes from the apex, while deeper resistance often reflects the blade section behind it."
                 }
               ]
             }
@@ -1830,27 +1830,27 @@
               },
               {
                 "id": "b-geometry-mini-3",
-                "prompt": "Module check — Read thickness and taper: which answer is correct?",
+                "prompt": "What most directly contributes to wedging in thick food even when the apex is sharp?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Handle color"
+                    "text": "Blade length"
                   },
                   {
                     "id": "b",
-                    "text": "Box material"
+                    "text": "Final polish"
                   },
                   {
                     "id": "c",
-                    "text": "Behind-edge thickness"
+                    "text": "Thickness behind the edge"
                   },
                   {
                     "id": "d",
-                    "text": "Logo depth"
+                    "text": "Handle balance"
                   }
                 ],
                 "correct": "c",
-                "explanation": "Edge angle is only one part of cutting geometry.",
+                "explanation": "A thick section behind the apex can force food apart and create wedging.",
                 "concept_id": "geometry.section-geometry.base",
                 "critical": false
               }
@@ -1884,76 +1884,76 @@
               },
               "question": {
                 "id": "b-knife-types-01-q",
-                "prompt": "What should come first when choosing a general-purpose knife?",
+                "prompt": "What should come first when choosing a general-purpose kitchen knife?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "The largest pattern"
+                    "text": "Blade length by itself"
                   },
                   {
                     "id": "b",
-                    "text": "The highest price"
+                    "text": "Steel prestige by itself"
                   },
                   {
                     "id": "c",
-                    "text": "The darkest handle"
+                    "text": "Visual style by itself"
                   },
                   {
                     "id": "d",
-                    "text": "Actual cutting work"
+                    "text": "The cutting tasks the user actually performs"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Start from task and movement, not the silhouette."
+                "explanation": "A general-purpose knife should first match the user's real work and preferred movement."
               },
               "recovery_questions": [
                 {
                   "id": "b-knife-types-01-r1",
-                  "prompt": "Review: What should come first when choosing a general-purpose knife?",
+                  "prompt": "Why is 'general-purpose' not the same as 'best for every task'?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "The darkest handle"
+                      "text": "General-purpose knives cannot be sharpened finely"
                     },
                     {
                       "id": "b",
-                      "text": "Actual cutting work"
+                      "text": "Specialist shapes can solve specific cutting jobs better"
                     },
                     {
                       "id": "c",
-                      "text": "The largest pattern"
+                      "text": "General-purpose knives are always shorter"
                     },
                     {
                       "id": "d",
-                      "text": "The highest price"
+                      "text": "Specialist knives use different metals by definition"
                     }
                   ],
                   "correct": "b",
-                  "explanation": "Start from task and movement, not the silhouette."
+                  "explanation": "General-purpose designs cover a wide range of work, while specialist geometry can be better for a narrow task."
                 },
                 {
                   "id": "b-knife-types-01-r2",
-                  "prompt": "Application check — Recognize general-purpose families: which answer is correct?",
+                  "prompt": "A user mainly push-cuts vegetables on a board. What should influence the knife choice?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "The highest price"
+                      "text": "Gift packaging"
                     },
                     {
                       "id": "b",
-                      "text": "The darkest handle"
+                      "text": "Highest layer count"
                     },
                     {
                       "id": "c",
-                      "text": "Actual cutting work"
+                      "text": "Blade profile, useful length and comfort in that movement"
                     },
                     {
                       "id": "d",
-                      "text": "The largest pattern"
+                      "text": "Country of manufacture alone"
                     }
                   ],
                   "correct": "c",
-                  "explanation": "Start from task and movement, not the silhouette."
+                  "explanation": "Knife selection should connect the shape and handling to the movement the user repeats most often."
                 }
               ]
             },
@@ -2068,72 +2068,72 @@
                 "options": [
                   {
                     "id": "a",
-                    "text": "The box changes leverage"
+                    "text": "The blade changes mass in the hand"
                   },
                   {
                     "id": "b",
-                    "text": "Different grip positions"
+                    "text": "They may grip it at different positions"
                   },
                   {
                     "id": "c",
-                    "text": "The steel changes weight"
+                    "text": "The center of mass physically moves"
                   },
                   {
                     "id": "d",
-                    "text": "The logo shifts mass"
+                    "text": "The steel changes density during use"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Let the user compare suitable knives in the grip they actually use."
+                "explanation": "Grip position changes leverage and therefore the balance a user feels."
               },
               "recovery_questions": [
                 {
                   "id": "b-knife-types-03-r1",
-                  "prompt": "Review: Why can the same knife feel differently balanced to two users?",
+                  "prompt": "What does a measured balance point tell you?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "The steel changes weight"
+                      "text": "Which steel has the best edge retention"
                     },
                     {
                       "id": "b",
-                      "text": "The logo shifts mass"
+                      "text": "How sharp the apex is"
                     },
                     {
                       "id": "c",
-                      "text": "The box changes leverage"
+                      "text": "Whether the handle is moisture resistant"
                     },
                     {
                       "id": "d",
-                      "text": "Different grip positions"
+                      "text": "Where the knife's mass balances physically, not exactly how every user will perceive it"
                     }
                   ],
                   "correct": "d",
-                  "explanation": "Let the user compare suitable knives in the grip they actually use."
+                  "explanation": "Measured balance is objective, while perceived balance also depends on grip and hand position."
                 },
                 {
                   "id": "b-knife-types-03-r2",
-                  "prompt": "Application check — Feel balance in the real grip: which answer is correct?",
+                  "prompt": "If a knife receives a much heavier handle while the blade stays the same, what is likely to change?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Different grip positions"
+                      "text": "The balance shifts toward the handle"
                     },
                     {
                       "id": "b",
-                      "text": "The steel changes weight"
+                      "text": "The blade becomes harder"
                     },
                     {
                       "id": "c",
-                      "text": "The logo shifts mass"
+                      "text": "The edge angle decreases"
                     },
                     {
                       "id": "d",
-                      "text": "The box changes leverage"
+                      "text": "The steel becomes more corrosion resistant"
                     }
                   ],
                   "correct": "a",
-                  "explanation": "Let the user compare suitable knives in the grip they actually use."
+                  "explanation": "Changing mass distribution changes balance even when the blade itself is unchanged."
                 }
               ]
             }
@@ -2145,27 +2145,27 @@
             "questions": [
               {
                 "id": "b-knife-types-mini-1",
-                "prompt": "Module check — Recognize general-purpose families: which answer is correct?",
+                "prompt": "What should come first when choosing a general-purpose kitchen knife?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "The largest pattern"
+                    "text": "Blade length by itself"
                   },
                   {
                     "id": "b",
-                    "text": "The highest price"
+                    "text": "Steel prestige by itself"
                   },
                   {
                     "id": "c",
-                    "text": "The darkest handle"
+                    "text": "Visual style by itself"
                   },
                   {
                     "id": "d",
-                    "text": "Actual cutting work"
+                    "text": "The cutting tasks the user actually performs"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Start from task and movement, not the silhouette.",
+                "explanation": "A general-purpose knife should first match the user's real work and preferred movement.",
                 "concept_id": "knife-types.general-purpose.base",
                 "critical": false
               },
@@ -2197,27 +2197,27 @@
               },
               {
                 "id": "b-knife-types-mini-3",
-                "prompt": "Module check — Feel balance in the real grip: which answer is correct?",
+                "prompt": "Why can the same knife feel differently balanced to two users?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "The box changes leverage"
+                    "text": "The blade changes mass in the hand"
                   },
                   {
                     "id": "b",
-                    "text": "Different grip positions"
+                    "text": "They may grip it at different positions"
                   },
                   {
                     "id": "c",
-                    "text": "The steel changes weight"
+                    "text": "The center of mass physically moves"
                   },
                   {
                     "id": "d",
-                    "text": "The logo shifts mass"
+                    "text": "The steel changes density during use"
                   }
                 ],
                 "correct": "b",
-                "explanation": "Let the user compare suitable knives in the grip they actually use.",
+                "explanation": "Grip position changes leverage and therefore the balance a user feels.",
                 "concept_id": "knife-types.balance-grip.base",
                 "critical": false
               }
