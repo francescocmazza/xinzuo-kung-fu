@@ -79,3 +79,7 @@ English and Italian share stable lesson, concept and assessment IDs, so changing
 GitHub knowledge base → bilingual Academy curriculum → adaptive learning engine → Cloudflare Worker + D1 → learner / manager / certificate views.
 
 The Academy is published separately to GitHub Pages so Academy-only changes do not create a new book/PDF revision.
+
+## Catalogue recognition batches
+
+The staff training area includes photographed model recognition, separate from final certification. Admins can enable or disable each of 64 knife series and inspect all 475 model records and source-data exceptions. Each new batch draws up to five random knives, with shuffled answers, feedback per knife, server-side grading, resumable progress, and manager results by skill. Initially the 15 series requested for Rome store training are enabled. See `academy-backend/data/README.md` for source precedence, coverage, exceptions and deployment.

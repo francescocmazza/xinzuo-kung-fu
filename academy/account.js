@@ -687,6 +687,7 @@
   }
 
   async function refreshManager() {
+    window.dispatchEvent(new CustomEvent("academy-manager-refresh"));
     el.managerOverview.innerHTML = "<p>Caricamento…</p>";
     el.managerUsers.innerHTML = '<tr><td colspan="8">Caricamento…</td></tr>';
     try {
@@ -1233,6 +1234,7 @@
 
   window.AcademyAccount = Object.freeze({
     apiAvailable,
+    request: api,
     getUser: () => currentUser,
     isAuthenticated: () => Boolean(currentUser),
     syncProgress,
