@@ -22,17 +22,19 @@ The JSON records SHA-256 hashes for the two supplied files. Photographs are extr
 
 ## Operational behaviour
 
-An authenticated learner starts up to five knives, spread across enabled series, with one random knife per series before further draws. The immediately previous attempt's models are avoided where alternatives exist. If a series has only one model, repetition is unavoidable. Options are independently shuffled. Disabling a series affects future attempts; stored attempts retain their original question snapshots.
+An authenticated, explicitly enabled staff member starts exactly ten distinct knives, spread across enabled series, with one random knife per series before further draws. The immediately previous attempt's models are avoided where alternatives exist. If a series has only one model, repetition is unavoidable. Options are independently shuffled. Disabling a series affects future attempts; stored attempts retain their original question snapshots.
 
 Each knife is submitted once as a group (series/type/handle/steel/layers/use/price where available), then receives corrective feedback. Keys and prices are omitted from the question API; the Worker grades and stores results in D1. These are **formative** tests, not tamper-proof examinations: the repository/catalogue is public, like the other learning sources.
 
 The current attempt can be resumed after a reload. Starting another closes the previous attempt as partial. Attempts expire after two hours. Results show both aggregate and per-skill scores, keeping incomplete batches visibly partial. No certificate is issued by this module.
 
+Access defaults to denied for every account, including admins taking a test. Only admins can grant or revoke access in the staff panel; revocation also blocks unfinished attempts. Existing results are retained. The panel lists every registered person with completed/started counts and a weighted score across completed sessions. Individual reports provide all-time completed-session skill scores and paginated history (50 attempts per page), including partial attempts. At least ten eligible models must be enabled to start a batch. Existing saved attempts retain their original length.
+
 ## Updating
 
 Edit the reviewed per-product JSON, preserving stable IDs/SKUs and source references. Add an individual image and set `quizReady: true` only after verifying the model. Resolve source conflicts before restoring a null specification. Never copy EXW, supplier prices, or a whole workbook into this public repository.
 
-Run `node academy-backend/scripts/test-catalogue.mjs` (Node 22+), the existing curriculum validator and certification-bank audit. Deploy migration `0005_catalogue_tests.sql` before the Worker. Both existing Pages publishing workflows include `catalogue.js` and all `academy/data` assets. The existing backend deployment workflow applies D1 migrations.
+Run `node academy-backend/scripts/test-catalogue.mjs` (Node 22+), the existing curriculum validator and certification-bank audit. Deploy migrations through `0006_catalogue_staff_access.sql` before the Worker. Both existing Pages publishing workflows include `catalogue.js` and all `academy/data` assets. The existing backend deployment workflow applies D1 migrations.
 
 ## Higher-resolution photograph update — 2026-10-19
 
