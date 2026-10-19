@@ -31,13 +31,25 @@
  }
  function renderCard(card){
   attempt.card=card;
+  const photo=card.image+(card.image.includes('?')?'&':'?')+'v=20261019-hd';
   const host=learner.querySelector('#catalogueQuestion');
-  host.innerHTML=`<form id="catalogueAnswer" class="catalogue-test"><h3 tabindex="-1">${testLocale==='it'?'Coltello':'Knife'} ${card.index+1} / ${card.total}</h3><figure class="catalogue-photo"><img src="${esc(card.image)}" alt="${testLocale==='it'?'Coltello da riconoscere':'Knife to identify'}"></figure><div class="catalogue-fields">${card.fields.map(f=>`<fieldset><legend>${esc(field(f.key))}</legend>${f.options.map(o=>`<label><input type="radio" name="${esc(f.key)}" value="${esc(o.id)}" required> <span>${esc(o.label)}</span></label>`).join('')}</fieldset>`).join('')}${card.askPrice?`<label class="catalogue-price">${esc(field('price'))}<input name="price" type="number" step="0.01" min="0" required inputmode="decimal" placeholder="€"></label>`:`<p>${testLocale==='it'?'Prezzo retail non disponibile: domanda non valutata.':'Retail price unavailable: not scored.'}</p>`}</div><p data-answer-status role="status"></p><button class="button" type="submit">${testLocale==='it'?'Conferma e vedi la correzione':'Submit and see feedback'}</button></form>`;
-  const img=host.querySelector('img');img.onerror=()=>{host.querySelector('button').disabled=true;host.querySelector('[data-answer-status]').textContent=t('Immagine non disponibile. Ricarica per riprendere; nessuna risposta è stata inviata.','Image unavailable. Reload to resume; no answer has been submitted.');};
+  host.innerHTML=`<form id="catalogueAnswer" class="catalogue-test"><h3 tabindex="-1">${testLocale==='it'?'Coltello':'Knife'} ${card.index+1} / ${card.total}</h3><figure class="catalogue-photo"><img src="${esc(photo)}" alt="${testLocale==='it'?'Coltello da riconoscere':'Knife to identify'}"><figcaption><button type="button" class="button button--quiet" id="catalogueZoom">${testLocale==='it'?'Ingrandisci immagine':'Enlarge image'}</button></figcaption></figure><div class="catalogue-fields">${card.fields.map(f=>`<fieldset><legend>${esc(field(f.key))}</legend>${f.options.map(o=>`<label><input type="radio" name="${esc(f.key)}" value="${esc(o.id)}" required> <span>${esc(o.label)}</span></label>`).join('')}</fieldset>`).join('')}${card.askPrice?`<label class="catalogue-price">${esc(field('price'))}<input name="price" type="number" step="0.01" min="0" required inputmode="decimal" placeholder="€"></label>`:`<p>${testLocale==='it'?'Prezzo retail non disponibile: domanda non valutata.':'Retail price unavailable: not scored.'}</p>`}</div><p data-answer-status role="status"></p><button class="button" type="submit">${testLocale==='it'?'Conferma e vedi la correzione':'Submit and see feedback'}</button></form>`;
+  const img=host.querySelector('img');img.onerror=()=>{host.querySelector('button[type=submit]').disabled=true;host.querySelector('[data-answer-status]').textContent=t('Immagine non disponibile. Ricarica per riprendere; nessuna risposta è stata inviata.','Image unavailable. Reload to resume; no answer has been submitted.');};
+  host.querySelector('#catalogueZoom').onclick=()=>openPhoto(photo);
   host.querySelector('form').onsubmit=submit;
   host.querySelector('h3').focus();
  }
- async function submit(event){event.preventDefault();const form=event.currentTarget;const b=form.querySelector('button');b.disabled=true;
+ function openPhoto(src){
+  const dialog=document.createElement('dialog');dialog.className='catalogue-zoom';
+  dialog.setAttribute('aria-label',testLocale==='it'?'Immagine ingrandita del coltello':'Enlarged knife image');
+  dialog.innerHTML=`<div class="catalogue-zoom-toolbar"><button type="button" class="button" data-close>${testLocale==='it'?'Chiudi':'Close'}</button><button type="button" class="button button--quiet" data-size>${testLocale==='it'?'Dimensione originale':'Original size'}</button></div><div class="catalogue-zoom-scroll"><img src="${esc(src)}" alt="${testLocale==='it'?'Coltello da riconoscere':'Knife to identify'}"></div>`;
+  document.body.append(dialog);dialog.showModal();
+  dialog.querySelector('[data-close]').onclick=()=>dialog.close();
+  dialog.querySelector('[data-size]').onclick=e=>{const full=dialog.classList.toggle('catalogue-zoom--original');e.currentTarget.textContent=full?(testLocale==='it'?'Adatta allo schermo':'Fit to screen'):(testLocale==='it'?'Dimensione originale':'Original size');};
+  dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
+  dialog.addEventListener('close',()=>{dialog.remove();document.getElementById('catalogueZoom')?.focus();},{once:true});
+ }
+ async function submit(event){event.preventDefault();const form=event.currentTarget;const b=form.querySelector('button[type=submit]');b.disabled=true;
   const answers=Object.fromEntries(new FormData(form));if(attempt.card.askPrice)answers.price=Number(answers.price);
   try{const data=await api('/api/catalogue/answer',{method:'POST',body:JSON.stringify({attemptId:attempt.attemptId,index:attempt.card.index,answers})});next=data.next;
    const r=data.result;const host=learner.querySelector('#catalogueQuestion');

@@ -1,0 +1,5993 @@
+[
+  {
+    "id": "v0012",
+    "sku": "B13D-6.5CS",
+    "previousDimensions": [
+      111,
+      112
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "c5a4f23b52b6c10299ce9bbabaec587ad4c5a59e1f144f4413d2c132e7b4979c",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13D_B13D 6.5'' chef_1.jpg"
+  },
+  {
+    "id": "v0018",
+    "sku": "B13D-CS",
+    "previousDimensions": [
+      758,
+      142
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "0ab42bc162d74650339f045cd7df44829342758ddfffa1df22dfb18f57f4ac52",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13D_B13D 8.5’‘ chef_1.jpg"
+  },
+  {
+    "id": "v0019",
+    "sku": "B13D-DC",
+    "previousDimensions": [
+      706,
+      194
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "ea9877c64c98ec1f04e0dfb9bce2838b3353a3baf818b71c1a503871ec137f20",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13D_B13D 6.5'' cleaver_1.jpg"
+  },
+  {
+    "id": "v0022",
+    "sku": "B13D-KG",
+    "previousDimensions": [
+      692,
+      212
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "e84826dfd75049509162d9e08d81bf0034fb0975c69c232b836d0289273fd3a1",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13D_B13D 6.5'' bone chopper_1.jpg"
+  },
+  {
+    "id": "v0024",
+    "sku": "B13D-RS",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "e114321f273879612f949c0440e7749666861ee4454ad6900a4f137681335d54",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13D_B13D 7’‘ santoku_1.jpg"
+  },
+  {
+    "id": "v0025",
+    "sku": "B13D-SG",
+    "previousDimensions": [
+      546,
+      86
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "623f11b210cec011c8859af8042c325eaaf4a6de18be8e9d2fe7882f895e18e9",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13D_B13D 3.5'' paring_1.jpg"
+  },
+  {
+    "id": "v0026",
+    "sku": "B13D-WY",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "0167d611da5cb00e8bfacc6784195f3af1611b9d155afbf01edf6ec95d5830ef",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13D_B13D 5’‘ utility_1.jpg"
+  },
+  {
+    "id": "v0027",
+    "sku": "B13H-6.5CS",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "d9926b3491e8fccb35e82f3661d234edb04c018db2a613176e270a58c4cdefa8",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13H_B13H 6.5''chef 6.5_1.jpg"
+  },
+  {
+    "id": "v0030",
+    "sku": "B13H-CS",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "b7798379e9334a4bd9ae8997be7592d65e3f7ddcaa10752549206d4e15e890de",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13H_B13H 8''chef_1.jpg"
+  },
+  {
+    "id": "v0031",
+    "sku": "B13H-DC",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "e87cf9c0f19d954eb259a81400d3941e53c2c5f39b4815de0d03ef977bf3bb2c",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13H_B13H 7''cleaver_1.jpg"
+  },
+  {
+    "id": "v0032",
+    "sku": "B13H-RS",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "2ad5d61e1b6238c565fe099a8f62a393ffb6a682d2ea8b1d75b2bd4232e0e37f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13H_B13H 7''santoku_1.jpg"
+  },
+  {
+    "id": "v0033",
+    "sku": "B13H-WY",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "44fa5221d44d33f71b7a0078ade5a023aafe1e1b22cc1a7678f2bbbaa8ea9b15",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13H_B13H 5''utility_1.jpg"
+  },
+  {
+    "id": "v0034",
+    "sku": "B13R-10CS",
+    "previousDimensions": [
+      782,
+      120
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "1c57a289c750da71550847eb0425dab8429c5aae44fabd8376bb4588d2d9adce",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 10'' chef_（1）.jpg"
+  },
+  {
+    "id": "v0037",
+    "sku": "B13R-5RS",
+    "previousDimensions": [
+      538,
+      96
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "4c4019dbc9e6c7c5a63579b5d1bbf9d3aaa6df0d753266bb640619c0d9ed0768",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 5’‘ santoku_（1）.jpg"
+  },
+  {
+    "id": "v0044",
+    "sku": "B13R-CS",
+    "previousDimensions": [
+      110,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "fc0ab40db207cbdf828cea809e5c03e35727c2e00040b1e294f63e99600d8309",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 8.5'' chef_（1）.jpg"
+  },
+  {
+    "id": "v0045",
+    "sku": "B13R-DC",
+    "previousDimensions": [
+      644,
+      188
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "00e0008958e7b6e8739818e14b41514c6c7e0e3f661501badef7260d780fe0ed",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 6.5’‘ cleaver_3.jpg"
+  },
+  {
+    "id": "v0049",
+    "sku": "B13R-KG",
+    "previousDimensions": [
+      624,
+      212
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "4d873c41f35848aa56bfb0ac946b83a3240c320e0536f1fbbeac40228983904d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 6.5'' bone chopper_1.jpg"
+  },
+  {
+    "id": "v0050",
+    "sku": "B13R-MB",
+    "previousDimensions": [
+      718,
+      82
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "02ceb89f44b70c2c8e42df92d8ec5842d5e5b2bf0183c2744d7c52b9ca35471e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 9’‘ bread_（1）.jpg"
+  },
+  {
+    "id": "v0051",
+    "sku": "B13R-NP",
+    "previousDimensions": [
+      526,
+      78
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "e36d9fd9f1ece085ce86c433fa7197a439e055bec1fc82d8681a4bfe780c1db3",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 5'' steak_（1）.jpg"
+  },
+  {
+    "id": "v0052",
+    "sku": "B13R-QR",
+    "previousDimensions": [
+      670,
+      80
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "a7bb8ecfd025c2c3523d6e062eeec58fc935dda82b8d50587a665063c348644a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 8’‘ carving_（1）.jpg"
+  },
+  {
+    "id": "v0053",
+    "sku": "B13R-RS",
+    "previousDimensions": [
+      110,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "af491d500330b4d1efb7198864141aa713dce193292e6a6cccc67ddc52497330",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 7’‘ santoku_（1）.jpg"
+  },
+  {
+    "id": "v0054",
+    "sku": "B13R-SG",
+    "previousDimensions": [
+      464,
+      76
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "864b37352b755d9f848a8239ea7317bbb3c9936fdcd197faa79d04fdbdf25d4e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 3.5'' paring_（1）.jpg"
+  },
+  {
+    "id": "v0055",
+    "sku": "B13R-TG",
+    "previousDimensions": [
+      548,
+      80
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "c30545602f788c3b8eafe1e8af23c3ca4b93941473bd93b2a2f2cddbe4104062",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 6’‘ boning_（1）.jpg"
+  },
+  {
+    "id": "v0056",
+    "sku": "B13R-WY",
+    "previousDimensions": [
+      532,
+      90
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "d8b359bc21706fb3b91d8b2d515e7f303c0f631779db2bdf91b5d05e761641a2",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 5'' utility_（1）.jpg"
+  },
+  {
+    "id": "v0057",
+    "sku": "B13R-XC",
+    "previousDimensions": [
+      97,
+      97
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "522d512160cc6d7d458415235cbeb17d5e99bb6e6112f015b7b8bfb002d0fa19",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 7.3'' nakiri_（1）.jpg"
+  },
+  {
+    "id": "v0058",
+    "sku": "B13R-YD",
+    "previousDimensions": [
+      188,
+      188
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "04aa1ab9d878f0fa4f538491924485a22c6601deb799776f5da6d8e64c3f5c7f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13R_B13R 7'' fillet knief_（1）.jpg"
+  },
+  {
+    "id": "v0059",
+    "sku": "B13S-10CS",
+    "previousDimensions": [
+      164,
+      164
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "b61889015cd9e16c883b3c4a32f0e5fb73524997166f2f855bdd96e03a2a2d7b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 10’‘ chef 10_renamed.jpg"
+  },
+  {
+    "id": "v0060",
+    "sku": "B13S-12QR",
+    "previousDimensions": [
+      914,
+      90
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "5fa13509bdb55020308c57438be6c27e70c1fe95a0da64c393e7c47a11b46d8a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 12’‘ Granton carving_1.jpg"
+  },
+  {
+    "id": "v0062",
+    "sku": "B13S-5RS",
+    "previousDimensions": [
+      544,
+      98
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "7a1febcfcaaafdc26b8bdb7463184cb922e9f507930d67c39f03fcbdf8cf31d4",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 5’‘ santoku 5_1.jpg"
+  },
+  {
+    "id": "v0063",
+    "sku": "B13S-6.5CS",
+    "previousDimensions": [
+      672,
+      130
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "5d461396105534c103f38d15bd45a97905ee89160c808a571ec2b17a2ec523f9",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b13s-6-5cs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_9085a201-5048-4d96-8268-b7c0cdc75993.jpg?v=1787823513"
+  },
+  {
+    "id": "v0069",
+    "sku": "B13S-CS",
+    "previousDimensions": [
+      760,
+      130
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "131ff9e304ad3c302d17d6b1f22b4c067f8a10bd278b1994046433decfb7b75d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 8.5’‘ chef_1.jpg"
+  },
+  {
+    "id": "v0070",
+    "sku": "B13S-DC",
+    "previousDimensions": [
+      694,
+      196
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "3fa049e8488355f17696a0a5a444c5b8c62a0bfb05721a48add8e61cc9f818e0",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 6.5’‘ cleaver_1.jpg"
+  },
+  {
+    "id": "v0072",
+    "sku": "B13S-KG",
+    "previousDimensions": [
+      682,
+      202
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "d7658c80357b7df12cc11e10bee35a96fbd7795074b55556a5c7cbd27b8718ea",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 6.5’‘ bone chopper_1.jpg"
+  },
+  {
+    "id": "v0073",
+    "sku": "B13S-MB",
+    "previousDimensions": [
+      788,
+      90
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "dbd81692109a7a3b891e8bd97f622082862a9a38177a658085568b816b1e0ef2",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 9’‘ bread kinife_6.jpg"
+  },
+  {
+    "id": "v0074",
+    "sku": "B13S-NP",
+    "previousDimensions": [
+      584,
+      84
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "a087a3897d68c1812d85205bb3ceac0b9257b05af71049ab06fe208f8e40b96b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 5’‘ steak_1.jpg"
+  },
+  {
+    "id": "v0075",
+    "sku": "B13S-QR",
+    "previousDimensions": [
+      105,
+      104
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "11d99933cc5fce6d9e3c646685d033b9fba793adf1beef5d21621b883fba237d",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b13s-qr",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_71ee0b21-4e9c-4cbf-9a1d-0da31a0c68c5.jpg?v=1787822945"
+  },
+  {
+    "id": "v0076",
+    "sku": "B13S-RS",
+    "previousDimensions": [
+      714,
+      128
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "78999a4e6bfd7a6c67cd64cfa5fee41833b5af0522535991fe741ffbfdfe8939",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 7’‘ santoku_1.jpg"
+  },
+  {
+    "id": "v0077",
+    "sku": "B13S-SG",
+    "previousDimensions": [
+      550,
+      82
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "0d2d01f76bff3b74ac302de9d866c83bb4e4c8c278928a421fcb26e527ce76e9",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 3.5’‘ paring_6.jpg"
+  },
+  {
+    "id": "v0078",
+    "sku": "B13S-TG",
+    "previousDimensions": [
+      656,
+      94
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "d3713d9c75bf52f8478f837d2e554eee2fa134629b9ffd360f8207c591f63b45",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 6’‘ boning_6.jpg"
+  },
+  {
+    "id": "v0079",
+    "sku": "B13S-WY",
+    "previousDimensions": [
+      124,
+      125
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "5295861abc1ec11d9657784cfaaa158aad45a233ce7ff7adc9b8ad751d64308a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 5’‘ utility_1.jpg"
+  },
+  {
+    "id": "v0080",
+    "sku": "B13S-XC",
+    "previousDimensions": [
+      718,
+      166
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "796ec43bced0d9f0af7b7a35b754d60a4f96067c3d41eedba8749dda6bb6faa6",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b13s-xc",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_7ad4023e-04b1-4564-9a77-53503f9c2d86.jpg?v=1787822861"
+  },
+  {
+    "id": "v0081",
+    "sku": "B13S-YD",
+    "previousDimensions": [
+      768,
+      106
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "587b833f6936459921d7a57fe5afe690c75fdeda3ba6b77bbd950258aaacf461",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B13S_B13S 9“ fillet 9_1.jpg"
+  },
+  {
+    "id": "v0082",
+    "sku": "B1H-10QR",
+    "previousDimensions": [
+      816,
+      108
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "494d779c2c97dfca8d52c7d30dc9dd1cc12472f4fddc4009a8adddaa58a7e39e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1H_B1H 10‘’ carving_1.jpg"
+  },
+  {
+    "id": "v0091",
+    "sku": "B1H-CS",
+    "previousDimensions": [
+      115,
+      116
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "4012b3e0849d392fc30ce62f4391490818bc289aef0ab8adf6539ccdeee3f28f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1H_B1H 8'' chef_sky.jpg"
+  },
+  {
+    "id": "v0092",
+    "sku": "B1H-DC",
+    "previousDimensions": [
+      672,
+      194
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "f8c0b51989e3a086809096395fee3a0233dd97c892fa7349e327aac1b9459df5",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1H_B1H 7‘’ cleaver_1.jpg"
+  },
+  {
+    "id": "v0097",
+    "sku": "B1H-KG",
+    "previousDimensions": [
+      650,
+      182
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "e4fd6e66f84f2aa8c061752b967ae1a673678a0fefdf3b6a44a0e888dd4ad976",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1H_B1H 6.5'' bone chopper_1.jpg"
+  },
+  {
+    "id": "v0098",
+    "sku": "B1H-MB",
+    "previousDimensions": [
+      698,
+      84
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "429d3924185638d89a506fa928cdfa42053bc04134bcc031d20eefbe18de7f24",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1H_B1H 8‘’ bread_1.jpg"
+  },
+  {
+    "id": "v0100",
+    "sku": "B1H-NP",
+    "previousDimensions": [
+      548,
+      64
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "6c665c26b3b1de641861e55821a19f54f824d830c4ff2cf8c226c3d70826520a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1H_B1H 5'' steak_800.jpg"
+  },
+  {
+    "id": "v0101",
+    "sku": "B1H-RS",
+    "previousDimensions": [
+      120,
+      121
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "d05cc669d31ce4d2a502fa7fd8caf617df74086ee7be69da2b093d0ff8882c71",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1H_B1H 7‘’ santoku_1.jpg"
+  },
+  {
+    "id": "v0102",
+    "sku": "B1H-SG",
+    "previousDimensions": [
+      474,
+      64
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "8c6bb12736c2f18c93452c38b8d8aa1ff79833ea4a8e395139505eb6dec616b1",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1H_B1H 3.5'' paring_1.jpg"
+  },
+  {
+    "id": "v0103",
+    "sku": "B1H-TG",
+    "previousDimensions": [
+      572,
+      80
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "ddd7a285d5b8819dd230eefb2626773c4daa674cbf9e8a7ea8f95c481286bf9c",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1H_B1H 5.5‘’ boning_renamed.jpg"
+  },
+  {
+    "id": "v0104",
+    "sku": "B1H-WY",
+    "previousDimensions": [
+      550,
+      70
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "4d825ab45701db79c63d2c0b924f1ffadf61766f393e48ecd80be5563fa49417",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1H_B1H 5‘’ utility_1.jpg"
+  },
+  {
+    "id": "v0105",
+    "sku": "B1H-XC",
+    "previousDimensions": [
+      640,
+      134
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "33d6f7ed1a7f3610fc4bfc725b23c5fe5a66abcbccff73e83ce3010f35c51f73",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1H_B1H 6.8'' nakiri_1.jpg"
+  },
+  {
+    "id": "v0106",
+    "sku": "B1Z-10QR",
+    "previousDimensions": [
+      732,
+      94
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "e9bffde584c5eb60331a771a6b640ee05ba7f5669bbbaf08e9ad3de1f04129ba",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1Z_B1Z 10‘’ carving_1.jpg"
+  },
+  {
+    "id": "v0114",
+    "sku": "B1Z-CS",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "a86665326445efd393b88abb13b8e5a0db776d656a127b58ce37a50c695e863c",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1Z_B1Z 8.5‘’ chef_1.jpg"
+  },
+  {
+    "id": "v0115",
+    "sku": "B1Z-DC",
+    "previousDimensions": [
+      618,
+      184
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "c60ac97e0b8360d4ce14d2e5c2a90f2c5a22a448209139cd9248a55b809dc8d4",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1Z_B1Z 7‘’ cleaver_1.jpg"
+  },
+  {
+    "id": "v0119",
+    "sku": "B1Z-KG",
+    "previousDimensions": [
+      614,
+      166
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "f34a86695a97b60de39248dd0e6e3a6c4bc763b0977bd32aa07c88ad6ccf7ced",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1Z_B1Z 6.5‘’ bone chopper_1.jpg"
+  },
+  {
+    "id": "v0120",
+    "sku": "B1Z-MB",
+    "previousDimensions": [
+      644,
+      82
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "b0442c5db19832864e2ff078b38ca09776f48fcc0b8d34338c86dc9568b65920",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1Z_B1Z 8‘’ bread_1.jpg"
+  },
+  {
+    "id": "v0122",
+    "sku": "B1Z-NP",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "664b09837065b36ba4f05a754f4af2245b037f6d8a527b5dc3e822cb702a4734",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1Z_B1Z 5‘’ steak_1.jpg"
+  },
+  {
+    "id": "v0123",
+    "sku": "B1Z-RS",
+    "previousDimensions": [
+      620,
+      108
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "a38b08cd11ed063255bd7ed6c4c003a725bafe264f446015a98b3f09f907ee48",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1Z_B1Z 7'' santoku_1.jpg"
+  },
+  {
+    "id": "v0124",
+    "sku": "B1Z-SG",
+    "previousDimensions": [
+      452,
+      72
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "f6c507caab4ff6050529bc9bc2798673838092e4211c2898f280a840ac64db4a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1Z_B1Z 3.5‘’ paring_1 2.jpg"
+  },
+  {
+    "id": "v0125",
+    "sku": "B1Z-TG",
+    "previousDimensions": [
+      556,
+      76
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "e19917ac2eeaf196015b2bfd3863cdd9bca1eb4caf3bf06dce0b21ee586a1acc",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1Z_B1Z 5.7‘’ boning_1.jpg"
+  },
+  {
+    "id": "v0126",
+    "sku": "B1Z-WY",
+    "previousDimensions": [
+      528,
+      68
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "acf818eeacd32c37612392bc89ef655d8dd6757cb9981408a65ddf1d28a4da6f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1Z_B1Z 5‘’ utility_1 4.jpg"
+  },
+  {
+    "id": "v0127",
+    "sku": "B1Z-XC",
+    "previousDimensions": [
+      600,
+      124
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "5c9d5ef283647a7b413111124f454eecdb25d307ecec2d5dcf3515e600823409",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B1Z_B1Z 6.8‘’ nakiri_1.jpg"
+  },
+  {
+    "id": "v0129",
+    "sku": "B2-7DC",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "477ae5438e5f9778b0fdcafa2f99465219be1562f9b078681e38734cdc8dee97",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B2_B2 7‘’ cleaver_1.jpg"
+  },
+  {
+    "id": "v0130",
+    "sku": "B2-8DC",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "e63b407bf65df45a321b75573c62ec00794c2138e7f0b7dc79117c429a0d50ff",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B2_B2 8‘’ cleaver_1.jpg"
+  },
+  {
+    "id": "v0133",
+    "sku": "B2-CS",
+    "previousDimensions": [
+      111,
+      112
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "5ea87c443a78035f36616679f1bd6b4a16a719b437f2da4d23ef392fbd477682",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B2_B2 8‘’ chef_1.jpg"
+  },
+  {
+    "id": "v0137",
+    "sku": "B2-RS",
+    "previousDimensions": [
+      111,
+      112
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "df527d07987977d2934a61e00fe76ed1bb23e9a780e2b34aaf7159d50aeab026",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B2_B2 7‘’ santoku_1.jpg"
+  },
+  {
+    "id": "v0141",
+    "sku": "B2-XC",
+    "previousDimensions": [
+      120,
+      124
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "2dbe2e93eeef52e306cf3db20912df7e48491777b020b8af72ce893c2faec788",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B2_B2 6.8'' nakiri_1.jpg"
+  },
+  {
+    "id": "v0148",
+    "sku": "B20-CS",
+    "previousDimensions": [
+      786,
+      130
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "79dc3ea507f211c305b4b7071494724a5001b4991cb27974286216d232bc340c",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B20_B20 8‘’ chef_1.jpg"
+  },
+  {
+    "id": "v0151",
+    "sku": "B20-MB",
+    "previousDimensions": [
+      786,
+      94
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "a02250b19e808cc4795dbb9e48bf6dce993e70f95727e2e2982016511f96825b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B20_B20 8‘’ bread_1.jpg"
+  },
+  {
+    "id": "v0152",
+    "sku": "B20-QR",
+    "previousDimensions": [
+      776,
+      90
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "a2a867bde4a76e8c377bb4f5da36a0138808b699aee84910038bd6031ce6a005",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B20_B20 8‘’ carving_1.jpg"
+  },
+  {
+    "id": "v0153",
+    "sku": "B20-RS",
+    "previousDimensions": [
+      728,
+      122
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "0e08c2b516c11ee1efc6e1ae3150210ef27cdab99afe9ddbea22df7099566e21",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B20_B20 7’‘ santoku_1.jpg"
+  },
+  {
+    "id": "v0154",
+    "sku": "B20-SG",
+    "previousDimensions": [
+      502,
+      78
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "05a011a15686dd2d26b05c52f0cf1fc416cd470705593ba1e2e19a7de405b5b6",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B20_B20 3.5’‘ paring_1.jpg"
+  },
+  {
+    "id": "v0155",
+    "sku": "B20-WY",
+    "previousDimensions": [
+      111,
+      110
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "241a44dd9dcede1824534d9ad26db015d8948857610f6cb1a9ecaabaddbafee2",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B20_B20 5’‘ utility_1.jpg"
+  },
+  {
+    "id": "v0156",
+    "sku": "B21-10QR",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "b41d513862aa5561e40f2bab010e9022bc727f24713b449f1c4ad395ccead872",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b21-10qr",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/1000_faab24ae-25a7-4073-b665-09d85e68a076.jpg?v=1787823775"
+  },
+  {
+    "id": "v0166",
+    "sku": "B27-CS",
+    "previousDimensions": [
+      127,
+      129
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "46f38930448989820f8efb8b9105eceab2a9586e0c2a800096d003d482bb03f7",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B27_B27 8.3‘’ bunka_1.jpg"
+  },
+  {
+    "id": "v0167",
+    "sku": "B27-DC",
+    "previousDimensions": [
+      706,
+      218
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "2481a566925fcba274b74c9b33df17a98b76ddfd25f5e0b6397e698acfde93bf",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B27_B27 7‘’ cleaver_1.jpg"
+  },
+  {
+    "id": "v0171",
+    "sku": "B27-KG",
+    "previousDimensions": [
+      702,
+      218
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "5635d933a6ea38e147b38ceb1dedfac432a5126c134f883e0233f9fa7a8f58a6",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B27_B27 6.5‘’ bone chopper_800.jpg"
+  },
+  {
+    "id": "v0172",
+    "sku": "B27-MB",
+    "previousDimensions": [
+      133,
+      133
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "123816f06bf20077379a3de95b4ccc0104a5d0424d16855986ef023ad3c399ed",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B27_B27 8.3‘’ bread_1.jpg"
+  },
+  {
+    "id": "v0173",
+    "sku": "B27-NP",
+    "previousDimensions": [
+      560,
+      90
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "d0f443655078d988e93c996629ece739884236df3e6930051aafb636028bc1a5",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B27_B27 5‘’ steak_1.jpg"
+  },
+  {
+    "id": "v0174",
+    "sku": "B27-QR",
+    "previousDimensions": [
+      756,
+      102
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "a3fd62cfce68f4e759e1659d4dbe3b9403a8e51fc66c13fe5db25fcec7e88f5a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B27_B27 8.3‘’ carving_800.jpg"
+  },
+  {
+    "id": "v0175",
+    "sku": "B27-RS",
+    "previousDimensions": [
+      716,
+      130
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "2a7e271ad0e738383972a45c1527e6d03cb297507bfddd01c48ed3f5e18028ee",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B27_B27 7‘’ santoku_1.jpg"
+  },
+  {
+    "id": "v0176",
+    "sku": "B27-SG",
+    "previousDimensions": [
+      462,
+      90
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "a5acc73bdd30cebac2d4008f8b705cb4f0f320524a4b07ab00349babe28499ce",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B27_B27 3‘’ paring_1.jpg"
+  },
+  {
+    "id": "v0177",
+    "sku": "B27-TG",
+    "previousDimensions": [
+      596,
+      90
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "cd660ed67d2d2c23d240828451c9739c345ed0abfaa8ed6949ebc8fe34d8979f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B27_B27 6‘’ boning_8001.jpg"
+  },
+  {
+    "id": "v0178",
+    "sku": "B27-WY",
+    "previousDimensions": [
+      570,
+      98
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "9ee7ca50c66063303af0bf844532a29f02805d756d625cb0d0465c8bbdb39c52",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B27_B27 5‘’ utility_1.jpg"
+  },
+  {
+    "id": "v0187",
+    "sku": "B30-CS",
+    "previousDimensions": [
+      650,
+      112
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "2c61acfb9b3f3ddf34dadb5604afc166f3a0f0342738dea32a1587c4d34f4ce7",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30_B30 8.3‘’ chef_1.jpg"
+  },
+  {
+    "id": "v0188",
+    "sku": "B30-DC",
+    "previousDimensions": [
+      620,
+      190
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "f50443d5ecd3d7e5e76ec5d0f659bf4e4531e21f8364c25e7fffcd7d9f1c00f0",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30_B30 6.8‘’ cleaver_1.jpg"
+  },
+  {
+    "id": "v0195",
+    "sku": "B30-KG",
+    "previousDimensions": [
+      614,
+      174
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "168b36214d03db959ab1dc6364c451d80f25b1fc7fbbb88e57589a53623c4d3d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30_B30 6.5‘’ bone chopper_1.jpg"
+  },
+  {
+    "id": "v0196",
+    "sku": "B30-MB",
+    "previousDimensions": [
+      111,
+      112
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "6de477dcee7d6bbdf9cdf6ed7cc71ad6506ca627dd035f87625c9a505d4cc646",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30_B30 8.5‘’ bread_1.jpg"
+  },
+  {
+    "id": "v0198",
+    "sku": "B30-NP",
+    "previousDimensions": [
+      548,
+      94
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "830d6b0f8434d38bd83c0532b7b7ba6c30354a16a2a9fb0edc95735414979026",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30_B30 5‘’ steak_1.jpg"
+  },
+  {
+    "id": "v0199",
+    "sku": "B30-QR",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "5a0afdfe138337375eef981dfce1a22406e344b498ea1f03c3cc73c34b03d41f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30_B30 10‘’ carving_1.jpg"
+  },
+  {
+    "id": "v0200",
+    "sku": "B30-RS",
+    "previousDimensions": [
+      630,
+      106
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "fbcc30cfd4e9fad58f101ca3f5cbd8b100e52377f5cb2e425fbbf7bdbbf57ca6",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30_B30 7‘’ santoku_1.jpg"
+  },
+  {
+    "id": "v0202",
+    "sku": "B30-SG",
+    "previousDimensions": [
+      450,
+      86
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "73ba1a005dc3fe50f8905cf0e27285435ff4fdade63b4ef0c90826015203c5c2",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30_B30 3.5‘’ paring_1.jpg"
+  },
+  {
+    "id": "v0203",
+    "sku": "B30-TG",
+    "previousDimensions": [
+      592,
+      92
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "a443b6ab139cf5aced18d3cc572ed99e1a8186c029f38f00dcfab85f84540fb1",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30_B30 5.5‘’ boning_1.jpg"
+  },
+  {
+    "id": "v0204",
+    "sku": "B30-WY",
+    "previousDimensions": [
+      550,
+      80
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "96e58c83c771772d4e75f31e4166e6030f05855685767d8e8c8b4fde13a7a30a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30_B30 5‘’ utility_1.jpg"
+  },
+  {
+    "id": "v0205",
+    "sku": "B30-XC",
+    "previousDimensions": [
+      602,
+      112
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "1bb28d10ef516832155dfb7e6366bff1d3aa9ec38e33b972d128afe12ac8e20d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30_B30 7‘’ nakiri_1.jpg"
+  },
+  {
+    "id": "v0213",
+    "sku": "B30R-CS",
+    "previousDimensions": [
+      714,
+      124
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "ff8223d5752f79fee78d7bb008a8c7d7627dc2521213545c0c0db0d751dd83d6",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30R_B30R 8.5'' chef_1.jpg"
+  },
+  {
+    "id": "v0214",
+    "sku": "B30R-DC",
+    "previousDimensions": [
+      650,
+      186
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "b2009ade24852541d558dafee077dacedda8df92e5ba93cde1d58ba7834103db",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30R_B30R 6.8'' cleaver_1.jpg"
+  },
+  {
+    "id": "v0215",
+    "sku": "B30R-GP",
+    "previousDimensions": [
+      498,
+      88
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "fc09195b904a73564da66f8250e4ce68f459c7c6bd431da4320ad31a310217c6",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30R_B30R 3.5‘’ paring_1.jpg"
+  },
+  {
+    "id": "v0218",
+    "sku": "B30R-KG",
+    "previousDimensions": [
+      646,
+      180
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "d05d98db4736ce4bea5cc4b2518d1288c7656c24870ef340c0111957039d1fc0",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30R_B30R 6.8‘’ bone chopper_1.jpg"
+  },
+  {
+    "id": "v0220",
+    "sku": "B30R-MB",
+    "previousDimensions": [
+      706,
+      92
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "68823ef879f9bf610e92821deec628187e2264d7737c314abd7470c05d0f3acf",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30R_B30R 8.5'' bread_1.jpg"
+  },
+  {
+    "id": "v0222",
+    "sku": "B30R-RS",
+    "previousDimensions": [
+      660,
+      128
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "8927ecb3238f3ed9c0084950921c276b55cd370fdc403b51b03b49b812191e27",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30R_B30R 7‘’ santoku_1.jpg"
+  },
+  {
+    "id": "v0223",
+    "sku": "B30R-WY",
+    "previousDimensions": [
+      518,
+      88
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "f43e7035671a0d70cefb8603657e88eedb4078cbafddba68c7126bf331096fb2",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B30R_B30R 5‘’ utility_1.jpg"
+  },
+  {
+    "id": "v0229",
+    "sku": "B30S-GP",
+    "previousDimensions": [
+      100,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "6afa2859380ec0346328a1763781d2a413edb9961f5d69ba1d6cdc26c9dd879c",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b30s-gp",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/ff88cc718f40e200d2deead3d7254ffa40629ad242b692a1c16cefd9ba29b67a.jpg?v=1787512764"
+  },
+  {
+    "id": "v0239",
+    "sku": "B32-DC",
+    "previousDimensions": [
+      708,
+      206
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "00d15fe6ff5907d217b22cc520aa5fa89ec62bba483e177a77644c49f55daf5b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B32_B32 7.3'' cleaver_1.jpg"
+  },
+  {
+    "id": "v0242",
+    "sku": "B32-MB",
+    "previousDimensions": [
+      768,
+      112
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "fb77eb9a53ca42857680ebff66d310c62f8098ad73751faef65b66d34f3fb63d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B32_B32 8.5'' bread_1.jpg"
+  },
+  {
+    "id": "v0244",
+    "sku": "B32-QR",
+    "previousDimensions": [
+      758,
+      122
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "406349cecc93f643e60c038409e9a462c5d74d65b70f68a7539f11a26ada8805",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B32_B32 8.3'' carving_1.jpg"
+  },
+  {
+    "id": "v0245",
+    "sku": "B32-RS",
+    "previousDimensions": [
+      712,
+      142
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "dc880c457c872fd9ef6cc8c373f426cc31c19b4c8f7eb20871cd0f0729f5fd08",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B32_B32 7.3'' santoku_1.jpg"
+  },
+  {
+    "id": "v0246",
+    "sku": "B32-SG",
+    "previousDimensions": [
+      564,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "a8a2ebf7ba8b1fa91d5d071f6d1a861e25da2bb21e09855909f148e607744fca",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B32_B32 3.5'' paring_1.jpg"
+  },
+  {
+    "id": "v0247",
+    "sku": "B32-WY",
+    "previousDimensions": [
+      624,
+      106
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "91bf6db85edad7ec62e5b703bd01a8fea7bf1d4c1b06045c7798a7b9db99dbd0",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B32_B32 5'' utility_1.jpg"
+  },
+  {
+    "id": "v0251",
+    "sku": "B32D-WY",
+    "previousDimensions": [
+      100,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "77a306b73c57fb18d1267a08d7d4aea526e0ec8d21189e3724515b354e1d3604",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B32D_B32D 5'' utility_1.jpg"
+  },
+  {
+    "id": "v0252",
+    "sku": "B32D-XC",
+    "previousDimensions": [
+      100,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "d2b5529f82c65c8c58bc64c55e7a3d4c0a07b38e2bc2f8f1323f9138b982fd4d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B32D_B32D 7‘’ nakiri_1.jpg"
+  },
+  {
+    "id": "v0253",
+    "sku": "B35-12QR",
+    "previousDimensions": [
+      896,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "b66ecf8373c9aa4e1b6d620938788dc31bb29ea6bbed978c0e56180cde9d4a70",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 12'' Granton carving_1.jpg"
+  },
+  {
+    "id": "v0254",
+    "sku": "B35-3.5ZS",
+    "previousDimensions": [
+      111,
+      110
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "dcb73bd6ca33eb08e0d0d3c3ce33b8e878937126813ddaf8700aa7d0cf2deeed",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 3.5'' cheese_1.jpg"
+  },
+  {
+    "id": "v0255",
+    "sku": "B35-4.5ZS",
+    "previousDimensions": [
+      109,
+      109
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d5d6954273a800604e4878f9e773a1d038d09c606a6b4c230ca79694336da9de",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 4.5'' cheese_renamed.jpg"
+  },
+  {
+    "id": "v0264",
+    "sku": "B35-CS",
+    "previousDimensions": [
+      710,
+      118
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "225d05e581331a35b2cf7822214ded29c54e90babf058cc02b78fee94a9737f5",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 8'' chef_800.jpg"
+  },
+  {
+    "id": "v0265",
+    "sku": "B35-DC",
+    "previousDimensions": [
+      652,
+      186
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d5bb85730c143a7d11163881443021958da8adfb39cfdafbf7288074e13e18a3",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 6.9'' cleaver_1.jpg"
+  },
+  {
+    "id": "v0266",
+    "sku": "B35-DR",
+    "previousDimensions": [
+      712,
+      120
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "11990db5f350ee856d86b2ba97d569f884a9b81472f1eb4d11a13e84c2258838",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 8'' frozen food_1.jpg"
+  },
+  {
+    "id": "v0268",
+    "sku": "B35-HT",
+    "previousDimensions": [
+      796,
+      90
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "a2f240caa57019819e902f2baf25dc9cb468d63a60fa226db2663cd990018c43",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 10'' Ham_1.jpg"
+  },
+  {
+    "id": "v0269",
+    "sku": "B35-HYD",
+    "previousDimensions": [
+      98,
+      98
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "2b1dd25f1adef08c18ac6502cd28cb7af848ee91e2481d8065287b82d55207b6",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 6'' butter_1.jpg"
+  },
+  {
+    "id": "v0270",
+    "sku": "B35-KG",
+    "previousDimensions": [
+      624,
+      186
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "9199ab0335cc1bfda0eeb1e1d82a4321833e1ce6e8178a9add14cef95befbaa9",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 6.7'' bone chopper_1.jpg"
+  },
+  {
+    "id": "v0271",
+    "sku": "B35-MB",
+    "previousDimensions": [
+      710,
+      90
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "6610e6297817f2cae3297bd134a1d5192fddf9a74568a4973ef8fa3c7549ebe4",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 8'' bread_1.jpg"
+  },
+  {
+    "id": "v0273",
+    "sku": "B35-QR",
+    "previousDimensions": [
+      716,
+      80
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "f3234a9b51264ccf6fb293d94481f3ca3111306dd7dd74a870e561066b9ae452",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 8'' carving_1.jpg"
+  },
+  {
+    "id": "v0274",
+    "sku": "B35-RS",
+    "previousDimensions": [
+      664,
+      112
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "9b37d6115dfbd391d937bdc0850e3bf1296622d2d79fa5619f9de8bcb09c7617",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 7'' santoku_1.jpg"
+  },
+  {
+    "id": "v0275",
+    "sku": "B35-SG",
+    "previousDimensions": [
+      458,
+      74
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "5b6b6e9d87f91da8d9aee266da2c90e804adca4c10b32a1cfc786481a227b6e0",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 3.5'' paring_1.jpg"
+  },
+  {
+    "id": "v0276",
+    "sku": "B35-TG",
+    "previousDimensions": [
+      584,
+      110
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "e1809776a727dce64791f0471fc97d627083a4a21a5bf282af2fdbb48592539a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 6.5'' boning_1.jpg"
+  },
+  {
+    "id": "v0277",
+    "sku": "B35-WY",
+    "previousDimensions": [
+      554,
+      74
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "8c2042718e05731b2120c75da05d70d34f6910e5dd23e6e79b36cb3a0b558f2b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 5'' utility_1.jpg"
+  },
+  {
+    "id": "v0278",
+    "sku": "B35-YD",
+    "previousDimensions": [
+      644,
+      92
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "24857b926a9b2320a261367c7073c7b0464001f26731a74ecb77112769dfb165",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 7''fillet_1.jpg"
+  },
+  {
+    "id": "v0279",
+    "sku": "B35-ZS",
+    "previousDimensions": [
+      570,
+      104
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "939dd7fdef919ca51b0bed08678595e9b910835c90f0e05ac7afbf5957622a7f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 5'' cheese_1.jpg"
+  },
+  {
+    "id": "v0280",
+    "sku": "B37-10QR",
+    "previousDimensions": [
+      822,
+      118
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "021bf7c5803f39107b1479f5991b673555439717af260952bbd71938c4569f9c",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37_B37 10'' carving_（1）.jpg"
+  },
+  {
+    "id": "v0288",
+    "sku": "B37-CS",
+    "previousDimensions": [
+      702,
+      138
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "aec73a8159efdaf7be309fbeef4b71e47573da99a22f09b5c7220e0d0ece89be",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37_B37 8.5'' chef_（1）.jpg"
+  },
+  {
+    "id": "v0289",
+    "sku": "B37-DC",
+    "previousDimensions": [
+      670,
+      206
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "b91f7484955b3138a2d7ec378fe7dc9a1903b7f258339f432e100fe5b6beb5e8",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37_B37 7.5'' cleaver_1.jpg"
+  },
+  {
+    "id": "v0292",
+    "sku": "B37-KG",
+    "previousDimensions": [
+      646,
+      188
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "23b0ec3101f4568beb29a0438e37a65e03daa90ff2d75e9cfbfbadb7e4048972",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37_B37 6.5'' bone chopper_1.jpg"
+  },
+  {
+    "id": "v0293",
+    "sku": "B37-MB",
+    "previousDimensions": [
+      710,
+      138
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "f9db6712fd7e72eb45b438812b3dd676d764122a3f8d5d9e0fda4ce9826a2315",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37_B37 8.5'' bread_（1）.jpg"
+  },
+  {
+    "id": "v0295",
+    "sku": "B37-NP",
+    "previousDimensions": [
+      574,
+      98
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "0ffbae53b076d6af3fd30e5bd82d7e451839c72711210cffc4c68b8265aa1d5a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37_B37 5'' steak_（1）.jpg"
+  },
+  {
+    "id": "v0297",
+    "sku": "B37-RS",
+    "previousDimensions": [
+      656,
+      128
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "d0e9ad649b14092dfee2ef525ede092608ad8274ea0b0f293faf254c7481bbbb",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37_B37 7'' santoku_（1）.jpg"
+  },
+  {
+    "id": "v0298",
+    "sku": "B37-SG",
+    "previousDimensions": [
+      484,
+      92
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "c1332bc25c45600e4499253399c1e4ad3184c59417498c11538e2b96b7a6e785",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37_B37 3.5'' paring_（1）.jpg"
+  },
+  {
+    "id": "v0299",
+    "sku": "B37-TG",
+    "previousDimensions": [
+      598,
+      92
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "da47b6ceb6c6a593ddd5ad591db2e8229cf7cd285459a7f38be4e4b14ef5034a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37_B37 6'' boning_（1）.jpg"
+  },
+  {
+    "id": "v0300",
+    "sku": "B37-WY",
+    "previousDimensions": [
+      100,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "c4653ee7541f8c1be9843d597660a9b710962f404aa02fa3f740cdb95dc498f4",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37_B37 5'' utility_（1）.jpg"
+  },
+  {
+    "id": "v0301",
+    "sku": "B37-XC",
+    "previousDimensions": [
+      656,
+      124
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "2da34efc898f328d71f24117eff5d9d2c675b0f3d3a12ba7704033047dc33f3e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37_B37 7'' nakiri_（1）.jpg"
+  },
+  {
+    "id": "v0302",
+    "sku": "B37-YD",
+    "previousDimensions": [
+      668,
+      112
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "a00a095c9032e531a0c62b9ba52b42f2b356ba12df087549fa1dc1f18f84e2be",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37_B37 7'' fillet_1000 1.jpg"
+  },
+  {
+    "id": "v0303",
+    "sku": "B37S-10QR",
+    "previousDimensions": [
+      814,
+      130
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "a5fcb444f7be06732ac56b71391e6a108df2a2ea97e66e0215b4da7af84a9519",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37S_B37S 10'' carving_1.jpg"
+  },
+  {
+    "id": "v0309",
+    "sku": "B37S-CS",
+    "previousDimensions": [
+      100,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "3396c01f90b1f7d6de25a3d44aaf4884a998bb433757b3b2a71df8a88e9ee41f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37S_B37S 8.5'' chef_1.jpg"
+  },
+  {
+    "id": "v0310",
+    "sku": "B37S-DC",
+    "previousDimensions": [
+      674,
+      210
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "4c69625fe592c9c7a11439a82a47e03b0e61c23a1f5a9aadccef098ce44ebe7a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37S_B37S 7.5'' cleaver_1.jpg"
+  },
+  {
+    "id": "v0313",
+    "sku": "B37S-KG",
+    "previousDimensions": [
+      100,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "d40750f2030382cce02cfdf50c43472abf541312dadcba534b713b176278ffab",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37S_B37S 6.5'' bone chopper_1.jpg"
+  },
+  {
+    "id": "v0314",
+    "sku": "B37S-MB",
+    "previousDimensions": [
+      714,
+      102
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "83ed21634b809ca64f52ef579bf8ad157b26a3607bdaa244da196302326a3834",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37S_B37S 8.5'' bread_1.jpg"
+  },
+  {
+    "id": "v0316",
+    "sku": "B37S-RS",
+    "previousDimensions": [
+      100,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "ce21989743b7441a082193d6a516d446275d81e1fb7024925e807a2a55d30324",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37S_B37S 7'' santoku_1.jpg"
+  },
+  {
+    "id": "v0317",
+    "sku": "B37S-SG",
+    "previousDimensions": [
+      486,
+      80
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "5062d28e8e096f1b670b2352af52e004452dbec3e5a37f56697e67e6cb9e4e65",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37S_B37S 3.5'' paring_1.jpg"
+  },
+  {
+    "id": "v0318",
+    "sku": "B37S-WY",
+    "previousDimensions": [
+      586,
+      94
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "2cedac7a3a58b0417b18bc6b017db69c5bde2bd4bdcc7b11b6094e8a4d5221ac",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B37S_B37S 5'' utility_1.jpg"
+  },
+  {
+    "id": "v0320",
+    "sku": "B38-MB",
+    "previousDimensions": [
+      100,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "da5adc7c35ea64a2e6b0031e2d46390d9b48871500637742f1ec2cf7665c8d66",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38_B38 8.5'' bread_1.jpg"
+  },
+  {
+    "id": "v0321",
+    "sku": "B38-SG",
+    "previousDimensions": [
+      100,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "67ec1f5872a959f29067ff742285a0e7b01a65db846fe02bfd954e9f5631a717",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38_B38 3.5'' paring_1.jpg"
+  },
+  {
+    "id": "v0322",
+    "sku": "B38H-10QR",
+    "previousDimensions": [
+      127,
+      127
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "3ab9b8f89c055989013a2527dcdaa304e6dfa6f8e27a5db68a927d9f0894a09c",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38H_B38H 10‘’ carving_1.jpg"
+  },
+  {
+    "id": "v0323",
+    "sku": "B38H-10TR",
+    "previousDimensions": [
+      119,
+      119
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "ccadfbf8917dbe59e11a2f2d88b9e51af80484c5d1aad12ecdad848087278834",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b38h-10tr",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/0293e70367e0b5e4dbdc0f086bda8f74ca94b0a0f736609608a86f13cd555c57.jpg?v=1787512831"
+  },
+  {
+    "id": "v0330",
+    "sku": "B38H-CS",
+    "previousDimensions": [
+      124,
+      124
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "9b791ab9c4011c91d0de820f2a7d700f099419af7a9b371fb7195bb4a93f8715",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38H_B38H 8.5'' chef_1.jpg"
+  },
+  {
+    "id": "v0331",
+    "sku": "B38H-DC",
+    "previousDimensions": [
+      193,
+      193
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "461cc472b60a66a30c3a029e779c67c798befc1b6841bb607aaa8cab4646bcb7",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38H_B38H 7.5‘’ cleaver_1.jpg"
+  },
+  {
+    "id": "v0334",
+    "sku": "B38H-KG",
+    "previousDimensions": [
+      129,
+      129
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "c384dc4992670573880747b8759764c14122b49a11cbb90261814c8c968e39da",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38H_B38H 7‘’ bone chopper_1.jpg"
+  },
+  {
+    "id": "v0335",
+    "sku": "B38H-MB",
+    "previousDimensions": [
+      136,
+      136
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "129e51216bac97bff714fd3b87681446d554feb880434214eb72c341ca0dc0a1",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38H_B38H 8‘’ bread_1.jpg"
+  },
+  {
+    "id": "v0337",
+    "sku": "B38H-NP",
+    "previousDimensions": [
+      119,
+      119
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "19349d04f07deb63deb6f7d4ffd84a68a675e132b77947fd1693910e4fb82936",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38H_B38H 5‘’ steak_1.jpg"
+  },
+  {
+    "id": "v0338",
+    "sku": "B38H-RS",
+    "previousDimensions": [
+      130,
+      130
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "3da51eae9f0e2183e68a4ced202d77b25f2f872c3e1ed172758e42467e0775d5",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38H_B38H 7‘’ santoku_1.jpg"
+  },
+  {
+    "id": "v0339",
+    "sku": "B38H-SG",
+    "previousDimensions": [
+      136,
+      136
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "48c8166828c26860d9413341a667f5ce84a763f5f6fdebfef9b5ed8fa204e68e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38H_B38H 3.5‘’ paring_1.jpg"
+  },
+  {
+    "id": "v0340",
+    "sku": "B38H-TG",
+    "previousDimensions": [
+      121,
+      121
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "7a0066b07f8e4218da92d59b6f661061b6d3a6388312294dc6ba5feae08d9c9f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38H_B38H 6‘’ boning_1.jpg"
+  },
+  {
+    "id": "v0341",
+    "sku": "B38H-WY",
+    "previousDimensions": [
+      123,
+      123
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "c72ac8777d8708a901b72d608473790b30ba1fa724eb24b0fe0a3a282aa8af8d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38H_B38H 5‘’ utility_1.jpg"
+  },
+  {
+    "id": "v0346",
+    "sku": "B38L-CS",
+    "previousDimensions": [
+      756,
+      152
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "368afc55234041c29e6807db04aed0e4f94aac40ba18e3c236bbf108db9af4b8",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38L_B38L 8.5 inch chef_1.jpg"
+  },
+  {
+    "id": "v0347",
+    "sku": "B38L-DC",
+    "previousDimensions": [
+      698,
+      198
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "8908c5cd8ef314ea96cee9af81853f9795da99279d80c13013a27dc9aae811ff",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38L_B38L 7.5 inch cleaver_1.jpg"
+  },
+  {
+    "id": "v0351",
+    "sku": "B38L-KG",
+    "previousDimensions": [
+      682,
+      200
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "796201cf5c89d756e3e0cbc9d841dda1ad439ec807ef34eb7ef9c17cba9610f1",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38L_B38L 7 inch bone chopper_1.jpg"
+  },
+  {
+    "id": "v0353",
+    "sku": "B38L-MB",
+    "previousDimensions": [
+      122,
+      122
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "89cd94fd86e2e9a5d1ef3318edcea28b10c313f8308691eab319d3220f433e85",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38L_B38L 8.5 inch bread_1.jpg"
+  },
+  {
+    "id": "v0355",
+    "sku": "B38L-NP",
+    "previousDimensions": [
+      582,
+      100
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "1f1dc66e723920a714b1c356e7e7ee24c378a5c86bea987f942cf7418e668d79",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38L_B38L 5 inch steak_1.jpg"
+  },
+  {
+    "id": "v0356",
+    "sku": "B38L-RS",
+    "previousDimensions": [
+      694,
+      142
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "9f6ef87f33eab750b02bbf6795cf319154913f302dd40ba92cd31045f179a959",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38L_B38L 7 inch santoku_1.jpg"
+  },
+  {
+    "id": "v0357",
+    "sku": "B38L-SG",
+    "previousDimensions": [
+      524,
+      94
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "0505a1e49fc864e4e6e3acb7a0d421be28d6732833ed1951c7e7646cf352b240",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38L_B38L 3.5 inch paring_1.jpg"
+  },
+  {
+    "id": "v0358",
+    "sku": "B38L-WY",
+    "previousDimensions": [
+      106,
+      106
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "c84a661c06c7c986cbbd87001f2a6807e9cead0d1fa0baa42d3b014e56c525a7",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38L_B38L 5 inch utility_1.jpg"
+  },
+  {
+    "id": "v0359",
+    "sku": "B38L-YD",
+    "previousDimensions": [
+      706,
+      124
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "6dc338a9bf7647380972acaa1ee89e477bfbc5c49b3e4fa9341a22c699982b6e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B38L_B38L 7.3 inch fillet_1.jpg"
+  },
+  {
+    "id": "v0360",
+    "sku": "B46D-5.5RS",
+    "previousDimensions": [
+      556,
+      104
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "b7484f4dcdc69d2674a095629cb3094cd9f5765c705001c365f03d5f1063bf65",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46D_B46D 5.5'' santoku 5.5_1.jpg"
+  },
+  {
+    "id": "v0365",
+    "sku": "B46D-CS",
+    "previousDimensions": [
+      738,
+      146
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "23cbb81b17ac6448ec710114064e519fe7ce5b8345e72b1821d0cbfe9f5dec9e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46D_B46D 8.3'' chef_1.jpg"
+  },
+  {
+    "id": "v0366",
+    "sku": "B46D-DC",
+    "previousDimensions": [
+      684,
+      212
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "52fba69d7c59ab8e203b3b967eb7336f135c9b418de608fb1a5c01fd1bc45f5d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46D_B46D 7'' cleaver_1.jpg"
+  },
+  {
+    "id": "v0369",
+    "sku": "B46D-KG",
+    "previousDimensions": [
+      672,
+      194
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "9d923bf683bec3418732d77c22920f5bac27b2ca93d9550d56f55f4fdf404e06",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46D_B46D 6.9'' bone chopper_1.jpg"
+  },
+  {
+    "id": "v0370",
+    "sku": "B46D-MB",
+    "previousDimensions": [
+      736,
+      116
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "82a098631c53242f8c4ba1653b1aa279005dffa309ddaae0de5cdcf78811180b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46D_B46D 8.3'' bread_1.jpg"
+  },
+  {
+    "id": "v0372",
+    "sku": "B46D-NP",
+    "previousDimensions": [
+      572,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "9475f12883929a556f34ed734f77e7cbfdd4dbb2119dd8bba7895189de126fa0",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46D_B46D 5'' steak_1.jpg"
+  },
+  {
+    "id": "v0373",
+    "sku": "B46D-RS",
+    "previousDimensions": [
+      688,
+      140
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "7341225e7b70e8ebc2f3ae9907b284192bddf947e6c823ea25184734d7110701",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46D_B46D 7'' santoku_1.jpg"
+  },
+  {
+    "id": "v0374",
+    "sku": "B46D-RSCS",
+    "previousDimensions": [
+      113,
+      113
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "018bc5ec5db26370d9a0818ffaa9e40d0b474439d313b30b106bed247ce8c93f",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b46d-rscs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/57ef072d83d9f12838ab67b123cc327495a46dee010415288394fa67ce2184ba.jpg?v=1787512885"
+  },
+  {
+    "id": "v0375",
+    "sku": "B46D-SG",
+    "previousDimensions": [
+      494,
+      90
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "49f4b52a16b6a5d7724fc4f12b3d649918fe120da4d10cc4462a71f554010372",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46D_B46D 3.5'' paring_1.jpg"
+  },
+  {
+    "id": "v0376",
+    "sku": "B46D-TG",
+    "previousDimensions": [
+      634,
+      106
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "188b100578e6417b77784e73ee2497c34ee22980db8f9c747f87ee94dcf6e613",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46D_B46D 6'' boning_1.jpg"
+  },
+  {
+    "id": "v0377",
+    "sku": "B46D-WY",
+    "previousDimensions": [
+      570,
+      106
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "209ecccceb5c719b0efc22d4cdb4bdd2e7b03a6a52b6bb651b112a229c6c14bd",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46D_B46D 5'' utility_1.jpg"
+  },
+  {
+    "id": "v0378",
+    "sku": "B46D-XC",
+    "previousDimensions": [
+      692,
+      140
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "06cb28e896f1016ca89ac876ff63b1514274d841cd98fc34ab37a5274b91852b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46D_B46D 7'' nakiri_1.jpg"
+  },
+  {
+    "id": "v0380",
+    "sku": "B46W-5RS",
+    "previousDimensions": [
+      120,
+      124
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d7e8dc29c2ec01e0aafceb2ba699c21aee4a068f209f6e542bc5d507ab8abbe1",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 5.5'' santoku_1.jpg"
+  },
+  {
+    "id": "v0386",
+    "sku": "B46W-CS",
+    "previousDimensions": [
+      754,
+      142
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "4769cea4d4dbd1cc9e9c38038cd6ecd2513279384506bbd65e8f95a31d428f02",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 8.3'' chef_1.jpg"
+  },
+  {
+    "id": "v0387",
+    "sku": "B46W-DC",
+    "previousDimensions": [
+      692,
+      204
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "e228d7878f0eb039b7cb67636536a1d32f6c3ffc281721db123bea1dbfd9e375",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 7'' cleaver_1.jpg"
+  },
+  {
+    "id": "v0389",
+    "sku": "B46W-DY",
+    "previousDimensions": [
+      115,
+      120
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "fbb60bd83cc95e17d2b2554102126983ef994019f7365aa07fa82e871c62fdd9",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 7'' utility_1.jpg"
+  },
+  {
+    "id": "v0393",
+    "sku": "B46W-KG",
+    "previousDimensions": [
+      668,
+      196
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "65fd8cc65a0a8bebcbaf2536243aefd9ce207b49a68b45c4c59d67005d2f17ab",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 6.8'' bone chopper_1.jpg"
+  },
+  {
+    "id": "v0394",
+    "sku": "B46W-MB",
+    "previousDimensions": [
+      103,
+      102
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "08a5b816c6e9c06402155e2a5fc0fcc999f9cb31983cf0a2b7d62ad79bb2a86b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 8.3'' bread_1.jpg"
+  },
+  {
+    "id": "v0396",
+    "sku": "B46W-ND",
+    "previousDimensions": [
+      722,
+      128
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "ba533f5daf3995de187cf5a7792c842f29b56ce9c063a8991248f5225715bbd7",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b46w-nd",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/5a5b9687023ee05ffd8a3f22bcae62f86f038d1a776aeac818022151d515b53e.jpg?v=1787512900"
+  },
+  {
+    "id": "v0397",
+    "sku": "B46W-NP",
+    "previousDimensions": [
+      492,
+      88
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d4acde204b7c556b30eba9e95d3b13ab8ac8e08cf46001d92000fb3f0309e4fc",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 5'' steak_1.jpg"
+  },
+  {
+    "id": "v0398",
+    "sku": "B46W-QR",
+    "previousDimensions": [
+      109,
+      109
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "81c1a98a31f7d0afd6783d40d8b87d21a57f8b58455fabb2fed74351ca736a86",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 10'' carving_1.jpg"
+  },
+  {
+    "id": "v0399",
+    "sku": "B46W-RS",
+    "previousDimensions": [
+      682,
+      132
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "cab6adaf060016a4c7dc6bf64c68ee1de3d8c26ee629edffcb7ddf4cc7fc3925",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 7'' santoku_1.jpg"
+  },
+  {
+    "id": "v0400",
+    "sku": "B46W-SG",
+    "previousDimensions": [
+      428,
+      76
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "5ce0d200cf5ec99bfc4fd02a4725983e76ac6699e40f8fcc0d50ee073f8a997e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 3.5'' paring_1.jpg"
+  },
+  {
+    "id": "v0401",
+    "sku": "B46W-TG",
+    "previousDimensions": [
+      592,
+      98
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d15fd63917cf66caa4bb095cce47650ca182884a70a7267205747f6b76f0e66c",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 6'' boning_1.jpg"
+  },
+  {
+    "id": "v0402",
+    "sku": "B46W-WY",
+    "previousDimensions": [
+      490,
+      90
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d7ff0667a7fcfb8b44a9dfc7b0a87da402b48cf04568e51a569cee45b31a9096",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 5'' utility_1.jpg"
+  },
+  {
+    "id": "v0403",
+    "sku": "B46W-XC",
+    "previousDimensions": [
+      120,
+      118
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "c5b6b2d7916c18d91d82f38c06a254b53d6a01cfb54a155198ddddaeac5b02c7",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46W_B46W 7'' nakiri_1.jpg"
+  },
+  {
+    "id": "v0405",
+    "sku": "B5S-CS",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "132288c0f0661e42fd5949e5cef3826e72eb83f3861093f95095148d8aa74432",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B5_B5 8‘’ bunka_1.jpg"
+  },
+  {
+    "id": "v0407",
+    "sku": "B5S-KG",
+    "previousDimensions": [
+      712,
+      202
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "c49703f27db8388e6b676e3842ac518c506cf98a8f50de44bf127fe2c71022ee",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B5_B5 6.5‘’ bone chopper_6.jpg"
+  },
+  {
+    "id": "v0408",
+    "sku": "B5S-WY",
+    "previousDimensions": [
+      558,
+      94
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "0115601b07ace4f12b9b74fee65e86763bb8c19ba6459c469b6240185ab5e19a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B5_B5 5‘’ utility_3.jpg"
+  },
+  {
+    "id": "v0409",
+    "sku": "B5S-XC",
+    "previousDimensions": [
+      788,
+      170
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "3e28fcce8ba24b42872af7a8354a1ff8d4356598e3c6eaa1abe390950d6de25b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B5_B5 7.8‘’ nakiri_1.jpg"
+  },
+  {
+    "id": "v0414",
+    "sku": "B9H-CS",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "150614e3575f6cb8a621566a181ee7948e9ccce767d07184c5631a0772e51ef5",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b9h-cs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/1000_bda78aa0-0dc6-42ff-a5b7-2af308e4c4e3.jpg?v=1787819986"
+  },
+  {
+    "id": "v0417",
+    "sku": "B9H-MB",
+    "previousDimensions": [
+      758,
+      92
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "63d390cead64d57cc72e489bf8ad90bf98488251628f26a03494348d46083554",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b9h-mb",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/1000_8676e594-13df-4087-b124-2d4425b78aa2.jpg?v=1787819907"
+  },
+  {
+    "id": "v0418",
+    "sku": "B9H-RS",
+    "previousDimensions": [
+      708,
+      126
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "caa3db1b2a3ba752a4434cad0119615977e200edb957c2614e6d0747955b9fb9",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b9h-rs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/1000_cfcd5b7b-1eef-4d84-8777-79deb9be1025.jpg?v=1787819851"
+  },
+  {
+    "id": "v0419",
+    "sku": "B9H-SG",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "b576d6e76a38ea8ea33b09cce6063c8707e2b7c763338ddf2f94f9530dd33911",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b9h-sg",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/1000_082061b4-9f35-4853-bac9-71b59ad042ad.jpg?v=1787819814"
+  },
+  {
+    "id": "v0420",
+    "sku": "B9H-WY",
+    "previousDimensions": [
+      594,
+      82
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "6d0091c511d4ec95d5099dc634d84af01ef4fcef4d490cb4452728805124e692",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/b9h-wy",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/62ec917b2c23fa30affc2154fc823a7f.png?v=1787819791"
+  },
+  {
+    "id": "v0421",
+    "sku": "B9S-CS",
+    "previousDimensions": [
+      104,
+      105
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "c92565bf52fb77b38039e8d0768307886c8199b45ccb6dd191f88421b463a60f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B9S_B9S 8’‘ chef_3.jpg"
+  },
+  {
+    "id": "v0431",
+    "sku": "F2-CS",
+    "previousDimensions": [
+      129,
+      129
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "866d5823c474d46d8a6a4a3cc7427b94cb892d4bbf9915b6b33299b5ccb29ec0",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_F2 XINZUO_F2 8.5'' bunka_1.jpg"
+  },
+  {
+    "id": "v0432",
+    "sku": "F2-WY",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "37bf91926d3029cbae74a42d334522d8a0b8e162f9b42f564f2dd8c24d924f3f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_F2 XINZUO_F2 5'' utility_1.jpg"
+  },
+  {
+    "id": "v0442",
+    "sku": "F4-CS",
+    "previousDimensions": [
+      111,
+      111
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "54683928ea2f19f71e1b549350b7904d03230989c5d6a6725438d35065590e2b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_F4_F4 8.5'' chef_1.jpg"
+  },
+  {
+    "id": "v0443",
+    "sku": "F5C-WY",
+    "previousDimensions": [
+      196,
+      187
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "4b2af651d8dee96c44c8d70f4f7424103d4f1e27bb0c6f19e7e504bfa240bc7c",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_F5C_F5C 5'' utility_3.jpg"
+  },
+  {
+    "id": "v0444",
+    "sku": "F5C-XC",
+    "previousDimensions": [
+      118,
+      130
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "65ab5824c63a82f0d06cdb305c03edda702e199eb4b15696c3d0b2d7da116ec6",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_F5C_F5C 7'' nakiri_renamed.jpg"
+  },
+  {
+    "id": "v0446",
+    "sku": "PM8B-5.5RS",
+    "previousDimensions": [
+      570,
+      100
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "c170f4c4df3b1aec1c74597428a2d7132bdf463fe97ba4fb7bbd957627a8842c",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8B_PM8B 5.5'' santokuknife 5.5_renamed.jpg"
+  },
+  {
+    "id": "v0452",
+    "sku": "PM8B-CS",
+    "previousDimensions": [
+      768,
+      130
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "831bacd67d318c22e543382218536f39d5c5f01daf569aeec28b6491c4285f3f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8B_PM8B 8.5'' chef_renamed.jpg"
+  },
+  {
+    "id": "v0453",
+    "sku": "PM8B-MB",
+    "previousDimensions": [
+      774,
+      96
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "35a3efb0e2482f7e9bec25e5b4ee986be82a0b4b2d1fc3704a024ce43fe932a4",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8B_PM8B 8.5'' bread_1.jpg"
+  },
+  {
+    "id": "v0454",
+    "sku": "PM8B-QF",
+    "previousDimensions": [
+      750,
+      132
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "45b3487bbcfa50170c0bfa53a81cf5d41f8680184c1ae6746e90080cd7a8892d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8B_PM8B 8.5'' bunka_1.jpg"
+  },
+  {
+    "id": "v0455",
+    "sku": "PM8B-RS",
+    "previousDimensions": [
+      694,
+      130
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "f887e18da16b8bb781188c8ada0f11368bab105794648b001eadf5853c27de96",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8B_PM8B 7.5'' santoku_renamed.jpg"
+  },
+  {
+    "id": "v0456",
+    "sku": "PM8B-SG",
+    "previousDimensions": [
+      498,
+      88
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "1f46325da6319ee5e28bd2b314c3d7affeac20d49c4d029dfeb993975ce9f8ef",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8B_PM8B 4'' paring_renamed.jpg"
+  },
+  {
+    "id": "v0457",
+    "sku": "PM8B-WY",
+    "previousDimensions": [
+      560,
+      94
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "96f5e3b70cc7035835d7080812a6d13502e5df43afa4ddc4aca4c311bafa1da1",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8B_PM8B 5.5'' utility_1.jpg"
+  },
+  {
+    "id": "v0458",
+    "sku": "PM8B-XC",
+    "previousDimensions": [
+      688,
+      134
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "3bb5b64aebfb4c94f354057e33b806d5c2173e98a862626b04bba4358290fb95",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8B_PM8B 7'' nakiri_1.jpg"
+  },
+  {
+    "id": "v0461",
+    "sku": "PM8E-NP",
+    "previousDimensions": [
+      90,
+      90
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "f471a1e4882e5b81011c4c959370b59ed8c6356a9a7ff533a039b70657c9f5e4",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/pm8e-np",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/9302924264d53cdf5394953a5a4c1271.jpg?v=1787901997"
+  },
+  {
+    "id": "v0466",
+    "sku": "PM8M-QF",
+    "previousDimensions": [
+      756,
+      130
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "f45472f8d76fa458fab1fb5b202b5c116205e73f83604330eaac19e0da74e4c5",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/pm8m-qf",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/585e923b355855bec265f5d02b26345d0161f724de199ab88284194dd4de6bbe.jpg?v=1787512920"
+  },
+  {
+    "id": "v0467",
+    "sku": "PM8M-RS",
+    "previousDimensions": [
+      692,
+      122
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "a40b91402ebe34a49f9a5bd1e9d942a9827a8c7849700056cca58f3f4631994d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8M_PM8M 7.5 inch santoku_1.jpg"
+  },
+  {
+    "id": "v0469",
+    "sku": "PM8M-WY",
+    "previousDimensions": [
+      560,
+      94
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "c4224306ca4858c390e01f0770fa851385dafae093034008168495c4125bc7c0",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8M_PM8M 5.5 inch utility_1.jpg"
+  },
+  {
+    "id": "v0471",
+    "sku": "PM8O-10QR",
+    "previousDimensions": [
+      844,
+      110
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "932d8f745446c6d830b9b6cb5e231def34e2d2510e48b47cc8a30288c60e298e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "1000.jpg"
+  },
+  {
+    "id": "v0472",
+    "sku": "PM8O-5.5RS",
+    "previousDimensions": [
+      131,
+      131
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "b7e5d4acfdcd07ebde0708925cf92c44faa3f264dbda55974c468ea70228df94",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8O_PM8O 5.5'' santoku_1.jpeg"
+  },
+  {
+    "id": "v0478",
+    "sku": "PM8O-CS",
+    "previousDimensions": [
+      764,
+      136
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "8860b4c11cdaa3cfdaf7c3e3da2ca7dbe0fc65e273d037d9756f49592b1de49e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8O_PM8O 8.5'' chef_1.jpeg"
+  },
+  {
+    "id": "v0480",
+    "sku": "PM8O-DY",
+    "previousDimensions": [
+      138,
+      138
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "3fae6f485f9d5e1da944989349ab9336322dc08201d082e3378210f0b92ad2fd",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8O_PM8O 6'' honesuki_1.jpeg"
+  },
+  {
+    "id": "v0484",
+    "sku": "PM8O-MB",
+    "previousDimensions": [
+      770,
+      94
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "dc500f96f134149dd5b77a006c76b0493391c62ccac42fd4c9354f5a4bea517f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8O_PM8O 8.5'' bread_1.jpeg"
+  },
+  {
+    "id": "v0486",
+    "sku": "PM8O-QFD",
+    "previousDimensions": [
+      780,
+      138
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "2a6fd7f766749dcada48e911e3b7a3d208a9ef57d1f82120a5d4fa523641a28a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8O_PM8O 8.5'' bunka_1.jpeg"
+  },
+  {
+    "id": "v0487",
+    "sku": "PM8O-RS",
+    "previousDimensions": [
+      119,
+      119
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "6207aed245347120939c0da8f7eab0460ef783b7c786c1a274f20bd976e4f859",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8O_PM8O 7.3'' santoku_1.jpeg"
+  },
+  {
+    "id": "v0488",
+    "sku": "PM8O-SG",
+    "previousDimensions": [
+      530,
+      86
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "215e28dfc13c95c2bd8f6f0ba5edd9e4203f64953dc9619f983ff7eff4ca66b0",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8O_PM8O 3.5'' paring_1.jpeg"
+  },
+  {
+    "id": "v0489",
+    "sku": "PM8O-WY",
+    "previousDimensions": [
+      584,
+      102
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "f745ffbf726d38e51eed8084e915aba527c532a49ed7714cebd9136f3d005dfe",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8O_PM8O 5.5'' utility_1.jpeg"
+  },
+  {
+    "id": "v0490",
+    "sku": "PM8O-XC",
+    "previousDimensions": [
+      125,
+      125
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "a4f787a4b974542bf0d7f0509a34c9ee38761ba74236f48de45ff6b7f7e2faf6",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8O_PM8O 7'' nakiri_1.jpeg"
+  },
+  {
+    "id": "v0491",
+    "sku": "PM8O-XWD",
+    "previousDimensions": [
+      732,
+      130
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "3e100bf105c82c33ced5bcdad4b6505a3b7f8ee4eee5169f969bd346ba9c2c25",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8O_PM8O sakimaru_1.jpeg"
+  },
+  {
+    "id": "v0494",
+    "sku": "PM8S-5.5RS",
+    "previousDimensions": [
+      570,
+      102
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "c30236705f2b55b94d0975b17a9302a57222d9e1cca9b0125b6f10cfc867adc2",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8S_PM8S 5.5'' santoku_1.jpg"
+  },
+  {
+    "id": "v0495",
+    "sku": "PM8S-6QF",
+    "previousDimensions": [
+      592,
+      102
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "b197cfb5fad807449a87ccc63e834ba1b2e5c9d7477c47df2a6b8b2fe6d914f9",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/pm8s-6qf",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_e7eaa18a-01eb-4396-86df-aa963f0ee3f6.jpg?v=1787902290"
+  },
+  {
+    "id": "v0504",
+    "sku": "PM8S-CS",
+    "previousDimensions": [
+      756,
+      100
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "c427f9d0369fa780e8aa50fc57c5d387dc764713f9cc23ee6d152675c78724de",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8S_PM8S 8.5'' chef_1.jpg"
+  },
+  {
+    "id": "v0505",
+    "sku": "PM8S-DY",
+    "previousDimensions": [
+      582,
+      80
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "bf91bdef49294dec37d6cf5d9549c03836851b43abc3a167131d542023a94afd",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8S_PM8S 6'' honesuki_1.jpg"
+  },
+  {
+    "id": "v0508",
+    "sku": "PM8S-MB",
+    "previousDimensions": [
+      762,
+      82
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "ccb13a79fe9f2ff103f64e24d08e2be952f4c909bfe3c7638cfc415171a32f5a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8S_PM8S 8.5'' bread_1.jpg"
+  },
+  {
+    "id": "v0509",
+    "sku": "PM8S-QFD",
+    "previousDimensions": [
+      752,
+      128
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "5dfd9b6d77b2d0c95392be06a6b6776ae4193c81db40d757fca587d68060c1c5",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8S_PM8S 8.5'' bunka_9.jpg"
+  },
+  {
+    "id": "v0510",
+    "sku": "PM8S-RS",
+    "previousDimensions": [
+      690,
+      118
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "35e33e507977a0896abe524f0958250b30e028c5a100dc0e5eb7bb1720ab5e55",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8S_PM8S 7.5'' santoku_1.jpg"
+  },
+  {
+    "id": "v0511",
+    "sku": "PM8S-SG",
+    "previousDimensions": [
+      506,
+      84
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "a461d3df7baebe0d230f51c8c70770cdf016ad99c2c6f1280b38b2d1f02350b4",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8S_PM8S 4'' paring_1.jpg"
+  },
+  {
+    "id": "v0512",
+    "sku": "PM8S-WY",
+    "previousDimensions": [
+      133,
+      133
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "ea5efa7adac1a68307dfa12e023e3a21f723c56c5a888061b1454ff36373fc38",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8S_PM8S 5.5'' utility_1.jpg"
+  },
+  {
+    "id": "v0513",
+    "sku": "PM8S-XC",
+    "previousDimensions": [
+      176,
+      176
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "1ead31e3aa6ba2526c9e9d6a6b729d44511f2e935b4096f0b3b5b40f2f4a6797",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8S_PM8S 7'' nakiri_1.jpg"
+  },
+  {
+    "id": "v0514",
+    "sku": "PM8S-XWD",
+    "previousDimensions": [
+      740,
+      126
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d0d6dc6e48fc6443db3fa84267f2747386ad52dc975af910f16dcc539cd98285",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_PM8S_PM8S 8.5'' sakimaru_1.jpg"
+  },
+  {
+    "id": "v0533",
+    "sku": "X01-CS",
+    "previousDimensions": [
+      748,
+      156
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "8de5d52432fce763194f12fa63408395e63ff3e5e95121ecce87796eefa48264",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X01_X01 8'' chef_1.jpg"
+  },
+  {
+    "id": "v0534",
+    "sku": "X01-DC",
+    "previousDimensions": [
+      720,
+      228
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "112cf5faf6a2b6c12f7d7f6663758ae9b88d15a8692da3df2bfb585ac4ed2d8b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X01_X01 7'' cleaver_1.jpg"
+  },
+  {
+    "id": "v0536",
+    "sku": "X01-KG",
+    "previousDimensions": [
+      700,
+      220
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "49022c8ae29d87ebda4e7a0a343b6f2fc6363cd95059932446ea4c30d9fef7f8",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X01_X01 7'' bone chopper_1.jpg"
+  },
+  {
+    "id": "v0537",
+    "sku": "X01-MB",
+    "previousDimensions": [
+      123,
+      123
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "cb4467111d9b1206c271330e7dc48f9945edd21c8f2555da88dca821d485de22",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X01_X01 8.5'' bread_1.jpg"
+  },
+  {
+    "id": "v0538",
+    "sku": "X01-NP",
+    "previousDimensions": [
+      558,
+      104
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "e47e3716a69f0d16d6c8aaa1aaf750dd099d6488e89ecf54bda442d91d825188",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X01_X01 5'' steak_1.jpg"
+  },
+  {
+    "id": "v0539",
+    "sku": "X01-RS",
+    "previousDimensions": [
+      700,
+      150
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "20ce8146ea67df58d0fa586b785b9773744e3ff234bb8f3c1bd7b9f880e7a4b6",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X01_X01 7.5'' santoku_1.jpg"
+  },
+  {
+    "id": "v0540",
+    "sku": "X01-SG",
+    "previousDimensions": [
+      490,
+      108
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "5ea1af26c65e88c3d257c1de005f9d7ef2c201c971d35750d5e02f8c9b5e8c46",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X01_X01 4'' paring_1.jpg"
+  },
+  {
+    "id": "v0541",
+    "sku": "X01-WY",
+    "previousDimensions": [
+      123,
+      123
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "aa5cb0dd62a2b5f0646bd0a6e51024de8fec098b50910381d17b2b0fed85b776",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X01_X01 5'' utility_1.jpg"
+  },
+  {
+    "id": "v0542",
+    "sku": "X01-XC",
+    "previousDimensions": [
+      702,
+      168
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "a1830efd392447f20018909e4819d40d67ddb7518b95c34deb20c3c4d2d5fc97",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X01_X01 7.5'' nakiri_1.jpg"
+  },
+  {
+    "id": "v0543",
+    "sku": "X01-YD",
+    "previousDimensions": [
+      696,
+      138
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "530b759180d4e0f04cc5c30d947c3105e15532377fca8bc0752313cbd49a55c9",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X01_X01 7.5'' fillet_1.jpg"
+  },
+  {
+    "id": "v0544",
+    "sku": "X02-10MB",
+    "previousDimensions": [
+      848,
+      114
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "b136975fd1b1ea56df6ac5e1bf39313d7f31848a97998eb85dcaa47748748e22",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 10'' bread_6.jpg"
+  },
+  {
+    "id": "v0549",
+    "sku": "X02-CS",
+    "previousDimensions": [
+      716,
+      132
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "7968bc1316e582065fb5725a82e850f9f618d965cf4454ed3380932648eb41e0",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 8'' chef_7.jpg"
+  },
+  {
+    "id": "v0550",
+    "sku": "X02-DC",
+    "previousDimensions": [
+      668,
+      208
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "244dc46c49f867d3d4a57df575d5bb401987d778a9cc421bd5df37fbd2633347",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 7'' cleaver_1.jpg"
+  },
+  {
+    "id": "v0551",
+    "sku": "X02-DR",
+    "previousDimensions": [
+      722,
+      128
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "0b9235fcdf8a3c43982a8906f9cac9d5608157fbf3345ec2eb72c71ae592b1eb",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 8'' frozen_1.jpg"
+  },
+  {
+    "id": "v0553",
+    "sku": "X02-FQ",
+    "previousDimensions": [
+      584,
+      100
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "b73ae66a0dd148868247c26d67e7682103d5974aaffd127c88fcf13cc0871790",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02-fq",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/c5e45503ddaaf7196b9d40ce3b25af79.jpg?v=1787825981"
+  },
+  {
+    "id": "v0557",
+    "sku": "X02-KG",
+    "previousDimensions": [
+      110,
+      110
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "96bf9a08e73aec887d7e1c73bd2d321d66f79129230808b3412f332df7a911bc",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02-kg",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b6d5b3e75f901fbe6705d8d6d9da62978dc8a96a33e20f7d705979860c94b40d.jpg?v=1787512983"
+  },
+  {
+    "id": "v0558",
+    "sku": "X02-MB",
+    "previousDimensions": [
+      730,
+      106
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "e456e6514f393f1b1640d4f830ab430d6fc0363f73e9d77ec38663b9feed795b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 8'' bread_1.jpg"
+  },
+  {
+    "id": "v0560",
+    "sku": "X02-NP",
+    "previousDimensions": [
+      544,
+      86
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "af2b6f2bd8b5c8f6fe32ab2293082040213c22ebc171d384ff982d453c76b7da",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 5.5'' steak_1.jpg"
+  },
+  {
+    "id": "v0561",
+    "sku": "X02-QR",
+    "previousDimensions": [
+      724,
+      90
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "41ef68479800d78aea56db11474480e00d27da08f4e837837981545e4e35411e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 8'' carving_1.jpg"
+  },
+  {
+    "id": "v0562",
+    "sku": "X02-RS",
+    "previousDimensions": [
+      664,
+      136
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "984016773748a4cdc917186fcd7627ab64bb825b701d3385775ed3960ffea288",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 7'' santoku_7.jpg"
+  },
+  {
+    "id": "v0563",
+    "sku": "X02-RSCS",
+    "previousDimensions": [
+      113,
+      113
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "23ce62e35e3069fe78492862d0d3d4d22791a72f8cdd6429280080ff514b4eb1",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 8'' Granton edge chef kinfe_1.jpg"
+  },
+  {
+    "id": "v0564",
+    "sku": "X02-SG",
+    "previousDimensions": [
+      486,
+      84
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "199382f075449e833f806c4697e67d66de7aba9acaf05bdd3dfdb596df3148f0",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 4'' paring_5.jpg"
+  },
+  {
+    "id": "v0565",
+    "sku": "X02-TG",
+    "previousDimensions": [
+      620,
+      106
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "b8a2a7502918dcf737fda379cb8e6ed7b2c4f6efe277124500bbc7c131db0b67",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 6'' boning_7.jpg"
+  },
+  {
+    "id": "v0567",
+    "sku": "X02-XC",
+    "previousDimensions": [
+      672,
+      138
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d11254ce61088c4f494a5a03d20597e8945548a6a170b7d497bcbc3156a8143e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 7'' nakiri_7.jpg"
+  },
+  {
+    "id": "v0568",
+    "sku": "X02-YD",
+    "previousDimensions": [
+      684,
+      106
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "4d01c98554e99606be6c76bb210a1464a8500cdd3d7cde11d16c15bf45590c26",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 7'' fillet_6.jpg"
+  },
+  {
+    "id": "v0569",
+    "sku": "X02-ZS",
+    "previousDimensions": [
+      570,
+      100
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "fe58776b43b39b85e07790b58202f8c6adab53e4ad5784b37a63ad557a0b4e38",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02_X02 6'' cheese_6.jpg"
+  },
+  {
+    "id": "v0578",
+    "sku": "X02M-CS",
+    "previousDimensions": [
+      716,
+      144
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "c6f3b059464420d9b349c860a04fa32804578e8521f0c37c671fba804149ac7b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 8''chef_1.jpg"
+  },
+  {
+    "id": "v0579",
+    "sku": "X02M-DC",
+    "previousDimensions": [
+      684,
+      202
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "cc7623a5c4483150aa12d15f78865800a0099c35f656984cb9534ed6ed0b1e49",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 7''cleaver_1.jpg"
+  },
+  {
+    "id": "v0580",
+    "sku": "X02M-DR",
+    "previousDimensions": [
+      125,
+      125
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d4074622c48dd7ddd75969fbe9f024fdf0b9a66e34b782f2b83327beb0d35a4b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 8''frozen_1.jpg"
+  },
+  {
+    "id": "v0582",
+    "sku": "X02M-FQ",
+    "previousDimensions": [
+      602,
+      102
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d757acaf249e165d0a837c8a2ac6d44ff1a65d3d531f09c0da014a8ddd2e4e85",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02m-fq",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_45cb3aad-cd40-4797-977a-b9dfb0f5670f.jpg?v=1787826263"
+  },
+  {
+    "id": "v0584",
+    "sku": "X02M-KG",
+    "previousDimensions": [
+      668,
+      198
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "de7cc961b88b029a7863ff94750c977c8c2ef1c599aadd01ca8bcb68f517309f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 7''bone chopper_1.jpg"
+  },
+  {
+    "id": "v0585",
+    "sku": "X02M-MB",
+    "previousDimensions": [
+      115,
+      115
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "bdeb18c0d3a11cdfeb201fb12920a583669cfd2e463ce07e90681c2b8e415332",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 8''bread_1.jpg"
+  },
+  {
+    "id": "v0587",
+    "sku": "X02M-NP",
+    "previousDimensions": [
+      552,
+      68
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "86e066b6d5887cf12df19181351596e724e9abe279cc2277bb28ffdca0c79d46",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 5''steak_1.jpg"
+  },
+  {
+    "id": "v0588",
+    "sku": "X02M-QR",
+    "previousDimensions": [
+      124,
+      124
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "7b661dae1ce7d68c235315858e7603236a178bba92522dee33de508c4b999891",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 8''carving_1.jpg"
+  },
+  {
+    "id": "v0589",
+    "sku": "X02M-RS",
+    "previousDimensions": [
+      684,
+      138
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "57f9e868ce51050de0a2089efe33dfca73ecabd6474ef239c7888b67c759eac1",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 7''santoku_1.jpg"
+  },
+  {
+    "id": "v0590",
+    "sku": "X02M-RSCS",
+    "previousDimensions": [
+      123,
+      123
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "1aee186a85d0d1ab9c08db825058181e72fa671f8f6dfbaabbb6522ec9662060",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 8''granton edge chef_1.jpg"
+  },
+  {
+    "id": "v0591",
+    "sku": "X02M-SG",
+    "previousDimensions": [
+      490,
+      90
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "e4f48f5e567a3626760931fe97a4fa65346bac10be608c4d38c2f43ebe2c044b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 4''paring_1.jpg"
+  },
+  {
+    "id": "v0592",
+    "sku": "X02M-WY",
+    "previousDimensions": [
+      546,
+      94
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "a911a7202246fbbcd7b897b34dd5992b2dca805aff3e3bb66d1b738528281f21",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 5''utility_1.jpg"
+  },
+  {
+    "id": "v0593",
+    "sku": "X02M-XC",
+    "previousDimensions": [
+      132,
+      132
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "53b01ef6621e990d11f95bbea0cbbff0370c9b4a1741efa7170b17bcb2b013ef",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 7''nakiri_1.jpg"
+  },
+  {
+    "id": "v0594",
+    "sku": "X02M-ZS",
+    "previousDimensions": [
+      586,
+      94
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "c6bf532ffa84e739366f7dec7ae30ee294caa59e032c0faef340ad28d76ecee9",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X02M_X02M 6''cheese_1.jpg"
+  },
+  {
+    "id": "v0601",
+    "sku": "X02O-CS",
+    "previousDimensions": [
+      732,
+      144
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "4abdb5689a11192b89efe6ccc1db490724c3f11184db69aa640d7c35428a7f57",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-cs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_4e617a20-d437-4a1d-8c0f-7eddbdaad902.jpg?v=1787897747"
+  },
+  {
+    "id": "v0602",
+    "sku": "X02O-DC",
+    "previousDimensions": [
+      680,
+      216
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "7a453c2e6a8b0293e69694541f267bd292313b13717cae8049f765fbde74f98c",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-dc",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_9e9b89af-74ee-4fdc-a10e-c7a701ac88ce.jpg?v=1787897691"
+  },
+  {
+    "id": "v0603",
+    "sku": "X02O-DR",
+    "previousDimensions": [
+      120,
+      120
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "fb11a8890b1881339e209d991e4a4251e911a3a2d745e2183a57a91fe3470cd6",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-dr",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_9c670a27-b9c5-46d8-b02b-0256c2d80c9c.jpg?v=1787897578"
+  },
+  {
+    "id": "v0605",
+    "sku": "X02O-KG",
+    "previousDimensions": [
+      656,
+      194
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "0245a634ea9ae88b62fb72359070b2cd871bec3aab85dad0e7385a9a92b6a7b2",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-kg",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_61f2d4a6-68fe-475c-af27-68c70dc78a31.jpg?v=1787897470"
+  },
+  {
+    "id": "v0606",
+    "sku": "X02O-MB",
+    "previousDimensions": [
+      730,
+      122
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "353b163fd844ad3396e000db0809d50a2419a6051421f4427aa183e71a82eafa",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-mb",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_afd8c1a9-de02-44b1-84ce-4f1983513122.jpg?v=1787897415"
+  },
+  {
+    "id": "v0608",
+    "sku": "X02O-NP",
+    "previousDimensions": [
+      532,
+      90
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "65a8d3d45c499eedc8d749b0a78e40f5981ab95ae892ab5c28f236f9e5fc0cb7",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-np",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_db45049c-20a2-480e-9e22-526bd7c15963.jpg?v=1787897197"
+  },
+  {
+    "id": "v0609",
+    "sku": "X02O-QR",
+    "previousDimensions": [
+      716,
+      104
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "7166d83208e4e694315333c4c6fe0b5ab54dc9c2f25896c2960ef405d316e898",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-qr",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_0bd540f6-61b1-4fe4-a034-ec4bd85ec9d8.jpg?v=1787896103"
+  },
+  {
+    "id": "v0610",
+    "sku": "X02O-RS",
+    "previousDimensions": [
+      128,
+      128
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "84f0e3368c2bc254f63de2cf660646d33db8af3403be4a237550923535965801",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-rs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_d653c0eb-78c2-4a6a-b4bc-1144d4474cd3.jpg?v=1787896059"
+  },
+  {
+    "id": "v0611",
+    "sku": "X02O-RSCS",
+    "previousDimensions": [
+      127,
+      127
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "8345a27c5cc86e898ad9c2d8fb0069b23aefe4d0129e518627f2f5ef4a250d57",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-rscs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_87b6dc8b-8ee0-41ef-801c-d50b217a7cd7.jpg?v=1787895955"
+  },
+  {
+    "id": "v0612",
+    "sku": "X02O-SG",
+    "previousDimensions": [
+      482,
+      92
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "3aad0df4e175dc9a0caf0754eb99e30fed24d9b48e509c1cd310aba0de247ce0",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-sg",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_4a5eee8c-0cb4-4405-bf05-acb0abd7aab3.jpg?v=1787895912"
+  },
+  {
+    "id": "v0613",
+    "sku": "X02O-TG",
+    "previousDimensions": [
+      608,
+      104
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "f7026c4502a17ce18684204f905ebf2c7c2ac82f1c888963d07c904e333d5c02",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-tg",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_1968c207-89a2-4d72-a1fa-745a7b1cb80b.jpg?v=1787895852"
+  },
+  {
+    "id": "v0614",
+    "sku": "X02O-WY",
+    "previousDimensions": [
+      534,
+      100
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "37d6fc23844e8cc7b75045fd5a10137eb70778f6cf69f22887d53023f04516b4",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-wy",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_73823689-ff32-4279-87d5-e65f5c1680e7.jpg?v=1787895800"
+  },
+  {
+    "id": "v0615",
+    "sku": "X02O-XC",
+    "previousDimensions": [
+      122,
+      122
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "a051d343efd124a032e21e228baa5d10f8bc3b9cd7a4f3b24c7ae7b6f7f89214",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-xc",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_f9c824dd-43cd-4474-ba22-587e0f2e68a7.jpg?v=1787895693"
+  },
+  {
+    "id": "v0627",
+    "sku": "X04-CS",
+    "previousDimensions": [
+      760,
+      142
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "94a28267bcbf3a6918b88a8bdd433300cc349c1015d356559310a0ae50de2119",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X04_X04 8.5 inch chef_1.jpg"
+  },
+  {
+    "id": "v0628",
+    "sku": "X04-QF",
+    "previousDimensions": [
+      696,
+      126
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d553bab278805df1797639f71dde252f85290ee81d61e271a9182633ced348e4",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X04_X04 7 inch bunka_1.jpg"
+  },
+  {
+    "id": "v0629",
+    "sku": "X04-QR",
+    "previousDimensions": [
+      760,
+      106
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "43a205b60debb70d21b298d936415e9871b99e0ceca60751ac2883ae1cc65c77",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X04_X04 8.5 inch carving_1.jpg"
+  },
+  {
+    "id": "v0630",
+    "sku": "X04-RS",
+    "previousDimensions": [
+      692,
+      130
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "59c16dcf3008e847c184e182275ef2d1e17dbfaf69fb0d21a8c654e85e946ca9",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X04_X04 7 inch santoku_1.jpg"
+  },
+  {
+    "id": "v0631",
+    "sku": "X04-SG",
+    "previousDimensions": [
+      516,
+      86
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "0389ed4490e6a5892d1f622a7a5b48fae280c868b6eba7516bf08483496bf7a5",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X04_X04 4.5 inch paring_1.jpg"
+  },
+  {
+    "id": "v0632",
+    "sku": "X04-WY",
+    "previousDimensions": [
+      562,
+      94
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "15c078a964c9c5480e47c075bd36dc81c04c976b8ca87f032b29b401018fe8b3",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X04_X04 5 inch utility_1.jpg"
+  },
+  {
+    "id": "v0633",
+    "sku": "X04-XC",
+    "previousDimensions": [
+      700,
+      130
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "4d1c811ce52b13b0a9982a5a5b9078905bc2a5d18f04ff41ef2bf5b8f9f57083",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X04_X04 7 inch nakiri_1.jpg"
+  },
+  {
+    "id": "v0634",
+    "sku": "X05C-6.5QF",
+    "previousDimensions": [
+      648,
+      118
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "dcae770984db1ee2088cc68b11b4d159a18d50b84c5d5eb16e33c9a1991c3444",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05C_X05C 6.5'' bunka 6.5_1.jpg"
+  },
+  {
+    "id": "v0639",
+    "sku": "X05C-CS",
+    "previousDimensions": [
+      746,
+      132
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "3ab223241073086d7293270b6afed4c812c2cf3fa3bde3e5d7fa63bc1428dec2",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05C_X05C 8'' chef_1.jpg"
+  },
+  {
+    "id": "v0640",
+    "sku": "X05C-MB",
+    "previousDimensions": [
+      766,
+      102
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "e12758abf88af3717d6a3807e18e6ec96de3e8fc058393b0ad38d9032d54b489",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05C_X05C 8.5'' bread_1.jpg"
+  },
+  {
+    "id": "v0641",
+    "sku": "X05C-NP",
+    "previousDimensions": [
+      572,
+      84
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d67a1758077b9e608427c62078bb5de12b92d6ec0478e44e3348cfbdaac6ec58",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05C_X05C 5.5'' steak_1.jpg"
+  },
+  {
+    "id": "v0642",
+    "sku": "X05C-QF",
+    "previousDimensions": [
+      744,
+      138
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "4f24f7200ec5f745a93eaf0a159139135bd070c9b61b3ee7b6cc6b2aa917322a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05C_X05C 8'' bunka_1.jpg"
+  },
+  {
+    "id": "v0643",
+    "sku": "X05C-RS",
+    "previousDimensions": [
+      690,
+      124
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "5734bf240a67babe497e75ac8447a3256406cb8a3cd763348bf88e5f48c0d01b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05C_X05C 7'' santoku_1.jpg"
+  },
+  {
+    "id": "v0644",
+    "sku": "X05C-SG",
+    "previousDimensions": [
+      512,
+      92
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "5a7cff7d836d51dc227a5ac6eb6a41ed14eacde2a3c6d8effb4f7a5cf5e22e5d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05C_X05C 4'' paring_1.jpg"
+  },
+  {
+    "id": "v0645",
+    "sku": "X05C-WY",
+    "previousDimensions": [
+      570,
+      68
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "904e2a492ec990f5c9de1840749816d0c75f8b898521d6c453f00da25771b258",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05C_X05C 5.5'' utility_1.jpg"
+  },
+  {
+    "id": "v0646",
+    "sku": "X05C-XC",
+    "previousDimensions": [
+      688,
+      108
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "3296209fe021b06a1f15ccc906ed20997d45a03602a9328f4f911de00dc79b8f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05C_X05C 7'' nakiri_1.jpg"
+  },
+  {
+    "id": "v0647",
+    "sku": "X05Z-6.5QF",
+    "previousDimensions": [
+      662,
+      122
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "45e36c27ee716e82d2fa3a33d221760a29a2a7c60eb21a95ea2e4f42f5938d4a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05Z_X05Z 6.5'' bunka_1.jpg"
+  },
+  {
+    "id": "v0650",
+    "sku": "X05Z-CS",
+    "previousDimensions": [
+      742,
+      124
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "ba0abbebae9aab931135f615de97c478008271867bfacfc993a1ccff7dd0296b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05Z_X05Z 8'' chef_1.jpg"
+  },
+  {
+    "id": "v0651",
+    "sku": "X05Z-MB",
+    "previousDimensions": [
+      772,
+      98
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "334fe453c6cfea7f7c9d5a6266e1c149cbd0bac344036f5715eb0d6e44ae206e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05Z_X05Z 8'' bread_1.jpg"
+  },
+  {
+    "id": "v0652",
+    "sku": "X05Z-NP",
+    "previousDimensions": [
+      566,
+      96
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "ad9824323017664030c554fd7a8e6e488cd3115debc73c9060da81f218c7a55c",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05Z_X05Z 5.5'' steak_1.jpg"
+  },
+  {
+    "id": "v0653",
+    "sku": "X05Z-QF",
+    "previousDimensions": [
+      123,
+      123
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "f60a80356bf93c556a150899f97afa40626487e5ed58284cc68cc2ab75d95e24",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05Z_X05Z 8'' bunka_1.jpg"
+  },
+  {
+    "id": "v0654",
+    "sku": "X05Z-RS",
+    "previousDimensions": [
+      690,
+      128
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "dd29a0680c74c9879f77e7824edd2f94e9d8680939db7a6546b97a0eedbaa818",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05Z_X05Z 7'' sntoku_1.jpg"
+  },
+  {
+    "id": "v0655",
+    "sku": "X05Z-SG",
+    "previousDimensions": [
+      512,
+      84
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "b8a38d8cd816a9cf57299ad0dfde9fc519cd116d81bbfd4da5496ae8ad6af4ab",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05Z_X05Z 3.5'' paring_1.jpg"
+  },
+  {
+    "id": "v0656",
+    "sku": "X05Z-WY",
+    "previousDimensions": [
+      568,
+      96
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "7b420a41ab64237361d2deeac2ae2a1d872fc936cf57a7715d3207f971da7601",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05Z_X05Z 5.5'' utility_1.jpg"
+  },
+  {
+    "id": "v0657",
+    "sku": "X05Z-XC",
+    "previousDimensions": [
+      690,
+      132
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "968b0c72945fa4ef57cc09cda737b85d81170ca9b99f62a20a8b7304a18aa03d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X05Z_X05Z 7'' nakiri_1.jpg"
+  },
+  {
+    "id": "v0658",
+    "sku": "X06-10CS",
+    "previousDimensions": [
+      826,
+      144
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "f129896eee00e19a890526343620ebcb583b9e31905ad58c05aa666249b0eb83",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x06-10cs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_06059ee8-592e-40a9-a4a3-503ce4c764e7.jpg?v=1787899498"
+  },
+  {
+    "id": "v0659",
+    "sku": "X06-10QR",
+    "previousDimensions": [
+      840,
+      118
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "76ea43c1fe64c4c35ad2b7dd55b863d44bc11b1086cde4b5a91a211fb067a386",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x06-10qr",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_a236bb1e-cded-46e5-b66a-84553aa7d240.jpg?v=1787899434"
+  },
+  {
+    "id": "v0660",
+    "sku": "X06-5RS",
+    "previousDimensions": [
+      572,
+      124
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "1e197f6d891489eead89d9a7d8c646ee39d257e548a2b19fc83b21be4dfdf147",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x06-5rs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/906fb05da620ba76082025b311d5fe1785299846b438541f2a79fa56ab102900_9b1d90bb-355c-4af3-9dfb-9d87bf591c8c.jpg?v=1787513181"
+  },
+  {
+    "id": "v0667",
+    "sku": "X06-DC",
+    "previousDimensions": [
+      714,
+      228
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "5ac7abae9b7e433c44155f273b46149f402a90e32cbbbe7b5ddfa69ec5d234bf",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X06_X06 cleaver_1.jpg"
+  },
+  {
+    "id": "v0670",
+    "sku": "X06-KG",
+    "previousDimensions": [
+      115,
+      115
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "649892801bef823822d70927e37eef1051c7f77b35a21b5c4aeb13b45e645638",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x06-kg",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_c6ee2946-ecf5-4514-80d8-71c33c73c6db.jpg?v=1787899257"
+  },
+  {
+    "id": "v0672",
+    "sku": "X06-MB",
+    "previousDimensions": [
+      750,
+      98
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "e7ed4b93cf66f3d31736bba862eb6bd1267b43e5b29f17f0a1a22b1dcb62683b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X06_X06 bread_1.jpg"
+  },
+  {
+    "id": "v0674",
+    "sku": "X06-QF",
+    "previousDimensions": [
+      748,
+      142
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "e082a6e5e69d2464fe547d2b2100e5cc9511a624fd145d57559d92c7c86727ab",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x06-qf",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_3e242862-7216-41d3-afbb-286adf55ddcc.jpg?v=1787898950"
+  },
+  {
+    "id": "v0676",
+    "sku": "X06-SG",
+    "previousDimensions": [
+      195,
+      195
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "9a7056953812932202d3b60eacd044332a1c4b8dcffc45fd363302d69598b381",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X06_X06 paring_1.jpg"
+  },
+  {
+    "id": "v0677",
+    "sku": "X06-WD",
+    "previousDimensions": [
+      616,
+      124
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "6f21709357255066ddd36d9defd7088e8b07ccf62a9185315ba6df0470004ac1",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x06-wd",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_8686e94a-8328-43a8-af97-737f9d73920b.jpg?v=1787898829"
+  },
+  {
+    "id": "v0678",
+    "sku": "X06-WY",
+    "previousDimensions": [
+      199,
+      199
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "eb2d80089c6ffd5c01aaed23e001570a4534b092fc49aadfe2596a49267f5000",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X06_X06 utility_1.jpg"
+  },
+  {
+    "id": "v0679",
+    "sku": "X06-XC",
+    "previousDimensions": [
+      686,
+      142
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "df3cad7ca56312abbff6b6ba2361f5803f79682603cc73fe63b14ad634eb09d5",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x06-xc",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_ca3aa8f3-31d9-42a1-9e88-836b46a012b6.jpg?v=1787898758"
+  },
+  {
+    "id": "v0682",
+    "sku": "X07-1CP",
+    "previousDimensions": [
+      122,
+      122
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "8bb92e58789be7011d24cc06fd5e37bdc1708c28a9771136aef9318373efa4c3",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X07_X07 9 inch cleaver 2#_1000.jpg"
+  },
+  {
+    "id": "v0683",
+    "sku": "X07-1SD",
+    "previousDimensions": [
+      121,
+      121
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "b5806045302ce72a45382d9c0a5e3bdd580c55111aad5c03a512fc0edf4bf75c",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x07-1sd",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/6db705ffc52f3d4b6b941c0a65d2c18c9d5ba6aa387c9173ff0eea7e461a66fe.jpg?v=1787513191"
+  },
+  {
+    "id": "v0684",
+    "sku": "X07-2CP",
+    "previousDimensions": [
+      125,
+      125
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "1faea3976abc5055c59206d05895a2d0b7024f0423f33eabe340ac5b59082fb5",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X07_X07 8.7 inch cleaver 1#_1000.jpg"
+  },
+  {
+    "id": "v0685",
+    "sku": "X07-2SD",
+    "previousDimensions": [
+      106,
+      106
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "90a49c9a5f6b81fd97aace55b7bdcb1932e621be5525b4d0274e53872109f6bd",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x07-2sd",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/66d547d1dd6fa9a27ae9a75d2952edb18589cd3c0604d51b4dd69ad7f3af450e.jpg?v=1787513193"
+  },
+  {
+    "id": "v0686",
+    "sku": "X07-DC",
+    "previousDimensions": [
+      124,
+      124
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "657487fb8272fa03c40c68f25c0e33a2067c7882c6b070fd7a3c69a8b7e6e3e9",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X07_X07 7.5 inch cleaver_1.jpg"
+  },
+  {
+    "id": "v0687",
+    "sku": "X07-ZQ",
+    "previousDimensions": [
+      656,
+      228
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "5e02ca51d554b3cde340ba64c287c3989a08fe8a594f586b4d6cff8ec24f30c5",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x07-zq",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/3a8750a050a7e7b1b2fdd8c1ab1c0818af10087b4ab441f59fbf9dfd84ba0395_6bac6083-4b7b-4fae-8eb9-4cc5436fb341.jpg?v=1787513195"
+  },
+  {
+    "id": "v0692",
+    "sku": "X08C-MB",
+    "previousDimensions": [
+      814,
+      114
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "a29f7b414467cc67db909bb4620b5d0799e0be177ee6fef4e019c250e04a2c16",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X08C_X08C 8.5 inch bread_1.jpg"
+  },
+  {
+    "id": "v0693",
+    "sku": "X08C-QF",
+    "previousDimensions": [
+      128,
+      128
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "81fa76c1d1658274f48211337256d7dfe9390ac7fac1387efe4f89443f1bee2e",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X08C_X08C 8 inch bunka_1.jpg"
+  },
+  {
+    "id": "v0694",
+    "sku": "X08C-RS",
+    "previousDimensions": [
+      732,
+      134
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "bafd72716d694a97f38c91caf701cc026cb1ff454397880b9e0974ce63fcc2ac",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X08C_X08C 7 inch santoku_1.jpg"
+  },
+  {
+    "id": "v0695",
+    "sku": "X08C-SG",
+    "previousDimensions": [
+      516,
+      98
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "87abe3b3547a4adf4e5734a363da57c2a0025d4dab20191b08c8a06a5affb38b",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X08C_X08C 4 inch paring_1.jpg"
+  },
+  {
+    "id": "v0696",
+    "sku": "X08C-WY",
+    "previousDimensions": [
+      588,
+      94
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "cbd38853701dce8478a7618d5827fed9daf0147ff379d89439ce76a48ab2802d",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X08C_X08C 5.5 utility_1.jpg"
+  },
+  {
+    "id": "v0697",
+    "sku": "X08C-XC",
+    "previousDimensions": [
+      127,
+      127
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "5544a59b205bb5fbbb8b553a1102ee1a58e95f48e4002fe69dbf41020d9a9ab8",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X08C_X08C 7 inch nakiri_1.jpg"
+  },
+  {
+    "id": "v0700",
+    "sku": "X08E-CS",
+    "previousDimensions": [
+      736,
+      120
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "3ac211655aead1bbf854a573242b7917635d58990667576d1363def288c4c2f3",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-cs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_6213ef45-4f36-4d0f-9e75-522d8c4fd827.jpg?v=1787900887"
+  },
+  {
+    "id": "v0701",
+    "sku": "X08E-DC",
+    "previousDimensions": [
+      680,
+      188
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "e90a0b322ce38575ae600092b430246a75fecd89715fc9a31b26aa9aa75b87bf",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-dc",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_5a21a3d1-a7ab-489c-8c8a-825a6373a582.jpg?v=1787900701"
+  },
+  {
+    "id": "v0703",
+    "sku": "X08E-DY",
+    "previousDimensions": [
+      620,
+      118
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "d7b9a4f6b5232719c9b4ba8b2cd24d05b3c3614e512e28c1b6e2ace839862949",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-dy",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_41e73c49-8684-4db5-ad9d-2f5ba577cc8e.jpg?v=1787900564"
+  },
+  {
+    "id": "v0704",
+    "sku": "X08E-HYD",
+    "previousDimensions": [
+      534,
+      78
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "6b0b2b4c9e1b01e5c4aa469bdad4735266c75cb7843fdef13665edea2a7ab46f",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-hyd",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_a0fee3fb-a2e0-4c95-98a6-69a2aa4b6ab0.jpg?v=1787900533"
+  },
+  {
+    "id": "v0705",
+    "sku": "X08E-KG",
+    "previousDimensions": [
+      646,
+      186
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "906aacd83c3570208ab4478797e9afda441bda65c55c81ac37fb7d5f4510d2b3",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-kg",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_01181ec5-cf5a-47bb-8f5a-45e5e4984056.jpg?v=1787900448"
+  },
+  {
+    "id": "v0706",
+    "sku": "X08E-MB",
+    "previousDimensions": [
+      742,
+      102
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "65df30b681a27fc2b156651826262e8ce4d2ce7b9bf00af14e6144f368a8cc3e",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-mb",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/3d4408c8738e6ed420e7e514a97a8bf9_aa0eee57-30f7-45b8-bb42-08131352bd94.png?v=1787818276"
+  },
+  {
+    "id": "v0708",
+    "sku": "X08E-NP",
+    "previousDimensions": [
+      548,
+      86
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "550d0a4c943fa97969aec62f1acf795391bf0919c912ba44d4c635d9aba21fae",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-np",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_33177661-7f2f-4694-a058-6cf9436db595.jpg?v=1787900378"
+  },
+  {
+    "id": "v0709",
+    "sku": "X08E-QF",
+    "previousDimensions": [
+      734,
+      122
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "146c3091077dd7c7c8055aa9430086b1c164f18ca22d1828a667dd0e11a5e365",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-qf",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_a5c8f35d-c08b-44bf-8483-7d68c5db8633.jpg?v=1787900292"
+  },
+  {
+    "id": "v0710",
+    "sku": "X08E-QR",
+    "previousDimensions": [
+      830,
+      98
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "2852dfef7b580550851324433cd2091be7f10134eecb200024dc5bd442914491",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-qr",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_47fb40dd-e5d8-48e5-819a-2e8110fb3954.jpg?v=1787900059"
+  },
+  {
+    "id": "v0711",
+    "sku": "X08E-RS",
+    "previousDimensions": [
+      676,
+      124
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "2d821847880dcb186831bea40b374c88f9eab51c4a9bc84ad04feaaeaf4990d4",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-rs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_fe53f732-7140-4340-b95f-7b03977455b2.jpg?v=1787899953"
+  },
+  {
+    "id": "v0712",
+    "sku": "X08E-SG",
+    "previousDimensions": [
+      490,
+      84
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "6bc05821669bb80c00eeeacbb435b6be3cec00f998806d08329e2474f3776e6a",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-sg",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_f05e97fc-2851-4e0c-be2e-6f91f2ce6371.jpg?v=1787899913"
+  },
+  {
+    "id": "v0713",
+    "sku": "X08E-WD",
+    "previousDimensions": [
+      700,
+      134
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "0f5200b4c5b9133f5f0db54e2624a48794d4b4b288b8f7f329a80118d3324a57",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-wd",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_e01d1d0f-37a7-4c7e-898f-dabc6ad89c45.jpg?v=1787899854"
+  },
+  {
+    "id": "v0714",
+    "sku": "X08E-WY",
+    "previousDimensions": [
+      173,
+      173
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "a38ef770d7ec936bcbd611d04ab7c5b319e6be701c2ecce8da3dcd2b3fbdba22",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-wy",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_8a935962-d3d8-48d6-8005-65669ee04776.jpg?v=1787899815"
+  },
+  {
+    "id": "v0715",
+    "sku": "X08E-XC",
+    "previousDimensions": [
+      690,
+      130
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "6ac98c09bdbcca30da2579e70952de3834027a47e127b6ff45b77f1e5b114bfb",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-xc",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_ad529f72-aad1-4815-8672-4d0ef8ea1830.jpg?v=1787899775"
+  },
+  {
+    "id": "v0716",
+    "sku": "X08E-YD",
+    "previousDimensions": [
+      680,
+      92
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "fa7d2495d73c91b03a4f90a8cd267fd8a6e8c6836f08b92a7e04b9c83805803d",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-yd",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_f9f110e6-c96b-44b5-8f6f-4fdaffeb4c00.jpg?v=1787899720"
+  },
+  {
+    "id": "v0717",
+    "sku": "X08E-ZS",
+    "previousDimensions": [
+      542,
+      90
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "5cd61a86eaeb6a41669ea0ac0444560aa8cdc33b3786d75fcaf5b192b8b6f610",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x08e-zs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_a8f0ea53-94bd-47da-81a1-878af82c24f5.jpg?v=1787899662"
+  },
+  {
+    "id": "v0718",
+    "sku": "X09-QF",
+    "previousDimensions": [
+      794,
+      140
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "37303d57cd443901dc54509c2e5dd1acddb7ce8cae868bd852a0755157ecdd9a",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X09_X09 8.3 inch bunka_1.jpg"
+  },
+  {
+    "id": "v0719",
+    "sku": "X09-WY",
+    "previousDimensions": [
+      602,
+      100
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "e13c52aa09afbc118fc1338dfa4aff21f15f29c7f9ddfdabe42098a764d12196",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x09-wy",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_01dc8072-ea6b-4b74-a4a2-14290614ca25.jpg?v=1787901120"
+  },
+  {
+    "id": "v0720",
+    "sku": "X09-XC",
+    "previousDimensions": [
+      732,
+      140
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "004c33a0201918d62674f4ac8f4bd8fd7efc2cd7693ab8044531869463aad4d2",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_X09_X09 7 inch nakiri_1.jpg"
+  },
+  {
+    "id": "v0724",
+    "sku": "X10-CS",
+    "previousDimensions": [
+      770,
+      134
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "2481f07ae9c58026c91c97256286db54469a6e7ab46a4e7e576d4df51eeb6456",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x10-cs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_f853b700-905f-4d8d-9bea-62ad4f22a3c0.jpg?v=1787901615"
+  },
+  {
+    "id": "v0725",
+    "sku": "X10-NP",
+    "previousDimensions": [
+      576,
+      100
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "05e420cf720db1b92d3f8deb5eb533f25cd0ed09ca13fcd1dc7ba363a2d4452a",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x10-np",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_4ab15ad8-6d4b-4472-b117-0f562ae0a98f.jpg?v=1787901571"
+  },
+  {
+    "id": "v0726",
+    "sku": "X10-QR",
+    "previousDimensions": [
+      784,
+      100
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "bf0b6abe628219eda28e750d6f80b2443583ced0d6a0c39582bdef02117fc4e9",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x10-qr",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_ec124c09-9f75-46cb-a280-09e8ce6c5599.jpg?v=1787901524"
+  },
+  {
+    "id": "v0727",
+    "sku": "X10-RS",
+    "previousDimensions": [
+      714,
+      136
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "ae60047b1a598e4fc66a82263ab85e49250410a2d79b3e1f58b1a016ddf7a507",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x10-rs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_a2afb78d-ca8e-45ff-862b-28d83594c6cc.jpg?v=1787901462"
+  },
+  {
+    "id": "v0728",
+    "sku": "X10-SG",
+    "previousDimensions": [
+      508,
+      86
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "b6d19ad674c1ad77366e22db92dedcebd1ae01a08468982a8e1d2efe1d15abb6",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x10-sg",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_023a3147-b6f0-46db-b171-56a2abf9063b.jpg?v=1787901416"
+  },
+  {
+    "id": "v0729",
+    "sku": "X10-WD",
+    "previousDimensions": [
+      115,
+      115
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "a865a10f68b24c5770abdd82f9d6377d533e8cc5d685b067fb2a36b93ffee60d",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x10-wd",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_8d9be3bd-534e-47ec-a860-8d16579d57e2.jpg?v=1787901340"
+  },
+  {
+    "id": "v0730",
+    "sku": "X10-WY",
+    "previousDimensions": [
+      576,
+      92
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "9a01f5c9ad61dcb87245f3866123840db287bfd3a2a24d8d0a979b49f94a2db4",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x10-wy",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_64a24610-861a-4ab1-b4ba-b6f028d899a6.jpg?v=1787901283"
+  },
+  {
+    "id": "v0731",
+    "sku": "X10-XC",
+    "previousDimensions": [
+      716,
+      132
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "26501a219063f7856661df8b85040d31b96d48fc4371d56aa12d14c0c7f216ea",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x10-xc",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_99e0a78d-2eaa-4f08-a430-afc2e884df9e.jpg?v=1787901209"
+  },
+  {
+    "id": "v0763",
+    "sku": "YM3L-8DC",
+    "previousDimensions": [
+      114,
+      122
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "77395d456a9e90b6362272e250009599698e0d468ea72236d3661a654ac92d36",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_YM3L_YM3L 8'' cleaver_1.jpg"
+  },
+  {
+    "id": "v0764",
+    "sku": "YMSL-8DC",
+    "previousDimensions": [
+      128,
+      128
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "93c167e93a8ffd95adfaa34ca802733435b6b91f05ebf7516b2b803fadc56dc1",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_YMSL_YMSL 8'' cleaver_1.jpg"
+  },
+  {
+    "id": "v1024",
+    "sku": "XZ14-6QF",
+    "previousDimensions": [
+      131,
+      131
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "f70cb558573bf194cec6a88689fb4240bb3f6914f88b58596f229f8d91c4df62",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/xz14-6qf",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_275ed3a3-1eca-4431-a2a5-db078c43a55f.jpg?v=1787901907"
+  },
+  {
+    "id": "v1025",
+    "sku": "XZ14-8QF",
+    "previousDimensions": [
+      125,
+      125
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "6cafbea93e92cf6d4caaa6309a2b80060bcd10a60018218d417dfeb1241ab8a0",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/xz14-8qf",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/2_74bb74e6-62dd-498d-b866-8930e627f921.jpg?v=1787901873"
+  },
+  {
+    "id": "v1028",
+    "sku": "XZ14-CP",
+    "previousDimensions": [
+      115,
+      115
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "29d1c8d259a65591b81b0cba8cadc6e8465b5375b968fbd7853753a8f5e3ba0a",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/xz14-cp",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_63ad37cd-d93e-4ea8-b86a-0404ae8b510f.jpg?v=1787901822"
+  },
+  {
+    "id": "v1029",
+    "sku": "XZ14-WY",
+    "previousDimensions": [
+      125,
+      125
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "b398817635e3ca9f67c79271d014794f41b08c82b7095d4eed0fed44d339d5f1",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/xz14-wy",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/2_aa200f52-b3c9-40fd-baac-7cfda1723c70.jpg?v=1787901784"
+  },
+  {
+    "id": "v1030",
+    "sku": "XZ14-XC",
+    "previousDimensions": [
+      127,
+      127
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "7bbfd454570587508308b5b8f7fe5d263a769650aa4fe3f27c75688333b76cef",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/xz14-xc",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/2_8e1c7144-720e-4282-b0b9-4266cd989131.jpg?v=1787901729"
+  },
+  {
+    "id": "v0516",
+    "sku": "SE-180",
+    "previousDimensions": [
+      626,
+      118
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "c29ea491203a6a743050caa909f607c7e47b8815ee514c2234846cf3a49c04b1",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/se-180",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/f4a431992432a38b7b571b65afde3fc11cdd79c80a8136cbdadd87068e794a73.jpg?v=1787512966"
+  },
+  {
+    "id": "v0517",
+    "sku": "SE-240",
+    "previousDimensions": [
+      710,
+      86
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "85f01d30ed33c128c0332080abe98f29cfa0ae823fe0c4ba9a2dd9891d2d2c66",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/se-240",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/01de8064f064cd2359e43cbff98b32acd862fa634dcae0c846a7be36ffb0a385.jpg?v=1787512966"
+  },
+  {
+    "id": "v0518",
+    "sku": "SE-270",
+    "previousDimensions": [
+      762,
+      86
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "937b0f70c8d3aaabf7dd9d6ce343e6d4524ec49e2f629812561195b9fec02311",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/se-270",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/74781882efcee88038561d1d993744041f37f85fed45a97bc836036a847b7dad.jpg?v=1787512967"
+  },
+  {
+    "id": "v0519",
+    "sku": "SE-300",
+    "previousDimensions": [
+      816,
+      90
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "5b58a0aed2fed580e3bd094758e85f8cf83079e9aeaa54fbba24003dfec01923",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/se-300",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/1834249bd31251b8f0c9b5acafc3d8dbab5a5c1dd1ef7bc6e5b0be25a2492a3a.jpg?v=1787512967"
+  },
+  {
+    "id": "v0520",
+    "sku": "SO-180",
+    "previousDimensions": [
+      636,
+      120
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "db94fc578c2704ced980911a461e8373c182d1a1f7f7832fdac2de94ff46901f",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/so-180",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/c0fdb5aacecf1e1e7663ea6fcb3db1c52388e796130be7ebe09dd40b00cf599b.jpg?v=1787512968"
+  },
+  {
+    "id": "v0521",
+    "sku": "SO-240",
+    "previousDimensions": [
+      732,
+      90
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "686c20704e5e6525c214d53477ab5112127125825452f3777fd725d282796277",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/so-240",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/6863a8eb4099d958dd4791c2c7e80dcacc092f10617bde10e338b3f012429430.jpg?v=1787512968"
+  },
+  {
+    "id": "v0522",
+    "sku": "SO-270",
+    "previousDimensions": [
+      782,
+      84
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "e461d8064fc3a2fc47c4d46948b7cda6e73ca3e5737f446853ad1d5f31fd72d5",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/so-270",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b420bf19fb26805edb108833f97a5877cd3a4c38ef1db70587602b48e9abde42.jpg?v=1787512969"
+  },
+  {
+    "id": "v0523",
+    "sku": "SO-300",
+    "previousDimensions": [
+      834,
+      94
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "950d9f59d984fb82773018d9f0b8cc68e64f25ee8ab32b25236979b479cb4c1f",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/so-300",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/2b2456db536ea8649c3ba401830e4735536b8c918399108cfcf6bc6bbabaa066.jpg?v=1787512969"
+  },
+  {
+    "id": "v0272",
+    "sku": "B35-NP",
+    "previousDimensions": [
+      554,
+      84
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "d03ae29446fad9be1c6a78c55bc9c10bf2c0d5b08689a4faff82ece551555e02",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B35_B35 5'' steak_renamed.jpg"
+  },
+  {
+    "id": "v0939",
+    "sku": "B46D-ND",
+    "previousDimensions": [
+      113,
+      113
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "sourceSha256": "83131bb7d00e5695f6e03aa228df214f43d1a794e89ed355b47919343d325415",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Knife series_B46D_B46D 8'' granton edge chef_1.jpg"
+  },
+  {
+    "id": "v0616",
+    "sku": "X02O-ZS",
+    "previousDimensions": [
+      570,
+      100
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "70f3d4341bcebb33adbc33736bbedcc27a375d7836a47a2b3f6cae7fbb3cd137",
+    "source": "xinzuo.it",
+    "url": "https://www.xinzuo.it/products/x02o-zs",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0843/5535/0770/files/b8421501ceee8ed8defa49d79fc692df_5f6ad5f7-047a-4021-a71b-033be1619157.jpg?v=1787889630"
+  },
+  {
+    "id": "v0485",
+    "sku": "PM8O-NP",
+    "previousDimensions": [
+      92,
+      92
+    ],
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "sourceSha256": "be8e67bc0eeb39dcfebf1ebfb0fbefdbec25cfca7fa8ee16da813e84cf9e4c0f",
+    "source": "Dropbox Marketing/Immagini",
+    "file": "main_Damascus Steak & Fork Sets_PM8OB2_7.jpg"
+  }
+]
