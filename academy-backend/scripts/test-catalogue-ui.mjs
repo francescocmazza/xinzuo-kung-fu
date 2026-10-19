@@ -35,9 +35,9 @@ try{
  await page.locator('#catalogueAnswer').waitFor();
  await page.waitForFunction(()=>{const img=document.querySelector('#catalogueAnswer img');return img?.complete&&img.naturalWidth>=800;});
  await page.locator('#catalogueZoom').click();
- assert.equal(await page.locator('dialog[open] img').getAttribute('src'),await page.locator('#catalogueAnswer img').getAttribute('src'));
- await page.locator('dialog [data-size]').click();assert.equal(await page.locator('dialog.catalogue-zoom--original').count(),1);
- await page.keyboard.press('Escape');await page.locator('dialog').waitFor({state:'detached'});
+ assert.equal(await page.locator('dialog.catalogue-zoom[open] img').getAttribute('src'),await page.locator('#catalogueAnswer img').getAttribute('src'));
+ await page.locator('dialog.catalogue-zoom [data-size]').click();assert.equal(await page.locator('dialog.catalogue-zoom--original').count(),1);
+ await page.keyboard.press('Escape');await page.locator('dialog.catalogue-zoom').waitFor({state:'detached'});
  assert.ok(await page.locator('#catalogueZoom').evaluate(el=>el===document.activeElement));
  mkdirSync('ui-artifacts',{recursive:true});await page.screenshot({path:'ui-artifacts/catalogue-desktop.png',fullPage:true});
  const firstSrc=await page.locator('#catalogueAnswer img').getAttribute('src');
@@ -45,10 +45,10 @@ try{
  assert.equal(await page.locator('#catalogueAnswer img').getAttribute('src'),firstSrc);
  await page.setViewportSize({width:390,height:844});
  await page.locator('#catalogueZoom').click();
- assert.ok(await page.locator('dialog').evaluate(el=>el.getBoundingClientRect().width<=window.innerWidth));
- await page.locator('dialog [data-size]').click();
+ assert.ok(await page.locator('dialog.catalogue-zoom').evaluate(el=>el.getBoundingClientRect().width<=window.innerWidth));
+ await page.locator('dialog.catalogue-zoom [data-size]').click();
  await page.waitForFunction(()=>{const el=document.querySelector('.catalogue-zoom-scroll');return el&&el.scrollWidth>el.clientWidth;});
- await page.locator('dialog [data-close]').click();
+ await page.locator('dialog.catalogue-zoom [data-close]').click();
  await page.screenshot({path:'ui-artifacts/catalogue-mobile.png',fullPage:true});
  for(let i=0;i<5;i++){
   const fields=page.locator('#catalogueAnswer fieldset');for(let j=0;j<await fields.count();j++)await fields.nth(j).locator('input').first().check();
