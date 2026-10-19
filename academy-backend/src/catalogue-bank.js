@@ -51,12 +51,12 @@ export function shuffle(values) {
  for(let i=a.length-1;i>0;i--){const n=new Uint32Array(1);crypto.getRandomValues(n);const j=n[0]%(i+1);[a[i],a[j]]=[a[j],a[i]];}
  return a;
 }
-export function selectProducts(enabled, previous=[], count=5) {
+export function selectProducts(enabled, previous=[], count=10) {
  const chosen=[];const series=shuffle(CATALOGUE.series.filter(s=>enabled.has(s.id)));
  const pools=series.map(s=>{
   const all=CATALOGUE.products.filter(p=>p.series===s.id&&p.quizReady!==false);
   const fresh=all.filter(p=>!previous.includes(p.id));
-  return shuffle(fresh.length?fresh:all);
+  return [...shuffle(all.filter(p=>previous.includes(p.id))),...shuffle(fresh)];
  });
  while(chosen.length<count && pools.some(p=>p.length)) for(const pool of pools){if(pool.length && chosen.length<count)chosen.push(pool.pop());}
  return chosen;

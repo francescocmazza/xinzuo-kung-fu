@@ -30,6 +30,14 @@ assert.equal((await call(env,'/api/catalogue/status',null)).status,401);
 assert.equal((await call(env,'/api/admin/catalogue/series')).status,403);
 assert.equal((await call(env,'/api/admin/catalogue/series','manager')).status,403);
 assert.equal((await call(env,'/api/manager/catalogue/results')).status,403);
+assert.deepEqual((await call(env,'/api/catalogue/status')).data,{allowed:false});
+assert.equal((await call(env,'/api/catalogue/start','learner',{})).status,403);
+assert.equal((await call(env,'/api/admin/catalogue/people')).status,403);
+assert.equal((await call(env,'/api/admin/catalogue/people','manager')).status,403);
+assert.equal((await call(env,'/api/admin/catalogue/people','learner',{id:'learner',enabled:true},'PATCH')).status,403);
+assert.equal((await call(env,'/api/admin/catalogue/person?id=learner','other')).status,403);
+assert.equal((await call(env,'/api/admin/catalogue/people','admin',{id:'absent',enabled:true},'PATCH')).status,404);
+for(const id of ['learner','other'])assert.equal((await call(env,'/api/admin/catalogue/people','admin',{id,enabled:true},'PATCH')).status,200);
 assert.equal(CATALOGUE.series.length,64);assert.equal(CATALOGUE.products.length,475);
 const active=CATALOGUE.series.filter(s=>s.defaultEnabled);assert.equal(active.length,15);
 assert.equal(new Set(CATALOGUE.products.map(p=>p.sku)).size,CATALOGUE.products.length);
@@ -48,25 +56,42 @@ for(const s of active)await call(env,'/api/admin/catalogue/series','admin',{id:s
 assert.equal((await call(env,'/api/admin/catalogue/series','admin',{id:'NOPE',enabled:true},'PATCH')).status,400);
 let start=await call(env,'/api/catalogue/start','learner',{locale:'it'});assert.equal(start.status,201);
 let stored=JSON.parse(db.prepare('SELECT state_json FROM catalogue_attempts WHERE id=?').get(start.data.attemptId).state_json);
-assert.ok(stored.cards.every(c=>c.series==='B35'));assert.equal(new Set(stored.cards.map(c=>c.productId)).size,5);
+assert.ok(stored.cards.every(c=>c.series==='B35'));assert.equal(new Set(stored.cards.map(c=>c.productId)).size,10);
 assert.ok(!JSON.stringify(start.data.card).includes('correct'));assert.ok(!('price' in start.data.card));assert.ok(!('sku' in start.data.card));
 const resumed=await call(env,'/api/catalogue/status');assert.deepEqual(resumed.data.resume.card,start.data.card);
 assert.equal((await call(env,'/api/catalogue/answer','other',{attemptId:start.data.attemptId,index:0,answers:{}})).status,404);
 assert.equal((await call(env,'/api/catalogue/answer','learner',{attemptId:start.data.attemptId,index:0,answers:{}})).status,400);
 const firstIds=stored.cards.map(c=>c.productId);
-for(let index=0;index<5;index++){
+for(let index=0;index<10;index++){
  const card=stored.cards[index];const answers=Object.fromEntries(card.fields.map(f=>[f.key,f.correct]));answers.price=card.price;
  const response=await call(env,'/api/catalogue/answer','learner',{attemptId:start.data.attemptId,index,answers});assert.equal(response.status,200);assert.equal(response.data.result.correct,response.data.result.total);
- assert.equal(response.data.done,index===4);
+ assert.equal(response.data.done,index===9);
  if(index===0)assert.equal((await call(env,'/api/catalogue/answer','learner',{attemptId:start.data.attemptId,index,answers})).status,409);
- if(index===4)assert.equal(response.data.summary.score,1);
+ if(index===9)assert.equal(response.data.summary.score,1);
 }
 start=await call(env,'/api/catalogue/start','learner',{locale:'en'});assert.equal(start.status,201);
-stored=JSON.parse(db.prepare('SELECT state_json FROM catalogue_attempts WHERE id=?').get(start.data.attemptId).state_json);assert.ok(stored.cards.every(c=>!firstIds.includes(c.productId)));
+stored=JSON.parse(db.prepare('SELECT state_json FROM catalogue_attempts WHERE id=?').get(start.data.attemptId).state_json);assert.equal(stored.cards.length,10);const available=CATALOGUE.products.filter(p=>p.series==='B35'&&p.quizReady!==false).length;assert.equal(stored.cards.filter(c=>firstIds.includes(c.productId)).length,Math.max(0,20-available));
 await call(env,'/api/admin/catalogue/series','admin',{id:'B35',enabled:false},'PATCH');
 assert.equal((await call(env,'/api/catalogue/start','learner',{locale:'it'})).status,409);
 assert.equal((await call(env,'/api/catalogue/status')).data.resume.attemptId,start.data.attemptId);
 assert.equal((await call(env,'/api/manager/catalogue/results','manager')).status,200);
+let people=(await call(env,'/api/admin/catalogue/people','admin')).data.people;
+const progress=people.find(p=>p.id==='learner');assert.equal(progress.completed,1);assert.equal(progress.sessions,2);assert.equal(progress.score,1);
+assert.equal(people.find(p=>p.id==='other').score,null);
+let detail=await call(env,'/api/admin/catalogue/person?id=learner','admin');assert.equal(detail.data.attempts.length,2);assert.ok(detail.data.skills.every(s=>s.correct===s.total));assert.ok(detail.data.skills.length>=6);
+await call(env,'/api/admin/catalogue/people','admin',{id:'learner',enabled:false},'PATCH');
+assert.deepEqual((await call(env,'/api/catalogue/status')).data,{allowed:false});
+assert.equal((await call(env,'/api/catalogue/answer','learner',{attemptId:start.data.attemptId,index:0,answers:{}})).status,403);
+assert.equal((await call(env,'/api/catalogue/start','learner',{})).status,403);
+assert.equal((await call(env,'/api/admin/catalogue/person?id=learner','admin')).data.attempts.length,2);
+assert.equal((await call(env,'/api/admin/catalogue/person?id=learner&offset=-1','admin')).status,400);
+assert.equal((await call(env,'/api/admin/catalogue/person?id=learner&offset=50','admin')).data.attempts.length,0);
+// Replaced, incomplete attempts are never counted as completed sessions.
+await call(env,'/api/admin/catalogue/people','admin',{id:'learner',enabled:true},'PATCH');
+await call(env,'/api/admin/catalogue/series','admin',{id:'B35',enabled:true},'PATCH');
+await call(env,'/api/catalogue/start','learner',{});
+people=(await call(env,'/api/admin/catalogue/people','admin')).data.people;
+assert.equal(people.find(p=>p.id==='learner').completed,1);assert.equal(people.find(p=>p.id==='learner').sessions,3);
 assert.ok(selectProducts(new Set(['B12S']),[],5).length===1);
 console.log(`PASS: ${CATALOGUE.products.filter(p=>p.quizReady).length} model cards in IT/EN; role protection, migrations, toggles, randomisation, no-repeat, answer secrecy, grading, resume, replay and ownership.`);
 }
