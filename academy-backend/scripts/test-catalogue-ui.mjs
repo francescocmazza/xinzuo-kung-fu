@@ -26,9 +26,11 @@ try{
  await page.route('**/*',route=>route.request().url().startsWith('http://127.0.0.1:8000')?route.continue():route.abort());
  await page.addInitScript(()=>sessionStorage.setItem('xinzuo-academy-session-token','admin'));
  await page.goto('http://127.0.0.1:8000/',{waitUntil:'domcontentloaded'});
- await page.locator('#catalogueStart:not([disabled])').waitFor();
+ await page.locator('#managerButton').waitFor();
+ assert.equal(await page.locator('#cataloguePanel').isVisible(),false);
  await page.locator('#managerButton').click();await page.locator('[data-series="B13R"]').waitFor();
  assert.equal(await page.locator('[data-series]').count(),64);
+ await page.locator('[data-person=admin]').check();await page.locator('#cataloguePeopleStatus').filter({hasText:'salvato'}).waitFor();
  await page.locator('[data-series="B13R"]').uncheck();await page.locator('#catalogueAdminStatus').filter({hasText:'salvato'}).waitFor();
  assert.equal(db.prepare("SELECT enabled FROM catalogue_series_settings WHERE series_id='B13R'").get().enabled,0);
  await page.locator('#managerBack').click();await page.locator('#catalogueStart').click();
@@ -50,13 +52,17 @@ try{
  await page.waitForFunction(()=>{const el=document.querySelector('.catalogue-zoom-scroll');return el&&el.scrollWidth>el.clientWidth;});
  await page.locator('dialog.catalogue-zoom [data-close]').click();
  await page.screenshot({path:'ui-artifacts/catalogue-mobile.png',fullPage:true});
- for(let i=0;i<5;i++){
+ for(let i=0;i<10;i++){
   const fields=page.locator('#catalogueAnswer fieldset');for(let j=0;j<await fields.count();j++)await fields.nth(j).locator('input').first().check();
   const price=page.locator('#catalogueAnswer input[name=price]');if(await price.count())await price.fill('100');
   await page.locator('#catalogueAnswer button[type=submit]').click();await page.locator('.catalogue-feedback').waitFor();
-  if(i<4)await page.locator('#catalogueNext').click();
+  if(i<9)await page.locator('#catalogueNext').click();
  }
  assert.equal(db.prepare('SELECT count(*) n FROM catalogue_attempts WHERE completed_at IS NOT NULL').get().n,1);
  assert.ok((await page.locator('#catalogueQuestion').innerText()).includes('Batch completato'));
- assert.deepEqual(errors,[]);console.log('PASS: real browser admin toggle, start, images, reload/resume, mobile rendering and full five-knife submission.');
+ await page.locator('#managerButton').click();await page.locator('[data-progress=admin]').click();
+ await page.locator('#cataloguePersonDetail h3').waitFor();assert.ok((await page.locator('#cataloguePersonDetail').innerText()).includes('10/10'));
+ await page.locator('[data-person=admin]').uncheck();await page.locator('#cataloguePeopleStatus').filter({hasText:'salvato'}).waitFor();
+ await page.locator('#managerBack').click();await page.locator('#cataloguePanel').waitFor({state:'hidden'});
+ assert.deepEqual(errors,[]);console.log('PASS: real browser admin toggle, start, images, reload/resume, mobile rendering and full ten-knife submission.');
 }finally{await browser.close();await new Promise(r=>server.close(r));db.close();}

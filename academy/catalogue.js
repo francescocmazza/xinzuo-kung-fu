@@ -2,6 +2,8 @@
 (() => {
  'use strict';
  const learner=document.getElementById('cataloguePanel'), admin=document.getElementById('catalogueAdmin'), results=document.getElementById('catalogueManagerResults');
+ const peoplePanel=document.getElementById('cataloguePeople');
+ let people=[];
  let attempt=null, next=null, testLocale='it', activeSeries=[], inventory=[];
  const api=(path,options={})=>window.AcademyAccount.request(path,options);
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -10,13 +12,14 @@
  const fieldNames={it:{series:'Serie',type:'Tipo di coltello',handle:'Materiale del manico',steel:'Acciaio della lama / anima',layers:'Numero di strati',use:'Uso appropriato',price:'Prezzo retail approssimativo (€)'},en:{series:'Series',type:'Knife type',handle:'Handle material',steel:'Blade / core steel',layers:'Layer count',use:'Appropriate use',price:'Approximate retail price (€)'}};
  const field=k=>fieldNames[testLocale][k]||k;
  function status(message,error=false){const el=learner.querySelector('[data-status]');if(el){el.textContent=message;el.className=error?'form-status form-status--error':'form-status';}}
- function shell(){learner.innerHTML=`<p class="eyebrow">${t('Test personale · Catalogo','Staff tests · Catalogue')}</p><h2>${t('Riconosci il coltello','Recognise the knife')}</h2><p>${t('Ogni batch propone fino a 5 coltelli casuali delle serie attive. Per ogni immagine rispondi su serie, tipo, manico, acciaio, strati, uso e prezzo. La correzione arriva dopo la conferma del coltello.','Each batch draws up to 5 random knives from active series. Identify the series, type, handle, steel, layers, use and price. Feedback follows each submitted knife.')}</p><p>${t('Prezzi: Retail Shop Price V15, tolleranza ±15%. I dati mancanti o discordanti non fanno punteggio.','Prices: V15 Retail Shop Price, ±15% tolerance. Missing or conflicting data is not scored.')}</p><p id="catalogueActive"></p><button type="button" class="button" id="catalogueStart">${t('Avvia nuovo batch','Start new batch')}</button> <button type="button" class="button button--quiet" id="catalogueResume" hidden>${t('Riprendi','Resume')}</button><p data-status role="status" aria-live="polite"></p><div id="catalogueQuestion"></div><div id="catalogueHistory"></div>`;
+ function shell(){learner.innerHTML=`<p class="eyebrow">${t('Test personale · Catalogo','Staff tests · Catalogue')}</p><h2>${t('Riconosci il coltello','Recognise the knife')}</h2><p>${t('Ogni batch propone 10 coltelli casuali delle serie attive. Per ogni immagine rispondi su serie, tipo, manico, acciaio, strati, uso e prezzo. La correzione arriva dopo la conferma del coltello.','Each batch draws 10 random knives from active series. Identify the series, type, handle, steel, layers, use and price. Feedback follows each submitted knife.')}</p><p>${t('Prezzi: Retail Shop Price V15, tolleranza ±15%. I dati mancanti o discordanti non fanno punteggio.','Prices: V15 Retail Shop Price, ±15% tolerance. Missing or conflicting data is not scored.')}</p><p id="catalogueActive"></p><button type="button" class="button" id="catalogueStart">${t('Avvia nuovo batch','Start new batch')}</button> <button type="button" class="button button--quiet" id="catalogueResume" hidden>${t('Riprendi','Resume')}</button><p data-status role="status" aria-live="polite"></p><div id="catalogueQuestion"></div><div id="catalogueHistory"></div>`;
  learner.querySelector('#catalogueStart').onclick=start;
  learner.querySelector('#catalogueResume').onclick=()=>{if(attempt)renderCard(attempt.card);};
  }
  async function refresh(){
   if(!window.AcademyAccount.getUser())return;
-  try{const data=await api('/api/catalogue/status');activeSeries=data.series;attempt=data.resume;testLocale=attempt?.locale||lang();
+  try{const data=await api('/api/catalogue/status');if(!data.allowed){learner.hidden=true;learner.innerHTML='';attempt=null;return;}
+   learner.hidden=false;if(!learner.querySelector('#catalogueStart'))shell();activeSeries=data.series;attempt=data.resume;testLocale=attempt?.locale||lang();
    learner.querySelector('#catalogueActive').textContent=t('Serie attive: ','Active series: ')+(activeSeries.map(s=>s.id).join(', ')||t('nessuna','none'));
    learner.querySelector('#catalogueStart').disabled=!activeSeries.length;
    learner.querySelector('#catalogueResume').hidden=!attempt;
@@ -61,13 +64,39 @@
  }
  async function refreshManager(){
   const u=window.AcademyAccount.getUser();if(!u||!['manager','admin'].includes(u.role))return;
-  admin.hidden=u.role!=='admin';
+  admin.hidden=u.role!=='admin';peoplePanel.hidden=u.role!=='admin';
+  if(u.role==='admin')await refreshPeople();
   try{const data=await api('/api/manager/catalogue/results');results.innerHTML=`<h2>${t('Risultati · Riconoscimento prodotti','Results · Product recognition')}</h2>${historyTable(data.attempts,true)}`;}catch(e){results.textContent=e.message;}
   if(u.role==='admin')try{
    const data=await api('/api/admin/catalogue/series');inventory=data.series;
    admin.innerHTML=`<h2>${t('Serie abilitate nei test','Enabled test series')}</h2><p>${t('Le modifiche valgono per i nuovi batch. Le prove già iniziate conservano i coltelli estratti. Le altre prove della Academy restano disponibili.','Changes apply to new batches. Existing attempts keep their selected knives. Other Academy tests remain available.')}</p><label>${t('Cerca serie o modello','Search series or model')} <input id="catalogueFilter" type="search"></label><p id="catalogueAdminStatus" role="status" aria-live="polite"></p><div id="catalogueSeries"></div>`;
    admin.querySelector('#catalogueFilter').oninput=renderSeries;renderSeries();
   }catch(e){admin.textContent=e.message;}
+ }
+ const percent=v=>v===null?'—':Math.round(v*100)+'%';
+ async function refreshPeople(){
+  try{const data=await api('/api/admin/catalogue/people');people=data.people;
+   peoplePanel.innerHTML=`<h2>${t('Staff · Accesso e andamento dei test','Staff · Test access and progress')}</h2><p>${t('Abilita solo le persone dello staff del negozio. Nessun account ha accesso automatico, incluso il tuo: puoi abilitare anche te stesso. La revoca blocca subito nuove risposte e conserva lo storico.','Enable only store staff. No account has automatic access, including yours: you can enable yourself. Revocation blocks new answers immediately and preserves history.')}</p><p>${t('Ogni nuova sessione contiene 10 coltelli. Media e competenze considerano solo le sessioni completate; lo storico mostra anche quelle parziali.','Each new session contains 10 knives. Averages and skills include completed sessions only; history also shows partial attempts.')}</p><label>${t('Cerca persona, email o telefono','Search name, email or phone')} <input type="search" id="cataloguePersonFilter"></label><p id="cataloguePeopleStatus" role="status" aria-live="polite"></p><div id="cataloguePeopleList"></div><div id="cataloguePersonDetail" aria-live="polite"></div>`;
+   peoplePanel.querySelector('#cataloguePersonFilter').oninput=renderPeople;renderPeople();
+  }catch(e){peoplePanel.textContent=e.message;}
+ }
+ function renderPeople(){
+  const q=peoplePanel.querySelector('#cataloguePersonFilter').value.trim().toLowerCase();
+  const rows=people.filter(p=>[p.name,p.email,p.phone].some(v=>String(v||'').toLowerCase().includes(q)));
+  peoplePanel.querySelector('#cataloguePeopleList').innerHTML=`<div class="table-wrap"><table><thead><tr><th>${t('Persona','Person')}</th><th>${t('Accesso test','Test access')}</th><th>${t('Sessioni completate / avviate','Completed / started')}</th><th>${t('Media','Average')}</th><th>${t('Ultima sessione','Last session')}</th><th>${t('Andamento','Progress')}</th></tr></thead><tbody>${rows.map(p=>`<tr><td>${esc(p.name)}<br><small>${esc(p.email||p.phone||'')}${p.active?'':t(' · Account non attivo',' · Inactive account')}</small></td><td><label><input type="checkbox" data-person="${esc(p.id)}" ${p.enabled?'checked':''}> ${t('Abilitato','Enabled')}</label></td><td>${p.completed} / ${p.sessions}</td><td>${percent(p.score)}</td><td>${p.lastAttempt?esc(new Date(p.lastAttempt*1000).toLocaleString()):'—'}</td><td><button type="button" class="button button--quiet" data-progress="${esc(p.id)}">${t('Vedi risultati','View results')}</button></td></tr>`).join('')}</tbody></table></div>${rows.length?'':t('Nessuna persona trovata.','No matching people.')}`;
+  peoplePanel.querySelectorAll('[data-person]').forEach(box=>box.onchange=async()=>{
+   const enabled=box.checked;box.disabled=true;const message=peoplePanel.querySelector('#cataloguePeopleStatus');message.textContent='';
+   try{await api('/api/admin/catalogue/people',{method:'PATCH',body:JSON.stringify({id:box.dataset.person,enabled})});people.find(p=>p.id===box.dataset.person).enabled=enabled;message.textContent=t('Accesso salvato.','Access saved.');if(box.dataset.person===window.AcademyAccount.getUser()?.id)await refresh();}
+   catch(e){box.checked=!enabled;message.textContent=e.message;}finally{box.disabled=false;}
+  });
+  peoplePanel.querySelectorAll('[data-progress]').forEach(button=>button.onclick=()=>personDetails(button.dataset.progress));
+ }
+ async function personDetails(id,offset=0){
+  const host=peoplePanel.querySelector('#cataloguePersonDetail');host.textContent=t('Caricamento…','Loading…');
+  try{const data=await api('/api/admin/catalogue/person?id='+encodeURIComponent(id)+'&offset='+offset);
+   host.innerHTML=`<h3 tabindex="-1">${esc(data.person.name)} · ${t('Andamento individuale','Individual progress')}</h3><h4>${t('Competenze · tutte le sessioni completate','Skills · all completed sessions')}</h4>${data.skills.length?`<ul>${data.skills.map(s=>`<li>${esc(fieldNames[lang()][s.key]||s.key)}: <strong>${percent(s.correct/s.total)}</strong> (${s.correct}/${s.total})</li>`).join('')}</ul>`:t('Nessuna sessione completata.','No completed sessions yet.')}<h4>${t('Storico · dalle prove più recenti','History · newest first')}</h4>${data.attempts.length?historyTable(data.attempts):t('Nessuna prova avviata.','No attempts yet.')}<button type="button" class="button button--quiet" data-prev ${offset===0?'disabled':''}>${t('Più recenti','Newer')}</button> <button type="button" class="button button--quiet" data-older ${data.nextOffset===null?'disabled':''}>${t('Precedenti','Older')}</button>`;
+   host.querySelector('[data-prev]').onclick=()=>personDetails(id,Math.max(0,offset-50));host.querySelector('[data-older]').onclick=()=>personDetails(id,data.nextOffset);host.querySelector('h3').focus();
+  }catch(e){host.textContent=e.message;}
  }
  function renderSeries(){const filter=admin.querySelector('#catalogueFilter').value.trim().toUpperCase();
   admin.querySelector('#catalogueSeries').innerHTML=inventory.filter(s=>s.id.includes(filter)||(s.products||[]).some(p=>p.sku.toUpperCase().includes(filter))).map(s=>`<div class="catalogue-series-row"><label><input type="checkbox" data-series="${esc(s.id)}" ${s.enabled?'checked':''}> <strong>${esc(s.id)}</strong> · ${s.models} ${t('modelli','models')}</label><details><summary>${t('Modelli e dati da verificare','Models and data review')}</summary><div class="table-wrap"><table><thead><tr><th>SKU</th><th>Retail €</th><th>${t('Note','Notes')}</th></tr></thead><tbody>${(s.products||[]).map(p=>`<tr><td>${esc(p.sku)}</td><td>${p.price===null?'—':p.price.toFixed(2)}</td><td>${esc([...(p.notes||[]),...(p.price===null?[t('Prezzo assente: non valutato','Price missing: not scored')]:[]),...(p.steel===null?[t('Acciaio non valutato','Steel not scored')]:[])].join(' · '))}</td></tr>`).join('')}</tbody></table></div></details></div>`).join('');
@@ -76,7 +105,7 @@
    catch(e){box.checked=!value;admin.querySelector('#catalogueAdminStatus').textContent=e.message;}finally{box.disabled=false;}
   });
  }
- function auth(user){learner.hidden=!user;if(user){shell();refresh();}else{learner.innerHTML='';admin.innerHTML='';results.innerHTML='';admin.hidden=true;attempt=null;}}
+ function auth(user){learner.hidden=true;if(user){shell();refresh();}else{learner.innerHTML='';admin.innerHTML='';results.innerHTML='';admin.hidden=true;peoplePanel.hidden=true;peoplePanel.innerHTML='';people=[];attempt=null;}}
  window.addEventListener('academy-auth-state',e=>auth(e.detail.user));
  window.addEventListener('academy-manager-refresh',refreshManager);
  document.getElementById('languageSelect').addEventListener('change',()=>{if(!attempt&&window.AcademyAccount.getUser()){shell();refresh();}});
