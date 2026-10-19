@@ -37,6 +37,31 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Set up Node for catalogue integration tests
+        uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      - name: Test catalogue batches and admin permissions
+        run: node academy-backend/scripts/test-catalogue.mjs
+
+      - name: Install browser test dependencies
+        working-directory: academy-backend
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+
+      - name: Exercise catalogue UI in a real browser
+        run: node academy-backend/scripts/test-catalogue-ui.mjs
+
+      - name: Upload catalogue UI screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalogue-ui
+          path: ui-artifacts/
+          if-no-files-found: ignore
+
       - name: Validate curriculum and question bank
         run: python scripts/validate_academy.py
 
@@ -48,6 +73,9 @@ jobs:
 
       - name: Check Academy JavaScript syntax
         run: |
+          node --check academy/catalogue.js
+          node --check academy-backend/src/catalogue-bank.js
+          node --check academy-backend/src/catalogue-routes.js
           node --check academy/app.js
           node --check academy/account.js
           node --check academy/legal.js

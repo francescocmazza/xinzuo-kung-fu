@@ -1,3 +1,4 @@
+import { catalogueRoute } from "./catalogue-routes.js";
 import { CERTIFICATION_LEVELS } from "./certification-bank.js";
 
 const enc = new TextEncoder();
@@ -32,6 +33,10 @@ export default {
           termsVersion:TERMS_VERSION,
           privacyVersion:PRIVACY_VERSION
         });
+      }
+
+      if (/^\/api\/(?:(?:admin|manager)\/)?catalogue\//.test(url.pathname)) {
+        return withHttpErrors(request, env, () => catalogueRoute(request, env, { authenticate, bodyJson, apiJson, HttpError, now }));
       }
 
       if (url.pathname === "/api/bootstrap" && request.method === "POST") return bootstrap(request, env);

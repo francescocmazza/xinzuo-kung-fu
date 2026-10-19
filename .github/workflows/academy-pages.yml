@@ -69,7 +69,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p site/academy
-          cp academy/index.html academy/styles.css academy/app.js academy/account.js academy/config.js academy/privacy.html academy/terms.html academy/legal.js academy/certificate.html academy/certificate.js site/academy/
+          cp academy/index.html academy/styles.css academy/app.js academy/account.js academy/config.js academy/privacy.html academy/terms.html academy/legal.js academy/certificate.html academy/certificate.js academy/catalogue.js site/academy/
           cp -R academy/data site/academy/data
           python - <<'PY'
           import json, os

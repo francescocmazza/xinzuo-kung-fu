@@ -1393,3 +1393,25 @@ h3 { margin: 0; font-size: 27px; }
   gap: 10px;
   margin: 0 0 18px;
 }
+
+/* Catalogue recognition and per-series administration */
+.catalogue-panel { margin-bottom: 2rem; }
+.catalogue-photo { background: white; border: 1px solid #ddd; border-radius: 12px; padding: 24px; margin: 1rem 0; text-align: center; }
+.catalogue-photo img { width: auto; max-width: 100%; max-height: 260px; min-height: 90px; object-fit: contain; }
+.catalogue-fields { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; }
+.catalogue-fields fieldset { margin: 0; border: 1px solid #bbb; border-radius: 10px; padding: 1rem; min-width: 0; }
+.catalogue-fields legend { font-weight: 700; padding: 0 .35rem; }
+.catalogue-fields fieldset label { display: flex; gap: .6rem; align-items: flex-start; padding: .5rem 0; cursor: pointer; }
+.catalogue-fields input[type=radio] { flex: 0 0 auto; width: 18px; height: 18px; margin-top: 3px; }
+.catalogue-price { display: grid; gap: .5rem; align-content: start; }
+.catalogue-price input { width: 100%; padding: .8rem; }
+.catalogue-test button { margin-top: 1rem; }
+.catalogue-feedback { border-left: 4px solid #b31d22; padding: 1rem; margin: 1rem 0; background: #faf7f2; color: #202020; }
+.catalogue-feedback li { margin-bottom: .65rem; }
+.catalogue-series-row { border-bottom: 1px solid #ddd; padding: .8rem 0; }
+.catalogue-series-row > label { display: flex; align-items: center; gap: .7rem; cursor: pointer; }
+.catalogue-series-row input { width: 20px; height: 20px; }
+.catalogue-series-row details { margin-top: .5rem; }
+#catalogueAdminStatus { min-height: 1.6em; }
+#catalogueHistory { margin-top: 1rem; }
+@media(max-width:700px) { .catalogue-fields { grid-template-columns: 1fr; } .catalogue-photo {padding: 12px;} }
