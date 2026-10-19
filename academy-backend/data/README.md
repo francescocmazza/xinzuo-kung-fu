@@ -33,3 +33,11 @@ The current attempt can be resumed after a reload. Starting another closes the p
 Edit the reviewed per-product JSON, preserving stable IDs/SKUs and source references. Add an individual image and set `quizReady: true` only after verifying the model. Resolve source conflicts before restoring a null specification. Never copy EXW, supplier prices, or a whole workbook into this public repository.
 
 Run `node academy-backend/scripts/test-catalogue.mjs` (Node 22+), the existing curriculum validator and certification-bank audit. Deploy migration `0005_catalogue_tests.sql` before the Worker. Both existing Pages publishing workflows include `catalogue.js` and all `academy/data` assets. The existing backend deployment workflow applies D1 migrations.
+
+## Higher-resolution photograph update — 2026-10-19
+
+394 photographs were replaced with visually reviewed native 800–1000 pixel images: 313 from the owner's Dropbox Marketing/Immagini collection, and 81 from xinzuo.it. `image-sources.json` records each source identity/URL, original-file SHA-256 and before/after dimensions. No artificial upscaling or generated knife details are used; WebP is an optimized copy of the source photograph.
+
+Model, blade shape and handle were reviewed against the source folders and catalogue. Incorrect storefront featured images, sets, answer-revealing specification graphics and obscured handles were rejected. Existing photographs are retained where no reliably matching improvement was available. All photographed models in the 15 initially active series now have image widths of at least 800 pixels. PM8S-10QFD and PM8S-10QR retain their existing catalogue photographs; the others use reviewed native 800–1000 pixel replacements. This update does not change quiz eligibility, prices, grading or admin activation settings.
+
+The learner photo is larger and offers an accessible enlargement dialog, native-size scrolling and fit-to-screen mode. Asset versioning also refreshes images in resumed attempts. Dropbox temporary download links and credentials are never published.
