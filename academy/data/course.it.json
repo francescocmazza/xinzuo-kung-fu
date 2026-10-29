@@ -1865,7 +1865,7 @@
             "05-knife-types/overview.md",
             "05-knife-types/weight-and-balance.md"
           ],
-          "summary": "Scegli le famiglie di coltelli dal lavoro, poi confronta bilanciamento ed ergonomia nella mano dell'utente.",
+          "summary": "Inizia da manico e presa naturale e fai provare peso e bilanciamento; solo dopo chiedi degli alimenti, scegli la lama e spiega l'acciaio.",
           "lessons": [
             {
               "id": "b-knife-types-01",
@@ -1880,31 +1880,31 @@
                   "Il santoku offre un formato multiuso compatto con buona altezza di lama.",
                   "Una mannaia cinese sottile non è automaticamente una mannaia pesante da osso."
                 ],
-                "takeaway": "Parti da compito e movimento, non dalla silhouette."
+                "takeaway": "Parti dal manico preferito e dalla presa, poi fai confrontare peso e bilanciamento prima di chiedere degli alimenti."
               },
               "question": {
                 "id": "b-knife-types-01-q",
-                "prompt": "Che cosa viene prima nella scelta di un coltello da cucina multiuso?",
+                "prompt": "Da che cosa inizia la consulenza in negozio per scegliere un coltello?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La sola lunghezza della lama"
+                    "text": "Il budget del cliente"
                   },
                   {
                     "id": "b",
-                    "text": "Il solo prestigio dell'acciaio"
+                    "text": "La durezza preferita dell'acciaio"
                   },
                   {
                     "id": "c",
-                    "text": "Il solo stile estetico"
+                    "text": "Gli alimenti tagliati più spesso"
                   },
                   {
                     "id": "d",
-                    "text": "I lavori di taglio che l'utilizzatore svolge davvero"
+                    "text": "Il tipo di manico che il cliente preferisce"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Un coltello multiuso deve prima di tutto corrispondere al lavoro reale e al movimento preferito dell'utilizzatore."
+                "explanation": "Si parte dal manico e dalla presa, si provano peso e bilanciamento, poi si discutono alimenti e forma della lama."
               },
               "recovery_questions": [
                 {
@@ -2145,27 +2145,27 @@
             "questions": [
               {
                 "id": "b-knife-types-mini-1",
-                "prompt": "Che cosa viene prima nella scelta di un coltello da cucina multiuso?",
+                "prompt": "Da che cosa inizia la consulenza in negozio per scegliere un coltello?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "La sola lunghezza della lama"
+                    "text": "Il budget del cliente"
                   },
                   {
                     "id": "b",
-                    "text": "Il solo prestigio dell'acciaio"
+                    "text": "La durezza preferita dell'acciaio"
                   },
                   {
                     "id": "c",
-                    "text": "Il solo stile estetico"
+                    "text": "Gli alimenti tagliati più spesso"
                   },
                   {
                     "id": "d",
-                    "text": "I lavori di taglio che l'utilizzatore svolge davvero"
+                    "text": "Il tipo di manico che il cliente preferisce"
                   }
                 ],
                 "correct": "d",
-                "explanation": "Un coltello multiuso deve prima di tutto corrispondere al lavoro reale e al movimento preferito dell'utilizzatore.",
+                "explanation": "Si parte dal manico e dalla presa, si provano peso e bilanciamento, poi si discutono alimenti e forma della lama.",
                 "concept_id": "knife-types.general-purpose.base",
                 "critical": false
               },
@@ -5236,22 +5236,22 @@
             "05-knife-types/overview.md",
             "05-knife-types/weight-and-balance.md"
           ],
-          "summary": "Scegli le famiglie di coltelli dal lavoro, poi confronta bilanciamento ed ergonomia nella mano dell'utente.",
+          "summary": "Inizia da manico e presa naturale e fai provare peso e bilanciamento; solo dopo chiedi degli alimenti, scegli la lama e spiega l'acciaio.",
           "lessons": [
             {
               "id": "i-knife-types-integrated",
               "concept_id": "knife-types.integrated.intermediate",
-              "title": "Confronta l'ergonomia dopo aver risolto la funzione",
+              "title": "Guida la consulenza a partire dall'ergonomia",
               "critical": false,
               "source_path": "05-knife-types/weight-and-balance.md",
               "content": {
-                "lead": "La raccomandazione intermedia restringe prima per compito meccanico, poi confronta movimento, lunghezza, presa e bilanciamento.",
+                "lead": "La consulenza parte dal manico ottagonale o classico, verifica la presa e fa confrontare peso e bilanciamento prima di chiedere degli alimenti.",
                 "points": [
                   "Due coltelli possono adattarsi allo stesso compito ma risultare molto diversi per punto di equilibrio e geometria del manico.",
                   "Una forma specialistica va consigliata solo quando il suo ruolo meccanico coincide con il lavoro dell'utente.",
                   "Acciaio ed estetica dovrebbero differenziare le opzioni dopo che funzione ed ergonomia sono già adeguate."
                 ],
-                "takeaway": "Funzione → ergonomia → scelta."
+                "takeaway": "Manico → presa → peso e bilanciamento → alimenti → acciaio → modello."
               },
               "question": {
                 "id": "i-knife-types-integrated-q",
@@ -5468,19 +5468,19 @@
               "recovery_questions": [
                 {
                   "id": "i-knife-types-balance-r1",
-                  "prompt": "Quando l'adattamento ergonomico dovrebbe diventare decisivo?",
+                  "prompt": "Quando far confrontare al cliente il peso e il bilanciamento?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "Dopo l'idoneità al lavoro"
+                      "text": "Dopo aver osservato la presa naturale"
                     },
                     {
                       "id": "b",
-                      "text": "Prima di identificare il lavoro"
+                      "text": "Solo dopo aver chiesto gli alimenti"
                     },
                     {
                       "id": "c",
-                      "text": "Al posto di verificare la funzione"
+                      "text": "Dopo aver scelto il tipo di acciaio"
                     },
                     {
                       "id": "d",
@@ -8655,7 +8655,7 @@
             "05-knife-types/overview.md",
             "05-knife-types/weight-and-balance.md"
           ],
-          "summary": "Scegli le famiglie di coltelli dal lavoro, poi confronta bilanciamento ed ergonomia nella mano dell'utente.",
+          "summary": "Inizia da manico e presa naturale e fai provare peso e bilanciamento; solo dopo chiedi degli alimenti, scegli la lama e spiega l'acciaio.",
           "lessons": [
             {
               "id": "a-knife-types-integrated",
@@ -10171,8 +10171,8 @@
     "source_locale": "en",
     "engine": "chatgpt-differential-v1",
     "prompt_revision": "2026-10-02-academy-full-depth-v4",
-    "source_blob_sha": "e592c5bdbf6b9f3505ea24950affbf07d160c080",
-    "reviewed_at": "2026-10-02",
+    "source_blob_sha": "6c8118928764b16b439cb8421afd7b456b8b8217",
+    "reviewed_at": "2026-10-29",
     "guidance": "localization/locales.yml#it",
     "note": "Italian Academy v0.3 reviewed with the current ChatGPT translation workflow; Base, Intermediate and Advanced each contain 27 aligned lessons with reviewed assessment wording.",
     "reviewed_translatable_strings": 2519
