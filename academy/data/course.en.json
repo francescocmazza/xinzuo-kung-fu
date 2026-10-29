@@ -1865,7 +1865,7 @@
             "05-knife-types/overview.md",
             "05-knife-types/weight-and-balance.md"
           ],
-          "summary": "Choose knife families from the work, then compare balance and fit in the user's hand.",
+          "summary": "Begin with handle style, natural grip and a physical weight-and-balance trial; only then ask about foods, blade shape and steel.",
           "lessons": [
             {
               "id": "b-knife-types-01",
@@ -1880,31 +1880,31 @@
                   "Santoku gives a compact all-round format with useful blade height.",
                   "A thin Chinese cleaver is not automatically a heavy bone cleaver."
                 ],
-                "takeaway": "Start from task and movement, not the silhouette."
+                "takeaway": "Start with the customer's handle preference, observe the grip, then compare weight and balance before asking about foods."
               },
               "question": {
                 "id": "b-knife-types-01-q",
-                "prompt": "What should come first when choosing a general-purpose kitchen knife?",
+                "prompt": "What should begin a customer's in-store knife consultation?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Blade length by itself"
+                    "text": "The customer's budget"
                   },
                   {
                     "id": "b",
-                    "text": "Steel prestige by itself"
+                    "text": "Preferred steel hardness"
                   },
                   {
                     "id": "c",
-                    "text": "Visual style by itself"
+                    "text": "Typical foods to cut"
                   },
                   {
                     "id": "d",
-                    "text": "The cutting tasks the user actually performs"
+                    "text": "Their preferred handle style"
                   }
                 ],
                 "correct": "d",
-                "explanation": "A general-purpose knife should first match the user's real work and preferred movement."
+                "explanation": "Begin by asking about handle style and grip; test weight and balance before discussing foods and blade shape."
               },
               "recovery_questions": [
                 {
@@ -2145,27 +2145,27 @@
             "questions": [
               {
                 "id": "b-knife-types-mini-1",
-                "prompt": "What should come first when choosing a general-purpose kitchen knife?",
+                "prompt": "What should begin a customer's in-store knife consultation?",
                 "options": [
                   {
                     "id": "a",
-                    "text": "Blade length by itself"
+                    "text": "The customer's budget"
                   },
                   {
                     "id": "b",
-                    "text": "Steel prestige by itself"
+                    "text": "Preferred steel hardness"
                   },
                   {
                     "id": "c",
-                    "text": "Visual style by itself"
+                    "text": "Typical foods to cut"
                   },
                   {
                     "id": "d",
-                    "text": "The cutting tasks the user actually performs"
+                    "text": "Their preferred handle style"
                   }
                 ],
                 "correct": "d",
-                "explanation": "A general-purpose knife should first match the user's real work and preferred movement.",
+                "explanation": "Begin by asking about handle style and grip; test weight and balance before discussing foods and blade shape.",
                 "concept_id": "knife-types.general-purpose.base",
                 "critical": false
               },
@@ -5236,22 +5236,22 @@
             "05-knife-types/overview.md",
             "05-knife-types/weight-and-balance.md"
           ],
-          "summary": "Choose knife families from the work, then compare balance and fit in the user's hand.",
+          "summary": "Begin with handle style, natural grip and a physical weight-and-balance trial; only then ask about foods, blade shape and steel.",
           "lessons": [
             {
               "id": "i-knife-types-integrated",
               "concept_id": "knife-types.integrated.intermediate",
-              "title": "Compare fit after solving function",
+              "title": "Guide the ergonomic-first consultation",
               "critical": false,
               "source_path": "05-knife-types/weight-and-balance.md",
               "content": {
-                "lead": "Intermediate recommendation first narrows by mechanical task, then compares movement, length, grip and balance.",
+                "lead": "Consultation starts with octagonal or Western handle preference, identifies the normal grip, and compares weight and balance before asking about foods.",
                 "points": [
                   "Two knives can both fit the task but feel very different because of balance point and handle geometry.",
                   "A specialist shape should be recommended only when its mechanical role matches the user's work.",
                   "Steel and appearance should differentiate options after function and fit are already acceptable."
                 ],
-                "takeaway": "Function → ergonomics → selection."
+                "takeaway": "Handle → grip → weight and balance → foods → steel → model."
               },
               "question": {
                 "id": "i-knife-types-integrated-q",
@@ -5468,19 +5468,19 @@
               "recovery_questions": [
                 {
                   "id": "i-knife-types-balance-r1",
-                  "prompt": "When should ergonomic fit become a deciding factor?",
+                  "prompt": "When should the customer compare knife weight and balance?",
                   "options": [
                     {
                       "id": "a",
-                      "text": "After task fit"
+                      "text": "After checking their natural grip"
                     },
                     {
                       "id": "b",
-                      "text": "Before identifying the task"
+                      "text": "Only after food categories are discussed"
                     },
                     {
                       "id": "c",
-                      "text": "Instead of checking function"
+                      "text": "After choosing the steel grade"
                     },
                     {
                       "id": "d",
@@ -8655,7 +8655,7 @@
             "05-knife-types/overview.md",
             "05-knife-types/weight-and-balance.md"
           ],
-          "summary": "Choose knife families from the work, then compare balance and fit in the user's hand.",
+          "summary": "Begin with handle style, natural grip and a physical weight-and-balance trial; only then ask about foods, blade shape and steel.",
           "lessons": [
             {
               "id": "a-knife-types-integrated",
