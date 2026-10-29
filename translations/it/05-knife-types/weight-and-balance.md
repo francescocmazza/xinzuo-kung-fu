@@ -1,5 +1,5 @@
 ---
-source_hash: f63956755ab9b26e71f1c13f6856ca0ad324beb203ac31a7ba77b57ccbbdb18a
+source_hash: 4c001259309ab09dee23027a1941807b57e04ab2509b218ffaea3e1cbc13caf6
 translation_engine: chatgpt-differential-v1
 prompt_revision: 2026-09-23-technical-book-v2
 glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
@@ -84,37 +84,31 @@ Le persone sviluppano abitudini diverse, quindi non esiste un unico bilanciament
 <!-- tx-unit:dfe43355e9a115c0703be5208f8ac97e883345fdc3d6617dd68503ae423f8e58 -->
 Non chiederti soltanto **«Questo coltello è ben bilanciato?»**. Chiediti: **«Come si bilancia questo coltello quando il cliente lo impugna nel modo in cui cucina realmente?»**
 <!-- /tx-unit -->
-<!-- tx-unit:97b0024549dd5764f08b2554feb92bfb22794fa7b030de11f984eeef3a0f6932 -->
-## L'ergonomia fa parte delle prestazioni
+<!-- tx-unit:fe640f92a25cd7c1f30463f39cdb27ba0378f5f839cdc0ef8a616f4770c581f1 -->
+## L'ergonomia è una questione personale
 <!-- /tx-unit -->
-<!-- tx-unit:20f99b85260fda964222c8885c9a3ab7e82fcc90d47e72cee2464f1e061f2322 -->
-Una volta scelta una forma di lama adatta al lavoro, l'ergonomia diventa il criterio di selezione successivo. Forma, circonferenza, lunghezza e profilo del manico, transizione del raccordo, peso totale e bilanciamento determinano quanto naturalmente il coltello si adatti a una determinata mano e a un determinato movimento.
+<!-- tx-unit:5753e63d269a650d7906b8ae8f8f2af8758bf8dcc3be1f4eef1393681c2216e2 -->
+Prima di parlare di alimenti o acciai, il cliente deve capire quale coltello sente più naturale nella mano. Si tratta di due preferenze distinte: **peso complessivo** e **bilanciamento percepito**. Alcuni preferiscono un coltello più pesante, che trasmette solidità e stabilità; altri uno più leggero, facile da sollevare e da cambiare di direzione. Indipendentemente dal peso totale, c'è chi preferisce una massa leggermente spostata in avanti, verso la lama, e chi trova più comodo un bilanciamento centrale, vicino alla presa abituale. Due coltelli della stessa massa possono dare sensazioni molto diverse proprio perché il peso è distribuito in modo differente.
 <!-- /tx-unit -->
-<!-- tx-unit:eec82015d82fc7618295397f698652711c16436ef01571bb8358c472c8ad805f -->
-Non esiste un sostituto per la prova diretta del coltello. Larghezza del palmo, lunghezza delle dita, posizione della presa e abitudini variano da persona a persona. Due coltelli con fotografie e specifiche simili possono risultare molto diversi perché pochi millimetri nel profilo del manico o una piccola variazione nel bilanciamento modificano la posizione delle dita e il modo in cui il polso sostiene la lama.
-<!-- /tx-unit -->
-<!-- tx-unit:035b4086077d47bb77a5b525b1ae0818bf1514dd8efb8a61a40c6c16b0a2df63 -->
-È per questo che un negozio fisico ha un valore particolare. Un catalogo può individuare i coltelli tecnicamente adatti; **la mano del cliente può stabilire quale possiede l'ergonomia migliore per lui**. Scegliere un coltello è simile a scegliere un paio di scarpe: le specifiche restringono il campo, ma è la calzata a decidere quale fra le opzioni adatte risulti davvero giusta.
-<!-- /tx-unit -->
-<!-- tx-unit:932a08c305fd41c9d4ac8b426e7294a45c4fc6b3c465ae105ff2cf6bc877a226 -->
-L'ampiezza della gamma Xinzuo rende pratico questo confronto. Il personale può individuare diversi coltelli che soddisfano già le esigenze funzionali del cliente, quindi confrontare geometria del manico, peso e bilanciamento per trovare quello che meglio si adatta alla sua mano, alla sua presa e al suo stile di taglio.
+<!-- tx-unit:f6eaba1f0a3ccde47b1b407e87a10a9c6b9458bbe3b13d26e9ad33b005720645 -->
+Fai provare al cliente diversi coltelli campione in sicurezza, mantenendo la sua impugnatura abituale, e lascia che confronti direttamente entrambi gli aspetti. Il coltello ideale dovrebbe sembrare **un prolungamento naturale del braccio**. Scegliere un coltello è come provare **un paio di scarpe**: le specifiche possono orientare, ma è la persona a capire quale modello le calza meglio. Non esistono peso o bilanciamento ideali per tutti.
 <!-- /tx-unit -->
 <!-- tx-unit:8fd05266b0ba0c99e59cbc21b237900cb83061438cdc6bc7e761a5ce7b25ab3d -->
 ## Come il personale dovrebbe guidare la scelta
 <!-- /tx-unit -->
-<!-- tx-unit:82d3b2177e25c29b83ed2e13a3ad51a2e8943dacc275f702d193c00b6b5183ef -->
-Per una consulenza in negozio:
+<!-- tx-unit:7ab7ebc8087914db9d92779dd9d8c8ab5b1ed3b25fdb42a0823c5a3fa02d1736 -->
+Segui esattamente questo ordine durante la consulenza in negozio:
 <!-- /tx-unit -->
-<!-- tx-unit:168b94a10ce2585806fc04baf1e0576c1a1dab3380fbf41146dc819da89c5e44 -->
-1. **Individua il lavoro da svolgere.** Chiedi che cosa taglia più spesso il cliente, in quali quantità e con quali movimenti.
-2. **Scegli la famiglia e la forma della lama.** Risolvi prima il problema funzionale: coltello da chef, santoku, bunka, nakiri, coltello da affettare, coltello da disosso, mannaia o un'altra forma specialistica.
-3. **Individua la presa naturale.** Lascia che il cliente impugni il coltello come fa normalmente quando cucina. Stabilisci se utilizza soprattutto una presa sul manico, una presa intermedia o una presa a pinza.
-4. **Confronta sensazione del manico e bilanciamento con quella presa.** Prova forme e dimensioni diverse dei manici, quindi confronta progetti sbilanciati verso la lama, neutri e più pesanti sul manico mentre il cliente mantiene la propria presa abituale.
-5. **Proponi una rosa ristretta.** Metti direttamente nella mano del cliente diversi coltelli che soddisfano sia le esigenze funzionali sia quelle ergonomiche e lascia che li confronti.
-6. **Completa la scelta con acciaio, costruzione, materiali, aspetto e prezzo.** Questi fattori distinguono i coltelli che sono già adatti all'uso del cliente.
+<!-- tx-unit:6cce2f1dcc61c806f14f16397b89df51e6c057e57c2371fd03b7c1992006d57f -->
+1. **Tipo di manico:** chiedi se il cliente preferisce un manico ottagonale di tipo asiatico oppure un manico classico occidentale.
+2. **Impugnatura naturale:** osserva se usa la presa sul manico, quella intermedia oppure la presa a pinza.
+3. **Prova fisica:** fai confrontare coltelli più pesanti e più leggeri, poi coltelli con il peso leggermente avanzato verso la lama e coltelli dal bilanciamento più centrale, sempre con la presa abituale. Usa l'immagine del prolungamento del braccio e il paragone con le scarpe per spiegare che la scelta è personale.
+4. **Alimenti e taglio:** solo adesso chiedi quali alimenti lavora più spesso — verdure dure o dense, verdure comuni o morbide, carne o pesce — e quali movimenti esegue. Individua la forma e la geometria della lama più adatte.
+5. **Acciaio:** dopo aver chiarito esigenze ergonomiche e funzionali, confronta tenuta del filo, tenacità, resistenza alla corrosione, facilità di affilatura e manutenzione.
+6. **Consiglio finale:** proponi modelli che combinino comodità individuale, idoneità al lavoro, gusto estetico e budget.
 <!-- /tx-unit -->
-<!-- tx-unit:9e253efe982be31b1694af14873d3edddb073de14e409b12ef6c0d84d464b88b -->
-Ricorda il metodo come **funzione, adattamento, selezione**. Prima trova la forma che svolge il lavoro. Poi trova l'ergonomia adatta alla persona. Infine scegli il prodotto specifico fra i modelli che soddisfano entrambi i requisiti.
+<!-- tx-unit:290d5a32d94c93b2c5ca72238f0a699b1e55c7dceb0dfa5238e7814925261914 -->
+Ricorda: **preferenza per il manico → presa → prova di peso e bilanciamento → alimenti e forma della lama → acciaio → modello finale**. La geometria della lama deve comunque essere adatta all'uso in sicurezza, ma viene valutata dopo aver capito come il cliente preferisce impugnare il coltello.
 <!-- /tx-unit -->
 <!-- tx-unit:e4b1f4673a609d2cc45909b7ed7ad1f8e8cf51af5dd1d0f4502980f948a74dd4 -->
 Il capitolo successivo mantiene l'attenzione sull'interfaccia con la mano esaminando i **materiali del manico**. Il materiale non sostituisce forma o bilanciamento, ma modifica peso, sensazione superficiale, resistenza all'umidità e requisiti di cura. Una volta comprese queste scelte progettuali, il libro passa dalla scelta e comprensione del coltello al suo uso sicuro.

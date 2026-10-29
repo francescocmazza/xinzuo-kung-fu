@@ -1,5 +1,5 @@
 ---
-source_hash: 8092b12f74e39d2268e64a6f436641eb995148538dcb14df2ce7da86e80fa9a4
+source_hash: 6eaab9bb4af77bb5473961cb717885d8d16dc22cb601f39d0f9202bfe99e1b39
 translation_engine: chatgpt-differential-v1
 prompt_revision: 2026-09-23-technical-book-v2
 glossary_hash: a83408431d8bfbd4152516e325660e19c7ee1a3ef66b0f1c9466d4b8d907227b
@@ -14,14 +14,17 @@ La forma del coltello collega direttamente il cuoco al lavoro. Acciaio, trattame
 <!-- tx-unit:1a9838ef34949d73a9a49a9443f5bfc5ddd4c81d6148d14b2d60835b01fef770 -->
 Questo capitolo **non è un catalogo esaustivo di ogni forma di coltello**. Tratta le forme più comuni nella gamma Xinzuo e nel lavoro quotidiano in cucina, oltre ad alcuni utili profili specialistici. Esistono molte altre forme regionali, storiche e specialistiche, ma includerle tutte renderebbe il capitolo meno pratico da usare.
 <!-- /tx-unit -->
-<!-- tx-unit:63115a2f78a68ae94fbdaa8cc0c4e00df9d37985ac9dfd2773e951d6ba29e73c -->
-Per il personale di vendita, un principio conta più che memorizzare i nomi: **partire dal lavoro del cliente, non dalla sagoma che gli piace**. Chiedi quali alimenti taglia più spesso, in quali quantità, se lavora principalmente sul tagliere o in mano e se necessita di ampio lavoro di taglio, affettature lunghe, lavoro intorno all'osso, preparazione del pesce o dettagli fini. Queste risposte individuano la famiglia di lame più adatta al compito.
+<!-- tx-unit:33c56c86140bcd256822c3e8501e67e2fc54dd1ca9477a2081be029754cb5b89 -->
+In negozio, **si parte dal cliente e dalla sua mano, non dall'acciaio o dalla forma della lama decisa in anticipo**. Chiedi innanzitutto se preferisce un **manico ottagonale di tipo asiatico** oppure un **manico classico di tipo occidentale**. È una preferenza iniziale, non un vincolo che impedisca di provare alternative.
 <!-- /tx-unit -->
-<!-- tx-unit:f337819fd0d3012f6ebeb3bc5dad1f0a7758a895dbbd28ebe1a3a2c51a6afdeb -->
-**Dopo avere scelto la forma corretta, passa all'ergonomia.** Chiedi al cliente di impugnare il coltello come cucina realmente e confronta forma del manico, posizione della presa, peso totale e bilanciamento. Alcune persone preferiscono un coltello stabile e sbilanciato verso la lama, che trasmette più forza in un taglio in spinta; altre preferiscono un coltello più leggero o neutro, facile da sollevare e reindirizzare. La raccomandazione è completa soltanto quando alla forma funzionale vengono abbinati manico e bilanciamento adatti alla mano e al movimento del cliente.
+<!-- tx-unit:f5be13c5f70edeae7965094c2f9edc4788476112e9fdaa8e5b12b8d05a9bdaad -->
+Osserva poi come il cliente impugna spontaneamente il coltello: **presa sul manico**, **presa intermedia** oppure **presa a pinza**, con pollice e indice vicini alla lama. Lo stesso coltello può sembrare bilanciato in modo diverso a seconda della posizione della mano.
 <!-- /tx-unit -->
-<!-- tx-unit:cf1d014f6b4bbdfc265acd52a7fefca9ab3eac4cd677b23f15e07cbdc12f262f -->
-L'ampiezza della gamma Xinzuo rende pratico questo confronto. Il personale può mettere nella mano del cliente diversi coltelli tecnicamente adatti e confrontare direttamente geometria del manico, peso e bilanciamento. Ciò permette di trovare un abbinamento ergonomico molto vicino alle esigenze individuali invece di trattare un unico manico o bilanciamento come universale. Segui un ordine chiaro: **prima la funzione, poi l'ergonomia, infine il modello specifico**.
+<!-- tx-unit:489768d383327f3c51a23021aa5bcdeb2a1364cc011652071567441cc4b86ac7 -->
+**Prima di chiedere che cosa taglia, lascia che il cliente confronti fisicamente diversi coltelli campione.** Verifica se si trova meglio con un coltello più pesante o più leggero e se preferisce il peso leggermente avanzato verso la lama oppure un bilanciamento più centrale, vicino alla presa. Peso totale e bilanciamento sono due aspetti distinti: coltelli dello stesso peso possono dare sensazioni diverse a seconda della distribuzione delle masse. Invitalo a simulare in sicurezza alcuni movimenti di taglio, mantenendo la sua impugnatura abituale. Il coltello ideale deve sembrare **un prolungamento naturale del braccio**. Come quando si provano delle scarpe, le specifiche aiutano a confrontare i modelli, ma soltanto la persona può giudicare quale le calza davvero bene.
+<!-- /tx-unit -->
+<!-- tx-unit:e45162c0f2f575119032cf73509fac2e9b98595a622b382c33482e2a9ea39508 -->
+Soltanto dopo la prova ergonomica chiedi quali alimenti taglia più spesso: **verdure dure o dense, verdure comuni o più morbide, carne oppure pesce**, e quali movimenti utilizza. Le risposte orientano la scelta della famiglia e della geometria della lama. Infine affronta **l'acciaio**, le esigenze di manutenzione e i relativi compromessi prestazionali, per poi scegliere il modello adatto sia alla persona sia al lavoro. La sequenza pratica è **tipo di manico → impugnatura naturale → prova di peso e bilanciamento → alimenti e geometria della lama → acciaio → modello finale**.
 <!-- /tx-unit -->
 <!-- tx-unit:5b4c9d9b3aeb54e7866ff21a5727b85acaebf5fed9320d9ace6f0bd8997356a0 -->
 Esamina la lama reale dal tallone alla punta e considera quale movimento la sua geometria incoraggia. I nomi delle categorie sono soltanto guide. Due coltelli venduti con lo stesso nome possono differire molto per curvatura, spessore, bilanciamento, geometria dei biselli e movimento previsto. Nessun tipo di acciaio, finitura o specifica può rendere adatta al lavoro una forma sbagliata.
