@@ -156,12 +156,12 @@ export const BASE_CERTIFICATION_BANK = [
   },
   {
     id:"cert-base-016", conceptId:"knife-types.general-purpose.base", critical:false,
-    prompt:{en:"What should come first when choosing a general-purpose kitchen knife?",it:"Che cosa viene prima nella scelta di un coltello da cucina multiuso?"},
+    prompt:{en:"What should begin an in-store knife-selection consultation?",it:"Da che cosa inizia la consulenza in negozio per scegliere un coltello?"},
     options:[
-      {id:"a",en:"Blade length by itself",it:"La sola lunghezza della lama"},
-      {id:"b",en:"Steel prestige by itself",it:"Il solo prestigio dell'acciaio"},
-      {id:"c",en:"Visual style by itself",it:"Il solo stile estetico"},
-      {id:"d",en:"The cutting tasks the user actually performs",it:"I lavori di taglio che l'utilizzatore svolge davvero"}
+      {id:"a",en:"The customer's budget",it:"Il budget del cliente"},
+      {id:"b",en:"Preferred steel hardness",it:"La durezza preferita dell'acciaio"},
+      {id:"c",en:"Typical foods to cut",it:"Gli alimenti tagliati più spesso"},
+      {id:"d",en:"Their preferred handle style",it:"Il tipo di manico che il cliente preferisce"}
     ], correct:"d"
   },
   {
