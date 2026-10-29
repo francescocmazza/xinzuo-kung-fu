@@ -60,27 +60,23 @@ People develop different habits, so there is no single correct balance for every
 
 Do not ask only, **“Is this knife well balanced?”** Ask, **“How does this knife balance when this customer holds it the way they actually cook?”**
 
-## Ergonomics is part of performance
+## Ergonomics is a personal fit
 
-Once the blade shape suits the work, ergonomics becomes the next selection criterion. Handle shape, circumference, length, contour, bolster transition, total weight and balance determine how naturally the knife fits a particular hand and movement.
+Before discussing foods or steel, the customer should discover which knife feels most natural in the hand. This involves two separate preferences: **total weight** and **perceived balance**. Some customers prefer a heavier knife and its substantial, stable feel; others prefer a lighter knife that is easier to lift and redirect. Independently, some prefer the weight slightly forward toward the blade, while others find a more central balance near their working grip more comfortable. Two knives of equal mass can feel different because their weight is distributed differently.
 
-There is no substitute for handling the knife. Palm width, finger length, grip position and habit vary from person to person. Two knives with similar photographs and specifications can feel very different because a few millimetres of handle contour or a small change in balance alters where the fingers settle and how the wrist supports the blade.
-
-This makes a physical store especially valuable. A catalogue can identify technically suitable knives; **the customer's hand can identify which one has the best ergonomics**. Choosing a knife is similar to choosing a pair of shoes: specifications narrow the field, but fit decides which suitable option feels right.
-
-The breadth of the Xinzuo range makes this comparison practical. Staff can identify several knives that already meet the customer's functional needs, then compare handle geometry, weight and balance to find the one that best fits the person's hand, grip and cutting style.
+Let the customer try safe sample knives in their usual grip and compare both aspects directly. The ideal knife should feel like **a natural extension of the arm**. Choosing a knife is like trying on **a pair of shoes**: specifications can help, but the person wearing or holding the item must judge the fit. There is no universally ideal weight or balance.
 
 ## How staff should guide the choice
 
-For an in-store recommendation:
+Keep the in-store consultation in this exact order:
 
-1. **Identify the work.** Ask what the customer cuts most often, in what quantities and with which movements.
-2. **Choose the blade family and shape.** Solve the functional problem first: chef's knife, santoku, bunka, nakiri, carving knife, boning knife, cleaver or another specialist form.
-3. **Identify the natural grip.** Let the customer hold the knife as they normally cook. Determine whether they mainly use a handle grip, an intermediate grip or a pinch grip.
-4. **Compare handle feel and balance in that grip.** Test handle shapes and sizes, then compare blade-forward, neutral and more handle-weighted designs while the customer keeps their normal grip.
-5. **Offer a shortlist.** Put several knives that meet both the functional and ergonomic needs into the customer's hand and let them compare directly.
-6. **Use steel, construction, materials, appearance and price to complete the choice.** These factors distinguish between knives that already suit the customer's use.
+1. **Handle style:** ask whether the customer prefers an octagonal Asian-style handle or a classic Western-style handle.
+2. **Natural grip:** observe a full-handle grip, intermediate or hybrid grip, or pinch grip.
+3. **Physical trial:** let the customer compare heavier and lighter knives and then slightly blade-forward versus more centrally balanced knives, always using their habitual grip. Explain the arm-extension and shoe-fitting analogies to convey personal fit.
+4. **Cutting tasks:** only now ask which foods they cut most often—hard or dense vegetables, ordinary or softer vegetables, meat or fish—and which cutting movements they use. Match blade shape and geometry to those tasks.
+5. **Steel:** discuss edge retention, toughness, corrosion resistance, sharpening effort and care requirements only after ergonomic and functional needs are understood.
+6. **Final recommendation:** propose models that combine personal fit, practical suitability, and preferred appearance and budget.
 
-Remember the method as **function, fit, selection**. First find the shape that does the job. Then find the ergonomics that suit the person. Finally choose the specific product among the models that satisfy both.
+Remember: **handle preference → grip → physical weight-and-balance trial → foods and blade shape → steel → final model**. An appropriate blade geometry remains essential for safe use, but it is evaluated after discovering how the customer prefers to hold the knife.
 
 The next chapter keeps the focus on the hand interface by looking at **handle materials**. Material does not replace shape or balance, but it changes weight, surface feel, moisture resistance and care requirements. Once those design choices are understood, the book moves from choosing and understanding the knife to using it safely.

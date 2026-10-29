@@ -4,6 +4,12 @@ All notable editorial changes to the English source of truth will be recorded he
 
 ## [Unreleased]
 
+### Changed — customer consultation (2026-10-29)
+
+- Standardized the sequence: handle style, natural grip, physical trial of weight and balance, food and blade shape, steel, final model.
+- Made heavier/lighter weight and blade-forward/central balance two separate ergonomic comparisons and emphasized the arm-extension and shoe-fitting analogies.
+
+
 ### Fixed
 
 - removed three externally hotlinked product images in Knife Shapes and Their Uses that pointed at third-party retailer CDNs and were not covered by any recorded image right; the original gyuto and Western boning-knife hotlinks plus a straight paring-knife hotlink introduced by the later `main` revision are replaced with the standard editorial image placeholder pending approved assets.
