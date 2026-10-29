@@ -4,6 +4,10 @@ Xinzuo Academy is the interactive learning layer built on **The Gongfu of Xinzuo
 
 The English book remains the technical source of truth. Academy content simplifies, sequences and tests that knowledge; technical changes must originate in the book first.
 
+## Official in-store consultation
+
+Teach this order consistently: (1) Asian octagonal or Western classic handle; (2) full-handle, intermediate or pinch grip; (3) hands-on comparison of heavier and lighter knives, then slightly blade-forward and more centrally balanced knives; (4) hard/dense, ordinary or soft vegetables, meat or fish, followed by blade-shape suitability; (5) steel; (6) final model. The knife should feel like an extension of the arm, just as a pair of shoes must fit the individual.
+
 ## Curriculum v0.3
 
 The Academy uses the same nine knowledge domains at every level so that **Base, Intermediate and Advanced differ mainly by depth of competence, not by topic**:
