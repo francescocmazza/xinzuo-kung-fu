@@ -1,5 +1,14 @@
 # The Gongfu of Xinzuo
 
+## 🎓 Xinzuo Academy — Accedi al corso / Open the course
+
+### [➡️ ACCEDI ALL’ACADEMY / OPEN THE ACADEMY](https://francescocmazza.github.io/xinzuo-kung-fu/academy/)
+
+Corso interattivo in **italiano e inglese**, con moduli formativi, quiz ed esami.  
+Interactive course in **Italian and English**, with learning modules, quizzes and exams.
+
+---
+
 Xinzuo's multilingual practical book on kitchen knives: materials, forms, techniques, sharpening, maintenance and safe use.
 
 ## Read the book
