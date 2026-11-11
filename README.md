@@ -35,11 +35,11 @@ The book is published as a searchable multilingual website with GitHub Pages.
 
 English (`en`) is always available. A non-English language is added automatically to the website and PDF releases as soon as its complete committed translation passes validation. Incomplete languages are skipped and never block languages that are already ready.
 
-Italian (`it`) is currently fully translated. Simplified Chinese (`zh-Hans`) is being regenerated with the new ChatGPT workflow and will become publication-ready automatically as soon as its full translation passes validation. Future left-to-right locales use the same mechanism without editing the publication workflow.
+French (`fr`) and Dutch (`nl`) are included as translation targets alongside Italian (`it`) and Simplified Chinese (`zh-Hans`). Each language becomes available on the site and in downloadable PDFs only after every translated page passes the committed-translation checks. Until then the website and release omit incomplete editions; the translation queue is generated in the language-editions PR.
 
 ## English is the source of truth
 
-The master manuscript lives under `content/en/`. Active translations are committed under `translations/it/` and `translations/zh-Hans/`.
+The master manuscript lives under `content/en/`. Active translations are committed under `translations/it/` and `translations/zh-Hans/`; French and Dutch are queued for translation under `translations/fr/` and `translations/nl/`.
 
 The repository uses **no translation API and no API credits**. GitHub only calculates which semantic `tx-unit` blocks have changed and writes them to `.translation/queue.json`. Translation is then performed in ChatGPT/Codex using the user's ChatGPT plan.
 
