@@ -76,7 +76,7 @@ locales:
   fr:
     name: Français
     publish_when_complete: true
-    status: translating
+    status: committed
     direction: ltr
     deploy: true
     mkdocs_language: fr
@@ -147,7 +147,7 @@ locales:
   nl:
     name: Nederlands
     publish_when_complete: true
-    status: translating
+    status: committed
     direction: ltr
     deploy: true
     mkdocs_language: nl
