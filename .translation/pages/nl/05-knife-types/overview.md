@@ -173,7 +173,13 @@ Verwar deze traditionele enkelzijdige vorm niet met een moderne tweezijdig gesle
 <div class="kb-profile-visual">
   <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-BONING-B37TG">
     <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo B37-TG Western boning knife">
-      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
+      <div class="kb-image-placeholder__label">AFBEELDING NOG NIET BESCHIKBAAR</div>
+      <div class="kb-image-placeholder__title">Westers uitbeenmes Xinzuo B37-TG</div>
+      <div class="kb-image-placeholder__note">Wacht op een goedgekeurde Xinzuo-productfoto.</div>
+    </div>
+    <figcaption>VIS-SHAPE-BONING-B37TG - planned visual awaiting production or image-rights approval.</figcaption>
+  </figure>
+</div>
 
 Een westers uitbeenmes is smal omdat uitbenen een voortdurend veranderende driedimensionale snijbeweging is. De snede moet naast bot naar binnen gaan, gewrichten volgen, om bochten draaien, bindweefsel losmaken en steeds van hoek veranderen. Een breed lemmet verzet zich tegen deze veranderingen wanneer het eenmaal diep in het voedsel zit. **De zeer lage lemmetbreedte is wezenlijk omdat het mes daardoor gemakkelijk van hoek kan veranderen.**
 
