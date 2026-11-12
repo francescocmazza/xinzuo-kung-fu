@@ -20,6 +20,8 @@ Direct language links:
 - [English](https://francescocmazza.github.io/xinzuo-kung-fu/en/)
 - [Italiano](https://francescocmazza.github.io/xinzuo-kung-fu/it/)
 - [简体中文](https://francescocmazza.github.io/xinzuo-kung-fu/zh-Hans/)
+- [Français — édition intégrale sur GitHub](https://github.com/francescocmazza/xinzuo-kung-fu/blob/main/translations/fr/index.md)
+- [Nederlands — volledige editie op GitHub](https://github.com/francescocmazza/xinzuo-kung-fu/blob/main/translations/nl/index.md)
 
 **[Download the latest edition](https://github.com/francescocmazza/xinzuo-kung-fu/releases/latest)** — PDFs in all active languages plus offline HTML and Markdown, automatically rebuilt after every successful content merge and Pages deployment.
 
@@ -35,11 +37,11 @@ The book is published as a searchable multilingual website with GitHub Pages.
 
 English (`en`) is always available. A non-English language is added automatically to the website and PDF releases as soon as its complete committed translation passes validation. Incomplete languages are skipped and never block languages that are already ready.
 
-Italian (`it`) is currently fully translated. Simplified Chinese (`zh-Hans`) is being regenerated with the new ChatGPT workflow and will become publication-ready automatically as soon as its full translation passes validation. Future left-to-right locales use the same mechanism without editing the publication workflow.
+French (`fr`) and Dutch (`nl`) have complete ChatGPT-translated manuscript editions alongside Italian (`it`) and Simplified Chinese (`zh-Hans`). Their committed translations pass through the same strict freshness and structural checks before website/PDF deployment. The GitHub manuscript links above remain accessible independently of GitHub Actions and PDF publication.
 
 ## English is the source of truth
 
-The master manuscript lives under `content/en/`. Active translations are committed under `translations/it/` and `translations/zh-Hans/`.
+The master manuscript lives under `content/en/`. Active translations are committed under `translations/it/`, `translations/zh-Hans/`, `translations/fr/` and `translations/nl/`.
 
 The repository uses **no translation API and no API credits**. GitHub only calculates which semantic `tx-unit` blocks have changed and writes them to `.translation/queue.json`. Translation is then performed in ChatGPT/Codex using the user's ChatGPT plan.
 
