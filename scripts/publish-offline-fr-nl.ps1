@@ -22,7 +22,7 @@ $root = (& git rev-parse --show-toplevel 2>$null)
 if ($LASTEXITCODE -ne 0 -or -not $root) { throw "Run from inside a clone of xinzuo-kung-fu." }
 Set-Location $root.Trim()
 $repo = (& git remote get-url origin).Trim()
-if ($repo -notmatch "francescocmazza/xinzuo-kung-fu(\\.git)?$") {
+if ($repo -notmatch "francescocmazza/xinzuo-kung-fu(\.git)?$") {
     throw "Unexpected repository origin: $repo"
 }
 $branch = (& git branch --show-current).Trim()
@@ -45,7 +45,7 @@ if ($Action -eq "Apply") {
 }
 if ($Action -eq "Status" -or $Action -eq "Apply") {
     Invoke-Checked py @("-3","-m","pip","install","PyYAML>=6,<7")
-    Invoke-Checked py @("-3","scripts/chatgpt_translate.py","--prepare-queue",".translation/queue.json","--locales","fr","nl")
+    Invoke-Checked py @("-3","scripts/chatgpt_translate.py","--prepare-queue",([System.IO.Path]::Combine($env:TEMP,"xinzuo-fr-nl-queue.json")),"--locales","fr","nl")
     Invoke-Checked py @("-3","scripts/publication_locales.py","--explain")
     Write-Host "The queue reports remaining translations. No PDF publication is attempted while incomplete."
     exit 0
