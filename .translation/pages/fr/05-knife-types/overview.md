@@ -21,7 +21,7 @@ Un talon et un milieu plutôt droits offrent un large contact avec la planche po
 ### Couteau de chef occidental
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/chef.jpg" alt="Complete Xinzuo Western chef's knife"><figcaption>A Xinzuo B46D Western chef's-knife example showing the characteristic curved belly.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/chef.jpg" alt="Complete Xinzuo Western chef's knife"><figcaption>Couteau de chef occidental Xinzuo B46D : ventre caractéristique bien courbe.</figcaption></figure>
 </div>
 
 Le couteau de chef occidental est un polyvalent à ventre courbe continu. Cette courbe facilite balayage, coupe tirée et bascule, notamment lorsque la résistance change dans une coupe de viande, de tissus conjonctifs ou d’aliments variés. Pendant le geste, le point actif suit la courbure, associant progression et pénétration plutôt qu’une simple pression verticale.
@@ -31,7 +31,7 @@ Il convient également très bien aux fruits et légumes : c’est pourquoi il s
 ### Gyuto
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/Gyuto.jpg" alt="Complete Xinzuo gyuto"><figcaption>A Xinzuo gyuto example showing the relatively flat heel and middle, slimmer point and restrained belly typical of the form.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/Gyuto.jpg" alt="Complete Xinzuo gyuto"><figcaption>Gyuto Xinzuo : talon et milieu assez droits, pointe fine et ventre peu marqué.</figcaption></figure>
 </div>
 
 Le gyuto ressemble beaucoup au couteau de chef occidental, mais présente souvent un talon et un milieu plus droits, une pointe plus effilée et un ventre moins continu. Il favorise généralement la coupe poussée linéaire et les longs gestes tirés, tout en permettant de petits changements de direction précis.
@@ -41,7 +41,7 @@ Une moindre courbure favorise moins la bascule progressive qu’un couteau occid
 ### Santoku
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/santoku.jpg" alt="Complete Xinzuo santoku"><figcaption>A Xinzuo santoku example: compact in length but generous in blade height.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/santoku.jpg" alt="Complete Xinzuo santoku"><figcaption>Santoku Xinzuo : longueur compacte et hauteur généreuse.</figcaption></figure>
 </div>
 
 Le santoku est un couteau compact, **particulièrement orienté vers les légumes mais très polyvalent**. Sa lame haute, son talon et son milieu assez droits, ainsi que son avant abaissé, donnent un large contact avec la planche pour la coupe poussée et le hachage presque vertical. Une légère courbe permet aussi de trancher avec maîtrise. La hauteur libère les articulations et fournit une surface de guidage : il est confortable pour légumes, fruits et herbes, mais convient aussi à la viande et au poisson sans os.
@@ -53,7 +53,7 @@ Sa limite principale est la longueur : un fil court demande davantage de passage
 ### Bunka
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/bunka.jpg" alt="Complete Xinzuo bunka"><figcaption>A Xinzuo bunka example with its characteristic angular K-tip.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/bunka.jpg" alt="Complete Xinzuo bunka"><figcaption>Bunka Xinzuo et sa pointe anguleuse en K.</figcaption></figure>
 </div>
 
 Le bunka partage la hauteur compacte et la polyvalence sur planche du santoku, mais se termine par une **pointe en K**, anguleuse. Ce n’est pas seulement une pointe aiguë : cette géométrie place un point de travail très fin bas, près du fil, donc facile à voir et à diriger.
@@ -67,7 +67,7 @@ Ce profil convient surtout **aux légumes et au poisson**, notamment pour les co
 ### Nakiri
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/nakiri.jpg" alt="Complete Xinzuo nakiri"><figcaption>A Xinzuo nakiri example: tall, thin and nearly straight along the cutting edge.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/nakiri.jpg" alt="Complete Xinzuo nakiri"><figcaption>Nakiri Xinzuo : lame haute, fine et presque droite au tranchant.</figcaption></figure>
 </div>
 
 Le nakiri est un couteau à légumes mince, haut et à double biseau, conçu pour un large contact avec la planche. Son fil assez droit rend efficaces coupe poussée et hachage vertical, tandis que sa hauteur laisse la place à la main de guidage et facilite le transfert des légumes préparés.
@@ -83,7 +83,7 @@ Utilisez l’avant rond comme pivot court et contrôlé, sans lui imposer l’am
 ### Couperet chinois
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/cleaver.jpg" alt="Complete Xinzuo Chinese cleaver"><figcaption>A Xinzuo Chinese-cleaver example; the exact specification determines whether it is a fine cutter or a heavier tool.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/cleaver.jpg" alt="Complete Xinzuo Chinese cleaver"><figcaption>Couperet chinois Xinzuo : le modèle exact détermine s’il s’agit d’un trancheur fin ou d’un outil plus lourd.</figcaption></figure>
 </div>
 
 Le couperet chinois est l’une des formes polyvalentes les plus caractéristiques. Sa haute lame rectangulaire permet de trancher, hacher, guider contre les articulations, écraser des aromates et transporter les ingrédients préparés. Masse et épaisseur varient beaucoup ; sa seule silhouette ne prouve jamais qu’il peut couper des os.
@@ -95,7 +95,7 @@ Sur la planche, un couperet chinois fin et polyvalent privilégie coupes poussé
 ### Couperet à os
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/bone-chopper.jpg" alt="Complete Xinzuo bone chopper"><figcaption>A Xinzuo bone-chopper example, built around mass and edge support rather than delicate slicing.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/bone-chopper.jpg" alt="Complete Xinzuo bone chopper"><figcaption>Couperet à os Xinzuo : masse et soutien du fil priment sur la finesse des tranches.</figcaption></figure>
 </div>
 
 Le couperet à os utilise masse, fil bien soutenu et forte section transversale pour des tâches de boucherie où résistance et inertie comptent plus que la finesse de coupe. Les aciers et traitements thermiques adaptés privilégient généralement la ténacité plutôt qu’une dureté extrême : la lame doit absorber les impacts sans céder brusquement.
@@ -109,7 +109,7 @@ Laissez la masse de la lame effectuer l’essentiel du travail. Utilisez une pla
 ### Couteau à découper classique
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/carving.jpg" alt="Complete Xinzuo classic carving knife"><figcaption>A Xinzuo classic carving-knife example with a long, narrow profile.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/carving.jpg" alt="Complete Xinzuo classic carving knife"><figcaption>Couteau à découper classique Xinzuo : profil long et étroit.</figcaption></figure>
 </div>
 
 Plus long et étroit qu’un couteau de chef, le couteau à découper traverse rôti, poitrine de volaille, viande désossée ou gros fruits avec moins de mouvements. Sa faible hauteur réduit la friction et améliore la visibilité. Le geste prévu est un long mouvement tiré, non un sciage court répété.
@@ -119,7 +119,7 @@ Commencez avec autant de fil disponible que possible devant l’aliment, puis ti
 ### Couteau à découper les rôtis
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/roast-carving.jpg" alt="Complete Xinzuo roast carving knife"><figcaption>A Xinzuo roast-carving example with a broader, upswept front.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/roast-carving.jpg" alt="Complete Xinzuo roast carving knife"><figcaption>Couteau à découper les rôtis Xinzuo : avant plus large et relevé.</figcaption></figure>
 </div>
 
 Ce profil conserve un long fil de trancheur, mais présente une courbure nettement relevée vers l’avant. Elle suit le même principe géométrique que le ventre d’un couteau de chef : pendant une traction surtout horizontale, l’angle changeant du fil courbe crée une composante de pénétration progressive au point de contact. Le fil pénètre ainsi les fibres de viande pendant sa progression sans dépendre uniquement d’une pression vers le bas.
@@ -129,7 +129,7 @@ La courbe suit également l’arrondi du rôti et achève la tranche sans à-cou
 ### Couteau à jambon
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/ham.jpg" alt="Complete Xinzuo ham knife"><figcaption>A Xinzuo ham-knife example, extra long and narrow for broad, thin slices.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/ham.jpg" alt="Complete Xinzuo ham knife"><figcaption>Couteau à jambon Xinzuo : lame très longue et étroite pour de larges tranches fines.</figcaption></figure>
 </div>
 
 Le couteau à jambon pousse plus loin le principe du trancheur. Sa lame extrêmement longue et étroite coupe de larges tranches minces avec peu de frottement. Certains modèles fléchissent légèrement pour suivre la pièce ; d’autres sont plus rigides. Il excelle dans les longues coupes tirées, mais reste peu efficace pour hacher ou travailler sur de petits aliments.
@@ -139,7 +139,7 @@ Sa longueur supplémentaire n’apporte un avantage que si le cuisinier l’util
 ### Couteau à sashimi
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/sashimi.jpg" alt="Complete Xinzuo sashimi knife"><figcaption>A Xinzuo long single-bevel sashimi slicer.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/sashimi.jpg" alt="Complete Xinzuo sashimi knife"><figcaption>Long trancheur à sashimi Xinzuo à simple biseau.</figcaption></figure>
 </div>
 
 Les longs trancheurs traditionnels à sashimi utilisent leur longueur pour couper le poisson cru en une seule traction, laissant une surface plus nette que des allers-retours répétés. Les versions traditionnelles sont à simple biseau, généralement adaptées à une main donnée, et s’affûtent autrement que les trancheurs ordinaires à double biseau. Cette géométrie spécialisée peut dévier si l’utilisateur ne la comprend pas.
@@ -149,7 +149,7 @@ Le geste est volontairement calme : posez le talon, tirez le couteau vers vous d
 ### Sakimaru
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/sakimaru.jpg" alt="Complete Xinzuo sakimaru"><figcaption>A Xinzuo sakimaru example with its rounded, sword-influenced point.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/sakimaru.jpg" alt="Complete Xinzuo sakimaru"><figcaption>Sakimaru Xinzuo avec son avant arrondi inspiré du sabre.</figcaption></figure>
 </div>
 
 Le sakimaru appartient à la même famille des longs trancheurs à simple biseau, mais se termine par un avant rond évoquant un sabre. Cela modifie équilibre, apparence et accès à l’avant sans changer sa tâche principale : produire de nettes tranches tirées dans le poisson désossé.
@@ -159,7 +159,7 @@ Cet avant rond perce moins facilement qu’une pointe aiguë de nombreux yanagib
 ### Kiritsuke
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/kiritsuke.jpg" alt="Complete Xinzuo traditional kiritsuke"><figcaption>A Xinzuo traditional single-bevel kiritsuke example with a long edge and angular K-tip.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/kiritsuke.jpg" alt="Complete Xinzuo traditional kiritsuke"><figcaption>Kiritsuke traditionnel Xinzuo : simple biseau, long fil et pointe anguleuse en K.</figcaption></figure>
 </div>
 
 Dans sa forme spécialisée représentée ici, le kiritsuke est un long couteau à simple biseau avec pointe anguleuse, destiné à trancher précisément et à préparer des aliments selon des techniques avancées. La pointe en K pénètre nettement dans les découpes délicates. On peut aussi le guider en allongeant l’index sur le dos vers l’avant pour placer une référence tactile près de la pointe, utile aux incisions peu profondes et aux petits changements de direction.
@@ -173,7 +173,13 @@ Ne confondez pas ce kiritsuke traditionnel à simple biseau avec les kiritsuke-g
 <div class="kb-profile-visual">
   <figure class="kb-image-placeholder-wrap" data-placeholder-id="VIS-SHAPE-BONING-B37TG">
     <div class="kb-image-placeholder" role="img" aria-label="Image placeholder: Xinzuo B37-TG Western boning knife">
-      <div class="kb-image-placeholder__label">IMAGE PLACEHOLDER</div>
+      <div class="kb-image-placeholder__label">IMAGE EN ATTENTE</div>
+      <div class="kb-image-placeholder__title">Couteau à désosser occidental Xinzuo B37-TG</div>
+      <div class="kb-image-placeholder__note">En attente d’une photographie Xinzuo autorisée.</div>
+    </div>
+    <figcaption>VIS-SHAPE-BONING-B37TG : photographie locale autorisée encore indisponible.</figcaption>
+  </figure>
+</div>
 
 Le couteau à désosser occidental est étroit parce que le désossage impose un trajet tridimensionnel changeant sans cesse. Le fil doit entrer près de l’os, suivre les articulations, contourner les courbes, soulever les tissus conjonctifs et changer souvent d’angle. Une lame large résiste à ces changements lorsqu’elle est engagée dans la chair. **La très faible hauteur de lame est fondamentale : elle facilite les variations d’angle.**
 
@@ -184,7 +190,7 @@ Sa principale limite est la polyvalence : peu d’espace pour les articulations,
 ### Honesuki
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/honesuki.jpg" alt="Complete Xinzuo honesuki"><figcaption>A Xinzuo honesuki example with its triangular poultry-boning profile.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/honesuki.jpg" alt="Complete Xinzuo honesuki"><figcaption>Honesuki Xinzuo : profil triangulaire pour désosser les volailles.</figcaption></figure>
 </div>
 
 Le honesuki est un couteau à désosser rigide et triangulaire, principalement utilisé pour la volaille. Sa pointe localise les articulations et suit l’os, tandis que son talon solide sectionne les tissus conjonctifs avec une pression contrôlée.
@@ -194,7 +200,7 @@ Sa longueur compacte et sa pointe marquée peuvent aussi aider dans certaines é
 ### Couteau à fileter
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/fillet.jpg" alt="Complete Xinzuo fillet knife"><figcaption>A Xinzuo Western fillet-knife example, long and narrow enough to follow fish contours.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/fillet.jpg" alt="Complete Xinzuo fillet knife"><figcaption>Couteau à fileter Xinzuo : forme longue et étroite destinée à suivre les contours du poisson.</figcaption></figure>
 </div>
 
 Le couteau à fileter occidental est long, étroit et souvent flexible. Sa faible section lui permet de suivre une cage thoracique, longer la peau et contourner l’anatomie du poisson tout en gaspillant peu de chair. C’est un outil de préparation suivant les formes du poisson avant les coupes de présentation, contrairement au long trancheur rigide à sashimi, surtout conçu pour une dernière traction propre.
@@ -206,7 +212,7 @@ N’utilisez que la flexibilité prévue par le fabricant. Si vous devez forcer 
 ### Deba
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/deba.jpg" alt="Complete Xinzuo deba"><figcaption>A Xinzuo deba example, strong at the heel and tapered toward a more precise front.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/deba.jpg" alt="Complete Xinzuo deba"><figcaption>Deba Xinzuo : talon solide et avant s’amincissant pour gagner en précision.</figcaption></figure>
 </div>
 
 Le deba est un couteau épais et lourd pour la préparation du poisson. Son talon robuste peut travailler certaines articulations et petits os de poisson avec une technique contrôlée, tandis que son avant sert aux séparations fines. Les deba traditionnels sont à simple biseau et adaptés à la main. Leur masse n’en fait pas des couperets universels : gros os de mammifères, torsions et impacts négligents peuvent toujours ébrécher le fil.
@@ -218,7 +224,7 @@ Le deba utilise différentes sections de la même lame pour différentes opérat
 ### Couteau utilitaire
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/utility.jpg" alt="Complete Xinzuo utility knife"><figcaption>A Xinzuo utility-knife example, between a paring knife and a full-size chef's knife.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/utility.jpg" alt="Complete Xinzuo utility knife"><figcaption>Couteau utilitaire Xinzuo : intermédiaire entre couteau d’office et couteau de chef.</figcaption></figure>
 </div>
 
 Le couteau utilitaire se situe entre le couteau d’office et le couteau de chef en taille et en usage. Il est assez long pour fruits, sandwichs, petits légumes, fromage et viande désossée, tout en restant maniable là où une grande lame encombrerait la planche. Son profil étroit réduit la friction, mais offre moins de place aux articulations et de surface de transfert qu’un couteau de chef.
@@ -228,7 +234,7 @@ Il est très utile lorsque beaucoup de tâches dépassent le petit couteau d’o
 ### Couteau d’office courbe
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/paring-curved.jpg" alt="Xinzuo B9H-SG curved paring knife"><figcaption>Xinzuo B9H-SG, used here as the curved paring-knife example.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/paring-curved.jpg" alt="Xinzuo B9H-SG curved paring knife"><figcaption>Xinzuo B9H-SG : exemple de couteau d’office courbe.</figcaption></figure>
 </div>
 
 Le couteau d’office courbe est assez court pour être surtout contrôlé par les doigts. Son importante courbure suit les surfaces arrondies des fruits et légumes pour épluchage, retrait du cœur, élimination de défauts et découpe décorative. Il est particulièrement efficace lorsque l’aliment est tenu en sécurité et que le fil doit suivre une courbe.
@@ -238,7 +244,7 @@ La même courbure limite le contact droit avec la planche. Ne l’utilisez pas c
 ### Couteau d’office droit
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/B30R-SG.jpg" alt="Xinzuo B30R-SG straight paring knife"><figcaption>Xinzuo B30R-SG, used here as the straight paring-knife example.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/B30R-SG.jpg" alt="Xinzuo B30R-SG straight paring knife"><figcaption>Xinzuo B30R-SG : exemple de couteau d’office droit.</figcaption></figure>
 </div>
 
 Le couteau d’office droit pose une plus grande partie de son petit tranchant sur la planche et suit naturellement une coupe directe. Il convient à l’ail, aux échalotes, petits fruits, garnitures et parages minutieux, tout en restant assez compact pour un travail contrôlé en main. Il suit moins naturellement les fruits ronds qu’un couteau courbe, mais se montre plus polyvalent lorsqu’on alterne travail en main et sur planche.
@@ -248,7 +254,7 @@ Dans l’exemple Xinzuo B30R-SG présenté, le profil court et droit facilite le
 ### Couteau à steak
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/steak.jpg" alt="Complete Xinzuo steak knife"><figcaption>A Xinzuo table-size steak-knife example.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/steak.jpg" alt="Complete Xinzuo steak knife"><figcaption>Exemple de couteau à steak Xinzuo au format de table.</figcaption></figure>
 </div>
 
 Le couteau à steak coupe la viande cuite à table ; choisir un fil **dentelé** ou **lisse** modifie l’expérience de dégustation.
@@ -262,7 +268,7 @@ Pour une viande de valeur, la meilleure solution est simple : **utiliser un cout
 ### Couteau à fromage
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/cheese.jpg" alt="Complete Xinzuo cheese knife"><figcaption>A Xinzuo cheese-knife example; different cheese textures still call for different handling.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/cheese.jpg" alt="Complete Xinzuo cheese knife"><figcaption>Couteau à fromage Xinzuo : la texture du fromage détermine le geste.</figcaption></figure>
 </div>
 
 Les couteaux à fromage forment une famille, non un profil universel. Les fromages mous et collants bénéficient d’un faible contact de lame ; une pointe étroite peut portionner et servir ; les fromages durs et affinés réclament davantage de soutien. Ouvertures, évidements et reliefs peuvent réduire l’adhérence, sans la supprimer pour tous les fromages. Choisissez selon texture et dimensions, pas selon le nom générique.
@@ -274,7 +280,7 @@ Commencez par le problème mécanique : le fromage mou colle aux faces larges ; 
 ### Couteau à pain
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/bread.jpg" alt="Complete Xinzuo bread knife"><figcaption>A Xinzuo bread-knife example with a long serrated edge.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/bread.jpg" alt="Complete Xinzuo bread knife"><figcaption>Couteau à pain Xinzuo : long fil dentelé.</figcaption></figure>
 </div>
 
 Les dents du couteau à pain répondent à une difficulté simple : pénétrer une surface résistante et trancher un intérieur tendre **sans l’écraser d’abord**. Autrefois, modes de fabrication, conservation et formes de pain rendaient ce besoin évident, mais le principe reste actuel.
@@ -288,7 +294,7 @@ Effectuez un sciage léger et guidé en laissant travailler les dents. Trop de p
 ### Couteau pour aliments congelés
 
 <div class="kb-profile-visual">
-  <figure><img src="../../assets/images/approved/knife-shapes/frozen-food.jpg" alt="Complete Xinzuo frozen-food knife"><figcaption>A Xinzuo frozen-food-knife example with a coarse scalloped edge.</figcaption></figure>
+  <figure><img src="../../assets/images/approved/knife-shapes/frozen-food.jpg" alt="Complete Xinzuo frozen-food knife"><figcaption>Couteau pour aliments congelés Xinzuo : dents larges et profondes.</figcaption></figure>
 </div>
 
 Un couteau pour aliments congelés utilise de fortes dents grossières pour scier des produits congelés appropriés. Il existe parce que forcer un couteau de chef dur et fin dans un bloc gelé peut ébrécher ou casser la lame. Le travail demeure dangereux et spécialisé : stabilisez l’aliment, éloignez la main libre de la trajectoire et évitez torsion ou choc.
